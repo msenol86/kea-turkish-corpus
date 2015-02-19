@@ -1,0 +1,919 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 3, 701-709, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 3, 701-709, 2011
+
+IPv4’DEN IPv6’YA GEÇİŞ İÇİN AHP MODELİ
+Emel Kızılkaya AYDOĞAN1, M. Yekta SOYLU2, Cevriye GENCER3, Suna ÇETİN4,
+Murat SOYSAL5, Onur BEKTAŞ5, Emre YÜCE5,
+Yusuf ÖZTÜRK5, Yavuz
+5
+6
+GÖKIRMAK , Şeref SAĞIROĞLU
+1
+
+Endüstri Müh. Böl., Müh. Fak., Erciyes Üni., Kayseri, ekaydogan@erciyes.edu.tr
+Kara Harp Okulu, Ankara, mysoylu@yahoo.com
+3
+Endüstri Müh. Böl., Müh. Fak., Gazi Üni., Maltepe, Ankara, ctemel@gazi.edu.tr
+4
+Endüstri Müh. Böl., Müh. Fak., Kırıkkale Üniversitesi, Kırıkkale, sunaozel@gazi.edu.tr
+5
+TÜBİTAK, ULAKBİM, Ankara, onur@ulakbim.gov.tr, emre@ulakbim.gov.tr, yusufoz@ulakbim.gov.tr,
+yavuzg@ulakbim.gov.tr, msoysal@ulakbim.gov.tr.
+6
+Bilgisayar Müh. Böl., Müh. Fak., Gazi Üni., Maltepe, Ankara, ss@gazi.edu.tr.
+2
+
+(Geliş/Received: 02.02.2011; Kabul/Accepted: 18.05.2011)
+ÖZET
+Bu çalışmada, Ulusal IPv6 Protokolü Altyapı Tasarımı ve Geçiş Projesi kapsamında, IPv4’ten IPv6’ya geçişte
+en uygun geçiş stratejisine karar vermede, çok kriterli karar verme metotlarından Analitik Hiyerarşi Proses
+(AHP) yöntemi geçiş mekanizmasının kararlaştırılmasında kullanılmıştır. Bu çalışmanın bu alanda bir ilk
+çalışma olması, geçişe etki edecek olan parametrelerin belirlenmesi, kriter kümelerinin konuya özel olarak ilk
+kez belirlenmesi ve bu probleme uygulanması bu çalışmanın özgün yönleridir. Aynı zamanda, en iyi geçiş
+stratejisinin belirlenmesi için gerekli anketler hazırlanıp uygulanmış; Super Decisions 1.6.0 paket programı
+kullanılarak uygun geçiş mekanizmalarına ait sonuçlar elde edilmiştir. Sunulan bu çalışmanın, ülke kurum ve
+kuruluşlarının IPv6’ya geçişinde en uygun geçiş mekanizmasının belirlenmesinin, ülke kaynaklarının daha etkin
+kullanılmasına, konuyla ilgili geçiş süresini kısaltacağına, geçmek isteyen kurumlara bilimsel bir yaklaşım
+sunmasının ülke geçiş sürecine önemli katkılar sağlayacağı değerlendirilmektedir.
+
+1.GİRİŞ (INTRODUCTION)
+İnternet protokolü (IP), iki cihazın internet üzerinden
+birbiri ile veri iletişimi için kullanıldığı ortak kurallar
+
+bütünü olup IPv4 adıyla da bilinmektedir.
+Standartların belirlendiği 1981 yılından bu yana tüm
+dünyaca kullanılan bir protokol haline gelen IPv4,
+teknolojinin hızla gelişmesi ve kullanıcı sayısı ile
+
+E.K. Aydoğan ve ark.
+
+ihtiyaçların beklentilerin ötesinde artması nedeniyle
+teknik olarak yetersiz kalmaya başlamıştır. Bu
+ihtiyaçtan yola çıkılarak tasarlanmış olan yeni nesil
+internet
+protokolü
+IPv6;
+adres
+kapasitesi,
+dolaşılabilirlik, güvenlik, çoklu dağıtım, servis
+kalitesi ve yeni teknolojilere uyumluluk gibi IPv4 te
+sorun yaratan birçok konuya çözüm getirecek şekilde
+tasarlanmıştır. Yeni teknolojilerle birlikte internete
+bağlanan cihaz sayısının ve çeşitliliğinin artması
+nedeniyle yakın gelecekte çok geniş bir Ip adresi
+kapasitesine ihtiyaç duyulacağı öngörülmesine
+rağmen IPv4 adres kapasitesinin hızla tükenmesi,
+dünya çapında IPv6 ya geçiş çalışmalarının hız
+kazanmasına neden olmuştur. Yapılan çalışma
+kapsamında
+uzman
+gruplarının
+görüşleri
+doğrultusunda IPv4den IPv6 ya geçişte kullanılacak
+alternatif geçiş yöntemleri olarak yalın IPv6, ikili
+yığın, tünelleme, 6to4, ISATAP, Teredo, NAT64
+belirlenmiştir.
+Karar verme kavramı ya da problem çözme; belirli bir
+amaca
+ulaşmak
+için
+değişik
+alternatiflerin
+belirlenmesi ve bunların içersinden en etkilisinin
+seçilmesi şeklinde tanımlanabilir. Bu seçimin
+yapılması için oluşması gereken çeşitli koşullar
+vardır. Bu koşullar; çözülmesi gereken bir sorunun
+veya gerçekleştirilmesi istenen bir amacın bulunması,
+sorunun
+çözülebileceği
+veya
+amacın
+gerçekleştirilebileceği
+ve
+arasında
+seçim
+yapılabileceği birden fazla alternatifin belirlenmesi ve
+belirlenen alternatiflerden en etkin olanının
+seçilebilmesi
+için
+bir
+etkinlik
+ölçütünün
+belirlenmesinin gerekliliğidir. Karar vermede en çok
+kullanılan yöntemlerden biri AHP dir.
+Çok kriterli karar verme metotlarından birisi olan
+AHP yöntemi, Ulusal IPv6 Protokolü Altyapı
+Tasarımı ve Geçiş Projesi kapsamında IPv4’ten
+IPv6’ya geçişte en uygun geçiş mekanizmasının
+belirlenmesinde kullanılmıştır. Bu çalışmada,
+Türkiye’nin yeni nesil internet protokolüne geçişi için
+yeni bir sistem ve bu sistemin uygulanacağı süreç,
+literatür araştırmaları sonucunda ortaya çıkan
+teknikler ile geçiş yapmış ülkelerin pratik
+deneyimlerinden faydalanılarak belirlenmiştir.
+Çalışmanın takip eden bölümlerinde, bu projede
+kullanılan karar destek modeli AHP kısaca
+özetlenmiş, karar vermede önemli olan kriterler ve
+alternatif geçiş yöntemler ile bunların belirlenmesi
+aşamaları
+ile
+kullanılabilecek
+olan
+geçiş
+mekanizmaları tanıtılmıştır. Bölüm 4’de ise çalışma
+kapsamında oluşturulan şebeke yapısı tanıtılmıştır.
+Son bölümde ise çalışma değerlendirilmiştir.
+2. ANALİTİK HİYERARŞİ PROSESİ (ANALYTIC
+HIERARCHY PROCESS)
+AHP, 1970’li yıllarda Saaty tarafından ortaya konmuş
+olan çok kriterli karar verme tekniklerindendir [1-2].
+
+702
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+Geliştirildiğinden bugüne kadar, ekonomi [3-6],
+stratejik planlama [7], performans değerlendirme [89], proje yönetimi ve seçimi [10-13], tedarikçi seçimi
+[14], üretim ve kalite kontrol sistemleri [15-17] gibi
+pek çok alanda farklı karar problemlerine
+uygulanmaya devam etmektedir. AHP’ler, fikirlerin,
+bakış açılarının ve duyguların etkilediği bir karar
+sürecinin sayısallaştırılması gerektiği durumlarda
+alternatifleri önceliklendirmek için nümerik bir ölçüt
+elde etmek amacıyla tasarlanmış olup önceliklere göre
+problemin çözümünün alternatiflerini sıralamak için
+kullanılmaktadırlar.
+AHP modelinin hiyerarşik yapısı, kriterler ve alt
+kriterler açısından kullanıcının problemi sistematik bir
+şekilde gözünde canlandırmasını sağlar. Ayrıca
+kullanıcı kriterlerin ve alternatiflerin önceliklerini
+etkili bir biçimde karşılaştırabilir ve belirleyebilir.
+Sonlu sayıda alternatif içeren karar problemleri
+pratikte sıkça ortaya çıkar. Bu problemleri çözmek
+için kullanılan araçlar çoğunlukla mevcut verinin
+tipine (deterministik, probabilistik veya belirsiz)
+bağlıdır. AHP, sübjektif yargının mantıksal tarzda
+sayısallaştırıldığı ve daha sonra karara ulaşmak için
+kaynak olarak kullanıldığı belirlilik ortamında karar
+almak için önde gelen bir araçtır.
+AHP’nin önemli üstünlükleri aşağıda sıralanmıştır [16]. Bunlar:
+• AHP ile bir hiyerarşi kurularak karar problemleri
+biçimsel (görünümsel) olarak ifade edilir. Bu
+şekilde karmaşık problemler bileşenlerine
+ayrılarak karışıklıkları giderilir ve basit bir yapıya
+kavuşturulur.
+• AHP’de elemanların ikili karşılaştırmaları
+sırasında karar vericinin kişisel hükümleri
+kullanılır. Böylece karar verme sürecinde sadece
+sayısal verilere dayalı çözüm aranmamakta, karar
+verme işlemini yapan kişilerin fikir ve düşünceleri
+de dikkate alınmaktadır.
+• Karar verici, ikili karşılaştırmaları kullanmak
+suretiyle problemin her bir parçasına daha fazla
+yoğunlaşabilir. Bu esnada sadece iki elemanın
+düşünülmesi nedeniyle verilecek hükümler
+basitleşmektedir. Öte yandan hükümleri sayısal
+değer ile ifade etme güçlüğü söz konusu ise sözel
+hükümlerin kullanılması da mümkündür.
+• AHP’de karar verici, hem objektif (kantitatif) ve
+hem de sübjektif (kalitatif) faktörleri beraberce
+dikkate alarak alternatiflerini değerlendirebilir ve
+en uygun alternatifin seçilmesine yönelik karar
+alabilir.
+• Karar vericinin yaptığı ikili karşılaştırmaların
+tutarlılığını (doğruluğunu) test etmek de
+mümkündür. Böylece karar verici, tutarsızlık
+durumunda verdiği hükümleri tekrar ele alarak
+düzeltme imkânına sahiptir.
+• AHP’nin çok yönlü oluşu, onun geniş bir
+uygulama çeşitliliğine sahip olmasını sağlamıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+Genel olarak bir AHP karar destek sisteminin
+uygulama adımları aşağıda verilmiştir. Bunlar:
+I. Hiyerarşinin Oluşturulması
+AHP, karar vericilerin karmaşık problemleri,
+problemin ana hedefi, kriterleri, alt kriterler ve
+alternatifleri arasındaki ilişkiyi gösteren bir hiyerarşik
+yapıda modellemelerine olanak verir. AHP’de, karar
+vericinin amacı doğrultusunda kriterlerin ve ona ait
+olan alt kriterlerin belirlenip, hiyerarşik yapının
+oluşturulması ilk adımdır. AHP’de, öncelikle amaç
+belirlenir ve bu amaç doğrultusunda seçimi etkileyen
+kriterler ortaya konur. Daha sonra kriterler göz önüne
+alınarak potansiyel alternatifler belirlenir. Sonuçta
+karar için hiyerarşik bir yapı oluşturulmuş olur.
+Hiyerarşinin genel yapısı Şekil 1’de verilmektedir.
+
+E.K. Aydoğan ve ark.
+
+hükümlerde bulunur. Bir sonraki düzeyde karar verici,
+her bir kritere katkıda bulunmasına göre her bir karar
+alternatifine yönelik bir tercih ya da başka bir deyişle
+öncelik belirtir.
+Tablo 1. Önem skalası [1] (Priority scale)
+Değer
+
+Tanım
+
+1
+
+Eşit önemli
+
+3
+
+Biraz önemli
+
+5
+
+Fazla önemli
+
+7
+
+Çok fazla
+önemli
+
+9
+
+Aşırı derece
+önemli
+
+2, 4, 6, 8
+
+Ara değerler
+
+Açıklama
+İki kriter de eşit önem sahip
+Tecrübe ve yargı bir kriteri
+diğerine karşı biraz üstün
+kılıyor
+Tecrübe ve yargı bir kriteri
+diğerine karşı oldukça üstün
+kılıyor
+Bir kriter diğerine göre çok
+üstün sayılıyor
+Bir kriterin diğerinden üstün
+olduğunu gösteren kanıt çok
+büyük güvenilirliğe sahiptir.
+İki ardışık yargı arasındaki
+durumlar için
+
+III. Matrislerin Normalizasyonu
+AHP’nin
+sonraki
+aşaması
+normalleştirilmiş
+matrislerin oluşturulmasıdır. Normalleştirilmiş matris,
+her bir sütun değerinin ayrı ayrı ilgili sütun toplamına
+bölünmesi ile elde edilir. Normalleştirilmiş matristen
+hareketle; her bir sıra değerlerinin ortalaması alınır.
+İşte elde edilen bu değerler, her bir kriter için yüzde
+önem ağırlıklarıdır.
+IV. Tutarlılık Kontrolü
+Şekil 1. Hiyerarşinin genel yapısı (General structure of
+hierarchy)
+II. İkili Karşılaştırma Matrislerinin Oluşturulması
+Hiyerarşik yapı oluşturulduktan sonra her bir kriter
+temelinde alternatifler ile kriterlerin kendi aralarında
+karşılaştırılması için ikili karşılaştırma karar matrisleri
+oluşturulur. Bu matrislerin oluşturulmasında Saaty
+tarafından önerilen ve Tablo 1’de verilen 1-9 önem
+skalası aralığı kullanılır (Tablo 1) [1]. Ara değerler ise
+karar vericilerin iki değer arasında kararsız kaldığı
+durumlarda kullanılır. Örneğin 1 ve 3 değerleri
+arasında tereddüt eden bir karar verici 2 ara değerini
+kullanabilirler.
+İkili karşılaştırmalar, AHP’nin en önemli aşamasıdır.
+İkili karşılaştırmaları elde etmek için göreceli veya
+mutlak ölçümler kullanılır. Bu skaladan elde edilen
+bilgilere göre AHP’de yargılar bir matrise
+dönüştürülür. aij, ith özellik ile jth özelliğin ikili
+karşılaştırma değeri olarak gösterilecek olursa,
+aji=1/aij eşitliğinden elde edilir. Bu özelliğe, karşılık
+olma özelliği denir.
+
+Karar vericinin kriterler arasında kıyaslama yaparken
+tutarlı davranıp davranmadığını ölçmek için Tutarlılık
+Oranı’nın
+(TO)
+hesaplanması
+gerekir.
+Bu
+hesaplamada n kriter sayısına bağlı olarak Tablo 2’ de
+verilen
+rastgele
+indeks
+sayıları
+kullanılır.
+Hesaplamalar sonucunda bulunan değer 0,10’un
+altında çıkmışsa oluşturulan karşılaştırma matrisinin
+tutarlı olduğu sonucuna varılır. Aksi durumda karar
+matrisi tekrar düzenlenmelidir.
+Tablo 2. Rassallık indeksi (Rİ) (Randomness index)
+n
+1
+2
+3
+4
+5
+6
+7
+8
+
+Rİ
+0
+0
+0,58
+0,90
+1,12
+1,24
+1,32
+1,41
+
+n
+9
+10
+11
+12
+13
+14
+15
+
+Rİ
+1,45
+1,49
+1,51
+1,48
+1,56
+1,57
+1,59
+
+AHP’de karar verici, genel amaca ulaşmaya yaptığı
+katkıya göre her bir kriterin göreceli önemi hakkında
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+703
+
+E.K. Aydoğan ve ark.
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+V. Tutarlılık oranının (TO) hesaplanması
+
+aşağıda başlıklar altında verilmiştir.
+
+TO hesaplanması aşağıdaki adımlar dikkate alınarak
+hesaplanır. Bunlar:
+
+i. Performans Kriteri
+
+Adım 1: İkili karşılaştırmalar matrisi ile buna yönelik
+öncelik vektörü çarpılır. Bu şekilde elde
+edilen vektöre ağırlıklandırılmış toplam
+vektör adı verilmektedir.
+Adım 2: Adım 1’de elde edilen ağırlıklandırılmış
+toplam vektörünün her bir elemanı, buna
+karşılık gelen öncelik değerine bölünür.
+Adım 3: Adım 2’de elde edilen değerlerin aritmetik
+ortalamaları tespit edilir. Bu ortalama değere
+maksimum özdeğer denir ve λmax simgesi
+ile gösterilir.
+Adım 4: Aşağıdaki formül kullanılarak tutarlılık
+indeksi (Tİ) hesap edilir.
+Tİ = (λmax - n) / (n - 1)
+(1)
+ifadede n = karşılaştırılan elemanların sayısı
+Adım 5: TO hesap edilir. TO’nun hesabında aşağıdaki
+formül kullanılır:
+TO = Tİ / Rİ
+(2)
+VI. Sonucun Elde Edilmesi
+AHP’nin son adımı kriterlerin önem ağırlıkları ile
+alternatiflerin önem ağırlıklarının çarpımı ve her bir
+alternatife ait öncelik değerinin bulunmasıdır. Bu
+değerlerin toplamı 1’e eşittir. En yüksek değeri alan
+alternatif, karar problemi için en iyi alternatiftir.
+3.
+
+KRİTER
+VE
+ALTERNATİF
+GEÇİŞ
+YÖNTEMLERİNİN
+BELİRLENMESİ
+(DETERMINATION
+OF
+CRITERIAN
+AND
+ALTERNATIVE TRANSITION STRATEGY)
+
+Ulusal IPv6 Protokolü Altyapı Tasarımı ve Geçişi
+Projesi kapsamında oluşturulan 20 kişilik uzmanlar
+grubunun görüşleri, hazırlanan test yatağından elde
+edilen veriler ve literatür araştırması dikkate alınarak;
+4 adet ana kriter grubu altında toplanan 28 adet alt
+kriter ve 7 adet alternatif geçiş yöntemini içeren AHP
+modeli geliştirilmiştir [18].
+Performans, çalışılabilirlik, yönetilebilirlik ve
+güvenlik ana kriterler olarak belirlenmiştir. Bu
+kriterler incelendiğinde, farklı değerlendirme kriterleri
+olduğu ve bu kriterlere göre en uygun geçiş
+mekanizması seçiminin bir karar problemi olduğu
+görülmektedir.
+Belirlenen ana kriterlere bağlı alt kriterler ve alternatif
+geçiş yöntemleri aşağıda verilmiştir. Bazı kelimelerin
+Türkçe karşılıkları tam olarak verilemediği için
+ingilizceleri verilmiştir.
+3.1. Alt Kriterler (Sub Criterian)
+Bu çalışma çerçevesinde belirlenen alt kriterler
+
+704
+
+Performans ana kriterine bağlı beş adet alt kriter
+belirlenmiş olup; aşağıda tanımları verilmiştir.
+• Throughput: Belli bir zaman diliminde bir uçtan
+bir uca başarı ile iletilen trafik miktarıdır.
+• Round Trip Time (RTT): Bir paketin kaynaktan
+hedefe gidip cevabının tekrar kaynağa dönmesi
+esnasında geçen süredir.
+• CPU Kullanımı: Kaynak, hedef ve aradaki
+cihazlarda ölçülen CPU kullanımı miktarı.
+• Jitter: İki istemci arasında ölçülen ortalama RTT
+değerindeki değişim miktarıdır.
+• Paket Kaybı Oranı: Bir uçtan diğer uca
+iletilemeyen paketlerin tüm paket miktarına
+oranını ifade etmektedir.
+ii. Çalışılabilirlik Kriteri
+Çalışılabilirlik ana kriterine bağlı yedi adet alt kriter
+belirlenmiş olup; aşağıda tanımları verilmiştir.
+• IPSEC Desteği: IPSEC desteğinin olması ve
+çalışması durumu
+• Çoklu Gönderim Desteği (Any Source Multicast):
+Çoklu gönderim ASM desteğinin olması ve
+çalışması durumu.
+• Çoklu Gönderim Desteği (Source Specific
+Multicast): Çoklu gönderim SSM desteğinin
+olması ve çalışması durumu.
+• Trafik Önceliklendirme (QoS) Desteği: Trafik
+önceliklendirme desteğinin olması ve çalışması
+durumu.
+• Gezgin IPv6 Desteği: Gezgin IPv6 desteğinin
+olması ve çalışması durumu.
+• E2E Bağlantı Sağlama: IPv6 üzerinden iletişim
+kuran iki düğüm arasındaki trağin uçtan uca
+kesintisiz gidebilmesi.
+• Ek Başlık Desteği: Kullanılan geçiş yönteminin ek
+başlık desteği olması ve çalışması durumu.
+iii. Yönetilebilirlik kriteri
+Yönetilebilirlik ana kriterine bağlı dört adet alt kriter
+belirlenmiş olup; aşağıda tanımları verilmiştir.
+• IPv6 Paket Debug: IPv6 başlık bilgisi (ek başlık
+dahil) ile ilgili debug verebilme.
+• Trafiğin Sarmalanmış Olması: Aynı protokol veya
+başka protokol içinde IP başlık bilgisinin herhangi
+bir kısmının payload içinde yer alması (IPSec
+dahil değil).
+• Verilen Adreslerin Sürekli Olması: Bazı geçiş
+yöntemlerinde (6to4, TEREDO vb.) özel
+adresleme kullanılıyor, yalın IPv6 ya geçince
+adresler değişecektir. Adreslemenin geçiş süreci
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+sonunda devamlı olması.
+• Elle Ayarlama Gereksinimi: Geçiş yöntemi
+kullanıldığında elle yapılması gereken ayar
+miktarı, LAN yönlendirici desteği zorunluluğunu
+ve her cihaz için ayrı ayar ihtiyacını içermektedir.
+iv. Güvenlik kriteri
+Güvenlik ana kriterine bağlı oniki adet alt kriter
+belirlenmiş olup; aşağıda tanımları verilmiştir.
+• Filtre Yazılabilme: Geçiş yönteminde kullanılan
+ağ yapısı göz önünde bulundurulduğunda ağ giriş
+ve çıkışlarında firewall kuralı ve erişim kontrol
+listesi yazabilme kolaylığı.
+• Ortadaki Adam Saldırısına Yatkınlık: Saldırganın
+geçiş yönteminde kullanılan bir cihazın sahtesi
+gibi davranıp trafiği kendi üzerinden geçmesini
+sağlayabilmesi.
+• Paket Koklama Saldırısına Yatkınlık: Kullanılan
+geçiş yönteminin saldırganın ağdaki
+paketleri dinlemesini kolaylaştırmaya yönelik
+etkisi.
+• Solucan Dağılımına Yatkınlık: Solucan ağdaki bir
+cihaza bulaştığında, geçiş yönteminin bu solucanın
+ağdaki dağılımına ve dağılım hızına etkisi.
+• Keşif (Reconnaissance) Saldırısına Yatkınlık:
+Kullanılan geçiş yönteminin dış ya da iç ağdan
+kullanıcıların
+ağ
+yapısının
+keşfedilmesini
+kolaylaştırmaya yönelik etkisi.
+• Derin Paket İnceleme Yapılabilirliği: Ağ trafiği
+paketlerinin incelenmesi konusunda geçiş
+yönteminin paket yapısını değiştirerek yol açtığı
+hesaplama yükünü gösterir parametre.
+• Parçalanmış Paket (Fragmentation) Saldırısına
+Yatkınlık: IPv4’den farklı olarak, IPv6 da
+parçalanmış paket uygulaması sadece düğümler
+tarafından yapılmaktadır. Bu yöntemi kullanarak
+kendisini saklayan saldırganların tespiti ancak yol
+üstündeki güvenlik uygulamalarında parçaların
+birleştirilmesi ve bütünün analizi ile mümkündür.
+Kullanılan geçiş yönteminin bu saldırı türüne
+yatkınlığı.
+• DoS Saldırısına Yatkınlık: Geçiş yönteminde
+kullanılan cihazların, çok sayıda paket gönderme,
+kaynak tüketim, sahte IP adresi kullanımı, sahte
+yönlendirici olabilme vb. saldırılarla servis dışı
+bırakılabilirliği.
+• HA (Home Agent) ve MN (Mobile Node) İletişim
+Saldırısına Yatkınlık: Gezgin IPv6 kullanılan
+ağlarda HA ve MN arasındaki HA keşfi ve Misafir
+Ağ öneki anonsu mesajlarını tehdit eden
+saldırıların farklı geçiş yöntemleri üzerindeki
+tehdit seviyesini gösterir.
+• Bağlama Güncesi Temelli Saldırılara Yatkınlık:
+Gezgin IPv6 kullanılan ağlarda bağlama güncesi
+(Binding Update, BU), Gezgin Düğümün (Mobile
+Node, MN) misafir olduğu ağ ve bu ağda
+kullandığı adres ile ilgili bilgileri Ev Ajanı (Home
+Agent,HA) ile paylaşması ve bu bilginin MN’nin
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+E.K. Aydoğan ve ark.
+
+iletişimde
+olduğu
+diğer
+kullanıcılara
+(Correspondent Node, CN) bildirilmesinde
+kullanılır. Bu parametre BU mesajlarını tehdit
+eden saldırıların farklı geçiş yöntemleri üzerindeki
+tehdit seviyesini gösterir.
+• Yönlendirme Başlığı Tabanlı Saldırılarına
+Yatkınlık: Yönlendirme başlığı, paketi gönderen
+düğümler tarafından ağ üzerinde izlenecek yolun
+belirlenmesi amacıyla kullanılmaktadır. IPv6
+dolaşılabilirliğin uygulanmasında temel bir faktör
+olan bu başlığı tehdit eden saldırıların farklı geçiş
+yöntemleri üzerindeki tehdit seviyesini gösterir.
+• Alıcı ve Gönderici Tabanlı (Receiver and Sender
+Based) Saldırılara Yatkınlık: Çoklu gönderim
+uygulamasında gönderici (sender) ağ elemanları
+ve alıcı
+(receiver) bileşenlerine yönelik
+saldırıların farklı geçiş yöntemleri üzerindeki
+tehdit seviyesini gösterir.
+3.2.
+
+Alternatif
+
+Geçiş
+
+Yöntemleri
+
+(Alternative
+
+Transition Methods):
+
+Ulusal IPv6 Protokolü Altyapı Tasarımı ve Geçişi
+Projesi kapsamında yedi adet alternatif geçiş
+mekanizması belirlenmiş ve tanımları aşağıda kısaca
+özetlenmiştir. Bu metotlara ait detaylı bilgilere, IETF
+(Internet Engineering Task Force) bünyesinde
+bulunan çalışma gruplarının geliştirdiği RFC’lere
+(Requests for Comments) başvurulmalıdır.
+• Yalın IPv6: Ağ cihazları iletişimde sadece IPv6
+protokolünü kullanmaktadır.
+• İkili Yığın: Ağ cihazları iletişimde hem IPv4 hem
+de IPv6 protokolünü kullanmaktadır. Cihazlara
+IPv6 erişimi doğrudan sağlanmaktadır.
+• Elle Ayarlanmış Tünelleme: Ağın bir bölümünde
+cihazlar arasında IPv6 paketlerinin IPv4
+paketlerine veya IPv4 paketlerinin IPv6
+paketlerine sarmalanarak iletildiği statik bir tünel
+yer almaktadır..
+Doğrudan
+IPv6
+erişimi
+olmayan
+• 6to4:
+yönlendirilebilir IPv4 adresine sahip cihazların,
+IPv6 paketlerini IPv4 paketlerine sarmalayarak
+IPv6 ağına erişimini sağlayan otomatik tünelleme
+yöntemidir.
+• ISATAP: IPv6 paketlerinin IPv4 paketlerine
+sarmalanarak iletildiği otomatik tünelleme
+yöntemidir. IPv4 ağı üzerinde ISATAP sunucusu
+kullanılarak sanal bir IPv6 ağı oluşturulmaktadır.
+• Teredo: NAT arkasındaki cihazların IPv6 ağına
+bağlanmaları için tasarlanmış otomatik tünelleme
+yöntemidir. IPv6 paketleri IPv4 UDP paketlerine
+sarmalanarak iletilmektedir.
+• NAT64: Sadece IPv6 konuşan cihazların paket
+bazında çeviri ile sadece IPv4 konuşan istemciler
+ile iletişimini sağlayan yöntemdir.
+4.
+
+ŞEBEKE YAPISININ OLUŞTURULMASI
+(ESTABLISING NETWORK STRUCTURE)
+
+705
+
+E.K. Aydoğan ve ark.
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+En uygun geçiş mekanizması seçim probleminde
+amaç, kurum ve kuruluşları için istek ve ihtiyaçlarını
+en iyi şekilde karşılayacak olan en uygun geçiş
+mekanizmasının seçilmesidir. Bir diğer anlamda da
+belirlenen kriterleri en iyi şekilde sağlayacak olan
+geçiş
+mekanizmasının
+seçilmesidir.
+Geçiş
+mekanizması seçiminde AHP şebeke yapısı Şekil 2’de
+verilmiştir.
+Şekil 2’de verilen şebeke yapısı, uzman görüşleri ve
+literatür
+araştırmalarından
+faydalanılarak
+oluşturulmuş; ikili karşılaştırmalar yapılmış ve
+kriterlerin öz vektör değerleri veya diğer bir deyişle
+etki değerleri hesaplanmıştır.
+İkili karşılaştırma matrisleri, IPv4’ten IPv6’ya geçiş
+konusunda bilgi donanımı yüksek olan uzmanlar
+grubuna anket uygulanarak elde edilmiştir. Anket
+sonuçlarının daha tutarlı ve doğru olması için,
+anketler bire bir görüşmeler yapılarak doldurulmuştur.
+Anketler yapılmadan önce değerlendirmenin nasıl
+yapılacağı, değerlendirme skalası, kriterler ve
+alternatifler hakkında ayrıntılı bilgi verilmiştir.
+Anketlerin değerlendirilmesinde Super Decisions
+1.6.0 paket programı kullanılmıştır.
+
+Şekil 3. En iyi geçiş stratejisi amacının ana kriterlere
+göre anketleri ve tutarlılık değerleri (Surveys
+and consistency index of the most suitable transition
+method with respect to main criterion)
+
+Super Decisions paket programında, tüm kriterler ve
+alternatifler tanımlanıp, kriterlerin birbirleriyle ve her
+bir kriter bazında da alternatiflerin birbirleriyle
+karşılaştırılması
+yapıldıktan,
+kriterlerin
+ve
+alternatiflerin göreceli önem değerleri belirlendikten,
+her bir ikili karşılaştırma matrisine ilişkin TO’da
+sağlandıktan sonra, belirlenen amacı en iyi ve en
+uygun şekilde gerçekleyecek alternatifin seçilmesine
+geçilir.
+Super Decisions paket programı ile elde edilen; ana
+kriterlere göre anket ve tutarlılık değerleri Şekil 3’de,
+performans ana kriterine ait alt kriterlerin anket ve
+tutarlılık değerleri Şekil 4’de, performans ana
+kriterinin altında yer alan throughput alt kriterinin
+alternatiflere göre anket ve tutarlılık değerleri Şekil
+5’de, çalışılabilirlik ana kriterinin altında yer alan
+ASM alt kriterinin alternatiflere göre anket ve
+tutarlılık değerleri Şekil 6’da, yönetilebilirlik ana
+kriterinin altında yer alan verilen adresin sürekli
+olması alt kriterinin alternatiflere göre anket ve
+tutarlılık değerleri Şekil 7’de, hesaplama sonucu elde
+edilen alternatiflerin ağırlıkları Şekil 8’de verilmiştir.
+
+Şekil 4. Performans ana kriterine ait alt kriterlere göre
+anket ve tutarlılık değerleri (Surveys and
+consistency index of the sub-criterion of performance )
+
+Şekil 5. Throughput alt kriterinin alternatiflere göre
+anketleri ve tutarlılık değerleri (Surveys and
+consistency index of throughput sub-criteria with respect
+to the alternatives)
+
+706
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Şekil 2. En uygun geçiş mekanizmasının seçimine yönelik olarak oluşturulan ağ modeli (Network model with respect to the selection of the best transition mechanism)
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+E.K. Aydoğan ve ark.
+
+707
+
+E.K. Aydoğan ve ark.
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+Şekil 6. ASM alt kriterinin alternatiflere göre
+anketleri ve tutarlılık değerleri (Surveys and
+consistency index of ASM sub- criteria with respect to
+the alternatives)
+
+Şekil 7. Verilen adresin sürekli olması alt kriterinin
+alternatiflere göre anketleri ve tutarlılık
+değerleri
+(Surveys and consistency index of
+continuity of the given address sub-criteria with respect
+to the alternatives)
+
+Şekil 3’deki ana kriter anketlerine ait tutarlılık
+değerleri incelendiğinde tutarlı olduğu; Şekil 4’deki
+performans ana kriterine ait alt kriterlerin tutarlılık
+değerleri incelendiğinde tutarlı olduğu; Şekil 5’deki
+performans ana kriterinin alt kriteri olan throughput
+kriterinin alternatiflere göre tutarlılık değerleri
+incelendiğinde tutarlı olduğu, Şekil 6’daki
+çalışılabilirlik ana kriterinin alt kriteri olan ASM
+kriterini alternatiflere göre tutarlılık değerleri
+incelendiğinde tutarlı olduğu, Şekil 7’deki
+yönetilebilirlik ana kriterinin altında yer alan verilen
+adresin sürekli olması alt kriterinin alternatiflere göre
+tutarlılık değerleri incelendiğinde tutarlı olduğu
+görülmektedir. Şekil 8’deki geçiş stratejilerinin ağırlık
+değerleri incelendiğinde ise 0,21488 ağırlık değeri ile
+Yalın IPV6’nın en uygun geçiş stratejisi olduğu
+belirlenmiştir.
+5. SONUÇ (CONCLUSION)
+Bu
+çalışmada;
+karar
+destek
+sistemlerinin
+oluşturabilmesi için önemli olan 4 ana kriter, 28 alt
+kriter ve 7 alternatif geçiş yöntemi, literatür
+araştırması, test yatağından elde edilen veriler ile
+birlikte, uzman görüşleri de dikkate alınarak yapaılan
+kapsamlı bir değerlendirme sonucunda belirlenmiştir.
+Çok kriterli karar verme metotlarından biri olan AHP
+yöntemi, IPv4’ten IPv6’ya geçişte en uygun geçiş
+stratejisine karar vermede uygulanmıştır. Sonuçların
+daha
+tutarlı
+olması
+amacıyla
+öncelikle
+değerlendirmenin nasıl yapılacağı, değerlendirme
+skalası, kriterler ve alternatifler hakkında uzmanlar
+gurubuna öncelikle ayrıntılı bilgi verilmiş ve bu
+uzman
+görüşleri
+dikkate
+alınarak
+sistem
+değerlendirlmesi yapılmıştır. Çalışmada hazırlanan
+anketler, uzmanlar ile birebir görüşmeler yapılarak
+uygulanmıştır. Anketlerin değerlendirilmesinde Super
+Decisions paket programı kullanılmıştır. Super
+Decisions paket programı ile anketlerden elde edilen
+verilerin gerek ana kriterler gerekse alt kriterler
+açısından tutarlı olduğu görülmüştür. Ayrıca alternatif
+geçiş stratejilerinin ağırlıkları belirlenerek en iyi geçiş
+stratejisinin “Yalın IPv6” olduğu belirlenmiştir.
+Sonuç olarak, bu çalışma kapsamında belirlenen
+kriterlerin ve önerilen yapının gelecekte yapılacak
+çalışmaların altyapısını oluşturacağı, farklı çok kriterli
+karar verme yöntemleri ile entegre edilerek
+kullanılabileceği, en önemlisi bu alanda yapılacak
+olan
+farklı
+çalışmaların
+önünü
+açacağı
+değerlendirilmektedir.
+6. TEŞEKKÜR (ACKNOWLEDGEMENT)
+
+Şekil
+
+8.
+
+Alternatiflerin
+alternatives)
+
+708
+
+Ağırlıkları
+
+(Weights
+
+of
+
+Bu çalışma, TÜBİTAK Kamu Kurumları Araştırma
+ve Geliştirme (KAMAG) Projelerini Destekleme
+Programı çerçevesinde desteklenmiştir. Bu projeyi
+destekleyen
+TÜBİTAK-KAMAG
+Programı
+Başkanlığına maddi katkılarından dolayı ve Müşteri
+Kamu Kurumu olan Bilgi Teknolojileri ve İletişim
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+IPv4’den IPv6’ya Geçiş İçin AHP Modeli
+
+Kurumu’na ise bu çalışmaya verdikleri önem ve
+desteklerinden dolayı şükranlarımızı sunarız.
+7. KAYNAKLAR (REFERENCES)
+1. Saaty, T.L., The Analytic Hierarchy Process.
+New York, NY: McGraw-Hill; 1980.
+2. Saaty, T. L., “That is not the analytic hierarchy
+process: what the AHP is and what it is not”, J.
+Multi-Crit Decis. Anal., 6:324–235, 1987.
+3. Angels, D.I., Lee, C.Y., “Strategic investment
+analysis using activity based costing concepts and
+analytic
+hierarchy
+process
+techniques”,
+International Journal of Production Research,
+34 (5), 1331–1345, 1996.
+4. Blair A.R., Nachtmann R., Saaty, T.L., Whitaker,
+R., “Forecasting the resurgence of the US
+economy in 2001: An expert judgement
+approach”, Socio- Economic Planning Sciences,
+36 (2), 77–91, 2002.
+5. Byun, D.H., “The AHP approach for selecting an
+automobile purchase model”, Information and
+Management, 38 (5), 289–297, 2001.
+6. Cagno, E., Caron, F., Perego,F., “Multi-criteria
+assessment of the probability of winning in
+competitive bidding process”, International
+Journal of Production Management, 19, 313–
+324, 2001.
+7. Arbel,A., .E. Orger, Y.E., “An application of
+AHP to bank strategic planning: The merger and
+acquisitions process”, European Journal of
+Operational Research, 48 (1), 27–37, 1990.
+8. Arbel, A., Seidmann, A., “Performance evaluation
+of FMS, IEEE Transactions on Systems”, Man
+and Cybernetics, 14 (4), 606–617, 1986.
+9. Bitici, U.S., Suwignjo, P., Carrie, A.S., “Strategy
+management through quantitative modeling of
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+E.K. Aydoğan ve ark.
+
+performance measurement system”, International
+Journal of Production Economics, 69 (1), 15–
+22, 2001.
+10. Ahire, S.L., Rana,D.S., “Selection of TQM pilot
+projects
+using
+an
+MCDM
+approach”,
+International Journal of Quality & Reliability
+Management, 12 (1), 61–81, 1995.
+11. Al Harbi, K.M., “Application of AHP in project
+management”, International Journal of Project
+Management, 19 (4),19–27, 2001.
+12. Alidi, A.S., “Use of analytic hierarchy process to
+measure the initial viability of industrial projects”,
+International Journal of Project Management,
+14 (4), 205–208, 1996.
+13. Al Khalil, M.I., “Selecting the appropriate project
+delivery method using AHP”, International
+Journal of Project Management, 20, 469–474,
+2002.
+14. Akarte, M.M., Surendra, N.V., Ravi, B., Rangaraj,
+N., “Web based casting supplier evaluation using
+analytic hierarchy process”, Journal of the
+Operational Research Society, 52 (5), 511–522,
+2001.
+15. Andijani, A.A., “A multi-criterion approach to
+Kanban allocations”, Omega, 26 (4), 483–493,
+1998.
+16. Andijani, A.A., Anwarul, M., “Manufacturing
+blocking discipline: A multi-criterion approach for
+buffer allocations”, International Journal of
+Production Economics, 51 (3), 155–163, 1997.
+17. Badri, M., “Combining the AHP and GP model
+for quality control systems”, International
+Journal of Production Economics, 72 (1), 27–
+40, 2001.
+18. Ulusal IPv6 Protokolü Altyapı Tasarımı ve Geçiş
+Projesi, TÜBİTAK-KAMAG 108G100, Dönem 2
+Raporu, Haziran 2010.
+
+709
+
+

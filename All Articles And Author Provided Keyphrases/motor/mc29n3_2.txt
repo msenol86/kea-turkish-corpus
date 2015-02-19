@@ -1,0 +1,2019 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 3, 605-615, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 3, 605-615, 2014
+
+OTO CAM TEMPERLEME İŞLEMİNDE ISITMA VE SOĞUTMA
+SICAKLIKLARININ ANİ SOĞUTMA SÜRESİNE VE
+PARÇACIK SAYISINA ETKİSİ
+Mehmet AKÇAY*, Yakup SEKMEN**, Mustafa GÖLCÜ*
+*
+
+Pamukkale Üniversitesi Teknoloji Fakültesi Otomotiv Mühendisliği Bölümü, DENİZLİ/TÜRKİYE
+Karabük Üniversitesi Mühendislik Fakültesi Otomotiv Mühendisliği Bölümü, KARABÜK/TÜRKİYE
+makcay@pau.edu.tr, ysekmen@yahoo.com, mgolcu@yahoo.com
+
+**
+
+(Geliş/Received: 19.09.2013; Kabul/Accepted: 10.01.2014)
+ÖZET
+Cam temperleme işleminde, ısıtma ve ani soğutma aşamalarının hassas bir şekilde kontrol edilmesi ve
+uygulanması, temper kalitesi açısından oldukça önemlidir. Bu çalışmada; özel olarak tasarlanmış prototip cam
+temperleme ünitesinde oto cam temperleme işlemi gerçekleştirilmiş, ısıtma ve soğutma sıcaklıklarına göre ani
+soğutma süresi ve parçacık sayısındaki değişim incelenmiştir. Standartların dışına çıkılmadan, cam temperleme
+sürecindeki enerji tüketimini minimum seviyede tutulabilmek için uygulanması gereken temperleme şartlarının
+belirlenmesi amaçlanmıştır. Üç farklı ortalama yüzey sıcaklığına (Th=620, 650 ve 680°C) kadar ısıtılan camlar,
+daha sonra dört farklı ortalama yüzey sıcaklığına (Tc=70, 250, 300 ve 400°C) düşünceye kadar ani olarak
+soğutulmuştur. Nozul ile cam yüzeyi arasındaki mesafe H, nozul eksenleri arasındaki mesafe S olmak üzere;
+2≤H/D≤8, S/D=4 ve Reynolds sayısı Re=20000 alınmıştır. Yapılan çalışmaya göre; camın ısıtma sıcaklığının
+yüksek olması, parçacık sayısının da yüksek olmasına neden olurken, soğutma sıcaklığının yüksek olması ise
+parçacık sayısının düşük olmasına neden olmuştur. Soğutma sıcaklıkları Tc=70, 250 ve 300°C için ani soğutma
+süreleri arasında oldukça yüksek bir fark olmasına rağmen, parçacık sayıları arasındaki farkın düşük olduğu
+görülmüştür.
+M. Akçay ve ark.
+
+1. GİRİŞ (INTRODUCTION)
+Günümüz koşulları, fertleri, işletmeleri ve ülkeleri
+ihtiyaçlarını en ekonomik ve verimli şekilde
+karşılamaya zorlamaktadır. Tasarruf amacıyla mevcut
+sistemlerin işletme parametreleri optimize edilerek
+enerji tüketimleri azaltılmaya veya aynı enerji ile daha
+fazla üretim yapılmaya çalışılmaktadır. Bu amaçla,
+cam temperleme sürecinde de temper kalitesine etki
+eden fırın sıcaklığı, soğutma sıcaklığı, nozul dizilişi,
+Reynolds sayısı, nozul eksenleri arası mesafe, camnozul arası mesafe gibi parametrelerin optimize
+edilmesi gerekmektedir. Birçok endüstriyel alanda
+şeffaflığı ve estetik görünüşünden dolayı yaygın bir
+şekilde kullanılan cam, esneme kabiliyetinden yoksun
+ve son derece kırılgan bir malzemedir [1,2]. Cam
+malzemesinin basınç, darbe ve ısıya karşı dayanımını
+artırmak için “temperleme” denilen bir takım ısıl
+işlemler
+uygulanmaktadır
+[3].
+Temperleme,
+materyalin tavlama sıcaklığının üzerinde ısıtılması ve
+daha sonra hızlı bir şekilde soğutulması işlemine
+denilmektedir [4].
+Temperleme işlemi ile cam yüzeyinde kalıcı basma
+gerilmeleri oluşturularak dayanımının artırılması
+sağlanmaktadır [1]. Temperli cama dayanımı veren
+yüzeydeki basma gerilmesidir [5]. Normal bir camın
+mukavemeti, temperleme işlemi sonucunda yaklaşık
+olarak 4-5 kat artmaktadır [5,6]. Temperleme işlemi
+cam için yapılan son işlemdir ve temperli camın
+üzerinde herhangi bir delme, kesme vb. işlemler
+yapılamamaktadır.
+Temperli
+camlar
+kolay
+kırılmamakta, kırıldığında ise kesici kenarları
+olmayan, insanlara daha az zarar verecek küçük
+parçalara ayrılmaktadırlar [7, 8].
+Temperli camlar, otomobillerde, trenlerde, uçaklarda,
+gemilerde, mimari yapılarda ve çeşitli diğer
+uygulamalarda kullanılmaktadır [4, 9]. Temperli
+camın kalitesi, büyük ölçüde temperleme işlemi
+süresince camdan transfer edilen ısıya bağlıdır ve bu
+işlem de çarpan hava jeti dizileri tarafından
+gerçekleştirilmektedir [10]. Temperleme sürecinde,
+camın yapısındaki kalıcı gerilmeler ani soğutma
+aşamasında
+oluşturulmaktadır.
+Temperli
+cam
+içerisindeki kalıcı gerilmelerin üniform olmayan
+dağılımı, camda temper lekelerinin, göz kamaştırıcı
+parıltıların ve istenmeyen parçacık yapılarının
+oluşumuna neden olabilmektedir [11]. Bu nedenle
+cam temperleme sürecinde, ısıtma aşamasının yanında
+ani soğutma aşamasının da önemle takip edilmesi
+gerekmektedir.
+Konuyla ilgili yapılan çalışmalar incelendiğinde;
+Gölcü vd. (2012), yumuşama noktasına kadar ısıtılan
+farklı
+büyüklüklerdeki
+camların,
+karşılıklı
+yerleştirilmiş dairesel hava jetleri ile ani olarak
+soğutulması işleminde meydana gelen ısı transferi
+karakteristiklerini deneysel olarak incelemişlerdir.
+Nozul-cam arasındaki mesafe olan H/D oranı
+
+606
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+1≤H/D≤10, iki nozul ekseni arası mesafe olan S/D
+oranı 2≤S/D≤10 alınmış ve Reynolds sayısı
+Re=30000’de sabit tutulmuştur. Çalışmada en yüksek
+ortalama Nusselt değeri S/D=2’de, H/D=4 oranında
+123,3 ve en düşük ortalama Nusselt değeri ise
+S/D=10’da H/D=10 oranında 58,6 olarak elde
+edilmiştir [12].
+Akçay vd. (2011), oto cam temperleme sürecinin ani
+soğutma aşamasında, cam yüzeyinde meydana gelen
+ısı transferi karakteristiklerini deneysel olarak
+incelemişlerdir. Soğutma süresi boyunca nozulların
+birbirine zıt yönde aşağı-yukarı hareket etmeleri
+sağlanmıştır. En düşük soğutma süresi H/D=2’de 51,5
+s, en yüksek soğutma süresi ise H/D=10’da 73 s
+olarak ölçülmüş olup, %41,74’lük bir artış
+belirlenmiştir. En yüksek ortalama Nu sayısı H/D=2
+oranında 83,0, en düşük ortalama Nu sayısı ise
+H/D=10’da, 46,3 olarak hesaplanmış olup %44,21’lik
+bir azalma olduğu açıklanmıştır [13].
+Cirillo and Isopi (2009), cam temperleme işleminde
+ısı
+transfer
+katsayısının
+sayısal
+olarak
+değerlendirilmesi ile ilgili çalışma yapmışlardır. Isı
+transferi katsayısını hesaplayabilen matematiksel
+model oluşturmada kullanılan, bir CFD simulasyon
+matrisi tasarlamışlardır. Çalışmada, cam temperleme
+işleminde kullanılan hava jetlerinin boyutları ve süreç
+parametreleri araştırılmıştır. Düz plaka sıcaklığı
+640°C, jet çapı 4 ve 8 mm, havanın nozul çıkış hızı
+110 ve 140 m/s, jetler arası mesafe 40 ve 60 mm,
+nozul yüksekliği ise 20 mm ve 60 mm olarak
+alınmıştır [14].
+Sözbir ve Yao (2004), cam temperleme işleminde su
+buharı ilavesi ile basınçlı hava tüketimini ve
+dolayısıyla da enerji tüketimini azaltmaya yönelik
+çalışma yapmışlardır. Ani soğutma işlemi sırasında
+yüksek hızlı hava jetleri kullanmışlardır. Su buharı
+ilavesi ile 2 mm kalınlığındaki cam plakaların
+temperlenebilmesi için hava basıncında yaklaşık
+olarak %29, 3 mm ve 4 mm kalınlığındaki cam
+plakalar için ise yaklaşık olarak %50 oranında bir
+azalma olduğu belirtilmiştir. Sistem için gerekli olan
+basınçlı hava ihtiyacının önemli bir şekilde düşülmesi
+ile ince ve düşük maliyetli temperli camların elde
+edilebileceği ifade edilmiştir [4].
+Monnoyer ve Lochegnies (2008), termal cam
+temperleme işleminde çarpan hava jetiyle soğutma
+işlemi ile ilgili deneysel ve nümerik çalışma
+yapmışlardır. Dört farklı Reynolds sayısında
+(Re=11000, 22000, 33000, 4000) çalışılmış, deneysel
+ve nümerik hesaplama için en uygun ısı taşınım
+katsayısı değeri 210 W/m2K olarak elde edilmiştir. 90
+saniye soğutma süresindeki ortalama bağıl hatayı
+minimum
+%1,8,
+maksimum
+%4
+olarak
+hesaplamışlardır. Nu sayısının Re sayısının bir üssü
+ile orantılı olarak değiştiği açıklanmıştır. Elde edilen
+ısı transferinin literatüre göre daha düşük olduğu
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+görülmüş ve bu durumun sebebi olarak da büyük H/D
+oranı ve güçlü çapraz akışlar gösterilmiştir [10].
+Büyükyıldız (2007) tarafında yapılan çalışmada, cam
+temperleme işleminde kullanılan bir temperleme
+fırınının kontrolü tasarlanmış, örnek bir uygulama
+gerçekleştirilmiştir.
+Temperleme
+fırınının
+otomasyonunda PLC kullanılmış, ayrıca SCADA
+yazılımı yardımıyla ilgili parametreler izlenmiştir. 3
+mm kalınlığındaki cam tencere kapağı, 100, 105, 110
+ve 120 s süresince ısıtılmış ve 4, 10, 15, 20 s
+süresince de ani olarak soğutulmuştur. Yapılan
+deneyler sonucunda, cam kapak kırılarak 10 cm2’lik
+bir alan içerisinde kalan cam parçacık sayısı
+belirlenmiştir. Isıtma ve soğutma zamanındaki artışa
+paralel olarak parçacık sayısının da arttığı, maksimum
+parçacık sayısının ısıtma zamanı 120 s ve soğutma
+zamanı 20 s’de elde edildiği görülmüştür [8].
+Jambunathan vd. (1992), türbülanslı çarpan jetlerin ısı
+transferi özelliklerini belirlemek için yapılmış olan
+deneysel çalışmaları incelemişlerdir. Çalışmada,
+deneysel sonuçlarda farklılığa yol açan nozul
+geometrilerinin ayrıntıları, ölçüm teknikleri, boyutsuz
+değişkenlerin tanımlanma şekilleri belirtilmiştir.
+İncelenen veriler kullanılarak Nusselt (Nu) sayısı için
+bir korelasyon elde edilmiş ve korelasyon; Reynolds
+(Re) sayısı, nozul–plaka mesafesi (H/D) ve durgunluk
+noktasından uzaklığın (x/D) bir fonksiyonu olarak
+belirlenmiştir [15].
+San ve Lai (2001), düz bir plakanın soğutulması
+üzerine yaptıkları çalışmada, soğutma işlemi için
+sınırlandırılmış dairesel hava jetleri kullanmışlardır.
+İki nozul arasındaki mesafenin yerel Nusselt sayısı
+üzerine etkisini araştırmışlardır. Plaka üzerinde yüzey
+ısı akısı 1500 W/m2 olarak sabit alınmıştır. Farklı
+Reynolds sayılarında (10000≤Re≤30000) ve S/D
+oranlarında (4≤S/D≤16) incelemeler yapılmıştır.
+H/D=2 için optimum S/D=8, H/D=3 için S/D=12,
+H/D=5 için S/D=6 elde edilmiştir. H/D=4 için
+Re=30000 iken optimum S/D=12; Re=20000 iken iki
+optimum S/D değeri S/D=6 ve 12 elde edilmiştir.
+Re=10000 iken ise optimum S/D=6 elde edilmiştir
+[16].
+Yapılan bu çalışmada; oto cam temperleme işlemi ele
+alınmış, farklı ısıtma (Th) ve soğutma (Tc)
+sıcaklıklarında, farklı H/D oranlarında ve sabit
+Reynolds (Re) sayısında, ani soğutma süresi ve
+parçacık sayısındaki değişim deneysel olarak
+incelenmiştir. Elde edilen sonuçlara göre, standartları
+karşılamak şartıyla, cam temperleme işleminde enerji
+tüketiminin minimum seviyede tutulabilmesi için
+uygulanması gereken temperleme parametrelerinin
+belirlenmesi amaçlanmıştır. Deneylerde 6 mm
+kalınlığında ve S/D=4 oranına uygun boyutlardaki
+(83,1x96 mm) cam numuneleri kullanılmıştır. Ani
+soğutma ünitesinde 8 mm iç çapında ve 80 mm
+boyunda, düz, dikişsiz, pürüzsüz alüminyum borudan
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+M. Akçay ve ark.
+
+yapılmış karşılıklı olarak yerleştirilmiş, S/D=4
+oranına sahip üçgen dizilişli toplam 16 adet nozul
+kullanılmıştır. Üç farklı ortalama yüzey sıcaklığına
+(Th=620, 650 ve 680°C) kadar ısıtılan cam, daha
+sonra dört farklı ortalama yüzey sıcaklığına (Tc=70,
+250, 300 ve 400°C) düşünceye kadar ani olarak
+soğutulmuştur. Elde edilen temperli camlar kırılarak
+parçacık sayıları belirlenmiştir. Nozul ile cam yüzeyi
+arasındaki mesafe H, nozul eksenleri arasındaki
+mesafe S olmak üzere; 2≤H/D≤8 ve Reynolds sayısı
+20000 alınmıştır.
+2. MATERYAL VE YÖNTEM
+
+(MATERIALS AND
+
+METHODS)
+
+Deneylerde, S/D=4 oranına sahip, üçgen dizilişli
+nozul sistemine uygun ölçülerde (83,1x96 mm) ve 6
+mm kalınlığında cam kullanılmıştır. 48 farklı deneyin
+yapıldığı çalışma, iki bölümden oluşmaktadır. Birinci
+bölümde, camın fırın içersisinde üç farklı ortalama
+yüzey sıcaklığına kadar (Th=620, 650 ve 680°C)
+ısıtılması ve daha sonra da ani soğutma ünitesinde,
+Re=20000 değeri ve H/D=2,4,6 ve 8 oranlarına göre,
+dört farklı ortalama yüzey sıcaklığına (Tc=70, 250,
+300 ve 400°C) düşünceye kadar ani olarak
+soğutulması işlemleri için geçen süreler belirlenmiştir.
+İkinci bölümde ise birinci bölümde belirlenen, her bir
+ısıtma ve soğutma sıcaklıkları için minimum ve
+maksimum soğutma sürelerinin elde edildiği H/D
+oranlarına
+göre
+cam
+temperleme
+işlemi
+gerçekleştirilmiş, temperli camların parçacık sayıları
+belirlenmiştir.
+a) Deney Düzeneği (Experimental Setup)
+Camın ısıtılması işleminde 10 kW gücünde, 0,38 m3
+iç hacime sahip elektrikli bir fırın kullanılmıştır. Fırın
+içi sıcaklık değişimini ölçmek için 1200°C sıcaklığa
+dayanabilen 3 adet DIN 43710 standardına göre
+üretilmiş NiCr-Ni termokupl kullanılmıştır. Ani
+soğutma ünitesinde kullanılan soğutma havasının
+sağlanmasında, 30 kW gücünde, 5,1 m3/min debide ve
+7 bar çalışma basıncında vidalı kompresör ve 5 m3
+hacime sahip basınçlı hava tankı kullanılmıştır.
+Soğutma ünitesine gelen havanın toplam debisi DN
+40 Testo 6443 marka debimetre ile ölçülmüştür. Her
+bir nozuldan eşit debide ve basınçta hava üflenmesini
+sağlamak amacıyla da DN15 Testo 6441 debimetre
+kullanılmıştır. Şekil 1’de deneysel çalışma için özel
+olarak tasarlanan prototip cam temperleme ünitesi ve
+ani soğutma bölümünün şematik gösterimi verilmiştir.
+Temperleme işleminin başlangıcından bitimine kadar
+cam yüzey sıcaklıklarının ölçülmesinde 0,81 mm tel
+çapında, 3,45 mm dış çapında, fiberglas kaplamalı, (18°C)–(+1100°C) çalışma sıcaklığı aralığında ölçüm
+yapabilen
+K
+tipi
+(KH–08541–23)
+flexible
+termokupllar kullanılmıştır. Çalışmada kullanılan
+deney düzeneği hakkında ayrıntılı bilgi Ref [17]’de
+açıklanmıştır.
+
+607
+
+M. Akçay ve ark.
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+a)
+
+b)
+Şekil 1. a) Prototip oto cam temperleme ünitesi (Prototype
+şematik gösterimi (Schematic view of the rapid cooling section)
+Ani soğutma işleminde 8 mm iç çapında ve 80 mm
+boyunda, düz, dikişsiz, pürüzsüz alüminyum borudan
+yapılmış karşılıklı olarak yerleştirilmiş üçgen dizilişli
+toplam 16 adet nozul kullanılmıştır. Fırından çıkan
+yüksek sıcaklıktaki cam, nozul plakalarının arasına
+girmekte ve soğuyuncaya kadar her iki yüzeyine hava
+
+a)
+Şekil 2. a) S/D=4 oranına sahip nozul plakası
+konumu (Position of the nozzle plate on cooling unit)
+
+608
+
+auto glass tempering unit),
+
+b) Ani soğutma bölümünün
+
+jetleri çarpmaktadır. Soğutma süresi boyunca nozul
+plakaları sabittir.
+Şekil 2’de S/D=4 oranına sahip üçgen dizilişli nozul
+plakası ve cam ile nozul plakalarının ani soğutma
+bölümündeki konumu gösterilmiştir.
+
+(Nozzle plate for S/D=4)
+
+b)
+b) Nozul plakalarının soğutma ünitesindeki
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+b) Deneysel Belirsizlikler (Experimental Uncertainty)
+
+M. Akçay ve ark.
+
+3. BULGULAR ve TARTIŞMA (RESULTS and
+DISCUSSION)
+
+Fırın içi sıcaklık değişimini ölçmek için kullanılan
+DIN 43710 standardına göre üretilmiş NiCr-Ni K tipi
+termokuplların
+ölçüm
+hassasiyeti;
+40-333°C
+arasındaki sıcaklık ölçümlerinde ±2,5°C ve 3331100°C arasındaki sıcaklık ölçümlerinde ise
+±%0,75°C’dir.
+Cam yüzey sıcaklıklarının ölçülmesinde kullanılan K
+tipi flexible termokuplların ölçüm hassasiyeti; (200°C)–(+285°C) arasındaki sıcaklık ölçümlerinde
+±2,2oC, 285–1250°C arasındaki sıcaklık ölçümlerinde
+ise ±%0,75°C’dir. Camın soğutulmasında kullanılan
+havanın nozuldan çıkış debisini ölçmek için ±%3
+m3/h ölçüm hassasiyetine sahip DN15 Testo 6441 akış
+ölçer kullanılmıştır. Havanın nozuldan çıkış hızını
+ölçmek için ise ±%2 m/s ölçüm hassasiyetine sahip
+Delta OHM HD2134P.1 pitot tüpü kullanılmıştır.
+c)
+
+Ölçüm
+
+İşlemi
+
+ve
+
+Hesaplama
+
+Yöntemi
+
+a) Sıcaklık Değişimi (Variation of Temperature)
+Günümüzde geleneksel olarak gerçekleştirilen cam
+temperleme işleminde, öncelikli olarak temperleme
+fırınlarında yumuşama noktasına kadar (yaklaşık
+700°C) ısıtılan cam, daha sonra ani soğutma
+ünitesinde yaklaşık olarak 70°C’ye düşünceye kadar
+ani olarak soğutulmaktadır. Yapılan bu çalışmada ise
+üç farklı ortalama yüzey sıcaklığına (Th=620, 650 ve
+680°C) kadar ısıtılan cam, H/D=2,4,6 ve 8 oranlarına
+ve Re=20000 değerine göre dört farklı ortalama yüzey
+sıcaklığına (Tc=70, 250, 300 ve 400°C) düşünceye
+kadar ani olarak soğutulmuştur. Temperleme işlemi
+boyunca camın ortalama yüzey sıcaklığının zamana
+bağlı olarak değişimi anlık olarak takip edilmiş ve her
+bir ısıtma ve soğutma sıcaklığını elde etmek için
+geçen süreler kaydedilmiştir.
+
+(Measurement Process and Calculation Method)
+
+Temperleme süreci boyunca, camın sıcaklık
+değişimleri anlık olarak kaydedilmiştir. Termokupl ile
+sıcaklık aktarımı 0,5 s aralıklarla gerçekleştirilmiştir.
+Termokupllar, cam yüzeyine yüksek ısı iletim
+katsayısına sahip yapıştırıcı (Omega® CC High
+Temperature Cement) ile yapıştırılmıştır. Deneylerde
+kullanılan camın yüzeyindeki sıcaklık ölçüm ve jet
+çarpma noktaları Şekil 3’de gösterilmiştir.
+96 mm
+
+13,8 mm
+
+16 mm
+
+16 mm
+
+S
+
+D
+
+Ts2
+
+Ts3
+
+83,1 mm
+
+Ts1
+
+x/D=0
+
+x/D=2
+
+13,8 mm
+
+x/D=4
+
+Şekil 3. Cam yüzeyindeki sıcaklık ölçüm ve jet
+çarpma noktaları (Temperature measurement and jet
+impingement points on the glass surface)
+
+Camın geometrik merkezinden itibaren aynı eksen
+üzerine farklı x/D (0, 2 ve 4) oranlarında termokupllar
+yapıştırılarak üç farklı noktadan sıcaklık ölçümü
+yapılmaktadır. Ts1, Ts2 ve Ts3 bu noktalardaki sıcaklık
+değerlerini ifade etmektedir. Bu sıcaklıkların
+ortalaması alınarak, ısıtma ve ani soğutma süreçleri
+için cam ortalama yüzey sıcaklığı elde edilmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+750°C sıcaklığındaki fırının içerisine gönderilen
+camın, ortalama yüzey sıcaklığının Th=620, 650 ve
+680°C’ye ulaşması için geçen süreler sırasıyla 158,
+186 ve 222 s olarak elde edilmiştir. Camın ortalama
+yüzey sıcaklığının Th=620°C’den Th=650°C’ye
+artırılması için ısıtma süresinde; %17,72 oranında
+artış olurken, Th=650°C’den Th=680°C’ye artırılması
+için ısıtma süresinde; %19,35 oranında artış olmuştur.
+Her iki durumda sıcaklık artışının eşit (30°C)
+olmasına rağmen, ısıtma sürelerindeki artış oranının
+eşit olmadığı, yüksek sıcaklıklar için ısıtma
+süresindeki artış oranının daha fazla olduğu
+görülmüştür.
+Ortalama yüzey sıcaklığı Th=620°C oluncaya kadar
+ısıtılmış olan camın daha sonra Tc=70, 250, 300 ve
+400°C’ye ani olarak soğutulması işleminde, cam
+ortalama yüzey sıcaklığının zamana bağlı olarak H/D
+oranıyla değişimi Şekil 4’te verilmiştir.
+Şekil 4’te görüldüğü üzere, H/D oranındaki artışa
+paralel olarak ani soğutma süresinin de arttığı
+görülmüştür. Soğutma sıcaklıkları Tc=70, 250, 300 ve
+400°C için minimum soğutma süreleri H/D=2
+oranında sırasıyla; 89,0, 26,0, 19,0 ve 7,5 s olarak
+elde edilirken, maksimum soğutma süreleri ise H/D=8
+oranında sırasıyla; 108,0, 34,0, 24,5 ve 11,0 olarak
+elde edilmiştir. H/D=2 oranında elde edilen soğutma
+süreleri göz önüne alındığında, camın ortalama yüzey
+sıcaklığının Tc=250, 300 ve 400°C’ye düşürülmesi
+için geçen sürelerin Tc=70°C’ye düşürülmesi için
+geçen süreye göre sırasıyla; %70,79, 78,65 ve 91,57
+oranında daha kısa olduğu görülmüştür.
+Şekil 5’te, ortalama yüzey sıcaklığı Th=650°C
+oluncaya kadar ısıtılmış olan camın daha sonra Tc=70,
+250, 300 ve 400°C’ye kadar ani olarak soğutulması
+işleminde, cam ortalama yüzey sıcaklığının zamana
+bağlı olarak H/D oranıyla değişimi verilmiştir.
+
+609
+
+M. Akçay ve ark.
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+o
+
+o
+
+o
+
+500
+400
+
+o
+
+H/D=2
+H/D=4
+H/D=6
+H/D=8
+
+2
+
+300
+
+4
+
+6
+
+H/D
+
+200
+
+8
+
+100
+
+35
+30
+25
+20
+15
+10
+5
+0
+
+700
+
+Zaman t (s)
+
+600
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+120
+100
+80
+60
+40
+20
+0
+
+Zaman t (s)
+
+o
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+700
+
+600
+500
+
+H/D=2
+H/D=4
+H/D=6
+2
+
+400
+
+4
+
+20
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+0
+
+100 110
+
+5
+
+25
+
+H/D
+
+10
+
+15
+
+a)
+o
+
+475
+
+H/D=6
+
+2
+
+4
+
+6
+
+H/D=8
+
+8
+
+H/D
+
+400
+325
+250
+0
+
+5
+
+10
+
+15
+
+20
+
+Zaman t (s)
+
+H/D=4
+
+o
+
+H/D=2
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+550
+
+o
+
+o
+
+S/D=4, Re=20000, Th =620 C, Tc=400 C
+
+25
+20
+15
+10
+5
+0
+
+Zaman t (s)
+
+625
+
+700
+650
+600
+550
+
+12
+10
+8
+6
+4
+2
+0
+
+H/D=2
+H/D=4
+H/D=6
+
+2
+
+500
+
+4
+
+6
+
+400
+350
+0
+
+25
+
+3
+
+6
+
+9
+
+o
+
+40
+
+Zaman t (s)
+
+700
+
+o
+
+Ortalama Yüzey Sıcaklıkğı T ( C)
+ort.
+
+Zaman t (s)
+
+o
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+90
+
+H/D=2
+
+60
+
+H/D=4
+
+30
+
+H/D=6
+
+0
+2
+
+300
+
+4
+
+H/D
+
+6
+
+H/D=8
+
+8
+
+200
+100
+0
+
+600
+500
+
+30
+20
+
+H/D=2
+
+10
+
+H/D=4
+H/D=6
+
+0
+2
+
+400
+
+4
+
+6
+
+H/D
+
+8
+
+H/D=8
+
+300
+200
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90 100 110 120
+
+0
+
+5
+
+10
+
+15
+
+20
+
+a)
+o
+
+o
+
+H/D=4
+
+10
+
+H/D=6
+
+0
+
+475
+
+2
+
+400
+
+4
+
+H/D
+
+6
+
+H/D=8
+
+8
+
+325
+250
+0
+
+5
+
+10
+
+15
+Zaman t (s)
+
+20
+
+25
+
+30
+
+700
+
+o
+
+H/D=2
+
+20
+
+Zaman t (s)
+
+30
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+Zaman t (s)
+
+o
+
+550
+
+35
+
+40
+
+o
+
+S/D=4, Re=20000, Th =650 C, Tc=400 C
+
+S/D=4, Re=20000, Th =650 C, Tc=300 C
+
+625
+
+30
+
+b)
+o
+
+700
+
+25
+
+Zaman t (s)
+
+Zaman t (s)
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+o
+
+S/D=4, Re=20000, Th =650 C, Tc=250 C
+
+120
+
+400
+
+(Variation of the average
+
+o
+
+o
+
+S/D=4, Re=20000, Th =650 C, Tc=70 C
+
+500
+
+12
+
+Zaman t (s)
+
+c)
+d)
+Şekil 4. Cam ortalama yüzey sıcaklığının zamana bağlı olarak H/D oranıyla değişimi
+°
+surface temperature of the glass based on time for H/D ration) (Th=620 C)
+
+600
+
+H/D=8
+
+8
+
+H/D
+
+450
+
+Zaman t (s)
+
+700
+
+35
+
+b)
+o
+
+700
+
+30
+
+Zaman t (s)
+
+S/D=4, Re=20000, Th =620 C, Tc=300 C
+
+650
+600
+550
+
+15
+H/D=2
+
+10
+
+H/D=4
+
+5
+
+H/D=6
+
+0
+
+H/D=8
+
+2
+
+500
+
+4
+
+H/D
+
+6
+
+8
+
+450
+400
+350
+0
+
+3
+
+6
+
+9
+
+12
+
+15
+
+Zaman t (s)
+
+c)
+d)
+Şekil 5. Cam ortalama yüzey sıcaklığının zamana bağlı olarak H/D oranıyla değişimi
+°
+surface temperature of the glass based on time for H/D ration) (Th=650 C)
+
+610
+
+H/D=8
+
+8
+
+300
+
+Zaman t (s)
+
+o
+
+6
+
+200
+
+0
+0
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+o
+
+S/D=4, Re=20000, Th =620 C, Tc=250 C
+
+Re=20000, Th =620 C, Tc=70 C
+
+(Variation of the average
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+Şekil 5’te görüldüğü üzere, soğutma sıcaklıkları
+Tc=70, 250, 300 ve 400°C için minimum soğutma
+süreleri H/D=2 oranında sırasıyla; 94,0, 29,5, 22,0 ve
+10,0 s olarak elde edilirken, maksimum soğutma
+süreleri H/D=8 oranında sırasıyla; 112,0, 37,0, 28,0
+ve 14,5 s olarak elde edilmiştir.
+H/D=2 oranında elde edilen soğutma süreleri göz
+önüne alındığında, camın ortalama yüzey sıcaklığının
+Tc=250, 300 ve 400°C’ye düşürülmesi için geçen
+sürelerin Tc=70°C’ye düşürülmesi için geçen süreye
+göre sırasıyla; %68,62, 76,60 ve 89,36 daha kısa
+olduğu görülmüştür.
+Şekil 6’da ise, ortalama yüzey sıcaklığı Th=680°C
+oluncaya kadar ısıtılmış olan camın sıcaklığının
+Tc=70, 250, 300 ve 400°C’ye düşürülmesi işleminde,
+cam ortalama yüzey sıcaklığının zamana bağlı olarak
+H/D oranıyla değişimi verilmiştir.
+Şekil 6’da görüldüğü üzere, soğutma sıcaklıkları
+Tc=70, 250, 300 ve 400°C için minimum soğutma
+süreleri H/D=2 oranında sırasıyla; 97,0, 31,5, 24,0 ve
+12,5 s olarak elde edilirken, maksimum soğutma
+süreleri ise H/D=8 oranında sırasıyla; 115,0, 40,0 31,0
+ve 16,5 s olarak elde edilmiştir.
+H/D=2 oranında elde edilen soğutma süreleri göz
+o
+
+M. Akçay ve ark.
+
+önüne alındığında, camın ortalama yüzey sıcaklığının
+Tc=250, 300 ve 400°C’ye düşürülmesi için geçen
+sürelerin Tc=70°C’ye düşürülmesi için geçen süreye
+göre sırasıyla; %67,53, 75,26 ve 87,11 daha kısa
+olduğu görülmüştür.
+Şekil 4-6’dan görüldüğü üzere, ani soğutma işleminde
+camın ortalama yüzey sıcaklığı zamana bağlı olarak
+hızlı bir şekilde azalmaktadır. Camın ısıtma
+sıcaklığının yüksek olması ani soğutma süresinin
+artmasına neden olurken, soğutma sıcaklığının yüksek
+olması ise ani soğutma süresinin azalmasına neden
+olmuştur. Ayrıca H/D oranın da ani soğutma süresi
+üzerinde önemli bir etkiye sahip olduğu, artan H/D
+oranıyla ani soğutma süresinin de arttığı görülmüştür.
+Bu durum için, nozul ile cam yüzeyi arasındaki
+mesafenin artışının, cam yüzeyinden transfer edilen
+ısı miktarını düşürdüğü ve dolayısıyla da soğutma
+süresinin artmasına neden olduğu söylenebilir. Ani
+soğutma süresinin uzun olması, ani soğutma süresince
+tüketilen hava miktarını artırmakta ve ayrıca üretim
+kapasitesinin düşmesine neden olmaktadır.
+Üç farklı ortalama yüzey sıcaklıklarına kadar ısıtılan
+camın daha sonra dört farklı ortalama yüzey
+sıcaklığına ani olarak soğutulması işlemi için geçen
+süreler Tablo 1’de verilmiştir.
+
+o
+
+o
+
+S/D=4, Re=20000, Th =680 C, Tc=70 C
+
+500
+
+H/D=4
+40
+
+H/D=6
+H/D=8
+
+0
+
+400
+
+2
+
+300
+
+4
+
+6
+
+8
+
+H/D
+
+200
+100
+0
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+700
+
+o
+
+80
+
+Zaman t (s)
+
+600
+
+H/D=2
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+Zaman t (s)
+
+o
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+120
+
+700
+
+90 100 110 120
+
+600
+
+45
+
+H/D=2
+
+30
+
+H/D=4
+
+15
+
+H/D=6
+
+0
+
+500
+
+2
+
+4
+
+300
+200
+0
+
+5
+
+10
+
+15
+
+o
+
+Zaman t (s)
+
+H/D=6
+H/D=8
+
+4
+
+6
+
+8
+
+325
+250
+5
+
+700
+
+o
+
+H/D=4
+
+H/D
+
+0
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+Zaman t (s)
+
+o
+
+Ortalama Yüzey Sıcaklığı T ( C)
+ort.
+
+o
+
+H/D=2
+
+400
+
+10
+
+15
+
+30
+
+35
+
+40
+
+45
+
+20
+
+25
+
+Zaman t (s)
+
+c)
+
+o
+
+S/D=4, Re=20000, Th =680 C, Tc=400 C
+
+35
+28
+21
+14
+7
+0
+2
+
+25
+
+b)
+o
+
+475
+
+20
+
+Zaman t (s)
+
+S/D=4, Re=20000, Th =680 C, Tc=300 C
+
+550
+
+H/D=8
+
+8
+
+H/D
+
+a)
+
+625
+
+6
+
+400
+
+Zaman t (s)
+
+700
+
+o
+
+S/D=4, Re=20000, Th =680 C, Tc=250 C
+
+30
+
+35
+
+650
+600
+
+20
+15
+
+H/D=2
+
+10
+
+H/D=4
+
+5
+
+H/D=6
+
+0
+
+550
+
+2
+
+500
+
+4
+
+6
+
+450
+400
+350
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+18
+
+Zaman t (s)
+
+d)
+
+Şekil 6. Cam ortalama yüzey sıcaklığının zamana bağlı olarak H/D oranıyla değişimi
+°
+surface temperature of the glass based on time for H/D ration) (Th=680 C)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+H/D=8
+
+8
+
+H/D
+
+(Variation of the average
+
+611
+
+M. Akçay ve ark.
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+Tablo 1. Her bir ısıtma ve soğutma sıcaklıklarının elde edildiği süreler (Times for each heating and cooling temperatures)
+Isıtma Sıcaklığı Th (°C)
+
+Th=620°C
+
+Isıtma Süresi (s)
+
+158,0
+
+Tc=300°C
+
+Tc=400°C
+
+b) Parçacık Sayısının Değişimi
+
+(Variation of the
+
+Number of Particles)
+
+Bu bölümde, her bir temperleme koşulu için
+belirlenen ısıtma ve ani soğutma süreleri kullanılarak
+cam temperleme işlemi gerçekleştirilmiş ve parçacık
+sayılarının belirlenmesi işlemine geçilmiştir. Parçacık
+sayılarının belirlenmesi işleminde, her bir ısıtma (Th)
+ve soğutma sıcaklıkları (Tc) için minimum ve
+maksimum soğutma sürelerinin elde edildiği H/D
+oranları göz önüne alınmıştır. Şekil 4-6 ve Tablo
+1’den görüldüğü üzere, her bir ısıtma ve soğutma
+sıcaklığı için minimum soğutma süresi H/D=2
+oranında elde edilirken maksimum soğutma süresi ise
+H/D=8 oranında elde edilmiştir.
+Üç faklı ortalama yüzey sıcaklığına (Th=620, 650 ve
+680°C) kadar ısıtılan cam, Re=20000 değerine,
+H/D=2 ve 8 oranlarına göre dört farklı ortalama yüzey
+sıcaklığına (Tc=70, 250, 300 ve 400°C) düşünceye
+kadar ani olarak soğutulmaktadır. Herhangi bir
+ortalama yüzey sıcaklığına düşünceye kadar soğutulan
+cam için daha sonra bir soğutma işlemi
+uygulanmamakta ve doğal taşınım ile ortam
+sıcaklığına düşmesi beklenmektedir.
+Ortam sıcaklığına düşen temperli camlar şeffaf bir
+bant ile bantlandıktan sonra sivri uçlu bir çekiç
+yardımı
+ile
+kırılarak
+parçacık
+sayıları
+belirlenmektedir. Her bir deney için üçer adet temperli
+cam üretilmiş ve ortalaması alınmıştır.
+Parçacık sayısının belirlenmesi işleminde, Türk
+Standartları Enstitüsü tarafından hazırlanan TS 917
+
+612
+
+Ani Soğutma Süresi (s)
+89,0
+94,0
+100,0
+108,0
+26,0
+28,5
+30,0
+34,0
+19,0
+21,0
+22,0
+24,5
+7,5
+9,0
+9,5
+11,0
+
+94,0
+100,0
+106,0
+112,0
+29,5
+30,5
+33,5
+37,0
+22,0
+23,0
+25,5
+28,0
+10,0
+10,5
+12,5
+14,5
+
+97,0
+103,0
+109,0
+115,0
+31,5
+34,0
+35,5
+40,0
+24,0
+26,0
+27,0
+31,0
+12,5
+13,5
+14,0
+16,5
+
+standardı referans alınmıştır. TS 917’ye göre;
+parçacık sayma işlemi 50x50 mm alan içerisinde
+yapılmalı ve parçacık sayısı 40’dan az ve 400’den
+fazla olmamalıdır [18]. Yapılan bu çalışmada parçacık
+sayma işlemi, Şekil 7’de gösterildiği gibi, camın
+yüzeyi üzerine çizilen 50x50 mm’lik alan içerisinde
+gerçekleştirilmiştir.
+96 mm
+
+50 mm
+Darbe
+Noktası
+
+Parçacık Sayma
+Alanı
+
+83,1 mm
+
+Tc=250°C
+
+2
+4
+6
+8
+2
+4
+6
+8
+2
+4
+6
+8
+2
+4
+6
+8
+
+222,0
+
+50 mm
+
+Tc=70°C
+
+H/D
+
+186,0
+
+16,5 mm
+
+Soğutma Sıcaklığı Tc (°C)
+
+Th=650 °C Th=680 °C
+
+23 mm
+
+Şekil 7. Cam yüzeyinde parçacık sayma alanı
+
+(Particle
+
+counting area on the glass surface)
+
+Ortalama parçacık sayısının soğutma sıcaklığına göre
+değişimi, H/D=2 ve 8 oranları için sırasıyla Şekil 8 (a)
+ve (b)’de verilmiştir. Şekil 8’de görüldüğü üzere, H/D
+oranının 2’den 8’e artırılması durumunda, her bir
+ısıtma ve soğutma sıcaklıkları için ortalama parçacık
+sayısında yaklaşık olarak %8-30 oranında azalma
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+M. Akçay ve ark.
+
+S/D=4, Re=20000, H/D=2
+Th=620 °C
+Th=650 °C
+
+250
+
+Th=680 °C
+
+o
+
+200
+150
+100
+50
+
+Maksimum Ortalama
+Parçacık Sayısı
+
+Ortalama Parçacık Sayısı
+
+300
+
+Tc=70 C, H/D=2
+300
+200
+100
+0
+Th=620°C
+
+Th=650°C
+
+Th=680°C
+
+Isıtma Sıcaklığı Th (°C)
+
+0
+70
+
+250
+
+300
+
+400
+
+o
+
+Soğutma Sıcaklığı Tc ( C)
+
+(a)
+S/D=4, Re=20000, H/D=8
+Th=620 °C
+
+225
+
+Th=650 °C
+Th=680 °C
+
+175
+150
+125
+100
+75
+50
+25
+
+Maksimum Ortalama
+Parçacık Sayısı
+
+Ortalama Parçacık Sayısı
+
+200
+
+o
+
+Tc=70 C, H/D=8
+
+300
+200
+100
+0
+Th=620°C
+
+Th=650°C
+
+Th=680°C
+
+Isıtma Sıcaklığı Th (°C)
+
+0
+70
+
+250
+
+300
+
+400
+
+o
+
+Soğutma Sıcaklığı Tc ( C)
+
+(b)
+Şekil 8. Parçacık sayısının soğutma sıcaklığına bağlı olarak değişimi
+temperature) (a) H/D=2, (b) H/D=8
+
+(Variation of the particle number based on cooling
+
+meydana gelmiştir. Buna rağmen elde edilen ortalama
+parçacık sayılarının TS 917 standardı içerisinde (40400) olduğu görülmüştür.
+
+sıcaklığı Th=650°C için bu azalmanın sırasıyla;
+%4,85, 9,33 ve 50,00, Th=680°C için ise sırasıyla;
+%1,05, 8,42 ve 47,02 olduğu görülmüştür.
+
+Isıtma aşamasında, camın ısıtıldığı sıcaklığın yüksek
+olması, parçacık sayısını artırırken, ani soğutma
+aşamasında camın soğutulduğu sıcaklığın yüksek
+olması ise parçacık sayısının düşmesine neden
+olmuştur. Isıtma sıcaklıkları Th=620, 650 ve 680°C
+için maksimum ortalama parçacık sayısı, soğutma
+sıcaklığı Tc=70°C ve H/D=2 oranında sırasıyla; 232,
+268 ve 285 olarak elde edilirken, minimum ortalama
+parçacık sayısı ise Tc=400°C ve H/D=8 oranında
+sırasıyla; 57, 123 ve 137 olarak elde edilmiştir.
+
+Her bir ısıtma ve soğutma sıcaklıkları için, maksimum
+ortalama parçacık sayısı; ısıtma sıcaklığı Th=680°C,
+soğutma sıcaklığı Tc=70°C ve H/D=2 oranında 285
+adet olarak elde edilirken, minimum ortalama
+parçacık sayısı ise ısıtma sıcaklığı Th=620°C, soğutma
+sıcaklığı Tc=400°C ve H/D=8 oranında 57 adet olarak
+elde edilmiştir.
+
+H/D=2 oranında elde edilen maksimum ortalama
+parçacık sayıları göz önüne alındığında, camın
+Tc=70°C yerine Tc=250, 300 ve 400°C’ye
+soğutulması durumunda ortalama parçacık sayısında
+ısıtma sıcaklığı Th=620°C için sırasıyla; %3,88, 6,03
+ve 71,55 oranında azalma olduğu görülmüştür. Isıtma
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Camın ortalama yüzey sıcaklığının Th=620°C’den
+Th=650°C’ye artırılması için ısıtma süresinde %17,72
+oranında artış olurken bu sıcaklıklarda elde edilen en
+yüksek ortalama parçacık sayısında ise %15,52
+oranında artış meydana gelmiştir. Yine camın
+ortalama
+yüzey
+sıcaklığının
+Th=650°C’den
+Th=680°C’ye artırılması için ısıtma süresinde %19,35
+oranında artış olurken, bu sıcaklıklarda elde edilen en
+yüksek ortalama parçacık sayısında ise %6,34
+
+613
+
+M. Akçay ve ark.
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+oranında artış olmuştur. Görüleceği üzere, camın artan
+ısıtma sıcaklığı ile birlikte ortalama parçacık sayısı
+artmakta, ancak Th=650°C’den sonra bu artış oranı
+azalmaktadır.
+
+oranlarında, farklı ısıtma (Th) ve soğutma
+sıcaklıklarında (Tc), sabit S/D oranı ve Reynolds
+sayısında cam temperleme işlemi gerçekleştirilmiş
+olup, soğutma süresi ve parçacık sayısındaki değişim
+deneysel olarak incelenmiştir.
+
+Her bir ısıtma sıcaklığı için, minimum soğutma süresi
+ve maksimum parçacık sayısının elde edildiği H/D=2
+oranına göre; camın ani soğutma aşamasında Tc=70°C
+yerine Tc=250°C’ye kadar soğutulması durumunda,
+ani soğutma süresinde yaklaşık olarak %67-71
+oranında azalma olurken, ortalama parçacık sayısında
+ise yaklaşık olarak %1-5 oranında azalma meydana
+gelmiştir.
+
+Çalışmada, artan H/D oranı ile birlikte soğutma
+süresinin de arttığı, ortalama parçacık sayısının ise
+azaldığı görülmüştür. Her bir ısıtma ve soğutma
+sıcaklığı için, minimum soğutma süresi ve maksimum
+parçacık sayısı H/D=2 oranında elde edilirken,
+maksimum soğutma süresi ve minimum parçacık
+sayısı ise H/D=8 oranında elde edilmiştir.
+
+Benzer şekilde, camın Tc=70°C yerine Tc=300°C’ye
+kadar soğutulması durumunda ani soğutma süresinde
+yaklaşık olarak %75-79 oranında azalma olurken,
+ortalama parçacık sayısında ise yaklaşık olarak %6-10
+oranında azalma meydana gelmiştir. Tc=70°C yerine
+Tc=400°C’ye soğutulması durumunda ise ani soğutma
+süresinde yaklaşık olarak %87-92 oranında azalma
+meydana gelirken, ortalama parçacık sayısında
+yaklaşık olarak %47-72 oranında azalma olmuştur.
+
+Camın ısıtma sıcaklığının yüksek olması, parçacık
+sayısında artışa neden olurken, soğutma sıcaklığının
+yüksek olması ise parçacık sayısında azalmaya neden
+olmuştur. Camın ısıtma sıcaklığının Th=620°C’den
+Th=650°C’ye artırılması durumunda ortalama
+parçacık sayısında meydana gelen artış oranının,
+ısıtma sıcaklığının Th=650°C’den Th=680°C’ye
+artırılması durumundaki artış oranından daha yüksek
+olduğu görülmüştür.
+
+Ortalama parçacık sayısının soğutma sıcaklıkları
+Tc=70, 250 ve 300°C için birbirine oldukça yakın
+olduğu ve camın ortalama yüzey sıcaklığının özellikle
+250°C’nin altına düşürülmesinin, parçacık sayısının
+değişimi üzerinde oldukça düşük bir etkiye sahip
+olduğu görülmüştür. Farklı ısıtma ve soğutma
+sıcaklıklarına göre elde edilen ortalama parçacık
+sayıları Tablo 2’de verilmiştir.
+
+Soğutma sıcaklığının yüksek olması, camın soğutma
+ünitesinde daha kısa süre kalması ve dolayısıyla daha
+az soğutma havasının tüketilmesi anlamına
+gelmektedir. Ani soğutma aşamasında, camın
+Tc=70°C yerine 250 ve 300°C’ye soğutulması
+durumunda, soğutma süresinde oldukça yüksek
+oranlarda azalma olurken, parçacık sayısındaki
+değişikliğin ise daha düşük oranlarda olduğu
+görülmüştür. Dolayısıyla, parçacık sayısı göz önünde
+bulundurularak,
+mümkün
+olduğunca
+ısıtma
+sıcaklığının düşük ve soğutma sıcaklığının da yüksek
+seviyelerde tutulması, temperleme sürecinin enerji
+tüketiminde ve üretim kapasitesinde iyileşme
+sağlayacaktır.
+
+4. SONUÇLAR (CONCLUSION)
+Yapılan çalışmada; özel olarak tasarlanmış prototip
+bir cam temperleme ünitesinde, farklı H/D
+
+Tablo 2. Farklı ısıtma ve soğutma sıcaklıklarına göre ortalama parçacık sayısı
+
+(Average particle number according to
+
+different heating and cooling temperature)
+
+Isıtma
+Sıcaklığı
+Th (oC)
+
+620
+
+650
+
+680
+
+614
+
+Soğutma
+Sıcaklığı
+Tc (oC)
+70
+250
+300
+400
+70
+250
+300
+400
+70
+250
+300
+400
+
+Ortalama Parçacık Sayısı
+H/D
+2
+232
+223
+218
+66
+268
+255
+243
+134
+285
+282
+261
+151
+
+8
+183
+178
+163
+57
+213
+196
+194
+123
+218
+199
+197
+137
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Oto Cam Temperleme İşleminde Isıtma ve Soğutma Sıcaklıklarının…
+
+Maksimum ortalama parçacık sayısı, ısıtma sıcaklığı
+Th=680°C, soğutma sıcaklığı Tc=70°C ve H/D=2
+oranında 285 adet olarak elde edilirken, minimum
+ortalama parçacık sayısı ise ısıtma sıcaklığı
+Th=620°C, soğutma sıcaklığı Tc=400°C ve H/D=8
+oranında 57 adet olarak elde edilmiştir.
+TEŞEKKÜR (ACKNOWLEDGMENT)
+Bu çalışma, Türkiye Bilimsel ve Teknolojik
+Araştırma Kurumu (TÜBİTAK) desteği ile kurulan
+laboratuarda
+gerçekleştirilmiştir.
+TÜBİTAK’a
+teşekkür ederiz.
+KAYNAKLAR (REFERENCES)
+1. To, Q.D., He, Q.-C., Cossavella, M., Morcant, K.,
+Panait, A. ve Yvonnet, J., “The Tempering of
+Glass and the Failure of Tempered Glass Plates
+with Pin-Loaded Joints: Modelling and
+Simulation”, Materials and Design, 29, 943–951,
+2008.
+2. Nielsen, J.H., Olesen, J.F., Poulsen, P.N. ve Stang,
+H., “Finite Element İmplementation of a Glass
+Tempering Model in Three Dimensions”,
+Computers and Structures, 88, 963–972, 2010.
+3. Eşsiz, Ö., “Teknolojinin Cam Panellerine
+Getirdiği Yenilikler”, 1. Ulusal Çatı ve Cephe
+Kaplamalarında
+Çağdaş
+Malzeme
+ve
+Teknolojiler Sempozyumu, İstanbul, 73-82,
+2004.
+4. Sözbir, N. ve Yao, S.C., “Experimental
+İnvestication of Water Mist Cooling for Glass
+Tempering” Atomization and Prays, 14, 191210, 2004.
+5. Kantürer, T., “Otomobil Camı Üretiminde
+Enerji Yoğun Süreçlerin Optimizasyonu”,
+Doktora Tezi, Trakya Üniversitesi Fen Bilimleri
+Enstitüsü, 2009.
+6. Anonim, “Seramik ve Cam Teknolojisi,
+Türkiye’de Cam Sektörü”, Mesleki Eğitim ve
+Öğretim Sisteminin Güçlendirilmesi Projesi,
+MEGEP, Ankara, 2008.
+7. Sev, A., Gür, V. ve Özgen, A., “Cephenin
+Vazgeçilmez Saydam Malzemesi Cam”, 2. Ulusal
+Yapı Malzemeleri Kongresi, İstanbul, 75-86, 6-8
+Ekim 2004.
+8. Büyükyıldız, A., “PLC Kullanılarak Cam
+Otomasyonu”,
+Temperleme
+Fırınının
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+M. Akçay ve ark.
+
+Mühendislik Bilimleri Dergisi, 2(13), 247-256,
+2007.
+9. Lee, K.H. ve Viskanta, R., “Quenching of Flat
+Glass by İmpinging Air Jets”, Numerical Heat
+Transfer, Part A: Applications, 33(1), 5-22,
+1998.
+10. Monnoyer F. ve Lochegnies D., “Heat Transfer
+and Flow Characteristics of the Cooling System of
+an İndustrial Glass Tempering Unit”, Applied
+Thermal Engineering, 28 (17-18), 2167-2177,
+2008.
+11. Shutov, A.I. ve Sukhanov, V.E., (1997) “A
+calculation procedure for the nonuniformity
+parameters air-jet tempered class”, Gals and
+Ceramics, 54(7-8), 237-239.
+12. Gölcü, M., Yazıcı, H., Akçay, M., Köseoğlu, M.F.
+ve Sekmen, Y. “Oto Camların Temperlenmesinde
+Çarpan Hava Jetleri ile Soğutmanın Deneysel
+İncelenmesi”, Gazi Üniv. Müh. Mim. Fak. Der.,
+27(4), 775-783, 2012.
+13. Akçay, M., Yazıcı, H., Gölcü, M., Köseoğlu,
+M.F., ve Sekmen Y., “Experimental İnvestigation
+of Heat Transfer in Suddenly Cooling Operation
+in Auto Glass Tempering Process”, 6th
+International
+Advenced
+Technologies
+Symposium, Elazığ, 194-199, 16-18 Mayıs 2011.
+14. Cirillo, F. ve Isopi, G.M., “Glass Tempering Heat
+Transfer Coefficient Evaluation and Air Jets
+Parameter Optimization”, Applied Thermal
+Engineering, 29, 1173-1179, 2009.
+15. Janbunathan, K., Lai, E. ve Button B.L., “A
+Review of Heat Transfer Data for Single Circular
+Jet İmpingement”, Int. J. Heat and Fluid Flow,
+13(2), 106-115, 1992.
+16. San, J.Y. ve Lai, M.D., “Optimum Jet-to-Jet
+Spacing of Heat Transfer for Staggered Arrays of
+Impinging Air Jets”, International Journal of
+Heat and Mass Transfer, 44, 3997-4007, 2001.
+17. Yazıcı, H., Akçay, M., Gölcü, M., Köseoğlu, M.F.
+ve Sekmen, Y., “Oto Cam Temperleme Deney
+Düzeneğinin Kurulumu ve Isıtma-Soğutma
+Sürelerinin Tayini için Örnek Bir Uygulama”,
+Makine Teknolojileri Elektronik Dergisi, 8(1),
+57-68, 2011.
+18. Türk Standardı, “Emniyet camları ve cam
+malzemeleri-motorlu
+nakil
+araçlarında
+ve
+römorklarında kullanılan”, Türk Standartları
+Enstitüsü, TS 917, 1999.
+
+615
+
+616
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+

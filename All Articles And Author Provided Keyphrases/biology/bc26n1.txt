@@ -1,0 +1,1607 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 1, 63-72, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 1, 63-72, 2011
+
+YUMUŞAK BİYOLOJİK DOKULARIN DÜZLEMSEL
+EŞYÖNSÜZ MEKANİK DAVRANIŞININ BİREYE VE
+NOKTAYA ÖZEL BELİRLENMESİ İÇİN ELİPSOİD UÇLARLA
+YERİNDE CANLI (İN VİVO) İNDENTÖR DENEYLERİ
+Ali Tolga PETEKKAYA* ve Ergin TÖNÜK**
+
+* Orta Doğu Teknik Üniversitesi Makina Mühendisliği Bölümü, 06531 Ankara
+** Orta Doğu Teknik Üniversitesi Makina Mühendisliği Bölümü, Biyomedikal Mühendisliği Disiplinlerarası
+Lisansüstü Programı ve Biyomalzeme ve Doku Mühendisliği Mükemmeliyet Merkezi, 06531 Ankara
+petcorbaci63@gmail.com, tonuk@metu.edu.tr
+(Geliş/Received: 12.03.2010; Kabul/Accepted: 11.06.2010)
+ÖZET
+Yumuşak dokular insan bedeninin neredeyse tüm dış yüzeyini kaplar ve bedenin çevre ile mekanik etkileşiminde
+önemli rol oynar. Mühendisliğin diğer alanlarında uzun süredir başarı ile kullanılan sonlu elemanlar tekniği insan
+bedeninin çevre ile mekanik etkileşimini (özellikle beden dışında kullanılan protez ve ortezlerle) modellemede
+henüz aynı başarı düzeyine ulaşamamıştır. Burada temel darboğaz, yumuşak biyolojik dokuların mekanik
+davranışı ile ilgili yeterli ayrıntıda bilgi sahibi olunmaması olduğu kadar bu dokuların görece karmaşık mekanik
+yanıtlarından da kaynaklanmaktadır.
+Bu çalışmada yumuşak biyolojik dokuların mekanik davranışlarının bireye özel, yerinde ve canlı olarak
+araştırılması için indentör cihazı ile eksenel simetrisi olmayan elipsoid uçlar kullanılarak ön kol yumuşak
+dokuları üzerinde devirli yükleme, gevşeme ve sünme deneyleri yapılmış, elde edilen sonuçlar büyük gerinme
+yaklaşımına uygun, doğrusal olmayan, iç mekanik enerji kayıplı (inelastik) ve mekanik özellikleri eşyönsüz
+(anizotropik) bir malzeme kanununun ve bu kanuna ait katsayıların belirlenebilmesi amacıyla işlenmiştir.
+Elde edilen deney sonuçları şimdiye kadar yumuşak dokular hakkında bilinenlerle uyumlu olmakla birlikte
+alışma (Mullin) etkisiyle ilgili yumuşak doku literatüründe yer almayan, bir devirde mekanik enerji kaybının
+(histeris) alışma ile azaldığı ve kararlı bir değere ulaştığı gözlenmiştir. Öte yandan elastik olmayan davranışı
+modellemek için iki terimli Prony serisi kullanımının gerekli ve yeterli olduğu sonucuna ulaşılmış, alışma
+davranışını modellemek için seriye üçüncü terimin ilavesinin gerekli olabileceği izlenimi edinilmiş ancak gerekli
+deneyler bu çalışma kapsamında yapılmamıştır. Elastik olmayan davranışı modelleyen katsayıların yöne bağımlı
+olduğu gözlenmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+
+2. YÖNTEM (METHODS)
+
+İnsan bedeni neredeyse tamamen yumuşak dokularla
+kaplı olduğu için beden ile çevre arasındaki mekanik
+etkileşim yumuşak dokular üzerinden olur. Yumuşak
+doku
+mekanik
+yanıtının
+anlaşılması
+ve
+modelleyebilecek bünye denklemlerinin oluşturularak
+ilgili katsayıların belirlenmesi biyomekanikte ilgi
+çekmiştir. Böyle bir bünye denklemi protez ve ortez
+tasarımında [1-21], mekanik özelliklerde değişikliğe
+neden olan yumuşak doku patolojilerinin tanılanması
+ve değerlendirilmesinde [22-25], cerrahi planlaması
+ve eğitimi [26-30], yumuşak doku yaralanmalarının
+mekaniğiyle ilgili bilgi edinme amaçlı [31-33] önemli
+katkı sağlama potansiyeline sahiptir.
+
+Bu çalışmada TÜBİTAK MİSAG-183 proje desteği
+ile gerçekleştirilen indentör cihazından [45-48]
+yararlanılmıştır. İndentör dokuyu istenen miktarda yer
+değiştirme denetimli olarak bastırırken bir yandan da
+doku tepki kuvvetini ölçmekte ve yer değiştirme-tepki
+kuvveti-zaman bilgisini bilgisayara kaydetmektedir.
+Bu çalışmada doku mekanik yanıtının yöne
+bağımlılığını inceleyebilmek için Bischoff [49]
+tarafından kuramsal yönden incelenen eliptik uçlar
+kullanılmıştır. Eliptik ucun açısal yönelimi 10
+derecelik artımlarla ayarlanabilmektedir (Şekil 1).
+Yumuşak doku deneyleri yapılırken üç farklı deney
+protokolü uygulanmıştır:
+
+Yumuşak biyolojik doku mekanik yanıtını
+belirlemeye yönelik genel kabul görmüş bir deney
+yöntemi olmadığı gibi genel kabul görmüş bir bünye
+denklemi de henüz yoktur. Yumuşak biyolojik
+dokularla ilgili güçlüklerden bazıları, fizyolojik
+koşullar altında büyük gerinmelere maruz kalmaları,
+çevre dokularla mekanik etkileşimleri nedeniyle
+yerinde canlı ve laboratuar ortamında farklı mekanik
+yanıtları olması [34], canlılıklarını yitirmeleriyle
+birlikte mekanik özelliklerinde önemli değişim olması
+[35], artan gerinmeyle birlikte direngenliğinin artması
+[36], mekanik enerji kaybının (histeris) ihmal
+edilemeyecek düzeyde olması, mekanik özelliklerin
+yöne bağımlılığı (anizotropi), alışma (Mullin) etkisi,
+sabit gerinmede gevşeme, sabit gerilmede sünme
+sayılabilir. Yumuşak doku mekanik yanıtını
+belirlemek üzere klasik malzeme deneylerinde olduğu
+gibi örnek hazırlanarak çok iyi denetlenebilen
+koşullarda standart malzeme deneylerine benzer
+deneyler yapıldığı gibi birçok olumsuzluğuna rağmen
+yerinde canlı deney yapmayı yeğleyenler de
+azımsanmayacak sayıdadır [9, 37-46]. Bu çalışmada
+amaç özel bir biyolojik dokunun bünye denklemini
+elde etmek olmayıp insan bedeninin çevre ile mekanik
+etkileşimini modellemeye yönelik bilgi edinmektir.
+Bu nedenle çevre ile mekanik etkileşim içinde
+bulunan belirli bir anatomik bölgede, o bölgeyi
+oluşturan deri, kas, yağ, damar ve benzeri yumuşak
+biyolojik dokuların eşdeğer mekanik yanıtını, deneğe
+özel sağlayacak indentör deneyleri, bilinen
+olumsuzluklarına rağmen yeğlenmiştir.
+
+1. Devirli yükleme deneyleri: İndentör ucu deneği
+rahatsız etmeyecek miktarda ve 1, 2, 4 ve 8 mm/s
+hızda dokuyu on kez bastırmıştır. Deneyler eliptik
+indentör ucunun açısal yönelimi 10 derecelik
+artımlarla değiştirilerek tekrar edilmiş, 180 derece
+konumundaki sonuç, 0 derece ile karşılaştırılmak
+üzere alınmıştır.
+
+64
+
+2. Gevşeme deneyleri: İndentör ucu deneği rahatsız
+etmeyecek miktarda dokuyu bastırmış, sonra 120
+saniye boyunca konumunu korumuştur. Deneyler
+eliptik indentör ucunun açısal yönelimi 30 derecelik
+artımlarla değiştirilerek tekrar edilmiş, 180 derece
+konumundaki sonuç, 0 derece ile karşılaştırılmak
+üzere alınmıştır.
+3. Sünme deneyleri: İndentör ucu deneği rahatsız
+etmeyecek bir hedef yüke ulaşıncaya kadar dokuyu
+bastırılmış ve sonra 120 saniye boyunca hedef yükü
+sabit tutacak biçimde kapalı çevirim denetimle
+hareket ettirilmiştir. Deneyler eliptik indentör
+ucunun açısal yönelimi 30 derecelik artımlarla
+değiştirilerek
+tekrar
+edilmiş,
+180
+derece
+konumundaki sonuç, 0 derece ile karşılaştırılmak
+üzere alınmıştır.
+Deney bölgesi olarak yazarların ön kol yumuşak
+dokuları seçilmiş olmakla birlikte indentör dışarıdan
+erişilebilir yumuşak dokular üzerinde aynı deneyi
+tekrar edebilecek özelliktedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+A.T. Petekkaya ve E. Tönük
+
+eksenel
+simetrisi
+olmayan
+uçların
+doku
+eşyönsüzlüğüyle ilgili kısıtlı (düzlemsel) bilgi
+sağlayabilmesi nedeniyle olabilir.
+Gevşeme Deneyleri (Relaxation Experiments)
+
+(a)
+(b)
+Şekil 1. (a) Çalışmada kullanılan orta boy eliptik uç (a
+x b: 16 x 4 mm) (b) uç yönelim açısı (α) ön kolun
+uzun ekseninden ölçülmüştür (Medium sized indenter tip
+used (a x b: 16 x 4 mm) (a) and tip orientation angle (α) measured
+from long axis of the forearm)
+
+3. BULGULAR (RESULTS)
+Devirli
+
+Yükleme
+
+Deneyleri
+
+(Cyclic
+
+Indentation
+
+Experiments)
+
+Devirli yükleme deneylerinde birbirinden farklı iki
+tipte kuvvet-zaman davranışı elde edilmiştir. İlk
+davranış yumuşak dokunun ilk birkaç devirde daha
+direngen davrandığı, sonra alışma (Mullin) etkisiyle
+tekrar edilebilir, öncekinden daha az direngen bir
+davranış sergilediği ve literatürde de örneklerine
+rastlanan yanıttır. Diğer davranış ise yumuşak
+dokunun önceden alıştığı ve her yükleme devrinde
+kendini tekrar ediyor gibi görünen, direngenliğin
+azalmadığı yanıttır (Şekil 2). Bu iki farklı davranış,
+kuvvet-yer değiştirme olarak incelendiğinde her iki
+durumda da alışma etkisinin bulunduğu, direngenlikyer değiştirme davranışında bir alışma etkisi olduğu
+ve bu etkinin dokudaki bir devir boyunca gözlenen
+mekanik enerji kaybına (histeris) etkisi olduğu
+görülmüştür.
+Eliptik ucun açısal yöneliminin değişimiyle en yüksek
+doku tepki kuvvetinde, dokuyu deforme eden enerji
+büyüklüğünde ve mekanik enerji kaybında değişim
+gözlenmiştir (Şekil 3). Bu üç grafik benzer özelliklere
+sahiptir: 20 derece civarında bir minimum, 100-110
+derece civarında maksimum ve 150 derece civarında
+ikinci minimum. En yüksek doku tepki kuvveti ve
+deformasyon enerjisi değerleri 0 ve 180 derece uç
+açısal yönelimi için çok yakın elde edilmiş (4,5 ve 4,6
+N, 80 ve 82 mJ) ancak mekanik enerji kaybı için elde
+edilen sonuçlar, doku önceden alıştırıldığı halde farklı
+elde edilmiştir. Mekanik enerji kaybındaki bu fark,
+daha uzun dönemli bir alışma etkisinin de
+olabileceğine işaret etmektedir.
+Son olarak, üç grafikteki ortak bir başka nokta, ilk
+minimum ile maksimum arasında 90 derece civarında
+bir açısal yönelim farkı olmakla birlikte ilk
+maksimum ile ikinci minimum arasında 40-50
+derecelik bir açı farkının bulunmasıdır. Bunun nedeni
+Bischoff’un [49] teorik çalışmasında işaret ettiği
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Gevşeme deneyleri ilk yükleme ve gevşeme
+aşamalarından oluşmaktadır. İlk yükleme aşaması
+devirli yükleme deneyleri gibi olduğundan inceleme
+dışı bırakılmıştır. Gevşeme verisi Şekil 4’te sunulan
+yumuşak doku tepki kuvvetinde tipik üstel sönüm
+göstermektedir.
+Atardamarlara
+yakın
+deney
+noktalarında nabız etkisi, bazı kaslar çevresinde ise
+solunum etkisi filtre edilmiş veride bile belirgin
+olarak gözlenmiştir.
+Elde edilen gevşeme verilerine en küçük fark kareleri
+toplamı yöntemiyle bir, iki ve üç terimli Prony serileri
+uydurulmuştur (Denklem 1-3).
+
+(
+(
+
+)
+)
+
+(1)
+=
+f ( t ) f 0 1 − δ1 1 − e − t τ1 
+
+
+(2)
+=
+f ( t ) f 0 1 − δ1 1 − e− t τ1 − δ2 1 − e − t τ2 
+
+
+=
+f ( t ) f 0 1 − δ1 1 − e − t τ1 − δ 2 1 − e − t τ2 − δ3 1 − e − t τ3  (3)
+
+
+
+(
+
+(
+
+)
+
+)
+
+(
+
+)
+
+(
+
+)
+
+Denklemlerde f(t) kuvvette zaman içinde olan
+değişimi, f0, t = 0 anında oluşan en yüksek kuvveti
+(Newton), δi gevşeme oranını (birimsiz), τi gevşeme
+zaman sabitini (saniye) temsil etmektedir. Buna ek
+olarak τ1 ≤ τ2 ≤ τ3 olacak biçimde, büyüyen indisin
+uzun dönem davranışı temsil etmesi sağlanmıştır. Bu
+denklemler, Şekil 5’de sunulan tek boyutlu, fiziksel
+ve doğrusal viskoelastik malzeme modellerini temsil
+etmektedir ve kullanılacak doğrusal olmayan
+malzeme kanunu hakkında önemli ipuçları
+vermektedir.
+Denklem 1-3 ile yapılan eğri uydurma çalışmaları
+sonucu tek terimli Prony serisinin deneysel veriyi
+istenen hassasiyetle temsil edebilecek sayıda değişken
+parametre içermediği, üç terimli Prony serisinde ise
+deneysel veride bulunan bilgiden daha fazla parametre
+bulunması nedeniyle parametrelerin pratik bir
+güvenlik bandı içerisinde tek değerli olarak
+belirlenemediği görülmüştür (Tablo 1 ve Şekil 6).
+Eliptik uç yönelim açısının 30 derece artımla değiştiği
+deney verisine iki terimli Prony serisi uydurularak
+elde edilen katsayılar Tablo 2’de sunulmuştur. Tablo
+2’nin değerlendirilmesinden şu sonuçlar elde
+edilmiştir:
+• 0 ve 180 derece uç yöneliminden elde edilen
+sonuçların birbirinden farklı olması (f0 için % 6, δ1
+için % 33, δ2 için % 28, τ1 için % 57 ve τ2 için %
+52) deney koşullarındaki denetimin yeterli
+olmadığının dolaylı bir göstergesidir,
+65
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+A.T. Petekkaya ve E. Tönük
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+Şekil 2. Alışma (Mullin) etkisi. (a) en yüksek tepki kuvvetinde görülen azalma biçiminde alışma etkisi, (b) en
+yüksek doku kuvvetinin sabit olması yumuşak dokunun alışma süreci bitmiş izlenimi veriyor, (c) alışma etkisi
+bitmiş izlenimi veren (b)’ye ait tepki kuvveti-yer değiştirme eğrisi, alışma etkisi görülebiliyor, (d) alışma etkisi
+bitmiş izlenimi veren (b)’ye ait histeris (mekanik enerji kaybı) yükleme devri (sayısı) eğrisi, ilerleyen devirle
+birlikte azalan histeris alışma etkisi nedeniyledir. (Preconditioning (Mullin’s) effect. (a) Reduction in peak tissue reaction force,
+(b) constant peak reaction force as if preconditioned tissue, (c) tissue reaction force versus displacement graph of (b) showing
+preconditioning effect, (d) hysteresis versus number of cycles plot of (b) showing a reduction in mechanical energy dissipation which is
+another form of preconditioning)
+100
+
+5,0
+
+Deformasyon Enerjisi (mJ)
+
+En Yüksek Tepki Kuvveti N
+
+5,5
+
+4,5
+
+4,0
+
+90
+
+80
+
+70
+
+3,5
+60
+
+3,0
+
+0
+
+0
+
+50
+
+100
+Uç Yönelim Açısı (º)
+
+150
+
+20
+
+40
+
+200
+
+60
+
+80
+
+100
+
+120
+
+140
+
+160
+
+180
+
+Uç Yönelim Açısı (deg)
+
+(a)
+
+(b)
+8,5
+
+Histeris (mJ)
+
+8,0
+7,5
+7,0
+6,5
+6,0
+5,5
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+140
+
+160
+
+180
+
+Iuç Yönelim Açısı (°)
+
+(c)
+Şekil 3. (a) En yüksek tepki kuvvetinin, (b) dokuyu deforme etmek için gereken mekanik enerjinin ve (c)
+histerisin (mekanik enerji kaybı) eksenel simetrisi olmayan indentör ucunun açısal yönelimiyle değişimi. ((a)
+Variation of maximum tissue reaction force, (b) variation of deformation energy, (c) variation of hysteresis with angular orientation of the
+non-axially symmetric indenter tip orientation)
+
+66
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+A.T. Petekkaya ve E. Tönük
+
+azalma eğilimine girmiştir. Bu sonuç daha uzun
+dönemli bir alışma etkisi olabileceğine işaret
+etmektedir ancak bu çalışmada deney süresinin
+120 saniye ile kısıtlı olması nedeniyle kesin
+yargıya varmak için daha uzun süreli deneyler
+yapılması gereklidir.
+Deneysel
+Prony 1
+Prony 2
+Prony 3
+
+4,4
+4,3
+
+Tepki Kuvveti (N)
+
+4,2
+
+Şekil 4. Gevşeme deney verisi (Relaxation data)
+
+4,1
+4
+3,9
+3,8
+3,7
+
+f(t)
+
+y(t)
+
+3,6
+20
+
+y(t)
+y(t)
+
+c1
+
+c1
+
+c1
+
+k2
+
+c2
+
+k2
+
+c2
+
+k3
+
+c3
+
+b
+
+c
+
+Şekil 5. (a) tek terimli, (b) iki terimli ve (c) üç terimli
+Prony serisinin tek boyutlu fiziksel modeli (One
+dimensional physical models of, (a) single term, (b) two terms, (c)
+three terms Prony series)
+
+•
+
+•
+•
+
+•
+•
+
+40
+
+60
+
+80
+Zaman (s)
+
+100
+
+120
+
+140
+
+Şekil 6. Deneysel veri ve bir, iki ve üç terimli Prony
+serisi ile temsili (Experimental data, one, two and three term
+Prony series fit)
+
+k1
+
+k0
+
+a
+
+k1
+
+k0
+
+f(t)
+
+k1
+
+k0
+
+f(t)
+
+Gevşeme başlamadan önceki kuvvet, f0, için elde
+edilen en yüksek değer 90 ile 120 derece
+arasındadır ve devirli yükleme deneyleri ile
+uyumludur,
+Kısa dönem gevşeme oranı, δ1, 90 derece uç
+yönelimine kadar hemen hemen sabit bir değer
+almış, sonrasında düşme eğilimine girmiştir,
+Kısa dönem gevşeme zaman sabiti, τ1, yumuşak
+bir değişim göstermiştir, 90 derece yönelimde en
+büyük değerini, 150 derece yönelimde ise en
+küçük değerini almıştır,
+Uzun dönem gevşeme oranı, δ2, 120 derece
+yönelimde en yüksek değerini almış olmakla
+birlikte değişimi yumuşaktır,
+Uzun dönem gevşeme zaman sabiti, τ2, ilk
+deneylerde daha büyükken sonraki deneylerde
+
+Sünme Deneyleri (Creep Experiments)
+Sünme deneyleri ilk yükleme ve sünme aşamalarından
+oluşmaktadır. İlk yükleme aşaması devirli yükleme
+deneyleri gibi olduğundan inceleme dışı bırakılmıştır.
+Sünme verisi Şekil 7’de sunulmuştur ve yumuşak
+doku yer değiştirmesinde tipik üstel sönümlü artış
+göstermektedir. Gevşeme deneylerinde olduğu gibi
+atardamarlara yakın deney noktalarında nabız etkisi,
+bazı kaslar çevresinde ise solunum etkisi filtre edilmiş
+veride bile belirgin olarak gözlenmiştir.
+
+Şekil 7. Sünme Deney Verisi (Creep Data)
+
+Tablo 1. Deneysel gevşeme verisine bir, iki ve üç terimli Prony serisinin %95 güvenlik bandıyla uydurulması
+sonucu elde edilen katsayılar, hata kareleri toplamı (HKT) ve uydurulan eğrinin veriye sadakatini gösteren R2
+değerleri (* bulunan değerler için kullanılabilir bir güvenlik bandı yoktur). (One, two and three term Prony series curve fit
+
+coefficients of experimental relaxation data with 95% confidance band, sum of square error (HKT) and R2 values showing the quality of the
+fit (* for these values there is no practical confidance band))
+Terim
+f0
+HKT
+R2
+δ1
+τ1
+δ2
+τ2
+δ3
+τ3
+Sayısı
+[N]
+[s]
+[s]
+[s]
+1
+4,045
+0,1138
+42,81
+1,36
+0,9542
+± 0,005
+±0,0013
+±0,96
+2
+4,281
+0,06752
+3,568
+0,1013
+54,67
+1,137
+0,9617
+±0,014
+±0,0034
+±0,384
+±0,0016
+±3,87
+3
+4,282
+0,06761
+3,56
+0,0692*
+54,69*
+0,03214*
+54,77*
+1,135
+0,9618
+±0,015
+±0,0052
+±0,51
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+67
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+A.T. Petekkaya ve E. Tönük
+
+Tablo 2. Değişik uç yönelim açıları için gevşeme deneysel verisinin iki terimli Prony serisi ile temsili için elde
+edilen katsayılar (Two term Prony series fit coefficients of the experimental relaxation data for different indenter tip angular orientations)
+Uç Yönelim
+Açısı
+(derece)
+
+τ1 (s)
+
+δ1
+
+f0 (N)
+
+δ2
+
+τ2 (s)
+
+R2
+
+HKT
+
+0
+
+4,28
+
+0,0675
+
+3,57
+
+0,1013
+
+54,7
+
+1,137
+
+0,962
+
+30
+
+4,58
+
+0,0653
+
+3,02
+
+0,0959
+
+41,5
+
+0,447
+
+0,986
+
+60
+
+4,72
+
+0,0639
+
+3,77
+
+0,0950
+
+54,5
+
+0,520
+
+0,984
+
+90
+
+5,03
+
+0,0630
+
+4,78
+
+0,0809
+
+30,6
+
+1,330
+
+0,961
+
+120
+
+5,03
+
+0,0394
+
+2,12
+
+0,1281
+
+24,3
+
+1,346
+
+0,974
+
+150
+
+4,58
+
+0,0330
+
+2,03
+
+0,0895
+
+21,8
+
+0,533
+
+0,974
+
+0,706
+
+0,962
+
+180
+
+4,53
+
+0,0453
+
+3,52
+
+0,0734
+
+26,4
+
+Ortalama
+
+4,68
+
+0,05
+
+3,26
+
+0,09
+
+36,3
+
+St. Sapma
+
+0,28
+
+0,01
+
+0,97
+
+0,02
+
+14,0
+
+Tablo 3. Deneysel sünme verisine bir, iki ve üç terimli Prony serisinin %95 güvenlik bandıyla uydurulması
+sonucu elde edilen katsayılar, hata kareleri toplamı (HKT) ve uydurulan eğrinin veriye sadakatini gösteren R2
+değerleri (* bulunan değerler için kullanılabilir bir güvenlik bandı yoktur). (One, two and three term Prony series curve fit
+
+coefficients of experimental creep data with 95% confidance band, sum of square error (HKT) and R2 values showing the quality of the fit (*
+for these values there is no practical confidance band))
+Terim
+Sayısı
+1
+
+δ′1
+
+y0
+[mm]
+18,73
+±0,01
+18,55
+±0,02
+18,55
+±0,02
+
+2
+3
+
+τ′1
+[s]
+22,67
+±0,93
+4,898
+±0,751
+4,906
+±1,028
+
+0,03141
+±0,0063
+0,02169
+±0,00175
+0,02167
+±0,0031
+
+δ′2
+
+τ′2
+[s]
+
+δ′3
+
+τ′3
+[s]
+
+41,74
+±5,71
+41,7
+±28,2
+
+1,058*105*
+
+0,8829
+
+3,661
+0,03*
+
+R2
+
+4,789
+0,02169
+±0,00127
+0,02214
+±0,00984
+
+HKT
+
+0,9105
+
+3,667
+
+0,9103
+
+Tablo 4. Değişik uç yönelim açıları için sünme deneysel verisinin iki terimli Prony serisi ile temsili için elde
+edilen katsayılar (Two term Prony series fit coefficients of the experimental creep data for different indenter tip angular orientations)
+Uç Yönelim
+Açısı
+(derece)
+
+τ'1 (s)
+
+δ'1
+
+y0 (mm)
+
+δ'2
+
+τ'2 (s)
+
+HKT
+
+R2
+
+0
+
+22,1
+
+0,02213
+
+6,595
+
+0,1568
+
+250,1
+
+8,733
+
+0,9721
+
+30
+
+22,14
+
+0,005998
+
+0,419
+
+0,03591
+
+65,75
+
+44,68
+
+0,5419
+
+60
+
+19,44
+
+0,04348
+
+5,466
+
+0,02928
+
+99
+
+35,31
+
+0,6859
+
+90
+
+17,75
+
+0,04353
+
+4,301
+
+0,223
+
+671,2
+
+10,82
+
+0,9067
+
+120
+
+19,62
+
+0,05709
+
+5,744
+
+0,4
+
+493,4
+
+24,33
+
+0,9604
+
+150
+
+19,89
+
+0,05784
+
+9,331
+
+0,02673
+
+9,325
+
+44,94
+
+0,78
+
+180
+
+19,94
+
+0,05419
+
+4,869
+
+0,7
+
+1189
+
+35,3
+
+0,9134
+
+Ortalama
+
+20,1257
+
+0,0406
+
+5,2464
+
+0,2245
+
+396,8250
+
+St Sapma
+
+1,5500
+
+0,0196
+
+2,6814
+
+0,2498
+
+424,6851
+
+Elde edilen sünme verilerine bir, iki ve üç terimli
+Prony serileri en küçük fark kareleri toplamı
+yöntemiyle uydurulmuştur (Denklem 4-6).
+
+(
+(
+
+)
+)
+
+(4)
+y= y0 1 + δ '1 1 − e− t τ '1 
+(t) 
+
+(5)
+y= y0 1 + δ '1 1 − e− t τ '1 + δ '2 1 − e− t τ '2 
+(t) 
+
+y= y0 1 + δ '1 1 − e − t τ '1 + δ '2 1 − e − t τ '2 + δ '3 1 − e − t τ '3  (6)
+(t)
+
+
+
+(
+
+(
+
+)
+
+)
+
+(
+
+)
+
+(
+
+)
+
+Burada y(t) yer değiştirmenin zaman içinde olan
+değişimi, y0, t = 0 anında oluşan yer değiştirmeyi
+(mm), δ′i sünme oranını (birimsiz), τ′i sünme zaman
+sabitini (saniye) temsil etmektedir. Ayrıca τ′1 ≤ τ′2
+≤τ′3 olacak biçimde, büyüyen indisin uzun dönem
+
+68
+
+davranışı temsil etmesi sağlanmıştır. Bu denklemler,
+daha önce Şekil 5’de sunulan tek boyutlu, fiziksel ve
+doğrusal viskoelastik malzeme modellerini temsil
+etmektedir ve kullanılacak doğrusal olmayan
+malzeme kanunu hakkında önemli ipuçları
+vermektedir.
+Denklem 4-6 ile yapılan eğri uydurma çalışmaları
+sonucu tek terimli Prony serisinin deneysel veriyi
+istenen hassasiyetle temsil edebilecek sayıda değişken
+parametre içermediği, üç terimli Prony serisinde ise
+deneysel veride bulunan bilgiden daha fazla parametre
+bulunması nedeniyle parametrelerin pratik bir
+güvenlik bandı içerisinde tek değerli olarak
+belirlenemediği görülmüştür (Tablo 3).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+Eliptik uç yönelim açısının 30 derece artımla değiştiği
+deney verisine iki terimli Prony serisi uydurularak
+elde edilen katsayılar Tablo 4’de sunulmuştur. Tablo
+4’ün değerlendirilmesinden şu sonuçlar elde
+edilmiştir:
+• 0 ve 180 derece uç yöneliminden elde edilen
+sonuçların birbirinden farklı olması (y0 için % 10,
+δ′1 için % 145, δ′2 için % 346, τ′1 için % 26 ve τ′2
+için % 375) deney koşullarındaki denetimin
+yeterli olmadığının dolaylı bir göstergesidir,
+• Sünmenin başlamasından önceki yer değiştirme,
+y0, 30 derecede en küçük değerini, 90 derecede
+ise en yüksek değerini (gevşeme deneyinde en
+düşük kuvvetin elde edildiği açıyla aynı) almıştır,
+• Kısa dönem sünme oranındaki, δ′1 değişiklik
+büyüktür ve en küçük değerini 30 derecede
+almıştır, 120 ile 180 dereceler arasında ise fazla
+değişiklik göstermemiştir,
+• Kısa dönem sünme zaman sabiti, τ′1, 30 derecede
+en küçük, 150 derecede en büyük değerini
+almıştır ve geniş bir aralıkta değişkenlik
+göstermektedir,
+• Uzun dönem sünme oranı, δ′2 30 ile 60 derece
+arasında bir yerde en küçük değerini 150 derece
+civarında da en yüksek değerini almaktadır,
+• Uzun dönem sünme zaman sabiti, τ′2 yüksek
+değişkenlik göstermektedir ve deney süresine
+yakın veya deney süresinden daha uzun zaman
+sabitlerinin geçerliği şüphelidir.
+4. SONUÇ (CONCLUSION)
+Bu çalışmada sunulan deneysel sonuçlar yumuşak
+doku ile çevrenin mekanik etkileşimini bilgisayarda
+modellemek üzere yumuşak doku mekanik
+davranışını temsil edecek malzeme kanununun
+belirlenmesi ve bu kanuna ait katsayıların
+belirlenmesi için yürütülen çalışmaların bir ara
+sonucudur.
+Bu çalışmada, yumuşak doku mekanik yanıtının kendi
+fizyolojik ortamı içinde, canlıyken ve bireye özel
+olarak elde edilebilmesi için elipsoid uca sahip
+indentör ile deneyler yapılmıştır. Çalışma sonuçları
+değerlendirilirken indentör deneylerine ait aşağıda
+sayılan sakınca ve kısıtlamaların göz önünde
+bulundurulması gerekir:
+• Deney koşulları üzerindeki denetim diğer deney
+yöntemlerine göre daha azdır,
+• Deney örneğinin düzgün bir geometrisi olmadığı
+için elde edilen kuvvet-yer değiştirme-zaman
+verisinden malzeme kanununu belirlemek için
+kullanılacak gerilme-gerinme-zaman bağıntısının
+elde edilmesi evrik sonlu elemanlar analizi gibi
+ek bir işleme gerektirmektedir ve bu ek işleme
+deneysel hatalar ve belirsizliklerin daha da
+büyümesine neden olabilir,
+• Yumuşak doku mekanik yanıtı deney bölgesinde
+bulunan deri, kas, yağ v.b. dokuların tümünün
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+A.T. Petekkaya ve E. Tönük
+
+bileşke davranışını temsil etmektedir ve her bir
+dokunun mekanik davranışının elde edilmesi
+ancak ciddi basitleştirmeler ve geçerliği tartışmalı
+varsayımlarla elde edilebilir.
+Devirli yükleme deneylerinde elde edilen tepki
+kuvveti-yer değiştirme verisi literatürde de yer aldığı
+gibi artan yer değiştirme ile daha direngen bir hale
+gelmektedir. Yine ilgili literatürde sıkça sözü geçen
+dokunun ilk birkaç devirde daha direngen davrandığı,
+sonraki devirlerde direngenliğin bir miktar düştüğü ve
+tekrar edilebilir sonuçlar elde edildiği (alışma/Mullin
+etkisi) bir grup veride gözlenmiştir. Bu çalışmada
+gözlenen, tüm deneysel verilerde deformasyon
+enerjisi ve mekanik enerji kaybında (histeris)
+gözlemlenen alışma etkisi ise yazarların bilgisi
+dahilinde literatürde yer almamaktadır. Bu davranış,
+yumuşak doku malzeme kanununda yer alması
+gereken bir özelliktir.
+Biyolojik yumuşak dokuların yöne bağlı bir davranış
+gösterdiği uzun süreden beri bilinmektedir. Bu
+davranışın eksenel simetrisi olmayan bir indentör ucu
+ile kısmen belirlenebileceğini Bischoff [49] kuramsal
+olarak göstermiş olmakla beraber yazarların bilgisi
+dahilinde uygulaması ilk kez yapılmaktadır.
+Gevşeme ve sünme deneyleri pratik nedenlerle 120
+saniye süreli ve eliptik uç yönelim açısı 30 derece
+artımlarla değişecek biçimde yapılmıştır. Her iki
+deneyin sonuçları yumuşak doku mekanik yanıtının
+iki terimli Prony serisi ile istenen hassasiyetle temsil
+edilebildiğini göstermiştir. Öte yandan alışma etkisini
+modellemek için zaman sabiti daha büyük üçüncü bir
+terime gereksinim olabileceği, bu terimin oranını ve
+zaman sabitini belirlemek için yeni deneylere
+gereksinim duyulabileceği yönünde ipuçları elde
+edilmiştir. Gevşeme ve sünme deneylerinde elde
+edilen oranlar ve zaman sabitlerinin yöne bağımlı
+olabileceği [50] ve araştırmanın bu yönde de
+ilerleyebilmesi için mevcut indentör cihazının
+teknolojik gelişmelerle uyumlu olacak şekilde
+güncellenmesi ve daha kaliteli veri elde edilmesi
+gündeme gelmiştir.
+Yumuşak biyolojik dokular üzerinde yapılan indentör
+deneyleri aracılığıyla bireye ve noktaya özel yumuşak
+doku mekanik yanıtı ile ilgili ayrıntılı bilgiler
+edinilmektedir. Bu bilgiler hem yumuşak biyolojik
+dokuların değişik yüklere mekanik yanıtının
+kestirilmesinde katkı sağlayacak hem de güvenilir ve
+kestirimci bir yumuşak doku mekanik malzeme
+kanunu oluşturulması ve bu kanuna ait bireysel ve
+ilgilenilen anatomik bölgeye has malzeme
+katsayılarının belirlenmesini sağlayacaktır. Böylece
+insan bedeni ile mekanik etkileşime giren protez,
+ortez, ayakkabı, yatak, koltuk vb. ürünlerin
+tasarımında sonlu elemanlar yöntemi kullanılarak
+deneme yanılma süreci kısaltılabilecek, mekanik
+açıdan daha üstün tasarımlar daha kısa sürede elde
+
+69
+
+A.T. Petekkaya ve E. Tönük
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+edilebilecektir. Yine elde edilen malzeme kanununun
+cerrahi eğitimi veya andırımı sırasında kullanılan
+sanal gerçeklik uygulamalarına önemli katkıları
+olabilecektir.
+
+10.
+
+TEŞEKKÜR (ACKNOWLEDGMENT)
+Bu çalışmada kullanılan indentör cihazı TÜBİTAK
+MİSAG-183 desteği ile geliştirilmiştir. Yazarlardan
+Ali Tolga Petekkaya TÜBİTAK yurtiçi yüksek lisans
+bursiyeridir. İndentör cihazının eliptik uçları Makina
+Mühendisi Emir Birant, Birant Makina ve
+Mühendislik tarafından üretilmiştir.
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+70
+
+Torres-Moreno R., Biomechanical analysis of
+the interaction between the above-knee
+residual limb an prosthetic socket, Doktora
+Tezi, Bioengineering Dept., Univ. Strathclyde,
+Glasgow, U.K., 1991.
+Zachariah R., Sanders S. G., J. E., “Interface
+Mechanics in Lower-Limb External Prosthetics:
+A Review of Finite Element Methods”, IEEE,
+Transactions on Rehabilitation Engineering,
+Cilt. 4, 288-302, 1996.
+Silver-Thorn M. B., Steege J. W., Childress, D.
+S., “A review of prosthetic interface stress
+investigations”, the Journal of Rehabilitation
+Research and Development., Cilt 33, 253–266,
+1996.
+Zhang M., Lord M., Turner-Smith A. R., Roberts
+V. C., “Development of a nonlinear finite
+element modeling of the below-knee prosthetic
+socket interface”, Medical Engineering &
+Physics, Cilt 17, 559–566, 1995.
+Zhang M., Mak A. F. T., “Finite element analysis
+of the load transfer between an above-knee
+residual limb and its prosthetic socket—Roles of
+interface friction and distal-end boundary
+conditions”,
+IEEE,
+Transactions
+on
+Rehabilitation Engineering, Cilt. 4, 337–346,
+1996.
+Commean P. K., Smith K. E., Vannier M. W.,
+Szabo B. A., Actis R. L., “Finite element
+modeling and experimental verification of lower
+extremity shape change under load”, Journal of
+Biomechanics, Cilt 30, 531–536, 1997.
+Tanaka M., Akazawa Y., Nakagawa A., and
+Kitayama I., “Identification of pressure
+distribution at the socket interface of an aboveknee prosthesis”, Advances in Engineering
+Software, Cilt. 28, 379–384, 1997.
+Zhang M., Mak A. F. T., Roberts V. C., “Finite
+element modeling of a residual lower-limb in a
+prosthetic socket: A survey of development in the
+first decade,” Medical Engineering & Physics,
+Cilt 20, 360–373, 1998.
+Silver-Thorn M. B., “In vivo indentation of lower
+extremity soft tissues”, IEEE, Transactions on
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+Rehabilitation Engineering, Cilt 7, 268–277,
+1999.
+Simpson, G., Fisher, C., Wright, D.K., “Modeling
+the interactions between a prosthetic socket,
+polyurethane liners and the residual limb in
+transtibial amputees using non-linear finite
+element
+analysis”,
+Biomedical
+Sciences
+Instrumentation, Cilt 37, 343-347, 2001.
+Lin, C.-C., Chang, C.-H., Wu, J.-L., Wu, C.-L.,
+Liao, I.-C., Juan, H.-H., “Finite element analysis
+of the interface stresses between the stump and
+socket for a below-knee amputee”, Journal of
+Medical and Biological Engineering, Cilt 21,
+23-30, 2001.
+Tönük, E., Silver-Thorn, M. B., “Nonlinear
+Elastic Material Property Estimation of Lower
+Extremity Residual Limb Tissues” IEEE,
+Transactions on Neural Systems and
+Rehabilitation Engineering Cilt 11, 43-53,
+2003.
+Tönük, E., Silver-Thorn, M. B., “Nonlinear
+Viscoelastic Material Property Estimation of
+Lower Extremity Residual Limb Tissues”,
+ASME Journal of Biomechanical Engineering
+Cilt 126, 289-300, 2004.
+Lin, C.-C., Chang, C.-H., Wu, C.-L., Chung, K.C., Liao, I.-C., “Effects of liner stiffness for
+trans-tibial prosthesis: A finite element contact
+model”, Medical Engineering & Physics Cilt
+26, 1-9, 2004.
+Goh, J.C.H., Lee, P.V.S., Toh, S.L., Ooi, C.K.,
+“Development of an integrated CAD-FEA
+process for below-knee prosthetic sockets”,
+Clinical Biomechanics Cilt 20, 623-629, 2005.
+Jia, X., Zhang, M., Li, X., Lee, W.C.C., “A
+quasi-dynamic nonlinear finite element model to
+investigate prosthetic interface stresses during
+walking for trans-tibial amputees”, Clinical
+Biomechanics Cilt 20, 630-635, 2005.
+Faustini, M.C., Neptune, R.R., Crawford, R.H.,
+“The quasi-static response of compliant
+prosthetic sockets for transtibial amputees using
+finite element methods”, Medical Engineering
+& Physics Cilt 28, 114-121, 2006.
+Chen, N.-Z., Lee, W.C.C., Zhang, M., “A robust
+design procedure for improvement of quality of
+lower-limb prosthesis”, Bio-Medical Materials
+and Engineering Cilt 16 309-318, 2006.
+Portnoy, S., Yarnitzky, G., Yizhar, Z., Kristal, A.,
+Oppenheim, U., Siev-Ner, I., Gefen, A., “Realtime patient-specific finite element analysis of
+internal stresses in the soft tissues of a residual
+limb: A new tool for prosthetic fitting”, Annals
+of Biomedical Engineering Cilt 35, 120-135,
+2007.
+Sensinger, J.W., Weir, R.F.Ff., “Modeling and
+preliminary testing socket-residual limb interface
+stiffness of above-elbow prostheses”, IEEE
+Transactions on Neural Systems and
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+Rehabilitation Engineering Cilt 16 184-190,
+2008.
+Portnoy, S., Yizhar, Z., Shabshin, N., Itzchak, Y.,
+Kristal, A., Dotan-Marom, Y., Siev-Ner, I.,
+Gefen, A., “Internal mechanical conditions in the
+soft tissues of a residual limb of a trans-tibial
+amputee”, Journal of Biomechanics Cilt 41,
+1897-1909, 2008.
+Lawrence, A.J., Rossman, P.J., Mahowald, J.L.,
+Manduca, A., Hartmann, L.C., Ehman, R.L.,
+“Palpating Breast Cancer by Magnetic Resonance
+Elastography”. Proceedings of the 7th Annual
+Meeting of ISMRM, Philadelphia, A.B.D., 215,
+1999.
+Manduca, A., Oliphant, T.E., Dresner, M.A.,
+Mahowald, J.L., Kruse, S.A., Amromin, E.,
+Felmlee, J.P., Greenleaf, J.F., Ehman,
+R.L.,”Magnetic resonance elastography: Noninvasive mapping of tissue elasticity”. Medical
+Image Analysis Cilt 5, 237–254, 2001.
+Gefen, A., Megido-Ravid, M., Azariah, M.,
+Itzchak, Y., Arcan, M., “Integration of Plantar
+Soft Tissue Stiffness Meausurements in Routine
+MRI of the Diabetic Foot”. Clinical
+Biomechanics Cilt 16, 921-925, 2001.
+Geyer, M. J., Brienz, D. M., Chib, V., Wang, J.,
+“Quantifying Fibrosis in Venous Disease:
+Mechanical Properties of Lipodermatosclerotic
+and Healthy Tissue”. Advances Skin & Wound
+Care Cilt 17, 131-142, 2004.
+Brett PN, Fraser CA, Henningam M, Griffiths
+MV, Kamel Y, “Automatic surgical tools for
+penetrating flexible tissues”. IEEE Engineering
+in Medicine and Biology Cilt 14:264–270, 1995.
+Burdea G, Force and touch feedback for
+virtual reality, Wiley, New York, A. B. D.,
+1996.
+Koch RM, Gross MH, Carls FR, von Büren DF,
+Fankhauser G, Parish YIH, “Simulating facial
+surgery
+using
+finite
+element
+models”
+Proceedings of Association for Computing
+Machinery's Special Interest Group on
+Graphics and Interactive Techniques Cilt 96,
+421–427, 1996.
+Avis NJ, “Virtual environment technologies”
+Minimally Invasive Therapy and Allied
+Technologies Cilt 9, 333–339, 2000.
+Szekely G, “Surgical simulators”. Minimally
+Invasive Therapy and Allied Technologies Cilt
+12, 14–18, 2003.
+Dakin, G. J., Arbealez, R.A., Molz IV, F. J.,
+Alonso, J. E., Mann, K. A., Eberhardt, A. W.,
+“Elastic and Viscoelastic Properties of the
+Human Pubic Symphysis Joint: Effects of Lateral
+Impact Loading” Journal of Biomechanical
+Engineering, Cilt 123, 218-226, 2001.
+De Vita, D., Slaughter, W. S., “A structural
+constitutive model for the strain rate-dependent
+behavior of anterior cruciate ligaments”
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+33.
+
+34.
+
+35.
+
+36.
+
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+
+A.T. Petekkaya ve E. Tönük
+
+International Journal of Solids and Structures
+Cilt 43, 1561–1570, 2006.
+Ceelen K. K., Stekelenburg A., Loerakker S.,
+Strijkers G.J., Bader D.L., Nicolay K.,
+“Compression-induced damage and internal
+tissue strains are related”, Journal of
+Biomechanics, Cilt 41, 3399–3404, 2008.
+Ottensmeyer, M. P.,“In Vivo Measurement of
+Solid Organ Tissue Mechanical Properties,”
+Studies in Health Technolgy and Informatics
+Cilt 85, 328-333, 2002.
+Black, J., “Dead or Alive: The Problem of in
+Vitro
+Tissue
+Mechanics”
+Journal
+of
+Biomechanical Material Research, Cilt 10,
+377-389, 1976.
+Fung, Y. C., “Structure and Stress-Strain
+Relationship of Soft Tissues”, American
+Zoologist, Cilt 24, pp. 13-22, 1984.
+Zheng Y. P., Mak A. F. T, “Development of an
+ultrasound indentation system for biomechanical
+properties assessment of soft tissue in vivo”,
+Proc. 17th Annu. Conf. Eng. Med. Biol., 1599–
+1600, 1995.
+Vannah W. M., Childress D. S., “Indentor tests
+and finite element modeling of bulk muscular
+tissue in vivo”, the Journal of Rehabilitation
+Research and Development, Cilt 33, 239–252,
+1996.
+Houston V. L., Luo G., Mason C. P., Beattie A.
+C., LaBlanc K. P., Garbarini M., “Tissue
+biomechanical studies for prosthetic socket
+design”,
+Proceedings
+Bioengineering
+Conference (ASME-BED), Cilt 35, 245–246,
+1997.
+Korhonen, R. K., Saarakkala, S., Töyräs, J.,
+Laasanen, M. S., Kiviranta, I., Jurvelin, J. S.,
+“Experimental and Numerical Validation for the
+Novel Configuration of an Arthroscopic
+Indentation Instrument”, Physics in Medicine
+and Biology, Cilt 48, 1565-1576, 2003.
+Yin, Y., Ling, S., Liu, Y., “A Dynamic
+Indentation Method for Characterizing Soft
+Incompressible
+Viscoelastic
+Materials”,
+Materials Science and Engineering, A, Cilt
+379, 334-340, 2004.
+Brommer, H., Laasanen, M.S., Brama, P.A.J.,
+van Weeren, P.R., Helminen, H. J., Jurvelin, J. S.,
+“In Situ and Ex Vivo Evaluation of and
+Arthroscopic Indentation Instrument to Estimate
+the Health Status of Articular Cartilage in Equine
+Metacarpophalangeal
+Joint”,
+Veterinary
+Surgery, Cilt 35, 259-266, 2006.
+Choi, A. P. C., Zheng, Y. P., “Estimation of
+Young’s Modulus and Poisson’s Ratio of Soft
+Tissue From Indentation Using Two DifferentSized Indentors: Finite Element Analysis of the
+Finite Deformation Effect”, Medical and
+Biological Engineering and Computing, Cilt.
+43, 258-264, 2005.
+
+71
+
+A.T. Petekkaya ve E. Tönük
+
+Yumuşak Biyolojik Dokuların Düzlemsel Eşyönsüz Mekanik Davranışının…
+
+44. Arıtan, S, Oyadiji, S. O., Bartlett, R. M., “A
+Mechanical Model Representation of the In Vivo
+Creep Behaviour of Muscular Bulk Tissue”,
+Journal of Biomechanics, Cilt 41, 2760-2765,
+2008.
+45. Petekkaya, A. T., In vivo Indenter Experiments
+on Soft Biological Tissues for Identification of
+Mechanical
+Material
+Model
+and
+Corresponding Parameters, Yüksek Lisans
+Tezi, Orta Doğu Teknik Üniversitesi Fen
+Bilimleri Enstitüsü Makina Mühendisliği
+Anabilim Dalı, 2008.
+46. Tönük, E., “Dizaltı Ampute Yumuşak Doku
+Mekanik Özelliklerinin Araştırılması için Deney
+Cihazı Tasarımı ve Üretimi”. Makina Tasarım
+ve İmalat Dergisi Cilt 5, Sayı 1, 42-49, Mayıs
+2003.
+
+72
+
+47. Tönük, E., “Dizaltı Protez Kullananlarda
+Yumuşak
+Doku
+Mekanik
+Özelliklerinin
+Belirlenmesi için İndentör” TÜBİTAK MİSAG183 Proje Sonuç Raporu, Haziran 2004, Ankara.
+48. Petekkaya, A. T., Tönük, E., “Yumuşak Doku
+Mekanik Davranışının Modellenebilmesi için
+Yerinde (İn Vivo) İndentör Deneyleri”, Makina
+Tasarım ve İmalat Dergisi, Cilt 10, Sayı 1, sf:
+18-31, Mayıs 2008.
+49. Bischoff, J. E., “Static Indentation of Anisotropic
+Biomaterials
+using
+Axially
+Asymmetric
+Indenters-a Computational Study”. Journal of
+Biomechanical Engineering, Cilt 126, 498-505,
+2004.
+50. Engin A. E., kişisel iletişim, 2008.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+

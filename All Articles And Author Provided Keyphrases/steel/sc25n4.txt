@@ -1,0 +1,1472 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 4, 701-712, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 4, 701-712, 2010
+
+TRIP ÇELİKLERİNİN OTOMOTİV ENDÜSTRİSİNDE
+KULLANIMININ İNCELENMESİ
+Fatih HAYAT
+Metalürji Malzeme Mühendisliği Bölümü, Mühendislik Fakültesi, Karabük Üniversitesi, 78050 Karabük
+fhayat@karabuk.edu.tr
+(Geliş/Received: 12.11.2009; Kabul/Accepted: 24.09.2010)
+ÖZET
+Türkiye ilk ağır sanayi hamlesi olan Karabük Demir-Çelik Fabrikasının kuruluşuyla birlikte entegre çelik
+üretimine başlamıştır. Türk Demir-Çelik endüstrisi, 21. Yüzyıla kadar olan süreçte farklı krizlere maruz
+kalmakla birlikte 2001 yılından itibaren hızlı bir büyüme sürecine girmiştir. Fakat küresel ekonomide gelişen
+sektörel değişimlere ayak uydurmak ve üretimi o yönlere çevirmek gereksinim haline gelmiştir. Bu amaçla
+ülkemizde önemli bir sektör olarak kendini gösteren, katma değeri ve kazanımı yüksek olan otomotiv
+endüstrisine çelik üretmek önemli bir amaç olabilir. Türkiye ve Dünya endüstrileri için gelişmiş hafif yüksek
+mukavemetli çelik üretimi kritik bir teknolojidir. Gelişmiş ülkelerde çelik endüstrisi entegre tesislere dayalı olup,
+katma değeri yüksek; gelişmiş yüksek mukavemetli çelik, paslanmaz çelik v.b. gibi ürünlere yönelmiştir.
+Ülkemizde farklı çelik sac türleri üretilmekle beraber özellikle son yıllarda yoğun bir şekilde kullanılan çift fazlı
+çelik düşük miktarlarda üretilmekte, ilerleyen yıllarda otomobil ağırlığını azaltmak amacıyla kullanımı artacak
+olan TRIP çeliği ise üretilmemektedir. Literatür çalışması son yıllarda yapılan özgün çalışmalar çerçevesinde
+biçimlendirilmiştir. Çalışmada TRIP çeliklerinin otomobillerde kullanılan diğer çeliklerle mikroyapı, çekme
+dayanımı, çarpma (darbe), şekillendirilebilme ve yorulma özellikleri gibi kriterlere bağlı olarak karşılaştırmalı
+bir biçimde sunulmuştur. Ayrıca TRIP çeliğinin otomotiv endüstrisinde kullanımı ve Türkiye’de üretilebilirliği
+hakkında da bir çalışma gerçekleştirilmiştir.
+
+F. Hayat
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+1. GİRİŞ (INTRODUCTION)
+Türk Demir-Çelik endüstrisi ülke ekonomisine büyük
+katma değer sağlayan en önemli sektörlerden biridir.
+2000’li yıllara kadar olan süreçte farklı krizlere maruz
+kalan Demir-Çelik endüstrisi 2001 yılından itibaren
+hızlı bir büyüme sürecine girmiştir [1,2]. Türkiye’nin
+toplam çelik ürünleri ihracatının %76’sı uzun
+ürünlerden oluşurken, ithalatının %56’sını da yassı
+ürünler teşkil etmektedir [2]. Yassı olarak üretilen sac
+malzemelerin kullanım alanı ve türleri her geçen gün
+artmaktadır. Yassı demir çelik üretimi aleyhine olan
+mevcut yassı/uzun ürün üretim dengesinin (% 20/80),
+gelişmiş ülkelerin seviyesine (% 60/40) çıkarılması,
+yurt içi yassı ürün ihtiyacının büyük oranda
+karşılanması, AB’ye uyum sürecinde sektör için
+gerekli olan tüm çalışmaların gerçekleştirilmesi
+sektörün temel vizyonudur. Bu vizyon doğrultusunda;
+üreticilerin, otomotiv, dayanıklı tüketim eşyası, gemi
+inşaatı, zırh çeliği ve yapısal çelik gibi yassı çelik
+tüketen sektörlerdeki yüksek büyüme potansiyelini
+esas alarak planlanan yatırımları gerçekleştirmesi
+stratejisinin hayata geçirilmesi gerekmektedir [1].
+Malzeme kullanan bütün endüstriyel alanlarda
+üreticiler, üstün özelliklere sahip hafif, dayanımı
+yüksek, şekillendirme kabiliyeti ve şekillendirme
+sonrası dayanımı iyi olan malzeme kullanmayı arzu
+ederler. Son yıllarda otomotiv endüstrisinde yolcu
+güvenliğini, sürüş emniyetini, yakıt tasarrufunu
+artırmak ve çevresel faktörlerden dolayı araçların
+karoser kısmı hafifletilmek istenmektedir [3-5].
+Özellikle enerji ve petrol krizlerinin yaşandığı
+zamanlarda bu konu ön plana çıkmaktadır. Yine enerji
+krizlerinin çıktığı 1980’li yıllardan sonra HSLA
+çeliklerinden geliştirilen çift fazlı çelikler üretimde
+büyük yer almıştır. Benzer bir şekilde 1990’lı yıllarda
+meydana gelen krizler nedeniyle TRIP çeliği
+geliştirilmiştir. TRIP çelikleri otomotiv endüstrisinin
+ihtiyaçlarını karşılamak için geliştirilmiş ileri yüksek
+mukavemetli çeliklerin en yeni türüdür.
+
+Güvenlik,
+düşük
+maliyet
+ve yakıt
+verimi
+
+ULSAB-AVC
+Gelişmiş araç
+konsepti
+
+Şekil 1. Bir otomobilde aranan özellikler (Features
+desired in a car) [7].
+Grafikte görüldüğü gibi otomobilden istenen
+özellikler öncelikle güvenli oluşu, yakıt tüketimi,
+yakıt verimliliği ve ekonomikliğidir. Diğer taraftan bu
+temel üç unsurun sağlanmasının yanında CO2
+emisyonu önemli hale gelmiştir. Ayrıca konfor,
+otomobilin ağırlığı, sürüş performansı, maliyet/fiyat
+ilişkisi önem arz etmektedir. 2009 yılında Dünya
+Çelik Topluluğu (World Steel Association) CO2
+emisyonuna özellikle dikkat çekerek 5 kişi taşıyabilen
+taşıtlarda diğer kalite çelikler yerine gelişmiş yüksek
+mukavemetli çelik kullanımının artırılması halinde
+CO2 emisyonunun % 6 oranında azalacağını rapor
+etmiştir [8]. Yapılan çalışmalara göre ortalama bir
+araç yılda 22.000 km’de 4 ton CO2 emisyonuna neden
+olmaktadır. Avrupa Komisyonunun 2009 raporuna
+göre ise yüksek hacme sahip B ve C segmenti
+araçların 2012’ye dek güçlü rekabet ve ağırlık
+azaltılması ile emisyonun 120 kg CO2/km’ye
+düşürülmesini planlamaktadır [8].
+ULSAB-AVC’nin bildirdiğine göre otomotiv
+endüstrinde çelik kullanım oranının geçen yıllarla
+birlikte azalmadığı görülmektedir. Bunun çeşitli
+nedenleri vardır. Birincisi oluşacak kazalarda koruma
+oranının yüksekliği, ikincisi ise otomotiv çeliklerini
+geliştirme çabalarının istenilen sonuçları vermesidir.
+Bir çok otomobil üreticisi daha hafif çelik kullanımını
+seçerek otomobili hafifletme yoluna gitmektedir [9].
+
+2. OTOMOTİV ENDÜSTRİSİNDE ÇELİK
+(STEEL IN AUTOMOTIVE INDUSTRY)
+
+Otomotiv endüstrisinde çelik haricindeki plastik,
+alüminyum, magnezyum vb. gibi malzemelerin
+kullanımı, araçlarda yakıt tüketimini düşürmek
+maksadıyla ağırlık azaltma kaygısından dolayı artış
+göstermesine rağmen, çelik endüstrisinde kaydedilen
+ilerlemeler sayesinde çelik; otomotiv sektörü için hala
+önemini korumaktadır [5,6]. Otomotiv endüstrisi için
+üretimde gelişmiş araç konsepti çerçevesinde en
+önemli unsurlar Şekil 1’de verilmiştir.
+
+702
+
+Dünyada her 9 saniyede bir trafik kazasının olduğu
+düşünüldüğünde güvenlik ve kullanılan malzemeler
+önem arz etmektedir [10]. Amerikan Demir-Çelik
+Enstitüsünün (American Iron and Steel Institute,
+AISI) 2003 yılında yayınladığı rapora göre; tasarımı
+çelik yapılarla yapılmış araçlarda can kaybının % 90
+oranında azaltıldığı rapor edilmiştir [11]. Şekil 2’de
+yıllara göre kullanılan malzeme türlerinin oranları ve
+kazalarda korunma oranları verilmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+F. Hayat
+
+Şekil 3. Düşük mukavemetli, konvansiyonel yüksek
+mukavemetli (HSS) ve ileri yüksek mukavemetli
+(AHSS) saclar arasındaki mukavemet ve % uzama
+ilişkisi (Strength and % elongation relationship for low strength,
+conventional HSS, and AHSS sheet steels) [12-14].
+Otomotiv çelikleri üç kısımda incelenebilmektedir.
+Şekil 2. Otomobillerde kullanılan malzemeler ve
+kazalarda koruma oranı (Materials used in automobiles and
+rate of protection in the accidents) [11].
+Alüminyum, plastik ve diğer malzemelerin ise %
+3’tür. Bu nedenle çelik otomotiv endüstrisi için
+vazgeçilmez bir malzeme olmakta ve hala araç
+ağırlığının % 55’ini oluşturduğu rapor edilmektedir
+[11].
+Yapılan diğer bir araştırmada ise güvenlik açısından
+malzemelerin maksimum dayanımının 600 MPa
+civarlarında olmasının can kaybını önemli ölçüde
+azalttığını bildirilmiştir. Örnek verilecek olursa
+DaimlerChrysler servis bilgilerine göre 2006 Jeep
+Grand Cherokee ve Commander araçların darbe
+performansını artırmak amacıyla DP600 (dual phase
+steel; çift-fazlı çelik) çeliğini kullanmışlardır [12].
+2.1. Otomotiv Endüstrisinde Kullanılan Çelik
+Türleri (Types of Steel Used in Automotive Industry)
+Her malzeme için karakteristik bir “gerilme-şekil
+değiştirme” ilişkisi vardır; bu eğri genellikle çekme
+deneyi ile saptanır ve malzemenin mekanik davranışı
+ile özellikleri hakkında çok önemli bilgiler içerir.
+Çekme deneyi, malzemenin statik veya yavaş
+uygulanan bir kuvvete karşı direncini ölçmek için
+yapılır.
+Otomotiv
+endüstrisinde
+farklı
+çelik
+türleri
+kullanılmaktadır. Şekil 3’te otomobil yapımında
+kullanılan çeliklerin mukavemet ve % uzama oranları
+verilmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+Birincisi yumuşak çelikler; IF çeliği ve diğerleri.
+İkincisi; HSS (High Strength Steel) çelikleri ve
+üçüncüsü ise AHSS (AHSS: Advanced High Strength
+Steel) çelikleridir. IF çelikleri çok az arayer atomu
+içeren çelikler, düşük akma mukavemetleri, yüksek
+uzama ve iyi derin çekilebilirlik özellikleri nedeniyle
+çok iyi biçimlenebilirlik özellikleri gösterirler ve
+otomotiv sanayinde sıklıkla kullanılırlar. Düşük
+çekme mukavemeti ve yüksek % uzama değerlerine
+sahip olup darbe absorbe özelliğine sahiptir. Yüksek
+şekillendirilebilmeye sahip olan bu çelikler beyaz
+gövdede yüksek dayanıma ihtiyaç duyulmayan
+bölgelerde kullanılır [15-17].
+İkinci tür HSS, konvansiyonel yüksek mukavemet
+çelikleri,
+genellikle
+karbon-mangan,
+fırında
+sertleştirilebilen izotropik, yüksek mukavemetli IF ve
+yüksek mukavemetli düşük alaşımlı çeliklerdir.
+Üçüncü tür AHSS ise gelişmiş yüksek mukavemet
+çeliklerinin yeni türleri: Çift faz ve martensitik çelik
+saclardır. Çift fazlı çelikler, üretildikleri yüksek
+mukavemetli düşük alaşımlı (YMDA) çeliklere göre
+oldukça iyi dayanım-süneklik ilişkisi göstermektedir.
+Bu çelikler üretildikleri YMDA ve karbon çelikleri ile
+kıyaslandığında pek çok şartlar için ideal olarak ifade
+edilebilecek özelliklere sahiptirler. Bunlar; düşük
+akma dayanımı, sürekli akma davranışı, yüksek
+pekleşme hızı, düzgün ve toplam uzama, yüksek
+yorulma dayanımı ve korozyon direnci gibi
+özelliklerdir [18-24]. Tablo 1’de otomobillerde
+kullanılan çeliklerin mekanik özellikleri ve
+otomobilde kullanıldığı bölgeler verilmiştir.
+
+703
+
+F. Hayat
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+Tablo 1. Otomobillerde kullanılan çeşitli çelik
+kalitelerinin mekanik özellikleri, (Mechanical properties of
+different types of steel qualities used in automobiles) [25].
+
+mümkün olduğu kadar yüksek yani sacın incelmeye
+karşı dirençli olması istenir [27]. İyi derin
+çekilebilirlik; kap duvarının sağlam (incelmeye karşı
+dayanıklı), yakanın ise mümkün olduğu kadar
+yumuşak olmasını gerektirir. Malzeme seçiminde bu
+önemli bir özelliktir. Otomotiv çelikleri dönemsel
+koşullar ve gelişen teknolojilerle birlikte değişim
+göstermiştir. Tablo 2’de görüldüğü gibi otomobillerde
+kullanılan çelik sacların gelişimi her dönemin farklı
+ihtiyaçlarından etkilenmiştir. Şekil 4’de Kuzey
+Amerika’da hafif araçların otomobil gövde, tavan
+(panel), tampon, süspansiyon, tekerlek, şasi gibi
+kısımlarında kullanılan çelikler verilmiştir.
+
+Akma Çekme Toplam
+nr- Uyg. alan
+muk. muk. uzama,
+değeri değeri kodu
+(MPa) (MPa) (%)
+
+Kalite
+Mild
+140/270
+BH210/340
+BH260/370
+IF 300/420
+HSLA350/
+450
+DP350/600
+TRIP450/
+800
+DP 500/800
+Mart
+950/1200
+
+140
+
+270
+
+38-44
+
+0,23
+
+1,8
+
+A,C,F
+
+210
+260
+300
+
+340
+370
+420
+
+34-39
+29-34
+29-36
+
+0,18
+0,13
+0,20
+
+1,8
+1,6
+1,6
+
+B
+B
+B
+
+350
+
+450
+
+23-27
+
+0,22
+
+1
+
+A,B,S
+
+350
+
+600
+
+24-30
+
+0,14
+
+1,1 A,B,C,W,S
+
+450
+
+800
+
+26-32
+
+0,24
+
+0.9
+
+A,B
+
+500
+
+800
+
+14-20
+
+0,14
+
+1
+
+A,B,C,W
+
+950
+
+1200
+
+5-7
+
+0.07
+
+0,9
+
+A,B
+
+*Uygulanan bölge kodu: A= yardımcı (yan) parçalar, B= gövde
+yapısı, C= paneller, F= yakıt tankı, S= süspansiyon/şasiler, W=
+tekerlekler
+
+Çekme deneyinde elde edilen yük - uzama eğrisi,
+gerçek şekil değişimi (σ-ε) eğrisine dönüştüğünde
+çoğu malzeme;
+σ = K. εn
+
+(1)
+
+biçiminde parabolik bir bağıntı gösterir. K ve n,
+malzeme sabitleri; K = Malzemenin mukavemet
+katsayısı, n = Deformasyon pekleşme üstelini gösterir.
+Yüksek yüzde uzama, düşük akma dayanımı/çekme
+dayanımı oranı, yüksek n değeri malzemenin iyi
+gerilebilirlikte olduğunu gösterir. Gerilebilirlik artan n
+değeri ile artar [26]. Levhanın incelmeye karşı
+gösterdiği direnç çekme deneyi yardımı ile
+ölçülmektedir. Bu deneyde belli bir uzamada (örnek;
+% 20) numunenin enine gösterdiği birim
+deformasyonun,
+kalınlıkta
+oluşan
+birim
+deformasyonuna oranı, R değeri bunun bir ölçüsüdür.
+İyi derin çekilebilir bir malzemede bu değerin
+
+Şekil 4. 2007 ve 2009 model otomobillerde farklı
+çeliklerin kullanım oranları (Use ratios of different types of
+steels in 2007 and 2009 model cars) [28].
+
+Tablo 2. Otomobillerde kullanılan çelik sac malzemelerin tarihsel gelişimi (Historical development of steel sheet used in
+automobiles [6].
+Yıl
+Otomobili
+etkileyen
+değişmeler
+
+1960
+
+Motorlu taşıtlara
+Petrol krizi
+hızlı geçiş
+300
+400
+
+Çekme
+mukavemeti
+(MPa)
+
+1970
+
+600
+800
+
+1980
+Yüksek kalite
+Anti-korozyon
+
+1990
+Yasal
+zorunluluklar
+(CAFE standart)
+
+2000
+Kaza değerliği
+CO2 sınırlaması
+
+Geri dönüşüm
+Süper şekillendirilebilen
+Düşük akma muk.
+IF çeliği
+BH çeliği
+çelikler
+çelikler
+C-Mn
+Fosforlu yüksek
+Yüksek mukavemetli IF çelikleri
+çeliği
+muk. çelikler
+Çökelmeyle
+DP çeliği
+TRIP çeliği
+sertleştirilmiş çelik
+TRIP çeliği
+
+>1000
+
+704
+
+1000 MPa ultra yüksek
+mukavemetli çelik
+
+1500MPa ultra yüksek
+muk. çelik
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+2.2. 2000’li Yıllarda Yapılan Çalışmalar (Studies in
+
+F. Hayat
+
+araçlar üretilebileceğini rapor etmiştir [32]. (Şekil 6).
+
+the Years 2000)
+
+Bu bölümde Dünya piyasasında yer bulmuş büyük
+otomotiv üreticileri ve Demir-Çelik üreticilerinin
+yapmış olduğu çalışmalar ele alınarak irdelenecektir.
+AISI’nın (Automotive Applications Council of AISI’s
+Steel Market Development Institute, SMDI) çelik
+geliştirme enstitüsünün raporunda 2007 model taşıtla
+2009 model taşıt arasında AHSS çeliklerinin
+kullanımının % 10’dan % 15’e çıkmış olduğu
+belirlenmiştir. AHSS çeliğinin kullanım oranının
+artışıyla birlikte toplam gövde ağılırlığında 70 kg.
+azalma olduğu bildirilmiştir. World Steel Association
+[29], geleneksek çeliklerin yerine gelişmiş çelik
+kullanımıyla beyaz gövde, araç ağırlığı, yakıt
+tasarrufu, gaz emisyonu ve maliyetteki değişimi
+araştırmıştır (Şekil 5).
+
+Şekil 5. Otomobil imalatında dikkat edilen 5 önemli
+unsurun AHSS çeliği kullanımıyla değişimi (The change
+
+Bir başka çalışmada Arcelor Auto, otomobillerde
+gelişmiş çeliklerin kullanımı ile ağırlıktaki azalışın
+otomobilin bölgeleri arasında farklılık gösterdiğini
+rapor etmiştir [32,33]. Otomobilin bir bölgesinden
+örnek verilecek olursa; arka panel bölgesinde gelişmiş
+çelik kullanımı (TRIP, DP çeliği vb.,) ile ağırlığın 22
+kg’dan 17 kg’a düştüğü ve % 24 oranında ağırlıktan
+tasarruf sağlandığı bildirilmiştir. Ön panellerde
+ağırlıktan tasarrufun % 28’e çıktığı, arka ve ön kapıda
+ise ağırlıktaki düşüş oranının % 18 olduğu rapor
+edilmiştir. Ayrıca ArcelorMittal firması, 2007 itibarı
+ile son çalışmalarla geliştirilmiş olan TRIP 1200 ve
+DUAL 1200 çeliklerinin üretimine başlandığını
+bildirmiştir [32]. Dünya genelinde üretilen BMW-6
+(2009 model) otomobil serisinde gövde yapısı ve ana
+kısımları olmak üzere AHSS çeliği oranı % 32’ye
+çıkarılmıştır. Ortalamanın üstünde AHSS kullanan
+diğer yeni modeller ise Chevrolet Traverse, Ford F150, Chrysler Town and Country olmuştur [13].
+Ayrıca Corus 2007 [33], raporunda Volvo S80, XC90,
+V50, S40, C70, C30 ve XC60 modellerinde ağırlıktan
+tasarrufun yanında yanal yükler, darbeler göz önünde
+bulundurularak kapı çerçevelerinde ve beyaz gövdede
+gelişmiş yüksek mukavemetli çelik kullandığını rapor
+etmiştir. Şekil 7’te Kuzey Amerika’da araç ağırlığının
+değişimi verilmiştir.
+
+of 5 important issues that are paid attention in the production of
+automobiles with AHSS Steel) [29].
+
+Corus 2008 (Tata group) raporunda otomobil
+ağırlığını AHSS çeliğinin kullanımını artırarak 60 kg
+azalttığını ve daha fazla AHSS çeliği kullanımı ile bu
+ağırlık tasarrufunun 100 kg’a çıkarılabileceğini ve
+CO2 emisyonundan her bir aracın kullanımı boyunca
+1 ton tasarruf sağlanacağı bildirilmiştir [30].
+Dünyanın bir numaralı çelik üreticisi ArcelorMittal
+[31] ise 2008 yılı raporunda ultra-hafif yüksek
+mukavemet çeliklerinin kullanımı ile ağırlığın gaz
+silindirlerinde % 50, otomobil parçalarında % 40
+azaldığını, bununla birlikte gaz emisyonunun da
+azaldığını bildirmiştir [31]. ArcelorMittal gelişmiş
+çelikler üzerine çalışmaları yoğunlaştırarak geleneksel
+çeliklerin yerine kullanımını artırıp % 20 daha hafif
+
+Şekil 7. 2020 yılına kadar Kuzey Amerika’da araç
+ağırlığının değişimi (The change of vehicle weight in North
+America by 2020) [9].
+Ducker Worldwide’ın Kuzey Amerika’da araç
+ağırlığının değişimiyle ilgili yaptığı çalışmada 2004
+yılına kadar artış sürecine giren araç ağırlığının 2020
+yılına kadar düşürüleceğinin planladığını bildirmiştir.
+
+Şekil 6. Otomobillerde gelişmiş çelik kullanılan bölgeler ve ağırlık düşüş oranları (Parts where improved steel is used in
+automobiles and weight loss rates) [31]
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+705
+
+F. Hayat
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+TRIP (TRansformation Induced Plasticity) çelikleri
+otomotiv endüstrisi için geliştirilmiş yüksek
+mukavemetli (AHSS) çeliklerin en yeni türüdür [3549]. (Şekil 8).
+Ferrit
+Martensit
+Beynit
+
+Mühendislik gerilmesi (MPa)
+
+3. TRIP ÇELİKLERİ (TRIP STEELS)
+
+Mühendislik birim deformasyonu (%)
+Kalıntı
+ö t it
+
+Şekil 8. TRIP çeliğinin mikroyapısı
+[36, 50].
+
+(Microstructure of
+
+TRIP steel)
+
+Mikroyapıda yumuşak ferrit matris içinde, beynit ve
+kalıntı östenit içerdiğinden üç fazın da belli oranlarda
+üstün mekanik özellikleri malzeme gelişimine katkı
+sağlamaktadır [35-48]. Bazen kalıntı östenitle beraber
+çeşitli
+miktarlarda
+sert
+martensit
+fazı
+görülebilmektedir. Bu grup çeliklerin önemli şekil
+verme özellikleri esas olarak spesifik bir şekilde
+ayarlanmış
+mikrobileşen
+kalıntı
+östenitten
+türetilmektedir [39,49]. TRIP çelikleri diğer çeliklere
+nazaran daha kompleks mikroyapıya sahiptir.
+İhtiyaçlara cevap vermesi için geliştirilen TRIP
+çeliklerinin mekanik özellikleri mikroyapı değişimi
+ile (boyut, şekil ve dağılım) değişebilmektedir
+[51,52]. TRIP çeliklerinde mikroyapıdaki fazların
+boyutları düşürülebilir; öyle ki beynit ve östenit 1 ila
+3 µm arasında iken ana yapı ferrit 5 ila 10 µm
+arasında olabilmektedir [36,52]. Şekil 9’da TRIP
+çeliğinin ısıl işlemi esnasında meydana gelen faz
+dönüşümleri verilmiştir.
+
+Şekil 10. Otomobillerde en çok kullanılan çeliklerin
+çekme grafikleri (Tensile graphics of mostly used steels in
+automobiles) [13].
+TRIP çeliği grafikteki iki çelik türünden de mekanik
+özellikler açısından daha üst seviyede olup uzama
+düşmeden dayanımda artış görülmüştür [44-47].
+Corus 2002 yılında, otomobil ağırlığının darbelere
+dayanıklı olarak azaltmaya yönelik yapmış olduğu bir
+çalışmada, araç ağırlığını azaltacak en yüksek
+potansiyele sahip çelikleri incelemiştir.
+(a)
+
+(b)
+
+Şekil 9. Termomekanik ısıl işlem esnasında faz
+dönüşümleri (Phase transformations during thermomechanical
+heat treatment) [53].
+Fazların renkleri ferrit gri, beynit siyah ve kalıntı
+östenit beyaz renkte belirlenmektedir [53-58]. TRIP
+çeliklerinin otomobillerde kullanılan diğer çeliklerle
+karşılaştırmalı çekme grafikleri Şekil 10’da verilmiştir
+[13].
+
+706
+
+Hidroform
+Dinamik
+Statik
+
+Hidroform
+Dinamik
+Statik
+
+Şekil 11. Otomobillerde kullanılan çeliklerin (a)
+eksenel ve (b) yanal çarpma (darbe) deneyi sonucunda
+ağırlık azaltma potansiyelleri (Weight reduction potentials
+of the steels used in automobiles as a result of axial crash and
+bending crash experiments) [58].
+
+Yeni emniyet düzenlemelerine uymak için otomobil
+üreticileri; çarpışma enerjisini absorplamak için ön
+kısmı yeniden dizayn etmekte ve yolcu kabininde
+içeri göçmeyi önlemeye çalışmaktadır. Bu nedenle
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+F. Hayat
+
+hidroform, dinamik ve statik yükler altında darbe
+deneyleri yapılmıştır [58]. Bu deneyler çerçevesinde
+otomobil ağırlığının azaltılmasını sağlayacak en
+yüksek potansiyele sahip çeliğin TRIP çeliği olduğu
+söylenebilir. Bu sonuç otomobil üretiminde hayati bir
+öneme sahiptir. Diğer bir çalışmada ise Uenishi 2000,
+otomobillerde ön taraf ve yan kapı konsollarında
+kullanıldığını belirttiği çeliklerinin TRIP çeliği ile
+karşılaştırmalı olarak % 0 ve % 5 ön yüklerde çarpma
+(darbe) testi yapmıştır. Deney sonucunda TRIP
+çelikleri diğer otomotiv çelikleriyle kıyaslandığında
+çarpmaya en dayanıklı (yaklaşık 8 ila 9 kJ arası) çelik
+olmuştur [58].
+
+diğer çeliklerinden daha üstün özelliklerde olduğu
+görülmektedir.
+
+Otomobiller çekme ve darbelere maruz kalmakla
+birlikte yorulmaya da maruz kalabilen araçlardır.
+Takahashi 2003, yapmış olduğu çalışmada bu
+çeliklerin yorulma dayanımı incelemiştir (Şekil 12)
+[60].
+
+Şekil 12. Otomotiv çeliklerinin yorulma dayanım
+özellikleri (Fatigue strength characteristics of automotive steels)
+[60].
+Bu çalışmada farklı akma gerilmesi çevrimlerinde çift
+fazlı çeliklerle TRIP çeliklerinin yorulma sınırlarının
+nasıl değiştiği analiz edilmiştir. Bilindiği gibi çift fazlı
+çelikler yorulma dayanımı yüksek olmasıyla bilinen
+gelişmiş bir çeliktir. Bu çalışma sonucunda TRIP
+çeliklerinin çift fazlı çeliklerden daha yüksek yorulma
+sınırlarına ve dayanımına sahip olduğu bildirilmiştir.
+Biçimlendirilebilirlik sacın hasara uğramadan istenen
+şekli
+alma
+yeteneği
+olarak
+tanımlanır.
+Biçimlenebilirlik açısından TRIP çeliği incelenecek
+olursa iki özelliğin R değeri derin çekme, n değeri de
+germe değerlerinin aynı anda iyi olması istenir. Bu
+açıdan Tablo 1’de verilen sonuçlar incelendiğinde
+TRIP çeliğinin n değerinin 0,24, r değerininse 0,9
+olduğu belirlenmiştir. TRIP çeliği deformasyon
+sertleşmesi en yüksek olan çeliktir. Diğer çeliklerle
+karşılaştırıldığında değerlerin yüksek olduğu yani
+malzemenin şekillendirilebilme kabiliyetinin iyi
+olduğu söylenebilir. Tablodaki tüm çelikler (kombine
+dayanım) ele alındığında TRIP çeliğinin özelliklerinin
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+Bütün bu literatür bilgilerine dayanan deney sonuçları
+irdelenecek olursa TRIP çeliklerinin diğer otomotiv
+çeliklerine göre her açıdan üstün mikroyapı ve
+mekanik özelliklere sahip olduğu düşünülebilir.
+3.1. TRIP Çeliğinin Üretimi ve Ülkemizde
+Üretilebilirliği (TRIP Steel Production and
+Producibility in Our Country)
+
+Yüksek mukavemetli çeliklerin üretim ısıl işlem
+rotaları benzer özelliğe sahiptir. TRIP çeliğinin üretim
+prensibi ve oluşan fazlar Şekil 13’te verilmiştir.
+
+Şekil 13. Kalıntı östenitin karbonca zenginleştirme
+yoluyla oluşum mekanizması (The formation mechanism of
+retained austenite by means of carbon enrichment) [61].
+Dünya çelik üreticilerinin TRIP çeliği hakkındaki
+araştırma ve geliştirme çalışmaları artmakta, üretim
+kapasitesi her geçen gün çoğalmaktadır. Sıcak
+haddeleme sıcaklığını çok yakından kontrol etmedeki
+başarı ve soğuk haddelemedeki son teknolojik
+gelişmeler, karbon, silisyum, mangan ve diğer rölatif
+olarak düşük fiyatlı elementlerin eklendiği TRIP
+çeliklerinin imalatına giden yolu açmıştır ve
+Japonya’da otomobillerin üretim maliyetlerinin
+düşmesine yardım etmiştir. Modern TRIP çelikleri iki
+şekilde üretilir: birincisi; sıcak hadde bantlarında veya
+soğuk hadde batlarında üretim, ikincisi ise tavlama ile
+üretimdir. Şekil 14’te sıcak hadde bantlarında TRIP
+çeliğinin üretim şeması gösterilmiştir.
+Grafikte’de görüleceği gibi hesaplanması gereken
+önemli kritik sıcaklık noktaları vardır. Bunlar A1, A3
+ve Ms sıcaklıklarıdır. Kritik tavlama sınır sıcaklıkları
+(A1 ve A3), Andrews [63] tarafından geliştirilen
+formül kullanılarak tespit edilmektedir.
+A1(0C)=(723)–(10,7Mn)–(16,9Ni)+(29,1Si)+(16,9Cr)
+(2)
++ (290As)+(6,38W)
+707
+
+F. Hayat
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+Şekil 14. TRIP çeliklerinin üretim şemaları a) Levha üretim şeması, b) Sıcak şerit-bant üretim şeması (TRIP
+
+steels
+
+production schemes, a) Sheet production schema, b) Hot strip-band production schema) [62]
+
+A3(0C)=(910)–(203 C )–(15,2Ni)+(44,7Si)+(104V)
++(31,5Mo)+(13,1W)
+(3)
+Ms ise martensit dönüşüm başlangıç sıcaklığıdır.
+Düşük ve orta alaşımlı çeliklerin Ms sıcaklığı şu
+bağıntı ile hesaplanabilir [64].
+Ms (0C) =550-(350C)-(40Mn)-(20Cr)-(10Mo)-(17Ni)(4)
+(8W)-(10Cu)+(15Co)+(30Al)
+TRIP çeliğinin üretimi için kritik öneme sahip östenit
+fazı, A1 sıcaklığının üstündeki sıcaklıklarda kararlı
+olan fakat oda sıcaklığında kararsız olan bir fazdır.
+Fakat TRIP çeliğinde karbonca zenginleştirilmiş
+östenit, kararlı faz durumdadır [61]. TRIP çelikleri ara
+sıcaklıkta izotermal tutulma ile bir miktar beynit
+oluşturularak üretilirler [65,66]. TRIP çeliklerinde
+yüksek silisyum ve karbon miktarları son mikroyapıda
+yüksek hacim oranlarında artık östenite sebep olur.
+Bütün AHSS’ler östenit veya östenit + ferrit fazından
+başlayarak kontrollü soğutmayla sıcak haddelenmiş
+ürünler için haddeleme sırasında, kaplama veya
+tavlama yapılmış ürünler için tav fırınlarında
+üretilirler [67].
+TRIP çeliklerinin üretiminde çift fazlı çeliklerden
+farklı olarak en önemli etken sürekli tavlama (CAL:
+continuous annealing line) hatlarında beynitik
+dönüşümün oluşması için malzemelerin sabit
+sıcaklıkta belli sürelerde bekletilme işlemidir. Bu
+açıdan ticari çelik sacların arzu edilen özellikleri
+(yüzey temizliği, üniform özellikler vb.) için CAL
+(sürekli tavlama hatları) hatlarında üretim tercih
+edilir. Sürekli tavlama hatları 30-40 yıldır saçak
+daldırma ile galvanizlenmiş çelikler, ince levhalar,
+yönlendirilmiş elektrik çelikleri ve paslanmaz çelik
+saclar ve yaklaşık 20 yıldır da çift fazlı çelik sac
+üretiminde kullanılmaktadır.
+
+708
+
+TRIP çeliğinin üretimi ile ilgili bazı çalışmalar şu
+şekilde olmuştur. Arif Basuki ve diğerleri 1999 [35],
+% 0,39 C, 1,37 Si ve 1,45 Mn kimyasal bileşimine
+sahip çelikte 420 oC’ de süreyi 240 s olarak
+belirtmiştir. Bir diğer çalışmada ise A. Wasilkowska
+vd., 2004 [65], beynitik dönüşümü tespit etmek
+amacıyla kritik tav sıcaklık aralığında (“α + γ”
+yaklaşık 800 oC) tavlama yaparak östenitik dönüşümü
+sağlamışlardır. Ardından numuneleri hızlı bir şekilde
+700–650 oC sıcaklığına kadar soğutmuşlardır. Düşük
+Si içeriğine sahip çelik için 400 oC/400 s ve yüksek Si
+içeriğine sahip çelik için T = 300, 350 ve 400 oC
+sıcaklıklarda t = 60, 120, 240 ve 480 s sürelerinde
+çalışma yapılmıştır. Çalışma sonucunda değişik
+parametrelerde TRIP çeliği elde edilen yüksek Si
+içeriğine sahip çelikte tavlama sıcaklığının ve
+süresinin düşüşünün, % östenitik dönüşüm ve %
+uzama miktarlarını arttırdığını rapor etmişlerdir.
+Xicheng Wei ve arkadaşları 2007 [66], çalışmasında
+kimyasal bileşimini verdiği çelik için 400 oC’de
+5dk.’nın dönüşüm için yeterli olduğunu rapor etmiştir.
+Bir başka çalışmada ise Sung-Joon Kim vd., 2007
+[67], kimyasal bileşimini vermiş olduğu çelikte
+beynitik dönüşüm için numuneyi 430 oC’de 1 dk’dan
+20 dk’ya kadar artan sürelerde 1’er dk arayla ısıl
+işleme tabi tutmuştur. Dönüşümün mekanik özeliklere
+etkisini incelemiştir. Çalışma sonucunda süre artışıyla
+kalıntı östenitin miktarının arttığı 5 dk’dan sonra ise
+kalıntı östenitin miktarının azaldığı rapor edilmiştir.
+Aynı şekilde akma, çekme ve % uzama değerlerinin
+de 5 dk’ya kadar arttığı bildirilmiştir.
+TRIP çeliklerin kimyasal bileşimleri incelendiğinde
+ise; Sung-Joon Kim [67], dayanım süneklik ilişkisi
+çerçevesinde tipik TRIP çeliklerin kimyasal bileşimini
+0,2–0,4% C, 1,0–2,5% Mn ve 1,2–2,0% Si
+olabileceğini bildirmektedir. Sourabh Chatterjee [50],
+ise TRIP çeliklerinin kimyasal bileşiminin % 0,2 C,
+%1,5 Mn ve %1 ile 2 oranında Si içerebileceğini rapor
+etmiştir. Fakat 2008 yılı itibarı ile dünyanın ikinci
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+F. Hayat
+
+büyük Demir-Çelik üreticisi konumunda olan Nippon
+Steel genel anlamda sıcak ve soğuk haddelenmiş
+olarak üretilen TRIP çeliklerinin kimyasal
+bileşimlerini ve mukavemet değerlerini Tablo 3’deki
+gibi vermiştir [61].
+
+sırada olan Nippon Steel [68] TRIP çeliğini üretmekte
+ve satmaktadır. Özellikle son yıllarda bu çeliklerle
+ilgili yatırımları artarak devam etmektedir. Son olarak
+teknolojik ilerleme ve geliştirme çabaları sonucunda
+Dünyanın öncü Demir-çelik üreticisi ArcelorMittal
+[32] 2007 yılında DP 1200 ve TRIP 1200 kalite
+çeliklerinin üretimine başlamıştır. Bu açıdan soğuk
+haddeli ve galvaniz kaplanmış çelik üreterek sınıf
+atlayan Erdemir T.A.Ş. Dünya Demir-Çelik
+piyasasında 2009 yılında 30. sırada yer bulmuştur
+[68]. Bu açıdan yerini sağlamlaştırmak ve üst sıralara
+çıkmak amacıyla gelişmiş yüksek mukavemetli çelik
+üretimine TRIP çeliğiyle hız verme yoluna gidebilir.
+
+Tablo 3. TRIP çeliklerinin geleneksel üretim
+özellikleri (Traditional production characteristics of TRIP steels)
+[61].
+Tip
+Soğuk
+haddeli
+Soğuk
+haddeli
+Soğuk
+haddeli
+Sıcak
+haddeli
+Sıcak
+haddeli
+Sıcak
+haddeli
+Sıcak
+haddeli
+
+Kalınlık
+(mm)
+
+Akma
+%C %Si %Mn noktası
+
+Çekme Toplam
+muk.
+
+(N/mm2) (N/mm2)
+
+uzama
+(%)
+
+1,0
+
+0,11 1,18 1,55
+
+339
+
+614
+
+37
+
+1,2
+
+0,14 1,74 1,49
+
+411
+
+695
+
+33
+
+0,8
+
+0,15 1,98 1,64
+
+460
+
+833
+
+29
+
+1,4
+
+0,11 1,45 1,47
+
+470
+
+647
+
+36
+
+2,3
+
+0,14 1,74 1,49
+
+536
+
+753
+
+34
+
+2,3
+
+0,15 1,98 1,64
+
+571
+
+806
+
+30
+
+1,6
+
+0,21 2,05 2,21
+
+855
+
+1083
+
+22
+
+Türkiye Dünya Demir-Çelik endüstrisinde stratejik bir
+öneme sahiptir. Dünyanın bir numaralı Demir-Çelik
+üreticisi ArcelorMittal [32] 2007 raporunda
+Türkiye’nin Akdeniz, Orta Avrupa ve Ortadoğu
+ülkeleri arasında stratejik bir noktada olduğuna vurgu
+yaparak
+stratejik
+avantajlarının
+kullanılması
+gerektiğini bildirmiştir. Bu noktada TRIP çeliğiyle
+birlikte yüksek mukavemetli çelik üretimi Türkiye’nin
+pazarda elini kuvvetlendirerek ekonomik büyümeye
+büyük oranda katkı sağlayacaktır.
+4.
+
+Sonuç olarak; Türkiye TRIP çeliği üretebilecek
+endüstriyel kapasiteye sahiptir. Türkiye’de öncü
+otomobil firmalarının da bulunduğu 17 otomobil
+üreticisi fabrikalarında üretim yapmaktadır. Özellikle
+AB ile bütünleşme süreci içerisinde, Türkiye’nin,
+İspanya’nın ardından, AB’nin “otomotiv yan sanayi”
+üslerinden birisi haline gelmesi çok kuvvetle
+muhtemel görüldüğü Özel İhtisas Komisyonu
+“Dokuzuncu
+Kalkınma
+Planı,
+2007-2013”
+raporunda vurgu yapılmıştır. TÜBİTAK “2003-2023
+Strateji” belgesinde düşük emisyona sahip, uygun,
+hafifletilmiş taşıt araçları (otomotiv, demiryolu, vb.)
+sektöründe AB'nin en yüksek kapasiteli tasarım,
+geliştirme ve üretim gücüne ulaşma hedefini
+koymuştur. Ayrıca TÜBİTAK otomotiv endüstrisinde
+yıllık 10 milyar $’lık ihracat geliri ile dünyadaki ilk 8
+ülke arasında olma hedefi koymuştur. Belirlenen bu
+hedeflere ulaşabilmek için ülkemizde gelişmiş yüksek
+mukavemetli çelik (TRIP, TWIP) üretilmesi itici güç
+olabilir.
+Ülkemizde TRIP çeliği üretilmemektedir. Türkiye
+yassı çelik sektöründe tek entegre üretici olan Erdemir
+T.A.Ş’in 2005 yılında başlayan ve 2006’da
+tamamlanan özelleştirme süreci ile birlikte, kamu
+kesimi, yassı demir-çelik sektöründen tümüyle
+çekilmiştir. Ayrıca İskenderun D.Ç Fabrikasına son
+yıllarda yapılan yatırımların bu yöne yönlendirilmesi
+mümkün olabilir. Diğer taraftan çift fazlı çelik üretimi
+Erdemir T.A.Ş. tarafından gerçekleştirilmektedir.
+Dünyada 2009 yılı itibarıyla Demir-Çelik üretiminde
+uzak ara önde olan ArcelorMittal [68] ve dördüncü
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+SONUÇLAR (CONCLUSION)
+
+i.
+
+Dünyada TRIP çeliği kullanımı çevreye
+duyarlığı, yakıt tasarrufu sağlaması, kazalara
+karşı güvenirliği vb. gibi etkenlerden dolayı
+yakın gelecekte artarak devam edecektir.
+
+ii.
+
+Ülkemizde gelişmiş yüksek mukavemetli çelik
+üretimi (TRIP); ülke ekonomisinin büyütülmesi,
+geliştirilmesinde hayati öneme sahiptir. TRIP
+çeliği üretimi Demir-Çelik endüstrisine ve
+otomotiv endüstrisine Dünya ile rekabet
+üstünlüğü kazandırarak, istihdam olanakları
+sunması açısından kritik bir teknolojidir.
+
+iii. Ülkemizde yüksek mukavemetli çelik üretimi
+projesi bu bakımdan öncelikli bir proje olma
+özelliğine sahiptir. Türkiye’de hafifletilmiş araç
+üretimi ve geliştirme konsepti, Dokuzuncu
+Kalkınma Planı, 2007-2013, “Ana Metal Sanayi”
+Raporu ve TÜBİTAK “2003-2023 Strateji”
+belgesinde yer almıştır.
+iv. Ülkemiz bu çeliği üretecek endüstriyel kapasite
+ve bilgi birikime sahiptir. Erdemir CAL
+(continuous annealing line: sürekli tavlama hattı)
+hatlarıyla birlikte diğer bazı ünitelere yapacağı
+yatırımlarla TRIP çeliğini üretebilir duruma
+gelebileceği düşünülebilir.
+v.
+
+Ülkemizde TRIP çeliği üretimiyle yassı demir
+çelik üretimi aleyhine olan mevcut yassı/uzun
+ürün üretim dengesinin düzelmesine hizmet
+edilecektir. Bu nedenle TRIP çeliğinin üretimine
+yönelik yatırımların ivedilikle yapılması ve
+üretime geçilmesi gerekmektedir.
+709
+
+F. Hayat
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+KAYNAKLAR (REFERENCES)
+1. Dokuzuncu Kalkınma Planı, 2007-2013, “Ana
+Metal Sanayi”, Özel İhtisas Komisyonu
+Raporu, Ankara 2007.
+2. “Türk Demir Çelik Sektörü”, Türkiye DemirÇelik
+Üreticileri
+Derneği,
+2009.
+(http://www.dcud.org.tr/dcs.aspx).
+3. Tetsuya, M., Hasegawa, K., Kawabe, H., “UHSS
+Sheets for Bodies, Reinforcement Parts, and Seat
+Frame Parts of Automobile Ultra High-Strength
+Steel Sheets Leading to Great Improvement in
+Crashworthiness” JFE Technical Report, Vol 4,
+38-43, 2004.
+4. Manuel, F., Christoph, M.S., Colin, V., “A
+Regression on Climate Policy: The European
+Commission’s Legislation to Reduce CO2
+Emissions from Automobiles”, Transportation
+Research
+Part
+A,
+2010.
+doi:10.1016/j.tra.2009.12.001
+5. Volkan, E.E., Arısoy, C.F., Kelami, Ş.,
+“Otomotiv Endüstrisinde Çelikten Vazgeçilebilir
+Mi?”, Metal Dünyası, Vol 125, 74-81, 2003.
+6. Ushioda, K., “Recent Developments in Steel
+Sheers”, Scandinavian Journal of Metallurgy,
+Vol 28, 33-39, 1999.
+7. SSAB Swedish Steel, “Highter Strength-Lower
+Weight: Educing the Body Weighty Using Extra
+and Ultra Hight Strength Steel”, GB 2000 Lygner
+Form& Tryck 2004.
+8. “21st Century Steel”, World Steel Assosiation,
+2008-2009
+Update,
+1-32,
+2009.
+(http://www.worldsteel.org/pictures/publicationfil
+es/21st%20century%20steel.pdf
+9. Lindsay, B., Harry, E., “Automakers and
+Suppliers Accelerate Their Efforts to Reduce
+Vehicle Weight by Engineering Them for Greater
+Use of Lighter, Stronger Materials”, Mass
+Reduction Special Report, 16 March 2009.
+10. Akay, D., Kurt, M., “Otomobil Emniyet Kemeri
+Kullanılabilirlik Testi”, Gazi Üniversitesi.
+Mühendislik-Mimarlık Fakültesi Dergisi, Cilt
+21, No 1, 183-191, 2006.
+11. AISI Market Development, “An Investment in
+Steel’s Future”, American Iron and Steel
+Institute, 2002– 2003, Progress Report 2003.
+12. “Advanced High-Strength Steels–A Collision
+Repair Perspective”, Technical Information for
+the Collision Industry, June 12, 2006. (www.icar.com)
+13. “New Study Finds Increased Use of Advanced
+High-Strength Steels Helps Decrease Overall
+Vehicle Weight”, Automotive Applications
+Council,
+2010. 
+(http://www.steel.org/AM/Template.cfm?Section
+=Press_Releases9&TEMPLATE=/CM/ContentD
+isplay.cfm&CONTENTID=32077)
+14. “Advanced High Strength Steel (AHSS)
+Application Guidelines”, World Auto Steel,
+
+710
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+Version
+4.1,
+1-171,
+08
+June
+2009.
+(www.worldautosteel@org).
+Hayat, F., Demir, B., Acarer, M., Aslanlar, S.,
+“Effect of Weld Time and Weld Current on the
+Mechanical Properties of Resistance Spot
+Welded IF (DIN EN 10130–1999) Steel”,
+Kovove Materials, Vol 47, No 1, 11-17, 2009.
+Hayat, F., Demir, B., Aslanlar, S., “IF 7315
+Çeliklerinin Yapıştırmalı Nokta Direnç Kaynaklı
+Birleştirmelerinin İncelenmesi”, 14. Uluslararası
+Metalurji ve Malzeme Kongresi, İstanbul, 1618 Ekim 2008.
+Hayat, F., Demir, B., Aslanlar, S., “Nokta Direnç
+Kaynak
+Süresinin
+IF
+7114
+Çeliği
+Birleştirmelerinin Mekanik Özelliklerine Etkisi”,
+IV. Demir Çelik Kongresi, Karabük, 243-250,
+1-3 Kasım 2007.
+Hayat, F., Demir, B., Acarer, M., "0,067C ve
+1,74 Mn’lı Çift Fazlı Çeliklerin MikroyapıDayanım İlişkisi ve Kırılma Davranışları",
+Teknoloji Dergisi, Cilt 10, Sayı 1, 111-120,
+2007.
+Speich, GR., “Dual Phase Steels”, Heat Treating,
+ASM Handbook, fifth prinnting, 424-429, 1997.
+Speich, GR., Miller, RL., “Mechanical Properties
+of Ferrit-Martensite Steels” In: Kott RA, Morris
+JW, editors, “Structure and Properties of
+Dual-Phase Steels”, New York: AIME, 1-45,
+1979.
+Erdoğan, M., “The Effect of New Ferrit Content
+on Tensile Fracture Behaviour of Dual Phase
+Steels”, Journal of Materials Science, Vol 37,
+No 17, 3623-3630, 2002.
+Erdoğan, M., Priestner, R., “Effect of Martensite
+Content, its Dispertion and Epitaxial Content on
+Bauschinger Behaviour of Dual Phase Steel”,
+Materials Science and Technology, Vol 15, No
+11, 1273-1284, 1999.
+Kim, K.J. Chang, G.L., Sunghak L., “Effects of
+Martensite Morphology on Dynamic Torsional
+Behaviour in Dual Phase Steels”, Scripta
+Materialia, Vol 38, No 1, 27-32, 1997.
+Davies, R.G., “Influence of Martensite
+Composition and Content on The Properties of
+Dual-Phase
+Steels”,
+Metallurgical
+Transactions, Vol 18A, 671-679, 1978.
+The UltraLight Steel Auto Body Programme,
+“UltraLight Steel Auto Closures” Final Report,
+Porsche Engineering Services, Inc. May 2001.
+(www.ulsab-avc.org).
+Kayalı, E.S., Ensari, C., Silahtaroğlu, S., “Derin
+Çekme Kalitesindeki Saclarda Özellikleri
+Etkileyen Faktörler”, 3. Ulusal Metalürji
+Kongresi, ODTÜ, Ankara, 581-586. Aralık 1979.
+Öztürk, T., Bor, Ş., Atasoy, E., Alpas, T.,
+“Erdemir 6114 Saclarının Derin Çekme
+Özelliklerini
+Etkileyen
+Faktörler”,
+Doğa
+Mühendislik ve Çevre Dergisi, Vol 1, 318-322,
+1987.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+F. Hayat
+
+28. “New Study Finds Increased Use of Advanced
+Hıgh-Strength Steels Helps Decrease Overall
+Vehicle Weight”, American Iron and Steel
+Institute, 2009.
+29. “Environmental Case Study Automotive: an
+Advanced High-Strength Steel Family Car”,
+World
+Steel
+Association,
+2006.
+(www.worldsteel.org).
+30. Corus Research, Dev.&Technology, Corporate
+Responsibility Report 2007/08.
+31. ArcelorMittal, “How Will We Achieve: Safe
+Sustainable Steel?”, Corporate Responsibility
+Report, 2008.
+32. Flat Carbon Europe, “Client Magazine”,
+ArcelorMittal,
+September,
+2007.
+(www.arcelormittal.com/fce/repository/Update/E
+N_UpdateFCE_aug07.pdf)
+33. “Arcelor Body Concept”, Arcelor Auto, Arcelor
+Group.
+34. “50 Years as Steel Supplier to Volvo”, Corus
+Research,
+No.
+1,
+February
+2007.
+(http://www.productrange.nl/uploadz/m20071026
+115451.pdf)
+35. Basuki, A., Aernoudt, E., “Influence of Rolling
+of TRIP Steel in the Intercritical Region on the
+Stability of Retained Austenite”, Journal of
+Materials Processing Technology, Vol 89, No
+1, 37-43, 1999.
+36. Furne´mont, Q., Kempf, M., Jacques, P.J.,
+Gorken, M., Delannay, F., “On the Measurement
+of the Nanohardness of the Constitutive Phases of
+TRIP-assisted Multiphase Steels”, Materials
+Science and Engineering A, Vol 328, No 1, 26–
+32, 2002.
+37. Berrahmoune, M.R., Berveiller, S., Inal, K.,
+Moulin, A., Patoor, E., “Analysis of the
+Martensitic Transformation at Various Scales in
+TRIP
+Steel”,
+Materials
+Science
+and
+Engineering A, Vol 378, No 1, 304–307, 2004.
+38. Hutchinson, B., “Texture in Hot Rolled Austenite
+and Resulting Transformation Products”,
+Materials Science and Engineering A, Vol 257,
+No 1, 9–17, 1998.
+39. Zhao, L., Dijk, N.H., Brück, E., Sietsma, J.,
+Zwaag, S., “Magnetic and X-ray Diffraction
+Measurements for the Determination of Retained
+Austenite in TRIP steels”, Materials Science
+and Engineering A, Vol 313, No 1, 145–152,
+2001.
+40. Li, L., Wollants, P., He, Y.L., Coomman, B.C.,
+Wei X.C., Xu, Z.Y., “Review and Prospect of
+High Strength Low Alloy TRIP Steel”, Acta
+Metallurgica Sinica (English Letters) Vo1 16,
+No 6, 457-465, 2003.
+41. Hoon, H., Kim, S.B., Song, J.H., and Lim, J.H.,
+“Dynamic Tensile Characteristics of TRIP-type
+and DP-type Steel Sheets for an Auto-Body”,
+International Journal of Mechanical Sciences,
+Vol 50, No 5, 918–931, 2008.
+
+42. Dan, W.J., Li, S.H., Zhang, W.G., Lin, Z.Q., 
+“The Effect of Strain-Induced Martensitic
+Transformation on Mechanical Properties of
+TRIP Steel”, Materials and Design, Vol 29, No
+4, 604-612, 2008.
+43. Yinghui, Z., Yonli, M., Yonglin, K., Hao, Y.,
+Mechanical Properties and Microstructure of
+TRIP Steels Produced Using TSCR Process”,
+Journal of University of Science and
+Technology, Beijing Vol 13, No 5, 416-421,
+2006.
+44. WU, D., Zhuang, L., Hui-sheng, L., “Effect of
+Controlled Cooling After Hot Rolling on
+Mechanical Properties of Hot Rolled TRIP
+Steel”, Journal of Iron and Steel Research,
+International, Vol 15, No 2, 65-70, 2008.
+45. Koh-Ichi, S., Toshiki, M., Shun-Ichi H., Yoichi,
+M., “Formability of Nb Bearing Ultra HighStrength TRIP-aided Sheet Steels”, Journal of
+Materials Processing Technology, Vol 177, No
+1, 390–395, 2006.
+46. Skoalova, L., Divišová, R., Jandová, D.,
+“Thermo-Mechanical Processing of Low-Alloy
+TRIP steel”, Journal of Materials Processing
+Technology, Vol 175, No 1, 387–392, 2006.
+47. Wen, S., Lin L., Cooman, B.C.D., Wollants, P.,
+Yang, C., “Thermal Stability of Retained
+Austenite in TRIP Steel After Different
+Treatments”, Journal of Iron and Steel
+Research, International, Vol 15, No 1, 61-64,
+2008.
+48. Zhuang, L., Di, W., Rong, H., “Austempering of
+Hot Rolled Si-Mn TRIP Steels”, Journal of Iron
+and Steel Research, International, Vol 13, No
+5, 41-46, 2006.
+49. Xiaodong, Z., Zhaohui, M., Wang L., “Current
+Status of Advanced High Strength Steel for Automaking and its Development in Baosteel”,
+Baosteel Research Institute, Shanghai, 201900,
+1-8, China.
+50. Chatterjee, S., “Transformations in TRIP-assisted
+Steels: Microstructure and Properties”, Darwin
+College, University of Cambridge, November,
+2006.
+51. Hanzaki, AZ., Hodgson PD., Yue, S., “Hot
+Deformation Characteristics of Si-Mn TRIP
+Steels With and Without Nb Microalloy
+Additions”, ISIJ International, Vol 35, No 4,
+324-330, 1995.
+52. La-Neuve, P. Jacques, PhD Thesis, Universite´
+Catholique de Louvain, Belgium, 1998. 
+53. Basuki, A., and Aernoudt, E., “Effect of
+Deformation in the Intercritical Area on the Grain
+Refinement of Retained Austenite of 0.4C TRIP
+Steel”, Scripta Materialia, Vol 40, No 9, 1003–
+1008, 1999.
+54. Cooman,
+B.C.D.,
+“Structure–Properties
+Relationship in TRIP Steels Containing CarbideFree Bainite”, Current Opinion in Solid State
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+711
+
+F. Hayat
+
+55.
+
+56.
+
+57.
+
+58.
+
+59.
+
+60.
+
+61.
+
+712
+
+and Materials Science, Vol 8, No 4, 285–303,
+2004.
+Oliver, S. Jones, T.B., Fourlaris, G., “Dual Phase
+Versus TRIP Strip Steels: Microstructural
+Changes As a Consequence of Quasi-Static and
+Dynamic
+Tensile
+Testing”,
+Materials
+Characterization, Vol 58, No 4, 390-400, 2007.
+Hilditch, T.B., Speer, J.G., Matlock, D.K., 
+“Effect of Susceptibility to Interfacial Fracture on
+Fatigue Properties of Spot-Welded High Strength
+Sheet Steel”, Materials and Design, Vol 28, No
+10, 2566–2576, 2007.
+Liu, Q., Tang, D., Jiang, H., Liu, R., Tang, X., 
+“Research and Development of 780 MPa Cold
+Rolling TRIP-aided Steel”, International
+Journal of Minerals, Metallurgy and
+Materials, Vol 16, No 4, 399-406, 2009.
+“Material assessment for crash”, Corus
+Research,
+MEP/02-2002,
+(http://www.corusautomotive.com/file_source/St
+aticFiles/Microsites/Automotive/Publications/Aut
+o%20Apps%20PDFs/2008%20PDFs/Material%2
+0assessment%20for%20crash_20071101.pdf)
+Uenishi, A., Kuriyama, Y., Takahashi, M.,
+“High-Strength Steel Sheets Offering High
+Impact Energy-Absorbing Capacity”, Nippon
+Steel Technical Report, (Japan), 81, 17, 2000.
+Takahashi, M., Kawano, O., Hayashida, T.,
+Okamoto, R., Taniguchi, H., “High Strength HotRolled Steel Sheets for Automobiles”, Nippon
+Steel Technical Report, 88, 2-7, 2003.
+Sakuma, Y., Kimura, N., Itami, A., “NextGeneration High-Strength Sheet Steel Utilizing
+
+TRIP Çeliklerinin Otomotiv Endüstrinde Kullanımının İncelenmesi
+
+62.
+
+63.
+
+64.
+65.
+
+66.
+
+67.
+
+68.
+
+Transformation-Induced
+Plasticity
+(TRIP)
+Effect”, Nippon Steel Technical Report, no.64
+March 1995.
+Parish, C.M., “Fundamental Study of Phase
+Transformations in Si-Al TRIP Steels”, Bs in
+Material Science and Engineering A, NCS
+University, 2000.
+Andrew, K.W., “Empirical Formulae for the
+Calculation
+of
+Some
+Transformation
+Temperatures”, Journal of the Iron and Steel
+Institute, Vol 203, 721-727, 1965.
+Topbaş, M.A., “Isıl İşlemler”, Prestij Yayıncılık,
+Yıldız Teknik Üniversitesi, İstanbul, 1993.
+Wasilkowska, P., Tsipouridis, E.A., Werner, A.,
+Pichler, S., Traint “Microstructure and Tensile
+Behaviour of Cold-Rolled TRIP-aided Steels”,
+Journal of Materials Processing Technology,
+Vol 157–158, No 1, 633–636, 2004.
+Wei, X., Renyu, F., Li L., “Tensile Deformation
+Behavior of Cold-Rolled TRIP-aided Steels Over
+Large Range of Strain Rates”, Materials Science
+and Engineering A, Vol 465, No 1, 260–266,
+2007.
+Kim, S.J., Chang G.L., Lee, T.H., Oh, C.S.,
+“Effect of Cu, Cr and Ni on Mechanical
+Properties of 0.15 wt.% C TRIP-aided Cold
+Rolled Steels”, Scripta Materialia, Vol 48, Vol
+5, 539–544, 2003.
+“Top Steel Producer Campanies”, World Steel
+Assosiation,2009.
+(http://www.worldsteel.org/?action=programs&id
+=53)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 4, 2010
+
+

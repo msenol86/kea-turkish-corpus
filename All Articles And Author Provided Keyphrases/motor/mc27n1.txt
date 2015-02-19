@@ -1,0 +1,1147 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 1, 117-124, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 1, 117-124, 2012
+
+DİETİL ETER−MOTORİN KARIŞIMLARININ MOTOR
+PERFORMANSINA ETKİLERİNİN DENEYSEL İNCELENMESİ
+İsmet SEZER*
+*
+
+Makine Mühendisliği Bölümü, Mühendislik Fakültesi, Gümüşhane Üniversitesi, 29100, Bağlarbaşı−Gümüşhane
+isezer@gumushane.edu.tr
+(Geliş/Received: 02.03.2011; Kabul/Accepted: 28.11.2011)
+ÖZET
+Bu çalışmada, dietil eter (DEE)−motorin karışımlarının motor performansına etkileri deneysel olarak
+incelenmiştir. Yakıt karışımları motorin içerisine hacimsel olarak %2,5, %5, %7,5 ve %10 oranlarında dietil eter
+karıştırılarak hazırlanmıştır. Deneylerde direk enjeksiyonlu tek silindirli bir dizel deney motoru kullanılmış ve
+sıkıştırma oranı 20 seçilmiştir. Deneyler saf motorin ve dietil eter−motorin yakıt karışımları kullanılarak tam gaz
+durumunda ve farklı devir sayılarında yapılmıştır. Çalışma sonuçları motorine dietil eter katılmasının ortalama
+efektif basınç, döndürme momenti ve efektif güç gibi motor performans parametrelerinde düşüşe neden
+olduğunu göstermiştir. Performans parametrelerindeki düşüş artan karışım oranı ile artmıştır. Ortalama efektif
+basınçtaki maksimum düşüş %5,1 olarak DEE10 karışımı ile elde edilmiştir. Diğer taraftan, %7,5 karışım
+oranına kadar efektif verim artmış ve özgül yakıt tüketimi azalmıştır. Efektif verimde en yüksek artış %10,9
+olarak DEE7,5 karışımı ile elde edilmiştir. Aynı yakıt karışımı özgül yakıt tüketiminde %8,7 düşüş sağlanmıştır.
+Ayrıca artan dietil eter oranı ile hava fazlalık katsayısında artış ve egzoz gazı sıcaklığında azalma meydana
+gelmiştir.
+Anahtar Kelimeler: Alternatif yakıtlar, dietil eter karışımları, dizel motoru, motor performansı, yakıt tüketimi.
+
+EXPERIMENTAL INVESTIGATION THE EFFECTS OF DIETHYL ETHERDIESEL FUEL BLENDS ON THE ENGINE PERFORMANCE
+ABSTRACT
+In this study, the effects of diethyl ether (DEE)−diesel fuel blends on the performance of a diesel engine
+investigated experimentally. The blends were prepared with the addition of 2.5, 5, 7.5, and 10 vol. % of DEE
+with a specified amount of diesel fuel. In the experiments, a single cylinder direct injection (DI) diesel
+experimental engine was used and compression ratio was fixed at 20. The experiments were performed with neat
+diesel fuel and DEE−diesel fuel blends at various engine speeds and wide open throttle conditions. The results of
+the study show that DEE addition to diesel fuel causes to decrease in engine performance parameters, i.e., brake
+mean effective pressure, brake torque and brake power. The decrement in performance parameters increased
+with increasing blending ratio. The maximum decrement in brake mean effective pressure was obtained with
+DEE10 blend as about 5.1%. However, brake thermal efficiency increases and brake specific fuel consumption
+decreases up to 7.5% DEE blending ratio. The maximum increment in brake thermal efficiency was obtained
+with DEE7.5 blend as about 10.9%. The same fuel blend gives about 8.7% reduction in brake specific fuel
+consumption. Additionally, exhaust gas temperature decreases and air excess coefficient increases with
+increasing DEE blending ratio.
+Key Words: Alternative fuels, diethyl ether blends, diesel engine, engine performance, fuel consumption.
+1. GİRİŞ (INTRODUCTION)
+Dizel motorları yüksek verim ve yüksek moment,
+artan devir sayıları, dayanıklılık ve benzin motorlarına
+kıyasla daha düşük karbon monoksit (CO) ve
+hidrokarbon (HC) emisyonu salınımı gibi üstünlükleri
+
+sebebiyle özellikle hafif karayolu taşıtlarında son
+yıllarda daha yaygın kullanılmaya başlanmıştır.
+Ancak, dizel motorları özellikle konvansiyonel
+yakıtlar kullanıldığında yüksek oranda azot oksit
+(NOx), is ve katı parçacık emisyonu üretirler [1–6].
+Dizel motorlarında yakıt ekonomisi sağlamak ve
+
+İ. Sezer
+
+Dietil eter-Motorin Karışımlarının Motor Performansına Etkilerinin Deneysel İncelenmesi
+
+zararlı egzoz emisyonlarını azaltmak için bazı
+teknikler uygulanmaktadır [7]. Bu yöntemler içinde
+konvansiyonel
+yakıtlarının
+özelliklerinin
+iyileştirilmesi ve yenilenebilir alternatif yakıtların
+kullanımı kirletici emisyonlarının azaltılması ve
+gelecekteki enerji ihtiyacının karşılanması için umut
+verici bir çözüm olarak değerlenmektedir [8]. Oksijen
+içeren yakıtların (oksijenatlar) motorinde katkı olarak
+kullanımı; özellikle is ve katı parçacık emisyonlarının
+azaltılmasında ve yanmayı iyileştirerek motor
+performansının arttırılmasında, motor tasarımında
+önemli değişiklikler yapılmadan, uygulanabilen etkili
+ve ekonomik bir yöntem olarak görülmektedir [5, 7].
+Oksijenatlar içerisinde dietil eter (DEE) yüksek setan
+sayısı ve yüksek oksijen içeriği sayesinde motorin
+katkısı olarak öne çıkmaktadır. Aynı zamanda, DEE
+kabul edilebilir enerji içeriği, düşük tutuşma sıcaklığı,
+kolay buharlaşabilme özelliği ve korozif olmaması
+nedeniyle iyi bir dizel motor yakıtıdır [9, 10]. DEE
+etanoldan elde edildiği için yenilenebilir biyoyakıt
+olarak da değerlendirilmektedir. Ayrıca normal
+atmosfer şartlarında sıvı fazda olması sebebiyle
+istenen oranda motorine kolayca katılabilmektedir
+[11, 12]. Aslında, uzun zamandır dizel motorların
+soğuk havalarda çalıştırılmasında DEE’nin yardımcı
+olarak kullanımı bilinmekle birlikte, yakıt katkısı veya
+dizel motor yakıtı olarak kullanımı son zamanlarda
+ilgi çekmeye başlamıştır [13]. Bu nedenle literatürde
+DEE’nin dizel motor yakıtı veya yakıt katkısı olarak
+kullanımına yönelik oldukça az sayıda çalışma
+bulunmaktadır [7–16]. Bu çalışmada, DEE−motorin
+karışımlarının direkt enjeksiyonlu tek silindirli bir
+dizel motorunun performansına etkileri sabit bir
+sıkıştırma oranı (20) için deneysel olarak
+incelenmiştir. Bu amaçla farklı DEE−motorin
+karışımları ve motorinle elde edilen performans
+değerleri birbiriyle karşılaştırılarak elde edilen
+sonuçlar değerlendirilmiştir. Ayrıca elde edilen
+sonuçların güvenirliğini göstermek için belirsizlik
+analizi uygulanmıştır.
+2. MATERYAL VE YÖNTEM
+
+Tablo 1. Kullanılan Yakıtların özellikleri
+
+(Properties of
+
+the fuels)
+
+Özellik
+Kimyasal formül
+Molekül ağırlığı
+Yoğunluk (kg/L)
+Viskozite (cP)
+Oksijen içeriği (%)
+Kükürt içeriği (ppm)
+Kaynama noktası (°C)
+Tutuşma sıcaklığı (°C)
+Havadaki tutuşma aralığı (%)
+Stokiometrik hava-yakıt oranı
+Buharlaşma gizli ısısı (kJ/kg)
+Alt ısıl değer (MJ/kg)
+Setan sayısı
+
+Motorin
+CxHy
+190–220
+∼0,84
+2,6
+−
+∼250
+180–360
+315
+0,6–6,5
+14,6
+250
+42,5
+40–55
+
+DEE
+C4H10O
+74,12
+0,714–0,716
+0,23
+21
+−
+34,6
+160
+1,9–9,5
+11,1
+356
+33,9
+>125
+
+2.2 Deney Düzeneği ve Yöntem (Test Bed and Method)
+Şekil 1’de görülen deney düzeneği; deney motoru,
+ölçüm üniteleri ve kontrol panelinden oluşmaktadır.
+Düzenek üzerindeki deney motoru tek silindirli, dört
+zamanlı ve değişken sıkıştırma oranlı olup, silindir
+kafası değiştirilerek benzin veya dizel motoru olarak
+çalıştırılabilmektedir. Deneylerde sıkıştırma oranı 20
+olarak seçilmiştir. Deney motorunun başlıca
+özellikleri Tablo 2’de verilmiştir.
+
+(MATERIAL AND
+
+METHOD)
+
+2.1 Yakıtlar (Fuels)
+Bu çalışmada saflık derecesi %99’un üzerinde olan JT
+Baker marka DEE ve Euro−motorin kullanılmıştır.
+Belirli miktardaki motorin içerisine hacimsel olarak
+%2,5–10 oranında DEE karıştırılarak dört farklı yakıt
+karışımı hazırlanmıştır. Homojen bir karışım elde
+etmek ve faz ayrışmasını önlemek için yakıt
+karışımları
+deneyler
+sırasında
+hazırlanmıştır.
+Kullanılan motorin ve DEE’in başlıca özellikleri
+Tablo 1’de verilmiştir.
+Şekil 1. Deney düzeneğinin şematik görünümü
+(Schematic layout of experimental setup)
+
+118
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Dietil eter-Motorin Karışımlarının Motor Performansına Etkilerinin Deneysel İncelenmesi
+
+Tablo 2. Deney motorun özellikleri (Specification of the
+test engine)
+
+Tip
+Soğutma sistemi
+Silindir sayısı
+Çap × Strok
+Silindir hacmi
+Sıkıştırma oranı
+
+4 zamanlı
+Su soğutmalı
+1
+90 mm × 120 mm
+763,4 cm3
+Değişken (7,5–24,5)
+
+3. HESAPLAMALAR (CALCULATIONS)
+3.1 Motor Performans Parametrelerinin Hesabı
+(Calculation of Engine Performance Parameters)
+
+gücü
+
+aşağıdaki
+
+N e,1 = M d ω
+
+bağıntıdan
+(1)
+
+M d = F × L döndürme momenti ve
+ω = π n / 30 krank milinin açısal hızıdır.
+
+Yukarıda hesaplanan motor gücü, nem faktörü Xnem,
+ortam basıncı p0 ve ortam sıcaklığı T0 kullanılarak,
+aşağıdaki gibi standart atmosferik koşullara
+dönüştürülmüştür.
+
+0,1013 T0
+X nem
+p0
+293
+
+(2)
+
+Burada kullanılan nem faktörü Xnem kuru ve yaş
+termometre sıcaklıkları kullanılarak psikometrik
+diyagramdan belirlenmiştir.
+Ortalama efektif basınç aşağıdaki bağıntıdan
+belirlenmiştir.
+
+Pme =
+
+60 N e k
+Vh n z
+
+(3)
+
+Burada k strok sayısına bağlı bir sabit olup dört
+zamanlı motorlar için 2 alınır.
+Özgül yakıt tüketimi ve efektif verim aşağıdaki
+bağıntılar yardımıyla belirlenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+(4)
+(5)
+
+AID = 1000[33,91 c ′ + 125,6 h′
+(6)
+− 10,89 (o′ − s ′) − 2,51 (h′ − w′)]
+Burada h′ , c′ , o′ , s′ ve w′ sırasıyla birim
+
+miktardaki yakıt içerisindeki hidrojen, karbon, oksijen
+kükürt ve suyun kütlesel oranlarını göstermektedir.
+Hava fazlalık katsayısı (α) aşağıdaki gibi
+belirlenmiştir.
+
+α=
+
+(H Y )g
+(H Y )s
+
+(7)
+
+Burada stokiometrik hava−yakıt oranı (H/Y)s yakıtın
+kimyasal formülünden, gerçek hava−yakıt oranı
+(H/Y)g ise deneydeki ölçümlerden aşağıdaki gibi
+belirlenir.
+
+&
+(H Y )g = 3600 m hava
+
+(8)
+
+B
+
+Yakıt karışımları için stokiometrik hava−yakıt oranı
+(H/Y)s,kar ve alt ısıl değer AIDkar aşağıdaki gibi
+belirlenir.
+
+(H Y )s,kar = ∑
+
+yi ρ i (H Y )s,kar
+
+∑yρ
+i
+
+Burada,
+
+N e = N e,1
+
+B
+Ne
+3600
+ηe =
+× 100
+AID × be
+be =
+
+Burada B toplam yakıt tüketimi ve AID kullanılan
+yakıtın alt ısıl değeri olup aşağıda verilen Mendeleyev
+formülünden belirlenmektedir [14].
+
+Deney motoruna yükleme yapılabilmesi ve döndürme
+momentinin ölçülmesi için bir elektrikli dinamometre
+bağlanmıştır. Deneylerde yakıt tüketimi düzenek
+üzerindeki bir ölçekli kap ve kronometre yardımıyla,
+hava debisi ise bir eğik manometre−orifis çifti
+kullanılarak ölçülmüştür. Ayrıca deneyler sırasında
+egzoz gazı sıcaklığı ve hesaplamalarda kullanılmak
+amacıyla yaş ve kuru termometre sıcaklıkları ve ortam
+basıncı ölçülmüştür. Deneyler tam gaz durumunda ve
+farklı
+devir
+sayılarında
+(900–1600
+d/d)
+gerçekleştirilmiş ve ölçümler motor kararlı çalışma
+rejimine ulaştıktan sonra alınmıştır. Ölçülen değerler
+kullanılarak hava fazlalık katsayısı, döndürme
+momenti, efektif güç, ortalama efektif basınç, efektif
+verim ve özgül yakıt tüketimi gibi performans
+parametreleri hesaplanmıştır. Ayrıca, deney ortamı
+atmosferik
+koşulları
+kullanılarak
+hesaplanan
+performans değerleri standart atmosferik koşullara
+dönüştürülmüştür [17–19].
+
+Motorun efektif
+hesaplanmıştır,
+
+İ. Sezer
+
+H u, kar =
+
+∑ y ρ AID
+∑yρ
+i
+
+i
+
+i
+
+(9)
+
+i
+
+i
+
+(10)
+
+i
+
+Burada i indisi motorin veya DEE yakıtını
+göstermekte olup yi ve ρi ise karışım içindeki motorin
+ve DEE yakıtının hacimsel oranlarını ve
+yoğunluklarını ifade eder.
+3.2 Belirsizlik Analizi (Uncertainty Analysis)
+Deneysel çalışmalardan elde edilen sonuçlar ölçülen
+fiziksel büyüklüklerden hesaplanır. Bu fiziksel
+büyüklüklerin ölçümü sırasında ise ölçü aletinden
+veya ölçme işleminden kaynaklanan bazı belirsizlikler
+ortaya çıkmaktadır. Bu nedenle elde edilen sonuçların
+güvenirliliğini göstermek için belirsizlik analizinin
+uygulanması gerekmektedir. Bu çalışmada belirsizlik
+analizi için Kline ve McClintock tarafından
+geliştirilmiş olan belirsizlik analizi kullanılmıştır [20–
+21]. Bu yönteme göre x1, x2,….xn gibi bağımsız
+değişkenlerine bağlı bir fonksiyonun sonucu R ise
+aşağıdaki gibi eşitlik yazılabilir.
+R = R ( x1 , x2 ,...., xn )
+(11)
+Bu durumda, elde edilen R değerindeki belirsizlik
+aşağıdaki gibi ifade edilebilir.
+
+119
+
+Dietil eter-Motorin Karışımlarının Motor Performansına Etkilerinin Deneysel İncelenmesi
+
+2
+2
+2
+U R = U R,1 + U R,2 + L + U R, n =
+
+n
+
+2
+∑U R,i (12)
+i =1
+
+Burada ölçülen xi değerlerinden kaynaklanan UR,i
+değerleri aşağıdaki gibi belirlenir.
+
+U R, i =
+
+∂R
+Ui ;
+∂xi
+
+(1 ≤ i ≥ n)
+
+(13)
+
+Toplam belirsizlik UR ölçülen her bir xi
+büyüklüğünden kaynaklanan Ui belirsizliğine bağlı
+olarak belirlendiği için bu yaklaşım kısmi belirsizlik
+yaklaşımı olarak isimlendirilir. Bu çalışmada
+incelenen performans parametreleri için belirsizlik
+değerlerinin devir sayısına göre değişimleri Tablo 3’te
+verilmiştir.
+Tablo 3. Belirsizlik değerlerinin devir sayısına göre
+değişimleri (Variation of uncertainty values to engine speed)
+Belirsizlik Değerleri
+n
+(d/d) Md (%) Ne (%) Pme (%) be (%) ηe (%)
+900 0,005 0,456
+0,618 0,885 0,913
+1000 0,005 0,454
+0,616 0,959 0,994
+1100 0,005
+0,45
+0,613 1,036 1,079
+1200 0,005 0,447
+0,611 1,114 1,167
+1300 0,005 0,443
+0,608 1,206 1,27
+1400 0,005 0,442
+0,607 1,287 1,361
+1500 0,005 0,444
+0,609 1,355 1,44
+1600 0,005 0,447
+0,611 1,422 1,517
+
+olması ve içeriğinde oksijen bulunması sebebiyle
+Tablo 1’de görüldüğü gibi motorine göre daha düşük
+stokiometrik hava−yakıt oranına sahiptir. Bu nedenle
+karışım içerisinde DEE oranı arttıkça karışımın
+stokiometrik hava−yakıt oranı azalmakta dolayısıyla
+eşitlik (7)’den görüleceği gibi hava fazlalık katsayısı
+artmakta ve yakıt−hava karışım daha da
+fakirleşmektedir. Hava fazlalık katsayısındaki
+maksimum artış ise yaklaşık %17,8 olarak DEE10
+karışımıyla elde edilmiştir.
+1.4
+,
+
+Hava fazlalık katsayısı
+
+İ. Sezer
+
+Şekil 2(a)’da hava fazlalık katsayısının devir sayısına
+göre değişimi verilmiştir. Şekilden görüldüğü gibi
+hava fazlalık katsayısı artan devir sayısı ile azalmakta
+olup tüm yakıtlar için benzer karakteristiğe sahiptir.
+Hava fazlalık katsayısının devir sayısıyla azalması
+dizel motorlarda artan devir sayısıyla püskürtülen
+yakıt miktarının artmasının bir sonucudur. Ayrıca
+yüksek devir sayılarında motorun hacimsel veriminde
+meydana gelen düşüş de bu devirlere ait hava fazlalık
+katsayının azalmasında etkili olmaktadır. DEE
+oranına göre hava fazlalık katsayısının değişimi ise
+1200 d/d için Şekil 2(b)’de verilmiştir. Karışım
+oranının etkisini göstermek için 1200 d/d seçilmesinin
+nedeni ise aşağıda performans parametreleri ile ilgili
+grafiklerde görüleceği gibi bu devir sayısının en iyi
+performans değerlerini vermiş olmasıdır. Şekilden
+görüldüğü gibi DEE oranı arttıkça hava fazlalık
+katsayısı artmaktadır. Bu değişim zaten fakir
+karışımla çalışan dizel motorlarda DEE katkısının
+karışımı daha da fakirleştirdiğini göstermektedir.
+Hava fazlalık katsayısındaki bu artışın DEE’nin
+fakirleştirici
+etkisinden
+kaynaklandığı
+düşünülmektedir. DEE moleküler yapısının küçük
+
+120
+
+1.3
+,
+
+1.2
+,
+
+1.1
+,
+
+900 1000110012001300140015001600
+Devir sayısı, d/d
+(a)
+
+1.4
+,
+
+Hava fazlalık katsayısı
+
+(RESULTS AND
+
+DISCUSSION)
+
+Motorin
+DEE 2,5
+DEE 5
+DEE 7,5
+DEE 10
+
+1
+
+Hesaplanan belirsizlik değerleri incelendiğinde motor
+performans parametrelerinin belirsizlik değerlerinden
+önemli ölçüde etkilenmediği görülmektedir.
+4. SONUÇLAR VE TARTIŞMA
+
+r = 20
+
+r = 20
+n = 1200 d/d
+
+1.3
+,
+
+1.2
+,
+
+1.1
+,
+
+1
+0
+
+2.5
+5
+7.5
+10
+,
+,
+DEE oranı, %
+(b)
+Şekil 2. Hava fazlalık katsayısının (a) devir sayısına
+göre (b) DEE oranına göre değişimi (Variation of the air
+excess coefficient to (a) engine speed (b) DEE ratio)
+
+Şekil 3’te egzoz gazı sıcaklığının devir sayısına ve
+DEE oranına göre değişimi verilmiştir. Şekil 3(a)’da
+egzoz gazı sıcaklığı artan devir sayısı ile artış
+göstermektedir. Bu durum Şekil 2(a)’da görüldüğü
+gibi devir sayısı arttıkça hava fazlalık katsayısının
+azalması sonucu silindire daha fazla miktarda yakıt
+dolayısıyla daha fazla enerji girmesinden kaynaklanır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Dietil eter-Motorin Karışımlarının Motor Performansına Etkilerinin Deneysel İncelenmesi
+
+Ayrıca devir sayısı arttıkça çevrim için geçen süre
+kısaldığından soğutma suyuna ve çevreye olan ısı
+transferi miktarı azalmakta bunun sonucu olarak da
+yanmış gazlar daha yüksek sıcaklıkta egzozdan
+atılmaktadır. Şekil 3(b)’de 1200 d/d için egzoz gazı
+sıcaklığının DEE oranına göre değişimi verilmiştir.
+Şekilden görüldüğü gibi egzoz sıcaklığı artan DEE
+oranı ile azalmaktadır. Bu durumun Tablo 1’de
+görüldüğü gibi DEE’in motorine kıyasla daha düşük
+ısıl değere ve daha yüksek buharlaşma gizli ısısına
+sahip olmasıyla açıklanabilir. Yakıt karışımı içerinde
+DEE oranı arttıkça karışımın ısıl değeri azalmakta
+böylece yanma sıcaklıkları ve buna bağlı olarak egzoz
+gazı sıcaklığı düşmektedir. Diğer taraftan DEE’in
+yüksek buharlaşma gizli ısından kaynaklanan
+soğutucu etkisi egzoz gazı sıcaklığının düşmesine ek
+bir katkı sağlamaktadır.
+
+Şekil 4’te ortalama efektif basıncın devir sayısına ve
+DEE oranına göre değişimi verilmiştir. Şekil 4(a)’da
+görüldüğü gibi ortalama efektif basınç 1200 d/d
+civarında maksimum değerine ulaşmış olup tüm
+yakıtlar için benzer eğriler elde edilmiştir.
+
+520
+480
+440
+400
+
+610
+600
+590
+580
+570
+560
+
+900 1000110012001300140015001600
+Devir sayısı, d/d
+
+900 1000110012001300140015001600
+Devir sayısı, d/d
+
+(a)
+
+(a)
+620
+
+r = 20
+n = 1200 d/d
+
+Ortalama efektif basınç, kPa
+
+Egzoz gazı sıcaklığı, oC
+
+600
+
+r = 20
+Motorin
+DEE 2,5
+DEE 5
+DEE 7,5
+DEE 10
+
+620
+
+r = 20
+Motorin
+DEE 2,5
+DEE 5
+DEE 7,5
+DEE 10
+
+560
+
+Egzoz gazı sıcaklığındaki maksimum azalma %8,7
+olarak DEE10 karışımıyla elde edilmiştir. Yukarıda
+da belirtildiği gibi egzoz gazı sıcaklığındaki düşüş
+yanma sıcaklıklarındaki düşüşün bir göstergesidir [8].
+Böylece literatürde de belirtildiği gibi DEE
+karışımları kullanıldığında yanma sıcaklıklarındaki
+düşüşe bağlı olarak NOx emisyonunda azalma olması
+beklenmektedir [7, 9, 13]. Ayrıca yine literatürde
+belirtildiği üzere, DEE karışımlarının fakirleştirici
+etkisi sonucu is ve katı parçacık emisyonlarında da bir
+azalma olacağı söylenebilir [8, 9, 13].
+
+Ortalama efektif basınç, kPa
+
+Egzoz gazı sıcaklığı, oC
+
+600
+
+İ. Sezer
+
+560
+520
+480
+440
+400
+0
+
+2.5
+5
+7.5
+,
+,
+DEE oranı, %
+
+10
+
+(b)
+Şekil 3. Egzoz gazı sıcaklığının (a) devir sayısına
+göre (b) DEE oranına göre değişimi (Variation of the
+exhaust gas temperature to (a) engine speed (b) DEE ratio)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+r = 20
+n = 1200 d/d
+
+610
+600
+590
+580
+570
+560
+0
+
+2.5
+5
+7.5
+10
+,
+,
+DEE oranı, %
+(b)
+Şekil 4 Ortalama efektif basıncın (a) devir sayısına
+göre (b) DEE oranına göre değişimi (Variation of the
+mean effective pressure to (a) engine speed (b) DEE ratio)
+
+121
+
+Dietil eter-Motorin Karışımlarının Motor Performansına Etkilerinin Deneysel İncelenmesi
+
+Şekil 4(a)’da ortaya çıkan ortalama efektif basıncın
+devir sayısına göre değişimi içten yanmalı motorlara
+özgü karakteristik bir değişimdir. 1200 d/d için DEE
+oranının etkisini gösteren Şekil 4(b)’de ise ortalama
+efektif basınç artan DEE oranı ile azalmış olmakla
+birlikte %2,5 ve %5 karışım oranlarıyla elde edilen
+değerler motorine ait değerlere oldukça yakındır.
+Ancak özellikle %10 karışım oranında ortalama
+efektif basınçta önemli miktarda düşüş meydana
+gelmiş ve motorinle kıyaslandığında DEE10 karışımı
+%5,1’lik azalma ile en düşük ortalama efektif basınç
+değerini vermiştir. Ortalama efektif basınçtaki bu
+azalma aynı zamanda döndürme momenti ve efektif
+güçteki düşüşün de bir göstergesidir. Özellikle %10
+karışım oranında ortalama efektif basınçta ortaya
+çıkan bu yüksek düşüş Tablo 1’de görüldüğü gibi
+DEE’nin ısıl değerinin (enerji içeriğinin) motorine
+göre daha düşük olmasının bir sonucudur. Öte yandan
+deneylerde motorun yakıt sisteminde herhangi bir
+değişiklik yapılmadığından hacimsel olarak silindire
+giren yakıt yaklaşık sabit kalmasına karşın Tablo 1’de
+görüleceği gibi DEE’nin yoğunluk değeri motorine
+göre daha düşük olduğundan kütlesel olarak silindire
+giren toplam yakıt azalmaktadır. Bu ise karışımdaki
+DEE oranı arttıkça silindire giren enerjinin daha da
+düşmesine neden olarak ortalama efektif basıncı ve
+buna bağlı olarak moment ve gücü düşürmektedir.
+Özgül yakıt tüketiminin devir sayısına ve DEE
+oranına göre değişimleri Şekil 5’te verilmiştir. Şekil
+5(a)’da tüm yakıtlar için özgül yakıt tüketiminin devir
+sayısına göre karakteristik değişimi görülmektedir.
+Şekil 5(b)’de ise 1200 d/d için DEE oranına göre
+değişimi verilmiştir. Şekilden görüldüğü gibi %7,5
+DEE oranına kadar özgül yakıt tüketimi düşmüş bu
+karışım oranından sonra ise artış eğilimi göstermiştir.
+Böylece en düşük özgül yakıt tüketimi %8,7 olarak
+DEE7,5 karışımıyla elde edilmiştir.
+
+Özgül yakıt tüketimi, g/kWh
+
+330
+320
+310
+
+r = 20
+Motorin
+DEE 2,5
+DEE 5
+DEE 7,5
+DEE 10
+
+300
+290
+280
+270
+900 1000110012001300140015001600
+Devir sayısı, d/d
+(a)
+
+122
+
+330
+Özgül yakıt tüketimi, g/kWh
+
+İ. Sezer
+
+r = 20
+n = 1200 d/d
+
+320
+310
+300
+290
+280
+270
+0
+
+2.5
+5
+7.5
+10
+,
+,
+DEE oranı, %
+(b)
+Şekil 5. Özgül yakıt tüketiminin (a) devir sayısına
+göre (b) DEE oranına göre değişimi (Variation of the
+brake specific fuel consumption to (a) engine speed (b) DEE ratio)
+
+Yukarıda belirtildiği gibi deneylerde motorun yakıt
+sisteminde değişiklik yapılmadığından ve DEE
+motorine göre daha düşük yoğunluğa sahip
+olduğundan eşitlik (6)’da görülen toplam kütlesel
+yakıt tüketimi (B) değeri DEE karışımları için
+azalmaktadır. Bunun sonucunda DEE karışımları için
+ortalama efektif basınç değerleri düşük olmasına
+karşın özgül yakıt tüketimi belirli bir karışım oranına
+kadar iyileşmektedir. Ancak %10 karışım oranında
+Şekil 4(a) ve (b)’de de görüldüğü gibi ortalama efektif
+basınçta önemli miktarda düşüş olduğundan özgül
+yakıt tüketiminde de artış eğilimi meydana gelmiştir.
+Şekil 6’da efektif verimin devir sayısına ve DEE
+oranına göre değişimi verilmiştir. Şekil 6(a)’da tüm
+yakıtlar için efektif verimin devir sayısına göre
+karakteristik değişimi görülmektedir. Şekil 6(b)’de ise
+1200 d/d için efektif verimin DEE oranına göre
+değişimi verilmiştir. Şekilden görüldüğü gibi efektif
+verim %7,5 DEE oranına kadar artmış bu karışım
+oranından sonra ise düşüş eğilimi göstermiştir.
+Böylece en yüksek efektif verim değeri %10,9’luk bir
+artışla DEE7,5 karışımıyla elde edilmiştir. DEE
+oranına bağlı olarak efektif verimde meydana gelen
+bu değişimler şöyle açıklanabilir. DEE’nin
+fakirleştirici etkisi (birim yakıt başına düşen hava
+miktarının artması) ve içeriğinde bulunan fazladan
+oksijen silindirde yanabilen yakıt miktarını artırıp
+yanmayı iyileştirerek efektif verimin artmasına katkı
+sağlamaktadır. Öte yandan Tablo 1’de görüldüğü gibi
+DEE’nin setan sayısı motorine göre çok yüksektir. Bu
+nedenle belirli bir DEE oranından sonra silindire
+püskürtülen yakıtın tutuşma süresi çok kısalarak
+yanma hızı aşırı artmakta bunun sonucunda oluşan
+kontrolsüz yanma sebebiyle silindir içerisinde
+sıcaklıklar ani şekilde yükselerek ısı kayıpları
+artmakta ve silindir basıncı dolayısıyla ortalama
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Dietil eter-Motorin Karışımlarının Motor Performansına Etkilerinin Deneysel İncelenmesi
+
+efektif basınç ve buna bağlı olarak da efektif verim
+düşmektedir. Ayrıca, bu durum eşitlik (7)’ye bağlı
+olarak şu şekilde de açıklanabilir. Yukarıda
+belirtildiği gibi DEE karışımları kullanıldığında
+toplam kütlesel yakıt tüketimi ve eşitlik (7)’de
+görülen yakıtın alt ısıl değeri (AID) azalmaktadır.
+Bunun sonucunda efektif verimde bir artış meydana
+gelmektedir. Ancak yukarıda belirtildiği gibi belirli
+bir karışım oranından sonra ortalama efektif basınçta
+ve buna bağlı olarak güçte meydana gelen yüksek
+düşüş efektif verimi de azaltmaktadır.
+31
+
+Efektif verim, %
+
+30
+29
+28
+r = 20
+Motorin
+DEE 2,5
+DEE 5
+DEE 7,5
+DEE 10
+
+27
+26
+
+900 1000110012001300140015001600
+Devir sayısı, d/d
+(a)
+31
+
+r = 20
+N = 1200 d/d
+
+Efektif verim, %
+
+30
+29
+28
+27
+26
+0
+
+2.5
+5
+7.5
+10
+,
+,
+DEE oranı, %
+(b)
+Şekil 6. Efektif verimin (a) devir sayısına göre (b)
+DEE oranına göre değişimi (Variation of the brake thermal
+efficiency to (a) engine speed (b) DEE ratio)
+
+5. SONUÇLAR (CONCLUSIONS)
+Sunulan çalışmada motorine hacimsel olarak farklı
+oranlarda (%2,5–10) dietil eter katılmasının motor
+performansına etkileri deneysel olarak incelenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+İ. Sezer
+
+Çalışmadan elde edilen bulguların ışığında aşağıdaki
+sonuçlar özetlenebilir.
+1. Dietil eterin fakirleştirici etkisi hava fazlalık
+katsayısının arttırmakta diğer bir ifadeyle
+yakıt−hava karışımını daha da fakirleştirmektedir.
+Motorine %10 oranında dietil eter katılması hava
+fazlalık katsayısını %15,2 oranında arttırmaktadır.
+Yakıt−hava karışımındaki bu fakirleşmesinin is ve
+katı parçacık emisyonlarını azaltacağı literatürde
+belirtilmektedir.
+2. Dietil eter karışımları motorine göre daha düşük
+egzoz gazı sıcaklıkları vermektedir. Egzoz gazı
+sıcaklığındaki bu düşüşün yanma sıcaklıklarındaki
+düşüşten kaynaklandığı ve buna bağlı olarak azot
+oksit emisyonlarında da bir düşüş meydana
+geleceği literatürde belirtilmektedir.
+3. Dietil eter−motorin karışımları kullanıldığında
+ortalama efektif basınçta ve buna bağlı olarak
+moment ve güçte farklı oranlarda düşüşler
+olmaktadır. Motor performans değerlerindeki bu
+düşüşler karışımdaki dietil eter oranının artmasıyla
+artmaktadır. Ancak %7,5 karışım oranına kadar
+efektif verimde ve özgül yakıt tüketimde iyileşme
+elde edilmiş, bu karışım oranından sonra efektif
+verim ve özgül yakıt tüketimi de olumsuz yönde
+etkilenmiştir.
+4. Bu çalışma sonuçlarına göre %7,5 dietil eter içeren
+yakıt karışımı yaklaşık olarak efektif verimde
+%10,9, özgül yakıt tüketiminde %8,7 iyileşme ve
+motor performansında %2,5 düşüşle uygun bir
+karışım olarak önerilebilir. Performans değerindeki
+düşüş yakıt sisteminde her hangi bir değişiklik
+yapılmadığı
+durumunda
+geçerlidir.
+Yakıt
+sisteminde yapılacak küçük değişikliklerle
+azaltılabilir veya tamamen ortadan kaldırılabilir.
+SEMBOLLER DİZİNİ (NOMENCLATURE)
+AID
+yakıtın alt ısıl değer (kJ/kg)
+B
+toplam yakıt tüketimi (kg/h)
+özgül yakıt tüketimi (kg yakıt/kWh)
+be
+F
+kuvvet (N)
+H/Y
+hava-yakıt oranı (kg hava/kg yakıt)
+L
+uzunluk (m)
+Md
+döndürme momenti (Nm)
+&
+m
+kütlesel debi (kg/s)
+n
+devir sayısı (d/d)
+Ne
+efektif güç (kW)
+ortalama efektif basınç (kPa)
+Pme
+p0
+ortam basıncı (MPa)
+r
+sıkıştırma oranı (boyutsuz)
+T0
+ortam sıcaklığı (K)
+U
+belirsizlik (%)
+Vh
+strok hacmi
+nem faktörü (boyutsuz)
+Xnem
+y
+hacimsel oran (%)
+z
+silindir sayısı (boyutsuz)
+Yunan harfleri (Greek Letters)
+α
+hava fazlalık katsayısı (boyutsuz)
+ηe
+efektif verim (%)
+ρ
+yoğunluk (kg/L)
+ω
+açısal hız (rad/s)
+
+123
+
+İ. Sezer
+
+Dietil eter-Motorin Karışımlarının Motor Performansına Etkilerinin Deneysel İncelenmesi
+
+İndisler (Subscripts)
+e
+efektif
+g
+gerçek
+kar
+karışım
+s
+stokiometrik
+Kısaltmalar (Abbreviations)
+DEE
+dietil eter
+DEE2,5
+%2,5 DEE içeren yakıt karışımı
+DEE5
+%5 DEE içeren yakıt karışımı
+DEE7,5
+%7,5 DEE içeren yakıt karışımı
+DEE10
+%10 DEE içeren yakıt karışımı
+KAYNAKLAR (REFERENCES)
+1. Özsezen, A.N. ve Çanakçı, M. “An Investigation
+of the Effect of Methyl Ester Produced from
+Waste Frying Oil on the Performance and
+Emissions of an IDI Diesel Engine”, Journal of
+the Faculty of Engineering and Architecture of
+Gazi University, Volume 23, Issue 2, 395–404,
+2008.
+2. Can, Ö., Çınar C. ve Şahin, F. “The Investigation
+of the Effects of Premixed Gasoline Charge on
+HCCI−DI Engine Combustion and Exhaust
+Emissions”, Journal of the Faculty of
+Engineering and Architecture of Gazi
+University, Volume 24, Issue 2, 229–236, 2009.
+3. Aktaş, A. ve Doğan, O. “Effects of LPG
+Percentage to Performance and Exhaust Emissions
+in a Dual Fuel Engine”, Journal of the Faculty of
+Engineering and Architecture of Gazi
+University, Volume 25, Issue 1, 171–178, 2010.
+4. Geo, V.E., Nagarajan, G. ve Nagalingam, B.
+“Studies on Improving The Performance of
+Rubber Seed Oil Fuel for Diesel Engine with DEE
+Port Injection”, Fuel, Volume 89, Issue 11,
+3559−3567, 2010.
+5. Zhang, N., Di, Y., Huang, Z. ve Zhang, Z. “Flame
+Instability Analysis of Diethyl Ether−Air
+Premixed Mixtures at Elevated Pressures”,
+Engineering Thermophysics, Volume 55, Issue
+3, 314−320, 2010.
+6. Lu, X., Wu, T., Ji, L., Ma, J. ve Huang, Z. “Effect
+of Port Fuel Injection of Methanol on the
+Combustion Characteristics and Emissions of Gasto−Liquid−Fueled Engines”, Energy & Fuels,
+Volume 23, Issue 2, 719−724, 2009.
+7. Anand, R. ve Mahalakshmi, N.V. “Simultaneous
+Reduction of NOx and Smoke from a
+Direct−Injection Diesel Engine with Exhaust Gas
+Recirculation and Diethyl Ether”, Proceedings of
+the Institution of Mechanical Engineers, Part
+D: Journal of Automobile Engineering, Volume
+221, Issue 1, 109−116, 2007.
+8. Ren, Y., Huang, Z., Miao, H., Jiang, D., Zeng, K.,
+Liu, B. ve Wang, X. “Combustion and Emission
+Characteristics of a Direct−Injection Diesel
+Engine Fueled with Diesel−Diethyl Adipate
+Blends”, Energy & Fuels, Volume 21, Issue 3,
+1474−1482, 2007.
+9. Iranmanesh, M., Subrahmanyam, J.P. ve Babu,
+M.K.G. “Potential of Diethyl Ether as
+
+124
+
+Supplementary Fuel to Improve Combustion and
+Emission Characteristics of Diesel Engines”, SAE
+Paper 2008−28−0044, 305−312, 2008.
+10. Ashok, M.P. ve Saravanan, C.G. “Performance
+and Emission of the Emulsified Fuel in a DI
+Diesel Engine Using Oxygenated Additive Diethyl
+Ether with Surfactant of Span−80”, Energy &
+Fuels, Volume 21, Issue 4, 1878−1882, 2007.
+11. Bailey, B., Eberhardt, J., Gougen, S. ve Erwin, J.
+“Diethyl Ether (DEE) as a Renewable Diesel
+Fuel”, SAE Paper 972978, 1997.
+12. Kannan, T.K. ve Marappan, R. “Study of
+Performance and Emission Characteristics of a
+Diesel Engine Using Thevetia Peruviana Biodiesel
+with Diethyl Ether Blends”, European Journal of
+Scientific Research, Volume 43, Issue 4,
+563−570, 2010.
+13. Pugazhvadivu,
+M.
+ve
+Rajagopan,
+S.
+“Investigations on a Diesel Engine Fuelled with
+Biodiesel Blends and Diethyl Ether as an
+Additive”, Indian Journal of Science and
+Technology, Volume 2, Issue 5, 31−35, 2009.
+14. Iranmanesh, M., Subrahmanyam, J.P. ve Babu,
+M.K.G. “Potential of Diethyl Ether as a Blended
+Supplementary Oxygenated Fuel with Biodiesel to
+Improve Combustion and Emission Characteristics
+of Diesel Engines”, SAE Paper 2008−01−1805,
+2008.
+15. Ramadhas, A.S. Jayaraj, S. ve Muraleedharan, C.
+“Experimental Investigations on Diethyl Ether as
+Fuel Additive in Biodiesel Engine”, International
+Journal of Global Energy Issues, Volume 29,
+Issue 3, 329−336, 2008.
+16. Sezer, I. “Theoretical Analysis the Use of
+Dimethyl Ether and Diethyl Ether in a Diesel
+Engine”, Energy Education Science and
+Technology Part A: Energy Science and
+Research, Volume 27, Issue 1, 139−154, 2011.
+17. Sezer, I., Normal Benzine Metanol ve MTBE
+Katılmasının
+Buji
+Ateşlemeli
+Motorun
+Performansına ve Eksoz Emisyonlarına
+Etkisinin Deneysel İncelenmesi, Master Tezi,
+Karadeniz Teknik Üniversitesi, Fen Bilimleri
+Enstitüsü, 2002.
+18. Sezer, I. ve Bilgin, A. “Effects of Methyl
+tert−Butyl Ether Addition to Base Gasoline on the
+Performance and CO Emissions of a Spark
+Ignition Engine”, Energy & Fuels, Volume 22,
+Issue 2, 1341−1348, 2008.
+19. Bilgin, A. ve Sezer, I. “Effects of Methanol
+Addition to Gasoline on the Performance and Fuel
+Cost of a Spark Ignition Engine”, Energy &
+Fuels, Volume 22, Issue 4, 2782−2788, 2008.
+20. Holman, J.P., Experimental Methods for
+Engineers, 7th edition, McGraw−Hill, New York,
+A.B.D., 2001.
+21. Kostic, M. “Unleashing Error or Uncertainty
+Analysis of Measurement Results”, NASA
+Faculty Fellowship Program Lecture Series,
+Presented at Ohio Aerospace Institute Lecture
+Hall, Ohio, 1–11, 1 August 2003.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+

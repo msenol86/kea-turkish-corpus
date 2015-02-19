@@ -1,0 +1,1385 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+
+J. Fac. Eng. Arch. Gazi Univ.
+
+Cilt 23, No 2, 495-506, 2008
+
+Vol 23, No 2, 495-506, 2008
+
+E-ÖĞRENME ORTAMLARI İÇİN
+MATLAB WEB SUNUCU KULLANIMI
+Erdal IRMAK
+Elektrik Eğitimi Bölümü, Teknik Eğitim Fakültesi, Gazi Üniversitesi, Ankara
+erdal@gazi.edu.tr
+(Geliş/Received: 01.08.2007; Kabul/Accepted: 04.01.2008)
+ÖZET
+Bu çalışmada, mühendislik ve teknik eğitimde sıkça kullanılan MATLAB uygulamalarının internet tabanlı
+olarak geliştirilebilmesini sağlayan MATLAB Web Sunucusu tabanlı benzetim uygulamaları geliştirilerek, bu
+uygulamalar test edilmiştir. Örnek uygulama olarak, elektrik mühendisliğinde önemli yeri olan elektrik
+makinaları konusu ele alınmış ve bir doğru akım motoruna ait web tabanlı benzetim uygulaması geliştirilmiştir.
+Elde edilen bulgulardan, sunulan çalışmanın özellikle mesleki ve teknik eğitime yönelik hizmet sunan e-öğrenme
+ortamlarının iyileştirilmesi ve geliştirilmesine katkı sağlayacak yeni yaklaşımları destekleyeceği tespit edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+İnternet teknolojisinin kullanıldığı ve son derece
+önemli faydaların elde edildiği alanlardan birisi de
+uzaktan eğitimdir ya da diğer ismi ile e-öğrenmedir
+[1,2]. E-öğrenme, internet tabanlı eğitim modelleri için
+kullanılan
+genel
+bir
+kavramdır.
+E-öğrenme
+sistemlerinin, uzaktan eğitimde kullanılan geleneksel
+yöntemlere göre en önemli avantajı, alıcı ile kaynağın
+eş zamanlı ya da eş zamansız olarak karşılıklı etkileşim
+içerisinde bulunabilmeleridir. Özellikle son zamanlarda
+gelişen teknoloji sayesinde, bilgiyi alan ile bilgi
+kaynağı internet üzerinden gerçek zamanlı olarak sesli
+ve/veya görüntülü konuşma yapabilmekte, algılamada
+sorun çekilen konular üzerinde tartışabilmektedirler.
+Gerek e-öğrenme ortamlarında gerekse de yüz yüze
+öğrenmede, öğretilecek konunun kapsamına bağlı
+olarak kullanılacak ders materyalleri değişiklik
+
+gösterir. Özellikle mesleki ve teknik eğitim
+kapsamında verilecek dersler için materyal seçimi ve
+uygulama çalışmaları son derece önemlidir. Bilindiği
+üzere mesleki ve teknik eğitim, ülkemizde başlıca
+Teknik ve Mesleki Eğitim Fakülteleri ile Mühendislik
+Fakültelerinde verilmektedir. Bu fakülteler; geleceği
+şekillendirmede, genç beyinleri eğitmede ve
+yönlendirmede önemli rolü olan ve dolayısıyla ülke
+geleceğine yüksek katkı sağlayan fakültelerdir.
+Geleceği şekillendiren bu fakültelerde yapılan
+eğitimlerin güncel teknolojilerle donatılması, eğitim
+ve öğretim kalitesinin yükseltilmesi ve en önemlisi
+laboratuvarlarının yaygın ve güncel teknolojilere
+sahip olması gerekmektedir. Günümüz teknolojileri
+incelendiğinde, bu fakültelerde e-öğrenme ortamları
+ile eğitim öğretime destek sağlanması ve
+mezunlarının da bu teknolojilerle tanışmaları bir
+zorunluluk haline gelmiştir. Bununla birlikte,
+geliştirilen birçok e-öğrenme ortamında statik
+
+E. Irmak
+
+yaklaşımlar izlenmesi, ortamda sadece donuk içerik
+sunumu, sürekli olarak ekranların takip edilmesi gibi
+sorunlardan dolayı bu ortamlar cazibesini kaybetmeye,
+beklenen katkıları sağlamamaya başlamışlardır [3].
+Mühendislik ve teknik alanlarda yapılacak olan
+eğitimde uygulama temel esastır. Geleneksel eğitimde
+uygulamalar laboratuvarlarda birebir deney yapılması
+şeklinde gerçekleşmektedir. E-öğrenme platformlarında ise bunu yapmanın iki temel yöntemi
+bulunmaktadır:
+ Değişik animasyonlar ve benzetimlerin kullanıldığı
+sanal laboratuvarlar,
+ İnternet üzerinden uzaktan erişimli deney
+düzenekleri.
+Bu çalışmada daha çok web tabanlı benzetim
+modelleri üzerinde durulmuştur. Pilot uygulama alanı
+olarak, elektrik eğitiminde önemli konulardan birisi
+olan elektrik makinaları dersleri seçilmiştir.
+Literatürde, gerek elektrik makinalarının eğitimi
+gerekse de genel olarak elektrik-elektronik eğitimine
+yönelik
+e-öğrenme
+platformlarında
+benzetim
+modellerinin oluşturulması ve kullanımı ile ilgili
+oldukça yoğun çalışmalar yapıldığı gözlenmektedir.
+Benzetim modellerine dayalı sanal laboratuvarlar
+oluşturulması, 1990’lı yılların sonuna doğru
+çalışılmaya başlanmıştır [3]. Bu tarihten itibaren
+günümüze kadar da birçok web tabanlı benzetim
+uygulaması geliştirilmiştir. Özellikle, elektrik
+makinalarının denetimi [4], sayısal işaret işlemcileri
+[5-7], manyetik alan ve elektrik devreleri [8], fan
+kontrol ve yüzey işleme [9-11], kontrol sistemleri [1217], robot kontrolü ve uygulamaları [18], güç
+sistemleri ve harmonik analizi [19], asenkron motorlar
+[20], motor sürücü sistemleri [21], temel elektronik
+teorisi ve elektronik elemanların kullanımı [22],
+ölçüm ve analiz cihazlarının kullanımı [23],
+mikrodenetleyiciler [24], bilgisayar mimarisi [25] gibi
+alanlarda web tabanlı benzetim çalışmaları
+bulunmaktadır.
+Herhangi bir sistemin benzetiminin oluşturulması için
+değişik paket programlar ya da programlama dilleri
+kullanılmaktadır. Bunlar arasında en önemli
+programlama paketlerinden birisi de MATLAB’tir.
+MATLAB, dünyada 2500’ü aşkın üniversite tarafından
+kullanılan en önemli ve yaygın yazılımlardan birisidir
+[26]. Son derece hızlı matematik işlemleri yürütebilmesi,
+gelişmiş araç kutuları, 2 ya da 3 boyutlu grafik
+oluşturmadaki başarısından dolayı, birçok araştırmacı ve
+teknik eleman, geliştirdikleri uygulamalar için
+MATLAB
+programından
+faydalanmaktadırlar.
+MATLAB bazı üniversitelerde başlı başına bir ders
+olarak anlatılmaktadır. MATLAB’in 13. sürümü ile
+birlikte yeni bir araç kutusu tanıtılmıştır. MATLAB Web
+Sunucu (MWS) olarak isimlendirilen bu araç kutusu
+sayesinde, geliştirilen MATLAB tabanlı benzetimlere ve
+
+496
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+uygulamalara internet üzerinden erişebilmek, bunları
+çalıştırabilmek ve sonuçları yine web tabanlı olarak
+görüntüleyebilmek mümkün olmaktadır.
+Bu çalışma, mesleki ve teknik eğitim ile mühendislik
+eğitimine yönelik e-öğrenme ortamlarında karşılaşılan
+güçlüklere çözüm bulma, öğrencilerin güncel
+teknolojileri daha verimli ve ortamdan bağımsız olarak
+kullanabilmelerini
+ve
+bunları
+eğitimlerine
+aktarabilmelerine kolaylık sağlamak amacıyla yeni
+yöntemleri içermektedir. Bununla birlikte, sadece
+öğrencilerin değil eğitimini tamamlamış kimselerinde
+bilgilerini güncel tutmalarını, gelişen teknolojiye uyum
+sağlayabilmelerini, tasarlama ve üretim sürecinde çağın
+gereklerine uyumluluk sağlamalarını temin için bir
+“Yaşam
+Boyu
+Eğitim”
+yapısı
+oluşturulması
+amaçlanmıştır. Çalışmada, MWS üzerinde durulmuştur.
+MWS tabanlı uygulamalar geliştirilmesi için
+hazırlanması gereken alt yapı hakkında bilgiler
+verilmiştir. Daha sonra MWS ile geliştirilmiş benzetim
+örnekleri ve uygulamalar sunulmuştur. MWS’nin
+kullanılması sonucu açığa çıkan faydalar ve
+dezavantajlar değerlendirilmiş ve genel anlamda bir
+karşılaştırma yapılmıştır.
+Bu çalışmanın literatürde yer alan benzer çalışmalara
+göre en önemli farkı, e-öğrenme ortamlarında kullanılan
+benzetim modelleri için MWS ile geliştirilen yeni bir
+yöntem sunmasıdır. MWS ile ilgili ülkemizde henüz bir
+çalışma yapılmamıştır. Bu açıdan ulusal çerçevede
+özgün bir yöntem ortaya konulmuştur. Uluslar arası
+alanda ise her ne kadar MWS ile ilgili çalışmalar
+yapılmış olsa da [26-35], doğrudan mühendislik
+eğitimine yönelik e-öğrenme ortamları ve özellikle bu
+çalışmada üzerinde durulan elektrik mühendisliği
+alanında detaylı bir çalışma bulunmamaktadır.
+Literatürde, benzer uygulamalar için Java, LabVIEW,
+ActiveX ve Flash gibi yazılımlar kullanılmıştır. Ancak
+bu yazılımların tamamına yakınında istemci tarafa da iş
+yükü düşmektedir ve istemci bilgisayarlarda bazı özel
+yazılımların veya küçük programların (plug-in) arka
+planda çalışıyor olması gerekmektedir. Oysa MWS
+tabanlı uygulamalarda, bütün işlem sunucu üzerinde
+gerçekleşmektedir ve istemci tarafında sadece web
+tarayıcının yüklü olması yeterlidir. MWS ile geliştirilen
+yöntemin bir diğer üstünlüğü, MATLAB gibi son derece
+yaygın kullanıma sahip ve birçok mühendislik alanı için
+özel çözümler üretebilen bir yazılımı kullanmasıdır.
+Literatürde yer alan benzer çalışmalar, geliştirilen
+uygulama kapsamında sınırlı kalırken bu çalışmanın
+genişletilebilirliği ve daha fazla alana yaygınlaştırılması
+mümkündür. Ayrıca, içerisinde yüksek boyutlu dizilerin
+bulunduğu ileri düzey benzetimlerin literatürde yer alan
+diğer yöntemlerle geliştirilmesi ya çok zor ya da
+imkânsız olmaktadır. Örneğin, 6x6 ebatlarında iki adet
+dizinin çarpımı işlemi diğer yazılımlarda son derece
+uzun sürmekte iken MATLAB ile bu işlem çok kısa bir
+sürede gerçekleştirilebilmektedir. Dolayısıyla, MWS
+kullanılarak geliştirilen yöntem, benzetim uygulamaları
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+E. Irmak
+
+için daha hassas ve zamandan tasarruf sağlayan
+etkileşimli modellerin oluşturulmasını sağlamaktadır.
+2. MATLAB WEB SUNUCU
+
+(MATLAB
+
+WEB
+
+SERVER)
+
+MATLAB Web Sunucusu (MWS), MATLAB
+programında işlenmek üzere internet üzerinden veri
+alabilen ve bu verileri işledikten sonra elde edilen
+sonuçları yine bir internet tarayıcısında gösterebilen
+MATLAB uygulamaları geliştirmeyi sağlamaktadır.
+İstemci sistem ile MATLAB arasındaki veri alışverişi
+TCP/IP protokolüne uygun olarak gerçekleştirilmektedir. Şekil 1’de görüldüğü gibi, en basit bir
+yapılanmada; bir istemci bilgisayar ve bunun üzerinde
+çalışan bir internet tarayıcı, üzerinde MATLAB, MWS
+ve bir Web sunucu yazılımın yüklü olduğu bir sunucu
+bilgisayar olmalıdır. İş yükünün yoğun olduğu
+durumlarda ise, Şekil 2’de verilen yapı kullanılabilir
+[36].
+
+için duyulan yazılım ve donanım gereksinimleri
+dışında fazladan bir donanıma ya da yazılıma ihtiyaç
+duymamaktadır. Uygulama geliştirilecek olan
+bilgisayara TCP/IP ağ yazılımı yüklenmiş durumda
+olmalıdır. MWS tarafından girişleri almak ve çıkışları
+sunmak işlemlerinde kullanılacak olan tarayıcı
+programda bilgisayarda kurulmuş olmalıdır.
+MATLAB programının çalıştığı bilgisayara ya da bu
+bilgisayara ağ üzerinden bağlı başka bir bilgisayara
+web sunucu yazılımı (httpd) yüklenilmelidir.
+Yüklenen web sunucu CGI (Common Gateway
+Interface: uygulamalar ile üst belgeler arasında
+parametre alışverişini sağlayan standart arayüz)
+programlarını
+çalıştırabilmelidir.
+Bu
+yazılımı
+yüklemek için değişik kaynaklar kullanılabilir. MWS,
+Apache, Microsoft Internet Information Server veya
+Netscape Enterprise Server gibi farklı birçok sunucu
+altında
+çalışabilmektedir.
+MWS
+yazılımı
+uygulamalarının çalışma düzenini gösteren genel bir
+blok model yapısı Şekil 3’de verilmiştir.
+
+Şekil 3. MWS modeli (MWS model)
+Şekil 1. Basit bir MWS uygulaması için ağ yapısı
+(Network configuration for the simplest MWS applications)
+
+www
+sunucu
+İstemci 1
+
+Internet
+
+İstemci 2
+
+İstemci n
+
+httpd
+yazılımı
+
+MATLAB
+MWS
+
+uygulama
+sunucu
+
+Şekil 2. İş yükünün yoğun olduğu MWS uygulamaları
+için ağ yapısı (Network configuration for more complex MWS
+applications)
+
+2.1.
+
+Uygulama
+
+Gereksinimleri
+
+(Application
+
+Requirements)
+
+MWS, MATLAB programı ile uygulama geliştirme
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+2.2. MWS Bileşenleri (Components of MWS)
+MWS, MATLAB uygulamaları oluşturmak ve
+bunlara internet üzerinden erişim sağlayabilmek için,
+aşağıda verilen bileşenlerden oluşmaktadır:
+ matlabserver: Web uygulaması ile MATLAB
+arasındaki iletişimi yönetir. Çok yönlü bir TCP/IP
+sunucusudur. HTML dosyası içerisindeki mlmfile
+şeklinde isimlendirilmiş gizli bir alanda belirtilen
+MATLAB
+m-dosyasını
+çalıştırır.
+matlabwserver.conf
+dosyasında
+gerekli
+değişiklikler yapılarak MWS’nin hangi TCP/IP
+portunu dinleyeceği ve aynı anda kaç adet
+uygulamanın eş zamanlı çalıştırılabileceği
+ayarlanabilir.
+ matweb: matlabserver’in bir TCP/IP istemcisidir.
+HTML dosyasından verileri elde etmek ve bunları
+matlabserver’e iletmek amacıyla CGI kullanır.
+ matweb.m: Web uygulaması tarafından belirtilen
+M-dosyasını çalıştırır.
+ matweb.conf: matweb ile matlabserver arasındaki
+iletişimi yapılandırmayı sağlayan dosyadır.
+Uygulamalar bu dosya içerisinde listelenmelidir.
+
+497
+
+E. Irmak
+
+ hosts.conf: Ek güvenlik sağlamak amacıyla isteğe
+bağlı olarak kullanılan bir dosyadır. Eğer
+kullanılırsa, MWS’ye sadece bu dosyada
+listelenen bilgisayar bağlanabilir.
+MWS
+uygulamaları,
+M-dosyalarının,
+HTML
+dosyalarının ve grafiklerinin bir bileşimidir.
+MATLAB programcılığı bilgisi ve basit seviyede
+HTML bilgisine sahip olmak yeterlidir. Uygulama
+geliştirme aşağıdaki basit aşamalardan oluşur [36]:
+a. Kullanıcılardan internet vasıtasıyla alınacak
+bilgileri ve elde edilen sonuçları tutacak HTML
+dosyaları hazırlanır. Bunun için basit bir metin
+editörü kullanılabileceği gibi, Microsoft FrontPage
+benzeri programlar da kullanılabilir.
+b. Uygulama ismi ve gerekli özel yapılandırma
+ayarları matweb.conf dosyası içerisinde yapılır.
+c. Aşağıdaki işlemleri yürüten bir MATLAB mdosyası yazılır:
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+benzetimin web tabanlı olarak hizmet verebilmesi için
+temel olarak MATLAB programı ve MWS
+yararlanılmıştır.
+Bu
+programda
+bileşeninden
+benzetimin geliştirilmesi için öncelikle sistemin
+matematik modelinin çıkarılması gerekmektedir.
+3.1. Sistemin Matematik Modelinin Oluşturulması
+(Creating the Mathematical Model of the System)
+
+DA motorları, yapısının basit, kontrolünün kolay
+olması nedeniyle hız ve konum kontrolü gerektiren
+uygulamalarda yaygın olarak kullanılmaktadır. Bu
+motorları kullanmadan önce, kullanma alanına, yük
+durumuna ve çalışma koşullarına göre bir benzetim
+modelinin oluşturulması ve bu model üzerinden
+benzetiminin
+gerçekleştirilmesi
+gerekmektedir.
+Böylece uygulamada karşılaşılacak problemler
+önceden tespit edilebilmektedir [1]. Bir DA
+motorunun yapısı Şekil 4’de, eşdeğer devresi ise Şekil
+5’te verilmiştir [1, 37].
+
+ HTML giriş dosyasından verileri almak
+ Veriler üzerinde istenen işlemleri yaparak,
+sonuçları ve grafikleri üretmek
+formatında
+ Çıkış
+verilerini
+MATLAB
+hazırlamak
+ Çıkış verilerini, HTML çıkış dosyasına aktarmak
+üzere htmlrep fonksiyonunu işletmek
+3. MWS TABANLI ÖRNEK BENZETİM UYGULAMASI (SAMPLE SIMULATION APPLICATION
+BASED ON MWS)
+
+Tasarım ve uygulama geliştirme sürecinde, herhangi
+bir sistemin ne şekilde denetleneceğine karar vermek,
+daha açık bir ifade ile uygun denetleyicinin seçimi,
+başarının temel ölçütlerindendir. Bu nedenle, hem
+geleneksel eğitimde hem de e-öğrenme platformlarında
+öğrencilere benzetimin önemi ve gerekliliği mutlaka
+aktarılmalıdır. Ayrıca, öğrencilere sunulan eğitim,
+etkileşimli benzetim modelleriyle desteklenmeli,
+böylece verilen bilginin daha akılda kalıcı olması
+sağlanılmalıdır.
+Bu çalışmada pilot uygulama olarak elektrik
+makinaları eğitimi seçilmiştir. Elektrik makinalarını
+kullanmadan önce, kullanma alanına, yük çeşidine ve
+çalışma koşullarına göre uygun bir motor ve
+denetleyici yapısı seçilerek, benzetim modelinin
+oluşturulması ve bu model üzerinden benzetiminin
+gerçekleştirilmesi önemlidir. Elektrik makinalarının
+eğitiminde de benzetim örneklerinin kullanılması son
+derece önemlidir. Öğrenciler, zihinlerinde oluşan
+bütün parametre değerlerini benzetim modeline
+aktararak daha kapsamlı bir deneyime sahip
+olabilmektedir.
+Çalışmada, bir doğru akım (DA) motorunun PI ile
+geri beslemeli hız kontrolüne ilişkin örnek bir
+benzetim uygulaması sunulmuştur. Geliştirilen
+
+498
+
+Şekil 4. Bir DA motorunun yapısı
+
+(Structure of a DC
+
+motor)
+Ra
+
+La
+
+ia
+
+
+
+TL
+
+eb
+
+m  m
+
+Şekil 5. Bir DA motorunun eşdeğer devresi
+(Equivalent circuit of a DC motor)
+
+DA motorunun MATLAB ortamında benzetimi,
+sistemin geçici ve kararlı durum tepkilerini tespit
+etmek amacıyla kullanılan durum denklemlerinin
+hazırlanan
+m-dosyasında
+çözdürülmesiyle
+gerçekleştirilmiştir. Bu amaçla, aşağıda verilen DA
+motoruna ait durum denklemleri kullanılmıştır.
+Burada; ia endüvi akımını (A), Ra endüvi direncini
+(), ea endüvi gerilimini (V), Ki moment sabitini
+(Nm/A), La endüvi sargı endüktansını (H), Kb zıt emk
+sabitini (V/(rad/s)), m rotor açısal hızını (rad/s), m
+rotor konumu (rad), TL yük momentini (Nm), Bm
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+E. Irmak
+
+sürtünme katsayısını, Jm rotor eylemsizliğini (kg m2
+/s2), eb zıt emk'i (V) ifade etmektedir.
+ dia   Ra
+ dt   La
+
+ 
+ d m    K i
+ dt   J
+
+  m
+d m  0
+
+ dt  
+
+ 
+
+-
+
+Kb
+La
+
+-
+
+Bm
+Jm
+1
+
+
+0
+
+
+0
+
+0
+
+
+
+1
+0 
+ia   La 
+
+ 
+ 
+   0 e   1 T
+  a
+ m
+ Jm  L
+ m  0 
+ 
+   
+0 
+ 
+ 
+
+Çalışmada, DA motorunun kapalı döngü olarak PI
+(oransal integral-proportional integral) denetleyici ile
+benzetimi amaçlanmıştır. Kapalı döngü çalışma
+sistemlerinde temel amaç, motor milinden alınan
+gerçek hız değeri ile referans olarak girilen hız
+değerinin karşılaştırılarak aradaki hatanın ölçülmesi
+ve buna uygun olarak hatanın mümkün olan en az
+değere çekilmesidir. PI denetleyici, oransal ve integral
+kontrol etkilerinin birleştirilmesi ile elde edilir. Şekil
+6’da, DA motorunun PI ile hız denetimine ilişkin blok
+diyagramı verilmiştir. Bu şekilden de görüleceği gibi,
+hata sinyali PI denetleyiciye girdiğinde oransal
+kazanç ve hata sinyalinin integrali alınarak, integral
+etki kazancı ile çarpılmaktadır.
+Oransal Kazanç
+
+Kp *(e)
+
+Şekil 7’de verilen akış diyagramında görüldüğü gibi,
+hazırlanan m-dosyasında sadece benzetim modeli
+çözdürülmemektedir. Aynı zamanda, benzetimin web
+tabanlı olarak çalıştırılabilmesini sağlayan komut ve
+fonksiyonlar da m-dosyası içerisinde bulunmaktadır.
+Böylece, web etkileşimi ve MWS ile haberleşme için
+ayrıca bir yazılım kullanılmamış, bütün işlem süreci
+tek bir m-dosyası üzerinden gerçekleştirilmiştir.
+Hazırlanan benzetim uygulamasında, DA motorunun
+PI denetimli hız kontrolü simüle edilmekle birlikte,
+benzetimi kullananların daha sağlıklı bir öğrenim
+ortamı bulmaları ve kapalı döngü çalışmanın
+mantığını daha iyi kavrayabilmeleri açısından, aynı
+parametre değerleri altında sistemin açık döngü
+benzetimi de gerçekleştirilmiştir. Böylece, kullanıcılar
+kendi ekranlarında sistemin hem açık döngü hızzaman grafiğini hem de PI denetimli kapalı döngü
+hız-zaman grafiğini birlikte görebilecekler ve
+karşılaştırma yapabileceklerdir.
+Başla
+
+PI matrisini oluştur
+Bağımsız
+değişkenleri web
+sayfasından al
+
+PI
+Denetleyici
+
+t = zaman dizisinin ilk elemanı
+Zaman dizisini oluştur
+
+İntegral Kazancı
+Wref
+- e
+
+Ki *(e)
+
++
+
++
+Motor
+
+Wr
+
+Şekil 6. DA motorunun PI ile hız denetimine ilişkin
+blok diyagramı (Block diagram of the speed control
+of DC motor with PI controller)
+
+t değeri için kapalı döngü
+tepkiyi hesapla
+
+Durum denklemlerini oluştur
+
+Hesaplanan değeri hız dizisine
+kaydet
+
+Başlangıç değerlerini 0 yap
+
+t = zaman dizisinin bir
+sonraki elemanı
+
+t = zaman dizisinin ilk elemanı
+
+PI denetleyicisi kapalı döngü bir sistemle
+birleştirildiğinde, hata sıfır olana kadar kontrol
+etkisinin değişimine neden olacaktır. PI kontrolünün
+en büyük üstünlüğü sistemde kalıcı durum hatasının
+olmaması, kolay uygulanabilirliği ve katsayılar doğru
+seçildiğinde hızlı tepki verebilmesidir [38, 39].
+3.2. Matematiksel Modelin MATLAB Ortamına
+Aktarılması (Transferring the Mathematical Model
+into the MATLAB Environment)
+
+Çalışmada, sisteme ait matematik model çıkarıldıktan
+sonra, modelin MATLAB ortamına aktarılması
+sağlanmıştır. Bu amaçla genel bir m-dosyası
+hazırlanmıştır. Modele ait bağımsız değişkenler
+dışarıdan alınırken, bağımlı değişkenler bu m-dosyası
+içerisinde hesaplanmakta ve grafikler üretilmektedir.
+Matematiksel modelin çözümünde kullanılan ve
+benzetim işlemini yürüten m-dosyasına ilişkin, genel
+bir program akış diyagramı Şekil 7’de sunulmuştur.
+
+H
+t değeri için açık döngü
+tepkiyi hesapla
+
+Zaman dizisi
+sona erdi mi?
+
+E
+Hesaplanan değeri hız dizisine
+kaydet
+
+t = zaman dizisinin bir
+sonraki elemanı
+
+Zaman dizisi
+sona erdi mi?
+
+Kapalı döngü hız grafiğini çizdir
+yatay eksen: zaman dizisi
+dikey eksen: hız dizisi
+
+HTML çıkış sayfasının
+içeriğini hazırla
+
+H
+
+Hazırlanan içeriği istemci
+bilgisayara gönder
+
+E
+Açık döngü hız grafiğini çizdir
+yatay eksen: zaman dizisi
+dikey eksen: hız dizisi
+
+Bütün değişkenleri ve grafikleri
+MATLAB ortamından temizle
+
+Bitir
+
+Şekil 7. Hazırlanan m-dosyasına ait akış diyagramı
+(Flowchart of the m-file)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+499
+
+E. Irmak
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+3.3. Benzetim Modelinin İnternet Ortamına
+Taşınması (Moving the Simulation Model on the
+Internet)
+
+Hazırlanan benzetim uygulamasının internet tabanlı
+olarak kullanılabilmesi için, daha önceki bölümlerde
+açıklanan MWS kullanılmıştır. Bu amaçla, iki temel
+web sayfası hazırlanmıştır. Bunlar; HTML Giriş
+Sayfası ve HTML Sonuç Sayfasıdır.
+Benzetimin matematiksel modelinde bulunan
+bağımsız parametre değerleri, HTML giriş sayfası
+üzerine gömülü bir form üzerinden girilmektedir.
+POST yöntemine göre çalışan bu formda, Gönder
+butonu basıldığında çalıştırılacak uygulama adresi
+action etiketinde belirtilmektedir. Bu tanımlamanın
+yapılmasını gösteren örnek bir HTML kodu aşağıda
+verilmiştir:
+………………
+<form action="/cgi-bin/matweb.exe" method= "POST" >
+<input type="hidden" name="mlmfile"
+value="PIControl">
+………………
+</form>
+………………
+
+Form üzerinde tanımlama yapılması gereken ikinci
+yer, girilen verilerin işleneceği dosya konumunu
+belirten alandır. Bu amaçla, sayfa üzerinde
+görünmeyen bir veri giriş alanı oluşturulmuştur. Bu
+MWS için temel bir kuraldır. Bu giriş alanının ismi
+mlmfile olarak belirtilmeli ve değeri de uygulama
+ismini içermelidir. Burada belirtilen uygulama ismi,
+ayrıca matweb.conf ayar dosyasına da bir girdi olarak
+yazılmalıdır.
+Form
+üzerinde
+bulunan
+Gönder
+butonuna
+basıldığında, öncelikle matweb.exe çalışmakta ve cgibin klasörü içerisinde konumlanmış matweb.conf
+dosyasına erişmektedir. Bu ayar dosyasının görünümü
+Şekil 8’de verilmiştir. Bu şekilden görüldüğü gibi,
+matweb.conf dosyası MWS tarafından çalıştırılan web
+tabanlı benzetim dosyaları için bir adres ve ayar
+dosyasıdır. Burada, sunucu adresi (mlserver) ve
+benzetime ilişkin çalıştırılacak m-dosyasının sunucu
+üzerindeki konumu (mldir) belirtilmektedir. Ayrıca,
+sunucu üzerindeki farklı benzetimler için farklı
+uygulama isimleri kullanıldığında dikkat edilmelidir.
+Çalıştırılacak uygulama ismi, HTML giriş sayfasında
+mlmfile giriş alanında belirtilirken, burada
+[PIControl] gibi köşeli parantezler içerisinde
+verilmektedir. Örneğin, HTML giriş sayfasındaki
+formun ilgili alanında;
+………………
+<input type="hidden" name="mlmfile"
+value="PIControl">
+………………
+
+500
+
+Şekil 8. matweb.conf ayar dosyasının görünümü
+(Screenshot of the matweb.conf configuration file)
+yazan bir uygulama için, Gönder butonuna
+basıldığında 10.12.9.157 ip adresli sunucu üzerinde
+bulunan
+D
+ana
+dizini
+içerisindeki
+xamp/htdocs/DCMotorPI klasörü içerisinde bulunan
+PIControl.m dosyası çalıştırılacaktır (Şekil 8).
+MWS tabanlı geliştirilen uygulamalarda dikkat
+edilmesi gereken önemli hususlardan birisi de,
+hazırlanan bütün dosyaların aynı klasör içerisinde
+bulunması gerektiğidir. Örneğin yukarıda belirtilen
+uygulama ile ilişkili olarak HTML giriş dosyası,
+HTML çıkış dosyası ve Bölüm 3.2.’de anlatılan
+PIControl.m dosyası olmak üzere 3 temel uygulama
+dosyası
+vardır.
+Bunların
+üçü
+de,
+C:/xamp/htdocs/DCMotorPI klasörü içerisinde kayıtlı
+olmalıdır.
+3.4. Benzetimin Gerçekleştirilmesi (Performing the
+Simulation)
+
+Bu çalışmada tasarlanan, DA motorunun PI ile hız
+denetimine ilişkin örnek web tabanlı benzetim
+uygulaması için pilot bir e-öğrenim sitesi
+oluşturulmuştur. Sitenin ana sayfa görünümü Şekil
+9’da verilmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+E. Irmak
+
+Şekil 9. Geliştirilen e-öğrenme ortamının ana sayfa görünümü (Screenshot of the home page designed for e-learning
+platform)
+
+Geliştirilen e-öğrenme ortamı, genel olarak
+sunucu/istemci mimarisi üzerine oturtulmuştur.
+Sunucu bilgisayar Şekil 1’de verilen yapıyı
+kullanmakta ve hem web sunucusu, hem de uygulama
+sunucusu olarak görev yapmaktadır. Bir taraftan web
+üzerinden gelecek istemcilere ait istekleri karşılarken,
+diğer taraftan da benzetim programını çalıştırmakta ve
+uygulamanın gerçekleştirilebilmesini sağlamaktadır.
+
+Çözüm sonucu elde edilen değerler kullanılarak, ilgili
+grafikler MATLAB programı tarafından çizdirilir. Bu
+grafikler, MWS’nin bir işlevi olan wsprintjpeg
+fonksiyonu kullanılarak JPEG uzantılı resim
+formatına dönüştürülmüştür. Son olarak, hazırlanan
+grafikler HTML giriş sayfası ile aynı dizin altında
+daha önceden oluşturulmuş HTML çıkış sayfasına
+gönderilmiştir.
+
+Uygulama benzetim tabanlı olduğu için, aynı anda
+birden fazla kullanıcının aynı benzetim modelini
+kullanması mümkündür.
+
+HTML çıkış sayfasının görünümü Şekil 11’de
+sunulmuştur. Bu şekilden de görülebileceği gibi,
+öğrenciler benzetimi gerçekleştirilen motorun hem açık
+döngü (geri beslemesiz) hem de PI denetimli kapalı
+döngü hız-zaman grafiğini birlikte görebilmektedirler.
+Bu sayede, geri besleme sistemlerinin önemi ve neden
+yapıldığı gibi konularda fikir yürütmeleri hedeflenmiştir.
+
+Şekil 10’da, hazırlanan HTML giriş sayfası
+verilmiştir. Bu sayfadan girilen parametreler, bir
+önceki
+bölümde
+bahsedilen
+m-dosyasında
+tanımlanmış olan DA motoruna ait durum
+denklemlerinde yerine konulmakta ve denklemler bu
+değerler altında çözdürülmektedir. Ayrıca, yine bu
+sayfa üzerinden doğrudan benzetim modeline erişmek
+mümkün olduğu gibi, konuyla ilgili teorik bilgi
+sayfalarına da geçilebilmektedir. Teorik bilgi
+sayfalarında, DA motorlar ve PI denetim ile ilgili
+genel bilgiler, benzetimde dikkat edilmesi gereken
+hususlar ve sonuçların incelenmesinde faydalı olacak
+bilgiler verilmiştir. Bu sayfalarda anlatımlar, uygun
+canlandırmalarla desteklenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+HTML sonuç sayfasında verilen grafikler istenilirse
+öğrenci tarafından kendi bilgisayarına kayıt
+edilebilmektedir. Sonuçta, geçmiş zamanlı olarak
+yapılan benzetimlere ileriki bir tarihte ulaşmak
+mümkün olmaktadır.
+Gerek yukarıda örneklenen benzetimin geliştirilmesi
+ve kullanılması sürecinde, gerekse de daha önce
+gerçekleştirilen çalışmalardan [1, 2, 31-35, 37, 38, 40]
+elde edilen tecrübeler neticesinde, MWS’nin aşağıda
+belirtilen önemli yararları tespit edildiği gibi bazı
+kısıtlamaları da açığa çıkarılmıştır.
+
+501
+
+E. Irmak
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+Şekil 10. Benzetim için geliştirilen HTML giriş sayfasının görünümü (Screenshot of the HTML input page designed
+for simulation)
+
+Şekil 11. Benzetim için geliştirilen HTML sonuç sayfasının görünümü (Screenshot of the HTML result page
+designed for simulation)
+502
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+3.5. MWS’nin Yararları (Advantages of the MWS)
+MWS ile gerçek zamanlı benzetimler internet
+üzerinden gerçekleştirilebilmektedir. Bu, teknik ve
+mühendislik eğitimi veren birçok kurumda ve
+özellikle sanal laboratuvar uygulamalarında son
+derece önemlidir. Özellikle bu alanlarda sıkça
+kullanılan 2 boyutlu ve 3 boyutlu grafiklerin,
+MATLAB programı ile çok rahat çizdirilebilmesi
+önemli bir avantajdır. Yine bu programa özgün
+özellikler olan hassas hesaplamalar yapabilme, çok
+boyutlu diziler üzerinde hızlı işlem yürütebilme ve
+elde edilen sonuçları oldukça gelişmiş yapıya sahip
+grafiklerle sunabilme gibi yararların sağlanması ileri
+çıkan avantajlardır.
+MWS sayesinde, kullanıcılar MATLAB yazılımını
+kendi
+bilgisayarlarına
+kurmadan
+MATLAB
+uygulamalarını
+çalıştırabilirler.
+Bunun
+için,
+kullanıcıların bilgisayarında herhangi bir web tarayıcı
+programının (Internet Explorer, Netscape, Mozilla
+vb.) olması yeterlidir. Aynı zamanda kullanıcıların,
+benzetimleri çalıştırmak için özel bir MATLAB ya da
+MATLAB programcılığı bilgisine de sahip olmalarına
+gerek yoktur. Eğitim-öğretim açısından bakıldığında
+bir diğer önemli nokta da, zamandan tasarruf ve
+öğrenci motivasyonunun artacağıdır. Öğrenci kendi
+kafasındaki bütün değerleri parametrelere aktararak
+daha kapsamlı bir deneyime sahip olabilmektedir.
+Teknik açıdan bakıldığında, MWS uygulamalarının
+sunucu üzerinde yüklü olan işletim sisteminden
+bağımsız oluşu en önemli özelliktir. Gelecekte
+yapılacak olan sistem geliştirme ya da program
+geliştirme
+aşamalarında
+istemcilere
+ihtiyaç
+duyulmayışı da yine önemli bir diğer özelliktir.
+MATLAB programının R12 sürümünden itibaren,
+MWS Java sınıflarını desteklemektedir. Bu sayede,
+Java
+veritabanı
+bağlantısı
+(Java
+Database
+Connectivitiy) gibi Java tabanlı kütüphaneleri
+kullanmak
+mümkün
+olmaktadır.
+MATLAB
+uygulamasının yüklü olduğu sunucuya standart HTTP
+protokolü ile erişilmektedir. Bu özellik sayesinde
+MATLAB programı ile kurulan bağlantı, sadece
+internet tarayıcıları ile değil, aynı zamanda bu görevi
+yerine getiren uygulamalarla da sağlanabilmektedir.
+Böylece HTML dosyaları içerisinde gömülü olan Java
+appletlerini ve ActiveX kontrollerini de bağımsız
+olarak kullanmak mümkün olmaktadır [27].
+3.6. MWS’nin Kısıtlamaları
+
+E. Irmak
+
+gösterebilmenin imkânsız olduğu ve sadece işlemin
+sonuç değerlerinin gösterilebileceği anlamına gelir.
+MATLAB programı içerisinde son derece önemli bir
+yeri olan grafiksel kullanıcı ara yüzü bileşenleri
+(GUI), MWS tarafından kullanılamamaktadır. Bu
+problem, MWS’a bilgileri sunan HTML giriş
+sayfasını estetik olacak şekilde tasarlamakla aşılır.
+Ancak MATLAB grafiksel arayüz bileşenleri arasında
+çok kullanılan kayan tip ayar baremlerinin giriş değeri
+vermek amacıyla kullanılabilmesi imkânsızdır. Giriş
+değerleri verirken +, % veya & gibi karakterler
+kullanıldığında sorun çıkmaktadır. Çünkü bu
+karakterler HTML protokolünün kontrol amaçlı
+kullandığı karakterlerdir. Bu sorun, bu işaretleri
+HTTP protokolünde kullanılmayanlarla değiştirebilen
+küçük programlar (script) kullanmak ve sunucu
+tarafındaki MATLAB programında işaretleri tekrar
+eski haline çeviren MATLAB programları kullanmak
+vasıtasıyla çözülebilmektedir [27].
+MWS kullanımının bir diğer dezavantajı ise, iyi bir
+bilgisayar donanımına ihtiyaç duyulmasıdır. Çünkü
+MATLAB yorumlayıcı bir dildir; yüksek kapasiteli
+bir işlemciye ve yüksek RAM özelliklerine ihtiyaç
+duymaktadır. Bu donanım gereksinimleri sadece
+MATLAB programının çalıştığı sunucu taraftaki
+bilgisayar için geçerlidir.
+Eğitim açısından bakıldığında ise, öğrencilerin sadece
+giriş değerlerini değiştirebilmeleri, model üzerinde
+herhangi bir değişiklik yapamamaları bir dezavantaj
+olarak görülebilir. Bazı durumlarda model yapısını
+değiştirebilmek, eğitim açısından son derece faydalı
+olur. Bu konu da bir diğer dezavantaj ise, MWS ile
+üretilen grafikler üzerinde yakınlaştırma (zoom),
+dönderme (rotate) ve kaydırma (pan) gibi analizi
+kolaylaştıran işlemlerin anında yapılamamasıdır. Bu
+işlemleri yapabilmek için kullanıcılar gerekli
+parametreleri ayarlayarak, uygulama yazılımını
+yeniden çalıştırmak zorundadırlar. MWS’nin eöğrenme
+ortamlarına
+olabilecek
+bir
+diğer
+olumsuzluğu, benzetim için gerekli giriş verilerinin
+paket halinde istemciden alınması ve sonuçların aynı
+şekilde bir bütün olarak kullanıcıya gönderilmesidir.
+Bu nedenle anlık parametre değişimlerine karşın
+sistemin tepkisi gözlenememektedir. Özellikle sürgü
+(slider) olarak isimlendirilen ve bir parametrenin
+değerini sürgü kolunun yatay ya da dikey olarak
+hareket ettirilmesi ile değiştirmeye yarayan ara yüz
+öğelerinin, MWS ile kullanılamaması son derece ciddi
+bir dezavantajdır.
+
+(Disadvantages of the
+
+MWS)
+
+3.7. MWS’nin Farklı Alanlara Uygulanabilirliği
+(Adaptability of the MWS for Different Areas)
+
+MWS kullanımının en ciddi dezavantajı; her ne kadar
+3-boyutlu animasyonları MPEG ya da AVI
+formatında programlamak mümkün olsa da,
+uygulamanın cevaplama süresinin çok uzun olmasıdır
+(1 dk. veya daha fazla). Bu durum günümüz internet
+bağlantı şartlarına göre düşünülürse, yapılan işlemleri
+anında ya da kabul edilebilir bir gecikmeyle
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+Bu çalışmada, MATLAB ile geliştirilmiş ya da
+geliştirilme sürecinde olan uygulama çözümlerinin,
+MWS üzerinden nasıl web ortamına aktarılabileceği
+sunulmuş ve bir e-öğrenme ortamı ile konu
+örneklendirilmiştir. Bununla birlikte, çalışmada
+sunulan yöntem esas alınarak MWS tabanlı farklı
+
+503
+
+E. Irmak
+
+uygulamalar da geliştirilebilir. MATLAB yazılımının
+birçok alandaki uygulamaya yönelik çözümler sunan
+özel araç kitaplıkları (toolbox) bulunmaktadır.
+Özellikle mühendislik alanındaki görüntü işleme,
+yapay sinir ağları, sayısal işaret işleme, optimizasyon,
+veri elde etme, veri analizi, veritabanı, filtre tasarımı,
+bulanık
+mantık,
+istatistik
+işlemleri,
+sistem
+kimliklendirme gibi uygulamaların benzetimleri için
+MWS kullanılarak etkileşimli benzetim modellerinin
+tasarlanması mümkündür. Bunun için yapılması
+gereken tek işlem, uygulamaya özgün m-dosyasının
+MATLAB ortamında geliştirilmesidir. Daha sonra,
+Bölüm 3.3’te ayrıntılı bir şekilde verilen metodoloji
+kullanılarak, hazırlanan uygulama kolayca MWS
+üzerinden web ortamına aktarılabilir.
+4. SONUÇ (CONCLUSION)
+Bu çalışmada, e-öğrenme ortamlarının en önemli
+bileşeni olan benzetim uygulamalarının geliştirilmesi
+üzerinde durulmuştur. Bu doğrultuda, konuya farklı
+bir çözüm sunması amacıyla MWS yazılımı ele
+alınmıştır. MWS, MATLAB programında geliştirilen
+farklı
+uygulamaları
+internet
+üzerinden
+de
+çalıştırabilmeyi sağlayan bir yazılımdır. Çalışmada,
+başta elektrik-elektronik alanları olmak üzere birçok
+alanda sıkça kullanılan MATLAB programının ve bu
+programda hazırlanan uygulamaların WWW üzerine
+taşınması sağlanmıştır. Çalışma kapsamında MWS ile
+geliştirilmiş örnekleri sunmanın yanı sıra MWS ile
+uygulama geliştirme sürecinin temelleri verilmiştir.
+Çalışmanın
+bütünlüğünü
+sağlamak
+amacıyla,
+geliştirilen örnek benzetimlerin saklandığı ve
+sunulduğu basit ve kullanışlı bir e-öğrenme platformu
+oluşturulmuştur. Bu platform üzerinden, öğrencilere
+teorik bilgiler zengin canlandırmalarla verilirken,
+etkileşimli benzetimlerle de konunun pekişmesi
+sağlanmıştır. Pilot ders konusu olarak, elektrikelektronik alanında önemli yer olan DA makinaları ve
+bu makinalar için hız kontrolü ele alınmıştır.
+Çalışmada örnek uygulama olarak ise, geliştirilen eöğrenme platformu üzerinden bir DA motorunun PI
+ile hız denetimine ilişkin benzetim uygulaması
+verilmiştir. Gerçekleştirilen benzetim, MWS tabanlı
+olarak internet üzerinden kullanılmaktadır.
+Çalışma sonucunda yapılan değerlendirmede,
+MWS’nin mesleki ve teknik eğitim ile mühendislik
+eğitimine yönelik e-öğrenme ortamları için benzetim
+geliştirme sürecinde başarıyla kullanılabileceği
+sonucuna varılmıştır. Özellikle karmaşık matematik
+modellerin kullanıldığı benzetimler için, MATLAB’in
+üstün ve hızlı problem çözme yeteneği MWS
+sayesinde web ortamına rahatlıkla taşınabilmektedir.
+Geliştirilen örnek benzetim uygulaması ile özellikle
+elektrik-elektronik alanlarında önemli yeri olan geçici
+durum tepkilerinin başarıyla elde edilebildiği ve
+sonuçların grafiksel olarak analiz edilebildiği
+gözlenmiştir. Benzetimin başlangıcı ile bitişi arasında
+
+504
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+ağ hızına bağlı olarak 3–5 s arası bir zaman geçtiği
+saptanmıştır. Örneğin; HTML giriş sayfasını
+kullanarak giriş parametrelerini ayarlayan bir
+kullanıcı Gönder düğmesine basmak suretiyle
+benzetimi başlattığı andan sonraki 3. saniyede
+benzetim
+sonucu
+oluşan
+grafik
+ekranda
+sunulabilmektedir. Bu gecikme süresi tatmin edicidir.
+Gerek ulusal düzeyde gerekse de uluslararası alanda,
+e-öğrenme ortamları ve web tabanlı benzetim
+uygulamaları üzerinde sıkça çalışılan güncel bir
+konudur. Bu amaçla benzetim geliştirme sürecinde
+farklı birçok yazılım ve teknikler kullanılmaktadır.
+Çalışma sonucunda, Özellikle Türkiye’de henüz
+kullanılmayan ve bu açıdan yeni bir teknik olan
+MWS’nin, web tabanlı benzetimler için önemli bir
+çözüm sunduğu ve gerek doğrudan e-öğrenme
+ortamlarında gerekse de yüz yüze eğitimde yardımcı
+ders aracı olarak başarıyla kullanılabileceği ortaya
+konulmuştur.
+Yazar, bu çalışmada sunulan yöntemi kullanarak şu
+anda internet üzerinden gerçek zamanlı olarak uzaktan
+erişilebilen deney sistemleri üzerinde çalışmalar
+yürütmektedir. Bu kapsamda kullanıcılar, internet
+üzerinden laboratuvar ortamında kurulu bir deney
+düzeneğine bağlanabilmekte, bu deney düzeneği
+üzerindeki cihaz ve setleri çalıştırarak deneysel
+çalışmalar yapabilmektedirler. Halen yürütülen bu
+çalışmalardan elde edilen ilk sonuçlar, MWS’nin
+gerçek zamanlı web tabanlı deneyler için de başarılı
+bir şekilde kullanılabileceğini göstermektedir.
+Yürütülen bu çalışmalara ait şu ana kadar elde edilen
+sonuçlar, uluslar arası kongrelerde sunulmuştur [33,
+35].
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+4.
+
+5.
+
+Demirbaş, Ş., Irmak, E., Sefa, İ., Bayındır, R.,
+Çolak, İ., “DA Motorunun Web Tabanlı
+Modellenmesi ve Analizi”, Bilimde Modern
+Yöntemler Sempozyumu, Kocaeli, 444-451,
+2005.
+Çolak, İ., Irmak, E., Demirbaş, Ş., Bayındır, R.,
+“Teknik Eğitimde İnternet Teknolojisinin
+Kullanımı”, 1. Uluslararası Mesleki ve Teknik
+Eğitim Teknolojileri Kongresi, İstanbul, 722727, 2005.
+Sridharan, K., “A Course on Web Languages and
+Web-Based Applications”, IEEE Transactions
+on Education, Cilt 47, No 2, 254-260, 2004.
+Sepe, R. B., Chamberland, M., Short, N., “WebBased Virtual Engineering Laboratory (VE-LAB)
+for a Hybrid Electric Vehicle Starter/Alternator",
+Proceedings of the Industry Applications
+Conference, Cilt 4, 2642 – 2648, 1999.
+Spanias, A., Urban, S., Constantinou, A., Tampi,
+M., Clausen, A., Zhang, X., Foutz, J., Stylianou,
+G., “Development and Evaluation of a WebBased Signal and Speech Processing Laboratory
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+for Distance Learning”, Computers in
+Education, Cilt X (April-June), 21-25, 2000.
+Spanias, A., Atti, V., “Interactive Online
+Undergraduate Laboratories Using J-DSP”, IEEE
+Transactions on Education, Cilt 48, No 4, 735749, 2005.
+Chang, T., Hung, D., “Web-Based Distance
+Experiments Design and Implementation”
+International Conference on Engineering
+Education, Taiwan, 1-5, 2000.
+Humar, I., Sinigoj, A. R., Bester, J., Hagler,
+M.O., “Integrated Component Web-Based
+Interactive Learning Systems for Engineering”,
+IEEE Transactions on Education, Cilt 48, No
+4, 664- 675, 2005.
+Corradini, M.L., Ippoliti, G., Leo, T., Longhi,
+S., “An Internet Based Laboratory for Control
+Education”, Proceedings of the 40th. IEEE
+Conference on Decision and Control, Orlando,
+2833-2838, 2001.
+Swamy, N., Kuljaca, O., Lewis, F.L., “InternetBased Educational Control Systems Lab Using
+NetMeeting”,
+IEEE
+Transactions
+on
+Education, Cilt 45, No 2, 145-151, 2002.
+Srinivasagupta, D., Joseph, B., “An InternetMediated Process Control Laboratory”, IEEE
+Control Systems Magazine, Cilt 23, No 1, 1118, 2003.
+Ko, C.C., Ben, M.C., Jianping, C., Yuan, Z., Kay,
+C.T., “Development of a Web Based Laboratory
+for Control Experiments on A Coupled Tank
+Apparatus”, IEEE Transactions on Education,
+Cilt 44, No 1, 76-86, 2001.
+Miele, D. A., Potsaid, B., Wen, J. T., “An
+Internet Based Remote Laboratory for Control
+Education”, Proceedings of the American
+Control Conference, Arlington, 1151-1152, 2527 Haziran 2001.
+Sanchez, J., Dormido, S., Pastor, R., Morilla, F.,
+“A Java/Matlab-Based Environment for Remote
+Control System Laboratories: Illustrated with an
+Inverted Pendulum”, IEEE Transactions on
+Education, Cilt 47, No 3, 321-329, 2004.
+Qingcang, Y., Chen, B., Cheng H. H., “Web
+Based Control System Design and Analysis”,
+IEEE Control Systems Magazine, Cilt 24, No
+3, 45–57, 2004.
+Valera, A., Diez, J. L., Valles, M., Albertos, P.,
+“Virtual and Remote Control Laboratory
+Development”,
+IEEE
+Control
+Systems
+Magazine, Cilt 25, No 1, 35–39, 2005.
+Ondera, M., Huba, M., “Web-Based Tools for
+Exact Linearization Control Design”, 14th
+Mediterranean Conference on Control and
+Automation, Ancona, Italy, 1-6, 28-30 Haziran
+2006.
+Yılmaz, N., Sağıroğlu, Ş. ve Bayrak, M., “A Web
+Based Semi-Autonomous Mobile Robot:
+SUNAR”, Turkish Symposium on Artificial
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+E. Irmak
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+Intelligence and Neural Networks, Çeşme,
+İzmir, 410-417, 16-17 Haziran 2005.
+Lin, H. C., “An Internet-Based Graphical
+Programming Tool for Teaching Power System
+Harmonic Measurement”, IEEE Transactions
+on Education, Cilt 49, No 3, 404-414, 2006.
+Vanijjirattikhan, R., Ayhan, B., Tipsuwan, Y.,
+Chow, M. Y., “A Web-Based Distributed
+Dynamics Simulation of a Three-Phase Induction
+Motor”, Proceedings of NSF Workshop on
+Teaching of First Courses on Power
+Electronics and Electric Drives and Advance
+Course on Power System Applications of
+Power Electronics, Tempe, Arizona, 1-21, 05-07
+Ocak 2003.
+Keyhani, A., Marwali, M.N., Higuera, L.E.,
+Athalye, G., Baumgartner, G., “An Integrated
+Virtual Learning System for the Development of
+Motor Drive Systems”, IEEE Transactions on
+Power Systems, Cilt 17, No 1, 1-6, 2002.
+Masters, J., Madhyastha, T.M. ve Shakouri, A.,
+“Educational Applets for Active Learning in
+Properties of Electronic Materials”, IEEE
+Transactions on Education, Cilt 48, No 1, 2936, 2005.
+Huang, H.P. ve Lu, C.H., “Java-based Distance
+Learning
+Environment
+for
+Electronic
+Instruments”,
+IEEE
+Transactions
+on
+Education, Cilt 47, No 1, 88-94, 2004.
+Marin, S.L.T., Garcia, F.J.B., Torres, R.M.,
+Vazquez,
+S.G.
+ve
+Moreno,
+A.J.L.,
+“Implementation of A Web-based Educational
+Tool for Digital Signal Processing Teaching
+Using the Technological Acceptance Model”,
+IEEE Transactions on Education, Cilt 48, No
+4, 632-641, 2005.
+Djordjevic, J., Nikolic, B. ve Milenkovic, A.,
+“Flexible Web-based Educational System for
+Teaching
+Computer
+Architecture
+and
+Organization”,
+IEEE
+Transactions
+on
+Education, Cilt 48, No 2, 264-273, 2005.
+Uran, S., Jezernik, K., “MATLAB Web Server
+and M-file Application”, 12th International
+Power Electronics and Motion Control
+Conference, Portoroz, Slovenia, 2088-2092,
+Ağustos 2006.
+Pester, A., Ismailov, R., “Interactive Applications
+in Teaching with the MATLAB Web Server”,
+Vestnik
+National’nogo
+Techniceskogo
+Universiteta, Cilt X, 4–19, 2001.
+Linka, A., Volf, P., “Statistical Data Analysis
+Course via the MATLAB Web Server”, 2nd
+International Conference on the Teaching of
+Mathematics, Hersonissos, Crete, Greece, 1-6
+Temmuz 2002.
+Yan, P., Valkama, M., Renfors, M., “Distance
+Learning in Communications Signal Processing
+Using MATLAB Web Server”, Proceedings of
+the 6th Nordic Signal Processing Symposium,
+Espoo, Finland, 244-247, 9-11 Haziran 2004.
+
+505
+
+E. Irmak
+
+E-Öğrenme Ortamları İçin Matlab Web Sunucu Kullanımı
+
+30. Magistris, M., “A MATLAB-Based Virtual
+Laboratory for Teaching Introductory QuasiStationary
+Electromagnetics”,
+IEEE
+Transactions on Education, Cilt 48, No 1, 8188, 2005.
+31. Demirbaş, Ş., Irmak, E., Çolak, İ., “Asenkron
+Motor Benzetimi İçin Web Tabanlı Bir Eğitim
+Aracı”, Politeknik Dergisi, Cilt 9, Sayı 4, 147152, 2006.
+32. Irmak, E., “Doğru Akım Motorunun Temel Giriş
+Sinyallerine Tepkisinin İnternet Üzerinden
+Benzetimi”, Politeknik Dergisi, Cilt 9, Sayı 2,
+71-77, 2006.
+33. Çolak, İ., Demirbaş, Ş., Irmak, E., Sefa, İ.,
+Bayındır, R., “Remote Control of DC Motor over
+the Internet”, 3rd International Conference on
+Technical and Physical Problems in Power
+Engineering, Ankara, 216-218, 2006.
+34. Çolak, İ., Irmak, E., Sefa, İ., Demirbaş, Ş.,
+Bayındır, R., “Temel Elektrik Devrelerinin
+Analizi İçin İnternet Tabanlı Bir Eğitim Aracı”,
+Teknolojileri
+6.
+Uluslararası
+Eğitim
+Konferansı, Kıbrıs, 446-451, 2006.
+35. Çolak, İ., Irmak, E., Demirbaş, Ş., Sağıroğlu, Ş.,
+“A Novel Integrated Web Based Learning
+System for Electrical Machines Education”,
+IEEE International Conference on Power
+Engineering, Energy and Electrical Drives,
+Setubal, Portugal, 265-269, 12-14 Nisan 2007.
+36. MATLAB Web Server User's Guide, The
+Mathworks Inc., 2001.
+37. Çolak, İ, Irmak, E., Bayındır, R., Demirbaş, Ş.,
+Sefa, İ, “Web Based Simulation of Open or
+Closed Loop Control Systems,” Proceedings of
+the 6th Int. Educational Technology
+Conference, Gazi Magusa, North Cyprus, 446451, 19-21 Nisan 2006.
+38. Demirbaş, Ş., “İnternet Tabanlı PI Kontrollü Bir
+Doğru Akım Motoru Deney Seti”, G.Ü.
+Mühendislik-Mimarlık Fakültesi Dergisi, Cilt
+22, No 2, 2007.
+39. Çolak, İ., Bayındır, R., “DA Motoru Hız
+Kontrolü İçin Denetleyiciyi PI Kontrolör Olarak
+Programlama”,
+Pamukkale
+Üniversitesi
+Mühendislik Fakültesi Mühendislik Bilimleri
+Dergisi, Cilt 11, Sayı 2, 2005.
+40. Irmak, E., Uzaktan Eğitim Amaçlı İnternet
+Tabanlı Laboratuvar Uygulaması, Doktora
+Tezi, Gazi Üniversitesi, Fen Bilimleri Enstitüsü,
+2007.
+
+506
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 2, 2008
+
+

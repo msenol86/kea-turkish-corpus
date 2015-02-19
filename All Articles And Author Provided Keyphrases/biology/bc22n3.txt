@@ -1,0 +1,1426 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 22, No 3, 461-469, 2007
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 20, No 3, 461-469, 2007
+
+BİYOMEDİKAL İŞARETLERİN SINIFLANDIRILMASINDA
+OTOMATİK TEŞHİS SİSTEMLERİNİN BAŞARIMI
+Elif Derya ÜBEYLİ
+Elektrik-Elektronik Müh. Bölümü, Mühendislik Fakültesi, TOBB Ekonomi ve Teknoloji Üniversitesi, 06530
+Söğütözü, Ankara
+edubeyli@etu.edu.tr
+(Geliş/Received: 24.08.2006; Kabul/Accepted: 05.04.2007)
+ÖZET
+Bu çalışmada, oftalmik atardamar Doppler işaretlerinin, elektroensefalogram (EEG) ve elektrokardiyogram
+(EKG) işaretlerinin sınıflandırılması için farklı ve birleşik özniteliklerin kullanıldığı otomatik teşhis sistemleri
+incelenmiş ve bu sistemlerin doğrulukları saptanmıştır. Şekil tanımlama uygulamalarında, tanımlanacak olan
+işlenmemiş işaretten farklı öznitelikler çıkarılır. Farklı öznitelikleri olan birden fazla sınıflayıcıyı birleştirme,
+şekil sınıflamanın birçok alanında problem olarak görülmektedir. Birleşik öznitelikler ile eğitilen çok katmanlı
+perseptron sinir ağı, birleşik sinir ağı, uzman ağların karışımı ve farklı öznitelikler ile eğitilen değiştirilmiş
+uzman ağların karışımı gibi modellerin sınıflama doğrulukları karşılaştırılmıştır. Otomatik teşhis sistemlerinin
+girişleri, ağ yapılarına göre farklı veya birleşik özniteliklerden oluşmaktadır. Bu çalışmanın sonuçları, farklı
+öznitelikler ile eğitilen değiştirilmiş uzman ağların karışımı modelinin, birleşik öznitelikler ile eğitilen diğer
+otomatik teşhis sistemlerine göre yüksek doğruluk elde ettiğini göstermiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Teşhis sistemlerinde çeşitli yöntemler kullanılmakla
+birlikte teşhis sistemleri genellikle şu işlemlerden
+oluşmaktadır: ön işleme, öznitelik çıkarma/seçme ve
+sınıflama (Şekil 1). İşaret/görüntü elde etme, bozucu
+etkenlerin yok edilmesi, ortalama alma, eşik değeri
+belirleme, işaret/görüntü iyileştirme gibi işlemler ön
+
+işlemeyi oluşturmaktadır. Öznitelik çıkarma, şekil
+tanımlama ve şeklin önemli özniteliklerinin çıkarılıp
+öznitelik vektörünün elde edilmesi işlemidir.
+Öznitelik seçme isteğe bağlı olarak yapılan bir işlem
+olup sınıflama işlemi açısından en belirleyici
+özniteliklerin seçilmesi ile öznitelik vektörünün
+boyutunun azaltılmasıdır. Teşhis sistemlerinin son
+aşaması olan sınıflamada, kullanılan algoritmaya
+
+E.D. Übeyli
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+bağlı olarak giriş öznitelik vektörleri incelenir ve
+sınıflama sonucu belirlenir. Sınıflama sonucunu
+belirlemesi açısından ele alındığında öznitelik
+çıkarma ve gerekli durumlarda öznitelik seçme,
+sınıflama
+sistemlerinin
+başarısını
+oldukça
+etkilemektedir [1-3].
+Öznitelik çıkarma işleminde çok farklı yöntemler
+kullanılabildiği için işlenmemiş işareti tanımlayan
+farklı öznitelikler elde edilebilmektedir. Çıkarılan her
+öznitelik vektörü işareti tanımlayabilir fakat sınıflama
+için hiç biri mükemmel olmayabilir. Ayrıca, şekil
+sınıflama işleminde özniteliklerin öneminin ölçümü
+kolay değildir. Bundan dolayı, yüksek sınıflama
+başarımı elde etmek için farklı özniteliklerin birlikte
+kullanımı gerekli olmuştur. Bu tip şekil sınıflama,
+farklı öznitelikler ile sınıflama olarak adlandırılır [4].
+Sınıflama
+işlemi
+iki
+ayrı
+yöntem
+ile
+gerçekleştirilebilir. Bu yöntemlerden birinde farklı
+özniteliklerin bir araya getirilmesi ile oluşan birleşik
+öznitelikler kullanılırken, diğerinde farklı öznitelik
+vektörleri ile eğitilen birden fazla sınıflayıcı
+birleştirilir. Birleşik özniteliklerin kullanımından
+kaynaklanan birkaç problem aşağıda belirtilmektedir:
+• Boyutu öznitelik vektör bileşenlerinden daha
+büyüktür ve boyutu büyük olan vektörler
+hesaplama
+karmaşıklığını
+artırdığı
+gibi
+gerçekleştirme ve doğruluk problemlerine neden
+olmaktadır.
+• Farklı formlarda olan birkaç özniteliği bir araya
+getirmek zordur, örneğin sürekli değişkenler,
+ikilik değerler, ayrık değişkenler, yapısal
+değişkenler.
+• Öznitelik vektör bileşenleri genellikle bağımsız
+değillerdir.
+
+İşlenmemiş
+işaret
+
+Ön İşleme
+
+x = {x1 , x 2 , K , x n }
+
+Öznitelik
+Seçme
+
+x ′ = {x1 , x 2 , K , x m }
+burada m < n
+
+Öznitelik
+Çıkarma
+
+x = {x1 , x 2 , K , x n }
+
+Sınıflama
+
+Çıkış
+
+Şekil 1. Teşhis sistemlerinde gerçekleştirilen işlemler
+
+Bu problemlerden dolayı birleşik özniteliklerin
+kullanımı genellikle başarımı fazla yükseltmez.
+Bununla birlikte, farklı öznitelikleri içeren
+problemlerin çözümünde birden fazla sınıflayıcının
+birleşimi iyi bir çözüm olabilir. Karmaşık
+problemlerin çözümünde problemi basit parçalara
+bölüp daha sonra bu parçaların sonuçlarını tek bir
+çözümde birleştiren modeller üzerinde durulmaktadır.
+Bu yaklaşımı kullanan ve uzman ağların karışımı
+olarak adlandırılan birimsel sinir ağı modeli, Jacobs
+ve arkadaşları tarafından sunulmuştur [5]. Uzman
+ağların karışımı, uzman ağların çıkışlarını karıştırarak
+istenilen çıkışın şartlı olasılık yoğunluk işlevini
+modeller. Uzman ağların çıkışları, en iyi çözümü
+veren uzman ağı seçen ve aynı anda eğitilen geçit ağı
+ile birleştirilmektedir. Jordan ve Jacobs tarafından [6]
+belirtildiği gibi geçit ağı tipik çok sınıflı sınıflama
+işlemini gerçekleştirmektedir. Uzman ağların karışımı
+modelinde, geçit ve uzman ağlara aynı giriş
+uygulanması gerektiği için birleşik öznitelikler
+kullanılabilir [7]. Chen tarafından sunulan [4]
+değiştirilmiş uzman ağların karışımı modeli farklı
+özniteliklerin kullanılabildiği bir modeldir.
+Durağan olmayan işaretlerin spektral analizi için
+uygun olmasından dolayı dalgacık dönüşümünün
+diğer spektral analiz metodlarına göre üstünlükleri
+vardır. Dalgacık dönüşümünün en önemli avantajı,
+düşük frekanslar için geniş, yüksek frekanslar için dar
+olacak şekilde değişen pencere boyutlarının olmasıdır.
+Böylece, bütün frekans aralıklarında optimum zamanfrekans çözünürlüğü sağlanabilmektedir [3,8-10]. Bu
+çalışmada zamanla değişen biyomedikal işaretlerin
+analizi dalgacık dönüşümü ile gerçekleştirilmiş ve
+dalgacık katsayıları işareti temsil eden öznitelik
+vektörleri olarak ele alınmıştır.
+İncelenen biyomedikal işaretleri yüksek doğrulukla
+sınıflayabilmek için farklı ve birleşik öznitelikler ile
+eğitilen dört otomatik teşhis sistemi (farklı
+öznitelikler ile eğitilen değiştirilmiş uzman ağların
+karışımı; birleşik öznitelikler ile eğitilen çok katmanlı
+perseptron sinir ağı, birleşik sinir ağı ve uzman
+ağların karışımı) kullanılmıştır. Bu otomatik teşhis
+sistemlerinin başarımlarının değerlendirilmesinde
+toplam sınıflama doğrulukları ve ağ eğitiminin
+merkezi işlemci zamanı dikkate alınmıştır.
+2. ANALİZİ YAPILAN BİYOMEDİKAL
+İŞARETLER (ANALYZED BIOMEDICAL SIGNALS)
+Ultrasonik Doppler, kan akış hızını, yönünü ve
+debisini incelemede kullanılmaktadır. Doppler
+sistemlerinde, ultrasonik dönüştürücünün gönderdiği
+ultrasonik dalganın kandaki kırmızı kan hücrelerinden
+saçılması ve yansımasından dolayı frekansta
+değişimler gözlenir. Doppler kayma frekansı, damara
+gönderilen dalganın frekansı ile yansıyan dalganın
+frekansı arasındaki farktır:
+
+(Processes performed in diagnostic systems)
+
+462
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+2 f t v cosθ
+(1)
+c
+Doppler kayma frekansı, f t damara
+
+f D = ft − f r =
+
+burada, f D
+gönderilen dalganın frekansı, f r damardan yansıyan
+dalganın frekansı, v kandaki parçacıkların hızı, c
+ultrasonik dalganın ortamdaki hızı, θ ultrasonik dalga
+ile parçacıkların hareket yönü arasındaki açıdır [3,7].
+Ultrasonik dalganın kandan saçılması tek ve aynı
+hızda hareket eden parçacıklardan olmadığı için
+Doppler frekansı spektrum şeklinde gözlenir. Doppler
+güç spektrumunun şekli ile ölçüm yapılan bölgedeki
+kan hızının şekli benzerdir. Bu durumda, Doppler
+işaretlerinin spektral analizi ile atardamarlardaki hız
+dağılımı hakkında bilgi elde edilebilir. Spektral analiz
+metodlarının kullanılması ile Doppler işaretlerinin güç
+yoğunluk spektrumlarının kestirimi yapılır ve tıbbi
+bilgi elde etmek için Doppler spektrumlarındaki
+değişimler incelenir. Doppler işaretlerinin spektral
+içeriğinden kan akışı ile ilgili sonuçlar çıkarılabilir.
+Spektral şeklin ve parametrelerin analizi ile işaretin
+sağlıklı veya hastalıklı atardamara ait olduğu
+belirlenir [3,7].
+Oftalmik atardamar göze ve göz küresinin bulunduğu
+göz çukuruna kan sağlar. Oftalmik atardamarın
+boyutlarındaki ve kan akış hızındaki değişiklikler ve
+oftalmik atardamarın direncindeki artışlar Behçet
+hastalığının belirtilerindendir. Bu belirtilerle birlikte
+görülen Behçet hastalığı görme kaybına neden olduğu
+için hastalığın erken teşhisi önemlidir [3,7]. Bu
+çalışmada, sağlıklı, oftalmik atardamar daralması ve
+Behçet hastalığı olan kişilere ait oftalmik atardamar
+Doppler işaretlerinin spektral analizi dalgacık
+dönüşümü ile gerçekleştirilmiştir.
+Elektroensefalogram
+(EEG)
+işaretleri,
+beyin
+fonksiyonlarının elektriksel olarak değişimini ifade
+eder. Beynin işlevsel durumuna göre örneğin; uykuda,
+anestezide, oksijen eksikliği (hipoksia) durumunda ve
+epilepsi gibi belirli sinir hastalıklarında, bu aktivite
+değişmektedir.
+EEG
+ilk
+kayıt
+edilmeye
+başlandığından beri klinik uygulamalarda en önemli
+teşhis araçlarından biri olmuştur [11,12]. EEG
+işaretleri, hastalık teşhisinin doğruluğunu sağlamak
+için çoğunlukla 8-10 saatlik kayıtlar şeklinde
+alınmaktadır. EEG kayıtlarının bu şekilde uzun
+olmasından dolayı, EEG işaretlerinin analizinin
+bilgisayar ortamında yapılması gerekli olmuştur. Bu
+konuda farklı yöntem ve algoritmalar geliştirilmiştir
+[11,12]. Bu çalışmada, kaynak [13]’te tanımlanan
+farklı kişilerden kayıt edilmiş EEG işaretlerinin
+(sağlıklı kişilerden – grup A, epilepsi nöbetinin
+olmadığı durumda epilepsi hastalarından – grup D ve
+epilepsi nöbeti sırasında epilepsi hastalarından kayıt
+edilen EEG işaretleri – grup E) spektral analizi
+dalgacık dönüşümü ile gerçekleştirilmiştir.
+Elektrokardiyogram (EKG) işaretleri, kardiyak
+sistemin biyoelektrik ve biyomekanik aktivitelerinin
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+E.D. Übeyli
+
+kayıtlarıdır. Bu işaretler, kardiyovasküler sistem ve
+kalbin fonksiyonları hakkında önemli bilgi
+içermektedir. Kayıt edilen EKG’lerin normal
+EKG’lerle karşılaştırılmasıyla, kalbin çalışmasıyla
+ilgili bazı normal dışı durumlar belirlenebilir. Bir
+doktorun hastada yapılmasını istediği temel
+ölçümlerden birisi EKG ve kalp vuru hızının
+ölçümüdür. EKG’de her kalp atımının karşılığı olan
+P,Q,R,S,T dalgalarından oluşmuş bir kompleks
+görülür. Bu dalgalardaki değişiklikler, düzenli
+dalgalardan farklı dalgaların görülmesi, dalgalar
+arasındaki sürelerdeki değişmeler doktorlara kalp
+hastalığı hakkında ipuçları verirler [14-16]. Kalp
+yetersizliği kalbin vücut ihtiyacını karşılayabilecek
+kadar kan pompalayamaması durumunda oluşur.
+Konjestif kalp yetersizliği olarak bilinen bu durumda
+toplar damarlarda, vücut dokularında ve akciğerlerde
+sıvı birikir ve ödem oluşur. Vücut fazla miktardaki
+suyu atamaz. Kalp çok yavaş veya çok hızlı, düzenli
+veya düzensiz atabilir. Enfarktüs geçirmiş, kalp
+damarlarında daralma olan veya herhangi başka bir
+kalp hastalığı geçirmiş kişilerde ventriküler taşiaritmi
+(hızlı aritmi) görülebilir. Atrial fibrilasyon en sık
+gözlenen ritim bozukluklarından biridir. Atrial
+fibrilasyonda uyarılar atriumda düzgün bir şekilde yol
+alacaklarına atrium içinde aynı anda sayısız uyarı
+dalgası oluşup farklı yönlere hareket eder ve
+atrioventriküler düğümden geçmek için birbirleriyle
+yarışırlar. Bu uyarılar kalbin elektriksel sistemi
+dışındaki dokulardan kaynaklanır. Bu uyarıların
+oluşması ile çok hızlı ve organize olmayan bir kalp
+ritmi oluşur [14-16]. Bu çalışmada kaynak [17]’den
+elde edilen, normal, konjestif kalp yetersizliği,
+ventriküler
+taşiaritmi
+ve
+atrial
+fibrilasyon
+durumlarındaki EKG işaretlerinin spektral analizi
+dalgacık dönüşümü ile gerçekleştirilmiştir.
+3. OTOMATİK TEŞHİS SİSTEMLERİ
+(AUTOMATED DIAGNOSTIC SYSTEMS)
+
+3.1. Birleşik Sinir Ağı (Combined Neural Network)
+Bu modelin temelinde yığılı genelleştirme kavramı
+yer almaktadır. Yığılı genelleştirme kavramı Wolpert
+tarafından [18] ortaya atılmış ve son çıkışın kestirimi
+için bir küme genelleştiricinin diğerlerini beslemesini
+göstermektedir. Genelleştiricilerin beslendiği bilgi,
+orjinal eğitim verisinin çoklu parçalarından elde
+edilmektedir. Yığılı genelleştirme, çapraz geçerliliğin
+daha karmaşık şekli gibi görülebilir ve tekli yapıdaki
+sinir ağları ile karşılaştırıldığında genelleştirme
+özelliğinin daha yüksek olduğu ortaya çıkmaktadır
+[16,19]. Bu çalışmadaki birleşik sinir ağlarının
+oluşturulmasında, birinci ve ikinci seviyede çok
+katmanlı perseptron sinir ağları kullanılmıştır.
+Birleşik sinir ağlarının bu şekilde oluşturulmasının
+nedenleri; çok katmanlı perseptron sinir ağlarının
+öğrenme ve genelleştirme yeteneklerinin fazla olması,
+küçük eğitim verisine ihtiyaç duymaları, hızlı işlem
+yapabilmeleri ve gerçekleştirilmelerinin kolay
+olmasıdır. Birinci ve ikinci seviyedeki ağların
+
+463
+
+E.D. Übeyli
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+eğitiminde
+Levenberg-Marquardt
+kullanılmıştır.
+
+algoritması
+
+3.2. Uzman Ağların Karışımı (Mixture of Experts)
+Uzman ağların karışımı modelinde bir geçit ağı ve
+birkaç uzman ağ bulunmaktadır. Bu modelde bir
+sınıflama probleminin daha basit alt sınıflama
+problemlerine bölünmesi ve işlemin bu şekilde
+gerçekleştirilmesi
+için
+küçük
+uzman
+ağlar
+kullanılmaktadır. Geçit ağı x vektörünü giriş olarak
+alır ve sayısal çıkışları oluşturur. Her bir uzman ağ,
+giriş vektörüne karşı çıkış vektörü oluşturur. Geçit ağı
+uzman ağların olasılıkları için katsayıların doğrusal
+kombinasyonunu belirler ve uzman ağların karışımı
+modelindeki son çıkış, uzman ağların çıkış
+vektörlerinin ağırlıklı toplamıdır. Uzman ağların
+karışımı modelinde N adet uzman ağ olduğu
+varsayımı yapıldığında, i’inci uzman ağ o i (x)
+çıkışını giriş vektörü x ’in genelleştirilmiş doğrusal
+işlevi olarak oluşturur [7]:
+o i (x) = f ( Wi x)
+(2)
+burada Wi ağırlık matrisi ve f (⋅) sabit sürekli
+doğrusal olmayan işlevdir. Geçit ağı doğrusal işlevi
+genelleştirir ve i’inci çıkış şu şekilde belirtilir:
+g (x, v i ) =
+
+e ξi
+N
+
+∑e
+
+(3)
+ξk
+
+k =1
+
+burada ξ i = v T x ve v i ağırlık vektörüdür. Uzman
+i
+ağların karışımı modelinin son çıkışı şu şekilde ifade
+edilir:
+N
+
+o( x) =
+
+∑ g ( x, v
+
+k )o k ( x) .
+
+(4)
+
+k =1
+
+Uzman ağların karışımı modelinin olasılık modeline
+bağlı olarak eğitimi enbüyük olabilirlik problemi
+olarak ele alınabilir. Jordan ve Jacobs [6] modelin
+parametrelerinin ayarlanabilmesi için beklenen değeri
+enbüyükleme algoritmasını geliştirmişlerdir.
+3.3. Değiştirilmiş Uzman Ağların Karışımı
+(Modified Mixture of Experts)
+
+Değiştirilmiş uzman ağların karışımı modeli, N adet
+uzman ağ ve geçit ağlarından oluşmaktadır. K adet
+ayrık öznitelik olması durumunda uzman ağlar, K
+gruba bölünür ve i’inci grupta N i adet uzman ağ
+K
+
+∑N
+
+i
+
+= N formuna dönüşür. Aynı gruptaki uzman
+
+i =1
+
+ağlar aynı öznitelik vektörlerini giriş olarak
+kullanırken farklı gruplardaki herhangi iki uzman ağ
+farklı öznitelik vektörlerini giriş olarak kullanır. Bir
+giriş örneği için her uzman ağ özniteliklere bağlı
+olarak çıkış vektörünü oluşturur. K adet geçit ağı
+için K adet öznitelik vektörü bulunmaktadır. Her
+geçit ağı özniteliklere bağlı olarak çıkış vektörünü
+
+464
+
+oluşturur. Çıkış vektörü N bileşenden oluşmaktadır
+ve her bir bileşen bir uzman ağa karşılık gelmektedir.
+Geçit ağlarının son çıkışı bütün geçit ağlarının
+oluşturduğu çıkışların ağırlıklı toplamıdır ve farklı
+özniteliklerden oluşan girişlere bağlı olarak ortaya
+çıkmaktadır. Değiştirilmiş uzman ağların karışımı
+modelindeki son çıkış, N adet uzman ağın çıkışının
+geçit
+çıkışı
+ile
+ağırlıklandırılmış
+doğrusal
+kombinasyonudur. Bu modelde iki yarış mekanizması
+vardır; uzman ağlar eğitim verisini öğrenme hakkını
+elde etmek için yarışırken farklı öznitelikleri olan
+geçit ağları çıkışı oluşturacak olan uygun uzman ağı
+seçme hakkını elde etmek için yarışırlar. Bu modelde
+parametre kestirimi enbüyük olabilirlik öğrenme
+problemidir [4]. Beklenen değeri enbüyükleme
+algoritması problemi çözmek için kullanılmıştır. Bu
+çalışmada, geçit ve uzman ağlar çok katmanlı
+perseptron sinir ağlarından oluşturulmuştur.
+4. DALGACIK DÖNÜŞÜMÜ
+(WAVELET TRANSFORM)
+
+Dalgacık dönüşümü sürekli ve ayrık olmak üzere iki
+farklı
+şekilde
+incelenir.
+Sürekli
+dalgacık
+dönüşümünde
+ölçeklendirme
+ve
+dönüşüm
+parametrelerinin sürekli olarak değişiminden dolayı
+her bir ölçek için dalgacık katsayılarının hesaplanması
+zor ve zaman alıcı olmaktadır. Bu nedenle ayrık
+dalgacık dönüşümü daha sık kullanılmaktadır.
+Dalgacık dönüşümü ile işaret belli sayıda ölçeklere
+ayrılır.
+Çoklu
+çözünürlük
+ayrışımı
+olarak
+isimlendirilen bu işlem, x(n) işareti için Şekil 2’de
+gösterilmektedir. Şekil 2’de, ilk yüksek geçiren
+⋅
+⋅
+filtreye (g []) ve alçak geçiren filtreye (h[]) ait olan
+örneklenmiş çıkışlar sırası ile ayrıntılı D1 ve yaklaşık
+A1 alt bandlarını oluşturur. A1 yaklaşım bandı tekrar
+ayrışır ve bu işlem Şekil 2’de görüldüğü gibi devam
+eder. Dalgacık dönüşümü aşağıda verilen şartı
+sağlayan alçak geçiren filtre (h ) ile belirtilebilir:
+H ( z ) H ( z −1 ) + H ( − z ) H ( − z −1 ) = 1
+
+(5)
+
+burada H (z ) , h filtresinin z-dönüşümüdür. Bu
+filtrenin tamamlayıcı yüksek geçiren filtresi (g ) şu
+şekilde tanımlanabilir:
+G ( z ) = zH (− z −1 )
+(6)
+Artan uzunluklar ile filtre dizisi ( i indeksi ile) şu
+şekilde elde edilir:
+i
+
+H i +1 ( z ) = H ( z 2 ) H i ( z )
+i
+
+Gi +1 ( z ) = G ( z 2 ) H i ( z ) , i = 0,K, I − 1
+(7)
+burada başlangıç şartı H 0 ( z ) = 1 ’dir. Bu, zaman
+bölgesinde şu şekilde ifade edilir:
+hi +1 (k ) = [h]↑2i * hi (k )
+(8)
+g i +1 (k ) = [g ]↑2i * hi (k )
+
+burada, []↑m indeksi m faktörü ile yukarı örnekleme
+⋅
+yapıldığını gösterir ve k eşit olarak örneklenmiş
+ayrık zamanı belirtir. Normalize edilmiş dalgacık ve
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+ölçek temelli fonksiyonlar ϕ i ,l (k ) , ψ i ,l (k ) şu şekilde
+tanımlanır:
+ϕ i ,l (k ) = 2 i / 2 hi (k − 2 i l )
+
+ψ i ,l (k ) = 2 i / 2 g i (k − 2 i l )
+
+(9)
+
+burada, 2 i / 2 faktörü iç çarpım normalizasyonudur, i
+ölçeklendirme
+parametresi,
+l
+dönüşüm
+
+E.D. Übeyli
+
+parametresidir. Ayrık dalgacık dönüşüm ayrışımı şu
+şekilde belirtilir:
+a(i ) (l ) = x(k ) * ϕ i ,l (k )
+d (i ) (l ) = x(k ) *ψ i ,l (k )
+
+(10)
+
+burada, a(i ) (l ) ve d i (l ) sırası ile i çözünürlüğündeki
+yaklaşık katsayılar ve ayrıntılı katsayılardır [3,8-10].
+
+D1
+g[n]
+
+2
+
+D2
+
+x[n]
+
+g[n]
+
+2
+
+A1
+h[n]
+
+2
+
+g[n]
+
+h[n]
+
+h[n]
+
+2
+
+2
+
+D3
+
+2
+
+A2
+A3
+
+Şekil 2. Ayrık dalgacık dönüşümünün gerçekleştirilmesinde alt bandlara ayrışım; g [n] yüksek geçiren filtre,
+h[n] alçak geçiren filtre (Subband decomposition of discrete wavelet transform implementation; g [n] is the high-pass filter, h[n] is
+the low-pass filter)
+
+5. DENEYSEL SONUÇLAR
+(EXPERIMENTAL RESULTS)
+
+5.1. Farklı Öznitelik Vektörlerinin Hesaplanması
+(Computation of Diverse Feature Vectors)
+
+Uygun dalgacık seçimi ve ayrışım seviyelerinin
+sayısının tesbiti, işaretlerin dalgacık dönüşümü ile
+analizinde oldukça önemlidir. İşaretin baskın frekans
+bileşenlerine göre ayrışım seviyelerinin sayısı tespit
+edilir. Bu çalışmada analizi yapılan biyomedikal
+işaretler, 256 örnekten oluşan bölütlere ayrılmıştır.
+Doppler işaretleri 40 Hz’in altında önemli frekans
+bileşenlerine sahip olmadığı için ayrışım seviyelerinin
+sayısı 7 olarak belirlenmiştir. Bu durumda, Doppler
+işaretleri D1 − D7 ayrıntılı alt bandlarına ve son
+olarak A7 yaklaşık alt bandına ayrılmıştır. A7 alt
+bandındaki katsayılar sıfıra çok yakın olduğu için bu
+banddaki katsayılar öznitelik olarak ele alınmamıştır.
+Sınıflamanın doğruluğu uygulama için seçilen
+dalgacık tipine bağlıdır. Doppler işaretlerinin dalgacık
+katsayılarının
+hesaplanmasında
+1.
+dereceden
+Daubechies dalgacık (db1) kullanımının uygun
+olduğu belirlenmiştir.
+EEG ve EKG işaretlerinin ayrışım seviyelerinin sayısı
+4 olarak tespit edilmiştir. Bu durumda, EEG ve EKG
+işaretleri D1 − D4 ayrıntılı alt bandlarına ve son
+olarak A4 yaklaşık alt bandına ayrılmıştır. EEG ve
+EKG
+işaretlerinin
+dalgacık
+katsayılarının
+hesaplanmasında 2. dereceden Daubechies dalgacık
+(db2) kullanımının uygun olduğu belirlenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+Dalgacık katsayılarının hesaplanmasında MATLAB
+program paketi kullanılmıştır.
+Her bir Doppler bölütü için 254 dalgacık katsayısı ve
+EEG, EKG bölütleri için 265 dalgacık katsayısı elde
+edilmiştir.
+Çıkarılan
+öznitelik
+vektörlerinin
+boyutlarının azaltılabilmesi için dalgacık katsayıları
+üzerinde aşağıda belirtilen istatistiksel özellikler
+kullanılmıştır:
+1. Her bir alt banddaki
+enbüyüğü,
+2. Her bir alt banddaki
+ortalaması,
+3. Her bir alt banddaki
+enküçüğü,
+4. Her bir alt banddaki
+standard sapması.
+
+dalgacık katsayılarının
+dalgacık katsayılarının
+dalgacık katsayılarının
+dalgacık katsayılarının
+
+Oftalmik atardamar Doppler işaretlerinin, EEG ve
+EKG işaretlerinin farklı sınıflarına ait örnek işaretleri
+için hesaplanan dalgacık katsayıları Tablo 1-3’te
+verilmektedir. Bu tablolardan görüldüğü gibi farklı
+sınıflara ait işaretlerden hesaplanan dalgacık
+katsayıları işaretleri ayırt edici özelliktedirler.
+5.2. Otomatik Teşhis Sistemlerinin Biyomedikal
+İşaretlere Uygulanması (Application of Automated
+Diagnostic Systems to Biomedical Signals)
+
+Oftalmik atardamar Doppler işaretleri 169 kişiden
+(sağlıklı, oftalmik atardamar daralması ve Behçet
+hastası olan kişiler) kayıt edilmiştir. Ağ modellerinin
+eğitimi için 60 kişiye ait Doppler bölütü (her sınıftan
+
+465
+
+E.D. Übeyli
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+20 bölüt), 600 EEG bölütü (her sınıftan 200 bölüt),
+360 EKG bölütü (her sınıftan 90 bölüt) ve testi için
+109 kişiye ait Doppler bölütü (43 sağlıklı, 32 oftalmik
+atardamar daralması, 34 Behçet hastası), 600 EEG
+bölütü (her sınıftan 200 bölüt), 360 EKG bölütü (her
+sınıftan 90 bölüt) kullanılmıştır.
+Değiştirilmiş uzman ağların karışımı modelinde
+uzman ağlar dört farklı öznitelik vektörünün
+uygulandığı dört gruba bölünmüştür. Aynı sınıflama
+problemi için uzman ağlardan oluşan ve birleşik
+öznitelik vektörleri ile eğitilen uzman ağların karışımı
+modeli geliştirilmiştir. Gerçekleştirilen birleşik sinir
+ağı modelinde ilk seviyede işaretlerin sınıf sayısı
+kadar sinir ağı eğitilmiştir. Her bir ağ bir tip
+
+sınıflamayı diğerlerine göre daha doğru yapacak
+şekilde eğitilmektedir. Ağın mimarisinde çok
+katmanlı perseptron sinir ağları yer almaktadır. Her
+bir ağın girişi birleşik öznitelik vektör boyutu kadar
+nörondan oluşmaktadır. Birinci seviyedeki ağ
+çıkışlarını birleştiren ikinci seviyedeki sinir ağları
+eğitilmiştir. İkinci seviyedeki ağların girişi, birinci
+seviyedeki ağların çıkışlarından oluşmaktadır. Farklı
+sınıflayıcıların başarımlarını karşılaştırmak amacı ile
+aynı sınıflama problemi için birleşik öznitelik
+vektörleri ile eğitilen çok katmanlı perseptron sinir
+ağları geliştirilmiştir. Biyomedikal işaretlerin
+sınıflandırılmasında kullanılan sinir ağı modelleri,
+MATLAB program paketi ile gerçekleştirilmiştir.
+
+Tablo 1. Üç farklı sınıfa ait oftalmik atardamar Doppler işaretlerinden hesaplanan dalgacık katsayıları
+(Computed wavelet coefficients of ophthalmic arterial Doppler signals belonging to three different classes)
+
+Doppler
+işaretleri
+
+Dalgacık katsayıları
+Öznitelikler
+Enbüyük
+Ortalama
+
+Sağlıklı
+
+Enküçük
+Standard
+sapma
+Enbüyük
+Ortalama
+
+Daralma
+
+Enküçük
+
+D1
+46.6690
+-0.6187
+37.4767
+
+D2
+129.5000
+2.0469
+
+D3
+64.3467
+5.0823
+
+Alt bandlar
+D4
+D5
+66.0000 115.6120
+1.0312
+35.6205
+
+-59.5000
+
+-70.7107
+
+-42.5000
+
+-69.1197
+
+17.9378
+
+32.6882
+
+43.9119
+
+31.7957
+
+69.8398
+
+181.9475
+
+119.2500
+
+13.4350
+0.0829
+18.3848
+
+38.5000
+0.6953
+
+91.2168
+2.2208
+123.7437
+
+168.2500
+6.7969
+118.7500
+
+258.4475
+22.6495
+436.4617
+
+30.6250
+-82.2188
+229.5000
+
+177.9257
+76.1466
+
+-52.5000
+
+D6
+242.1250
+63.5000
+183.5000
+
+D7
+520.3422
+436.0197
+351.6972
+
+-25.6326
+
+Standard
+sapma
+Enbüyük
+Ortalama
+
+17.2879
+
+48.3056
+
+74.1666
+
+209.7461
+
+108.3885
+
+143.9375
+
+9.8995
+-0.1713
+
+28.0000
+-0.6172
+
+75.6604
+-0.7844
+
+-9.1924
+
+-24.5000
+
+-69.2965
+
+253.1442
+-8.5074
+161.0436
+
+188.0000
+-6.9687
+248.6250
+
+5.4801
+-36.7254
+
+Enküçük
+
+167.2500
+-1.2656
+140.2500
+
+Standard
+sapma
+
+Behçet
+hastalığı
+
+6.3019
+
+3.7508
+
+10.7067
+
+30.1504
+
+81.9287
+
+140.8417
+
+190.4275
+
+-78.9308
+59.6875
+
+Tablo 2.Üç farklı sınıfa ait EEG işaretlerinden hesaplanan dalgacık katsayıları
+(Computed wavelet coefficients of EEG signals belonging to three different classes)
+
+EEG
+işaretleri
+
+Grup A
+
+Grup D
+
+Grup E
+
+466
+
+Dalgacık katsayıları
+Öznitelikler
+Enbüyük
+Ortalama
+Enküçük
+Standard sapma
+Enbüyük
+Ortalama
+Enküçük
+Standard sapma
+Enbüyük
+Ortalama
+Enküçük
+Standard sapma
+
+D1
+12.0394
+-0.2611
+-12.0140
+4.9689
+26.0292
+-0.1935
+-20.6820
+4.3874
+258.0806
+-0.1337
+-325.4508
+75.1448
+
+D2
+31.3064
+0.1775
+-42.0737
+14.8416
+117.9646
+0.1121
+-82.1600
+19.2455
+644.3659
+0.1052
+-1074.6000
+303.6744
+
+Alt bandlar
+D3
+75.7695
+1.6022
+-92.3744
+41.1865
+32.3480
+-2.2112
+-61.5424
+20.1756
+1524.4000
+65.5614
+-1508.9000
+716.0870
+
+D4
+120.0146
+2.1703
+-105.3666
+60.3469
+88.2469
+-2.6360
+-89.1512
+43.6354
+1420.1000
+-77.2298
+-1107.0000
+614.2615
+
+A4
+192.6771
+34.4130
+-172.4994
+96.4623
+320.4451
+94.1584
+-175.7673
+126.3576
+1639.2000
+281.4010
+-1917.6000
+1138.5000
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+E.D. Übeyli
+
+Tablo 3. Dört farklı sınıfa ait EKG işaretlerinden hesaplanan dalgacık katsayıları
+(Computed wavelet coefficients of ECG signals belonging to four different classes)
+
+EKG işaretleri
+
+Normal
+
+Konjestif kalp yetersizliği
+Ventriküler taşiaritmi
+
+Atrial fibrilasyon
+
+Dalgacık katsayıları
+Öznitelikler
+D1
+0.2062
+-0.0003
+-0.1814
+0.0436
+0.1316
+-0.0003
+-0.1119
+0.0259
+0.1568
+-0.0001
+-0.0839
+0.0232
+0.0665
+-0.0002
+-0.0564
+0.0173
+
+Enbüyük
+Ortalama
+Enküçük
+Standard sapma
+Enbüyük
+Ortalama
+Enküçük
+Standard sapma
+Enbüyük
+Ortalama
+Enküçük
+Standard sapma
+Enbüyük
+Ortalama
+Enküçük
+Standard sapma
+
+D2
+1.5757
+0.0429
+-0.3593
+0.3174
+0.2344
+-0.0066
+-0.1635
+0.0604
+0.4554
+0.0002
+-0.3181
+0.0919
+0.4417
+0.0037
+-0.1832
+0.0849
+
+Alt bandlar
+D3
+0.2792
+-0.0269
+-0.3977
+0.1546
+1.3364
+-0.0056
+-1.0327
+0.3995
+2.1134
+0.0344
+-0.8983
+0.4845
+0.3574
+-0.0058
+-0.3312
+0.1238
+
+D4
+0.9683
+0.1097
+-0.3625
+0.3707
+1.3463
+-0.0248
+-1.9773
+0.7862
+2.5063
+0.0838
+-1.4226
+0.8299
+1.3044
+0.0774
+-0.3328
+0.4051
+
+A4
+0.5843
+-0.0941
+-0.5159
+0.3116
+1.1550
+-0.3698
+-1.2350
+0.4014
+4.1980
+0.9075
+-0.5930
+1.1458
+-0.9396
+-1.5942
+-2.0488
+0.2892
+
+Tablo 4. Sınıflayıcıların ağ parametreleri (Network parameters of classifiers)
+Biyomedikal işaretler
+Sınıflayıcı
+Ağ parametreleri
+(öznitelik)
+
+Oftalmik atardamar
+Doppler işaretleri
+
+EEG işaretleri
+
+EKG işaretleri
+
+a
+
+Değiştirilmiş uzman ağların karışımı
+(farklı öznitelikler)
+Uzman ağların karışımı
+(birleşik öznitelikler)
+Birleşik sinir ağı
+(birleşik öznitelikler)
+Çok katmanlı perseptron sinir ağı
+(birleşik öznitelikler)
+Değiştirilmiş uzman ağların karışımı
+(farklı öznitelikler)
+Uzman ağların karışımı
+(birleşik öznitelikler)
+Birleşik sinir ağı
+(birleşik öznitelikler)
+Çok katmanlı perseptron sinir ağı
+(birleşik öznitelikler)
+Değiştirilmiş uzman ağların karışımı
+(farklı öznitelikler)
+Uzman ağların karışımı
+(birleşik öznitelikler)
+Birleşik sinir ağı
+(birleşik öznitelikler)
+Çok katmanlı perseptron sinir ağı
+(birleşik öznitelikler)
+
+Uzman ağların tasarımı: Giriş gizli çıkış nöronları
+Eğitim ardışımlarının sayısı
+e
+Birinci seviyedeki ağ tasarımı: Giriş gizli çıkış nöronları
+g
+Sinir ağı tasarımı: Giriş gizli çıkış nöronları
+c
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+b
+
+7 25 3a, 7 25 3a, 7 25 3a, 7 25 3a,
+7 25 3b, 7 25 3b, 7 25 3b, 7 25 3b,
+600c
+28 25 3a, 28 25 3d,
+800c
+28 30 9e, 9 30 3f
+1800c
+28 25 3g,
+2700c
+5 30 3a, 5 30 3a, 5 30 3a, 5 30 3a,
+5 30 3b, 5 30 3b, 5 30 3b, 5 30 3b,
+700c
+20 30 3a, 20 30 3d,
+800c
+20 30 9e, 9 30 3f
+2000c
+20 30 3g,
+2600c
+5 20 4a, 5 20 4a, 5 20 4a, 5 20 4a,
+5 20 4b, 5 20 4b, 5 20 4b, 5 20 4b,
+800c
+20 25 4a, 20 25 4d,
+900c
+20 20 16e, 16 20 4f
+1900c
+20 25 4g,
+2800c
+
+Geçit ağlarının tasarımı: Giriş gizli çıkış nöronları
+Geçit ağının tasarımı: Giriş gizli çıkış nöronları
+f
+İkinci seviyedeki ağ tasarımı: Giriş gizli çıkış nöronları
+d
+
+467
+
+E.D. Übeyli
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+Tablo 5. Toplam sınıflama doğrulukları ve eğitim için merkezi işlemci zamanı
+(Total classification accuracies and central processing unit times for training)
+
+Biyomedikal işaretler
+Oftalmik atardamar
+Doppler işaretleri
+
+EEG işaretleri
+
+EKG işaretleri
+
+Sınıflayıcı
+(öznitelikler)
+
+Toplam sınıflama
+doğruluğu
+(%)
+
+Değiştirilmiş uzman ağların
+karışımı
+(farklı öznitelikler)
+Uzman ağların karışımı
+(birleşik öznitelikler)
+Birleşik sinir ağı
+(birleşik öznitelikler)
+Çok katmanlı perseptron sinir
+ağı
+(birleşik öznitelikler)
+Değiştirilmiş uzman ağların
+karışımı
+(farklı öznitelikler)
+Uzman ağların karışımı
+(birleşik öznitelikler)
+Birleşik sinir ağı
+(birleşik öznitelikler)
+Çok katmanlı perseptron sinir
+ağı
+(birleşik öznitelikler)
+Değiştirilmiş uzman ağların
+karışımı
+(farklı öznitelikler)
+Uzman ağların karışımı
+(birleşik öznitelikler)
+Birleşik sinir ağı
+(birleşik öznitelikler)
+Çok katmanlı perseptron sinir
+ağı
+(birleşik öznitelikler)
+
+Merkezi işlemci
+zamanı
+(dak:s)
+
+97.25
+
+9:25
+
+95.41
+
+11:16
+
+94.50
+
+15:42
+
+90.83
+
+18:08
+
+98.17
+
+10:37
+
+97.33
+
+13:25
+
+95.00
+
+15:23
+
+90.83
+
+19:06
+
+98.61
+
+9:42
+
+96.39
+
+10:53
+
+94.44
+
+13:58
+
+91.11
+
+18:41
+
+Farklı biyomedikal işaretler için geliştirilmiş olan ağ
+modellerinin eğitim ardışımlarının sayısı ve ağ
+parametreleri Tablo 4’te verilmektedir. Ardışım
+sayıları incelendiğinde değiştirilmiş uzman ağların
+karışımı ve uzman ağların karışımı modellerinin
+yakınsama hızlarının birleşik sinir ağı ve çok katmanlı
+perseptron sinir ağının yakınsama hızlarından daha
+yüksek olduğu görülmektedir. Ağ modellerinin
+başarımlarının karşılaştırılmasında toplam sınıflama
+doğrulukları ve ağların eğitimi için merkezi işlemci
+zamanı incelenmiştir (Tablo 5). Tablo 5’te verilen
+değerler dikkate alındığında, dört farklı öznitelik
+vektörü ile eğitilen değiştirilmiş uzman ağların
+karışımı modelinin, birleşik öznitelik vektörleri ile
+eğitilen diğer ağ modellerine göre oldukça yüksek
+başarım gösterdiği görülmektedir.
+
+ele alınmasının nedeni, biyomedikal işaretlerden
+öznitelik çıkarmakta kullanılan yöntemlerin farklı
+başarım göstermeleri ve en başarılı olan öznitelik
+vektörünün saptanmasındaki zorluktur. Bu çalışmadan
+çıkarılan üç önemli sonuç: (1) Farklı öznitelikler ile
+eğitilen değiştirilmiş uzman ağların karışımı
+modelinin yakınsama hızı diğer ağ modellerinin
+yakınsama hızlarına göre daha yüksektir; (2) Büyük
+boyutlu birleşik öznitelik vektörleri hesaplama
+karışıklığına neden olmaktadır ve birleşik öznitelikler
+ile eğitilen ağ modellerinin doğrulukları düşüktür; (3)
+Biyomedikal işaretlerin sınıflandırılmasında farklı
+öznitelikler ile eğitilen değiştirilmiş uzman ağların
+karışımı modelinin doğruluğu birleşik öznitelikler ile
+eğitilen ağ modellerinin doğruluklarından daha
+yüksektir.
+
+6. SONUÇLAR (CONCLUSIONS)
+
+KAYNAKLAR (REFERENCES)
+
+Farklı ve birleşik öznitelik vektörleri ile eğitilen dört
+sinir ağı modeli, üzerinde çalışılan biyomedikal
+işaretlerin
+sınıflandırılmasındaki
+başarımları
+bakımından incelenmiştir. Biyomedikal işaretlerin
+farklı öznitelikler ile sınıflandırma problemi olarak
+
+1. West, D., West, V., “Improving diagnostic
+accuracy using a hierarchical neural network to
+model decision subtasks”, International Journal
+of Medical Informatics, Vol 57, No 1, 41-55,
+2000.
+
+468
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+Biyomedikal İşaretlerin Sınıflandırılmasında Otomatik Teşhis Sistemlerinin Başarımı
+
+2. Kwak, N., Choi, C.-H., “Input feature selection for
+classification problems”, IEEE Transactions on
+Neural Networks, Vol 13, No 1, 143-159, 2002.
+3. Übeyli, E.D., Güler, İ., “Feature extraction from
+Doppler ultrasound signals for automated
+diagnostic systems”, Computers in Biology and
+Medicine, Vol 35, No 9, 735-764, 2005.
+4. Chen, K., “A connectionist method for pattern
+classification with diverse features”, Pattern
+Recognition Letters, Vol 19, No 7, 545-558,
+1998.
+5. Jacobs, R.A., Jordan, M.I., Nowlan, S.J., Hinton,
+G.E., “Adaptive mixtures of local experts”,
+Neural Computation, Vol 3, No 1, 79-87, 1991.
+6. Jordan, M.I., Jacobs, R.A., “Hierarchical mixture
+of experts and the EM algorithm”, Neural
+Computation, Vol 6, No 2, 181-214, 1994.
+7. Güler, İ., Übeyli, E.D., “A mixture of experts
+network structure for modelling Doppler
+ultrasound blood flow signals”, Computers in
+Biology and Medicine, Vol 35, No 7, 565-582,
+2005.
+8. Soltani, S., “On the use of the wavelet
+decomposition for time series prediction”,
+Neurocomputing, Vol 48, 267-277, 2002.
+9. Daubechies, I., “The wavelet transform, timefrequency localization and signal analysis”, IEEE
+Transactions on Information Theory, Vol 36,
+No 5, 961-1005, 1990.
+10. Unser, M., Aldroubi, A., “A review of wavelets in
+biomedical applications”, Proceedings of the
+IEEE, Vol 84, No 4, 626-638, 1996.
+11. Lehnertz, K., “Non-linear time series analysis of
+intracranial EEG recordings in patients with
+epilepsy – an overview”, International Journal
+of Psychophysiology, Vol 34, No 1, 45-52, 1999.
+12. Güler, İ., Übeyli, E.D., “Adaptive neuro-fuzzy
+inference system for classification of EEG signals
+using wavelet coefficients”, Journal of
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+E.D. Übeyli
+
+Neuroscience Methods, Vol 148, No 2, 113-121,
+2005.
+13. Andrzejak, R.G., Lehnertz, K., Mormann, F.,
+Rieke, C., David, P., Elger, C.E., “Indications of
+nonlinear deterministic and finite-dimensional
+structures in time series of brain electrical activity:
+dependence on recording region and brain state”,
+Physical Review E, 64, 061907, 2001.
+14. Saxena, S.C., Kumar, V., Hamde, S.T., “Feature
+extraction from ECG signals using wavelet
+transforms for disease diagnostics”, International
+Journal of Systems Science, Vol 33, No 13,
+1073-1085, 2002.
+15. Foo, S.Y., Stuart, G., Harvey, B., Meyer-Baese,
+A., “Neural network-based EKG pattern
+recognition”, Engineering Applications of
+Artificial Intelligence, Vol 15, 253-260, 2002.
+16. Güler, İ., Übeyli, E.D., “ECG beat classifier
+designed by combined neural network model”,
+Pattern Recognition, Vol 38, No 2, 199-208,
+2005.
+17. Goldberger, A.L., Amaral, L.A.N., Glass, L.,
+Hausdorff, J.M., Ivanov, P.Ch., Mark, R.G.,
+Mietus, J.E., Moody, G.B., Peng, C.K., Stanley,
+H.E., Physiobank, Physiotoolkit, and Physionet:
+Components of a New Research Resource for
+Complex Physiologic Signals, Circulation
+101(23), e215-e220 [Circulation Electronic Pages;
+2000
+(June
+13).
+http://circ.ahajournals.org/cgi/content/full/101/23/
+e215];
+18. Wolpert, D.H., “Stacked generalization”, Neural
+Networks, Vol 5, 241-259, 1992.
+19. Übeyli, E.D., Güler, İ., “Improving medical
+diagnostic accuracy of ultrasound Doppler signals
+by combining neural network models”,
+Computers in Biology and Medicine, Vol 35,
+No 6, 533-554, 2005.
+
+469
+
+

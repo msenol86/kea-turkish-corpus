@@ -1,0 +1,1209 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 1, 171-178, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 1, 171-178, 2010
+
+ÇİFT YAKITLI BİR DİZEL MOTORDA LPG YÜZDESİNİN
+PERFORMANS VE EGZOZ EMİSYONLARINA ETKİSİ
+Abdurrazzak AKTAŞ ve Oğuzhan DOĞAN
+*Makina Eğitimi Bölümü, Teknik Eğitim Fakültesi, Karabük Üniversitesi, 78050, Karabük
+aaktas@karabuk.edu.tr, odogan@karabuk.edu.tr
+(Geliş/Received: 20.02.2009 ; Kabul/Accepted: 06.07.2009)
+ÖZET
+Bu çalışmada, tek silindirli, direkt püskürtmeli bir dizel motorda ikinci yakıt olarak %30 propan, %70 bütandan
+oluşan LPG’nin (Liquefied Petroleum Gas) dizel/LPG çift yakıtı içerisindeki oranının performans ve egzoz
+emisyonlarına etkisi araştırılmıştır. Testler, maksimum tork devrinde (2600 d/d), maksimum torkun %20, %40,
+%60, %80 ve %100’ünde olmak üzere değişen yüklerde saf dizel yakıtı ve kütlesel olarak %20, %40, %60, %80
+ve %90 LPG içeren çift yakıt ile gerçekleştirilmiştir. Test sonuçları, her orandaki çift yakıt ile is ve azot oksit
+(NOx) emisyonlarının azaldığını, karbonmonoksit (CO) ve hidrokarbon (HC) emisyonlarının ise arttığını
+göstermiştir. Ayrıca, fren Özgül Yakıt Tüketiminin (ÖYT) %40 LPG ile yüke bağlı olarak dizel yakıtına göre
+%3,5-15 oranında azaldığı ve egzoz gaz sıcaklığının da genel olarak dizel yakıtından düşük çıktığı görülmüştür.
+LPG’nin yakıt olarak kullanılması sonucu tek olumsuz etki olarak ortaya çıkan bir miktar CO ve HC emisyon
+artışı herhangi bir yöntemle düşürülebildiği takdirde, dizel yakıtı ile birlikte %40-%60 oranında LPG’nin yakıt
+olarak kullanılabileceği tespit edilmiştir.
+
+
+1. GİRİŞ (INTRODUCTION)
+İnsan sağlığı ve çevreyi tehdit eden kirletici emisyonların önemli bir kısmı fosil esaslı yakıtlarla çalışan
+benzinli ve dizel motorlu taşıtlardan kaynaklanmaktadır. Dizel motorlar çalışma prensipleri gereği
+yüksek sıkıştırma oranına sahip oldukları için daha
+verimlidirler. Dolayısı ile güç, ekonomiklik ve yay-
+
+dıkları emisyon bakımından benzinli motorlara göre
+daha avantajlı oldukları için yük ve yolcu taşımacılığında daha yaygın bir şekilde kullanılmaktadırlar.
+Yüksek sıkıştırma oranı ve kısılmasız hava ile
+çalıştıklarından CO emisyonları benzinli motorlara
+göre oldukça düşüktür. Ancak, NOx ve is emisyonları
+yüksektir. Dolayısı ile dizel motorlardan kaynaklanan
+NOx ve is emisyonları çeşitli yöntemlerle aşağı
+
+A. Aktaş ve O. Doğan
+
+Çift Yakıtlı Bir Dizel Motorda LPG Yüzdesinin Performans ve Egzoz Emisyonlarına Etkisi
+
+seviyelere çekilmeye çalışılmaktadır. Bunun için;
+egzoz gazı geri geriçevrimi (EGR), yeni yakıt püskürtme teknikleri ve daha temiz yanan alternatif yakıt
+kullanılması gibi yöntemlere baş vurulmaktadır.
+Sorunun çözümü için temiz yanan gaz yakıtların
+kullanılması ümit verici görülmektedir. Bol bulunması, ucuz olması, yüksek sıkıştırma oranlarında
+vuruntusuz ve temiz yanması nedeniyle doğal gaz
+(metan), dizel motorlarda kullanılabilecek alternatif
+yakıtlardan birisi olarak görülmektedir. Ancak setan
+sayısının çok düşük olması ve kendi kendine
+tutuşmasının zor olması nedeniyle doğalgaz, dizel
+motor sıkıştırma oranı düşürülüp motora bir ateşleme
+sistemi ilave edilerek veya çift yakıt uygulaması
+şeklinde olmak üzere iki farklı yöntemle kullanılabilmektedir [ 1-3]. Bunlardan ilki, dizel motorun
+yaklaşık bir benzinli motor çalışma biçimine dönüştürülmesi nedeniyle dizel motorun yüksek sıkıştırma
+oranına sahip olma avantajını azaltması, büyük çaplı
+modifikasyon gerektirmesi ve oldukça maliyetli
+olması nedeniyle pek tercih edilmemektedir. İkinci
+yöntem ise çift yakıt uygulamasıdır. Çift yakıt
+uygulamasında ise gaz yakıt atmosfer basıncının biraz
+üstünde bir basınçta emme havasına karıştırılarak
+silindire gönderilmekte [4-9], sıkıştırma zamanının
+sonunda orijinal dizel yakıt sistemiyle silindire püskürtülen pilot dizel yakıtı ile gaz yakıt ateşlenmektedir. Pilot dizel yakıtı ile sağlanan ateşleme
+enerjisi buji ile ateşlemede sağlanan enerjiden daha
+büyüktür. Bu çift yakıtlı motorun yeterince fakir hava
+yakıt oranlarında çalışmasına imkan vermektedir. Çift
+yakıt uygulaması motor yüküne göre yakıtların
+oransal olarak ayarlanmasından başka önemli bir
+modifikasyon gerektirmediği için daha düşük
+dönüştürme maliyetine sahip olmakta ve istenildiği
+zaman motor saf dizel yakıtı ile çalıştırılabilmektedir.
+Dezavantajları ise, dizel yakıt sisteminin bulundurulmaya devam edilmesi ve bir miktar enerjinin dizel
+yakıtından sağlanması nedeniyle emisyon iyileştirmelerini bir miktar sınırlandırabileceği şeklinde ifade
+edilmiştir [10].
+Çift yakıt yöntemi yüksek oranda doğal gazın kullanılmasına imkan vermektedir. Önceki çalışmalar,
+dizel yakıtı ve metan (doğal gaz) çift yakıtının birlikte
+kullanılmasının toplam verimi önemli miktarda
+değiştirmeden NOx ve is emisyonunu iyileştirdiğini,
+ancak özellikle düşük yüklerde HC ve CO emisyonunu arttırdığını göstermiştir [4, 11-16]. Dizel
+motorlarda doğalgazın ikinci yakıt olarak kullanılması
+halinde artan CO, HC emisyonunun azaltılması
+amacıyla püskürtme avansının performans ve emisyonlara etkisinin araştırıldığı bir çok çalışmada;
+püskürtme zamanının öne alınması ile yanma
+veriminin arttığı, CO ve HC emisyonunun azaldığı ve
+NOx emisyonunun ise bir miktar arttığı ifade
+edilmiştir [6, 7, 17-18].
+
+nabilmesi gibi özellikleri nedeniyle LPG’nin de dizel
+motorlarda kullanılabilirliği araştırılmaya başlanmıştır. Yapılan araştırmalardan bazıları aşağıda
+özetlenmiştir.
+Yapılan bir çalışmada, esas yakıtın metan ya da
+propan ve pilot yakıtın dizel olduğu çift yakıtlı tek
+silindirli bölünmüş yanma odalı bir araştırma dizel
+motorunda (Ricardo E6), tam yükte artan pilot dizel
+yakıtın vuruntuya sebep olduğu, düşük yükte düşük
+olan verim ve yüksek emisyonun pilot dizel yakıt
+miktarının arttırılması ile düzeltilebileceği tespit
+edilmiştir [11]. Aynı yazarlar tarafından, pilot yakıt
+olarak dizel yakıtın ve ikinci yakıt olarak metan ya da
+propanın kullanıldığı çift yakıtlı bir dizel motorda
+püskürtme zamanının motor performansına etkisinin
+incelendiği diğer bir çalışmada da düşük yükte düşük
+verim ve kötü emisyonun püskürtme zamanının öne
+alınması ile düzeltilebileceği ifade edilmiştir [19]. Tek
+silindirli direkt püskürtmeli bir dizel motorda
+ağırlıksal olarak %30 LPG ve %70 dizel yakıtının,
+performans ve emisyon parametrelerine etkisinin
+incelendiği çift yakıtlı çalışmada tek yakıtlı motor
+çalışmasına göre motor torku ve gücünün %5,8
+oranında arttığı, NOx emisyonunun %5,9, is emisyonun ise 1/9 oranında azaldığı belirlenmiştir [20].
+LPG-dizel karışımı ile çalışan sıkıştırma ile ateşlemeli
+bir motorun yanma ve egzoz emisyon karakteristiklerinin incelendiği bazı çalışmalarda, Dizel/LPG
+karışımı yakıtın dizel yakıtın yaydığı NOx ve is
+emisyonundan daha düşük emisyon yaydığı ve
+LPG’nin NOx ve is emisyonunu kontrol altına almak
+için dizel motorlarda yakıt olarak kullanılabileceğini
+göstermiştir [8, 21]. Başka bir çalışmada ise NOx
+seviyesi dizel yakıtından yüksek bulunmuştur [22].
+Sonuçların farklı olması araştırmacıların farklı LPG
+oranı ve emisyonu etkileyen farklı parametreler
+altında araştırma yapmalarından kaynaklandığı
+sanılmaktadır. LPG, saf Metan ve CNG (Compressed
+Natural Gas) gaz-yakıt karışımları için çift yakıtlı
+motorun yanma ve vuruntu sınırlarının belirlenmesine
+yönelik bir çalışmada, yanma gürültüsünün, vuruntu
+ve ateşleme sınırlılıklarının gaz çeşitleri, motor
+tasarımı ve çalışma parametreleriyle ilişkili olduğu
+tespit edilmiştir [5, 23]. Aynı yazar ve arkadaşları
+tarafından, esas yakıt olarak doğalgaz ya da LPG’nin
+kullanıldığı bir dizel motorda pilot yakıt olarak jojoba
+biyodizelinin kullanılması ile motorun performansının
+arttığı, gürültü emisyonunun azaldığı, yanma süresinin kısaldığı ve vuruntu limitinin genişlediği tespit
+edilmiştir [9]. İndirekt enjeksiyonlu bir dizel motoru
+ile hem saf dizel hem de dizel LPG ile tam yük
+koşullarında gerçekleştirilen performans testlerinde,
+çift yakıt içersindeki LPG miktarının arttırılmasının
+özgül yakıt tüketimini, egzoz gaz sıcaklığını ve isi
+düşürdüğü, ancak yanmamış HC ve CO gibi kirleticileri, maksimum silindir basıncını ve basınç artış
+oranını yükselttiği tespit edilmiştir [24].
+
+Bol bulunması, ucuz olması, temiz yanması ve birçok
+gaz yakıta göre daha kolay ve güvenli depola-
+
+172
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Çift Yakıtlı Bir Dizel Motorda LPG Yüzdesinin Performans ve Egzoz Emisyonlarına Etkisi
+
+Bu çalışmada; Türkiye ve Avrupa’nın bir çok ülkesinde buji ile ateşlemeli motorlarda kullanılan ağırlıksal olarak %30 propan + %70 bütandan oluşan
+LPG’nin kütlesel olarak farklı oranlarda pilot dizel
+yakıtı ile birlikte tek silindirli ve direkt püskürtmeli
+bir motorda kullanılmasının performans ve emisyon
+karakteristiklerine etkisinin deneysel olarak araştırılması amaçlanmıştır.
+2. DENEY MATERYALİ VE YÖNTEM
+
+A. Aktaş ve O. Doğan
+
+valflerinden geçtikten sonra bir nozuldan emme
+subabı arkasına püskürtülmüştür. Pilot dizel yakıtı ise
+aynen muhafaza edilen motorun orijinal yakıt
+enjeksiyon sistemi ile silindir içine püskürtülmüştür.
+Sıvı ve gaz yakıt tüketimleri 0.01 g hassasiyete sahip
+Precisa marka XB serisi 4200C model elektronik
+terazi ve kronometre yardımı ile kütlesel olarak
+ölçülmüştür. Deneysel çalışmada kullanılan dizel ve
+LPG yakıt özellikleri Çizelge 2 ve Çizelge 3’te
+verilmiştir.
+
+(EXPERİMENTAL APPARATUS AND METHOD)
+
+Deneysel çalışmayı gerçekleştirmek için, Çizelge 1’de
+özellikleri verilen motorun çift yakıt ile çalışması için
+dizel yakıt sistemi aynen muhafaza edilmiş. Ancak,
+planlanan deney koşullarına uygun bir şekilde LPG
+yakıt gereksinimini karşılamak için LPG tankı, basınç
+regülatörü, alev geri tepme valfleri (iki adet), sulu
+güvenlik, LPG kontrol valfi ve emme manifolduna
+takılan nozuldan oluşan bir gaz yakıt sistemi kurulmuştur. Deney düzeneği Şekil 1’de görülmektedir.
+Çizelge 1. Deney motoruna ait teknik özellikler
+(The technical specifications of the test engine)
+
+Model
+Motor genel
+özellikleri
+Çap x Strok (mm)
+Kurs hacmi (cm³)
+Silindir sayısı
+Sıkıştırma Oranı
+Yakıt Sistemi
+Çıkış Gücü (2600
+d/d da) (kW)
+Soğutma Sistemi
+Enjektör basıncı
+(MPa)
+
+Katana KM 170F
+4 Zamanlı, sıkıştırma ile
+ateşlemeli, direkt püskürtmeli
+70 x 55
+199,28
+1
+18/1
+Direkt püskürtme
+1,937
+Cebri Hava Soğutmalı
+19
+
+Çift yakıt içerisindeki gaz yakıt yüzdesini (Z) ifade
+etmek için aşağıda verilen (1) numaralı eşitlik
+kullanılmıştır.
+
+Z
+
+
+mLPG
+
+
+mdizel  m LPG
+
+(1)
+
+Buna göre Z=%0 saf dizel yakıtı olduğunu, Z=%20
+ise çift yakıtın %20’sinin LPG, %80’ninin dizel
+yakıtından oluştuğunu ifade etmektedir.
+Çizelge 2. Dizel yakıtının özellikleri (The properties of
+diesel fuel used in the experiments)
+
+Özellikler
+Dizel a
+Yoğunluk, kg/m³, at15°C
+828
+Kinematik viskozite, mm²/s, 40°C de
+2.6
+Parlama noktası, °C
+60
+Su, mg/kg
+218.1
+CFPP, °C
+-5
+Setan sayısı
+55.6
+Alt ısıl değer, (MJ/kg)
+43.76
+a
+Dizel yakıt özellikleri: Şeyhoğlu Tic. Ltd. Şti.’den
+alınmıştır (Shell İst. Atatürk Bulvarı Karabük).
+Çizelge 3. LPG yakıtının teknik özellikleri
+
+(The
+
+properties of the LPG fuel used in the experiments)
+
+LPG gaz yakıtı şekil 1’de görüldüğü gibi regülatör ile
+basıncı düşürüldükten sonra miktarı da kontrol valfi
+ile ayarlanarak sulu güvenlik ve alev geri tepme
+10
+11
+
+17
+
+13
+15
+88888
+
+12
+
+16
+
+2 0 1
+
+888 8
+T1
+
+18
+
+T2
+
+14
+7
+
+6
+
+5
+
+3
+1
+2
+
+8
+9
+
+4
+
+Şekil 1. Deney tesisatının şematik görünüşü (Schematic
+view of the engine test bed)
+1- Dinamometre 2- Deney Motoru 3-Alev Geri Tepme Valfi 4Sulu Güvenlik 5- LPG Vanası 6- Alev Geri Tepme Valfi 7- Basınç
+Regülatörü 8- LPG Tüpü 9- Elektronik Terazi 10- Dizel Yakıt
+Deposu 11- Elektronik Terazi 12- Yakıt Vanası 13- Emisyon
+Ölçüm Cihazı 14- İs Emisyon Ölçüm Cihazı 15- İs Emisyon Ölçüm
+Cihazı İndikatörü 16- Dijital Termometre 17- Dinamometre
+Kontrol Panosu 18- Load Cell İndikatörü
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Özellikler
+
+PropanBütan
+C3H8
+C4H10
+44,09
+–
+58,12
+Birim
+°C
+
+Karışım
+LPG
+%30C3H8 +
+%70C4H10
+53,91
+
+Kapalı Kimyasal
+Formülü
+Molekül Ağırlığı
+(g/mol)
+Likid Halinde
+Miks LPGb
+Normal Kaynama
+-13
+Noktası
+Normal Erime Noktası °C
+-154
+Normal Parlama
+°C
+-74
+Noktası
+Normal Donma
+°C
+-153
+Noktası
+Özgül Kütle (15°C’da) kg/dm³
+0,56
+Özgül Hacim
+dm³/kg
+1,786
+(15°C’da)
+Tam yanma için
+Nm³/kg
+12,06
+gerekli hava miktarı
+Buharlaşma Gizli Isısı
+MJ/kg
+383,302
+Alt Isıl Değeri
+MJ/kg
+45,908
+b.
+LPG yakıt özellikleri:
+http://www.ipragaz.com.tr/docs/teknik.pdf
+
+173
+
+Çift Yakıtlı Bir Dizel Motorda LPG Yüzdesinin Performans ve Egzoz Emisyonlarına Etkisi
+
+Egzoz gaz sıcaklıkları K tipi termokupul ve dijital
+termometre ile ölçülmüştür. Egzoz emisyonlarının
+ölçülmesinde MRU DELTA 1600L egzoz gaz
+analizörü ve MRU optrans 1600 duman ölçer
+kullanılmıştır. Deneysel çalışma sırasında olası bir
+LPG gaz kaçağını tespit etmek için DRAGER MSI
+SENSIT HXG marka gaz kaçak tespit cihazı
+kullanılmıştır. Ölçü aletlerinin kullanma kılavuzlarından tespit edilen hassasiyetleri ve hesaplanan
+belirsizlikler Çizelge 4’te verilmiştir. Tork, güç, ve
+özgül yakıt tüketiminin belirsizlik analizi   ;
+
+z  f  x, y  olmak üzere,
+2
+
+ z   z 
+ z   x    y 
+
+
+ x   y 
+
+2
+
+(2)
+
+eşitliğine göre hesaplanmıştır [10].
+Çizelge 4. Ölçüm hassasiyetleri ve hesaplanan
+sonuçların belirsizlikleri (Accuracies of the measurements
+and the uncertainities in the calculated results)
+
+Ölçülmler
+Yük
+Yük kolu
+Hız
+Zaman
+Sıcaklık
+CO (%vol)
+CO2 (%vol)
+NOx (ppm)
+HC (ppm)
+O2 (%vol)
+Sıcaklık (°C)
+Duman koyuluğu (%)
+Hesaplanan sonuçlar
+Tork
+Güç
+Özgül yakıt tüketimi
+
+Hassasiyet
+%0,6 N
+%0,1 m
+1 rpm
+%1 s
+%1 C
+±0,06%
+±0,5%
+±5
+±12
+±0,1
+±1°
+±%2
+Belirsizlik
+±%0,4
+±%0,4
+±%0,7
+
+Motorun sağladığı maksimum tork ve tork devri baz
+alınarak deneysel çalışmanın gerçekleştirilmesi
+planlandığından ilk önce motorun maksimum tork ve
+tork devri deneysel olarak belirlenmiştir. Bunun için
+firma değerlerine göre ayarları yapılan ve dinamometreye bağlanan tek silindirli deney motoru, orijinal
+yakıt sistemi ve saf dizel yakıtı ile tam yükte (gaz
+kolu tam açık ve sabit) çalıştırılmış ve motor
+dinamometre ile yüklenerek maksimum güç devri
+olan 3600 d/d’dan başlanarak 200’er d/d aralıklarla
+(her defasında dinamometre ile uygulanan yük
+değiştirilerek) motorun sağladığı torklar tespit
+edilmiştir. Bu ön çalışma sonucunda maksimum
+torkun 2600 d/d da sağlandığı tespit edilmiş ve ondan
+sonra veriler almak üzere deneylere başlanmıştır.
+Bunun için; ilk önce saf dizel yakıtı ile 2600 d/d’da
+elde edilen maksimum torkun %20, 40, 60, 80 ve
+
+%100’ünde veriler kaydedilmiştir. Sonra, yine 2600
+d/d’da sağlanan maksimum torkun sırasıyla %20,
+%40, %60, %80 ve %100’ünde kütlesel olarak
+tüketilen toplam yakıt debisinin %20, 40, 60, 80 ve
+%90’ı LPG olacak şekilde deneysel çalışmalar
+gerçekleştirilerek veriler kaydedilmiştir. Çift yakıtlı
+çalışmada her bir yükte tüketilen dizel ve LPG
+yakıtları %1 g hassasiyetinde ölçüm yapılabilen
+elektronik terazi ve kronometre yardımıyla belirlenmiştir. Gerekli dizel/LPG yakıt oranı ise gaz kontrol
+valfi ve dizel yakıt koluna ayrı ayrı kumanda edilerek
+(örneğin LPG kontrol valfi ile bir miktar gaz verirken
+dizel yakıt sistemi kolu bir miktar stoba çekilerek)
+sağlanmıştır. Hem dizel yakıtlı hem de çift yakıtlı her
+bir çalışma durumunda motorun kararlı çalışması
+sağlandıktan sonra kuvvet, egzoz gaz sıcaklığı (EGS),
+CO, HC, NOx, is emisyonları ve hava fazlalık kat
+sayısı () kaydedilmiştir.
+3. DENEYSEL SONUÇLAR VE TARTIŞILMASI
+(EXPERIMENTAL RESULTS AND DISCUSSIONS)
+
+Dizel ve çift yakıtlı çalışmadaki özgül yakıt tüketimi
+değişimi Şekil 2’de yükün fonksiyonu olarak
+gösterilmiştir.
+Görüldüğü gibi, çift yakıt içerisindeki LPG oranı
+%20, %40 seviyesinde iken bütün yüklerde ÖYT
+dizel yakıtına göre düşüktür. Ancak LPG oranı %60’a
+çıktığında ÖYT dizel yakıtından fazla olmaktadır ve
+oran arttıkça fark da artmaktadır. %60 ve üzerinde
+LPG içeren çift yakıtlı çalışmada düşük yüklerde fazla
+olan ÖYT farkı yük arttıkça azalmaktadır. Düşük
+yüklerdeki farkın; karışımın fakir olması, silindir
+sıcaklığının düşük olması, gaz yakıtı tutuşturmak için
+ateşleyici dizel yakıtın az olması gibi nedenlerden
+kaynaklandığı düşünülmektedir. Yük arttıkça
+ÖYT’nin azalarak dizel yakıtına yaklaşmasının sebebi
+ise, yanmaya katılan toplam yakıtın ve ateşleyici pilot
+dizel yakıtın artması sonucu yanmanın iyileşmesi ve
+dizel yakıtın yerini alan ve ısıl değeri daha yüksek
+olan LPG’nin kütlesel olarak tüketilen yakıt miktarını
+azaltmasıdır. Bu çalışmada gücün en az yakıt ile elde
+edildiği yani verimin yüksek olduğu LPG oranının
+%40 civarı olduğu görülmüştür. Örneğin %40 LPG ile
+Z=%0
+
+Z=%20
+
+Z=%40
+
+Z=%60
+
+Z=%80
+
+Z=%90
+
+1150
+1050
+950
+
+Ö (g/kW
+YT
+h)
+
+A. Aktaş ve O. Doğan
+
+850
+750
+650
+550
+450
+350
+250
+150
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Motor Yükü (%)
+
+Şekil 2. Yükün fonksiyonu olarak özgül yakıt
+tüketimi değişimi (Variation of specific fuel consumption with
+engine load)
+
+174
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Çift Yakıtlı Bir Dizel Motorda LPG Yüzdesinin Performans ve Egzoz Emisyonlarına Etkisi
+
+Egzoz gaz sıcaklığı Şekil 3’te görüldüğü gibi %20-80
+oranında LPG içeren çift yakıt çalışmalarında dizel
+yakıtından daha düşüktür. Ancak LPG oranı arttıkça
+EGS’nin da artarak dizel yakıtına yaklaştığı ve LPG
+oranı %90 olduğunda dizel yakıtı EGS’nın üstüne
+çıktığı görülmektedir. Sabit bir motor yükünde LPG
+oranı arttıkça EGS’nin artması iki önemli sebeple
+açıklanabilir. Birincisi, ısıl değeri yüksek olan
+LPG’nin çift yakıt içerisindeki miktarının artması
+nedeniyle silindir içi sıcaklığın artmasıdır. İkincisi,
+kendi kendine tutuşma sıcaklığı yüksek olan LPG
+oranı arttıkça tutuşma gecikmesi süresinin artması ve
+yanmanın genişleme kursuna sarkması sonucu
+EGS’nin artmasıdır.
+Dizel ve farklı oranlarda LPG içeren Dizel/LPG çift
+yakıtı için yükün fonksiyonu olarak CO emisyon
+değişimi Şekil 4’te verilmiştir. Görüldüğü gibi hafif
+yükte çift yakıtlı çalışmalarda CO emisyonu, dizel
+yakıtına göre oldukça yüksektir. Çift yakıtlı dizel
+motor egzozunda Yüksek CO emisyonu konsantrasyonu eksik yanmayı ifade etmektedir. Bunun
+sebebi hafif yüklerde karışımın fakir olması, silindir
+içi sıcaklığın düşük olması nedeniyle gaz yakıtın
+ayrışamaması ve oksitlenememesidir [25]. Yük
+arttıkça, LPG ve püskürtülen yakıt miktarı arttığı için
+daha iyi yanan zengin bir karışım oluşmakta, sıcaklık
+artmakta ki bu da CO emisyonunun azalarak dizel
+yakıtınkine yaklaşmasına neden olmaktadır. Belirli bir
+yükte LPG oranı arttıkça da CO emisyonunun arttığı
+görülmektedir. Bunun birkaç sebebi olabilir; birincisi
+silindire giren yakıt içerisinde kendi kendine
+tutuşmaya karşı direnci yüksek olan LPG’nin artması,
+ikincisi tutuşmayı sağlayan dizel yakıtın azalması,
+üçüncüsü emme zamanında silindire giren gaz yakıtın
+genişleyerek daha az havanın silindire girmesine
+
+neden olması ve dolayısı ile yanmanın kalitesinin
+birkaç yönden olumsuz etkilenmesidir.
+Dizel ve dizel/LPG çift yakıt için yanmamış
+hidrokarbon (HC) emisyonu yükün fonksiyonu olarak
+Şekil 5’te verilmiştir.
+HC emisyonu da CO emisyonuna benzer şekilde hafif
+yükte çift yakıtlı çalışmalarda dizel yakıtına göre
+oldukça yüksektir. Yük arttıkça çift yakıtlı çalışmada
+HC emisyonunun dizel yakıtına yaklaştığı görülmektedir. Örneğin; %20 yükte dizel yakıtı HC
+emisyonu 11 ppm iken %100 yükte 107 ppm’e
+ulaşmaktadır. %80 LPG içeren çift yakıt ile %20
+yükte HC emisyonu 2880 ppm iken yükün artması ile
+azalmakta ve %100 yükte 842 ppm’e düşmektedir.
+Ancak, yine de HC emisyonu olması gereken
+seviyenin çok üzerindedir. Sabit bir yükte (örneğin;
+%40 yükte) LPG oranı arttıkça da HC emisyonunun
+önemli miktarda arttığı görülmektedir. Çift yakıtlı
+dizel motor performansına gaz çeşidi ve motor
+parametrelerinin etkisi adlı literatür değerlendirmesi
+çalışmasında; dizel yakıtla çalışan motorlarda yanma
+dört kademeden oluşurken, gaz dizel çift yakıtla
+çalışan motorlarda ise gaz yakıtın da ayrı bir tutuşma
+gecikmesi olması nedeniyle yanmanın beş kademeden
+oluştuğu, gaz yakıtın difüzyon yanma kademesinin
+genişleme kursuna sarktığı ve bu yüzden bir miktar
+gaz hava karışımının oksijen eksikliğinden yanma
+fırsatı bulamayarak CO ve HC emisyonunu
+Z=%0
+
+Z=%20
+
+Z=%40
+
+Z=%60
+
+Z=%80
+
+Z=%90
+
+5000
+4000
+
+CO (ppm)
+
+%60 yükte LPG ÖYT’ı dizel yakıtından %3,5 ve tam
+yükte ise yaklaşık %15 oranında daha düşük
+çıkmıştır. Çift yakıtlı bir dizel motorda LPG içeriğinin
+(propan, bütan) ve çift yakıt içerisindeki LPG oranının emisyon ve performansa etkisinin incelediği bir
+çalışmada, yük arttıkça dizel ve çift yakıtlı çalışmada
+verimin arttığı ve %40 oranında LPG içeren çift
+yakıtlı çalışmada tam yükte verimin %2.3 oranında
+dizel yakıtından yüksek olduğu tespit edilmiştir [8].
+
+A. Aktaş ve O. Doğan
+
+3000
+2000
+1000
+0
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Şekil 4. Yükün fonksiyonu olarak CO emisyonu
+değişimi (Variation of CO emissions with engine load)
+Z=%0
+
+Z=%0
+
+Z=%20
+Z=%80
+
+Z=%90
+
+Z=%40
+
+Z=%80
+
+Z=%90
+
+6000
+
+420
+
+5000
+
+360
+
+4000
+
+H (p m
+C p )
+
+TEGZOZ (oC)
+
+Z=%20
+
+Z=%60
+
+Z=%40
+
+Z=%60
+
+120
+
+Motor Yükü (%)
+
+300
+240
+
+3000
+2000
+1000
+
+180
+
+0
+0
+
+120
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Yükü (%)
+
+Şekil 3. Yükün fonksiyonu olarak egzoz gaz sıcaklığı
+değişimi (Variation of exhaust gas temperature with engine load)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Motor Yükü (%)
+
+120
+
+Şekil 5. Yükün fonksiyonu olarak CO ve HC
+emisyonu değişimi (Variation of CO and HC emissions with
+engine load)
+175
+
+Çift Yakıtlı Bir Dizel Motorda LPG Yüzdesinin Performans ve Egzoz Emisyonlarına Etkisi
+
+arttırabileceği
+ifade
+edilmiştir
+[26].
+Gerek
+dizel/biyodizel gerekse dizel/gaz çift yakıtlı dizel
+motorlarda püskürtme zamanının emisyonlara etkisi
+ile ilgili yapılan çalışmalarda püskürtme zamanının
+bir miktar öne alınması ile özellikle CO ve HC
+emisyonlarının azaldığı belirtilmiştir [6, 7, 17-18, 27].
+Dolayısı LPG/dizel çift yakıtlı motorlarda, yanma
+fırsatı bulamayan gaz yakıttan kaynaklandığı
+düşünülen yüksek CO ve HC emisyonunu düşürmek
+için püskürtme zamanının bu emisyonlara etkisinin
+araştırılması önem arz etmektedir.
+Test verilerine bakıldığında gaz yakıtın hava fazlalık
+katsayısını önemli miktarda etkilediği görüldüğünden
+hava fazlalık kat sayısının motor yüküne göre
+değişimi Şekil 6’da verilmiştir. Görüldüğü gibi özellikle düşük yüklerde LPG oranı arttıkça hava fazlalık
+kat sayısı önemli miktarda düşmektedir. Örneğin %20
+yükte hava fazlalık kat sayısı () dizel yakıtına göre
+yaklaşık %100 oranında azalmaktadır. Hava fazlalık
+kat sayısının azalması, silindire giren gazın genleşmesi ve artan gaz oranının daha çok yer kaplamasının
+doğal bir sonucudur. Ancak bu kısılmasız hava ile
+çalışan dizel motorlar için istenmeyen bir durumdur.
+Gaz/dizel çift yakıtı ile çalışan motorlarda özellikle
+düşük yüklerde, gaz yakıt oranı arttıkça CO ve HC
+emisyonlarının artmasının en önemli sebebinin azalan
+hava miktarı olduğu düşünülmektedir. Bu yüzden
+gaz/dizel çift yakıtı ile çalışan motorlarda artan CO ve
+HC emisyonlarının motora aşırı hava verilerek bir
+miktar düşürülebileceği düşüncesi oluşmuştur.
+Dizel ve çift yakıt için NOx emisyonlarının motor
+yüküne göre değişimi Şekil 7’de gösterilmiştir. Yük
+arttıkça hem dizel yakıtı ile hem de her oranda LPG
+içeren çift yakıtlar ile NOx emisyonu artmaktadır.
+NOx oluşumunun yüksek yanma sıcaklığında yüksek
+oksijen konsantrasyonu tarafından desteklendiği ifade
+edilmiştir [25]. Dolayısı ile yük arttıkça NOx emisyonunun artması, çevrim başına yanmaya katılan yakıt
+miktarının artmasının silindir içi sıcaklığını arttırmasının doğal bir sonucudur. Diğer bir önemli durum,
+sabit yükte çift yakıt içerisindeki LPG oranı arttıkça
+NOx emisyonunun artmasıdır. Ancak, LPG oranı
+arttıkça NOx emisyonu artsa da yine de dizel yakıt
+
+emisyonu seviyesinden düşüktür. Dizel yakıtı ile
+birlikte ikinci yakıt olarak doğal gaz, LPG veya hava
+gazının (producer gas) kullanıldığı bir çok çalışmada
+da NOx emisyonunun dizel yakıta göre azaldığı tespit
+edilmiştir [4, 6, 8, 28-29 ]. Çift yakıt NOx emisyonunun dizel yakıtına göre düşük olmasının, gaz
+yakıtın tutuşma gecikmesi nedeniyle yanmasının
+genişleme kursuna sarkması nedeni ile maksimum
+basınç ve sıcaklığın düşmesinden kaynaklandığı ifade
+edilmiştir [26].
+Dizel ve çift yakıt için is emisyonunun motor yüküne
+göre değişimi Şekil 8’de görülmektedir.
+İs oluşumunun başlıca nedeni dizel yakıtın silindir
+içinde yeterli hava bulamaması veya zamanında hava
+ile hızlı bir şekilde karışamaması ve buharlaşamaması
+şeklinde ifade edilmiştir [30]. Bu çalışmadaki is
+emisyon oluşumu bu düşünceye uymaktadır. Yani
+belirli bir yük için ihtiyaç duyulan yakıt içinde LPG
+arttıkça, is oluşumuna daha çok sebep olan, hava ile
+daha zor karışan, daha zor buharlaşan dizel yakıtı
+azaldığı için is emisyonu önemli miktarda düşmektedir. Örneğin %80 yükte dizel yakıtı ile %30 olan is
+emisyonu, %20 LPG içeren çift yakıt ile %6,5’e ve
+%80 LPG içeren çift yakıt ile %1,5’a düşmektedir. Bu
+çalışmada elde edilen performans ve emisyon
+sonuçlarının, yeni geliştirilen ve Çin’in Guangzhou
+kenti halk otobüslerine uygulanan LPG/dizel çift yakıt
+sistemi ile ilgili araştırma sonuçlarına benzer sonuçlar
+Z=%0
+
+Z=%20
+
+Z=%40
+
+Z=%60
+
+Z=%80
+
+Z=%90
+
+300
+
+240
+
+NO (ppm
+)
+X
+
+A. Aktaş ve O. Doğan
+
+180
+
+120
+
+60
+
+0
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Şekil 7. Yükün fonksiyonu olarak NOx emisyonu
+değişimi (Variation of NOx emissions with engine load)
+
+Z=%0
+
+Z=%20
+
+Z=%40
+
+Z=%0
+
+Z=%20
+
+Z=%40
+
+Z=%60
+
+Z=%80
+
+Z=%90
+
+Z=%60
+
+Z=%80
+
+Z=%90
+
+50
+
+5
+
+40
+
+İS (%)
+
+4
+
+Lamda
+
+120
+
+Motor Yükü (%)
+
+3
+
+30
+20
+
+2
+
+10
+1
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Motor Yükü (%)
+
+Şekil 6. Yükün fonksiyonu olarak hava fazlalık kat
+sayısının değişimi (Variation of lambda with engine load)
+176
+
+0
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+120
+
+Motor Yükü (%)
+
+Şekil 8. Yükün fonksiyonu olarak is emisyonu
+değişimi (Variation of smoke with engine load)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Çift Yakıtlı Bir Dizel Motorda LPG Yüzdesinin Performans ve Egzoz Emisyonlarına Etkisi
+
+elde edildiği tespit edilmiştir [31]. Her iki çalışmada
+%40 oranında LPG içeren LPG/dizel çift yakıt ile
+çıkış gücünün olumsuz yönde hemen hemen hiç
+etkilenmemesi, is ve NOx emisyonlarının azalması ile
+LPG’nin dizel motorlarda başarılı bir şekilde
+kullanılabileceği bir kez daha görülmüştür.
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada, dizel/LPG çift yakıtlı bir motorda sabit
+devirde ve değişen yüklerde LPG oranının motor
+performans ve emisyonlarına etkisi deneysel olarak
+araştırılmış ve aşağıda belirtilen başlıca sonuçlar elde
+edilmiştir.
+Çift yakıtlı çalışmada, %40 LPG oranına kadar her
+yükte özgül yakıt tüketimi dizel yakıtına göre düşük
+olmaktadır. Ancak, %40 LPG oranından sonra çift
+yakıt içerisindeki LPG oranı arttıkça özgül yakıt
+tüketimi de artmaktadır.
+Çift yakıt içerisindeki LPG oranı arttıkça EGS’ları
+artsa da %80 LPG oranına kadar dizel yakıtından
+düşük olmaktadır.
+Çift yakıt içerisindeki LPG oranı arttıkça NOx
+emisyonu artmasına rağmen dizel yakıtlı motor
+çalışmasına göre düşük seviyede kalmaktadır. Tam
+yükte dizel yakıtı ile %40 seviyesinde olan İs
+emisyonu %1’lere kadar düşmektedir.
+Çift yakıtlı çalışmada CO ve HC emisyonları bütün
+yüklerde dizel yakıtına göre daha yüksektir. Artan CO
+ve HC emisyonlarının LPG’den dolayı azalan hava
+fazlalık kat sayısından ve gaz yakıtın yanmasının
+gecikmesinden önemli miktarda etkilendiği, dolayısı
+ile motora aşırı hava verilmesinin ve püskürtme
+zamanının bu emisyonlara etkisinin araştırılmasının
+yararlı olacağı düşünülmektedir.
+Sonuç olarak; kütlesel olarak %90 LPG oranına kadar
+dizel/LPG çift yakıtı ile tek silindirli dizel motorun
+düzenli çalıştığı görülmüştür. Ancak performans ve
+emisyon sonuçları bakımından en uygun LPG oranın
+%40 civarı olduğu anlaşılmıştır.
+KISALTMALAR (NOMENCLATURE)
+CFPP
+CNG
+CO
+EGR
+EGS
+HC
+LPG
+NOx
+
+: The cold filter plugging point (Soğuk filtre
+tıkanma noktası)
+: Compressed Natural Gas (Sıkıştırılmış
+doğal gaz)
+: Karbonmonoksit (ppm)
+: Exhaust gas recirculation (Egzoz gazı
+geriçevrimi)
+: Egzoz gaz sıcaklığı
+: Hidro karbon (ppm)
+: Liquefied Petroleum Gas (Sıvılaştırılmış
+petrol gazı)
+: Azot oksitler (ppm)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+A. Aktaş ve O. Doğan
+
+ÖYT
+: fren özgül yakıt tüketimi (g/kWh)
+TEGZOZ : Egzoz gaz sıcaklığı (C)
+bsfc
+: Fren özgül yakıt tüketimi (break spesific
+fuel consumption), (g/kWh)
+Z
+: Çift yakıt içerisindeki kütlesel LPG yüzdesi
+(%)
+
+mLPG : LPG debisi (g/s)
+
+
+mdizel
+
+: Dizel yakıt debisi (g/s)
+
+
+
+: Hava fazlalık katsayısı (-)
+
+KAYNAKLAR (REFERENCES)
+1.
+
+Weaver, C.S., “Natural gas vehicle—a review of
+the state of the art”, SAE, Paper 892133, 1989.
+2. Çetinkaya, S., “Taşıtlarda Yakıt Olarak CNG
+Kullanımının Teknolojik Ve Ekonomik Açıdan
+Değerlendirilmesi”, III. LPG-CNG Kongresi ve
+Sergisi, 8-9 Haziran 2007, Ankara.
+3. Bayka, D., “Doğalgazın Taşıtlarda Yakıt Olarak
+Kullanımı”, III. LPG-CNG Kongresi ve Sergisi,
+8-9 Haziran 2007, Ankara.
+4. Papagiannakis, R.G. ve Hountalas, D.T.,
+“Combustion
+and
+exhaust
+emission
+characteristics of a dual fuel compression ignition
+engine operated with pilot Diesel fuel and natural
+gas”, Energy Conversion and Management
+Volume, 45, Issues 18-19, 2971–2987, 2004.
+5. Selim, M.Y.E., “Sensitivity Of Dual Fuel Engine
+Combustion And Knocking Limits To Gaseous
+Fuel Composition”, Energy Conversion And
+Management, Volume 45, Issue 3, 411–425,
+2004.
+6. Papagiannakis, R.G., Hountalas D.T. ve
+Rakopoulos, C.D., “Theoretical study of the
+effects of pilot fuel quantity and its injection
+timing on the performance and emissions of a
+dual fuel diesel engine”, Energy Conversion
+and Management, Volume 48, Issue 11, 2951–
+2961, 2007.
+7. Nwafor, O.M.I., “Effect of advanced injection
+timing on emission characteristics of diesel
+engine running on natural gas”, Renewable
+Energy, Volume 32, Issue 14, 2361–2368, 2007.
+8. Saleh, H.E., “Effect of variation in LPG
+composition on emissions and performance in a
+dual fuel diesel engine”, Fuel, Volume 87, Issues
+13-14, 3031–3039, 2008.
+9. Selim, M.Y.E., Radwan, M.S. ve Saleh, H.E.,
+“Improving The Performance of Dual Fuel
+Engines Running on Natural Gas/LPG by Using
+Pilot Fuel Derived From jojoba seeds”,
+Renewable Energy, Volume 33, Issue 6, 11731185, 2008.
+10. Barut, E., Design and Implementation of
+Distributive Gas Fuel MeteringSystem For
+The Dual Fuel Operation of Diesel Engine, The
+Thesis Master of Science,, Middle East Technical
+University, Graduate School of Natural and
+Applied Sciences, Ankara, 1997.
+
+177
+
+A. Aktaş ve O. Doğan
+
+Çift Yakıtlı Bir Dizel Motorda LPG Yüzdesinin Performans ve Egzoz Emisyonlarına Etkisi
+
+11. Abd Alla, G.H., Soliman, H.A., Badr, O.A. ve
+Abd Rabbo, M.F., “Effect of pilot fuel quantity
+on the performance of a dual fuel engine”,
+Energy Conversion and Management; Volume
+41, Issue 6, 559–72, 2000.
+12. Nwafor, O.M.I., “Effect of choice of pilot fuel on
+the performance of natural gas in diesel engines”,
+Renewable Energy, Volume 21, Issues 3-4, 495–
+504, 2000.
+13. Lee, C.S., Lee, K.H. ve Kim, D.S., “Experimental
+and numerical study on the combustion
+characteristics of partially premixed charge
+compression ignition engine with dual fuel”,
+Fuel, Volume 82, Issue 5, 553–60, 2003.
+14. Papagiannakis, R.G. ve Hountalas, D.T.,
+“Experimental investigation concerning the effect
+of natural gas percentage on performance and
+emissions of a DI dual fuel diesel engine”,
+Applied Thermal Engineering, Volume 23,
+Issue 3, 353–365, 2003.
+15. Carlucci, A.P., Ficarella, A. ve Laforgia, D.,
+“Experimental comparison of different strategies
+for natural gas addition in a common rail diesel
+engine”, In: Proceedings of FISITA, Barcelona,
+Spain, May 23–27, Paper F2004V136, 2004.
+16. Salman, S., Çınar, C., Haşimoğlu, C., Topgül T.
+Ve Ciniviz, M., “The Effects Of Dual Fuel
+Operation On Exhaust Emıssions In Diesel
+Engines”, Technology, Volume 7, Issue 3, 455460, 2004.
+17. Huang, Z., Shiga, S., Ueda, T., Nakamura, H.,
+Ishima, T., Obokata, T. et al., “Effect of fuel
+injection timing relative to ignition timing on the
+natural gas direct-injection combustion”, J Eng
+Gas Turbine Power, Volume 125, Issue 3, 783790, 2003.
+18. Carlucci, A.P., de Risi A., Laforgia, D. ve
+Naccarato, F., “Experimental investigation and
+combustion analysis of a direct injection dualfuel diesel–natural gas engine”, Energy, Volume
+33, Issue 2, 256–263, 2008.
+19. Abd Alla, G.H., Soliman, H.A., Badr, O.A. ve
+Abd Rabbo, M.F., “Effect of injection timing on
+the performance of a dual fuel engine”, Energy
+Conversion and Management, Volume 43,
+Issue 2, 269–277, 2002.
+20. Çarman, K., Salman, S. ve Ciniviz, M., “Dizel
+Motorlarında Dizel Yakıtı+LPG Kullanımının
+Performans Ve Emisyona Etkisi”, Selçuk-Teknik
+Online Dergisi, ISSN 1302- 6178. Volume 2,
+Number: 1, 2001.
+
+178
+
+21. Qi, D.H., Bian, Y.Z.H., Ma, Z.H.Y., Zhang,
+C.H.H. Ve Liu, S.H.Q., “Combustion and
+Exhaust Emission Characteristics of A
+Compression Ignation Engine Using Liquefied
+Petroleum Gas-Diesel Blended Fuel”, Energy
+Conversion And Management, Volume 48, Issue
+2, Pages 500-509, 2007.
+22. Ma, Z., Huang, Z., Li, C., Wang, X. ve Miao, H.,
+“Combustion and emission characteristics of a
+diesel engine fuelled with diesel–propane blends”,
+Fuel, Volume 87, Issues 8-9, 1711–1717, 2008.
+23. Selim, M.Y.E., “Effect Of Engine Parameters
+And Gaseous Fuel Type on The Cyclic
+Variability of Dual Fuel Engines”, Fuel, Volume
+84, Issues 7-8, 961–971, 2005.
+24. Pirouzpanah, V. ve Barkhordarion, A.M. “DualFuelling of An Industrial Indirect Injection Diesel
+Engine by Diesel and Liquid Petroleum Gas”,
+International
+journal
+of
+energy
+research, Volume 20, Issue 10, 903-912, 1996.
+25. Heywood, J.B. Internal combustion engine
+fundamentals. New York: McGraw-Hill Book
+Co., 1988.
+26. Sahoo, B.B., Sahoo, N. ve Saha, U.K., “Effect of
+engine parameters and type of gaseous fuel on the
+performance of dual-fuel gas diesel engines—A
+critical review”, Renewable and Sustainable
+Energy Reviews, Volume 13, Issues 6-7, 11511184, 2009.
+27. Aktaş, A. ve Sekmen, Y., “Biyodizel İle Çalışan
+Bir Dizel Motorda Yakıt Püskürtme Avansının
+Performans Ve Egzoz Emisyonlarına Etkisi”,
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1,
+199-206, 2008.
+28. Uma, R., Kandpal, T.C. ve Kishore, V.V.N.,
+“Emission characteristics of an electricity
+generation system in diesel alone and dual fuel
+modes”, Biomass and Bioenergy, Volume 27,
+Issue 2, 195–203, 2004.
+29. Singh, R.N., Singh, S.P. ve Pathak, B.S.,
+“Investigations on operation of CI engine using
+producer gas and rice bran oil in mixed fuel
+mode”, Renewable Energy, Volume 32, Issue 9,
+1565–1580, 2007.
+30. Abdel-Rahman, A.A., “On The Emıssıons From
+Internal-Combustıon Engınes: A Review”,
+Internatıonal Journal Of Energy Research,
+Volume 22, Issue6, 483-513, 1998.
+31. Dong, J., Gao, X, Li G and Zhang, X. “Study on
+Diesel-LPG Dual-Fuel Engines”, SAE paper no:
+2001- 01-3679.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+

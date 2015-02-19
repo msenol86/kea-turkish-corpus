@@ -1,0 +1,789 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 4, 687-693, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 4, 687-693, 2012
+
+TAŞITLARDA KULLANILAN YALITIM MALZEMELERİNİN
+SES YUTMA KATSAYILARININ BELİRLENMESİ
+İhsan BATMAZ*, İbrahim AYDIN**
+* Gazi Üniversitesi, Teknoloji Fakültesi, Otomotiv Mühendisliği Bölümü, Beşevler, Ankara
+** Ses, Titreşim ve Konfor Laboratuarı, Tofaş, Bursa
+ibatmaz@gazi.edu.tr, ibrahim.aydin@tofas.com.tr
+(Geliş/Received: 09.12.2011; Kabul/Accepted: 20.09.2012)
+ÖZET
+İç gürültü faktörü günümüz tüketicisinin marka tercihinde çok önemli bir yer tutmaktadır. Tüm otomotiv ana ve
+yan sanayi üreticileri bunun farkına varıp yatırımlarını bu yönde geliştirmektedirler. Günümüzün değişen
+ihtiyaçları ve otomotiv firmaları arasındaki süregelen rekabet yalıtım malzemelerinin de sürekli olarak gelişim
+içerisinde olmasını gerektirmektedir. Yalıtım malzemelerinin ses yutum katsayılarını belirlenmesi için değişik
+yöntemler kullanmak mümkündür. Bu çalışmada; otomobilin belirli bir bölgesinde kullanılmak üzere aynı
+kalınlık, farklı yapısal özelliklerdeki beş adet yalıtım malzemesinin, Empedans tüpü kullanılarak ses yutum
+katsayıları tespit edilmiştir. Bununla birlikte kalınlığın ses yutum katsayısı üzerindeki etkileri araştırılmıştır. Elde
+edilen sonuçlar malzemelerin yapısal özellikleri de göz önüne alınarak; birbirleri ile karşılaştırılmış, ayrıca iç
+gürültüde meydana getirdikleri değişiklikler incelenmiştir.
+Anahtar Kelimeler: Empedans tüpü, Ses yutum katsayısı, Yalıtım malzemeleri
+
+DETERMINATION OF THE SOUND ABSORPTION COEFFICIENTS OF
+INSULATION MATERIALS USED ON VEHICLES
+ABSTRACT
+Interior noise factor plays an important role in today’s customer’ preference for vehicle brands. All car
+manufacturers and suppliers develop their investment in this respect. Today’s changing needs and the
+competition having taken place among car manufacturers cause the isolators to be constantly upgraded. It is
+possible to use various methods to determine the sound absorption coefficient of the isolators. In this study, five
+isolators that have the same thickness and different structural features and that are to be used in a specific
+location of the car were selected, and their sound absorption coefficient were measured using an “Impedance
+Tube”. The results obtained were compared to each other, considering the structural features of the materials,
+and the changes they created in the internal noise were also analyzed.
+Key Words: Impedance tube, Sound absorption coefficient, Insulators
+1. GİRİŞ (INTRODUCTION)
+Otomotiv sektöründe birçok amaç için değişik tipte
+yalıtım malzemeleri kullanılmaktadır. Günümüzün
+değişen ihtiyaçları ve otomotiv firmaları arasındaki
+süregelen rekabet, yalıtım malzemelerinin de sürekli
+olarak gelişim içerisinde olmasını gerektirmektedir.
+Üreticiler tarafından; motor, yol ve yapısal kaynaklı
+gürültülerin, sürücü ve yolcuları en az seviyede
+etkilemesi için yalıtım yeteneği yüksek fakat maliyeti
+
+düşük
+yalıtım
+hedeflenmektedir.
+
+malzemelerinin
+
+belirlenmesi
+
+Ses; kulak tarafından algılanabilen, hava, su ya da
+benzeri bir ortamdaki basınç değişimi olarak
+verilebilen ve dalgalar halinde yayılan bir enerji
+şeklidir. Gürültü ise, hoşa gitmeyen istenmeyen,
+rahatsız edici ses olarak tanımlanabilir. Gürültünün
+rahatsız ediciliği, gürültünün yüksekliğinden,
+cinsinden ve değişkenliğinden kaynaklanmaktadır.
+Gürültünün insan sağlığı üzerinde birçok olumsuz
+
+Taşıtlarda Kullanılan Yalıtım Malzemelerinin Ses Yutma Katsayılarının Belirlenmesi
+
+etkileri görülmektedir. En önemli etkisi işitme
+duyusunu azaltmasıdır. Bundan başka; kas
+gerilmeleri, stres, kan basıncında artış, kalp atışları ve
+kan dolaşımının değişmesi, göz bebeğinin büyümesi
+ve uykusuzluk gibi fizyolojik etkilerinin yanında, sinir
+bozukluğu, korku, rahatsızlık, tedirginlik, yorgunluk,
+zihinsel etkinliklerde yavaşlama ve iş veriminin
+azalması gibi psikolojik etkileri görülmektedir[1].
+Özellikleri bakımından çok çeşitlilik gösteren yalıtım
+malzemelerinin otomobillerin doğru bölgelerinde,
+doğru ebatlarda ve yoğunluklarda kullanılması
+müşterilerin tercihlerini değiştirmek açısından da çok
+önemlidir. Yanlış malzeme seçimi ile yüksek
+maliyetler karşılığında yetersiz yalıtım elde
+edilmektedir. Bu nedenle yalıtım malzemelerinde
+fiyat ve kalite açısından optimum seviyeyi yakalamak,
+yalıtım ve otomobil üreticileri açısından çok
+önemlidir. Taşıt geliştirme sürecinde, yalıtım
+malzemelerinin
+akustik
+karakteristiklerinin
+belirlenmesinde Empedans tüpü kullanılmaktadır.
+Ses, insan kulağının algılayabileceği basınç değişimi
+olarak tanımlanabilir. Bir ses kaynağı birim zamanda
+belli bir ses enerjisi (Joule) açığa çıkarır, yani belli bir
+güce (Watt = Joule/s) sahiptir. Bu, o ses kaynağının,
+çevresel etkenlerden bağımsız olarak, ne kadar
+akustik enerji üretebileceğinin bir ölçüsüdür. Üretilen
+enerji, odadaki ses basıncını yükselterek ortama
+yayılır. Herhangi bir noktadaki ses basıncı sadece
+kaynağın gücüne ve noktanın ses kaynağına olan
+uzaklığına değil, duvarlar tarafından emilen ses
+enerjisine ve camlardan veya kapıdan dış ortama
+iletilen
+ses
+enerjisine
+de
+bağlı
+olarak
+değişebilmektedir [2].
+Bir ses kaynağı tarafından bir ses gücü üretildiğinde,
+kaynaktan komşu hava moleküllerine doğru bir enerji
+akışı meydana gelmektedir. Yayılan bu enerjinin belli
+bir yönde birim zamanda birim alandan geçen
+miktarına ses şiddeti (I) adı verilir. Yayılmakta olan
+enerji, geçtiği her noktada ses basınç değişimine
+sebebiyet vermektedir [3]. Sesin havadaki yayılımı
+dalgaların su yüzeyindeki meydana getirdiği hareket
+şekline benzemektedir [4].
+Eşdeğer sürekli ses düzeyi, belirli bir zaman
+aralığında ölçülen anlık ses basınç değerlerinin ihtiva
+ettiği toplam akustik enerjinin ölçüm süresine
+bölünmesi yoluyla elde edilen ve elektronik olarak
+hesaplanan ortalama RMS düzeyidir. Ses etkilinim
+düzeyi, uçakların kalkış ve iniş gürültülerinin tek bir
+değerle ifade edilebilmesini sağlar. Ölçüm
+cihazlarında kaydedilen teknolojik ilerlemeler
+sayesinde SEL parametresi doğrudan doğruya cihaz
+üzerinden takip edilebilir bir hale gelmiş ve farklı
+noktalardaki
+gürültülerin
+birleştirilmesi
+veya
+karşılaştırılması
+amacıyla
+da
+kullanılmaya
+başlanmıştır [5].
+ISO 1996 standardına göre ses ölçümleri sırasında
+mikrofonun yerleştirileceği pozisyon iç ve dış mekan
+
+688
+
+İ. Batmaz ve İ. Aydın
+
+ölçümlerinde yerden 1,2 - 1,5 m yüksekte olmalıdır
+[6].
+Ölçümler sırasında ses ölçüm cihazı elle tutulmalı
+veya tripod üzerine yerleştirilmelidir. Elde tutularak
+yapılan ölçümlerde, kol mümkün olduğu kadar açık
+tutularak cihazın bedenden uzakta durması ve yan
+dönerek vücuttan kaynaklanabilecek yansımaların en
+aza indirilmesi gerekmektedir. Cihazın tripod üzerine
+yerleştirildiği
+ölçümlerde
+ise,
+kullanıcının
+mikrofondan en az 0,5 m geride ve 0,5 m yanda
+bulunmalıdır [7].
+Ölçümlere başlamadan önce ses ölçüm cihazının
+kalibrasyonu gerekmektedir. Bu işlem yüksek
+hassasiyetle doğru sonuçların elde edilmesini ve daha
+önce yapılmış olan ölçümlerle de karşılaştırılabilirliği
+sağlamaktadır [8].
+Sesin yayılma alanı içerisinde bulunan nesneler
+kırınıma yol açabilmektedir. Kırınımın etkisini
+hesaplayabilmek için engelin boyutlarının sesin
+dalgaboyuna oranını karşılaştırmak gerekmektedir [9].
+Ses, dalga boyundan daha büyük engellere çarptığında
+yansıma meydana gelmektedir. Engelin ses yutma
+özelliği yok ise, yansıyan ses enerjisi gelen ses
+enerjisi ile hemen hemen aynı enerji düzeyinde
+olmaktadır [10].
+Frekans analizi bir sinyalin hangi büyüklükteki hangi
+frekans bileşenlerinden meydana geldiğini gösterir
+[11]. Elde edilen frekans bileşenlerinin sayısı analizin
+hassasiyetini belirleyen bir faktör olup genellikle
+kullanıcı tarafından belirlenebilmektedir.
+Ses yutma katsayısı testinde yüksek frekanslar için
+küçük tüp (R 30mm), düşük frekanslar için büyük tüp
+(R 60 ~ 100mm) kullanılmaktadır. Yapılan testler
+sonrasında düşük frekans ve yüksek frekans ölçümleri
+birleştirilir. Ortak frekans bölgesinde interpolasyon
+yapılarak süreksiz bir eğri elde edilmektedir [12].
+Nihai üründe, malzeme kalınlığı değişkendir.
+Empedans tüpüne konan malzemenin kalınlığının
+sabit olması gerekmektedir. Malzeme kalınlığı
+değiştikçe, ses yutma katsayısındaki değişim tahmin
+edilemeyecek şekilde farklılaşmaktadır [13].
+Boyutları standart odanın üçte biri olan bir
+yankılanma odası, yutma katsayısının ölçülmesi için
+en pratik çözümdür ancak maliyeti empedans tüpüne
+göre yüksek olmaktadır. Bu odalarda kullanılabilecek
+en büyük test örneği boyutu 1,2 m2’dir. Oda tasarımı
+ses dağılımının homojenliğini sağlayacak şekilde
+yapılmaktadır. Bu odalara alfa-kabin ismi de
+verilmektedir.
+Ses
+yutma
+katsayısının
+hesaplanmasında ölçüm metodu olarak yankılanma
+süresi temel alınmaktadır. Bu sebeple alfa kabinler,
+yansıma katsayısı ve empedans ölçümleri için
+kullanılamamaktadır [14]. Bu testlerin empedans tüpü
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+İ. Batmaz ve İ. Aydın
+
+Taşıtlarda Kullanılan Yalıtım Malzemelerinin Ses Yutma Katsayılarının Belirlenmesi
+
+ile yapılması mümkündür. Ancak; yutma katsayısı
+ölçümlerinde olduğu gibi malzeme üç yönlü yüklerle
+değil, tek yönlü bir yük altında iken ses iletim
+katsayısı tespiti yapılabilmektedir [15].
+Bu çalışmada; otomobilin belirli bir bölgesinde
+kullanılmak üzere aynı kalınlık farklı yapısal
+özelliklerdeki beş adet izolatörün “Empedans Tüpü”
+kullanılarak karşılaştırılması yapılmıştır. Empedans
+Tüpü ölçümleri sonucu yalıtım malzemelerinin yutma
+katsayıları tespit edilerek ideal yalıtım malzemesi ile
+dinamik testler gerçekleştirilmiş ve empedans tüpü
+ölçümlerinin sağlaması yapılmıştır. Tüm bu
+çalışmalar yapılırken yalıtım malzemeleri konusunda
+bilgi birikiminin arttırılması ve taşıt geliştirme
+safhalarında sürecin kısaltılması amaçlanmıştır.
+2.
+
+MATERYAL ve METOT
+
+(MATERIAL AND
+
+METHOD)
+
+Deneysel çalışmalar TOFAŞ Ar-Ge NVH ve Gazi
+Üniversitesi
+Otomotiv
+Mühendisliği
+Bölümü
+laboratuarlarında gerçekleştirilmiştir. Çalışmada
+kullanılan deney seti, empedans tüpü, ¼” mikrofonlar
+(Free field özellikli), veri toplama cihazı (Scadas),
+güç kaynağı (Dynacord), dizüstü bilgisayar (LMSTest Lab yazılımı) ve yalıtımlı BNC kablolardan
+oluşmaktadır.
+Şekil
+1’de
+deney
+düzeneği
+görülmektedir.
+
+Çalışmada ses yutma katsayılarını belirlemek üzere
+farklı oranlarda etilen propilen dien momoner
+(EPDM) ve poliüretan (PU) içeren beş farklı
+izolasyon
+malzemesi
+kullanılmıştır.
+Test
+numunelerine ait yapısal özellikler Tablo 1’de
+verilmiştir.
+Ölçümlere başlamadan önce 1/4” mikrofonlar kalibre
+edilmiştir.
+Ölçümler,
+mikrofonların
+belirtilen
+pozisyonlara yerleştirilmesiyle ve belirtilen frekans
+aralığında yapılmıştır. Mikrofon uyumsuzluğunu
+gidermek amacıyla mikrofonlar yer değiştirilerek iki
+farklı konfigürasyon kullanılmıştır.
+Her bir pozisyon için 45 s süreyle 5 ayrı veri
+toplanmıştır.
+Ölçüm
+sonunda
+mikrofonlar
+arasındakitransfer fonksiyonları çıkarılmış, her
+frekans değerine karşılık gelen gerçek ve sanal
+değerler hesaplanmıştır. Bu değerlerden yararlanarak
+faz açısı (Ф) hesaplanmıştır. Faz açısı ve transfer
+fonksiyonu değerlerinden yararlanarak kalibrasyon
+faktörü (HC) hesaplanmıştır. Kalibrasyon faktörü, Test
+Lab programından ölçüm sonucu elde edilen transfer
+fonksiyonu değerlerine oranlanarak ölçümleme
+hatasının ortadan kaldırılması amaçlanmıştır.
+Dalga numarası, her frekans değerine ve ses hızına
+göre 1 nolu eşitlik yardımıyla hesaplanmaktadır.
+(1)
+Test numunesi ile uzak mikrofon arasındaki mesafe
+(x1) ve dalga numarasına (k0) bağlı olarak yansıma
+faktörü (r) için gerekli olan katsayı 2 nolu eşitlik
+yardımıyla hesaplanmaktadır.
+(2)
+
+Şekil 1. Deney setinin genel görünümü
+
+(General view of
+
+the experimental setup)
+
+Deneylerde kullanılan Empedans Tüpünün özellikleri
+şu şekildedir;
+• Büyük tüpün uzunluğu 500 mm ve iç çapı 60 mm,
+• Hoparlör çapı 4”, gücü 20 watt (8Ω), çalışma
+frekansı aralığı 20 Hz ~ 8000Hz,
+• M0 - M1 mikrofonları arasındaki mesafe: 170 mm
+(Çalışma frekansı 100 ~ 800 Hz),
+• M1 – M2 mikrofonları arasındaki mesafe: 45 mm
+(Çalışma frekansı 400 ~ 2500 Hz),
+• M2 - Numune arasındaki mesafe: 35 mm,
+• Küçük tüpün uzunluğu 385 mm ve iç çapı 30 mm,
+• M5 - M6 mikrofonları arasındaki mesafe: 22,5
+mm (Çalışma frekansı 1600 ~ 6300Hz),
+• M6 - Numune arasındaki mesafe: 40 mm.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+Yutma katsayısını
+hesaplanabilir.
+
+3
+
+nolu
+
+eşitlik
+
+yardımıyla
+(3)
+
+Mikrofon pozisyonlarına göre çalışma frekansları
+değiştiği için (100 ~ 800 Hz, 400 ~ 2500 Hz ve 1600
+~ 6300 Hz) üç farklı çalışma aralığında ölçümler
+alınmış ve sonuçlar birleştirilerek frekansa bağlı alfa
+değerlerinin grafikleri çıkarılmıştır.
+Test numunesinin yerleştirilmesinden sonra akustik
+özelliklerinin belirlenmesi için ilk aşama referans
+düzeyinin tanımlanmasıdır (x=0). Eğer test numunesi
+düz veya yanal bir yüze sahipse test numunesinin
+önünde bir miktar mesafe yer alacaktır. Referans
+düzleminden en yakın mikrofona olan bu mesafe
+empedans tüpünün boyu ile orantılı olmaktadır.
+
+689
+
+Taşıtlarda Kullanılan Yalıtım Malzemelerinin Ses Yutma Katsayılarının Belirlenmesi
+
+İ. Batmaz ve İ. Aydın
+
+Tablo 1. Test numunelerinin yapısal özellikleri (Structural properties of the test samples)
+Numune 1
+
+Numune 2
+
+Numune 3
+
+Numune 4
+
+Numune 5
+
+Malzeme
+
+EPDM
++ PU + %27 PU + %20 PU + %30 PU + %25
+%20 Keçe
+Keçe
+Keçe
+Keçe
+Keçe
+
+Yoğunluk (kg/m3)
+
+180
+
+110
+
+75
+
+70
+
+90
+
+Sertlik (N)
+
+< 10
+
+>300
+
+> 120
+
+> 200
+
+> 220
+
+Çekme mukavemeti (kPa)
+
+> 100
+
+> 85
+
+> 20
+
+> 75
+
+> 100
+
+Mikrofonlardaki uygunsuzlukları gidermek için 8
+nolu eşitlik kullanılmaktadır.
+
+Ses hızı 4 nolu eşitlik yardımıyla hesaplanabilir.
+(4)
+
+(8)
+
+Burada, T, sıcaklık (K), C0, ses hızıdır (m/s).
+Ses hızı hesaplandıktan sonra dalga boyu 5 nolu
+eşitlik yardımıyla hesaplanabilir.
+
+Yansıma faktörü
+hesaplanmaktadır.
+
+9
+
+nolu
+
+eşitlik
+
+yardımıyla
+
+(5)
+Kalibrasyon faktörünün önceden belirlenmesi işlemi
+bütün birbirini takip eden ölçümler için geçerli
+düzeltmelerin ve özel bir kalibrasyon modelinin
+kullanıldığı bir prosedürdür. Aynı matematiksel
+işlemler kullanılarak, tüpteki numune üzerindeki
+güçlü akustik yansımaları engelleyebilmek için H12I
+ve H12II ölçülmektedir.
+Transfer fonksiyonu H12II kullanılarak “Kalibrasyon
+Faktörü
+(HC)”
+6
+nolu
+eşitlikteki
+gibi
+hesaplanmaktadır.
+
+(9)
+Burada, rr, gerçek bileşen, ri, sanal bileşen, x1, test
+numunesi ile uzak mikrofon arasındaki mesafe, ǿr,
+yansıma faktörünün faz açısı, HI, gelen ses dalgasının
+transfer fonksiyonu, HR, yansıyan ses dalgasının
+transfer fonksiyonudur.
+Ses yutma katsayısının belirlenmesinde 10 numaralı
+eşitlikten yararlanılır.
+(10)
+
+(6)
+Burada, H12, mikrofonların ilk konumundaki transfer
+fonksiyonu, H12II, mikrofonların yer değişimi sonrası
+transfer fonksiyonudur.
+Kalibrasyon faktörü, mikrofonların yer değiştirmesi
+ile tespit edilen transfer fonksiyonları yukarıdaki gibi
+hesaplandıktan
+sonra;
+ölçümün
+devamında,
+mikrofonlar ilk durumdaki konumlarına getirilerek
+ölçüme devam edilmiştir.
+(7)
+
+3. SONUÇLAR VE TARTIŞMA
+
+(RESULTS AND
+
+DISCUSSION)
+
+Şekil 2’de numune 1 için hesaplanan yutma katsayısı
+eğrileri görülmektedir. Numune 1 için en uygun
+kalınlığın 25 mm olduğu grafikten görülmektedir. 25
+mm kalınlık için elde edilen sonuçlara göre, özellikle
+400 ~ 2000 Hz aralığında kayda değer bir iyileşme
+olduğu, 2000 ~ 6300 Hz aralığında ise kalınlık
+artmasına rağmen yutma katsayısının neredeyse ilk
+durumla aynı kaldığı görülmüştür. Kalınlık 30mm’ye
+çıkartılarak yapılan ölçümlerde yutma katsayısı
+değerlerinin 400 ~ 5000 Hz aralığında kötüleştiği
+görülmektedir. Buradan kritik malzeme kalınlığının
+aşıldığı anlaşılmaktadır.
+
+Burada, Ĥ12, doğrulanmamış transfer fonksiyonu,
+ǿ,doğrulanmamış faz açısı, Ĥr, Ĥ12’nin gerçek kısmı,
+Ĥi, Ĥ12’nin sanal kısmıdır.
+
+690
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+İ. Batmaz ve İ. Aydın
+
+Taşıtlarda Kullanılan Yalıtım Malzemelerinin Ses Yutma Katsayılarının Belirlenmesi
+
+mm’lik izolatör 400 ~ 2000 Hz aralığında 20 mm’lik
+izolatöre göre daha iyi sonuçlar verdiğinden bu aralık
+için daha uygundur.
+
+Şekil 2. Numune 1’in kalınlığa bağlı yutma katsayısı
+değişimi (Variation of sound absorbtion coefficient of sample 1
+with different tickness)
+Şekil 3’te numune 2 için hesaplanan yutma katsayısı
+eğrileri görülmektedir.
+
+Şekil 3. Numune 2’nin kalınlığa bağlı yutma katsayısı
+değişimi (Variation of sound absorbtion coefficient of sample 2
+with different tickness)
+
+Şekil 4. Numune 3’ün kalınlığa bağlı yutma katsayısı
+değişimi (Variation of sound absorbtion coefficient of sample 3
+with different tickness)
+Şekil 5’te numune 4 için elde edilen grafikler
+görülmektedir. Grafikten 25 mm malzeme kalınlığının
+neredeyse tüm frekans aralığı için en iyi sonucu
+verdiği görülmektedir. 25 mm kalınlık için yapılan
+testler sonucunda yutma katsayısı değerlerinde, 400 ~
+4000 Hz frekans aralığında 20 mm’lik duruma göre
+daha iyi yutma katsayısı elde edildiği görülmektedir.
+4000 ~ 6300 Hz aralığında ise kalınlığı artırmanın ters
+etki yaptığı, daha kötü yutma katsayısı değerlerinin
+elde edildiği görülmektedir. Kalınlık 30 mm’ye
+çıkartılarak yapılan ölçümlerde yutma katsayısı
+değerlerinin 400 ~ 6300 Hz aralığında 20 mm ve 25
+mm’lik durumlara göre daha kötü sonuçlar verdiği
+görülmektedir.
+
+20mm ve 25mm kalınlık değerleri için sonuçlar
+birbirine oldukça yakındır. Bu durumda uygulama
+kalınlığı seçiminde maliyetler önem kazanmaktadır.
+25 mm kalınlık için yapılan testler sonucunda yutma
+katsayısı değerlerinde, 630 ~ 2000 Hz frekans
+aralığında 20 mm kalınlığa göre az da olsa iyileşme
+olduğu, 2000 ~ 6300 Hz aralığında ise artan kalınlığın
+hiçbir faydasının olmadığı görülmüştür. Kalınlık 30
+mm’ye çıkartıldığında ise 400 ~ 6300 Hz aralığında
+ilk kalınlık değerine göre kötüleşme görülmektedir.
+Özellikle 500 ~ 800 Hz aralığında malzemenin
+neredeyse hiç emilim yapmadığı tespit edilmiştir.
+Şekil 4’te numune 3 için elde edilen sonuçlara göre en
+iyi değerler 20 ve 25 mm kalınlıkta elde edilmiştir. 25
+mm için yapılan testler sonucunda yutma katsayısı
+değerlerinde, 400 ~ 2000 Hz frekans aralığında
+iyileşme olmasına rağmen, 2000 ~ 6300 Hz aralığında
+ilk duruma oranla daha kötü sonuçlar verdiği
+görülmektedir.
+Kalınlık 30 mm’ye çıkartılarak yapılan ölçümlerde
+genel olarak yutma katsayısı değerlerinin 20 mm ve
+25 mm’lik durumlara göre kötüleştiği görülmektedir.
+Değişen kalınlıklara göre hesaplanan yutma katsayısı
+değerlerine bakılarak, 3 numaralı numune için 25
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+Şekil 5. Numune 4’ün kalınlığa bağlı yutma katsayısı
+değişimi (Variation of sound absorbtion coefficient of sample 4
+with different tickness)
+Şekil 6’da numune 5 için hesaplanan yutma katsayısı
+eğrileri görülmektedir. Tüm frekans aralığında 20 ve
+25 mm kalınlığındaki malzemelerle alınan sonuçların
+daha iyi olduğu görülmektedir. 25 mm kalınlık için
+yapılan
+testler
+sonucunda
+yutma
+katsayısı
+değerlerinde, 400 ~ 1600 Hz frekans aralığında 20
+mm’lik duruma göre daha iyi yutma katsayısı
+değerleri verdiği halde 1600 ~ 6300 Hz aralığında
+daha kötü sonuçlar verdiği görülmektedir. 25 mm
+
+691
+
+Taşıtlarda Kullanılan Yalıtım Malzemelerinin Ses Yutma Katsayılarının Belirlenmesi
+
+kalınlığa sahip izolatör yüksek frekanslarda
+sönümleme yapamamaktadır. Kalınlık 30 mm’ye
+çıkartılarak yapılan ölçümlerde yutma katsayısı
+değerlerinin 400 ~ 6300 Hz aralığında 20 mm ve 25
+mm’lik durumlara göre daha kötü sonuçlar verdiği
+görülmektedir.
+
+İ. Batmaz ve İ. Aydın
+
+iyi yutma katsayısı değerlerine sahiptir. Burada yine
+en kötü yutma katsayısı değerleri numune 4’e aittir.
+
+Şekil 8. Bütün numunelerin 25 mm kalınlıktaki ses
+yutma katsayılarının değişimi (Variation of sound
+absorbtion coefficients of all samples with 25 mm tickness)
+Şekil 6. Numune 5’in kalınlığa bağlı yutma katsayısı
+değişimi (Variation of sound absorbtion coefficient of sample 5
+with different tickness)
+Şekil 7’de her bir numune için 20 mm kalınlıkta
+hesaplanan yutma katsayısı değerleri görülmektedir.
+
+Şekil 9’da her bir numune için 30mm kalınlıkta
+hesaplanan yutma katsayısı değerleri görülmektedir.
+Buna göre tüm malzemelerin yutma katsayısı
+değerlerinde genel olarak kötüleşme meydana geldiği
+tespit edilmiştir. 100 ~ 500 Hz ve 1250 ~ 2000 Hz
+aralığında tüm numuneler neredeyse aynı yutma
+katsayısı değerlerine sahiptirler. Numune 2’de ise 500
+~ 1000 Hz aralığında yutma katsayısında düşüş
+gözlemlenmektedir. Bu düşüş, kalınlık arttıkça
+malzemenin
+akustik
+karakteristiğinin
+tahmin
+edilemeyecek kadar farklı yönlerde değişebileceğini
+göstermektedir.
+
+Şekil 7. Bütün numunelerin 20 mm kalınlıktaki ses
+yutma katsayılarının değişimi (Variation of sound
+absorbtion coefficients of all samples with 20 mm tickness)
+Şekil 7’deki grafikler incelendiğinde; numune 3’ün
+400 ~ 1000 Hz aralığında en iyi yutma katsayısı
+değerlerine sahip olduğu ancak, 1000 Hz ve üzerinde
+numune 1’in diğer numunelere göre çok daha iyi
+yutma
+katsayısı
+değerlerine
+sahip
+olduğu
+görülmektedir. 20 mm kalınlık için en kötü yutma
+katsayısı değerlerini ise numune 4 vermiştir. 400 Hz’e
+kadar tüm numuneler yaklaşık olarak aynı sonuçları
+vermiştir.Şekil 8’de her bir numune için 25 mm
+kalınlıkta hesaplanan yutma katsayısı değerleri
+karşılaştırılmaktadır. Buna göre; tüm malzemelerin
+yutma katsayısı değerlerinde genel olarak iyileşme
+meydana geldiği tespit edilmiştir. 315 Hz’e kadar
+neredeyse eşit olan yutma katsayısı değerleri bu
+frekanstan sonra her bir numune için artış
+göstermiştir. Numune 1 4000 ~ 5000 Hz aralığında
+her ne kadar düşüş göstermiş olsa da, genel olarak
+400 ~ 6300 Hz aralığında diğer numunelerden daha
+
+692
+
+Şekil 9. Bütün numunelerin 30 mm kalınlıktaki ses
+yutma katsayılarının değişimi (Variation of sound
+absorbtion coefficients of all samples with 30 mm tickness)
+Şekil 10’da taşıt üzerinde yapılan iç gürültü testlerinin
+toplam seviye eğrileri gösterilmiştir. * işareti ile
+gösterilen eğri taşıtın güncel izolatör takılı durumunu
+gösterirken, Δ işaretli ise, empedans tüpü ölçümleri
+sonucunda seçilmiş olan malzemeden üretilmiş
+izolatör takılı durumdaki iç gürültü eğrisini
+göstermektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+İ. Batmaz ve İ. Aydın
+
+Taşıtlarda Kullanılan Yalıtım Malzemelerinin Ses Yutma Katsayılarının Belirlenmesi
+
+KAYNAKLAR (REFERENCES)
+1.
+2.
+3.
+4.
+Şekil 10. Taşıt iç gürültü toplam seviye eğrileri (Total
+interior noise level curves of the test vehicle)
+
+4. DEĞERLENDİRME (CONCLUSION)
+Bu çalışmada çift odalı empedans tüpü kullanılarak,
+farklı yapısal özelliklere sahip 5 adet izolatör için,
+kalınlık değeri eşit oranlarda değiştirilerek yutma
+katsayısındaki değişimler gözlenmiş ve en uygun
+malzeme ve malzeme kalınlığı tespit edilmiştir.
+Ayrıca empedans tüpü sonuçlarına göre en uygun
+izolatör ile güncel izolatör taşıt üzerinde dinamik
+olarak yapılan testlerle karşılaştırılarak empedans
+tüpünden elde edilen değerlerin sağlaması da
+yapılmıştır.
+İlk aşamada farklı yapısal özelliklere sahip izolatörler
+için 20 mm kalınlıkta yutma katsayısı hesaplamaları
+yapılmıştır. İkinci ve üçüncü aşamalarda ise tüm
+izolatörlerin kalınlıkları sırasıyla 25 mm ve 30 mm’ye
+çıkartılarak empedans tüpü testleri tekrarlanmıştır.
+Böylece malzeme kalınlığındaki değişimin yutma
+katsayısı üzerindeki etkileri tespit edilmiştir.
+Özellikle 25 mm kalınlık değerinde tüm malzemelerin
+yutma katsayılarında yükselme tespit edilmiştir. En
+iyi sonuçların alındığı 25 mm kalınlıkta en uygun
+malzeme numune 1’dir. 30 mm kalınlık değerinde
+yapılan yutma katsayısı test sonuçları incelendiğinde
+ise malzemelerin kalınlık değerleri arttırıldığı halde
+yutma
+katsayılarında
+kötüleşme
+olduğu
+gözlemlenmiştir. Bu durum kalınlığın arttırılmasının
+yutma katsayısı üzerinde doğru orantılı bir etki
+yaratmadığını, hatta kritik kalınlık değeri aşıldığında
+yutma katsayısı üzerinde negatif bir etki de
+yaratabildiğini göstermektedir. Ancak empedans tüpü
+ölçümlerinde malzemenin gerçekte olduğu gibi üç
+boyutlu yüklere maruz kalmadığı unutulmamalıdır.
+Taşıt üzerinde yapılan iç gürültü ölçümleri
+neticesinde; en uygun malzemeden üretilen izolatör
+(25 mm kalınlıktaki numune 1), ile taşıtta hali hazırda
+kullanılmakta olan izolatör arasında aynı araç
+üzerinde, aynı hava ve yol şartlarında, 2450 1/min’de
+3 dB(A), 3700 1/min’de ise 2 dB(A)’lık iyileşme
+sağlandığı belirlenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+5.
+6.
+
+7.
+
+8.
+9.
+10.
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+ÖZGÜVEN,
+N.,
+“Endüstriyel
+Gürültü
+Kontrolu”, TMMOB Makina Mühendisleri
+Odası Yayın No:118, 1986.
+Kinsler, E. L. ve Frey,A.R., Fundamentals of
+Acoustics, John Wiley & Sons Inc., New York,
+27-35, 1950.
+Beranek, L. L., Acoustics, American Institute of
+Physics Inc., New York, 9-12, 1986.
+Mankovsky, V. S., Acoustics of Studios and
+Auditoria, Focal Press, London, 8-15, 1980.
+Randall, R. B., Frequency Analysis, Brüel &
+Kjær, Copenhagen, 28-43, 1987.
+Garai, M., “Measurement of The Sound
+Absorption Coefficient in Situ: The Reflection
+Method
+Using
+Periodic
+Pseudo-Random
+Sequences of Maximum Length”, Applied
+Acoustics, Cilt 39, No 1-2, 119-139, 1993.
+ISO 10534-2, “Acoustics - Determination of
+Sound Absorption Coefficient and Impedance in
+Impedance tubes”, International Organization
+for Standardization, 9-14, 1998.
+Rasmussen, G., Intensity Measurements, Brüel &
+Kjær, Naerum, 11-19, 1988.
+Yunseon, R., The Acoustic Impedance
+Measurement System Using Two Microphones,
+Bruel&Kjaer, Denmark, 4-7, 2003.
+Skinner, C. ve Peters, J., “Acoustic Absorbers: A
+Third Way for The Management of Sound in
+Cars”, UTECH Europe, Amsterdam, 1-4, 2006.
+Can, H., Empirical and Numerical Analysis and
+Improvement of Acoustic Isolation Materials,
+PhD Thesis, Balıkesir University Institute of
+Sciences, 1999.
+Lee, S. H., Ih, J. G. ve Peat, K. S., “A Model of
+Acoustic Impedance of Perforated Plates with
+Bias Flow Considering The Interaction Effect”,
+Journal of Sound and Vibration, Cilt 303, No
+3-5, 741-752, 2007.
+Castagnede, B., Moussatov, A., Lafarge, D. ve
+Saeid, M., “Low Frequency in Situ Metrology of
+Absorption and Dispersion of Sound Absorbing
+Porous Materials Based on High Power
+Ultrasonic Non- Linearly Demodulated Waves”,
+Applied Acoustics, Cilt 69, No 7, 634-648,
+2008.
+Too, G. P. J., Chen, S.R. ve Hwang, S.,
+“Inversion for Acoustic Impedance of a Wall by
+Using Artificial Neural Network”, Applied
+Acoustics, Cilt 68, No 4, 377-389, 2006.
+Pico, R. ve Gautier, F., “The Vibroacoustics of
+Slightly Distorted Cylindrical Shells: Acoustic
+Impedance”, Journal of Sound and Vibration,
+Cilt 302, No 1-2, 18-38, 2006.
+
+693
+
+

@@ -1,0 +1,572 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 1, 145-150, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 1, 145-150, 2013
+
+HAVA KİRLİLİĞİ UNSURLARI VE ÇEVRESEL MİKRO
+ORGANİZMALAR ARASINDA İLİŞKİ: DURRES, ALBANIA
+ÖRNEĞİ
+Mirela Lika (Çekani), 2Hysen Mankolli
+
+1
+1
+
+Tirana Üniversitesi, Fen Bilimleri Fakültesi, Biyoloji Bölümü, Bulevardi “Zog I”, Tirana, Albania
+Tirana Tarım Üniversitesi, Tarım-Çevre ve Ekoloji Bölümü, Kamez, Tirana, Albania
+mirela2422@yahoo.com
+2
+
+(Geliş/Received: 08.10.2012; Kabul/Accepted: 20.12.2012)
+ÖZET
+Üst solunum yolu enfeksiyonlarının en önemli sebebi bakterilerdir. Bakterilerin etiyolojisi ve davranışı özellikle
+de hava kirliliği faktörleri ve bakteriler arasındaki ilişki, son derece önemlidir. Polikliniklerdeki
+değerlendirmede, üst solunum yolu enfeksiyonu (ÜSYE) en sık görülen akut hastalığı temsil etmektedir. Üst
+solunum yolu, sinüsler, burun, nefes borusu için ağ geçidi olarak hizmet eden yutak ve gırtlak, bronşlar ve
+pulmoner alveolar boşluklarından oluşmaktadır. Rinit, farenjit, sinüzit, epiglottit (boğaz iltihabı), larenjit ve
+tracheitis (soluk borusu iltihabı) ÜSYE’nin spesifik bulgularıdır. Bu çalışma da Durres’in en çok hava kirliliği
+olan bölgeleri ve üst solunum yolu enfeksiyonu vakaları incelenmiştir. Mikroorganizmalar, bakteriler ve
+mantarları da dahil ederek, çevrenin bir göstergesi olarak önemlidir. Örnekler Durres şehrinin en kirli 4
+bölgesinden, 2010-2011 dönemi değerlendirilmiştir. LGS seviyesi 214 μg m-3, PM için ise 108 μg m-3 olduğunu
+görülmüştür. Havadan gelen mikro organizmalarda onların izolasyonları sonucunda S. aureus (285 kob / dak), S.
+epidermidis (263 kob / dak), S. ß hemolitic (200,4 kob / dak), Bacillus sp. (198 kob / dk), Candida sp. (138 kob /
+dak.) olmuştur. Havadan gelen mikro organizmaların neden olduğu insan hastalıklardan alınan biyolojik
+örneklerden sık görülen bakteriler S. aureus (10%) ve S.ß hemolytic (14%)’dir. Bakterilerin en yüksek olduğu
+oran, sıcak ve nemli dönemlerdedir. Mayıs ve Haziran aylarında S. aureus en yüksek seviyede kadınlarda
+(%5,4), S. ß hemolitic ise erkeklerdedir (%7,8). Analizler, üst solunum sisteminde değişik hastalıkların önemli
+sebepleri olan hava kirliliği unsurları ve havadan gelen mikro organizmalar partikülleri arasındaki bağlantıyı
+göstermektedir.
+
+1.GİRİŞ (INTRODUCTION)
+Üst solunum yolu mikrobik flora çoğunlukla bakteri
+ve
+mantarlardan
+oluşmaktadır.
+Stafilokoklar,
+streptokoklar, diphteroids, actinomicetes, gram
+negatif koklar, coccobacilli, aspergilla, mantar ve
+zygomicetes’lerin tümü üst solunum yolunda mevcut
+olabilirler [1, 4, 16].
+Üst solunum yolu doğal florası komensal gibi gizli
+patojenleri de içerebilir. Ek olarak, üst solunum
+yollarının normal florası, organizmayı, kolonize
+patojen bakterilerden koruyan müşterekler içerir.
+Örneğin, boğazın belirli doğal streptokokları, özellikle
+de viridians grubuna dahil olanlar Grup A
+streptokokların büyümesini engeller ve bu nedenle
+organizmayı “strep boğaz” (faringotonsilit) olası bir
+saldırısından korumaktadır. Antibiyotikler ya da diğer
+engelleyici
+maddeler
+viridians
+streptokoklar
+tarafından üretilmiş olabilir ya da mevcut besinleri
+tüketebilirler [4, 5, 9, 10].
+Faringotonsilit, genellikle halsizlik, ateş ve postnasal
+salgıları ile birlikte yutak ağrısı ile eşlik edilerek, bir
+boğaz iltihabıdır. Boğaz eksüdatif piyojenik dokular
+kıpkırmızıdır. Streptococcus pyogenes gibi Grup A
+streptokoklar, bakteri faringotonsilit’in en sık görülen
+nedenidir. Bazen, Grup C ve G streptokokları da
+faringotonsilit’e neden olabilirler. Zararlı hava
+kirleticileri vücuda girdiğinde bazı kalıcı zararlı hava
+kirleticileri vücut dokularında birikir [2, 3, 6, 7].
+
+geliştirilmesi için çok geniş çalışmalar yapılmıştır.
+Hem insanın konforu hem de yapıdaki enerji
+kullanımı, taze havanın sağlanması ile yüksek oranda
+etkilenir [17]. Kapalı ortam hava kirliliği, gelişmekte
+olan ülkelerin çocukluk çağındaki ölüm riskinin en
+önemli nedenlerinin kronik obstrüktif akciğer
+hastalığı ve akut solunum yolu enfeksiyonlarının
+olduğuna dair tutarlı kanıtlar vardır [4,10,14,16].
+Kapalı hava kirliliğine maruz kalınması, gelişmekte
+olan ülkelerin yaklaşık 2 milyondan fazla ölümlere ve
+küresel hastalık yükünün yaklaşık %4’ünden sorumlu
+olabilir.
+Sağlığa olan etkiler üzerine, özellikle tüberküloz ve
+akut alt solunum yolu enfeksiyonları ile ilgili olarak,
+araştırmalar güçlendirilmektedir [5,11,12,15]. Son
+yıllarda dünya nüfusunun hızlı artışı endişesi ile
+nüfusunu stabilizesini sürdürmek için, kaynakların
+sınırlı olduğunu ve insan faaliyetleri yaşam destek
+sistemlerinin değiştirilmesini yapabilen bir ölçeği
+yakalamış olduğunun bilgisi artmıştır. Sonuç olarak,
+bazı araştırıcıların yukarıda sıralanan faktörler bir
+başka çevre sağlığı seviyesi olarak İnsanların
+sağlığının güvenliğini de ekleyebilir. Bu çalışmada
+bazı hava kirleticilerinin ortamdaki mevcut mikrobik
+flora ile etkileşiminin insan sağlığı açısından
+önemimin araştırılması amaçlanmıştır. Çalışmada
+Arnavutluk, Durres kentinin, hava kirliliği unsurları
+ve çevresel mikroorganizmalar arasındaki ilişki
+incelenmiştir.
+2. MATERYAL VE YÖNTEMLER (MATERIALS
+
+Açık hava kirleticilerin insanlar üzerindeki zararlı
+etkileri yerel etkiler dâhil, solunum yolu ve sistematik
+inflamasyon gibi geniş spektrumu vardır. Açık hava
+kirliliği akciğer fonksiyonlarında hem kısa hem de
+uzun vadeli düşüşe yol açacaktır. Solunum ve
+kardiyovasküler hastalıklara bağlı ölümlerin artışı ve
+hastaneye yatırılma nedenleri, havadan gelme sorunlar
+ve ozon gibi kirleticilere maruz kalınmasına bağlı
+olduğu bulunmuştur. Bu etkiler, günden güne hava
+kirliliği ve sağlık değişkenleri ile ilgili olan kısa
+vadeli araştırmalar ve zaman içerisinde bu etkilere
+maruz kalan insanların belirlenmiş olan uzun süreli
+araştırmalarda bulunmuştur [7,12,14,15]. Sağlık
+üzerinde muhtemelen etkisi olmayan belirli madde
+ozonla etkileşerek eşik yoğunluk etkisine ulaşır [2, 11,
+13,16]. İnsanların yaşam ve çalışma ortamları
+özellikle ofis odaları, yaşam kalitesinde önemli bir yer
+teşkil etmektedir. Bu sebeple, minimum enerji
+kullanımı ile konforlu bir çevre oluşturma, hem yapı
+tasarımcılarının hem de yapıyı kullananların amacıdır.
+Yapıyı kullananların üretkenliğini sağlamak amacıyla,
+ısıl konfor ve hava kalitesi hissine göre modellerin
+
+146
+
+AND METHODS)
+
+Araştırma alanında uygun yöntemler aracılığıyla,
+havada kirlilik seviyeleri araştırılmıştır: kimyasal ve
+mikrobiyolojik seviyesi ve aynı zamanda onların
+neden olduğu kirlilik gözlenmiştir. "Porto Palermo"
+Durres kentsel atık toplama ana noktasıdır. Kentsel
+çöplerden endüstriyel olmayanları ve hastane
+çöplerinin büyük bölümü toplanarak Porto
+Palermo’da yakılır. Çöp toplama yeri Durres
+güneybatısında Adriyatik Denizi'nin su toplama
+havzasında, bir vadinin içinde yer almaktadır. Bu yer
+kil katmanları üzerinde kurulu olsa da, vadi yatağı
+kum ve çakıldan oluşmaktadır ve alt kısmında veya
+yan kısımlarında herhangi bir koruma tabakası yoktur.
+Çöp akışı ve filtreleme için bir drenaj sistemi yoktur
+[3, 8,]. Diğer yandan, katı atık, koku, metan üretimi,
+inorganik ve organik (dioxin, furan, vb.) içeriği
+etkileşimi ile ağır metaller ve yakma ürünü partiküler
+toz aracılığıyla havayı kirletmektedir. Günümüzde
+çöp toplama yerleri halk sağlığı için ve bu yerden çöp
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Hava Kirliliği Unsurları Ve Çevresel Mikro Organizmalar Arasında İlişki...
+
+toplayan ve geri dönüşümünü yapan yetişkinler hem
+de çocuklar için büyük bir tehdit oluşturmaktadır.
+Bu çalışmada araçların kavşaklar çevresinin
+izlenimini yapıldı. Hava kalitesi sonuçlarının
+izlenmesi ve hazırlanması Milli Sağlık Enstitüsü
+tarafından
+gerçekleştirilmiştir.
+Hava
+izlenimi
+örneklerin alımı ve analizine dayalı yöntemlerin yanı
+sıra ortalama değerleri hesaplamasına dayalı bir
+çalışma üzerine tespit noktaları ve koşulları açısından
+gerçekleştirilmiştir [7, 9, 11]. Standartlara dayanarak,
+gerçek durum ve sonuçların karşılaştırılması
+tartışılmıştır. En önemli kirleticiler toplam toz LGS ve
+solunum yolu ile alınan, PM10 olmaya devam
+etmektedir. Durres ortalamanın neredeyse iki katını
+aşarak, limitlerin üstünde olmaya devam etmektedir.
+Ortalamayı 6 kattan fazla aşan, geçiş altındaki nokta,
+insan sağlığı için tehlikeli olarak kabul edilmektedir.
+Kanlı agar containg plak yöntemi bakteriyel
+izolasyonu için kullanılmıştır. Mantar KOH% 5 direkt
+mikroskolik incelemeler yoluyla belirlenmiştir,
+Sabouraud-Kloramfenikol-Actidion ortam ve kültür
+farklılaşması bilgisayarlı biyokimyasal yöntemlerle
+yapılmıştır [11].
+3.SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+Nüfusun büyük kentsel alanlarda ve özellikle Tiran ve
+Durres kentlerinde yoğunlaşması, artan hava kirliliği
+sorunlarını da ortaya çıkarmıştır. Verilere göre, en
+kritik durum PM10’u en yüksek olduğu Durres
+şehrinde olmaktadır. Araç kirliliğine bağlı olarak, çok
+büyük bir öneme sahip olan taşıtların çoğunun eski
+ve/veya dizel motorlu olmasından kaynaklanmaktadır.
+Bunun sonuçları olarak partiküler sorunlar büyük
+miktarlarda yayılmaktadır. Durum, uygunsuz altyapı
+koşulları, artan inşaat faaliyetleri, uygun olmayan katı
+atık yönetimi ve düzensiz yeşil alanlar ile
+ağırlaşmıştır. Tablo 1 'de toplam ve solunan toz
+seviyesi gösterilmektedir.
+Tablo 1. Hava kirliliği unsurların yıllık ortalama
+sonuçları. (Annual average results of the air pollution
+parameters)
+
+LGS PM10
+μg m-3 μg m-3
+
+SO2
+NO2
+O3
+Pb μg
+μg m-3 μg m-3 Μg m-3 m-3
+
+Durres
+
+214
+
+108
+
+17
+
+29
+
+115
+
+0.55
+
+Yerel
+standart
+
+140
+
+60
+
+60
+
+60
+
+120
+
+1
+
+AB
+standardı
+
+80
+
+50
+
+50
+
+40
+
+120
+
+0.5
+
+Toz örnekleri farklı kentleşme ve trafik düzeyleri olan
+Durres’ın çeşitli caddelerinden toplanmıştır. Durres’te
+yüksek toz içeriği doğal ve yerel kaynaklardan
+gelmektedir, ancak antropojenik kaynaklar da önemli
+bir rol oynamaktadır: Araçlardan kaynaklanan
+kirliliğinin yanı sıra bir diğer kaynak sanayileşmiş
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+M. Lika (Çekani), H. Mankolli
+
+Batı Avrupa ülkelerinden uzak mesafelerden
+kaynaklanan kirliliktir. Taşıt kaynaklı kirliliği
+açısından, büyük bir öneme sahip olan araçların en
+büyük kısmı, eski ve/veya dizel motorlu olmasıdır.
+Bunun sonucu olarak büyük miktarda partiküler
+problem oluşur. Durum, uygunsuz altyapı koşulları,
+artan inşaat faaliyetleri, uygunsuz katı atık yönetimi
+ve bozulmuş yeşil alanlar ile de ağırlaşmıştır.
+
+Şekil 1: Toplam toz ve solunan tozun seviyesi. LGS–
+Toplam Toz; PM10 Solunan Toz. (The level of the total
+
+dust and respiratory dust. LGS- Total Dust; PM10- Respiratory
+Dust.)
+
+Çalışmamızda biyolojik olarak boğaz iltihabı, irin,
+burun akıntısı vb. gibi 814 örnek analiz edildi. 814
+kişiden, 198 kişisinde bakterilerin neden olduğu
+enfeksiyonlar tespit edilmiştir (Tablo 2).
+Tablo 2. Bakteri yükü olan olguların sıklığı (Frequency
+of cases with bacterial load)
+
+Sıklık
+
+Oran
+
+Kümülatif
+Oran
+
+84
+
+10
+
+10
+
+S. aureus
+S. ß
+hemolitic
+
+114
+
+14
+
+24
+
+Negatif
+
+616
+
+76
+
+100
+
+Toplam
+
+814
+
+100
+
+Şekil 1’den itibaren her bakteri için bu oran ayırt
+edilebilir. Bu durumun en yüksek oran % 14 ile S. ß
+hemolitic, durumun % 10’u ile S. aureus olduğu
+görülmüştür. Tüm tonsilo-pharingeale’nin % 20’si ß
+hemolitik streptokoktan kaynaklanmıştır. ß hemolitik
+streptokok’un neden olduğu enfeksiyonların oranı son
+on yılda artış göstermiştir. Verilerimizi Milli Sağlık
+Enstitüsü’nün verileri ile karşılaştırarak, bu mikroorganizmaların oranı veya frekansının yaklaşık olarak
+aynı olduğu söylenebilir. Üst solunum yolları farklı
+hastalıklarının sebepleri olarak Mikroorganizmaların
+etiyolojisini daha iyi incelemek için, yılın bir ayı
+içinde
+onların
+frekanslarını
+incelendi.
+Mikroorganizmaların etiyoloji farklı koşullara
+bağlıdır ve bunlar da Tablo 3’de sunulmuştur.
+Bakterilerin en yüksek oranı, Kullaj A, Torba Dh
+araştırmasına tekabül eden sıcak ve nemli Mayıs ve
+Haziran dönemidir. Mayıs boyunca, S. aureus bakteri
+en yüksek seviyededir (% 2,6), S. ß hemolitic ise (%
+2) seviyesindedir. Haziran ayında, S. ß hemolitic (%
+
+147
+
+M. Lika (Çekani), H. Mankolli
+
+Hava Kirliliği Unsurları Ve Çevresel Mikro Organizmalar Arasında İlişki...
+
+2,5) daha sonra S. aureus (% 2) seviyesindedirler. S.
+aureus daha çok 16-20 yaş (14 vaka) grubunda
+rastlanmakta, S. ß hemolytic ise 6-10 yaş (26 vaka)
+grubunda daha fazla rastlandığı gözlenlmiştir. S.
+aureus en yüksek oranda kadınlarda (% 5.4) ve S. ß
+hemolitic erkeklerde (% 7.8) olduğunu tespit
+edilmiştir.
+Çalışmamızın üçüncü bölümünde mikrobiyolojik dış
+hava kalitesi çalışması yer almaktadır. Mikrobiyal
+nüfusun toplaması, hava kirliliği elemanları
+topladığımız ve araştırma yaptığımız ve bu bölge veya
+yerlerde yaşayan insanlardan örnekler topladığımız
+aynı dört yerden yapılmıştır.
+Tablo 3. Aylara göre vakaların frekansları (Frequency of
+cases as months)
+S.
+aureus
+Sıklığı
+
+Ocak
+Şubat
+Mart
+Nisan
+Mayıs
+Haziran
+Temmuz
+Ağustos
+Eylül
+Ekim
+Kasım
+Aralık
+
+2
+11
+5
+5
+21
+11
+2
+7
+6
+5
+7
+3
+
+S.
+aureus
+% Oranı
+
+S.
+ß
+hemolytic
+Sıklığı
+
+S.
+ß
+hemolytic ℅
+Oranı
+
+0.2
+1.4
+0.6
+0.6
+2.6
+1.4
+0.2
+0.9
+0.7
+0.6
+0.9
+0.4
+
+8
+15
+4
+7
+16
+20
+3
+4
+14
+7
+13
+3
+
+1
+1.8
+0.5
+0.9
+2
+2.5
+0.4
+0.5
+1.7
+0.9
+1.6
+0.4
+
+Şekil 2: Cins olarak bakteri sıklığı (Frequency of bacteria
+as genus)
+
+148
+
+Şekil 3: Havadaki populasyon konsantrasyonu (kob /
+dak) (Concentration of Airborne population (cfu /min))
+4.SONUÇLAR (CONCLUSIONS)
+Bakteri
+kolonileri,
+kültürel,
+morfolojik
+ve
+mikroskobik inceleme ile karakterize edilmiştir.
+Bunu, biyokimyasal inceleme metodu takip etmiştir.
+Fungal koloniler Saburo ortam içinde tespit edilmiş ve
+aynı zamanda da spor (tek hücreli) ve hifler için
+mikroskop altında incelenmiştir. S. aureus, S.
+epidermidis, S. ßhemolitic, Bacillus sp., 4 bölgeden
+izole edilmiş en sık görülen hava bakterileridir.
+Havadan ortamında fungal izolasyonda en sık
+rastlanan tür C. albicans tespit edildi.
+Aynı bölgedeki mikroorganizmaların, dışarıdaki ve
+insan örnekleri ve hava kirliliğinin kimyasal
+elementlerin araştırılması, havadaki mikropların,
+hastalık yapan ve kirlilik unsurlarını anlamak
+bakımından önemlidir. Staphylococcus aureus boğaz
+ve
+akciğer
+enfeksiyonları
+nedeni
+olarak,
+Staphylococcus dermitis deri, doku ve organlar
+enfeksiyonlarının nedenidir. Patojenik fungi, iltihaplı
+enfeksiyona ve piyojenik enfeksiyon nekrotizan’a
+neden olmaktadır.
+KAYNAKLAR (REFERENCES)
+1. Alberti, C, Bouakline, A, Ribaud, P, Lacroix, C,
+Rousselot, P, Leblanc, T., and Derovin, TO.,
+“Relationship between environmental fungal
+contamination and the incidence of invasive
+Aspergilliosis in haematology patient”. J. Hospital
+Infections. Vol. 48, 198-206, 2001.
+2. Barker, A.V., “Bioremediation of Heavy Metals
+and Organic Toxicants by Composting”, The
+Scientific World J, www.ummass.edu/umext/
+soilsandplant/, 2002.
+3. Boyles, S., “Livestock and water”, Ohio State
+University Extension Beef specialist, The
+Scientific World J, www.ummass.edu/umext
+/soilsandplant/, 2002.
+4. Dako, A., Lika, M., and Mankolli, H., “Monitoring
+Aspects of Air Quality in Urban Areas of Tirana
+and Durres”, Albania. Natura Montenegro, Vol. 7
+(2): 549, 2008.
+5. Lika, (Çekani) M., Torba, Dh, Kastrati, E., and
+Meçe, O.,” Etiologjia dhe diagnostikimi laboratorik
+i stafilokokut, si shkaktar i infeksioneve
+stafilokoksike në pjesë të ndryshme të organizmit”.
+Buletini i Shkencave Natyrore. Vol. 9, 54-61,
+2010.
+6. Lushaj, Sh. “Monitoring of agriculture land
+pollution and erosion”, Journal, BSHB Vol. 2(2):
+25, 2001.
+7. Iordanova, L., “Stefka Blaskova: Impact of
+atmospherıc precıpıtaıons on the surface water
+chemıstry ın mountaın area”, Inte. J. Ecosystems
+and Ecology Science, Vol 2, 43-48, 2011.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Hava Kirliliği Unsurları Ve Çevresel Mikro Organizmalar Arasında İlişki...
+
+8. Mills, W.B. “Water Quality Assessment: A
+Screening Procedure for Toxic and Conventional
+Pollutants”, EPA-600/6-82-004a & b, USA Vols. I
+& II, , 1985.
+9. Ministry of Health (MH) National Environmental
+Health Action Plan for Albania; Ministry of
+Health, Tirana. 1998.
+10. NEAEPA, “National Environment Agency
+Environmental Protection Agency”, Washington
+DC, Report on the state of environment 1997–
+1998, Eldor, 25–96. 1999.
+11. Papajorgji, M, and Kero, A. “Diagnostikimi i
+baktereve aerogene”. Manual bazë mbi metodat
+diagnostikuese mikrobiologjike:132-150, 2001.
+12. Pearce, N., Sunyer, J., and Cheng, G.,
+“Comparison of Asthma Prevalence in the ISAAC
+and the ECRHS. ISAAC Steering Committee and
+the European Community Respiratory Health
+Survey”. European Resp. J.; 16: 420-6, 2000.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+M. Lika (Çekani), H. Mankolli
+
+13. Sunyer, J., Basgana, X., Burney, P., and Anto, J.
+“On behalf of the ECRHS. Int. Asses. Int.
+Consistency of Resp. Symptoms. AM J Care
+Med; 162:930-5, 2000.
+14. Schroeder W.H. “Toxic Trace Elements
+Associated with Airborne Particulate Matter”, J.
+Air Polut. Cont., Vol. 37, 1267-1285. 1987.
+15. Totoni R., “Cullaj A. Assessment of Atmospheric
+pollution from Particulate Matter and heavy
+Metals in Urban Environment of Tirana
+(Albania)”, Asian J. Chem. Vol.13(1) 78-88,
+2001.
+16. Williams, RE, Lidwell, OM, and Hirch A. “The
+bacterial flora of the air of occupied rooms. J.
+Hygiene. Vol. 54: 512-5, 1956.
+17. Kuas G., and Başkaya Ş., “Numerical Analysis of
+Air Motion Inside a Ventilated Office Room, J.
+The Faculty of Engin. & Arch. of Gazi Un., Vol
+17(2), 35-52. 2002.
+
+149
+
+

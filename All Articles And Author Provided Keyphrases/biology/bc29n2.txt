@@ -1,0 +1,1435 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 2, 321-329, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 2, 321-329, 2014
+
+R. delemar ’IN ASİT FOSFATAZ ÜRETİMİ ve Zn(II)
+BİYOBİRİKİMİNİN CEVAP YÜZEY YÖNTEMİ KULLANARAK
+OPTİMİZE EDİLMESİ
+Mehtap Erşan, Ünsal Açıkel
+Cumhuriyet Üniversitesi, Kimya Mühendisliği Bölümü, Sivas, Turkey
+mersan@cumhuriyet.edu.tr, uacikel@cumhuriyet.edu.tr
+(Geliş/Received: 08.05.2013; Kabul/Accepted: 05.12.2013)
+ÖZET
+R. delemar’ ın asit fosfataz aktivitesi, Zn(II) biyobirikimi ve üremesi, pH, sıcaklık ve başlangıç metal iyonu
+konsantrasyonunun fonksiyonu olarak araştırıldı. Deney tasarımı Cevap Yüzey Yöntemi (CYY) ve BoxBehnken tasarımına göre yapıldı. Önerilen matematiksel modeller varyans analizi (ANNOVA) istatistiksel
+yöntemi ile değerlendirilmiştir. Asit fosfataz aktivitesi için doğrusal, mikroorganizma derişimi ve Zn(II)
+biyobirikimi için kuadratik eşitliğe tam bir uyum gözlenmiştir. R. delemar’ ın üremesi asit fosfataz üretimi ve
+Zn(II) biyobirikimi için optimum pH 5,03, sıcaklık 31,82 oC ve başlangıç Zn(II) iyonu konsantrasyonu 30,15
+mg/L olarak bulunmuştur. Bu koşullarda elde edilen maksimum asit fosfataz aktivitesi 794,098 µmol/L-dak,
+mikroorganizma konsantrasyonu 3,203 g/L ve biyobiriktirilen Zn(II) miktarı 17,62 mg/L olarak bulunmuştur.
+Deney doğrulama deneyi yapılarak sonuçların duyarlılığı ve geçerliliği gösterilmiştir.
+
+
+GİRİŞ
+
+(INTRODUCTION)
+
+Fosfatazlar fosfomonoesterazlardır ve çeşitli fosfat
+esterlerinin, C-O-P bağlarının hidrolizini katalizlerler.
+Ayrıca tıpta çeşitli hastalıkların tanı ve tedavisinde
+kullanılmaktadır. pH değerlerine göre asit yada alkali
+fosfataz olarak sınıflandırılırlar. Bu enzimler doğal
+ortamda oluşur, hayvan dokuları, bitkiler ve
+mikroorganizmalarda bulunur. Çeşitli mikroorganiz-
+
+malar tarafından üretilen bu enzim son yıllarda
+yapılan
+bazı
+araştırmalara
+konu
+olmuştur.
+Lactobacillus plantarum DPC2739 isimli bakterinin
+ürettiği dış hücresel asit fosfataz incelenmiş, optimum
+üretim şartları 40 C sıcaklık ve pH 3,5-5 aralığında
+bulunmuştur [1]. Asit fosfataz ürettiği bilinen diğer
+mikroorganizmalar; Saccharomyces cerevisiae [2],
+Neurospora crassa [3], Euglena gracilis [4] ve
+
+M. Erşan, Ü.Açıkel
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+Rhizopus delemar ’dır (R. delemar). Bu çalışmada asit
+fosfataz kaynağı olarak, etkili ağır metal biyosorbenti
+olarak bilinen R. delemar kullanılmıştır [5]. Ağır
+metal
+iyonlarının
+mikroorganizmalar
+üzerine
+biyosorpsiyonu
+incelendiginde,
+kullanılan
+mikroorganizmanın hücre yapısına baglı olarak
+degisik mekanizmaların etkili oldugu görülmektedir
+[6]. Ağır metal giderim prosesleri iki basamakatan
+oluşmaktadır.
+i-) Metobolizmaya bağlı giderim (biyobirikim):
+Metabolik hareketlerle birlikte hücre içinde metal
+iyonlarının biyobirikimidir. Enerji gerektiren bir
+prosestir.
+ii-) Metabolizmadan bağımsız giderim (pasif metal
+giderimi, biyosorpsiyon):
+Ölü mikroorganizmalarla yapılan adsorpsiyon işlemi
+genellikle biyosorpsiyon olarak tanımlanmaktadır [7].
+Biyosorpsiyonda
+kimyasal
+adsorpsiyon,
+iyon
+değişimi,
+elektrostatik
+çekim
+kuvvetleri,
+kompleksleşme gibi birçok mekanizmanın tek başına
+veye birlikte rol oynadığı düşünülmektedir. Bu
+çalışmada canlı R. delemar hücreleri ile metal
+biyobirikimi, hücreye bağlı metal fosfat olarak ağır
+metallerle çöken, inorganik fosfatı serbest bırakan
+hücreye bağlı fosfataz enzimi aracılığı ile
+gerçekleştirilmektedir. Asit fosfataz uygun organik
+veya inorganik fosfat kaynağından HPO4-2 ’yi serbest
+bırakır. Bu fonksiyonu üreme periyodunu tamamlamış
+ve/veya tutuklanmış mikroorganizma hücreleri de
+gösterebilir. Hidrojen fosfat, M+2 ile stokiyometrik
+olarak çökerek hücre yüzeyine MHPO4 oluşturmak
+üzere sıkıca bağlanır. Bu mekanizma ile metal içeren
+çözeltilerde Cd, U, Sr ve Pb iyonlarının Citrobacter
+sp
+grubu
+bakteriyel
+hücreler
+kullanılarak
+biyobirikiminin gerçekleştiği rapor edilmiştir [8].
+Bu çalışmada R .delemar’ ın ürettiği asit fosfataz
+aracılığı ile Zn(II) biyobirikiminin gerçekleştiği
+optimum koşulların bulunması amaçlanmaktadır.
+Klasik yöntemlerle optimum deney koşullarının
+bulunması için çok sayıda deney yapmak gereklidir.
+Elde edilen sonuçlarla ise optimum deney koşulları
+üzerinde deney değişkenlerinin birbirleri üzerine olan
+etkilerini görmek mümkün değildir. Bu tür
+kısıtlamaları ortadan kaldırmak amacı ile Cevap
+Yüzey Yöntemi (CYY) ve Box-Behnken deney
+tasarımı kullanılarak, pH, sıcaklık ve başlangıç metal
+iyonu konsantrasyonu bağlı olarak, asid fosfataz
+aktivitesi, R. delemar üremesi ve Zn(II) biyobirikimi
+optimize edilmiştir. Elde edilen matematiksel
+modeller, ANNOVA (Analysis of variance)
+istatistiksel yöntemi ile değerlendirilmiş, modellerin
+doğruluğu ve geçerliliği tartışılmıştır [9].
+
+322
+
+2. MATERYAL ve METOD
+
+(MATERIAL
+
+and
+
+METHOD)
+
+2.1. R. delemar’ ın Asit Fosfataz Enzimi Aktivitesi
+ve Besin Ortamlarının Hazırlanması (Acid
+Phosphatase Activity of R. delemar and Growth Medium
+Preparation)
+
+Asit fosfataz üretiminde kullanılan aşı ortamı ve asit
+fosfataz üretiminde kullanılan fermantasyon ortamı
+hazırlanmış ve 100 ml çalışma hacmine sahip
+reaktörlerde
+fermentasyon
+gerçekleştirilmiştir.
+Aşılama için besin ortamı içeren erlenler, 150
+devir/dak hızında, 30 oC sıcaklıkta ve 24 saat orbital
+çalkalayıcıda karıştırılmıştır. Ortam pH’ ı,
+mikroorganizmanın asit fosfataz enzimi üretmesi için
+en uygun pH değeri olan 4,8’e ayarlanmıştır [10].
+2.2.
+
+Analitik
+
+Ölçüm
+
+Yöntemleri
+
+(Analytical
+
+Measurement Methods)
+
+Belirli
+zaman
+aralıklarında
+fermantasyon
+ortamlarından steril olarak alınan örnekler filtrasyon
+ve/veya santrifüjleme işleminden geçirilmiş, sıvı
+kısım metal iyonları ve enzim aktivitesinin tayininde,
+dipte çökelen kısım veya filtrasyon kağıdının üzerinde
+kalan kısım ise mikroorganizma konsantrasyonunun
+bulunmasında kullanılmıştır. Alınan örnekteki yaş
+mikroorganizma konsantrasyonu g/L cinsinden
+spektrofotometrik olarak 360 nm’de absorbans
+okunarak tayin edilmiştir. Daha sonra yaş ağırlık-kuru
+ağırlık mikroorganizma çalışma doğrusundan
+yararlanarak kuru mikroorganizma konsantrasyonuna
+geçilmiştir.
+2.3. Asit Fosfataz Aktivitesi Tayini
+
+(Acid Phosphatase
+
+Activity Determination)
+
+Fosfataz aktivitesinin ölçümü için substrat olarak pnitrophenyl phosphate (pNPP, Sigma 117K8210)
+kullanılarak önceden tanımlandığı gibi tayin edilmiştir
+[10] (Acıkel ve Ersan, 2010). Fosfataz aktivitesi, 410
+nm dalga boyunda spektrofotometrik olarak
+ölçülmüştür. Bir birim fosfataz aktivitesi pH 4,8 ve 37
+◦C’ de 1µmol p-nitrophenol / dak serbest bırakan
+enzim çözeltisinin miktarı olarak tanımlanır [5].
+2.4. Metal İyonları İçeren Biyobirikim Ortamının
+Hazırlanması (Preperation of Bioaccumulation Medium
+Containinig Metal Ions)
+
+Zn(II) çözeltileri, ZnSO4.5H2O kristallerinin damıtık
+suda çözülmesi ile elde edilen 1,0 g/L metal iyonu
+içeren stok çözeltilerden seyreltilerek hazırlanmıştır.
+Fermentasyon ortamlarının pH değeri 1 mol/L
+konsantrasyonunda hazırlanan HNO3 stok çözeltisi
+kullanılarak ayarlanmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+2.5.
+
+Biyobirikim
+
+Deneyleri
+
+(Bioaccumulation
+
+M. Erşan, Ü.Açıkel
+
+Xi  X0
+X i
+
+Experiments)
+
+xi 
+
+Biyobirikim deneyleri orbital çalkalayıcıda 30 oC
+sıcaklıkta 150 devir/dak karıştırma hızında 48 saat
+süreyle yapılmıştır. Optimizasyon deneylerinde, R.
+delemar’ ın maksimum asid fosfataz aktivitesi
+gösterdiği saptanan, üstel üreme evresinin sonundaki
+hücreler kullanılmıştır. Fermentasyon ortamından
+alınan 5ml hacmindeki örnek 6030 x g’ de 5 dakika
+santrifüjlenmiş ve ortamdaki serbest Zn(II), 213,9
+nm’ de atomik absorbsiyon spektrofotometresinde
+ölçülmüştür.
+
+Y   0    i x i    ii x i2    ij x i x j
+
+Burada xi bağımsız bir değişkenin kodlanmış
+değeridir, Xi bağımsız bir değişkenin gerçek
+değeridir, X0 merkez noktada bağımsız bir değişkenin
+gerçek değeridir, ΔXi basamak değişim değeridir.
+Box-Benkhen tasarımı kullanılarak araştırılan pH,
+sıcaklık ve başlangıç Zn(II) iyonu bağımsız
+değişkenlerinin aralığı ve düzeyleri Tablo 1.’ de
+gösterilmektedir. Söz konusu bağımsız değişkenlerin
+aralıkları, bir deney setinde bir parametrenin
+değerinin
+değiştirildiği
+diğer
+parametrelerin
+değerlerinin sabit tutulduğu deney sistemlerinde
+belirlenmiştir. Asit fosfataz aktivitesi, biyobiriktirilen
+Zn(II) iyonu konsantrasyonu ve mikroorganizma
+konsantrasyonu bağımlı değişken veya tasarım
+deneylerinin cevabı olarak alınmaktadır. Sistemin
+davranışı aşağıdaki kuadratik eşitlik tarafından ifade
+edilir:
+2.6. Deney Sisteminin Matematiksel Modellenmesi
+(Metematical Modelling of Experimental System)
+
+Yüzey Cevap Yöntemi (Response Surface Methodology)
+Asit fosfataz aktivitesi, Zn(II) biyobirikimi ve
+mikroorganizma derişiminin optimizasyonu için
+merkezi bileşke tasarımı (Acid phosphatase activity, Zn (II)
+bioaccumulation and central composite design for optimization of
+microorganism concentration)
+
+R. delemar’ ın asit fosfataz enzimi üretimi ve Zn(II)
+biyobirikimi için, optimum fermentasyon koşullarının
+saptanması amacıyla, pH, sıcaklık ve başlangıç Zn(II)
+iyonu konsantrasyonunun etkilerini araştırmak üzere,
+Box-Benkhen deneysel tasarımı uygulanmıştır.
+İstatiksel hesaplamalar için, X1 ve X2 ile gösterilen iki
+bağımsız değişken, (1) numaralı eşitliğe göre
+kodlanmıştır:
+
+(1)
+(2)
+
+Burada Y önerilen cevap, β0 ofset terimi, βi doğrusal
+etki, βii kare etkisi ve βij’ de parametreler arasındaki
+karşılıklı etkileşimi gösteren katsayıdır. Her deneysel
+nokta iki kez tekrar edildi. Tekrar edilen değerlerin
+aritmetik ortalaması, Box-Benkhen tasarımında
+kullanıldı. Design Expert 7,0 bilgisayar programı,
+deneysel verilerin regresyon analizi ile Eşitlik 2’ nin
+katsayılarının hesaplanması için kullanılmıştır.
+3. DENEYSEL SONUÇLAR ve TARTIŞMA
+(RESULTS and DISCUSSION)
+
+Klasik biyobirikim deneyleri sonucunda belirlenen en
+uygun pH ve sıcaklık aralıkları dikkate alınarak,
+deney sisteminin yüzey cevap yöntemiyle, deneysel
+çalışma aralıkları, en düşük pH değeri olarak 4,0 en
+yüksek pH değeri olarak 5,5, en düşük sıcaklık değeri
+olarak 25 0C, en yüksek sıcaklık değeri olarak 36 0C
+seçilmiştir. Tasarım çalışmaları için düşük
+derişimlerde aktivator etkisi göstermesi nedeniyle ağır
+metal olarak Zn(II) seçilmiştir. Sisteme eklenen Zn(II)
+konsantrasyonu 10-50 mg/L derişim aralığında
+değiştirilmiştir. pH, sıcaklık ve başlangıç Zn(II)
+konsantrasyonu bağımsız değişkenlerine karşı, cevap
+değişkenleri, asit fosfataz aktivitesi, mikroorganizma
+derişimi ve metal biyobirikimi için elde edilen
+deneysel ve yöntem tarafından öngörülen değerler
+Tablo 2’ de karşılaştırılmaktadır.
+3.1. R. delemar ile Maksimum Asit Fosfataz
+Aktivitesi Elde Etmek İçin Deney Koşullarının
+Belirlenmesi (Determination of Experimental Conditions for
+Maximum Acid Phosphatase Activity of R. delemar)
+Eşitlik 3 tarafından ifade edilen model pH, sıcaklık ve
+başlangıç Zn(II) derişiminin fonksiyonu olarak asit
+fosfataz aktivitesini göstermektedir. Elde edilen
+model doğrusal bir eşitliktir ve denklemi aşağıdaki
+gibidir.
+Enzim aktivitesi = 757,73 + 81,08x1 + 30,83x2 –
+159,14x3
+(3)
+
+Tablo 1. Bağımsız değişken aralıkları ve cevap değişkenleri (Level and code of independent variables)
+Bağımsız değişken
+Semboller
+Kodlanmış düzeyler
+Kodlanmamış
+Kodlanmış
+-1
+0
+1
+pH
+X1
+x1
+4,00
+4,75
+5,50
+T (0C)
+X2
+x2
+25,0
+30,5
+36,0
+CZn,i (mg/L)
+X3
+x3
+10
+30
+50
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+323
+
+M. Erşan, Ü.Açıkel
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+probabilite değerinden anlaşıldığı üzere, model
+anlamlıdır. Modelin uyum derecesi belirtme katsayısı
+R2 ve çoklu korelasyon katsayısı, R’ nin değerine
+bakılarak kararlaştırılır. R’ nin değeri 1’ e ne kadar
+yakınsa, deneysel ve model değerler arasındaki
+korelasyon o ölçüde iyidir. Asit fosfataz aktivitesi için
+öngörülen modelin 0,9275’ lik R2 değeri deneysel
+verilerle model tarafından öngörülen değerlerin
+uyumuna işaret eder.
+
+Eşitlik 3’ ün istatiksel anlamı F testiyle kontrol edildi.
+Doğrusal modelin cevap yüzeyi için varyans analizi
+(ANNOVA) Tablo 3.'de verilmiştir. Elde edilen
+sonuçların anlamlı olabilmesi için modelde ‘‘Prob>F’’
+diye ifade edilen olasılık değerinin 0,05’ ten küçük
+olması gerekir. Olasılık değerinin 0,1000’ den büyük
+olduğu durumlarda tasarım cevap değişkenleri için
+anlamsız olur. Model F-değerinden ve çok düşük
+
+Tablo 2. Asit fosfataz aktivitesi, mikroorganizma konsantrasyonu ve Zn(II) biyobirikiminin deneysel ve
+model değerleri içeren Box–Behnken tasarım matriksi (Box–Behnken design matrix along with the experimental and
+predicted values of acid phosphatase activity, biomass concentration and Zn(II) bioaccumulation)
+
+Gerçek
+Değerler
+
+Asit Fosfataz Aktivitesi
+(µmol/L-dak)
+
+Mikroorg. Derişimi
+(g/L)
+
+Metal
+Biyobirikimi (mg/L)
+
+SET
+pH
+
+T
+
+CZn,i
+
+Model
+değerler
+
+Deneysel
+değerler
+
+% Hata
+
+Model
+değerler
+
+Deneysel
+değerler
+
+% Hata
+
+Model
+değerler
+
+Deneysel
+değerler
+
+% Hata
+
+1
+
+0
+
+1
+
+1
+
+633,07 
+
+666,11 
+
+‐5,21 
+
+2,59 
+
+2,58 
+
+0,63 
+
+34,39 
+
+34,00 
+
+1,17 
+
+2
+
+0
+
+0
+
+0
+
+757,87 
+
+746,32 
+
+1,52 
+
+3,09 
+
+3,10 
+
+‐0,20 
+
+16,50 
+
+16,66 
+
+‐0,91 
+
+3
+
+0
+
+0
+
+0
+
+757,87 
+
+746,32 
+
+1,52 
+
+3,09 
+
+3,10 
+
+‐0,20 
+
+16,50 
+
+16,66 
+
+‐0,91 
+
+4
+
+0
+
+-1
+
+1
+
+572,68 
+
+596,13 
+
+‐4,09 
+
+2,42 
+
+2,42 
+
+0,33 
+
+21,56 
+
+21,40 
+
+0,79 
+
+5
+
+-1
+
+1
+
+0
+
+711,66 
+
+721,42 
+
+‐1,37 
+
+3,57 
+
+3,57 
+
+0,04 
+
+20,79 
+
+20,2 
+
+2,95 
+
+6
+
+0
+
+0
+
+0
+
+757,87 
+
+785,32 
+
+‐3,62 
+
+3,09 
+
+3,10 
+
+‐0,20 
+
+16,50 
+
+16,9 
+
+‐2,32 
+
+7
+
+1
+
+-1
+
+0
+
+804,09 
+
+792,31 
+
+1,46 
+
+3,02 
+
+3,00 
+
+0,81 
+
+12,05 
+
+12,3 
+
+‐1,99 
+
+8
+
+-1
+
+0
+
+1
+
+526,46 
+
+512,21 
+
+2,70 
+
+2,63 
+
+2,61 
+
+0,82 
+
+28,35 
+
+28,11 
+
+0,85 
+
+9
+
+0
+
+-1
+
+-1
+
+882,68 
+
+845,00 
+
+4,19 
+
+2,73 
+
+2,73 
+
+0,21 
+
+3,76 
+
+3,96 
+
+‐4,80 
+
+10
+
+0
+
+0
+
+0
+
+757,87 
+
+752,21 
+
+0,74 
+
+3,09 
+
+3,0 
+
+3,02 
+
+16,50 
+
+16,75 
+
+‐1,45 
+
+11
+
+0
+
+1
+
+-1
+
+943,07 
+
+912,21 
+
+3,27 
+
+3,85 
+
+3,84 
+
+0,38 
+
+6,69 
+
+6,86 
+
+‐2,36 
+
+12
+
+1
+
+1
+
+0
+
+864,48 
+
+841,32 
+
+2,67 
+
+3,80 
+
+3,81 
+
+‐0,06 
+
+20,37 
+
+20,42 
+
+‐0,21 
+
+13
+
+-1
+
+0
+
+-1
+
+836,46 
+
+836,32 
+
+0,017 
+
+2,99 
+
+3,00 
+
+‐0,17 
+
+5,60 
+
+5,93 
+
+‐5,53 
+
+14
+
+1
+
+0
+
+0
+
+757,87 
+
+721,21 
+
+4,83 
+
+3,09 
+
+3,10 
+
+‐0,29 
+
+16,50 
+
+16,5 
+
+0,04 
+
+15
+
+-1
+
+-1
+
+0
+
+651,27 
+
+661,00 
+
+‐1,5 
+
+3,06 
+
+3,04 
+
+0,89 
+
+13,36 
+
+13,21 
+
+1,14 
+
+16
+
+1
+
+0
+
+1
+
+679,28 
+
+645,96 
+
+4,90 
+
+2,30 
+
+2,28 
+
+1,22 
+
+27,48 
+
+27,96 
+
+‐1,68 
+
+17
+
+1
+
+0
+
+-1
+
+989,28 
+
+1100 
+
+‐11,19 
+
+3,51 
+
+3,51 
+
+0,04 
+
+4,73 
+
+7,50
+
+‐1,08 
+
+Tablo 3. Cevap yüzeyi doğrusal eşitlik için, ortam bileşenlerinin fonksiyonu olarak asit fosfataz aktivitesinin
+varyans analizi (ANNOVA) (Analysis of variance (ANOVA) for the fitted quadratic polynomial model of acid phosphatase
+activity as a function of concentration levels of medium components)
+
+Kaynak
+
+Kareler
+toplamı
+(Sum of
+squares)
+2,628 .105
+20531,86
+
+Model
+Arta kalan
+(Residual)
+Uyum eksikliği
+18423,91
+(Lack of fit)
+Hata (Pure eror)
+2107,95
+Düzeltilmiş
+2,833.105
+toplam
+R2Adj= 0,9108
+R2 = 0,9275
+
+324
+
+DF
+
+Ortalamanın
+Karesi (Mean
+square)
+
+F- Değeri
+
+Probobilite
+(P)>F
+
+3
+13
+
+87599,58
+1579,37
+
+55,46
+
+0,0001
+
+9
+
+2047,10
+
+3,88
+
+0,1021
+
+4
+16
+
+526,99
+
+R2Pred= 0,8564
+
+uyumlu
+
+R=0,9632
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+Yüzde olarak ifade edildiğinde, R2 enzim aktivitesi
+için % 92,75 toplam değişimin bağımsız değişkenlere
+atfedilebileceğini, toplam değişimin yanlız % 7,25’
+sinin modelle ifade edilemediğini göstermektedir.
+R2Pred (0,8564), R2Adj (0,9108) ile iyi bir uyum
+içerisindedir. Eğer modelde pekçok değişken varsa ve
+örnek miktarı çok değilse R2Adj, R2’ den belirgin
+şekilde küçük olabilir. Sonuç olarak bu değerlerin
+birbirine ve 1’ e yaklaşması modelin başarısını
+göstermektedir.
+
+M. Erşan, Ü.Açıkel
+
+parametrelerin
+birbirini
+etkilemediğini
+göstermektedir. R. delemar’ ın asid fosfataz aktivitesi
+gösterdiği pH optimumu sıcaklıktan bağımsızdır.
+Bunun terside doğrudur. Asid fosfatazın aktivite
+gösterdiği sıcaklık aralığı ortam pH’ ına bağlı olarak
+değişmez. Eşitlik 3.’ün regresyonunun grafiksel
+gösterimlerine cevap yüzeyleri denir. Üç boyutlu
+cevap yüzeyleri design expert kullanılarak elde
+edilmiş ve Şekiller 1-a, b ve c ile gösterilmiştir.
+Grafiklerden de görüldüğü gibi ortam pH’ ı 5,03’ e,
+sıcaklık 31,82 oC’ ye ve başlangıç metal iyonu
+derişimi 30,15 mg/L’ ye kadar arttırılmasıyla, asit
+fosfataz aktivitesinin 794,098 µmol/L-dak’ ya kadar
+arttığı gözlenmiştir. Daha önceki bir deney setinde bir
+parametrenin değerinin değiştirilip, diğerlerinin sabit
+tutulduğu
+konvansiyonel
+modellerle
+yapılan
+deneylerde, R. delemar’ ın ortamda Cu(II) ve Ni(II)
+iyonlarının varlığında pH 4,8-5,0, sıcaklık 30-35 oC
+arasında asid fosfataz enzimini ürettiği gösterilmiştir.
+Literatürde farklı kaynaklardan elde edilen fosfataz
+için aktiviteyi arttırıcı ve azaltıcı farklı ortamlar ifade
+edilmektedir [11]. Bu çalışmada uygulanan yüzeycevap modeli ile bulunan pH ve sıcaklık optimumları
+literatürle uyumludur [6].
+
+Yeterli kesinlik (adequate precision), sinyal gürültü
+oranını gösterir. Sinyal gürültü oranının ise 4‘ ün
+üstünde olması beklenir. Bu çalışmada bulunan sinyal
+gürültü oranı 24,922 yeterli sinyale işaret etmektedir.
+Uyum eksikliği (lack of fit), regresyonda içerilmeyen
+noktalarda deneysel kümedeki verileri göstermek için
+modelin başarısını ölçer. Eşitlik 3’ ün regresyonundan
+elde edilen uyum eksikliği anlamlı değildir
+(P=0,1021). Anlamlı olmayan uyum eksikliği iyidir
+ve öngörülen eşitliğinin değişkenlerin değerlerinin
+herhangi bir kombinasyonunda asit fosfataz
+aktivitesini
+önermek
+için
+yeterli
+olduğunu
+göstermektedir. Asit fosfataz aktivitesi için doğrusal
+bir eşitlik elde edilmiş olması incelenen
+
+(a)
+
+(b)
+
+(c)
+Şekil 1. (a) CYY ile, enzim aktivitesinin pH ve sıcaklıkla değişimini gösteren üç boyutlu grafiği (b) CYY
+ile, enzim aktivitesinin, CZn,i ve sıcaklıkla değişimini gösteren üç boyutlu grafiği
+(c) CYY ile, enzim
+aktivitesinin CZn,i ve pH ile değişimini gösteren üç boyutlu grafiği (Figure 1. (a) Response surface plot described by the
+
+model which represents the effect of pH and temperature and their mutual effects on acid phosphatase activity (b) Response surface plot
+described by the model which represents the effect of CZn,i and temperature and their mutual effects on acid phosphatase activity (c)
+Response surface plot described by the model which represents the effect of CZn,i and pH and their mutual effects on acid phosphatase
+activity)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+325
+
+M. Erşan, Ü.Açıkel
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+Tablo 4. Cevap yüzeyi kuadratik eşitlik için, ortam bileşenlerinin fonksiyonu olarak R. delemar’ ın Zn (II)
+biyobirikimi için varyans analizi (ANNOVA) ( Analysis of variance (ANOVA) for the fitted quadratic polynomial model of
+Zn(II) bioaccumulating as a function of concentration levels of medium components)
+
+Kaynak
+
+Kareler
+toplamı
+(Sum
+of
+squares)
+1152,72
+0,22
+
+Model
+Arta
+kalan
+(Residual)
+Uyum eksikliği 0,14
+(Lack of fit)
+Hata (Pure eror) 0,086
+Düzeltilmiş
+115295
+toplam
+R2Adj= 0,9996
+R2 = 0,9998
+
+DF
+
+Ortalamanın
+Karesi (Mean
+square)
+
+F- Değeri
+
+Probobilite
+(P)>F
+
+9
+7
+
+128,08
+0,032
+
+4008,86
+
+<0,0001
+
+3
+
+0,046
+
+2,15
+
+0,2362
+
+4
+16
+
+0,021
+
+R2Pred= 0,9980
+
+R=0,9989
+
+3.2. R. delemar’ ın Zn(II) Biyobirikimi İçin Deney
+Koşullarının
+Belirlenmesi
+(Determination
+of
+Experimental Conditions for Zn (II) Bioaccumulation of R.
+delemar)
+
+Eşitlik 4 tarafından ifade edilen model pH, sıcaklık ve
+başlangıç Zn(II) konsantrasyonunun fonksiyonu
+olarak R. delemar tarafından biyobiriktirilen Zn(II)
+konsantrasyonunu göstermektedir. Elde edilen eşitlik
+quadratik bir eşitliktir ve denklemi aşağıdaki gibidir:
+Zn(II) biyobirikimi =16,69 – 0,25 x1 + 3,83 x2 + 11,
+24 x3 -0,28 x1x2 + 0,25 x1x3 + 2,42 x2x3- 9,5 10-3 x1(4)
+0,15 x22 + 0,013 x32
+Eşitlik 4’ün istatiksel anlamı F testiyle kontrol edildi.
+Cevap yüzeyi quadratik eşitlik için varyans analizi
+(ANOVA) Tablo 4. ‘de verilmiştir.
+Model için F değeri 4008,65 olarak bulunmuştur.
+Model F değerinden ve probabilite değerininin
+0,0001’den küçük olmasından modelin uyumlu
+olduğu anlaşılmaktadır. Zn(II) biyobirikimi için
+2
+2
+bulunan ikinci dereceden modelin R2 , R Adj, R Pred ve
+R (0,9989-0,9998) değerlerinin 1’ e çok yakın olması
+deneysel değerlerle model tarafından öngörülen
+değerlerin mükemmel bir uyum içerisinde olduğunu
+göstermektedir. Model değişkenlerinin önündeki
+katsayıların anlamlı olup olmadığını kontrol etmek
+için p değerleri kullanılmaktadır. Olasılık p
+değerlerinin 0,05’ den küçük olması pH’ ın, sıcaklığın
+ve başlangıç Zn(II) konsantrasyonunun birinci
+dereceden etkisinin öngörülen biyobirikim modelinde
+anlamlı olduğunu göstermektedir. Çalışılan başlangıç
+Zn(II) derişimi aralığında, pH ve sıcaklığın, pH ve
+konsantrasyonun, sıcaklık ve derişimin karşılıklı
+etkileşimlerinin biyobirikim üzerinde önemli olduğu
+görülmektedir. Öte yandan 0,1’ den büyük olasılık p
+değerleri, pH, sıcaklık ve başlangıç Zn(II) iyonu
+konsantrasyonunun ikinci dereceden etkilerinin
+anlamsız olduğunu göstermektedir. Bu durum pH,
+
+326
+
+uyumlu
+
+sıcaklık ve başlangıç Zn(II) iyonu konsantrasyonu
+küçük
+değişimlerin
+Zn(II)
+biyobirikimini
+etkilemediğini göstermektedir.
+Eşitlik 4’ ün
+regresyonunun grafiksel gösterimlerine cevap
+yüzeyleri denir. Üç boyutlu cevap yüzeyleri design
+expert kullanılarak elde edilmiş ve Şekil 2-a, b ve c
+ile gösterilmiştir. Sıcaklık ve pH’ın sırasıyla 31,82 oC
+ve 5,03’e arttırılmasıyla Zn(II) biyobirikiminin arttığı
+gözlenmiştir (Şekil 2-a). Çalışılan sıcaklık aralığında
+başlangıç Zn(II) iyon derişiminin 30,15 mg/L’ ye
+kadar arttırılmasıyla Zn(II) biyobirikiminin de arttığı
+gözlenmiştir (Şekil 2-b). Çalışılan pH aralığında
+başlangıç
+Zn(II)
+derişiminin
+artmasıyla
+biyobiriktirilen Zn(II) iyonu derişimi neredeyse
+doğrusal olarak artmış ve maksimum değeri 17,622
+mg/L’ ye ulaşmıştır (Şekil 2-c).
+3.3. R. delemar Üremesi İçin Deney Koşullarının
+Belirlenmesi (Determination of Experimental Conditions for
+Growth of R. delemar)
+
+Eşitlik 5 tarafından verilen model pH, sıcaklık ve
+başlangıç Zn(II)
+konsantrasyonunun fonksiyonu
+olarak R. delemar derişimini göstermektedir. Elde
+edilen model 2. dereceden bir eşitliktir ve denklemi
+aşağıdaki gibidir:
+Mikroorganizma derişimi = 3,08 + 0,048 x1 + 0,33 x2
+- 0,40 x3 + 0,07 x1x2 + 0,21x1x3 -0,24 x2 x3 + 0,12
+(5)
+x12 - 0,16 x22 - 0,35 x32
+Eşitlik 5’ in istatiksel anlamı F testiyle kontrol edildi.
+Cevap yüzeyi 2. Dereceden eşitlik için varyans analizi
+(ANOVA) Tablo 5‘de verilmiştir.
+Model için F değeri 273,75 olarak bulunmuştur.
+Model F değerinden ve probabilite değerininin küçük
+olmasından modelin uyumlu olduğu anlaşılmaktadır.
+Mikroorganizma derişiminin model tarafından
+öngörülmesi için R2, R2Adj, R2Pred ve R değerlerinin
+1’e çok yakın olması deneysel değerlerle model
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+(a)
+
+M. Erşan, Ü.Açıkel
+
+(b)
+
+(c)
+Şekil 2-(a) CYY ile, Zn(II) biyobirikiminin sıcaklık ve pH ile değişimini gösteren üç boyutlu grafiği, (b)
+CYY ile, Zn(II) biyobirikiminin sıcaklık ve CZn,i ile değişimini gösteren üç boyutlu grafiği, (c) CYY ile,
+Zn(II) biyobirikiminin pH ve CZn,i ile değişimini gösteren üç boyutlu grafiği (Figure 2-(a) Response surface plot
+
+described by the model which represents the effect of pH and temperature and their mutual effects on Zn(II) bioaccumulating (b)
+Response surface plot described by the model which represents the effect of CZn,i and temperature and their mutual effects on Zn(II)
+bioaccumulating (c) Response surface plot described by the model which represents the effect of CZn,i and pH and their mutual effects on
+Zn(II) bioaccumulating)
+
+Tablo 5. Cevap yüzeyi kuadratik eşitlik için, sıcaklık, pH ve Czn,i fonksiyonu olarak R. delemar üremesinin
+varyans analizi (ANNOVA) (Analysis of variance (ANOVA) for the fitted quadratic polynomial model of acid phosphatase
+activity as a function of concentration levels of medium components)
+
+Kaynak
+
+Kareler
+toplamı
+(Sum of
+squares)
+3,20
+9,089.10-3
+
+Model
+Arta kalan
+(Residual)
+Uyum eksikliği 9,75.10-4
+(Lack of fit)
+Hata (Pure eror) 8,11.10-3
+3,21
+Düzeltilmiş
+toplam
+R2 = 0,9972
+R2Adj= 0,9935
+
+DF
+
+Ortalamanın
+Karesi (Mean
+square)
+
+F- Değeri
+
+Probobilite
+(P)>F
+
+9
+7
+
+0,36
+1,29.10-3
+
+273,75
+
+<0,0001
+
+3
+
+3,25.10-4
+
+0,16
+
+0,9178
+
+4
+16
+
+2,082.10-3
+
+R2Pred= 0,9912
+
+değerler arasındaki uyumun çok iyi olduğuna işaret
+eder.
+Sıcaklık, pH ve Zn(II) konsantrasyonunun hem birinci
+dereceden etkisinin hem de ikinci dereceden etkisinin,
+hem de parametrelerin çoklu etkileşimlerinin,
+mikroorganizma konsantrasyonu üzerinde önemli
+olduğu, 0,05’ den daha küçük olasılık değerlerinden
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+uyumlu
+
+R=0,9986
+anlaşılmaktadır. Şekil 3’ de üç boyutlu pH ve
+sıcaklığa karşı mikroorganizma cevap yüzeyine ait
+izdüşüm grafiği görülmektedir. İzdüşüm grafiklerinin
+şekillerinin dairesel veya eliptik olması, değişkenler
+arasındaki etkileşimlerin anlamlı olup olmadığına
+işaret eder. Eğer bağımsız değişkenler arasındaki
+etkileşimler anlamlı ise şekil 4’ de görüldüğü eliptik
+izdüşüm grafikleri elde edilir. Şekil 4.a ve b’ de
+
+327
+
+M. Erşan, Ü.Açıkel
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+Şekil 3-(a) CYY ile, mikroorganizma konsantrasyonunun sıcaklık ve pH ile değişimini gösteren kontür
+grafiği (b) CYY ile, mikroorganizma konsantrasyonunun sıcaklık ve pH ile değişimini gösteren üç boyutlu
+grafiği (Figure 3-(a) Response surface contour plot of microorganism concentration showing interactive effect of temperature and pH
+(b) Response surface plot described by the model which represents the effect of temperature and pH and their mutual effects on Zn(II)
+bioaccumulating)
+
+Şekil 4-(a) CYY ile, mikroorganizma konsantrasyonunun CZn,i ve sıcaklık ile değişimini gösteren kontür
+grafiği (b) CYY ile, mikroorganizma konsantrasyonunun CZn,i ve sıcaklık ile değişimini gösteren üç boyutlu
+grafiği (Figure 4-(a) Response surface contour plot of microorganism concentration showing interactive effect of CZn,i and temperature
+(b) Response surface plot described by the model which represents the effect of CZn,i and temperature and their mutual effects on Zn(II)
+bioaccumulating)
+
+Şekil 5-(a) CYY ile, mikroorganizma konsantrasyonunun CZn,i ve pH ile değişimini gösteren kontür grafiği
+(b) CYY ile, mikroorganizma konsantrasyonunun CZn,i ve pH ile değişimini gösteren üç boyutlu grafiği
+(Figure 5-(a) Response surface contour plot of microorganism concentration showing interactive effect of CZn,i ve pH (b) Response
+surface plot described by the model which represents the effect of CZn,i and pH and their mutual effects on Zn(II) bioaccumulating)
+
+mikroorganizma derişiminin sıcaklık arttıkça arttığı
+ancak başlangıç Zn(II) iyon konsantrasyonu arttıkça
+şiddetle azaldığı görülmektedir. Şekil 5’ de çalışılan
+pH aralığı boyunca, yüksek başlangıç Zn(II) iyonu
+konsantrasyonlarında
+mikroorganizma
+konsantrasyonunun düştüğü, düşük başlangıç Zn(II)
+iyonu
+konsantrasyonlarında
+pH
+5,03’
+de
+mikroorganizma konsantrasyonu için maksimum
+değerlerinin elde edildiği görülmektedir. Ancak amaç
+
+328
+
+asit fosfataz aktivitesini ve Zn(II) biyobirikimini
+maksimize eden uygun aralıktaki mikroorganizma
+konsantrasyonunu belirlemektir. Grafiklerden de
+görüldüğü gibi ortam pH’ ının 5,03, sıcaklığının 31,82
+o
+C ve başlangıç metal iyonu konsantrasyonunun 30,15
+mg/L olduğu yerde, 3,2038 g/L mikroorganizma
+konsantrasyonu elde edilmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+R. Delemar’ın Asit Fosfataz Üretimi ve Zn(II) Biyobirikiminin Cevap Yüzey Yöntemi...
+
+3.4. Deney doğrulama (Experimental verification)
+CYY ile elde edilen deney sonuçlarını doğrulamak ve
+deneysel değerlerden sapmayı görebilmek için yapılan
+deney doğrulama sonuçlarından, asit fosfataz
+aktivitesi
+(µmol/L-dak),
+mikroorganizma
+konsantrasyonu (g/L) ve Zn(II) biyobirikimi (mg/L)
+için % hata değerleri sırasıyla 0,84, 5,79, ve 3,77
+olarak bulunmuştur.
+
+3.
+
+4.
+5.
+
+4. SONUÇLAR (RESULTS)
+Design Expert 7,0 kullanılarak Zn(II) için en iyileme
+deneyleri yapılmış ve asit fosfataz aktivitesi için
+doğrusal, mikroorganizma konsantrasyonu ve Zn(II)
+biyobirikimi için kuadratik eşitliğe tam bir uyum
+gözlenmiştir. CYY ile yapılan çalışmalar sonucunda
+pH 5,03, 31,82 oC ve 30,15 mg/L başlangıç değerleri
+için deneyler tasarlanmış, asit fosfataz aktivitesi
+794,098
+µmol/L-dak,
+mikroorganizma
+konsantrasyonu 3,203 g/L ve biyosorplanan Zn(II)
+miktarı 17,62 mg/L olarak öngörülmüştür. Deney
+doğrulama deneyi yapılarak sonuçların duyarlılığı ve
+geçerliliği gösterilmiştir. Bu çalışmayla CYY
+kullanılarak, özellikle tıp ve eczacılık alanında önemli
+bir yere sahip olan asit fosfataz enziminin en etkin
+besin ortamı içeriğine ulaşılarak, kısa sürede
+üretimine katkıda bulunulduğu düşünülmektedir.
+5. KAYNAKLAR (REFERENCES)
+1.
+2.
+
+Abdallah A.A, Magboul P., L.H. McSweeney.
+‘Department of food science and techonology’,
+Food chemistry, 6515-6522, 1999.
+Schmidt G.G. Bartsch. M. C. Lamont. T.
+Herman. and M. Liss, ‘ Acid phosphatase of
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+6.
+
+7.
+8.
+
+9.
+10.
+
+11.
+
+M. Erşan, Ü.Açıkel
+
+baker's yeast: an enzyme of the external cell
+surface’, Biochemistry, 2, 126-121, 1963.
+Nyc. J.F. ‘A repressible acid phosphatase in
+Neurospora crassa’, Biochem. Biophysic, 27,
+,183-188, 1967.
+Blum J. J. ‘Observation of the acid phosphatases
+of Euglena gracilis’, J. Cell Biology., 24, 223234, 1956.
+Tsekova K. and Galabova D. ‘Phosphatase
+production
+and
+activity
+in
+copper(II)
+accumulating
+Rhizopus delemar’. Enzyme
+Microb. Technology, 33, 926–931, 2003.
+Leborans G.F. and Novillo. A., “Toxicity and
+Bioaccumulation of Cadmium Olisthodiscus
+luteus (Raphidophyceae) Water Resource, 30,
+57-62, 1996.
+Tsezos M. and Volesky B., “Biosorption of
+Uranium and Thorium”. Biotechnology and
+Bioengineering, 23, 583-604, 1981.
+Macaskie L.E., Wates J.M., Dean A.C.R.’
+Cadmium accumulation by a Citrobacter sp.
+immobilized on gel and solid supports:
+applicability to the treatment of liquid wastes
+containing heavy metal cations’, Biotechnology
+and Bioengineering, 30, 66-73, 1987.
+Stat ease, Inc 2021 East Hannepin Ave., Suite
+480 Minneapolis, MN 55413 Design Expert
+version 7.0 , Buil date 2005.
+Acıkel Ü., Ersan, M., ‘ Acid phosphatase
+production by Rhizopus delemar: A role
+played in the Ni(II) bioaccumulation process’,
+Journal of Hazardous Materials, 184, 632639, 2 010.
+Durak Z. E, Gürü M., 'Isolation, Inhıbition and
+Kinetic Modelling of alakline phospatase (Alp)
+Enzyme'Journal of Faculty of Engineering and
+Architecture of Gazi University., 28, 1, 2013.
+
+329
+
+

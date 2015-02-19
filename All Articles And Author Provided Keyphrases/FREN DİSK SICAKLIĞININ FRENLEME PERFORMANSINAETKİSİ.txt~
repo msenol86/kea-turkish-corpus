@@ -1,0 +1,922 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 2, 425-432, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 2, 425-432, 2014
+
+FREN DİSK SICAKLIĞININ FRENLEME PERFORMANSINA
+ETKİSİ
+Mehmet ERDEM1, Duran ALTIPARMAK2
+1
+
+Makine ve Metal Teknolojileri Bölümü, Kütahya Teknik Bilimler MYO, Dumlupınar Üniversitesi, Germiyan
+Kampüsü, Kütahya.
+2
+Otomotiv Mühendisliği Bölümü, Teknoloji Fakültesi, Gazi Üniversitesi, Teknikokullar/Ankara.
+mehmet.erdem@dpu.edu.tr, duranal@gazi.edu.tr
+(Geliş/Received: 02.04.2013; Kabul/Accepted: 27.03.2014)
+ÖZET
+Bu deneysel çalışmada, fren disk sıcaklıklarındaki artışın taşıtın frenleme performansına etkileri araştırılmıştır.
+Bu amaçla, frenleme performansının en önemli göstergesi olan durma mesafesi testleri yapılmıştır. Testler, bir
+hafif ticari taşıtta, değişik disk sıcaklıkları, pedal kuvvetleri, taşıt yükleri ve başlangıç hızlarında
+gerçekleştirilmiştir. Yapılan fren etkinliği test sonuçları, fren disklerindeki sıcaklık artışının taşıtın frenleme
+mesafesini olumsuz etkilediğini göstermiştir. Farklı pedal kuvvetleri, frenleme başlangıç hızları ve taşıt yükü
+değişimlerine göre değerlendirilen sonuçlardan, disk sıcaklığındaki artışın frenleme mesafesini artırdığı
+gözlenmiştir. Tipik bir yol testi sonucu olarak; 80 km/h hızla ve maksimum pedal kuvvetiyle 63ºC fren disk
+sıcaklığında taşıt 44,9 m’de dururken, 298 ºC disk sıcaklığında durma mesafesi %17,4 oranında artarak 52,71 m
+olarak ölçülmüştür.
+Anahtar kelimeler: Frenleme performansı, yol deneyi, durma mesafesi, disk sıcaklığı, hafif ticari taşıt
+
+1. GİRİŞ (INTRODUCTION)
+Trafik kazalarının nedenlerine yönelik yapılan
+araştırmalarda, sürücüye ait kusurlar ön plana
+çıkmakta, taşıt ve yol kusurları düşük oranlarda
+seyretmektedir. Taşıtların neden olduğu kazalarda ise
+lastik patlamasının hemen ardından fren kusurları
+gelmektedir [1].
+Taşıtlarda aktif güvenlikle ilgili en önemli donanım
+fren sistemleridir. Gelişen teknolojiyle birlikte
+günümüz taşıtlarında konforun yanı sıra hız ve ağır
+
+ticari taşıtlardaki yük kapasitesi sürekli olarak
+artmakta, bu durum etkili ve güçlü fren sistemlerinin
+geliştirilmesi ihtiyacını doğurmaktadır. Taşıt frenleri
+seyir halindeki taşıtın hızını kontrol etmek ve etkili bir
+durma sağlayabilmek açısından yol güvenliğine
+doğrudan etki etmektedir [2-4].
+Fren sisteminin etkinliği ve frenleme performansı
+taşıtın durma mesafesi ile ifade edilen önemli bir
+göstergedir [5]. Frenleme performansına etki eden
+başlıca faktörler; taşıt ağırlığı, fren sisteminin
+tasarımı, fren hidrolik ve mekanik aksamının durumu,
+
+M. Erdem, D. Altıparmak
+
+Fren Disk Sıcaklığının Frenleme Performansına Etkisi
+
+fren sistemini etkileyebilecek çevre şartları, yol
+şartları, lastiklerin durumu, tekerlek ve yol yüzeyi
+arasındaki tutunma katsayısı olarak sıralanabilir [6-9].
+Taşıtın frenleme performansını doğrudan etkileyen
+diğer bir faktör ise fren sistemi elemanlarının
+sıcaklığındaki artıştır. Frenleme anındaki yüksek
+sıcaklık, kampana-balata (veya disk-balata) arasında
+ani sürtünme kaybına (fading), erken aşınmaya, fren
+sıvısının buharlaşmasına, termal çatlaklara ve
+vibrasyona neden olabilir [10-13].
+Fren kampana ve disklerinin sıcaklığı ağır ticari
+taşıtlar için kritik bir değerdir. Nitekim sıcaklık,
+frenleme etkinliğini doğrudan etkileyen bir faktördür.
+Sıcaklık etkisi, aşırı ısınmada daha büyük önem taşır
+ve bunun sık tekrar etmesi fren diskleriyle balatalar
+arasındaki sürtünme katsayısını azaltarak tehlikeye
+sokar. Bu olgu, fren etkinliğinin azalması (fading)
+olarak adlandırılır [14-16].
+Fren diski veya kampanasındaki sıcaklık artışına bağlı
+olarak fren etkinliğinin kaybolmasına ilişkin
+literatürde birbirine yakın eşik değerler yer
+almaktadır. Satapathy ve arkadaşları [17], etkinlik
+kayıplarını; ‘yüke bağlı etkinlik kaybı’, ‘hıza bağlı
+etkinlik kaybı’ ve ‘sıcaklığa bağlı etkinlik kaybı’
+olarak sınıflandırıp, sıcaklığa bağlı etkinlik kaybının
+diskli frenlerde 370ºC’den itibaren önemli ölçüde
+kendini göstereceğini ifade etmişlerdir. Bijwe ve
+arkadaşları [18], 300-400ºC arasındaki sıcaklık
+değerlerine yükselen fren disklerinin etkinlik kaybına
+neden olabileceğini vurgulamışlardır. Aleksendric ve
+Duboka [19] ise 400ºC civarındaki sıcaklıkların eşik
+değer olduğunu, disk sıcaklıklarının 600ºC’yi aşması
+halinde fren diski ile balata arasındaki sürtünme
+katsayısının büyük ölçüde azalması nedeniyle fren
+etkinliğinin tamamen kaybolacağını savunmuştur.
+Benzer sıcaklık eşik değerlerini telaffuz eden
+Lingman da [20] 900ºC’ye ulaşan disk sıcaklıklarının
+balatanın yanmasına neden olacağını belirtmiştir. Ilm
+ve arkadaşları [21], bir kinetik enerji simülasyonu
+aracılığıyla yapmış oldukları deneylerde disk yüzey
+sıcaklığı 150ºC iken sürtünme katsayısının 0,55
+olduğunu, 250ºC’ye yükselen disk yüzey sıcaklığında
+ise
+sürtünme
+katsayısının
+0,23
+olduğunu
+gözlemlemişlerdir.
+
+(a)
+
+Bu çalışmada, hafif bir ticari taşıtın frenleme sırasında
+fren disk sıcaklıklarındaki değişimin durma
+mesafesine etkilerini belirlemek amacıyla yol
+deneyleri yapılmıştır. Deneylerde; disk sıcaklıklarının
+yanı sıra taşıt hızı, taşıt ağırlığı ve uygulanan pedal
+kuvveti değişkenleri de dikkate alınmıştır.
+2. MATERYAL VE METOT
+
+(MATERIALS AND
+
+METHOD)
+
+Deney taşıtı olarak Mercedes Sprinter marka 313 CDI
+model hafif ticari taşıt kullanılmıştır. Bu deney
+taşıtının seçilmesindeki amaç, sıcaklık etkisiyle fren
+etkinliği kaybı probleminin sadece ağır taşıtlar için
+geçerli bir problem olmadığını ortaya koymaktır.
+Fren etkinliği deneyleri 1500 metre uzunluğunda 40
+metre genişliğinde kuru asfalt zemine sahip trafiğe
+kapalı bir pistte yapılmıştır. Yol yüzeyinin sürtünme
+katsayısı 0,6 olarak kabul edilmiştir.
+Deneyler esnasında disk sıcaklıklarının istenilen
+sıcaklığa ulaşıp ulaşmadığını kontrol etmek amacıyla
+kızılötesi prensiple çalışan ve uzaktan temassız ölçüm
+yapabilme özelliğine sahip olan bir sıcaklık ölçer
+kullanılmıştır (Şekil 1).
+
+Şekil 1. Lazer sıcaklık ölçer (Laser Thermometer)
+Fren etkinliği deneylerinde farklı pedal kuvveti
+değerlerinin
+durma
+mesafesine
+etkilerini
+gözlemleyebilmek amacıyla bir pedal kuvveti
+sınırlayıcı aparat geliştirilmiştir (Şekil 2-a,b). Fren
+pedalı tutucusuna rijit olarak bağlanan aparat, kayar
+mekanizmasının üzerindeki delikler ve bir pim
+sayesinde değişik kademelerde deneyler yapmaya
+imkân vermektedir (Şekil 2-c).
+
+(b)
+
+(c)
+
+Şekil 2. Pedal kuvveti sınırlayıcı aparat ve fren pedalına bağlantısı (Apparatus of the pedal force limiter and installation to
+the brake pedal)
+
+426
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Fren Disk Sıcaklığının Frenleme Performansına Etkisi
+
+Yapılan deneylerde aparatın 3 farklı kademesi
+kullanılmıştır. Aparatın kalibrasyonu tamburlu fren
+test cihazı yardımıyla yapılmış ve kademeye karşılık
+gelen pedal kuvveti değerleri belirlenmiştir. Buna
+göre, sınırlayıcı aparatın 1. kademesinde 120 N, 2.
+kademesinde 260 N ve 3. kademesinde 450 N’luk bir
+kuvvet uygulandığı tespit edilmiştir [22].
+Pedala uygulanan kuvveti ölçmek amacıyla dijital
+ekranlı pedal kuvvet sensörü (Şekil 3-a), ayrıca aracın
+hızı, durma mesafesi, ivme, zaman gibi verileri
+toplayıp, veri toplayıcı üniteye gönderen optik sensör
+(Şekil 3-b) kullanılmıştır. Sensörlerin algılamış
+olduğu taşıt hızı, ivme, durma mesafesi, pedal kuvveti
+gibi verileri toplayarak elektronik ortamda kaydeden
+ve bilgisayara aktarabilme imkânı veren veri toplama
+ünitesi kullanılmıştır (Şekil 3-c).
+Yol deneyleri esnasında değişik yük şartları
+oluşturabilmek amacıyla her biri 25 kg olan yük
+malzemeleri kullanılmıştır. Yönerge her ne kadar
+yüklü şartların denenmesini gerektirse de bu
+çalışmada taşıtın farklı yükleme şartlarındaki
+davranışının da incelenmesi amaçlanmıştır.
+Düz yol fren etkinliği deneyleri için 71/320/AT Fren
+Tip Onay Testleri yönergesindeki minimum şartlara
+uyulmuştur. Yönergenin Tip-0 ve Tip-I testlerinden
+esinlenerek oluşturulan deney talimatlarına göre 40,
+60 ve 80 km/h olmak üzere 3 hız seçeneği, yüklü,
+yüksüz ve yarı yüklü olmak üzere 3 yük durumu, 3
+farklı pedal kuvveti seçeneği ve 3 farklı disk sıcaklık
+değeri uygulanmıştır.
+
+M. Erdem, D. Altıparmak
+
+Deney ekipmanlarının deney taşıtına bağlantısının
+ardından yüklü şartlarda iken pisti tanımak ve bazı ön
+bulgular elde edebilmek amacıyla ön deneyler
+yapılmış, daha sonra seri deneylere geçilmiştir.
+Deney talimatı çerçevesinde yüklü (3500 kg), yüksüz
+(2000 kg) ve yarı yüklü (2750 kg) şartlarda, 3 farklı
+disk sıcaklık eşiğinde ve pedal kuvveti sınırlayıcısının
+3 değişik kademesinde (450 N, 260 N ve 120 N)
+toplam 60 durma mesafesi deneyi yapılmıştır.
+Deneyler esnasında ölçülen disk sıcaklık değerleri
+ivme, hız, durma mesafesi gibi değerlerle birlikte veri
+toplama ünitesi tarafından eş zamanlı olarak kayıt
+altına alınmıştır.
+Deneylerin yapılışına yüklü şartlarda başlanmıştır.
+71/320/AT Fren Tip Onay testleri yönergesinde
+100ºC’nin altındaki disk sıcaklıkları “Soğuk Fren”
+bunun üstündeki sıcaklıklar ise “Sıcak Fren” olarak
+tanımlanmaktadır. Önceden hazırlanan deney talimatı
+çerçevesinde önce soğuk frenlerle 40-60 ve 80 km/h
+hızlar için 3 farklı pedal kuvveti kademesinde durma
+mesafesi deneyleri yapılmıştır. Daha sonra taşıtın fren
+diskleri ortalama 180ºC’ye kadar ısıtılarak bir önceki
+deneyler tekrarlanmıştır. Son aşamada taşıtın fren
+diskleri ortalama 300ºC’ye kadar ısıtılarak durma
+mesafesi deneyleri tekrarlanmıştır. Fren disklerinin
+ısıtılması, taşıta uygulanan yoğun dur-kalk
+manevralarıyla sağlanmıştır.
+Taşıtın yük şartları yarı yüklü ve yüksüz olarak
+ayarlandıktan sonra yukarıdaki sıra takip edilmiş ve
+durma mesafesi deneyleri tamamlanmıştır.
+
+(a)
+
+(b)
+
+(c)
+Şekil 3. Sensörler ve veri toplama ünitesi (Sensors and data acquisition unit)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+427
+
+M. Erdem, D. Altıparmak
+
+Fren Disk Sıcaklığının Frenleme Performansına Etkisi
+
+400
+
+Durma mesafesi (m)
+
+Sıcak frenleme
+
+233 oC;
+348,61 m
+
+350
+300
+
+Soğuk frenleme
+
+250
+64 oC;
+202,77 m
+
+200
+
+278 oC;
+141,68 m
+
+150
+298 oC;
+52,71 m
+
+100
+62 oC;
+77,48 m
+
+50
+
+63 oC;
+44,90 m
+
+0
+0
+
+100
+
+200
+300
+Pedal kuvveti (N)
+
+400
+
+Şekil 4. Fren disk sıcaklığının durma mesafesine etkisi, 80 km/h ve yüklü
+
+500
+
+(The effect of brake disc temperature on
+
+stopping distance, 80 km/h and laden)
+
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+Fren etkinlik deneylerinin temel amaçlarından biri,
+fren disk sıcaklığına bağlı olarak durma mesafesinde
+görülen değişimleri analiz etmektir. Yapılan
+deneylerde, disk sıcaklıklarının artışına paralel olarak
+taşıtın durma mesafesinin de uzadığı görülmüştür.
+Şekil 4’te, frenleme öncesi hızı 80 km/h olan yüklü
+taşıtın fren disklerindeki sıcaklık değişimi ve 3 farklı
+pedal kuvvetine (Fp) ne bağlı olarak durma mesafesi
+değişimleri görülmektedir. Buna göre, frenleme
+başlangıç hızı 80 km/h olan taşıtın en yüksek pedal
+kuvvetiyle (450 N) frenlenmesi sonucu elde edilen
+durma mesafesi değerleri; disk sıcaklığı 298 ºC iken
+52,71 m olup 63 ºC’lik soğuk disklerle elde edilen
+durma mesafesinden %17,4 daha fazladır. Pedal
+kuvvetinin 260 N olduğu deneyde ise taşıt soğuk
+frenlemeye oranla %82,8 daha geç durmuştur. En
+düşük pedal kuvvetinin uygulandığı 120 N’luk
+deneyde ise taşıt soğuk frenlemeye oranla %71,9 daha
+geç durmuştur.
+
+Durma
+mesafesindeki
+artışın
+nedeni,
+disk
+yüzeylerindeki ısınmayla birlikte, balata-disk
+arasındaki sürtünme katsayısının düşmesidir. Sıcaklık
+artışına bağlı olarak balata malzemesinin molekülleri
+arasındaki bağlar genleşerek mukavemeti azalır. Bu
+azalmayla birlikte aşınma artar ve sürtünme katsayısı
+düşer. Fading olarak bilinen bu olgu, disk sıcaklığının
+daha büyük değerlerinde fren etkinliğinin tamamen
+kaybolmasına neden olmaktadır [18,19,23].
+Fren disk sıcaklığındaki artışın yanı sıra, fren pedalına
+uygulanan kuvvetin de frenleme performansında
+belirleyici bir faktör olduğu yapılan deneylerde
+görülmektedir. Şekil 5’de 60 km/h frenleme başlangıç
+hızına sahip taşıtın durma mesafesi değerlerinin, bir
+önceki deneye paralel olarak arttığı görülmektedir.
+450 N’luk pedal kuvvetinin uygulandığı deneyde
+durma mesafesi değerleri arasındaki fark (29,2424,28) iken 120 N’luk pedal kuvvetinin uygulandığı
+deneyde (245,21-112,97) kadar büyük çıkmıştır.
+
+300
+
+Sıcak frenleme
+
+Durma mesafesi (m)
+
+250
+
+Soğuk frenleme
+
+oC;
+
+230
+245,21 m
+
+200
+150
+278 oC;
+77,64 m
+
+57 oC;
+112,97 m
+
+100
+50
+
+261 oC;
+29,24 m
+58 oC;
+24,28 m
+
+59 oC;
+52,39 m
+
+0
+0
+
+100
+
+200
+300
+Pedal kuvveti (N)
+
+400
+
+Şekil 5. Fren disk sıcaklığının durma mesafesine etkisi, 60 km/h ve yüklü
+
+500
+
+(The effect of brake disc temperature on
+
+stopping distance, 60 km/h and laden)
+
+428
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Fren Disk Sıcaklığının Frenleme Performansına Etkisi
+
+M. Erdem, D. Altıparmak
+
+160
+
+Sıcak frenleme
+
+Durma mesafesi (m)
+
+140
+
+oC;
+
+250
+136,87 m
+
+120
+
+Soğuk frenleme
+
+100
+80
+60
+
+302 oC;
+33,66 m
+
+oC;
+
+52
+44,90 m
+
+40
+20
+
+283 oC;
+14,32 m
+56 oC;
+12,92 m
+
+64 oC;
+22,05 m
+
+0
+0
+
+100
+
+200
+300
+Pedal kuvveti (N)
+
+400
+
+Şekil 6. Fren disk sıcaklığının durma mesafesine etkisi, 40 km/h ve yüklü
+
+500
+
+(The effect of brake disc temperature on
+
+stopping distance, 40 km/h and laden)
+
+Frenleme anında taşıt hızının aynı olmasıyla birlikte
+pedal kuvvetinin düşük olması nedeniyle daha düşük
+bir frenleme kuvveti oluşacağından taşıt ataleti daha
+etkilidir. Buna karşılık yüksek değerdeki pedal
+kuvvetinin uygulandığı frenlemede meydana gelen
+yüksek fren gücü (frenleme kuvveti) sayesinde daha
+etkili frenleme ve daha kısa durma mesafesi elde
+edilir [24].
+Şekil 6’da ise, yüklü şartlardaki taşıtın 40 km/h
+frenleme öncesi hızla yapılan durma mesafesi
+deneylerinde disk sıcaklık değişimine bağlı durma
+mesafesi değerleri yer almaktadır. Burada da disk
+sıcaklığı arttıkça durma mesafesinin de arttığı
+görülmekte, ayrıca, azaltılan pedal kuvveti durma
+mesafesinin daha da artmasına neden olmaktadır.
+[8,25].
+
+bağlıdır. Tekerlek-zemin arasında belli bir kayma
+değerine ulaştıktan sonra ancak yüksek tutunma
+katsayılarına ulaşılabilir. Düşük pedal kuvvetlerinde
+bu optimizasyon sağlanamaz [24].
+Taşıtın yüksüz olduğu şartlarda yapılan deneylerde,
+fren disk sıcaklığındaki artışa bağlı olarak elde edilen
+durma mesafesi değişimleri, karakteristik olarak yüklü
+şartlardaki deneylerin sonuçlarına büyük ölçüde
+paralellik göstermektedir. Şekil 7’de 80 km/h
+frenleme başlangıç hızında en fazla pedal kuvveti ile
+yapılan deneyde taşıt 71ºC’lik disk sıcaklığında 38,11
+m’de dururken, disk sıcaklığının 255ºC olduğu
+deneyde %6,64’lük bir artışla 40,64 m’de durmuştur.
+Pedal kuvvetinin orta kademede olduğu deneyde disk
+sıcaklık artışına bağlı durma mesafesi artışı %17,5
+olurken, en düşük pedal kuvveti ile yapılan deneyde
+ise artış %44,2 olarak gerçekleşmiştir.
+
+Tekerlek-zemin arasında frenleme kuvvetinin
+optimum değerlere ulaşması tutunma-kayma ilişkisine
+350
+
+Durma mesafesi (m)
+
+Sıcak frenleme
+
+211 oC;
+328,51 m
+
+300
+250
+
+Soğuk frenleme
+
+74 oC;
+222,67 m
+
+200
+
+233 oC;
+98,38 m
+
+150
+100
+
+255 oC;
+40,64 m
+71 oC;
+38,11 m
+
+oC;
+
+65
+83,72 m
+
+50
+0
+0
+
+100
+
+200
+300
+Pedal kuvveti (N)
+
+Şekil 7. Fren disk sıcaklığının durma mesafesine etkisi, 80 km/h ve yüksüz
+
+400
+
+500
+
+(The effect of brake disc temperature on
+
+stopping distance, 80 km/h and uınladen)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+429
+
+M. Erdem, D. Altıparmak
+
+Fren Disk Sıcaklığının Frenleme Performansına Etkisi
+
+200
+
+Durma mesafesi (m)
+
+180
+
+Sıcak frenleme
+
+238 oC;
+174,67 m
+
+160
+140
+
+Soğuk frenleme
+
+69 oC;
+128,05 m
+
+120
+100
+
+254 oC;
+53,03 m
+
+80
+60
+40
+
+247 oC;
+22,72 m
+66 oC;
+23,67 m
+
+oC;
+
+64
+49,68 m
+
+20
+0
+0
+
+100
+
+200
+300
+Pedal kuvveti (N)
+
+Şekil 8. Fren disk sıcaklığının durma mesafesine etkisi, 60 km/h ve yüksüz
+
+400
+
+500
+
+(The effect of brake disc temperature on
+
+stopping distance, 60km/h and unladen)
+
+Yüksüz şartlarda ve taşıtın frenleme başlangıç hızının
+60 km/h olduğu deneylerde de disk sıcaklığındaki
+artışa paralel olarak durma mesafesinin de arttığı
+görülmektedir (Şekil 8). Bunun yanında 60 km/h
+frenleme başlangıç hızında ve en fazla pedal
+kuvvetinin uygulandığı deneyde taşıtın sıcak
+frenlemede (247ºC) soğuk frenlemeye (66ºC) göre
+yaklaşık 1 m daha kısa mesafede durduğu
+görülmüştür. Bunun nedenleri, taşıtın fren disklerinin
+hıza bağlı termal soğumaya geçmesi, taşıtın yüksüz
+olmasından dolayı kinetik enerjisinin daha az olması
+ve en yüksek pedal kuvvetinin uygulanmış olması
+olarak sıralanabilir [8,25].
+Şekil 9’da, yüksüz şartlarda ve 40 km/h frenleme
+başlangıç hızında yapılan durma mesafesi deneyinin
+
+sonuçları görülmektedir. Buradaki bulguların da diğer
+hız kademesindeki bulgularla benzerlik gösterdiği
+belirlenmiştir.
+4. SONUÇ VE ÖNERİLER
+
+Yapılan bu deneysel çalışma, ısınan fren disklerinin
+taşıtın frenleme performansını olumsuz etkilediğini
+ortaya koymuştur. 80 km/h hızla ve maksimum pedal
+kuvvetiyle yapılan durma mesafesi deneylerinde,
+63ºC olan fren disk sıcaklığında taşıt 44,9 m’de
+dururken, disk sıcaklıklarının 298ºC olduğu deneyde
+durma mesafesi %17,4 oranında artarak 52,71 m
+olarak ölçülmüştür.
+
+100
+
+Durma mesafesi (m)
+
+Sıcak frenleme
+
+237 oC;
+91,12 m
+
+90
+80
+
+(CONCLUSION AND
+
+RECOMMENDATIONS)
+
+Soğuk frenleme
+
+70
+60
+
+70 oC;
+56,81 m
+
+50
+40
+
+256 oC;
+20,42 m
+
+30
+20
+
+265 oC;
+14,01 m
+
+55 oC;
+21,13 m
+
+10
+
+69 oC;
+12,08 m
+
+0
+0
+
+100
+
+200
+300
+Pedal kuvveti (N)
+
+Şekil 9. Fren disk sıcaklığının durma mesafesine etkisi, 40 km/h ve yüksüz
+
+400
+
+500
+
+(The effect of brake disc temperature on
+
+stopping distance, 40 km/h and unladen)
+
+430
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Fren Disk Sıcaklığının Frenleme Performansına Etkisi
+
+Pedala uygulanan kuvvetin azalması, sıcaklık artışı ile
+birlikte durma mesafesini artırmıştır. Yukarıdaki
+deneyin, bir alt kademe olan 260 N’luk pedal kuvveti
+uygulanarak
+tekrarlanmasıyla
+ölçülen
+durma
+mesafeleri, 278ºC’lik sıcak frenlemede, 62ºC’lik
+soğuk frenlemeye oranla %82,8 daha fazladır.
+Taşıtın ağırlığındaki artışa paralel olarak ölçülen
+durma mesafesi değerlerinde de artış kaydedilmiştir.
+En büyük pedal kuvveti (450 N) uygulanarak 60 km/h
+ilk hızla ve yüklü durumda yapılan frenlemede
+ölçülen durma mesafesi, aynı şartlarda denenen
+yüksüz taşıtın durma mesafesinden %28,6 daha
+fazladır. Bu kıyaslama 80 km/h ilk hız için yine
+%29,6 olarak ölçülmüştür. Pedal kuvvetinin 260 N’a
+düşürülmesiyle 80 km/h ilk hızla denenen yüklü
+taşıtın durma mesafesi, yüksüz taşıtın durma
+mesafesinden %44 daha fazla ölçülmüştür.
+
+M. Erdem, D. Altıparmak
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+Deneysel çalışmada ortaya konulan fren etkinliği
+kaybının en önemli nedeni fren disklerindeki sıcaklık
+artışıdır. Taşıt hızının, özellikle yokuş aşağı inişlerde
+servis freni ile kontrol edilmesi, yani sürekli frenleme
+ile
+fren
+enerjisinin
+artması,
+disk/kampana
+sıcaklıklarının artışını tetikleyen en önemli faktördür.
+Bunu önlemek amacıyla, taşıtın kinetik enerjisinin
+büyük bir bölümünü yutarak servis frenlerini sürekli
+soğuk ve işletmeye hazır halde tutan yavaşlatıcı
+(retarder) kullanılması, sorunun en önemli çözüm
+kaynağıdır.
+Benzer bir çalışmanın; yüksek tonajlı araçlarda ve
+daha yüksek kampana/disk sıcaklıklarında yapılması
+fren etkinlik kaybının daha net gözlemlenmesi fırsatı
+verecektir.
+
+11.
+12.
+13.
+
+14.
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+3.
+
+4.
+
+5.
+
+T.C. Ulaştırma, Denizcilik ve Haberleşme
+Bakanlığı Karayolları Genel Müdürlüğü, Trafik
+Kazaları Özeti-2011, Trafik Güvenliği Dairesi
+Başkanlığı Trafik Güvenliği Eğitimi ve Proje
+Şubesi Müdürlüğü, Ankara, 1-16, 2012.
+Leeming, D.J. ve Hartley, R., Heavy Vehicle
+Technology, Hutchinson Education, London,
+England, 1981.
+Abu Bakar, A.R., Ouyang, H., Khai, L.C. ve
+Abdullah, M.S., “Thermal analysis of a disc
+brake model considering a real brake pad surface
+and wear”, Int. J. Vehicle Structures &
+Systems, Cilt 2, No 1, 20-27, 2010.
+Aleksendric, D., Jakovljevic, Z. ve Cirovic, V.,
+“Intelligent control of braking process”, Expert
+Systems with Applications, No 39, 1175811765, 2012.
+Altıparmak, D. ve Koca, A., “Taşıtlarda tekerlek
+kilitlenmesi ve kaymasının durma mesafesi ve
+kararlılığa etkisi”, Teknoloji, Cilt 1, No 2, 4758, 2001.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+Oppenheimer,
+P.,
+“Comparing
+stopping
+capabilitiy of cars with and without antilock
+braking systems (ABS)”, SAE, No 880324,
+1988.
+Düzgün, M., Altıparmak, D. ve Bayrakçeken,
+H., “An experimental investigation of stopping
+distance of automobiles”, G.U. Journal of
+Science, Cilt 18, No 1, 153-165, 2005.
+Hosseinlou, M.H., Ahadi, H. ve Hematian, V.,
+“A study of the minimum safe stopping distance
+between vehicles in terms of braking systems,
+weather and pavement conditions”, Indian
+Journal of Science and Technology, Cilt 5,
+Sayı 10, 2012.
+Bayrakçeken, H. ve Altıparmak, D., “Design of
+a Brake Test Equipment and Brake Force
+Measurement and Modelling”, J. Fac. Eng.
+Arch. Gazi Univ., Vol.22, No.1, 21-26, 2007.
+Valvano, T. ve Lee, K., “An analytical method
+to predict thermal distortion of brake rotor”,
+SAE, No 2000-01-0445, 2000.
+Qi, H.S. ve Day, A.J., “Investigation of disc/pad
+interface temperatures in friction braking”,
+Wear, No 262, 505-513, 2007.
+Lee, K., “Numerical prediction of brake fluid
+temperature rise during braking and heat
+soaking”, SAE, No 1999-01-0483, 1999.
+Aleksendric, D., Barton, D.C. ve Vasic, B.,
+“Prediction of brake friction materials recovery
+performance using artificial neural networks”,
+Tribology International, No 43, 2092-2099,
+2010.
+Artus, S., Cocquempot, V., Staroswiecki, M.,
+Hayat, S. ve Covo, C., “Temperature estimation
+of CHV brake discs using an energy balance
+approach”,
+2004
+IEEE
+Intelligent
+Transportation
+Systems
+Conference,
+Washington D.C., USA, 390-395, 2004.
+El-Tayeb, N.S.M. ve Liew, K.W., “On the dry
+and wet sliding performance of potentially new
+frictional brake pad materials for automotive
+industry”, Wear, No 266, 275-287, 2009.
+Neis, P.D., Ferreira, N.F. ve, Lorini, F.J.,
+“Contribution to perform high temperature tests
+(fading) on a laboratory-scale tribometer”,
+Wear, No 271, 2660-2664, 2011.
+Satapathy, B.K. ve Bijwe, J., “Performance of
+friction materials based on variation in nature of
+organic fibres Part I. Fade and recovery
+behaviour”, Wear, No 257, 573-584, 2004.
+Bijwe, J., Nidhi, Majumdar, N. ve Satapathy,
+B.K., “Influence of modified phenolic resins on
+the fade and recovery behavior of friction
+materials”, Wear No 259, 1068-1078, 2005.
+Aleksendric, D. ve Duboka, C., “Fade
+performance prediction of automotive friction
+materials by means of artificial neural
+networks”, Wear, No 262, 778-790, 2007.
+Lingman, P., Integrated brake control,
+downhill driving strategies, Thesis for the
+
+431
+
+M. Erdem, D. Altıparmak
+
+Degree of Doctor of Philosophy, Calmers
+University of Technology, Department of
+Applied Mechanics, Göteborg, Sweden, 2005.
+21. Ilm, A., Leung, P.S., Data, P.K., “Experimental
+investigations of disc brake friction”, SAE,
+2000-01-2778, 2000.
+22. Erdem, M., Motorlu taşıtlarda yavaşlatıcı
+etkilerinin deneysel analizi ve yapay sinir
+ağları ile modellenmesi, Doktora Tezi, Gazi
+Üniversitesi Fen Bilimleri Enstitüsü, Ankara,
+2007.
+
+432
+
+Fren Disk Sıcaklığının Frenleme Performansına Etkisi
+
+23. Limpert, R., “Brake Design And Safety”,
+Second Edition, Society of Automotive
+Engineers, Inc, USA, 1999.
+24. Heisler, H., “Advanced Vehicle Technology”,
+British Library Cataloguing in Publication Data,
+Great Britain, 1989.
+25. Singh, O.P., Mohan, S., Venkata Mangaraju, K.,
+Jayamathy, M. ve Babu, R., “Thermal seizures
+in automotive drum brakes”, Engineering
+Failure Analysis, No 17, 1155-1172, 2010
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+

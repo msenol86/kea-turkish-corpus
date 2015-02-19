@@ -1,0 +1,1015 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 23, No 3, 619-626, 2008
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 23, No 3, 619-626, 2008
+
+BUJİ ATEŞLEMELİ BİR MOTORDA ALTERNATİF YAKIT
+OLARAK SAF ETANOLUN KULLANILMASI
+M. Bahattin ÇELİK ve Alim ÇOLAK*
+Mak. Eğt. Böl., Teknik Eğitim Fakültesi, KÜ, 78050, Karabük, mbcelik@gmail.com
+* Mak. Eğt. ABD, Fen Bil. Enstitüsü, KÜ, 78050, Karabük, alimcolak82@mynet.com
+(Geliş/Received: 26.09.2007; Kabul/Accepted:22.02.2008)
+ÖZET
+Artan enerji ihtiyacı ve çevre kirliliği nedeniyle, buji ateşlemeli motorlarda etanol, metanol, doğal gaz, hidrojen ve
+LPG gibi alternatif yakıtlar kullanılmaktadır. Etanol; oktan sayısının yüksek olması, egzoz emisyonlarının düşük
+olması ve biokütle kaynaklarından üretilebilmesi nedeniyle alternatif yakıtlar arasında önemli bir yere sahiptir. Bu
+çalışmada değişken sıkıştırma oranlı bir motorda saf etanol kullanılmasının motor performansı ve emisyonları
+üzerindeki etkisi deneysel olarak incelenmiştir. Deneylerde tek silindirli, dört zamanlı, buji ateşlemeli, sıkıştırma
+oranı değiştirilebilen bir araştırma motoru kullanılmıştır. Deneyler motorun 6/1 sıkıştırma oranında benzin ve etanol
+ile; 8/1 ve 10/1 sıkıştırma oranında etanol ile çalıştırılmasıyla gerçekleştirilmiştir. Deneyler sonucunda 6/1
+sıkıştırma oranında etanol kullanılmasıyla benzine göre önemli bir güç kaybı olmadan CO, CO2 ve NOx
+emisyonlarında azalma olduğu belirlenmiştir. Sıkıştırma oranının 10/1’e kadar artırılmasıyla, etanol benzine göre
+%25 güç artışı sağlamıştır. Ayrıca CO, CO2 ve NOx emisyonlarında sırayla %41, %21 ve %26 azalma elde
+edilirken, HC emisyonunda %40 artış gözlenmiştir. Sonuçlar; motorlarda yüksek sıkıştırma oranında etanol
+kullanımının, motor performansını önemli ölçüde artırdığını ve emisyonları azalttığını göstermektedir.
+
+1. GİRİŞ (INTRODUCTION)
+Motor yakıtlarının önemli bir kaynağı olan petrolün
+tükeniyor olması ve petrole dayalı yakıtlarla çalışan
+
+taşıt motorlarının zararlı egzoz emisyonları nedeni ile
+çevre kirliliğinin artması, araştırmacıları alternatif
+enerji kaynaklarına yöneltmiştir. Özellikle daha düşük
+egzoz emisyonuna sahip etanol, metanol, hidrojen,
+
+M.B. Çelik ve A.Çolak
+
+Buji Ateşlemeli Bir Motorda Alternatif Yakıt Olarak Saf Etanolun Kullanılması
+
+doğal gaz ve LPG motorlarda alternatif yakıt olarak
+tercih edilmektedir [1].
+İçten yanmalı motorlarda kullanılabilecek yakıtların,
+ucuz ve bol miktarda üretilebilmesi, ısıl değerlerinin
+yüksek olması, kolayca depolanabilmesi ve
+taşınabilmesi, yüksek oktan sayısına sahip olması ve
+düşük düzeylerde egzoz emisyonu oluşturması istenir.
+Alkoller; oktan sayısının yüksek olması, egzoz
+emisyonlarının düşük olması ve tarımsal ürünler gibi
+yenilenebilir biokütle kaynaklardan üretilebilmesi
+nedeniyle alternatif yakıtlar arasında önemli bir yere
+sahiptir. Alkollerden sadece etanol ve metanol petrol
+esaslı olmayan hammaddelerden güncel teknolojiyle
+pratik olarak üretilmektedir. Etanol; buharlaşma ısısı,
+oktan sayısı ve kendi kendine tutuşma sıcaklığı
+yüksek olduğu için buji ateşlemeli motorlarda (BAM)
+yüksek sıkıştırma oranlarında kullanılabilmektedir.
+Bu da motor gücünün artmasını ve özgül yakıt
+tüketiminin azalmasını sağlamaktadır [2]. Ayrıca
+etanol, yüksek buharlaşma ısısına sahip olduğu için
+emilen taze karışım üzerinde soğutucu etki
+oluşturmakta ve bu da motorun volümetrik verimini
+artırmaktadır. Etanol buji ateşlemeli motorlarda tek
+başına ya da benzine belirli oranlarda katılarak
+kullanılmaktadır. Etanol ile çalışan motorlarda CO,
+CO2 ve NOx emisyonları benzine göre daha az
+olmaktadır [3, 4].
+Etanolun BAM’larda kullanılması durumunda, motor
+performansı ve egzoz emisyonlarına etkileri
+konusunda birçok deneysel çalışmalar yapılmıştır. Wu
+vd. [5] yaptıkları çalışmada %0, %5, %10, %20 ve
+%30 etanol içeren benzin-etanol karışımlarının
+performans ve emisyonlara etkisini değişik hava
+fazlalık katsayısı değerlerinde incelemişlerdir. E30
+(%30 etanol içeren karışım) yakıtlı çalışmada motor
+momentinin
+yaklaşık
+%4
+oranında
+arttığı
+belirlenmiştir. Ayrıca, karışımdaki alkol miktarı
+arttıkça CO, HC ve CO2 emisyonlarının azaldığı
+belirlenmiştir. Bayraktar [6] yaptığı çalışmada, bir
+buji-ateşlemeli deney motorunda benzin-etanol
+karışımlarının kullanılmasının motor performansı ve
+egzoz emisyonları üzerindeki etkilerini deneysel ve
+teorik olarak incelemiştir. Deneyler, benzine %1.5,
+%3, %4.5, %6, %7.5, %9, %10.5 ve %12 oranlarında
+etanol
+katılarak
+hazırlanan
+karışımlarla
+gerçekleştirilmiştir. Motor her bir karışımla 7.75/1 ve
+8.25/1 sıkıştırma oranlarında ve çeşitli hızlarda
+çalıştırılmıştır. Bu çalışmaya göre yakıt içindeki alkol
+oranı arttıkça CO emisyonunun azaldığı ve özgül
+yakıt tüketiminin arttığı belirlenmiştir. Abdel-Rahman
+ve Osman [7] değişik sıkıştırma oranlarında alkolbenzin karışımlarının motor performansına etkilerini
+incelemişlerdir. Yüksek sıkıştırma oranlarında yüksek
+oranda alkol kullanıldığında motor gücünün arttığı
+tespit edilmiştir. Yücesu vd. [8] farklı sıkıştırma
+oranlarında etanol-benzin karışımlarının motor
+performansı ve emisyonlara etkisini incelemişlerdir.
+Deneylerde; E0, E10, E20, E40 ve E60 yakıtları
+
+620
+
+kullanılmıştır. Karışımdaki alkol oranının artmasıyla
+daha yüksek sıkıştırma oranlarında motor daha kararlı
+çalışmış ve CO, HC emisyonlarında azalma ve motor
+momentinde artış elde edilmiştir. Charalampos vd. [9]
+etanol, metanol ve alkol–benzin karışımlarının
+emisyonlara etkisini düşük güçlü bir motorda
+incelemişlerdir. Karışımdaki etanol miktarı arttıkça
+CO emisyonunun azaldığı ve saf etanol ile en düşük
+seviyeye indiği tespit edilmiştir. Hidrokarbon (HC)
+emisyonu da etanol miktarı arttıkça azalmış ancak
+E90 ve saf etanolda aşırı biçimde artmıştır. Etanolun
+alt ısıl değerinin düşük olması nedeniyle etanol
+miktarı arttıkça özgül yakıt tüketimi de artmıştır.
+Magnusson vd. [10] iki zamanlı bir motorda etanol ve
+etanol-benzin
+karışımlarının
+performans
+ve
+emisyonlara etkisini incelemişlerdir. Karışımdaki
+etanol miktarı arttıkça CO, HC ve NOx emisyonlarının
+azaldığı, ancak E85 ve E100 yakıtı kullanıldığında
+HC emisyonlarının arttığı belirlenmiştir. Benzin
+yerine
+etanol
+ve
+benzin-etanol
+karışımları
+kullanıldığında güçte önemli bir değişme olmamıştır.
+Bardaie vd. [11] tarafından yapılan çalışmada saf
+etanol ve metanolün motorda yakıt olarak kullanımı
+araştırılmıştır. Benzin yerine etanol kullanıldığında
+motorda sadece %3–4 güç kaybı olmuştur. El-Emam
+vd. [12] buji ateşlemeli bir motorda çeşitli yakıtların
+performans ve emisyonlara etkisini incelemişlerdir.
+Benzin yerine etanol kullanıldığında termik verimde
+artma, CO ve NOx emisyonlarında azalma elde
+edilmiştir.
+Gautam ve Martin [13] alkol-benzin karışımlarının
+yanma karakteristiklerini incelemişlerdir. Sonuçlara
+göre karışımdaki alkol miktarı artıkça benzine göre
+daha iyi vuruntu dayanımı belirlenmiştir. Popuri ve
+Bata [14] tarafından yapılan bir çalışmada, tek
+silindirli bir motor, %5, %10, %15, %20 ve %25
+alkol-benzin karışımları ile denenmiştir. Sıkıştırma
+oranı motor vuruntusu dikkate alınarak 7,5/1-15/1
+aralığında değiştirilmiştir. Sıkıştırma oranının
+artırılmasıyla termik verimin arttığı belirlenmiştir.
+Sümer [15] tek silindirli bir benzin motorunda etanol
+ve etanol-benzin karışımlarının motor performansına
+ve egzoz emisyonlarına etkilerini incelemiştir.
+Karışımdaki etanol yüzdesi arttıkça CO emisyonları
+azalmış, saf etanollu çalışmada ise en düşük değerler
+elde edilmiştir. HC emisyonları ise saf etanollu
+çalışmada en yüksek olmuş, karışımdaki etanol oranı
+azaldıkça azalmıştır. Yüksel ve Yüksel [16]
+tarafından yapılan bir çalışmada E60 yakıtının
+BAM’da kullanımı araştırılmıştır. Karışım yakıtla
+çalışma durumunda CO ve HC emisyonlarının
+sırasıyla %80 ve %50 oranında azaldığı
+belirlenmiştir. Al-Hasan [17] tarafından yapılan bir
+çalışmada %25’e kadar etanol içeren 10 adet karışım
+motorda denenmiş ve güç, volümetrik verim ve
+termik verimde artış elde edilmiştir. Topgül vd. [18]
+etanol-benzin karışımları ve ateşleme avansının motor
+performansına etkisini araştırmışlardır. Karışımların
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+Buji Ateşlemeli Bir Motorda Alternatif Yakıt Olarak Saf Etanolun Kullanılması
+
+kullanılması durumunda CO ve HC emisyonlarının
+azaldığı ve motorun sıkıştırma oranının artırılmasına
+karşın vuruntu oluşmadığı tespit edilmiştir.
+Etanolun motorlarda kullanımı ile ilgili mevcut
+literatür incelendiğinde; değişik etanol-benzin
+karışımları ile çeşitli sıkıştırma oranlarında birçok
+çalışmanın yapıldığı, ancak değişik sıkıştırma
+oranlarında saf etanol (E100) ile yapılan çalışmaların
+sınırlı sayıda olduğu görülmektedir. Bu çalışmada buji
+ateşlemeli bir motorda değişik sıkıştırma oranlarında
+saf etanol kullanımının motor performansına ve egzoz
+emisyonlarına etkisinin deneysel olarak incelenmesi
+amaçlanmıştır. Etanolun yüksek vuruntu dayanımı
+özelliğinden yararlanılarak motor yüksek sıkıştırma
+oranlarında
+çalıştırılmış,
+böylece
+motor
+performansının iyileştirilmesi amaçlanmıştır.
+2. DENEYSEL ÇALIŞMA (EXPERIMENTAL STUDY)
+Deneyler Karabük Üniversitesi Teknik Eğitim
+Fakültesi Otomotiv Ana Bilim Dalı laboratuarında
+yapılmıştır.
+Deneyler; tek silindirli, hava soğutmalı, 4 zamanlı,
+sıkıştırma oranı 4/1-10/1 arasında değiştirilebilen, 250
+cm3 motor hacmine sahip, Lombardini marka bir
+araştırma motorunda yapılmıştır. Orijinal sıkıştırma
+oranı 5/1 olan bu motorun sıkıştırma oranı daha önce
+yapılan bir çalışmayla [19] değişken hale getirilmiştir.
+Hava soğutmalı motorlarda silindir duvar sıcaklığı su
+soğutmalılara göre daha fazla olduğundan vuruntuyu
+önlemek için bu motorların sıkıştırma oranları 5/1,
+6/1, 7/1 gibi düşük tutulmaktadır. Deneylerde
+motorun yüklenmesi için Kemsan marka, 10 kW
+gücünde elektrikli dinamometre kullanılmıştır.
+
+M.B. Çelik ve A.Çolak
+
+Deney düzeneği; motor momentini, hızını, sıcaklığını
+ve yakıt tüketimini ölçebilecek donanıma sahiptir.
+Dinamometre kontrol ünitesi ile motor istenilen hızda
+hassas olarak yüklenilebilmekte ve motora ilk hareket
+verilebilmektedir.
+Deneylerde yakıt olarak %99,5 saflıkta etanol
+kullanılmıştır. Benzin ve etanolun çeşitli özellikleri
+Tablo 1’de verilmiştir.
+Tablo 1. Benzin ve etanolun özellikleri [1, 20].
+(Specifications of gasoline and ethanol)
+
+Kapalı formülü
+C/H oranı
+Mol ağırlığı (kg/kmol)
+Alt ısıl değeri (kJ/kg)
+Stokiyometrik H/Y oranı
+Buh. bas. (kPa, 23.5 oC)
+Kendi kendine tut. sıc.(oC)
+Araştırma oktan sayısı
+Motor oktan sayısı
+Buharlaşma ısısı (kJ/kg)
+Donma nok. (K) 0,1 MPa
+Kayn. nok.(K) 0,1 MPa
+Yoğunluk (kg/m3)
+
+Benzin
+C8H18
+0.445
+114.18
+44300
+14.6
+60-90
+257
+91-100
+82-94
+490
+243-263
+305-490
+727
+
+Etanol
+C2H5OH
+0.333
+46
+26900
+9
+17
+425
+106
+89
+921,1
+155
+351
+794
+
+Deney motorunun egzoz emisyonlarının ölçümü için
+MRU DELTA 1600L marka egzoz gaz analiz cihazı
+kullanılmıştır. Bu cihaz ile NO, NO2, HC, CO, CO2,
+O2 ve λ (hava fazlalık katsayısı) değişkenlerini
+ölçebilmek mümkündür. Tablo 2’de egzoz gaz analiz
+cihazının teknik özelikleri verilmiştir. Deney
+düzeneğinin
+şematik görünüşü
+Şekil
+1’de
+verilmektedir.
+
+1. Akü, 2. Endüksiyon Bobini, 3. Distribütör, 4. Motor, 5.Karbüratör, 6.Sıkıştırma Oranı Değiştirme Ayar Vidası, 7.Dinamometre, 8. Kuvvet
+Sensörü (Load-Cell), 9.Dinamometre Soğutucusu, 10.Hız Sensörü, 11.Yakıt Ölçme Düzeneği, 12.Yakıt Deposu, 13.Egzoz Gaz Analiz
+Cihazı, 14.Dinamometre Kontrol Paneli, 15.Marş ve Jeneratör Seçme Anahtarı, 16.Yük Kontrol Anahtarı, 17. Güç Anahtarı, 18.Hız
+Göstergesi, 19.Voltmetre, 20. Ampermetre, 21. Kuvvet Göstergesi.
+Şekil 1. Deney seti (Test set-up).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+621
+
+M.B. Çelik ve A.Çolak
+
+Buji Ateşlemeli Bir Motorda Alternatif Yakıt Olarak Saf Etanolun Kullanılması
+
+Tablo 2. Egzoz gaz analiz cihazının teknik özellikleri
+
+12
+
+(The technical specifications of the exhaust gas analyzer)
+
+Oksijen
+Karbon monoksit
+Karbon dioksit
+Hidrokarbon
+Azot oksit
+
+Ölçüm
+Aralıkları
+% 0 – 25
+% 0 – 15
+% 0 – 20
+0 –20000ppm
+0 – 4000 ppm
+
+11
+
+Duyarlılık
+0,1
+0,01
+0,01
+1
+1
+
+10
+Moment (Nm)
+
+Değişkenler
+
+9
+8
+7
+
+Benzin (S.O=6)
+Etanol (S.O=6)
+
+6
+
+Etanol (S.O=8)
+
+Deneysel çalışmada ilk olarak motorun ayarları
+kontrol edilmiş, motor
+çalışma sıcaklığına
+getirildikten sonra deneylere başlanmıştır. Tüm
+deneyler tam gazda ve değişik hızlarda yapılmıştır.
+Deneysel çalışmada motor 1500, 2000, 2500, 3000 ve
+3500 d/d hızlarda çalıştırılmıştır.
+Motor soğuk iken saf etanol ile ilk harekete geçiş zor
+olmuştur. Bu nedenle, motorun ilk çalıştırılması ve
+ısıtılması benzin ile yapılmıştır. Deneylerde, motor
+önce 6/1 sıkıştırma oranında benzin ve saf etanolla
+çalıştırılmış ve moment, güç, yakıt tüketimi ve egzoz
+emisyonları ölçülmüştür. Daha sonra motorun
+sıkıştırma oranı 6/1’den 8/1 ve 10/1’e yükseltilerek
+benzin ve saf etanol ile motor çalıştırılmıştır. 8/1
+sıkıştırma oranında tam yükte benzinli çalışma
+durumunda düşük hızlarda (1500 d/d, 2000 d/d)
+vuruntulu çalışma sebebiyle ölçüm yapılamamıştır.
+Vuruntu kendine özgü bir ses ve düzensiz çalışma
+şeklinde gözlenmiştir.
+Tam yük ve düşük hızda motora en fazla miktarda taze
+dolgu alındığı için motorun vuruntu eğilimi fazla
+olmaktadır. Ayrıca hava soğutmalı motorun silindir
+duvar sıcaklıklarının yüksek olması da vuruntu
+üzerinde etkilidir. Etanol kullanılması durumunda,
+etanolun oktan sayısı yüksek olduğu için 8/1 ve 10/1
+sıkıştırma
+oranlarında
+vuruntulu
+çalışma
+gözlenmemiştir.
+Etanolun alt ısıl değeri benzine göre düşük
+olduğundan HFK’nı (λ) 1’e ayarlamak için karbüratör
+üzerinde bulunan ana meme genişletilmiştir. Konik
+uçlu yakıt ayar vidası yardımıyla meme kesiti
+değiştirilerek tüm deneylerde λ =1 olacak şekilde
+ayarlanmıştır.
+
+5
+
+Etanol (S.O=10)
+
+4
+1000
+
+1500
+
+2000
+2500
+3000
+Motor hızı (d/d)
+
+3500
+
+4000
+
+Şekil 2. Değişik sıkıştırma oranları ve yakıtlar için
+motor momentinin değişimi (The variation of engine
+torque at different compression ratios for various fuels)
+
+görülmektedir. Moment grafiği incelendiğinde her iki
+yakıt türünde de maksimum momentin 2500 d/d’da
+elde edildiği görülmüştür. Benzin ile 6/1 sıkıştırma
+oranında maksimum moment 9.38 Nm, aynı
+sıkıştırma oranında etanol ile çalışmada 8.59 Nm
+olduğu tespit edilmiştir. Aynı sıkıştırma oranında
+etanol kullanımı motor momentinde yaklaşık %8’lik
+bir azalmaya neden olmuştur. Benzin-etanol
+karışımının ısıl değerinin benzinin ısıl değerinden
+düşük olması [21] ve etanolun motoru aşırı biçimde
+soğutma etkisi nedeniyle alev sönmesi olması
+momentin düşmesinde etkili olmaktadır. Sıkıştırma
+oranı arttıkça silindir sıcaklığının ve basıncın artması
+nedeniyle moment de artmaktadır. Etanol ile
+çalışmada 8/1 sıkıştırma oranında 10.01 Nm ve 10/1
+sıkıştırma oranında 11.43 Nm maksimum moment
+değeri görülmüştür. Motor 10/1 sıkıştırma oranında
+etanol ile çalıştırıldığında benzine göre yaklaşık
+%24’lük bir moment artışı olmuştur. Sıkıştırma
+oranının artırılmasına rağmen etanolun oktan
+sayısının yüksek olması nedeniyle vuruntulu
+çalışmaya rastlanmamıştır.
+Değişik sıkıştırma oranlarında her iki yakıt için motor
+gücünün motor hızı ile değişimi Şekil 3’te verilmiştir.
+Benzin ile 6/1 sıkıştırma oranında maksimum güç
+4,5
+4
+3,5
+Güç (kW)
+
+Ateşleme avansı her deney koşulunda maksimum
+momenti verecek şekilde distribütörlü ateşleme sistemi
+yardımıyla değiştirilmiştir. Deneylerde, her adımda
+motor devri sabitleştikten sonra kuvvet, yakıt tüketimi
+ve emisyon değerleri kaydedilmiştir.
+
+3
+2,5
+Benzin (S.O=6)
+
+2
+
+E
+tanol (S.O=6)
+E
+tanol (S.O=8)
+
+1,5
+
+3. SONUÇLAR VE TARTIŞMA
+(RESULTS AND DISCUSSION)
+
+3.1. Motor Performansı (Engine Performance)
+
+E
+tanol (S.O=10)
+
+1
+0,5
+1000
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+Motor hızı (d/d)
+
+Benzin ve etanol için farklı sıkıştırma oranlarında
+motor momentinin motor hızı ile değişimi Şekil 2’de
+
+Şekil 3. Değişik sıkıştırma oranları ve yakıtlar için
+motor gücünün değişimi (The variation of engine power at
+different compression ratios for various fuels)
+
+622
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+Buji Ateşlemeli Bir Motorda Alternatif Yakıt Olarak Saf Etanolun Kullanılması
+
+Değişik sıkıştırma oranlarında her iki yakıt için özgül
+yakıt tüketiminin (ÖYT) motor hızı ile değişimi Şekil
+4’te verilmiştir. Şekil 4’deki grafik incelendiğinde,
+etanol kullanılması durumunda ÖYT benzine göre
+daha yüksek çıkmıştır. Her iki yakıt türünde de ÖYT
+artan motor hızıyla birlikte 2500 d/d’da minimuma
+indikten sonra tekrar artışa geçmiştir. Bu hızdaki
+ÖYT değerleri, benzin kullanılması durumunda 6/1
+sıkıştırma oranında 428.4 g/kWh, etanol kullanılması
+durumunda ise 6/1, 8/1 ve 10/1 sıkıştırma oranlarında
+sırasıyla 720.3 g/kWh, 632.1 g/kWh ve 543.78 g/kWh
+olduğu görülmüştür. Etanolun alt ısıl değerinin
+benzine göre çok düşük olmasından dolayı etanol ile
+özgül yakıt tüketimi artmaktadır. Aynı sıkıştırma
+oranında (6/1) etanol ile ÖYT benzine göre %68
+oranında artmıştır. Sıkıştırma oranının 6/1’den 10/1’e
+çıkarılmasıyla etanol ile ÖYT’deki artış benzine göre
+%27 düzeyinde kalmıştır.
+
+Özgül yakıt tüketimi (g/kWh)
+
+1100
+
+Benzin (S.O=6)
+Etanol (S.O=6)
+Etanol (S.O=8)
+Etanol (S.O=10)
+
+1000
+900
+
+4
+Benzin (S.O=6)
+Etanol (S.O=6)
+Etanol (S.O=8)
+Etanol (S.O=10)
+
+3,5
+3
+CO (%)
+
+3.12 kW iken, etanol ile 6/1, 8/1 ve 10/1 sıkıştırma
+oranlarındaki maksimum güçler sırasıyla 2.95, 3.43 ve
+3.91 kW olarak belirlenmiştir. Aynı sıkıştırma
+oranında, moment değişimine benzer şekilde etanol
+ile çalışmada %7-8 oranında bir güç düşüklüğü
+meydana gelmiştir. Sıkıştırma oranının 10/1’e
+çıkarılmasıyla birlikte etanol ile benzine göre yaklaşık
+%25’lik güç artışı elde edilmiştir.
+
+M.B. Çelik ve A.Çolak
+
+2,5
+2
+1,5
+1
+1000
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+Motor hızı (d/d)
+
+Şekil 5. Değişik sıkıştırma oranları ve yakıtlar için
+CO emisyonu değişimi (The variation of CO emission at
+different compression ratios for various fuels)
+
+emisyonu 10/1 sıkıştırma oranında etanol ile %1.62
+olarak görülmüştür. Benzin yakıtlı motorda ise en
+düşük CO emisyonu %2.72 olarak belirlenmiştir.
+Etanol ile CO emisyonunun benzine göre ortalama
+%41 azaldığı tespit edilmiştir. Alkoller tek bir
+kaynama noktasına sahip olmaları nedeniyle, benzine
+göre çok daha iyi buharlaşmakta ve daha temiz
+yanmaktadır. Ayrıca etanolun yapısında bulunan
+oksijen de alkollerin daha temiz yanmasında etkili
+olmaktadır [9]. Grafikten de görüldüğü gibi etanol ile
+sıkıştırma oranındaki artışın CO emisyonu üzerindeki
+etkisi azdır. Yüksek sıkıştırma oranlarında artan
+basınç ve sıcaklıkla beraber yanma iyileşmekte ve CO
+emisyonu bir miktar azalmaktadır.
+
+800
+700
+600
+500
+400
+300
+1000
+
+1500
+
+2000
+2500
+3000
+Motor hızı (d/d)
+
+3500
+
+4000
+
+Şekil 4. Değişik sıkıştırma oranları ve yakıtlar için
+özgül yakıt tüketiminin değişimi (The variation of
+
+Hidrokarbon emisyonunu, yanmadan egzozdan atılan
+yakıt oluşturur. Şekil 6’da etanol ve benzin ile
+çalışmada ölçülen HC emisyonları verilmiştir. Şekil 6
+incelendiğinde, etanol ile benzine göre daha yüksek
+HC emisyonlarının oluştuğu görülmektedir. Bu artış,
+6/1 sıkıştırma oranında %17, 8/1 sıkıştırma oranında
+%27 ve 10/1 sıkıştırma oranında yaklaşık %40
+kadardır. Etanolun alt ısıl değeri ve stokiyometrik
+H/Y oranı benzine göre oldukça düşük olduğu için
+benzine eşdeğer ısı miktarını ve stokiyometrik
+
+specific fuel consumption at different compression ratios for
+various fuels)
+
+Benzin (S.O=6)
+Etanol (S.O=6)
+
+500
+HC (ppm)
+
+Etanol kullanımında, sıkıştırma oranı arttıkça motor
+gücü arttığı için ÖYT’de azalmaktadır. Deneylerde
+elde edilen moment, güç ve ÖYT sonuçları ile diğer
+araştırmacıların [7–11] sonuçları arasında kabul
+edilebilir bir uyumluluk vardır.
+
+600
+
+Etanol (S.O=8)
+Etanol (S.O=10)
+
+400
+300
+
+3.2. Egzoz Emisyonları (Exhaust Emissions)
+
+200
+
+Şekil 5 incelendiğinde, CO’ in artan motor hızıyla
+düştüğü görülmüştür. Artan motor hızı ile silindirlere
+giren hava hızının artması, yanma odasındaki
+türbülansı artıracağından daha homojen bir karışım
+oluşur. Bu da yakıtın yanmasını iyileştireceğinden,
+yüksek hızlarda CO’ de düşme görülür. En düşük CO
+
+100
+1000
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+Motor hızı (d/d)
+
+Şekil 6. Değişik sıkıştırma oranları ve yakıtlar için
+HC emisyonu değişimi (The variation of HC emission at
+different compression ratios for various fuels)
+623
+
+Buji Ateşlemeli Bir Motorda Alternatif Yakıt Olarak Saf Etanolun Kullanılması
+
+karışımı sağlayabilmek için silindire daha fazla yakıt
+gönderilmekte ve etanolun soğutucu etkisi
+artmaktadır. Bu durum silindir duvarlarına yakın
+bölgelerde alev sönmesine neden olmakta ve saf
+etanol ile HC emisyonları artmaktadır. Bunun yanı
+sıra artan sıkıştırma oranı ile birlikte yanma odası
+yüzey/hacim oranının artması da HC emisyonunda bir
+miktar artışa sebep olmaktadır. CO ve HC emisyonu
+sonuçları
+diğer
+araştırma
+sonuçları
+ile
+kıyaslandığında, saf etanol üzerine çalışma yapan
+başka araştırmacıların [9, 10] da benzer sonuçları elde
+ettiği görülmüştür.
+CO2, küresel ısınmaya neden olan bir gazdır.
+İçerisinde karbon atomu az olan veya olmayan yakıtlar
+CO2 emisyonu bakımından tercih edilmektedir. Şekil
+7’deki grafik incelendiğinde, etanol ile CO2
+emisyonunun benzine göre daha düşük olduğu
+görülmektedir. Aynı sıkıştırma oranında (6/1) etanol
+ile benzine göre CO2 emisyonu %21 oranında daha
+düşük çıkmıştır. Etanol ile CO2 emisyonundaki
+düşüşün nedeni, etanolun C/H oranının düşüklüğü ve
+yapısında bulunan C atomunun benzininkinden az
+olmasıdır. CO2 sonuçları bir başka araştırmacının [5]
+sonuçları ile uyumluluk göstermektedir.
+
+14
+
+CO2 (%)
+
+13
+12
+11
+10
+
+Benzin (S.O=6)
+
+9
+
+Etanol (S.O=6)
+Etanol (S.O=8)
+Etanol (S.O=10)
+
+7
+1000 1500 2000 2500 3000 3500 4000
+Motor hızı (d/d)
+
+Şekil 7.Değişik sıkıştırma oranları ve yakıtlar için
+CO2 emisyonu değişimi (The variation of CO2 emission at
+different compression ratios for various fuels)
+
+Değişik sıkıştırma oranlarında her iki yakıt için NOx
+emisyonu değişimleri Şekil 8’de verilmiştir. Şekil
+8’deki grafik incelendiğinde etanol ile benzine göre
+NOx emisyonunun azaldığı görülmektedir. NOx
+emisyonu 2500 d/d’da, 6/1 sıkıştırma oranında
+benzinli çalışmada 2113 ppm iken, etanollu çalışmada
+980 ppm kadardır ve bu yaklaşık %53.5 kadar bir
+azalmaya karşılık gelmektedir. Etanollu çalışmada
+NOx emisyonunun düşük çıkmasının nedeni, etanolün
+buharlaşma ısısının yüksek olmasından dolayı
+karışımı soğutması ve sonuçta çevrim sıcaklığını
+düşürmesidir. Sıkıştırma oranının 8/1 ve 10/1’e
+artırılmasıyla, 2500 d/d’da NOx emisyonu sırasıyla
+1230 ppm ve 1560 ppm’e yükselmiştir. Bu artışın
+nedeni sıkıştırma oranının artması ile çevrim
+sıcaklığının artmasıdır. Etanollu çalışmada 10/1
+624
+
+2100
+1700
+1300
+Benzin (S.O=6)
+
+900
+
+Etanol (S.O=6)
+Etanol (S.O=8)
+
+500
+1000
+
+Etanol(S.O=10)
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+Motor hızı (d/d)
+
+Şekil 8. Değişik sıkıştırma oranları ve yakıtlar için
+NOx emisyonu değişimi (The variation of NOx emission at
+different compression ratios for various fuels)
+
+sıkıştırma oranında elde edilen NOx emisyonu
+benzinli çalışmayla elde edilen değerden %26 daha
+düşüktür. Bu çalışmada elde edilen NOx sonuçlarına
+benzer sonuçları saf alkol üzerine çalışma yapan diğer
+araştırmacıların [10, 12] da elde ettiği görülmüştür.
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada buji ateşlemeli bir motorda değişik
+sıkıştırma oranlarında saf etanol kullanımının motor
+performansına ve egzoz emisyonlarına etkisi deneysel
+olarak incelenmiştir. Etanolun yüksek oktan sayısı
+özelliğinden yararlanılarak performansı artırmak için
+motorun sıkıştırma oranı artırılmıştır.
+
+15
+
+8
+
+2500
+
+NOx (ppm)
+
+M.B. Çelik ve A.Çolak
+
+Deneyler iki aşamada gerçekleştirilmiştir. Birinci
+aşamada, deney motoru 6/1 sıkıştırma oranında benzin
+ve saf etanol ile test edilmiştir. İkinci aşamada,
+sıkıştırma oranı 8/1 ve 10/1’e yükseltilerek her iki
+yakıtla denenmiştir. 8/1 sıkıştırma oranında benzinli
+çalışmada düşük motor hızlarında (1500 ve 2000 d/d)
+vuruntu nedeniyle deney yapılamamıştır. 8/1 ve 10/1
+sıkıştırma oranlarında saf etanol kullanılmış ve vuruntu
+gözlenmemiştir. Deneyler sonucunda 6/1 sıkıştırma
+oranında etanol ile benzine göre önemli bir güç kaybı
+olmadan CO, CO2 ve NOx emisyonlarında bir miktar
+azalma elde edilmiştir. Sıkıştırma oranının 10/1’e
+çıkarılmasıyla, etanol ile benzine göre %25 güç artışı
+sağlanmıştır. Ayrıca CO, CO2 ve NOx emisyonlarında
+sırayla %41, %21 ve %26 azalma elde edilirken, HC
+emisyonunda %40 artış gözlenmiştir.
+Deney sonuçlarında da görüldüğü gibi sıkıştırma oranı
+değiştirilmeden,
+benzinli
+motor
+etanol
+ile
+çalıştırıldığında motor momenti ve gücünde bir miktar
+kayıp söz konusudur. Ancak yine de zararlı
+emisyonların azaldığı görülmektedir. Artan sıkıştırma
+oranıyla birlikte yanma sonu basınç ve sıcaklığı
+artmakta, dolayısıyla motor momenti, motor gücü
+artmakta ve özgül yakıt tüketimi azalmaktadır.
+Etanolun alt ısıl değerinin benzine göre düşük olması
+nedeniyle etanol ile özgül yakıt tüketimi bütün
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+Buji Ateşlemeli Bir Motorda Alternatif Yakıt Olarak Saf Etanolun Kullanılması
+
+sıkıştırma oranlarında benzine göre daha yüksek
+çıkmıştır.
+6.
+Deney sonuçları, buji ateşlemeli motorlarda benzin
+yerine alkol kullanıldığında motorda önemli bir güç
+kaybı olmadan HC emisyonu hariç, CO, CO2 ve NOx
+emisyonlarında önemli azalmalar sağlandığını
+göstermektedir. Ayrıca etanol, yüksek oktan sayısına
+sahip olduğundan sıkıştırma oranı artırılmış
+motorlarda kullanıldığında motor gücünde önemli
+artışlar elde edilebilmektedir.
+
+7.
+
+Etanolun alt ısıl değerinin benzinden düşük olması
+nedeniyle, uygun hava/yakıt karışımını elde etmek için
+benzinli araçlarda kullanılan karbüratörler üzerinde
+bazı değişiklikler yapmak gerekir.
+
+8.
+
+Etanol yakıtlı motorlarda HC emisyonu benzinli
+motora göre daha yüksek çıkmaktadır. Motora
+gönderilen etanolun veya emilen havanın ısıtılması ile
+hem HC emisyonu düşürülebilir hem de motor
+performansı
+artırılabilir.
+Etanol
+kullanılması
+durumunda HC emisyonunu azaltmak için fakir
+karışımlarla çalışılabilir. Etanol soğutucu etkisi
+nedeniyle özellikle soğuk havalarda çalışma zorluğuna
+neden olmaktadır. Etanol kullanılan motorlarda
+soğukta ilk hareketi kolaylaştıracak sistemler
+tasarlanabilir. Motora ilk hareketi vermek için LPG,
+hidrojen
+gibi
+kolay buharlaşabilen
+yakıtlar
+kullanılabilir.
+
+9.
+
+Tarımda önemli bir paya sahip ülkemizde; tarımsal
+ürünlerden elde edilebilen, alternatif ve çevre dostu bir
+yakıt olarak etanola önem verilmeli ve daha kolay ve
+ucuz üretim olanağı sağlanmalıdır. Böylece petrole
+bağımlılık azaltılarak ülkemiz ekonomik ve siyasal
+olarak daha güçlü hale gelebilecektir.
+
+12.
+
+10.
+
+11.
+
+13.
+
+KAYNAKLAR (REFERENCES)
+14.
+1. Sürmen, A., Karamangil, M. İ. ve Arslan, R.,
+“Motor Termodinamiği, 240 s. Aktüel yay.,
+İstanbul, 2004.
+2. McCallum, P. W., Timbario, T. J., Bechtold, R.
+L. ve Ecklund, E. E., “Alcohol Fuels for Highway
+Vehicles”, Chemical Engineering Progress 78,
+8, 52-59, 1982.
+3. Hsieh, W., Chen, R., Wu, T. ve Lin, T., “Engine
+Permormance and Pollutant Emissions of an SI
+Engine Using Ethanol-Gasoline Blended Fuels”,
+Atmospheric Environment 36, 403-410, 2002.
+4. Al-Baghdadi, M. A.-R. S., “Hydrogen-Ethanol
+Blending as an Alternative Fuel of Spark Ignition
+Engines”, Renewable Energy 28, 1471-1478,
+2003.
+5. Wu, C.W., Chen, R.H., Qu, J.Y.ve Lin, T.H.,
+“The Influence of Air-Fuel Ratio on Engine
+Performance And Pollutant Emission of an SI
+Engine Using Ethanol-Gasoline Blended Fuels”,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+15.
+
+16.
+17.
+
+18.
+
+M.B. Çelik ve A.Çolak
+
+Atmospheric Environment 38, 7093-7100,
+2003.
+Bayraktar, H., “Experimental and Thereotical
+Investigation of Using Gasoline Ethanol Blends
+in Spark Ignition Engines”, Renewable Energy
+30, 1733-1747, 2005.
+Abdel-Rahman, A.A. ve Osman, M.M.,
+“Experimantal Investigation on Varying The
+Compression Ratio of SI Engine Working Under
+Different Ethanol-Gasoline Fuel Blends”,
+International Journal of Energy Research, 21,
+31-40, 1997.
+Yücesu, H. S., Topgül, T., Çinar, C. ve Okur, M.,
+“Effect of Ethanol–Gasoline Blends on Engine
+Performance and Exhaust Emissions in Different
+Compression Ratios”, Applied Thermal
+Engineering 26, 2272-2278, 2006.
+Charalampos, A. I., Anastasios, K. N. ve
+Panagiotis, S. D., “Gasoline-Ethanol, Methanol
+Mixtures and A Small Four-Stroke Engine”, Heat
+and Technology, 22, 2, 69-73, 2004.
+Magnusson, R. ve Nilson, C., “Emissions of
+Aldehydes And Ketones From A Two- Stroke
+Engine Using Ethanol and Ethanol-Blended
+Gasoline As Fuel”, Environmental Science And
+Technology, 36, 8, 1656-1664, 2002.
+Bardaie, M. Z. ve Rimfiel, J., “Conversion of
+Spark-Ignition Engine For Alcohol UsageComparative
+Performance”,
+Agricultural
+Mechanization in Asia –Africa and Latin
+Amerika, 15, 2, 31-34, 1984.
+El-Emam, S. H. ve Desoky, A. A., “A Study On
+The Combustion of Alternative Fuels in SparkIgnition Engines”, Int. J. Hydrogen Energy, 10,
+7, 497-504, 1985.
+Gautam, M. ve Martin, D.W., “Combustion
+Characteristics Of Higher-Alcohol/Gasoline
+Blends”, Proceedings of the Institution of
+Mechanical Engineers, 214, 5, 497-511, 2000.
+Popuri, S.S. ve Bata, R.M., “A Performance
+Study of Iso-Butanol, Methanol, EthanolGasoline Blends Using a Single Cylinder
+Engine”, SAE Transactions 2, 932953, 1993.
+Sümer, M., “Buji Ateşlemeli Motorlarda Etanol
+Kullanımı, Performans ve Maliyet Analizi”,
+Yüksek Lisans Tezi, G.Ü. Fen Bilimleri
+Enstitüsü, 1999.
+Yüksel, F. ve Yüksel, B., “The Use of EthanolGasoline Blends as a Fuel in an SI Engine”,
+Renewable Energy 29, 1181-1191, 2004.
+Al-Hasan, M., “The Effect of Ethanol-Unleaded
+Gasoline Blends on Engine Performance and
+Exhaust Emission”, Energy Conversion and
+Management 44, 1547-1561, 2003.
+Topgül, T., Yücesu, H. S., Çinar, C. ve Koca, A.,
+“The Effects of Ethanol-Unleaded Gasoline
+Blends and Ignition Timing on Performance and
+Exhaust Emissions”, Renewable Energy 31, 15,
+2534-2542, 2006.
+
+625
+
+M.B. Çelik ve A.Çolak
+
+Buji Ateşlemeli Bir Motorda Alternatif Yakıt Olarak Saf Etanolun Kullanılması
+
+19. Çelik, M. B., “Buji İle Ateşlemeli Bir Motorun
+Sıkıştırma
+Oranının
+Değişken
+Hale
+Dönüştürülmesi Ve Performansa Etkisinin
+Araştırılması”. Doktora Tezi, G.Ü. Fen Bilimleri
+Enstitüsü, Ankara, 1999.
+20. Çolak, A., “Buji Ateşlemeli Bir Motorda Farklı
+Sıkıştırma Oranlarında Etanol Kullanımının
+
+626
+
+Performans Ve
+Emisyonlara
+Etkisinin
+İncelenmesi”, Yüksek Lisans Tezi, Z.K.Ü. Fen
+Bilimleri Enstitüsü, Zonguldak, 2006.
+21. Borat, O., Balcı. M. ve Sürmen, A., “İçten
+Yanmalı Motorlar”, s.145, GÜ Tek. Eğt. Fak.
+Yay., Ankara,1994.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+

@@ -1,0 +1,1544 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 3, 625-635, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 3, 625-635, 2014
+
+HAVA SOĞUTMA KANALLI FREN DİSKLERİNİN
+TERMO-MEKANİK ÖZELLİKLERİNİN SONLU ELEMAN
+ANALİZİ KULLANILARAK GELİŞTİRİLMESİ
+Mesut DÜZGÜN
+Otomotiv Mühendisliği, Teknoloji Fakültesi, Gazi Üniversitesi, 06500, Ankara, Türkiye
+mduzgun@gazi.edu.tr
+(Geliş/Received: 30.12.2013; Kabul/Accepted: 15.05.2014)
+Özet
+Bu çalışma, otomotiv ve demiryolu endüstrileri için yaygın olarak üretilen delikli tip geometriye sahip hava
+soğutma kanallı fren disklerinin termo-mekanik özelliklerinin geliştirilmesi amacıyla yapılmıştır. Farklı
+tasarımlar elde edebilmek amacıyla soğutma delikleri arasında beş farklı lineer mesafe ve disk merkezine göre
+beş farklı açısal yerleşim düzenleri tercih edilmiştir. Elde edilen sonuçların optimizasyonu için nümerik testler
+Taguchi dikey dizisi ve Grey ilişki analizlerine göre tasarlanmıştır. Sonlu eleman analizinde nümerik testlerin
+Taguchi-Grey teknikleri ile kombinizasyonu, sonuçların optimizasyonu için gerekli simülasyonların sayısını
+azaltmak için kullanılmıştır. Aynı zamanda dış etkenlerden en az seviyede etkilenen tasarım faktörlerinin
+bulunması ile ayrıca bir gelişme sağlanmıştır. Bu çalışma sonuçları bakımından fren disklerinde termal
+gerilmelerin azaltılması ve böylece disk ömrünün uzatılmasından dolayı, hava soğutma kanallı fren disklerini
+imal eden üreticilere önemli tasarım kriterleri sağlamaktadır. Bu çalışmada kullanılan disklerin üzerindeki termal
+gerilmeler disklerin toplam yüzey alanları ve hacim/ağırlıklarını değiştirmeden değişken tasarımlar ile %13 ile
+%54 arasında iyileştirilmiştir.
+Anahtar Kelimeler: Termo-Mekanik Özellik, Fren Diskleri, Sonlu Eleman Analizi
+
+IMPROVEMENT OF THERMO-MECHANICAL CHARACTERISTIC OF THE
+SELF VENTILATED BRAKE DISCS USING FEA
+Abstract
+This study is focused to improve thermo-mechanical characteristics of cross-drilled type of the ventilated brake
+disc geometry, which has been widely manufactured by automotive and railway industries. Five different linear
+distance between hole locations, five different distance from the center of the disc and five different angular
+rotation for hole locations were chosen to obtain variable designs. Numerical experiments were designed
+according toTaguchi’s orthogonal array and grey relation analyses were used to optimize the results. In FEA
+(Finite Element Analysis), combination of numerical study with Taguchi-Grey techniques not only reduced the
+number of simulations necessary to optimize the results but also provided an improvement by finding the factors
+which were not greatly influenced by external or uncontrollable factors . The outcomes of this study will guide
+manufacturers to produce improved ventilated brake discs by reducing the thermal stresses and thus enhancing
+the longevity. In this study on the thermal stress of the disc drive of the total surface area and volume/weight and
+without changing the design variable has been improved from 54% to 13%.
+Keywords: Thermo-Mechanical, Self Ventilated Brake Discs, FEA
+1.GİRİŞ (INTRODUCTION)
+Bir taşıtın frenlenmesi esnasında, frenleme boyunca
+taşıtın hareket enerjisi fren sürtünme elemanlarında ısı
+enerjisine çevrilmekte ve oluşan bu ısının büyük bir
+
+kısmı dış ortama transfer edilmektedir. Ayrıca ısının
+büyük kısmı transfer edilmeden önce fren diskleri
+tarafından absorbe edilerek fren elemanları üzerinde
+depolanmaktadır. Fren disklerinde hava kanalları
+uygulamalarının kullanılmasının en önemli nedeni
+
+M. Düzgün
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman... 
+
+disk soğuma sürecinin kolaylaştırılmasıdır [1]. Bu
+soğutma uygulamalarının, fren disklerindeki ısı iletim
+kabiliyetlerini,
+aracın
+hızına
+ve
+disk
+konfigürasyonlarına bağlı olarak %24 oranına kadar
+artırdığı ispatlanmıştır [2,3]. Ancak, hava soğutma
+kanallı fren disklerinin kullanılmasında bazı önemli
+problemler vardır. Yüksek sıcaklıklar termal
+şoklardan dolayı disk yüzeyinde çatlaklara ve plastik
+deformasyona sebep olabilmektedir. Örnek olarak
+dökme demir esaslı fren diskleri, disk sürtünme
+yüzeyi yarıçapı boyunca yaklaşık olarak 1-7,5 cm
+aralığındaki uzunluklarda çeşitli çatlaklara maruz
+kalabilmektedirler [4]. Frenleme esnasında yüksek
+sıcaklıklar disk yüzeyinde kılcal çatlaklara sebep
+olmaktadır. Bu çatlakların sebebi olan termal gerilme
+döngüleridir ve bu termal gerilmelerin bir sonucu
+olarak fren disklerinin soğuması esnasında disk
+üzerinde ciddi kalıntı gerilmeleri oluşmaktadır.
+Soğutma amaçlı disk yüzeylerine açılan kanallar ısı
+transferini kolaylaştırmakta, ancak yüzeyde farklı
+gerilmelere de sebep olmaktadır. Ayrıca bunlara ek
+olarak en büyük yorulma çatlakları, fren disklerinin
+soğutma delikleri etrafında ve en yüksek termal
+gerilmelerin gerçekleştiği yerlerde olduğu sonlu
+eleman analizi ile ispatlanmıştır [4,5]. Fren
+disklerinde oluşan bu tip deformasyonların önlenmesi
+için birçok çalışma yapılmış ve sonuçlara göre
+öneriler yapılmıştır. Bunlar; minimum frenleme
+sıcaklıkları elde etmek için disk yanak kalınlığının
+maksimizasyonu [6], disk malzemesinin akma ve
+yorulma dayanımlarının artırılması; göbek-rotor
+ünitesinin yeniden tasarlanması ile frenleme
+sıcaklıklarının azaltılması veya termal gerilmelerin
+hafifletilmesi, ayrıca gerilmelerin elimine edilmesi
+için yeni mekanik tasarımların geliştirilmesi [7], disk
+imalatında fren disklerinin yorulma dayanımının
+olduğu kadar mekanik ve termal özelliklerinin de
+iyileşitirilmesi amacıyla yüksek miktarda (%2,5 den
+daha fazla) Si içeriği, Mo, Ni ve Ce gibi alaşımlama
+elementlerinin eklenmesi ile dayanımı artırılmış
+dökme demir malzemesinin kullanılması [4], hava
+soğutma kanallı fren diskleri üzerindeki gerilimlerin
+azaltılması için fren balataları üzerine değişken
+kuvvetlerin uygulanması [8] gibi çalışmalardır. Şekil
+1 hava soğutma kanallı fren diski uygulamasını ve bu
+diskin sürekli ve tekrarlanan frenleme sonucu yüzey
+çatlakları ile deformasyonunu göstermektedir.
+
+Dolayısıyla, termal gerilimlerin minimizasyonu, fren
+diskleri üzerindeki termal çatlakların önlenmesi ve
+böylece bir aracın frenleme güvenlik faktörünün
+artırılması için çok önemlidir. Şimdiye kadar yapılmış
+olan çalışmalarda, termal gerilmelerin minimizasyonu
+ve hava soğutma kanallı fren disklerinin termomekanik özelliklerinin değişken tasarımlar yoluyla
+analizi tercih edilen yöntemlerden birisi olmamıştır.
+Bu çalışmada, hava soğutma kanallı fren disklerinin
+termo-mekanik özelliklerinin sonlu eleman yöntemi
+kullanılarak
+iyileştirilmesini
+araştırmak
+amaçlanmıştır.
+2.TERMO-MEKANİK
+SONLU
+ANALİZİ (THERMO-MECHANICAL
+
+ELEMAN
+ANALYSIS
+
+OF
+
+FINITE ELEMENT)
+
+Bu çalışmada sonlu eleman analizleri, zamana bağlı
+yükler altında disk-balata çifti sistemlerinin dinamik
+tepkilerini belirlemek için zaman-tarih analizi olarak
+da adlandırılan geçişli termo-mekanik esaslı analizler
+yapılarak
+gerçekleştirilmiştir.
+Böylece,
+fren
+disklerindeki sıcaklıkların, zaman değişimine bağlı
+olarak ve geçici yüklere karşı tepki olarak oluşan
+termal gerilmelerinin ölçüleri belirlenmiştir.
+2.1. Geometrik Modeller (Geometrical Models)
+Fren diskleri ve fren balatalarının üç boyutlu bağlama
+modelleri Şekil 2’de gösterilen fren disklerinin
+ölçüsel değişimlerine bağlı olarak modellenmiştir.
+Tüm analizler için fren disklerinin iç yarıçap (ri), dış
+yarıçap (ro) ve hava kanalı delik çapları (ØD) sırasıyla
+50 mm, 100 mm ve 4 mm olacak şekilde
+düzenlenmiştir. Geometrik modeller için disk-balata
+sisteminin kaplama açısı (ϕ0) 35° olacak şekilde
+sabitlenmiştir. Daha küçük kaplama açısının seçimi,
+tasarım ve ağ yapısının minimizasyonunu ile
+analizlerde daha az hesaplama süresi avantajını
+sağlamıştır. Fren diskleri ve fren balatalarının
+kalınlıkları 8 mm’dir. Disk ve balata yüzeyleri
+arasındaki boşluk 0,5 mm’dir. Ortadaki deliğin radyal
+mesafesi (rm), iç-orta-dış havalandırma delikleri
+arasındaki lineer mesafe (δ) ve pervane açısı (θ) gibi
+diğer girdiler sonlu eleman analizleri için
+değiştirilmiştir. Bu tasarımlarda üç adet delik
+kullanılması ile disk sürtünme yüzeyinin iç, orta ve
+dış bölgelerindeki termal gerilme değişimlerinin
+belirlenmesi amaçlanmıştır. Delik yerleşimleri için
+pervane açısı, Şekil 1’de gösterildiği gibi, pervane
+şekilli metodolojiye göre değiştirilmiştir.
+Bu tasarım hava soğutma kanal yapısına sahip birçok
+ürün uygulamasında tercih edilen ve kullanılan bir
+geometrik tasarımdır.
+
+Şekil 1. Delikli tip fren diski uygulamasında yüzey
+çatlakları sonucu deformasyon (Hole-type brake discs result
+in the application of surface cracks)
+
+626
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014 
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman...
+
+M. Düzgün  
+
+yüzeylerinin tanımlanmasında sırasıyla CONTA 174
+(3-D 8 düğümlü yüzeyden yüzeye temas) ve TARGE
+170 (3-D hedef segmenti) elemanları kullanılmıştır.
+Böylece hedef disk yüzeyleri, elemanlar ile
+ağlandırılırken, balata yüzeyleri temas elemanları ile
+ağlandırılmıştır. Fren diskleri ve balatalarının 3D
+bağlama modelleri toplamda ortalama olarak 6,711
+en-boy oranına sahip 4409 düğüm ve 657 eleman ile
+ağlandırılmıştır. Şekil 3’de örnek bir disk-balata
+bağlama sisteminin ağ modeli gösterilmektedir.
+
+Şekil 2. Fren disklerinin tasarımları için değişken
+parametreler (Variable parameters for the design of brake discs)
+2.2. Sonlu Eleman Modelleri (Finite Element Models)
+Etkileşimli termo-mekanik analizlerde fren diski
+malzemesi olarak en yaygın kullanılan dökme demir
+malzeme tercih edilmiştir. Sonlu eleman analizi için
+disk ve balata malzemelerinin termal ve mekanik
+özellikleri Tablo 1’de verilmiştir.
+Tablo 1. Disk ve balata malzemelerinin mekanik ve
+termal özellikleri (Discs and pads for mechanical and thermal
+properties of materials)
+
+Mekanik ve Termal
+Özellikler
+Poisson Oranı
+3
+
+Yoğunluk (kg/m )
+Termal Uzama (1/°C)
+Maksimum Çekme
+Dayanımı (N/mm2)
+Maksimum Basınç
+Dayanımı (N/mm2)
+Termal İletkenlik (W/m°C)
+Özgül Isı (J/kg°C)
+
+Balata
+
+110000
+
+1500
+
+0,28
+
+Elastikiyet Modülü (N/mm2)
+
+Disk
+
+0,25
+
+7200
+
+2595
+
+1,10E-05
+
+6,60E-05
+
+240
+
+-
+
+820
+
+-
+
+52
+
+1,212
+
+460
+
+1465
+
+Disk-balata sistemlerinin montajlarında
+hexahedral ağ oluşturmak için süpürme
+kullanılmıştır. Bu yöntem kullanılarak, katı
+hexahedral eleman ile daha etkili
+ağlandırılabilmektedir.
+
+yaygın
+yöntemi
+parçalar
+şekilde
+
+Bu elemanların oluşturulmasında hesaplama süresi
+daha azdır. Böylece, fren diskleri ve balataları 20
+düğümlü yapısal katı (SOLID 186) ve düzgün
+azaltılmış integrasyon eleman teknolojisi ile
+ağlandırılmışlardır [9,10]. Disk-balata ara yüzeyinde,
+büyük asimetrik bir katsayı ile problemlerin
+çözümünde kararsız durumların daha doğru olarak
+tahmin edilmesi için daha ince ağ yapısı
+kullanılmıştır. Balata temas ve hedef disk sürtünme
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Şekil 3. Disk-balata bağlama sistemi ağ modeli.
+
+(Disc-
+
+pad clamping system network model)
+
+2.2.1.Sınır Şartları (Boundary Conditions)
+Disk-balata arayüzeyinde oluşan sürtünmeli kayma
+temasını simüle etmek için 0,35 sürtünme katsayılı bir
+yüzeyden, diğer yüzeye sürtünmeli/frenleme temas
+çifti kullanılmıştır. Sürtünmeli disk-balata temas çifti
+için artırılmış Lagrange algoritması seçilmiştir.
+Böylece, denge iterasyonları esnasında basınç ve
+sürtünme gerilmeleri artırılmıştır ve böylece etki
+derece derece azaltılmıştır. Temas şartlarını dengede
+tutmak için standart Lagrange çarpanı algoritması ek
+iterasyonlar gerektirmektedir. Ancak, artırılmış
+Lagrange algoritmaları daha az hesaplama kaynakları
+gerektirmekte ve bu algoritmalar fren diski ve fren
+balataları arasındaki genel sürtünmeli temasın
+modellenmesi için uygundur [9,10]. Bundan dolayı bu
+çalışmada fren diskleri ve balatalarının sürtünmeli
+temas yüzeyleri arasında artırılmış Lagrange
+algoritmaları seçilmiştir. Ek olarak, disk-balata
+sistemleri arasındaki arayüzey işlemi, herhangi bir
+başlangıç boşluklarını kapatacak şekilde temas etmesi
+için ayarlanmıştır. Başlangıçtaki etki, gerilimsiz
+durum oluşturmak için ihmal edilmiştir. Diskin iç ve
+dış
+çapları
+radyal
+ve
+eksenel
+yönlerde
+sınırlandırılmıştır ve böylece teğetsel yönde diskin
+serbest hareketi sağlanmıştır. Fren balatalarının
+yüzeylerinin yer değiştirmesi eksenel yön (Z ekseni
+boyunca) dışında tüm yönlerde sınırlandırılmıştır.
+Kuvvet yüklemesi, fren diski ile temas kurabilmek
+için balataların her iki dış yüzeylerine gerilme
+etkilerini de içermek için uygulanmıştır. İlgili kuvvet
+
+627 
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman... 
+
+M. Düzgün
+
+büyüklüğü daha önce gerçekleştirilen benzer bir
+çalışmada [8] tahmin edildiği gibi (F) 9689 N olarak
+uygulanmıştır. Sonlu eleman analizleri için başlangıç
+ve ortam sıcaklık değerleri 22 °C olarak
+sabitlenmiştir. Geçişli termo-mekanik sonlu eleman
+analizi için temel varsayımlar; aracın başlangıç hızı
+frenlemeden önce yüksek viteste 6000 1/min ve
+transmisyon dişlisi ile 4380 1/min’e eşit, yaklaşık
+olarak saatte 90 km/h, sabit yavaşlama hız varsayımı
+ile ve Eşitlik 1’ de verildiği gibi toplamda 5 saniye
+içerisinde duracak şekilde [11] kabul edilmiştir.
+1
+
+(1)
+
+Bu eşitlikte (ωt) ve (ωt0) sırasıyla fren disklerinin
+anlık ve başlangıç açısal hızı (sec-1), (t) zaman
+koordinatı (sec) ve (tf) frenlemenin final zamanıdır
+(sec). Böylece zamana bağlı lineer olarak azalan
+açısal hız (ωt0=4380 RPM, ωt1=3504 RPM, ωt2=2628
+RPM, ωt3=1752 RPM, ωt4=876 RPM ve ωt5=0 RPM)
+disk çapının merkezine göre tanımlanmıştır. Sabit
+kuvvet büyüklüğü (9689 N), balata yüzeyleri üzerine
+5 saniye boyunca frenlemenin başlangıcından aracın
+duruşuna kadar sürekli olarak uygulanmıştır. Geçişli
+termo-mekanik sonlu eleman analizleri 1 saniye
+zaman adımları ile uygulanmıştır.
+2.2.2.Fren Disklerine Isı Akışı
+
+(Heat Flow to the Brake
+
+Discs)
+
+Frenleme esnasında bir aracın kinetik ve potansiyel
+enerjisi, sürtünmeli disk-balata çifti ara yüzeylerinde
+termal enerjiye dönüştürülmektedir. Frenleme
+esnasında fren disklerine ısı akışı frenleme zamanına
+bağlı olarak belirlenebilmektedir [12]. Ancak fren
+diskleri boyunca ısı akışının belirlenmesinde bu
+çalışmanın geometrik modelleri için çok daha uygun
+olan ve bazı çalışmalarda da [11, 13] önerildiği gibi
+aşağıdaki eşitlik ile (Eş. 2) kullanılmıştır.
+(2)
+Bu eşitlikte (ϕ0) balata temas açısı (rad), (μ) sürtünme
+katsayısı, (Pmax) balata üzerine dağıtılmış maksimum
+basınç (N/m2) ve (rmn) fren diskinin sürtünme
+yüzeyinin ortalama yarıçapını sembolize eden radyal
+konumdur. (σ) fren diski tarafından absorbe edilen
+bağıl frenleme enerjisidir ve aynı zamanda disk ve
+balata arasındaki ısı ayırma katsayısı olarak da bilinir.
+Bu katsayı sırasıyla aşağıdaki eşitlikler yoluyla (Eş. 3,
+4 ve 5) fren diskleri ve balatalarının termal yayılma
+gücü kullanılarak hesaplanabilmektedir [12,14,15].
+⁄
+
+(3)
+
+,
+
+,
+
+,
+
+Bu eşitliklerde sırasıyla (q) disk-balata sisteminin
+sürtünmeli temas arayüzeyi üzerinde oluşan toplam
+ısıdır (W/m2) ve disk (qd) ve balata (qp) içerisine olan
+ısı akışlarının toplamına eşittir ve (ρd) fren diskleri ve
+balatalarının yoğunluklarıdır (kg/m3). (cp)ve (cd) fren
+diskleri ve balatalarının özgül ısısıdır (J/kg°C), (kp) ve
+(kd) fren diskleri ve balatalarının termal
+iletkenlikleridir (W/m°C). (ε) termal etkinlik
+katsayısı, (Kp) ve (Kd) fren diskleri ve balatalarının
+termal yayılma gücüdür (m2/sec). Bu çalışmadaki fren
+diskleri ve balataları arasındaki düzgün aşınma teması
+ve aracın lineer yavaşlama varsayımlarına göre fren
+diskleri boyunca ısı akışı Eşitlik 6 ile zamanın bir
+fonksiyonu olarak tanımlanmıştır [13].
+1
+
+(6)
+
+Disk yüzeyleri boyunca zamana bağlı değişken ısı
+akışı ise şu şekilde elde edilmiştir: qd(t0)=0,7366
+W/mm2, qd(t1)=0,5893 W/mm2, qd(t2)=0,4419
+W/mm2, qd(t3)=0,2946 W/mm2, qd(t4)=0,1473 W/mm2
+ve qd(t5)=0 W/mm2. Komple bir disk kullanıldığı
+durumda hesaplanan ısı akışı (7,576 W/mm2) başka
+bir çalışmada [4] hesaplanan ısı akışı ile
+uyuşmaktadır. Bu sonuç, uygulanan değerlerin
+doğruluğunu göstermektedir.
+2.2.3.Konveksiyon
+
+Katsayılarının
+
+Belirlenmesi
+
+(Determination of the Convection Coefficient)
+
+Frenleme sürecinde oluşan ısı, kısmi olarak disk
+göbek bölgesi ve balatalara iletilmektedir, ısının
+kalanı ise sürtünmenin meydana geldiği disk rotoru
+içerisinde toplanmaktadır. Frenleme süreci sonrasında
+oluşan ısının büyük bir kısmı konveksiyon yolu ile
+havaya iletilmektedir ve genellikle radyasyon bu ısı
+transfer olayında ihmal edilebilmektedir [16]. Bundan
+dolayı termo-mekanik sonlu eleman analizi için fren
+disklerinin ısı transfer konveksiyon katsayılarının
+doğru bir şekilde belirlenmesi önemlidir [12].
+Konveksiyon katsayılarının belirlenmesi, momentum
+ve termal yayılma gücü oranını temsil eden Prandtl
+sayısı (Pr); atalet ve yapışkanlık kuvvetleri oranının
+temsil eden Reynold sayıları (Re) gibi parametrelere
+bağlı olacaktır [17]. Bir frenleme sürecinde, fren
+diskinin dönmesi esnasında tüm yüzeylerinde
+zorlanmış konveksiyon meydana gelmektedir.
+Laminer akış (Red< 2,4x105) ile ilişkilendirilen
+konvektiv ısı transfer katsayısı sıcaklığın bir
+fonksiyonu olarak aşağıdaki eşitlik (Eş. 7)
+kullanılarak fren disklerinin temas yüzeyleri, dış ve iç
+yüzeyleri için tahmin edilmiştir [1].
+
+(4)
+
+0,7
+	
+
+628
+
+(5)
+
+,
+
+20
+
+,0
+
+,
+
+2
+50
+
+;
+(7)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014 
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman...
+
+Bu eşitlikte (Ti) sıcaklığın indeksli değerleri, (ka)
+çevreleyen havanın termal iletkenliği (W/m°C), ve
+Reynold sayısı hava akışını karakterize etmek için
+aşağıdaki eşitlik (Eş. 8) yardımı ile tahmin edilmiştir
+[14,15].
+(8)
+Bu eşitlikte (ρa) havanın yoğunluğu (kg/m3), (ω)
+diskin dönel hızı (h-1) ve (μa) havanın dinamik
+vizkozitesidir (kg/mh). Böylece bu çalışma için,
+konveksiyon katsayılarının hesaplanmasında, Reynold
+sayısı, termal iletkenlik ve yoğunluk gibi ilgili
+parametreler sıcaklık indeksleri esaslı ve lineer olarak
+tablo değerleri ile modellenmiştir [18]. Sonuç olarak
+Reynold sayılarının 0°C’den 1000°C’ye kadar olan
+sıcaklıklar için 6259’dan 27941’e kadar olduğu
+tahmin edilmiştir ve bu sonuç akışın yukarıda
+belirtildiği gibi laminer olduğunu göstermektedir. Bu
+arada, havalandırma delik yüzeyleri için laminer akış
+(Re<104) ile ilişkilendirilen ısı transferi katsayıları
+aşağıdaki eşitlik (Eş. 9) yardımı ile belirlenmiştir [1].
+
+/
+
+1,861
+
+.
+
+⁄
+
+⁄
+
+M. Düzgün  
+
+grafiksel olarak gösterilmiştir. Bu grafikte açık bir
+şekilde görülebilmektedir ki havalandırma delikleri
+(hvh) içerisinde meydana gelen konveksiyon
+katsayılarının büyüklüğü, temas yüzeyleri, dış ve iç
+yüzeylerde (hd) meydana gelen katsayılar ile
+karşılaştırıldığında daha azdır. Çünkü havanın
+artırılmış durgun basıncından dolayı iç kanatçık veya
+delikler ile ilişkilendirilen soğutma etkinliği yüksek
+hızlar için hafifçe azalmaya meyillidir [19]. Balata
+yüzeyleri (hp) için katsayılar durgun hava şartları
+esaslı olarak ilgili yazılımdan sıcaklığın bir
+fonksiyonu olarak alınmıştır. Analiz için uygulanan
+genel sınır şartları Şekil 5’de tüm özellikleri ile
+gösterilmiştir.
+
+(9)
+
+Bu eşitlikte (L) havalandırma deliklerinin boyunu (m)
+ifade etmektedir ve havalandırma delikleri
+içerisindeki havanın hızı ile ilişkilendirilen Reynold
+sayısı Eşitlik 10 ile belirlenmiştir.
+
+Şekil 4. FEM için konveksiyon katsayıları.
+
+(FEM for
+
+convection coefficients)
+
+(10)
+Bu eşitlikte DhReynold sayılarının hesaplanmasında
+kullanılması gereken havalandırma delikleri için
+hidrolik çapı temsil etmekte (m) ve hesaplanması
+Eşitlik 11 ile elde edilebilmektedir.
+(11)
+Bu eşitlikte (Acs) ve (Pw) sırasıyla deliklerin kesitsel
+akış veya ıslak alanı (m2) ve ıslak çevresidir (m).
+Ortalama hız (m/sec) Eşitlik 12 yardımı ile
+hesaplanabilir.
+0.0158
+
+2
+
+2
+
+(12)
+
+Bu eşitlikte (Aout) ve (Ain) sırasıyla havalandırma
+deliklerinin çıkış ve giriş alanlarıdır (m2). Eşitlik
+10’daki Prandtl sayısı aşağıdaki formda hesaplanabilir
+(Eş. 13).
+Pr	
+(13)
+
+Şekil 5. Disk-balata bağlama sistemleri üzerine sonlu
+eleman analizi için genel sınır şartları. (Disk-pad binding
+system on the general boundary conditions for finite element
+analysis)
+
+2.3.Sonlu Eleman Analizleri için Tasarım (Design for
+Finite Element Analysis)
+
+Bu eşitlikte (ca) havanın özgül ısı kapasitesidir
+(Wh/kgK). Sonlu eleman analizleri için belirlenen
+sıcaklığa bağlı konveksiyon katsayıları Şekil 4 ile
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Müşterek olarak göz önünde bulundurulması gereken
+parametrelerin sayısı geçerli bir çalışma elde
+
+629 
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman... 
+
+M. Düzgün
+
+Tablo 2. Tasarım parametreleri ve seviyeleri (Design parameters and levels)
+Faktör
+
+Tasarım Parametresi
+
+Seviye 1
+
+Seviye 2
+
+Seviye 3
+
+Seviye 4
+
+Seviye 5
+
+A
+
+Radyal Mesafe (rm-mm)
+
+69
+
+72
+
+75
+
+78
+
+81
+
+B
+
+Lineer Mesafe (δ-mm)
+
+6
+
+8
+
+10
+
+12
+
+14
+
+C
+
+Pervane Açısı (θ-°)
+
+0
+
+15
+
+30
+
+45
+
+60
+
+edebilmek için çok fazla sayıda nümerik testlerin
+yapılmasını gerektirmektedir. Bu nedenle, sonlu
+eleman analizleri Taguchi metodu [20] esaslı 3 faktör
+ve 5 seviyeli matrisli L25 dikey dizi tasarımına göre
+gerçekleştirilmiştir. Böylece toplam 125 olan gerekli
+nümerik test sayısı 25’e düşürülmüştür. Dolayısıyla,
+kontrol faktörleri olarak üç farklı tasarım parametresi
+kullanılmıştır ve her bir parametre Tablo 2’de
+gösterildiği gibi farklı seviyelere sahip olacak şekilde
+tasarlanmıştır.
+2.3.1.Sonlu
+Eleman
+Analizi
+Optimizasyonu (Optimization of Finite
+
+Element Analysis
+
+Hava soğutma kanallı fren diskleri üzerindeki termal
+gerilim oluşumlarını minimize etmek ve frenleme
+sürecinin optimal kombinasyonlarını belirlemek için
+sonlu eleman analizleri Taguchi’nin dikey dizi
+tasarımı ile gerçekleştirilmiştir. Bu yaklaşım
+çalışmadaki gibi birden fazla değişkenden etkilenen
+sonuçları analiz etmek için etkili bir yöntemdir.
+Taguchi yöntemi ile optimizasyon prosedürü; kontrol
+faktörlerinin seçimi; dikey dizinin seçimi; kalite
+karakteristiklerinin seçimi; sonlu eleman analizlerinin
+ilişkilendirilmesi; en uygun şartların belirlenmesi ve
+analiz edilmesi şartlarını içermektedir. Taguchi
+tasarımının dikey dizisinde dizideki her bir test için
+ortalama tepki uygun bir şekilde seçilen sinyalgürültü
+oranları
+(S/N)
+kullanılarak
+analiz
+edilmektedir. S/N oranı sürecin performansı üzerine
+belirli parametrenin değişimini etkileyen bir kalite
+göstergesidir. S/N oranı performans için iyi bir
+ölçüdür çünkü bu oran hem ortalamaya hem de
+varyansa duyarlıdır. Bu S/N oranları aşağıdaki eşitlik
+(Eş. 14) yardımı ile türetilmektedirler.
+∑
+
+(14)
+
+Bu eşitlikte (i)ve (n) deneysel tasarımdaki
+gözlemlerin sayısını ve (yi) gözlemlenen verilerdeki
+performans karakteristiğini ifade etmektedir. Bu
+çalışmada hava soğutma kanallı fren diskleri
+üzerindeki
+termal
+gerilim
+oluşumlarının
+minimizasyonu amaçlanmaktadır. Dolayısıyla, daha
+düşük oranın en iyi olduğu algoritma yaklaşımı
+kullanılmıştır. Daha büyük S/N (ηi) değeri performans
+karakteristiği kategorisine bakılmaksızın daha iyi bir
+performans ile uyuşacaktır. Çoklu performans
+karakteristiklerinin
+belirlenmesinde
+Taguchioptimizasyonu yaklaşımı aynı zamanda Grey
+
+630
+
+(15)
+
+Sonuçlarının
+
+Results)
+
+10log
+
+ilişki analizi ile desteklenmiştir. Grey ilişki analizinde
+tüm sonuçlar 0 ve 1 arasındaki aralıkta normalize
+edilmektedirler. Büyük değere ilişkin normalize
+edilen bu sonuçlar en iyi bir durumu ifade etmekte ve
+en iyi normalize edilmiş sonuç 1’e eşit olacaktır [21].
+Bu çalışma için normalize edilmiş değerler (yi(k))
+daha düşük oranın en iyi olduğu performans
+karakteristiğine bağlı olarak Eşitlik 15 ile ifade
+edilmiştir.
+
+Bu eşitlikte (Xi(k)) değeri (ith) analizde (kth) sonucu,
+(minXi(k)) ve (maxXi(k)) sırasıyla (Xi(k))’nın
+minimum ve maksimum değerleridir. Optimal (=1) ve
+gerçek normalize edilmiş değerler arasındaki ilişkiyi
+gösteren grey ilişki katsayısı aşağıdaki eşitlikler (Eş.
+16 ve 17) yardımı ile ifade edilebilmektedirler.
+(16)
+‖
+
+‖
+
+(17)
+
+Bu eşitliklerde (ξi(k)) Grey ilişki katsayısı, (Δmin) ve
+(Δmax) sırasıyla (Δ0i) değerinin minimum ve
+maksimum değerleri, (Δ0i(k)) karşılaştırmalı iki
+sıranın mutlak farkları, (y0(k)) referans sırası ve (yi(k))
+analizdeki karşılaştırma sırasıdır. (ζ) sistematik doğru
+ihtiyaca ilişkin tanımlama katsayısıdır. Tanımlama
+katsayısı (ζ), 0-1 aralığında tanımlanmakta ve
+genellikle önerilen değeri 0,5’dir. Daha büyük Grey
+ilişki katsayısı (ξi(k)) tek performans karakteristikleri
+veya sınırlı Grey ilişki ölçümü için, ilgili sonucun
+optimal veya en iyi normalize edilmiş değere yakın
+sonucu temsil etmektedir. Grey ilişki katsayılarının
+türetilmesinden sonra Grey ilişki katsayıları
+değerlerinin ortalama değerlerini alarak Eşitlik 18
+yardımı ile Grey ilişki derecesi belirlenmektedir.
+∑
+
+(18)
+
+Bu eşitlikte (γi) Grey ilişki derecesini ve (n)
+performans
+karakteristiklerinin
+numarasını
+göstermektedir. Daha büyük Grey ilişki derecesi
+çoklu performans karakteristikleri açısından daha iyi
+bir kalite anlamına gelecektir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014 
+
+M. Düzgün  
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman...
+
+3.TARTIŞMA (DISCUSSION)
+3.1.Isı Oluşumu (Heat Generation)
+Farklı tasarımlara sahip delikli tip hava soğutma
+kanallı fren disklerindeki ısı oluşumu, tüm tasarımlar
+için geçerli bir karşılaştırma yapabilmek amacıyla
+fren disklerinin toplam yüzey alanları ve hacimleri
+sabitlendiğinden dolayı, dikkat çekecek derecede
+değişmemiştir. Ayrıca fren diskleri ve balatalarının
+geometrik boyutları eşittir. Bu da, fren diski
+tasarımları delik konumlarına bağlı olarak değişmiş
+olmasına rağmen, ısı akışına maruz kalan ve ısının
+oluştuğu sürtünme yüzeylerinin aynı olduğunu
+göstermektedir. Bundan dolayı bu çalışmada,
+optimizasyon çalışması açısından disk sıcaklıkları
+ihmal edilmiştir. Sadece, geçişli sonlu eleman termal
+analizi ile sıcaklığın zamana bağlı eğilimi grafiksel
+olarak Şekil 6’da gösterilmiştir. Havalandırma delik
+yüzeylerindeki ısı oluşumu sürtünmeli yüzeylerindeki
+ısı oluşumu ile karşılaştırıldığında daha azdır. Ancak
+frenleme süreci esnasında bu farklılıklar %0,62 ve
+%4,65 oranında değişmektedir. Isı oluşumu frenleme
+zamanının dördüncü saniyesine kadar kademeli olarak
+artmaktadır. Dolayısıyla, maksimum sıcaklık fren
+disklerinin sürtünme yüzeylerinde ve havalandırma
+delik yüzeylerinde 4. saniyede sırasıyla 103,41 °C ve
+100,99 °C olarak oluşmuştur. Frenlemenin 4.
+saniyesinden sonra ısı oluşumu aracın yavaşlamasına
+bağlı olarak azalmaktadır. Bu grafikte gösterilen ısı
+oluşumu karakteristiği daha önceki yapılan ilgili
+çalışmalardaki
+karakteristikler
+ile
+benzerlik
+göstermektedir [11,13-15].
+
+(OHTS) olarak belirlenmiştir. Şekil 7 a,b ve 8 a,b
+sırasıyla farklı tip tasarımlara bağlı olarak bu bölgeler
+üzerindeki zamana bağlı Von-Mises gerilim
+dağılımlarını
+göstermektedir.
+Genellikle
+tüm
+tasarımlar ve incelenen disk bölgeleri için hava
+soğutma kanallı fren diskleri üzerinde termal gerilim
+değerinin frenlemenin ilk saniyesine kadar arttıktan
+sonra yavaşlamaya bağlı olarak aracın durmasına
+kadar tekrar azaldığı söylenebilir. Bu dalgalanmalar
+fren disklerinin yüzeyleri üzerindeki konveksiyon
+etkisi ve ısı akışının zamana bağlı değişiminden
+dolayıdır.
+
+(a)
+
+(b)
+
+Şekil 6. Sürtünme ve havalandırma delik yüzeyi
+üzerinde oluşan sıcaklık analizi. (Drag and ventilation holes
+formed on the surface temperature analysis)
+
+3.2.Termal Gerilim (Thermal Stress)
+Gerilim dağılımının çoğunlukla fren diskinin
+sürtünme yüzeyinde, radyal yönde ve soğutma
+deliklerinin kenarlarında oluştuğu bilinmektedir [4].
+Dolayısıyla bu çalışmada, termal gerilim oluşumları
+fren diskleri üzerinde dört farklı bölgede
+incelenmiştir. Bunlar: Sürtünme yüzeyi termal gerilim
+(FSTS), iç delik termal gerilim (IHTS), orta delik
+termal gerilim (MHTS) ve dış delik termal gerilim
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Şekil 7. Fren disklerinin sürtünme yüzeylerinde (a) ve
+iç deliklerinde (b) termal gerilmeler. (Thermal stress on
+the frictionsurface (a) and in theinner hole (b) of thebrakediscs)
+
+Bu gerilmelerin değişimi fren disklerinin sürtünme
+yüzeylerinde
+termal
+yorulma
+çatlaklarının
+başlangıcına sebep olabilmektedirler [12]. Ancak, tüm
+analizler içinde maksimum termal gerilim 550 MPa
+olarak oluşmuştur. Bu büyüklük, disk malzemesinin
+820 MPa olan maksimum basınç dayanımından daha
+azdır. Dolayısıyla, sonlu eleman analizinin belirlenen
+sınır şartlarında disk yüzeylerinde lokal plastik
+deformasyonun
+gerçekleşmeyeceği
+sonucuna
+varılabilir [4].
+
+631 
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman... 
+
+M. Düzgün
+
+3.2.1. Tekli Performans Karakteristiklerine Bağlı
+Optimizasyon
+Sonuçları
+(Singles
+Performance
+Characteristics on the Optimization Results)
+
+Optimizasyon çalışması, her bir disk tasarımı için
+toplam 5 saniye frenleme süresi boyunca meydana
+gelen termal gerilmelerin ortalama değerleri
+kullanılarak gerçekleştirilmiştir. Şekil 9 farklı disk
+tasarımları üzerinde ve farklı yüzeylerde meydana
+gelen termal gerilim oluşumlarına bağlı olarak elde
+edilen
+S/N
+oranlarının
+grafiksel
+ifadesini
+göstermektedir. S/N oranları radyal mesafe (rm) ve
+pervane açısının (θ) azalması, lineer mesafenin (δ)
+artması ile artmaktadır. Ayrıca, farklı bölgelerde
+oluşan bu gerilmelere bağlı olarak S/N oranları
+arasında MHTS>IHTS>OHTS>FSTS olacak şekilde
+bir sıralama elde edilebilmektedir.
+
+Şekil 9. Farklı disk tasarımlarına ve disk yüzeylerine
+karşılık elde edilen S/Noranları (Different disc designs and
+disk surfaces response obtained S / N ratios)
+
+(c)
+
+En küçük FSTS ve IHTS büyüklükleri açısından
+optimal disk tasarımı 72 mm radyal mesafe, 10 mm
+lineer mesafe ve 0° pervane açısına sahip disk
+tasarımı ile elde edilmiştir. Diğer taraftan minimum
+MHTS büyüklüğüne bağlı optimal disk tasarımı için
+72 mm radyal mesafe (rm), 12 mm lineer mesafe (δ)
+ve 15° pervane açısına (θ) sahip model tavsiye
+edilebilmektedir.
+En küçük OHTS açısından 69 mm radyal mesafe (rm),
+10 mm lineer mesafe (δ) ve 0° pervane açısı (θ)
+tavsiye edilebilir. Destekleyici bilgi olarak S/N
+oranlarının ana etkileri de aynı zamanda en küçük ve
+en büyük ölçülere sahip gerekli tepkilerin (Seviye 1
+ve Seviye 5) farklarının bulunmasıyla tahmin
+edilmiştir [6].
+
+(d)
+Şekil 8. Fren disklerinin orta deliklerinde (c) ve dış
+deliklerinde (d) termal gerilmeler. (Thermal stresses in the
+center hole (c) and in the outer hole (d) of the brake discs)
+
+Sonuç olarak, en düşük termal gerilim oluşumu fren
+disklerinin orta delik yüzeylerinde meydana gelirken
+en büyük termal gerilim ise fren disklerinin sürtünme
+yüzeylerinde meydana gelmektedir.Fren disklerinin
+bölgelerinde oluşan termal gerilmelere bağlı olarak
+elde edilen S/N tepkileri sırasıyla Tablo 3, 4, 5 ve 6’da
+verilmiştir.
+
+632
+
+Daha yüksek bir ana etki, referans faktörün disk
+termal gerilim üzerine etkisinin ne kadar büyük
+olduğunu göstermektedir. Bu sonuçlardan açık bir
+şekilde görülebilmektedir ki C faktörü (pervane açısı θ) sürtünme yüzeyi, iç delik ve orta delik termal
+gerilimi oluşumu üzerine en güçlü etkiye sahiptir.
+Ayrıca, A faktörü de (radyal mesafe -rm) dış delik
+termal gerilimi oluşumu üzerine en güçlü etkiye
+sahiptir. Bundan dolayı, disk yüzeylerindeki termal
+gerilmeleri azaltabilmek için bu faktörlerin her birinin
+minimizasyonu tavsiye edilmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014 
+
+M. Düzgün  
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman...
+
+Tablo 3. FSTS için S/N tepki tablosu (FSTS S/N response table)
+Faktör
+
+Tasarım Parametresi
+
+OrtalamaS/NOranı (dB)
+Seviye 1
+
+Seviye 2
+
+Seviye 3
+
+Seviye 4
+
+Seviye 5
+
+Ana Etkile
+
+A
+
+Radyal Mesafe (rm-mm)
+
+-46,54
+
+-46,22*
+
+-46,47
+
+-47,17
+
+-47,42
+
+0,88
+
+B
+
+Lineer Mesafe (δ-mm)
+
+-47,76
+
+-46,47
+
+-46,06*
+
+-46,87
+
+-46,66
+
+1,1
+
+-46,04*
+
+-46,51
+
+-46,4
+
+-46,97
+
+-47,9
+
+1,86
+
+C
+Pervane Açısı (θ-°)
+*Optimal fren diski tasarımı
+
+Tablo 4. IHTS için S/N tepki tablosu (IHTS S/N response table)
+Faktör
+
+Tasarım Parametresi
+
+Ortalama S/N Oranı (dB)
+Seviye 1
+
+Seviye 2
+
+Seviye 3
+
+Seviye 4
+
+Seviye 5
+
+Ana Etkile
+
+A
+
+Radyal Mesafe (rm-mm)
+
+-43,87
+
+-43,31*
+
+-44,14
+
+-45,19
+
+-45,1
+
+1,23
+
+B
+
+Lineer Mesafe (δ-mm)
+
+-45,71
+
+-44,51
+
+-43,28*
+
+-44,35
+
+-43,77
+
+1,94
+
+-42,20*
+
+-43,51
+
+-44
+
+-45,14
+
+-46,76
+
+4,56
+
+C
+Pervane Açısı (θ-°)
+*Optimal fren diski tasarımı
+
+Tablo 5. MHTS için S/N tepki tablosu (MHTS S/N response table)
+Faktör
+
+Tasarım Parametresi
+
+Ortalama S/N Oranı (dB)
+Seviye 1
+
+Seviye 2
+
+Seviye 3
+
+Seviye 4
+
+Seviye 5
+
+Ana Etkile
+
+A
+
+Radyal Mesafe (rm-mm)
+
+-43,11
+
+-42,84*
+
+-43,89
+
+-44,84
+
+-44,58
+
+1,47
+
+B
+
+Lineer Mesafe (δ-mm)
+
+-44,58
+
+-44,01
+
+-43,45
+
+-43,26*
+
+-43,95
+
+0,63
+
+-42,89
+
+-42,37*
+
+-44,11
+
+-44,71
+
+-45,16
+
+2,27
+
+C
+Pervane Açısı (θ-°)
+*Optimal fren diski tasarımı
+
+Tablo 6. OHTS için S/N tepki tablosu (OHTS S/N response table)
+Faktör
+
+Tasarım Parametresi
+
+Ortalama S/N Oranı (dB)
+Seviye 1
+
+Seviye 2
+
+Seviye 3
+
+Seviye 4
+
+Seviye 5
+
+Ana Etkile
+
+A
+
+Radyal Mesafe (rm-mm)
+
+-44,08*
+
+-45,04
+
+-45,57
+
+-46,51
+
+-47,12
+
+3,04
+
+B
+
+Lineer Mesafe (δ-mm)
+
+-46,53
+
+-45,34
+
+-45,17*
+
+-45,6
+
+-45,69
+
+0,84
+
+C
+
+Pervane Açısı (θ-°)
+
+-44,78*
+
+-45,33
+
+-45,55
+
+-45,84
+
+-46,82
+
+2,04
+
+*Optimal fren diski tasarımı
+3.2.2.Çoklu Performans Karakteristiklerine Bağlı
+Optimizasyon Sonuçları (Multiple Performance
+Characteristics on the Optimization Results )
+
+FSTS, IHTS, MHTS ve OHTS bölgelerine bağlı
+oluşan termal gerilmelerin tümleşik tepkilerine ilişkin,
+fren diski tasarımlarının optimizasyonu için çoklu
+performans
+karakteristiklerinin
+belirlenmesi
+gerekmektedir. Bu amaçla elde edilen Grey ilişki
+katsayıları, Grey ilişki dereceleri ve her bir sonlu
+eleman analizi sonucu için bu derecelerin düzey
+sıraları belirlenmiştir. En büyük Grey ilişki derecesi,
+ilişkili sonlu eleman analizi sonucunun tüm çoklu
+performans karakteristikleri arasında en iyi olduğunu
+göstermektedir. Dolayısıyla Grey ilişki analizine göre,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+radyal mesafenin (rm) 69 mm, lineer mesafenin (δ) 6
+mm ve pervane açısının 0° (θ) olduğu 1 numaralı
+sonlu eleman analizi (A1B1C1) en yüksek Grey ilişki
+derecesine sahiptir ve bundan dolayı bu fren diski
+tasarımı tüm tasarımlar içinde en iyi çoklu performans
+karakteristiğine sahiptir. Diğer taraftan 81 mm radyal
+mesafe (rm), 6 mm lineer mesafe (δ) ve 60° pervane
+açısına (θ) sahip olan 21 numaralı sonlu eleman
+analizi (A5B1C5) en düşük çoklu performans
+karakteristiği göstermiştir. Ortalama termal gerilim
+(A1B1C1) tasarımı ile %54 azalarak 310 MPa’dan
+143 MPa’a gerilemiştir. Sonuç olarak fren diskleri
+üzerinde oluşan termal gerilmeleri azaltmak için
+havalandırma deliklerinin disklerin iç bölgelerine
+yakın yüzeylere yerleştirilmesi gerektiği sonucuna
+
+633 
+
+M. Düzgün
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman... 
+
+varılabilir. Dikkate değer bir şekilde benzer bir
+çalışmada ki [5] sonlu eleman analizi simülasyonu ve
+deneysel sonuçlar da göstermiştir ki termal
+gerilimlerin sınır çizgilerinin yoğunluğu ve termal
+yorulma çatlakları fren disklerinin bu iç bölgesinde
+meydana gelmiştir. Dolayısıyla, bu çalışmanın en
+önemli sonucu ilgili çalışmaların sonuçları ile
+tutarlıdır.
+4.SONUÇLAR (CONCLUSION)
+Hava soğutma kanallı fren disklerinin termo-mekanik
+karakteristiklerinin iyileştirilmesi fren diski ömrü ve
+taşıtların güvenliğini artırmak açısından çok
+önemlidir. Bu çalışmada faydalanılan yöntemler ve
+elde edilen sonuçlar göstermiştir ki bu karakteristikler
+değişken tasarımlar ile geliştirilebilmektedir. Bu
+sonuçlar özellikle günümüz ve gelecekteki otomotiv
+ve demiryolu imalat endüstrilerinin gelişimi için
+dikkate değerdir. Hava soğutma kanallı fren diskleri
+içerisinde en yaygın kullanıma sahip olan hava
+soğutmalı delikli tip fren diskleri, optimizasyon
+amaçlı olarak termo-mekanik sonlu eleman analizi ile
+detaylı bir şekilde ilk olarak bu çalışma ile
+incelenmiştir ve aşağıdaki sonuçlar elde edilmiştir.
+
+Sonlu eleman analizlerinin optimizasyon
+yöntemleri ile kombinasyonu simülasyon sayılarını
+azaltmış ve hava soğutma kanallı fren disklerinin
+termo-mekanik karakteristiklerinin geliştirilmesine
+katkı sağlamıştır.
+
+Deformasyonların başlangıç bölgesi ve
+genellikle termal çatlakların meydana geldiği
+havalandırma deliklerinde oluşan termal gerilmelerin
+minimizasyonu için havalandırma deliklerinin bu tip
+hava soğutma kanallı fren disklerinde sürtünme
+yüzeylerinin iç bölgesi etrafında ve mümkün olduğu
+kadar birbirine yakın olacak şekilde tasarlanması ve
+yerleştirilmesi etkili olacaktır.
+
+Dikkate değer bir şekilde hava soğutma
+kanallı fren diskleri üzerindeki termal gerilmeler
+disklerin toplam yüzey alanları ve böylece
+hacim/ağırlıklarını değiştirmeden değişken tasarımlar
+ile %13 ile %54 arasında iyileştirilmiştir.
+SEMBOLLER (NOMENCLATURES)
+ωt
+: Anlık açısal hız (sec-1)
+ωt0
+: Açısal hız başlangıcı (sec-1)
+t
+: Zaman koordinatı (sec)
+tf
+: Frenleme süresi sonu (sec)
+qd
+: Fren diskine ısı akışı (W/mm2)
+σ
+: Isı ayırma katsayısı
+q
+:Sürtünme temas arayüzeyine
+toplam ısı akışı (W/mm2)
+ρd,p
+: Disk / balata yoğunluğu (kg/m3)
+cd,p
+: Disk / balata özgül ısısı (J/kg°C)
+ε
+:Termal aktivite katsayısı
+kd,p
+: Disk / balata termal iletkenliği
+(W/m°C)
+Kd,p
+: Disk / balata termal yayılma gücü (m2/sec)
+
+634
+
+φ0
+: Balata temas açısı (rad)
+µ
+: Sürtünme katsayısı
+Pmax
+: Balata üzerine maksimum basınç dağılımı
+(N/m2)
+rmn
+: Fren diskinin sürtünme yüzeyinin ortalama
+yarıçapı (m)
+hd
+: Disk konvektif ısı transfer katsayısı
+(W/mm2°C)
+Ti
+: Sıcaklığın indeksli değeri (°C)
+ka
+: Havanın termal iletkenliği (W/m°C)
+Red
+: Disk Reynold sayısı
+ρa
+: Havanın yoğunluğu (kg/m3)
+ω
+: Fren diskinin dönel hızı (h-1)
+µa
+: Havanın dinamik vizkozitesi (kg/mh)
+hvh
+: Havalandırma deliğinin konvektif ısı
+transfer katsayısı (W/mm2°C)
+Revh
+: Havalandırma deliğinin Reynols sayısı
+Pr
+: Prandtl sayısı
+Dh
+: Hidrolik çap (m)
+L
+: Havalandırma delik boyu (m)
+Vavrg
+: Ortalama hız (m/sec)
+Acs
+: Kesit / Islak alan (m2)
+Pw
+: Islak çevre (m)
+Aout
+: Dış alan (m2)
+Ain
+: İç alan (m2)
+ca
+: Havanın özgül sıcaklığı (Wh/kg°C)
+ηi
+: Gürültü - sinyal (S / N) değeri (dB)
+i,n
+: Gözlem sayısı
+yi
+: Performans karakteristiği
+yi(k)
+: Normalize edilmiş deneysel veri
+Xi(k)
+: Deneysel sonuçlar
+maxXi(k): Maksimum deneysel veri
+minXi(k) : Minimum deneysel veri
+ξi(k)
+: Grey ilişki katsayısı
+Δmin,max : Δoi sonuçlarının minimum and maksimum
+değerleri
+ζ
+: Belirleme katsayısı
+γi
+: Grey ilişki derecesi
+TEŞEKKÜR (ACKNOWLEDGEMENT)
+Çalışmada yapılan analiz ve hesaplamalarda
+yardımlarını esirgemeyen değerli akademisyen
+meslektaşım Dr. Yakup Yıldız’a teşekkürlerimi
+sunarım.
+KAYNAKLAR (REFERENCES)
+1.
+2.
+
+3.
+
+4.
+
+Limpert, R.,Brake Design and Safety, Second
+Ed., SAE Inc., Warrendale, 140-143, (1999).
+Antanaitis, D. B.,Rifici, A., “The effect of rotor
+cross drilling on brake performance”, SAE
+International,
+DOI: 10.4271/2006-01-0691,
+571-596, (2006).
+Duzgun, M. “Investigation of thermo-structural
+behaviors of different ventilation applications on
+brake discs”, Journal of Mechanical Science
+and Technology, 26(1):1-6, (2011).
+Bagnoli, F.,Dolce, F., Bernabei, M. “Thermal
+fatigue cracks of fire fighting vehicles gray iron
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014 
+
+Hava Soğutma Kanallı Fren Disklerinin Termo-Mekanik Özelliklerinin Sonlu Eleman...
+
+brake
+discs”,
+Engineering
+Failure
+Analysis,16.152-163, (2009).
+5. Kim, D. J., Lee, Y. M., Park, J. S., Seok, C.
+S.,”Thermal stress analysis for a disk brake of
+railway vehicles with consideration of the
+pressure distribution on a frictional surface”,
+Materials Science and Engineering, A 483484:456-459, (2008).
+6. Grieve, D. G.,Barton, D. C., Crolla, D. A.,
+Buckingham, J. T., “Design of a light weight
+automotive brake disc using finite element and
+Taguchi techniques”, Proceedings of the
+Institution of Mechanical Engineers, Part D:
+Journal of Automobile Engineering, 212:212245, (1998).
+7. Mackin, T.J. et al., “Thermal cracking in disc
+brakes”, Engineering Failure Analysis, 9:63-76,
+(2002).
+8. Yildiz, Y.,Duzgun, M., “Stress analysis of
+ventilated brake discs with finite element
+method”, International Journal of Automotive
+Technology, 11(1):133-138, (2010).
+9. Allgaier, R.,Gaul, L., Keiper, W., Willner, K.,
+“Mode
+lock-inand
+friction
+modeling”,
+Computational
+Methods
+in
+Contact
+Mechanics, 4:35-47, (1999).
+10. Triches, M. Jr.,Gerges, S.N.Y., Jordon, R.,
+“Reduction of squeal noise from disc brake
+systems using constrained layer damping”,
+Journal of the Brazilian Society of Mechanical
+Sciences and Engineering, 26:340–343, (2004).
+11. Talati, F.,Jalalifar, S., “Analysis of heat
+conduction in a disk brake system”, HeatMass
+Transfer, 45:1047-1059, (2009).
+12. Hwang, P.,Wu, X., Jeon, Y. B., “Thermalmechanical coupled simulation of a solid brake
+disc in repeated braking cycles”, Proceedings of
+the Institution of Mechanical Engineers, Part
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+19.
+
+20.
+21.
+
+M. Düzgün  
+
+J: Journal of EngineeringTribology, 223:10411048, (2009).
+Yang, Y. C.,Chen, W. L., “A non linear inverse
+problem in estimation the heat flux of the disc in
+a disc brake system”, Applied Thermal
+Engineering, 31:2439-2448, (2011).
+Adamowicz, A.,Grzes, P., “Analysis of disc
+brake temperature distribution during single
+braking under non-axi symmetric load”, Applied
+Thermal Engineering, 31:1003-1012, (2011).
+Adamowicz, A.,Grzes, P., “Three-dimensional
+FE model of frictional heat generation and
+convective cooling in disc brake”, CMM-2011Computer Methods in Mechnaics, 9-12 May,
+Warsaw, Poland, (2011).
+McPhee, A. D., Johnson, D. A., “Experimental
+heat transfer and flow analysis of a vented brake
+rotor”, International Journal of Thermal
+Sciences 47(4):458-467, (2008).
+Moran, M.J.,Shapiro, H.N., Munson, B.R.,
+DeWitt, D.P., Introduction to Thermal Systems
+Engineering:
+Thermodynamics,
+Fluid
+Mechanics, and Heat Transfer, John
+Wiley&Sons, Inc., 405-467, (2003).
+http://www.engineeringtoolbox.com/airproperties-d_156.html, (2011).
+Hwang, P.,Wu, X., “Investigation of temperature
+and thermal stress in ventilated disc brake based
+on 3D thermo mechanical coupling model”,
+Journal
+of
+Mechanical
+Science
+and
+Technology, 24:81-84, (2010).
+Taguchi, G.,Chowdhury, S., Wu, Y., Taguchi’s
+Quality
+Engineering
+Handbook,
+John
+Wiley&Sons, New Jersey, (2005).
+Deng, J. L., “Introduction to grey system theory”,
+The Journal of Grey System, 1(1):1-24, (1989).
+
+635 
+
+ 
+
+ 
+
+

@@ -1,0 +1,569 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 24, No 4, 693-698, 2009
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 24, No 4, 693-698, 2009
+
+AISI 410 MARTENSİTİK PASLANMAZ ÇELİKLERİN KESİCİ
+TAKIM VE KAPLAMASINA BAĞLI İŞLENEBİLİRLİĞİ
+Alpay ÖZER ve Ersin BAHÇECİ*
+Mühendislik Mimarlık Fakültesi, Gazi Üniversitesi, Maltepe, Ankara
+*
+Teknik Eğitim Fakültesi, Gazi Üniversitesi, Beşevler, Ankara
+aozer@gazi.edu.tr, ersinb81@hotmail.com
+(Geliş/Received: 07.11.2009 ; Kabul/Accepted: 28.09.2009)
+ÖZET
+Bu çalışmada, TiC+TiN, TiC kaplı sementit karbür, kaplamasız sementit karbür ve CBN kesici takımların AISI
+410 martensitik paslanmaz çeliğin işlenebilirlik özelliklerine etkileri araştırılmıştır. Bu amaçla, talaş kökü
+morfolojisi, kesme kuvvetleri ve yüzey pürüzlüğü incelenmiştir. İşlenebilirlik deneyleri kuru tornalama
+ortamında gerçekleştirilmiştir. Deneylerde 60 m/dak kesme hızı, 0.12 mm/dev ilerleme hızı ve 1.2 mm talaş
+derinliği sabit tutulmuştur. TiC+TiN kaplı sementit karbür takım en yüksek kesme kuvveti değerlerini vermiştir.
+CBN takım en düşük kesme kuvvetlerini vermesine karşın, kısa işleme mesafelerinde takımda kırılmalar
+meydana gelmiştir. Kesme kuvvetleri ve yüzey pürüzlülüğü bakımından optimum değerler TiC kaplı sementit
+karbür takım ile talaş kaldırma işleminde elde edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Paslanmaz çelikler zor işlenebilirliğe sahip tipik
+malzemelerdir ve işlenebilirliklerinde genellikle sürtünmeye bağlı olarak takımda şiddetli aşınma
+meydana gelir. Kesme sırasında sürekli talaş oluşumu,
+yığıntı talaşın (YT) kesici takıma yapışma eğilimi
+işlenebilirliklerini olumsuz etkiler. Paslanmaz çelikler
+genel olarak kötü işlenebilirliğe sahip olmalarına
+rağmen kendi içerisinde kolay işlenebilen ve kolay
+işlenemeyen olmak üzere ikiye ayrılır. Kolay
+işlenebilen paslanmaz çelikler ferritik, martenzitik ve
+östenitik paslanmaz çeliklere alaşım elementi olarak
+
+yüksek oranda sülfür (%0.30-0.50), selenyum (%0.150.25) ve kurşun ilavesi ile elde edilir. Selenyum ve
+sülfür ilavesi soğuk şekillendirilebilirliği ve yüzey
+pürüzlülüğünü iyileştirirken, takım ömrünü de arttırır.
+Sülfürün oluşturduğu çökeltiler düşük sıcaklıklarda
+kesme düzlemi içinde çatlak oluşturarak kırılgan talaş
+oluşturur, yığıntı talaş oluşumunu engeller, plastik
+akışı bozmaz ve takım-talaş ara yüzeyinde yağlayıcı
+görevi görür [1-5].
+Martenzitik paslanmaz çelikler alaşım olarak %12-18
+krom ve %1.2 ye kadar karbon içeriğine sahiptirler
+[6]. Temperlenmiş, düşük karbonlu ve kolay işlene-
+
+A. Özer ve E. Bahçeci
+
+AISI 410 Martensitik Paslanmaz Çeliklerin Kesici Takım ve Kaplamasına Bağlı İşlenebilirliği
+
+bilen martenzitik alaşımlar en kolay işlenen
+paslanmaz çelik türüdür. Sülfür içeriği işlenebilirliği
+arttırırken, karbon miktarının artması sertliği arttıracağından takım ömrünü azaltacak ve böylece
+işlenebilirliği takım ömrü açısından kötüleştirecektir
+[1]. Genel olarak yüksek sertlik değeri ve mikro
+yapılarında bulunan karbürler nedeniyle takım ömrü,
+yüzey pürüzlülüğü ve kesme kuvvetleri açısından
+işlenebilirliği iyi olmayan malzemelerdir. Bu nedenle
+işlenebilirliklerinde kaplamalı veya kaplamasız
+sementit karbür kesici takımlar kullanılmaktadır.
+Sementit karbür kesici takımların yüzeyleri aşınmaya
+dirençli, sert ve işleme esnasında iş parçası ile kesici
+takım etkileşimini engellemek için kimyasal olarak
+kararlıdır. Bu tür kesici takımların sahip oldukları
+özelliklerin daha da iyileştirilmesi amacıyla yüzeyleri
+bir veya birden fazla aşınmaya dirençli ince bir
+katmanla kaplanabilir. Titanyum karbür (TiC),
+Titanyum nitrür (TiN) ve Alüminyum oksit (Al2O3)
+yaygın olarak kullanılan kaplama malzemeleridir. Bu
+kaplamalar takımın aşınmaya karşı direncini arttırır
+[1,3,7,8].
+Bu çalışmada, standart AISI 410 martenzitik
+paslanmaz çeliğin TiC+TiN kaplamalı, TiC
+kaplamalı, kaplamasız sementit karbür ve CBN kesici
+takımlarla, 60 m/dak kesme hızında tornalanmaları
+sürecinde oluşan talaş kökü morfolojisi, kesme
+kuvvetleri ve yüzey pürüzlülüğüne göre işlenebilirliği
+araştırılmıştır.
+2. MALZEME VE METOT (MATERİAL AND
+METHOD)
+
+2.1. Malzeme (Material)
+İşlenebilirlik deneylerinde makine imalatında yaygın
+olarak kullanılan ve talaşlı imalatla şekillendirilen 60
+mm çapında ve 300 mm boyunda AISI 410 martenzitik paslanmaz çelik deney malzemesi olarak
+kullanılmıştır. Şekil 1’de deney malzemesine ait
+mikro yapı fotoğrafı görülmektedir. Mikro yapıdan
+görülebileceği üzere matris yapıyı temperlenmiş
+martenzit oluşturmaktadır. Aynı numune için 10
+değişik noktadan ölçülen sertlik değerlerinin ortalaması 170 HB dir.
+Mikro yapı görüntülenmesinde Leica DFC 320 dijital
+kamera bağlantılı Leica DM 4000 M marka optik
+mikroskop kullanılmıştır. Sertlik ölçümlerinde
+Instron-Wolpert marka Diatestor 7551 model sertlik
+ölçüm cihazı kullanılmıştır. Ölçümlerde Brinell sertlik
+ölçme yöntemi kullanılmıştır (187.5 kgf, 2.5 mm’ lik
+çelik bilye uç). Tablo 1’de deney malzemesinin
+kimyasal bileşimi verilmiştir.
+2.2 Tornalama Testleri (Turning Tests)
+Talaş kaldırma deneyleri için 7 kw gücünde üniversal
+bir torna tezgâhı kullanılmıştır. Tornalama işlemleri
+kuru olarak gerçekleştirilmiştir. Dört farklı tür kesici
+694
+
+Şekil 1. AISI 410’nun mikro yapısı
+
+(Microstructure of
+
+AISI410 stainless steel)
+
+takım kullanılarak tornalama deneyleri gerçekleştirilmiştir. Kesici takımlara ait özellikler Tablo
+2’de tornalamadaki kesme geometrisi ise Tablo 3’de
+verilmiştir.
+Numuneler Tablo 3’de belirtilen işleme şartlarında
+tornalanmıştır. Deney parametreleri ISO 3685
+standardına uygun olarak belirlenmiş ve bütün kesici
+uçlar için kesme parametreleri sabit tutulmuştur. Talaş
+köklerinin morfolojisi ani durdurma aparatı (ADA)[9]
+kullanılarak belirlenmiştir ve talaş formları görüntülenmesinde Leica DFC 320 dijital kamera bağlantılı
+Leica DM 4000 M marka optik mikroskop
+kullanılmıştır. Kesme kuvvetlerinin ölçülmesinde üç
+boyutlu ölçme yapabilen Kistler 9257A tipi piezoelektrik dinamometre kullanılmıştır. Tornalama
+işlemleri sırasında yüzey pürüzlülük değerleri Mahr
+Perthometer masa tipi pürüzlülük ölçüm cihazı
+kullanılarak ölçülmüştür.
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+3.1. Tornalama Kuvvetleri (Turning Forces)
+Şekil 2, AISI 410 martenzitik paslanmaz çeliğin sabit
+kesme hızında işlenmesi sırasında oluşan kesme
+kuvveti (Fc), ve ilerleme kuvvetinin (Ff) değişimini
+göstermektedir. En yüksek kesme ve ilerleme kuvveti,
+TiC+TiN kaplamalı takımda gözlenmiştir. En düşük
+tornalama kuvvetlerini ise CBN kesici takım
+vermiştir. CBN takımın takım/talaş ara yüzeyindeki
+sürtünme katsayısının deneylerde kullanılan diğer
+bütün kesici takımlara kıyasla düşük olması ve
+1200°C sıcaklığa kadar kimyasal kararlığını
+koruyabilmesi düşük tornalama kuvvetlerinin nedeni
+olarak söylenebilir [10,11].
+TiC+TiN kaplamalı takım literatürde belirtilen düşük
+sürtünme katsayısına karşın [10,12,13,14], kısa işleme
+mesafelerine rağmen (≈20 mm) takım kaplamasındaki
+kırılmalar ve talaşın takıma yapışma eğiliminden
+(Şekil 3-4) dolayı yüksek kesme ve ilerleme
+kuvvetleri elde edilmiştir. Şekil 3 ve 4-a’da TiC+TiN
+kaplamalı takımın kaplamasındaki bölgesel kırılmalar
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+AISI 410 Martensitik Paslanmaz Çeliklerin Kesici Takım ve Kaplamasına Bağlı İşlenebilirliği
+
+A. Özer ve E. Bahçeci
+
+Tablo 1. Deney malzemesinin kimyasal kompozisyonu (% ağırlık)(Chemical composition of test material (% weight))
+C
+Mn
+Si
+P
+S
+Cr
+Ni
+AISI 410
+0.145
+0.436
+0.564
+0.036
+0.011
+12.411
+0.15
+Takım
+No
+1
+2
+3
+4
+
+Tablo 2. Kesici takımlara ait özellikler (Properties of cutting tools)
+Kesici takım
+Kaplama ve
+Firma
+Üretici firma
+türü
+yöntemi
+kodu
+Sandvik Coromat
+Sementit karbür
+TiC+TiN - PVD
+M20
+Mitsubishi
+Sementit karbür
+Kaplamasız
+UTI20T
+Toshiba Tungalloy
+Sementit karbür
+TiC - CVD
+T802
+Mitsubishi
+CBN
+MB730
+
+Kesici uç
+geometrisi
+SPUN 120304
+SPGN 120304
+SPMN 120304
+SPGN120304
+
+Tablo 3. Tornalama parametreleri ve kesme geometrileri (Turning parameters and cutting geometry)
+Talaş parametreleri
+Kesme geometrisi
+Kesici takım
+M20
+UTI20T
+T802
+MB730
+Talaş derinliği
+1.2 mm
+Talaş açısı
+6°
+6°
+6°
+6°
+İlerleme
+Yan boşluk açısı
+5°
+5°
+5°
+5°
+0.12 mm/dev
+(f)
+Yanaşma açısı
+75°
+75°
+75°
+75°
+Geriye eğim açısı
+0
+0
+0
+0
+Kesme hızı (V)
+60 m/dak
+Uç açısı
+90°
+90°
+90°
+90°
+Uç yarıçapı
+0.4
+0.4
+0.4
+0.4
+ve takıma yapışan talaş görülmektedir. Takım
+kaplamasında oluşan kırılmalar, takımın aşınması ve
+talaşın takıma yapışma eğiliminin fazla olması
+tornalama kuvvetlerinin artmasında etkilidir. İşleme
+sırasında kaplamanın bölgesel olarak kırılması
+kaplamanın yüksek sertliğine karşın düşük darbe
+
+direncine atfedilir [10,15]. Şekil 4-b ve 4-c incelendiğinde, TiC kaplamalı takıma talaşın yapışma
+eğiliminin olmadığı, kaplamalı takıma ise kısmi talaş
+sıvanmalarının olduğu görülmektedir.
+3.2. Talaş Oluşumu ve Talaş Formu (Chip Formation
+and Chip Forms)
+
+Takım/talaş ara yüzeyindeki temas uzunluğunun
+artması, sürtünmeyi arttıracağından kesme kuvvetlerini de artıracaktır. Temas uzunluğu iş parçası
+malzemesi ve kesici takım malzemesi mekanik
+özelliklerinin ve kaplama malzemesinin bir fonksiyonudur. Talaş kaldırma sırasında kesici takımın
+kaplama malzemesi ile işlenen malzemenin kimyasal
+aktivitesine bağlı oluşan sürtünme kuvvetleri
+takım/talaş temas uzunluğunu değiştirmektedir
+[16,17,18]. Kesme açısındaki artış takım/talaş temas
+uzunluğunu azaltır. Böylece yığılan talaş miktarı ile
+
+(a)
+
+(b)
+Şekil 2. Kesici takım ve kaplamanın (a) kesme
+kuvvetine, (b) ilerleme kuvvetine etkisi (Effect of cutting
+tool and coating (a) Fc force (b) Ff force)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+Şekil 3. TiC+TiN kaplamalı takımın optik mikroskop
+fotoğrafı (Picture of optical microscope coated with TiC+TiN)
+695
+
+A. Özer ve E. Bahçeci
+
+AISI 410 Martensitik Paslanmaz Çeliklerin Kesici Takım ve Kaplamasına Bağlı İşlenebilirliği
+
+Şekil 4. Kesici Takımların SEM fotoğrafları, (a)
+TiC+TiN kaplamalı, (b) Kaplamasız, (c) TiC
+kaplamalı (Picture of SEM (a) Coated with TiC+TiN, (b)
+Uncoated, (c) Coated with TiC)
+
+sürtünme kuvvetleri de azalır [19,20]. TiC+TiN
+kaplamalı takımla işlemede takım/talaş ara
+yüzeyindeki temas uzunluğu, kaplamanın bölgesel
+olarak kırılmasından dolayı, kaplamasız ve TiC
+kaplamalı takımlarla işleme de oluşan temas
+uzunluğundan daha fazladır (t1>t2>t3) (Şekil 5).
+Temas uzunluğunun TiC+TiN kaplamalı takımda
+fazla olması, kesme kuvvetlerini arttırıcı bir etkendir.
+TiC kaplamalı takımda yapışmanın olmaması (Şekil
+4-c) ve temas uzunluğunun diğer takımlara göre daha
+kısa olması, düşük kesme kuvvetlerinin elde
+edilmesinde etkili olmuştur.
+CBN takımla talaş kökü çıkarma anında kesici ucun
+çok sık kırılması sonucu bu takım için talaş kökü
+hazırlanamamıştır. Ancak, en düşük kesme kuvvetlerini CBN takım vermiştir. Talaşın takıma yapışma
+eğiliminin olmaması ve takım/talaş ara yüzeyindeki
+temas uzunluğunun diğer takımlara göre muhtemelen
+daha kısa olması bunun nedeni olarak söylenebilir.
+Deney malzemesi olan düşük sertliğe sahip temperlenmiş martenzitik paslanmaz çeliğin işlenmesinde,
+genelde sünek malzemelerin işlenmesinde oluşan
+sürekli talaş formu çeşitleri oluşmuştur. Şekil 6’da
+60 m/dak kesme hızında takım malzemesi ve
+696
+
+Şekil 5. Talaş kökü resimleri (Pictures of chip root)
+kaplamanın talaş formuna etkisi görülmektedir.
+TiC+TiN kaplamalı takımda ve kaplamasız sementit
+karbür takımda şerit talaş oluşmuştur. TiC kaplamalı
+sementit karbür takımda karmaşık sürekli talaş, CBN
+takımda ise yassı helisel sürekli talaş oluştuğu
+görülmüştür. Oluşan bütün talaşlar işlenebilirlik
+açısından ideal olmayan, olumsuz formlara sahiptir.
+3.3. Yüzey Pürüzlülüğü (Surface Roughness)
+Genel olarak paslanmaz çelikler yüksek yüzey
+pürüzlülüğü değerlerine sahiptir [21]. Özellikle östenitik paslanmaz çeliklerin yüzey pürüzlülük değeri
+oldukça yüksektir. Bu yüksek yüzey pürüzlülük
+değerleri östenitik paslanmaz çeliklerin yüksek
+süneklikleri ile açıklanabilir. Çünkü yüksek süneklik
+yığıntı talaş (YT) oluşum eğilimini arttırır [13,22,23].
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+AISI 410 Martensitik Paslanmaz Çeliklerin Kesici Takım ve Kaplamasına Bağlı İşlenebilirliği
+
+A. Özer ve E. Bahçeci
+
+Şekil 6. Talaş formuna takım malzemesinin ve kaplama türünün etkisi (Effect of tool material and coated on form of chip)
+
+
+
+
+
+
+CBN takım düşük kesme kuvvetleri ve yüzey
+pürüzlülüğü vermesine karşın, kısa işleme
+mesafelerinde dahi takımda kırılmalar meydana
+gelmiştir.
+TiC kaplamalı takımda, talaşın takıma yapışma
+eğiliminin çok düşük olması ve takım/talaş temas
+uzunluğunun diğer takımlara göre daha kısa
+olması, düşük kesme kuvvetlerine neden
+olmuştur.
+Kaplamasız takım en yüksek yüzey pürüzlülüğü
+değerini vermiştir. Tornalama kuvvetleri bakımında, TiC kaplamalı ve CBN takıma göre daha
+yüksek değerler vermiştir.
+
+KAYNAKLAR (REFERENCES)
+Şekil 7. Kesici takım ve kaplamanın yüzey
+pürüzlülüğüne etkisi (Effect of cutting tool and coated on
+
+1.
+
+surface roughness)
+
+Martenzitik paslanmaz çeliklerde sünekliğin ve YT
+oluşum eğiliminin daha az olması daha iyi yüzey
+pürüzlülük değerlerinin elde edilmesini sağlamaktadır
+[7,22,24].
+Şekil 7 AISI 410 martenzitik paslanmaz çelik için
+farklı kesici takımlara ait yüzey pürüzlülük değerlerini
+(Ra) göstermektedir. Bu değerler her kesici takım için
+yapılan üç ölçmenin ortalamasıdır. En yüksek yüzey
+pürüzlük değeri, talaş yapışma eğilimine sahip
+kaplamasız takımda elde edilmiştir. TiC+TiN
+kaplamalı takım ve CBN takım ile ideal yüzey
+pürüzlülük değerine (Ra=1.15 [25]) en yakın yüzey
+pürüzlülük değerleri elde edilmiştir.
+4. SONUÇLAR (CONCLUSIONS)
+Kaplamasız ve farklı kaplama türlerine sahip sementit
+karbür ve CBN kesici takımlar kullanılarak tornalama
+ile yapılan AISI 410 martenzitik paslanmaz çeliğin
+işlenebilirlik deneylerinde elde edilen sonuçlar
+aşağıda özetlenmiştir:
+
+
+TiC+TiN kaplamalı takımın literatürde belirtilen
+düşük sürtünme katsayısına karşın, kaplamadaki
+kırılmalardan ve talaşın takıma yapışma eğilimden dolayı en yüksek kesme ve ilerleme kuvvetleri oluşuştur. Fakat işlenen yüzeyin pürüzlülüğü
+bakımından ideal yüzey pürüzlülüğüne en yakın
+değerler elde edilmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+2.
+
+3.
+
+4.
+
+5.
+6.
+7.
+
+8.
+
+Zimmerman, C., Boppana, S.P., Katbi, K.,
+“Machinability
+Test
+Methods”
+Metals
+Handbook: Machining, vol 16, 9th Edition,
+Editör: J. R. Davis, Metals Park, Ohio, 639-641,
+1989.
+Kosa,T., Ronald, P., “Machining of Stainless
+Steels”, Handbook: Machining, vol 16, 9th
+Edition, Editör: J. R. Davis, Metals Park, Ohio,
+684-686, 1989.
+Lula, R.A., Bernstain, I.M., “Residual and Minor
+Elements in Stainless Steel” Handbook of
+Stainless steel, Editör: D. Peckner, McGraw Hill
+Book Co., 14-9/14-11, 1977.
+Feirer, J.L., “Materials: Machinability of steels”
+Machine Tool Metalworking Principles and
+Practice, 2nd Edition, McGraw Hill Book Co.,
+1983.
+Higgins, R.A., Materials: For The Engineering
+Technician, Chapman and Hall Inc., New York,
+284-289, 1987.
+Agrawal, B.K., Introduction to Engineering
+Materials, Mc Graw-Hill Publishing Co., New
+Delhi, 1983.
+Çiftçi, İ., “Östenitik Paslanmaz Çeliklerin
+İşlenmesinde Kesici Takım Kaplamasının ve
+Kesme Hızının Kesme Kuvvetleri ve Yüzey
+Pürüzlülüğüne Etkisi”, Gazi Üni. Müh. Mim.
+Fak. Der., Cilt 20, No 2, 205-209, 2005.
+Sarwar, M., Zhang, X., Gillibrand, D.,
+“Performance of Titanium Nitride-Coated
+Carbide Tipped Circular Saws When Cuttig
+Stainless Steel and Mild Steel” Surface and
+
+697
+
+A. Özer ve E. Bahçeci
+
+9.
+
+10.
+
+11.
+
+12.
+13.
+
+14.
+15.
+16.
+17.
+
+18.
+
+698
+
+AISI 410 Martensitik Paslanmaz Çeliklerin Kesici Takım ve Kaplamasına Bağlı İşlenebilirliği
+
+Coatings Technology, Vol 94-95, 617-621,
+1997.
+Ozcatalbas, Y., Ozdemir, A., “The Development
+of a New Quick Stop Device for Use Turninig” J.
+Inst. Sci. Technol. Gazi Univ., Vol 12, No 3,
+809-820, 1999.
+Yiğin, A., “Talaş Kaldırarak İşleme” Makine
+Mühendisliği El Kitabı: Üretim ve Tasarım
+Cilt: 2, Ed.Cerit, M.A.,TMMOB Makine
+Mühendisleri Odası, Yayın No: 170, 249-274.
+Lima, J.G., Avila, R.F., Abrao, A.M., Faustino, M.
+Davim, J.P., “Hard Turning: AISI 4340 High
+Strength Low Alloy Steel and AISI D2 Cold Work
+Tool Steel” Journal of Materials Processing
+Technology, Vol. 169, 388-395, 2005.
+Asil Çelik, “İşlenebilirlik”, Kesici Takım
+Malzemeleri, Teknik Yayınlar, 17-25.
+Ciftci, İ., “Machining of austenitic Stainless
+Steels Using CVD Multi-layer Coated cemented
+Carbide Tools” Tribology Internetional, Vol.
+39, 565-569, 2006.
+Işık, Y., “Investigating the Machinability of Tool
+Steels in Turning Operations” Materials and
+Design, Vol. 28, 1417-1424, 2007.
+Dormer Tools, Techical Handbook, Shireoaks
+Road Workshop, UK.
+Sadık, M.I., “The Rool of Tool-Chip Contact
+Length in Metal Cutting” Journal of Materials
+Processing Technology, Vol. 37, 613-627, 1993
+Marinov, V.R., “Hybrid Analytical-numerical
+Solution for the Shear Angle in Orthogonal Metal
+Cutting-Part
+I:
+Theoretical
+Foundation”,
+International Journal of Mechanical Sciences,
+Vol. 43, 399-414, 2001.
+Toropov, A., Sung-Lim Ko, “Prediction of Shear
+Angle for Continuous Orthogonal Cutting Using
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+Thermo-mechanical Constants of Work Material
+and Cutting Conditions” Journal of Materials
+Processing Technology, Vol. 182, 167-173,
+2007.
+Lee, W.B., To, S., Sze, Y.K., Cheung, C.F.,
+“Effect of Material Anisotropy on Shear Angle
+Prediction in Metal Cutting-a Mesoplasticity
+Approach”, International Journal of Mechanical
+Sciences, Vol. 45, 1739-1749, 2003.
+Seyfi, A., “Östemperlenmiş GGG60 Sınıfı
+Küresel
+Grafitli
+Dökme
+Demirlerin
+İşlenebilirliğinin Kesme Kuvvetleri ve Yüzey
+Pürüzlülüğü Açısından Değerlendirilmesi”,
+Master Tezi, Gazi Üniversitesi, Fen Bilimleri
+Enstitüsü, 2006.
+Kosa, T., Ronald, P., “Machining of Stainless
+Steel” Metals Handbook: Machining, Vol 16,
+9th Edition, Editör: J. R. Davis, Metals Park,
+Ohio, 681-690, 1989.
+Ezugwu, E.O., Kim, S.K., “The Performance of
+Cermet Cutting Tools When Machining on NiCr-Mo (EN 24) Steel” Lubrication Engineering,
+Vol 51, No 2, 139-145, 1995.
+Korkut, I., Kasap, M., Ciftci, İ., Seker, U.,
+“Determination of Optimum Cutting Parameters
+During Machining of AISI 304 Austenitic
+Stainless Steel” Materials and Design, Vol. 25,
+303-305, 2004.
+Akasawa, T., Sakurai, H., et.all., “Effects of Free
+Cutting Additives on the Machinability of
+Austenitic Stainless Steels” Journal of Materials
+Processing Technology, Vol. 143-144, 66-71,
+2003.
+Boothroyd, G., Fundamentals of Metal
+Machining and Machine Tools, Singapore,
+1987.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+

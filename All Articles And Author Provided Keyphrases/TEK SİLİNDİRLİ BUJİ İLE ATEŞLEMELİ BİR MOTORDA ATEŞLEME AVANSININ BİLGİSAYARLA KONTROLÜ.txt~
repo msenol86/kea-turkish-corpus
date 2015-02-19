@@ -1,0 +1,757 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 4, 861-868, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 4, 861-868, 2011
+
+TEK SİLİNDİRLİ BUJİ İLE ATEŞLEMELİ BİR MOTORDA
+ATEŞLEME AVANSININ BİLGİSAYARLA KONTROLÜ
+
+İhsan BATMAZ*, Fatih ŞAHİN**, Hamza BİLGEN***
+* Otomotiv Anabilim Dalı, Makine Eğitimi Bölümü, Teknik Eğitim Fakültesi, Gazi Üniversitesi, 06500,
+Teknikokullar, Ankara
+** Otomotiv Mühendisliği Bölümü, Teknoloji Fakültesi, Gazi Üniversitesi, 06500, Teknikokullar, Ankara
+*** Bakırcı Otomotiv, Atatürk Oto Sanayi Sitesi 2. Kısım 2. Sok. No:10, 34398, Maslak, İstanbul
+ibatmaz@gazi.edu.tr, fasahin@gazi.edu.tr, hamza.bilgen@bakirci.com.tr
+(Geliş/Received: 05.04.2011; Kabul/Accepted: 24.06.2011)
+ÖZET
+Günümüz motorlarında kullanılan elektronik sistemler oldukça karmaşık bir yapıya sahiptir. Bu sistemlerin
+yapılarını ve çalışma mantıklarını anlayabilmek için her bir sistemi ayrı ayrı incelemek gerekmektedir. Bu
+çalışmada özgün bir buji ile ateşlemeli motor için ateşleme kontrol sistemi tasarlanmıştır. Sistem bir
+mikrodenetleyici tarafından kontrol edilmektedir. Sistemde mikrodenetleyici kartına bağlı bir bilgisayar
+bulunmaktadır. Motor devri ve yükü sistem tarafından sürekli olarak kontrol edilmektedir. Yük ve hıza bağlı
+olarak en uygun ateşleme avansı bilgisayar yazılımındaki avans haritası yardımıyla hesaplanmakta ve sonuçlar
+mikrodenetleyiciye gönderilmektedir. Mikrodenetleyici kartı bilgisayardan aldığı avans değerine göre
+ateşlemenin uygun zamanda yapılabilmesi için tetikleme sinyalini üretmektedir. Geliştirilen bu sistem ateşleme
+avansını değiştirebilme yeteneğine sahiptir. Bu nedenle sistem ateşleme parametrelerinin istenildiği gibi
+değiştirilebilmesine imkân vermektedir. Ayrıca sistem ateşleme sistemi parametrelerinin görüntülemesi
+sayesinde bir eğitim aracı olarak da kullanılabilmektedir.
+Anahtar Kelimeler: Ateşleme avans kontrolü, Mikrodenetleyici, Buji ile ateşlemeli motor
+
+COMPUTER BASED CONTROL OF IGNITION TIMING IN A SINGLE CYLINDER
+SPARK IGNITION ENGINE
+
+ABSTRACT
+The electronic systems which are used in today’s engines are in a very complex structure. In order to understand
+and comprehend these structures, each system must be examined in sections. In this study, an ignition control
+system was designed for an original spark ignition engine. The system is controlled by a microcontroller. There
+is a computer which is connected to the microcontroller card in the system. Speed and load of the engine are
+controlled by the system continuously. According to load and speed, the optimum ignition advance value is
+calculated by using the ignition advance map in the computer software and then the result is sent to the
+microcontroller again. The microcontroller card sends the trigger signal to the circuit according to the incoming
+ignition advance value and so ignition is provided at the required moment. This new designed control system is
+capable of changing the ignition advance map. Hence, the system gives an opportunity of changing the ignition
+parameters if it is desired. It is also possible to monitor the ignition system parameters with this system so that it
+can be used for educational purposes.
+Keywords: Ignition advance control, Microcontroller, Spark ignition engine
+
+İ. Batmaz ve ark.
+
+Tek Silindirli Buji ile Ateşlemeli Bir Motorda Ateşleme Avansının Bilgisayarla Kontrolü
+
+1. GİRİŞ (INTRODUCTION)
+Otomobil motorları ilk kez üretildikleri andan itibaren
+sürekli olarak geliştirilmekte ve değişmektedir. İçten
+yanmalı motorlarda en önemli konulardan birisi havayakıt karışımının uygun zamanda yakılmasıdır.
+Mekanik sistemlerde en yüksek verimi elde edebilmek
+için parametreler yeteri kadar hassas bir şekilde
+ayarlanamamaktadır. Ateşleme zamanlamasının temel
+esası üst ölü noktadan (ÜÖN) kaç derece önce
+ateşlemenin yapılacağıdır. Ateşleme avansının
+kontrolünde maksimum basıncın en uygun noktada
+oluşturulması, bu sayede en yüksek momentin elde
+edilmesi amaçlanmaktadır [1, 2].
+Elektronik kontrol üniteleri içerisinde mikroişlemci
+bulunması dolayısıyla eski sistemlerden farklıdırlar.
+Motora ait ateşleme sistemi parametreleri elektronik
+kontrol ünitesi içerisinde programlanmıştır. Motor
+hızı, emme manifoldu basıncı, hava akışı, gaz
+kelebeği pozisyonu, hava/yakıt oranı, giriş hava
+sıcaklığı, motor sıcaklığı, vuruntu ve batarya gerilimi
+gibi parametreler ateşleme avansına etki etmektedir
+[3, 4].
+Ateşleme avansının hesaplanmasında göz önünde
+bulundurulması gereken bazı önemli hususlar vardır.
+Bu hususlar en yüksek motor gücünün elde edilmesi,
+yakıt tüketiminin azaltılması, vuruntu ve emisyonların
+azaltılmasıdır [5].
+1975’lerde Amerika’da manyetolu ateşleme sistemi
+yerine klasik ateşleme sistemi kullanılmaya
+başlanmıştır [6]. Ford ilk motor kontrol sistemini
+1978’de kullanmıştır (EEC-1) [7]. Bu sistem daha
+fazla
+parametrenin
+ölçülebilmesini
+ve
+bu
+parametrelere göre elde edilen sonuçların motora
+hassas bir şekilde uygulanabilmesini ve böylece motor
+kontrolünün istenilen şekilde yapılabilmesine imkân
+sağlamıştır. Sasayama, Sakamoto ve Mouri çift eğimli
+integral yöntemini kullanarak ateşleme zamanlamasını
+kontrol etmişlerdir [8]. Fujun, Yunshan ve Ying klasik
+bir ateşleme sistemini 8051 serisi bir mikrodenetleyici
+kullanarak kontrol etmişlerdir. Motordaki vuruntunun
+avansa etki ettiği bu çalışmada, 368Q motorunda
+yapılan testlerde motor momentinde artış gözlenmiştir
+[9]. Shamekhi ve Ghaffari iyonlaşma akımını ölçerek
+bulanık mantıkla ateşleme avansını kontrol
+etmişlerdir. Yaptıkları simülasyonlarda klasik
+sistemden daha iyi sonuçlar almışlardır [10]. Eriksson
+ateşleme avansını silindirden aldığı basınç değerlerine
+göre belirlemiştir. Geliştirdiği sistemi 4 zamanlı 2,3 L
+SAAB motorundan aldığı veriler ile doğrulamıştır
+[11]. Beham ve Yu bir ateşleme sistemini avans
+tablosu (look-up table) yerine yapay sinir ağları ile
+kontrol etmişlerdir. Yapılan sistem Matlab’da simüle
+edilmiş ve BMW laboratuarlarında değişik sürüş
+koşullarında test edilmiştir [12].
+
+862
+
+Elektronik ve mekaniğin iç içe olduğu günümüz
+motorlarındaki ateşleme sistemi ve sistemin kontrol
+mekanizması oldukça karmaşık bir yapıya sahiptir.
+Hangi verilerin motordan alındığı ve çıktılar
+bilinirken alınan verilerin işlenme yöntemleri
+hakkında net bilgiler bulunmamaktadır. Her motor tipi
+için üretilen motora özgü verileri içeren elektronik
+kontrol üniteleri (EKÜ) farklı tip bir motora
+uygulanamamaktadır. Bunun nedeni motorların
+yapılarındaki
+farklılıklar
+nedeniyle
+kontrol
+parametrelerinin farklı olmasıdır.
+Bu çalışmada farklı motorların ateşleme avansını
+kontrol edebilecek bir ateşleme sistemi geliştirilmiştir.
+Bu sistem ile ateşleme sisteminin manüel ve otomatik
+kontrol edilebilme imkânı bulunmaktadır. Sistem
+ayrıca ateşleme avansının kontrolünde farklı kontrol
+algoritmalarının kullanılmasını mümkün kılmaktadır.
+Sistem az sayıda giriş parametresine sahip olması
+nedeniyle
+farklı
+motorlara
+kolayca
+uyarlanabilmektedir.
+2. MATERYAL VE METOT
+
+(MATERIAL AND
+
+METHOD)
+
+2.1. Geliştirilen Sistem (The Developed System)
+Geliştirilen sistem genel hatları ile motordan verileri
+toplayacak sensörler, verileri işleyen ve ateşleme
+sinyalini üreten mikrodenetleyici, ateşleme sinyaline
+göre ateşlemeyi gerçekleştiren ateşleme devresi ve
+mikrodenetleyicinin gönderdiği verileri alarak
+mikrodenetleyiciye gerekli avans değerini gönderen
+bilgisayardan oluşmaktadır. Şekil 1’ de geliştirilen
+sistemin blok diyagramı görülmektedir.
+Giriş sinyalleri
+
+Microdenetleyici
+PIC 18F452
+
+ÜÖN sensörü
+
+Sayısal G/Ç
+
+90o sensörü
+
+Yazılım
+
+Gaz kelebeği
+konum sensörü
+
+Ateşleme sistemi
+
+USART
+
+Bilgisayar
+
+Şekil 1. Geliştirilen sistemin blok diyagramı
+
+(Block
+
+diagram of the developed system) [13]
+
+Motora bağlanan sensörler mikro denetleyici kartına
+bağlanmıştır. Bu kart RS232 çıkışı ile bilgisayara
+bağlıdır. Sistemde elektronik bir ateşleme sistemi
+kullanılmış ve ateşleme sistemiyle mikro denetleyici
+kartı birbirinden optik olarak yalıtılmıştır.
+2.2. Giriş Sinyalleri (Input signals)
+Geliştirilen
+sistemin
+girişleri,
+motorun
+karbüratöründeki gaz kelebeğine yerleştirilen gaz
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 4, 2011
+
+Tek Silindirli Buji ile Ateşlemeli Bir Motorda Ateşleme Avansının Bilgisayarla Kontrolü
+
+kelebeği konum sensörü, motor bloğuna yerleştirilen
+ve volandaki mıknatıslarla çalışan ÜÖN ve 90°
+sensörleridir.
+Sistemdeki sensörlerden ÜÖN sensörü ve 90° sensörü
+Hall etkisi prensibine göre çalışmaktadır. Motor
+bloğuna yerleştirilen ÜÖN sensörü ile mıknatıs volan
+tam ÜÖN’de iken karşı karşıya gelmektedir. 90°
+sensörü ise ÜÖN sensöründen 270° sonra yani motor
+ÜÖN gelmeden 90° önce kendine ait mıknatısla
+karşılaşmaktadır. Bu sensörlerin konumları Şekil 2’de
+görülmektedir.
+Dönüş yönü
+
+ÜÖN sensörü
+(Hall etkili)
+
+Mıknatıslar
+
+Volan
+
+Şekil 2. Konum sensörlerinin yerleşimi
+
+(Locations of
+
+position sensors)
+
+Konum sensörleri Hall etkisi prensibine göre çalışan
+DN-6853 entegresi kullanılarak yapılmıştır. DN-6853
+manyetik alanla karşılaştığında çıkış katındaki açık
+kollektör çıkışlı transistör iletime geçmektedir. Çıkış
+katındaki transistörün kollektörü dışarıdan bir dirençle
++5V’a bağlanmıştır. Böylece transistör iletimde
+olduğunda sensör çıkışı 0’a düşmektedir. Sensör
+manyetik alandan uzaklaştığında ise çıkıştaki
+transistör yalıtıma geçmekte ve çıkış 1 (+5V)
+olmaktadır. DN-6853’ün bağlantı şekli ve örnek çıkış
+sinyali Şekil 3’te görülmektedir.
+Vout
+
+Rpull-up
+
+GND
+
+Vout
+
+Düşük
+(0V)
+
+Şekil 4. Gaz kelebeği konum sensörü bağlantıları
+(Connections of throttle position sensor)
+
+Mikrodenetleyicinin bulunduğu giriş ve çıkış
+sinyallerini işleyen kart altı bölümden oluşmaktadır:
+- Güç kaynağı birimi,
+- Analog sayısal dönüştürücü (ASD) referans
+kaynağı,
+- Konum sensörleri girişi,
+- Gaz kelebeği konum sensörü girişi,
+- Ateşleme çıkışı,
+- RS232 arabirimi.
+Ateşlemenin yapılabilmesi için kullanılan ateşleme
+sistemini tetikleyen sinyal mikrodenetleyicinin RE1
+çıkışından
+gönderilmektedir.
+Mikrodenetleyici
+sisteminin ateşleme sisteminden etkilenmemesi için
+bu çıkış Şekil 5’te görüldüğü gibi 4N25 optokuplör
+entegresi ile yalıtılmıştır.
+
+Şekil 5. Ateşleme çıkışı ve ateşleme modülünün
+optokuplörle yalıtılması (Isolation between ignition output
+and ignition module using optocoupler)
+
+Mikrodenetleyici kartının devre şeması Şekil 6’da
+görülmektedir.
+Sistemde
+PIC18F452
+mikrodenetleyicisi kullanılmıştır. Mikrodenetleyicinin
+çalışma frekansı 40 MHz’dir.
+
+Yüksek
+(5V)
+DN-6853
+
+sensörünün
+
+2.3. Mikrodenetleyici Kartı (Microcontroller Board)
+
+90o sensörü
+(Hall etkili)
+
++5V
+
+bağlanmıştır. Gaz kelebeği konum
+bağlantısı Şekil 4’te görülmektedir.
+
+İ. Batmaz ve ark.
+
+Mıknatısla
+karşılaşma
+
+t
+
+Şekil 3. DN-6853 Hall entegresi bağlantısı ve çıkış
+sinyali (Connection circuit and output waveform of DN-6853 Hall
+effect IC)
+
+Gaz kelebeği konum sensörü ise hareketini gaz
+kelebeği milinden alan bir potansiyometredir. Sensör
+gaz kelebeğinin konumuna bağlı olarak 0-5V arasında
+değişen analog bir gerilim üretmektedir. Sensörden
+alınan analog çıkış mikrodenetleyicinin RA0 girişine
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 4, 2011
+
+Ateşleme avansı, motor hızı ve gaz kelebeği konumu
+gibi
+bilgiler
+bir
+LCD
+ekran
+üzerinde
+görüntülenmektedir. LCD mikrodenetleyiciye 4 bit
+üzerinden kontrol edilecek şekilde bağlanmıştır.
+Ateşleme sistemi ayarlarının değiştirilebilmesi
+amacıyla devreye dört buton eklenmiştir. Geliştirme
+aşamasında mikrodenetleyicinin yerinden sökülmeden
+programlanabilmesi için devre üzerinde seri
+programlama (ICSP: in circuit serial programming)
+özelliği kullanılmıştır.
+
+863
+
+İ. Batmaz ve ark.
+
+Tek Silindirli Buji ile Ateşlemeli Bir Motorda Ateşleme Avansının Bilgisayarla Kontrolü
+
+Şekil 6. Mikrodenetleyici kartı devre şeması (Circuit diagram of the microcontroller board)
+2.4. Ateşleme Sistemi (Ignition System)
+Ateşleme sistemi elektronik ateşleme devresi,
+ateşleme bobini ve bujiden oluşmaktadır. Ateşleme
+sistemi girişi pozitiften sıfıra düştüğü zaman ateşleme
+gerçekleştirilmektedir.
+2.5. Deney Düzeneği (Experimental Setup)
+Deney düzeneğinin şematik yapısı Şekil 7’de
+görülmektedir.
+
+3600 min-1’da 10 kW güç absorbe edebilmektedir. DC
+dinamometrede bulunan tristör sürücü devresi ile yük
+ve kapalı döngü hız kontrolü yapılabilmekte ve ayrıca
+dinamometre motor olarak çalıştırılabilmektedir.
+Deneylerde, 269,69 cm3 hacimli, 4 zamanlı, kurs/çap
+oranı 0,833, sıkıştırma oranı 9,5/1 ve gücü 6 kW olan
+özgün tasarıma sahip bir buji ile ateşlemeli motor
+kullanılmıştır [14]. Deney motoru Şekil 8’de
+görülmektedir.
+
+Şekil 8. Deney motoru (Test engine)
+2.6. Yapılan Deneyler (Experiments)
+
+Şekil 7. Deney düzeneği (Experimental setup)
+Deneyler Cussons P8160 marka motor test
+dinamometresinde
+yapılmıştır.
+Motor
+test
+düzeneğinde bulunan DC dinamometre, maksimum
+
+864
+
+Deneyler 5 farklı devirde ve 4 farklı gaz kelebeği
+konumunda gerçekleştirilmiştir. Her test için en
+yüksek momenti sağlayan avans değerleri tespit
+edilmiştir. Avansın değiştirilmesi mikrodenetleyicili
+kart üzerinde bulunan butonlarla yapılmıştır. Yük ve
+motor hızına göre elde edilen en uygun ateşleme
+avans değerleri Tablo 1’ de görülmektedir. Elde
+edilen avans değerlerine göre oluşturulmuş üç boyutlu
+avans haritası Şekil 9’da görülmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 4, 2011
+
+Tek Silindirli Buji ile Ateşlemeli Bir Motorda Ateşleme Avansının Bilgisayarla Kontrolü
+
+İ. Batmaz ve ark.
+
+Tablo 1. Motor yükü ve hızına bağlı avans (° KMA
+önce ÜÖN) değerleri (Advance values depending on speed
+and load (° CA before TDC))
+
+Motor hızı (min-1)
+2750
+
+3000
+
+4
+
+2500
+
+3
+
+2250
+
+2
+
+2000
+
+1
+
+1750
+
+Gaz kelebeği
+konumu
+4
+
+21
+
+22
+
+24
+
+29
+
+29
+
+32
+
+4
+
+20
+
+21
+
+24
+
+24
+
+27
+
+31
+
+4
+
+17
+
+18
+
+23
+
+26
+
+29
+
+34
+
+4
+
+22
+
+27
+
+29
+
+32
+
+38
+
+44
+
+Şekil 10. Sistemin fonksiyonel blok diyagramı
+(Functional block diagram of the system)
+
+2.8.
+
+Mikrodenetleyici
+
+Yazılımı
+
+(Microcontroller
+
+Software)
+
+ÜÖN ve 90° sensörleri mikrodenetleyicinin iki harici
+kesme girişine bağlanmıştır. Mikrodenetleyici
+içerisindeki 16 bitlik Timer 3 sayıcısı ÜÖN sinyalinin
+gelmesiyle çalışmaya başlar ve ikinci ÜÖN sinyali
+gelmesiyle durur. Bu sayacın hesapladığı değer
+periyot değeridir. 60000000 değerinin elde edilen
+periyot değerine bölünmesiyle motor hızı hesaplanmış
+olur. Ateşleme sinyalinin üretilmesi için tahsis edilmiş
+olan sayıcı 90° sinyalinin gelmesiyle çalışmaya başlar
+ve gerekli olan süre kadar saydıktan sonra ateşleme
+sinyalini üretir. Mikrodenetleyici yazılımına ait akış
+şemaları Şekil 11 ve Şekil 12’de görülmektedir.
+
+Şekil 9. Avans haritası (Ignition advance map)
+2.7. Geliştirilen Sistemin Çalışması (Operation of The
+System)
+
+Sistem motor yükü ve hızına bağlı olarak ateşlemenin
+hangi noktada yapılacağını belirlemektedir. Bu
+nedenle motor hızı ve yükü bilgilerine ihtiyaç
+duyulmaktadır. Mikrodenetleyici ÜÖN sensörünün
+ürettiği ardışık iki sinyali kullanarak motor hızını
+hesaplamaktadır. Gaz kelebeği konum sensöründen
+alınan gerilim sayısal değere dönüştürülerek yük
+bilgisi olarak kullanılmaktadır. Alınan bu iki bilgi
+RS232 üzerinden bilgisayara aktarılmaktadır.
+Bilgisayara gelen bilgilere göre, daha önceki deney
+sonuçlarından elde edilen avans haritasından en uygun
+ateşleme
+avansı
+belirlenmekte
+ve
+sonuç
+mikrodenetleyiciye
+RS232
+üzerinden
+gönderilmektedir. Mikrodenetleyici yazılımı C dilinde
+bilgisayar yazılımı ise Microsoft Visual C#’ta
+yazılmıştır. Şekil 10’da sistemin temel işleyişini
+gösteren fonksiyonel blok diyagram görülmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 4, 2011
+
+Şekil 11. Ana programa ait akış şeması
+
+(Flowchart of
+
+main program)
+
+865
+
+İ. Batmaz ve ark.
+
+Tek Silindirli Buji ile Ateşlemeli Bir Motorda Ateşleme Avansının Bilgisayarla Kontrolü
+
+devre yardımıyla simüle edilmiştir. Devrenin ÜÖN ve
+90° sinyallerini üreten iki çıkışı bulunmaktadır.
+Devrede bulunan iki buton üretilen sinyallerin
+frekanslarının değiştirilmesini sağlamaktadır. Böylece
+farklı motor devirleri simüle edilebilmektedir. Ayrıca
+yük bilgisi sağlamak amacıyla bir potansiyometre
+kullanılmıştır.
+
+Şekil 12. Kesme alt programına ait akış şeması
+(Flowchart of interrupt subroutine)
+
+2.9. Bilgisayar Yazılımı (PC Software)
+Bilgisayar yazılımı mikrodenetleyici kartından gelen
+bilgileri işleyerek sonuçları geri göndermekte ve
+ayrıca sonuçları grafik olarak görüntülemektedir.
+Ateşleme avansı statik olarak ayarlanabilmekte veya
+avans haritası üzerinden hesaplanabilmektedir.
+Yazılımda avans haritası motor hızı ve yüküne bağlı
+üç boyutlu bir harita olarak görüntülenmektedir.
+Hesaplanan anlık avans değerleri harita üzerinde
+gerçek zamanlı olarak görüntülenmektedir. Ayrıca
+simülasyon modunda yük ve hız bilgileri simüle
+edilerek
+farklı
+değerler
+için
+avans
+hesaplattırılabilmektedir.
+Yazılıma
+ait
+ekran
+görüntüsü Şekil 13’te görülmektedir.
+
+Şekil 13. Bilgisayar yazılımı ekran görüntüsü (The view
+of PC software)
+
+2.10. Geliştirilen Sistemin Testi (Testing of Developed
+System)
+
+Şekil 14. Test devresi (Test circuit)
+
+Şekil 15. Test devresi çıkış sinyalleri, ÜÖN sinyali
+(üstte), 90° sinyali (altta) (Output waveforms of test circuit,
+TDC signal (above), 90° signal (below))
+
+Test devresi tarafından üretilen örnek sinyaller Şekil
+15’te görülmektedir. Üstteki sinyal ÜÖN sinyali ve
+alttaki ise 90° sinyalidir. Hız sinyalinin periyodu 60
+ms’dir. 90° sinyali ilk ÜÖN sinyalinden 45 ms sonra
+gelmekte ve 15 ms sonra ikinci ÜÖN sinyali
+gelmektedir. Bu durumda motor hızı 1000 min-1’dir.
+Bu şartlar altında test devresi kontrol devresine
+bağlandığında LCD ekran üzerinde motor hızı 999
+rpm olarak okunmuştur. Bu durumda hız ölçümündeki
+hata %0,1 olarak belirlenmiştir. Test devresinden
+Şekil 15’te görülen sinyaller kontrol devresine
+uygulanırken üretilen ateşleme çıkış sinyali Şekil
+16’da görülmektedir. Ateşleme avansı kontrol devresi
+tarafından 45°’ye ayarlanmıştır. Üstteki sinyal
+ateşleme çıkış sinyali, alttaki sinyal ise 90° sinyalidir.
+Yapılan ölçüm neticesinde sinyaller arasında 7,5 ms
+zaman farkı olduğu belirlenmiştir. Bir tam turun 60
+ms olduğu göz önünde bulundurulursa 7,5 ms 45°’ye
+karşılık gelmektedir.
+
+Geliştirilen sistemin testi yardımcı bir test devresi ve
+bir osiloskop yardımıyla yapılmıştır. Sensör sinyalleri
+Şekil 14’te görülen PIC16F84A mikrodenetleyicili
+
+866
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 4, 2011
+
+Tek Silindirli Buji ile Ateşlemeli Bir Motorda Ateşleme Avansının Bilgisayarla Kontrolü
+
+İ. Batmaz ve ark.
+
+gibi parametrelerin de göz önünde bulundurulması
+yapılan kontrolün daha hassas olmasını sağlayacaktır.
+Konuyla ilgili yapılacak sonraki çalışmalarda temel
+parametrelerin dışında ateşleme avansına etki eden
+parametreler de sisteme dahil edilerek gelişmiş
+kontroller yapılabilir.
+KAYNAKLAR (REFERENCES)
+Şekil 16. 90° sinyali (altta) ve buna bağlı olarak
+üretilen ateşleme sinyali (üstte) (90° signal (below) and
+generated ignition trigger signal depending on it (above))
+
+Dinamik avans kontrolü, elde edilen avans haritası
+kullanılarak kontrol devresi yardımıyla farklı hız ve
+yüklerde test edilmiştir.
+3. SONUÇ VE ÖNERİLER (RESULTS AND
+RECOMMENDATIONS)
+
+Bu çalışmada günümüz araçlarındaki elektronik
+kontrol ünitelerinin bir fonksiyonu olan ateşleme
+avansının kontrolü geliştirilen bir sistem yardımıyla
+gerçekleştirilmiştir.
+İşlenen
+veriler
+bilgisayar
+ekranında görüntülenmiştir.
+Geliştirilen sistemin çıkış sinyalleri yardımcı bir devre
+kullanılarak test edilmiştir. Test devresi yardımıyla
+belli motor hız ve yük şartları oluşturulmuş ve
+ateşleme çıkışı osiloskop yardımıyla kontrol
+edilmiştir. Elde edilen sonuçlar sistemin düzgün bir
+şekilde çalıştığını göstermiştir.
+Tasarlanan sistem ve yazılım, herhangi bir test
+sırasında, test edilen motorun ateşleme zamanlaması
+değerlerinin değiştirilmesini mümkün kılmaktadır. Bu
+sistem sayesinde yeni tasarlanan ya da parametreleri
+değiştirilen bir motorun ateşleme avansı istenildiği
+gibi ayarlanabilir. Avans kontrolü manüel olarak veya
+avans haritası yardımıyla dinamik olarak yapılabilir.
+Geliştirilen sistem taşıt elektronik kontrol ünitelerinin
+fonksiyonlarından
+yalnızca ateşleme
+işlemini
+gerçekleştirdiği için diğer fonksiyonlara sahip
+değildir. Bu nedenle gerek donanım olarak gerekse de
+yazılım olarak daha basit bir yapıya sahiptir. Sistemin
+basit
+bir
+yapıda
+olması
+anlaşılabilirliğini
+artırmaktadır. Ayrıca sistemin bir LCD ekrana sahip
+olması ve yazılımında üç boyutlu avans haritası
+üzerinden anlık çalışma şartlarının izlenebilmesi
+eğitimde kullanılmasını mümkün kılmaktadır.
+Deneylerde kullanılan motor bir prototip motorudur.
+Bu nedenle motoru yüksek hız ve yüklerde test etmek
+mümkün olmamıştır. Daha hassas bir avans haritası
+elde edilebilmesi için deney sayısının artırılması
+gereklidir.
+Ateşleme
+avansının
+belirlenmesinde
+temel
+parametreler olan hız ve yükün yanı sıra giriş hava
+sıcaklığı, vuruntu, motor sıcaklığı, batarya gerilimi
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 4, 2011
+
+1.
+
+Eriksson, L. ve Nielsen, L., “Ionization Current
+Interpretation For Ignition Control In Internal
+Combustion Engines”, Control Engineering
+Practice, Cilt 5, No 8, 1107-1113, 1997.
+2. Çelik, M.B. ve Çolak, A., “The Use of Pure
+Ethanol as Alternative Fuel in a Spark Ignition
+Engine”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, Cilt 23, No 3, 619-626, 2008
+3. Denton, T., Automobile Electrical and
+Electronic Systems, Elsevier Butterworth
+Heinemann, Amsterdam, Boston, Heidelberg,
+London, 2004.
+4. Kiencke, U. ve Nielsen, L., Automotive Control
+Systems, Springer-Verlag, Berlin, Heidelberg,
+2005.
+5. Bauer, H., Automotive Handbook, Robert
+Bosch GmbH, Stuttgart, 2007.
+6. Richmond, F.S., Emissions Reduction Benefits
+of Adapting Electronic Closed Loop Fueling
+Control on a Mechanically Controlled Spark
+Ignited Engine, M.Sc. Thesis, West Virginia
+University,
+Mechanical
+and
+Aerospace
+Engineering, 1998.
+7. Powers, W. F. ve Nicastri R.P., “Automotive
+Vehicle Control Challenges in The 21st Century”,
+Control Engineering Practice, Cilt 8, No 6,
+605-618, 2000.
+8. Sasayama, T., Sakamoto, S. ve Mouri, Y., “A
+New Ignition Timing Control Method Using
+Dual-Slope Integration”, IEEE Transactions On
+Vehicular Technology, Cilt 27, No 1, 35-41,
+1978.
+9. Fujun, Z., Yunshan, G. ve Ying, H., “A Microprocessor Based Adaptive Ignition Control
+System”,
+IEEE
+International
+Vehicle
+Electronics Conference, Changchun, China, 3437, 1999.
+10. Shamekhi, A.H. ve Ghaffari, A., “Fuzzy Control
+of Spark Advance by Ion Current Sensing”, Part
+D: J. Automobile Engineering, Cilt 221, No 3,
+335-342, 2007.
+11. Eriksson, L., Spark Advance Modeling and
+Control, Ph.D. thesis, Linköping University,
+Linköping Studies in Science and Technology,
+1999.
+12. Beham, M. ve Yu, D. L., “On-line Control for
+Optimal Ignition Timing Using the Pseudo Linear
+Radial Basis Function and the Local Linear
+Model Tree”, Part D: Journal of Automobile
+Engineering, Cilt 219, No 2, 227-240, 2005.
+
+867
+
+İ. Batmaz ve ark.
+
+Tek Silindirli Buji ile Ateşlemeli Bir Motorda Ateşleme Avansının Bilgisayarla Kontrolü
+
+13. Bilgen, H., Dört Zamanlı Tek Silindirli Buji İle
+Ateşlemeli Motorun Ateşleme Sisteminin
+Bilgisayarla Kontrolü, Yüksek Lisans Tezi,
+Gazi Üniversitesi, Fen Bilimleri Enstitüsü, 2007.
+
+868
+
+14. Okur, M., Dört Zamanlı ve Tek Silindirli Buji
+İle Ateşlemeli Bir Motorun Tasarım ve İmali,
+Doktora Tezi, Gazi Üniversitesi, Fen Bilimleri
+Enstitüsü, 2007.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 4, 2011
+
+

@@ -1,0 +1,727 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 22, No 3, 325-330, 2007
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 22, No 3, 325-330, 2007
+
+Fe-Cu-C ÇELİKLERİNE MANGAN İLAVESİNİN MEKANİK
+ÖZELLİKLERE ETKİSİ
+İlyas UYGUR
+Makine Eğitimi Bölümü, Teknik Eğitim Fakültesi, Düzce Üniversitesi, Konuralp Yerleşkesi, 81620, Düzce
+
+uygur_i@ibu.edu.tr
+(Geliş/Received: 10.02.2006 ; Kabul/Accepted: 22.05.2007)
+ÖZET
+Bu çalışmada, farklı oranlarda Cu, C, ve ferromangan tozları karıştırılarak Fe-Cu-Mn-C çelik parçalar, toz
+metalurjisi yöntemi ile üretilmiştir. Karıştırılan tozlar, farklı presleme basınçlarında, 1120 °C sıcaklıkta ve
+amonyak atmosferinde 30 dakika süreyle sinterlenmiştir. Üretilen parçalarda, presleme basıncının gözenekliliğe
+ve çekme mukavemetine; toz element oranlarının ise sertlik, tokluk ve çekme mukavemetine etkisi incelenmiştir.
+Presleme basıncının artışı, üretilen ürünlerde gözenekliliğin azalmasını ve çekme dayanımının artmasını
+sağlamıştır. Çekme deneylerinde, elde edilen mukavemet değerleri, karışım içerisindeki, Cu, C ve mangan
+oranlarının artışı ile artmaktadır. Ayrıca karışım içerisindeki bu elementlerin varlığı sertliği de artırmaktadır.
+Kırılama tokluk değerleri ise sertlik ve çekme dayanımına bağlı olarak azalmaktadır.
+1.GİRİŞ
+
+(INTRODUCTION)
+
+Toz metalurjisi (TM); sık kullanılan malzeme üretim
+ve plastik şekillendirme teknolojilerinden birisidir. Bu
+yöntem ile karmaşık şekilli, farklı boyut ve
+kalınlıklardaki parçalar talaşlı üretim yöntemi en aza
+indirilerek yapılabilmektedir. İlk yatırım maliyetinin
+düşük olması, yüksek verimlilik, karmaşık şekilli
+parçaların kolay ve hızlı bir şekilde üretilebilmesi,
+hemen hemen her türlü malzemeden üretilebilmesi,
+üretim sonrası boyut tamlığı
+ve yüksek
+dayanım/hafiflik oranının ayarlanabilmesi, gibi
+nedenlerden dolayı TM ile üretilen parçalar bir çok
+farklı sahada uygulama bulmuşlardır. TM ile üretilen
+
+ürünler, yüksek kalitede malzemeler olup, en çok
+kullanıldığı alanlar içerisinde otomotiv endüstrisi, ev
+aletleri, tarım aletleri ve büro malzemeleri yer
+almaktadır [1, 2]. Otomotiv endüstrisinde yer alan
+bazı parçalarda toz metalürjisi ile üretilen Fe-Cu-C
+esaslı malzemeler kullanılmaktadır [3]. Bu
+malzemelerin toz metalurjisi ile üretimi, genellikle
+sıvı sinterlenme mekanizması ile gerçekleştirilmekte
+olup, sinterleme sıcaklığında bir sıvı fazın
+oluşabilmesi ve bu elementlerin veya fazın birbiri
+içerisindeki çözünürlüklerinin de iyi olması
+gerekmektedir [3]. Yüksek dayanım istenilen demir
+esaslı malzemelerde, karbon çoğunlukla kullanılan
+temel alaşım elementi olup sertliği artırmaktadır [4].
+
+İ. Uygur
+
+Fe-Cu-C Çeliklerine Mangan İlavesinin Mekanik Özelliklere Etkisi
+
+İnce grafit, demir tozları ile karıştırıldığında
+sinterleme işlemi sırasında hızlı bir şekilde demir
+içerisinde çözünmektedir [5, 6]. Sinterleme işleminde
+kullanılan tozların boyutları, üretim atmosferi ve
+sıcaklık, parça boyutunda değişikliklere neden
+olmaktadır [7-8]. TM ile üretilen parçaların sinterleme
+sırasında
+boyutsal
+değişikliklerinin
+kontrolü
+kullanılacakları endüstriyel alanlar için oldukça
+önemlidir. Üretilen malzemelerin güvenli bir şekilde
+kullanılmaları için, mekanik davranışlarının iyi
+anlaşılması zorunludur. Çünkü tasarım ve üretim
+açısından bu özellikler büyük önem taşımaktadır. Daha
+önceki çalışmalarda, bu malzemelerin mekanik ve
+mikroyapı özelliklerinin sinterleme sıcaklıklarına,
+presleme basıncına, yapı içerisindeki gözenek
+miktarına ve dağılımına bağlı olduğu belirlenmiştir
+[9,10,11]. Sinterleme sonrası bu malzemelere, ısıl işlem
+yapılabilmekte ve yapılan ısıl işlem sayesinde
+malzemelerin mikroyapısı, kırılma tokluğu ve sertlik
+değerleri değişmektedir [2]. Bu çalışmada, toz
+metalürjisi yöntemi ile farklı % ağırlık oranlarında Fe,
+Cu, C ve ferromangan tozlarının karıştırılarak Fe-Cu-MnC esaslı çelikler üretilmiştir. Üretilen çeliklerin parçacık
+boyut dağılımları, sertlikleri, kırılma toklukları ve çekme
+dayanımları belirlenmiştir. Ayrıca, toz oranları, ve
+presleme basıncının, malzemelerin mekanik özelliklerine
+ve mikroyapıya olan etkisi araştırılmıştır.
+
+Üretilen Fe-Cu-Mn-C esaslı çeliklerin yüzde ağırlık toz
+karışım miktarları ve yoğunlukları Çizelge l'de
+verilmiştir. Çizelgede görüleceği gibi, Fe-Cu-Mn-C
+çeliğinde bakır, ferromangan, ve karbon miktarları
+değiştirilmiştir. Presleme basıncı yoğunlukları önemli
+oranda değiştirilmiştir. Bu karışım tozları 0.0001 gr
+hassasiyetine sahip 200 gr kapasiteli bir terazide
+tartılmış, tozların homojen dağılımının sağlanması toz
+karıştırma makinesiyle karıştırılmıştır. Fe-Cu-C-Mn
+toz karışımları 300 ve 510 MPa'lık basınçlar altında
+65x10x10 mm olan numuneler üretilmiştir.
+Numunelerin kalıptan kolayca çıkartılabilmeleri
+için, kalıp iç yüzeylerine fırça yardımı ile çinko
+stearat
+sürülmüştür.
+Üretilen
+numuneler,
+parçalanmış amonyak içeren bir sinter fırın
+içerisinde 1120 °C sıcaklıkta 30 dakika süre ile
+sinterlenmiş ve işlem sonrasında fırında soğutulmaya
+bırakılmışlardır.
+
+2. DENEYSEL ÇALIŞMALAR
+
+(EXPERİMENTAL
+
+PROCEDURE)
+
+Bu çalışmada Höganas firması tarafından su
+atomizasyon yöntemiyle üretilen ASC 100.29 ticari
+saflıktaki demir tozu kullanılmıştır. Bu tozun
+ortalama parçacık boyutu 65 µm olup, hepsi 200
+µm’dan küçüktür. MBC firması tarafından su
+atomizasyon yöntemiyle üretilen % 99.99 saflıkta en
+büyüğü 90 µm çapında olan bakır tozu ile UF4 ticari
+isimli grafit tozu da numune üretiminde kullanılmıştır.
+Bakır tozlarının ortalama parçacık boyutu 45 µm, grafit
+tozlarının ise 35 µm dir. Ayrıca, ferromangan (%73
+Mn, %6.8 C, %1.5 Si) tozlarının ortalama parçacık
+boyutları ise 40 µm’ dir. Şekil 1’de bu tozların
+parçacık boyutlarına göre dağılımı verilmiştir.
+70
+
+Fe
+
+60
+
+Cu
+
+C
+
+Mn
+
+50
+%
+
+40
+30
+20
+10
+0
+200
+
+160
+
+120
+
+90
+60
+40
+Parçacık boyutu (mikron)
+
+25
+
+24 ve
+altı
+
+Şekil 1. Kullanılan toz parçacıkların boyutsal
+dağılımları (Particle size distrubitions of powders used in this
+study)
+
+Sertlik değerlerinin belirlenmesinde Brinell sertlik
+metodu kullanılmıştır. Her numunede beş farklı
+noktadan sertlik ölçümü alınarak ortalama sertlik
+değerleri tespit edilmiştir. Çekme deneyleri için ise
+standart numuneler hazırlanarak deneyler DARTECT
+marka çekme tezgahı ile yapılmıştır. Deneylerde
+çekme hızı 0.02 mm/sn olarak ayarlanmıştır.
+Kırılma tokluğu (Kıc) deneyi için kullanılan
+numuneler, ASTM E-399 standartlarında belirtilen
+ebat ve şekillerde hazırlanmıştır. Şekil 2'de kırılma
+tokluğu numunesinin şekli ve boyutları verilmiştir.
+Kırılma tokluğu değerleri, ASTM E-399'da verilen
+ve aşağıda gösterilen (1) numaralı formül
+kullanılarak hesaplanmıştır[12].
+
+K ıc =
+
+P.S
+B.(W)
+
+Kıc
+B
+W
+S
+P
+
+3
+2
+
+⎛ a ⎞
+ƒ⎜ ⎟
+⎝W⎠
+
+(1)
+
+: Kırılma tokluğu (MPa √m)
+: Numunenin kalınlığı (m)
+: Numunenin genişliği (m)
+: Ara mesafesi (m)
+: Uygulanan maksimum yük (MN)
+
+⎛ a ⎞
+ƒ ⎜ ⎟ : Numune geometri faktörü
+⎝W⎠
+Mikroskobik incelemeler, numunelerden parçalar
+kesilerek bakalite alınmış ve farklı SiC aşındırıcılarla
+zımparalandıktan sonra parlatma çuhaları üzerinde
+alümina kullanılarak numune yüzeyleri parlatılmıştır.
+Parlatılan numuneler
+% 3 nital çözeltisi ile
+dağlanmıştır. Mikroyapı incelemelerinde XJP SOIF
+marka optik mikroskop kullanılmıştır.
+
+Şekil 2. ASTM E – 399’a göre üç nokta kırılma
+tokluğu numunesi ebatları (Fracture toughness specimen
+according to the ASTM E-399)
+
+326
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+Fe-Cu-C Çeliklerine Mangan İlavesinin Mekanik Özelliklere Etkisi
+
+İ. Uygur
+
+Çizelge 1. Fe-Cu-Mn-C tozlarının karışım oranları ve farklı presleme basıncındaki yoğunlukları (Composition of
+powder mixtures and the effect of compact pressure on the density)
+
+Fe
+( % Ağırlık )
+
+Cu
+( % Ağırlık )
+
+Ferromangan
+( % Ağırlık )
+
+C
+( % Ağırlık )
+
+97,5
+96,5
+96,5
+95,5
+94,5
+93,5
+97,2
+96,2
+93,2
+93,2
+
+1
+2
+1
+2
+1
+2
+1
+1
+1
+2
+
+1
+1
+2
+2
+4
+4
+1
+2
+4
+4
+
+0,5
+0,5
+0,5
+0,5
+0,5
+0,5
+0,8
+0,8
+0,8
+0,8
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+400
+
+510MPa
+
+Yoğunluk
+300MPa
+(g/cm3)
+7,48
+7,54
+7,52
+7,56
+7,6
+7,7
+7,5
+7,4
+7,7
+7,90
+
+300 MPa
+
+350
+300
+250
+200
+150
+100
+
+%2Cu-%2.9Mn-%0.8C
+
+%1Cu-%2.9Mn-%0.8C
+
+%1Cu-%1.4Mn-%0.8C
+
+%1Cu-%0.73Mn-%0.8C
+
+%2Cu-%2.9Mn-%0.5C
+
+%1Cu-%2.9Mn-%0.5C
+
+0
+
+%2Cu-%1.4Mn-%0.5C
+
+50
+%1Cu-%1.4Mn-%0.5C
+
+Şekil 3’te malzeme içerisindeki % bakır, karbon ve
+mangan oranlarının malzemenin çekme dayanımına
+olan etkisi gösterilmektedir. Fe-Cu-Mn-C çeliklerinde
+Cu, Mn ve C toz miktarları artıkça çekme
+mukavemetinde artış gözlenmiştir. Üretilen numuneler
+içerisinde, en yüksek dayanım 0.02Cu-0.029Mn0.008C (8,1g/cm3) çelikte 380 MPa olarak
+belirlenmiştir. Bu numune en yüksek mangan, bakır ve
+karbon miktarına sahip numenedir. Bu elementlerin
+miktarındaki azalmaya paralel olarak çekme dayanım
+değerlerindeki düşüşler aynı şekil üzerinden
+görülebilmektedir. En az çekme dayanımı 0.01Cu0.73Mn-0.005C (7.95g/cm3) numunede elde edilmiş
+olup, 333 MPa’dır. Bu çalışmada; kimyasal
+kompozisyona bağlı, çekme dayanım değerlerinde
+meydana gelen, en yüksek ve en düşük değerler
+arasındaki fark % 12 dir. Ayrıca yine aynı grafikten
+anlaşılacağı üzere; 510 MPa’lık presleme basıncı, 300
+MPa’la düştüğünde çekme dayanımında önemli
+azalmalar meydana gelmektedir. Düşük presleme
+basıncı ile elde edilen numunelerde kompozisyona
+bağlı olarak, önemli oranlarda değer kayıpları söz
+konusu olmakla birlikte; çekme dayanımındaki, en
+yüksek değer ile minimum değer arasındaki farklılaşma
+%32 dir. Şekil 4’te farklı presleme basıncı uygulanan
+numunelerin mikroyapıları görülmektedir. Presleme
+basıcındaki düşüş, malzeme yoğunluğunda önemli
+azalmalara sebep olmuş, gözenek miktarını artırmış,
+gözeneklerin büyüklükleri ve dağılımlarına bağlı olarak
+mekanik özelliklerde düşüşler gözlenmiştir (Şekil 3).
+Yüksek presleme basıncı ise, malzeme içerisindeki
+gözenek miktarını düşürmüştür. Daha önceki
+çalışmalarda belirtildiği gibi, presleme basıcına ve
+sinterlemeye bağlı olarak, üretilen malzemedeki
+yoğunluk artışı ve gözenek miktarının azalması, bir çok
+mekanik özelliklere olumlu etki yapmaktadır [5,10,14].
+
+Yoğunluk
+510 MPa
+(g/cm3)
+7,95
+7,97
+7,94
+7,97
+7,98
+7,98
+7,96
+7,96
+7,99
+8,01
+
+Yoğunluk, kullanılan tozun sıkıştırılabilme özelliğine
+bağlıdır.
+Presleme basıncının artışı ile numune
+içerisindeki gözenek miktarının azalması sağlanır ve
+yoğunluğu artırılır. Fe esaslı tozların içerisine Cu tozu
+katılarak, sinterlemenin sıvı faz mekanizması ile
+oluşması sağlanmaktadır. Cu miktarındaki artış
+malzemenin genleşmesine ve boyutsal değişime neden
+olmakta, bu karışımın içerisine C ilave edilerek
+boyutsal değişim minimize edilmektedir [13,14]
+
+%2Cu-%0.73Mn-%0.5C
+
+(EXPERIMENTAL RESULTS AND DISCUSSIONS)
+
+%1Cu-%0.73Mn-%0.5C
+
+3. DENEYSEL SONUÇLAR VE TARTIŞMA
+
+Maksimum Çekme Dayanımı (MPa)
+
+Numune
+adı
+S1
+S2
+S3
+S4
+S5
+S6
+S7
+S8
+S9
+S10
+
+Şekil 3. Presleme basıncı ve toz miktarlarının
+malzemelerin çekme dayanımına olan etkisi (The effect of
+pressure and volume fraction of the particles on the tensile response
+of the materials)
+
+327
+
+İ. Uygur
+
+Fe-Cu-C Çeliklerine Mangan İlavesinin Mekanik Özelliklere Etkisi
+
+a
+
+b
+Gözenek
+Gözenek
+
+Şekil 4. a) 300 MPa basınç ile sinterlenmiş malzemenin mikroskopik görüntüsü (Microstructure of the material at
+b) 510 MPa basınç ile sinterlenmiş malzemenin mikroskopik görüntüsü (Microstructure of the material at
+
+300MPa)
+510MPa)
+
+1083 oC’de eriyen bakır, 1095 oC civarında Fe-Cu-C
+sistemlerde sıvı faz sinterlemesi mekanizmasının
+gerçekleşmesi sonucunda yoğunlaşma sağlanmaktadır
+[8]. Bahsedilen ergime civarındaki sıcaklıklarda
+bakırın Fe-C alaşımı tarafından emilmesi ile taneler
+arası bağ kuvvetlenmekte, böylece malzemenin hem
+sertliğini
+hem
+de
+mukavemetinin
+artması
+sağlamaktadır. Demir esaslı tozların içerisine karbon
+ve bakırın belirli orana kadar katılması, toz metalurjisi
+ile üretilen malzemenin hem sertliğini hem de
+mukavemetini artırmaktadır [3]. Bu çalışmada, düşük
+karbon oranlarında mikroyapının çoğunlukla ferrit ve
+bir miktar perlitten oluşması, elde edilen sertlik ve
+dayanım değerlerinin doğal olarak düşük olmasına
+neden olmaktadır. Malzemenin sertlik ve dayanım
+değeri, içerisindeki karbon, bakır ve mangan oranına
+paralel olarak artmaktadır, benzer sonuçlar daha
+önceki çalışmalarda da elde edilmiştir [2,10,14].
+Karbon oranı % 0.8’e çıkarıldığında karbonun
+tamamına yakını demir tozlarının içerisinde
+yayılmakta, eriyen bakır tarafından kuvvetli bir bağ
+oluşturulmaktadır.
+
+Bu nedenle sertlik ve mukavemeti de artmaktadır.
+Ayrıca, karbon miktarı yeterli olduğunda sinterleme
+esnasında grafitin östenit taneleri içerisinde yayılması
+ve soğuma sırasında bu tanelerin perlite dönüşmesi
+sonucu perlitik bir mikroyapı oluşmaktadır (Şekil 5.ab). Bu yapı malzemenin hem sertliğini hem de
+mukavemetini artırmaktadır. Ayrıca, ergimiş durumda
+bulunan fazla miktarlardaki bakırın, alaşım içerisine
+yayınamaması sonucu mikroyapıda yer yer bakır
+yığılmaları görülebilmektedir (Şekil 5.a). Bu
+çalışmada sertlik; bakır, mangan ve karbon miktarı ile
+artmaktadır. Sertlik değerlerindeki artışın nedeni
+demir içerisindeki karbon miktarının fazla olmasından
+dolayı, mikroyapıda oluşan perlitik faz oranının
+artmasından kaynaklanmaktadır [8]. Ayrıca, demir
+içersine ilave edilen manganın da meydana getireceği
+katı çözelti ve manganın kendisinin sahip olduğu
+sertlik değerleri ürünün genel olarak sertlik ve çekme
+dayanım değerlerinde artışa neden olabileceği
+düşünülmektedir.
+
+b
+
+a
+
+Perlit
+
+Fe-Cu-Mn
+
+Cu
+(X200)
+
+(X500)
+
+Şekil 5. a) İçerisinde %1 Cu %0.73 Mn %0.5 bulunan çeliğin mikroyapı görüntüsü (Microstructure of steel with 1%
+Cu-0.73% Mn-0.5% C)
+
+b) % 94.5 Fe - % 1 Cu- % 2.9 Mn % 0.5 C numunesinin mikroyapı fotoğrafı (Microstructure of steel with 1% Cu2.9% Mn-0.5)
+
+328
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+Fe-Cu-C Çeliklerine Mangan İlavesinin Mekanik Özelliklere Etkisi
+
+İ. Uygur
+
+Çizelge 2. Fe-Cu-Mn-C çeliklerin mekanik özellikleri (510 MPa) (Mechanical properties of the Fe-Cu-Mn-C steels
+
+(510
+
+MPa)
+
+Kimyasal Bileşim (%)
+%1 Cu-%0.73 Mn-%0.5 C
+%2 Cu-%0.73 Mn-%0.5 C
+%1 Cu-% 1.4 Mn-%0.5 C
+%2 Cu-%1.4 Mn-%0.5 C
+%1 Cu-%2.9 Mn-%0.5 C
+%2 Cu-%2.9 Mn-%0.5 C
+%1 Cu-%0.73Mn-%0.8 C
+%1 Cu-%1.4 Mn-%0.8 C
+%1 Cu-%2.9 Mn-%0.8 C
+%2 Cu-%2.9 Mn-%0.8 C
+
+HB (kgf/mm2)
+165
+168
+172
+190
+182
+200
+174
+178
+187
+206
+
+Kıc Kırılma tokluğu (MPa√m)
+10,45
+10,02
+9,1
+7,2
+5,14
+5,98
+8,2
+8,71
+7,4
+5,4
+
+Çizelge 2’de ise deneysel çalışmada kullanılan
+numunelere ait sertlik ve kırılma tokluk değerleri
+verilmiştir. Çizelgeden görüldüğü gibi, mangan ve
+karbon oranındaki artış, sertlik değerlerinin de artışına
+neden olmaktadır. Çekme dayanımında olduğu gibi,
+en yüksek sertlik değeri %2Cu-%2.9Mn-%0.8C
+çelikte 206 BSD olup, en düşük değer ise %1Cu%0.73Mn-%0.5C
+çelikte
+165
+BSD
+olarak
+belirlenmiştir. Gerek karbonun gerekse mangan’ın
+alaşım içersinde sertliğe katkıda bulunduğu
+bilinmektedir [8,14]. Bu çalışmada mangan ve karbon
+miktarına bağlı olarak meydan gelen sertlik değer
+artışları, çekme dayanımına paralel olarak doğru
+orantılı bir şekilde değişmektedir. Sertlik değerleri ile
+çekme dayanım özellikleri arasındaki ilişki düşük
+karbonlu çeliklerde [16] ve Titanyum [17]
+malzemelerde de tespit edilmiştir. Yine aynı çizelgede
+malzemelerin kırılma tokluk değerleri verilmiştir.
+Sertlik değerleri ile tokluk değerleri arasındaki ters
+orantı açıkça görülmektedir. Doğal olarak yüksek
+çekme ve sertlik değerlerine sahip numunelerin
+kırılma tokluk değerleri de düşük olmaktadır. Bu
+çalışmada, en düşük kırılma tokluğu %2Cu-%2.9Mn%0.8C çelikte, en yüksek değer ise %1Cu-%0.73Mn%0.5C çelikte elde edilmiştir. Sertlik değerlerine
+bağlı ters ilişki tüm numunelerde gözlenirken, %1Cu%2.9Mn-%0.5C çelikte düşük değer elde edilmiştir.
+Bu da muhtemelen, gözeneklerin çokluğundan,
+büyüklüğünden ve homojen olmayan dağılımından
+kaynaklanmaktadır.
+
+ii. Karışım içerisindeki karbon ve mangan oranı
+sertlik ve çekme dayanımına etki etmekte, bu
+değerler, Cu, C ve mangan oranlarındaki artışa paralel
+olarak mekanik özelliklere etki etmektedir.
+
+4. SONUÇLAR
+
+2.
+
+(CONCLUSIONS)
+
+Bu çalışmada, Fe-Cu-Mn-C esaslı çelikler toz
+metalurjisi yöntemi kullanılarak üretilmiş, element
+miktarlarının, çekme dayanımına, sertlik, kırılma
+tokluğu ve mikroyapıya olan etkileri araştırılarak
+aşağıdaki sonuçlar çıkarılabilir.
+i. Fe-Cu-Mn-C çelikleri toz metalurjisi kullanılarak
+üretilebilmektedir. Kullanılan tozların türü ve oranları
+çok önemlidir. Uygulanan sinterleme sıcaklığı yeterli
+olmakla birlikte, presleme basıncı 510 MPa’dan
+düşük olmaması gerekmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+iii. Çekme dayanımındaki yükselişe, mikroyapıda
+bulunan fazla miktardaki perlitin neden olduğu
+düşünülmektedir. Ayrıca, mangan’ın mikroyapıda
+oluşturacağı katı çözeltinin etkisiyle sertlik ve çekme
+dayanım değerleri daha da artmaktadır.
+iv. Kırılma tokluk değerleri; sertlik ve çekme
+değerleriyle ters orantılı olarak değişmekte ve elde
+edilen değerler literatür bilgileriyle uyuşmaktadır.
+TEŞEKKÜR (ACKNOWLEDGEMENTS)
+Yazar, Sakarya Üniversitesi Öğretim üyesi Yrd. Doç.
+Dr. Ramazan YILMAZ’a deneysel çalışmalardaki
+yardımları, laboratuar imkanları, malzeme temini ve
+konu ile ilgili değerli görüşlerinden dolayı teşekkür
+eder.
+KAYNAKLAR (REFERENCES)
+1.
+
+3.
+
+4.
+
+Bocchini, G.F. ve Lindskog, P.F., “Applications
+and Developments of Sintered Ferrous
+Materials” Powder Metallurgy-An Overview,
+The Institute of Metals Series on Powder
+Metalurgy, Editör: Jenkins I. and Wood, J.V.,
+pp.287-295, 1991.
+Ölmez, C.O. ve Top, Y., “Toz Metalürjisi
+Kompaklarında Bakır Miktarının ve Isıl İşleminin
+Sertliğe Etkisi”, Metal Dünyası, 124, 95-98,
+2003.
+Narasimhan, K.S. “Sintering of Powder Mixtures
+and Growth of Ferrous Powder Metallurgy”,
+Materials Chemistry and Physics 67, 56-65,
+2001.
+Metals Handbook, Vol. 1, Properties and
+Selection: Irons, Steels, and High Performance
+Alloys, 10th Edition, American Society of
+Metals, Materials Park, OH, 1990.
+
+329
+
+İ. Uygur
+
+Fe-Cu-C Çeliklerine Mangan İlavesinin Mekanik Özelliklere Etkisi
+
+5.
+
+12. “Standart Test Method for Plane-Strain Fracture
+Toughness of Metallic Materials” ASTM E 39983, 1983.
+13. Wanibe, Y., Yokoyama, H. Ve Itoh, T.,
+“Expansion during liquid phase sintering of ironcopper compacts” Powder Metallurgy, 33(1),
+65-69, 1990
+14. Gülsoy, H.Ö. ve Salman, S., “Fe, Cu
+Kompaktlarına Katılan Farklı Miktardaki Grafit
+İlavelerinin Sabit Sinter Sıcaklığı ve Sabit
+Sürelerde, Mekanik Özelliklerine Etkisi”, 1. Ulusal
+Toz Metalürjisi Konferansı, Gazi Üniversitesi,
+Ankara, 559-566, 16-17 Eylül 1996.
+15. Jamil, S.J ve Chadwich, G.A., “ Investigation and
+analysis of liquid phase sintering of Fe-Cu and
+Fe-Cu-C compacts” Powder Metallurgy, 28(2),
+65-70, 1985
+16. Uygur, I. ve Gulenc, B., “The effect of shielding
+gas compostion for MIG welding process on
+mechanical behaviour of low carbon steel”
+Metalurgija, 43(1), 35-40, 2004.
+17. Uygur, I. ve Dogan, I., “ The effect of TIG
+welding on microstructure and mechanical
+properties of a butt-joined-unalloyed titanium”
+Metalurgija, 44(2), 119-123, 2005.
+
+Solak, A., Ferrous Powder Metallurgy,
+Cambridge International Science Publications,
+1995.
+6. German, R.M., Powder Metallurgy of Iron and
+Steel, MPIF, Princeton, NJ, 1996.
+7. Berlinger, M., Wasiczko, B. ve Nayar, H., “A
+Study Dimensional Changes in Fe-Cu-C Parts in
+Different Furnace Zones and Different Sintering
+Atmospheres”, Advances in Powder Metallurgy
+&Particulate Materials, 3, 285-300, 1992.
+8. Upadhyaya, G.S., Sintered Metallic and
+Ceramic
+Materials-Sintered
+Low-Alloy
+Ferrous Materials, John Wiley & Sons Ltd,
+West Sussex, England, 2000.
+9. Demir, A. ve Sarıtaş, S., “Toz Metal Çeliklerin
+Mekanik Özellikleri", Akdeniz Üniversitesi”,
+Isparta Mühendislik Fakültesi, Makine
+Mühendisliği Bölümü Dergisi, Sayı 7, 1-14,
+1993.
+10. Yılmaz, R., “Fe-Cr-Mn-C kompaktların üretimi
+ve element miktarının sertlik ve kırılma
+tokluğuna etkisi” 4. Uluslararası Toz
+Metalurjisi Konferansı, Sakarya, 18-22 Mayıs
+2005
+11. Yılmaz, R. “Fe-Cu-C kompaktlarda presleme
+basıncı ve toz karışım oranlarının sertliğe ve
+çekme mukavemetine etkisi” 4. Uluslararası
+Toz Metalurjisi Konferansı, Sakarya, 18-22
+Mayıs 2005
+
+330
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 3, 2007
+
+

@@ -1,0 +1,1463 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 1, 151-161, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 1, 151-161, 2012
+
+IPv6 PROTOKOLÜNE GEÇİŞ MALİYET ANALİZİ
+ÇALIŞMASI
+Şeref SAĞIROĞLUa, Mustafa ALKANb, Hacer KARACANa, Nurettin PARILTIc, Reşat
+KASAPd, Uraz YAVANOĞLUa, Murat HACIÖMEROĞLUa, İbrahim AKŞİTa
+a
+
+Gazi Üniv., Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü, Ankara, Türkiye
+Gazi Üniv., Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü, Ankara, Türkiye
+c
+Gazi Üniv., İİBF, İşletme Bölümü, Ankara, Türkiye
+d
+Gazi Üniv., Fen Fakültesi, İstatistik Bölümü, Ankara, Türkiye
+ss@gazi.edu.tr, malkan@btk.gov.tr, hkaracan@gazi.edu.tr, parilti@gazi.edu.tr, rkasap@gazi.edu.tr,
+uraz@gazi.edu.tr, murath@gazi.edu.tr, iaksit@gazi.edu.tr
+b
+
+(Geliş/Received: 29.04.2011; Kabul/Accepted: 20.12.2011)
+ÖZET
+IPv4 protokolünden IPv6 protokolüne geçişte çeşitli donanım ve yazılım uyumsuzluklarının giderilmesi ve
+güvenliğin sağlanması gerekliliklerinden dolayı ek bir maliyet oluşumu söz konusudur ve bu maliyet her ülke
+için sahip olunan bilişim altyapısının IPv6 destekleme oranına göre farklılıklar göstermektedir. Bu nedenle geçiş
+stratejileri belirlenirken her bir yöntem için maliyet analizinin de yapılması gerekmektedir. Bu amaçla kamu ve
+özel sektörün mevcut durumunun ve IPv6’ya geçilmesi durumunda duyacakları ihtiyaçların bilinmesi önem arz
+etmiş ve tarafların bilişim altyapısını ve IPv6'ya hazır olup olmadıklarını belirlemek amacıyla iki farklı anket
+çalışması yapılmıştır. Sonuç olarak, anketlerden elde edilen veriler ışığında kamu ve İSS'lerin IPv6'ya geçiş
+konusunda, altyapılarının genel olarak IPv6'ya hazır olmadığı, geçiş maliyetinin ise beklentilerin üstünde olacağı
+değerlendirilmektedir.
+
+
+1.GİRİŞ (INTRODUCTION)
+Internet Protokolü (IP); internete bağlı bilgisayarların
+sağlıklı iletişim kurması ve bu ortamın yönetilmesi
+amacıyla geliştirilmiş olup bilgisayarların ve
+haberleşme
+cihazlarının
+adreslenebilmesi
+ve
+gönderilen
+veri
+paketlerinin
+ağ
+içerisinde
+yönlendirilmesi için kullanılmaktadır. Günümüzde
+
+çok yoğun oranda ise bu protokolün 4. sürümü olan ve
+IPv4 ile gösterilen protokol ile internet ortamı
+kullanılmaktadır. Bilgisayarların iletişim sırasında
+uçtan uca adreslenebilmesini sağlayan IPv4 adresleri
+sadece 32 bitten ibarettir. Bu şekilde geliştirilen etkin
+adres sayısı günümüzde giderek artan ihtiyacı
+karşılamaktan uzaktır. 1990'lı yılların başından
+itibaren tüm dünyadaki bilişim teknolojileri bilim
+
+Ş. Sağıroğlu ve ark.
+
+insanları IPv4 teknolojisindeki eksikliklerin ve
+sorunların giderilmesi için araştırma ve geliştirme
+faaliyetlerinde bulunmaktadır [1-3]. Bu çalışmaların
+bir ürünü olan Yeni Nesil İnternet (YNİ)
+teknolojilerinin, var olan hizmetleri kesintiye
+uğratmadan yaygın olarak kullanılmaya başlanması,
+üzerindeki YNİ uygulamalarının kararlılığının ve
+güvenliğinin sağlanması, sağlam ve güvenilir bir geçiş
+sisteminin belirlenmesini zorunlu kılmaktadır. Bu
+ihtiyaçların karşılanabilmesi için yapılan çalışmalar
+sonucu ise IPv6 protokolü geliştirilmiştir. IPv6'yı
+IPv4'ten ayıran en önemli özelliği 128 bitlik
+genişletilmiş adres alanıdır. Böylesine geniş bir adres
+alanının şu an yaşadığımız adres sıkıntısını çözmenin
+yanında internet uygulamalarında yeniliklere de yol
+açması beklenmektedir. IP üzerinde yapılan diğer
+değişiklikler arasında basitleştirilmiş ve 64 bitlik
+işlemcilere göre düzenlenmiş paket başlığı, paket
+bölünmesinin sadece uç noktalarda yapılacak olması
+sayılabilir. Bu değişikliklerin yönlendiricilerin veri
+trafiğini daha seri bir şekilde işlemesini sağlayacağı
+düşünülmektedir. Bununla birlikte IP adres aralığının
+genişletilmesi ve güvenlik için IPsec şartı
+getirilmesiyle IPv6’nın IPv4’e kıyasla daha güvenli
+bir internet protokolü olması öngörülmektedir [4].
+IPv6 protokolü ile teknolojilerinin geliştirilmesine
+yönelik olarak pek çok çalışmalar yapılmaktadır [514]. Bu çalışmaların birinde [10], IPv6 ağlara geçiş ve
+yönetimi için bir araştırma çalışması sunulmuştur.
+Karşılaşılan veya karşılaşılabilecek problemlere
+çözüm getirmek amacıyla yapılan çalışmalarda
+mevcut protokoller gözden geçirilmiş, işletim
+sistemlerine ve uygulamalara IPv6’nın nasıl adapte
+edilmesi ve gerçekleştirilmesi üzerine çözümler [5,7],
+güvenlik uygulaması ve testi [6], geniş ağlara
+uygulama ve test [9], işletme ve uygulama senaryoları
+[11], küçük ve orta ölçekli uygulamalar için
+yaklaşımlar [13], özellikle üniversite ağlarının
+yapılandırılması ve testleri [12,14], adli bilişim
+açısından bu ağların incelenmesi [8] ve geçiş
+metodunun karar destek sistemi yardımıyla seçimi
+[15] gibi çalışmalar literatürde bulunmaktadır.
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+yönelik çalışmalar yapılmıştır [16-27]. Bu anketlerde
+karşılaşılan iki temel zorluk vardır. Bunlardan
+birincisi, bu anketlere katılan kurum ve İSS’lerin
+katılma oranlarının çok yüksek olmaması ve sorulan
+sorulara cevap vermede zorlanmaları, ikincisi ise
+maliyete yönelik soruların yanıtların kolaylıkla
+bulunamamasıdır.
+Ülkemizde de kamu ve özel sektörün IPv6’ya geçiş ve
+hazır olma durum tespitinin yapılabilmesi ve
+geçilmesi durumunda duyacakları ihtiyaçların
+bilinmesine ihtiyaç duyulduğundan, ülkemiz için
+anket çalışmaları yapılmıştır. Çalışmalar kapsamında
+üç ana maliyet grubu oluşturulmuş ve hesaplamalar
+bu gruplamaya göre yapılmıştır. Bunlar:
+•
+
+•
+
+•
+
+Donanım maliyetlerinde, sabit karakterli
+maliyetler dikkate alınmıştır ve toplam tutarları
+üretim miktarına bağlı olmayan, üretim artsa da
+azalsa da aynı kalan maliyetlerdir.
+Yazılım maliyetlerinde, yazılımın geliştirme ile
+lisanslama bedelleri dikkate alınarak belirlenen
+maliyetlerdir. Hangi programın, hangi kaynaktan
+hangi bedelle alındığının belirlenmesi gerekir.
+Eğitim maliyetlerinin ise geçişte en önemli
+maliyetlerden birisi olarak karşımıza çıkacağı
+açıktır. Buna göre; verilecek eğitimlerin “eğitim
+seviyesi x saat ücreti x toplam süre” formülüyle
+hesaplanması
+ve
+farklı
+seviyelerde
+gruplandırılması gerekmektedir.
+
+Bu üç ana maliyet grubundan başka, hesaplanması
+gereken maliyetler de bulunmaktadır. Bu maliyetler,
+kurumun karşısında bulunan alternatiflerden herhangi
+birini seçmesi ile diğerlerinden vazgeçmesinin
+getireceği “alternatif maliyet” şeklinde veya kurumda
+IP dönüşümü için yapılan bir giderin herhangi bir
+maliyet konusu ile ilişkili olması ya da o maliyet
+kalemine dağıtılabilmesi durumunda “doğrudan”,
+ilişkilendirilememesi durumunda “dolaylı maliyet”
+şeklinde hesaplanabilir.
+Bu makalede, Bölüm 2’de yapılan anket çalışmaları
+detaylı olarak açıklanmıştır. Bölüm 3 ve 4’de yapılan
+istatistiksel çalışmalar ile yapılan maliyet analizleri
+sonuçları sunulmuştur. Bölüm 5’de, bu çalışma
+kapsamında elde edilen bulgular sunulmuş ve çalışma
+genel olarak değerlendirilmiştir. Bölüm 6’da ise
+çalışmanın kısıtları ve bazı öneriler verilmiştir. Bu
+çalışmanın amacı, ülkemizde IPv6’ya geçiş
+maliyetinin yaklaşık olarak öngörülmesidir.
+
+IPv4 protokolünden IPv6 protokolüne geçişte çeşitli
+donanım ve yazılım uyumsuzluklarının giderilmesi ve
+güvenliğin sağlanması gerekliliklerinden dolayı ek bir
+maliyet oluşumu söz konusudur ve bu maliyet her
+ülke için sahip olunan bilişim altyapısının IPv6
+destekleme oranına göre farklılıklar göstermektedir.
+Bu nedenle geçiş stratejileri belirlenirken her bir
+yöntem için maliyet analizinin de yapılması
+gerekmektedir.
+
+2. ANKET ÇALIŞMASI (QUESTIONNAIRE STUDY)
+
+Tablo 1'de detaylı olarak verilen literatürdeki
+çalışmalardan da görülebileceği gibi, yapılan
+anketlerde mevcut durum tespiti, gelecek planlar ve
+verilen
+hizmetlerin
+neler
+olduğu/olacağı,
+karşılaşılabilecek ihtiyaçlar, kurum bilgi birikimi ve
+eğitimli personel sayısı gibi hususları tespit etmeye
+
+Anket çalışması sırasında öncelikle diğer ülkelerin
+IPv6 geçiş stratejilerini çözümlemek için yaptıkları
+anketler ve çeşitli bildiriler incelenerek maliyet ve
+teknik geçiş imkânları araştırılmıştır [16-32].
+Literatürdeki sorulardan da faydalanılarak anket
+soruları hazırlanmış ve uygulanacak olan sorular
+
+152
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+Ş. Sağıroğlu ve ark.
+
+Tablo 1. Literatürdeki anket çalışmaları özeti (Summary of questionnaire studies in the literature)
+Kaynak
+[16]
+
+Ülke
+Suudi
+Arabistan
+
+Yıl
+2008
+
+[17]
+
+Japonya
+
+2010
+
+[18]
+
+ITU
+
+2009
+
+[19]
+
+USA
+Savunma
+Bakanlığı
+Internet
+Derneği
+(Society)
+Auckland
+Üniversitesi
+
+[20]
+
+[21]
+
+2009
+
+2010
+
+[22]
+
+ITU
+
+2009
+
+[23]
+
+Avusturya
+
+2009
+
+[24]
+
+Amerika
+
+2006
+
+[25]
+
+[26]
+
+[27]
+
+öncelikle
+
+Makalelerden Elde Edilen Bilgiler ve Bulgular
+• 62 İSS’den 3’ü cevap vermiştir.
+• Gelecekle ilgili planlarının ve konuyla ilgilerinin olmadığını ifade ediyorlar.
+• 0,08% oranında IPv6 adresine sahiplerdir.
+• Bilgi ve algı eksikliği mevcuttur.
+• Pazarda böyle bir ihtiyaç yok ve uygulama desteği çok azdır.
+• Uluslar arası işbirliğinde bulunmuyorlar.
+• 2009‐2010 yılları arasında 5 farklı konuda 10’un üzerinde eğitim semineri verilmiştir.
+• Geçiş modeli ve test ortamı oluşturmuştur.
+• 10 ISP, CATV, ve iDC konuya ilgi gösteriyorlar.
+• Görev gücünde 315 organizasyona anket yapılmıştır.
+• JATE'ye bağlı 21 üreticiye anket düzenlenmiştir.
+• Yönetim seviyesinde bilgi eksikliği oranı 15,1% (27 kurum) dir.
+• Maliyet hesaplaması ve hazırlık çok zor diyen kurum 63,7% (114 kurum)
+• Bilgi eksikliği olma oranı 48,6% (87) dir.
+• İnsan kaynağı eksikliği 47,5% (85) dir.
+• Entegrasyon için ürün ve hizmet eksikliği oranı 48,6% (87) dir.
+• IPv4 hizmetlerinin durabileceği konusunda bilgi eksikliği oranı 32,4% (58) dir.
+• Ankette 13 soru sorulmuş ve 33 üye ülke katılmıştır. Üye ülkelere http://www.itu.int/oth/T3B05 adresinden
+erişilebilir.
+• Ülkelerin IPv6’ya geçişte iyi bir pazarın henüz oluşmadığıdır.
+• Ülkelerin çoğunun soruları anlamakta güçlük çektiği belirlenmiştir.
+• IPv6’ya geçiş konusunda hareketlilik başladığı rapor edilmiştir.
+• Karşılaşılacak güçlüklerin IPv6 konusundaki ilgi birikiminin yetersizliği, cihaz maliyetlerin donanım,
+yazılım ve yapılandırma olduğu, buna ilave olarak eğitim maliyeti ve servis kesintilerinin ve erken
+uygulamaya geçmenin oluşturacağını düşünmektedirler.
+• Bilgi eksikliği ve karşılaşılacak tehditleri anlama farkındalığının düşük olduğu tespit edilmiştir.
+• IPv6 adresleri alırken RIR politikaları ve uygulamalar hakkında bilgi eksikliği bulunmaktadır.
+• Mevcut sistemden memnuniyet ve yeni sistemlere geçişe karşı direnç vardır.
+• Bilinmeyene veya kullanılmayana karşı güvensizlik bulunmaktadır.
+• Ülke hükümetlerinin konuya önem vermeye başlamaları gerekmektedir.
+• Tüm ilgili şirketlere uygulanmıştır.
+• 55 soru sorulmuş olup bunlardan 3 tanesi konuyla direkt ilgilidir.
+• 100 üye kuruluşa gönderilmiştir.
+• IPv6 kullanımı, kullanım için motivasyon, gerekçeler, bu ağları kullanması getireceği ayrıcalıklar,
+uygulama yolları gibi hususlarla ilgili anket sorularını ve cevaplarını kapsamaktadır.
+• İSS’ların, IPv6’ya geçişte gerçek deneyimlerini, aktif planlarını ve gerçek ihtiyaçlarını belirlemeye
+yöneliktir.
+• 36 soru sorulmuştur.
+• Teknoloji, ihtiyaçlar, mevcut durum ve plan ile verilen hizmetleri kapsamaktadır.
+• 13 soru sorulmuştur.
+• Sorulardan birisi beklenen geçiş maliyetidir.
+• Tüm üyelere gönderilmiştir.
+• IPv6 Görev Gücü tarafından yapılmıştır.
+• Konuyla ilgili iki soru sorulmuştur.
+• Ankete 11 İSS (tamamı) katılmıştır.
+• Anketin amacı iş fırsatları oluşturma ve düzenlemelere katkı sağlamaktır.
+• RTI raporuna göre USA için geçiş maliyeti 25 milyar dolar
+• 40 kurum ve şirketle yüz yüze görüşmeler yapılarak bu rapor hazırlanmıştır.
+• Tam bir geçişin 25 yıl alacağı belirtilmektedir.
+• %92 oranında maliyet, kamu kurumları ve küçük iş grupları ve ev kullanıcıları gibi bağımsız kullanıcıların
+oluşturduğu internet kullanıcıları tarafından karşılanacak iken kalan %8’inde İSS ve IT uygulama
+geliştiricileri tarafından karşılanacaktır.
+• Yazılım ve donanım maliyetlerinin pek çok internet kullanıcısı için ihmal edilebilir olacağı öngörülmüştür.
+
+• Avrupa’ya tahsis edilmiş IPv6 adreslerinin %49’u dağıtılmıştır. Aktif olarak kullanılan miktar ise bunun
+yarısından daha azdır.
+• İSS’ların çok küçük bir kısmı IPv6 hizmeti vermektedir. IPv6 çalıştıran otonom sistemler %2,5
+civarındadır.
+• AB'deki üniversite ve araştırma merkezlerinin kullandığı ulusal araştırma ve öğretim ağı olan Géant
+Network IPv6’ya hazır durumda olup mevcut internet trafiğinin %1 kadarı IPv6 üzerinden akmaktadır.
+• 2010 yılında Avrupa’daki kullanıcıların %25’inin IPv6 kullanması beklenmektedir.
+The
+• Yaklaşık 220 kuruluş ile anket gerçekleştirilmiştir.
+American
+• IPv6’ya geçişteki en büyük zorlukların; %36,41 ile maliyet ve zaman, %23,5 ile üretici desteği, %18,43 ile
+Registry for
+bilgi ve eğitim, %17,97 ile kullanıcı talepleri, %17,51 ile kaynaklara ulaşım, %14,29 ile çift yığın beraber
+Internet
+çalışabilirliği, %4,15 ile çoklu ev sahipliği (multihoming), %2,30 ile adres atama politikası ve %1,84 ile
+Numbers
+performans olduğu rapor edilmiştir.
+(ARIN)
+• IPv6 adresi atamadaki zorluklar sorusuna verilen cevaplarda ise; %32,5 ile altyapı desteğinin olmaması,
+Bölgesi
+%30,7 ile ihtiyaç duyulmaması, %22,4 ile İSS’nın destek vermemesi, %16,7 ile giderin göze alınmaması,
+%8,3 ile gereksinimlerin karşılanamaması olduğu rapor edilmiştir.
+Portekiz
+2005
+• Bilgi ve algı eksikliği mevcuttur.
+• Önem veren birkaç firma mevcuttur.
+• Daha fazla eğitim verilmelidir.
+• Sektörün gelişmesi için etkinlikler düzenlenmelidir.
+• Zamanında geçiş için planlama yapılmalıdır.
+IPv6 katma değerli hizmetlerin
+proje çalışanları ile •birkaç toplantı yapılaraküretimine önem verilmelidir.
+Avrupa
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+153
+
+Ş. Sağıroğlu ve ark.
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+Tablo 2. Maliye Bakanlığı tarafından yayınlanan faydalı ömür ve normal amortisman oranları (Economic life and
+depreciation rates published by the Ministry of Finance)
+
+Faydalı
+Ömrü
+(Yıl)
+
+Amortismana Tabi İktisadi Kıymetin Adı
+4
+4.1.
+
+4.2.
+
+4.3.
+4.4.
+4.5.
+
+Bilgi sistemleri
+Kişisel bilgisayarlar, el bilgisayarları (PDA), sunucu bilgisayarlar
+(Server)
+Bilgisayar Donanımları: Kart okuyucular, kart deliciler, kart
+seçiciler, manyetik teyp üniteleri, yüksek hızlı yazıcılar, optik
+karakter okuyucular, yüksek saklama kapasitesine sahip üniteler,
+kağıt bant donanımı, kağıt ve bantlara bilgi kaydeden klavyeli
+makineler, yazıcılar, terminaller, teyp sürücüleri, disk sürücüleri,
+görsel imaj koruyucu tüpleri ve benzeri araçlar (Eğlence amaçlı
+kullanılan ekipmanlar bu sınıfa girmez)
+Bilgisayar yazılımları
+yönlendirici (Router), anahtarlama birimi (swicth), data
+kablolaması ve bağlantı elemanları, UPS kablolama ve bağlantı
+elamanları
+Data koruma kasası
+
+değerlendirilmiştir. Bu toplantılar sonucunda elde
+edilen görüşler, ülke gereksinimleri ve hedef çıktılar
+göz önüne alınarak, anket soruları belirlenmiş, bazı
+aşamalarda ise tekrar gözden geçirilmiş ve sorulacak
+sorular sonuç olarak belirlenmiştir.
+Amaca yönelik hazırlanan tüm sorular, tüm kamu
+kurumları ve internet servis sağlayıcılardan gelen
+temsilcilerin
+katılımıyla
+gerçekleştirilen
+değerlendirme toplantısında incelenmiş ve yapılan
+öneriler dikkate alınarak, anket sorularına mümkün
+olduğunca yansıtılmaya çalışılmıştır.
+Bu aşamada karşımıza çıkan en önemli soru, elde
+edilecek bilgilerin güvenliği olmuştur. Bu bakış
+açısıyla anket yeniden düzenlenmiş, hem güvenlik
+sorunu yaratmaması hem de maliyet bilgisinin daha
+hassas biçimde elde edilebilmesi için her bir donanım
+ve yazılımın IPv6 destekli olup olmadığı bilgisi ve
+kurum/kuruluş için gerçekleşen maliyeti anket
+bünyesinde oluşturmak zaman almıştır [33].
+Donanım ve yazılım maliyetlerinin hesaplanmasında
+en önemli husus faydalı ömür süreleridir. Bu konuda
+Maliye Bakanlığı, 28.4.2004 tarihli Resmi Gazetede
+yayımlanan 333 Sıra Sayılı Vergi Usul Kanunu Genel
+Tebliği ile mükellefler tarafından esas alınacak yararlı
+(faydalı) ömürleri ve aşınma payı oranları liste
+halinde yayınlamıştır. Bu listenin “Bilgi Sistemleri”
+başlıklı bölümü Tablo 2’de verilmiştir.
+Anketin, kurum ve kuruluşlar tarafından kolay bir
+şekilde doldurulması için esnek bir tasarım yapılarak
+anketler Adobe LiveCycle Designer ES 8.2 ile
+hazırlanmış
+ve
+içerdiği
+güvenlik
+açıkları
+oluşturmaması için mümkün olduğunca güvenli
+yapılar geliştirme teknikleri dikkate alınarak
+geliştirilmiş;
+dokümanların
+doğru
+kişilere
+ulaştırılması için elektronik imza desteği ile güvenliği
+arttırılmıştır. Geliştirilen anket arayüz yazılımı ekran
+çıktısı Şekil 1’de verilmiştir.
+
+154
+
+Normal
+Amortisman
+Oranı (%)
+
+Tebliğ No
+
+4
+
+25,00
+
+333
+
+4
+
+25,00
+
+333
+
+3
+
+33,33
+
+333
+
+5
+
+20,00
+
+365
+
+12
+
+8,33
+
+365
+
+Geliştirilen bu esnek arayüz yazılımı ile kullanıcıların
+anketleri interaktif ve etkili bir biçimde doldurmaları
+ve verilerin güvenli olarak alınması ve saklanması
+sağlanmıştır. Bunun için geliştirilen arayüze ait ekran
+çıktısı Şekil 2’de verilmiştir. Belirtilen özelliklere
+sahip olan anketler, elektronik ortamda 64 kamu
+kurumu/kuruluşu ile 132 devlet ve vakıf
+üniversitesine
+iletilmiştir.
+Kamu
+kurum/
+kuruluşlarının 59’u, üniversitelerin ise 49’u anketlere
+cevap vermişlerdir.
+Bunun yanında İSS’ler için ayrı bir anket
+oluşturulmuş ve oluşturulan anket 26 İSS’ye
+gönderilmiştir. Bunlardan 18’i ankete cevap vermiştir.
+Anketlerin mümkün olduğunca tüm birimleri
+kapsaması için çalışmalar yapılmıştır ve örneğe
+çekilme şansı verilmesi çok önemli olduğu için
+ankette istenen kitlenin uygun biçimde kapsandığının
+garanti altına alınması açısından, seçilen örneklemin
+güncel ve tam olup olmadığı incelenmiştir.
+Anketlerin doldurulması aşamasında gelebilecek tüm
+soru ve yorumlar için bir yardım masası oluşturulmuş
+ve tüm ilgililerin konuyla ilgili talep ettikleri bilgilere
+ulaşmaları sağlanmıştır. Gazi Üniversitesi Bilgisayar
+Mühendisliği Bölümü bünyesinde oluşturulan yardım
+masası sayesinde 8 üniversite ve 11 kurum tarafından
+yöneltilen sorulara hassasiyetle cevap verilerek
+anketlerin doğru biçimde ve amaca uygun olarak
+doldurulması sağlanmıştır.
+Hazırlanan anketler, ankete katılanların sorularını
+kolaylıkla ve hızlıca cevaplandırabilmeleri dikkate
+alınarak hazırlanmıştır. Anket yazılımı üzerinde
+gerekli görülen yerlere yardım bilgileri eklenmiş ve
+kullanıcıların anketi problemsiz, eksiksiz ve
+kişi/kişileri yormadan doldurmaları için gerekli
+altyapı oluşturulmuştur.
+Anketler tamamen elektronik ortamda doldurulacak
+ve değerlendirilecek şekilde hazırlanmıştır. Elde
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+Ş. Sağıroğlu ve ark.
+
+Şekil 1. Adobe LiveCycle Designer ES 8.2 programıyla hazırlanan Kurum / Kuruluş Anket Arayüz Ekranı (The
+user interface designed with Adobe LiveCycle Designer ES 8.2 for institution /organization questionnaire)
+
+Şekil 2. Adobe LiveCycle Designer ES 8.2 programıyla hazırlanan Kurum / Kuruluş Anketi (The questionnaire
+designed with Adobe LiveCycle Designer ES 8.2 for institution /organization)
+
+edilen anket verileri üzerinde gerekli analizlerin
+gerçekleştirilebilmesi amacıyla, XML dosyalarındaki
+bilgilerin uygun formatta EXCEL programına
+aktarılması sağlanmış ve verilerin istatistiksel
+analizinin yanı sıra maliyete yönelik analizleri de,
+konularında uzman kişilerce değerlendirilmiştir.
+3. İSTATİSTİKSEL ANALİZ ÇALIŞMALARI
+(STUDIES OF STATISTICAL ANALYSIS )
+
+İstatistiksel analizler, 32 soru için 126 birimden
+derlenen veriler dikkate alınarak ve iki farklı bakış
+açısı göz önünde bulundurularak yapılmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Birincisi, tüm soru ve alt sorular dikkate alınarak,
+tablo ve grafikler oluşturulmuştur. İkinci olarak ise bu
+tablo ve grafik yapıları incelenerek, gözlem sayıları
+bakımından yeterli olan ve çalışma için gerekli olan
+değişkenler
+bakımından
+istatistiksel
+ilişkiler
+incelenmiştir [33,34]. Bu incelemeler sonucunda
+araştırmaya katılan kurum ve üniversitelerden elde
+edilen bulgular karşılaştırılmış ve aralarında aşağıda
+belirtilen hususlarda istatistiksel olarak anlamlı
+farklılıklar
+bulunduğu
+görülmüştür.
+Burada
+ortalamaların
+karşılaştırılmasında,
+yığın
+varyanslarının bilinmediği durumlarda yaygın bir
+şekilde kullanılan parametrik test olan “student t”
+istatistiği kullanılmıştır.
+
+155
+
+Ş. Sağıroğlu ve ark.
+
+Araştırmaya katılan kurum ve üniversitelerden edevlet hizmeti verenlerin oranının yüzde 63,1,
+vermeyenlerin
+oranının
+ise
+36,9
+olduğu
+görülmektedir. E-devlet hizmeti (verilip verilmediği)
+için varyansların eşit olmadığı varsayımı altında,
+kurum ortalaması 0,36 ve üniversite ortalaması 1,00
+olup, p=0,00<0,01 olduğundan istatistiksel olarak
+kurum ve üniversite arasında farklılık vardır.
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+kullanılmasında söz konusu olan varsayımları
+sağladığından, analiz sonuçlarının genel eğilimi
+ortaya koyduğu, diğer bir ifade ile analiz çalışmaları
+neticesinde ortaya çıkan sonuçlar ve hata payları
+dikkate
+alındığında,
+anket
+sonuçlarına
+güvenilebileceği anlaşılmıştır.
+4. MALİYET ANALİZİ ÇALIŞMALARI
+(STUDIES OF COST ANALYSIS)
+
+Kurumun ağ yapısı şekilleri ve kurum ağ alt yapısı
+için eşit varyans varsayımı altında ortalaması 2,48
+olup, p=0,155>0,010 olduğundan istatistiksel olarak
+kurum
+ve
+üniversite
+arasında
+farklılık
+bulunmamaktadır. Eşit olmayan varyans varsayımı
+altında ortalaması 2,77 olup, p=0,112>0,010
+olduğundan istatistiksel olarak kurum ve üniversite
+arasında farklılık bulunmamaktadır.
+Kurumun içinde kullanılan ve IP tabanlı iletişim
+kullanan özel yazılımların olup olmaması için eşit
+varyans varsayımı altında ortalaması 1,78 olup,
+p=0,471>0,010 olduğundan istatistiksel olarak kurum
+ve üniversite arasında farklılık bulunmamaktadır. Eşit
+olmayan varyans varsayımı altında ortalaması 1,72
+olup, p=0,478>0,010 olduğundan istatistiksel olarak
+kurum
+ve
+üniversite
+arasında
+farklılık
+bulunmamaktadır.
+Kurum ve üniversitelerin haricinde İnternet Servis
+Sağlayıcılar (İSS) için elde edilen anket sonuçlarından
+bazıları şunlardır. İSS bünyesinde IP tabanlı iletişim
+kullanan özel yazılımların olması oranı yüzde 23,1 ve
+olmaması oranı ise yüzde 72,2 olarak tespit edilmiştir.
+IPv6 erişimi için müşterilerden talep gelmemesi
+oranının yüzde 100 olduğu görülmüştür. IPv6’ya
+geçişi için herhangi bir planlama yapılması oranının
+yüzde 22,2 ve yapılmaması oranının ise yüzde 77,8
+olduğu belirlenmiştir. Müşteri istekleri doğrultusunda
+IPv6 desteğinin verilmesine yönelik çözümler (eğitim,
+teknik destek, vb.) sunmamasının oranı yüzde 27,8
+olarak tespit edilmiştir. Bu soruya cevap
+vermeyenlerin oranı ise yüzde 72,2 olmuştur.
+Yukarıda İSS’ler için elde edilmiş istatistiksel bilgiler
+neticesinde İSS’ların IPv6’ya geçiş dinamiklerinin
+büyük ölçüde müşteri taleplerine bağlı olduğu açıkça
+görülmektedir.
+Bu kısımda yapılan tüm istatistiksel analizlerde
+gözlem sayıları yeterli olduğundan, sonuçlar
+istatistiksel olarak güvenilirdir. Buna göre, İSS,
+kurum ve üniversite maliyet çıktılarının ayrı olarak
+değerlendirilmesi
+kararlaştırılmış
+ve
+maliyet
+hesaplaması buna göre yapılmıştır (Bkz. Bölüm 4).
+Anketlerin istatistiksel değerlendirilmesinde, kamu
+kurumları ve üniversiteler için toplanan veriler
+dikkate alındığında yapılan istatistiksel çalışmaların,
+eksik gözlemlere rağmen test istatistiklerinin
+
+156
+
+IPv4’den IPv6’ya geçiş için en önemli etken geçiş
+maliyetlerinin
+belirlenmesidir.
+Literatür
+incelendiğinde ve ülke durumu değerlendirildiğinde
+ülkemizde IPv6’ya geçişte en önemli unsurların
+yazılım, donanım ve insan gücü olacağı belirlenmiştir.
+Maliyet analizi çalışmalarını yapmak için, anket
+soruları, belirtilen hususların tespit edilmesine yönelik
+olarak hazırlanmıştır.
+Maliyet analizi yapılırken, anket içerisinde konu ile
+ilgili olan sorular öncelikle incelenmiş, ayrıştırılmış
+ve maliyetler ile ilgili olanlar belirlenmiştir. Gerek
+kurumların gerekse kuruluşların verdikleri bilgilere
+göre
+bir
+maliyet
+aralığı
+belirlenmiştir.
+Kurumların/kuruluşların anketlere verdiği cevaplarda,
+donanım ile ilgili verilerde genelde maliyetlerle ilgili
+bilgi verilirken, donanım ve yazılım güncellenmesi ile
+ilgili soruların çoğunluğunda maliyetlerle ilgili bilgi
+verilmemiştir. Bu durum dikkate alınarak, maliyet
+hesaplamada donanım ve yazılımlarda belirli aralıklar
+oluşturulup kamu kurumları ve üniversiteler için farklı
+maliyet
+grupları
+belirlenmiştir.
+Doldurulmuş
+anketlerden gerekli bilgiler elde edilebildiği ölçüde
+tüm maliyetler hesaplanmıştır. Buna göre ankete
+cevap veren 108 kurum ve üniversitenin yazılım ve
+donanım toplam maliyetleri aşağıda farklı başlıklar
+altında sunulmuştur.
+4.1. Donanım Maliyetleri (Equipment Costs)
+Doldurulmuş anketlerden elde edilen veriler ışığında
+108 kamu kurumuna ait elde edilen donanım ve
+donanım güncelleme maliyetleri değerleri ve toplamı
+Tablo 3’de özetlenmiştir.
+Doldurulmuş anketlerden elde edilen veriler ışığında
+18 İSS’ye ait elde edilen donanım ve donanım
+güncelleme maliyetleri değerleri ve toplamı Tablo
+4’te özetlenmiştir.
+4.2. Yazılım Maliyetleri (Software Costs)
+Doldurulmuş anketlerden elde edilen veriler ışığında
+108 kamu kurumuna ait elde edilen yazılım ve yazılım
+güncelleme maliyetleri değerleri ve toplamı Tablo
+5’de özetlenmiştir.
+Doldurulmuş anketlerden elde edilen veriler ışığında
+18 İSS’ye ait elde edilen yazılım ve yazılım
+güncelleme maliyetleri değerleri ve toplamı Tablo
+6’da özetlenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+Ş. Sağıroğlu ve ark.
+
+Tablo 3. Donanım ve donanım güncelleme maliyet
+türleri ve tutarları (Types and amounts of costs of equipment
+
+Tablo 5. Yazılım ve yazılım güncelleme maliyet
+türleri ve tutarları (Types and amounts of costs of software and
+
+and equipment upgrades)
+
+software updates)
+Hesaplanan Yazılım ve Yazılım Güncelleme
+Maliyet Türleri
+Yazılım Güncellemesi ile IPv6 Destekleyebilecek
+Yönlendirici (Router) Maliyeti
+Yazılım Güncellemesi ile IPv6 Destekleyebilecek
+Katman 3 (Layer 3) Anahtarlama Cihazı Maliyeti
+Yazılım Güncellemesi ile Küresel İnternet
+Hizmeti IPv6 Des. Yönlendirici Maliyeti
+Yazılım Güncellemesi ile IPv6 Destekleyebilecek
+Altyapı Cihaz Maliyeti
+Toplam Yazılım ve Yazılım Güncelleme Maliyeti
+
+Hesaplanan Donanım ve Donanım
+Güncelleme Maliyet Türleri
+
+Tutar (TL)
+
+IPv6 Destekleyen Yönlendirici Maliyeti
+Donanım Güncellemesi ile IPv6
+Destekleyebilecek Router Maliyeti
+IPv6 Destekleyen Katman 3 (Layer 3)
+Anahtarlama Cihazı Maliyeti
+Donanım Güncel. ile IPv6
+Destekleyebilecek Katman 3 (Layer 3)
+Anahtarlama Cihazı Maliyeti
+Küresel İnternet Hizmeti IPv6
+Destekleyen Yönlendirici Maliyeti
+Donanım Güncel. ile İnternet Hizmeti
+IPv6 Destekleyen Yönlendirici Maliyeti
+IPv6 Destekleyen Güvenlik Duvarı
+Maliyeti
+IPv6 Destekleyen IDS Maliyeti
+IPv6 Destekleyen IPS Maliyeti
+IPv6 Destekleyen Spam / Virüs Önleme
+Geçidi (Gateway) Maliyeti
+IPv6 Destekleyen İçerik Filtreleme
+Maliyeti
+IPv6 Destekleyen Altyapı Cihaz Maliyeti
+Donanım Güncellemesi ile IPv6
+Destekleyebilecek Altyapı Cihaz
+Maliyeti
+IPv6 Destekleyen VoIP Telefon Maliyeti
+Toplam Donanım ve Donanım
+Güncelleme Maliyeti
+
+Tablo 4. İSS’ler için donanım
+güncelleme maliyet türleri ve tutarları
+
+15133785
+2819220
+7407509
+4445900
+1482297
+150820
+3152631
+772238
+1052400
+564664
+
+63300
+6600
+99594
+
+Tablo 6. İSS’ler için yazılım ve yazılım güncelleme
+maliyet türleri ve tutarları (Types and amounts of costs of
+software and software updates for ISPs)
+Hesaplanan Yazılım ve Yazılım Güncelleme
+Maliyet Türleri
+Yazılım Güncellemesi ile IPv6 Destekleyebilecek
+Yönlendirici Maliyeti
+Yazılım Güncellemesi ile IPv6 Destekleyebilecek
+Altyapı Cihaz Maliyeti
+Toplam Yazılım ve Yazılım Güncelleme Maliyeti
+
+Tutar
+(TL)
+45262
+29700
+74962
+
+722736
+41000
+62000
+5000
+37812200
+
+ve
+
+donanım
+
+(Types
+and
+amounts of costs of equipment and equipment upgrades for ISPs)
+
+Hesaplanan Donanım ve Donanım
+Güncelleme Maliyet Türleri
+IPv6 Destekleyen Yönlendirici (Router)
+Maliyeti
+Donanım Güncellemesi ile IPv6
+Destekleyebilecek Yönlendirici (Router)
+Maliyeti
+IPv6 Destekleyen Katman 3 (Layer 3)
+Anahtarlama Cihazı Maliyeti
+Donanım Güncel. ile IPv6
+Destekleyebilecek Katman 3(Layer 3)
+Anahtarlama Cihazı Maliyeti
+IPv6 Destekleyen Güvenlik Duvarı
+Maliyeti
+IPv6 Destekleyen IDS Maliyeti
+IPv6 Destekleyen IPS Maliyeti
+IPv6 Destekleyen Spam / Virüs Önleme
+Geçidi (Gateway) Maliyeti
+IPv6 Destekleyen İçerik Filtreleme
+Maliyeti
+IPv6 Destekleyen Altyapı Cihaz Maliyeti
+Donanım Güncellemesi ile IPv6
+Destekleyebilecek Altyapı Cihaz
+Maliyeti
+IPv6 Destekleyen VoIP Telefon Maliyeti
+Toplam Donanım ve Donanım
+Güncelleme Maliyeti
+
+Tutar
+(TL)
+29694
+
+Tutar (TL)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+4.3. Eğitim Maliyetleri (Training Costs)
+Kurumların sahip oldukları bilgi birikimi ve insan
+kaynağı anketlerde sorgulanmıştır. Elde edilen
+verilerden, 108 kurum ve üniversitede toplam 3887
+bilgi işlem personeli çalıştığı belirlenmiştir. Veriler
+genel olarak öncelikle değerlendirilmiş, kurumların
+personelini eğitmek için ihtiyaç duyacağı eğitim
+ihtiyacı, düşük, orta ve yüksek olmak üzere üç
+kategoride değerlendirilmiştir. Bu personelin; 500
+personelin “yüksek”, 1000 personelin “orta” ve kalan
+2387 personelin de “düşük” kategoride bilgi
+birikimine sahip olduğu anketlerden anlaşılmıştır.
+
+47457400
+1561600
+3362532
+266500
+530200
+3484100
+527100
+67200
+30600
+429000
+1452500
+1000
+59169732
+
+Bu gruplandırmada, belirlenen kategorilere ait ihtiyaç
+duyulacak eğitim saati ihtiyacı oranları yüksek için
+20, orta için 50, düşük için 100 olarak belirlenmiştir.
+Buna ilave olarak ise her eğitim için ihtiyaç duyulacak
+minimum saat ücretinin ise 50TL olacağı tahmin
+edilerek, geçiş için ihtiyaç duyulacak eğitim
+ihtiyacının maliyeti ortaya çıkarılmaya çalışılmıştır.
+Elde edilen veriler dikkate alınarak, kurum ve
+üniversiteler için eğitim maliyeti hesabı Tablo 7’de
+sunulmuştur. Doldurulmuş anketlerden elde edilen
+veriler ışığında 18 İSS’ye ait elde edilen eğitim
+maliyetleri değerleri ve toplamı Tablo 8’de
+özetlenmiştir.
+Tablo 7. Eğitim maliyet türleri ve tutarları (Types and
+amounts of training costs)
+Personel
+Personel
+Sayısı
+Kategorisi
+500 Yüksek
+1000 Orta
+2387 Düşük
+Toplam Eğitim Maliyeti
+
+Kurs
+Saati
+20
+50
+100
+
+Saat
+Ücreti
+(TL)
+50
+50
+50
+
+Toplam
+Maliyet
+(TL)
+500000
+2500000
+11935000
+14935000
+
+157
+
+Ş. Sağıroğlu ve ark.
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+Tablo 8. İSS’ler için eğitim maliyet türleri ve tutarları
+(Types and amounts of training costs for ISPs)
+Personel
+Personel
+Kurs
+Saat
+Sayısı
+Kategorisi
+Saati
+Ücreti
+(TL)
+50 Yüksek
+20
+50
+100 Orta
+50
+50
+231 Düşük
+100
+50
+Toplam Eğitim Maliyeti
+
+Toplam
+Maliyet
+(TL)
+50000
+250000
+1155000
+1455500
+
+5. DEĞERLENDİRMELER VE SONUÇLAR
+(ASSESSMENT AND CONCLUSIONS)
+
+Ulusal IPv6 Protokol Altyapısı Tasarımı ve Geçişi
+Projesi ile Türkiye'nin IPv6 geçiş aşamasındaki yol
+haritasının belirlenmesi hedeflenmektedir. IPv4
+protokolünden IPv6 protokolüne geçiş maliyeti,
+ülkenin sahip olduğu bilişim altyapısının IPv6
+destekleme oranına göre farklılıklar göstereceğinden
+mevcut durumun değerlendirilmesi önem arz etmiştir.
+Bu amaçla gerçekleştirilen anket çalışmalarının
+sonuçları istatistiksel olarak yeterli bulunmuş olup
+gelecekteki çalışmalara ışık tutacak niteliktedir.
+Ülkemizdeki tüm kamu kurumlarına anket
+gönderilmiş olup, ankete cevap veren 108 kamu
+kurumu (üniversiteler dâhil) için anket sonuçları
+değerlendirildiğinde, belirlenen her bir kalem için
+maliyet analizi çıktıları Tablo 9’da verilmiştir.
+Tablo 9. Kurum ve üniversitelerin toplam IPv6 geçiş
+tahmini maliyetleri (The total estimated costs of transition to
+IPv6 for institutions and universities)
+Maliyet Türü
+Donanım
+Yazılım
+Eğitim
+Kurum ve Üniversiteler için
+Tahmini Maliyet
+
+Maliyet Tutarı (TL)
+37812200
+99594
+14935000
+52846794
+
+Bu çalışma sonucunda; belirlenen maliyet kalemleri
+ile elde edilen diğer bulgular/veriler incelendiğinde
+elde edilen hususlar aşağıda maddeler halinde
+özetlenmiştir.
+•
+•
+•
+•
+
+•
+
+158
+
+Kamu kurumlarının tahmini geçiş maliyetinin
+52846794TL olacağıdır.
+Kurum başına düşen IPv6 geçiş maliyeti
+(donanım, yazılım ve eğitim giderleri dahil)
+ortalamasının yaklaşık olarak 490000TL olduğu.
+Anketin gönderildiği toplam 196 kamu kurumu
+için toplam tahmini IPv6 geçiş maliyeti yaklaşık
+96040000TL olacağıdır.
+Kamu kurumları başına yaklaşık toplam maliyet
+350000TL olacağı tahmin edilmektedir. Bu değer
+anketin gönderildiği 196 kamu kurumu dikkate
+alındığında toplam donanım giderleri yaklaşık
+69000000TL civarındadır. Bu oran ise toplam
+maliyet dikkate alındığında, toplam maliyetin
+%73’ünü oluşturduğundan en büyük maliyet
+donanım maliyeti olarak karşımıza çıkmaktadır.
+Toplam tahmini maliyetler değerlendirildiğinde,
+birinci yüksek maliyet donanım maliyeti iken
+
+ikinci maliyet eğitim ve üçüncü ise yazılım olarak
+belirlenmiştir. Bu maliyetlerde dünya geneli
+değerlendirildiğinde,
+yazılım
+tarafındaki
+maliyetlerin ülkemizde düşük çıkması üzerinde
+dikkatlice durulması ve üzerinde detaylı
+çalışmalar yapılmasını gerektirmektedir.
+108 kamu kurum ve kuruluşları için yapılan anket
+sonucu değerlendirildiğinde;
+•
+
+86 kamu kurumunda yönlendirici cihazların
+bulunduğu ve toplam yönlendirici sayısının 7365
+olup IPv6 destekleyen yönlendirici sayısının ise
+1072 olduğu,
+• 80’inde güvenlik duvarının var olduğu,
+• Güvenlik personeli sayısının 104 olduğu ve
+bunların 25’i üniversitede iken 79’u diğer kamu
+kurumlarında bulunduğu,
+• Toplam yazılımcı sayısının 826, toplam sistemci
+sayısı 389, toplam ağ yöneticisi sayısı 193,
+toplam bilgi işlem personeli 3415, toplam diğer
+bilgi işlem personeli sayısı 1429,
+• Toplam Ipv6 destekleyen IDS sayısı ise 32 ve
+IPS sayısı 12,
+• IPv6 destekleyen İçerik Filtreleyici sayısı 40,
+• IPv6 destekleyen VOIP sayısı 281,
+• IPv6 destekleyen IDS sayısı 216,
+• IPv6 destekleyen Katman 3 (Layer 3) anahtar
+sayısı 679,
+• Toplam IPv6 destekleyen antivirüs/spam sayısı
+12031
+olduğu anlaşılmıştır.
+26 İSS’ye anket gönderilmiş olup, ankete cevap veren
+18 İSS için anket sonuçları değerlendirildiğinde,
+belirlenen her bir kalem için maliyet analizi çıktıları
+Tablo 10’da verilmiştir.
+Tablo 10. İSS’lerin toplam IPv6 geçiş tahmini
+maliyetleri (The total estimated costs of transition to IPv6 for
+ISPs)
+Maliyet Türü
+Donanım Maliyeti
+Yazılım Maliyeti
+Eğitim Maliyeti
+İSS’ler için Tahmini IPv6
+Projesi Maliyeti
+
+Maliyet Tutarı (TL)
+59169732
+74962
+1455500
+60700194
+
+Belirlenen maliyet kalemleri toplanıldığında ve elde
+edilen diğer bulgular/veriler incelendiğinde, İSS’ler
+için elde edilen hususlar maliyet açısından
+değerlendirildiğinde elde edilen hususlar aşağıda
+maddeler halinde özetlenmiştir.
+•
+•
+
+İSS’lerin tahmini geçiş maliyetinin 60700194TL
+olacağı değerlendirilmektedir.
+İSS başına düşen IPv6 geçiş maliyeti (donanım,
+yazılım ve eğitim giderleri dâhil) ortalamasının
+yaklaşık
+olarak
+3372233TL
+olacağı
+öngörülmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+•
+
+Toplam tahmini maliyetler değerlendirildiğinde,
+birinci yüksek maliyet donanım maliyeti iken
+ikinci maliyet eğitim ve üçüncü ise yazılım olarak
+belirlenmiştir.
+
+Sonuç olarak elde edilen veriler genel olarak
+değerlendirildiğinde;
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+6.
+
+7.
+
+8.
+
+9.
+
+Kamunun pek çok kurumunun bilgi işlem
+açısından gelişmiş olduğu, kamunun güvenlik
+tarafının geliştirilmesi gerektiği, IPv6 destekleyen
+ürünler bazında kamuda bir farkındalığın
+başladığı fakat bunun yeterli olmadığı ve
+geliştirilmesi gerektiği görülmektedir.
+Kamuda bulunan lisanslı işletim sistemi son
+kullanıcı sayısının genele bakıldığında düşük
+olduğu görülmektedir. Sunucu tarafındaki lisanslı
+işletim sistemi sayısının da son kullanıcı sayısı
+gibi yüksek olduğu, açık kaynak kodlu işletim
+sistemi kullanımının ise %20’lerde olduğu
+gözlemlenmiştir.
+Kurumların vermiş olduğu FTP, DNS, HTTP,
+POP3, VPN, IMAP, Proxy, Veritabanı, Sanal
+Sunucu gibi hizmetlerin oranının genelde düşük
+olduğu gözlemlenmiştir.
+İki kurumun ISO 27001 belgesi aldığı ve bu
+kurumlardan birisinin de COBIT belgesinin
+olmasının başlangıç açısından sevindirici olsa da
+genelde kurumlarda bilgi güvenliği seviyesinin
+düşük olduğu görülmüştür.
+Kurumların sadece birinde kalite güvence belgesi
+olduğu belirlenmiştir.
+Verilen veya verilecek hizmetler bakımından
+değerlendirildiğinde, kurumların genelde iyi bir
+işbirliği ve birlikte çalışılabilirlik ortamını
+oluşturamadıkları, yüksek seviyede ve kaliteli
+internet hizmeti vermedikleri görülmektedir.
+IPv6’ya geçiş konusunda anket gönderilen tüm
+kamu kurumları değerlendirildiğinde, IPv6
+farkındalığının düşük olduğu, güvenli yazılım
+geliştirme konusunda daha çok dikkat edilmesi
+gerektiği, güvenlik teknolojileri kullanma ve
+yönetimi konusunda daha dikkatli olunması
+gerektiği belirlenmiştir.
+IPv6
+konusunda
+kurumların
+farkındalığı
+%40’larda olsa da IPv6’ya geçiş planı olan kurum
+sayısının 18 olması; 6 kurumun IPv6 adres sahibi
+olması; 11 kurumun 2014’de IPv6’ya geçmeyi
+planlamaları; geçerken kullanacakları geçiş
+mekanizmasını
+belirtmeleri;
+3
+kurumun
+yönlendirici ayarlarını yapması başlangıç
+açısından sevindirici olsa da dünya geneline
+baktığımızda
+geçiş
+için
+kurumların
+farkındalıklarını
+arttırmaları
+gerektiği
+görülmektedir.
+İSS’ler genel olarak değerlendirildiğinde, kamuya
+göre bilgi ve farkındalığı yüksek olduğu görülse
+de yüksek seviyede bir farkındalık olmadığı
+görülmüştür. Kamuya göre IPv6 destekli
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Ş. Sağıroğlu ve ark.
+
+yönlendiricilerin sayısının daha düşük olduğu
+belirlenmiştir.
+10. İSS’lerin internet hizmetlerini kamuya göre daha
+iyi ve kapsamlı verdiği görülse de farkındalık
+konusunda çok da başarılı olmadıkları
+değerlendirilmektedir. IPv6’ya geçiş planı olan
+İSS sayısının az olması, şu ana kadar IPv6 adresi
+alan İSS’lerin sayısının düşük olması olumsuz
+olarak değerlendirilse de 2014’e kadar geçişin
+yapılmasını planlayan İSS oranının yüksek
+olduğu belirlenmiştir.
+Bu çalışma ile ülke IPv6 farkındalık ve durum tespiti
+sonucu özetlenmiş ve ülkemizin IPv6’ya geçiş
+maliyetini düşürebilmemiz için kurum ve kuruluşların
+IPv6’ya geçiş konusunda daha dikkatli olmaları;
+kurumlarını IPv6’ya hazır hale getirmeleri konusunda
+bilgi birikimlerini arttırmaları; bu konuda eğitimli
+insan kaynağını geliştirmek için planlama yapmaları
+ve en önemlisi, konuyla ilgili olarak Aralık 2010 da
+yayımlanan Başbakanlık Genelgesini dikkate almaları
+gerekmektedir. Bu hususlara azami derece dikkat
+edilmesinin ülke geçiş maliyetini düşüreceği ve bu
+konuda yapılabilecek olan çalışmaların önünü açacağı
+değerlendirilmektedir.
+6. ÇALIŞMA KISITLARI VE ÖNERİLER
+(STUDY CONSTRAINTS AND RECOMMENDATIONS)
+
+Yapılan çalışmada, anket yapılan kamu kurumları ve
+üniversitelerden ankete beklenen düzeyde katılım
+olmaması, katılım sağlayanların ise maliyet
+hususunda gerçeğe yakın veri girmedikleri
+değerlendirildiğinden, sonuçların gerçeği çok
+yansıtmadığı düşünülmüştür.
+Her ne kadar anket yapılmadan önce anketle ilgili
+olarak dolduracak kurumlara bir günlük bir eğitim
+verilmiş olsa da konunun yeni, kapsamlı ve pek çok
+parametreyi ve bilgi birikimini içermesinden dolayı
+bu hususun önemli bir kısıt oluşturduğu ve doğal
+olarak
+böyle
+bir
+sonuçla
+karşılaşıldığı
+değerlendirilmektedir.
+Yapılan
+istatistikî
+analiz
+sonuçları
+değerlendirildiğinde, ankete girilen değerlerin tutarlı
+oldukları belirlenmiş ise de ankete cevap verenlerin
+ekonomik değerleri detaylandıramadığı, özellikle
+eğitim, işgücü ve yazılım maliyetlerinin dünya
+örnekleri değerlendirildiğinde bu hususun gözden
+kaçtığı görülmüştür. Konu ile ilgili bilgi eksikliği
+olduğu görüldüğünden verilen değerlerin gözden
+geçirilmesi gerekliliği ortaya çıkmaktadır.
+Bu sebeple, bu anketin seçilecek olan birkaç örnek
+kurum/kuruluş ile tekrar yapılarak mevcut anketin
+gözden geçirilmesi ve tahmini değerlerin tekrar
+hesaplanmasının
+daha
+faydalı
+olacağı
+değerlendirilmektedir.
+
+159
+
+Ş. Sağıroğlu ve ark.
+
+7. TEŞEKKÜR (ACKNOWLEGMENT)
+TÜBİTAK KAMAG Başkanlığı’na 108G100 nolu
+“Ulusal IPv6 Protokolü Altyapısı Tasarımı ve Geçişi”
+projesine maddi desteklerinden dolayı şükranlarımızı
+sunarız.
+8. KAYNAKLAR (REFERENCES)
+1.
+2.
+3.
+4.
+
+5.
+6.
+
+7.
+
+8.
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+160
+
+İnternet:http://www.webcitation.org/63SyY81S9,
+Address Allocation for Private Internets,
+25.11.2011.
+İnternet: http://www.webcitation.org/63SybztXc,
+The IP Network Address Translator (NAT),
+25.11.2011.
+İnternet: http://www.webcitation.org/63Sye6llD,
+IP Mobility Support for IPv4, 25.11.2011.
+Majstor F. “Does IPv6 protocol solve all security
+problems of IPv4?”, In: Information Security
+Solutions Europe, Vienna, Austria.07-09 Ekim
+2003.
+Mohacsi J., Szigeti S., Maray T., “Testing IPv6
+Implementations”, Computer Networks and
+ISDN Systems, Vol.30, 1617-1625, 1998.
+Zagar D., Grgic K., Rimac-Drlje S., “Security
+Aspects In IPv6 Networks – Implementations
+And Testing”, Computers and Electrical
+Engineering, Vol.33, 425-437, 2007.
+Cooper M., Yen D. C., “IPv6:Business
+Applications And Implementation Concerns”,
+Computer Standards&Interfaces, Vol.28, 2741, 2005.
+Nikkel B. J., “An Introduction to Investigating
+IPv6 Networks”, Digital Investigation, Vol.4,
+59-67, 2007.
+Mackay M., Edwards C., “A Managed IPv6
+Transitioning Architecture for Large Network
+Deployments”, IEEE Internet Computing, 4251, 2009.
+Jayanthi J. G., Rabara S. A., “Transition and
+Mobility Management in the Integrated IPv4 and
+IPv6 Network”, IEEE International Conference
+on Electronics and Information Engineering,
+ICEIE 2010, Vol.1, 162-166, 2010.
+Shin M., Han Y., Kim H. , “IPv6 Operations and
+Deployment Scenarios over IEEE 802.16
+Networks”, IEEE ICACT2007, 12-14 February
+2007.
+Knoth A., Neuhäuser D., “IPv6-only Nodes in
+Corporate and Academic Networks”, Sixth
+International Conference on Networking and
+Services, 91-96, IEEE Computer Society, 07-13
+Mart 2010.
+Xia Y., Lee B.S., Yeo C.K., Seng V. L. S., “An
+IPv6 Translation Scheme for Small and Medium
+Scale Deployment”, Second International
+Conference on Advances in Future Internet,
+IEEE Computer Society, 108-112, 18-25 July
+2010.
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+14. Yan-ge C., Zi-yi H., Shui-mu T., “IPv6 network
+comprehensive deployment on campus network”,
+International Conference on Environmental
+Science
+and
+Information
+Application
+Technology, 631-634, IEEE Computer Society,
+04-05 July 2009.
+15. Kizilkaya Aydogan, E., Soylu M. Y., Gencer C.
+Cetin S., Soysal M., Bektas O., Yuce E., Ozturk
+Y., Gokirmak Y., Sagiroglu S., “AHP Model for
+Transition from IPv4 to IPv6”. Journal of the
+Faculty of Engineering and Architecture of Gazi
+University Vol 26, No 3, 701-709, 2011.
+16. İnternet:http://www.webcitation.org/63SygQ3Hk,
+CITC Internet Services Development Project:
+Phase II : IPv6 Strategy for the Kingdom of Saudi
+Arabia, 25.11.2011.
+17. İnternet: http://www.webcitation.org/63SyifG6P,
+Mikawa S., “IPv6 Activities in Japan”, IPv6
+Promotion Council / TF for IPv4 Exhaustion
+NTT Communications, 25.11.2011.
+18. İnternet: http://www.webcitation.org/63SylJhGy,
+Summary of the responses to the ITU-TSB
+Questionnaire on IPv6 address allocation and
+encouraging the deployment of IPv6, ITU-TSB,
+25.11.2011.
+19. İnternet:http://www.webcitation.org/63SymQmZ
+O, IA Connect Vendor Questionnaire,
+Department of Defense (DoD) IA Connect
+Knowledge Center, 25.11.2011.
+20. İnternet:http://www.webcitation.org/63SynUu3O,
+Roberts, P., Internet Society Organization
+Member IPv6 Study, Internet Society,
+25.11.2011.
+21. İnternet: http://www.webcitation.org/63Syp8xtn,
+Jiang S. and Carpenter B., Questionnaire On ISP
+IPv6 Deployment, 25.11.2011.
+22. İnternet:http://www.webcitation.org/63Syq4QW7
+Questionnaire on IPv6 address allocation and
+encouraging the deployment of IPv6, ITU,
+Geneva, 25.11.2011.
+23. İnternet:http://www.webcitation.org/63SyrV5RW
+IPv6 Transitioning Roadmap, 25.11.2011.
+24. İnternet: http://www.webcitation.org/63T0lh8hE,
+RTI study pegs Internet protocol transfer cost at
+$25B in U.S., Triangle Business Journal, 3
+February 2006, 25.11.2011.
+25. İnternet: http://www.webcitation.org/63Syu7o0R,
+European IPv6 Action Plan ARIN/CAIDA
+survey, 25.11.2011.
+26. İnternet: http://www.webcitation.org/63Syux7Tl,
+ARIN/CAIDA survey results, 25.11.2011.
+27. Fernandes J., Friacas C., “IPv6 Benchmarking”,
+ITU Workshop on IPv6, Geneva, Italy, 22-23
+June 2005.
+28. İnternet:http://www.webcitation.org/63Syy5Wm
+H, Internet Protocol, Version 6 (IPv6)
+Specification, 25.11.2011.
+29. İnternet: http://www.webcitation.org/63SyzSsZe,
+Mandatory Reference - IPv6 Plans and Standards
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+IPv6 Protokolüne Geçiş Maliyet Analizi Çalışması
+
+30.
+
+31.
+32.
+
+33.
+
+Mandatory Reference - Mission BCP and DRP
+Checklist, 25.11.2011.
+İnternet: http://www.webcitation.org/63Sz0fhGy,
+United States Government Accountability Office.
+Report to Congressional Requesters. May 2005.
+Internet Protocol, 25.11.2011.
+İnternet:
+http://www.rti.org/pubs/IPv6_costbenefit.pdf, IPv6, Economic Impact Assessment,
+25.11.2011.
+İnternet: http://www.webcitation.org/63Sz2QrH8,
+United States Department of Veterans Affairs
+Internet Protocol Version 6 (IPv6) Progress
+Report, 25.11.2011.
+Sağıroğlu Ş., Karacan, H., Alkan, M., Ünver, M.,
+Orcan, S. ve Yavanoğlu, U. “Ulusal IPv6
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Ş. Sağıroğlu ve ark.
+
+Protokol Altyapısı Tasarımı Ve Geçişi Projesi:
+Anket Çalışması”, Ulusal IPv6 Konferansı,
+Ankara, s.19-25, 2011.
+34. Anderson D. R., Sweeney D. J and Williams,
+T.A., “Statistics For Business and Economics”,
+South-Western College Publishing, Ohio, 1999.
+35. İnternet:http://www.webcitation.org/63T15Vr2D,
+Memorandum For The Chief Information
+Officers, Office of E-Government and
+Information Technology SUBJECT: Transition
+Planning for Internet Protocol Version 6,
+25.11.2011.
+
+161
+
+

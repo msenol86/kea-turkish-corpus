@@ -1,0 +1,1951 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 2, 285-294, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 2, 285-294, 2012
+
+AISI 1050 ÇELİĞİNİN KARBÜR TAKIMLARLA
+FREZELENMESİNDE OLUŞAN TİTREŞİMLERİN
+İNCELENMESİ VE İSTATİSTİKSEL ANALİZİ
+Hakan DİLİPAK¹, Volkan YILMAZ2
+¹ Gazi Üniversitesi, Teknoloji Fak., İmalat Müh. Böl., Ankara
+² Gazi Üniversitesi, Atatürk Meslek Yüksekokulu, Makine ve Metal Tek. Böl., Ankara
+hdilipak@gazi.edu.tr, volkan@gazi.edu.tr
+(Geliş/Received: 14.11.2011; Kabul/Accepted: 05.03.2012)
+ÖZET
+Bu çalışmada, frezeleme operasyonlarında, işleme parametrelerinin, takım tezgâhında oluşan titreşimlere, kesme
+kuvvetlerine ve iş parçası yüzey kalitesine etkisi araştırılmıştır. Deneylerde işleme parametreleri olarak 132, 220,
+308 m/min kesme hızı, 0,05, 0,1, 0,15, 0,2 mm/tooth ilerleme oranı, 1, 1,5 mm kesme derinliği ve 1, 2, 4 adet
+kesici uç kullanılmıştır. Bu işleme parametreleri ile 100x50x20 mm ebatlarında AISI 1050 deney malzemesi
+üzerinden talaş kaldırılmıştır. Toplam 72 adet deney yapılmıştır. Talaş kaldırma işlemleri esnasında, titreşimler,
+kesme kuvvetleri ve yüzey pürüzlülük değerleri ölçülmüştür. Daha sonra işleme parametrelerinin sonuçlara
+etkisini belirlemek ve matematiksel bir model oluşturmak amacıyla varyans analizi (ANOVA) ve ikinci
+dereceden çoklu regresyon analizi yapılmıştır. Deney sonuçlarına göre; kesici uç sayısı, kesme derinliği ve
+ilerleme artışı ile tüm sonuçlarda da artış olduğu görülmüştür. Kesme hızının artması titreşim ivme seviyesini
+olumsuz etkilerken, kesme kuvveti ve yüzey kalitesine olumlu katkıda bulunmuştur. Artan titreşim ivme
+seviyeleri, yüzey pürüzlülük değerlerinin de artmasına neden olmuştur. Dolayısıyla titreşimin yüzey
+pürüzlülüğüne olumsuz bir etkisi olduğu tespit edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+İmalat sanayi, kısa sürede, arzu edilen kalitede ve
+minimum maliyetle parça imalatını hedeflemektedir.
+
+Bu amaç kapsamında, yeni ve modern imalat
+yöntemleri geliştirilmiştir. Bunun yanında talaş
+kaldırma
+işlemlerinin
+en
+uygun
+şartlarda
+gerçekleştirilmesi
+içinde
+çalışmalar
+devam
+
+H. Dilipak ve V. Yılmaz
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+etmektedir. İmalatta maliyeti etkileyen birçok faktör
+vardır. Bu faktörlerin içerisinde en önemlilerinden bir
+tanesi takım ömrüdür. Takım ömrünün ise en çok
+etkilendiği etkenlerden biri ise titreşimdir. Titreşim
+takım ömrünü olumsuz yönde etkilemesinin yanında
+yüzey kalitesine de olumsuz etkileri vardır. Freze
+tezgâhında kesme işlemi yapılırken meydana gelen
+kesme kuvveti; kesici kenarlar (dişler) arası mesafe,
+konum açısı, iş parçası geometrisi, iş mili sehimi,
+talaş derinliği, talaş genişliği, ilerleme miktarı, kesme
+hızı ve aşınma gibi birçok faktörlere bağlı olarak
+kesme işlemi boyunca dönme açısına bağlı olarak
+değişir. Bu da sistemde sürekli titreşimin oluşmasına
+neden olur. Bu titreşim, tezgâhın mekanik veya tezgâh
+tespitinden gelen titreşimlerden farklıdır. Çünkü bu
+titreşim direkt olarak tezgâh parametreleri ve kesme
+şartlarına bağlıdır. Tezgâhın çalışma şartlarına bağlı
+olarak kesme kuvveti değerlerinde meydana gelen ani
+değişiklikler, birim zamanda kaldırılan talaş miktarı,
+simetrik ve asimetrik kesme şartlarına bağlı olarak
+titreşim genliğinde de değişime sebep olur. Bunun
+sonucu olarak bozuk bir işleme kalitesi elde edilir.
+Konuyla ilgili çalışmalar değerlendirildiğinde, talaşlı
+imalat işlemleri esnasında meydana gelen titreşimlerin
+sonucu olarak birçok olumsuz duruma rastlanmıştır.
+Çeşitli kesme hızları ile sistemde elde edilen kesme
+kuvvetlerinin titreşimlere etkileri ele alınmış ve
+kesme kuvvetlerindeki artışların titreşimleri arttırdığı
+görülmüştür [1-4]. Takım tezgâhlarının monte edildiği
+zeminin titreşimleri ve yüzey kalitesini etkilediği
+belirtilmiş, takım tezgâhlarında oluşan titreşimlerin
+kontrol edilebilmesi, kesme parametreleri [4-9] ve
+kesici takım ile iş parçası arasındaki pozisyonun
+durumu ile doğrudan ilişkili olduğu görülmüştür [810]. Ayrıca frezeleme işlemleri esnasında oluşan
+titreşimleri azaltabilmek için titreşim sönümleyicilerin
+etkili olduğu belirtilmiştir [11-14]. Araştırmacıların
+frezeleme işlemleri esnasında meydana gelen
+titreşimleri azaltmak için geliştirdikleri sistemlerin,
+oluşan titreşim ivme seviyelerinde önemli miktarlarda
+azalmaya neden olduğu görülmüştür [14-17]. Takım
+tezgâhlarındaki hareketli makine parçalarından ve
+tezgâhların oturduğu zeminden gelen bazı istenmeyen
+dış etkilerin oluşturduğu kuvvetler, tezgâhın
+bütünlüğünden dolayı kesici takım ucunda titreşim
+olarak kendini göstermektedir [17-21]. Ayrıca iş
+parçasından talaş kaldırma işlemi sırasında kesme
+parametrelerine bağlı olarak mekanik titreşimler
+oluştuğu gibi kesici takım tutucusunun geometrik
+yapısına, bağlantı tipine ve takım bağlama
+uzunluğuna bağlı olarak da titreşim oluşmaktadır [2127]. Kontrolsüz olarak oluşan bu titreşimler, iş parçası
+yüzey kalitesi, kesici takım aşınması ve işleme
+performansına olumsuz etki etmektedir [27-29].
+Ayrıca takım tezgâhlarındaki diğer etkenlerin
+(yataklar, miller, başlıklar vb.), etkilerini belirlemek
+amacı ile geliştirilen çeşitli modellerin simülasyonları
+yapılarak titreşim değerleri üzerindeki etkileri
+görülmüştür [30-32]. Takım tezgâhı ile talaş kaldırma
+işlemleri esnasında meydana gelen ve kontrol
+
+286
+
+edilemeyen titreşimlerin, iş parçasının ölçü ve yüzey
+tamlıklarının bozulmasına, kesici takım ömrünün
+kısalmasına, takım tezgâhı hassasiyetinin zarar
+görmesine neden olduğu görülmüştür. Ancak işleme
+parametrelerinin (kesme hızı, ilerleme miktarı, talaş
+derinliği ve kesici diş sayısı) takım tezgâhı üzerine
+etkiyen titreşim ile yüzey pürüzlülüğü arasındaki
+ilişkiye ve ortaya çıkan sonuçların modellenmesi ile
+ilgili bir çalışmaya rastlanmamıştır.
+Bu çalışmada ise, freze takım tezgâhı ile talaş
+kaldırma işlemi esnasında, işleme parametrelerinde
+(kesme hızı, ilerleme miktarı, talaş derinliği, kesici uç
+sayısı) değişiklik yapılarak, işleme parametreleri ile
+takım tezgâhında oluşan kesme kuvveti, titreşim
+seviyeleri ve iş parçası yüzey pürüzlülük değerleri
+deneysel olarak incelenmiştir. Çalışma sonucunda
+işleme parametrelerinin takım tezgahı titreşimine,
+kesme kuvvetlerine ve yüzey pürüzlülük değerlerine
+etki edip etmediği Minitab 16.0 paket programı
+yardımıyla varyans analizi (ANOVA) testleri
+yapılarak değerlendirilmiş ve ikinci dereceden çoklu
+regresyon
+analiziyle
+matematiksel
+modeller
+oluşturulmuştur.
+2. MALZEME VE METOT (MATERIAL
+
+AND
+
+METHOD)
+
+2.1 Deney Malzemesi ve Ekipmanlar
+
+(Experimental
+
+Material and Equipments)
+
+Deneylerde, deney malzemesi olarak imalat
+sanayisinde geniş kullanım alanı olan AISI 1050
+karbon çeliği kullanılmıştır. Bu malzemenin kimyasal
+kompozisyonu Tablo 1’de verilmiştir. Ham deney
+malzemesi
+100x50x20
+mm
+boyutlarındadır.
+Malzemenin düzlem yüzeyi, dış yüzey tabaka
+sertleşmesi ihtimaline karşılık 0,5 mm talaş
+derinliğinde freze tezgâhında yüzey frezeleme
+işlemine tabi tutulup ardından taşlama işlemi
+gerçekleştirilmiş ve dış yüzeydeki olumsuzluklar
+ortadan kaldırılmış böylece deney numuneleri,
+deneyler için hazır hale gelmiştir.
+Tablo 1. AISI 1050 çelik malzemenin kimyasal (%)
+özellikler (Chemical (%) properties of AISI 1050 steel of
+material)
+%C
+0,430
+%Mo
+0,00752
+
+%Si
+0,212
+%Ni
+0,0972
+
+%Mn
+0,730
+%Al
+0,0110
+
+%P
+0,0197
+%Co
+0,00603
+
+%S
+0,0390
+%Cu
+0,297
+
+%Cr
+0,0776
+%Fe
+98,06
+
+Deneylerde kullanılan numuneler FANUC kontrol
+ünitesine sahip “Johnford VMC-550” sanayi tipi CNC
+freze tezgâhında işlenmiştir. Talaş kaldırma esnasında
+titreşim seviyelerinin ölçülmesinde Commtest VB
+3000 Titreşim analiz cihazı (Spektrum Analizörü)
+kullanılmıştır. Cihazla ölçümlere başlamadan önce
+deney kodları cihaza kaydedilip (örn: A1U1), kesme
+işlemi esnasında deney koduna göre titreşim RMS
+seviyesi ölçüm değeri alınmıştır (Şekil 1). Titreşim
+sensörü (ivmemetre), dinamometre üzerine tespit
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+edilen iş parçasına kesme yönü doğrultusunda
+mıknatıslanmış ve her deney için aynı noktadan
+kesme yönündeki titreşim ivme seviyeleri alınmıştır.
+Titreşimler tek yönlü olarak ölçülmüştür. Titreşim
+ivme seviyeleri (RMS) her deneyde ayrı ayrı
+ölçülmüştür.
+
+H. Dilipak ve V. Yılmaz
+
+bağlantısı ve deney düzeneği şematik olarak Şekil
+3’de verilmiştir.
+
+Şekil 2. Dinamometre ve freze tezgahı üzerindeki Fx,
+Fy, Fz kuvvet yönleri (Fx, Fy, Fz of force directions on
+dynamometer, and milling machine)
+
+Şekil 1. Titreşim ivme seviyesinin ölçümü
+
+(Measure the
+
+level of vibration acceleration)
+
+Deneylerde kuvvet ölçme cihazı olarak KİSTLER
+9257B tipi dinamometre kullanılmıştır. Dinamometre
+ve freze tezgâhı üzerindeki kuvvet yönleri Şekil 2’de
+gösterilmiştir. Kesme işlemi sonunda kesme
+kuvvetlerinin kararlı olduğu bölgenin başlangıç ve
+bitiş değerleri esas alınarak, ortalama Fx, Fy, Fz
+kuvvetleri belirlenmiştir. Değerlendirme aşamasında,
+tüm deneylerde en yüksek kuvvet değeri olan, freze
+tezgâhına göre Fx yönündeki kesme kuvveti bileşeni
+değerleri esas alınmıştır. Dinamometrenin tezgâha
+
+Deneyler gerçekleştirildikten sonra frezeleme
+işlemlerine tabi tutulan yüzeylerin yüzey pürüzlülüğü
+ölçümleri “Mahr” marka Perthometer M1 tipi, masa
+üstü ve yazılı çıktı alınabilen yüzey pürüzlülük ölçme
+cihazı ile yapılmıştır. Her deney malzemesi üzerinden
+3 ayrı noktadan ölçüm yapılmış ve bu üç değerin
+ortalaması
+alınmıştır.
+Kesme
+parametreleri
+belirlenirken takım üretici firma verileri ve ISO 86881 ve 8688-2’deki öneriler dikkate alınarak, iki farklı
+kesme derinliği, üç farklı kesme hızı, dört farklı
+ilerleme hızı ve üç farklı kesici uç sayısı
+belirlenmiştir. Kesici takım için ISO 8688-1 ve 86882’nin önerdiği uygun talaş derinlikleri olarak 1 mm ve
+1,5 mm seçilmiştir. Deneylerde kullanılan işleme
+parametreleri Tablo 2’de özetlenmiştir.
+
+Şekil 3. Deney düzeneğinin şematik olarak gösterimi (Schematic display of the experiment mechanism)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+287
+
+H. Dilipak ve V. Yılmaz
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+Tablo 2. Deneylerde kullanılan işleme parametreleri
+(Machining Parameters which are used in the experiments)
+
+Kesme
+derinliği,
+a
+mm
+
+İlerleme
+miktarı, f
+mm/tooth
+
+Kesme
+hızı, V
+m/min
+
+Kesici uç
+sayısı, z
+Adet
+
+1
+1,5
+
+0,05
+0,1
+0,15
+0,20
+
+132
+220
+308
+
+1
+2
+4
+
+Deneyler ISO 8688-1 ve 8688-2’de belirtilen deney
+şartlarına uygun olarak gerçekleştirilmiş ve
+deneylerde Bering marka TPKN 2204 PDR PK6030
+TiN kaplı karbür kesici uç ile Takımsaş marka FKR
+2017 0080 takım tutucu kullanılmıştır.
+2.2 Deneylerin Yapılışı (Making of Experiments)
+Deney düzeneği Şekil 3’de belirtilen deney
+düzeneğine uygun olarak kurulmuştur. KİSTLER
+9257B kuvvet ölçüm cihazı freze tezgâhı tablasına bir
+komparatör yardımı ile paralel ve rijit bir şekilde
+monte edilmiştir. Daha sonra dinamometre üzerine
+alyan başlı vida yardımı ile daha önceden deneylerde
+kullanılmak üzere hazırlanan AISI 1050 çelik iş
+parçası bağlanılmış ve iş parçasının üzerine ise VB
+3000 titreşim ölçme cihazının mıknatıslanma
+f=0,05 mm/tooth
+
+3. SONUÇLAR VE TARTIŞMA (RESULTS
+
+3.1 Kesme Kuvveti Sonuçlarının Değerlendirilmesi
+(Evaluation of Results of Cutting Force)
+Kesme hızlarının artması ile kesme kuvvetlerinin
+azaldığı bilinmektedir. Şekil 4a ve Şekil 4b
+incelendiğinde 1, 2 ve 4 adet kesici uç ile yapılan
+deneylerde kesme hızı ve ilerlemeye bağlı olarak
+
+f=0,1 mm/tooh
+
+800
+
+400
+
+f=0,15 mm/tooth
+
+kes ici uç s ayıs ı= 2
+
+800
+
+400
+
+400
+
+200
+
+200
+
+0
+
+0
+
+0
+
+132
+
+220
+308
+Kesme hızı V (m/min)
+
+f=0,2 mm/tooth
+
+kes ici uç s ayıs ı= 4
+
+600
+
+600
+
+200
+
+AND
+
+DISCUSSION)
+
+kesici uç sayısı= 1
+
+600
+
+Kesme kuvveti Fx (N
+
+özelliğine
+sahip
+titreşim
+ölçme
+sensörü
+mıknatıslanmıştır. CNC freze tezgâhında, kesme hızı,
+ilerleme miktarı ve kesme derinliği için gereken
+ayarlamalar yapılmış ve sistem hazır hale getirilmiştir.
+Deney düzeneği ilk başta yüksüz olarak çalıştırılmış
+ve sistem ayrıntılı bir şekilde kontrol edilmiştir.
+Kontrol işlemleri esnasında boş vaziyette çalışan freze
+takım tezgâhının kuvvet ve titreşim ivme seviyeleri
+kayıt edilmiştir. Daha sonra yukarıda verilen işleme
+parametrelerine göre iş parçası üzerinden talaş
+kaldırma işlemleri gerçekleştirilmiştir. Deneylerde
+100x50x20 mm boyutlarında 72 adet AISI 1050
+deney numunesi kullanılmıştır. Her bir işlem sırasında
+kesme kuvvetleri, titreşim ivme seviyeleri ve yüzey
+pürüzlülük değerleri ölçülmüştür. Deneylerde her bir
+işlem için ayrı kesici takım kullanılarak toplam 72
+adet deneysel çalışma gerçekleştirilmiştir.
+
+132
+
+220
+308
+Kes me hızı V (m/min)
+
+132
+
+220
+308
+Kes me hızı V (m/min)
+
+a) 1 mm kesme derinliğinde işleme parametrelerinin kesme kuvvetlerine etkisi (The effect of machining parameters to
+the cutting forces at the 1 mm cutting depth)
+
+f=0,05 mm/tooth
+
+f=0,1 mm/tooh
+
+f=0,15 mm/tooth
+
+f=0,2 mm/tooth
+
+Kesme kuvveti Fx (N
+
+kesici uç sayısı= 1
+1000
+
+800
+
+kesici uç sayısı= 2
+
+1000
+
+800
+
+600
+
+800
+
+600
+
+600
+
+400
+
+400
+
+200
+
+200
+
+400
+200
+0
+
+0
+
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+b) 1,5 mm kesme derinliğinde işleme
+to the cutting forces at the 1,5 mm cutting depth)
+
+kesici uç sayısı= 4
+
+0
+
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+parametrelerinin kesme kuvvetlerine etkisi (The effect of machining parameters
+
+Şekil 4. İşleme parametrelerinin kesme kuvvetlerine etkisi (The effects of machining parameters to the cutting forces)
+
+288
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+kesme kuvvetlerinin 220 m/min kesme hızında
+yükseldiği ve artan kesme hızı ile kuvvetlerin düşüşe
+geçtiği görülmektedir. Bu durum kesme bölgesinde iş
+parçası ile kesici uç arasında oluşan ısı enerjisi ile
+açıklanabilir [33]. Kesme hızlarının artması ile kesme
+bölgesinde oluşan ısı belli bir noktadan sonra daha
+hızlı artmış ve böylece malzeme daha kolay işlenebilir
+hale gelerek kesme kuvvetleri azalmıştır. İlerleme hızı
+ve kesici uç sayısının artışı kesme kuvvetini
+arttırmıştır. Uç sayısının artışı kesicinin birim
+zamanda aldığı yolu da arttırmaktadır. Bu artış
+ilerleme ve talaş derinliğine bağlı olarak oluşan “talaş
+kesit alanı” nın kesme kuvvetini arttıran en önemli
+faktör oluşu ile açıklanabilir [28, 34, 35].
+
+kesme derinliğinin artması ile kesme kuvvetlerinin
+artmasına paralel olarak kesici uç sayısı ve ilerleme
+miktarı arttıkça da sistemdeki kesme kuvvetlerinin
+arttığı görülmektedir. Kesme derinliğinin artması
+birim zamanda kaldırılan talaş miktarının artmasına
+neden olmaktadır. Birim zamanda kaldırılan talaş
+miktarının artması ise sistemin ihtiyaç duyduğu
+kuvvet gereksinimlerinin artmasına neden olmuştur.
+3.2 Titreşim İvme Seviyesi Sonuçlarının
+Değerlendirilmesi (Evaluation of Results of Vibration
+Acceleration Level)
+
+Kesme hızlarının artması ile kesici takımın kendi
+ekseni etrafında dönmesinden kaynaklanan radyal,
+eksenel ve teğetsel kuvvetler sistemdeki titreşim ivme
+seviyelerini artırmıştır. Şekil 5a ve Şekil 5b
+incelendiğinde kesme hızı ve ilerlemeye bağlı olarak
+sistemdeki titreşim ivme seviyelerinin artış eğiliminde
+olduğu görülmektedir. Frezeleme işlemi kesintili talaş
+kaldırma işlemi olduğundan dolayı, sistem sürekli
+olarak titreşime zorlanmaktadır ve kesme hızlarındaki
+artış titreşim ivme seviyelerini artırmıştır. Bu
+durumun sebebi ise artan kesme hızları ile kesici
+takım ile iş parçası arasında birim zamanda meydana
+gelen sürtünmenin artması ve boşta geçen zamanın
+
+Literatür
+araştırmaları
+esnasında,
+kesme
+derinliklerinin sistemde oluşan kesme kuvvetlerini,
+titreşim ivme seviyelerini ve yüzey pürüzlülük
+değerlerini olumsuz yönde etkilediği görülmüştür.
+Literatür araştırması esnasında karşılaşılan bu duruma
+paralel olarak Şekil 4a ve Şekil 4b’de görüleceği
+üzere yapılan deneyler ile kesme derinliğinin sistemde
+oluşan kesme kuvvetlerini arttırdığı tespit edilmiştir.
+Şekil 4a ve Şekil 4b incelendiğinde 132 m/min kesme
+hızı ve 1, 2 ve 4 adet kesici uç ile yapılan deneylerde
+f=0,05 mm/tooth
+
+f=0,1 mm/tooh
+f=0,15 mm/tooth
+kesici uç sayısı= 2
+1
+
+kesici uç sayısı= 1
+1
+Titreşim ivme seviyesi RMS
+(m/m/s)
+
+H. Dilipak ve V. Yılmaz
+
+f=0,2 mm/tooth
+kesici uç sayısı= 4
+
+1
+
+0,5
+
+0,5
+
+0,5
+
+0
+
+0
+132
+
+220
+
+308
+
+0
+
+132
+
+220
+
+308
+
+132
+
+Kesme hızı V (m/min)
+
+Kesme hızı V (m/min)
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+a) 1 mm kesme derinliğinde işleme parametrelerinin titreşim ivme seviyesine etkisi
+
+(The effect of machining
+
+parameters to the vibration acceleration level at the 1 mm cutting depth)
+f=0,05 mm/tooth
+
+f=0,1 mm/tooh
+
+Titreşim ivme seviyesi RMS
+(m/m/s)
+
+f=0,15 mm/tooth
+
+2
+
+2
+
+f=0,2 mm/tooth
+
+2
+kesici uç sayısı= 2
+
+kesici uç sayısı= 1
+
+kesici uç sayısı= 4
+
+1,5
+
+1,5
+
+1,5
+
+1
+
+1
+
+1
+
+0,5
+
+0,5
+
+0,5
+
+0
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+0
+132
+
+0
+220
+
+308
+
+Kesme hızı V (m/min)
+
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+b) 1,5 mm kesme derinliğinde işleme parametrelerinin titreşim ivme seviyesine etkisi
+
+(The effect of machining
+
+parameters to the vibration acceleration level at the 1,5 mm cutting depth)
+
+Şekil 5. İşleme parametrelerinin titreşim ivme seviyelerine etkisi (The effects of machining parameters to the vibration
+acceleration levels)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+289
+
+H. Dilipak ve V. Yılmaz
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+azalması olarak yorumlanmıştır. Şekil 5a ve Şekil 5b
+birlikte değerlendirildiğinde ilerleme miktarlarının
+artması ile titreşim ivme seviyelerinde bir artış olduğu
+görülmektedir. Her üç kesme hızında da ilerleme
+miktarlarının artması titreşim ivme seviyelerini
+artırmıştır. Bu artış ilerleme miktarlarının artması ile
+takım tezgâhının daha fazla güce ihtiyaç duyması ve
+dolayısı ile kesme frekanslarını olumsuz yönde
+etkilemesi ile açıklanabilir. Düşük ilerleme
+miktarlarında meydana gelen RMS değerleri son
+derece düşük olmuş, fakat artan ilerleme miktarlarına
+paralel olarak RMS değerlerinde kayda değer bir artış
+görülmüştür. Şekil 5a ve Şekil 5b kesici uç sayısına
+göre incelendiğinde kesici uç sayısının artması veya
+azalması durumunda titreşim ivme seviyelerinde
+değişiklik olduğu görülmektedir. Bu çalışmada, 132,
+220, 308 m/min kesme hızı, 0,05, 0,1, 0,15, 0,2
+mm/tooth ilerleme, 1, 1,5 mm kesme derinliği ve 1, 2
+ve 4 adet kesici diş sayısı ile yapılan deneylerde,
+kesici diş sayısının artması ile titreşim ivme
+seviyelerinin de arttığı gözlemlenmiştir. Kesici uç
+sayısının artışı, malzeme ve kesici takım arasında
+
+f=0,05 mm/tooth
+
+Yine kesme derinliğinin artması, birim zamanda
+kesici diş başına düşen talaş miktarını artırarak kesici
+takım ile iş parçası malzemesi arasındaki temas
+alanının genişlemesine ve bu durumun sonucu olarak
+da Şekil 5a ve Şekil 5b’ de görüldüğü gibi sistemdeki
+titreşim ivme seviyelerinin yükselmesine neden
+olmuştur.
+3.3 Yüzey Kalitesi Sonuçlarının Değerlendirilmesi
+(Evaluation of Results of Surface Quality)
+
+Frezeleme işlemleri esnasında yüksek kesme hızları
+ve düşük ilerleme oranlarıyla birlikte kesici takıma
+birim zamanda düşen talaş miktarının azalacağı ve bu
+azalmanın da yüzey kalitesinde iyileşmeye neden
+olacağı bilinmektedir [36]. Nitekim Şekil 6a ve Şekil
+6b’de kesme hızı artışı ve ilerleme oranının
+
+f=0,1 mm/tooh
+
+kesici uç sayısı= 1
+
+f=0,15 mm/tooth
+
+kesici uç sayısı= 2
+
+1,5
+Yüzey pürüzlülüğü Ra (μm)
+
+birim zamandaki teması da arttırmıştır. Bu artış birim
+zamanda oluşan kesme frekansını ve buna bağlı
+olarak oluşan sürtünmeyi de arttırarak titreşim ivme
+seviyesinin artmasına neden olmuştur.
+
+1,5
+
+1
+
+f=0,2 mm/tooth
+kesici uç sayısı= 4
+
+1
+
+2
+1,5
+1
+
+0,5
+
+0,5
+
+0
+
+0,5
+0
+
+0
+
+132
+
+220
+
+308
+
+132
+
+220
+
+Kesme hızı V (m/min)
+
+308
+
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+Kesme hızı V (m/min)
+
+a) 1 mm kesme derinliğinde işleme parametrelerinin yüzey pürüzlülüğüne etkisi
+
+(The effect of machining
+
+parameters to the surface roughness at the 1 mm cutting)
+
+Yüzey pürüzlülüğü Ra (μm)
+
+f=0,05 mm/tooth
+
+f=0,1 mm/tooh
+
+f=0,15 mm/tooth
+
+2
+
+2
+
+f=0,2 mm/tooth
+
+2
+kesici uç sayısı= 2
+
+kesici uç sayısı= 1
+
+kesici uç sayısı= 4
+
+1,5
+
+1,5
+
+1,5
+
+1
+
+1
+
+1
+
+0,5
+
+0,5
+
+0,5
+
+0
+132
+
+0
+220
+
+308
+
+Kesme hızı V (m/min)
+
+0
+
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+132
+
+220
+
+308
+
+Kesme hızı V (m/min)
+
+b) 1,5 mm kesme derinliğinde işleme parametrelerinin yüzey pürüzlülüğüne etkisi
+
+(The effect of machining
+
+parameters to the surface roughness at the 1,5 mm cutting depth)
+
+Şekil 6. İşleme parametrelerinin yüzey pürüzlülüğüne etkisi
+
+(The effects of machining parameters to the surface
+
+roughness)
+
+290
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+azalmasıyla yüzey pürüzlülük değerlerinde bir azalma
+meydana geldiği görülmektedir. Fakat kesici uç
+sayısı=2, f=0,2 mm/tooth ve kesici uç sayısı=4,
+f=0,15 mm/tooth deney şartlarında bu bilgilerin
+aksine yüzey pürüzlülük sonuçları elde edilmiştir.
+Kesme hızı artışı aynı zamanda takım aşınmasını da
+arttırmaktadır. Kesici takımın aşınma miktarındaki
+artış talaş kaldırma esnasında işlenen yüzeyin
+bozulmasına neden olabilmektedir [37]. Ayrıca artan
+takım aşınması titreşim genliğini de arttırmakta [4] bu
+da
+yüzey
+pürüzlülüğünü
+olumsuz
+olarak
+etkilemektedir. Diş başı ilerleme miktarının düşük
+olduğu durumların aksine, kesici uç sayısı arttıkça
+ilerleme miktarları artmış ve bu artışa paralel olarak
+titreşim ivme seviyeleri ile yüzey pürüzlülük değerleri
+de artmıştır.
+Kesme derinliğinin yüzey kalitesini etkilediği
+bilinmektedir. Talaş derinliğinin artması ile kesici
+ucun birim zamanda kaldıracağı talaş miktarının
+artmasından dolayı yüzey pürüzlülük değerlerinde
+meydana gelen değişiklikler Şekil 6a ve Şekil 6b’de
+verilmiştir. Şekil 6a ve Şekil 6b’de görüldüğü gibi
+kesme derinlikleri yüzey kalitesini önemli miktarlarda
+etkilemektedir. Şekil 6b’de kesme derinliği arttıkça
+sistemin yüzey pürüzlülük değeri azalmış fakat 0.15
+mm/tooth ilerleme miktarından sonra yüzey
+pürüzlülük değeri tekrar yükselişe geçmiştir. Burada
+sistemin rezonansa uğradığı ve titreşim frekanslarının
+arttığı düşünülmektedir. Bazı deneylerde yüzey
+pürüzlülük değerlerinin ani yükseliş ya da ani düşüşe
+geçmesinin sebebi ise titreşim konusu içerisinde son
+derece önemli bir durum olan rezonans halinin varlığı
+ile açıklanabilir.
+
+H. Dilipak ve V. Yılmaz
+
+3.4 Deney Sonuçlarının İstatistiksel Analizi ve
+Matematiksel Modeller (The Statistical of Analysis of
+Experiment Results and Mathematical Models)
+
+Bu bölümde, deney sonuçlarının (kesme kuvveti,
+titreşim ivme seviyesi ve yüzey pürüzlülüğü), işleme
+parametrelerinden (kesme derinliği, ilerleme, kesme
+hızı, kesici uç sayısı) hangi oranlarda etkilendiği
+araştırılmıştır. Bunun için Minitab 16.0 paket
+programı yardımıyla ANOVA (Varyans Analizi)
+analizi yapılmış ve sonuçlar Tablo 3 ve Şekil 7’de
+özetlenmiştir. Tablo 3’de verilen varyans analizi
+sonuçlarına göre deneylerde kesme kuvvetinin %47,3
+ile en çok kesme derinliğinden etkilediği görülmüştür.
+Daha sonra kesme kuvvetinin %32,9 ile ilerleme,
+%17,6 ile kesici diş sayısı ve %1,3 ile kesme hızından
+etkilendiği tespit edilmiştir. Kesme hızının kesme
+kuvveti üzerindeki etkisinin anlamsız olduğu (P<0,05)
+varyans analizinde ortaya çıkmıştır. Deneylerde
+titreşim ivme seviyesinin %34 ile en çok kesme
+derinliğinden etkilendiği bulunmuştur. Daha sonra
+titreşim ivme seviyesinin %28,8 ile ilerleme hızı,
+%26,6 ile kesme derinliği ve %10,1 ile kesme
+hızından etkilendiği görülmüştür. Ayrıca tüm işleme
+parametrelerinin titreşim seviyesi üzerindeki etkisinin
+önemli olduğu tespit edilmiştir. Deneylerde yüzey
+pürüzlülüğünün ise %58,9 ile en çok kesici diş
+sayısından etkilendiği görülmüştür. Daha sonra yüzey
+kalitesinin, %29,7 ile ilerleme hızı, %5,6 ile kesme
+hızı ve %2,9 ile kesme derinliğinden etkilendiği tespit
+edilmiştir. Kesme hızı ve kesme derinliğinin yüzey
+kalitesi üzerindeki etkisinin P<0,05 anlamlılık
+düzeyinde önemsiz olduğu varyans analizi testiyle
+ortaya çıkmıştır.
+
+Tablo 3. Varyans Analizi (ANOVA) (Analysis of Variance)
+Faktörler
+
+SD
+
+KT
+
+KO
+
+F Değeri
+
+P
+
+YD
+
+Kesme Kuvveti (Fx)
+a
+
+Kesme derinliği
+
+1
+
+568889
+
+568889
+
+54,56
+
+0,000
+
+%47,3
+
+f
+
+İlerleme hızı
+
+3
+
+1185301
+
+395100
+
+37,90
+
+0,000
+
+%32,9
+
+V
+
+Kesme hızı
+
+2
+
+32416
+
+16208
+
+1,55
+
+0,219
+
+%1,3
+
+z
+
+Kesici diş sayısı
+
+2
+
+422371
+
+211186
+
+20,26
+
+0,000
+
+%17,6
+
+Hata
+
+63
+
+656836
+
+10426
+
+-
+
+-
+
+%0,9
+
+Toplam
+
+71
+
+2865814
+
+-
+
+-
+
+-
+
+100
+
+a
+
+Kesme derinliği
+
+1
+
+0,76364
+
+0,76364
+
+53,57
+
+0,000
+
+%26,6
+
+f
+
+İlerleme hızı
+
+3
+
+2,47972
+
+0,82657
+
+57,99
+
+0,000
+
+%28,8
+
+V
+
+Kesme hızı
+
+2
+
+0,58157
+
+0,29079
+
+20,40
+
+0,000
+
+%10,1
+
+z
+
+Kesici diş sayısı
+
+2
+
+1,95408
+
+0,97704
+
+68,54
+
+0,000
+
+%34
+
+Hata
+
+63
+
+0,89805
+
+0,01425
+
+-
+
+-
+
+%0,5
+
+Toplam
+
+71
+
+6,67707
+
+-
+
+-
+
+-
+
+%100
+
+Titreşim İvme Seviyesi (RMS)
+
+Yüzey Pürüzlülüğü (Ra)
+a
+
+Kesme derinliği
+
+1
+
+0,05791
+
+0,05791
+
+1,15
+
+0,288
+
+%2,9
+
+f
+
+İlerleme hızı
+
+3
+
+1,76471
+
+0,58824
+
+11,64
+
+0,000
+
+%29,7
+
+V
+
+Kesme hızı
+
+2
+
+0,23622
+
+0,11811
+
+2,34
+
+0,105
+
+%5,6
+
+z
+
+Kesici diş sayısı
+
+2
+
+2,33728
+
+1,16864
+
+23,12
+
+0,000
+
+%58,9
+
+Hata
+
+63
+
+3,18408
+
+0,05054
+
+-
+
+-
+
+%2.9
+
+Toplam
+71
+7,58019
+SD:Serbestlik derecesi, KT: Kareler toplamı, KO: Kareler ortalaması, P:Anlamlılık<0,05, YD:Yüzde dağılımı
+
+%100
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+291
+
+H. Dilipak ve V. Yılmaz
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+60
+
+E io a ı( )
+t rn %
+k
+
+50
+Kes me derinliği, a
+
+40
+
+İlerleme oranı, f
+Kes me hızı, V
+
+30
+
+Diş s ayıs ı, z
+20
+
+Hata, e
+
+10
+0
+
+1
+Fx
+
+2
+RMS
+
+3
+Ra
+
+Şekil 7. ANOVA analizi sonuçlarının grafiksel gösterimi (The graphical representation of ANOVA analysis results)
+Tablo 4’de kesme kuvveti modeli için yapılan ikinci
+dereceden çoklu regresyon analizi sonucunda elde
+edilen model sabiti ve değişkenlerin katsayılar tablosu
+verilmiştir. Geliştirilen istatistik modelin belirlilik
+katsayı R²=0,92 olarak bulunmuştur. Başka bir deyişle
+bağımsız
+değişken
+ve
+bu
+değişkenlerin
+etkileşimlerinin, kesme kuvvetini açıklama oranı %92
+seviyesinde tespit edilmiştir. Kesme kuvveti için
+geliştirilen model Denklem 1’de verilmiştir. Kesme
+kuvveti modelinde en etkili değişkenlerin P<0,05
+anlamlılık düzeyinde a*f, a*z, f*z parametrelerinin
+olduğu ortaya çıkmıştır.
+Fx = -274,005 + 2075,56* a * f + 71,2381*a*z 397,143 * f * z
+(1)
+Tablo 4. Kesme kuvveti için model sabiti ve
+değişkenlerin katsayıları tablosu (Table of model constant
+and variable of coefficients for cutting force)
+SE
+Faktör
+Katsayı
+T
+Katsayı
+Sabit
+-274,01
+306,25
+-0,89
+a
+20,31
+190,27
+0,10672
+f
+1511,22
+1640,11
+0,92142
+V
+1,47
+1,59
+0,92
+z
+129,82
+82,52
+1,57
+a*f
+2075,56
+783,42
+2,65
+a*V
+-0,41
+0,61
+-0,67
+a*z
+71,24
+35,11
+2,03
+a²
+0,00
+0,00
+0,0000
+f*V
+0,76
+2,73
+0,28
+f*z
+-397,14
+157,03
+-2,53
+f²
+-4233,33
+4379,46
+-0,96663
+V*z
+0,03
+0,12
+0,22
+V²
+-0,00
+0,00
+-1,03
+z²
+-22,56
+11,83
+-1,90
+
+P
+0,375
+0,915
+0,361
+0,361
+0,121
+0,010
+0,503
+0,047
+0,782
+0,014
+0,338
+0,828
+0,307
+0,061
+
+Tablo 5’de titreşim ivme seviyesi için model sabiti ve
+değişkenlerin
+katsayılar
+tablosu
+verilmiştir.
+Geliştirilen istatistik modelin belirlilik katsayı
+R²=0,951 (%95,1) olarak bulunmuştur. Titreşim ivme
+seviyesi için geliştirilen model Denklem 2’de
+verilmiştir. Ayrıca titreşim ivme seviyesi modelinde
+en etkili değişkenlerin P<0,05 anlamlılık düzeyinde
+sabit değer ve a, f, z, a*f, a*V, a*z, f*V, f*z
+parametrelerinin olduğu görülmüştür.
+RMS= 0,55100 - 0,57576 * a - 3,25964 * f - 0,25791
+* z +2,39244*a*f+ 0,00129*a*V + 0,17326*a*z +
+0,00538*f*V + 0,74214*f*z
+(2)
+
+292
+
+Tablo 5. Titreşim ivme seviyesi için model sabiti ve
+değişkenlerin katsayıları tablosu (Table of model constant
+and variable of coefficients for vibration acceleration level)
+SE
+Faktör
+Katsayı
+T
+P
+Katsayı
+Sabit
+0,55100
+0,24998
+2,20
+0,031
+a
+-0,57576
+0,15528
+-3,70798
+0,000
+f
+-3,25964
+1,33849
+-2,43531
+0,018
+V
+0,00064
+0,00130
+0,49248
+0,624
+z
+-0,25791
+0,06735
+-3,82949
+0,000
+a*f
+2,39244
+0,63935
+3,74199
+0,000
+a*V
+0,00129
+0,00050
+2,59861
+0,012
+a*z
+0,17326
+0,02866
+6,04619
+0,000
+a²
+0,00000
+0,00000
+0,00000
+f*V
+0,00538
+0,00222
+2,41707
+0,019
+f*z
+0,74214
+0,12816
+5,79097
+0,000
+f²
+2,68333
+3,57408
+0,75078
+0,456
+V*z
+0,00014
+0,00010
+1,36867
+0,176
+V²
+-0,00000
+0,00000
+-1,87401
+0,066
+z²
+0,00981
+0,00965
+1,01600
+0,314
+
+Tablo 6’da yüzey pürüzlülüğü için model sabiti ve
+değişkenlerin
+katsayılar
+tablosu
+verilmiştir.
+Geliştirilen istatistik modelin belirlilik katsayı
+R²=0,89 (%89) olarak bulunmuştur. Yüzey
+pürüzlülüğü için geliştirilen model Denklem 3’de
+verilmiştir. Ayrıca yüzey pürüzlülüğü modelinde en
+etkili değişkenlerin P<0,05 anlamlılık düzeyinde sabit
+değer ve a, f, f*z, f² parametrelerinin olduğu
+görülmüştür.
+Ra = 2,36987 - 0,802403*a - 8,95536*f +
+1,49795*f*z +24,2*f²
+(3)
+Tablo 6. Yüzey pürüzlülüğü için model sabiti ve
+değişkenlerin katsayıları tablosu (Table of model constant
+and variable of coefficients for surface roughness)
+SE
+Faktör
+Katsayı
+T
+Katsayı
+Sabit
+2,3699
+0,64904
+3,65
+a
+-0,8024
+0,40324
+-1,98989
+f
+-8,9554
+3,47593
+-2,57639
+V
+0,0054
+0,00338
+-1,60520
+z
+-0,1422
+0,17490
+-0,81331
+a*f
+0,5422
+1,66033
+0,32657
+a*V
+0,0023
+0,00129
+1,77333
+a*z
+0,0502
+0,07442
+0,67508
+a²
+0,000
+0,000
+0,000
+f*V
+0,00504
+0,00578
+0,94255
+f*z
+1,4980
+0,33281
+4,50097
+f²
+24,2000
+9,28153
+2,60733
+V*z
+0,0004
+0,00026
+1,65008
+V²
+-0,00000
+0,00001
+0,03090
+z²
+-0,0112
+0,02506
+-0,44665
+
+P
+0,001
+0,049
+0,013
+0,114
+0,419
+0,745
+0,081
+0,502
+0,350
+0,000
+0,012
+0,104
+0,975
+0,657
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+Her üç istatistiksel modelin uygunluğu varyans analizi
+kullanılarak test edilmiş ve modellerin P değerine
+bağlı olarak %95 güven aralığı seviyesinde uygun ve
+kullanılabilir olduğu tespit edilmiştir.
+4.
+SONUÇLARIN
+(CONCLUSION)
+
+
+
+DEĞERLENDİRİLMESİ
+
+Bu çalışmada elde edilen bulgular aşağıda
+özetlenmiştir.
+ Kesme kuvvetinin en düşük olduğu deney 308
+m/min kesme hızı, 0.05 mm/tooth ilerleme
+miktarı, 1 mm kesme derinliği ve 1 kesici uç ile
+yapılarak elde edilmiştir. Bu durumda ilerlemeye
+bağlı olarak kesme kuvvetleri açısından
+değerlendirildiğinde ilerleme miktarlarında ki
+artış ile kesme kuvvetlerinde de önemli miktarda
+bir artış meydana gelmiştir. Kesme hızları
+açısından bir değerlendirme yapıldığında kesme
+hızının arttığı durumlarda kesme kuvvetlerinde
+bir azalma olduğu görülmüştür.
+ Kesme kuvvetini en çok etkileyen işleme
+parametreleri sırasıyla kesme derinliği, ilerleme
+hızı ve kesici diş sayısı olmuştur.
+ Meydana gelen titreşim ivme seviyesinde (RMS)
+en düşük değer 132 m/min kesme hızı, 0,05
+mm/tooth ilerleme miktarı, 1 mm kesme derinliği
+ve 1 kesici uç ile yapılan deneyde elde edilmiştir.
+Yapılan deneylerde en yüksek titreşim seviyesi
+308 m/min kesme hızı, 0,2 mm/tooth ilerleme
+miktarı, 1,5 mm kesme derinliği ve 4 adet kesici
+uç sayısı ile yapılan deneyde elde edilmiştir.
+Çalışmada titreşim ivme seviyesini en çok
+etkileyen işleme parametreleri sırasıyla, kesici uç
+diş sayısı, ilerleme hızı, kesme derinliği ve kesme
+hızı olduğu bulunmuştur.
+ İlerleme miktarları açısından oluşan titreşim ivme
+seviyeleri
+dikkate
+alındığında
+ilerleme
+miktarlarındaki artışlar titreşim ivme seviyelerini
+olumsuz yönde etkilemiştir.
+ Kesme hızları, kesme derinlikleri ve kesici uç
+sayısının artması ile titreşim ivme seviyelerinde
+de artış olduğu görülmüştür.
+ Bu çalışmada yapılan yüzey pürüzlülük
+değerlendirmelerinde en düşük yüzey pürüzlülük
+değerlerine 308 m/min kesme hızı ve 0.05
+mm/tooth ilerleme miktarlarında ulaşılmıştır.
+İlerleme miktarlarındaki artış yüzey pürüzlülük
+değerlerinde önemli miktarlarda artışa yani yüzey
+kalitesinde azalmaya neden olmuştur. Yüzey
+pürüzlüğünü
+en
+çok
+etkileyen
+işleme
+parametreleri ise sırasıyla kesici diş sayısı ve
+ilerleme hızı olmuştur.
+ Kesme hızlarının artması ve düşük ilerleme
+miktarları ile yüzey pürüzlülük değerlerinde bir
+iyileşme olduğu tespit edilmiştir.
+ Artan titreşim ivme seviyeleri, yüzey pürüzlülük
+değerlerinin de artmasına neden olmuştur. Bu
+durumun nedeni ise titreşim frekansları ile kesme
+frekanslarının doğru orantılı olarak artması ya da
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+
+
+H. Dilipak ve V. Yılmaz
+
+azalmasıdır. Dolayısı ile titreşimin yüzey
+pürüzlülüğü üzerinde olumsuz bir etkiye sahip
+olduğu görülmüştür.
+Kesici uç sayısının artması ile yüzey pürüzlülük
+değerleri de artmıştır. Bu durum kesici uç
+sayısının artması ile kesici takım ve iş parçası
+arasında oluşan titreşim frekansına bağlı olarak
+yüzey pürüzlülük değerlerinin artması olarak
+açıklanmıştır.
+Kesme kuvveti, titreşim ivme seviyesi ve yüzey
+pürüzlülüğü için geliştirilen matematiksel
+modellerin %95 güven aralığı seviyesinde olduğu
+ve farklı işleme parametreleri kullanılarak yeni
+sonuçların ek bir zamana ve maliyete ihtiyaç
+kalmadan elde edilebileceği tespit edilmiştir.
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+Yılmaz, V., “Frezeleme Uygulamalarında
+İşleme Parametrelerinin Sebep Olduğu
+Titreşimlerin İncelenmesi” Yüksek Lisans Tezi,
+Gazi Üniversitesi, Fen Bilimleri Enstitüsü, 2009.
+Kalpakjian, S., “Manufacturing Processes for
+Engineering
+Materials
+Second
+Edition”,
+Addision, Wesley, 42-75, 1991.
+Lee K, Y,. Kang M, C,. Jeong Y, H,. Lee D, W,.
+Kim J. S., “Simulation of surface roughness and
+profile in high speed end milling”, Journal of
+Materials Processing Technology, 113: 410415, 2001.
+Sadettin, O., Ali Osman, E., Necip, C., Ersan, A.,
+“Tool wear evaluation by vibration analysis
+during end milling of AISI D3 cold work tool
+steel with 35 HRC hardness’’, 2DT&E
+International, 121-126, 2006.
+Taşkesen, A,. Ercan, Y., “Dik kesme işlemi
+sırasında takım tezgahı titreşimlerinin ve
+kararlılığının bir serbestlik dereceli kesme modeli
+ile nonlineer analizi ve tırlamanın tahmini”, 11.
+Makina Teorisi Sempozyumu, Ankara, 503515, 2003.
+Wiercigroch, M., “Chaotic Vibration of a Simple
+Model of the Machine Tool-Cutting Process
+System”, ASME Journal of Engineering for
+Industry, 119: 468-475, 1997.
+Yellowley, I., “A Simple Predictive Model of
+Orthogonal Metal Cutting”, International
+Journal of Machine Tools Manufacturing,
+27:357-365, 1987.
+Konodo, E., Ota, H., Kawai, T., “A New Method
+To Detect Regenerative Chatter Using Spectral
+Analysis, Part 1: Basic Study On Criteria For
+Detection
+of
+Chatter”,
+Journal
+of
+Manufacturing Science and Engineering,
+119:461-466, 1997.
+Choudhury, S. K., Sharath, M.S., “On line
+control of machine tool vibration during turning”,
+Journal of Materials Processing Technology,
+47:251, 1995.
+
+293
+
+H. Dilipak ve V. Yılmaz
+
+AISI 1050 Çeliğinin Karbür Takımlarla Frezelenmesinde Oluşan Titreşimlerin İncelenmesi…
+
+10. Saxena, J. P., “Effect of machining conditions on
+cutting tool vibrations, Advances in Machine
+Tool Design and Manufacturing Technology’’,
+Proceedings of the 10th All India Machine
+Tool Design and Research Conference
+(Durgapur, India), 98:106, 1982.
+11. Rashid, A., Nicolescu, M. C., “Design and
+implementation of tuned viscoelastic dampers for
+vibration control in milling”, International
+Journal of Machine Tools Manufacture,
+48:1036-1053, 2008.
+12. Tatar, K., Gren, P., “Measurement of milling tool
+vibrations
+during
+cutting
+during
+laser
+vibrometry”, International Journal of Machine
+Tools & Manufacture, 48:380-387, 2008.
+13. Surmann, T., Biermann, D., “The effect of tool
+vibrations on the flank surface created by
+peripheral
+milling”,
+CIRP
+AnnalsManufacturing Technology, 57:375-378, 2008.
+14. Kline, W. A., Devor, R. E,. Shreef, I. A., "The
+prediction of surface acoutacy in end milling",
+ASME Journal of Engineering for Industry,
+104:272-278, 1982.
+15. Zheng, L., Liang, S. Y., “Identitication of cutter
+axis tilt in end milling", ASME Journal of
+Manufacturing Science and Engineering, 119:
+178-185, 1997.
+16. Tobias. S. A., “Machine-tool vibration”, Blackie
+Glasgow, 9: 217-238, 1965.
+17. Devillez, A., Dudzinski, D., “Tool vibration
+detection with eddy current sensors in machining
+process and computation of stability lobes using
+fuzzy classifiers”, Mechanical Systems and
+Signal processing, 21:441-456, 2005.
+18. Thomas, M., Beauchamp, Y., Youssef J.
+Masounave Y. A., “Effect of tool vibrations on
+surface roughness during lathe dry turning
+process”,
+Computers
+and
+Industrial
+Engineering, 31:637-644, 1996.
+19. Beauchamp, Y., Thomas, M., Youssef, J.
+Masounave, A.Y., ‘’Investigation of cutting
+parameter effects on surface roughness in lathe
+boring operation by use of a full factorial
+design’’,
+Computers
+and
+Industrial
+Engineering. 31:645- 651, 1995.
+20. Doolan, P., Burney, F. A., Wu, S. M., “Computer
+Design of A multipurpose Minimum Vibration
+Face Milling Cutter”, International Journal of
+Machine Tool Design Research, 16:187-192,
+1976.
+21. Doolan, P., Phadke, M. S., Wu, S. M., “Computer
+design of a minimum vibration face milling cutter
+using an ımproved cutting force model”, Journal
+of Engineer for Industry, 16:807-810, 1976.
+22. Ko, T. J., Cho, D. W., “Cutting state monitoring
+ın milling by a neural network”, International
+Journal of Machine Tools Manufacture, 34
+(5): 659-676, 1994.
+23. Hashimoto, M., Marui, E., Kato, S.,
+“Experimental resarch on cutting force variation
+
+294
+
+24.
+25.
+
+26.
+
+27.
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+35.
+36.
+
+37.
+
+during primary chatter vibration occuring ın plain
+milling operation”, International Journal of
+Machine Tools Manufacture, 36 (2): 183-201,
+1996.
+Lang, J. L., Tarng, Y. S., “A study of the active
+vibration control of a cutting tool”, Journal
+Materials Processing Tech, 95: 78-82, 1999.
+Özcan, E., “CNC tezgahlarda kullanılan kesici
+takımlarda
+takım
+aşınmasının
+kesme
+performansına dinamik etkileri”, Doktora Tezi,
+Marmara Üniversitesi Fen Bilimleri Enstitüsü,
+İstanbul, 8-25, 2001.
+Patel, B. R., Mann, B. P., Young, K. A.,
+“Uncharted islands of chatter instability in
+milling”, International Journal of Machine
+Tools & Manufacture, 48: 124-134, 2008.
+Toh, C. K., “Vibration analysis in high speed
+rough and finish milling hardened steel”, Journal
+of Sound and Vibration, 278:101-115, 2004.
+H. El-Sinawi, K. Reza, “Improving surface
+roughness in turning using optimal control of
+tool's radial position”, Journal of Materials
+Processing Technology, 167(1): 54-61, 2005.
+Hayajneh, M. T., Astakhov, V., Osman, M. O.
+M., “An analytical evaluation of the cutting
+forces in orthogonal cutting using a dynamic
+model of the shear zone with paralel boundaries”,
+Journal of Material Processing Technology,
+82: 61- 77, 1998.
+Hamdan, M. N., “An approach to study the
+effects the tool geometry on the primary chatter
+vibration in orthogonal cutting”, Journal of
+Sound and Vibration, 128: 451-469, 1989.
+Movahhedy, M. R., Mosaddegh, P., “Prediction
+of chatter in high speed milling including
+gyroscopic effects”, International Journal of
+Machine Tools & Manufacture, 46: 996–1001,
+2006.
+Nakkiew, W., Lin, C., Tu, J., “A new method to
+quantify radial error of a motorized end-milling
+cutter/spindle system at very high speed
+rotations”, International Journal of Machine
+Tools & Manufacture, 46: 877–889, 2006.
+Çiftçi,
+İ.,
+“Talaşlı
+imalatta
+yüzey
+pürüzlülüğünün tayini ders notları”, Karabük
+Üniversitesi Teknik Eğitim Fakültesi, Karabük,
+1-6, 2004.
+Şeker, U., “ Makine eğitimi ders notları”, Gazi
+Üniversitesi, Ankara, 5-8, 2003.
+Çakır, M. C., “Modern talaşlı imalatın
+esasları”, Ceylan Matbaacılık, Bursa, 1999.
+Bouzid Sai, W., Ben Salah, N., Lebrun, J. L.,
+“Influence of machinig by finish milling on
+surface characteristics”, Journal Machine Tools
+and Manufacturing, 41: 443-450, 2001.
+Özçatalbaş, Y., “Kesici takım aşınması ve iş
+malzemesi
+mekanik
+özelliklerinin
+yüzey
+pürüzlülüğü ve kesme kuvvetlerine etkisi”,
+Politeknik, 4:47-52, 2002.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+

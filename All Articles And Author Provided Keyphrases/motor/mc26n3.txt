@@ -1,0 +1,1628 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 3, 499-507, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 3, 499-507, 2011
+
+ETANOL-BENZİN VE METANOL-BENZİN KARIŞIMLARININ
+BUJİ İLE ATEŞLEMELİ BİR MOTORUN YANMA
+PARAMETRELERİNE VE EGZOZ EMİSYONLARINA
+ETKİSİNİN İNCELENMESİ
+Muharrem EYİDOĞAN, Mustafa ÇANAKCI*, Ahmet Necati ÖZSEZEN
+Ertan ALPTEKİN, Ali TÜRKCAN, İbrahim KILIÇASLAN
+Kocaeli Üniversitesi, Teknik Eğitim Fakültesi, Otomotiv ABD, 41380, Umuttepe-İzmit
+Kocaeli Üniversitesi, Alternatif Yakıtlar Araştırma-Geliştirme ve Uygulama Birimi, 41275, Yeniköy, İzmit
+*canakci@kocaeli.edu.tr
+(Geliş/Received: 02.11.2009; Kabul/Accepted: 22.06.2011)
+ÖZET
+Bu çalışmada, kurşunsuz benzin, etanol-benzin (E5, E10) ve metanol-benzin (M5, M10) karışımlarının motor
+performansı, yanma karakteristiği ve egzoz emisyonlarına etkisi deneysel olarak incelenmiştir. Deneyler dört
+zamanlı, dört silindirli, buji ile ateşlemeli motora sahip bir taşıtta, şasi dinamometresi kullanılarak 80 km/h taşıt
+hızı ve 5, 10, 15, 20 kW sabit güç şartlarında yapılmıştır. E5, E10, M5 ve M10 yakıtları kullanılarak elde edilen
+sonuçlar, benzin ile yapılan test verileri referans alınarak karşılaştırılmıştır. Deneyler sonucunda, etanol-benzin
+ve metanol-benzin karışımlarının fren özgül yakıt tüketimleri benzine göre artış göstermiştir. Benzinin silindir
+gaz basıncı ve ısı yayma oranı, alkol-benzin karışımlarına göre daha erken yükselmeye başlamış ve hemen
+hemen tüm test şartlarında en düşük ısı yayma oranı tepe noktası ise benzinde elde edilmiştir. Ayrıca alkol
+karışımları kullanımı ile genel olarak CO, HC, CO2 ve NOx emisyonlarında azalma olduğu gözlemlenmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Dünyada enerji ihtiyacının büyük bir kısmı fosil
+kökenli yakıtlardan sağlanmaktadır. 1970 yılına kadar
+
+üretilen motorlar fosil kökenli yakıtlarla çalışacak
+şekilde dizayn edilmiştir. Özellikle 1973 petrol krizi
+ve 1991 körfez savaşından sonra petrol fiyatlarının
+aşırı derecede yükselmesi ve giderek artan taşıt sayısı
+
+M. Eyidoğan ve ark.
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+ülkelerin yakıt gereksinimlerini karşılamada güçlükler
+meydana getirmiştir [1]. Ayrıca, fosil kökenli
+yakıtların çevre ve insan sağlığı açısından yarattığı
+olumsuzluklar da giderek artmıştır. Petrol ve türevi
+yakıtlar yakıldığında sera gazı olarak nitelendirilen
+gazların açığa çıkmasına neden olmaktadır. Sera
+gazına neden olan emisyon kaynaklarının en başında
+içten yanmalı motorlar gösterilmektedir.
+Günümüzdeki yakıt tüketim eğilimi göz önüne
+alındığında doğalgazın 123, ham petrolün 67 ve
+kömürün ise 123 yıllık rezervleri olduğu tahmin
+edilmektedir [2, 3]. Fosil yakıt kaynaklarının
+tükenmeye başlamasıyla açığa çıkan enerji krizi,
+alternatif enerji kaynaklarının kullanımını zorunlu
+hale getirmiştir. Hidrojen, metanol, etanol, LPG,
+çeşitli bitkisel yağlar vb. alternatif yakıt türleri
+taşıtlarda
+kullanılmış
+ve
+bazıları
+halen
+kullanılmaktadır. Bu kaynakların kullanılması
+durumunda bazı sorunlarla karşılaşılmış (Örneğin;
+hidrojenin depolanması ve sıvı halde püskürtülmesi
+ile yaşanan zorluklar, bitkisel yağlardan gliserinin
+tamamen
+uzaklaştırılamamasından
+kaynaklanan
+problemler) ve bu sorunlar aşılmaya çalışılmıştır.
+Genel olarak metanol-benzin [4, 5] ve etanol-benzin
+[6, 7] karışımlarının kullanımı ile alkollerin ısıl
+değerlerinin benzine göre daha düşük olması
+nedeniyle özgül yakıt tüketiminin arttığı, CO, HC ve
+NOx emisyonlarında azalma meydana geldiği tespit
+edilmiştir. Shenghua ve ark., [8] motorda herhangi bir
+değişiklik yapılmadan yakıt karışımı içerisindeki
+metanol oranı artırıldığında, motor çıkış gücünde ve
+torkunda bir düşüşün olduğunu, fakat tam yükte
+ateşleme avansı artırılması ile motor çıkış gücünde ve
+torkunda iyileşme olabileceğini ifade etmişlerdir.
+Bunun yanında, metanol-benzin yakıt karışımının HC
+
+ve CO emisyonlarını
+belirtilmektedir.
+
+bir
+
+miktar
+
+düşürdüğü
+
+Etanol-benzin
+karışımları
+kullanılarak
+farklı
+sıkıştırma oranlarında yapılan çalışmalarda E10
+yakıtının maksimum silindir gaz basıncının benzine
+göre daha yüksek olduğu, diğer karışımlarda ise
+benzinin maksimum silindir gaz basıncının etanolden
+daha yüksek olduğu belirlenmiştir [9]. Ayrıca, başka
+bir çalışmada katalitik konvertörden önce yapılan
+ölçümlerde etanol-benzin karışımı kullanıldığında
+yanmamış HC emisyonunda ciddi bir azalma olduğu
+gözlemlenmiş, CO ve NOx emisyonlarında ise ciddi
+bir azalma olmadığı ifade edilmiştir [6].
+Yapılan bu çalışmada etanol-benzin ve metanolbenzin karışımları Honda Civic marka bir otomobilde
+kullanılarak, karışımların taşıt performansı, yanma
+karakteristiği ve egzoz emisyonlarına etkisi
+incelenmiştir. Elde edilen her bir parametre (fren
+özgül yakıt tüketimi, silindir basıncı, ısı yayılım oranı,
+ısıl verim, egzoz gazı sıcaklığı, O2, CO, CO2, NOx ve
+HC
+emisyonları)
+grafiklerle
+gösterilerek
+yorumlanmıştır.
+2. MATERYAL ve METOT
+
+(MATERIAL
+
+and
+
+METHOD)
+
+Bu çalışmada, motor testlerinde kullanılmak üzere
+hacimsel olarak %5, %10 etanol-benzin ve metanolbenzin karışımları hazırlanmıştır. Testlerde kullanılan
+etanol (Carlo Erba) ve metanol (JT Baker) %99
+saflıktadır. Yakıtların Tablo 1’de gösterilen özellikleri
+üretici firmalardan ve literatürden elde edilmiştir.
+Karışımların Tablo 2’de gösterilen özellikleri ise
+Kocaeli Üniversitesi-Teknik Eğitim Fakültesi
+Otomotiv ABD Yakıt Laboratuarında tespit edilmiştir.
+
+Tablo 1. Benzin, etanol ve metanol’un fiziksel ve kimyasal özellikleri
+(Physical and chemical properties of unleaded gasoline, ethanol and methanol)
+
+Özellikler
+Kimyasal formülü
+Karbon içeriği
+Hidrojen içeriği
+Oksijen içeriği
+Yoğunluk (15 °C)
+Araştırma oktan sayısı
+Motor oktan sayısı
+Ortalama oktan sayısı
+Alt ısıl değeri (Kütlesel)
+Alt ısıl değeri (Hacimsel)
+Stokiyometrik
+Hava / Yakıt oranı
+Buharlaşma gizli ısısı
+Kendi kendine tutuşma
+sıcaklığı
+Kaynama noktası
+
+500
+
+Etanol
+
+Metanol
+
+% kütlesel
+% kütlesel
+% kütlesel
+kg/m3
+MJ/kg
+MJ/L
+
+Kurşunsuz
+Benzin
+C7 H17
+85 - 88
+12 - 15
+750,8[10]
+95[10]
+85[10]
+90
+42,6[11]
+31,98[11]
+
+C2H5OH
+52,2
+13,1
+34,7
+809,9
+108,6
+89,7
+99,15
+26,7
+21,62
+
+CH3OH
+37,5
+12,6
+49,9
+796
+108,7
+88,6
+98,65
+19,85
+15,8
+
+-
+
+14,7
+
+Birim
+
+kJ/kg
+°C
+°C
+
+9
+
+6,45
+
+349
+
+[11]
+
+923
+
+1178
+
+257
+
+[11]
+
+423
+
+464
+
+78
+
+64
+
+45-207
+
+[11]
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+M. Eyidoğan ve ark.
+
+Tablo 2. Testlerde kullanılan karışımların fiziksel ve kimyasal özellikleri
+(Physical and chemical properties of the fuel blends)
+
+Özellikler
+Yoğunluk (15 °C)
+Viskozite (40 °C)
+Alt ısıl değer
+Bakır şerit korozyon
+(3 saat 50oC)
+Damıtma
+İlk kaynama noktası
+%10
+%50
+%90
+Son kaynama noktası
+Geri kazanım
+
+Birim
+
+E5
+
+E10
+
+M5
+
+M10
+
+kg/m
+mm2/s
+kJ/kg
+
+752,8
+0,497
+41799
+
+755,4
+0,572
+40969
+
+751,9
+0,529
+41462
+
+754,1
+0,545
+40268
+
+-
+
+1a
+
+1a
+
+1a
+
+1a
+
+46
+53
+79
+162
+208
+96,8
+
+46
+53
+66
+160
+207
+96,7
+
+42
+48
+91
+163
+207
+96,4
+
+43
+48
+81
+165
+206
+96,4
+
+3
+
+°C
+%
+
+Deneyler Honda Civic (2001) marka bir otomobilde
+eddy current şasi dinamometresi (Bapro HTP 6100
+brand) kullanılarak yapılmıştır. Testler dört farklı taşıt
+çıkış gücü (5, 10, 15, 20 kW) ve 80 km/h taşıt hızında
+yapılmıştır. Test düzeneğinin şematik görünümü Şekil
+1’de gösterilmektedir. Taşıtın motoru ile ilgili teknik
+özellikler Tablo 3’de verilmektedir. Deneyler
+öncesinde, taşıt üzerinde herhangi bir modifikasyon
+ve motorun üretim sonrasında yapılan ayarlarda
+herhangi bir değişiklik yapılmamıştır. Test taşıtı beş
+ileri manüel vites kutusuna sahip olup, testler dişli
+oranın 1:1 olduğu 4. viteste gerçekleştirilmiştir.
+Silindir basıncını ölçmek için Kistler 6117 BFD17 tip
+piezzo elektrik kristalli basınç sensörü kullanılmıştır.
+Kullanılan basınç sensörü birinci silindirde bujinin
+yerine takılmış olup, hem buji hem de basınç sensörü
+görevi görmektedir. Basınç sensöründen gelen
+bilgiler, Kistler 5015A 1000 model sinyal şartlandırıcı
+ve Advantech PCI 1716 veri toplama kartı
+kullanılarak bilgisayara aktarılmıştır. Bilgisayara
+aktarılan veriler LabVIEW bilgisayar yazılımı
+kullanılarak işlenmiştir. Motora giren hava miktarını
+ölçmek için emme manifoldu hattına (ISO 5167
+(1980)) 45 mm orifis çapına sahip orifis plakası
+yerleştirilmiştir. Orifis plakanın iki ucu arasındaki
+basınç farkını ölçmek için Kimo MP 102 tip bir
+manometre kullanılmıştır.
+Tüketilen yakıt miktarını ölçmek için 1 g hassasiyetli
+CAS SW-1 dijital terazi ve birim zamandaki yakıt
+tüketimini belirlemek için de dijital kronometre
+kullanılmıştır. Motorun farklı yerlerdeki sıcaklıklarını
+belirleyebilmek için motor soğutma suyu girişi,
+soğutma suyu çıkışı, motor yağı ve egzoz
+manifolduna K tipi ısıl çift yerleştirilmiştir. Deneyler
+sırasındaki ortam sıcaklığı ve izafi nemi belirlemek
+için Meitav M4000 marka sıcaklık ve nemölçer cihazı
+kullanılmıştır. Motor egzoz çıkışında katalitik
+konvertör öncesinde HC, O2, CO, CO2 ve NOx
+emisyonları Capelec Cap 3200 marka gaz analizörü
+ile belirlenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Şekil 1. Deney materyalleri şematik resmi (Schematic of
+experimental setup)
+
+Tablo
+
+3. Deney
+
+motorunun
+
+teknik özellikleri
+
+(Specifications of the test engine)
+
+Taşıt
+Tipi
+Soğutma şekli
+Yakıt sistemi
+Silindir sayısı
+Silindir hacmi
+Supap sayısı
+Sıkıştırma oranı
+Maksimum
+moment
+Maksimum güç
+
+2001 model
+Honda Civic 1.4i
+4 Zamanlı
+Su soğutmalı
+Çok nokta yakıt püskürtmeli
+4
+1396 cm3
+16
+10,4/1
+130 Nm (4300 d/d)
+66 kW (5600 d/d)
+
+4. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+Fren Özgül yakıt tüketimi
+
+(Brake
+
+specific
+
+fuel
+
+consumption)
+
+80 km/h taşıt hızı ve farklı taşıt çıkış gücündeki fren
+özgül yakıt tüketimi değişimi Şekil 2’de verilmiştir.
+E5, E10, M5 ve M10 kullanımında benzine göre
+
+501
+
+M. Eyidoğan ve ark.
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+ortalama artış miktarları sırasıyla %2,8; %3,6; %0,6
+ve %3,3 olarak ölçülmüştür.
+Etanol-benzin ve metanol-benzin yakıt karışımlarında
+fren özgül yakıt tüketiminin artmasının temel nedeni,
+etanol ve metanol yakıtlarının benzine kıyasla daha
+düşük ısıl değerlere sahip olmalarıdır. 80 km/h taşıt
+hızında, taşıt çıkış gücünün artmasıyla birlikte fren
+özgül yakıt tüketiminde azalma meydana gelmiştir.
+Taşıt çıkış gücünün artmasıyla birlikte volümetrik
+verim ve yanma verimi arttığından, fren özgül yakıt
+tüketiminin azaldığı düşünülmektedir. 80 km/h taşıt
+hızı ve farklı taşıt çıkış gücündeki volümetrik verim
+değerleri Tablo 4’de verilmiştir.
+
+Benzin
+E5
+E10
+M5
+M10
+
+700
+
+600
+
+Buji ile ateşlemeli motorlarda ısıl verimi etkileyen en
+önemli parametrelerden biri sıkıştırma oranıdır [13,
+14]. Etanol ve metanol, benzine göre daha yüksek
+oktan sayısına sahiptir [15]. Yakıtın oktan sayısının
+yüksek olması ise vuruntu olmaksızın sıkıştırma
+oranının artırılmasına izin vermektedir. Etanol-benzin
+ve metanol-benzin karışımlarının oktan sayısına
+uygun bir motor kullanılması durumunda, ısıl verimin
+daha da artacağı düşünülmektedir.
+28
+
+500
+
+Benzin
+E5
+E10
+M5
+M10
+
+26
+24
+
+400
+
+22
+300
+5
+
+10
+
+15
+
+20
+
+Güç (kW)
+
+Şekil 2. Test yakıtları için 80 km/h taşıt hızı ve farklı
+taşıt çıkış gücündeki fren özgül yakıt tüketiminin
+karşılaştırılması (Comparison of brake specific fuel
+consumption for the test fuels at vehicle speed of 80 km/h and
+different vehicle power)
+
+Tablo 4. 80 km/h taşıt hızı ve farklı taşıt çıkış
+gücündeki volümetrik verim (%) (Volumetric efficiency
+for the test fuels at the 80 km/h vehicle speed and different vehicle
+power)
+
+Çıkış gücü
+Yakıt
+Benzin
+E5
+E10
+M5
+M10
+
+5
+kW
+
+10
+kW
+
+15
+kW
+
+20
+kW
+
+29,48
+29,78
+29,48
+26,91
+26,05
+
+40,89
+35,57
+35,55
+33,15
+34,61
+
+44,88
+43,08
+43,89
+41,84
+41,88
+
+53,33
+53,45
+51,44
+51,46
+52,83
+
+Isıl verimler (Thermal efficiencies)
+ 
+Isıl verim, motordan alınan net işin motora sürülen
+ısıya oranıdır. 80 km/h taşıt hızı ve farklı taşıt çıkış
+gücündeki ısıl verim değişimi Şekil 3’de
+gösterilmiştir. Bu taşıt hızında, çıkış gücünün
+artmasıyla birlikte ısıl verim artmaya başlamıştır.
+Taşıt çıkış gücüyle birlikte ısıl verimin artış nedeni,
+volümetrik verim ve yanma veriminin artmasıdır.
+E10, M5 ve M10 kullanımı ile ısıl verimde benzine
+göre sırasıyla %0,4; %2,2; %2,5 artış olurken, E5
+
+502
+
+Isıl verim (%)
+
+Fren özgül yakıt tüketimi (g/kW-h)
+
+800
+
+kullanıldığında ise ısıl verimde %0,8 azalma tespit
+edilmiştir. E10, M5 ve M10 yakıtları içeriğinde E5
+göre daha fazla oksijen bulundurduğundan dolayı
+daha iyi yanma meydana gelmekte ve ısıl verim
+artmaktadır. Bununla birlikte, Al-hasan [12], yakıtın
+buharlaşma gizli ısısının artması durumunda
+sıkıştırma zamanında da buharlaşmanın devam
+edeceğini, yakıt buharlaşırken silindirden ısı çekeceği
+için yakıt-hava karışımının sıkıştırılması için ihtiyaç
+duyulan işin azalacağını ve bu durumun ısıl verimi
+artıracağını belirtmiştir.
+
+20
+18
+16
+14
+12
+10
+5
+
+10
+
+15
+
+20
+
+Güç (kW)
+
+Şekil 3. Test yakıtları için 80 km/h taşıt hızı ve farklı
+taşıt çıkış gücündeki ısıl verim değerlerinin
+karşılaştırılması (Comparison of thermal efficiency values for
+the test fuels at vehicle speed of 80 km/h and different vehicle
+power)
+
+Egzoz gazı sıcaklıkları (Exhaust gas temperatures)
+80 km/h taşıt hızı ve farklı taşıt çıkış gücündeki egzoz
+gazı sıcaklığı değişimi Şekil 4’de gösterilmiştir. E5,
+E10, M5, ve M10 yakıtlarında benzine göre egzoz
+gazı sıcaklıklarındaki ortalama azalma miktarı
+sırasıyla %0,2, %0,5, %1,6 ve %1,2 olarak
+belirlenmiştir. Bu azalmanın temel nedeni, etanol ve
+metanolun buharlaşma gizli ısısının benzine göre daha
+yüksek olmasıdır [14]. Bu taşıt hızında genel olarak
+tüm yakıtlarda egzoz gazı sıcaklığında azalma
+meydana gelmiştir. Ayrıca etanol-benzin ve metanolbenzin karışımlarında fren özgül yakıt tüketimi daha
+fazla olduğundan, aynı çıkış gücünü sağlamak için
+silindire alınan fazla yakıtın buharlaşması egzoz gazı
+sıcaklığını kısmen azaltmaktadır. Test yakıtlarında en
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+yüksek egzoz gazı sıcaklığı, maksimum gücün elde
+edildiği 20 kW taşıt çıkış gücünde ölçülmüştür.
+
+sıcaklıkları M5 yakıtı kullanımı ile elde edilmiştir. Bu
+durumun nedeni M5 yakıtında silindire alınan hava
+miktarının M10 yakıtına göre daha yüksek olması
+neticesinde, silindire alınan fazla havanın egzoz gazı
+sıcaklığını kısmen azaltması şeklinde yorumlanmıştır.
+
+700
+Benzin
+E5
+E10
+M5
+M10
+
+695
+
+o
+
+Egzoz gaz sıcaklığı ( C)
+
+690
+685
+
+M. Eyidoğan ve ark.
+
+Silindir gaz basınçları (Cylinder gas pressures)
+80 km/h taşıt hızı ve 5, 10, 15 ve 20 kW taşıt çıkış
+güçlerinde silindir gaz basıncının krank mili açısına
+göre değişimi Şekil 5’de gösterilmiştir. Taşıt gücünün
+artmasıyla birlikte silindir gaz basıncı artış
+göstermiştir. 10, 15 ve 20 kW çıkış gücünde
+maksimum silindir gaz basıncı, benzin kullanımı ile
+elde edilmiştir. 5 kW çıkış gücünde ise maksimum
+silindir gaz basıncı M10’da gerçekleşmiştir. Ayrıca,
+tüm çıkış güçlerinde benzinin silindir gaz basıncı daha
+erken yükselmeye başlamış ve maksimum silindir
+basıncı üst ölü noktaya daha yakın oluşmuştur.
+Motorun daha kararlı çalıştığı 10, 15 ve 20 kW çıkış
+güçlerinde, benzinin silindir gaz basıncı altında kalan
+alan etanol-benzin ve metanol-benzin karışımlarına
+göre daha geniştir. Bunun nedeni olarak benzinde,
+alkollere göre daha uzun bir yanma gerçekleştiği
+gösterilebilir.
+
+680
+675
+670
+665
+660
+5
+
+10
+
+15
+
+20
+
+Güç (kW)
+
+Şekil 4. Test yakıtları için 80 km/h taşıt hızı ve farklı
+taşıt çıkış gücündeki egzoz gazı sıcaklık değerlerinin
+karşılaştırılması (Comparison of exhaust gas temperature
+values for the test fuels at vehicle speed of 80 km/h and different
+vehicle power)
+
+M10’un buharlaşma gizli ısısı diğer yakıtlara göre
+daha yüksek olmasına rağmen, minimum egzoz gazı
+4,0
+
+Benzin
+E5
+E10
+M5
+M10
+
+3,5
+3,0
+2,5
+
+Silindir gaz basıncı (MPa)
+
+Silindir gaz basıncı (MPa)
+
+4,0
+
+5 kW
+
+2,0
+1,5
+1,0
+
+3,5
+
+10 kW
+
+3,0
+2,5
+2,0
+1,5
+1,0
+0,5
+
+0,5
+-80
+
+-60
+
+-40
+
+-20
+
+0
+
+20
+
+40
+
+60
+
+-80
+
+80
+
+-60
+
+-40
+
+3,5
+
+15 kW
+
+3,0
+2,5
+2,0
+1,5
+1,0
+0,5
+
+0
+
+20
+
+40
+
+60
+
+80
+
+Krank açısı ( )
+
+4,0
+
+Silindir gaz basıncı (MPa)
+
+Silindir gaz basıncı (MPa)
+
+4,0
+
+-20
+
+o
+
+o
+
+Krank açısı ( )
+
+3,5
+
+20 kW
+
+3,0
+2,5
+2,0
+1,5
+1,0
+0,5
+
+-80
+
+-60
+
+-40
+
+-20
+
+0
+
+20
+o
+
+Krank açısı ( )
+
+40
+
+60
+
+80
+
+-80
+
+-60
+
+-40
+
+-20
+
+0
+
+20
+
+40
+
+60
+
+80
+
+o
+
+Krank açısı ( )
+
+Şekil 5. Test yakıtları için 80 km/h taşıt hızı ve farklı taşıt çıkış gücündeki silindir gaz basınçlarının
+karşılaştırılması 80 km/h taşıt hızındaki (Comparison of cylinder gas pressures for test fuels at vehicle speed of 80 km/h and
+different vehicle power)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+503
+
+M. Eyidoğan ve ark.
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+Etanol-benzin ve metanol-benzin karışımlarının ani ısı
+yayma oranı tepe noktalarının benzine göre daha
+geniş olduğu belirlenmiştir. Benzinin ısı yayma
+oranının ise özellikle 20° krank açısından sonra diğer
+yakıtlara oranla daha yüksektir. Bunun sebebi, etanol
+ve metanolun tek tip hidrokarbon yapısına ve tek bir
+kaynama noktasına sahip olmasıdır. Taşıt çıkış
+gücünün artmasıyla birlikte ısı yayma oranı üst ölü
+noktaya yakın bölgelerde gerçekleşmekte ve üst ölü
+noktadan uzaklaştıkça ani bir düşüş göstermektedir.
+Isı yayma oranının büyük bir kısmının üst ölü noktaya
+yakın bir bölgede gerçekleşmesi ise ısıl verimin
+artmasını sağlamaktadır.
+
+Isı yayma oranı (Heat release rates)
+Bu çalışmada Kriger ve Borman tarafından
+tanımlanan tek boyutlu model referans alınarak ısı
+yayma oranları hesap edilmiştir [16]. Model
+kurulurken,
+sıcaklık
+gradyanları,
+basınç
+dalgalanmaları, segmanlardaki kaçaklar, yakıt buharı
+yüzdesi ve karışım oranları ihmal edilmektedir. Bu
+model sonucunda elde edilen ısı yayılım denklemi
+aşağıda verilmiştir.
+&
+Qn =
+
+λ
+1
+dP
+dV
++
+V
+P
+λ − 1 dθ
+λ − 1 dθ
+
+(1)
+
+CO emisyonları (CO emissions)
+
+&
+Burada; Qn krank açısına bağlı olarak açığa çıkan ısı
+yayılım oranını (kJ/°), P silindir dolgu basıncını (kPa)
+ve V ise silindir hacmini (m3), k ise özgül ısı oranını
+ifade etmektedir. 80 km/h taşıt hızı ve 5, 10, 15 ve 20
+kW taşıt çıkış güçlerinde ısı yayma oranının krank
+mili açısına göre değişimi Şekil 6’da gösterilmiştir.
+Bu hızda en düşük maksimum ısı yayma oranı
+benzinde meydana gelmiştir. 10, 15 ve 20 kW çıkış
+güçlerinde benzinin ısı yayma oranı başlangıcı diğer
+yakıtlara göre daha erken oluşmaya başlamıştır. Bu
+durum önceki bölümde sunulan basınç grafikleri ile
+de paralellik göstermektedir.
+
+80 km/h taşıt hızı ve farklı taşıt çıkış gücündeki
+karbon monoksit emisyon değerleri Şekil 7’de
+gösterilmiştir. Literatür incelendiğinde, yapılan birçok
+çalışmada [6, 17-19] belirtildiği gibi, egzoz
+emisyonlarındaki CO emisyonu hem metanol-benzin
+hem de etanol-benzin karışımlarında, kurşunsuz
+benzine göre azalma göstermiştir. Yapılan bu
+çalışmada, E5, E10, M5 ve M10 karışımlarının
+kullanımında benzine göre ortalama CO azalma
+miktarları sırasıyla %18; %17; %14 ve %11 olarak
+tespit edilmiştir.
+0,07
+
+0,07
+
+Benzin
+E5
+E10
+M5
+M10
+
+0,05
+0,04
+
+5 kW
+
+0,03
+0,02
+0,01
+
+0,05
+0,04
+0,03
+0,02
+0,01
+0,00
+
+0,00
+-0,01
+-40
+
+10 kW
+
+0,06
+
+Isı yayma oranı (kJ/o)
+
+Isı yayma oranı (kJ/o)
+
+0,06
+
+-20
+
+0
+
+20
+
+40
+
+-0,01
+-40
+
+60
+
+-20
+
+0,07
+
+40
+
+60
+
+0,06
+
+Isı yayma oranı (kJ/o)
+
+Isı yayma oranı (kJ/o)
+
+20
+
+Krank açısı ( )
+
+0,07
+
+0,06
+
+15 kW
+
+0,05
+0,04
+0,03
+0,02
+0,01
+0,00
+-0,01
+-40
+
+0
+
+o
+
+o
+
+Krank açısı ( )
+
+20 kW
+
+0,05
+0,04
+0,03
+0,02
+0,01
+0,00
+
+-20
+
+0
+
+20
+o
+
+Krank açısı ( )
+
+40
+
+60
+
+-0,01
+-40
+
+-20
+
+0
+
+20
+
+40
+
+60
+
+o
+
+Krank açısı ( )
+
+Şekil 6. Test yakıtları için 80 km/h taşıt hızı ve farklı taşıt çıkış gücündeki ısı yayma oranlarının karşılaştırılması
+(Comparison of heat release rates for test fuels at vehicle speed of 80 km/h and different vehicle power)
+
+504
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+Alkoller tek bir kaynama noktasına sahip oldukları
+için yakıtın tamamı birlikte buharlaşmakta ve benzine
+göre daha homojen karışım oluşturmakta ve daha
+temiz yanmaktadır. Ayrıca etanol ve metanolun
+içeriğindeki oksijenin bu yakıtların daha iyi
+yanmasına imkân sağladığı düşünülmektedir [20].
+
+M. Eyidoğan ve ark.
+
+miktarının artmasına neden olmuştur. 80 km/h taşıt
+hızı ve farklı taşıt çıkış gücündeki oksijen değişimi
+Şekil 8’de görülmektedir.
+Tablo 5. 80 km/h taşıt hızı ve farklı taşıt çıkış
+gücündeki hava-yakıt oranı (Air-fuel ratio for test fuels at the
+80 km/h vehicle speed and different vehicle power)
+
+Çıkış gücü
+Yakıt
+Benzin
+E5
+E10
+M5
+M10
+
+0,625
+Benzin
+E5
+E10
+M5
+M10
+
+0,600
+0,575
+
+CO (ppm)
+
+0,550
+0,525
+0,500
+
+5 kW
+
+10 kW
+
+15 kW
+
+20 kW
+
+11,30
+10,90
+10,60
+10,30
+10,02
+
+12,80
+10,96
+10,95
+10,61
+10,40
+
+11,74
+11,09
+10,75
+10,81
+10,46
+
+11,69
+11,48
+11,10
+11,28
+10,92
+
+0,475
+0,450
+
+4,5
+
+0,425
+
+4,0
+
+0,400
+5
+
+10
+
+15
+
+20
+
+3,5
+
+Güç (kW)
+
+(Comparison of CO emission for test fuels at vehicle speed of 80
+km/h and different vehicle power)
+
+80 km/h taşıt hızında taşıt çıkış gücünün artmasıyla
+birlikte tüm yakıtlarda karbon monoksit emisyonu
+artmıştır. Metanol, etanole göre içeriğinde daha fazla
+oksijen bulundurmasına rağmen metanol-benzin
+karışımlarının
+CO
+emisyonu,
+etanol-benzin
+karışımlarına göre daha yüksek çıkmıştır. Bu sonucun
+temel nedeni olarak, metanol-benzin karışımlarının
+kullanıldığı testlerde hava-yakıt oranlarının kısmen
+düşük olması gösterilebilir. Egzoz emisyonları
+arasında CO bulunmasının temel nedeni karışım
+içerisindeki oksijenin yetersiz olmasıdır. Yanma
+esnasında, silindir hacminin tamamı düşünüldüğünde,
+oksijen; genel olarak yetersiz olabileceği gibi,
+karışımın tam homojen olmadığı durumda da silindir
+içinde belli bir konumda kısmi olarak yetersiz olabilir.
+Testlerde kullanılan yakıtların hava-yakıt oranları
+Tablo 5’de verilmiştir.
+Hava-yakıt oranı genel olarak incelendiğinde, taşıt
+çıkış gücünün artmasıyla birlikte benzin dışında diğer
+yakıtlarda artış göstermektedir. Benzinde ise 10 kW
+çıkış gücünde maksimum hava-yakıt oranı 12,80
+olarak elde edilmiştir. E5, E10, M5 ve M10
+yakıtlarının testlerinde egzoz gazında ölçülen oksijen
+miktarları, benzine göre daha yüksektir. Etanol-benzin
+karışımlarında oksijen değişimi benzer eğilimler
+gösterirken, M5 ve M10 yakıtları arasında farklılıklar
+gözlenmiştir. Egzoz emisyonundaki O2 miktarı hem
+yakıt içerisinde bulunan oksijen miktarına hem de
+silindire alınan hava-yakıt oranına göre değişiklik
+göstermektedir.
+Alkol-benzin
+karışımları
+kullanıldığında, yakıt tüketiminin artmasıyla, havayakıt oranında azalma meydana gelirken, alkol
+yakıtların içeriğinde oksijen egzoz emisyonundaki O2
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+(%)
+
+3,0
+2,5
+
+Benzin
+E5
+E10
+M5
+M10
+
+2
+
+Şekil 7. 80 km/h taşıt hızı ve farklı taşıt çıkış
+gücündeki CO emisyonunun karşılaştırılması
+
+O
+2,0
+1,5
+1,0
+5
+
+10
+
+15
+
+20
+
+Güç (kW)
+
+Şekil 8. Test yakıtları için 80 km/h taşıt hızı ve farklı
+taşıt çıkış gücündeki O2 emisyonu değerlerinin
+karşılaştırılması (Comparison of O2 emission values for the test
+fuels at vehicle speed of 80 km/h and different vehicle power)
+
+CO2 emisyonları (CO2 emissions)
+Motorlu taşıtlardan kaynaklanan CO2 emisyonlarını
+azaltma yöntemlerinden biri de, içeriğinde karbon
+atomu az olan veya hiç olmayan yakıtlar kullanmaktır
+[21]. 80 km/h taşıt hızı ve farklı taşıt çıkış gücündeki
+karbondioksit emisyonu değişimi Şekil 9’da
+gösterilmiştir. E5, E10, M5 ve M10 yakıtlarında
+benzine göre meydana gelen ortalama CO2 azalma
+miktarları sırasıyla %9,5; %8; %11,3 ve %3 olarak
+belirlenmiştir. CO2 emisyonlarında meydana gelen
+azalmanın temel sebebi alkollerin C/H oranlarının
+benzine göre daha düşük olmasıdır. Karışım
+içerisindeki etanol ve metanol miktarı arttıkça CO2
+emisyonunda artış meydana gelmiştir. Bu durumun
+temel nedeni, aynı çıkış gücünü elde etmek için daha
+fazla oksijen içerikli yakıt kullanılmasıdır. E10’daki
+CO2 artışının nedeni, yanmanın iyileşmesi sonucu,
+yanmamış HC emisyonunun E5’e göre azalmasıdır.
+M10 yakıtında M5’e göre meydana gelen CO2
+artışının nedeni ise hava-yakıt oranının daha düşük
+olması şeklinde ifade edilebilir.
+
+505
+
+M. Eyidoğan ve ark.
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+190
+
+13,8
+
+180
+
+13,6
+
+170
+
+13,4
+
+160
+
+Benzin
+E5
+E10
+M5
+M10
+
+13,2
+13,0
+12,8
+
+HC (ppm)
+
+200
+
+14,0
+
+CO2 (%)
+
+14,2
+
+Benzin
+E5
+E10
+M5
+M10
+
+150
+140
+130
+
+12,6
+
+120
+
+12,4
+
+110
+
+12,2
+
+100
+
+5
+
+10
+
+15
+
+5
+
+20
+
+10
+
+15
+
+20
+
+Güç (kW)
+
+Güç (kW)
+
+Şekil 9. Test yakıtları için 80 km/h taşıt hızı ve farklı
+taşıt çıkış gücündeki CO2 emisyonu değerlerinin
+karşılaştırılması (Comparison of CO2 emission values for the
+
+Şekil 10. Test yakıtları için 80 km/h taşıt hızı ve farklı
+taşıt çıkış gücündeki HC emisyonu değerlerinin
+karşılaştırılması (Comparison of HC emission values for the
+
+test fuels at vehicle speed of 80 km/h and different vehicle power)
+
+test fuels at vehicle speed of 80 km/h and different vehicle power)
+
+HC emisyonları (HC emissions)
+
+NOx emisyonları (NOx emissions)
+ 
+Havanın içerisinde bulunan azot ve oksijenin yüksek
+sıcaklıklardaki reaksiyonu sonucu azot oksit
+emisyonları oluşmaktadır. NOx’i oluşturan bileşikler
+genelde NO ve NO2’dir. NO emisyonu oluşumunu
+etkileyen başlıca faktörler, oksijen konsantrasyonu,
+hava-yakıt oranı, yüksek sıcaklıktaki reaksiyon süresi
+ve yüksek basınçtır. Maksimum NO emisyonu 22002400 K sıcaklıkta meydana gelmekte, daha yüksek
+sıcaklıklarda ise azalmaya başlamaktadır. Maksimum
+NOx konsantrasyonu ise stokiyometrik şartlardan
+biraz daha fakir karışımlarda (λ=1,05-1,1) meydana
+gelmektedir [22]. 80 km/h taşıt hızı ve farklı taşıt
+çıkış gücündeki NOx emisyonu değişimi Şekil 11’de
+gösterilmiştir.
+
+506
+
+Benzin
+E5
+E10
+M5
+M10
+
+1300
+1200
+
+NOx (ppm)
+
+80 km/h taşıt hızı ve farklı taşıt çıkış gücündeki
+yanmamış hidrokarbon emisyonu değişimi Şekil
+10’da gösterilmiştir. E5, E10, M5 ve M10
+kullanımındaki HC emisyonlarının benzine göre
+ortalama azalma miktarları sırasıyla %27; %32; %35
+ve %30’dur. Yakıt karışımındaki etanol oranı arttıkça
+HC emisyonu azalmaktadır. M10 yakıtında ise HC
+emisyonu M5’e göre artmıştır. Bunun nedeni,
+metanolun yüksek buharlaşma gizli ısısı nedeniyle,
+ortam sıcaklığının düşmesidir. Özellikle silindir
+duvarlarına yakın bölgelerde düşük sıcaklıktan dolayı
+alev sönmesi meydana gelmekte ve HC emisyonu
+artış göstermektedir. Taşıt çıkış gücünün artmasıyla
+birlikte, M5 dışında diğer yakıtlarda HC emisyonunda
+azalma meydana gelmiştir. M5’de ise 10 kW taşıt
+çıkış gücünde HC emisyonu bir miktar artış göstermiş
+ve tekrar azalmaya başlamıştır. Taşıt çıkış gücünün
+artmasıyla HC emisyonunda meydana gelen
+azalmanın temel sebebi, yanmanın iyileşmesi,
+volümetrik verimi (bkz. Tablo 4) ve hava-yakıt oranı
+(bkz. Tablo 5) artması olarak değerlendirilebilir.
+
+1400
+
+1100
+1000
+900
+800
+700
+5
+
+10
+
+15
+
+20
+
+Güç (kW)
+
+Şekil 11. Test yakıtları için 80 km/h taşıt hızı ve farklı
+taşıt çıkış gücündeki NOx emisyonu değerlerinin
+karşılaştırılması (Comparison of NOx emission values for the
+test fuels at vehicle speed of 80 km/h and different vehicle power)
+
+Yapılan bu çalışmada E5, E10, M5 ve M10
+yakıtlarında benzine göre meydana gelen ortalama
+NOx azalma miktarları sırasıyla %11; %16; %9 ve
+%1,3’dir. Metanol ve etanol, benzine göre daha
+yüksek buharlaşma gizli ısısına sahip olduğu için E5,
+E10, M5 ve M10 yakıtlarında NOx emisyonu
+azalmaktadır [23]. M10 yakıtında NOx emisyonunda
+meydana gelen azalmanın M5’e göre daha düşük
+olmasının nedeni ise M10’nun içeriğinde M5’e göre
+daha fazla oksijen bulunmasıdır. M10 içerisinde
+bulunan oksijen havanın içerisinde bulunan azotla
+reaksiyona girerek daha fazla NOx emisyonu
+oluşturmaktadır.
+5. SONUÇ (CONCLUSION)
+Bu çalışmada, 80 km/h taşıt hızı ve 5, 10, 15, 20 kW
+taşıt çıkış gücünde benzin, E5, E10, M5 ve M10
+yakıtları kullanılarak buji ile ateşlemeli motora sahip
+bir taşıttın performans, yanma ve emisyon değerleri
+incelenmiştir.
+• Alkol
+yakıtlarının
+kullanımı
+ile
+egzoz
+sıcaklıklarında azalma, fren özgül yakıt
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Etanol-Benzin ve Metanol-Benzin Karışımlarının Buji ile Ateşlemeli Bir Motorun…
+
+tüketiminde ise artış meydana gelmiştir. Bunun
+yanında, E10, M5 ve M10 yakıtı kullanımı ile ısıl
+verimde benzine göre artış görülürken, E5
+yakıtında azalma gözlemlenmiştir. Alkol-benzin
+karışımı kullanımında egzoz gazı sıcaklıkları
+benzine göre azalma göstermiştir.
+• Bu taşıt hızında 10, 15 ve 20 kW taşıt çıkış
+güçlerinde maksimum silindir gaz basıncı
+benzinde, 5 kW çıkış gücünde ise maksimum
+silindir gaz basıncı M10 yakıtında gerçekleşmiştir.
+Ayrıca, tüm çıkış güçlerinde en düşük maksimum
+ısı yayılım oranı benzinde ortaya çıkmıştır.
+• Tüm taşıt çıkış güçlerinde E5, E10, M5 ve M10
+kullanımıyla CO ve HC emisyonlarında benzine
+göre azalma meydana gelmiştir.
+• NOx emisyonu incelendiğinde M10 yakıtı hariç
+diğer alkol-benzin karışımlarında benzine göre
+NOx emisyonlarında azalma gözlenmiştir.
+
+9.
+
+10.
+11.
+12.
+
+13.
+
+6. TEŞEKKÜR (ACKNOWLEDGEMENT)
+
+14.
+
+Bu çalışma Kocaeli Üniversitesi Bilimsel Araştırma
+Proje Birimi’nin desteklediği 2006/25 numaralı proje
+kapsamında gerçekleştirilmiştir. Bu çalışmanın ortaya
+çıkmasında emeği geçenlere teşekkür ederiz.
+
+15.
+
+7. KAYNAKLAR (REFERENCES)
+
+16.
+
+1.
+2.
+
+3.
+4.
+
+5.
+6.
+
+7.
+
+8.
+
+Durgun, O., “Motorlarda Benzin-Etilalkolİzopropanol Karışımlarının Kullanılması”, İkinci
+Yanma Sem., 325-335 İstanbul, 1989.
+Bilgin, A., Durgun, O., Şahin, Z., “Dizel Yakıtına
+MTBE Katılmasının Motor Performansına
+Etkisi”, 13. Ulusal Isı Bilim ve Tekniği
+Kongresi, 141-146, Konya, 2001.
+Borman, G.L., Rangland, K.W., “Combustion
+Engineering”, McGraw-Hill Book Company,
+New York, 1998.
+Yanju, W., Shenghua, L., Hongsong, L., Rui, Y.,
+Jie L., Ying, W., Effects of Methanol/Gasoline
+Blends on a Spark Ignition Engine Performance
+and Emission”, Energy Fuels, Cilt 22, No 2,
+1254-1259, 2008
+Cragg, C. “Cleaning Up Motor Car Pollution:
+New Fuels and Technology”, Financial Times
+Management Report, London, 1992.
+Bang-Quan, H., Jian-Xin, W., Ji-Ming, H., XiaoGuang, Y., Jian-Hua, X., “A Study on Emission
+Characteristics of an EFI Engine with Ethanol
+Blended
+Gasoline
+Fuels”,
+Atmospheric
+Environment, Cilt 37, No 7, 949-957, 2003.
+Ceviz, M.A., Yüksel, F., “Effects of EthanolUnleaded Gasoline Blends on Cyclic Variability
+and Emissions in an SI Engine”, App. Ther.
+Eng., Cilt 25, 917-925, 2005.
+Shenghua, L., Cuty Clemente, E.R., Tiegang, H.,
+Yanjv, W., “Study of Spark Ignition Engine
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+17.
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+23.
+
+M. Eyidoğan ve ark.
+
+Fueled with Methanol/Gasoline Fuel Blends”,
+App. Ther. Eng., Cilt 27, 1904-1910, 2007.
+Abdel-Rahman AA., Osman MM., “Experimental
+Investigation on Varying the Compression Ratio
+of SI Engine Working under Different EthanolGasoline Fuel Blends”, Int. J. of Energy
+Research, Cilt 21, 31-40, 1997.
+Owen, K., Coley, T. “Automotive Fuels
+Reference Book”, Second Edition, Society of
+Automotive Engineers, 265-266 (1995).
+Türkiye Petrol Rafinerileri A.Ş. “Kurşunsuz
+Benzin 95 Oktan (243)” ürün bilgileri, 2011.
+Al-Hasan, M., “Effect of Ethanol-Unleaded
+Gasoline Blends on Engine Performance and
+Exhaust Emission”, Energy Conversion and
+Management, Cilt 44, 1547-1561, 2003.
+Yüksel, F., Yüksel, B., “The Use of EthanolGasoline Blend as a Fuel in an SI Engine”,
+Renewable Energy, Cilt 29, 1181-1191, 2004.
+Topgül, T., “Buji ile Ateşlemeli Motorlarda Etil
+Alkol-Benzin Karışımı Kullanımında Optimum
+Çalışma Parametrelerinin Araştırılması”, Doktora
+Tezi, Gazi Üni. Fen Bil. Ens., Ankara, 68-72,
+2006.
+Poulton, M.L., “Alternative Fuels for Road
+Vehicles”, Com. Mec. Publ., 29-66, 1994.
+Krieger, R.B., Borman, G.L., “The computation
+of applied heat release for internal combustion
+engines”, ASME Paper, No.66-WA/DGP-4,
+1966.
+Richard, L., Bechtold, P.E., “Alternative Fuels
+Guidebook”, Society of Automotive Engineers,
+Inc. Warrendale, PA, USA, 1997.
+Pitstick, M.E., “Emissions from Ethanol and LPG
+Fueled Vehicles”, Preprint Paper No.930527,
+Transportation Research Board 72nd Annual
+Meeting, Washington, DC, USA, 10-14 January,
+1993.
+Magnusson, R., Nilson, C., “Emissions of
+Aldehydes and Ketones from a Two-Stroke
+Engine Using Ethanol and Ethanol Blended
+Gasoline as Fuel”, Env. Sci. and Tech., Cilt 36,
+No 8, 1656-1664, 2002.
+Charalampos, A.I., Anastasios, K.N., Panagiotis,
+S.D., “Gasoline-Ethanol, Methanol Mixtures and
+a Small Four-Stroke Engine”, Heat and
+Technology, Cilt 22, 2, 69-73, 2004.
+Çelik, M.B., Çolak, A., The Use of Pure Ethanol
+as Alternative Fuel in a Spark Ignition Engine, J.
+of the Faculty of Engineering and Architecture
+of Gazi University, 23 (3), 619-626, 2008.
+Van Basshuysen, R., Schafer, F., “Internal
+Combustion
+Engine
+Handbook”,
+SAE
+International, USA, 565-576, 2004.
+Varde, K., Jones, A., Knutsen, A., Mertz, D., Yu,
+P., “Exhaust Emissions and Energy Release Rates
+from a Controlled Spark Ignition Engine Using
+Ethanol Blends”, J. Automobile Engineering,
+221, 933-941, 2007.
+
+507
+
+

@@ -1,0 +1,694 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 3, 587-592, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 3, 587-592, 2010
+
+AISI D6 ÇELİĞİNİN ADHESİF AŞINMA DAVRANIŞINA
+ISIL İŞLEM ŞARTLARI VE KAYMA HIZLARININ ETKİLERİ
+Hasan HASIRCI
+Döküm Eğitimi A.B.D., Teknik Eğitim Fakültesi, Gazi Üniversitesi, Ankara
+hasirci@gazi.edu.tr
+(Geliş/Received: 07.10.2009 ; Kabul/Accepted: 31.05.2010)
+ÖZET
+Bu çalışmada, AISI D6 çeliğinin adhesif aşınma davranışına uygulanan tavlama ve normalizasyon ısıl
+işlemlerinin etkileri araştırılmıştır. Normalizasyon işleminde, çelik numuneler, 900 ve 950˚C’de 30 dakika
+östenitlenmiş ve daha sonra havada soğumaya bırakılmıştır. Numune 850˚C’de 30 dakika süreyle tavlanmıştır.
+Adhesif aşınma testleri, disk üzerinde pim cihazında, 20 ve 40N yük altında 1 ve 1.5 m s-1 kayma hızlarında
+gerçekleştirilmiştir. Tavlanmış numune adhesif aşınma direncinde ve sertliğinde azalma göstermiştir. Normalize
+edilmiş numunelerin adhesif aşınma direnci ve sertliği 900˚C’de 30 dakikada artmış, ancak 950˚C’de 30
+dakikada sertlik ve aşınma direnci azalmıştır.
+
+1. GİRİŞ (INTRODUCTION)
+Çelik malzemeler, farklı amaçlarla çok farklı kullanım
+alanlarına sahip metalik malzemelerin başında gelmektedir. Bu nedenlerle farklı beklentilere sahip çeliklerin üretimi gerekmektedir. Bu malzemeler alaşım
+elementi ilavesi, deformasyon ve ısıl işlem yoluyla bu
+farklı beklentileri karşılayabilecek hale getirilebilmektedirler. Bu amaçlar doğrultusunda çeliklere normalizasyon, tavlama, östemperleme, martemperleme, borlama gibi daha bir çok ısıl işlem uygulanarak bu
+malzemelerin özellikleri geliştirilmekte ve hedeflenen
+amaçlara uygun malzemeler üretilmektedir [1-6].
+Çelik malzemelere; tokluk, sertlik, süneklik ve işlenebilirlik özelliklerini geliştirmek, tane yapısını inceltmek, artık gerilmeleri gidermek ve aşınma direncini
+
+geliştirmek için farklı ısıl işlemler uygulanmaktadır.
+Bunların en önemlilerden birisi normalizasyon ısıl
+işlemleridir. Normalizasyon, çeliklerin kritik tavlama
+sıcaklığı üzerine ısıtılması ve havada soğutulması
+işlemlerini kapsamaktadır. Normalizasyon ötektoid
+altı ve ötektoid üstü çeliklerin her ikisi için üst kritik
+sıcaklık üzerinde uygulanabilir [1-5]. AISI D6 çeliği
+ısıl işlemlerdeki iyi boyutsal kararlılık ve derinliğine
+sertleştirme yapılabilirlikleri ile öne çıkmaktadır. Isıl
+işlemlerin ardından yüksek oranda basma dayanımı ve
+aşınma direnci gösterirler. Bu çelik malzeme yüksek
+abrasif ve adhesif aşınma direncine sahiptir. Yumuşak
+ve sert kesme işlemlerinde kullanılırlar. Seramik kalıpları, kırıcı ve öğütücü tekerlekleri imalatları yaygındır. Derin çekme işlemlerinde, eğme, soğuk ve
+sıcak çekme araçları üretilebilir. AISI D6 çeliğinin
+
+H. Hasırcı
+
+AISI D6 Çeliğinin Adhesif Aşınma Davranışına Isıl İşlem Şartları ve Kayma Hızlarının Etkileri
+
+üstün yapısal ve mekanik özellikleri nedeniyle bir çok
+etkene karşı dayanıklı ve uzun ömürlü takımların
+imalatında kullanılmasında etkili olmaktadır [7-11].
+
+Bu çalışmada kullanılan numuneler standart metalografik işlemlerden sonra mikro yapısal incelemeye
+tabi tutulmuştur. Diğer yandan aşınma sonuçlarının
+yorumlanmasında kullanılmak amacıyla bütün numunelerin HRc cinsinden sertlikleri standart test şartlarında ısıl işlem görmüş yüzeylerden alınarak ölçülmüştür. Aşınma testleri, disk üzerinde pim aşınma test
+cihazında, 20 ve 40 N yükler altında 1 ve 1.5 m sn-1
+kayma hızlarında her bir test sırasında toplam 3600
+metre yol yapılarak gerçekleştirilmiştir.
+3. DENEYSEL SONUÇLAR VE TARTIŞMA
+(Experimental Results and Conclusion)
+
+Şekil 1. Çelikler için zaman-sıcaklık-dönüşüm (TTT)
+diyagramı [5] (Time-temperature-transformation (TTT) diagram
+for steels)
+Şekil 1’de sıcaklık, süre ve sertlik ilişkisi sürekli
+zaman-sıcaklık-dönüşüm diyagramı yardımıyla gösterilmektedir. Çeliğin normalleştirilmesi neticesi, tavlamadan daha sert ve mukavemetli çelik oluşturmak,
+işlenebilirliği geliştirmek, tane yapısının modife edilmesi ve inceltilmesi, çekme mukavemeti ve sertlikte
+azalma olmaksızın, nispeten iyi süneklik elde edilmektedir.
+
+3.1. Mikro Yapısal Özellikler (Micro structural
+Properties)
+
+Isıl işlemsiz ve farklı ısıl işlemler uygulanmış numunelerin mikro yapıları aşağıda Şekil 2’de verilmiştir.
+
+Isıl işlemlerin çelik malzemelere uygulanma amaçları
+doğrultusunda; tavlama ve normalizasyon ısıl işlemlerinin AISI D6 malzemesinin yapı, sertliği ile farklı
+yük ve kayma hızlarındaki adhesif aşınma karakteristiklerine etkilerinin belirlenmesi amacıyla bu çalışma yapılmıştır.
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL
+WORKS)
+Aşağıda Tablo 1’de kimyasal bileşimi verilen AISI
+D6 çeliği çubuk şeklinde satın alınmıştır. Çelik malzemeye uygulanan ısıl işlemler Tablo 2’de özetlenmiştir. Numunelerin tavlama ısıl işlemleri 850˚C’de,
+normalizasyon işlemleri ise 900 ve 950˚C’de 30 dakika atmosfer kontrolsüz fırında işlem sıcaklık kontrolünün yapıldığı ortamda östenitlenerek havada soğumaya bırakılması şeklinde gerçekleştirilmiştir.
+Tablo 1. AISI D6 malzemesinin kimyasal bileşimi
+(%) (Chemical composition of AISI D6 material)
+C
+2,15
+
+Si
+0,38
+
+Mn
+0,33
+
+P
+0,22
+
+S
+0,17
+
+Mg
+-
+
+Cr
+11,98
+
+Ni
+0,16
+
+Mo
+0,13
+
+Cu
+0,05
+
+Al
+0,014
+
+Ti
+0,003
+
+V
+0,038
+
+Nb
+0,004
+
+W
+0,61
+
+Co
+0,034
+
+Sn
+0,009
+
+Pb
+0,022
+
+Fe
+Kalan
+
+Tablo 2. AISI D6 çeliğine uygulanan ısıl işlemler
+(Heat treatments applied to AISI D6 material)
+Numune no
+1
+2
+3
+4
+
+588
+
+Uygulanan Isıl işlemler
+İşlemsiz
+850 ºC sıcaklıkta 30 dakika tavlama
+900 ºC sıcaklıkta 30 dakika normalizasyon
+900 ºC sıcaklıkta 30 dakika normalizasyon
+
+Şekil 2. Deneysel şartlara bağlı olarak AISI D6
+malzemesinin mikro yapısında meydana gelen
+değişimler; a) 1 nolu numune, b) 2 nolu numune, c) 3
+nolu numune, d) 4 nolu numune, (Dağlama %2’lik
+nital) (Variations in the microstructure of AISI D6 steel with
+experimental conditions; (a) specimen 1, (b) specimen 2, (c)
+specimen 3 and (d) specimen 4, Etchant is 2% nital solution)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+AISI D6 Çeliğinin Adhesif Aşınma Davranışına Isıl İşlem Şartları ve Kayma Hızlarının Etkileri
+
+Mikro yapı görüntülerine bakıldığında; ısıl işlemsiz 1
+nolu numunenin AISI D6 çeliğinin bileşimi nedeniyle
+perlit+ledeburitten (Şekil 2.a), ısıl işlem uygulanmış
+numunelerin ise dönüşüme uğrayarak şartlara bağlı
+farklı oranlarda perlit+ledeburitten meydana geldiği
+görülmektedir. Tavlama uygulanması sonucunda ve
+normalizasyon ısıl işlem sıcaklığının artmasıyla
+(950˚C) birlikte genel olarak perlit miktarının arttığı
+tespit edilmiştir.
+Farklı ısıl işlemlerin uygulanmasına karşın, satın
+alınmış, tavlanmış ve normalize edilmiş (Şekil 2)
+numunelerde benzer mikro yapılar elde edilmiştir.
+Çünkü uygulanan ısıl işlemlerle AISI D6 çekil
+malzemenin yapısı faz dönüşümü açısından fazla bir
+değişikliğe uğramamaktadır. Diğer yandan 900˚C’den
+daha yüksek sıcaklıkta (950˚C) normalize edilen
+numunede yapıda bir miktar kabalaşmanın meydana
+geldiği görülmüştür.
+3.2. Sertlik ve Aşınma Test Sonuçlarının
+Değerlendirilmesi (Evaluation of Hardness and Wear
+Tests)
+
+Se rtlik, HRc
+
+Normalizasyon işlemleri genellikle çelik malzemelerde soğuk deformasyon etkilerinin kısmen azaltılması ve malzemenin sertliğinin bir miktar artırılması
+amacıyla uygulandığı bilinmektedir [1-5,12]. Bu
+çalışmadaki sonuçlar incelendiğinde; elde edilen
+sonuçların normalizasyon ve tavlama ısıl işlemlerinin
+amaçlarına uygun olduğu Şekil 3’teki sonuçlardan
+görülmektedir. Bu sonuçlar; normalizasyon işlemi ile
+malzeme sertliğinde büyük miktarda artışın (≅%100)
+60
+55
+50
+45
+40
+35
+30
+25
+20
+15
+10
+5
+0
+
+1
+
+2
+
+3
+
+Num une no
+
+4
+
+Şekil 3. Farklı işlemler sonucunda numunelerin sertlik
+değerlerinin değişimi (Variation of hardness values of
+specimens after different treatments)
+
+H. Hasırcı
+
+meydana geldiğini göstermiştir. Tavlanmış numune
+incelendiğinde ise; uygulama sıcaklığı ve süresi
+açısından malzeme sertliği bu ısıl işlemin doğal
+sonucu olarak orijinal halinden daha da düşük elde
+edilmiştir. Öte yandan normalizasyonlu numuneler
+kendi aralarında değerlendirildiklerinde, normalizasyon işleminin, uygulama sıcaklığının 50˚C
+artmasıyla birlikte numunelerin sertliklerinde bir
+azalmanın meydana geldiği görülmektedir. Normalize
+edilen numunede sertlikteki bu azalmanın daha
+yüksek (950˚C) sıcaklıkta uygulanan ısıl işlem
+sonucunda daha önce mikroyapı kısmında bahsedilen
+bir miktar yapısal kabalaşmaya bağlı olduğu
+görülmektedir.
+Üretilen numuneler aşınma şartlarındaki davranışlarının belirlenmesi amacıyla aşınma testlerine tabi
+tutulmuş ve elde edilen sonuçlar Tablo 3 ve Şekil 4
+verilmiştir. Diğer yandan aşınma işlem şartlarından
+kayma hızındaki değişime bağlı olarak her bir yük
+için değişimler % olarak Şekil 5 ve ısıl işlemsiz malzeme referans alınarak ağırlık kaybındaki değişim mg
+türünden meydana gelen değişimler ise Şekil 6’da
+gösterilmiştir. Sonuçlar uygulanan yükler bakımından
+değerlendirildiğinde; uygulanan yük miktarındaki
+artışla birlikte tüm numunelerde aşınma miktarında da
+artışın meydana geldiği görülmüştür. Numunelerdeki
+aşınma miktarlarının aynı zamanda üretilen
+malzemelerdeki sertliklerle doğru orantılı olduğu da
+elde edilen sonuçlardan açıkça görülmektedir. Aşınma
+çalışmalarında elde edilen sonuçlar sadece sertlikle
+ilişkilendirilerek değerlendirilmemektedir. Metal ve
+alaşımlarının aşınma özellikleri genellikle mikro
+yapısal ve mekanik özellikleri ile yapılan işlemlere
+bağlı olarak değişmektedir [12-18]. Diğer yandan
+bazen de sonuçlar açısından bir terslik yoksa, sertlik
+tek başına bir değerlendirme aracı olarak kullanılabilir. Bu çalışmada elde edilen sonuçlar sertlikle
+ilişkili olarak değişmektedir. Numune sertliğinin
+artmasıyla aşınma miktarı azalmaktadır. 1 m/sn
+kayma hızındaki testler sırasında uygulanan her iki
+yükte de en fazla aşınma en yumuşak 2 nolu tavlanmış numunede meydana gelirken, en düşük aşınma ise
+en yüksek sertliğe sahip 3 nolu numunede (900˚C’de
+normalizasyon) meydana gelmektedir. Normalize
+edilen numuneler (3 ve 4 nolu numuneler) kendi
+aralarında değerlendirildiğinde ise; yine ısıl işlemle
+elde edilen sertlikteki artışla aşınma miktarının
+
+Tablo 3. Deneysel şartlarla AISI D6 çelik numunelerin ağırlık kaybının değişimi (TVariations
+specimens of AISI D6 steel with experimental conditions)
+Ağırlık Kaybı (mg),
+(Yük: 20 N)
+Numune
+No
+
+1
+2
+3
+4
+
+Ağırlık Kaybı (mg),
+(Yük: 40 N)
+
+in weight loss of
+
+Kayma hızdaki artışa bağlı olarak
+ağırlık kaybının değişimi (%)
+
+Kayma Hızı 1
+m/sn
+
+Kayma Hızı
+1.5 m/ sn
+
+Kayma Hızı 1
+m/ sn
+
+Kayma Hızı
+1.5 m/ sn
+
+Yük: 20 N
+
+Yük: 40 N
+
+8.5
+10.5 ↑
+7↓
+7.2 ↓
+
+3.2
+2.3↓
+4.2 ↑
+6.6 ↑
+
+10.5
+13.3 ↑
+9↓
+9.5 ↓
+
+5.7
+3.7↓
+10.3 ↑
+10.1 ↑
+
+- 62.4 ↓
+- 78 ↓
+- 40 ↓
+- 8.3 ↓
+
+- 45.7 ↓
+- 72.2↓
++ 14.4 ↑
++ 6.3 ↑
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+Sertlik
+(HRC)
+
+23
+22
+49
+45
+589
+
+H. Hasırcı
+
+AISI D6 Çeliğinin Adhesif Aşınma Davranışına Isıl İşlem Şartları ve Kayma Hızlarının Etkileri
+
+Şekil 4. Deneysel şartlarla AISI D6 çelik numunelerinin ağırlık kaybının değişimi (Variations
+specimens of AISI D6 steel with experimental conditions)
+azaldığı görülmektedir. Normalizasyonla sertliğin
+artması aşınmayı azaltmakta (3 nolu numune), ancak
+4 nolu numunede ise sıcaklığın 900˚C’den 950˚C’ye
+artmasıyla birlikte yapısal kabalaşma nedeniyle sertlik
+azalmakta ve aşınma miktarı da doğal olarak
+artmaktadır. Başka bir ifadeyle 1 m/sn kayma
+hızındaki aşınma miktarları sertlikle ters bir ilişkiye
+sahiptir. Diğer yandan 1.5 m/sn kayma hızında ise
+durum tersine dönerek aşınma miktarları 4 nolu
+20
+
+Ağırlık kaybının değişimi, %
+
+10
+0
+-10
+
+1
+
+2
+
+3
+
+4
+
+Numune no
+
+-20
+-30
+-40
+
+20N
+
+-50
+
+40N
+
+-60
+-70
+-80
+
+Şekil 5. Kayma hızındaki artışa bağlı olarak AISI D6
+çeliğinin ağırlık kaybının değişimi (Variations in weight loss
+of specimens of AISI D6 steel depend on incresing sliding speed)
+5
+
+20N-1 m/sn
+40N-1 m/sn
+20N-1.5 m/sn
+40N-1.5m/sn
+
+Ağırlık kaybının değişimi, mg
+
+4
+3
+2
+1
+
+Numune no
+
+0
+-1
+
+1
+
+2
+
+3
+
+4
+
+-2
+
+Şekil 6. 1 nolu ısıl işlemsiz numune baz alınarak
+aşınma sonuçlarının değişimi (Variation of the wear results
+based on specimen 1 without heat treatment)
+590
+
+in weight loss of
+
+numune hariç genel olarak sertlikle paralellik göstermektedir. Sertlik arttıkça aşınma da artmaktadır.
+Bu çalışmanın diğer bir yönü olan kayma hızındaki
+değişime bağlı olarak aşınma miktarının değişiminin
+tespit edilmesi farklı hızlarda birbirleri üzerinde
+çalışacak olan AISI D6 çeliğinin bu özelliğinin
+karakterize edilmesinde yararlı olacaktır. Bu amaçla 1
+ve 1.5 m/sn hızlarında yapılan testlerde yükün 20’den
+40N’a artışı sonucunda aşınmanın % değişimi Şekil
+5’te verilmiştir.
+Sonuçlar bütün numunelerde yük artışına bağlı olarak
+aşınmanın arttığını, ancak kayma hızının artmasıyla
+genelde azaldığını açıkça ortaya koymaktadır. Yükün
+artmasına bağlı olarak malzeme daha kolay
+deformasyona uğrayarak yorulmakta ve numune
+yüzeyinde malzeme kaybında artmaya neden
+olmaktadır. Buna bağlı olarak aşınma miktarı
+artmaktadır. Kayma hızının artması sertliği ve yapısal
+gerilimi yüksek olan malzemelerde hızlı (kısa
+mesafede) pekleşme ve dinamik yorulmaya bağlı
+olarak aşınmanın arttığı görülmektedir.
+Diğer yandan aşınma sonuçları ağırlık kaybı (mg)
+cinsinden 1 nolu işlem uygulanmamış numune temel
+değer alınarak ısıl işlemin etkilerinin gösterilebilmesi
+açısından da sonuçların değerlendirilmesi Şekil 6’da
+verilmiştir. Sonuçlar incelendiğinde tavlama yapılan
+ve bundan dolayı sertliği azalan 2 nolu numunede
+yükün artmasıyla referans malzemeye oranla ağırlık
+kaybının arttığı, hızın artmasıyla ise azaldığı
+görülmektedir. 3 ve 4 nolu numunelerde ise yüke
+bağlı olarak aşınma artarken, hızın artmasına bağlı
+olarak 4 nolu numunede ise azalmaktadır. Aynı yük
+şartlarında kayma hızındaki artış daha yumuşak
+yapıya sahip malzemenin hızlı bir şekilde
+deformasyona uğramasına ve bunun sonucunda
+pekleşme miktarının artmasına yol açarak aşınmanın
+azalmasına sebep olmuştur. 3 ve 4 nolu normalize
+edilmiş numunelerde ise durum bu nedenle tam aksi
+yönde gelişmiştir. Bu numunelerin yapılarındaki katı
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+AISI D6 Çeliğinin Adhesif Aşınma Davranışına Isıl İşlem Şartları ve Kayma Hızlarının Etkileri
+
+eriyiklere bağlı olarak yüksek sertlikleri nedeniyle
+deformasyon miktarı azalmakta ve gevrek bir
+davranışa sebep olmaktadır. Bu gevrek ve düşük
+deformasyon kabiliyetli yapıya bağlı olarak kayma
+hızının artması sonucunda malzeme yapısı hızlı bir
+şekilde bozularak aşınmanın artmasına neden
+olmaktadır.
+Aşınma testleri sırasında meydana gelen sürtünme
+kuvvetleri ve oluşan sıcaklıklar da eş zamanlı olarak
+ölçülmüştür (Şekil 7). 1 m/sn kayma hızındaki ölçüm
+değerlerinin ortalamalarına bakıldığında, 20N yükte
+en yüksek sıcaklık (49.6°C) ve kuvvet (7.6N)
+normalize edilmiş en sert 3 nolu numunede olurken,
+en düşük sıcaklık (37.6°C) ve kuvvet (3.96N) daha
+yumuşak 4 nolu normalize edilmiş numunede
+meydana gelmiştir.
+Öte yandan 40N yükte ise en yüksek sıcaklık (76.8°C)
+ve kuvvet (16.65N) 4 nolu normalize edilmiş
+numunede olurken, en düşük sıcaklık (65.3°C) ve
+kuvvet (13.69N) 2 nolu tavlanmış numunede meydana
+gelmiştir. 1.5 m/sn kayma hızındaki aşınma test
+sonuçları da farklı eğilimde oluşmuştur. Sonuçlar
+yukarıdaki sırasıyla verildiğinde 20N yükte en yüksek
+sıcaklık (54.2°C) ve kuvvet (5.9N) 4 nolu normalize
+edilmiş numunede olurken, en düşük sıcaklık
+(42.4°C) ve kuvvet (5N) daha yumuşak 1 nolu ısıl
+işlemsiz numunede, 40N yükte ise en yüksek sıcaklık
+(86.8°C) ve kuvvet (14.9N) 4 nolu normalize edilmiş
+numunede olurken, en düşük sıcaklık (53.8°C) ve
+
+H. Hasırcı
+
+kuvvet (10.9N) 2 nolu tavlanmış numunede meydana
+gelmiştir.
+Sonuçlar genel değerlendirmeye tabi tutulduğunda
+düşük kayma hızında yüksek sürtünme kuvveti ve
+sıcaklık daha sert numunelerde elde edilirken, daha
+yumuşak olan numunelerde kolay deformasyon
+nedeniyle düşük sıcaklık ve kuvvet meydana
+gelmiştir. Ancak hız arttığında ise en yüksek sıcaklık
+ve sürtünme kuvveti ısıl işlem sonucu yapısında
+kabalaşma ve sertliğinde azalma olan 4 nolu numunede meydana gelmiştir. Aynı şekilde daha çarpıcı bir
+sonuç olarak bu çalışmadaki en yüksek ve en düşük
+sıcaklık ve kuvvet nispeten sert ve kabalaşmış yapıya
+sahip olması nedeniyle daha fazla deformasyona
+müsait 4 nolu numunede meydana gelmiştir.
+Aşınma sonuçlarının açıklanmasında kullanılan
+verilerden birisi de aşınma yüzeyi görüntüleridir. Bu
+amaçla aşınan yüzeylerden alınan görüntüler Şekil
+8’de verilmiştir. Görüntüler incelendiğinde; 1 m/sn
+hızdaki testler sonucunda genel olarak nispeten
+sertliğin düşük olduğu numunelerde aşınma yüzeylerinde deformasyon ve derin aşınma izlerine rastlanmaktadır. Sertliğin yüksek olduğu normalize
+edilmiş numunelerde ise çok ince aşınma izleri
+meydana gelmiştir. Normalizasyon sıcaklığının
+artmasıyla sertliğin azalıp aşınmanın arttığı 4 nolu
+numunede de aşınan yüzeydeki izlerin derinliği ve
+sürekliliği açıkça görülmektedir. Ancak kayma
+hızının 1.5 m/sn’ye artması sonucunda elde edilen
+yüzey
+görüntüleri
+incelendiğinde
+ise
+hızlı
+deformasyona bağlı özellikle sert ve kırılgan yapılı
+numunelerde aşınma yüzeylerinde daha derin ve geniş
+çiziklerin bulunduğu görülmektedir. Yumuşak
+malzemelerde ise yüksek hıza bağlı olarak meydana
+gelen nispeten sıvanmalar neticesinde katmanlı bir
+yüzey görüntüsü hakimdir. Bu görünüm aşırı
+deformasyona bağlı olarak pekleşme ve yüzeysel
+sertliğin artmasıyla aşınmanın azaldığını açıkça
+göstermektedir.
+4. SONUÇLAR (CONCLUSIONS)
+
+Şekil 7. Yükteki artışa bağlı olarak AISI D6 çelik
+numunelerinin oluşan sıcaklık ve sürtünme kuvvetinin
+değişimi (Variations in temperature and frictional force of
+specimens of AISI D6 steel depend on incresing load)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+• Isıl işlemsiz haldeki AISI D6 malzemesinin
+sementit+ledeburit olan yapısında ısıl işlem
+süresine bağlı olarak oluşan östenitin dönüşerek
+oluşturduğu sementit miktarı da artmaktadır.
+Normalizasyon sıcaklığının 900˚C’den 950˚C’ye
+artması sonucunda yapıda bir miktar da olsa
+kabalaşma görülmüştür.
+• Orijinal malzemenin sertliği tavlama ile azalmış,
+normalizasyon ile artmıştır. Ancak normalizasyon
+sıcaklığının 950˚C’ye artması sonucunda ise
+yapısal kabalaşma neticesinde azalmıştır.
+• Sertliğin artmasına paralel olarak aşınma
+miktarları azalmıştır. En düşük sertliğin
+bulunduğu tavlanmış numunede en fazla aşınma
+olurken, sertliğin en fazla olduğu sıcaklığının
+900˚C’de 30 dakika normalize edilmiş numunede
+
+591
+
+H. Hasırcı
+
+AISI D6 Çeliğinin Adhesif Aşınma Davranışına Isıl İşlem Şartları ve Kayma Hızlarının Etkileri
+
+Şekil 4. Deneysel şartlarla AISI D6 çelik numunelerinin ağırlık kaybının değişimi (Variations
+specimens of AISI D6 steel with experimental conditions)
+ise en az aşınma meydana gelmiştir. Diğer yandan
+normalizasyon sıcaklığının artması sonucunda
+sertlik azalırken, aşınma miktarı ise artmıştır.
+Ancak bu sonuç 1.5 m/sn kayma hız ve 40N yük
+altında değişerek 4 nolu numune daha set olan 3
+nolu numuneden daha az aşınmıştır.
+• Uygulanan yük artarken aşınma miktarı, sürtünme
+kuvveti ve oluşan sıcaklık da bunlara paralel
+olarak artarken, kayma hızının artmasıyla aşınma
+miktarı büyük oranda, oluşan kuvvet ve sıcaklık
+ise nispeten azalmaktadır. Ancak bu sonuç da 1.5
+m/sn kayma hız ve 40N yük altında değişerek 4
+nolu numune daha az aşınma, sürtünme kuvveti ve
+sıcaklık meydana getirmiştir.
+5. KAYNAKLAR (REFERENCES)
+1. Ozcatalbas Y, Ercan F, “The effects of heat
+treatment on the machinability of mild steels”,
+Journal of Materials Processing Technology, 136,
+227–238, 2003.
+2. Jokhio M. H, Memon S. A. and Sangi M. J,
+“Effect of heat treatment on the microstructure
+and mechanical properties of low carbon SEA
+1010 steel” Quaid-E-Awam Universty Research
+Journal of Engeenering, Science and Technology
+Volum 1, No 1, January-June 2000.
+3. Heat Treatment Procedure Qualıfıcatıon Final
+Technical Report The Pennsylvania State
+University, Park, PA, Work Performed Under
+Contract No. DE-FC07-99ID13841, Work
+Prepared
+for
+U.S.
+Department
+of
+Energy,”http://www.osti.gov/bridge/servlets/ purl
+/836878-AegKFa/836878.PDF”. (May 2009)
+4. Part1Materıals,http://media.wiley.com/product_da
+ta/excerpt/03/04714499/0471449903.pdf,
+May
+2009.
+5. http://www.boun.edu.tr/undergraduate/engineering
+/mechanical_engineering.html
+“heat
+treatment.doc”, May 2009.
+6. Massachusetts Institute of Technology Department
+of Mechanical Engineering Cambridge, MA
+021392.002 Mechanics and Materials II Spring
+2004Laboratory Module No. 5 Heat Treatment
+ofPlain Carbon and LowAlloy Steels:Effects on
+
+592
+
+in weight loss of
+
+Macroscopic Mechanical Properties, “Heat
+treatment of carbon steel and low alloy steel.pdf”,
+May 2009.
+7. Tool Steel, http://www.cogne.com/schedeprodotti
+/UK19.pdf, July 2009.
+8. Steels
+For
+Cold
+Work
+Tooling,
+http://www.uddeholm.co.jp/pdf/coldwork-english.
+pdf, July 2009.
+9. Thyrodur
+2436,
+http://www.gsmetal.cz/pdf/
+thyrodur_2436_cz.pdf, July 2009.
+10. BöhlerK107
+ColdWork
+Tooling,
+http://www.osmanlicelik.com.tr/images/pdf/K107
+DE.pdf, July 2009.
+11. Part-1,http://www2.coromant.sandvik.com/
+coromant/pdf/dm_app/Part_1.pdf, July 2009.
+12. M. Gojic´, L. Kosecb, P. Matkovic,
+“Embrittlement damage of low alloy Mn–V steel
+Engineering Failure Analysis”,10, 93–102, 2003.
+13. N. Saheb, T. Laoui, A.R. Daud, M. Harun, S.
+Radiman, R. Yahaya, “Influence of Ti addition on
+wear properties of Al–Si eutectic alloys”, Wear,
+249 656–662, 2000.
+14. Hasirci, H. ve Gül, F. “Al-Cu Döküm
+Alaşımlarının Abrasif Aşınma Davranışına
+Magnezyum ve Nikel’in Etkileri”, 11. Uluslararası
+Denizli Malzeme Sempozyumu Bildiriler Kitabı,
+Cilt-II, 1306-1313, 19-20-21, Nisan 2006, Denizli.
+15. Sawla, S. and Das, S. “Combinet effect of
+reinforcement and heat treatment on the two
+body abrasive wear of aluminum alloy and
+aluminum particle composites”, Wear, 257,
+555-561, 2004.
+16. Lasa, L. and Rodriguez-Ibabe, J.M.. Effect of
+composition and processing route on the wear
+behaviour of Al-Si alloys. Scripta Materialia, 46,
+477-481, 2002.
+17. Sun,Y., Baydoğan, M. and Çimenoğlu, H., “The
+effect of deformation before ageing on the wear
+resistance of an aluminum alloy” Materials
+Letters, 38, 221-226, 1999.
+18. Jiang, Q.C., Xu, C.L., Lu M. and Wang, H.Y., “
+Effect of new Al-P-Ti-TiC-Y modifier on primary
+silicon in hypereutectic Al-Si alloys”, Materials
+Letters, 59, 624-628, 2005.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+

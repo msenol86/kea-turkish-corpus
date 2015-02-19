@@ -1,0 +1,1022 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 3, 607-614, 2012
+
+Journal of the Faculty of Engineering and Arcchitecture of Gazi University
+Vol 27, No 3, 607-614, 2012
+
+ASENKRON MOTORDA KAÇAK AKILARI AZALTACAK
+YARIKLI DİŞLİ YENİ BİR NÜVE TASARIMI
+Asım Gökhan YETGĠNa, Mustafa TURANb, Ali Ġhsan ÇANAKOĞLUc
+a,b
+
+Dumlupınar Üniversitesi, Mühendislik Fakültesi, Elektrik-Elektronik Mühendisliği Bölümü, Kütahya
+Sakarya Üniversitesi, Mühendislik Fakültesi, Elektrik-Elektronik Mühendisliği Bölümü, Sakarya
+agyetgin@dpu.edu.tr, turan@sakarya.edu.tr, acanakoglu@dpu.edu.tr
+c
+
+(GeliĢ/Received: 17.08.2011; Kabul/Accepted: 02.02.2012)
+ÖZET
+Asenkron motorlar endüstride yaygın bir Ģekilde kullanılmalarından dolayı birçok ülkenin enerji tüketiminde
+birinci sırada yer almaktadır. Özellikle son yıllarda asenkron motorlarda enerji tasarrufunun ön plana çıktığı
+araĢtırmalar sayesinde yapılabilecek ufak puanlı bir verim artıĢı bile küresel enerji tasarrufunda önemli bir yer
+tutacaktır. Bu bağlamda, bu çalıĢmada asenkron motorun baĢarımını artırabilmek amacıyla yeni bir nüve tasarımı
+önerilmiĢtir. Önerilen yeni tasarımlarda stator ve rotor diĢlerinin ortasına yarıklar uygulanmıĢtır. OluĢturulan
+yarıklı modellerde yarık derinliği ve geniĢliği Sonlu Elemanlar Yöntemi (S.E.Y.) kullanılarak F.E.M.M. yazılımı
+ile optimize edilmiĢtir. Önerilen yarıklı yapı ile oluĢturulan yeni motor modeli ile orijinal motor modelinden elde
+edilen doyma noktaları, akı halkalarının ve zikzak akıların değiĢimleri karĢılaĢtırmalı olarak verilmiĢtir.
+
+1. GĠRĠġ (INTRODUCTION)
+Kaçak akılar ve bu akıların oluĢturduğu reaktansların
+belirlenmesi, elektromanyetik sistemlerin tasarımında
+ilgilenilen ana konulardır. Bu akılar devrelerini nüve
+ve havadan tamamlar ve manyetik sistemlerin ideal
+olmayan davranıĢlar sergilemesine sebep olurlar [1].
+Asenkron motorlarda kaçak reaktanslar motor
+baĢarımına etki eden en önemli parametrelerden
+
+biridir. Özellikle momentin ve akımın değiĢimi
+reaktansların değiĢimine oldukça bağlıdır. ġekil 1’ de
+verilen asenkron motorun bir faz eĢdeğer devre
+modelinde X1, X2 ve Xm olmak üzere üç farklı reaktans
+mevcuttur. Analiz açısından (X1 + X2) kaçak reaktansı
+yedi farklı bileĢene ayrılır [2] ve hesaplamalarda
+stator ve rotor kaçak reaktansları stator tarafındaki X1
+reaktansında toplanmıĢtır. Stator ile rotorun kuplajı ve
+rotor akımları Xm reaktansı ile tanımlanmıĢtır.
+
+A. G. Yetkin ve Ark.
+
+Asenkron Motorda Kaçak Akıları Azaltacak Yarıklı DiĢli Yeni Bir…
+
+sonucunda hattan daha fazla akım çekilir ve bozulan
+akı eski değerine döndürülür [4].
+
+ġekil 1. Asenkron motorun bir faz eĢdeğer devresi
+(Single phase equivalent circuit of the induction motor) [3]
+ġekil 1’ de R1 stator direncini, R2 statora indirgenmiĢ
+rotor direncini, X1 stator reaktansını, X2 statora
+indirgenmiĢ rotor rekatansını, Rc demir direncini, s
+kaymayı, V1 Ģebeke gerilimini ifade etmektedir.
+a) Stator oluk kaçak reaktansı
+b) Rotor oluk kaçak reaktansı
+c) Zikzak kaçak reaktansı
+d) Eğrilik kaçak reaktansı
+e) Faz bandı kaçak reaktansı
+f) Cephe bağlantısı kaçak reaktansı
+g) Ġlave kaçak reaktans
+(c), (d), (e) Ģıkları hava aralığı kaçakları veya
+diferansiyel kaçak diye adlandırılıp hava aralığı
+harmoniklerinin neden olduğu kaçaklardır. (g) Ģıkkı
+ise diĢlerdeki azalan sekonder akım dağılımlarının
+neden olduğu, tam hızda oluĢan ilave reaktanstır.
+ġekil 2’ de asenkron motorun stator, rotor ve hava
+aralığı kısımlarında meydana gelen kaçak akı yolları
+gösterilmiĢtir.
+
+Statordaki yük akımı ve buna zıt olan rotor akımı, iki
+sargı arasındaki oluk ve diĢ baĢlarını atlayarak bir
+kaçak akı yörüngesinde akı akıĢı oluĢturacak Ģekilde
+iĢbirliği yaparlar (ġekil 2, 1, 2 ve 3 nolu çizgiler). Bu
+akılar rotor akımı arttıkça hava aralığını geçen radyal
+akıların sapmasına ve rotora giden akı / toplam stator
+akımı oranının küçülmesine yol açar. Böylece, rotor
+yüklendikçe stator akısı devresini rotordan
+tamamlamak yerine hava aralığı yüzeyinde akmaya
+baĢlar ve bu akı yük arttıkça artar. Özel bir durum
+olan ani kısa devre durumunda ise, stator akısının
+tamamı
+devresini
+hava
+aralığı
+yüzeyinden
+tamamlıyormuĢ gibi düĢünülebilir [5].
+Bu çalıĢmada, asenkron motorda manyetik akı
+azalmasını ve beraberinde baĢarımı bozan kaçak
+akıları (ġekil 2, 1, 2 ve 3 nolu çizgiler) daha yüksek
+kaliteli sac kullanmadan azaltmak için, yarıklı diĢ
+geometrisi önerilmektedir. Önerilen geometrik
+tasarım ile kaçak akıların azalacağı ve çalıĢma
+baĢarımının artacağı tahmin edilmektedir.
+ġu ana kadar yapılan literatür araĢtırmaları sonucunda
+anahtarlamalı relüktans motor, hibrid tahrik senkron
+motor ve som çelik rotorlu asenkron motorun yarıklı
+yapı kullanılarak modellendiği tespit edilmiĢtir.
+Asenkron motorda ise bu tip bir çalıĢma Ģu ana kadar
+gözlemlenmemiĢtir. Yarıklı yapı kullanılarak yapılan
+çalıĢmalardan birkaçı aĢağıda verilmiĢtir.
+Aho ve arkadaĢları çalıĢmalarında ġekil 3’ de
+gösterilen yarıklı bir yapıya sahip som çelik rotorlu
+asenkron motorun yarık derinliğinin baĢarıma olan
+etkilerini incelemiĢlerdir. Yarıklı yapıya sahip rotorun
+daha iyi bir alan dağılımı verdiğini fakat rotorun
+mekanik dayanıklılığını azalttığını, ayrıca yarıklı
+motor yapısının analitik olarak çözümünün zor
+olduğunu belirtmiĢlerdir [6].
+
+ġekil 2. Asenkron motorun kaçak akı yolları (Leakage
+flux paths of the induction motor) [2]
+Yüksüz durumda stator akımı küçük ve rotor akımı da
+pratik olarak sıfır kabul edilebileceğinden, tüm akılar
+hava aralığını geçerek stator ve rotor diĢleri üzerinden
+manyetik devrelerini tamamlarlar (ġekil 2, 4. çizgi).
+Yük altında artan rotor akımının hava aralığında
+oluĢturacağı zıt manyetomotor kuvveti (mmk)
+statorun ürettiği hava aralığı akısını azaltacak
+yöndedir. Bu doğal olarak toplam akının ve
+endüklenen gerilimin azalmasına neden olur. Bunun
+
+608
+
+ġekil 3. Yarıklı yapıdaki som çelik rotorlu asenkron
+motor (Solid rotor induction motor with slitted construction)
+Chan ve Hamid çalıĢmalarında S.E.Y. kullanarak
+anahtarlamalı
+relüktans
+motor
+modelini
+incelemiĢlerdir. ÇalıĢmada ġekil 4’ de verilen
+motorun rotor yapısına değiĢik sayıda yarık açarak
+akım, moment ve manyetik akı yoğunluğu
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 3, 2012
+
+Asenkron Motorda Kaçak Akıları Azaltacak Yarıklı DiĢli Yeni Bir…
+
+değiĢimlerini incelemiĢlerdir. BeĢ yarıklı motor
+modeli için hem akım hem de moment grafiklerinde
+tepesi düz bir dalga formu elde edildiğini ve çıkıĢ
+gücünün % 16 oranında arttığını (akımın tepe değeri
+artmadan) belirtmiĢlerdir. Ayrıca yarık sayısı
+değiĢtirilerek
+rotordaki
+doymanın
+kontrol
+edilebileceğini ifade etmiĢlerdir [7].
+
+ġekil 4. Yarıklı yapıdaki anahtarlamalı relüktans
+motor (Switched reluctance motor with slitted construction)
+Li ve arkadaĢları çalıĢmalarında hibrid tahrik senkron
+makinasında meydana gelen endüvi reaksiyonunu
+önlemek amacıyla yarıklı yapı modelini önermiĢlerdir.
+Amaç akı yolunu daha uzun yaparak endüvi
+reaksiyonunun etkisini azaltmaktır. Önerilen yöntem
+ile
+endüvi
+reaksiyonunun
+azaltılabileceğini
+belirtmiĢlerdir [8].
+Gessese ve Binder çalıĢmalarında 2 ve 4 kutuplu som
+çelik rotorlu asenkron motorların baĢarımını sayısal
+olarak analiz etmiĢ ve aynı hacimdeki sabit mıknatıslı
+senkron relüktans motorunun ölçülmüĢ baĢarımı ile
+karĢılaĢtırılmıĢtır. Üç fazlı, 4 kutuplu, eksenel yarıklı,
+bakır kısa devre halkaları kullanılmıĢ örnek bir som
+çelik rotorlu asenkron motor imal edip, test
+etmiĢlerdir. Benzetim sonuçları 2 kutuplu som çelik
+rotorlu asenkron motorun 4 kutuplu motora göre daha
+büyük özgül momente sahip olduğunu göstermiĢlerdir
+[9].
+2. SONLU ELEMANLAR YÖNTEMĠ (FINITE
+ELEMENT METHOD)
+Sonlu Elemanlar Yöntemi (S.E.Y.); elektrik
+makineleri ve benzeri araçlardaki elektromanyetik
+olayları analiz etmek için kendini kanıtlamıĢ sayısal
+bir araçtır. Bu yöntem hava aralığı akı yoğunluğu gibi,
+makinenin herhangi bir noktasındaki manyetik
+büyüklüklerin tam olarak değerlendirilmesine olanak
+tanır [10].
+Elektromanyetik
+problemlerde
+amaç,
+alan
+dağılımlarını belirleyerek buna bağlı olan diğer fiziki
+büyüklüklere ulaĢmaktır. Tasarım aĢamasında bu
+önemli bir noktadır. Elektrik motorlarının tasarımında
+ve iyileĢtirilmesinde de alan dağılımlarını hesaplamak
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 3, 2012
+
+A. G. Yetkin ve Ark.
+
+veya bir Ģekilde ulaĢılmak istenen büyüklükleri
+ölçmek gerekir. Ancak, modelin imalat safhasından
+sonra sonuç elde etmek, esnek bir tasarım yöntemi
+olmayacaktır. Zaman ve maliyet kaybına yol
+açacaktır. Motorun modeli kâğıt üzerinde tasarlandığı
+anda gerekli hesapların ve ölçmelerin yapılabilmesi
+gerekir. Bunun için analitik yöntemler kullanılabilir.
+Ancak geometri analitik çözümü bilinen tarzlara
+uymuyorsa veya karmaĢıksa sayısal hesaplama
+yöntemlerinden faydalanılır [11].
+Hangi yöntem ile çalıĢmanın uygun olacağına karar
+vermede, problem için en kısa sürede en doğru sonuca
+ulaĢma,
+kolay programlanabilme
+ve
+kolay
+kullanılabilme özelikleri etkilidir [12]. Son yıllarda
+sayısal yöntemlerin ve bilgisayarların geliĢmesi ile
+elektrik
+makinalarındaki
+manyetik
+alanların
+hesaplanması için sonlu elemanlar yöntemini
+kullanmak pratik bir hale gelmiĢtir [13]. S.E.Y. ile
+karmaĢık geometrilere sahip makinelerde manyetik
+doyma, endüvi reaksiyonunun etkisi, girdap akımları
+etkisi gibi etkiler göz ardı edilmeden manyetik alan
+büyüklükleri ve tasarım ölçütleri doğru biçimde
+belirlenebilmektedir [14].
+Bu çalıĢmada orijinal motor ve önerilen yarıklı motor
+modellerinin analizleri için 2 boyutlu, lineer olmayan,
+zaman adımlı sonlu elemanlar yöntemini kullanan
+F.E.M.M. [15] paket programı kullanılmıĢtır.
+Hareketli kısımların etkisini inceleyebilmek için
+zaman adımlı analiz seçilmiĢtir. 2 boyutlu analizde
+rotorun statora göre olan hareketliliği ancak bu
+Ģekilde göz önüne alınabilir [6].
+Kartezyen koordinat sisteminde bir asenkron motorun
+elektromanyetik alanı manyetik vektör potansiyeli (A)
+ile tanımlanabilir [16].
+ A 
+   A      J
+ t 
+
+(1)
+
+Ġfade de υ manyetik relüktivite, σ elektriksel
+geçirgenlik, t zaman ve J akım yoğunluğunu ifade
+etmektedir.
+Analizler iki boyutlu yapılacağından manyetik vektör
+potansiyelin ve J akım yoğunluğu vektörünün sadece
+z bileĢenleri vardır. Dolayısıyla A sadece x ve y’ nin
+fonksiyonudur.
+Kaynak
+vektörü
+sinüzoidal
+olduğundan aĢağıdaki Ģekilde tanımlanır [17].
+J  J cos  t
+
+(2)
+
+Dolayısıyla vektör potansiyel de aĢağıdaki formda
+olur.
+
+A  A cos  t   
+
+(3)
+
+609
+
+Asenkron Motorda Kaçak Akıları Azaltacak Yarıklı DiĢli Yeni Bir…
+
+A. G. Yetkin ve Ark.
+
+Bu ifadelerde kaynak akım değerlerinin ve çözüm
+sonucunda elde edilen vektör potansiyel değerlerinin
+karmaĢık sayı olacağı görülür ve genliği ile açısı
+aĢağıdaki gibi tanımlanır.
+A  ( AR ) 2  ( AI ) 2
+
+(4)
+
+ AI 
+  tan 1  R 
+A 
+
+
+
+(5)
+
+Modellemelerde tam geometri ele alındığından stator
+dıĢ sınırında homojen Dirichlet sınır Ģartı tanımlıdır.
+A0
+
+(6)
+
+Galerkin yöntemi kullanılarak (1) eĢitliği için ağırlıklı
+Rezidüler teoremine göre aĢağıdaki biçim elde edilir
+[17].
+A
+ WAd  W
+d  W (i A  J ) d  0
+n
+
+
+
+
+
+
+
+
+
+
+
+(7)
+
+
+
+Elde edilen bu denklem ile bir eleman üzerindeki
+vektör potansiyel aĢağıdaki Ģekilde belirtilebilir.
+
+Ae 
+
+ Ni Ai
+
+(8)
+
+(7) ifadesinde Wi  N i alınarak S.E.Y. için ayrık
+form aĢağıdaki Ģekilde elde edilir [17].
+
+
+Ni Ni Ni Ni
+
+)dxdy
+(
+x x
+y y
+e
+
+(9)
+
+
+i   Ni N j dxdy  Ai   N i Jdxdy
+e
+e
+
+Ni ve Nj değerleri eleman enterpolasyon
+fonksiyonlarıdır. Üçgen elemanlar kullanılması
+durumunda (9) ifadesinden yola çıkılarak S.E.Y. için
+kapalı formda eĢitlik aĢağıdaki Ģekilde elde edilir [17].
+
+pij  jqij  Ai   fi  jgi
+
+(10)
+
+Kapalı form için pij, qij, fi ve gi aĢağıdaki Ģekilde
+hesaplanır.
+pi j 
+
+1
+(bi b j  ci c j )
+4 A
+
+(11)
+
+ 2 1 1
+A  
+
+qi j    Ni N j dxdy 
+1 2 1 (12)
+12
+e
+1 1 2
+
+
+1
+fi  A J R
+3
+(13)
+1
+gi  A J I
+3
+JR ve JI, J vektörünün gerçek ve sanal kısımlarıdır.
+Sonuç olarak bir eleman için katsayılar matrisi,
+   olmak üzere aĢağıdaki Ģekilde yazılır [17].
+
+(3(b12  c12 )  2i A2 ) (3(b1b2  c1c2 )  i A2 ) (3(b1b3  c1c3 )  i A2 )
+
+
+
+2
+2
+2
+2
+(3(b2  c2 )  2i A ) (3(b2b3  c2c3 )  i A ) 
+
+
+2
+( simetrik )
+(3(b32  c3 )  2i A2 ) 
+
+
+
+(14)
+
+Eleman matrislerinin simetrik olduğu görülmektedir. Bu iĢlemlerden sonra sonlu eleman ağındaki elemanların
+birleĢtirilmesi yapılır ve istenilen büyüklükler elde edilir.
+3. ÖNERĠLEN
+
+YARIKLI
+
+YAPI
+
+(PROPOSED
+
+SLITTED CONSTRUCTION)
+
+Asenkron motorda manyetik akı azalmasını ve
+beraberinde baĢarımı bozan kaçak akıları, daha
+yüksek kaliteli sac kullanmadan azaltmak için yeni bir
+diĢ geometrisi önerilmektedir. Önerilen geometrik
+tasarım ile kaçak akıların azalacağı, faydalı akının
+artacağı ve çalıĢma baĢarımının iyileĢeceği
+öngörülmüĢtür.
+Modellemelerde kullanılan asenkron
+özellikleri Tablo 1’ de verilmiĢtir.
+
+motorun
+
+Tablo 1. Asenkron motor parametreleri (Parameters of
+the induction motor)
+Sembol
+Pn
+U1
+
+Değer
+3
+380
+
+Nominal Akım [A]
+Bağlantı ġekli
+
+In
+
+6,63
+Yıldız
+
+Frekans [Hz]
+Faz Sayısı
+
+f1
+m
+
+50
+3
+
+Güç Faktörü
+
+Cosφ
+
+0,88
+
+η
+nr
+
+78
+2844
+
+Motor Parametreleri
+Nominal Güç [kW]
+Nominal Gerilim [V]
+
+Verim [%]
+Rotor Devir Sayısı [d/d]
+
+610
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 3, 2012
+
+Asenkron Motorda Kaçak Akıları Azaltacak Yarıklı DiĢli Yeni Bir…
+
+F.E.M.M. programında analizleri yapılan orijinal
+motor modeli ġekil 5’ de, önerilen yarıklı yapının
+uygulandığı motor modeli ise ġekil 6’ da verilmiĢtir.
+Stator ve rotor oluk geometrileri, iç-dıĢ çap, sipir
+
+A. G. Yetkin ve Ark.
+
+Yapılan değiĢik modellemeler sonucunda önerilen
+yarıklı motor modellerinde kullanılan yarıkların
+derinliğinin stator ve rotor oluk yüksekliğinde; yarık
+geniĢliğinin ise gerek diĢlerde oluĢabilecek doymanın
+
+ġekil 5. Orijinal motor modeli (The original motor model)
+
+ġekil 6. Önerilen yarıklı motor modeli (Proposed slitted motor model)
+
+sayıları vb. parametreler değiĢtirilmeden her iki motor
+modeli için aynı değerlerin kullanılmasıyla analizler
+gerçekleĢtirilmiĢtir. Elde edilen sonuçlar ve grafikler
+nominal çalıĢma noktası için verilmiĢtir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 3, 2012
+
+önlenebilmesi ve gerekse zikzak kaçakları azaltmada
+en uygun değer olan 0,1 mm olarak belirlenmiĢtir
+[18].
+
+611
+
+Asenkron Motorda Kaçak Akıları Azaltacak Yarıklı DiĢli Yeni Bir…
+
+A. G. Yetkin ve Ark.
+
+ġekil 7. Orijinal motor modelinde oluĢan zikzak akılar (Zigzag flux occurring in the original motor model) [18]
+
+ġekil 8. Önerilen yarıklı motor modelinde oluĢan zikzak akılar ( Zigzag flux occurring in the proposed slitted motor
+model) [18]
+ġekil 7’ de orijinal motor modelinden, ġekil 8’ de ise
+önerilen yarıklı yapıdaki motor modelinden elde
+edilen alan dağılımı ve hava aralığı civarında
+meydana gelen zikzak akılar gösterilmiĢtir.
+Yarıklı yapıdaki motor modelindeki alan dağılımı
+incelendiğinde hava aralığındaki zikzak akıların hava
+aralığı boyunca izlediği yolun kısalması sonucu
+azaldığı görülmektedir.
+Tablo 2’ de motor modellerine ait zikzak permeans
+değerleri ve bağıl fark değeri verilmiĢtir. Kullanılan
+yarıklı yapı ile statordan hava aralığına geçen ve hava
+aralığından devresini tamamlayan zikzak akıların,
+hava aralığında dolaĢmak yerine direkt olarak rotor
+nüvesinden devresini tamamlamaları nedeniyle zikzak
+permeans değerinde % 6,123 oranında bir iyileĢme
+meydana geldiği görülmektedir.
+
+rotor kaçak endüktanslarının toplam değerleri ve bağıl
+fark değeri verilmiĢtir. Önerilen yarıklı yapı ile stator
+ve rotor kaçak endüktans değerinde % 2,460 oranında
+bir azama meydana geldiği görülmektedir.
+Tablo 3. Stator ve rotor kaçak endüktans değerleri
+(The values of stator and rotor leakage inductance) [18]
+Motor
+Parametreleri
+
+Orijinal
+Motor
+[mH]
+
+Yarıklı
+Motor
+[mH]
+
+Bağıl
+Fark
+[%]
+
+Stator ve Rotor
+Kaçak Endüktansı
+(L1+L2)
+
+1,016
+
+0,991
+
+-2,460
+
+Tablo 2. Zikzak permeans değerleri (The values of zigzag
+permeance) [18]
+Motor
+Parametreleri
+
+Orijinal
+Motor
+[Wb/A.T]
+
+Yarıklı
+Motor
+[Wb/A.T]
+
+Bağıl
+Fark
+[%]
+
+Zikzak
+Permeans (λz)
+
+0,5095
+
+0,4783
+
+-6,123
+
+Tablo 3’ de motor modellerinden F.E.M.M.
+programında analizler sonucu elde edilmiĢ stator ve
+612
+
+ġekil 9. Manyetik akı yoğunluğu ve faydalı akı
+değerlerinin belirlenmesi için stator ve rotor diĢ ile
+boyunduruk kısımlarında belirlenen noktalar (The
+points defined in stator, rotor and yoke parts in order to determine
+magnetic flux density and coupling flux values)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 3, 2012
+
+Asenkron Motorda Kaçak Akıları Azaltacak Yarıklı DiĢli Yeni Bir…
+
+Tablo 4’ de orijinal ve yarıklı motor modellerinin
+ġekil 9’ da gösterilen noktalarda (hava aralığı, rotor
+diĢleri ve rotor boyunduruk kısımlarında) meydana
+gelen faydalı akı değerleri ve orijinal motor modeline
+göre bağıl fark değerleri verilmiĢtir.
+
+A. G. Yetkin ve Ark.
+
+Tablo 6. Orijinal ve yarıklı motor modellerinin stator
+ve rotor diĢ ile boyunduruk kısımlarında meydana
+gelen manyetik akı yoğunlukları (Magnetic field densities
+which occur in stator, rotor and yoke parts of the original and the
+slitted motor models) [18]
+
+3.9, 41.9
+
+Orijinal
+Motor
+[T]
+1,37567
+
+Yarıklı
+Motor
+[T]
+1,31426
+
+-4,439
+
+2
+
+-17.94, 56.29
+
+2,23826
+
+2,15681
+
+-3,638
+
+3
+
+14.7, 41.6
+
+2,31346
+
+2,29108
+
+-0,967
+
+4
+
+-14.65, 40.31
+
+1,74266
+
+1,69845
+
+-2,536
+
+Tablo 4. Orijinal ve yarıklı motor modellerinden elde
+edilen faydalı akı ve bağıl fark değerleri (The values of
+
+Noktalar
+
+coupling flux and relative difference obtained from the original and
+the slitted motor models) [18]
+
+Koordinatlar
+(x, y) [mm]
+
+1
+
+Noktalar
+a
+
+Koordinatlar
+(x, y) [mm]
+-4.2, 22.1
+
+Faydalı Akı [mWb]
+Orijinal
+Yarıklı
+Motor
+Motor
+0,934937 0,954496
+
+Bağıl
+Fark
+[%]
+
+Bağıl
+Fark
+[%]
+
+2,092
+
+5
+
+-0.5, 44.1
+
+1,28409
+
+0,77348
+
+-39,763
+
+6
+
+-11.99, 25.96
+
+0,98742
+
+0,92347
+
+-6,476
+
+b
+
+-21.7, 10.6
+
+0,973707
+
+0,976006
+
+0,236
+
+c
+
+32.9, 12.3
+
+1,229049
+
+1,307770
+
+6,405
+
+d
+
+-16.9, 30.7
+
+1,363618
+
+1,392062
+
+2,085
+
+e
+
+4.28, 43.28
+
+1,275455
+
+1,293198
+
+1,391
+
+f
+
+-27.6, 32.9
+
+1,355180
+
+1,369690
+
+1,070
+
+ÇeĢitli koordinat noktalarında elde edilen faydalı akı
+değerlerine göre yarıklı yapıdaki motor modelinde
+meydana gelen faydalı akı değerleri orijinal motor
+modeline göre ortalama olarak % 2,041 oranında bir
+artıĢ göstermektedir. Yarıklı yapıdaki motor
+modelinde zikzak akıların azalması ile hava
+aralığından rotor kısmına geçen akı çizgilerinin
+sayısında bir artıĢın meydana gelmiĢ olması faydalı
+akının artmasında rol oynamıĢtır.
+Tablo 5’ de motor modellerine ait mıknatıslanma
+endüktans değerleri ve bağıl fark değeri verilmiĢtir.
+Önerilen yarıklı yapı sayesinde faydalı akıda meydana
+gelen artıĢ nedeniyle mıknatıslanma endüktansı da
+artmıĢtır.
+Tablo 5. Mıknatıslanma endüktansı değerleri (The
+values of magnetizing inductance) [18]
+Motor
+Parametreleri
+
+Orijinal
+Motor
+[mH]
+
+Yarıklı
+Motor
+[mH]
+
+Bağıl
+Fark
+[%]
+
+Mıknatıslanma
+Endüktansı (Lm)
+
+0,435345
+
+0,454349
+
+4,365
+
+Stator ve rotor diĢleri ile boyunduruk kısımlarında
+meydana gelen manyetik akı yoğunluklarının ġekil 9’
+da gösterilen noktalarda elde edilen değerleri orijinal
+ve yarıklı yapıdaki motor modelleri için Tablo 6’ da
+verilmiĢtir.
+
+Tablo 6’ dan görüleceği üzere motor modellerinden
+çeĢitli noktalarda alınan manyetik akı yoğunluk
+değerlerinde
+önerilen
+yapı
+ile
+doymaların
+önlenebileceği ve motorda özellikle oluk diplerinde
+meydana gelen akı yığılmalarının engellenebileceği
+görülmektedir.
+4. SONUÇ (CONCLUSION)
+Bu çalıĢmada asenkron motorda oluĢan zikzak
+akıların azaltılması ve oluk diplerinde meydana gelen
+doymaların önlenebilmesi amacıyla yeni bir diĢ
+geometrisi önerilmiĢtir. Önerilen geometri ile yeniden
+oluĢturulan motor modelleri sonlu elemanlar
+yöntemini kullanan F.E.M.M. paket programı ile
+analiz edilmiĢ ve aĢağıdaki sonuçlar elde edilmiĢtir.
+Asenkron motorda endüklenen moment, rotor direnci
+ile doğru orantılı iken, stator ve rotor kaçak
+reaktansları ile ters orantılıdır. Aynı çıkıĢ katsayısına
+sahip motorda elde edilecek moment iyileĢtirilmesi,
+oluĢacak kaçak reaktansların azaltılmasına bağlıdır.
+Stator ve rotor oluk geometrilerini değiĢtirmeden,
+nüveye açılan yarıklar sayesinde oluĢturulan kaçak akı
+koĢullanması ile kaçak reaktansların azaltılması
+yoluna gidilmiĢtir. Bu sayede stator ve rotor kaçak
+endüktanslarında meydana gelen toplam % 2,460
+oranındaki azalma, asenkron motorun nominal
+moment değerinde yaklaĢık % 4 civarında bir
+iyileĢme sağlamıĢtır. Bunun sonucu olarak motor
+baĢarımı (çıkıĢ gücü, verim vb.) üzerinde olumlu
+yönde bir etki sağlanmıĢtır. Ayrıca mıknatıslanma
+endüktansında elde edilen % 4,365’ lik artıĢ sayesinde
+mıknatıslama akımının genliğinin azalacağı ve bu
+durumun da motor baĢarımı üzerinde pozitif bir yarar
+sağlayacağı görülmektedir.
+Önerilen yarıklar zikzak akı yollarına relüktans teĢkil
+etmiĢ, zikzak permeans değerinde % 6,123’ lük
+azalma elde edilmiĢtir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 3, 2012
+
+613
+
+A. G. Yetkin ve Ark.
+
+Ayrıca hava aralığındaki zikzak akıların azalması
+sonucunda, statorda üretilen akı yeniden yönlenerek
+faydalı akıda % 2,041 oranında artma elde edilmiĢtir.
+Akı koĢullanması ve yeni yönlendirmeler nedeniyle
+nüve üzerindeki akı yoğunluklarında daha iyi bir
+dağılım elde edilmiĢtir. Akı yoğunlukları açısından
+bakıldığında, elde edilen noktasal ölçümlerden,
+orijinal motora göre daha az zorlanma olduğunu
+göstermiĢtir.
+Bundan sora yapılacak çalıĢmalarda yarıklı yapı
+modelinin motor baĢarımına (moment, verim) nasıl
+etki edeceği, yarık derinliğinin ve geniĢliğinin en
+uygun değerleri ve baĢarıma etkileri araĢtırılacaktır.
+
+Asenkron Motorda Kaçak Akıları Azaltacak Yarıklı DiĢli Yeni Bir…
+
+8.
+
+9.
+
+10.
+
+Bu çalıĢma Sakarya Üniversitesi 2006–50–02–061
+numaralı BAP projesi tarafından desteklenmiĢtir.
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+614
+
+FAGHIHI, F., HEYDARI, H., Reduction of
+Leakage Magnetic Field in Electromagnetic
+Systems Based on Active Shielding Concept
+Verified by Eigenvalue Analysis, Progress in
+Electromagnetics Research, PIER 96, 217236, 2009.
+ALGER, P., L., The Nature of Polyphase
+Induction Machines, Wiley, Newyork, 397,
+1951.
+ANSARI, A., A., DESHPANDE, D., M.,
+Mathematical Model of Asynchronous Machine
+in MATLAB Simulink, International Journal
+of Engineering Science and Technology, Vol.
+2, No. 5, 1260-1267, 2010.
+TURAN,
+M.,
+Asenkron
+Makinanın
+GeliĢtirilmiĢ Uzay Harmonik Modelinde
+Harmonik Reaktans ve Momentlerin Hesabı,
+Yüksek Lisans, Sakarya Üniversitesi, Fen
+Bilimleri Enstitüsü, 1996, ss 97, Sakarya, 1996.
+ĠKĠZLĠ, O., Elektrik Makinalarında Dağılma,
+Kayıplar ve Isınmanın Hesapları, Ġstanbul
+Teknik Üniversitesi Matbaası, 1962.
+AHO, T., NERG, J., PYRHONEN, J., Influence
+of Rotor Slit Depth on the Performance of the
+Solid Rotor Induction Motor, Energy Efficiency
+in Motor Driven Systems Conference
+Proceedings, Vol. 1, 81–89, 5–8 Sep, 2005.
+CHAN, S., HAMID, M., N., Finite Element
+Study on a Two-Phase Switched Reluctance
+Motor with Split Rotor Poles, Power
+Electronics and Drives Systems PEDS 2005
+International Conference, 1156-1160, 28-01
+Nov-Dec, 2005.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+16.
+
+17.
+
+18.
+
+LI, L., FOGGIA, A., LEBOUC, A., K., MIPO,
+J., C., KOBYLANSKY, L., Some Armature
+Reaction Compensation Methods Numerical
+Design of Experiments and Optimization for a
+Hybrid Excitation Machine, International
+Electric Machines and Drives Conference
+IEEE IEMDC2009, 7, 3-6 May, 2009.
+GESSESE, Y., BINDER, A., Axially Slitted,
+High-Speed Solid-Rotor Induction Motor
+Technology with Copper End-Rings, Electrical
+Machines and Systems, ICEMS 2009,
+International Conference, p 6, 15-18 Nov,
+2009.
+SARAC, V., STEFANOV, G., Calculation of
+Electromagnetic Fields in Electrical Machines
+using Finite Elements Method, International
+Journal of Engineering and Industries, Vol. 2,
+No. 1, pp 21-29, March, 2011.
+SELÇUK,
+A.,
+H.,
+Lineer
+Asenkron
+Motorlarda Uç Etkilerinin Sonlu Elemanlar
+Yöntemiyle Ġncelenmesi, Doktora Tezi, Fırat
+Üniversitesi, Fen Bilimleri Enstitüsü, 2003, ss
+108, Elazığ, 2003.
+ÜMÜTLÜ, E., Doğru Akım Motorlarının
+Sonlu Elemanlar Metodu ile Analizi, Yüksek
+Lisans, Gazi Üniversitesi Fen Bilimleri
+Enstitüsü, 1998, ss 81, Ankara, 1998.
+HO, S., L., FU, W., N., Review and Future
+Application of Finite Element Methods in
+Induction Motors, Electric Machines and
+Power Systems, Vol.26, 111-125, 1998.
+ġENLĠK, Ġ., ÖNBĠLGĠN, G., COPCUOĞLU,
+O.,
+Electromagnetic
+Field
+Study
+and
+Performance Characteristics of Solid Steel Rotor
+Induction Machines, J. Fac. Eng. Arch. Gazi
+Univ., Vol. 26, No. 2, pp 447-454, 2011.
+MEEKER, D., F.E.M.M. (Finite Element
+Method Magnetic), www.femm.info, 2011.
+[16]
+AHO, T., SIHVO, V., NERG, J.,
+PYRHONEN, J., Rotor Materials for MediumSpeed Solid-Rotor Induction Motors, IEEE,
+525-530, 2007.
+BINNS, K., J., LAWRENSON, P., J.,
+TROWBRIDGE, C., W., The Analytical and
+Numerical Solution of Electric and Magnetic
+Fields, John Wiley and Songs, 470, 1992.
+YETGĠN, A., G., Yarıklı Nüve Tasarımı ile
+Asenkron
+Motor
+Performansının
+ĠyileĢtirilmesi,
+Doktora
+Tezi,
+Sakarya
+Üniversitesi, Fen Bilimleri Enstitüsü, 2010, ss
+110, Sakarya, 2010.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 3, 2012
+
+

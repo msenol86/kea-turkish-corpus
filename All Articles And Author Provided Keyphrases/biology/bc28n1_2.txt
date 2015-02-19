@@ -1,0 +1,980 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 1, 209-215, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 1, 209-215, 2013
+
+ALKALEN FOSFATAZ (ALP) ENZİMİNİN ÖZÜTLENMESİ,
+İNHİBİSYONU VE KİNETİK MODELLENMESİ
+Zahide Esra DURAK, Metin GÜRÜ
+Gazi Üniversitesi, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü 06570-Maltepe, ANKARA/TÜRKİYE
+zaesrad@hotmail.com, mguru@gazi.edu.tr
+(Geliş/Received: 28.12.2012; Kabul/Accepted: 14.02.2013)
+ÖZET
+Bu çalışma, sıçan karaciğerinden özütlenen alkalen fosfataz (ALP) enziminin kısmen özütlenmesini, inhibitörsüz
+ve inhibitör varlığında kinetik özelliklerinin araştırılmasını kapsamaktadır. Deneysel sonuçlar yardımıyla
+Michaelis Menten ve Lineweaver Burk grafikleri çizildi. Bu grafiklerden Km ve Vmax değerleri hesaplandı.
+Değerler: İnhibitörsüz Km= 0,047 Vmax=24,87; Üre inhibitörlü Km= 0,054 Vmax=20,83 ; Kreatinin inhibitörlü Km=
+0,037 Vmax=20,83 olarak hesaplanmıştır. Bu değerlere göre enzimin substrata ilgisi ve maksimum hız tespit
+edildi. İnhibitör maddeyle deneyler tekrarlandı ve inhibisyon tipi belirlendi. Kandaki yüksek üre ve kreatinin
+seviyesinin alkalen fosfataz enzimini nasıl etkilediği bulundu. Kandaki ALP (Alkalen Fosfataz) üzerinde ürenin
+inhibitör olarak kullanıldığı çalışmada reaksiyonun yarışmasız (nonkompetetif) bir reaksiyon, kreatininin
+inhibitör olarak kullanıldığı çalışmada ise reaksiyonun yarışmacı olmayan (unkompetetif) bir reaksiyonla
+gerçekleştiği tespit edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+ALP (Alkalen fosfataz enzimi) doğada yaygın olarak
+bulunmaktadır. İnsanlardan bakterilere kadar bütün
+türlerde varlığını sürdürmektedir. Bu durum, söz
+konusu enzimin biyokimyasal reaksiyonlarda önemli
+olduğunu göstermektedir [1,2]. Yapılan bazı
+araştırmalarda embriyonik hücre migrasyonunda
+ALP'ın rolü olabileceği gösterilmiştir. Özellikle
+uzun zincirli yağ asitlerinden zengin diyetle
+beslenmede bağırsak alkalen fosfataz enziminin
+
+artması ve lipid konsantrasyonu ile bağırsak alkalen
+fosfataz enziminin aktivitesi arasında bir
+korelasyonun olması, lipid transportunda bağırsak
+alkalen fosfataz enziminin bir rolü olabileceğini
+düşündürmektedir [3].
+Laboratuvar şartlarındaki çalışmalarda fosfatın geri
+alınmasının doğrudan inhibe edilememesi, ALP'ın
+fosfat transportunda indirek rolü olduğunu
+göstermektedir.
+Bağırsak
+hücrelerinde
+Pi
+transportunun ALP aktivitesine bağlı olarak
+
+Z. E. Durak ve M. Gürü
+
+Alkelen Fosataz (ALP) Enziminin Özütlenmesi, İnhibisyonu ve Kinetik Modellenmesi
+
+değişmesi enzimin böbrek ve bağırsak fosfat
+transportunu düzenleyebileceğini göstermektedir
+[4,5]. Bağırsaklarda kalsiyum emilimi ile ALP artışı
+paralel gitmektedir. D vitamini alınması ile bağırsak
+ALP enziminde 2-3 kat artma görülmektedir [6].
+Plasental ALP enziminin, fetusa antikorların
+geçişinde görev aldıkları iddia edilmiştir [7].
+Pankreatik kanalların mutasyonu ile ortaya çıkan
+kistik fibrosisde levamisol gibi ALP aktivitesini
+azaltan ilaçlar kullanılarak kanalların açıldığı öne
+sürülmüştür [8]. ALP beyin mikro damarlarındaki
+ana enzimlerden biridir. İnsülinin beyin ALP
+aktivitesini
+belirgin
+şekilde
+inhibe
+ettiği
+gösterilmiştir. ALP'ın insülin ile kan-beyin
+bariyerini düzenleyen anahtar enzim olabileceği
+düşünülmektedir
+[9,10].
+Hansen-Smith
+ve
+arkadaşları ALP enziminin azlığı ve yokluğunda
+kalp ve iskelet kaslarında hipoksik bölgeler
+oluştuğunu göstermişlerdir [11]. ALP'ın en önemli
+rolü iskelet mineralizasyonu üzerinedir. Kemik ALP
+aktivitesinin en yüksek olduğu yer osteoblastların
+(kemik yapım hücresi) plazma membranıdır [12].
+
+atıldı ve üst kısımdaki enzimleri barındıran kısım
+çalışmaların devamı için 9 ml olarak ayrıldı. Bu
+kısımdan yağları uzaklaştırmak için homojenizatörde
+15 ml koloroform-9 ml etanol karışımı ile muamele
+edildi ve 3500 devir/dakika hızda santrifüj edildi.
+Oluşan iki fazdan alttaki kısım kloroform fazı, üstteki
+kısım ise etanol-su fazı olarak ayrıldı. Proteinler
+etanol-su fazına geçerken, yağlar kloroform fazına
+geçerek
+uzaklaştırılmış
+oldu.
+Farklı
+konsantrasyonlarda
+substrat
+çözeltilerinin
+hazırlanması Tablo 1 de verilmektedir. ALP enzim
+aktivitesi Bessey-Lowry’nin tarif ettiği metodla
+aşağıdaki tabloda belirtildiği şekilde yapılmıştır.
+Tablo 1. Farklı konsantrasyonlarda substrat
+çözeltilerinin hazırlanması (Preperation of substrate
+solutions at different concentrations.).
+
+2. MATERYAL VE METOT
+
+(MATERIAL AND
+
+METHOD)
+
+Deneysel çalışmada; Waring Blender, Sorval
+Superspeed S1 Santrifüj, Sanyo Harrier 18/80
+Soğutucu Santrifüj, Heldolph Manyetik Karıştırıcı,
+Grant CB2 50 Z Su Banyosu, Derin Dondurucu ve
+Unicam-UV Visible Spektrofotometre kullanıldı.
+Çalışmada kullanılan kloroform, etanol ve NaCl
+Merck firmasından satın alındı.
+İki ana bölümde yapılan çalışmaların ilk bölümünde
+alkalen fosfataz enzimi karaciğerden izole edilerek
+kısmen saflaştırıldı. İkinci bölümde ise saflaştırılan
+enzimin Michaelis-Menten ve Lineweaver-Burk
+grafikleri çizilerek Km ve Vmax değerleri hesaplandı.
+İnhibitörün enzimin kinetik davranışına karşı etkisi
+araştırıldı.
+Buz içerisinde muhafaza edilen karaciğerden 4,2 g
+alınarak 8 ml serum fizyolojik (% 8,75 lik NaCl
+çözeltisi) içerisinde 3500 devirde 10 dakika
+homojenize edildi. Santrifüj sonucu dibe çöken kısım
+
+210
+
+Tüp1
+0,1
+mM
+
+Tüp2
+0,3
+mM
+
+Tüp3
+1 mM
+
+Tüp4
+3 mM
+
+Tüp5
+5 mM
+
+Substrat
+
+ALP izoenzimleri değişik metotlar kullanılarak
+birbirinden
+ayrılabilir.
+Bunlar
+elektroforez,
+kromotografi, sıcaklık, üre, L-fenilalanin ile
+inhibisyon gibi metotlardır.
+Bu çalışmanın amacı; kandaki yüksek üre ve
+kreatinin seviyesinin alkalen fosfataz enzimini nasıl
+etkilediğini
+belirlemek
+üzere,
+karaciğerden
+özütlenen ALP ‘in, aktivasyonu ve inhibisyonunun
+Michaelis-Menten ve Lineweaver-Burk eşitliklerinin
+oluşturulmasıyla incelemektir.
+
+Özellik
+Son Tüpteki
+substrat
+(Adenozin)
+Konsantrasy
+onu
+
+0,1
+mL
+9,7
+mL
+0,1
+mL
+
+0,3
+mL
+9,3
+mL
+0,1m
+L
+
+1 mL
+
+3 mL
+
+5 mL
+
+7,9
+mL
+0,1
+mL
+
+2 mL
+
+-
+
+0,1
+mL
+
+0,1
+mL
+
+Distile Su
+Serum
+
+Bu setler 1 saat 37 oC su banyosunda bekletildi. Her
+tüpe TCA (trikloroasetik asit) konularak protein
+çöktürüldü ve süzüldü. Çalışmaya süzüntüden devam
+edildi. Böylece proteinler uzaklaştırılmış oldu. Tablo
+2 de verilen madde miktarları her tüpe ilave edldi ve
+15 dakika bekletilerek renk değişimi gözlendi. Herbir
+tüpün absorbansı distile suya karşı 630 nm de
+spektrofotometrik olarak ölçülmüştür.
+Enzim aktivitesi ADA Aktivitesi= [(ODnumune –
+ODnumune körü)] / [(ODstandart – ODstandart körü)] x 50
+formülüne göre önce internasyonel ünite olarak (IU:
+µmol/dk), sonra her bir numunenin protein miktarına
+(mg/mL) bölünerek spesifik aktivite cinsinden (IU/mg
+protein) verilmiştir.
+Tablo 2. Spektrofotometrik ölçümler için kullanılan
+reaktifler (Reagents for spectrophotometric measurements)
+Özellik
+
+Tüp1
+
+Tüp2
+
+Tüp3
+
+Tüp4
+
+Tüp5
+
+Süzüntü
+
+2 mL
+
+2mL
+
+2mL
+
+2mL
+
+2mL
+
+Askorbik Asit
+
+0,5
+mL
+
+1mL
+
+2mL
+
+1mL
+
+1mL
+
+Sulfomolibdik
+Reaktifi
+
+1 mL
+
+1mL
+
+1mL
+
+1mL
+
+1mL
+
+Numunelerdeki protein miktarı Lowry metoduna göre
+spektrofotometrik olarak tayin edildi. Metodun
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Alkelen Fosataz (ALP) Enziminin Özütlenmesi, İnhibisyonu ve Kinetik Modellenmesi
+
+prensibi alkali ortamda peptidlerin (proteinlerin) Cu2+
+iyonları ile kompleks yapması esasına dayanmaktadır
+ve bu kompleks 600-700 nm de maksimum absorbans
+vermektedir. Bovin serum albumini (BSA)
+kullanılarak standart grafik çizilerek grafiğin
+eğiminden numunelerdeki protein miktarı hesaplandı.
+Optik yoğunluk spektrofotometreden okunarak
+kalibrasyon grafiğinden aktivite miktarları elde edildi.
+Hesaplanan
+aktivite
+değerleri
+substrat
+konsantrasyonuna karşı grafiğe çizilerek MichaelisMenten grafiği oluşturuldu. Daha sonra sonuçları
+kesinleştirmek
+için
+(1/aktivite)
+‘ye
+karşı
+(1/konsantrasyon) grafiği olan Lineweaver-Burk
+grafiği çizildi. Her iki grafikten maximum hız (Vmax)
+ve Km (substratın enzime ilgisi) değerleri kaydedildi
+[14].
+3. SONUÇLAR VE TARTIŞMA
+
+(RESULTS AND
+
+DISCUSSION)
+
+Protein miktarının tayininde deney tüpündeki okunan
+absorbans=0.263, kör tüpündeki okunan absorbans=
+0.051 dir. Buna göre protein miktarı = deney tüpünün
+absorbansı - Kör tüpün absorbansı x 20 dir. Buna göre
+hesaplanan değer =4.24 g/L dır.
+
+Tablo 4. İnhibitörsüz, üre ve kreatinin ile okunan
+ALP özgül aktivite değerleri (ALP specific activity values
+of noninhibitory, urea and creatinine)
+
+Substrat
+konsant
+rasyonu
+(mM)
+0,1
+0,3
+1
+3
+5
+
+noninhibitory, urea and creatinine )
+
+OD
+(inhibitörsüz)
+0,149
+0,178
+0,185
+0,236
+0,225
+
+Bu değerler
+
+OD (Üre
+ile)
+0,13
+0,113
+0,171
+0,191
+0,229
+
+OD
+(Kreatinin ile)
+0,136
+0,147
+0,157
+0,19
+0,195
+
+Aktivite
+(IU/L)
+(inhibitörs
+üz)
+75,25
+89,89
+93,43
+119,19
+113,63
+
+Aktivite
+(IU/L)
+(Üre ile)
+
+Aktivite
+(IU/L)
+(Kreatinin
+ile)
+68,68
+74,24
+79,29
+95,95
+98,48
+
+65,65
+57,07
+86,36
+96,46
+115,65
+
+Deney sonucu bulunan protein 4,24 mg/mL (4,24 g/L)
+x
+
+dir.
+
+denkliğinden hesaplanan inhibitörsüz, üre ile ve
+kreatinin ile okunan ALP özgül (protein başına)
+aktivite değerleri Tablo 5 de verilmektedir.
+Tablo 5. İnhibitörsüz, üre ve kreatinin ile okunan
+ALP özgül (protein başına) aktivite değerleri (ALP
+specific activity values of noninhibitory, urea and creatinine)
+
+Substrat
+konsantrasyonu
+(mM)
+
+Aktivite
+(IU/mg
+protein)
+(inhibitörsüz)
+
+Aktivite
+IU/mg
+protein)
+(Üre
+ile)
+
+Aktivite
+(IU/mg
+protein)
+(Kreatinin
+ile)
+
+0,1
+0,3
+1
+3
+5
+
+17,74
+21,2
+22,0
+28,11
+26,8
+
+15,5
+13,46
+20,37
+22,75
+27,27
+
+16,2
+17,51
+18,70
+22,63
+23,22
+
+Vmax enzimin en yüksek hızda çalıştığı hızdır. Km
+enzimin substrata ilgisini göstermekte olup, hızın
+hangi substrat konsantrasyonunda yarıya geldiğini
+ifade etmektedir. Enzim substratına ilgiliyse Km
+değeri düşük olur, ilgisi azsa Km değeri yüksek
+olacaktır [15]. Bu bilgiler ışığında sonuçları
+değerlendirebilmek üzere inhibitörsüz, üre ile ve
+kreatinin ile okunan OD (optik yoğunluk farkı)
+değerleri Tablo 3 de, ALP aktivite değerleri ise Tablo
+4 de verilmiktedir.
+Tablo 3. İnhibitörsüz, üre ve kreatinin ile okunan OD
+(optik yoğunluk farkı) değerleri (Optic Density values of
+
+Z. E. Durak ve M. Gürü
+
+Bu değerler yardımıyla Michaelis-Menten ve
+Lineweaver-Burk grafikleri çizilerek eşitlikler
+oluşturuldu, sonuçlara göre inhibitör tipi belirlendi.
+3.1. Michaelis-Menten Grafikleri
+
+(Michaelis-Menten
+
+Graphs)
+
+Önce, Tablo 5 deki inhibitörsüz numunede aktivite
+değerlerinin substrat konsantrasyonuna göre değişimi
+alınarak Şekil 1 deki grafik oluşturuldu.
+
+formülünde yerine
+
+konularak birimler µmol/L ye çevrildi.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+211
+
+Z. E. Durak ve M. Gürü
+
+Alkelen Fosataz (ALP) Enziminin Özütlenmesi, İnhibisyonu ve Kinetik Modellenmesi
+
+gelen Km değeri okundu. Vmax = 25; Vmax/ 2 = 12,5 ve
+Km=0,1 (Vmax değerine karşılık gelen konsantrasyon)
+değerleri aşağıdaki Michaelis-Menten hız eşitliğinde
+yerine konularak Eşitlik 1 haline dönüşmektedir.
+
+V  Vmax x
+
+Şekil 1. İnhibitörsüz numunede aktivite değerlerinin
+substrat konsantrasyonuna göre değişimi (Changes of
+activity values depending on substrate concentrations in the studies
+performed by samples without inhibitor)
+
+S
+S
+ 25 x
+(K m  S )
+(0,1  S )
+
+(1)
+
+Üçüncü olarak Tablo 5 deki kreatinin (0,442 mM)
+katkılı numunede aktivite değerlerinin substrat
+konsantrasyonuna göre değişimi alınarak Şekil 3 de
+görülen grafik oluşturuldu.
+
+Grafikten
+değeri okundu. Bu değer ½ ile
+çarpılarak elde edilen değere karşılık gelen Km değeri
+okundu. Dolayısıyla Vmax = 25, Vmax/2 = 12,5 olmak
+üzere Şekil 1 den Vmax değerine karşılık gelen
+konsantrasyon
+değeri
+Km=0,05
+olarak
+kaydedilmektedir.
+Kaydedilen
+değerler
+
+V  Vmax x
+eşitliğinde
+
+S
+şeklindeki Michaelis-Menten
+(K m  S )
+yerine
+
+konduğunda
+
+eşitlik
+
+S
+haline dönüşmektedir. Burada
+V  25 x
+(0,05  S )
+V; reaksiyon hızını, S; substrat konsantrasyonunu
+göstermektedir [16].
+
+Şekil 3. 0,2 ml (0.442 mM) Kreatinin inhibitörlü
+numunede
+aktivite
+değerlerinin
+substrat
+konsantrasyonuna göre değişimi (Changes of activity
+
+İkinci olarak Tablo 5 deki üre (16 mM) katkılı
+numunede
+aktivite
+değerlerinin
+substrat
+konsantrasyonuna göre değişimi alınarak Şekil 2 deki
+grafik oluşturuldu.
+
+values depending on substrate concentrations in the studies
+performed by samples with 0,2 ml creatinin)
+
+Grafikten Vmax değeri 22 olarak okundu. Bu değer ½
+ile çarpılarak elde edilen değere karşılık gelen Km
+değeri okundu. Vmax = 22; Vmax/ 2 = 11 ve Km=0,05
+(Vmax değerine karşılık gelen konsantrasyon) değerleri
+Michaelis-Menten hız eşitliğinde yerine konularak
+Eşitlik 2 haline dönüşmektedir.
+
+V  Vmax x
+
+Şekil 2. 0,2 ml (16 mM) Üre inhibitörlü numunede
+aktivite değerlerinin substrat konsantrasyonuna göre
+değişimi (Changes of activity values depending on substrate
+
+S
+S
+ 22 x
+(K m  S )
+(0,05  S )
+
+(2)
+
+Michaelis-Menten grafiklerinden yola çıkarak; ürede
+Vmax sabit kalmış, Km artmıştır. Bu sebeble
+modelleme tipi, yarışmacı (competetive) olabileceği
+düşünülmektedir. Kreatininde ise Vmax azalmış, Km
+sabit kalmıştır. Sonuç olarak kreatinin modelleme tipi,
+yarışmacı olmayan (noncompetetive) inhibitör olarak
+etki ettiği düşünülmektedir. Fakat bu grafiklerden
+kesin sonuç çıkarmak mümkün değildir. Kesin
+sonuçları elde etmek için Lineweaver-Burk grafikleri
+çizilmiştir.
+
+concentrations in the studies performed by samples with 0,2 ml
+urea)
+
+Grafikten
+değeri 25 olarak okundu. Bu
+değer ½ ile çarpılarak elde edilen değere karşılık
+
+212
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Alkelen Fosataz (ALP) Enziminin Özütlenmesi, İnhibisyonu ve Kinetik Modellenmesi
+
+3.2. Lineweaver-Burk Grafikleri
+
+Z. E. Durak ve M. Gürü
+
+(Lineweaver-Burk
+
+Graphs)
+
+Lineweaver-Burk eşitliğini elde etmek üzere aktivite
+değerleri substrat konsantrasyonuna bağlı olarak
+inhibitörsüz, 0,016 mol/litre (16 mM) üre katkılı ve
+4,42.10-4 mol/litre (0,442 mM) kreatinin katkılı her bir
+durum için ölçülerek, sonuçlar Tablo 6‘da
+verilmektedir.
+Tablo 6. İnhibitörsüz, üre ve kreatinin katkılı ALP
+aktivite değerlerinin substrat konsantrasyonuna bağlı
+değişimi (Changing of ALP activity values of noninhibitory, urea
+and creatinine added according to the substrat concentration)
+
+1/Substr
+at
+konsantra
+syonu
+
+(1/mM)
+
+10
+3,33
+1
+0,33
+0,2
+
+1/Aktivite
+(inhibitörsüz
+)
+
+(g protein/
+µmol)
+
+0,058
+0,049
+0,047
+0,037
+0,038
+
+1/Aktivite
+(16 mM
+Üre ile)
+(g protein/
+µmol)
+
+0,067
+0,077
+0,051
+0,045
+0,038
+
+1/Aktivite
+(0,442 mM
+Kreatinin
+ile)
+(g protein/
+µmol)
+0,064
+0,059
+0,055
+0,045
+0,044
+
+Şekil
+4.
+inhibitörsüz
+numunede
+substrat
+konsantrasyonuna göre aktiflik katsayılarının değişimi
+(Changes of activity coefficients depending on substrate
+concentrations in the studies performed by samples without
+inhibitor)
+
+(K  S)
+(0.047  S)
+1
+1
+1
+
+
+x
+x m
+S
+S
+24,87
+V Vmax
+
+(3)
+
+İkinci olarak Tablo 6 daki üre (16 mM) katkılı
+numunede
+1/aktivite
+değerlerinin
+1/substrat
+konsantrasyonuna göre değişimi alınarak Şekil 5 deki
+grafik oluşturuldu.
+
+Genel anlamda Lineweaver-Burk eşitliği aşağıda
+verilmekte olup, S; Substrat konsantrasyonunu, V;
+hızı, Vmax; Maksimum hızı göstermektedir.
+( K max  S )
+1
+1
+x
+
+V
+V max
+S
+
+Bu eşitliğin sabitleri inhibitörsüz ve üre, kreatinin
+inhibitörlü durumları için Şekil 4, Şekil 5 ve Şekil 6
+daki grafiklerden hesaplanarak Lineweaver-Burk
+eşitliği geliştirildi. Önce, Tablo 6’daki inhibitörsüz
+numunede
+1/aktivite
+değerlerinin
+1/substrat
+konsantrasyonuna göre değişimi alınarak Şekil 4 deki
+grafik oluşturuldu.
+Grafiğin ordinatı kestiği nokta 1/Vmax olarak 0,04
+değeri okundu. Dolayısıyla hız, Vmax = 25 olarak kaba
+okumayla kaydedildi. Sabitleri daha hassas belirlemek
+üzere doğru denkleminin (y=0,0019x + 0,0402), y=0
+değerinde Km, x=0 değerinde Vmax değeri hesaplandı.
+Bu şekilde, Km= 0,047 ; Vmax= 24,87 olarak
+hesaplandı.
+Sabit
+değerler
+Lineweaver-Burk
+eşitliğinde yerine konularak aşağıda gösterilen Eşitlik
+3 elde edildi.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Şekil 5. 16 mM üre inhibitörlü numunede substrat
+konsantrasyonuna göre aktiflik katsayılarının değişimi
+(Changes of activity coefficients depending on substrate
+concentrations in the studies performed by samples with 16 mM
+urea)
+
+Grafikten kaba olarak okunan 1/Vmax= 0,049 değeri
+ile Vmax = 20,4 olarak kaydedildi. Daha duyarlı
+değerler elde etmek üzere doğru denklemi (y =
+0,0026x + 0,048), y=0 değerinde Km, x=0 değerinde
+Vmax değeri hesaplandı. Bu şekilde, Km= 0,054 ; Vmax=
+20,83 olarak hesaplandı. Sabit değerler LineweaverBurk eşitliğinde yerine konularak aşağıda gösterilen
+Eşitlik 4 elde edildi.
+
+213
+
+Z. E. Durak ve M. Gürü
+
+Alkelen Fosataz (ALP) Enziminin Özütlenmesi, İnhibisyonu ve Kinetik Modellenmesi
+
+(K  S)
+1
+1
+1
+(0,054  S)
+
+
+x m
+x
+V Vmax
+S
+20,83
+S
+
+4. SONUÇLAR (CONCLUSIONS)
+
+(4)
+
+Üçüncü olarak Tablo 5 deki kreatinin (0,442 mM)
+katkılı numunede aktivite değerlerinin substrat
+konsantrasyonuna göre değişimi alınarak Şekil 6’ da
+görülen grafik oluşturuldu.
+
+Karaciğerden alkalen fosfataz enzimi izole edilerek
+kısmen saflaştırılmıştır. Böylece enzimin kinetik
+davranışı incelenmiştir.
+Michaelis Menten ve Lineweaver Burk grafikleri
+çizilmiştir. Bu grafiklerden Km ve Vmax değerleri
+bulunmuştur.
+İki inhibitör madde mevcudiyetinde deneyler
+tekrarlanarak Vmax ve Km değerleri hesaplanarak
+inhibisyon tipi belirlenmiştir. Değerler: İnhibitörsüz
+Km= 0,047 Vmax=24,87; Üre inhibitörlü Km= 0,054
+Vmax=20,83 ; Kreatinin inhibitörlü Km= 0,037
+Vmax=20,83 olarak hesaplanmıştır.
+ALP vücutta kemik oluşumunu sağlayan enzimdir.
+Fosfatları parçalar böylece serbest fosfat ortama
+geçer. Bu fosfat da kalsiyumla birleşerek kemik
+yapısını oluşturur.
+
+Şekil 6. 0,442 mM kreatinin inhibitörlü numunede
+substrat konsantrasyonuna göre aktiflik katsayılarının
+değişimi (Changes of activity coefficients depending on substrate
+concentrations in the studies performed by samples with 0,442 mM
+creatinin)
+
+Grafikten kaba olarak okunan 1/Vmax= 0,047 değeri
+ile Vmax = 21,27 olarak kaydedildi. Daha duyarlı
+değerler elde etmek üzere doğru denklemi (y =
+0,0018x + 0,0481), y=0 değerinde Km, x=0 değerinde
+Vmax değeri hesaplandı. Bu şekilde, Km= 0,037 ; Vmax=
+20,83 olarak hesaplandı. Sabit değerler LineweaverBurk eşitliğinde yerine konularak aşağıda gösterilen
+Eşitlik 5 elde edildi.
+(K  S)
+1
+1
+1
+(0,037  S)
+
+
+x m
+x
+V Vmax
+S
+20,83
+S
+
+(5)
+
+Sonuçlardan yola çıkarak; ürenin inhibitör olarak
+kullanıldığı çalışmada Km değeri artmış, Vmax değeri
+azalmış. Bu reaksiyon yarışmasız (noncompetetive)
+bir reaksiyondur. Yani, substrat ne kadar arttırılırsa
+arttırılsın
+maksimum
+hıza
+ulaşamamaktadır.
+Kreatininin inhibitör olarak kullanıldığı çalışmada Km
+değeri azalmış, Vmax değeri sabit kalmıştır. Bu
+reaksiyon yarışmacı olmayan (uncompetetive) bir
+reaksiyondur. Bu inhibisyonda enzimin substratına
+karşı ilgisi artmasına rağmen, substratın artması ile
+maksimum hıza ulaşılamamaktadır.
+
+214
+
+Böbrek yetmezliği durumunda üre ve kreatinin
+böbrekten süzülemediği için kanda birikir. Çalışmada
+gözlemlenen olay; kandaki yüksek üre ve kreatinin
+seviyesi alkalen fosfataz enzimini nasıl etkilediğini
+belirlemektir. Sonuçta böbrek yetmezliği yaşayan
+hastaların kemik zayıflığında üre ve kreatininden
+dolayı ALP ‘nin düşmesinin önemli olabileceği ortaya
+konmuştur. Bu da bize ALP aktivatörleri kullanılarak
+bu hastalarda kemik yapısının düzelmesi ve iyileşmesi
+sağlanabileceğini göstermektedir. Bu konuyla ilgili
+ileri çalışmalar yapılarak hastaların kemik yapılarının
+düzelmesi ekonomik ve pratik bir yöntemle
+sağlanabilir. Bunun sonucu böbrek hastalarının kemik
+yapısı problemlerin çözümlenebileceği ortaya
+konmuştur.
+Sonuçlarımız, karaciğer alkalen fosfataz enziminin
+aktivitesi üzerine hücresel toksik yapılar olan
+kreatininin ve ürenin oluşturduğu inhibisyonun tipini
+ve bunlar ile ilgili kinetik sabitleri vermektedir. Bu
+sonuçlar her iki toksik kimyasal maddenin de alkalen
+fosfatazın aktivitesi üzerine önemli inhibisyon
+oluşturduğunu göstermektedir. Bu durum böbrek
+yetmezliği gibi bir durumda kandaki seviyesi artan
+üre ve kreatinin aynı zamanda başka enzimatik
+yapıları da inhibe ederek zararlı sonuçlar
+doğurabileceğini göstermektedir.
+SEMBOLLER (SYMBOLS)
+ALP : Alkalen Fosfataz
+BSA : Sığır Serum Albümini
+Km : Michaelis sabiti
+TCA : Trikloroasetik asit
+Vmax : Maximum hız
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Alkelen Fosataz (ALP) Enziminin Özütlenmesi, İnhibisyonu ve Kinetik Modellenmesi
+
+KAYNAKLAR (REFERENCES)
+1. Jakob A., Bryjak J., Wojtowicz H., Illeova V.,
+Annus J., Polakovic M., “Inactivation kinetics
+of food enzymes during ohmic heating”, Food
+Chemistry, No 123, 369–376, 2010.
+2. Biasutti M., Abuin E., Silber J., Correa M., Lissi
+E., “Kinetics of reactions catalyzed by enzymes
+in solutions of surfactants”, Advances in
+Colloid and Interface Science, No 136, 1–24,
+2008.
+3. Wilin´ska A., Bryjak J., Illeova V., Polakovic
+M., “Kinetics of thermal inactivation of alkaline
+phosphatasein bovine and caprine milkand
+buffer”, International Dairy Journal, No 17,
+579–586, 2007.
+4. Ásgeirsson B., Guðjónsdóttir K., “Reversible
+inactivation of alkaline phosphatase from
+Atlantic cod (Gadus morhua) in urea”,
+Biochimica et Biophysica Acta, No 1764, 190–
+198, 2006.
+5. Van Hoof V., De Broe M.E., “Interpretation and
+Clinical significance of alkaline phosphatase
+isoenzyme patterns.” Critical Reviews in
+Clinical Laboratory Sciences., 197-293, 1994.
+6. B Behnke, M Kemper, H Kruse and D MullerWiefel, “Bone alkaline phosphatase in children
+with chronic renal failure”, Nephrology
+Dialysis Transplantation, No 13, Oxford
+University Press, Yayın 3, 662-667, 1998.
+7. Becq F., Fanjul M., Merten M., “Possible
+regulation of CFTR-chloride channels by
+membrane-bound phosphates in pancreatic duct
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+15.
+
+16.
+
+Z. E. Durak ve M. Gürü
+
+cells”, Proceeding of the National Academys
+of Sciences of the United States of America
+(PNAS), No 327, 337-342, 1993.
+Day A. P., Feher M. D., Chopra R.,
+“Triglyceride fatty acid chain lenght influences
+the post prandial rise in serum intestinal alkaline
+phosphatase activity”, Annals of Clinical
+Biochemistry, No 29, 287-291, 1992.
+Garrett RH, Grisham CM., Biochemistry,
+Second Edition, Saunders College Publishing,
+426-427,1999.
+Lehninger, A.L., Nelson, D.L., Cox, M.M.,
+Lehninger principles of biochemistry, New
+York: W.H. Freeman, 2005.
+Leskovac, V., Comprehensive enzyme
+kinetics, New York: Kluwer Academic/Plenum
+Pub.,2003.
+Walsh R, Martin E, Darvesh S., “Limitations of
+conventional inhibitor classifications”, Integr
+Biol (Camb)., No 3, 197-201,2011.
+Stephenson FH., Calculations for Molecular
+Biology and Biotechnology, Academic Pres,
+An Imprint of Elsevier, Amsterdam, 2003.
+Sutton R, Rockett B, Swindells P., Chemistry
+for the Life Sciences, 1st ed., London, 2000.
+Burtis CA, Ashwood ER, Bruns DE, Tietz
+textbook of clinical chemistry and molecular
+diagnosis, 4th ed. St. Louis: Elsevier Saunders,
+2006.
+Alan Wu., Tietz Clinical Guide to Laboratory
+Tests, 4th ed. Elsevier Saunders, 2006.
+
+215
+
+

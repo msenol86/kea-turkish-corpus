@@ -1,0 +1,739 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 18, No 1, 57-70, 2003
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 18, No 1, 57-70, 2003
+
+KARBÜRATÖRLÜ BİR MOTORA ÜÇ YOLLU KATALİTİK
+KONVERTÖR UYGULANMASI
+Nureddin DİNLER ve Nuri YÜCEL
+Makina Mühendisliği Bölümü, Mühendislik-Mimarlık Fakültesi, Gazi Üniversitesi
+Maltepe 06570 Ankara, dinler@mmf.gazi.edu.tr, onurcan@mmf.gazi.edu.tr
+ÖZET
+Çevre kirliliği günümüzün en önemli konularından birisidir. Hava kalitesinin
+korunması, insanların temiz bir hava soluması ise istenilen bir durumdur. Hava
+kirletici kaynaklardan birisi de taşıtlardır. Taşıtlardan kaynaklanan hava kirliliğinin
+azaltılmasında kullanılan en etkili yöntemlerden birisi de üç yollu katalitik konvertör
+uygulamasıdır. Ülkemizde kullanılan otomobillerin büyük çoğunluğunda karbüratör
+donanımlı motorlar bulunmaktadır. Üç yollu katalitik konvertörün bir karbüratörlü
+motora uygulamasının incelendiği bu çalışmada; motor performansı ve egzoz
+emisyonlarında meydana gelen değişimler deneysel olarak incelenmiştir. Deney
+sonuçları grafikler halinde verilmiştir. Motor performansında ortalama %6.6 azalma
+gözlenirken; egzoz emisyonlarından karbonmonoksit ve hidrokarbon emisyonlarında
+ortalama %85 azalma olurken; azotoksit emisyonunda, genel çalışma yüklerinde,
+%10 azalma olmaktadır.
+
+
+N. Dinler ve N. Yücel
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+emissions of carbon monoxide and hydrocarbon emissions were reduced on an
+average of 85%; nitrogen oxides emissions, on engine operation loads, were reduced
+on an average of 10%.
+Keywords: Three-way catalytic converter, carburetor engine, engine experiment
+1. GİRİŞ
+Petrol endüstrisi 50 yaşındayken, 1908 yılında Henry Ford’un Model T otomobili
+üretim hattından çıktı. Benzin ve otomobiller birlikte geliştiler. İlk otomobillerdeki
+basit motorlar yanabilen her sıvı ile çalışabilmekteydi. Artan güç talebi ile birlikte
+motorlar geliştirildi ve buji ateşlemeli motorlarda doğru yakıtın benzin olduğuna
+karar verildi [1]. Motorların istenmeyen ortak özelliği ise yarattıkları çevre
+kirliliğidir [2].
+Şehirlerde içten yanmalı motorlar hava kirliliğinin başlıca kaynaklarıdır. Buji
+ateşlemeli motorların egzoz gazı bileşiminde hava kirletici olarak azotoksitler
+(NOx), karbonmonoksit (CO), yanmamış veya kısmen yanmış hidrokarbonlar (HC)
+ve benzinin türüne göre kurşun bileşikleri (Pb) bulunur. Egzoz gazı bileşenlerinin
+miktarları motor tasarımı ve işletme şartlarına bağlıdır [3,4]. Ancak HC kaynağı
+olarak karbüratördeki buharlaşma, karter havalandırması ve yakıt deposundaki
+buharlaşma da unutulmamalıdır, bunların toplamı toplam HC emisyonunun yaklaşık
+%30’unu oluşturur [4].
+Motorlu taşıtlarda egzoz emisyonlarının azaltılmasına yönelik olarak alınan
+önlemler üç kısımda toplanabilir: 1. Motor öncesinde alınan önlemler; yakıt
+bileşiminin iyileştirilmesi, alternatif yakıt kullanımı; 2. Motorda alınan önlemler;
+motorda yapısal olarak alınan önlemler; 3. Motor sonrasında alınan önlemler; egzoz
+gazındaki emisyonların arıtılmasına yönelik alınan önlemler [4].
+Motor sonrasında hava kirliliğini azaltmaya yönelik önlem olarak kullanılan
+teknikler; egzoz gazı resirkülasyonu (EGR), termal reaktörler, oksidasyon
+katizörleri, üç yollu katalitik konvertörler (TWC) ve dizel motorlarında partikül
+tutuculardır. Bunlar arasında ise günümüzde ilgileri üzerine toplayan üç yollu
+katalitik konvertörlerdir.
+Smith vd. [5] yaptıkları araştırmada 1.4 litre, 4 silindirli çok noktadan yakıt
+püskürtmeli bir motor kullanmışlardır. Bu motora LPG dönüşüm kiti monte
+etmişler; emisyon ve verimdeki değişimleri incelemişlerdir. Emisyonlardaki
+değişimleri incelerken katalitik konvertörden önce ve sonra örnek almışlardır. 2000
+dev/dak’da katalitik konvertörün dönüşüm verimi LPG için ortalama %90,
+kurşunsuz benzin için ise NOx’de ortalama %60, CO ve HC için ise tam yükte %20
+civarında iken diğer yüklerde %90 civarında verim elde etmişlerdir. Meretei vd. [6]
+yaptıkları çalışmada ülkeleri olan Macaristan’da ülke genelinde kullanımda bulunan
+58
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+N. Dinler ve N. Yücel
+
+73 adet karbüratörlü motora sahip otomobile üç yollu katalitik konvertör
+takmışlardır. Bu motorlarda kapalı devre yakıt kontrol sistemi bulunmamaktadır. Bu
+durum ise deneylerimizde kullandığımız motorun durumu ile aynıdır. Katalitik
+konvertör montajından sonra otomobillerde şasi dinamometresinde yapılan seyir
+çevrimleri sonucunda egzoz basıncının artmasından dolayı güç kaybının %3
+civarında olduğu görülmüştür. Kullanılan katalitik konvertörlerin tipine, taşıtların
+teknik durumuna bağlı olarak ve yapılan deneylere göre CO emisyonunda %40-70,
+HC emisyonunda %50-80, NOx emisyonunda %30-70 azalma olmuştur. Lindner vd.
+[7] yaptıkları çalışmada çeşitli yüzey kaplama malzemeleri (katalitik konvertörün
+katalitik yüzeyi) üzerinde çalışma yapmışlardır. Samaras vd. [8] yaptıkları çalışmada
+ülkelerinde satışta bulunan üç yollu katalitik konvertörleri bir otomobil üzerinde
+farklı test prosedürlerine göre test etmişler ve konvertörlerin verimlerini
+belirlemişlerdir.
+Bu çalışmada, karbüratörlü bir motorun egzoz sistemine üç yollu katalitik konvertör
+monte edilerek motorun performansında ve egzoz emisyonlarında meydana gelen
+değişimler deneysel olarak incelenmiştir.
+2. ÜÇ YOLLU KATALİTİK KONVERTÖRLER
+Buji ateşlemeli motorlarda egzoz gazı sıcaklığı rölantide 300-400 ºC, yüksek güçte
+çalışmada 900 ºC civarında değişmektedir. Egzoz gazı sıcaklığı genellikle 400-600
+ºC arasındadır. Buji ateşlemeli motorlar çoğunlukla hava fazlalığı 0.83-1.1 arasında
+çalışmaktadır. Böylece egzoz gazı fakir karışımda bir miktar oksijen veya zengin
+karışımda önemli miktarda karbonmonoksit (CO) içerir [3].
+Egzoz gazlarının silindiri terk etmesinden sonra gaz kirleticilerin temizlenmesi
+termal veya katalitik olabilir. Katalizör kullanmadan hidrokarbonları oksitlemek için
+sıcaklıklar 600 ºC’nin üzerinde olmalıdır. Karbonmonoksiti oksitleyebilmek için
+sıcaklıkların 700 ºC’nin üzerinde olması gerekmektedir. Egzozdaki karbonmonoksit
+ve hidrokarbonların katalitik oksidasyonu 250 ºC kadar düşük sıcaklıklarda mümkün
+olmaktadır. Böylece, bu kirleticilerin temizleme etkinliği termal oksidasyonda
+olduğundan daha geniş sıcaklık aralığında oluşmaktadır. Egzoz gazından
+azotoksitleri temizlemek için tek tatmin edici yöntem katalitik prosesleri
+içermektedir. NO’in (azotmonoksit) arıtılmasında egzoz gazında bulunan CO, HC
+veya H2 kullanılarak N2’e indirgenilen katalitik sistemler tercih edilmektedir. Buji
+ateşlemeli motorlarda katalitik konvertörler yaygın şekilde kullanılmaktadır [3].
+2.1. Katalitik Konvertörlerin Yapısı
+Katalitik konvertörler, özel olarak tasarlanmış metal muhafaza içinde aktif katalitik
+malzeme içeren, susturucuya benzer şekilde içinden egzoz gazı geçen parçalardır.
+Katalitik konvertörlerde petek şeklinde, yüzey alanı çok geniş, seramikten
+(magnesyum-alüminyum silikat) veya metalden yapılmış (monolith) taşıyıcı eleman
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+59
+
+N. Dinler ve N. Yücel
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+bulunmaktadır. Petek yapıdaki kanal sayısı 30-60 kanal/cm2 kadardır. Bu taşıyıcının
+yüzeyi 20 µm kalınlığında gözenekli (poroz) tabakayla (washcoat) kaplıdır. Tipik bir
+monolith, 1mm genişlikteki kare kesitli geçiş kanallarından oluşur, bu kanallar 0,10,15 mm kalınlığındaki ince gözenekli duvarlarla ayrılır. Bu kanalların sayısı 400600 adet/inç2’dir. Bu sayı metal taşıyıcılarda 1200 adet/inç2 olabilmektedir. Yüzey
+kaplama malzemeleri monolith ağırlığının %5-15’i kadardır. Esas olarak Al2O3’den
+oluşmaktadır ve yüzey alanı 100-120 m2/g’dır. Böylece yüzey alanı 1 litre hacimde
+20000 m2’ye kadar ulaşabilmektedir. Gözenekli alümina tabakası ise platin (Pt),
+palladyum (Pd), rodyum (Rh) gibi değerli (soy) metallerden oluşan katalizör
+malzemesi ile kaplanmıştır. Bu metaller egzoz gazları ile reaksiyona girmeyip
+sadece normal egzoz şartlarında oluşmayacak reaksiyonların oluşması için katalizör
+görevi görürler. Ortalama olarak bu metallerin bir katalitik konvertör başına
+miktarları 1-2 g dır. Pt, Pd CO ve HC’nin oksidasyonunda, Rh ise NOx’in
+indirgenmesinde rol alırlar [3,4,9].
+2.2 Reaksiyonlar
+Üç yollu katalitik konvertörde CO ve HC oksidasyonu ile CO2 ve H2O, NOx’in
+indirgenmesi ile N2 oluşumunda çok sayıda reaksiyon olmakla beraber bunların
+başlıcaları şöyledir [4].
+Oksidasyon reaksiyonları:
+CO + ½ O2 → CO2
+H2 + ½ O2 → H2O
+CxHy + (x +y/4) O2 → x CO2 + y/2 H2O
+
+(1)
+(2)
+(3)
+
+NOx indirgenmesi:
+2 CO + 2 NO → 2CO2 + N2
+CxHy + (2x +y/2) NO → x CO2 + y/2 H2O + (x + y/2) N2
+
+(4)
+(5)
+
+Buhar Reforming (Steam Reforming):
+CxHy + x H2O → x CO + (x +y/4) H2
+
+(6)
+
+Su gaz değişimi:
+CO + H2O → CO2 + H2
+
+(7)
+
+2.3. Katalitik Konvertörlerde Verim
+Katalitik konvertörlerde dönüşüm verimi aşağıdaki şekilde tanımlanmaktadır.
+
+60
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+N. Dinler ve N. Yücel
+
+⋅  ⋅ 
+ m in  −  m out 
+(ηcat )i =  i ⋅  i
+(8)
+
+
+ m in 
+
+i
+ηcat: Katalitik konvertörün verimi; mout: Konvertöre giren emisyon miktarı (kg/s);
+min: Konvertörden çıkan emisyon miktarı (kg/s); i: HC, CO ve NOx emisyonları
+
+Üç yollu katalitik konvertörlerin NOx, HC ve CO için dönüşüm verimleri hava/yakıt
+oranının fonksiyonu şeklindedir. Katalitik konvertörün dönüşüm veriminin
+hava/yakıt oranına bağlı olarak grafiği Şekil 1’de verilmiştir. Hava/yakıt oranının
+stokiometrik orana yakın olduğu dar bir pencerede bu üç kirletici için yüksek
+dönüşüm verimi elde edilmektedir.
+
+Şekil 1. Üç yollu katalitik konvertörün hava/yakıt oranına bağlı olarak dönüşüm
+verimi [3]
+3. DENEYSEL ÇALIŞMA
+Deneyler Gazi Üniversitesi Mühendislik Mimarlık Fakültesi Makina Mühendisliği
+Bölümü Motorlar Laboratuvarında yapılmıştır.
+3.1. Deney Sistemi
+Deney düzeneği Ford marka 2264E model karbüratörlü bir motor, Froude marka
+hidrolik dinamometre, Tofaş marka üç yollu katalitik konvertör, egzoz gazı analiz
+cihazlarından oluşmaktadır. Deney seti şematik olarak Şekil 2’de gösterilmiştir.
+Deney motoru, 4 zamanlı, 4 silindirli ve motor hacmi 1599 cm3’dir (Tablo 1). Buji
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+61
+
+N. Dinler ve N. Yücel
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+1. Motor
+6. Hidrolik dinamometre
+2. Yağ eşanjörü
+7. Egzoz manifoldu
+3. Soğutma kulesi
+8. Katalitik konvertör
+4. Motor soğutma suyu eşanjörü 9. Gaz analiz cihazı (SUN)
+5. Yakıt deposu
+10. Gaz analiz cihazı (NOx)
+Şekil 2. Deney seti
+Tablo 1. Deney motorunun özellikleri
+Marka
+Ford
+Model
+2264E
+Silindir hacmi (cm3)
+1599
+Silindir sayısı (adet)
+4
+Sıkıştırma oranı
+9:1
+Yakıt sistemi
+Karbüratörlü
+Ateşleme sistemi
+Buji ateşlemeli
+ateşlemeli, su soğutmalı olan motor, motor test yatağında bulunan eşanjörler ile
+soğutulmaktadır. Benzin yakıt tüketiminin ölçülmesinde 50 ve 100 cm3 hacimli iki
+haznesi bulunan bir cam büret ve yakıtın bu kaptaki akış süresini ölçmek için 1/100
+hassasiyetli kronometre kullanılmıştır. NOx emisyonları Enerak 80 emisyon ölçüm
+cihazı ile, CO ve HC emisyonları ise Sun marka MGA 1200 model gaz analiz cihazı
+ile ölçülmüştür. Üç yollu katalitik konvertörün özellikleri Tablo 2’de verilmiştir.
+3.2. Deney Yöntemi
+Deneyler performans deneyleri ve emisyon deneyleri olarak iki kısımda yapılmıştır.
+Performans deneyleri, tam açık gaz kelebeği konumunda motor, 1200 ile 3840
+dev/dak hızları arasında çalıştırılmıştır. Çalışma aralığında motor hızı 360 dev/dak
+aralıkla değiştirilerek, hidrolik dinamometrenin terazisinden bu hızlarda motorun
+ürettiği tork değerleri okunmuştur. Bu değerler yardımıyla motor torku, mil gücü,
+mil verimi ve özgül yakıt tüketimi hesaplanmıştır. Daha sonra egzoz sistemine üç
+62
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+N. Dinler ve N. Yücel
+
+Tablo 2. Üç yollu katalitik konvertörün özellikleri
+-Seramik monolith (taşıyıcı matris) ölçü ve özellikleri
+Çap
+80.2 mm*169.7 mm (oval)
+Boy
+127 mm
+Hacim
+1.508 dm3
+Gaz geçiş kanal sayısı
+62 adet/cm2 (400 cpsi)
+Toplam aktif yüzey alanı
+20.2 m2 (minimum)
+Ağırlık
+0.808 kg
+Malzeme
+Al2O3 (%35.4), SiO2 (%49.7), MgO (%13.5)
+-Değerli metal yüklemesi
+Yükleme oranı
+Palladyum/Rodyum (5/1)
+Palladyum (Pd)
+1.47 g/dm3 (41.67 g/ft3)
+Rodyum (Rd)
+0.29 g/dm3 (8.33 g/ft3)
+Toplam yükleme yoğunluğu
+1.76 g/dm3 (50 g/ft3)
+yollu katalitik konvertör monte edilmiş ve deneyler tekrarlanmıştır. Böylece
+motorun performans değerleri belirlenmiştir. Egzoz emisyonları ise motor 2400
+dev/dak sabit motor hızında çalıştırılarak motor yükünün tam yük ve yüksüz
+konumları arasında değiştirilerek yapılmıştır. Deneylerde katalitik konvertörden
+önce ve sonra (akış yukarı ve akış aşağı noktalarında) egzoz gazı bileşiminde
+bulunan hava kirletici emisyonlar ölçülmüştür. Emisyonların değişimine bağlı olarak
+katalitik konvertörün dönüşüm verimi hesaplanmıştır, sonuçlar grafikler halinde
+sunulmuştur.
+3.3. Deney Sonuçları
+Performans deneylerinin sonuçları motor hızına bağlı olarak verilirken, emisyon
+deneylerinin sonuçları motor yüküne bağlı olarak verilmiştir. Katalitik konvertör
+egzoz sistemine monte edildikten sonra yapılan deneylerin sonuçları grafiklerde
+TWC ile gösterilmiştir.
+Şekil 3’de motor torkunun devir sayısı ile değişimi verilmiştir. Motor torku artan
+devir sayısı ile birlikte artmakta ancak belirli bir devir sayısından sonra motor torku
+azalmaktadır. Bunun sebebi ise yakıt sisteminde kullanılan karbüratörün yakıt hava
+karşımını tam olarak sağlayamaması ve volümetrik verimdeki azalmadır. Katalitik
+konvertörün montajından sonra motorun torkunda ortalama %5 azalma olmaktadır.
+Bunun sebebi ise katalitik konvertörün egzozda yaptığı ilave direnç sonucunda
+egzoz basıncının artmasıdır.
+Şekil 4’de devir sayısı ile motor gücünün değişimi grafik olarak verilmiştir. Motor
+gücü, motor torkuna ve motorun devir sayısına bağlı bir büyüklüktür. Maksimum
+motor gücüne maksimum torktan daha sonra ulaşılmaktadır. Katalitik konvertörün
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+63
+
+N. Dinler ve N. Yücel
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+95
+
+Tork (Nm)
+
+90
+85
+80
+75
+70
+
+Tork (TWC)
+Tork
+
+65
+60
+0
+
+1000 2000 3000 4000
+Devir Sayısı (dev/dak)
+
+5000
+
+Şekil 3. Motor torku grafiği
+motora ilave yük getirmesi sonucunda motorda iş kaybının olmasından dolayı
+yapılan deneylerde motor gücünde de azalma olmaktadır.
+Şekil 5’de motorun özgül yakıt tüketiminin değişimi verilmiştir. Özgül yakıt
+tüketimi artan devir sayısı ile azalmakta 3200 dev/dak motor hızından sonra
+silindirler içine emilen hava azaldığı için yakıt tüketimi artmaktadır. Katalitik
+konvertörün motor performansına yaptığı olumsuz etki burada da görülmektedir.
+Katalitik konvertör montajından sonra yakıt tüketiminde artma olmuştur. Motor
+verimi ile özgül yakıt tüketimi arasındaki ilişkiden dolayı motor veriminde de
+azalma olmaktadır.
+
+35
+Motor Gücü (kW)
+
+30
+25
+20
+15
+10
+BP (TWC)
+BP
+
+5
+0
+0
+
+64
+
+1000
+
+2000
+3000
+4000
+Devir Sayısı (dev/dak)
+Şekil 4. Motor gücü grafiği
+
+5000
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+N. Dinler ve N. Yücel
+
+Özgül Yakıt Tüketimi (g/kWh)
+
+450
+400
+350
+300
+
+BÖYT (TWC)
+BÖYT
+
+250
+0
+
+1000
+
+2000
+
+3000
+
+4000
+
+5000
+
+Devir Sayısı (dev/dak)
+
+Şekil 5. Özgül yakıt tüketimi grafiği
+
+Motorun yaydığı hava kirleticilerin mertebelerini belirlemek için emisyon deneyleri
+yapılmıştır. Bu deneyler sonunda elde edilen sonuçlar aşağıda grafikler halinde
+sunulmuştur.
+Şekil 6’da deney motorunun hava/yakıt oranının motor yükü ile değişimi verilmiştir.
+Grafik incelendiğinde orta yüklerde daha fakir bir karışımın oluştuğu görülmektedir.
+Böyle bir çalışma şekli ise karbüratörlerin karakteristik özelliğidir.
+18
+Hava/Yakıt Oranı .
+
+17
+16
+15
+14
+13
+12
+
+HYO (TWC)
+
+11
+
+HYO
+
+10
+0
+
+20
+
+40
+60
+80
+Motor Yükü (%)
+Şekil 6. Hava/yakıt oranı grafiği
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+100
+
+65
+
+N. Dinler ve N. Yücel
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+Karbonmonoksit Emisyonu (%) .
+
+7
+CO (TWC)
+
+6
+
+CO
+
+5
+4
+3
+2
+1
+0
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Yükü (%)
+Şekil 7. Karbonmonoksit emisyonu grafiği
+
+Şekil 7’de karbonmonoksit emisyonunun değişimi görülmektedir. CO emisyonu
+eksik yanma sonucunda oluşan emisyonlardandır. Yakıt hava karışımındaki hava
+fazlalığı tam yanma olayını etkilemektedir. Buna bağlı olarak fakir karışım olan
+bölgelerde CO emisyonunun mertebesi düşmektedir. Üç yollu katalitik konvertörün
+egzoz sistemine montesinden sonra ise CO emisyonu konsantrasyonunun %1.5’in
+altında olduğu durumlarda mükemmel bir şekilde CO2’e dönüştürüldüğü grafikten
+de görülmektedir. Burada önemli noktalardan birisi de bu değerlerde hava yakıt
+karışımı fakir karışım şeklinde olmasıdır. Motor yükü %80’in üzerine çıktığında
+karbüratörün çalışma prensibine bağlı olarak yakıt hava karışımı zenginleşmekte,
+yani HYO stokiometrik karışım oranının altına inmektedir. Yakıt hava karışımında
+yakıt fazlalığından dolayı tam yanma olayı oluşamamakta ve hava kirletici
+emisyonların konsanrasyonlarında artış olmaktadır.
+Şekil 8’de ise yakıtın içerisinde bulunana hidrokarbonların yanmaması sonucunda
+oluşan yanmamış HC emisyonu grafiği görülmektedir. Bütün emisyonların
+oluşmasında olduğu gibi, HC emisyonlarının da oluşmasında yanma olayı önemlidir.
+Yanma olayını etkileyen parametrelerden birisi de hava fazlalığıdır. Karbüratörün
+çalışmasına bağlı olarak hava fazlalığı değişmekte ve bu da yanmayı etkilediğinden
+dolayı HC emisyonları da beklenildiği gibi HYO’dan etkilenmektedir. Katalitik
+konvertörün montajından sonra yapılan deneylerde ise tam yük hariç HC
+emisyonlarının konvertörde büyük ölçüde reaksiyona girerek indirgendiği
+görülmektedir. Yine burada da HYO etkili olmaktadır.
+
+66
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+Hidrokarbon Emisyonu (ppm) .
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+N. Dinler ve N. Yücel
+
+160
+140
+120
+100
+80
+60
+40
+
+HC (TWC)
+
+20
+
+HC
+
+0
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Yükü (%)
+Şekil 8. Yanmamış hidrokarbolarınn grafiği
+
+Şekil 9’da azotoksitlerin motor yükü ile değişimi verilmiştir. Bu grafik
+incelendiğinde NOx emisyonlarında bir dalgalanma olmaktadır. NOx emisyonlarının
+oluşumunda hava içerisinde bulunan azot etkili olmaktadır. Bu emisyonun
+oluşumunda yanma sıcaklığı da önemli bir faktördür. Katalitik konvertör
+montajından sonra yapılan deneylerden ölçülen emisyon değerleri incelendiğinde
+ise, konvertörün orta yüklerde NOx emisyonun azaltılmasında etkili olamadığı
+görülmektedir.
+500
+
+Azotoksit Emisyonu (ppm).
+
+450
+400
+350
+300
+250
+200
+150
+100
+
+NOx (TWC)
+NOx
+
+50
+0
+0
+
+20
+
+40
+60
+Motor Yükü (%)
+
+80
+
+100
+
+Şekil 9. Azotoksit grafiği
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+67
+
+N. Dinler ve N. Yücel
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+Şekil 10’da ise katalitik konvertörde emisyonların motor yüküne karşı dönüşüm
+verimi grafik olarak verilmiştir. Bu grafikte CO, HC ve NOx emisyonlarıın katalitik
+konvertör tarafından ne oranda etkili olarak azaltıldığı görülmektedir. CO ve HC
+emisyonları benzer davranış gösterirken NOx emisyonu ise farklı bir davranış
+göstermektedir. Özellikle motorun çalıştığı orta yüklerde HC ve CO emisyonları
+%100’e yakın bir verimle dönüştürülürken, NOx emisyonları neredeyse hiç
+azaltılmadan çevreye atılmaktadır. Bunun en büyük nedeni ise yakıt sisteminde
+karbüratör bulunması ve katalitik konvertör sisteminde bir geri beslemenin
+olmamasıdır. Bundan dolayı hava/yakıt oranı stokiometrik oranda bulunamamakta
+ve konvertörün %80 verimle çalıştığı pencerenin dışına çıkılmaktadır.
+100
+90
+Dönüşüm Verimi (%)
+
+80
+70
+60
+50
+40
+30
+20
+
+CO Verim
+
+10
+
+HC Verim
+
+0
+
+NOx Verim
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Yükü (%)
+
+Şekil 10. Katalitik konvertörün dönüşüm verimi grafiği
+4. SONUÇLAR
+
+Taşıtlardan kaynaklanan hava kirliliğinin azaltılmasında kullanılan en etkili
+yöntemlerden birisi olan üç yollu katalitik konvertör uygulamasıdır. Üç yollu
+katalitik konvertörün bir karbüratörlü motora uygulamasının deneysel olarak
+incelendiği bu çalışmada; motor performansı ve egzoz emisyonlarında meydana
+gelen değişimler deneysel olarak incelenmiştir.
+Motor performansını ifade etmek için motor torku, mil gücü, özgül yakıt tüketimi
+parametreleri incelenmiştir. Katalitik konvertörün montajından sonra motor
+torkunda %5 civarında azalma olurken, mil gücünde de benzer olarak bir azalma
+olmaktadır. Özgül yakıt tüketimi incelendiğinde yakıt tüketiminin arttığı
+görülmektedir.
+68
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+N. Dinler ve N. Yücel
+
+Egzoz sistemine üç yollu katalitik konvertör takıldıktan sonra CO ve HC
+emisyonlarında istenilen düzeyde azalma olmaktadır. NOx emisyonunda ise
+beklenilen azalma olmamaktadır. Bu özelliği ile deneyde kullanılan üç yollu
+katalitik konvertörün oksidasyon katalizörü gibi çalıştığı görülmektedir.
+SEMBOLLER
+
+Al2O3
+BÖYT
+BP
+CO
+CO2
+CxHy
+EGR
+HC
+HYO
+H 2O
+i
+m
+NO
+NOx
+N2
+O2
+Pd
+Pt
+Rh
+TWC
+
+Alümina
+Özgül yakıt tüketimi
+Motor gücü
+Karbonmonoksit
+Karbondioksit
+Hidrokarbon molekülü
+Egzoz gazı resirkülasyonu
+Hidrokarbon
+Hava/Yakıt oranı
+Su
+Emisyon indisi
+Kirletici miktarı
+Azotmonoksit
+Azotoksitler
+Azot molekülü
+Oksijen molekülü
+Palladyum
+Platin
+Rodyum
+Üç yollu katalitik konvertör
+
+KAYNAKLAR
+
+1. Chevron Inc., Motor Gasolines Technical Review (FTR-1), Chevron Products
+Company, Chevron USA Inc., A.B.D., 1996.
+2. Iynkaran, K., Tandy, D.J., Applied Thermofluids and Pollution Control,
+Prentice Hall, Singapore, 1989.
+3. Heywood, J.B., Internal Combustion Engine Fundamentals, McGraw-Hill,
+New York, A.B.D. 1988.
+4. Kutlar, O.A., Ergeneman, M., Arslan, H., Mutlu, M., Taşıt Egzozundan
+Kaynaklanan Kirleticiler, Birsen Yayınevi, İstanbul, 1998.
+5. Smith, W.J., Timoney, D.J., Lynch, D.P., Emissions and Efficiency Comparison
+of Gasoline and LPG Fuels in a 1.4 litre Passenger Car Engine, SAE paper, No:
+972970,1-10, 1997.
+6. Meretei, T., Banyavari, P., Borsi, Z., Tamasi, A., Catalyzer Small-Scale FieldTest in Hungary, SAE paper, No: 960236, 45-58, 1996.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+69
+
+N. Dinler ve N. Yücel
+
+Karbüratörlü bir Motora Üç Yollu Katalitik Konvertör Uygulanması
+
+7. Lindner, D., van Yperen, R., Lox, E.S., Ostgathe, K., Kreuzer, T., Reduction of
+Exhaust Gas Emissions by Using Pd-Based Three-Way Catalysts, SAE paper,
+No: 960602, 1996.
+8. Samaras, Z., Manikas, T., Pistikopoulos, P., Zachariadis, T., Pattas, K.,
+“Replacement Catalysts for In-Use Cars”, Int. J. Vehicle Design, Cilt 20, Nos.
+1-4, 253-262, 1998.
+9. Koltsakis, G.C., Stamatelos, A.M., Catalytic Automotive Exhaust After
+Treatment, Progress in Energy and Combustion Science, 23, 1-39, 1997.
+
+70
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+

@@ -1,0 +1,1474 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 1, 173-183, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 1, 173-183, 2011
+
+TEK SİLİNDİRLİ DÖRT ZAMANLI BİR DİZEL MOTORUNUN
+DİNAMİK MODELİ VE TİTREŞİMLERİNİN İNCELENMESİ
+Halit KARABULUT, Erkan ÖZTÜRK ve Can ÇINAR
+Otomotiv Mühendisliği Bölümü, Teknoloji Fakültesi, Gazi Üniversitesi, 06500 Teknikokullar Ankara
+halitk@gazi.edu.tr, erkanozturk@gazi.edu.tr, cancinar@gazi.edu.tr
+(Geliş/Received: 02.06.2010; Kabul/Accepted: 28.01.2011)
+ÖZET
+Bu çalışmada tek silindirli dört zamanlı bir dizel motorunun dinamik modellemesi yapılarak, motorun hızlanma
+sürecinde yüklü ve yüksüz koşullarda sergilediği davranışlar, motor bloğunun titreşimleri ve krank milinin açısal
+hızının değişimleri incelenmiştir. Dinamik model; piston, krank mili, motor bloğu ve biyelin hareket
+denklemlerinden oluşmaktadır. Bloğun ve diğer dinamik elemanların hareketleri krank eksenine dik bir
+düzlemde tanımlanmıştır. Motor bloğunun hareketi iki serbestlik derecesine sahiptir ve bunlardan birisi silindir
+ekseni doğrultusundaki öteleme hareketi, diğeri ise krank ekseni etrafındaki dönme hareketidir. Sunulan
+çalışmada sayısal analiz işlemleri, başlangıç koşulları altında zaman değişkenine göre yapılmıştır. Simülasyonda
+kullanılan gaz basıncı değişimi tek silindirli dört zamanlı bir dizel motorundan deneysel yöntemle elde
+edilmiştir. Farklı sertlik ve sönümleme sabitleri için bağlantı takozlarında oluşan kuvvetler ve motor parçalarının
+titreşim karakteristikleri grafik olarak sunulmuştur.
+
+1.GİRİŞ (INTRODUCTION)
+Pistonlu motorlarla yürütülen taşıtların en önemli
+sorunlarından birisi titreşimler ve titreşimlerden
+kaynaklanan gürültülerdir. Frekansı ve genliği yüksek
+olan bu titreşimler hem motor, hem taşıt, hem de
+insanlar üzerinde olumsuz etkiler yapmaktadır.
+Örneğin motor ve taşıt üzerinde; malzeme yorulması
+nedeni ile bazı parçaların kırılması, perçinli ve vidalı
+bağlantıların gevşeyip çözülmesi, ikaz ve aydınlatma
+sistemlerinde
+bulunan
+ampullerin
+bozulması,
+
+elektrikli cihazların ve elektrik devrelerinin
+arızalanması, direksiyon sisteminde bulunan küresel
+mafsallardaki boşluğun artması ve sonuçta rot başı
+çıkması olarak adlandırılan olayın görülmesi, yağ
+sızdırmazlık elemanlarının bozulması gibi çeşitli
+arızalara yol açmaktadır. Taşıt titreşimlerinin insan
+vücudu üzerindeki etkileri titreşimin frekansına,
+genliğine ve etki süresine bağlı olarak değişir ve
+yorgunluk, sırt ağrısı, konsantrasyon azalması,
+tansiyon ve sinir bozulması gibi fizyolojik ve
+psikolojik rahatsızlıklara yol açar. Aynı zamanda,
+
+H. Karabulut ve ark.
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+taşıtlardaki mekanik titreşimler; kullanışlı bir enerji
+olan mekanik enerjiyi kullanışsız bir enerji olan ısıya
+dönüştürerek atmosfere atılmasına neden olur.
+Taşıtlardaki titreşimlerin büyük bir bölümü motor
+tarafından üretilmektedir. Tamamen titreşimsiz olarak
+çalışan pistonlu motorların tasarımı mümkün
+olmamakla birlikte, bir dinamik simülasyon
+yardımıyla dinamik parçaların iyi bir optimizasyonu
+yapılarak düşük titreşimli motorların tasarlanması
+olanaklıdır [1,2]. Motorların ürettiği titreşimlerin iki
+ana kaynağı vardır ve bunlardan biri yanma boyunca
+oluşan ani basınç değişimleri, diğeri ise değişken
+ivmeli doğrusal ve dairesel hareket yapan parçaların
+eylemsizliğinden
+ve
+dengesizliğinden
+doğan
+kuvvetlerdir [2,3-5]. Motorda ortaya çıkan
+titreşimlerin taşıtın şasisine aynı şiddetle geçmesini
+engellemek için motorla şasi arasında kullanılmak
+üzere muhtelif bağlantı elemanları geliştirilmiştir [3].
+Güncel olarak otomobillerde kullanılmakta olan
+bağlantı elemanlarının çoğu kauçuk esaslı takozlardan
+oluşmakta ve geniş frekans aralıklarında kullanılmak
+üzere tasarlanamamaktadırlar. Frekans yükseldikçe
+kauçuk takozların sertliğinin artması ve buna karşın
+yüksek frekanslarda sertliği düşük olan elemanların
+gerekmesi nedeniyle, geniş frekans aralıklarında
+kullanılmak üzere yarı kauçuk yarı hidrolik bağlantı
+elemanları geliştirilmiştir. Bu tip bağlantı elemanları
+yüksek frekanslı düşük genlikli uyarımlara karşı
+yumuşak bir kauçuk takoz gibi, düşük frekanslı
+yüksek genlikli uyarımlara karşı ise hidrodinamik bir
+genlik sınırlayıcı gibi tepki vermektedir [3].
+Bir
+taşıtın
+titreşim
+analizinin
+yapılmasında
+kullanılabilecek en sağlıklı yöntem taşıtı ve motoru
+oluşturan dinamik elemanların tamamının dinamik
+model kapsamına alınmasıdır. Fakat bu tür bir dinamik
+modelin oluşturulması oldukça zahmetli ve zaman alıcı
+olduğundan motorun ve taşıtın ayrı ayrı modellenmesi
+yoluna gidilmektedir [3,6,7]. Motoru ve motorun taşıta
+bağlamasında kullanılan esnek bağlantı elemanlarını
+kapsayan bir dinamik model aracılığı ile taşıtı titreştiren
+dinamik kuvvetler belirlenmektedir [4,6-8].
+Motoru ve bağlantı elemanlarını içeren dinamik
+modellerin bir bölümünde motorun tek parçadan
+oluşan bir katı cisim gibi ele alındığı, bazısında ise
+çok elemanlı bir dinamik sistem olarak ele alındığı
+görülmektedir. Bunlardan birincisine “katı cisim
+modeli” denmektedir ve burada söz konusu katı
+cismin titreşiminin dışardan uygulanan uyarıcı
+kuvvetlerin etkisi ile oluştuğu varsayılmaktadır.
+Ayrıca göz önünde tutulan katı cismin altı serbestlik
+derecesine sahip bir titreşim yaptığı, cismin kütle
+merkezinin bir x, y, z koordinat sisteminin eksenleri
+doğrultusunda öteleme ve aynı eksenler etrafında
+dönme hareketleri yaptığı düşünülmektedir [4,5].
+Modeli oluşturan hareket denklemleri arasında
+bağlantı olmadığından bu model “bağlantısız model”
+olarak adlandırılmaktadır. Katı cisim modellerinde
+
+174
+
+harmonik frekanslı uyarıcı kuvvetler kullanılmaktadır
+[9,10] ve bu kuvvetlerin matematiksel modeli tek
+silindirli ve bloğu titreşmeyen bir motorun dinamik ve
+termodinamik analizinden elde edilebilmektedir
+[2,4,11]. Uyarıcı kuvvetlerin hesaplanmasında;
+silindir içi gaz basıncı kuvvetinin doğru biçimde
+belirlenmesinin yanında [12]; piston, biyel ve krank
+mili mekanizmasının doğru bir dinamik modelinin
+yapılması da şarttır [4,5,13].
+Çok elemanlı sistem modelinde motor elemanlarının
+her biri için ayrı ayrı hareket denklemleri
+türetilmektedir [5]. Bu modeli oluşturan denklemeler
+birbiriyle ilişkili olduğu için söz konusu modele
+“bağlantılı model” adı da verilmektedir [4]. Bu
+modelin kapsadığı ana elemanlar; pistonlar, biyeller,
+krank mili ve motor bloğudur. Dinamik parçaların
+öteleme hareketini tanımlamak için orijini sabit olan
+bir kartezyen koordinat sistemi kullanılmakta ve
+bloğun dönme merkezi olarak krank ekseni
+alınmaktadır. Bir dinamik sistemin enerji balansının
+gerçeklenebilmesi için o sistemin dinamik modelinin
+bağlantılı tipten olması ve esnek bağlantı
+elemanlarında açığa çıkan sönümleme enerjisinin
+enerji balansında kullanılması gerekir [4].
+Motorun dinamik modelinin oluşturulmasında dikkate
+alınması gereken sürtünme kuvvetlerinin bir
+bölümünün hidrodinamik viskoz sürtünmelerden
+oluştuğu, diğer bir bölümünün ise hıza göre
+değişmeyen ancak sürtünen yüzeyler arasındaki
+değme basıncı ile orantılı olan, kuru sürtünme olarak
+adlandırılan, sürtünmelerden oluştuğu belirtilmektedir
+[14]. Piston ile silindir yüzeyi arasında oluşan
+sürtünme kuvveti ile piston üzerindeki yağ ve
+kompresyon segmanlarının neden olduğu sürtünmeler
+kuru sürtünme kapsamında değerlendirilmektedir ve
+deneysel
+çalışmalar
+sonucunda
+önemleri
+kanıtlanmıştır
+[14-16].
+Kuru
+sürtünmelerden
+kaynaklanan kuvvetlerin işaretini pistonun hareket
+yönüne göre değiştirmek gerekmektedir. Pistona etki
+eden gaz basıncı motor çevriminin termodinamik
+analizi sonucu [5,17] veya bir motordan deneysel
+yöntemle elde edilmektedir [7,18]. Gaz kuvvetlerinin
+özelikle yanmanın gerçekleştiği üst ölü nokta
+civarında gerçeğe yakın bir şekilde tahmin edilmesi
+gerekmektedir [2].
+Motor bloğu içerisindeki hareketli parçaların
+eylemsizliklerinden
+kaynaklanan
+titreşimlerin,
+özellikle dinamik sistemin ikincil rezonanslarının
+belirlenmesinde, önemli olduğu vurgulanmaktadır
+[10,13,19,20]. Biyel dinamiğinin karmaşıklığından
+dolayı, birçok araştırmada biyelin kütlesi dinamik
+açıdan eşdeğer iki bölüme ayrılarak krank mili ve
+pistona paylaştırılmıştır [10,11,16-18,21].
+Motor bağlantı kulaklarının geliştirilmesi amacı ile
+yapılan bazı çalışmalarda lineer olmayan yay ve
+damper kuvvetleri kullanılmıştır [22-25]. Lineer
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+H. Karabulut ve ark.
+
+olmayan yay ve damper kuvvetleri kendi aralarında
+şeklinde ifade edilebilir. Burada biyelin silindir ekseni
+ilişkili olduğundan, bu durumda sistemin hareket
+ile yaptığı açı
+denklemleri
+ele
+alınamayacak
+kadar
+karmaşıklaşmaktadır. Lineer olmayan yay ve damper
+R
+
+= arcsin  sin θ 
+β
+(3)
+kuvvetlerinin kullanıldığı sayısal analizlerde dinamik
+λ
+
+model tek bir bağlantı kulağı için yazılmakta, bağlantı
+kulağının üzerine rijit bir kütle konularak tabandan
+dır. Pistonun herhangi bir t anındaki pozisyonu ve
+harmonik uyarım kuvvetleri uygulanmaktadır.
+pistona etki eden kuvvetler Şekil 2’de görülmektedir.
+Bununla birlikte, motor takozlarındaki hareketlerin
+birbirini etkilemesi nedeniyle takozların yerlerinin ve
+bağlantı açılarının titreşime etkileri göz ardı
+edilemeyecek kadar önemlidir [9].
+Sunulan çalışmada tek silindirli dört zamanlı bir dizel
+motorunun dinamik modeli oluşturulmuştur. Dinamik
+model krank eksenine dik bir (x,y) düzleminde
+tanımlanmaktadır. Motor bloğu hem krank mili ekseni
+etrafında dönel titreşim yapmakta hem de krankla
+birlikte silindir ekseni doğrultusunda öteleme titreşimi
+yapmaktadır. Krankın bloğa göre serbestliği yalnızca
+dönme serbestliğinden oluşmaktadır. Dinamik
+sistemin bir piston, bir biyel, krank mili ve blok
+olmak üzere dört dinamik parçadan oluştuğu
+düşünülmüştür. Pistona uygulanan gaz basıncı
+değerleri bir deney motorundan tam-gaz ve tam-yük
+koşullarında ölçüm yapılarak elde edilmiştir.
+Parçaların kütleleri, eylemsizlik momentleri ve
+hidrodinamik sürtünme katsayıları için gerçeğe yakın
+istatistiksel veriler kullanılmıştır.
+2. DİNAMİK, KİNEMATİK VE
+TERMODİNAMİK İLİŞKİLER (DYNAMIC,
+KINEMATIC AND THERMODYNAMIC RELATIONS)
+
+Dinamik sistemin modellenmesinde kullanılan yerel
+koordinat sistemleri Şekil 1’de görülmektedir.
+Pistonun hareketini tanımlamada kullanılan (x,y)
+koordinat takımının orijini olarak piston piminin
+(pernosunun) hareket başlangıcındaki konumu
+seçilmiştir. Bu koordinat takımının y ekseni, silindir
+ekseninin başlangıçtaki pozisyonu ile örtüşmektedir.
+Bloğun hareketini tanımlamada kullanılan (xc,yc)
+koordinat takımının orijini olarak krank ekseninin
+başlangıçtaki konumu seçilmiştir. Krank milinin
+açısal pozisyonunu göstermek için krank muylusunun
+silindir ekseni ile yaptığı açı (θ), bloğun açısal
+pozisyonunu göstermek için silindir ekseninin
+başlangıçtaki silindir ekseni ile yaptığı saat ibresinin
+tersi yönündeki açı (ϕ) seçilmiştir.
+
+Şekil 1. Krank ve biyelin başlangıç pozisyonu ile
+anlık bir pozisyonunun karşılaştırılması (Comparison of
+the initial and an instantaneous positions of the crank shaft and
+connecting rod)
+
+Modellenen dinamik sistemin başlangıç pozisyonu ile
+herhangi bir t anındaki durumu Şekil 1’de
+karşılaştırmalı olarak gösterilmiştir.
+Pistonun x ve y doğrultularında yaptığı ötelemeler:
+
+Şekil 2. Pistonun anlık bir pozisyonu ve etkiyen
+kuvvetler (An instantaneous position of the piston and forces
+
+x x c + ( R cos θ + λ cos β ) sin ϕ ,
+=
+
+(1)
+
+exerting on it)
+
+y= R + λ + yc − ( R cos θ + λ cos β ) cos ϕ
+
+(2)
+
+Pistonun x ve y doğrultularındaki hareket denklemleri
+ise
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+175
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+H. Karabulut ve ark.
+
+d x
+ dx − dx c − s cos ϕ dϕ  + F cos ϕ
+m p = CP 
+ s
+2
+(4)
+dt 
+ dt dt
+dt
+2
+
+d 2θ
+dt 2
+
+− FL sin ( β − ϕ ) − ( FW − FCH − Fu ) sin ϕ
+
+d y
+dt
+
+2
+
+−
+
+ dy − dy c − s sin ϕ dϕ  + F sin ϕ
+ s
+(5)
+dt 
+ dt dt
+
+2
+
+mp
+
+=−
+
+= 
+−C P
+
++ ( FW − FCH − Fu ) cos ϕ − FL cos ( β − ϕ )
+
+d 2ϕ  R 
+π
+
++
+ cos  − (β + θ)  FL
+2
+
+dt
+ ICR   2
+
+MQ
+ICR
+
++
+
+MS
+
+−
+
+ICR
+
+Mµ
+ICR
+
+(11)
+
+ R 
+ cos(β + θ)Fβ
+ ICR 
+
+−
+
+şeklinde yazılabilir. Son eşitlikte bulunan ICR krankın
+ve volanın toplam kütlesel eylemsizlik momentini
+göstermektedir.
+
+dır. 4 ve 5 numaralı eşitliklerde bulunan s,
+= R cos θ + λ cos β
+s
+
+(6)
+
+şeklinde tanımlanmıştır. Pistonun x doğrultusundaki
+hareket denkleminde yani Eşitlik 4’te eylemsizlik ve
+viskoz sürtünme terimleri, diğer terimlerin yanında
+çok küçük olduklarından, yok varsayılarak pistona
+etki eden yan yüzey kuvveti
+= FL
+Fs
+
+sin ( β − ϕ )
+
++ ( FW − FCH − Fu )
+
+cos ϕ
+
+sin ϕ
+cos ϕ
+
+(7)
+
+şeklinde elde edilebilir. Pistonun y doğrultusundaki
+hareket denkleminden yani Eşitlik 5’ten yararlanarak
+biyelde oluşan kuvvet
+CP
+ dy − dy c − s sin ϕ dϕ 
+−
+FL =
+
+
+cos ( β − ϕ )  dt
+dt
+dt 
++ FW
+−
+
+cos ϕ
+cos ( β − ϕ )
+cos ϕ
+
+cos ( β − ϕ )
+
+− FCH
+
+Fu −
+
+cos ϕ
+cos ( β − ϕ )
+mp
+
+(8)
+Şekil 3. Krankın açısal momentumuna katkı yapan
+kuvvetler ve doğrultu açıları (Forces contributing to the
+
+2
+
+d y
+
+angular momentum of the crankshaft and their angles of directions)
+
+cos ( β − ϕ ) dt 2
+
+şeklinde yazılabilir. Piston ile silindir arasındaki kuru
+sürtünme
+
+
+Fu = Fs Cs sgn(y)
+
+(9)
+
+Şekil 2’de görülen FS kuvvetinden başka, motor
+bloğuna hayali bir burulma yayı ve sönümleyicinin
+etkidiği kabul edilerek motor bloğunun dönme
+hareketinin denklemi,
+d 2ϕ
+dt
+
+= −
+2
+
+şeklinde gösterilebilir [26]. Biyelin piston pimi
+etrafındaki dönme hareketinin denklemi ise
+
+d β
+2
+
+dt
+
+λ 2
+r dm
+2 0
+
+∫
+
+= λFβ
+
+(10)
+
+şeklinde yazılabilir ve buradaki Fβ kuvveti Şekil 3’te
+gösterilmiştir. Krank milini saat ibresinin tersi
+yönünde dönmeye zorlayan kuvvet ve momentler
+Şekil 3’te gösterilmiştir. Böylece krank milinin
+dönme hareket denklemi,
+
+CC dϕ
+IC dt
+
+−
+
+KC
+
+FS M µ (12)
++
+IC IC
+
+şeklinde yazılabilir. Son eşitliğin türetilmesinde göz
+önünde bulundurulan hayali burulma yayının ve
+sönümleyicinin görevini gerçekte kauçuk takozlar
+yapmaktadır. Şekil 4’te bloğun açısal dönmesi ve
+doğrusal ötelemesi ile takozlardaki deformasyonların
+ilişkisi gösterilmiştir. Hayali burulma yayının
+momenti ile takozlarda oluşan yay kuvvetlerinin
+krank merkezine göre momentinin eşit olması gerekir.
+Bu varsayımdan yola çıkarak hayali yayın yay sabiti
+ile takozların yay sabiti arasındaki ilişki
+K c = 2k ( D / 2 )
+
+176
+
+IC
+
+ϕ − ( R cos θ + λ cos β )
+
+2
+
+(13)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+şeklinde bulunabilir. Benzer şekilde takozların
+sönümleme sabiti ile hayali sönümleyicinin sabiti
+arasındaki ilişki
+C c = 2C t ( D / 2 )
+
+2
+
+(14)
+
+şeklinde elde edilmiştir.
+
+H. Karabulut ve ark.
+
+Çünkü pistonun kütlesi ve biyelin kütlesinin 1/3’ünün
+toplamı ancak blok kütlesinin 1/50’si kadardır. Eşitlik
+15’te kullanılan hayali yayın bloğa uyguladığı kuvvet
+ile takozların uyguladığı kuvvetlerin eşitliğinden
+K y = 2k
+
+(16)
+
+sonucuna ulaşılır. Yine Eşitlik 15’te bloğun yc
+doğrultusundaki doğrusal titreşimini sönümlemek için
+kullanılan hayali sönümleyicinin bloğa uyguladığı
+kuvvet ile takozların uyguladığı kuvvetlerin
+eşitliğinden
+
+C y = 2C t
+
+(17)
+
+olduğu görülmektedir.
+A ve B takozlarındaki şekil değişikleriyle bloğun
+açısal dönmesinin ilişkisi,
+yA ( t ) − yB ( t )
+ϕ(t) =
+AB
+
+Şekil 4. Bloğun anlık bir pozisyonu ve bloğun açısal
+momentum denklemine katkı yapan kuvvet ve
+momentler (An instantaneous position of the engine block and
+forces and moments contributing to its momentum equation of
+angular motion )
+
+Motor bloğuna yc doğrultusunda silindir içi gaz
+basıncı, blok basıncı, ana yatak kuvvetleri ve takoz
+kuvvetleri etkimektedir. Ana yatak kuvvetleri;
+kranktaki balanssızlıklardan ve kranka biyel
+tarafından iletilen kuvvetlerden oluşmaktadır. Krank
+ile blok arasında bir boşluk olmadığı için, kranka
+iletilen kuvvet bloğa aynı büyüklükte iletilmektedir.
+Takoz kuvvetlerinin yerine hayali bir yay ve bir
+damper kuvveti alırsak bloğun yc doğrultusundaki
+hareket denklemi
+
+(18)
+
+şeklinde yazılabilir. Bloğun yc doğrultusundaki
+ötelemesi ile A ve B takozlarındaki şekil
+değişikliklerinin ilişkisi
+yc ( t ) =
+
+yA ( t ) + yB ( t )
+
+(19)
+
+2
+
+olarak gösterilebilir. Önceki bağıntılardan elde edilen
+ϕ(t) ve yc(t) değerleri son iki eşitlikte kullanıldığında
+yA(t) ve yB(t) şekil değişiklikleri bulunabilir. Bu elde
+edilen şekil değişiklikleri
+FA = A − C A
+−k A y
+
+dy A
+
+FB =y B − C B
+−k B
+
+dy B
+
+(20)
+
+dt
+
+(21)
+
+dt
+
+2
+
+d yc
+1
+1
+=
+FL cos ( β − ϕ ) +
+FCH cos ϕ
+2
+me
+me
+dt
+−
+
+1
+me
+
+−
+
+Ky
+me
+
+FW cos ϕ +
+yc −
+
+1
+me
+
+cos Ωm u ω R u
+2
+
+bağıntılarında kullanılarak A ve B takozlarında oluşan
+kuvvetler belirlenebilir.
+(15)
+
+C y dy c
+m e dt
+
+şeklinde yazılabilir. Bloğun me kütlesi; pistonun
+kütlesi ve biyelin pistona bağlanan kısmının
+kütlesinin (biyel kütlesinin yaklaşık 1/3’ü) dışında
+kalan kütlelerin tamamını kapsamaktadır [27].
+Bununla birlikte burada motorun toplam kütlesinin
+kullanılmasının da bir sakıncası görülmemektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Sunulan çalışmanın sayısal analiz bölümünde
+kullanılan silindir içi gaz basıncı değişimi, tek
+silindirli bir dizel motorundan AVL 8QP500c su
+soğutmalı quartz basınç sensörü, Cussons P4110
+model yanma analiz cihazı ve devir başına 1000 veri
+alabilen Koyo TRD J1000-RZ model artımsal enkoder
+ile ölçülmüştür. Quartz basınç sensörünün hassasiyeti
+11,96 pC/bar ve ölçüm aralığı maksimum 150 bar’dır.
+Analog silindir içi basınç sinyalleri, Cussons P4110
+model yanma analiz cihazının piezo elektrik şarj
+amplifikatör kanalı ile yükseltilmiş ve 0,36º krank
+açısı aralıkları ile, National Instruments USB 6259
+
+177
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+H. Karabulut ve ark.
+
+veri toplama kartı kullanılarak dijital ortama kayıt
+yapılmıştır. Hesaplarda kullanımını kolaylaştırmak
+için silindir içi gaz basıncı değerlerinin Fourier serisi
+ile;
+=
+P(θ)
+
+A0
+
+n
+
++
+
+2
+
+∑(A
+
+k
+
+cos kθ + Bk sin kθ )
+
+(22)
+
+k =1
+
+açılımı yapılmıştır.
+Silindir içi gaz basıncının krank açısına bağlı olarak
+değişimi ve Fourier dönüşümü karşılaştırmalı olarak
+Şekil 5’te görülmektedir. Eşitlik 22’deki Ak ve Bk
+katsayıları Tablo 1’de verilmiştir.
+
+Şekil 5. Silindir içi gaz basıncının krank açısına göre
+değişimi (Variation of working gas pressure with crank angle)
+SONUÇLARIN DEĞERLENDİRİLMESİ
+
+3.
+
+(EVALUATION OF RESULTS)
+
+Tablo 2’de verilen özel değerlere göre, krank mili
+hızının yüksüz durumda ve farklı yüklerde zamana
+bağlı olarak sergilediği değişim ve dalgalanmalar
+Şekil 6’da görülmektedir.
+
+Sistem statik konumda iken, piston üst ölü noktada
+bulunmaktadır ve sistem iş sürecinin başındadır.
+Krank mili 50 Nm’lik bir moment ile 1 radyan
+döndürüldükten sonra kendi haline bırakıldığında,
+genişleyen gaz tarafından krank milinin hızlanması
+devam ettirilmektedir. Yükleme işlemi krank milinin
+açısal anma hızı yaklaşık olarak 230 rad/s’ye
+ulaştıktan sonra yapılmıştır. Yükleme yapılmayacak
+olursa krank milinin hızı 2 saniye içerisinde 550
+rad/s’yi geçmekte ve lineerden biraz küçük bir hız
+artışı görülmektedir. Artışın lineerden biraz küçük
+olmasının nedeni viskoz sürtünmelerin yol açtığı
+enerji kaybıdır. Sisteme 19,25 Nm’lik bir yük
+uygulanırsa krank milinin hızlanmadığı ve 230 rad/s
+anma hızıyla dönmeye devam ettiği görülmektedir.
+Uygulanan yük 19,25 Nm’nin altında olduğunda ise
+sistem yük altında hızlanmaya devam etmektedir.
+Krank milinin hızındaki çevrimlik dalgalanmaların;
+hem yük, hem de hıza bağlı olarak değiştiği
+görülmektedir. Düşük hızlarda daha çok, yüksek
+hızlarda daha az dalgalanma, ayrıca düşük yüklerde
+daha az, yüksek yüklerde ise daha fazla dalgalanma
+görülmektedir. Sisteme 19,25 Nm’lik bir yük
+uygulandığında %12 büyüklüğünde bir çevrimlik hız
+dalgalanması oluşmaktadır. Bu çevrimlik hız
+dalgalanmasının daha da azaltılması mümkündür
+ancak bu durumda volanın eylemsizlik momentindeki
+büyük artışlara karşılık hız dalgalanmasında küçük
+iyileşmeler görülmektedir. Söz konusu özellik tek
+silindirli motorların doğal bir sorunudur.
+Krank milinin 230 rad/s anma hızıyla 19,25 Nm yük
+altında dönerken sergilediği açısal hız dalgalanması
+Şekil 6’daki büyütülmüş kısımda görülmektedir. Krank
+açısının 0≤θ≤π aralığı iş zamanına karşı gelmektedir ve
+krankın
+hızındaki
+artış
+iş
+üretiminden
+kaynaklanmaktadır. Krank açısının π≤θ2π aralığı
+egzoz zamanına karşı gelmektedir ve krankın hızındaki
+
+Tablo 1. Çalışma gazı basıncının Fourier açınımının katsayıları
+k
+0
+1
+2
+3
+4
+5
+6
+
+Ak
+1349,81
+1030,20
+801,032
+657,437
+564,255
+434,054
+339,754
+
+Bk
+193,499
+203,204
+166,924
+165,394
+176,483
+143,554
+
+k
+7
+8
+9
+10
+11
+12
+13
+
+Ak
+271,190
+217,845
+161,010
+127,082
+93,6647
+74,8611
+50,1225
+
+(Coefficients of Fourier expansion of working gas pressure)
+Bk
+k
+Ak
+Bk
+127,997
+14
+39,4693
+44,8044
+114,023
+15
+25,7947
+38,2066
+102,304
+16
+20,5036
+32,4737
+85,1441
+17
+11,3209
+27,8923
+73,4749
+18
+8,55318
+24,0568
+63,1907
+19
+3,13542
+20,1315
+54,4842
+20
+2,59868
+17,2838
+
+Tablo 2. Analizde kullanılan özel değerler (Specific values used in the analysis)
+250000
+
+Biyelin piston pimi eksenine göre dönme eylemsizlik momenti (m2kg)
+
+0,002
+
+2000
+
+Bloğun krank merkezi etrafında dönmesinin toplam kütlesel eylemsizlik
+momenti (m2kg)
+
+2,5
+
+Takozlar arasındaki mesafe (m)
+
+0,24
+
+Krankın ve volanın toplam kütlesel eylemsizlik momenti (m kg)
+
+0,08
+
+Krank yarıçapı (m)
+
+0,034
+
+Denge ağırlığının krank merkezinden kaçıklığı (m)
+
+0,034
+
+Biyel uzunluğu (m)
+
+0,118
+
+Motorun toplam kütlesi (kg)
+
+75
+
+Piston çapı (m)
+
+0,086
+
+Pistonun hidrodinamik sürtünme sabiti (Ns/m)
+
+1
+
+Piston kütlesi (kg)
+
+0,7
+
+Krankın ana yatağındaki burulma hidrodinamik sürtünme sabiti (Nms/rad)
+
+0,01
+
+Karter basıncı (bar)
+
+101325
+
+Piston yüzeyi kuru sürtünme katsayısı
+
+0,05
+
+Tek takozun yay sabiti (N/m)
+Tek takozun sönümleme sabiti
+(Ns/m)
+
+178
+
+2
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+azalma dış yükten kaynaklanmaktadır. Aynı aralıkta
+görülen ikincil hız dalgalanması pistonla krank
+arasındaki momentum transferinden ileri gelmektedir.
+Krank açısının 2π≤θ≤3π aralığı emme zamanına karşı
+gelmektedir ve bu aralıkta görülen hız azalması yine
+dış yükten kaynaklanmaktadır. Bu aralıkta görülen
+ikincil dalgalanma da yine pistonla krank arasındaki
+momentum transferinden doğmaktadır. Krank açısının
+3π≤θ≤4π aralığı sıkıştırma zamanına karşılık
+gelmektedir ve bu aralıkta görülen aşırı hız azalması
+silindir içindeki gazların sıkıştırılması boyunca
+kullanılan enerji transferinden kaynaklanmaktadır.
+Böylece elde edilen açısal hızın çevrimlik değişiminin
+
+H. Karabulut ve ark.
+
+Hoffmann ve Dowling [4] tarafından elde edilen
+sonuçlarla uyumlu olduğu görülmektedir.
+Şekil 7’de silindir bloğunun krank mili ekseni
+etrafında yaptığı açısal titreşimlerin genliğinin
+zamana göre değişimi ve bir periyotluk bir sürecin
+büyütülmüş bir görüntüsü verilmektedir. Şekil 7’de
+kullanılan sayısal veriler sönümleme sabiti 2000
+Ns/m, yay sabiti 250000 N/m olan takozlar için elde
+edilmiştir. Büyütülmüş bölümde ise; 2π-3π aralığı iş
+zamanını, 3π-4π aralığı egzoz zamanını, 4π-5π aralığı
+emme zamanını, 5π-6π aralığı sıkıştırma zamanını
+göstermektedir.
+Büyütülmüş
+bölümde
+4π-5π
+
+Şekil 6. Krank hızının dış yüklere ve zamana göre değişimleri ve çevrimlik dalgalanmalar (Variations of
+crankshaft speed with external loads and time and its cyclic fluctuations)
+
+Şekil 7. Bloğun açısal titreşiminin genlik ve frekans değişimleri (Variations of amplitude and frequency of
+angular vibrations of engine block)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+179
+
+H. Karabulut ve ark.
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+aralığında görülen hafif ikincil dalgalanmanın
+pistonun
+eylemsizliğinden
+kaynaklandığı
+düşünülmektedir. Pistonun eylemsizliğinin blok
+titreşimine diğer aralıklardaki etkisi belirgin değildir.
+Böylece, bloğun açısal titreşiminin daha çok gaz
+basıncı tarafından şekillendirildiği anlaşılmaktadır.
+Genliği en büyük olan titreşim ilk hareket anında
+oluşmakta, zaman ilerledikçe genlik düzgün bir
+şekilde azalarak belirli bir değerde sabitlenmektedir.
+Genliğin düzgün biçimde azalması ve bütün
+titreşimlerin şekil olarak benzer karakterde olması yay
+ve
+damper
+sabitlerinin
+uygun
+seçildiğini
+göstermektedir. Şekil 7’de görüldüğü üzere sürekli
+çalışma koşullarında motorun açısal titreşiminin
+
+genliği 0,005 radyan kadardır. Krank ekseni ile
+silindir kapağı arasındaki uzaklığın 30 cm olduğu
+varsayılırsa; silindir kapağının 1,5 mm civarında bir
+öteleme titreşimi yapacağı anlaşılır. Açısal titreşimin
+statik denge çizgisinin iki tarafındaki genliği eşit
+değildir. Bunun yük ile ilgili olduğu, yüksüz
+çalışmada statik denge çizgisi ile dinamik denge
+çizgisinin örtüştüğü, dış yük arttıkça dinamik denge
+çizgisinin statik denge çizgisinden uzaklaştığı
+görülmektedir. Bloğun burulma doğal frekansı 50 Hz
+civarındadır ve bu değer motorun çalışma
+frekansından yeterince uzak olduğu için rezonans
+yaratma olasılığının bulunmadığı söylenebilir.
+
+Şekil 8. Bloğun silindir ekseni doğrultusundaki titreşiminin genlik ve frekans değişimleri (Amplitude and
+frequency variations of the block vibration on the cylinder axis)
+
+Şekil 8’de 75 kg’lık bir bloğun, 250000 N/m yay
+sabiti 2000 Ns/m sönüm sabiti olan takozlar
+kullanarak elde dilen titreşim karakteristikleri
+görülmektedir. Genliği en yüksek olan salınım ilk
+harekette ortaya çıkmakta, ardından salınımların
+genliği düzgün biçimde azalmaktadır. Dengeleme
+kütlesinin krank merkezinden kaçıklığı krank
+yarıçapına eşit alındığında piston kütlesine eşit bir
+dengeleme kütlesi ile bloğun düşey titreşimlerinin
+genliğinin hemen hemen minimum seviyeye
+indirildiği görülmektedir. Bu analizde biyelin kütlesi
+ikiye ayrılarak bir parçası piston kütlesine eklendiği
+için, burada sözü edilen piston kütlesi yalnız pistonun
+kütlesi değil, piston kütlesi ile biyelinin kütlesinin
+yaklaşık 1/3’ünün toplamı olarak alınmıştır [27]. Şekil
+8’de verilen blok titreşimi eğrilerinin tümü 0,7 kg’lık
+bir piston için elde edilmiştir. Piston kütlesi 0,7 kg
+iken, 0,7 kg’lık bir denge ağırlığının sürekli çalışma
+koşullarında bloğun düşey titreşimlerinin genliğini
+0,16 mm civarına çektiği görülmektedir.
+Yazarlar tarafından üretilen [28] ve Şekil 9 da
+görülmekte olan bir prototip motorun krank
+
+180
+
+tasarımında denge ağırlığının kütlesi ile pistonun
+kütlesi eşit alınmış ve 3500 d/d’nın altındaki hızlarda
+yüksüz test edildiğinde bloğun düşey titreşimlerinin
+genliğinin zararsız düzeyde olduğu, ancak yatay
+titreşimlerin
+genliğinin
+daha
+büyük
+olduğu
+gözlenmiştir. Piston üst ölü noktada ya da alt ölü
+noktada iken denge ağırlığının eylemsizlik kuvveti ile
+pistonun eylemsizlik kuvveti aynı doğrultuda ancak zıt
+yönlerde olduğu için birbirini yok etmektedir. Ancak,
+piston kendi strokunun yarısında iken pistonun
+eylemsizlik kuvveti sıfıra inmekte, denge ağırlığının
+eylemsizlik kuvveti ise aynı büyüklükte kalmakta ve
+bloğa yatay doğrultuda etkiyerek yatay titreşimler
+yaratmaktadır. Bu nedenle pistonlu motorlarda denge
+ağırlığı kullanarak titreşimleri tamamen yok etmek
+olanaklı değildir. Krank ekseninden uzaklığı krank
+yarıçapına denk olmak koşulu ile, eğer kütlesi piston
+kütlesinin yarısına denk olan bir denge ağırlığı
+kullanılırsa düşey eksendeki titreşimin genliği belirli
+ölçüde azalacak ancak yatay eksende aynı ölçüde bir
+genlik yaratılacaktır. Bu nedenle pratikte piston
+kütlesinin yarısına denk bir dengeleme ağırlığının
+kullanılması daha yararlı görülmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+H. Karabulut ve ark.
+
+sayıları az olduğundan bunların yolcular açısından
+önemli bir sorun oluşturmayacağı söylenebilir. İlk
+harekette oluşan bu titreşimlerin taşıt ve motorun
+kendisi açısından olumsuz etkiler yaratacağı açıkça
+bellidir. İlk hareket anında oluşan bu titreşimler ve
+takoz kuvvetleri bir motoru tam-gazda ilk harekete
+geçirmenin
+ne
+derece
+sakıncalı
+olduğunu
+göstermektedir. Bununla birlikte bu simülasyonda
+kullanılan silindir-içi gaz basıncı değerleri tam-gaz ve
+tam-yük için elde edilmiş değerlerdir ve aslında,
+pratikte bir motorun ilk harekete geçişinde ve diğer
+gazlarda bu derecede büyük gaz basınçları
+olmamaktadır.
+
+Şekil 9. Prototip motor (Prototype engine)
+Bu çalışmada; silindir içi gaz basıncının blok
+titreşimine etkisinin dolaylı olduğu, piston kütlesi
+küçülürken gaz basıncının titreşime etkisinin de
+azaldığı belirlenmiştir. Sayısal analizde kullanılan
+bağıntıların eş zamanlı bağıntılar olmalarına karşın
+krankın açısal hızının dalgalanmalarının bloğun düşey
+titreşimini etkilemediği görülmektedir. Sonuç olarak
+bloğun düşey titreşimlerinin piston kütlesi tarafından
+yönetildiği ancak ikisinin arasındaki ilişkinin lineer
+olmadığı, piston kütlesi arttırıldığında gaz basıncının
+etkisinin de arttığı görülmektedir.
+Şekil 10’da takoz kuvvetlerinin krank açısı ile
+değişimleri görülmektedir. İlk hareket anında oluşan
+ilk 5-6 titreşim modunun genliği ve bunların
+takozlarda doğurduğu kuvvetler aşırı olmakla birlikte,
+
+Takozların yay ve sönümleme sabitlerini iyice
+küçülterek ilk hareket anında oluşan kuvvetleri kabul
+edilebilir düzeylere indirmek mümkün olmamaktadır.
+Yay ve damper sabitleri iyice küçültüldüğünde;
+sürekli çalışma rejiminde oluşan titreşimlerin üzerinde
+ikincil titreşimler de oluşmaktadır. İlk hareket anında
+takozlarda oluşan büyük kuvvet dalgalanmalarının
+üzerinde motorun burulma titreşiminin etkin faktör
+olduğu görülmektedir. Sayısal analizde kullanılan
+hayali burulma yayının sertliği takozun sertliğinden
+bağımsız olarak arttırıldığında kuvvet titreşimlerinin
+genliğinin 400 N’a kadar düştüğü görülmektedir.
+Sürekli çalışma rejiminde takozlarda oluşan kuvvet
+ve
+b cos ωt
+a cos ωt
+titreşimlerinin yapısı;
+fonksiyonlarına benzememektedir. Bu nedenle; taşıtın
+motordan
+ayrık
+bir
+titreşim
+modelinin
+oluşturulmasında basit harmonik uyarım kuvvetlerinin
+kullanılmasının
+pek
+doğru
+olmayacağı
+anlaşılmaktadır.
+
+Şekil 10. Takoz kuvvetlerinin krank açısı ile değişimleri (Variations of mount forces with crank angle)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+181
+
+H. Karabulut ve ark.
+
+4.
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+SONUÇLAR VE ÖNERİLER
+
+(CONCLUSIONS
+
+AND RECOMMENDATIONS)
+
+Bu çalışmada tek silindirli dört zamanlı bir dizel
+motorunun dinamik modeli yapılmış ve titreşimleri
+incelenmiştir. Sayısal uygulamalardan elde edilen
+başlıca bulgular ve öneriler aşağıda özetlenmiştir.
+• Sistemde kütle eylemsizlik momenti 0,08 m2kg
+olan bir volan kullanıldığında krank hızının
+çevrimlik dalgalanmasının anma hızına oranının
+%12
+olduğu
+belirlenmiştir.
+Çevrimlik
+dalgalanmanın azalması volan kütlesi ile doğru
+orantılı değildir ve daha da azaltılabilmesi içi
+volan kütlesinin aşırı derecede büyütülmesi
+zorunluluğu vardır.
+• Bloğun açısal titreşiminin daha çok silindir içi
+gaz basıncı tarafından, bloğun silindir ekseni
+doğrultusundaki titreşiminin ise daha çok
+pistonun
+kütlesi
+tarafından
+yönetildiği
+görülmektedir.
+• İlk hareket anında ortaya çıkan büyük takoz
+kuvvetlerinin bloğun açısal ve doğrusal
+titreşimlerinin ortak etkileri ile oluştuğu ancak
+hakim katkıyı bloğun açısal titreşiminin yaptığı
+görülmektedir.
+• Biyel muylusunun krank ekseninden kaçıklığı ile
+dengeleme kütlesinin krank ekseninden kaçıklığı
+eşit olmak şartı ile, dengeleme ağırlığının kütlesi
+piston kütlesine eşit seçildiğinde, düşey titreşimin
+genliği minimum düzeye inmekte, ancak bu
+durumda yatay eksende yeni bir titreşim
+oluşmaktadır. Bu nedenle pratikte dengeleme
+ağırlığının piston kütlesinin yarısı kadar seçilmesi
+uygun görülmektedir. Bu durumda piston
+kütlesine bağlı olarak blok, belirli ölçüde, her iki
+doğrultuda minimum genlikte öteleme titreşimleri
+yapacaktır.
+• İlk
+hareket
+esnasında
+oluşan
+öteleme
+titreşimlerinin ve açısal titreşimlerin motora
+vereceği zararların minimuma indirilebilmesi için
+motora ilk hareketin düşük gazda verilmesinin
+yaralı olacağı anlaşılmaktadır.
+• Bloğun hem düşey hem de yatay doğrultudaki
+titreşimlerinin genliğinin belirlenmesi ve daha
+gerçekçi bir simülasyon için bloğun üç serbestlik
+dereceli bir dinamik modelinin oluşturulması
+gerekmektedir.
+
+FA, FB
+FCH
+FL
+FS
+FU
+FW
+Fβ
+IC
+ICR
+k
+k A, k B
+KC
+KY
+me
+mp
+mu
+MQ
+MS
+Mµ
+P
+R
+Ru
+s
+ÜÖN
+x
+xc
+y
+yA, yB
+yc
+β
+ϕ
+θ
+λ
+Ω
+
+SEMBOLLER (NOMENCLATURE)
+Ak, Bk Fourier dönüşüm katsayıları
+CA, CB A ve B takozlarının sönümleme sabitleri
+(Şekil 4) (Ns/m)
+Burulma sönümleme sabiti (Nms/rad)
+CC
+Pistonun hidrodinamik sürtünme sabiti
+CP
+(Ns/m)
+Takozun sönümleme sabiti (Ns/m)
+Ct
+Bloğun yc doğrultusundaki titreşiminin yay
+CY
+sabiti (Ns/m)
+D
+Takozlar arası mesafe (m)
+
+182
+
+A ve B takozlarında oluşan kuvvetler (N)
+Karter basınç kuvveti (N)
+Biyel kuvveti (N)
+Piston yan yüzey kuvveti (N)
+Piston-silindir arası kuru sürtünme kuvveti
+(N)
+Silindir içi gaz kuvveti (N)
+Biyelin krank miline uyguladığı kuvvet
+(Şekil 3) (N)
+Bloğun krank eksenine göre toplam kütlesel
+eylemsizlik momenti (m2kg)
+Krank milinin ve volanın toplam kütlesel
+eylemsizlik momenti (m2kg )
+Tek takozun yay sabiti (N/m)
+A ve B takozlarının yay sabitleri (Şekil 4)
+(N/m)
+Burulma yay sabiti (Nm/rad)
+Bloğun doğrusal titreşiminin yay sabiti
+(Ns/m)
+Motorun toplam kütlesi (kg)
+Pistonun kütlesi (kg)
+Dengeleme ağırlıklarının kütlesi (kg)
+Dış yük (moment olarak) (Nm)
+İlk hareket momenti (Nm)
+Ana muyluda oluşan hidrodinamik sürtünme
+momenti (Nm)
+Silindir içi basınç (Pa)
+Krank yarıçapı (m)
+Dengeleme ağırlıklarının krank merkezinden
+uzaklığı (m)
+Pistonun krank merkezinden uzaklığı (m)
+Üst Ölü Nokta
+Pistonun x doğrultusundaki yer değiştirmesi
+(m)
+Krank merkezinin x doğrultusundaki yer
+değiştirmesi (m)
+Pistonun y doğrultusundaki yer değiştirmesi
+(m)
+A ve B takozlarındaki yer değiştirmeler (m)
+Krank ekseninin y doğrultusundaki yer
+değiştirmesi (m)
+Biyelin silindir ekseni ile yaptığı açı (rad)
+Bloğun statik silindir ekseni ile yaptığı açı
+(rad)
+Krank milinin silindir ekseni ile yaptığı açı
+(rad)
+Biyel uzunluğu (m)
+Dengeleme
+ağırlıklarının
+merkezkaç
+kuvvetinin yc ekseni ile yaptığı açı (rad)
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+Hartog, J.P.D., Mechanical Vibrations, Third
+Edition, McGraw Hill Book Company Inc.,
+1947.
+Wang, R., A Study of Vibration Isolation of
+Engine Mount System, MsD Thesis,
+Concordia University, The Department of
+Mechanical and Industrial Engineering, 2005.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Tek Silindirli Dört Zamanlı Bir Dizel Motorunun Dinamik Modeli ve Titreşimlerinin İncelenmesi
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+Yu, Y., Naganathan, N.G. ve Dukkipati, R.V.,
+“A Literature Review of Automotive Vehicle
+Mounting Systems” Mechanism and Machine
+Theory, Cilt 36, 123-142, 2001.
+Hoffmann D.M.W. ve Dowling, D.R.,
+“Modeling Fully-Coupled Rigid Engine
+Dynamics and Vibrations”, SAE Paper,
+No:1999-01-1749, 1-11, 1999.
+Boysal, A. ve Rahnejat, H., “A Torsional
+Vibration Analysis of a Multi-Body Single
+Cylinder Internal Combustion Engine Model”,
+Applied Mathematical Modelling, Cilt 21,
+481-493, 1997.
+Foumani, M.S., Khajepour, A., Durali, M.,
+“Optimization of Engine Mount Characteristics
+Using Experimental/Numerical Analysis”,
+Journal of Vibration and Control, 9, 11211139, 2003.
+Winton, D.M. ve Dowling, D.R., “Modal
+Content of Heavy-Duty Diesel Engine Block
+Vibration”, SAE Paper, No: 971948, 621-630,
+1997.
+Muller, M., Siebler, T.W. ve Gortner, H.,
+“Simulation of Vibrating Vehicle Structures as
+Part of the Design Process of Engine Mount
+Systems and Vibration Absorbers”, SAE
+Paper, No: 952211, 1995.
+Tao, J.S., Liui, G.R. ve Lam, K.Y., “Design
+Optimization of Marine Engine Mount
+System”, Journal of Sound and Vibration,
+Cilt 235, No 3, 477-494, 2000.
+Pasricha, M.S. ve Hashim, F.M., “Effect of the
+Reciprocating Mass of Slider Crank
+Mechanism on Torsional Vibrations of Diesel
+Engine Systems”, Asean Journal on Science
+and Technology for Development, Cilt 23,
+No 1, 71-81, 2006.
+Hadi, R., The Identification of The Inertial
+Characteristics of An ICE Through Steady
+State Vibration Measurement, PhD. Thesis,
+Wayne
+State
+University,
+Mechanical
+Engineering, 2002.
+Ostman, F. ve Toivonen, H.T., “Model-Based
+Torsional Vibration Control of Internal
+Combustion Engines”, IET Control Theory
+and Applications, 2, 11, 1024-1032, 2008.
+Hesterman, D.C. ve Stone, B.J., “A Systems
+Approach to the Torsional Vibration of Multi
+Cylinder Reciprocating Engines and Pumps.”,
+Proceedings of the Institution of Mechanical
+Engineers, Part C: Journal of Mechanical
+Engineering Science, Cilt 208, 395-408, 1994.
+Guzzomi, A.L., Hesterman, D.C. ve Stone,
+B.J., ‘The Effect of Piston Friction on Engine
+Block Dynamics’, Proceedings of the
+Institution of Mechanical Engineers, Part K:
+Journal of Multi Body Dynamics, Cilt 221,
+277-289, 2007.
+Ciulli, E., Rizzoni, G. ve Dawson, J.,
+“Numerical and Experimental Study of Friction
+on A Single Cylinder CFR Engine”, SAE
+International, International Congres and
+Exposition, Michigan, 960357, 181-188, 1996.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+H. Karabulut ve ark.
+
+16. Zweiri, Y.H., Whildborne, J.F. ve Seneviratne,
+L.D., “Detailed Analytical Model of A SingleCylinder Diesel Engine in The Crank Angle
+Domain”, Proceedings of the Institution of
+Mechanical Engineers, Part D: Journal of
+Automobile Engineering, Cilt 215, 11971216, 2001.
+17. Adiletta, G. ve Guido, A.R., "Dynamical
+Behaviour of Torsional System with Parametric
+and External Excitations”, Proceedings of the
+Institution of Mechanical Engineers, Part C:
+Journal of Mechanical Engineering Science,
+Cilt 214, 955-973, 2000.
+18. Rezeka, S.F., A Mathematical Model of
+Reciprocating
+Combustion
+Engine
+Dynamics for The Diagnosis of Deficient
+Energy Conversion, PhD. Thesis, Wayne
+State University, Mechanical Engineering,
+1984.
+19. Drew., S.J., Hesterman, D.C. ve Stone, B.J., “
+The Torsional Excitation of Variable Inertia
+Effects in A Reciprocating Engine”,
+Mechanical Systems and Signal Processing,
+Cilt 13, No 1, 125-144, 1999.
+20. Li, H. ve Stone, B.J., “Time Domain Modelling
+of A Reciproaching Engine”, Mechanical
+System and Signal Processing, Cilt 13, No 1,
+169-178, 1999.
+21. Metallidis P. ve Natiavas S., “Linear and
+Nonlinear
+Dynamics
+of
+Reciprocating
+Engines”, International Journal of NonLinear Mechanics, Cilt 38, 723-738, 2003.
+22. Christopherson, J. ve Jazar, G.N., “Dynamics
+Behaviour Comparision of Passive Hydrolic
+engine Mounts, Part 1: Mathematical
+Analysis”, Journal of Sound and Vibration,
+Cilt 290, 1040-1070, 2006.
+23. Hillis, A., J., Harrison, A.J., L. ve Stoten, D.P.,
+“A Comparision of Two Adaptive Algoritms
+for The Control of Active Engine Mounts”,
+Journal of Sound and Vibration, Cilt 286,
+37-54, 2005.
+24. Jazar, G.N., Houim, R., Narimani, A. ve
+Golnaraghi, M.F., “Frequency Response and
+Jump Avoidance in A Nonlinear Passive
+Engine Mount”, Journal of Vibration and
+Control, Cilt 12, No 11, 1205-1237, 2006.
+25. Nakaji, Y., Satoh, S., Kimura, T., Hamabe, T.,
+Akatsu, Y. ve Kawazoe, H., “Development of
+an Active Control Engine Mount System”,
+Vehicle System Dynamics, Cilt 32, 185-198,
+1999.
+26. Meirovitch, L., Elements of Vibrations
+Analysis, Second Edition, McGraw Hill
+International Editions, 1986.
+27. Palavan, S., Pistonlu Makinalar Dinamiği,
+Altı Baskı, İ.T.Ü. Makine Fakültesi Ofset
+Atölyesi, 38-39, 1975.
+28. Karabulut, H., Salman, M.S., Çınar, C., Öztürk,
+E., Sarıdemir, S., Dört Zamanlı, İki Silindirli,
+Buji ile Ateşlemeli Bir Benzin Motorunun
+Geliştirilmesi, Gazi Üniversitesi Rektörlüğü
+Bilimsel Araştırma Projesi, Proje No: 07/200611, 2009
+
+183
+
+

@@ -1,0 +1,1712 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 1, 83-91, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 1, 83-91, 2010
+
+ANAHTARLAMA FONKSİYONLARI İÇİN YENİ YAKIN
+MİNİMUM SADELEŞTİRME ALGORİTMASI
+Fatih BAŞÇİFTÇİ ve Şirzat KAHRAMANLI*
+Elektronik ve Bilgisayar Eğitimi Bölümü, Teknik Eğitim Fakültesi, Selçuk Üniversitesi, Kampüs/Konya
+*
+Bilgisayar Mühendisliği Bölümü, Mühendislik Mimarlık Fakültesi, Selçuk Üniversitesi, Kampüs/Konya
+basciftci@selcuk.edu.tr, sirzat@selcuk.edu.tr
+(Geliş/Received: 04.02.2009 ; Kabul/Accepted: 03.11.2009)
+ÖZET
+Anahtarlama fonksiyonlarının sadeleştirilmesi tasarımcılara daha kısa zaman süresinde, daha sade lojik devreler
+tasarlama imkanı sağlamaktadır. Sadeleştirilmiş olan bir fonksiyon daha az güç tüketimi, daha az hacim ve daha
+az maliyet gerektirir. Bu konu ile ilgili olarak geliştirilen yöntemlerin çoğu iki ana adımda gerçekleştirilir.
+Birinci adımda, asal çarpım terimlerinin tümü belirlenir. İkinci adımda fonksiyonu sadeleşmiş olarak örtecek,
+esas asal çarpım terimler kümesi belirlenir. Anahtarlama fonksiyonlarını sadeleştirecek algoritmaların tümü
+O(2n) karmaşıklığına sahiptirler. Araştırmalar göstermiştir ki n’in çok yüksek değerlerinde esas asal çarpım
+terimlerin tam kümesini belirleme yöntemi pratik olarak gerçekleştirilemez duruma gelmektedir. Bu yüzden bu
+çalışmada, asal çarpım terimlerin belli kıstaslara cevap verecek alt kümeleri oluşturularak, doğrudan örtme
+prensibine dayanan yakın minimum sadeleştirme algoritması geliştirilmiştir. Geliştirilen algoritma çeşitli problemler üzerinde test edilmiş ve dünyaca örnek olarak kabul edilen ESPRESSO algoritması ile karşılaştırılmıştır.
+Karşılaştırma kıstasları olarak algoritmaların; çözüm sonucunda buldukları çarpım terimlerinin toplam
+ifadelerinin sayısı, çözüme ulaşma süreleri ve çözüme ulaşırken kullandıkları bellek kapasitesi alınmıştır.
+Karşılaştırma sonuçlarına göre geliştirilen algoritmanın başarılı sonuçlar verdiği görülmüştür.
+
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+1. GİRİŞ (INTRODUCTION)
+Günümüzde Boole cebri olarak bilinen matematiksel
+sistem üzerine ilk çalışmalar 1854 yılında George
+Boole tarafından başlatılmıştır [1]. 1904 yılında
+Amerikalı Matematikçi E.V. Huntington, Boole cebrine yeni aksiyomlar eklemiştir. 1938 yılında Shannon,
+Boole cebrini devre tasarımlarına uygulamıştır.
+Bunun sonucunda Anahtarlama Cebri (Switching
+Algebra) adı altında yeni bir bilim dalı ortaya
+çıkmıştır [2].
+İki seviyeli lojik sadeleştirme lojik sentezin temel
+problemidir [3]. Geniş fonksiyon kümeleri için kesin
+minimum çarpımların toplamı (sum of product-SOP)
+ifadeleri elde edecek algoritmalar olmasına rağmen
+[4,5], pratik sistemlerin çoğunluğu buluşsal (heuristictecrübeye dayalı) lojik sadeleştirme algoritmalarını
+kullanır. Bu algoritmalar mutlak minimum olmayan,
+gerekli SOP ifadelerini üretirler. Örneğin, PRESTO
+[6,7], MINI [8], ESPRESSO [2] ve diğer yöntemler
+[9,10] minimum olmayan gerekli SOP ifadeleri
+üretirler. SOP sadeleştirme; PLA (Programlanabilir
+Lojik Dizi) optimizasyonunda, çok seviyeli lojik
+sentezde, durum şifrelemede, güç kestirimde, test
+üretmede ve diğer alanlarda kullanılır [11]. Gerekli
+SOP, asal çarpım terimlerin (Prime Implicant-PI) OR
+(veya) işlemi ile bağlanmış halidir. Öyle ki herhangi
+bir PI’ın silinmesi fonksiyonu değiştirir. Örneğin,
+Şekil 1.a ve 1.b’de gösterilen x1x2  x2 x3  x1 x3 ve
+x1x2  x1x3  x1x3  x1 x2 ifadeleri minimum SOP ve en
+kötü SOP ifadeleridir [1].
+Boole ifadelerinin sadeleştirmesi, mantık devrelerinin
+ve dolaylı olarak bilgisayar programlarının daha etkili
+olmasına yol açmaktadır. Sadeleştirme ifadeleri
+
+önemlidir. Çünkü elektrik devreleri, verilen Boole
+ifadelerinin her bir terim veya literallerinin uygulanması için bireysel bileşenler içerir. Bu tasarımcıların
+daha az bileşen kullanmasını ve böylece de belirli
+sistemlerin maliyetlerinin düşmesini sağlamış olur.
+Tek çıkışlı veya çok çıkışlı Boole sadeleştirme teknikleri [12,13] anlatılmıştır. Bu tekniklerin birçoğu iki
+adımda çalışır. İlk adımda bütün PI belirlenir ve ikinci
+adımda da verilen Boole ifadesini örtecek (kapsayacak) PI’ların altkümesini seçer [1,14].
+Bütün PI’ların belirlenmesi sürecinde son sonucun
+tam olarak belirlenmesi için ayrı durumlarda
+hesaplama yapılabilir. Özellikle, eğer her bir PI tam
+olarak k tane 0, k tane 1 ve k tane belirsiz terim (don’t
+care) içeriyorsa, PI’nın tamamlanmış kümesinin gücü
+M=(3k)!/(k!)3 dür [1,12,15]. Örneğin k=1,2,3,4 için
+sırasıyla M=6, 90, 1680 ve 34650 dır. n değişkenli bir
+fonksiyon için PI’ların sayısı 3n/n kadar büyük olabilir
+[14,15]. Sonuç olarak, PI belirleme adımı değişken
+sayısı n arttıkça elverişsiz bir duruma gelebilir [14].
+Açıkça görülmektedir ki iki seviyeli veya çok seviyeli
+Boole ifadelerini sadeleştirme prosedürlerinin hepsi
+tüm durumlarda O(2n) karmaşıklığına sahiptir [16-20].
+Bu yüzden bu çalışmada, asal çarpım terimlerin belli
+kıstaslara cevap verecek alt kümeleri oluşturularak,
+doğrudan örtme prensibine dayanan yakın minimum
+sadeleştirme algoritması geliştirilmiştir. Böylece,
+PI’ların minimum kümesini bulmak için O(2n) karmaşıklığı yerine O(n) karmaşıklığı metodu kullanılabilir
+[1,20].
+Bu çalışmada mantık fonksiyonlarının ifade biçimleri,
+sadeleştirme yöntemleri, algoritmaları ve programları
+kullanılmıştır. Bu yolda elde edilmiş son teorik sonuçlara dayanarak ve minterm yöntemiyle küp cebri
+yöntemleri bir arada kullanılarak daha etkin olan yeni
+bir algoritma meydana çıkarılmıştır. Geliştirilen algoritmanın programlanması için C programlama dili
+kullanılmıştır.
+2. TANIMLAR ve SİMGELER (DEFINITIONS and
+NOTATIONS)
+
+Boole fonksiyonlarında, fonksiyonun değişken sayısına göre sahip olduğu çıkış durumları değişmektedir. n
+sayıda değişkene sahip olan fonksiyon 2n sayıda
+mintermle ilişkide olur. Bu ilişkinin karakterine göre
+söz konusu mintermler aşağıdaki gibi çeşitli gruplara
+bölünür [21]:
+1) Fonksiyonun değerinin 1’e eşit olduğu mintermler,
+2) Fonksiyonun değerinin 0’a eşit olduğu mintermler,
+3) Fonksiyonun değerinin belirsiz olduğu mintermler.
+
+Şekil 1. Minimum SOP ve en kötü SOP ifadeleri
+(Minimum SOP and worst SOP)
+84
+
+Yalnız 1. ve 2. grup mintermlerle ilişkili olan fonksiyonlar Tam Belirlenmiş Fonksiyonlar olarak, bunların hepsi ile ilişkili olan fonksiyonlar ise Tam
+Belirlenmemiş Fonksiyonlar olarak tanımlanırlar.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+n girişli ve m çıkışlı bir Boole fonksiyonu aşağıdaki
+gibi tanımlanır [5,20]:
+Giriş
+Çıkış
+Fonksiyon f
+
+: B={0,1},
+: Y={0,1,d},
+: Bn  Y m.
+
+(1)
+
+Burada, çıkışta gösterilen d değeri (belirsiz terim) tam
+belirlenmemiş değer manasındadır ve fonksiyonun
+istenildiği yerinde 0 veya 1 olarak kabul edilebilir.
+Aşağıda gösterilen giriş ve çıkış kısımlarını her bir PI
+içerir [1,20].
+Giriş kısmı: n sabitler {0,1,x} olabilir;
+Çıkış kısmı: m sabitler {0,1,d} olabilir.
+Giriş kısmındaki x değeri bu değişken için 0 veya 1
+değeri olabilir.
+SON: Fonksiyonun değerini 1 yapan ON
+mintermlerinin kümesi,
+SOFF: Fonksiyonun değerini 0 yapan OFF
+mintermlerinin kümesi,
+SDC: Belirsiz mintermlerin kümesi.
+
+
+
+
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+Eğer hiç i, vi=y yoksa ve vj,..., vk,...,vm  {0,1}
+varsa, çıkarma işleminin sonucu {a1a2...aja1a2...ak-1vkak+1...an,...,a1a2...am1vjaj+1...an,
+vmam+1...an} kümesi olacaktır.
+1
+Eğeri, vi=z ise çıkarma işleminin sonucu boş
+kümedir. C=AB=
+
+3.2. Dönüşümlü Yutma İşlemi (The Commutative
+Absorption Operation ( Operation))
+
+A ve B küpleri aynı boyuta sahip iki küp olsun; A=a1,
+a2,..., an ve B = b1, b2,..., bn şeklinde gösterilen iki küp
+arasındaki dönüşümlü yutma işlemi iki aşamada
+gerçekleştirilir. Birinci aşamada aşağıdaki kurallara
+göre AV=AB=v1v2...vi...vn şeklinde yutma vektörü
+(vector of absorption-AV) oluşturulur [1,17,20,23].
+Eğer ai=bi, ise vi=z
+Eğer ai=x ve bi  x, ise vi=g
+
+(3)
+
+_
+
+Eğer ai= b i , ise vi=y
+Eğer ai  x ve bi=x, ise vi=l
+
+Bu çalışmada sunulan algoritmada SON kümesi ve SOFF
+kümesi kullanılmıştır. SDC kümesi ise kullanılmamıştır.
+
+İkinci aşamada AV’ye göre; A küpü, C sonuç küpüne
+dönüştürülür. C sonuç küpü bir küp veya bir kaç küpü
+içeren bir küme olabilir. vi vektörünün durumuna göre
+aşağıdaki dönüşümler gerçekleştirilir.
+
+3. KÜP CEBRİ İŞLEMLERİ (CUBE ALGEBRA
+
+
+
+OPERATIONS)
+
+Küp cebri işlemleri, önce anahtarlama fonksiyonlarının (Switching Functions-SFs) en son durumunu
+bulmak için geliştirilmiş ve uygulanmıştır [22,23].
+Yine bu işlem SF’nin ilk terimlerini (local PI) bulmak
+içinde kullanılmıştır. Daha sonra lojik fonksiyonların
+sadeleştirilmesi üzerinde kullanılmıştır [9,23].
+
+
+
+
+
+
+Eğer i, vi=y ise yutma işlemi mümkün değildir.
+C=A  B={A,B}
+Eğer i, vi=z ise A=B. C=A  B=A
+Eğer i, vi=g ve hiç i, vi=l, ise C= A  B=A
+Eğer i, vi=l ve hiç i, vi=g, ise C=A  B=B
+Eğer i, vi=g ve i, vi=l, ise yutma işlemi
+mümkün değildir. C=AB={A,B}
+
+3.1. Koordinatlı Çıkarma İşlemi
+
+4. YAKIN-MİNİMUM SADELEŞTİRME
+ALGORİTMASI (NEAR-MINIMAL
+
+A ve B küpleri aynı boyuta sahip iki küp olsun; A=a1,
+a2,..., an ve B=b1, b2,..., bn şeklinde gösterilen iki küp
+arasındaki koordinatlı çıkarma işlemi iki aşamada
+gerçekleştirilir. Birinci aşamada aşağıdaki kurallara
+göre VS=AB=v1v2...vi...vn şeklinde çıkarma vektörü
+(vector of subtraction-VS) oluşturulur [1,17,20,23].
+
+PI’ların belirlenmesi sürecinin karmaşıklığı SON
+kümesindeki her bir minterm ile SOFF kümesindeki her
+bir mintermin ayrılmasıyla sadeleştirilebilir [23,24].
+SON kümesindeki A=n-1n-2 …0 küpünü genişletici
+olarak kullanarak SOFF kümesindeki bütün mintermleri aşağıdaki formülü kullanarak genişletebiliriz.
+
+Eğer bi=x veya bi=ai, ise vi=z
+Eğer ai=x ve bi  x, ise vi= bi
+
+Eğer  i   i ise i=i değilse i=x i=1,2,…,n (4)
+Burada i, i ve i sırasıyla küp genişletici A’nın,
+genişletilen B küpünün ve genişlemiş BE küpünün i.
+koordinat değerleridir.
+
+(The Coordinate
+Subtraction Operation (# Operation))
+
+SIMPLIFICATION ALGORITHM)
+
+(2)
+
+Eğer ai= bi , ise vi=y
+İkinci aşamada VS’ye göre; A küpü, C sonuç küpüne
+dönüştürülür. C sonuç küpü bir küp veya bir kaç küpü
+içeren bir küme olabilir. vi vektörünün durumuna göre
+aşağıdaki dönüşümler gerçekleştirilir.
+
+
+Eğer i, vi=y ise çıkarma işlemi mümkün
+değildir. C=AB=A
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Bu algoritma, 3.1 ve 3.2 de tanımlanan işlemlere ve
+(4) nolu kurala dayanmaktadır. Bu algoritmanın
+sonucu, sadeleştirilmiş Boole fonksiyonunun olası
+sonuçlarından bir tanesidir. Bu sonuç, bir veya bir kaç
+ekstra çarpım teriminin (AND kapısı) önemli
+olmadığı birçok pratik uygulamada yeterli olabilir.
+Genellikle, elde edilen sonucun, fonksiyonun en
+
+85
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+sadeleşmiş biçimi olması SON kümesindeki
+mintermlerin sıralanmasına bağlıdır. Ancak, uygun
+sıralamayı elde etmek, düzensiz PI kümesi elde
+etmekten daha zordur. Herhangi bir sırada verilmiş
+herhangi bir Boole fonksiyon için yakın-minimum
+örtme algoritması aşağıdaki gibidir:
+Algoritma Yakın-Minimum Sadeleştirme (SON,
+SOFF)
+Begin
+while (SON ≠ ) do
+begin
+  ilk_eleman (SON)
+Q0  SOFF genişlet (X)
+// (4) nolu formül kullanılarak
+Q1  dönüşümlü_yutma_işlemi (Q0)
+// (3) nolu formül
+SPI(x)  (xx…xx) # Q1
+// (2) nolu formül kullanılarak
+if {EPI_seçme_işlemi (SPI(x))} > 1 then
+EPI(x)  {EPI_seçme_işlemi (SPI(x))}nin
+herhangi bir elemanı
+else
+EPI(x)  EPI_seçme_işlemi (SPI(x))
+SONi  SON # EPI(x)
+SEPI  SEPI  EPI(x)
+end
+End
+Örnek: f(x3,x2,x1,x0)=(0,1,2,3,5,7,10,11,13,14,15)
+Boole fonksiyonunu Yakın-Minimum Sadeleştirme
+Algoritmasını kullanarak minimumlaştırın.
+SON1 = {0000, 0001, 0010, 0011, 0101, 0111, 1010,
+1011, 1101, 1110, 1111},
+SOFF = {0100, 0110, 1000, 1001, 1100},
+SON kümesinin ilk mintermi 0000, 1=0000,
+Tablo 1’den görüldüğü gibi, Q1.1 = {x1xx,1xxx}. Tam
+küpten (xxxx), Q1.1 değerleri koordinatlı çıkarma
+işlemi ile çıkarılarak seçilen 0000 minterminin
+örttüğü küp kümesi belirlenir. Bu işlem aşağıda 1.2’de
+gösterilmiştir.
+1.2. 0000 minterminin örttüğü küp kümesinin
+belirlenmesi.
+SPI(1) = xxxx # Q1 = {((xxxx # x1xx) # 1xxx)}
+= {x0xx # 1xxx} = {00xx}
+SPI(1) = {SPI} = {00xx}.
+Tablo 1. 0000 mintermi için Q0.1 ve Q1.1
+kümelerinin belirlenmesi (Determination of Q0.1 and Q1.1
+sets for 0000 minterm)
+
+SOFF
+0100
+0110
+1000
+1001
+1100
+
+Q0.1
+x1xx
+x11x
+1xxx
+1xx1
+11xx
+
+Küp Durumu
+Asal
+x1xx tarafından kapsandı
+Asal
+1xxx tarafından kapsandı
+x1xx tarafından kapsandı
+
+Q1.1
+x1xx
+
+1xxx
+
+0000 minterminin örttüğü küp kümesi belirlendikten
+sonra elde edilen sonuçta tek bir küp olduğu için bu
+86
+
+küp esas asal çarpım terimler kümesine dahil edilir.
+Bu tek küp SON kümesinden çıkarılarak yeni SON
+kümesi elde edilir.
+1.3. En büyük küpün belirlenmesi.
+P1.1 = SON1 # SPI(1) = SON1 # 00xx
+= {0000, 0001, 0010, 0011, 0101, 0111, 1010,
+1011, 1101, 1110, 1111} # 00xx,
+= {0101,0111,1010,1011,1101,1110,1111}.
+Yukarıdaki işlemlerde görüldüğü gibi SPI(1) kümesi
+tek elemanlıdır. Böylece, EPI(1)=00xx, SEPI = {00xx}.
+
+SON kümesinden 00xx küpü çıkarılarak yeni SON
+kümesi belirlenir.
+2.1. SON kümesinin örtülmeyen kısmının belirlenmesi.
+SON2=P1.1 ={0101,0111,1010,1011,1101,1110,1111},
+Buradan, yeni SON2 kümesinin ilk mintermi 0101,
+2 = 0101,
+Tablo 2’den görüldüğü gibi, Q1.2 = {xxx0,10xx}. Tam
+küpten (xxxx), Q1.2 değerleri koordinatlı çıkarma
+işlemi ile çıkarılarak seçilen 0101 minterminin
+örttüğü küp kümesi belirlenir. Bu işlem aşağıda 2.2’de
+gösterilmiştir.
+2.2. 0101 minterminin örttüğü küp kümesinin
+belirlenmesi.
+SPI(2) = xxxx # Q1 = {(xxxx # xxx0) # 10xx}
+= {xxx1 # 10xx} = {0xx1,x1x1},
+SPI(2) = { SPI(2.1), SPI(2.2)} = {0xx1,x1x1}.
+Tablo 2. 0101 mintermi için Q0.2 ve Q1.2
+kümelerinin belirlenmesi (Determination of Q0.2 and Q1.2
+sets for 0101 minterm)
+
+SOFF
+0100
+0110
+1000
+1001
+1100
+
+Q0.2
+xxx0
+xx10
+10x0
+10xx
+1xx0
+
+Küp Durumu
+Asal
+xxx0 tarafından kapsandı
+xxx0 tarafından kapsandı
+Asal
+xxx0 tarafından kapsandı
+
+Q1.2
+xxx0
+
+10xx
+
+0101 minterminin örttüğü küp kümesi belirlendikten
+sonra elde edilen sonuçta iki küp vardır. Bu küplerden
+hangisinin esas asal çarpım terimler kümesine dahil
+edileceği aşağıda gösterilmiştir.
+2.3. En büyük küpün belirlenmesi.
+P2.1 = SON2 # SPI(2.1) = SON2 # 0xx1
+= {0101,0111,1010,1011,1101,1110,
+1111} # 0xx1= {1010,1011,1101,1110,1111},
+P2.2 = SON2 # SPI(2.2) = SON2 # x1x1
+= {0101,0111,1010,1011,1101,1110,
+1111} # x1x1= {1010,1011,1110},
+Yukarıdaki işlemlerde görüldüğü gibi P2.2 kümesi (3
+eleman) P2.1 kümesinden (5 eleman) daha güçlüdür.
+Sonuç olarak x1x1 küpü 0xx1 küpünden daha
+büyüktür. Böylece,
+EPI(2) = x1x1, SEPI = {00xx,x1x1}.
+
+SON kümesinden x1x1 küpü çıkarılarak yeni SON
+kümesi belirlenir.
+3.1. SON kümesinin örtülmeyen kısmının belirlenmesi.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+SON3 = P2.2 = {1010,1011,1110}, Buradan, yeni SON3
+kümesinin ilk mintermi 1010, 3 = 1010,
+Tablo 3’den görüldüğü gibi, Q1.3 = {xx0x,01xx}. Tam
+küpten (xxxx), Q1.3 değerleri koordinatlı çıkarma
+işlemi ile çıkarılarak seçilen 1010 minterminin
+örttüğü küp kümesi belirlenir. Bu işlem aşağıda 3.2’de
+gösterilmiştir.
+3.2. 1010 minterminin örttüğü küp kümesinin
+belirlenmesi.
+SPI(3) = xxxx # Q1 = {(xxxx # xx0x) # 01xx}
+= {xx1x # 01xx} = {1x1x,x01x}
+SPI(3) = { SPI(3.1), SPI(3.2)} = {1x1x,x01x }.
+Tablo 3. 1010 mintermi için Q0.3 ve Q1.3
+kümelerinin belirlenmesi (Determination of Q0.3 and Q1.3
+sets for 1010 minterm)
+
+SOFF
+
+Q0.3
+
+0100
+0110
+1000
+1001
+1100
+
+010x
+01xx
+xx0x
+xx01
+x10x
+
+Küp Durumu
+
+01xx tarafından kapsandı
+Asal
+Asal
+xx0x tarafından kapsandı
+xx0x tarafından kapsandı
+
+Q1.3
+
+01xx
+xx0x
+
+1010 minterminin örttüğü küp kümesi belirlendikten
+sonra elde edilen sonuçta iki küp vardır. Bu küplerden
+hangisinin esas asal çarpım terimler kümesine dahil
+edileceği aşağıda gösterilmiştir.
+3.3. En büyük küpün belirlenmesi.
+P3.1 = SON3 # 10x0 = {1010,1011,1110} # 1x1x = 
+P3.2 = SON3 # x000
+= {1010,1011,1110} # x01x = {1110}
+Yukarıdaki işlemlerde görüldüğü gibi P3.1 kümesi (0
+eleman) P3.2 kümesinden (1 eleman) daha güçlüdür.
+Sonuç olarak 1x1x küpü x01x küpünden daha
+büyüktür. Böylece,
+EPI(3) = 1x1x, SEPI = {00xx,x1x1,1x1x}.
+Sonuç olarak, sadeleştirme işlemi tamamlanmıştır.
+Çünkü SON kümesindeki bütün mintermler
+örtülmüştür.
+4.1. SON kümesinin örtülmeyen kısmının belirlenmesi.
+SON4 = P3.1 = .
+Fonksiyonun sadeleştirilmiş durumu;
+SEPI = {00xx,x1x1,1x1x}
+_
+
+_
+
+f  x 3 x 2  x 2 x 0  x 3 x1
+5. ALGORİTMALARIN KARŞILAŞTIRILMASI
+(COMPARISON OF ALGORITHMS)
+
+Geliştirilmiş olan Yakın Minimum Sadeleştirme
+Algoritması (YMSA), ESPRESSO algoritması ile karşılaştırılmıştır. Karşılaştırma kriteri olarak üç ana
+durum belirlenmiştir. Bunlar;
+ Algoritmaların çözüm sonucunda buldukları SOP
+sayısı,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+ Algoritmaların çözüme ulaşma süreleri,
+ Algoritmaların çözüme ulaşırken kullandıkları
+bellek kapasitesi
+YMSA’sı ve ESPRESSO, C programlama dilinde
+kodlanmışlardır. Algoritmalar aynı dosya formatını
+kullanmıştır. Algoritmaları aynı şartlarda karşılaştırabilmek için ESPRESSO algoritmasının belirlediği durumlar dikkate alınmıştır. Karşılaştırmaların gerçekleştirilmesini kolaylaştırmak için Delphi programlama
+dilinde ara yüz programı yazılmıştır. Tablo 4 ve 5’de
+değerlendirme testlerine (benchmarklara) ait, giriş
+değişken sayısı, SON sayısı, SOFF sayısı, SOP sayısı,
+algoritmaların sadeleştirme zamanları ve kullandıkları
+bellek kapasiteleri verilmiştir.
+Performans ve sonuç kalitesini karşılaştırmak için
+değerlendirme testleri, YMSA ve ESPRESSO tarafından sadeleştirilmiştir. Karşılaştırmalar AMD Sempron
+2600 işlemcili 1.83 GHz ve 512 MB RAM belleği
+olan standart bir PC’de gerçekleştirilmiştir. Karşılaştırma için kırk sekiz farklı tek-çıkışlı fonksiyon
+kullanılmıştır. Çarpım terimlerinin toplamı ifadesi
+şeklinde verilen sonuçlar (SOP sayısı) açısından
+algoritmalar karşılaştırıldığında elde edilen bilgiler
+şöyledir. YMSA ile ESPRESSO algoritması karşılaştırıldığında; fonksiyonların %75’inde eşit sayıda SOP
+sayısına sahip oldukları görülmüştür. Bu algoritmalardan ESPRESSO, fonksiyonların %18,75’inde daha
+iyi sonuç bulurken YMSA %6,25’inde daha iyi sonuç
+bulmuştur. SOP sayılarının ortalama değerlerine göre
+YMSA ile ESPRESSO’yu karşılaştırdığımızda
+ESPRESSO’nun daha iyi sonuç bulduğu fonksiyonlarda ortalama %9,7 daha az SOP bulmuştur.
+YMSA’nın daha iyi sonuç bulduğu fonksiyonlarda
+ortalama %45 daha az SOP bulmuştur.
+YMSA
+ile
+ESPRESSO
+karşılaştırıldığında
+YMSA’sının sadeleştirme işlemlerini çok daha hızlı
+gerçekleştirdiği
+görülmektedir.
+Fonksiyonların
+%89,6’sında YMSA daha hızlı bir şekilde sadeleştirme yapıp sonuca ulaşmıştır. %10,4’ünde ise algoritmaların sonuca ulaşma zamanları eşittir. Bu iki
+algoritma
+açısından
+bakıldığında
+YMSA’sı
+ESPRESSO algoritmasına göre çok daha hızlıdır.
+Ortalama olarak YMSA ESPRESSO’ya göre 7,9 kat
+daha hızlı sadeleştirme yapmaktadır. Bu algoritmalar
+için sonuca ulaşma süresine bakıldığı zaman, genellikle, YMSA’nın göreceli hızı SOFF/SON değerinin
+azaldığı durumlarda artmaktadır. Örneğin; 9 değişkene sahip olan prom1 değerlendirme testinin
+SOFF/SON=14/488 = 0.03 olduğu durumda YMSA,
+ESPRESSO’dan 115 kat daha hızlı sadeleştirme
+yapmaktadır. Bunun yanında, 10 değişkene sahip olan
+t12
+değerlendirme
+testinin
+SOFF/SON=
+758/266=2,85
+olduğu
+durumda
+YMSA,
+ESPRESSO’dan 4 kat daha hızlı sadeleştirme
+yapmıştır.
+
+87
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+Tablo 4. SOP Sayısı ve Çalışma Zamanları (SOP number and execution time)
+
+YMSA (SY)
+
+ESPRESSO
+(SE)
+
+4
+4
+4
+8
+9
+11
+9
+17
+27
+3
+56
+18
+12
+65
+29
+12
+48
+25
+53
+65
+33
+18
+65
+24
+128
+98
+223
+32
+15
+120
+4
+38
+87
+267
+488
+142
+516
+134
+266
+266
+29
+26
+29
+27
+29
+67
+24
+15
+
+9
+8
+6
+5
+1
+13
+23
+8
+5
+4
+8
+46
+22
+63
+99
+116
+48
+103
+203
+128
+223
+52
+131
+42
+128
+30
+26
+224
+241
+136
+434
+8
+46
+245
+14
+145
+508
+189
+371
+758
+5
+8
+6
+121
+1886
+2036
+3
+13
+
+1
+1
+1
+2
+4
+4
+2
+4
+4
+2
+7
+2
+6
+24
+8
+7
+8
+3
+12
+21
+2
+3
+21
+3
+23
+16
+26
+9
+4
+84
+4
+6
+6
+10
+23
+7
+4
+48
+83
+109
+3
+5
+2
+6
+4
+31
+4
+1
+
+1
+1
+1
+2
+4
+4
+2
+4
+4
+2
+7
+2
+6
+24
+8
+7
+8
+3
+12
+20
+2
+4
+20
+6
+23
+14
+23
+9
+4
+84
+4
+6
+6
+10
+19
+7
+4
+49
+76
+99
+3
+4
+2
+6
+4
+29
+4
+1
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+0,95
+1
+1,33
+0,95
+2
+1
+0,88
+0,88
+1
+1
+1
+1
+1
+1
+1
+0,83
+1
+1
+1,02
+0,92
+0,91
+1
+0,8
+1
+1
+1
+0,93
+1
+1
+
+Y
+
+ESPRESSO
+(TE)
+
+SOFF Sayısı
+
+04
+04
+04
+04
+04
+05
+05
+06
+06
+06
+06
+06
+07
+07
+07
+07
+07
+07
+08
+08
+08
+08
+08
+08
+08
+08
+08
+08
+08
+08
+09
+09
+09
+09
+09
+09
+10
+10
+10
+10
+12
+12
+12
+12
+16
+16
+18
+26
+
+E
+
+YMSA (TY)
+
+SON Sayısı
+
+S
+S
+
+check
+check1
+check2
+check3
+wim
+p82
+squar
+m
+m5
+new2
+poperom
+sqr
+inc
+linrom
+max128
+max3
+sqn
+z5xp1
+dist
+e
+ex5
+exp
+exps
+exp1
+f51m
+m3
+m4
+mlp4
+root
+rd84
+apex4
+max4
+min
+max512
+prom1
+prom2
+max1024
+t10
+t11
+t12
+br11
+br1
+br2
+t3
+pdc
+spla
+den
+bca
+
+88
+
+Değişken Sayısı
+
+Çalışma Zamanı (mili sn.)
+
+Değerlendirme
+Testleri
+
+SOP Sayısı
+
+T
+T
+
+15,625
+15,625
+15,625
+15,625
+15,625
+15,625
+15,625
+15,625
+15,625
+15,625
+15,625
+31,25
+15,625
+15,625
+31,25
+15,625
+31,25
+15,625
+15,625
+15,625
+15,625
+31,25
+31,25
+15,625
+15,625
+31,25
+31,25
+31,25
+31,25
+46,875
+31,25
+31,25
+15,625
+15,625
+31,25
+15,625
+15,625
+46,875
+46,875
+62,5
+15,625
+15,625
+15,625
+15,625
+31,25
+46,875
+31,25
+31,25
+
+15,625
+15,625
+15,625
+15,625
+31,25
+15,625
+31,25
+40,625
+40,625
+40,625
+56,25
+56,25
+56,25
+40,625
+56,25
+56,25
+40,625
+40,625
+65,625
+65,625
+81,25
+65,625
+81,25
+65,625
+81,25
+116,25
+337,5
+81,25
+65,625
+186,25
+100,625
+287,5
+81,25
+100,625
+3586,87
+131,875
+116,25
+715,625
+650
+256,25
+456,25
+156,25
+140,625
+140,625
+184,375
+284,375
+537,5
+468,75
+
+1
+1
+1
+1
+2
+1
+2
+2,6
+2,6
+2,6
+3,6
+1,8
+3,6
+2,6
+1,8
+3,6
+1,3
+2,6
+4,2
+4,2
+5,2
+2,1
+2,6
+4,2
+5,2
+3,72
+10,8
+2,6
+2,1
+3,97
+3,22
+9,2
+5,2
+6,44
+114,8
+8,44
+7,44
+15,27
+13,87
+4,1
+29,2
+10
+9
+9
+5,9
+6,07
+17,2
+15
+
+E
+Y
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+Tablo 5. Bellek Kullanımları (Memory usage)
+
+Değerlendirme
+Testleri
+
+Değişken sayısı
+
+SON sayısı
+
+SOFF sayısı
+
+YMSA (MY)
+
+ESPRESSO
+(ME)
+
+Bellek Kullanımı (kilobyte)
+
+M
+M
+
+check
+check1
+check2
+check3
+wim
+p82
+squar
+m
+m5
+new2
+poperom
+sqr
+inc
+linrom
+max128
+max3
+sqn
+z5xp1
+dist
+e
+ex5
+exp
+exps
+exp1
+f51m
+m3
+m4
+mlp4
+root
+rd84
+apex4
+max4
+min
+max512
+prom1
+prom2
+max1024
+t10
+t11
+t12
+br11
+br1
+br2
+t3
+pdc
+spla
+den
+bca
+
+04
+04
+04
+04
+04
+05
+05
+06
+06
+06
+06
+06
+07
+07
+07
+07
+07
+07
+08
+08
+08
+08
+08
+08
+08
+08
+08
+08
+08
+08
+09
+09
+09
+09
+09
+09
+10
+10
+10
+10
+12
+12
+12
+12
+16
+16
+18
+26
+
+4
+4
+4
+8
+9
+11
+9
+27
+27
+3
+56
+18
+12
+65
+29
+12
+48
+25
+53
+65
+33
+18
+65
+24
+128
+98
+223
+32
+15
+120
+4
+38
+87
+267
+488
+142
+516
+113
+266
+266
+29
+26
+29
+27
+29
+67
+24
+15
+
+9
+8
+6
+5
+1
+13
+23
+5
+5
+4
+8
+46
+22
+63
+99
+116
+48
+103
+203
+128
+223
+52
+131
+42
+128
+30
+26
+224
+241
+136
+434
+8
+46
+245
+14
+145
+508
+201
+371
+758
+5
+8
+6
+121
+1886
+2036
+3
+13
+
+2.064
+1.995
+2.318
+1.802
+1.946
+2.314
+2.290
+1.954
+2.269
+2.310
+2.249
+2.281
+1.937
+2.277
+2.285
+2.310
+2.310
+2.281
+1.945
+1.908
+2.298
+2.298
+2.298
+1.966
+2.318
+2.285
+2.248
+1.941
+2.040
+2.019
+2.298
+2.306
+2.302
+2.278
+1.872
+2.302
+2.232
+2.318
+2.244
+2.318
+1.937
+2.281
+2.244
+2.286
+2.338
+2.220
+2.273
+2.281
+
+2.482
+2.441
+2.449
+2.469
+2.478
+2.428
+2.437
+2.449
+1.982
+2.670
+2.666
+2.461
+2.428
+2.457
+2.154
+2.056
+2.256
+2.416
+2.404
+2.379
+2.408
+2.379
+2.007
+2.416
+2.437
+2.387
+2.396
+2.469
+2.404
+2.142
+2.379
+2.379
+2.379
+2.347
+2.887
+2.289
+2.301
+2.818
+2.408
+2.441
+2.338
+2.375
+1.957
+2.379
+2.289
+2.428
+2.396
+2.363
+
+1,20
+1,22
+1,06
+1,37
+1,27
+1,05
+1,06
+1,25
+0,87
+1,16
+1,19
+1,08
+1,25
+1,08
+0,94
+0,89
+0,98
+1,06
+1,24
+1,25
+1,05
+1,04
+0,87
+1,23
+1,05
+1,04
+1,07
+1,27
+1,18
+1,06
+1,04
+1,03
+1,03
+1,03
+1,54
+0,99
+1,03
+1,22
+1,07
+1,05
+1,21
+1,04
+0,87
+1,04
+0,98
+1,09
+1,05
+1,04
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+E
+Y
+
+89
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+Algoritmaların sadeleştirme yaparken kullandıkları
+bellek alanı bakımından değerlendirilmesi yapıldığında, ESPRESSO’nun YMSA’na göre %16,7 fonksiyonda daha iyi olduğu görülmesine rağmen %83,3
+fonksiyonda YMSA daha az bellek alanı kullanmıştır.
+Algoritmaların daha az bellek alanı kullandıkları
+fonksiyonlardaki durumlarına bakıldığında ise YMSA
+%13,2 daha az bellek alanı kullanırken ESPRESSO
+%9 daha az bellek alanı kullanmıştır.
+
+%16,7 fonksiyonda, YMSA %83,3 fonksiyonda daha
+az bellek alanı kullanmıştır.
+
+6. SONUÇ (CONCLUSION)
+
+KAYNAKLAR (REFERENCES)
+
+Bu çalışmada anahtarlama fonksiyonlarını sadeleştirmek için yeni bir algoritma sunulmuştur. Sunulan
+algoritmada küp cebri işlemleri kullanılmıştır. Sunulan algoritmada küp cebrinin koordinatlı çıkarma ve
+dönüşümlü yutma işlemleri kullanılmıştır. Sunulan
+algoritmada verilen fonksiyonun ON kümesi mintermlerinden bir tanesini rasgele seçilmekte ve bu
+mintermi kapsayan asal çarpım terimler oluşturulmaktadır. YMSA “Büyük veya Daha Az” işlemi
+kullanılarak esas asal çarpım terimler (EAI) bir bir
+seçilmektedir. Belirlenen asal çarpım terim için eşit
+sayıda minterm örtülürse üretilmiş PI’lardan bir tanesi
+seçilmektedir. Bu işlemlerin yapılması ile fonksiyonun sadeleşmiş halini temsil edecek esas asal çarpım
+terimler belirlenmiş olur. Sunulan YMSA önemli bir
+şekilde var olan metotlardan hızlı çalışmaktadır ve
+daha az bellek kapasitesine ihtiyaç duymaktadır.
+Çünkü minimum sayıda geçici sonuçlar üreterek
+işleme tabi tutmaktadır. Bu özellikler sunulan
+algoritmayı özlü ve son derece verimli yapmaktadır.
+
+1.
+
+Sunulan YMSA’sı C programlama dilinde kodlanmıştır. Karşılaştırması yapılan ESPRESSO programı da C
+programlama dilinde kodlanmıştır. Sunulan algoritmada ve karşılaştırması yapılan ESPRESSO programında aynı dosya yapısı kullanılmıştır. Programların
+kullanımını kolaylaştırmak için Delphi programlama
+dilinde ara yüz programı yazılmıştır. Karşılaştırmalarda tek çıkışlı fonksiyonlar kullanılmıştır.
+Karşılaştırması yapılan fonksiyonlar tam tanımlanmamış veya tam tanımlanmış fonksiyonlardır. Algoritmaların karşılaştırması üç duruma göre yapılmıştır.
+Bunlar, algoritmaların verilen fonksiyonları sadeleştirdikten sonra elde ettikleri çarpım terimlerinin
+toplamı (SOP) sayısına göre, algoritmaların sadeleştirme zamanları ve bellek kullanma durumlarıdır.
+SOP sayısına göre yapılan karşılaştırma sonucunda,
+fonksiyonların %75’inde eşit sayıda, %18,75’inde
+ESPRESSO daha iyi sonuç bulurken YMSA
+%6,25’inde daha iyi sonuç bulmuştur. Algoritmaların
+sadeleştirme zamanlarına göre yapılan karşılaştırma
+sonucunda, fonksiyonların %89,6’sında YMSA daha
+hızlı bir şekilde sonuca ulaşırken, %10,4’ünde ise
+algoritmaların sonuca ulaşma zamanları eşittir.
+Algoritmaların sonuca ulaşırken kullandıkları bellek
+alanına göre yapılan karşılaştırmada, ESPRESSO
+
+90
+
+TEŞEKKÜR (ACKNOWLEDGEMENT)
+Bu çalışma, Selçuk Üniversitesi Bilimsel Araştırma
+Projeleri Koordinatörlüğü’nün 2002/034 nolu
+projenin bir parçası olup vermiş olduğu katkılarından
+dolayı teşekkür ederiz.
+
+2.
+
+3.
+
+4.
+5.
+
+6.
+7.
+8.
+
+9.
+10.
+
+11.
+
+12.
+13.
+14.
+
+Başçiftçi F., Anahtarlama Fonksiyonları İçin
+Yerel Basitleştirme Algoritmaları, Doktora
+Tezi, Selçuk Üniversitesi, Fen Bilimleri
+Enstitüsü, 2006.
+Brayton R.K., Hachtel G.D., McMullen C.,
+Sangiovanni-Vincentelli
+A.L.,
+Logic
+Minimization Algorithms For VLSI Synthesis,
+ISBN 0-89838-164-9, Hardbound, Kluwer
+Academic Publishers, 1984.
+Sasao T., Butler J.T., Worst and Best Irredundant
+Sum-of–Product
+Expressions,
+IEEE
+Transactions on Computers, Vol. 50(9), pp.
+935-947, 2001.
+Coudert O., Two-Level Logic Minimization: an
+Overview. Integration, The VLSI Journal, 17-2,
+pp. 97-140, October 1994.
+Dagenais M.R., Agarwal V.K., Rumin N.C.,
+McBOOLE: A New Procedure for Exact Logic
+Minimization,
+IEEE
+Transactions
+On
+Computer Aided Design, Vol. CAD-5, No:1,
+Jaunary 1986.
+Brown, D.W., A State-Machine Synthesizer –
+SMS. Proc. 18th Design Automation
+Conference, pp.301-304, Nashville, June 1981.
+Svoboda A., White D.E, Advanced Logical
+Circuit Design Techniques, New York: Garland
+Pres, 1979.
+Hong S.J., Cain R.G. and Ostapko D.L., MINI: A
+Heuristic Approach For Logic Minimization,
+IBM J. of Res. and Dev., Vol.18, pp.443-458,
+September 1974.
+Dietmeyer D.L., Logic Design of Digital
+Systems, MA:Ally and Bacon, Boston 1979.
+Nguyen K., Perkowski M., Goldstein N.,
+Palmini-Fats Boolean Minimizer for Personal
+Computers, Proc. Design Automation Conf., pp.
+615-621, Aug, 1987.
+Mishchenco A., Sasao T., Large-Scale SOP
+minimization
+Using
+Decomposition
+and
+Functional Properties, DAC, pp149-154, June 2-6
+2003.
+Miller R.E., Switching Theory, Vol. 1
+Combination Circuits, New York; John Wiley
+and sons, 1965.
+Mano M. M., Digital Design, Prentice-Hall
+International Editions, 1984.
+Perkins S.R., Rhyne T., An Algorithm for
+Identifying and Selecting The Prime Implicants
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Anahtarlama Fonksiyonları İçin Yeni Yakın Minimum Sadeleştirme Algoritması
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+of a Multiple-Output Boolean Function, IEEE
+Transactions On Computer Aided Design, Vol.
+7, No:11, November 1988.
+Gurunath B., Biswas N.N., An Algorithm for
+Multiple
+Output
+Minimization,
+IEEE
+Transactions On Computer Aided Design, Vol.
+8, No:9, September 1989.
+Bartlett K.A., Brayton R.K., Hachtel G.D.,
+Jacoby R.M., Morrison C.R., Rudell R.L.,
+Sangiovanni-Vincentelli
+A., Wang A.R.,
+Multilevel Logic Minimization Using Implicit
+Don’t Cares, IEEE Transactions On Computer
+Aided Design, Vol. 7, No:6, June 1988.
+Allahverdi N.M., Kahramanlı Ş.Ş., Erciyeş K., A
+Fault Tolerant Routing Algorithm Based On Cube
+Algebra For Hypercube Systems, Journal of
+Systems Architecture, 46, pages 201-205, 2000.
+Bernasconi A., Ciriani V., Luccio F., Pagli L.,
+Fast Three-Level Logic Minimization Based on
+Autoymmetry,
+http://citeseer.nj.nec.com/cachedpage/462188/1
+2001.
+Beckert B., Iiahnle R., Escalada-Imaz G., Simp.
+of Many-Valued Logic Formulas Using Anti-
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+20.
+
+21.
+22.
+
+23.
+
+24.
+
+F. Başçiftçi ve Ş. Kahramanlı
+
+Links,
+http://citeseer.nj.nec.com/cachedpage
+/221052/1, 1997.
+Kahramanlı Ş., Başçiftçi F., Boolean Functions
+Simplification Algorithm Of O(n) Complexity,
+Mathematical & Computational Applications,
+Volume 8 Numbers 1-3, pages:271-278.
+ISSN:1300-686X, 2003.
+Kahramanlı Ş., Özcan M., Lojik Tasarımın
+Temelleri ve Uygulamaları, Atlas Yayın
+Dağıtım, İstanbul 2002.
+Roth J.P., Algebric Topological Methods for the
+Synthesis of Switching Systems in n-variables,
+The Instute for Advanced Study, Princeton,
+New Jersey, 1956.
+Nadjafov E.M., Kahramanov S.S., On the
+Synthesis of Multiple Output Switching Scheme,
+Scientific Notes of Azerbaijan Institute of
+Petrolium and Chemistry, Baku, Azaerbaijan,
+Vol. IX, No 3 65-69, 1973.
+Kahramanlı S.S., Allahverdi N.M., Compact
+Method of Minimization of Boolean Functions
+with Multiple Variables. Proc. Inter. Symp.
+Application of Computers, Selçuk University,
+Konya, Turkey, 433-440, 1993.
+
+91
+
+

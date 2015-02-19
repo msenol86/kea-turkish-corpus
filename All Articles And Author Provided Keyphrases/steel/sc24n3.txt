@@ -1,0 +1,1367 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 24, No 3, 443-452, 2009
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 24, No 3, 443-452, 2009
+
+AISI 304 ÖSTENİTİK PASLANMAZ ÇELİKLERİN FARKLI
+KESME PARAMETRELERİ İLE TORNALAMA İŞLEMİNDEN
+SONRA OLUŞAN KALICI GERİLMELERİN ARAŞTIRILMASI
+Özgür TEKASLAN, Nedim GERGER* ve Ulvi ŞEKER**
+Teknik Bilimler Bölümü, Kara Harp Okulu, Dekanlığı, Bakanlıklar, Ankara
+*
+Mühendislik ve Mimarlık Fakültesi, Balıkesir Üniversitesi Balıkesir
+**
+Teknik Eğitim Fakültesi, Gazi Üniversitesi, Ankara
+tekaslan@yahoo.com, ngerger@balikesir.edu.tr, useker@gazi.edu.tr
+(Geliş/Received: 16.06.2008 ; Kabul/Accepted: 16.04.2009)
+ÖZET
+Kullanım alanlarına göre istenen mekanik ve kimyasal özelliklerin sağlanması için paslanmaz çeliklerin
+bileşimlerinde yapılan değişiklikler, paslanmaz çeliklerin işlenebilirliğini etkilemektedir. Bütün üretim işlemleri
+(ısıl işlem, talaşlı ve talaşsız imalat, kimyasal işlemler gibi) makine parçaları üzerinde kalıcı gerilmeler oluşturur.
+Özellikle talaş kaldırma yöntemlerine bağlı olarak malzeme üzerinde gerilmeler oluşmaktadır. Bu gerilmeler,
+makine elamanları üzerinde yorulma dayanımını azaltacak ve boyutsal değişikliklere yol açabilecek zararlı
+etkilere de neden olabilir. Bu nedenle makine elamanlarındaki kalıcı gerilme değerlerinin bilinmesi
+gerekmektedir.
+Bu araştırmada, AISI 304 östenitik paslanmaz çelik malzeme değişik kesme parametreleri ile işlendikten sonra,
+işlemeye bağlı olarak bünyesinde nasıl bir kalıcı gerilme oluştuğunu belirlemek hedeflenmiştir. AISI 304
+çeliğinden 61 mm çapında, 250 mm boyunda 31 adet deney numunesi hazırlanmış ve değişik kesme
+parametrelerinde CNC torna tezgâhında işlenmiştir. Daha sonra deney numuneleri üzerinde oluşan kalıcı
+gerilme, katman kaldırma yöntemi kullanılarak tespit edilmiş ve en uygun işleme parametreleri belirlenmiştir.
+Deney numunelerinin tornalama işlemi sonunda yüzeylerde maksimum -1876.69 MPa ile -136.71 MPa’lık
+basma kalıcı gerilmelerinin oluştuğu tespit edilmiştir. Yüzeydeki basma kalıcı gerilmelerinin, katman
+kaldırılması ile 0.0465 mm derinlikten sonra çekme kalıcı gerilmelerine yöneldiği tespit edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Bu çalışmanın amacı farklı kesme parametreleri ile
+silindirik tornalama işlemine tabi tutulan deney
+numunelerinde oluşan kalıcı gerilmelerin tespiti ve
+buna bağlı olarak kalıcı gerilme açısından en iyi işleme parametrelerinin belirlenmesidir. Paslanmaz çeliklerin özellikle tıp, havacılık, nükleer, gıda, savunma
+sanayi gibi birçok alanda gün geçtikçe kullanımı
+yaygın hale gelmektedir. Paslanmaz çeliklerin sahip
+olduğu yüksek çekme mukavemeti, korozyon direnci
+ile düşük ısıl iletkenlik, sünek bir malzeme olması,
+yüksek miktarda krom-nikel ve bir miktar molibden
+gibi mukavemet artırıcı elementlerin muhtevası ve
+işlerken pekleşme özelliği işlemeyi zorlaştıran başlıca
+etkenlerdir. İşlenebilirliğin zorlaşması imalatçılar için
+büyük sorun teşkil etmektedir [1–3].
+Kalıcı gerilmeler, dış yükler kaldırıldığında parçada
+kalan gerilmeler olarak tanımlanabilir. Kalıcı gerilmeler makine elamanlarının çalışma performansı üzerinde olumsuz bir etkiye sahiptir. Kalıcı gerilme üretilen
+parçaların sertliğine, mukavemetine ve ölçü hassasiyetine belli bir etki yaptığı için genellikle istenen bir
+durum değildir. Kalıcı gerilmeler makine elamanlarının yorulma dayanımını etkilemekte ve boyutsal
+değişikliklere neden olmaktadır. Kalıcı gerilmeleri
+zihinde canlandırmak, ölçmek veya mümkün olan
+yakınlıkta hesaplamak oldukça zordur [4].
+Kalıcı gerilmelerin makine elemanları için ne kadar
+önemli olduğu ve bu kalıcı gerilmelerin mekaniksel,
+X-Ray, Nötron kırınımı, manyetik ve ultrasonik yöntemlerle ölçülebildiği çeşitli araştırmalarda görülmüştür. Bazı araştırmacılar yüzey altındaki kalıcı gerilmelerin işleme parametreleri ile ilişkisini araştırmışlardır
+[5-8]. İşleme parametrelerinin ve kalıcı gerilmelerin
+belirlenmesinde deneysel yöntemler çok önemlidir.
+Araştırmacılar buldukları modelleri belirli bir malzeme ve işleme parametrelerine göre oluşturmuşlardır.
+Bütün bu yöntemlerin belirlenmesinde deneysel
+sonuçlar yer almaktadır. Bazı araştırmacılar da sonlu
+elemanlar yöntemini ve yapay sinir ağlarını kullanarak kalıcı gerilmeyi hesaplamaya çalışmışlardır [919]. En sağlıklı sonucun deneysel yollarla elde
+edilebileceği düşünüldüğünden araştırmada, imalat
+sanayinde yaygın olarak kullanılan ve bazı işlenebilirlik problemleri ihtiva eden AISI 304 östenitik
+
+paslanmaz çelik malzeme değişik kesme parametreleri
+ile işlendikten sonra, üzerinde işlemeye bağlı olarak
+nasıl bir kalıcı gerilme oluştuğunu belirlemek hedeflenmiştir. Bu amaçla deney parçası üzerinde katman
+kaldırma tekniği kullanılmıştır. Numunedeki sehimin
+ölçümü 0,0001 mm hassasiyetindeki Linear Gage
+ölçüm cihazı ile yapılmıştır. Kalıcı gerilme ölçüm
+cihazında numune yüzeyinden art arda gelen
+katmanların kaldırılması için elektrokimyasal aşındırma yöntemi kullanılmıştır. AISI 304 paslanmaz
+çeliği, özellikleri itibariyle işlenebilirliği düşük ve
+imalat sanayinde çok yaygın olarak kullanılan bir
+malzemedir.
+2. DENEY DÜZENEĞİ VE METODOLOJİ
+(EXPERİMENTAL SETUP AND METHODOLOGY)
+
+Bu çalışmada, deney numunelerinin hazırlanması için,
+AISI 304 östenitik dikişsiz paslanmaz çelik boru
+malzemeler piyasadan temin edilmiştir. Dikişli
+borularda ek yerlerinin kalıcı gerilmeyi etkileyebileceği düşünüldüğünden deneylerde özellikle dikişsiz
+boru kullanılmıştır. Kalıcı gerilmeyi katman kaldırma
+metoduna göre tespit edileceğinden ve dolu malzemede iç kısmı boşaltmak için ilave bir işlem yapılması
+gerekeceğinden, bu durumun da malzemenin iç
+kısmında işlemeye bağlı kalıcı gerilmelerin oluşmasına neden olacağı değerlendirildiğinden, deney malzemesinin boru olmasına da ayrıca dikkat edilmiştir.
+Deneylerde kullanılan AISI 304 östenitik paslanmaz
+malzemenin spektral analizi; ticari bir firmada
+Spektrocast 11814/00 optik emisyon spektrometresi
+ile tespit edilmiştir. Deney numunelerinin belirlenen
+kimyasal bileşimi Çizelge 1’de, verilmiştir.
+Çalışmada; tek bir deney numunesi üzerinde, Şekil 1’de
+gösterildiği gibi Çizelge 2’de belirlenen farklı kesme
+parametresi uygulanmıştır. Böylelikle kalıcı gerilmelerin
+ölçülmesi için, bir deney numunesinden beş parça elde
+edilmiştir.
+Deney numunelerinin işlenmesinde takım üreticisi
+Mitsubishi firmasının katoloğunda östenitik paslanmaz çelikler için önerilen M20 kalitesinde, SNMG
+120408-MS formunda kesici uç ve buna uygun
+SSBCR122525 takım tutucu kullanılmıştır. Deneylerde kullanılan kesme parametrelerinin seçimi ISO
+3685 (TS 10329)’a göre üretici firma verileri de
+
+Çizelge 1. AISI 304 Östenitik Paslanmaz Malzemenin Kimyasal Bileşimi (% Ağırlık)
+
+(Chemical composition of
+
+AISI 304 Austenitic stainless steel (% Weight))
+
+C
+<0.0050
+Al
+0.0145
+444
+
+Si
+0.3885
+Cu
+0.0806
+
+Mn
+2.173
+Nb
+<0.0050
+
+P
+>0.0960
+Ti
+<0.0010
+
+S
+0.0344
+V
+0.0457
+
+Cr
+17.67
+Bg
+61.7
+
+Mo
+0.2983
+Fe
+61.70
+
+Ni
+14.71
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+Ö. Tekaslan vd.
+
+Şekil 1. Deney Numunelerinin Teknik Resmi (Technical drawing of the experimental samples)
+dikkate alınarak belirlenmiş ve Çizelge 2’de verilmiştir. Belirlenen kesici uca göre en uygun kesme hızları
+80-120 m/dk dır. Tavsiye edilen kesme hızının altındaki ve üstündeki değerlerde nasıl sonuçlar alabileceğimizi görmek için ilave olarak 50-150 m/dk’lik
+kesme hızı da deneylere dahil edilmiştir. Literatür
+taraması, kesici takımın da kalıcı gerilme üzerinde
+etkili olduğunu bize göstermiştir [20,21]. Her deneyde
+yeni bir kesici uç kullanılarak kalıcı gerilmeler
+üzerinde kesicinin aşınmasından kaynaklanan etkiler
+elimine edilmiştir.
+Deneyler Ø61×250 mm ölçülerindeki parçalar
+üzerinde Çizelge 2’deki parametrelere göre Fanuc
+kontrol ünitesine sahip TC-35 Johnford CNC torna
+tezgahında yapılmıştır. CNC torna tezgâhında Ø 60
+mm ve 35 mm boyunda 30 adet, deney numunesi elde
+edilmiştir. Bir adette işlenmemiş numune hazırlanmıştır. Numuneler CNC torna tezgâhına ayna punta
+arasında hassas bir şekilde bağlandıktan sonra,
+üzerinden en ideal kesme hızı olarak önerilen 80 m/dk
+ile 1 mm talaş kaldırılarak, deney numuneleri
+üzerindeki tabaka kaldırılmış ve böylece hem salgı
+engellenmiş hem de haddelemenin olumsuz etkileri
+giderilmiştir. Malzemenin salgılı dönmesi ve hadde-
+
+leme, işlemleri kalıcı gerilme değerini etkileyecektir.
+Bu sayede salgıdan ötürü oluşacak kalıcı gerilme
+önlenmiştir. Bu işlemden sonra deney numunesi
+sökülmeden sırası ile Çizelge 2 deki parametrelere
+göre işlenmiştir.
+İşleme deneylerini müteakip, numuneler üzerindeki
+kalıcı gerilmeleri ölçmek için, işlenmiş numuneler;
+ONAPRİMA S250 tel erozyon tezgâhında Şekil 2’de
+görüldüğü gibi kesilmiştir. Tel erozyon tezgâhında
+kesme işlemi, diğer kesme yöntemlerine göre kalıcı
+gerilme oluşumu yok denecek kadar az olduğu için
+tercih edilmiştir. Şekil 2’de görüldüğü gibi her bir
+deney numunesinden eksene paralel olarak beş adet
+ve eksene dik olarak da üç adet parça çıkarılmıştır.
+Kalıcı gerilmelerin elde edilen bu parçalar üzerinde
+ölçülmüştür.
+Makine elemanlarının üretimi esnasında oluşan kalıcı
+gerilmelerin belirlenmesi için; CNC’li tel erozyon
+tezgâhından elde edilen 248 adet deney parçası
+üzerinde katman kaldırma tekniği kullanılmıştır.
+Ölçümlerde kullanılan deney düzeneğinin teknik
+detayları şematik olarak Şekil 3’de görülmektedir.
+Numunedeki sehimin ölçümü 0.0001 mm hassasiye-
+
+Çizelge 2. İşleme Deneylerinde Kullanılan Kesme Parametreleri (Cutting parameters used in machining experiments)
+DENEY NO
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+V (m/dk)
+50
+75
+100
+125
+150
+50
+75
+100
+125
+150
+50
+75
+100
+125
+150
+
+f (mm/d)
+
+a (mm)
+
+0,15
+
+1,5
+
+0,20
+
+1,5
+
+0,25
+
+1,5
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+DENEY NO
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+
+V (m/dk)
+f (mm/d)
+a (mm)
+50
+75
+0,15
+2
+100
+125
+150
+50
+75
+0,20
+2
+100
+125
+150
+50
+75
+0,25
+2
+100
+125
+150
+İşlenmemiş Deney Numunesi
+
+445
+
+Ö. Tekaslan vd.
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+Şekil 2. Kalıcı Gerilmeleri Ölçülecek Parçaların CNC Tel Erozyon Tezgâhında Kesilmesi
+
+(Cutting on the CNC wire
+
+erosion bench, of the pieces whose residual stresses will be measured)
+
+1- Pump, 2- Electrolyte, 3- Computer, 4- DC power supply, 5- Cable, 6- Linear Gage, 7- Specimen, 8- Cathode, 9- Electrolyte entrance, 10Acid tank, 11- Electrolyte exit [22].
+Şekil 3. Katman kaldırma işlemini gerçekleştiren deney düzeneğinin şematik görünüşü (Schematic view of the
+experimental set for layer removal operation)
+
+tindeki Linear Gage ölçüm cihazı ile yapılmıştır.
+Kalıcı gerilme ölçüm cihazında, numune yüzeyinden
+art arda gelen katmanların kaldırılması için, elektrokimyasal aşındırma yöntemi kullanılmıştır. Bu cihaz
+elektrokimyasal yöntemle talaş kaldırabilen makineden, güç kaynağından, anolog dijital dönüştürücüden,
+bilgisayar ve yazıcıdan oluşmaktadır. Katmanların
+kaldırılması işleminde, art arda gelen katmanların
+hem seri bir şekilde kaldırılmasına hem de katman
+kaldırma esnasında numunede oluşan ilave gerilmelerin çok düşük seviyelerde gerçekleşmesine imkân
+tanıdığı için elektrokimyasal yöntem özellikle tercih
+edilmiştir.
+Deney numunelerinin her birinde; farklı kesme hızlarının yanı sıra ilerleme hızı, talaş derinliği gibi işleme
+parametreleri de değiştirilmiştir. Bu sayede kesme
+
+446
+
+hızının, ilerlemenin ve talaş derinliğinin kalıcı
+gerilmeyi nasıl etkileyeceği tespit edilmiştir. Deneylerin yapımında aşağıdaki işlem sırası takip edilmiştir.
+
+
+
+
+
+
+Her bir deney numunesinin işlenmesi esnasında
+oluşan esas kesme kuvvetleri, radyal kuvvetler ve
+pasif kuvvetler belirlenmiştir.
+Her bir deney numunesinin işlenmesinde kesici
+uç değiştirilmiştir.
+Deney numunelerinin CNC’li tel erozyon tezgahında kesilmeden önce ve kesildikten sonraki
+çapları ölçülmüş ve toplamda mevcut olan
+çevresel eşdeğer gerilmeler hesaplanmıştır.
+CNC torna tezgâhında işlenen deney numunelerinde oluşan kalıcı gerilmelerin belirlenmesi için
+Şekil 2’deki gibi eksene paralel beş ve eksene dik
+üç parça çıkarılmış ve katman kaldırma tekniği
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+
+
+
+kullanılmıştır. Parçalar çıkarılırken CNC’li tel
+erozyon tezgâhı kullanılarak oluşacak kalıcı
+gerilmeler en aza indirilmiş ve kalanlarda ihmal
+edilmiştir. Ayna ayaklarının sıkma kuvveti de
+kalıcı gerilmeyi etkileyeceğinden Şekil 1’de
+görülen 65 mm’lik kısım işlenmemiş ve
+deneylere dahil edilmemiştir. Bu kısım CNC’li tel
+erozyon tezgâhında kesilip atılmıştır. Deney
+numunelerinde düz olan parçalarda boyuna
+gerilme, dairesel olan parçalarda da çevresel
+gerilme ölçülmüştür. Gerilmeyi üç boyutlu olarak
+ölçmek mümkün olmadığı için hesaplamalarda
+tek eksende gerilme ölçülmüş, diğer boyutlarda
+gerilme olmadığı kabul edilmiştir. Bu amaç için
+tasarlanıp imal edilen, Şekil 3’deki ölçüm
+cihazında, numune yüzeyinden art arda gelen
+katmanların kaldırılması için elektrokimyasal
+aşındırma yöntemi kullanılmıştır. Elektrokimyasal işlemede malzeme tipleri ve bunlara uygulanan elektrolitler incelenmiş ve AISI 304 paslanmaz çeliğine uygun olarak, elektrolit tipinin
+fosforik asit, sülfürik asit, gliserin ve su karışımı
+ile elde edilen elektrolit olduğu tespit edilmiştir.
+Katmanların kaldırılması sonucu meydana gelen
+deformasyonu ölçmek için cihaz üzerine linear
+gage monte edilmiştir. Elektrik sinyallerine
+dönüştürülen mekanik yer değiştirme miktarı,
+uygun bir donanım ve yazılım kullanılarak
+sayısal sinyallere dönüştürülmüş ve bilgisayar
+yardımı ile her katmana karşılık gelen kalıcı
+gerilme değerleri hesaplanmıştır. Elde edilen bu
+verilerden, her katmana karşılık gelen gerilmeler
+hesaplanmış ve grafikler oluşturulmuştur.
+Deneylere başlamadan önce numunelerde aşındırma yapılmayacak kısımlar klorovil reçine ile
+kaplanmıştır.
+Elektro kimyasal işleme her bir numune için 45
+dakika sürmüş olup, bu süre sonunda numunelerden 0.3489 mm tabaka kaldırılmıştır. 45 dakikalık deney süresince her 20 saniyede bir ölçü
+alınarak yaklaşık 0.0026 mm’lik katmanlardaki
+gerilme değerleri kaydedilmiştir. Literatürde; kalıcı gerilmelerin yoğun olarak yüzeyde bulunabi-
+
+
+
+
+
+Ö. Tekaslan vd.
+
+leceği yüzeyin altındakilerin ihmal edilebileceği
+yada yüzeyden 0.3 mm derine inmenin yeterli
+olacağı belirtilmiştir [22-26]. Deney numunelerinde inilen 0.3489 mm’lik derinlik, literatürde
+yapılan çalışmalar incelendiğinde yeterli kabul
+edilmiştir. Her bir deney numunesinde toplam
+136 ölçüm yapılmıştır.
+Elde edilen tüm grafikler incelenerek kesme
+parametrelerinin kalıcı gerilmeyi nasıl etkilediği
+ve bunlar arasındaki ilişkiler yorumlanmıştır.
+Kalıcı gerilme grafikleri, beş deney numunesinden elde edilen sonuçların ortalaması alınarak
+hazırlanmıştır.
+Deneyler titanyum kaplı kesici uçla ve kesme
+sıvısı kullanılmadan yapılmıştır. Deneylerin
+tümünde kesme açısı sabit tutulmuştur.
+
+3. DENEY SONUÇLARI VE TARTIŞMA
+(EXPERIMENTAL RESULTS AND DISCUSSION)
+
+Farklı kesme parametrelerinde işlenen deney numunelerinden katman kaldırma yöntemi ile elde edilen
+kalıcı gerilme değerleri tespit edilmiştir. Kalıcı
+gerilmelerin boyuna etkilendiği, eksenel gerilmelerin
+çevresel gerilmelerden daha etkili olduğu ve derinlik
+arttıkça azaldığı da belirtilmektedir [26-31]. Yapılan
+tüm çalışmalarda olduğu gibi, bu çalışmada da
+yüzeyde basma kalıcı gerilmeleri, yüzeyden içeri
+doğru ilerlendikçe çekme kalıcı gerilmelerine doğru
+bir dönüşümün olduğu görülmüştür. Herhangi bir
+işlemeye tabi tutulmayan ham deney numunesinin
+üzerindeki gerilmeler Şekil 4’de gösterilmiştir. İşlenmemiş deney numunesinin yüzeyinde –1017.97
+MPa’lık bir basma kalıcı gerilmesi varken, yüzeyden
+0.0258 mm derinlikte 19.74 MPa’lık çekme kalıcı
+gerilmesine dönüşmüş ve derinlik arttıkça çekme
+kalıcı gerilmesinin değeri artarak 810.53 MPa’ya
+ulaşmıştır. Görüldüğü gibi AISI 304 östenitik
+paslanmaz çelikte belirli bir derinlikten sonra büyük
+miktarlarda çekme kalıcı gerilmesi bulunmaktadır. Bu
+durumunda makine elemanının ömrünü olumsuz
+olarak etkileyeceği bilinmektedir.
+
+1000
+
+0
+0
+0,01
+0,02
+0,03
+0,04
+0,05
+0,06
+0,07
+0,08
+0,09
+0,1
+0,11
+0,12
+0,13
+0,14
+0,16
+0,17
+0,18
+0,19
+0,2
+0,21
+0,22
+0,23
+0,24
+0,25
+0,26
+0,27
+0,28
+0,29
+0,3
+0,31
+0,32
+0,33
+0,34
+
+Kalıcı Gerilme MPa
+
+500
+
+-500
+
+-1000
+
+-1500
+
+Aşındırılan Katman Kalınlığı mm
+
+Şekil 4. İşlenmemiş Deney Numunesi Üzerindeki Kalıcı Gerilmeler (Residual stresses on the surface of the raw experiment
+sample)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+447
+
+Ö. Tekaslan vd.
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+Farklı işleme parametreleri ile bu kalıcı gerilmelerin
+değerleri ve nasıl değiştikleri Şekil 5,7,8,9,10’da
+verilmiştir. Yüzeydeki basma kalıcı gerilmesinin
+değerinin –136.717 MPa ile –1876.7 MPa arasında
+değiştiği, çekme kalıcı gerilmesinin ise 220.36 MPa
+ile 1.03 MPa arasında olduğu tespit edilmiştir. İşlenen
+bütün numunelerde yüzeyde basma kalıcı gerilmeleri
+mevcutken, yüzeyden katmanlar kaldırıldıkça, yaklaşık yüzeyden 0.0465 mm derinlikte hızla çekme kalıcı
+gerilmelerine dönüştüğü görülmüştür. Malzemelerden
+talaş kaldırmanın kalıcı gerilme yapısını basma
+gerilmesi şeklinde olumlu yönde etkilediği de ayrıca
+görülmektedir.
+Ancak kesme hızı 50 m/dk ilerleme 0,25 mm/d ve talaş kalınlığının 1,5 mm olduğu deneyde sonuç beklenenin aksine yüzeyde 19,47 MPa’lık çekme kalıcı
+gerilmesi oluşmuştur. Kesici ucun kalıcı gerilme üzerinde etkili olduğu bilinmektedir. Bu nedenle kesici
+uç elektron tarama mikroskobu (SEM) ile incelenmiş
+ve Şekil 6’da verilmiştir. İnceleme sonucu kesici uçta
+çentik ve bol miktarda sıvanma (BUE) olduğu tespit
+edilmiştir. Bu durumunda; kesici takım uygun bir
+kesme yapamadığından, kesici takım iş parçası
+sürtünmesiyle sıcaklık artışının da yüzeyde çekme
+kalıcı gerilmesini oluşturduğu değerlendirilmektedir.
+Grafikler incelendiğinde beş grafiğinde benzer bir
+eğilim sergilediği, kesme hızının, ilerleme hızının ve
+talaş derinliğinin artması ile yüzeydeki ve yüzey
+altındaki basma kalıcı gerilmelerinin önce sıfıra daha
+sonrada işleme parametrelerine bağlı olarak çekme
+gerilmesine yönünde arttığı görülmektedir. İşleme
+parametrelerinin kalıcı gerilmeleri basma gerilmesinden çekme gerilmesine doğru artırdığı literatürle de
+desteklenmektedir [9,10,13,14].
+İlerleme hızının artması ile basma kalıcı gerilme
+değerlerinin azaldığı, çekme kalıcı gerilme değerlerinin
+arttığı, 0,15 mm/dk’lık ilerleme hızında deney
+
+f = 0,15, a = 2
+
+f = 0,20, a = 2
+
+f = 0,25, a = 2
+
+numunelerinde ortalama -743,68 MPa’lık 0,20 mm/dk’da
+-544,51 MPa’lık 0,25 mm/dk’da ise -546,12 MPa’lık
+basma kalıcı gerilmelerinin oluştuğu tespit edilmiştir.
+Yapılan deneylerin hepsinde azalma olurken içlerinde bazı
+deney numunelerinde ilerlemenin artması ile gerilmelerde
+de artma meydana gelmiştir. Bu durum deneylerin
+işlenmesi esnasında titreşim olması ya da işleme prosesi
+tamamlandıktan sonra deney numunesinin gerilmeyi
+değiştirebilecek etkilere maruz kalmasından kaynaklanabileceği değerlendirilmektedir. Talaş derinliğinin artmasının da basma kalıcı gerilmelerini azalttığı görülmektedir.
+Talaş derinliğinde 1,5 mm olduğu işleme şarlarında
+ortalama -723,23 MPa’lık bir basma kalıcı gerilmesi
+oluşurken, talaş derinliğinin 2 mm arttırıldığında deney
+numunelerinde ortalama -502,36 MPa’lık bir basma kalıcı
+gerilmeleri oluşmuştur. Bu durum literatürde bazı
+çalışmalarla paralellik göstermektedir [9,10,14,25-31,35].
+Talaş kaldırma durumunda iş malzemesine ve takım
+geometrisine bağlı olarak kalıcı gerilmeler basma ya
+da çekme gerilmesi tipinde olabilmektedir. Kalıcı
+gerilmelerin işlenen yüzeylerde çekmeden basmaya
+doğru değişebileceği literatürde de belirtilmektedir
+[24,32-37]. Kalıcı gerilmelerin belirli bir kesme
+hızına kadar artması ve belirli bir kesme hızından
+sonra azalması malzemenin hızlı deformasyona
+uğramasından kaynaklanabileceği düşünülmektedir.
+4. SONUÇ VE DEĞERLENDİRME (CONCLUSION)
+AISI 304 östenitik paslanmaz çeliğin farklı kesme
+parametreleri ile tornalanma işleminden sonra, deney
+numunelerinin yüzeyinde ve yüzeyin 0.34 mm
+derinliğine kadar yapılan ölçümlerin sonucu kalıcı
+gerilmeler ile ilgili aşağıda belirtilen sonuçlara
+varılmıştır.
+i.
+
+Yüzey ve yüzey altındaki kalıcı gerilmeler katman kaldırma yöntemi ile tespit edilebilmektedir.
+
+f = 0,15, a = 1,5
+
+f = 0,20, a = 1,5
+
+f = 0,25, a = 1,5
+
+100
+0
+0
+0,
+01
+2
+0, 9
+02
+5
+0, 8
+03
+88
+0,
+05
+1
+0, 7
+06
+46
+0,
+07
+7
+0, 5
+09
+05
+0,
+10
+3
+0, 4
+11
+6
+0, 3
+12
+9
+0, 2
+14
+22
+0,
+15
+51
+0,
+16
+0, 8
+18
+0
+0, 9
+19
+38
+0,
+20
+6
+0, 8
+21
+9
+0, 7
+23
+2
+0, 6
+24
+55
+0,
+25
+8
+0, 5
+27
+1
+0, 4
+28
+4
+0, 3
+29
+72
+0,
+31
+0
+0, 2
+32
+31
+0,
+33
+0, 6
+34
+89
+
+Kalıcı Gerilmeler MPa
+
+200
+
+-100
+-200
+-300
+-400
+-500
+-600
+
+Aşındırılan Katman Kalınlığı mm
+
+Şekil 5. Kesme Hızı 50 m/dk İle İşlenmiş Deney Numunesi Üzerindeki Kalıcı Gerilmeler (Residual stresses on the
+surface of the experiment sample machined with a cutting speed of 50m/min.)
+448
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+ii.
+
+iii.
+iv.
+v.
+vi.
+Şekil 6. Kesme hızı 50 m/dk, ilerleme oranı 0,25
+mm/d, kesme derinliği 1,5 mm olan deney
+numunesinin işlenmesinden sonra kesici uçta oluşan
+BUE (BUE produced on the cutter head after the specimen is
+machined with a cutting speed of 50m/min, feed rate of 0.25
+mm/rev, 1.5 mm depth of cut.)
+
+vii.
+
+İşlenmemiş deney numunesinde çekme kalıcı
+gerilmelerinin hakim olduğu belirlenmiştir. Bu
+durumunda makine elamanın yorulmaya bağlı
+ömründe olumsuz etki yaratacağı düşünülmektedir.
+Tornalama yöntemi ile makine parçalarının
+imalatında yüzeyde –1876.69 Mpa ile
+–136.71 Mpa’lık basma kalıcı gerilmelerinin
+oluştuğu tespit edilmiştir.
+Yüzeydeki basma kalıcı gerilmelerinin, katman
+kaldırılması ile 0.0465 mm derinlikte çekme
+kalıcı gerilmesine dönüştüğü görülmüştür.
+Farklı kesme parametreleri ile işlenen 30 adet
+deney numunesi üzerinde yapılan ölçümler neticesinde yüzeydeki basma kalıcı gerilmelerinin
+belirli bir derinlikten sonra sıfıra doğru yaklaştığı
+ve daha derinlere inildikçe çekme kalıcı
+gerilmelerine dönüştüğü tespit edilmiştir.
+Yorulma ömrünü maksimumda tutacak en uygun
+kesme hızının sırası ile 75 m/dk, 100 m/dk ve 125
+m/dk olduğu tespit edilmiştir. Bu kesme
+
+f = 0,15, a = 2
+
+f = 0,20, a = 2
+
+f = 0,25, a = 2
+
+f = 0,15, a = 1,5
+
+f = 0,20, a = 1,5
+
+f = 0,25, a = 1,5
+
+500
+250
+0
+-250
+-500
+-750
+-1000
+-1250
+-1500
+-1750
+-2000
+
+0, 0
+02
+0
+0, 7
+04
+14
+0,
+06
+0, 2
+08
+2
+0, 7
+10
+3
+0, 4
+12
+4
+0, 1
+14
+4
+0, 7
+16
+5
+0, 4
+18
+6
+0, 1
+20
+6
+0, 8
+22
+7
+0, 4
+24
+8
+0, 1
+26
+8
+0, 8
+28
+9
+0, 5
+31
+0
+0, 2
+33
+08
+
+Kalıcı Gerilmeler MPa
+
+Ö. Tekaslan vd.
+
+Aşındırılan Katman Kalınlığı mm
+
+Şekil 7. Kesme Hızı 75 m/dk İle İşlenmiş Deney Numunesi Üzerindeki Kalıcı Gerilmeler (Residual stresses on the
+surface of the experiment sample machined with a cutting speed of 75 m/min.)
+
+f = 0,15, a = 2
+
+f = 0,20, a = 2
+
+f = 0,25, a = 2
+
+f = 0,15, a = 1,5
+
+f = 0,20, a = 1,5
+
+f = 0,25, a = 1,5
+
+400
+0
+-200
+
+0, 0
+01
+8
+0, 1
+03
+6
+0, 2
+05
+4
+0, 3
+07
+2
+0, 4
+09
+0
+0, 5
+10
+8
+0, 6
+12
+6
+0, 6
+14
+4
+0, 7
+16
+2
+0, 8
+18
+09
+0,
+19
+0, 9
+21
+7
+0, 1
+23
+5
+0, 2
+25
+3
+0, 3
+27
+1
+0, 4
+28
+9
+0, 5
+30
+7
+0, 6
+32
+5
+0, 7
+34
+38
+
+Kalıcı Gerilmeler MPa
+
+200
+
+-400
+-600
+-800
+-1000
+-1200
+-1400
+-1600
+
+Aşındırılan Katman Kalınlığı mm
+
+Şekil 8. Kesme Hızı 100 m/dk İle İşlenmiş Deney Numunesi Üzerindeki Kalıcı Gerilmeler (Residual stresses on the
+surface of the experiment sample machined with a cutting speed of 100 m/min.)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+449
+
+Ö. Tekaslan vd.
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+f = 0,15, a = 2
+
+f = 0,20, a = 2
+
+f = 0,25, a = 2
+
+f = 0,15, a = 1,5
+
+f = 0,20, a = 1,5
+
+f = 0,25, a = 1,5
+
+200
+0,34
+
+0,33
+
+0,31
+
+0,29
+
+0,28
+
+0,26
+
+0,25
+
+0,23
+
+0,22
+
+0,2
+
+0,19
+
+0,17
+
+0,16
+
+0,14
+
+0,12
+
+0,11
+
+0,09
+
+0,08
+
+0,06
+
+0,05
+
+0,03
+
+-200
+
+0,02
+
+0
+
+Kalıcı Gerilmeler MPa
+
+0
+
+-400
+-600
+-800
+-1000
+-1200
+-1400
+
+Aşındırılan Katman Kalınlığı mm
+
+Şekil 9. Kesme Hızı 125 m/dk İle İşlenmiş Deney Numunesi Üzerindeki Kalıcı Gerilmeler (Residual stresses on the
+surface of the experiment sample machined with a cutting speed of 125 m/min.)
+
+f = 0,15, a = 2
+100
+
+f = 0,20, a = 2
+
+f = 0,25, a = 2
+
+f = 0,15, a = 1,5
+
+f = 0,20, a = 1,5
+
+f = 0,25, a = 1,5
+
+0, 0
+01
+8
+0, 1
+03
+6
+0, 2
+05
+4
+0, 3
+07
+2
+0, 4
+09
+0
+0, 5
+10
+8
+0, 6
+12
+6
+0, 6
+14
+4
+0, 7
+16
+2
+0, 8
+18
+09
+0,
+19
+0, 9
+21
+7
+0, 1
+23
+5
+0, 2
+25
+3
+0, 3
+27
+1
+0, 4
+28
+9
+0, 5
+30
+7
+0, 6
+32
+5
+0, 7
+34
+38
+
+Kalıcı Gerilmeler MPa
+
+0
+-100
+-200
+-300
+-400
+-500
+-600
+Aşındırılan Katman Kalınlığı mm
+
+Şekil 10. Kesme Hızı 150 m/dk İle İşlenmiş Deney Numunesi Üzerindeki Kalıcı Gerilmeler (Residual stresses on the
+surface of the experiment sample machined with a cutting speed of 150 m/min.)
+
+hızlarında en büyük basma kalıcı gerilmeleri
+tespit edilmiştir. Kesme hızının belirli bir değere
+kadar artması ile yüzeydeki basma kalıcı gerilme
+değerleri artarken belirli bir değerden sonra
+azalma sergilemektedir.
+viii. En uygun ilerleme hızının 0,20 mm/d olduğu,
+anılan ilerleme hızında daha büyük basma kalıcı
+gerilmeleri elde edilmiştir.
+ix. Talaş derinliğinin küçük olmasının daha büyük
+basma kalıcı gerilmelerine yol açtığı, talaş derinliğinin artırılmasının basma kalıcı gerilmelerini
+azalttığı ve çekme kalıcı gerilmelerine yönelttiği
+tespit edilmiştir.
+x. Kesme hızı 50m/dk’da oluşan basma kalıcı
+gerilme değerinin diğerlerine göre düşük olduğu,
+hatta bazı deneylerde çekme kalıcı gerilmelerinin
+oluştuğu tespit edilmiştir. Bu durum ASISI 304
+östenitik paslanmaz çeliğin işlenmesinde 50 m/dk
+kesme hızının 0.25 mm/d lik ilerleme hızı ile 1.5
+450
+
+mm talaş derinliğinin uygun olmadığı tespit
+edilmiştir.
+xi. En uygun işleme şartının ise 75 m/dk kesme hızı,
+0.20 mm/d ilerleme hızı ile 1,5 mm talaş
+derinliğinin bulunduğu şartlarda gerçekleştiği
+tespit edilmiştir.
+xii. Eksen yönündeki boyuna kalıcı gerilmelerin
+çevresel gerilmelerden daha etkili olduğu, kalıcı
+gerilmelerin boyuna etkilendiği tespit edilmiştir.
+xiii. İşleme yöntemlerinin kalıcı gerilmeyi olumlu
+(basma gerilmesi) ya da olumsuz (Çekme
+gerilmesi) olarak etkilediği tespit edilmiştir.
+xiv. Kesici ucun deforme olması ve kesicide BUE
+oluşumu yüzeyde çekme kalıcı gerilmelerinin
+oluşmasına neden olduğu tespit edilmiştir.
+KAYNAKLAR (REFERENCES)
+1.
+
+Sandvik Coromant Co. Inc., Modern Metal
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+Cutting-A Practical Handbook, Sweden,
+(1997).
+Bahadur, A., Kumar, B.R., Chowdhury, G.S,
+“Evaluation Of Changes İn X-Ray Elastic
+Contants And Residual Stress As A Fuction Of
+Cold Rolling Of Austenitic Steels”, Materials
+Science
+and
+Techonology,
+V20,
+3,
+(2004),p.,387-392.
+J.C. Outeiro, A.M. Dias, J.L. Lebrun, V.P.
+Astakhov, Machining residual stresses in AISI
+316L steel and their correlation with the cutting
+parameters,
+Machining
+Science
+and
+Technology, 6 (2) (2002) 251–270.
+Korkut, İ., Kasap, M., Çiftci, M., Şeker, U.,
+“Determination Of Optimum Cutting Parameters
+During Machining Of AISI 304 Austenitic
+Stainless
+Stell”
+Materials&Desing,V25,
+4,(2004),p.,303-305
+P. Dahlman, F. Gunnberg, M. Jacobson, The
+influence of rake angle, cutting feed and cutting
+depth on residual stresses in hard turning, J.
+Mater. Proc. Tech., 147 (2004) 181–184.
+J. Hua, X. Cheng, V. Bedekar, R. Shivpuri, Y.
+Matsumoto, F. Hashimoto, T.R. Watkins, Effect
+of feed rate, workpiece hardness and cutting edge
+on subsurface residual stress in the hard turning
+of bearing steel using chamfer + hone cutting
+edge geometry, Mater. Sci. Eng., A 394 (2005)
+238–248.
+J. Hua, R. Shivpuri, D. Umbrello, Investigation of
+cutting conditions and cutting edge preparations
+for enhanced compressive subsurface residual
+stress in the hard turning of bearing steel, J.
+Mater. Proc. Tech. 171 (2) (2006) 180–187.
+D. Umbrello, FE—analysis of machining
+processes: innovative experimental techniques
+for results assessing, Ph.D. Thesis, Mechanical
+Engineering, University of Calabria (February
+2005).
+D. Ulutan, B.E. Alaca, I.Lazoğlu, Analytical
+modelling of residual stresses in machining,
+Journal of Materials Processing Technology
+183 (2007), p., 77-87
+D. Umbrello, G. Ambrogio, L.Filice, R. Shivpuri,
+An ANN approach the desired cutting conditions
+during hard turning, Journal of Materials
+Processing Technology 189 (2007), p., 143-152
+J.C.
+Outerio,
+D.Umbrello,
+R.M.Saoubi,
+Experimental and numerical modelling of the
+residual stresses induced in orthogonal cutting of
+AISI 316L steel, Machine Tools & Manu
+Facture, 46 (2006), p., 1786-1794
+M.N.A. Nasr, E.-G. Ng., M.A. Elbestawi,
+Modelling the effects of tool-edge radius on
+residual stresses when orthogonal cutting AISI
+316L, Machine Tools & Manu Facture, 47
+(2007), p., 401-411
+F. Valiorgue, J.Rech, H. Hamdi, P. Gilles, J.M.
+Bergheau, A new approach for the modelling of
+residual stresses induced by turning of 316L,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+22.
+
+23.
+
+24.
+25.
+
+26.
+
+Ö. Tekaslan vd.
+
+Journal of Materials Processing Technology
+(2007)
+F. Gunnberg, M. Escursell, M. Jacobson, The
+influence of cutting parameters on residual
+topography during hard turning of 18 MnCr5 case
+carburised steel, Journal of Materials
+Processing Technology, 174 (2006), p.,82-90
+Ship-Peng Lo, “An Analysis Of Cutting Under
+Different Rake Angles Using The Finite Element
+Method”, Journal of Materials Processing
+Technology 105 (2000), p., 143-151
+R. Liu, Y.B. Guo, “Finite Element Analysis Of
+The Effect Of Sequential Cuts And Tool-Chip
+Friction On Residual Stresses İn A Machined
+Layer”, International Journal of Mechanical
+Sciences 42, (2000), p.1069–1086.
+Natarajan, R., Jeelani, S., “Residual Stresses In
+Machining
+Using
+Finete
+Element
+Method”,Computers In Engineering, Computer
+Software And Applications ASME, New York,
+(1983), 3, P.,19-20
+Bray, D. E., Pathak, N., Srınıvasan, M. N.,
+“Residual Stress Mapping İn A Steam Turbine
+Disk Using The LCR Ultrasonic Technique”,
+Material Evaluation, (1996).
+Fetullayev, E. K.,"Talaş Kaldırma Yöntemi İle
+Üretilen Vidalı Elemanlara Yüzey Katında
+Oluşan Artık Gerilmelerin Vida Elemanlarına
+Etkisi”, Uluslararası Makine Tasarımı ve
+İmalat Kongresi, ODTÜ, ANKARA, (1998).
+Kasap, M., AISI 304 Östenitik Paslanmaz
+Çeliklerin İşlenebilirliğinde En Uygun Kesme
+Parametrelerin ve İşleme Şartlarının Deneysel
+Olarak Araştırılması, Yüksek Lisans Tezi,Gazi
+Üniversitesi Fen Bilimleri Enstitüsü, Ankara,
+(2001).
+Belejchak, P., “Machining Stainless Steel”,
+Advanced Materials & Processes, (1997), p 2325.
+Kafkas, F., Katman Kaldırma Tekniğine
+Dayalı Olarak Kalıcı Gerilmelerin Ölçülmesini
+Sağlayan Bilgisayarlı Ölçme Cihazının
+Tasarımı Ve İmalatı, Yüksek Lisans Tezi, Gazi
+Üniversitesi Fen Bilimleri Enstitüsü, Ankara,
+(2001).
+Fetullayev, E. K.,"Vidalarda Meydana Gelen
+Artık Gerilmelerin Teknolojik Faktöre Bağlı
+Olarak Tayin Edilmesi”, 7. Uluslararası Makine
+Tasarımı ve İmalat Kongresi, ODTÜ,
+ANKARA, (1996).
+Marshall, C.W., Maringer, R.E., Dimensional
+Instanbility On Introduction, Pergamon Press
+Ltd., UK.(1977), p. 139-163., p. 342-395.
+Shet,C, Deng, X., “Residual Stresses And Strains
+In Orthogonal Metal Cutting”, International
+Journal of Machine Tools & Manufacture V 43,
+(2003), p. 573–587
+Zone-Ching Lin, Wun-Ling Lai, H.Y. Lin, C.R.
+Liu, “The Study Of Ultra-Precision Machining
+And Residual Stress For Nip Alloy With
+
+451
+
+Ö. Tekaslan vd.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+452
+
+AISI 304 Östenitik Paslanmaz Çeliklerin Farkli Kesme Parametreleri İle Tornalama İşleminden…
+
+Different Cutting Speeds And Depth Of Cut”,
+Journal of Materials Processing Technology,
+V97, (2000), p.200-210.
+Lin, Z.C., Lin, Y.Y., Liu, C.R., “Effect Of
+Thermal Load And Mechanical Load On The
+Residual Stress Of A Machined Workpiece”, Int.
+J. Mech. Sci. 33 (4), (1991), p. 263–278.
+Jeffrey D. Thiele, Shreyes N. Melkote, Roberta
+A. Peascoe, Thomas R. Watkins, “Effect Of
+Cutting-Edge
+Geometry
+And
+Workpiece
+Hardness On Surface Residual Stresses İn Finish
+Hard Turning Of AISI 52100 Steel”, Journal of
+Manufacturing Science and Engineering, Vol.
+122, (2000), p.642-649.
+Lin, Z.C., Lai, W.L., Lin H.Y., Liu, C.R.,
+“Residual Stres With Different Tool Flank Wear
+Lenghts İn The Ultra Precision Machining Of NiP Alloys, Journal of Materials Processing
+Technology, V 65, (1997), p.,116-126.
+Lin, Z.C., Lin, Y.Y., “A Study Of Oblique
+Cutting For Different Low Cutting Speeds”,
+Journal of Materials Processing Technology, V
+115, (2001), p., 313-325.
+Lin, Z.C., Yarng, Y.D, “ Three Dimensional
+Cutting Process Analysis with Different Cutting
+Velocities”, Journal of Materials Processing
+Technology, V 70, (1997), p.22-33.
+
+32. Henriksen, E. K., “Residual Stress In Machined
+Surfaces”, Transactions ASME Journal Of
+Engineering for İndustry, Vol. 73, (1951), p.
+69-76.
+33. Liu, C.R., Barash, M.M., “Variables governing
+patterns of mechanical residual stress in a
+machined surface”,. Transactions of the ASME,
+Journal of Engineering for Industry V
+104,(1982), p. 257–264.
+34. Leskovar, P. And Peklenik, J., “Influence
+Affecting Surface Integrity In TheCutting
+Process”, Ann. CIRP, (1981), p. 245-248.
+35. Sasahara, H., Obikawa, T., Shirakshi, T.,
+“Prediction Model Of Surface Residual Stress
+Within A Machined Surface By Combining Two
+Orthogonal Plane Models”, Journal Of Machine
+Tools And Manufacture, V.,44, 7-8, (2004), p.,
+815-822
+36. M.H. El-Axir, “A Method Of Modeling Residual
+Stress Distribution İn Turning For Different
+Materials”, International Journal of Machine
+Tools & Manufacture 42,(2002), p.,1055–1063.
+37. H., Sasahara “The effect on fatigue life of
+residual stress and surface hardness resulting
+from different cutting conditions of 0.45%C
+steel,”, Journal Of Machine Tools And
+Manufacture, V.,45, (2005), p., 131-136.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 3, 2009
+
+

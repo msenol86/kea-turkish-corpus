@@ -1,0 +1,937 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 21, No 2, 303-309, 2006
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 21, No 2, 303-309, 2006
+
+BUJİ İLE ATEŞLEMELİ BİR MOTORDA PROPAN VE FARKLI
+ORANLARDA PROPAN/BÜTAN KULLANIMININ
+PERFORMANSA ETKİLERİNİN DENEYSEL ANALİZİ
+Yakup İÇİNGÜR ve Ahmet DOST*
+Makine Eğitimi Bölümü, Teknik Eğitim Fakültesi, Gazi Üniversitesi, Teknikokullar, 06500 Ankara
+*Endüstri Meslek Lisesi, Bafra, 55400 Samsun
+icingur@gazi.edu.tr
+(Geliş/Received: 18.02.2005; Kabul/Accepted: 17.05.2005)
+ÖZET
+Dünyada artan enerji ihtiyacının karşılanabilmesi ve içten yanmalı motorlardan kaynaklanan hava kirliliğinin
+azaltılabilmesi için alternatif yeni ve yenilenebilir enerji kaynakları araştırılmaktadır. LPG içten yanmalı
+motorlarda yakıt ekonomisi sağlamak ve egzoz emisyon değerlerini azaltmak için kullanılan alternatif
+yakıtlardan biridir. Bu çalışmada, dört faklı propan/bütan oranına sahip LPG’nin motor performansı ve eksoz
+emisyonlarına etkileri deneysel olarak araştırılmıştır. Deneyler tam gaz kelebeği açıklığında, stokiyometrik
+hava/yakıt karışım oranında, farklı motor hızlarında yapılmıştır. LPG karışımlarının kullanımı benzin
+kullanımına göre; moment ve güçte % 3,6-7 oranında düşmeye neden olmuş, CO emisyonunda %42-62 ve HC
+emisyonunda %37-45 oranında iyileşme sağlamıştır. 1800 devirde propan kullanımı, 3/7 p/b kullanımından %1,3
+oranında daha yüksek güç ve moment üretirken; 3200 devirde %-2,85 oranında güç ve moment kaybına neden
+olmaktadır. 2200-2400 devirleri arasında LPG karışımlarının güçleri aynı seviyelere gelmekte bu devirlerden
+sonra bütan oranı artışı motor gücünü ve momentini artırmaktadır. 1800 devirde propan kullanımı 3/7 p/b
+kullanımına göre %8 daha düşük HC emisyonu sağlarken; 3200 devirde %6 daha kötü HC emisyonuna sebep
+olmuştur. Propan kullanımı CO emisyonlarını düşük devirlerde iyileştirmiş motor devri arttıkça emisyon
+değerleri bütün LPG karışımları için aynı değerlere yaklaşmıştır.
+
+Y. İçingür ve A. Dost
+
+Buji ile Ateşlemeli Bir Motorda Propan ve Farklı Oranlarda Propan/Bütan Kullanımının Performansa...
+
+1. GİRİŞ ( INTRODUCTION)
+Artan dünya nüfusu, ekonomik büyüme, kişi başına
+enerji tüketiminin artması, yaşam tarzlarının değişmesi ve insanların büyük şehir merkezlerinde toplanması
+gibi etkenler dünyada kullanılan enerji miktarının her
+geçen gün artmasına neden olmaktadır [1]. Enerji
+tüketimindeki bu artış başlıca iki problemi doğurmuştur. Bunlar: yoğun bir enerji kullanımıyla oluşan
+çevre kirliliği ve enerji kaynaklarının sınırlılığından
+dolayı artan enerji fiyatlarıdır [2]. Dünyadaki enerji
+ihtiyacının karşılanmasında kullanılan en önemli
+kaynaklar: petrol, kömür, doğalgaz, hidroelektrik
+santraller ve nükleer santrallerdir. 1993 yılında
+yapılan bir araştırmada dünya enerji ihtiyacının %85’i
+fosil yakıtlardan, %14-15’i hidroelektrik santrallerden
+ve %1’i nükleer yakıtlardan elde edilmektedir [3].
+Günümüzde içten yanmalı motorlarda alternatif yakıt
+olarak; LPG (sıvılaştırılmış petrol gazı), doğal gaz,
+metanol, etanol, bitkisel yağ esterleri vs kullanılmaktadır [2,4]. LPG, benzine göre daha temiz egzoz
+emisyonuna sahip ve daha ekonomik olması bakımından da buji ile ateşlemeli içten yanmalı motorlarda
+tercih edilen alternatif yakıtlardan biri olmuştur. LPG
+üretiminin %39’u petrolün işlenmesi sırasında, %61’i
+doğal gazdan elde edilmektedir [5]. Bununla birlikte
+LPG, petrolün çıkarılması sırasında ve az miktarda da
+olsa kömürden sentetik yollarla elde edilebilen bir
+yakıttır [6,7]. Ülkemizde kullanılan LPG’nin % 35’i
+yerli kaynaklardan geri kalan kısmı ise ithalat yoluyla
+karşılanmaktadır. Türkiye’de tüketilen LPG’nin %
+75’i evlerde, % 25’i sanayide kullanılmaktadır [8].
+LPG ağılıklı olarak propan ve bütan karışımıdır.
+Ülkemizde %30 propan %70 bütan karışımı kullanılmaktadır. Çizelge 1’de benzin, propan ve bütanın bazı
+fiziksel ve kimyasal özellikleri verilmiştir. Bu özellikler karşılaştırıldığında bütanın birim hacminin,
+propandan daha ağır olduğu, kaynama, donma ve alev
+sıcaklığının propandan daha yüksek olduğu, fakat
+birim ağırlıktaki ısıl değerlerinin propandan düşük
+olduğu görülmektedir. Motor oktan sayısı dikkate
+alındığında propanın, benzin ve bütandan daha yüksek
+oktan sayısına sahip olduğu görülmektedir.
+Bu çalışmada, buji ile ateşlemeli bir motorda alternatif
+yakıt olarak %100 propan, %70 propan - %30 bütan,
+% 50 propan - %50 bütan, %30 propan - %70 bütan
+ihtiva eden dört farklı LPG’nin motor performansına
+ve egzoz emisyonlarına olan etkileri deneysel olarak
+araştırılmıştır. Elde edilen veriler, motorun referans
+yakıtı olan benzinle yapılan çalışmalarda elde edilmiş
+veriler ile karşılaştırılmış, aradaki farklar ve bu
+farkların etkileri ortaya konulmaya çalışılmıştır.
+2. MATERYAL ve METOT (MATERIAL and METHOD)
+Deneylerde Briggs and Stration marka 4 zamanlı,
+hava soğutmalı, sabit avanslı, tek silindirli Industrial-
+
+304
+
+Çizelge 1. Benzin, propan ve bütanın fiziksel ve
+kimyasal özellikleri [5] (Physical and chemical properties of
+gasoline, propane and butane)
+ÖZELLİKLER
+Formül
+Molekül ağırlığı(kg/mol)
+Donma noktası(0C)
+Kaynama noktası(0C)
+Buhar basıncı(200C, kg/cm2)
+Buhar basıncı(500C, kg/cm2)
+Sıvı yoğunluğu(150C, kg/m3)
+Sıvının özgül ısısı(150C, kJ/kg)
+1 lt sıvının gaz hacmi(150C, m3)
+1 kg sıvının gaz hacmi(150C, m3)
+Özgül ağırlık(gr/cm3)
+İzafi yoğunluk(hava=1)
+Parlama noktası(0C)
+Tutuşma noktası(havada 0C)
+Alev sıcaklığı(havada 0C)
+Isıl değeri(kJ/kg)
+Yanma limitleri
+Stokiyometrik karışımı
+tutuşturma enerjisi (kJ, NŞA)
+Stokiyometrik karışımın kimyasal
+enerjisi (kJ/m3)
+Hava/yakıt oranı
+Fiziksel hal (NŞA)
+Maksimum laminer yanma hızı (m/s)
+Motor oktan sayısı
+
+BÜTAN
+C4H10
+58,12
+-138,3
+-0,5
+1,2
+4,85
+582
+1,276
+0,235
+0,410
+0,582
+2,09
+-60
+482-538
+2008
+45600
+%1,9-8,5
+
+PROPAN
+C3H8
+44,10
+-187,8
+-42,3
+8,93
+20,18
+504
+1,464
+0,271
+0,539
+0,504
+1,55
+-105
+493-549
+1980
+46400
+%2,4-9,5
+
+BENZİN
+C8H18
+114
+30-225
+0,49-0,81
+735
+0,735
+200
+1977
+44000
+5-16
+
+0,3
+
+0,3
+
+1
+
+3490
+
+3450
+
+3580
+
+15,1/1
+gaz
+0,4
+97
+
+15/1
+gaz
+0,4
+92
+
+14,6/1
+Sıvı
+0,35
+90
+
+commercial tip benzin motoru kullanılmıştır. Bu motora ait teknik bilgiler Çizelge 2’de verilmiştir. Motorun sabit avanslı olmasının etkilerinin minimize edilmesi amacıyla deneylerde motor hızı, alt sınırı 1800 d/d,
+üst sınırı 3200 d/d olarak alınmış ve deneyler bu motor
+hızları arasında yapılmıştır. Böylece deney sonuçlarının;
+düşük devirlerde gereğinden fazla avansın etkilerinden,
+yüksek devirlerde ise yetersiz avans etkilerinden
+mümkün olduğunca az etkilenmesi hedeflenmiştir.
+Çizelge 2. Deney motorunun teknik özellikleri
+(Technical specifications of the test engine)
+
+Markası
+Çalışma prensibi
+Silindir sayısı
+Silindir çapı
+Strok
+Toplam silindir hacmi
+Sıkıştırma oranı
+Maksimum tork
+Maksimum güç
+Soğutma sistemi
+Yağlama sistemi
+Buji tırnak aralığı
+Platin aralığı
+
+Briggs and Stration
+4 zamanlı Karbüratörlü
+1
+77,8 mm
+82,5 mm
+392 cc
+6/1
+22,7 Nm [2400 d/d]
+7,46 kW [3600 d/d]
+Hava soğutmalı
+Sıçratmalı yağlama
+0,762 mm
+0,508 mm
+
+Deneylerde CUSSONS marka tek silindirli motor test
+cihazı kullanılmıştır. Test cihazında kullanılan dinamometre EPE-STS 132 E tipinde 4000 d/d’da 10 kW
+çıkış gücüne sahip elektrikli bir dinamometredir [9].
+Motorun egzoz emisyonlarının tespitinde SUN MEA
+1500 SL test cihazı kullanılmıştır [10]. Motor üzerindeki orijinal karbüratör, LPG mikseri montajına müsait olmadığı için sökülerek yerine K65B modelinde
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006
+
+Buji ile Ateşlemeli Bir Motorda Propan ve Farklı Oranlarda Propan/Bütan Kullanımının Performansa...
+
+Çizelge 3. Deneyde kullanılan LPG’nin P/B oranına
+göre bazı özellikler [11] (Some properties of LPG used in
+tests according to P/B proportion)
+
+Propan/Bütan
+%100 P
+Isıl
+21200
+değeri(kcal/m3)
+Özgül
+508
+hacmi(lt/kg)
+Özgül
+1,866
+kütle(kg/m3)
+Stokiyometrik
+hava/yakıt oranı 15,6
+(kg/kg)
+Oktan sayısı MOS 97
+
+7/3 P/B 5/5 P/B 3/7 P/B
+23240 24600 25960
+471
+
+447
+2,163
+
+2,281
+
+15,53
+
+15,49
+
+15,44
+
+96
+
+95
+
+94
+
+Rus yapımı 350 cm3 silindir hacmine sahip bir başka
+motor karbüratörü adapte edilmiştir. Ayrıca, bu karbüratörün boğazına LPG gazının motora verilebilmesi
+için 2 adet parmak mikser yapılarak monte edilmiştir.
+LPG dönüşüm sistemi olarak Lavato elektronik regülatör ve dönüşüm seti motora monte edilmiştir. Motor
+hava soğutmalı olduğundan regülatörde LPG’yi
+buharlaştırmak için gerekli olan ısı, eksoz borularından istifade ederek sağlanmış, bunun için egsoz
+borusu üzerine bir ısı eşanjörü yerleştirilmiştir.
+Deneylerde kullanılan yakıtların tanıtımını kolaylaştırmak için propan bütan oranları ifade edilirken;
+%70 proapan+%30 bütan; 7/3 P/B olarak, %50
+propan+%50 bütan, 5/5 P/B olarak, %30 propan+%70
+bütan, 3/7 P/B kısaltmaları yapılmıştır. Bu karışımlara
+ait bazı özellikler Çizelge 3’de verilmiştir [11].
+Çizelge 3’deki değerler LPG’nin gaz fazındaki
+değerleridir. Propan ve bütana ait değerler Aygaz
+
+1
+
+2
+
+tarafından satılan LPG özelliklerinden alınmıştır [11].
+Farklı P/B oranlarına ait değerler propan ve bütanın
+özelliklerinden faydalanılarak hesaplanmış, hesaplamalar P/B karışımını oluşturan gazların ağırlıkça
+oranları dikkate alınarak yapılmıştır.
+Şekil 1’de verilen deney düzeneği üzerine monte
+edilen motorda, deneylere başlamadan önce gerekli
+ayarlar yapılmış ve motor yağı değiştirilmiştir. Motor
+bütün deneylerde önce benzinle çalıştırılarak çalışma
+sıcaklığına getirilmiş ve daha sonra LPG’ye
+geçirilmiştir. Deneyler farklı devirlerde ve tam gaz
+kelebeği açıklığında yapılmış, deneylere motor
+hızı,1800 d/d ile başlanmış her adımda devir 200’er
+artırılarak 3200 d/d’ya kadar çıkılmıştır. Her devirde
+λ=1’e ayarlanmış daha sonra ölçümler yapılmıştır.
+
+423
+
+2,044
+
+Y. İçingür ve A. Dost
+
+3. DENEY SONUÇLARI ve DEĞERLENDİRME
+(RESULTS OF EXPERIMENT and EVALUATION)
+
+3.1. Moment ve Güç ( Power and Torque)
+Motor momentinin, devre bağlı olarak değişimi Şekil
+2’de verilmiştir. Bütün deneylerde, moment 2200
+d/d’ya kadar artmakta bu devirden sonra düşmektedir.
+Bu durum volümetrik verimdeki değişimle izah
+edilebilir. 2200 d/d’ya kadar volümetrik verim
+artmakta buradan sonra bir düşüş göstermektedir. En
+yüksek moment değerine motor devri 2200 d/d’da
+19,86 Nm ile benzinli çalışmada ulaşılmıştır. Bu
+devirde propanla 19,24 Nm, 3/7 p/b karışımı ile 19,13
+Nm, 5/5 p/b karışımı ile 19,13 Nm, 7/3 p/b karışımı
+ile 19,20 Nm moment değerleri elde edilmiştir. Bütün
+devirlerde benzin ile elde edilen moment değerleri,
+propan ve propan/bütan karışımları ile elde edilen
+değerlerin yaklaşık olarak %3,6-7 üzerinde olmuştur.
+
+4
+
+3
+10
+
+12
+5
+
+9
+
+6
+11
+8
+
+1-Sun-1500 emisyon test cihazı
+2-Dinamometre panosu
+3-Yakıtmetre
+4-Havametre
+5-LPG- tüpü
+
+6-Dijital terazi
+7-Batarya
+8-LPG kiti
+9-Dinamometre
+10-Motor
+
+7
+11-Isı eşanjörü
+12-Mikser-karbüratör
+
+Şekil 1. Deney tesisatının şematik resmi (The layout of test bench)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006
+
+305
+
+Y. İçingür ve A. Dost
+
+Buji ile Ateşlemeli Bir Motorda Propan ve Farklı Oranlarda Propan/Bütan Kullanımının Performansa...
+
+22
+
+Moment (Nm)
+
+20
+
+18
+
+16
+
+Benzin
+5/5 p/b
+
+14
+
+Propan
+3/7 p/b
+
+7/3 p/b
+
+12
+
+1600
+
+1800
+
+2000
+
+2200
+
+2400
+
+2600
+
+2800
+
+3000
+
+3200
+
+3400
+
+Motor Devri (d/d)
+
+Şekil 2. Motor hızına bağlı olarak efektif motor
+momentinin değişimi (The change of engine torque as a
+function of engine speed)
+
+Propan ve propan/bütan karışımlarının moment değerleri karşılaştırıldığında ise 2200 devire kadar propanın
+daha yüksek moment değerleri ürettiği, bu devre
+kadar karışım içindeki propan oranı artışının momenti
+de arttırdığı görülmektedir. 2200 devirde moment
+değerlerinin birbirlerine çok yaklaştığı ve 2200
+devirden sonra içerisinde bütan oranı artan LPG’nin
+daha iyi moment değerleri ürettiği görülmektedir.
+Efektif motor gücünün devir sayısına bağlı olarak
+değişimi Şekil 3’te verilmiştir. Yapılan bütün deneylerde motor gücü artan motor hızıyla artış göstermiştir. En yüksek motor gücü 3200 d/d’da benzinli
+çalışmada 5,5 kW olarak gerçekleşmiştir. Bu devirde
+propanla 5,08 kW, 3/7 p/b karışımı ile 5,23 kW, 5/5
+p/b karışımı ile 5,17 kW, 7/3 p/b karışımı ile 5,15 kW
+güç değerlerine ulaşılmıştır. Bütün devirlerde benzin
+ile elde edilen güç değerleri, propan ve propan/bütan
+karışımları ile elde edilen değerlerin yaklaşık olarak
+%3,6-7 üzerinde olmuştur. Moment değişimine paralel olarak propan ve farklı propan/bütan karışımlarının
+güç değişimleri de: 2200 d/d’ya kadar propan oranı
+artıkça artmış; bu devirden sonra motor gücü artışının
+sürmesine karşın; LPG’deki propan oranı arttıkça
+diğer karışımlara göre güçte düşme görülmüştür.
+
+Propan ve farklı oranlardaki propan/bütan karışımlarından oluşan LPG’nin, motorlarda maksimum momentin ve gücün elde edilebilmesi için ihtiyaç duydukları ateşleme avansları farklıdır. Karışım içerisindeki propan oranı arttıkça avans ihtiyacı da artmaktadır [12]. Kullanılan motor sabit avanslı olduğundan
+hız artışı ile propan oranı yüksek yakıt karışımlarının
+ihtiyaç duyduğu avans değerlerini karşılayamamakta
+bu da moment ve gücü olumsuz etkilemektedir. 2200
+d/d’ya kadar propan oranı yüksek karışımların ateşleme avansı ihtiyaçları karşılanabilmiş bu devirden
+sonra yeterli avans verilememiştir. Ayrıca artan motor
+hızıyla propan oranı yüksek karışımların volümetrik
+verimlerindeki düşmede, moment ve gücü olumsuz
+etkilemiştir. Bunun yanında LPG karışımlarının benzinden daha düşük güç ve moment değerleri vermeleri
+düşen volümetrik verim, karışımların yanma hızlarındaki farlılıklar ve motorun benzin için tasarlanmış
+olmasından kaynaklanmaktadır.
+3.2. Özgül Yakıt Tüketimi (Specific Fuel Consumption)
+Özgül yakıt tüketiminin motor devrine bağlı olarak
+değişimi Şekil 4’te verilmiştir. Şekil 4’te de görüldüğü gibi bütün çalışma koşullarında özgül yakıt
+tüketimi 1800’den 2000 d/d’ya kadar düşüş göstermiş,
+2000 d/d’dan sonra yükselmiştir. Şekil 4’te görüldüğü
+gibi bütün çalışma koşullarında en düşük özgül yakıt
+tüketimi 2000 d/d’da 274,78 gr/kWh olarak propan
+kullanımıyla elde edilmiştir. Benzin ile yapılan deneylerde özgül yakıt tüketimi 2200 d/d’ya kadar 3/7 p/b
+karışımının özgül yakıt tüketim değerlerinden düşük
+olarak gerçekleşmiş fakat; 2200 d/d’dan sonra özgül
+yakıt tüketimi propan ve karışım LPG’lerden yüksek
+olmuştur. LPG karışımlarının propan oranı arttıkça
+özgül yakıt tüketiminde düşüş görülmektedir. En
+yüksek özgül yakıt tüketimi 3200 d/d’da benzin ile
+yapılan çalışmada 326,43 gr/kWh olarak ölçülmüştür.
+Motorun maksimum moment ve en yüksek volümetrik verimle çalıştığı devirlerde özgül yakıt tüketimi
+340
+
+Benzin
+
+6
+
+ÖYT be(gr/kWh)
+
+320
+
+Efektif Güç (kW)
+
+5,5
+
+5
+
+4,5
+
+4
+
+Benzin Güç
+7/3 p/b
+3/7 p/b
+
+3,5
+
+Propan
+5/5 p/b
+
+5/5 p/b
+
+7/3 p/b
+
+3/7 p/b
+
+300
+
+280
+
+3
+1600
+
+Propan
+
+260
+1800
+
+2000
+
+2200
+
+2400
+
+2600
+
+2800
+
+3000
+
+3200
+
+3400
+
+1600
+
+1800
+
+2000
+
+2200
+
+Motor Devri (d/d)
+
+2400
+
+2600
+
+2800
+
+3000
+
+3200
+
+3400
+
+Motor devri (d/d)
+
+Şekil 3. Motor hızına bağlı olarak efektif motor
+gücünün değişimi (The change of effective engine power as a
+
+Şekil 4. Motor hızına bağlı olarak özgül yakıt
+tüketimi değişimi (The change of specific fuel consumption as
+
+function of engine speed
+
+a function of engine speed)
+
+306
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006
+
+Buji ile Ateşlemeli Bir Motorda Propan ve Farklı Oranlarda Propan/Bütan Kullanımının Performansa...
+
+minimuma düşmüş, volümetrik verim ve moment
+düşerken özgül yakıt tüketimi artış göstermiştir.
+Elde edilen güç ve tüketilen yakıt karşılaştırıldığında
+en ekonomik çalışmanın propan ile elde edildiği
+görülmektedir. LPG karışımlarının daha ekonomik
+çalışma koşulları sağlamalarında alt ısıl değerlerinin
+benzinden daha yüksek olması, motora gaz fazında
+girdiklerinden daha homojen karışım oluşturmaları ve
+yanmanın daha iyi gerçekleşmesi etkili olmaktadır.
+Kullanılan propan/bütan karışımlarının içerisindeki
+propan oranı arttıkça karışımın ısıl değeri artmakta ve
+özgül yakıt tüketimi düşmektedir. Motor devri arttıkça
+farklı propan/bütan karışımlarından oluşan LPG’lerin
+özgül yakıt tüketimi bir birine yaklaşmaktadır. Yüksek devirlerde LPG karışımlarının özgül yakıt tüketimlerinin bir birlerine yaklaşması, propanın yüksek
+alt ısıl değerine karşın yüksek devirlerde yeterli
+ateşleme avansı verilememesinden dolayı daha düşük
+güç üretmesi; bütan oranı yüksek karışımların düşük
+alt ısıl değerlerine karşın yüksek devirlerde daha iyi
+performans göstermelerinden kaynaklanmaktadır.
+3.3. Volümetrik Verim (Volumetric Efficiency)
+Volümetrik verimin motor devir sayısına bağlı olarak
+değişimi Şekil 5’de verilmiştir. En yüksek volümetrik
+verim değerine 2400 d/d’da % 70,26 ile benzinli
+çalışmada ulaşılmıştır. 2400 d/d’da propan ve farklı
+oranlardaki propan/bütan karışımlarının volümetrik
+verimleri: propan ve 7/3 p/b’nın % 67,9, 5/5 p/b ve
+3/7 p/b’nın % 68,54 olarak ölçülmüştür. Motorun
+volümetrik verimi bütün çalışma koşullarında bütün
+yakıtlar için 1800 d/d’dan 2400 d/d’a kadar artış
+göstermiş bu devirden sonra volümetrik verimde
+düşüş görülmüştür. Motorun volümetrik verimindeki
+genel düşüklük LPG dönüşüm sistemi montajından
+kaynaklanmaktadır. LPG sistemi montajı, motora
+giden havanın yolunu uzatmış ve karbüratör önünde
+hava yolunun kesit alanını daraltmış, karbüratör
+ventüri boğazının daralmasına sebep olmuştur.
+Benzinle LPG karışımlarının volümetrik verimleri
+karşılaştırıldığında, benzinli çalışmada LPG’li çalış-
+
+Y. İçingür ve A. Dost
+
+malardan %4-7 daha yüksek volümetrik verim
+değerleri elde edildiği görülmektedir [Şekil 5]. Bunun
+en önemli sebebi LPG’nin motora gaz halde girmesidir. LPG, sıvı fazdan gaz fazına geçerken hacimsel
+olarak 230-267 kat genleşebilmektedir [5]. Motor
+devri yükseldikçe yakıt tüketimi artmakta dolayısıyla
+benzine oranla LPG’nin volümetrik verimindeki
+düşme de artmaktadır. LPG oluşturan propan/bütan
+karışımının, içeriğindeki propan oranı arttıkça volümetrik verimdeki düşme artmaktadır. Bunun sebebi
+propanın daha düşük olan özgül ağırlığıdır. Propanın
+özgül ağırlığı 0,504 g/cm3 iken, bütanın özgül ağırlığı
+0,582 g/cm3’tür [5,13,14].
+3.4. CO ve HC Emisyonları (Emissions of HC and CO)
+Yapılan çalışmalarda Şekil 6’da da görüldüğü gibi en
+yüksek CO emisyonu 1800 devirde benzinli çalışmada %3,95, propan kullanımında %2,24, 7/3 p/b
+kullanımında %2,28, 5/5 p/b kullanımında %2,34 ve
+3/7 p/b kullanımında %2,47 olarak ölçülmüştür. CO
+emisyonu motor devrine bağlı olarak kullanılan bütün
+yakıtlarda düşüş göstermiştir. LPG kullanımı CO
+emisyonunu benzin kullanımına göre % 42-62 oranında düşürmüştür. Ayrıca LPG karışımlarının içeriğindeki propan oranının artması da CO emisyonlarını
+sınırlı bir Şekilde iyileştirmiştir.
+Şekil 6’da görüldüğü gibi motor devrindeki artış CO
+emisyonunu iyileştirmektedir. Bu durum, piston hızındaki artıştan dolayı yakıt/hava karışımının türbülansının artması, bu türbülans artışının alev dalgalarının
+yayılmasını hızlandırması ve dolayısıyla yanma
+hızının artmasıyla CO emisyonu oluşumunun azalmasıyla ifade edilebilir.
+Deneyler sırasında en yüksek HC emisyonu 1800
+devirde benzinli çalışmada 251 ppm olarak ölçülmüştür. 1800 devirde propan kullanımı 119 ppm, 7/3
+p/b kullanımında 123 ppm, 5/5 p/b kullanımında 127
+ppm ve 3/7 p/b kullanımında 130 ppm olarak gerçekleşmiştir. Motor devrindeki artış ile kullanılan bütün
+5
+
+benzin
+
+Propan
+
+5/5 p/b
+
+76
+
+Benzin
+
+3/7 p/b
+
+72
+
+68
+
+propan
+
+5/5 p/b
+
+4
+
+7/3 p/b
+
+CO (%)
+
+Volümetrik (%)
+
+80
+
+3/7 p/b
+
+7/3 p/b
+
+3
+
+2
+
+64
+
+1
+60
+1600
+
+1800
+
+2000
+
+2200
+
+2400
+
+2600
+
+2800
+
+3000
+
+3200
+
+3400
+
+Motor Devri (d/d)
+
+0
+1600
+
+1800
+
+2000
+
+2200
+
+2400
+
+2600
+
+2800
+
+3000
+
+3200
+
+3400
+
+Motor Devri (d/d)
+
+Şekil 5. Motor hızına bağlı olarak volümetrik
+verimin değişimi (The change of volumetric efficiency as a
+function of engine speed)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006
+
+Şekil 6. Motor devrine bağlı olarak CO emisyonu değişimi
+(The change of % CO emission as a function of engine speed)
+
+307
+
+Y. İçingür ve A. Dost
+
+Buji ile Ateşlemeli Bir Motorda Propan ve Farklı Oranlarda Propan/Bütan Kullanımının Performansa...
+
+yakıtlarda HC emisyonu azalmıştır (Şekil 7). En
+düşük HC emisyon değeri 3200 devirde 3/7 p/b
+kullanılan deneylerde 60 ppm olarak ölçülmüştür.
+3200 devirde HC emisyon değerleri; benzinli
+çalışmada 92 ppm, propan kullanımında 64 ppm, 5/5
+p/b kullanımında 61 ppm, 7/3 p/b kullanımında 63
+ppm olarak ölçülmüştür. LPG kullanımı HC emisyon
+değerlerinde benzin kullanımına göre % 37-45
+arasında bir azalma sağlamıştır. LPG içeriğinde artan
+propan oranı yaklaşık 2400 devre kadar HC
+emisyonlarını iyileştirmiş fakat; bu devirden sonra
+artan propan oranı HC emisyonlarında artışa neden
+olmuştur. Propan oranın düşük devirlerde HC
+emisyonlarını
+iyileştirmesi;
+gerekli
+ateşleme
+avansının sağlanması, ısı kayıplarının propan oranı
+düşük LPG karışımlarında daha az olması ve propanın
+daha hafif bir hidrokarbon olmasından dolayı
+yanmanın düşük devirlerde daha iyi olmasından
+kaynaklanabilir. Motor devri yükseldikçe gerekli olan
+avans verilememiş, gerekli sıcaklık ve basınç artışları
+diğer LPG karışımlarına nazaran biraz düşmüş
+olabileceği için LPG’deki propan oranı arttıkça HC
+emisyonları artış göstermiştir.
+300
+
+Benzin
+3/7 p/b
+
+200
+HC (ppm)
+
+5/5 p/b
+
+150
+
+100
+
+50
+
+0
+1600
+
+1800
+
+2000
+
+2200
+
+2400
+
+Özgül yakıt tüketimi açısından LPG karışımları
+benzinden daha iyi sonuçlar vermiştir. LPG karışımlarındaki propan oranı artışı özgül yakıt tüketimini
+azaltmıştır. LPG karışımlarının yakıt tüketimi benzinden %5-9 arasında daha düşük gerçekleşmiştir. Tüketilen yakıtın hacmi dikkate alındığında ise LPG karışımları benzinden %9-12 oranında daha fazla yakıt
+tüketmiştir.
+CO emisyonu LPG kullanımı ile benzine göre %60-70
+oranında düşmüştür. LPG karışımlarının propan oranı
+arttıkça CO emisyonu özellikle düşük devirlerde iyileşmiştir. Motor devri artışı ile bütün LPG karışımlarının CO emisyonları birbirine yaklaşmıştır. 1800
+devirde propan kullanımı 3/7 p/b kullanımına göre
+%13 oranında daha düşük CO emisyonu sağlamıştır.
+
+Propan
+
+7/3 p/b
+
+250
+
+olmaktadır. 2200-2400 devirleri arasında LPG karışımlarının güçleri aynı seviyelere gelmekte bu devirlerden sonra bütan oranı artışı motor gücünü ve
+momentini artırmaktadır. Güç ve momentteki bu
+değişimler incelenirken deneylerin yapıldığı motorun
+sabit devirlerde kullanılmak için dizayn edilmiş bir
+jeneratör motoru olduğu ve sabit avansla çalıştığı
+dikkate alınmalıdır.
+
+2600
+
+2800
+
+3000
+
+3200
+
+3400
+
+Motor Devri (d/d)
+
+Şekil 7. Motor devrine bağlı olarak HC emisyonunun
+değişimi (The change of HC emission as a function of engine speed)
+4. SONUÇ ve ÖNERİLER (CONCLUSION and
+SUGGESTIONS)
+
+Yapılan bu çalışmada mevcut enerji kaynaklarından
+LPG’nin farklı oranlarda kullanımının buji ile
+ateşlemeli bir motor performansına ve kirletici
+emisyonlara etkileri deneysel olarak incelenmiştir.
+LPG oranları belirlenirken, çeşitli ülkelerde kullanılan
+LPG oranları dikkate alınmıştır.
+
+HC emisyonları da LPG kullanımı ile benzine göre
+%37-50 oranında düşmüştür. Düşük devirlerde LPG
+karışımlarının propan oranı artışı HC emisyonlarını
+iyileştirmiş, devir yükseldikçe bu özelliğini kaybederek HC emisyonlarının kötüleşmesine sebep olmuştur. 1800 devirde propan kullanımı 3/7 p/b kullanımına göre %8 daha düşük HC emisyonu sağlarken; 3200
+devirde %6 daha kötü HC emisyonuna sebep olmuştur.
+Sonuç olarak, LPG kullanımının buji ile ateşlemeli
+motorlarda daha iyi eksoz emisyon değerleri verdiği
+fakat buna karşılık performansta cüzi bir düşmeye
+sebep olduğu görülmüştür. LPG karışımlarının p/b
+oranları gerek motor performansını gerekse eksoz
+emisyonlarında çok fazla bir değişime neden
+olmamıştır. LPG’deki p/b oranının ilk hareket kolaylığı bakımından iklim şartlarına göre ayarlanmasının
+daha uygun olacağı görülmüştür. Fakat motorların
+sıkıştırma oranlarının artırılması, ateşleme avans
+değerinin maksimum güç ve minimum emisyon için
+optimum değerlerde tutulması, LPG enjeksiyon
+sistemlerinin kullanılması propan kullanımını daha
+avantajlı hale getirecektir.
+KAYNAKLAR (REFERENCES)
+
+Deneyler sonucunda LPG karışımları kullanımının
+motor gücünde ve moment değerinde yaklaşık olarak
+% 3,6-7 oranında bir düşüşe sebep olduğu görülmüştür. Propan oranı artan LPG karışımlarının düşük
+devirlerde daha iyi performans sağladığı fakat; yüksek
+devirlerde motor gücü ve moment değerlerinin düşmesine neden olduğu görülmüştür. 1800 devirde
+propan kullanımı, 3/7 p/b kullanımından %1,3 oranında daha yüksek güç ve moment üretirken; 3200 devirde %-2,85 oranında güç ve moment kaybına neden
+308
+
+1. İçingür, Y., “Doğal Enerji Kaynakları” Yüksek
+Lisans Ders Notları, Gazi Üniversitesi Fen
+Bilimleri Enstitüsü Makine Eğitimi A.B.D.,
+Ankara, 2002.
+2. Haksever, R., Sıvılaştırılmış Petrol Gazının
+Benzinli Motorlarda Kullanımı – Performans
+ve Emisyonlara Etkisinin Deneysel Analizi,
+Yüksek Lisans Tezi, Gazi Üniversitesi Fen
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006
+
+Buji ile Ateşlemeli Bir Motorda Propan ve Farklı Oranlarda Propan/Bütan Kullanımının Performansa...
+
+3.
+4.
+
+5.
+6.
+
+Bilimleri Enstitüsü Makine Eğitimi ABD.,
+Ankara, 1998.
+Borat, O., Balcı, M., Sürmen, A., İçten Yanmalı
+Motorlar, Cilt l, Teknik Eğitim Vakfı yayınları
+Ankara, 1995.
+Soyhan, H.S., Doğal Gaz Motorlarında Yanma
+Performansı ve Eksoz Gazları Analizi, Yüksek
+Lisans Tezi, İstanbul Teknik Üniversitesi Fen
+Bilimleri Enstitüsü, İstanbul.
+Anonim, Araçlarda LPG dönüşümü Mühendis
+El Kitabı, II.Baskı, Makine Mühendisleri Odası,
+Yayın no:227/2, Ankara, 2000.
+Hani, İ., Madeni Yağlar ve Petrol Ofisi Ürünleri
+IV.Baskı, Petrol Ofisi A.Ş. Madeni Yağ Direktörlüğü, İstanbul, 2002.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 21, No 2, 2006
+
+Y. İçingür ve A. Dost
+
+7. Kaya, O., Motor Ayarları ve Bakımı, V. Baskı,
+Milli Eğitim Bakanlığı Yayınları, İstanbul, 1995.
+8. http://www.tef.marmara.edu.tr/makine/gurcan/enerji/23.htm
+9. CUSSONS Motor Test Cihazı Kullanım Kılavuzu
+10. SUN MEA 1500 SL Test Cihazı Kullanım Kılavuzu
+11. Aygaz., LPG Servis ve Tesisat El Kitabı, Aygaz
+LPG Servis Müdürlüğü, İstanbul, 1967.
+12. Onurbaş, A., Tarımda Kullanılan Sabit Patlamalı
+Motorlara Çeşitli Gaz Yakıtların Kullanımını
+Sağlayacak Karıştırıcının Geliştirilmesi, Doktora
+Tezi, A.Ü., Fen Bilimleri Enstitüsü, Ankara, 1990.
+13. TSE, 2178 Sıvılaştırılmış Petrol Gazları [LPG]
+I.Baskı, Türk Standartları Enstitüsü, Ankara, 1991.
+14. Anonim, Handbook Butane-Propane Gases, 4nd
+ed., Lynn C.Denny, Lester L.Luxon, Barbara
+E.Hall, Chilton Company, California, 1962.
+
+309
+
+

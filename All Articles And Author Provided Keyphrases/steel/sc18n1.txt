@@ -1,0 +1,664 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 18, No 1, 109-124, 2003
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 18, No 1, 109-124, 2003
+
+AISI W1 VE L2 SOĞUK İŞ TAKIM ÇELİKLERİNİN
+DÜŞÜK SICAKLIKLARDA (120 °C) MENEVİŞLENMESİ İLE
+OPTİMUM TOKLUĞUN GELİŞTİRİLMESİ
+Cemhan ONUR* ve Burhanettin İNEM**
+Ostim Mesleki Eğt. Merkezi, Milli Eğitim Bakanlığı, Ankara.
+**
+Metalurji Eğt.Böl. Teknik Eğt. Fak. Gazi Üniv. Ankara, binem@tef.gazi.edu.tr
+*
+
+ÖZET
+Bu çalışmada AISI W1 ve L2 soğuk iş takım çeliklerinde sertleştirme ve
+menevişleme sonrası sertlik ve tokluk değişmeleri teorik ve deneysel olarak
+incelenmişir. Malzemelerden hazırlanan çekme ve U-çentik numuneleri 8500C’de 5
+dakika östenitlenmiş, W1 çeliği suda, L2 çeliği ise yağda sertleştirilerek 1200C’de 1,
+3, 5, 7, 9, 11 saat sürelerde menevişlenmiştir. Menevişlemenin ilk yedi saatlik
+bölümünde sertlikte bir kaç Rc’lik düşmeye karşın en yüksek tokluk, süneklik ve
+çekme mukavemetlerine ulaşılmıştır. Dokuz saatten sonraki menevişleme
+sürelerinde numunelerde sertlik artarken, dayanım ve darbe direncinde ani düşüşler
+meydana gelmiştir. Yedi saatlik menevişleme sonrası oluşan ε ve η karbürlerin,
+dokuz ve on bir saatlik menevişlemede martensit plakaları arasında kalıntı östenit
+içerisinde ince uzun parçacıklar halinde düzenlenmeleri sonucu sertlik artarken
+dayanım ve darbe direncinde ani düşüşler görülmüştür.
+
+1. GİRİŞ
+Endüstride kesme takımları içerisinde önemli bir yere sahip olan bıçaklar; sıcak ve
+soğuk haldeki iş parçalarını keserek, şekillendiren, talaşlı ve talaşsız imalatta
+kullanılan yüksek nitelik gerektiren takım çeliklerinden yapılmaktadır [1]. Takım
+çelikleri genellikle dikkatli metalurjik kontrol ile elektrik fırınlarında üretilmektedir
+[2,3]. Makas bıçaklarının kullanımı esnasında meydana gelen aşınma ve kırılma
+problemlerinin sebebi, çeliğin üretim aşamasından kullanım aşamasına kadar
+gördüğü hatalı ve uygun olmayan ısıl işlemlerdir. Bu çeliklerin yüksek karbon
+içermeleri nedeniyle yüksek menevişleme sıcaklıklarında tane sınırlarında oluşan ve
+büyüyen sementit miktarının çok olmasının tokluğu düşürerek kırılganlığa neden
+olduğu bilinmektedir [3,4].
+%1.22 C’lu soğuk iş takım çeliklerinde düşük sıcaklıklarda menevişleme ile oluşan
+mikro yapıların sertlikle ilişkisi birçok araştırmaya konu olmuş ve değişik görüşler
+öne sürülmüştür. D. L. Williamson, K. Nakazava ve Kraws, %1.22 C içeren çelikleri
+9500C’de bir saat östenitleyip %5’lik NaCl içeren suda sertleştirerek 100-1500C
+±60C sıcaklıklar arasında bir saat süreyle yapılan menevişlemede, ε-Fe2C, ε-Fe2.2C
+ve η-Fe2C karbürlerinin martensit plakaları arasında oluştuğu ve sertlikte artışa
+neden olduğu sonucuna varmışlardır (Şekil 1) [5].
+
+Şekil 1. Fe – %1.22 C’lu alaşımda sertlik artışları, (950 0C ‘de 1 saatlik östenitleme)
+%5’lik NaCl içeren suda sertleştirme [5]
+110
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+C. Onur ve B. İnem
+
+Hirotsu ve Naga’nin yaptığı diğer bir çalışmada, η-Fe2C karbür oluşumunun yanında
+çeşitli metal nitrürlerin oluştuğunu elektron mikroskop çalışmalarıyla gösterilmiştir
+[6]. Lement, Averbach ve Cohen %0.4-0.8-1.4 C içeren alaşımlarda sertleştirme
+sonrası 66-2050C arasında yapılan menevişlemelerde ε-Fe2C karbürlerinin
+oluştuğunu, bu reaksiyonun sertliği artırdığını veya en azından sertlik düşüşünü
+geciktirdiğini, %1.4 C içeren çeliklerde ise bu sertlik artışlarının kalıntı östenitten
+meydana gelen ikinci beynitik yapının oluşmasından kaynaklandığını göstermişler
+ve ayrıca az alaşımlı takım çeliklerinde kalıntı östenitin ikinci beynite
+dönüştürülmesi ile maksimum sertliğin korunabileceğini belirtilmektedir [3]. R. A.
+Grange, C. R. Hribal ve L. F. Porter’in 56-7040C arasında, alaşım elementlerinin
+menevişlenmiş martensitin sertliğine etkileri üzerine yaptıkları çalışmada, kromun
+her sıcaklıkta martensitin menevişlenmesini geciktirdiği tespit edilmiştir. Kromdan
+dolayı 2040C’ye kadar sertlik artışı azdır. Vanadyum kromdan daha güçlü bir karbür
+yapıcı olmasından dolayı az miktarda vanadyum içeren çeliklerde vanadyum karbür
+oluşmaktadır. Tüm sıcaklıklarda vanadyum karbürlerin sertlik artışları diğer
+elementlerden daha yüksek olmuştur [7]. Gregory A. Fett, SAE 1040 ve 1541
+çeliklerinden yapılmış şaftları sertleştirdikten sonra 150, 175, 205, 260 ve
+3150C’lerde menevişlemişdir. Bu çelikler için en iyi menevişleme sıcaklığının
+1750C olduğunu ifade ile bu sıcaklıkta en iyi yorulma, süneklik ve burulma direnci
+sağladığı belirtilmiştir [8].
+Yüksek menevişleme sıcaklıklarında (2050C) sementit, martensit faz içerisindeki
+epsilon karbürlerin yerini almakta ve martensit tane sınırlarında ince uzun tabakalar
+oluşturmaktadır. Bu tabaka sade karbonlu ve az alaşımlı soğuk iş takım çeliklerinde
+tokluğun düşmesine neden olmaktadır [3].
+Bu sonuçlardan hareketle kesici takımların özellikle sertlikleri belirli bir sınırda (6263 Rc) tutarak tokluklarını ve dolayısıyla çalışma verimliliklerini ve ömürlerini
+uzatmak endüstriyel bir amaçtır. Bu araştırmada sade karbonlu ve az alaşımlı soğuk
+iş takım çeliklerinin düşük menevişleme sıcaklığında daha uzun sürelerde (1 saatten
+fazla) bekletilmesiyle, martensit plakaları arasında çökelek tipi ε ve η karbürlerin
+oluşması sonucu sertlikteki düşüş yavaşlayacak, bununla birlikte sementit
+oluşumunun engellenmesi ile toklukta bir miktar artışın sağlanabileceği
+düşüncesinden çıkarak; makas bıçaklarının yapımında kullanılan AISI W1 ve L2
+soğuk iş takım çeliklerinde sertleştirme sonrası düşük sıcaklıklarda değişen sürelerde
+menevişleme ile optimum sertlik ve tokluk değerlerinin deneysel olarak belirlenmesi
+amaçlanmıştır [9]. Bu amaç için W1 ve L2 soğuk iş takım çeliklerinden U-çentik ve
+çekme numuneleri hazırlanmıştır. Isıl işlem aşamaları, ekipmanların seçimi ve
+kullanılmasının, literatür araştırmaları sonucu elde edilen aralıklarda, endüstriyel
+şartlarda yapılmasına özen gösterilmiştir. Sertleştirme ve menevişleme işlemleri
+sonrası sertlik, U-çentik ve çekme deney sonuçları alınmış, optik, Tarama Elektron
+Mikroskop (SEM) ve X-ışınları analiz sonuçları ile zamana bağlı olarak mikroyapı,
+sertlik ve toklukta meydana gelen değişimler irdelenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+111
+
+C. Onur ve B. İnem
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+2. MALZEME VE METOD
+2.1. Deneylerde Kullanılan Malzemeler
+Soğuk iş kesme takımlarının üretiminde kullanılan W1 çeliği Makina Kimya
+Endüstrisi Çeliksan (MKE) ve L2 çeliği ise Gebze Makina Takım Endüstrisi (MTE)
+fabrikasından sağlanmıştır. W1 çeliği yerli imalat olup, L2 çeliği ise Almanya’dan
+ithal edilmiştir. Deneylerde kullanılan çeliklerin ARL 3560 optik emisyon spektro
+analizleri yapılmış ve bileşimlerinin Tablo 1’de verilmektedir. Bu değerler bu tür
+çelikler için belirtilen standart [2,10] aralıklar içerisindedir.
+Tablo 1. AISI W1 ve L2 Takım çeliklerinin spoktrometre analiz sonuçları
+AISI C Mn Si P
+S
+Cr Ni Mo Cu Al V W
+Ti
+Co
+W1 0,97 0,25 0,27 0,02 0,01 0,06 0,02 0,004 0,03 0,02 - 0,003 0,003 0,002
+L2 1,19 0,28 0,23 0,01 0,003 0,51 0,08 0,02 0,14 0,02 0,07 0,008 0,002 0,007
+2.2. Isıl İşlemler
+Isıl işlemler, baryumnitrat, GS540, GS54, Houghton HS550, NC660 tuzlar içeren
+banyolarda yapılmıştır. Çeliklerde sementit fazını parçalamak amacıyla öncelikle
+normalizasyon tavlaması yapılmıştır. Sertleştirme için tuz banyosunda 400 0C’de 5
+dakika bekletilerek birinci ön ısıtma, 650 0C’de 5 dakika bekletilerek ikinci ön
+ısıtma ve 850 0C’de 5 dakika bekletilerek tam östenitleme sağlanmıştır. Numuneler
+tuz banyosundan soğutma ortamlarına 5 saniyede alınmış bu ortamda yaklaşık 25
+saniye tutulmuştur. Numunelerin sıcaklığı yaklaşık 80 – 100 0C civarında iken 120
+0
+C ±60C’de menevişleme ortamına alınarak 1, 3, 5, 7, 9 ve 11 saatlik sürelerde
+menevişlenmişlerdir. Menevişleme sıcak hava üflemeli fırında yapılmıştır.
+2.3. Metalografik İncelemeler
+Metalografik incelemeler için numuneler sırası ile 180-1200 numaralı zımparalardan
+geçirilerek önce 3 mikronluk daha sonra 1 mikronluk alümina ile parlatılmıştır ve
+daha sonra % 2-3‘lük nital ile dağlanmışlardır. Numuneler NİKON OPTIPHOT
+100S marka optik mikroskopta incelenmiş ve fotoğraflanmıştır. JEOL-840A
+elektron mikroskobunda ayrıca SEM incelemeleri yapılarak fotoğraflar ve nokta
+analizleri alınmıştır. Philips marka 100 KW, 36 MA, PW 1320 model X-ışınları
+cihazda var olan ve menevişleme aşamalarında oluşan fazlar tespit edilmeye
+çalışılmıştır.
+2.4. Sertlik Deneyi
+Sertlik deneyi, ısıl işlem sırasında meydana gelen sertlik değişim profillerini
+oluşturmak için Rokwell sertlik ölçme cihazında C sertlik skala şartlarında
+yapılmıştır.
+112
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+C. Onur ve B. İnem
+
+2.5. Darbe Deneyi
+Ø25 mm çapındaki malzemeden TSE 269’a göre numuneler hazırlanmıştır (Şekil 2)
+[11]. Numunelere ısıl işlem öncesi ve sonrası ince taşlama yapılmıştır. Menevişleme
+sonrası, dalma tipi elektroerezyon cihazında U-çentiği açılmıştır. Darbe deneyi oda
+sıcaklığında, AVERY BIRMINGHA marka, 30 kg. vurma ağırlığına sahip, kalibre
+edilmiş test cihazında yapılmıştır.
+
+Şekil 2. U-Çentikli Standart Charpy deney parçası [11]
+2.6. Çekme Deneyi
+Ø25 mm çapındaki malzemeden TSE 138’e göre hazırlanmıştır [12]. Çekme deneyi
+oda sıcaklığında ZWİCK Z 250 SN5A markalı test cihazında, 5mm/dak. çekme
+hızında 50 N/mm2 ön yük kullanılarak yapılmıştır.
+3. DENEY SONUÇLARI
+3.1. Mikroyapı ve X-Işınları Analiz Sonuçları
+Suda sertleştirilen W1 çeliğinin bir saatlik menevişleme sonrası mikroyapısı Şekil
+3’te görülmektedir. Bu mikroyapıda, plaka tipi martensit, kalıntı östenit ve
+östenitleme sıcaklığında çözünmemiş karbürler bulunmaktadır. 3, 5, 7, 9 ve 11
+saatliklik menevişlenmiş numunelerin tümünde menevişlenmiş martensit yapısı
+belirlenmiştir ( Şekil 4).
+Yağda sertleştirilen L2 çeliğinin bir saatlik menevişleme sonrası mikroyapısı Şekil
+5’te görülmektedir. Mikroyapıda martensit plakaları belirgin olmamakla birlikte
+kalıntı östenit ile karışmış bir görünümdedir. Ayrıca östenitleme sıcaklığında
+çözünmemiş çok miktarda 1 µm ile 5 µm arası büyüklüklerde küresel karbürler
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+113
+
+C. Onur ve B. İnem
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+Şekil 3. 8500C’de östenitleme, suda sertleştirme, 120 0C’de 1 saat menevişleme
+sonrası W1 çeliğinin mikroyapısı, kalıntı östenit (beyaz), martensit (siyah), %2 Nital
+x500
+
+Şekil 4. 8500C’de östenitlenme, suda sertleştirme, 1200C’de 11 saat menevişleme
+sonrası W1 çeliğinin mikroyapısı, %2 Nital x 200
+görülmektedir. 3, 5, 7, 9 ve 11 saatlik menevişlemeler sonrası mikroyapıların
+tümünde martensitin menevişlendiği gözlenmektedir (Şekil 6).
+Üç ve yedi saatlik süre ile menevişlenmiş W1
+
+114
+
+numunelerden alınan X-ışını
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+C. Onur ve B. İnem
+
+Şekil 5. 8500C’de östenitlenme, yağda sertleştirme, 1200C’de 1 saat menevişleme
+sonrası L2 çeliğinin mikroyapısı, %2 Nital x 100
+
+Şekil 6. 8500C’de östenitlenme, yağda sertleştirme, 1200C’de 11 saat menevişleme
+sonrası L2 çeliğinin mikroyapısı, %2 Nital x 500
+sonuçlarından (Şekil 7 ve 8) hareketle belirlenen piklerin analizi sonucu tespit edilen
+uygun piklerin düzlemler arası mesafelerden d= 1.17 A0 ve d= 1.44 A0 değerlerinin
+demir piklerine ait olup, d= 2.03 ve d= 2.06 değerleri ortorombik sementitin (Fe3C),
+d=1.81, d=2.04 ve d=2.07 değerleri Fe0.4Mn3.6C karbürünün oluştuğunu göstermektedir. Burada mangan çeliklerde yalnız başına karbür oluşturamayacağından
+sementit içerisinde çözünmüş halde olabilmektedir [13].
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+115
+
+C. Onur ve B. İnem
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+Üç saat süreyle menevişlenmiş W1 numunelerinden alınan X-ışını sonuçlarından
+(Şekil 7) tespit edilemeyen, fakat yedi saatlik menevişlenmiş numunelerden
+hareketle belirlenen piklerin analizi sonucu tespit edilen düzlemler arası mesafe
+d=1.01 ve d=1.08 değerleri kübik ε veya η karbürlerini (Şekil 8) göstermektedir.
+Buna göre ε veya η karbürleri beş saatlik menevişlemeden sonra oluşmaya başladığı
+söylenebilir. Yine her üç numuneden alınan X- ışını sonuçlarında belirlenen d=1.26
+değeri mangan sülfür (MnS) ve/veya alüminyum oksit (Al2O3) bileşiklerini
+göstermektedir.
+
+Şekil 7. 8500C’de östenitlenme, suda sertleştirme, 1200C’de 3 saat menevişleme
+sonrası W1 çeliğinin X-ışınları analizi ( Cobalt 30 kW, 8 mA)
+
+Şekil 8. 8500C’de östenitlenme, suda sertleştirme, 1200C’de 7 saat menevişleme
+sonrası W1 çeliğinin X - ışınları analizi
+Dokuz saat süreyle menevişlenmiş L2 çeliği numunelerinden alınan X-ışını
+sonuçlarında (Şekil 9) d=1.16 , d=1.43 değerleri demir piklerinin, d=2. 02, d=2.10
+değerleri V C0.88 , (Cr, Fe)7 C3, Fe 0.4Mn3,6C karbürlerini d=1.01 değeri ise kübik ε
+veya η karbürlerini göstermektedir. W1 ve L2 çeliğinde olduğu gibi mangan sülfür ve
+alüminyum oksit bileşiklerine rastlanmamıştır.
+3.2. Sertlik Deneyi Sonuçları
+Sertleştirme sonrası tüm menevişleme sürelerinde W1 çeliğinin sertlik değerleri
+63-65 Rc, L2 çeliğinin 61-63,5 Rc aralığında elde edilmiştir. 120 0C derecede 1, 3,
+5, 7, 9 ve 11 saatlik menevişlemelere bağlı sertlik değerleri Tablo 2’de ve grafik
+olarak Şekil 10’da verilmektedir.
+
+116
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+C. Onur ve B. İnem
+
+Şekil 9. 8500C’de östenitlenme, yağda sertleştirme, 1200C’de 9 saat menevişleme
+sonrası L2 çeliğinin X-ışınları analizi
+Tablo 2. W1 ve L2 çeliklerinin sertlik değerleri
+W1
+Menevişleme Menevişleme
+Sıcaklığı (oC) Süresi (Saat)
+Ortam
+Sertlik (Rc)
+Ortam
+120
+1
+Su
+65
+Yağ
+120
+3
+Su
+64
+Yağ
+120
+5
+Su
+63.5
+Yağ
+120
+7
+Su
+63
+Yağ
+120
+9
+Su
+64
+Yağ
+120
+11
+Su
+64.5
+Yağ
+
+L2
+Sertlik (Rc)
+63
+63
+62
+61
+63
+63.5
+
+70
+
+Sertlik Rc
+
+68
+66
+
+L2 yağ
+W 1 su
+
+64
+62
+60
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+M enev işlem e süresi (saat)
+
+Şekil 10. W1 ve L2 çeliğinin menevişleme süresine bağlı olarak sertliklerinin
+değişimi
+3.3. Darbe Deneyi Sonuçları
+W1 çeliği suda, L2 çeliği yağda sertleştirme 1200C sıcaklıkta belirtilen sürelerde
+menevişleme sonrası oda sıcaklığında darbe deneyleri yapılmıştır. W1 çeliği en
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+117
+
+C. Onur ve B. İnem
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+düşük 3.5 J, en yüksek 4.2 J, L2 çeliğinde ise en düşük 3.8 J, en yüksek 4.3 J olarak
+ölçülmüştür. Her iki çelikte beş ve yedi saatlik menevişlemede darbe dirençleri sabit
+kalmıştır (Şekil 11 ve Tablo 3).
+4,5
+
+Darbe Direnci
+
+4
+3,5
+L2 y ağ
+3
+
+W 1 su
+
+2,5
+2
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+M e ne vişle m e S üre si (sa a t)
+
+Şekil 11. W1 ve L2 çeliklerinin menevişleme süresine bağlı olarak darbe
+dirençlerinin karşılaştırılması
+Tablo 3. 1200C'de menevişleme sonrası darbe deneyi sonuçları
+Menevişleme Süresi
+Darbe Direnci
+Kırılma Tokluğu*
+(Saat)
+(Joule)
+(Joule)
+W1 (Su)
+L2 (Yağ)
+W1 (Su)
+L2 (Yağ)
+1
+3,5
+3,8
+7,2
+16
+3
+4
+4
+11,9
+13,5
+5
+4,2
+4,3
+12,2
+12,8
+7
+4,2
+4,3
+17,13
+19,6
+9
+4
+4
+9,4
+11,3
+11
+3,7
+3,8
+16,3
+21,9
+*Çekme deney grafiklerindeki alandan hesaplanmış değerler
+3.4. Çekme Deneyi Sonuçları
+W1 ve L2 çeliklerinin, 120 0C‘de belirtilen sürelerde menevişleme sonrası oda
+sıcaklığında yapılan çekme deney sonuçları Şekil 12 ve 13’te verilmektedir. W1 ve
+L2 çelik numunelerinin tümünde menevişlemenin yedi saatlik bölümüne kadar
+çekme dayanımı ve süneklikte nisbi bir artış olduğu, dokuz saatlik menevişlemede
+meydana gelen sertlikteki artış ile birlikte çekme dayanımı ve sünekliği en düşük
+seviyeye indiği görülmektedir.
+
+118
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+C. Onur ve B. İnem
+
+Şekil 12. W1 ve L2 çeliğinin menevişleme süresi ile çekme mukavemetlerinin
+değişimi
+
+Şekil 13. W1 ve L2 çeliğinin menevişleme süresi ile süneklik değişimleri
+4.
+
+SONUÇLARIN TARTIŞILMASI
+
+T.S.E standartlarında W1 ve L2 çeliğinin 180-250 0C arasında 1 saatlik menevişleme
+sonucunda kullanılabilir sertlik değeri 60 Rc olarak belirtilmektedir. Suda
+sertleştirilen W1 ve yağda sertleştirilen L2 çeliklerinin 120 0C’de 11 saat süreyle
+menevişlenmesi sonucu elde edilen sertlikler, standartlarda belirtilen kullanılabilir
+sertliklerin üzerinde ölçülmüştür. Yağda sertleştirilen L2 çeliğinde ise W1 çeliğine
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+119
+
+C. Onur ve B. İnem
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+nazaran daha düşük Ms sıcaklığına sahip olmasına rağmen 60 Rc’nin üzerinde
+sertlik elde edilmiştir. Bu çeliğin bileşiminde bulunan vanadyum, krom ve mangan
+alaşım elementleri martensit oluşumunu kolaylaştırıcı etkide bulunarak sertleşebilme
+kabiliyetini ve derinliğini artırmaktadır [3,14].
+
+Şekil 14. W1 (%1 C içeren çeliğin izotermal dönüşümlerini gösteren
+TTT diyagramı A:Östenit, B: Beynit, P: Perlit, Ms: Martenzit
+dönüşümün başlama sıcaklığı [14]
+L2 çeliğinde bulunan alaşım elementleri martensit morfolojisini etkilemişlerdir. Şekil
+15 ile 16 karşılaştırıldığında W1 çeliğinde plaka tipi martensit meydana gelirken L2
+çeliğinde küçük çubuksu martensit meydana gelmiştir.
+Yedi ve dokuz saat menevişlenmiş W1 çeliği numuneleri X- ışını analiz sonuçlarına
+göre (Şekil 7, 8 ve 11) yoğun ε- Fe2 C, ε- Fe2,2 C veya η- Fe2 C karbür oluşumları
+tespit edilmiştir. Ayrıca dokuz saat menevişlenmiş numunelerden SEM den alınan
+Şekil 15 ve Şekil 17’deki mikroyapılarda görüldüğü gibi menevişleme sonrası
+martensitde ε karbürün yanyana, paralel bir şekilde ve bir bakıma uyum içerisinde
+olduğu söylenebilir.
+Williamson D.C., Nakazawa, K., Krauss, G., nin Fe-1.2 C’lu özel olarak üretilmiş
+çelikler üzerinde yaptıkları çalışmada sertlik artışlarının ilk dört saatlik bölümünde
+meydana geldiği belirtilmiştir (Şekil 1) [5]. Sertlik artışlarının meydana geldiği
+süreler bu çalışma ile uyumlu değildir. Bunun sebebi ise deney numunesinin özel
+şartlarda hazırlanması ve uygulanan ısıl işlem şartlarının farklı olmasıdır.
+
+120
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+C. Onur ve B. İnem
+
+Şekil 15. 8500C’de östenitlenme, suda sertleştirme, 1200C’de dokuz saat
+menevişleme sonrası W1 çeliğinin SEM’den alınan mikroyapısı, %2 Nital x 10.000
+
+Şekil 16. 8500C’de östenitlenme, yağda sertleştirme, 1200C’de dokuz saat
+menevişleme sonrası L2 çeliğinin SEM’den alınan mikroyapısı, %3 Nital x 7.500
+X-ışınları analiz sonuçlarında, W1 çeliğinin yedi saatlik bir menevişleme süresinde
+ε veya η karbürlerinin oluştuğu, oluşan bu karbürlerin dislokasyonları engelleyerek
+sertlik düşüşünü yavaşlattıkları düşünülmektedir (Tablo 2).
+W1 çeliğinden alınan ve dokuz saat menevişlenmiş numunelerin mikroyapıları Şekil 15
+ve Şekil 18’de verilmektedir. Burada görülen yapı tipik II. beynit (alt beynit) yapıyı
+andırmaktadır. B.S. Lement, B.L.Averbach ve M. Cohen’in % 1.4 C’lu çeliklerde
+yaptıkları araştırmalarda sertlik artışlarının kalıntı östenitin II. beynitik yapıya
+dönüşmesi ile meydana geldiği belirtilmektedir. Sade karbonlu veya az alaşımlı takım
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+121
+
+C. Onur ve B. İnem
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+Şekil 17. Fe-%24 Ni -%0.5 C’lu
+çeliğin menevişlenmesi sırasında
+martensitte ε-karbür (koyu faz)
+çökeltiler [4]
+
+Şekil 18. 8490C’de bir saat östenitlenme,
+suda sertleştirme, 177 0C’de bir saat
+menevişleme Ferrit (küçük beyaz uzantılar)
+siyah iğnemsi II. beynit [18 ]
+
+çeliğinin 175-250 0C aralığında menevişlenmesi ile II. beynitik yapı oluşur ve 315
+0
+C’de bir saatte tamamıyla bu yapıya dönüşür [3]. Kalıntı östenitin beynitik yapıya
+dönüşmesi, ferrit kristallerinin çekirdeklenip büyümesi ile başlar ve sonrasında
+sementit çekirdeklenerek ferrit kristalleri arasında uzantılar şeklinde büyümeye devam
+etmesiyle oluşur [15]. Buradan hareket ederek, numunelerden alınan X- ışınları analiz
+sonuçlarına göre 120 0C yapılan menevişlemede sementit oluşumu, dolayısıyla II.
+beynitik yapı oluşumu mümkün görülmemektedir (Şekil 14). Bu sıcaklıkta sementit
+yerine yoğun miktarda ε veya η karbürlerinin ferrit kristalleri arasında düzenlenerek II.
+beynitik yapı görünümü verdikleri düşünülmektedir.
+Geçiş karbürlerindeki ε veya η karbon atomları oranı sementite oranla daha fazladır.
+Dolayısıyla bu karbürlerin II. beynitik yapıyı andıran düzenlenmelerinin görülmesiyle birlikte dislokasyonların daha iyi bloke edilmesi sertlik artışlarını meydana
+getirmiştir. 11 saat süreyle menevişleme sonrası sertlik artışları W1 çeliğinde 1.5-2
+Rc’de kalırken L2 çeliğinde 2.5 Rc değerinde gerçekleşmiştir (Şekil 10).
+L2 çeliğinin mikroyapısında bulunan krom ve vanadyumdan dolayı karbürler daha
+küçük ve daha fazladır [5]. Bu karbürler ve menevişleme sonrası oluşan ε veya η
+karbürleri ile beraber dislokasyon hareketlerini daha iyi sınırlamaları sonucu sertlik
+artışı W1 çeliğine nisbeten biraz daha yüksek olmuştur.
+R.A. Grange, C.R. Hiribal ve L.F. Porterin 56-704 0C arasında alaşım elementlerinin
+menevişlenmiş martensitin sertliğine etkileri üzerine yaptıkları araştırmada kromdan
+dolayı artan sertlik 204 0C’ye kadar az iken vanadyum her menevişleme sıcaklığında
+martensitin sertliğini artırmaktadır [7]. Bu sonuç bu çalışmadan elde edilen sonuçla
+uyumludur.
+122
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+C. Onur ve B. İnem
+
+W1 ve L2 çeliklerinde darbe direnci beş saatlik menevişlemeye kadar artarken beş ve
+yedi saatlik menevişlemede sabit kalmıştır (Şekil 11). Beş saatlik menevişlemeden
+sonra oluşan ε veya η karbürleri sertlik düşüşünü yavaşlatırken, darbe direncinin
+sabit kalmasına neden olmaktadır. 9 ve 11 saatlik menevişlemelerde bu karbürlerin
+düzenlenmesi ile birlikte sertlikte bir artış gözlenirken darbe direncinde sementite
+benzer düşürücü etki yapmaktadır.
+L2 çeliğinden elde edilen darbe enerji değerleri W1 çeliğinden elde edilen
+değerlerinden nisbi olarak yüksektir. L2 çeliğinin daha az sertliğe, daha küçük
+çubuksu martensit kristallerine sahip olması ve yapısında FeS ve MnS kalıntılarının
+bulunamaması nedeniyle daha yüksek darbe direncine sahiptir. Diğer taraftan
+kırılgan çelik matriste kararsız kalıntı östenit miktarının fazla olması da toklukta bir
+artış meydana getirdiği tartışılmaktadır [16]. Yüksek menevişleme sıcaklıklarına
+oranla 120 0C’lik menevişlemede kalıntı östenit miktarının değişmemesi ve yumuşak
+yapısından dolayı darbeleri daha iyi sönümleme özelliğinden kaynaklandığı da
+düşünülmektedir.
+Takım çeliklerinin yüksek sıcaklıklarda menevişlenmeleri tane sınırlarında oluşan
+sementitin darbe direncini düşürdüğü ancak, 120 0C’de beş saatlik menevişleme
+sonrası W1 ve L2 çeliklerinde oluşan ε- Fe2 C, ε- Fe2,2 C veya η- Fe2 C karbürlerinin
+tane içinde homojen dağılımları sonucu çentik darbe direncini artırdıkları
+düşünülmektedir.
+Tüm menevişleme süreleri içerisinde Şekil 13’te görüldüğü gibi en yüksek
+süneklilik yağda sertleştirilen L2 çeliğinde elde edilmiştir. Genel olarak çeliklerde
+bulunan alaşım elementleri dayanımı arttırırken sünekliğe de olumlu katkı
+sağlamaktadır [13].
+W1 ve L2 soğuk iş takım çeliklerinde tüm menevişleme süreleri içerisinde çekme
+dayanımı, akma dayanımı, süneklik ve tokluk özelliklerindeki en uyumlu değerlere
+yedi saatlik menevişlemede ulaşılmıştır.
+5. SONUÇLAR
+• 120 0C’de beş ve yedi saatlik menevişleme ile tane sınırı sementit oluşumu yerine
+martensit plakaları arasında ε- Fe2 C, ε- Fe2,2 C veya η- Fe2 C karbürlerinin ince ve
+homojen dağılımları sonucu çentik darbe direnci artmıştır.
+• Dokuz ve onbir saatlik menevişleme aralığında daha önceden oluşmuş olan ε veya
+η karbürlerinin II.beynitik yapıyı andıran düzenlenmeleri sonucu, her iki çeliktede
+1-2.5 Rc’lik sertlik artışlarını sağlarken, darbe direnci, süneklik, çekme ve akma
+dayanımlarında düşüş gözlenmiştir.
+• W1 ve L2 çeliklerinde sertlik, darbe direnci, çekme dayanımı, süneklik ve tokluk
+özellikleri tavsiye edilen ve uygulanmakta olan W1 takım çelikleri için 200 0C, L2
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+123
+
+C. Onur ve B. İnem
+
+AISI W1 ve L2 Soğuk İş Takım Çeliklerinin Düşük Sıcaklıklarda...
+
+takım çelikleri için ise 190 0C sıcaklık aralığında bir saat süre ile menevişleme yerine
+120 0C’de 5-7 saatlik menevişleme aralığında en iyi değerlerine ulaşmaktadır.
+TEŞEKKÜR
+Bu çalışmaya malzeme destekleri ve katkılarından dolayı, Makine Kimya Endüstrisi
+Çeliksan, Silahsan Fabrikalarına ve Gebze Makine Takım Endüstrisi Fabrikası
+yöneticilerine teşekkür ederiz.
+KAYNAKLAR
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+
+124
+
+Takım Çelikleri, Asil Çelik Teknik Yayınları, 1990.
+T.S.E.3921, Alaşımlı Soğuk İş Takım Çelikleri, T.S.E. Yayını, Ankara 1983.
+George, A.R., Robert, A.C., Tools Steels, American Society for Metals,
+Metals Park, Ohio, 1986.
+Gupton, P.S., The Heat Treating Source Book, American Society For
+Metals, Metals Park, Ohio, 1986.
+Williamson, D.L, Nakazawa, K., Krauss, G., “A Study of the Early Stages of
+Tempering in an Fe-1,2C Pct Alloy”, Metallurgical Transactions A., Vol. 10
+A, 1351-1363, 1979.
+Hirotsu, Y., Nagakura, S., “Crystal Structure and Morphology of the Carbide
+Precipitated From Martensitic High Carbon Steel During the First Stage of
+Tempering”, Acta Metals, Vol. 20, 645, 1972.
+Grange, R.A., Hribal, C.R., Porter, L.F., “Hardens of Tempered Martensite in
+Carbon and Low Alloy Steels”, Metallurgical Transactions A, Vol.8A., 17751785, 1977.
+Gregory A.F., “Introduction to Hardened Shafts (Tempered at 350 0F (1750C))”,
+Metal Progress, Vol .127., 15, 1985.
+Onur, C., AISI W1 ve L2 Takım Çeliklerinde Düşük Sıcaklık
+Menevişlemesinin Sertlik ve Tokluk Üzerine Etkisi, Yüksek Lisans Tezi,
+G.Ü. F.B.E., 2000.
+T.S.E. 3941, Alaşımsız Takım Çelikleri, T.S.E. Yayını, Ankara, 1983.
+T.S.E. 269, Vurma Deneyi, T.S.E. Yayını, Ankara 1974.
+T.S.E. 138, Metalik Malzemelerin Çekme Deneyi, T.S.E. Yayını, Ankara 1994.
+Bain, E.C., Paxton, H.W., Alloying Elements in Steel, American Society for
+Metals, Metals Park, Ohio, 1966.
+Tekin, A., Çelik ve Isıl İşlemi (Bofors El Kitabı), Hakan Ofset, İstanbul, 1984.
+Sidney, H.A., Introduction to Physical Metalurgy, Second Edition, Ankara
+Üniversitesi Basımevi, Ankara, 1986.
+Büget, C., Kalıntı Östenitin 52100 Çeliklerde Aşınmaya Etkisi, Yüksek
+Lisans Tezi, O.D.T.Ü. F.B.E., 1993.
+Erdoğan, M., Mühendislik Alaşımlarının Yapı Ve Özellikleri, Nobel Yayın,
+Ankara, 2000.
+Metals Handbook, 8th ed. Vol. 7., American Society For Metals, Metal Park,
+Ohio, 1972.
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 1, 2003
+
+

@@ -1,0 +1,1701 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 1, 105-114, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 1, 105-114, 2011
+
+BUJİ ATEŞLEMELİ HİDROJEN MOTORUNDA KARIŞIM
+ORANI VE ATEŞLEME AVANSININ MOTOR
+PERFORMANSINA VE ÇEVRİMLER ARASI FARKA
+ETKİSİNİN DENEYSEL ARAŞTIRILMASI
+Habib GÜRBÜZ*, Dinçer BURAN**, İsmail Hakkı AKÇAY*
+*
+
+Süleyman Demirel Üniversitesi, Müh.-Mim. Fak., Makine Mühendisliği Bölümü, 32260, Isparta
+Dumlupınar Üniversitesi, Simav Teknik Eğitim Fak., Makine Eğitimi Bölümü, 43500, Kütahya
+hgurbuz@sdu.edu.tr, dburan@dumlupinar.edu.tr, akcay@mmf.sdu.edu.tr
+**
+
+(Geliş/Received: 24.03.2010; Kabul/Accepted: 04.10.2010)
+ÖZET
+Bu çalışmada, yakıt olarak hidrojeni kullanan buji ateşlemeli bir motorda ekivalans oranı ve ateşleme avansının
+motor performansına ve çevrimler arası farka etkisi araştırılmıştır. Çalışmada; tek silindirli, 4 zamanlı, L tipi
+silindir kafasına sahip buji ateşlemeli bir motor kullanılmıştır. Motor 1500 d/d sabit devirde, iki farklı yakıt-hava
+ekivalans oranında (φ = 0,3 ve φ = 0,6) ve farklı ateşleme avanslarında çalıştırılmıştır. Motor performans
+parametrelerinin tespitinde silindir içi basıncın krank açısına bağlı değişim verileri kullanılmıştır. Basınç
+verilerinin analizi neticesinde ortalama indike basınç, indike motor gücü, indike motor momenti, indike termik
+verim, indike özgül yakıt tüketimi ve yanmış kütle oranı değerleri hesaplanmıştır.
+Elde edilen sonuçlar, fakir karışım halinde yakıt-hava oranının artmasıyla, volümetrik verim ve indike termik
+verimdeki azalmaya rağmen, indike motor gücünün arttığı ve aynı zamanda çevrimler arası farkın azaldığını
+göstermiştir. Çevrimler arası farkın ise, büyük oranda alev gelişim açısından kaynaklandığı tespit edilmiştir.
+
+H. Gürbüz ve ark.
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+1. GİRİŞ (INTRODUCTION)
+Hidrojen, içten yanmalı motor yakıtı olarak
+yakılmasıyla doğrudan kullanılabildiği gibi, yakıt pili
+kullanan araçlarda da enerji kaynağı olarak
+kullanılabilmektedir.
+Ancak
+enerji
+politikası
+uzmanlarına göre; önümüzdeki birkaç on yıl için
+taşımacılık sektöründe hidrojenin içten yanmalı
+motorlarda yakıt olarak kullanımı daha büyük bir
+olasılığa sahiptir [1]. Çünkü çevrim kayıplarına
+rağmen içten yanmalı motorların güç-ağırlık oranları
+yakıt pili ile çalışan veya batarya ile güçlendirilmiş
+araçlardan daha fazladır [2]. Ayrıca mevcut bir
+motorun kolaylıkla hidrojenle çalışır hale getirebilir
+olması nedeniyle, hidrojenin yakıt olarak içten
+yanmalı motorlarda kullanılması en basit yöntem
+olarak görülmektedir [3, 4]. Hidrojen, doğal gaz,
+petrol ve kömür gibi fosil kökenli yakıtların kısmi
+oksidasyonu veya buhar ıslahı yoluyla üretilebilir.
+Hidrojen üretiminde kullanılan bu tip üretim
+yöntemler, CO ve CO2 gibi karbon bileşiklerinin
+oluşumunu beraberinde getirmektedir [5]. Üretilen
+hidrojen herhangi bir arıtma işlemine tabi
+tutulmaksızın içten yanmalı motor yakıtı olarak
+kullanılabilir. Bu nedenle üretilen hidrojenin toplam
+satış fiyatı, özellikle ihtiyaç duyulan benzinin ithal
+edildiği bölgelerde benzinin perakende satış fiyatı ile
+neredeyse rekabet edebilir durumdadır [6]. Hidrojeni
+taşıtlarda; yüksek basınçlı tanklarda sıkıştırılmış gaz
+halinde depolanmış halde, çeşitli metal hidritlerde
+depolanmış halde ve kriyojenik sıvı olarak
+depolanmış halde yakıt olarak taşımak mümkündür
+[7]. Hidrojenin geniş alevlenme limiti, bir gaz
+kelebeği olmaksızın motorun çalışmasını mümkün
+kılmaktadır [3, 8]. Bu durum pompalama kayıplarının
+azalmasına ve motorun kısmi yüklerde çalışması
+durumunda termik verimin artmasına neden
+olmaktadır. Hidrojenin yüksek yanma hızı, yanmanın
+neredeyse
+sabit
+hacimde
+tamamlanmasını
+sağlamaktadır. Bu durum termodinamik açıdan iyi bir
+yanmayı temsil etmektedir. Hidrojenin kendi kendine
+tutuşma sıcaklığının oldukça yüksek olması, son gaz
+bölgesinde kendi kendine tutuşma olmaksızın,
+motorun kısmen yüksek sıkıştırma oranında
+çalışmasını mümkün kılmaktadır. Kısmen artırılabilen
+sıkıştırma oranı motorun termik verimi ve gücünün
+artmasına sebep olacaktır. Hidrojenin düşük ateşleme
+enerjisi ise, geri tepme olarak adlandırılan ve emme
+manifoldu içersindeki hava-yakıt karışımında sıcak
+noktaların oluşmasına sebep olmaktadır [9]. Hidrojen,
+buji ateşlemeli motorlarda karbüratörlü ya da
+enjeksiyonlu yakıt sistemi ile tek yakıt olarak
+kullanılabilir [10]. Genel olarak hidrojen, emme
+zamanın başlangıcından sonra emme manifoldu
+içerisine sürekli veya zamanlanmış enjeksiyon
+şeklinde enjekte edilir [11]. Emme manifolduna
+hidrojenin sürekli enjeksiyonu istenmeyen yanma
+problemlerine sebep olur [12]. Fakat zamanlanmış
+enjeksiyon yöntemi, hidrojenin içten yanmalı
+motorlarda kullanımın sağlanmasında iyi bir
+
+106
+
+yöntemdir [4]. Manifolddan enjeksiyon yöntemi;
+yüksek motor verimi, geniş fakir karışım çalışma
+aralığı, düşük çevrimler arası fark ve düşük NOx
+emisyonu sunmaktadır [13,14 ve 15]. Fakat hidrojenin
+manifolddan
+enjeksiyonu,
+özellikle
+zengin
+karışımlarda, erken ateşleme ve geri tepme olasılığını
+artırmak gibi ciddi problemlere sahiptir [16].
+Manifolddan enjeksiyonlu bir hidrojen motorunda,
+optimum ateşleme avansı ve stokiyometrik çalışma
+koşullarında, volümetrik verimin azalmasından dolayı
+benzine oranla teorik güç % 15 oranında azalmaktadır
+[17]. Hidrojenin ateşlenmesi için gerekli minimum
+enerji miktarı yalnızca 0,02 mJ’dür ve bu hidrojen
+motoruna fakir karışımda iyi bir çalışma ve anında
+ateşleme imkanı sağlamaktadır [18]. Tablo 1’de 1 atm
+basınç ve 300 K’de hidrojenin özellikleri verilmiştir.
+Tablo 1. 1 atm ve 300 K’de H2’nin özellikleri [19].
+(H2 properties in 1atm and 300 K)
+
+Özellik
+Moleküler ağırlık (g/mol)
+Yoğunluk(kg/m3)
+Hava içersinde yayılma hızı (cm2/s)
+Minimum ateşleme enerjisi (mJ)
+Minimum sönme mesafesi (mm)
+Hava içersindeki alevlenme limiti (% vol)
+Alevlenme limiti (ϕ)
+Alt ısıl değeri (MJ/kg)
+Üst ısıl değeri (MJ/kg)
+Stokiyometrik H/Y oranı (kg/kg)
+Stokiyometrik H/Y oranı (kmol/kmol)
+
+Hidrojen
+2,016
+0,08
+0,61
+0,02
+0,64
+4-75
+0,1-7,1
+120
+142
+34,2
+2,387
+
+Hidrojenin bu özelliklerinden dolayı, stokiyometrik
+karışımlara yakın karışım oranlarında motorun
+çalışması için erken ateşleme, önemli bir sınırlamadır.
+Yakıt olarak benzini kullanan buji ateşlemeli
+motorlarda güç, vuruntu oluşumu tarafından
+sınırlandırılırken, yakıt olarak hidrojeni kullanan buji
+ateşlemeli motorlarda güç, ayrıca erken ateşleme ile
+de sınırlandırılır [20]. Hidrojenle çalışan buji
+ateşlemeli motorlarda; vuruntu, erken ateşleme ve geri
+tepme olmak üzere üç anormal yanma rejimi
+bulunmaktadır [21]. İçten yanmalı motorlarda yakıttan
+alınan performansın artırılması, yakıt tüketimi ve
+emisyon miktarının azaltılmasında, çok iyi analiz
+edilmesi gereken olayların başında, silindir içinde
+yanma esnasında gerçekleşen olaylar ve bu olaylara
+etken durumların incelenmesi gelmektedir. Yanma
+olayının analizinde kullanılan önemli veri kaynağı,
+silindir içi basıncın krank açısına bağlı değişim
+verileridir. Silindir içi gazın basıncı, sıcaklığı ve
+yoğunluğu, piston hareketi sebebi ile hacimdeki
+değişimin bir sonucu olarak değişir. Yanma esnasında
+silindir içi basınç, yakıtın kimyasal enerjisini yayması
+nedeni ile artar [22].
+Bu çalışmada; yakıt olarak hidrojenin manifolddan
+enjekte edildiği tek silindirli bir motorda, ekivalans
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+H. Gürbüz ve ark.
+
+yardımıyla, hava miktarı ise Alborg-GFM77 tipi ısıl
+kütlesel debi ölçer vasıtasıyla ölçülmüştür. Farklı
+ekivalans oranı ve ateşleme avanslarında motor devri,
+hidrolik dinamometre yardımıyla sabit tutulmuştur.
+
+oranı ve ateşleme avansının motor performans
+parametreleri ve çevrimler arası farka etkisi deneysel
+olarak
+araştırılmıştır.
+Motor
+performans
+parametrelerinin tespitinde silindir içi basıncın krank
+açısına bağlı değişim verileri kullanılmıştır. Basınç
+verilerinin analizi neticesinde; ortalama indike basınç,
+indike motor gücü, indike motor momenti, indike
+termik verim, indike özgül yakıt tüketimi ve yanmış
+kütle oranı hesaplanmıştır.
+
+Deneylerde % 99,99 saflıkta gaz fazında hidrojen
+kullanılmıştır.
+Motorun
+emme
+manifolduna
+gönderilen hidrojen, 200 bar basınç ve 8,2 m3’lük
+hidrojen tüpünden sağlanmıştır. Tüp çıkışında basınç
+düşürücü regülatör kullanılarak, 5 bara düşürülen
+hidrojen basıncı motorun emme manifolduna Bosch
+marka elektronik kontrollü doğal gaz enjektörü
+vasıtasıyla enjekte edilmiştir. Hidrojen yakıt hattında
+olası alev geri tepmesinin engellenebilmesi için yakıt
+hattı üzerinde alev geri tepme valfi ve selenoid valf
+kullanılmıştır. Hidrojen yakıt hattı ve bağlantı
+noktalarındaki olası hidrojen kaçağı portatif gaz kaçak
+detektörü kullanılarak kontrol edilmiştir. Hidrojenin,
+tüpten elektronik kontrollü enjektöre taşınmasında
+esnek metal örgülü çelik hortum ve rekorlar
+kullanılmıştır. Motora alınan hava sıcaklığının
+kontrolünde ise, ısı kontrol cihazı tarafından kontrol
+edilen bakır boru üzerine yerleştirilmiş kelepçe tipi
+ısıtıcı direnç ve Pt 100 sıcaklık ölçüm probu
+kullanılmıştır. Deney düzeneğinin şematik resmi Şekil
+1’de verilmiştir.
+
+2. DENEY DÜZENEĞİ VE SİLİNDİR İÇİ BASINÇ
+VERİLERİNİN ANALİZİ (EXPERIMENTAL SETUP
+and ANALYSIS of CYLINDER PRESSURE DATA)
+
+2.1. Deney Düzeneği (Experimental Setup)
+Bu çalışmada; tek silindirli, dört zamanlı, buji
+ateşlemeli, L tipi silindir kafasına sahip, hava
+soğutmalı, manifolddan hidrojen enjeksiyonlu olarak
+modifiye edilmiş, Kohler marka K-302 model bir
+motor kullanılmıştır. Motorun silindir çapı 85,7 mm,
+piston stroku 82,6 mm yanma odası hacmi 73 cm3,
+strok hacmi 476 cm3 ve sıkıştırma oranı 7,5 dir.
+Silindir basıncı silindir kafasına monte edilmiş,
+Kistler 6052C tipi piezoelektrik basınç dedektörü ve
+Kistler 5015A tipi amplifikatör kullanılarak
+ölçülmüştür. Krank mili açısı ve pozisyonu; ÜÖN
+sinyalinin yanı sıra her 0,2°’lik krank açısında bir
+sinyal olmak üzere toplam bir yanma çevriminde
+3600 sinyal alabilen Kistler 2618B tipi şaft enkoder
+kullanılarak tespit edilmiştir. Ateşleme avansı,
+püskürtme avansı ve süresinin kontrolünde Motec M4
+elektronik kontrol sistemi kullanılmıştır. Silindir içi
+basıncın krank açısına bağlı değişim verilerinin
+bilgisayara
+kaydedilmesinde
+Measurement
+Computing-USB-1616HS-4 tipi veri toplama kartı
+kullanılmıştır. Motora gönderilen hidrojen miktarı,
+Aalborg-GFC67 tipi ısıl kütlesel debi ölçer
+
+Deneyler motor rejim sıcaklığına ulaştıktan sonra
+yapılmıştır. Motor rejim sıcaklığı (100 °C) silindir
+kapağına monte edilmiş K tipi termoçift vasıtasıyla
+tespit edilmiştir. Deneyler esnasında motor sıcaklığı
+silindir kapağı üzerinden geçen hava sıcaklığının
+kontrol edildiği bir fan yardımıyla sabit tutulmuştur.
+Deneyler 1500 d/d sabit motor devrinde iki farklı
+ekivalans oranı (φ=0,3 ve φ=0,6) ve farklı ateşleme
+avanslarının
+kombinasyonu
+şeklinde
+gerçekleştirilmiştir.
+
+DAQ kard
+
+Bilgisayar
+Ü.Ö.N sinyali
+
+Sinyal şartlandırıcı
+
+0,2 KMA sinyali
+Sinyal çoklayıcı
+Basınç
+regülatörü
+
+H2
+debimetre
+
+Selenoid
+valf
+
+Basınç
+dedektörü
+
+Alev geri
+tepme valfi
+Hidrojen
+enjektörü
+
+Batarya
+
+Endüksiyon
+bobini
+
+Elektrikli ısıtıcı
+
+ECU
+
+Hava filtresi ve
+hava akümülatörü
+
+Hidrojen
+Tankı
+
+Pt 100
+
+Isı kontrol cihazı
+
+Şaft
+enkoder
+
+Magn.
+pick-up
+
+Yük
+Ölçer
+
+Hidrolik
+dinamometre
+
+Motor
+Hava
+debimetre
+
+Hava giriş
+
+Motor sehpası
+
+Egzoz
+borusu
+
+Load
+cell
+
+Şekil 1. Deney düzeneğinin şematik resmi (Schematic view of the experimental setup)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+107
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+H. Gürbüz ve ark.
+
+2.2. Silindir İçi Basınç Verilerinin Analizi
+
+(Analysis
+
+of Cylinder Pressure Data)
+
+Deney sonuçlarının analizinde, silindir içi basıncın
+krank açısına bağlı değişimi verileri kullanılmıştır. Bu
+basınç verileri kullanılarak, FORTRAN dilinde
+hazırlanmış iki farklı program yardımıyla ortalama
+indike basınç, indike termik verim, indike motor gücü,
+indike motor momenti, indike özgül yakıt tüketimi ve
+yanmış
+kütle
+oranı
+hesaplanmıştır.
+Motor
+parametrelerin çevrimler arası farktan bağımsız olarak
+hesaplanması için motorun ardışık 40 çevriminden
+alınmış silindir içi basınç verilerinin ortalama
+değerleri kullanılmıştır.
+Motor parametrelerinin hesaplanmasında kullanılan
+eşitlikler Tablo 2’de verilmiştir.
+Yanmış kütle oranının(xb) hesaplanmasında, silindir
+içi basıncın krank açısına bağlı değişim verileri
+kullanılarak Rassweiler ve Withrow tarafından
+geliştirilen 7 nolu eşitlikten faydalanılmıştır. Fakat
+sonuçların güvenilirliğini artırmak için yanma sonucu
+oluşan basınç artışından, yanmasız çevrimin basınç
+verileri çıkartılarak sadece hidrojenin yanmasından
+kaynaklanan basınç artış verilerinin kullanıldığı 8
+nolu eşitlik yardımıyla, yanmış kütle oranı değerleri
+hesaplanmıştır.
+
+∑ ΔP
+∑ ΔP
+i
+
+xb =
+
+0
+N
+
+C
+
+0
+
+C
+
+[23]
+
+∑ Δ(P
+=
+∑ Δ(P
+i
+
+0
+N
+
+C
+
+− Pm )
+
+0
+
+xb
+
+C
+
+(1)
+
+[24]
+
+Burada 1 nolu eşitliğin 2 nolu eşitlik şeklinde
+düzenlenmesi ile sadece silindir içine alınan yakıtın
+yanmasından kaynaklanan basınç artışı kullanılarak
+yanmış kütle oranının hesaplanması sağlanmıştır.
+Çünkü silindir içine alınan karışımın sıkıştırılması ile
+oluşan basınç artışı, yanmanın ön reaksiyonlarının
+gerçekleşmesi açısından gerekli olsa da, yakıtın
+yanmasından kaynaklanan basınç artışına katkı
+sağlamamaktadır.
+3. DENEYSEL BULGULAR (EXPERIMENTAL
+RESULTS)
+
+Emme havası ile birlikte silindire alınan hidrojenin,
+havaya oranla daha büyük molekül hacmine sahip
+olması nedeniyle ön karışımlı veya ön yakıt
+enjeksiyonlu içten yanmalı hidrojen motorlarında
+hacimsel verim doğal olarak azaltmaktadır [25].
+Çalışmada, φ=0,3 olduğu fakir karışımda motora
+giden hava miktarı 290 l/d, yakıt miktarı 37 l/d iken
+motorun volümetrik verimi % 81 dir. Aynı motor
+devrinde ekivalans oranının φ = 0,6’ya çıkarılması ile
+motora giden hava miktarı 260 l/d, yakıt miktarı 65 l/d
+iken motorun hacimsel verimi % 72 olmuştur. Yakıt
+miktarının % 75 artırılması ile motorun hacimsel
+verimi % 9 azalmıştır.
+φ=0,3 ve φ=0,6 olduğu iki farklı ekivalans oranı ve
+farklı ateşleme avanslarında her bir çalışma
+parametresi için ardışık 40 çevrimin ortalaması
+alınarak oluşturulmuş silindir içi basıncın krank
+açısına bağlı değişim verileri Şekil 2’de verilmiştir.
+
+(2)
+
+− Pm )
+
+Tablo 2. Motor parametrelerinin hesaplanmasında kullanılan eşitlikler [22]
+
+(Equations used at calculation of engine
+
+parameters)
+
+Eşitlik
+
+Motor parametresi
+
+1
+∫ P . dV
+Vd
+
+Ortalama indike basınç (Pi)
+
+Pi =
+
+İndike motor gücü (Ni)
+
+Ni =
+
+İndike termik verim (ηi)
+
+ηi =
+
+İndike motor momenti (Mdi)
+
+Md i =
+
+İndike özgül yakıt tüketimi(be)
+
+be =
+
+Hacimsel verim (ηv)
+
+ηv =
+
+108
+
+Pi. . Vd . n . z
+k ⋅ 60
+
+Ni
+
+mf . H u
+
+N i . 9549
+n
+
+
+mf
+Ni
+
+2 ma
+ρ a .Vd . n
+
+Birim
+(3)
+
+(bar)
+
+(4)
+
+(kW)
+
+(5)
+
+(%)
+
+(6)
+
+(Nm)
+
+(7)
+
+(g/kWh)
+
+(8)
+
+(%)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+22
+20
+
+Yanma basıncı (bar)
+
+18
+16
+14
+12
+10
+
+24
+
+Motor devri = 1500 d/dk
+GKA = 100
+φ = 0,3
+Ateşleme avansı
+- 28
+- 24
+- 20 (*)
+- 16
+- 12
+Mot.komp.
+
+22
+
+Tutuşma gecikme süresi (oKMA)
+
+24
+
+8
+6
+4
+
+Motor devri = 1500 d/d, GKA = %100
+φ = 0,3
+φ = 0,6
+
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+
+2
+0
+-60
+
+H. Gürbüz ve ark.
+
+0
+
+-40
+
+-20
+
+0
+
+20
+
+40
+
+-28
+
+60
+
+-26
+
+-24
+
+-22
+
+-20
+
+-18
+
+-16
+
+-14
+
+-12
+
+-10
+
+-8
+
+-6
+
+Ateşleme avansı (oKMA)
+
+Krank açısı (derece)
+
+Şekil 3. φ = 0,3 ve 0,6 için tutuşma gecikme süresi
+24
+22
+20
+
+Yanma basıncı (bar)
+
+18
+16
+14
+12
+10
+
+(Ignition delay for φ = 0,3 and 0,6)
+
+Motor devri = 1500 d/dk
+GKA = %100
+φ = 0,6
+Ateşleme avansı
+- 28
+- 24
+- 20
+- 16
+- 12
+- 10 (*)
+-8
+Mot.komp.
+
+8
+6
+4
+2
+0
+-60
+
+-40
+
+-20
+
+0
+
+20
+
+40
+
+60
+
+Her iki ekivalans oranı için de ateşleme avansının
+değişmesine rağmen tutuşma gecikmesi sürelerinde
+dikkate değer bir değişim olmamaktadır. Bu durum,
+silindir içinde gerçekleşen yanmanın, tutuşma
+gecikmesi açısından karışım oranı ile değişim
+gösterirken
+ateşleme
+avansının
+değişiminden
+etkilenmediğini göstermektedir. Silindir içi yanma
+basınç verilerinin krank açısına bağlı değişim verileri
+kullanılarak hesaplanan ortamla indike basınç
+verilerinin ateşleme avansı ve ekivalans oranına bağlı
+değişimi Şekil 4’de verilmiştir.
+
+Krank açısı (derece)
+
+6,0
+
+(*) Maksimum momente karşılık gelen ateşleme avansı
+
+φ = 0,3 and φ = 0,6)
+
+Şekil 2’deki grafiklerde görüldüğü gibi her iki
+ekivalans oranı için maksimum basınç ve maksimum
+basıncın oluştuğu krank açısı, ateşleme avansı ile
+birlikte değişim göstermektedir. Benzer şekilde her iki
+ekivalans oranı için yanma çevrimlerinin basınç
+eğrisinin, yanmasız çevrimin basınç eğrisinden
+ayrıldığı nokta, ateşleme avansı ile birlikte değişim
+göstermektedir.
+φ = 0,3 ve φ = 0,6 olduğu iki farklı ekivalans oranı ve
+farklı ateşleme avanslarında her bir çalışma
+parametresi için motorun ardışık 40 çevriminin
+ortalaması alınarak oluşturulmuş silindir içi basıncın
+krank açısına bağlı değişim verileri ve yanmasız
+çevrimin basınç verileri kullanılarak hesaplanan
+tutuşma gecikmesi süresi Şekil 3’de verilmiştir.
+Burada; tutuşma gecikme süresi; buji kıvılcımının
+başladığı andan, yanma basınç verilerinin yanmasız
+çevrimin basınç verilerinden ayrıldığı ana kadarki
+krank açısını ifade etmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+4,8
+
+Ortalama indike basınç (bar)
+
+Şekil 2. φ = 0,3 ve φ = 0,6 için silindir içi basıncın
+krank açısına bağlı değişimi (In cylinder pressure data for
+
+Motor devri = 1500 d/d, GKA = %100
+φ = 0,3
+φ = 0,6
+
+5,4
+
+4,2
+3,6
+3,0
+2,4
+1,8
+1,2
+0,6
+0,0
+-28
+
+-26
+
+-24
+
+-22
+
+-20
+
+-18
+
+-16
+
+-14
+
+-12
+
+-10
+
+-8
+
+-6
+
+Ateşleme avansı (oKMA)
+
+Şekil 4. φ = 0,3 ve φ = 0,6 için ateşleme avansının
+indike ortalama basınca etkisi (Effect to indicated mean
+pressure of spark advance for φ = 0,3 and φ = 0,6)
+
+Ortalama indike basınç verilerinden, maksimum
+motor momentine karşılık gelen ateşleme avansının
+φ = 0,3 için 20 °KMA, φ = 0,6 için ise 10 °KMA
+olduğu tespit edilmiştir. Karışım oranı ve ateşleme
+avansının motor parametrelerine (indike motor gücü,
+indike motor momenti, indike özgül yakıt tüketimi,
+indike termik verim) etkisi Şekil 5’de verilmiştir.
+
+109
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+H. Gürbüz ve ark.
+
+18
+
+2,8
+
+16
+
+2,4
+
+İndike motor torku (Nm)
+
+İndike motor gücü (kW)
+
+φ = 0,6 (yakıt tüketimi = 0,324 kg/h)
+
+φ = 0,3 (yakıt tüketimi = 0,198 kg/h),
+
+Motor devri = 1500 d/d, GKA = %100,
+3,2
+
+2,0
+1,6
+1,2
+0,8
+0,4
+
+-28
+
+-26
+
+-24
+
+-22
+
+-20
+
+-18
+
+-16
+
+-14
+
+-12
+
+-10
+
+-8
+
+-6
+
+Ateşleme avansı (oKMA)
+
+30
+28
+26
+24
+22
+20
+18
+16
+14
+12
+10
+8
+6
+4
+2
+-30
+
+12
+10
+8
+6
+4
+2
+
+-28
+
+-26
+
+-24
+
+-22
+
+-20
+
+-18
+
+-16
+
+-14
+
+Ateşleme avansı (oKMA)
+
+0
+-30
+
+-28
+
+-26
+
+-24
+
+-12
+
+-10
+
+-8
+
+-6
+
+-22
+
+-20
+
+-18
+
+-16
+
+-14
+
+-12
+
+-10
+
+-8
+
+-6
+
+-12
+
+-10
+
+-8
+
+-6
+
+Ateşleme avansı (oKMA)
+
+320
+
+İndike özgül yakit tüketimi (g/kWh)
+
+İndike termik verim (%)
+
+0,0
+-30
+
+14
+
+300
+280
+260
+240
+220
+200
+180
+160
+140
+120
+100
+0
+-30
+
+-28
+
+-26
+
+-24
+
+-22
+
+-20
+
+-18
+
+-16
+
+-14
+
+Ateşleme avansı (oKMA)
+
+Şekil 5. Ekivalans oranı ve ateşleme avansının motor parametrelerine etkisi (Spark advance and air-fuel ratio effects on
+engine parameters)
+
+Bu çalışmada, maksimum motor momentini veren
+ateşleme avanslarında, ekivalans oranının φ=0,3’ten
+φ=0,6’ya çıkarılması ile motorun indike termik
+veriminde ≈ %12’lik bir azalma, indike özgül yakıt
+tüketiminde ise % 6’lık bir artış tespit edilmiştir. Bu
+durum, ekivalans oranının φ=0,3’ten φ=0,6’ya
+çıkarılması ile artan yanma hızından dolayı, silindir
+duvarı ve yanma odasından çevreye olan ısı
+transferindeki artışın bir sonucu olarak ortaya
+çıkmaktadır.
+Şekil 6’ da normal motor çalışma şartları için
+genelleştirilmiş, maksimum basınç ve maksimum
+basıncın oluştuğu krank açısı arasındaki ilişkiyi
+gösteren diyagram verilmiştir. Burada C-A-B-E eğrisi
+hızlı yanma, C'-A'-B'-D'-E' eğrisi ise yavaş yanma ısı
+yayılım profillerini simgelemektedir. Bu profillerde A
+ve A' noktaları maksimum momentin oluştuğu
+
+110
+
+ateşleme avansına, B ve B' noktaları gecikmiş
+ateşleme avansına, C ve C' noktaları ise aşırı avans
+bölgelerine karşılık gelmektedir [22].
+
+Hızlı yanma
+C
+A
+
+C'
+
+P max
+
+Hidrojenin düşük sönme mesafesi (hidrojen alevinin
+sönmeden, silindir duvarı ve/veya yanma odası
+yüzeyine yaklaşması), yakıtın tam yanmasına
+yardımcı olmaktadır. Aynı zamanda, düşük sönme
+mesafesi ve yüksek yanma hızından dolayı daha
+yüksek yanma odası duvar sıcaklığı oluşurken
+soğutma suyuna geçen ısı kaybı miktarı artar [26].
+
+% 50 yanmış
+kütle oranı
+çizgileri
+
+B
+
+'
+A
+B'
+
+D'
+Gecikme
+Yavaş yanma
+
+TC
+
+E
+
+E'
+
+0 P max
+
+Şekil 6. Motor çevrimlerinde maksimum basınç ve
+maksimum basıncın oluştuğu krank açısı arasındaki
+ilişki [22]. (Correlation of maximum cylinder pressure and crank
+angle at engine cyclic)
+
+Şekil 7’de φ = 0,3 ve φ = 0,6 ekivalans oranlarında ve
+farklı ateşleme avansları için motorun ardışık 20
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+25
+
+H. Gürbüz ve ark.
+
+25
+
+Motor devri = 1500 d/d, GKA = %100
+
+Ateşleme avansı
+-8
+-10 (*)
+-12
+-14
+-16
+-18
+-20
+
+24
+23
+
+Maksimum basınç (bar)
+
+22
+
+φ = 0,6
+
+21
+20
+19
+
+24
+23
+22
+21
+20
+19
+
+18
+
+18
+
+Ateşleme avansı
+-16
+-18
+-20 (*)
+φ = 0,3
+-22
+-24
+-26
+-28
+(*) Maksimum momente karşılık gelen ateşleme avansı
+
+17
+16
+15
+14
+13
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+17
+16
+15
+14
+13
+18
+
+20
+
+22
+
+ÜÖN sonrası krank açısı (°KMA)
+
+Şekil 7. φ = 0,3 ve φ = 0,6 için maksimum basınç ve maksimum basıncın pozisyonu (Cylinder pressure and crank angle
+for φ = 0,3 and φ = 0,6)
+
+40 çevrimin ortalaması
+
+100
+
+%100 xb
+
+21,6° KMA
+
+90
+
+Yanmış kütle oranı (%)
+
+60
+
+A
+KM
+
+70
+
+8°
+28,
+
+80
+
+% 90 xb
+Motor devri = 1500 d/d
+GKA = %100
+φ = 0,3 (avans = -20o KMA)
+φ = 0,6 (avans = -10o KMA)
+
+50
+40
+30
+11,8° KMA
+
+20
+
+% 10 xb
+
+10
+13° KMA
+
+0
+0
+
+4
+
+8
+
+12
+
+16
+
+20
+
+24
+
+28
+
+32
+
+36
+
+40
+
+Ateşleme sonrası krank açısı (oKMA)
+
+Şekil 8. φ = 0,3 ve φ = 0,6 için optimum ateşleme avansında yanmış kütle oranının ateşleme sonrası krank
+açısına bağlı değişimi (Variation with spark advance of mass fraction burned at optimum spark advance for φ = 0,3 and φ = 0,6)
+çevriminin maksimum basınç ve pozisyonunu ÜÖN
+sonrası krank açısına bağlı değişimi verilmiştir. Her
+iki ekivalans oranı için çalışılan tüm ateşleme
+avanslarında, verilerin hızlı yanma ısı yayılım
+profiline yaklaşmakta ve tespit edilen optimum
+ateşleme avansları için verilerin şekil 6’ ya benzer
+şekilde yaklaşık olarak A noktasına yakın bölgede
+oluşmaktadır. Bu durum, hidrojenin hızlı ısı açığa
+çıkarma özelliğinden dolayı oluşan hızlı yanma
+karakteristiğinin bir sonucu olarak ortaya çıkmaktadır.
+Bu grafikte, maksimum basınç ve pozisyona ait
+verilerin oluşturduğu bant genişliği, artan ekivalans
+oranı ile birlikte çevrimler arası farkın azaldığına dair
+ipuçları vermektedir. φ = 0,3 ve φ = 0,6 karışım
+oranları için tespit edilen optimum ateşleme
+avansında, motorun ardışık 40 yanma çevriminin
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+ortalaması alınarak hesaplanmış yanmış kütle oranının
+ateşleme sonrası krank açısına bağlı değişimi Şekil
+8’de verilmiştir. Burada, ekivalans oranı artıkça,
+beklentilere uygun olarak toplam yanma açısı
+küçülmektedir. Bu küçülme karışım içersinde havaya
+oranla yakıt miktarının artması ile yanma
+reaksiyonlarının hızlanmasının bir sonucudur.
+Bu grafikte, yanma süreçleri açısından ortaya çıkan
+bir diğer sonuçta, toplam yanma açısında meydan
+gelen kısalmanın büyük bir kısmının alev gelişim
+açısının dışındaki alevin ilerleyen safhalarında
+gerçekleşmesidir. Artan ekivalans oranına karşın alev
+gelişim açısında meydan gelen bu durum, hidrojenin
+geniş alevlenme limiti ve yüksek tutuşma
+kabiliyetinin bir sonucu olarak, ilk alev çekirdeğinin
+
+111
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+H. Gürbüz ve ark.
+
+oluşumu aşamasında, hidrojen alevinin karışım
+oranından daha az etkilendiğini göstermektedir. Hızlı
+yanma açısında meydana gelen dikkate değer azalma
+ise, hidrojenin hızlı yanma kabiliyetinin bir sonucu
+olarak, artan ekivalans oranı ile yanma hızının daha
+da arttığını göstermektedir. Bu durum yakıt olarak
+hidrojenin, hızlı yanma karakteristiğini net bir şekilde
+ortaya koymaktadır. Bununla birlikte son yanma
+açısında meydana gelen kısalma, hidrojenin düşük
+sönme mesafesinin bir sonucu olarak, alevin soğuk
+silindir ve yanma odası duvarına yaklaşmasına karşın,
+yanma hızının ekivalans oranı ile birlikte arttığını
+göstermektedir.
+φ = 0,3 ve φ = 0,6 ekivalans oranları için çevrimler
+arası farkların hangi yanma periyotlarından
+kaynaklandığını ortaya çıkarabilmek amacıyla % 0-10
+
+(alev gelişim açsısı), %10-90 (hızlı yanma açısı) ve %
+90-100 (son yanma açısı) yanmış kütle oranı
+aralıklarına karşılık gelen, krank açılarının motor
+çevrimine bağlı değişimleri yığılmış sütun grafiği
+şeklinde Şekil 9 ve Şekil 10’da verilmiştir.
+Şekil 9 ve Şekil 10’dan, toplam yanma açısı (% 0-100
+xb) göz önüne alındığında, ekivalans oranının
+φ=0,3’ten φ=0,6’ya çıkartılması ile motorun ardışık
+çevrimleri arasındaki farkın azaldığı ve toplam yanma
+süresinin kısaldığı gözlenmektedir. Artan ekivalans
+oranı ile birlikte, silindir içine alınan hava miktarının
+kısmen azalmasına rağmen yakıt miktarının
+artırılması ile hidrojenin hızlı yanma karakteristiğinin
+daha da artarak tüm yanma periyotlarında kısılamaya
+neden olduğu görülmektedir. Yani karışım
+içerisindeki hidrojen miktarının artmasıyla birlikte,
+
+50
+Motor devri = 1500 d/d
+GKA = %100
+φ = 0,3
+Ateşleme avansı = - 20 oKMA
+
+45
+
+Yanma süresi (°KMA)
+
+40
+
+% 0-10
+% 10-90
+% 90-100
+% 0-100
+
+xb (Alev gelişim açısı)
+xb (Hızlı yanma açısı)
+xb (Son yanma açısı)
+xb (Toplam yanma açısı)
+
+35
+30
+25
+20
+15
+10
+5
+0
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+30
+
+35
+
+40
+
+Motor çevrimi
+
+Şekil 9. φ = 0,3 için % 10 xb, % 10 -90 xb, % 90-100 xb ve % 100 xb’nin motor çevrimine bağlı değişimi
+
+(Variation with engine cyclic of 10 xb, % 10 -90 xb, % 90-100 xb and % 100 xb for φ = 0,3)
+
+50
+
+40
+
+Yanma süresi (°KMA)
+
+% 0-10
+% 10-90
+% 90-100
+% 0-100
+
+Motor devri = 1500 d/d
+GKA = % 100
+φ = 0,6
+Ateşleme avansı = -10 oKMA
+
+45
+
+xb
+xb
+xb
+xb
+
+(Alev gelişim açısı)
+(Hızlı yanma açısı)
+(Son yanma açısı)
+(Toplam yanma açısı)
+
+35
+30
+25
+20
+15
+10
+5
+0
+0
+
+4
+
+8
+
+12
+
+16
+
+20
+
+24
+
+28
+
+32
+
+36
+
+40
+
+Motor çevrimi
+
+Şekil 10. φ = 0,6 için % 10 xb, % 10 -90 xb, % 90-100 xb ve % 100 xb’nin motor çevrimine bağlı değişimi
+(Variation with engine cyclic of 10 xb, % 10 -90 xb, % 90-100 xb and % 100 xb for φ = 0,6)
+
+112
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+tüm yanma periyotlarındaki reaksiyonlar hızlanmakta
+ve çevrimler arası fark azalmaktadır. Burada dikkati
+çeken bir diğer önemli nokta ise; artan ekivalans
+oranının, alev gelişim açısı için çevrimler arası farkın
+azalmasında, hızlı yanma açısı için ise yanma
+süresinin kısalmasında daha çok etkiye sahip
+olmasıdır. Artan ekivalans oranı ile alev gelişim
+açısındaki çevrimler arası farkın azalması, ilk alev
+çekirdeğinin oluştuğu buji tırnakları arasındaki
+karışımın zenginleşmesinin bir sonucu olduğu
+şeklinde yorumlanabilir. Alev gelişim açısındaki
+çevrimler arası farkın azalmasının bir sonucu olarak,
+hızlı yanma açısındaki çevrimler arası farkta dikkate
+değer oranda azalmaktadır. Buradan, hidrojenle
+çalıştırılan deney motorunda silindir içi yanma
+karakteristiğinin, toplam yanma süresi açısından
+büyük oranda hızlı yanma açısından, çevrimler arası
+fark açısından ise büyük oranda alev gelişim
+açısından etkilendiğini söylemek mümkündür.
+Buji ateşlemeli motorlarda çevrimler arası değişimin
+ana kaynağı hakkında araştırmacılar arasında iki farklı
+görüş bulunmaktadır. Bunlardan birincisi ve yaygın
+olanı, çevrimler arası farkın ana kaynağının alev
+gelişim açısından kaynaklandığı düşüncesidir. İkincisi
+ise, çevrimler arası farkın ana kaynağının hızlı yanma
+açısındaki değişimlerden kaynaklandığı düşüncesidir
+[27].
+Bu çalışmada her iki ekivalans oranı için elde edilen
+sonuçlar da yaygın olan düşünceyi destekler nitelikte
+olup, çevrimler arası farkın ana kaynağının alev
+gelişim açısı olduğunu göstermektedir.
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada, manifolddan hidrojen enjeksiyonun
+yapıldığı, buji ateşlemeli bir motorda ekivalans oranı
+ve ateşleme avansının motor parametreleri ve
+çevrimler arası farka etkisi deneysel olarak
+araştırılmıştır. Motorun ardışık 40 çevriminden alınan
+basınç verilerinin analizi neticesinde aşağıdaki
+sonuçlar elde edilmiştir:
+ Ekivalans oranının φ=0,3’ ten φ=0,6’ya
+çıkartılması ile silinire alınan havaya oranla daha
+büyük molekül hacmine sahip hidrojen miktarındaki
+artış nedeniyle motorun volümetrik verimi % 9
+azalmıştır.
+ Hacimsel
+verimindeki
+azalmaya
+rağmen
+ekivalans oranının φ = 0,3’ ten φ = 0,6’ya çıkartılması
+ile motorun indike güç ve momentinde % 45 oranında
+bir artış gerçekleşmiştir. Bu durum, volümetrik
+verimden kaynaklanan motor gücündeki azalmanın,
+silindire alınan karışıma herhangi bir kısılmanın
+yapılmaması (maksimum gaz kelebeği açıklığı)
+neticesinde, azalan pompalama kayıpları ile telafi
+edilebileceğini göstermektedir.
+ Ekivalans oranın φ=0,3’ ten φ=0,6’ya çıkartılması
+sonucu artan yanma hızından dolayı, silindir duvarı ve
+yanma odasından çevreye olan ısı transferindeki
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+H. Gürbüz ve ark.
+
+artışın bir sonucu olarak indike termik verimde %
+≈
+12’lik bir azalma tespit edilmiştir.
+ Ekivalans
+oranının
+φ=0,3’ten
+φ=0,6’ya
+çıkartılması ile indike özgül yakıt tüketiminde % 6’lık
+artış olmasına rağmen, φ=0,6 ekivalans oranında
+motorunun daha yüksek performansa sahip olduğu
+gözlenmiştir.
+ Yakıt olarak hidrojenin kullanıldığı motorda,
+artan ekivalans oranı ile birlikte motor performans
+parametrelerindeki artışın yanında çevrimler arası
+farkın azaldığı tespit edilmiştir. Bununla birlikte
+toplam yanma açısında meydana gelen çevrimler arası
+farkın ana kaynağının, büyük ölçüde alev gelişim
+periyodu, kısmen de hızlı yanma periyodu olduğu ve
+son yanma periyodunun çevrimler arası farka etkinsin
+en az olduğu görülmüştür.
+ Elde edilen sonuçlar, hidrojen motorunda
+çevrimler arası farkın azaltılması dolayısıyla motor
+performansının artırılmasına yönelik çalışmaların,
+buji çevresindeki akışın kontrolüne yönelik olması
+gerektiğine dair ipuçları vermektedir.
+SEMBOLLER ve KISALTMALAR
+(NOMENCLATURE)
+
+ÜÖN
+P
+φ
+GKA
+°KMA
+Pi
+Ni
+ηi
+ηv
+ma
+ρa
+Md
+Hu
+mf
+Vd
+n
+z
+k
+i
+be
+xb
+ΔPc
+ΔPm
+Δθ
+N
+
+: Üst ölü nokta
+: Silindir içi basınç (bar)
+: Y/H ekivalans oranı
+: Gaz kelebeği açıklık oranı
+: Krank mili açısı (derece)
+: Ortalama indike basınç (bar)
+: İndike güç (kW)
+: İndike termik verim (%)
+: Volümetrik verim (%)
+: Silindire alınan hava miktarı (m3/d)
+: Havanın yoğunluğu (kg/m3)
+: Motor momenti (Nm)
+: Yakıtın alt ısıl değeri (kJ/kg)
+: Silindire alınan yakıt miktarı (kg/s)
+: Strok hacmi (m3)
+: Motor devri (d/d)
+: Silindir sayısı
+: Çevrim katsayısı (k = 2)
+: Ateşlemenin yapıldığı krank açısı (oKMA)
+: Özgül yakıt tüketimi (g/kWh)
+: Yanmış kütle oranı (%)
+: Yanma basıncındaki değişim
+: Kompresyon basıncındaki değişim
+: Krank açısındaki değişim aralığı (θ=0,2)
+: Toplam krank açısı aralık (Δθ) sayısı
+
+TEŞEKKÜR (ACKNOWLEDGMENT)
+Bu çalışma; TÜBİTAK 107M349 nolu “Hidrojen
+Yakıtlı Buji Ateşlemeli Bir Motorda, Motor
+113
+
+H. Gürbüz ve ark.
+
+Buji Ateşlemeli Hidrojen Motorunda Karışım Oranı ve Ateşleme Avansının Motor…
+
+Performansına Etkiyen Yanma Parametrelerinin
+Belirlenmesi ve Hidrojen Motorunda Yanma
+Optimizasyonu”
+başlıklı
+proje
+kapsamında
+gerçekleştirilmiştir. Katkılarından dolayı Türkiye
+Bilimsel ve Teknolojik Araştırmalar Kurumu
+(TÜBİTAK) Başkanlığına teşekkür ederiz.
+5. KAYNAKLAR (REFERENCES)
+1. Lavrive, J.F., Mahieu, V., Griesemann, J.C.,
+Rickeard, D.J., Well-to-wheels analysis of future
+automotive fuels and power trains in the European
+context, SAE paper no: 2004-01-1924, 2004.
+2. Peschka, W., Hydrogen: The futures cry fuel in
+internal combustion engines, International
+Journal of Hydrogen Energy 23, 27-43, 1998.
+3. Verhelst, S., Sierens, R., Hydrogen enginespecific properties, International Journal of
+Hydrogen Energy 26, 987-990, 2001.
+4. Das, L.M., Hydrogen engine: research and
+development R&D) programmer in Indian
+Institute
+of
+Technology
+(IIT),
+Delhi,
+International Journal of Hydrogen Energy 27,
+953-965, 2002.
+5. Appleby, A.J., Fuel cells and hydrogen fuel,
+International Journal of Hydrogen Energy 19,
+175-180, 1994.
+6. Gambini, M., Vellini, M., Comparative analysis of
+H2/O2 cycle power plants based on different
+hydrogen production systems from fossil fuels,
+International Journal of Hydrogen Energy 30,
+593-604, 2005.
+7. Karim, G.A., Hydrogen as a spark ignition engine
+fuel, International Journal of Hydrogen Energy
+28, 569-577, 2003.
+8. Subramanian, V., Mallikarjuna, J.M., Ramesh, A.,
+Performance,
+emission
+and
+combustion
+characteristics of a hydrogen fuelled SI Engine an
+experimental study, SAE International Mobility
+Eng Congress, Exposition; 2005-26-349, 2005.
+9. Lee, J.T., Kim, Y.Y., Lee, C.W., An investigation
+of a cause of backfire and its control due to
+crevice volumes in a hydrogen fuelled engine,
+Trans ASME;123:204-213,2001.
+10. Verhelst, S., Sierens, R., Hydrogen fuelled internal
+combustion engine, PhD Thesis of Gent
+University, 2005.
+11. COD (College of the Desert) Hydrogen fuel cell
+engines and related technologies, module 3:
+Hydrogen use in internal combustion engines,
+Hydrogen Fuel Cell Engines and Related Tech.: Rev
+0 (www1.eere.energy.gov), pp:1-23, 2001.
+
+12. Das, L.M., Fuel induction techniques for a
+hydrogen operated engine, International Journal
+of Hydrogen Energy 15, 833-842, 1990.
+13. Yi, H.S., Min K., Kim E.S., The optimized
+mixture formation for hydrogen fuelled,
+
+114
+
+International Journal of Hydrogen Energy
+25,685-690, 2000.
+14. Rottengruber H., Berckmüller, M., Elsässer, G.,
+Brehm, N., Schwarz C., Direct injection hydrogen
+SI-engine operation strategy and power density
+potentials, SAE paper no: 2004-01-2927, 2004.
+15. Kim, Y.Y., Lee, J.T., Caton, J.A., The
+development of a dual-Injection hydrogen fueled
+engine with high power and high efficiency, J,
+Eng, Gas Turbines Power, ASME, 128(1): 203212, 2006.
+16. Kabat, D.M., Heffel, J.W., Durability implications
+of neat hydrogen under sonic flow conditions on
+pulse-width modulated injectors, International
+Journal of Hydrogen Energy 27, 1093-1102,
+2002.
+17. Das, L.M., Hydrogen engines: A view of the past
+and a look into the future, International Journal
+of Hydrogen Energy 15,425-430,1990.
+18. Yamin Jehad A.A., Gupta H.N., Bansal B.B.,
+Srivastava O.N., Effect of combustion duration on
+the performance and emission characteristics of a
+spark ignition engine using hydrogen as a fuel,
+International Journal of Hydrogen Energy 25,
+581-589, 2000.
+19. Verhels, S., Wallner, T., Hydrogen-fueled internal
+combustion engines, Progress in Energy and
+Combustion Science 35, 490-527, 2009.
+20. Tang, X.G., Daniel, M.K., Robert, J.N., Ford
+P2000
+Hydrogen
+engine
+dynamometer
+development, SAE paper no: 2002-01-0242,
+2002.
+21. McCarley, C.A., A study of factor influencing
+thermally induced backfiring in hydrogen fuelled
+engines, and methods for backfire control,
+In:16th
+Intersociety
+energy
+conversion
+engineering conference, Atlanta, USA, 1981.
+22. Heywood, J.B., Internal Combustion Engine
+Fundamentals, McGraw-Hill, ISBN 0071004998,
+1988.
+23. Rassweiler, G. M., Withrow L., Motion Pictures
+of Engine Flames Correlated with Pressure Cards,
+SAE Trans, Vol: 83, pp:185-204, 1938.
+24. Buran, D., Turbulent Flame Propagation in a
+Methane Fuelled Spark Ignition Engine, PhD
+thesis, School of Mechanical Engineering, The
+University of Leeds, England, 1998.
+25. Furuhama, S., Hiruma, M., Enomoto, Y.,
+Development of a liquid hydrogen car,
+International Journal of Hydrogen Energy 3,
+61-81, 1978.
+26. Shudo, T,, Nakajima, Y., Fatakuchi, T., Thermal
+efficiency analysis in a hydrogen premixed
+combustion engine. JSAE Rev 21,177-182, 2000.
+27. Kim Y.Y., Lee J.T., Choi G.H, An investigation
+on the causes of cycle variation in direct injection
+hydrogen fueled engines, International Journal
+of Hydrogen Energy 30, 69-76, 2005.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 1, 2011
+
+

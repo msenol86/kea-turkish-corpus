@@ -1,0 +1,1325 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 3, 437-444, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 3, 437-444, 2013
+
+AISI 316L ÇELİĞİNİN İŞLENMESİNDE TAKIM RADYÜSÜ
+VE KESME PARAMETRELERİNİN TAGUCHİ YÖNTEMİYLE
+OPTİMİZASYONU
+Mustafa GÜNAY
+Karabük Üniversitesi, Mühendislik Fakültesi, 78050, Karabük, TÜRKİYE
+mgunay@karabuk.edu.tr
+(Geliş/Received: 20.07.2011; Kabul/Accepted: 06.06.2013)
+ÖZET
+Yüzey kalitesi ve ölçü tamlığı, temas halinde çalışan makine parçalarının dayanımını ve performansını önemli
+miktarda etkilemektedir. Bununla birlikte, talaşlı imalatta kullanılan kesici takım geometrisi ve kesme
+parametreleri; kesme kuvveti, yüzey pürüzlülüğü ve işleme verimliliğini etkileyen en önemli faktörlerdir. Bu
+çalışmada, AISI 316L östenitik paslanmaz çeliğinin işlenmesinde oluşan Fc ve Ra için kesici takım radyüsü ve
+kesme parametrelerinin (değişkenler) optimizasyonu yapılmıştır. Bu amaçla, Taguchi’nin L9 dikey dizini
+kullanılarak işlenebilirlik deneyleri gerçekleştirilmiştir. İşleme deneyleri sırasında ölçülen Fc ve Ra değerleri
+üzerinde değişkenlerin etkilerini ve önem seviyelerini belirlemek için varyans analizi (ANOVA) uygulanmıştır.
+S/N oranları kullanılarak tespit edilen değişkenlerin optimum değerleri, Fc ve Ra için farklı seviyelerde
+bulunmuştur. ANOVA sonuçlarına göre, kesme kuvveti ve yüzey pürüzlülüğünü etkileyen en önemli değişken
+ilerleme miktarı olarak belirlenmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Paslanmaz çelikler, farklı mikroyapı ve kimyasal
+bileşimlerine bağlı olarak yüksek mekanik özellikler,
+yüksek korozyon direnci ve düşük ısıl iletkenlikler
+sergilemekte ve bu avantajlarıyla imalat sektöründe
+geniş bir kullanım alanı bulmaktadır [1]. Mekanik
+özellikler ve korozyon direncinin eşsiz kombinasyonu
+
+sayesinde sağlık, kimya ve elektronik endüstrisi ile
+nükleer santrallerde kritik yapıdaki parçaların
+imalatında kullanılan bu çeliklerin işlenebilirliğinde,
+yüzey kalitesi önemli bir faktördür. Genelde,
+paslanmaz çelikler %12-25 Cr (Korozyon direncinden
+sorumludur), %25’e kadar Ni (Östenitik yapının
+oluşmasını sağlar) içermekte olup, Ni oranının artması
+işleme
+sırasında
+deformasyon
+sertleşmesinin
+
+M. Günay
+
+AISI 316L Çeliğinin İşlenmesinde Takım Radyüsü ve Kesme Parametrelerinin Taguchi...
+
+artmasına neden olmaktadır. Bu süreçte, S, Pb, Te
+gibi elementlerin ilavesiyle malzemenin korozyon
+direnci
+düşürülmeden
+işlenebilirliği
+iyileştirilebilmektedir [2-4].
+Paslanmaz çeliklerin üç karakteristiği (yüksek
+mekanik özellikler, yüksek deformasyon sertleşmesi
+ve süneklik) işlenebilirlikleri üzerinde en büyük
+etkiye sahiptir [5]. Bu çelikler, düşük ısıl iletkenlik
+özellikleriyle işlenmesi zor malzemeler sınıfına
+girmektedir. Bu özellikler yüksek kesme kuvvetleri,
+yüksek kesme sıcaklığı, hızlı takım aşınması, zor talaş
+kırılabilirliği, takım kesici kenarına talaş yapışması ve
+kötü yüzey kalitesine sebep olmaktadır [6]. Talaş
+kaldırma işlemi sırasında meydana gelen termomekanik etki ile oluşan deformasyon sertleşmesi
+talaşın istenilmeyen biçimde oluşmasına ve
+titreşimlere neden olabilmektedir. Ayrıca, işleme
+sırasında meydana gelen yüzey üzerindeki mekanik
+oluşumlar (BUE vb.) ve deformasyon sertleşmesi
+parçanın yüzey bütünlüğünü etkileyerek işlenmiş
+yüzeylerde pürüzlülüğün artmasına ve kalıcı
+gerilmelere neden olmaktadır [4]. Yapılan
+çalışmalarda, özellikle kesici takım radyüsünün
+artması ile artan deformasyon sertleşmesinin işlenmiş
+yüzeylerde oluşan çekme tipi kalıcı gerilmeleri
+arttırdığı vurgulanmıştır [7]. Bu bağlamda, talaş
+kaldırma
+mekaniğinin
+anlaşılmasında
+kesme
+kuvvetleri anahtar rol oynamaktadır. Özellikle, enerji
+tüketiminin ve işleme sürecindeki parametrelere
+(takım malzemesi ve geometrisi, iş parçası vb.) göre
+gerekli gücün belirlenmesinde kesme kuvvetlerinin
+önemi büyüktür [8]. Ayrıca, tornalama işleminde iş
+parçasının plastik deformasyonu için kullanılan enerji
+ısıya dönüşmekte olup, bu ısının çoğunlukla birinci
+deformasyon
+bölgesinde
+meydana
+geldiği
+bilinmektedir.
+Ancak,
+deformasyon
+sırasında
+meydana gelen sıcaklık, takım geometrisi ve kesme
+parametrelerine göre değişen takım-talaş ara
+yüzeyindeki sürtünme ve kesme kuvvetleriyle
+yakından ilişkilidir. Takım-talaş temas uzunluğu,
+dolayısıyla takım geometrisi, takım ömrü ve işleme
+verimliliğini doğrudan etkilemektedir [9]. Diğer
+yandan, büyük kesici takım radyüsünün kesme
+bölgesinde kazıma şeklindeki plastik deformasyona
+neden olması, kesme kuvvetlerinin önemli miktarda
+artışına ve dolayısıyla enerji tüketimine bağlı işleme
+maliyetinin yükselmesine sebep olabilmektedir [10].
+Son yıllarda, farklı paslanmaz çeliklerin işlenmesinde
+oluşan kesme kuvvetleri ve yüzey pürüzlülüğü
+üzerinde,
+kesme
+parametrelerinin
+etkilerinin
+incelendiği birçok deneysel çalışmaların yapıldığı
+görülmektedir. Kaplamalı sementit karbür kesici
+takımlarla AISI 304 ve AISI 316 paslanmaz çeliklerin
+işlenebilirliği incelenmiş ve yüzey pürüzlülüğü (Ra)
+için kesme hızının önemli bir parametre olduğu
+belirtilmiştir. Aynı çalışmada, AISI 316 paslanmaz
+çeliğinin tornalanmasında ölçülen esas kesme kuvveti
+(Fc)’nin daha yüksek olduğu ve bunun malzeme
+
+438
+
+kimyasal bileşimindeki %2 Mo’den kaynaklandığı
+vurgulanmıştır [11]. AISI 304 östenitik paslanmaz
+çeliğin TiC kaplamalı kesici takımla tornalanmasında
+oluşan Fc’nin, teorik olarak hesaplanan sonuçlar ile
+karşılaştırılması yapılmıştır. Teorik ve deneysel
+sonuçlar arasındaki sapmaların değerlendirilmesi
+sonucunda, teorik yaklaşımın ortalama %80
+doğrulukla kullanılabileceği vurgulanmıştır [12]. AISI
+410 martenzitik paslanmaz çeliğin kaplamalı ve
+kaplamasız sementit karbür ve CBN kesici takımlar
+kullanılarak işlenebilirliği incelenmiştir. Deneyler
+sonucunda, en düşük Fc ve Ra değerlerinin CBN
+takımla elde edildiği, ancak kısa süreli işlemelerde
+takımda kırılmalar oluştuğu belirtilmiştir [13]. AISI
+304 paslanmaz çeliğin tornalanmasında oluşan kesme
+kuvveti ve yüzey pürüzlülüğünün yanı sıra kesme sesi
+üzerinde
+kesme
+parametrelerinin
+etkileri
+incelenmiştir. Düşük ilerleme ve yüksek kesme
+hızında kesme sesi basınç seviyesindeki azalmaya
+paralel olarak Ra’nın azaldığı belirtilmiştir [14]. Diğer
+bir
+çalışmada,
+östenitik
+paslanmaz
+çeliğin
+tornalanmasında yüzey pürüzlülüğü ve kesme kuvveti
+için
+kesme
+parametrelerinin
+optimizasyonu
+yapılmıştır. Optimum kesme parametrelerine göre
+yapılan doğrulama deneyleri sonucunda, %23,4’lük
+bir iyileştirme sağlandığı belirlenmiştir [15]. AISI 304
+paslanmaz çeliğinin işlenmesinde oluşan Ra için
+Taguchi yöntemine göre tornalama deneyleri
+yapılmıştır. Deneysel sonuçlara göre yapılan varyans
+analizi sonucunda, Ra üzerinde ilerleme miktarının
+%51,84 etkili olduğu tespit edilmiştir [16].
+Literatürden anlaşılacağı gibi, paslanmaz çelik gibi
+sünek malzemelerin işlenmesinde kesici takımların
+yüksek verimlilikte kullanılması için kesme
+parametrelerinin uygun kombinasyonu gereklidir.
+Çalışmalarda, genellikle kesme parametreleri ve
+kesici takım malzemesinin Fc ve Ra gibi işlenebilirlik
+kriterleri üzerindeki etkilerinin incelendiği, kesici
+takım geometrisinin çok fazla değerlendirilmediği
+belirlenmiştir. Bu çalışmada, AISI 316L östenitik
+paslanmaz çelik malzemelerin orta kesme şartlarında
+işlenmesi sırasında oluşan Fc ve Ra için kesici takım
+radyüsü, kesme hızı ve ilerleme miktarının
+optimizasyonu yapılmıştır.
+2. MATERYAL VE YÖNTEM (MATERIAL
+METHOD)
+
+AND
+
+2.1. Deney Tasarımı ve Analizi (Design of
+Experiment and Analysis)
+Deney tasarımı, kesme parametrelerinin deneysel
+süreç
+içerisindeki
+bilinmeyen
+özelliklerinin
+belirlenmesi ve değişkenler arasındaki etkileşimlerin
+analizi ve modellenmesi için güçlü bir istatistiksel
+yöntemdir [17]. Endüstriyel alanlarda, Taguchi
+yöntemi kullanılarak tasarım ve üretim için ürün
+geliştirme zamanı azaltılmakta ve buna bağlı olarak
+maliyetler düşürülerek işletmenin kar oranı
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+AISI 316L Çeliğinin İşlenmesinde Takım Radyüsü ve Kesme Parametrelerinin Taguchi...
+
+artırılabilmektedir [18]. Ayrıca, Taguchi yöntemi
+geleneksel deney tasarımının dikkate almadığı kontrol
+edilemeyen
+faktörlerin
+meydana
+getirdiği
+değişkenliğin denetimine izin vermektedir. Taguchi,
+bu faktörlere karşı kontrol faktörlerinin seviyelerinin
+performans karakteristiğini ölçmek için amaç
+fonksiyonu değerlerini sinyal/gürültü (S/N) oranına
+dönüştürür. S/N oranı, istenilmeyen rastgele gürültü
+değeri için istenilen sinyal oranı olarak tanımlanmakta
+olup, deneysel verilerin kalite karakteristiklerini
+göstermektedir [19, 20]. Amaç fonksiyonu olarak
+bilinen ve aynı zamanda S/N oranı olarak ifade edilen
+“en küçük en iyi, en büyük en iyi ve hedef değer en
+iyi” olmak üzere üç farklı fonksiyon kullanılmaktadır.
+Ayrıca, kesme parametrelerinin istatistiksel önemini
+belirlemek için varyans analizi uygulanmaktadır.
+Varyans analizi ve S/N oranı yardımıyla kesme
+parametrelerinin
+optimum
+kombinasyonu
+belirlenmektedir. Son olarak, Taguchi optimizasyonu
+ile bulunan optimum işleme parametreleri kullanılarak
+doğrulama deneyi yapılmakta ve optimizasyonun
+geçerliliği test edilmektedir [17].
+Bu çalışmada, AISI 316L paslanmaz çeliğinin
+işlenmesinde meydana gelen esas kesme kuvveti (Fc)
+ve ortalama yüzey pürüzlülüğü (Ra) için kesme
+parametrelerinin optimizasyonu yapılmıştır. Kesici
+takım radyüsü (r), kesme hızı (V) ve ilerleme miktarı
+(f) değişken olarak seçilmiş olup, değişkenlerin her
+biri için üç farklı seviye belirlenmiştir. Deney
+tasarımında, Taguchi yönteminin L9 dikey dizisi
+kullanılmıştır. Değişkenler ve değişken seviyeleri
+Tablo 1’de verilmiştir.
+Tablo 1. Değişkenler ve seviyeleri (Levels of independent
+variables)
+Değişkenler
+
+Birim
+
+Kod
+
+Seviyeler
+1
+
+Kesici takım radyüsü (r)
+
+3
+
+mm
+
+A
+
+0,4
+
+0,8
+
+1,2
+
+mm/dev
+
+B
+
+0,1
+
+0,2
+
+0,3
+
+m/dak
+
+İlerleme miktarı (f)
+Kesme hızı (V)
+
+2
+
+C
+
+120
+
+150
+
+180
+
+Kesici takım radyüsü ve kesme parametrelerinin
+optimizasyonu, Fc ve Ra için ayrı ayrı yapılmıştır.
+Değişkenlerin optimum seviyeleri belirlenirken,
+işleme verimliliğinin artırılması amacıyla Fc ve Ra
+değerlerinin en küçük olması gerekmektedir. Bu
+amaçla, S/N oranlarının hesaplanmasında Eş.1’de
+verilen performans karakteristiğinin “en küçük en iyi”
+durumda olduğu amaç fonksiyonu kullanılmıştır.
+
+⎛1 n
+⎞
+S / N = −10 ⋅ log⎜ ⋅ ∑ Yi 2 ⎟
+⎝ n i =1 ⎠
+
+(1)
+
+M. Günay
+
+Deneysel sonuçlara %95 (α=0,05) güven düzeyinde
+varyans analizi (ANOVA) uygulanarak Fc ve Ra
+üzerinde değişkenlerin etki seviyeleri belirlenmiştir.
+Optimizasyon çalışmaları ve varyans analizleri
+Minitab15
+paket
+programı
+yardımıyla
+gerçekleştirilmiştir.
+2.2. Kesme Şartları ve Cihazlar (Cutting
+
+Conditions
+
+and Equipments)
+
+İşleme deneyleri, kuru kesme şartlarında 10 kW
+gücündeki Johnford TC35 marka CNC torna
+tezgahında yapılmıştır. İş parçası olarak Ø 200x45
+mm boyutlarında AISI 316L çelik malzeme
+kullanılmış olup, malzemenin kimyasal bileşimi
+Tablo 2’de verilmiştir. Deneyler sabit kesme
+derinliğinde (a=1,6 mm) gerçekleştirilmiştir. Kesici
+takımlar, Kennametal firmasından CNMG120404,
+CNMG120408 ve CNMG120412 formunda temin
+edilmiştir. Üretici firma tarafından paslanmaz
+çeliklerin işlenmesi için tavsiye edilen KC 935
+kalitesindeki kesici takımlar, Al2O3/TiC/TiCN
+kaplıdır. Kesici takımlar, Kennametal ürünü olan
+PCLNCR/L 2525 M12 kodlu takım tutucu ile
+yanaşma açısı 75° olacak şekilde tezgaha
+bağlanmıştır.
+İş parçasının tornalanmasında oluşan kesme
+kuvvetlerinin ölçülmesinde; üç kuvvet bileşenini (esas
+kesme kuvveti_Fc, ilerleme kuvveti_Ff ve radyal
+kuvvet_Fr) aynı anda ölçebilen KISTLER 9257B tipi
+piezoelektrik
+dinamometre
+kullanılmıştır.
+Değişkenlerin optimizasyonunda, talaş kaldırmada
+enerji tüketimi açısından birinci derecede öneme sahip
+olan Fc değerleri dikkate alınmıştır.
+Yüzey pürüzlülük değerlerinin ölçülmesinde, Mahr
+marka M1 model bir yüzey pürüzlülük ölçme cihazı
+kullanılmıştır. Standard tablolar yardımıyla örnekleme
+uzunluğu 0,8 mm, ölçüm uzunluğu 4 mm olarak
+alınmış olup, filtre olarak 2-RC 75 tipi kullanılmıştır.
+İşlenebilirlik kriterlerinden birisi olan ortalama yüzey
+pürüzlülük (Ra) değerleri, ISO 4287 [21] standardı
+dikkate alınarak, işlenmiş yüzeyler üzerindeki
+pürüzlülük
+profilindeki
+sapmaların
+aritmetik
+ortalaması sonucu elde edilmektedir.
+3. SONUÇLAR VE TARTIŞMA (RESULTS
+
+AND
+
+DISCUSSION)
+
+AISI 316L östenitik paslanmaz çelik üzerinde L9
+dikey dizinine göre gerçekleştirilen tornalama
+işlemleri sırasında oluşan Fc ve Ra değerleri ile
+Taguchi’nin en küçük en iyi yaklaşımına göre
+hesaplanan S/N oranları Tablo 3’te verilmiştir.
+
+Tablo 2. İş parçasının kimyasal bileşimi (Chemical composition of the workpiece)
+C
+Si
+S
+P
+Mn
+Ni
+Cr
+Mo
+Fe
+0,025 0,454 0,025 0,029 1,777 10,430 16,542 2,295 68,423
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+439
+
+M. Günay
+
+AISI 316L Çeliğinin İşlenmesinde Takım Radyüsü ve Kesme Parametrelerinin Taguchi...
+
+3.1. Kesme kuvvetinin analizi (Analysis of cutting force)
+Fc’nin deneysel sonuçları kullanılarak hesaplanan S/N
+oranları Şekil 1’deki ana etki grafiklerinde
+gösterilmiştir. Ayrıca, Fc için hesaplanan ortalama
+S/N oranlarının değişkenlere göre dağılımı Tablo 4’te
+verilmiştir. Şekil 1’deki ana etki grafikleri ile Tablo
+4’teki S/N oranlarının maksimum ve minimum
+noktaları incelenecek olursa, Fc üzerinde etkili olan en
+önemli değişkenin ilerleme miktarı (f) olduğu açıkça
+görülebilir.
+
+Şekil 2’deki grafik, ilerleme miktarının artışıyla Fc
+değerlerinin arttığını sergilemekte olup, yukarıda
+belirtilen sonucu destekler niteliktedir. İlerlemenin
+artması ile birlikte artan talaş kesit alanına bağlı talaş
+oluşumu için gerekli kesme gücü ve dolaylı olarak
+Fc’nin artışı beklenen bir sonuçtur. Diğer yandan,
+kesici takım radyüsü arttıkça Fc değerlerinde önemli
+bir artışın (yaklaşık %2) olmadığı belirlenmiştir. Bu
+sonuç, kesici takım radyüsü (r)’nün artmasıyla birlikte
+azalan yanaşma açısına atıf edilmiş olup, r’deki artışın
+daha çok radyal kuvvet (Fr)’i etkileyeceği bilgisi ile
+paralellik göstermektedir [22]. Ayrıca, kesici takım
+radyüsünün artmasıyla Fc’nin doğrusal bir artış
+eğiliminde olmadığı görülmektedir. Bunun nedeni
+olarak, aynı ilerleme miktarı için yapılan deneylerde
+kesme hızının farklı olmasını göstermek mümkündür
+(Tablo 3).
+
+1200
+1000
+Fc (N)
+
+Şekil 1. Fc’nin S/N oranları için ana etki grafiği (Main
+effects plot for S/N ratio of Fc)
+
+800
+0,3
+
+600
+400
+
+Şekil 1 ve Tablo 4 incelendiğinde, Fc üzerinde
+değişkenlerin önem sıralamasının ilerleme miktarı,
+kesici takım radyüsü ve kesme hızı şeklinde olduğu
+görülmektedir. Ayrıca, deneysel olarak ölçülen Fc’nin
+r ve f değerlerine göre değişimi Şekil 2’deki yüzey
+grafiğinde gösterilmiştir.
+Tablo 4. Fc’nin ortalama S/N oranları (Mean S/N ratio of
+Fc )
+S/N oranları
+Değişkenler
+
+Seviye 1
+
+Seviye 2
+
+Seviye 3
+
+Mak.-Min.
+
+r (mm)
+
+-56,67*
+
+-56,97
+
+-57,14
+
+0,47
+
+f (mm/dev)
+
+-53,1*
+
+-57,32
+
+-60,36
+
+7,26
+
+V (m/dak)
+
+-56,94
+
+-57,1
+
+-56,73*
+
+0,21
+
+*Değişkenlerin optimum seviyeleri
+
+0,2
+0,4
+
+0,8
+r (mm)
+
+1,2
+
+f (mm/dev)
+
+0,1
+
+Şekil 2. İlerleme miktarı ve radyüsün Fc üzerindeki
+etkisi (Effect of feed rate and nose radius on Fc)
+Değişkenlerin Fc üzerindeki etki seviyelerini
+belirlemek için yapılan varyans analizi (ANOVA)
+sonuçları Tablo 5’te verilmiştir. Burada, her bir
+değişkenin sonuçlar üzerindeki anlamlılık düzeyini
+gösteren P değerleri ile serbestlik derecesi (SD),
+kareler toplamı (KT), kareler ortalaması (KO), F
+değerleri ve yüzde katkı oranları (PCR)
+görülmektedir. ANOVA tablosuna göre, P<0,05 ise
+değişkenlerin Fc üzerindeki etkisinin istatistiksel
+olarak anlamlı olduğu kabul edilir [20]. ANOVA
+
+Tablo 3. L9 dikey dizinine göre deney sonuçları ve S/N oranları (S/N
+
+ratios and experimental results according to L9
+
+orthogonal array)
+
+Deney
+no
+1
+
+B
+
+C
+
+Fc (N)
+
+ηFc (dB)
+
+Ra (µm)
+
+ηRa (dB)
+
+0,4
+
+0,1
+
+120
+
+440,56
+
+-52,8801
+
+1,040
+
+-0,3407
+
+2
+
+0,4
+
+0,2
+
+150
+
+726,02
+
+-57,2190
+
+2,328
+
+-7,3397
+
+3
+
+0,4
+
+0,3
+
+180
+
+988,20
+
+-59,8969
+
+3,260
+
+-10,2644
+
+4
+5
+6
+7
+8
+9
+
+440
+
+A
+
+0,8
+0,8
+0,8
+1,2
+1,2
+1,2
+
+0,1
+0,2
+0,3
+0,1
+0,2
+0,3
+
+150
+180
+120
+180
+120
+150
+
+463,18
+
+-53,3150
+-57,1950
+-60,4081
+-53,1037
+-57,5319
+-60,7716
+
+0,930
+
+0,6303
+
+2,138
+2,860
+0,591
+1,560
+
+-6,6002
+-9,1273
+4,5683
+-3,8625
+
+2,312
+
+-7,2798
+
+724,02
+1048,10
+452,05
+752,65
+1092,90
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+AISI 316L Çeliğinin İşlenmesinde Takım Radyüsü ve Kesme Parametrelerinin Taguchi...
+
+tablosundan anlaşılabileceği gibi değişkenlerin her
+biri Fc açısından önemli bulunmuştur. Ancak,
+değişkenlerin Fc üzerindeki etki oranları (PCR)
+incelendiğinde en fazla öneme sahip değişken
+%99,31’lik
+oranla
+ilerleme
+miktarı
+olarak
+belirlenmiştir.
+Tablo 5. Fc’nin S/N oranı için ANOVA sonuçları
+(ANOVA results for S/N ratio of Fc)
+Kaynak
+
+SD
+
+KT
+
+KO
+
+r
+
+2
+
+0,3423
+
+0,1712
+
+f
+
+2
+
+79,7319
+
+39,8659
+
+V
+
+2
+
+0,2064
+
+0,1032
+
+Hata (e)
+
+2
+
+0,0027
+
+8
+
+P
+
+127,22
+
+0,008
+
+0,43
+
+29628,94 0,000
+
+99,31
+
+0,0013
+
+Toplam
+
+F
+
+80,2833
+
+76,7
+
+0,013
+
+%PCR
+
+0,26
+0,00
+
+belirlenmiştir. Bulunan değerler Eş.4’te yerine
+konulduğunda, Fc için güven aralığı (CI) değeri 0,223
+dB olarak hesaplanmıştır. Değişkenlerin optimum
+seviyelerine göre yapılan doğrulama deneyi sonucu
+ile Eş.2 ve Eş.3 yardımıyla hesaplanan değerlerin
+karşılaştırılması Tablo 6’da verilmiştir. Tablo 6’dan
+görülebileceği gibi, doğrulama deneyinden elde edilen
+sonucun S/N oranı ile Eş.2 ve Eş.3 kullanılarak
+hesaplanan değerlerin S/N oranı arasındaki fark
+(0,1818 dB), Fc için hesaplanan CI değeri (0,223
+dB)’nden küçüktür. Bu sonuç, Fc için gerçekleştirilen
+optimizasyonun uygunluğunu onaylamaktadır.
+3.2. Yüzey pürüzlülüğünün analizi (Analysis of surface
+roughness)
+
+100
+
+Taguchi yönteminde, en uygun sonuçları verecek
+değişken seviyelerinin belirlenmesinden sonraki
+aşama, optimizasyonun doğruluğunun test edildiği
+doğrulama deneylerinin yapılmasıdır. “En küçük en
+iyi” amaç fonksiyonu ile hesaplanan S/N oranlarına
+göre Fc için optimum değişken seviyeleri A1, B1 ve
+C3 olarak belirlenmiştir (Tablo 4). Bu seviyelere göre
+elde edilebilecek en düşük kesme kuvveti Eş.2 ve
+Eş.3 kullanılarak hesaplanmış olup, Tablo 6’da
+verilmiştir.
+
+ηG = η G + ( x O + η G ) + ( y O + η G ) + ( z O + η G )
+
+Fc hes = 10
+
+M. Günay
+
+−ηG / 20
+
+AISI 316L paslanmaz çelik malzemenin işlenmesinde
+oluşan Ra değerleri ile değişkenler arasındaki
+etkileşimler Şekil 3’teki ana etki grafiklerinde S/N
+oranlarına bağlı olarak gösterilmiştir. Bununla
+birlikte, Ra için optimum kesme şartlarının
+belirlenebilmesi amacıyla hesaplanan ortalama S/N
+oranları Tablo 7’de verilmiştir.
+Tablo 7. Ra’nın ortalama S/N oranları (Mean S/N ratio of
+R a)
+S/N oranları
+Değişkenler
+
+Seviye 1 Seviye 2 Seviye 3
+
+(3)
+
+r (mm)
+
+-5,982
+
+-5,032
+
+f (mm/dev)
+
+(2)
+
+1,619*
+
+V (m/dak)
+
+-4,443
+
+Mak.-Min.
+
+-2,191*
+
+3,791
+
+-5,934
+
+-8,890
+
+10,509
+
+-4,663
+
+-4,099*
+
+0,344
+
+*Değişkenlerin optimum seviyeleri
+
+Optimum değişken seviyeleri ile yapılan doğrulama
+deneyi sonuçları Eş.4’ten hesaplanan güven aralığı
+(CI) değeri dikkate alınarak değerlendirilmektedir
+[23].
+
+⎛ 1 1⎞
+CI = F0.05 (1,υ e )Ve ⎜
++ ⎟
+⎜n
+r⎟
+eff
+⎝
+⎠
+
+neff =
+
+N
+1 + υT
+
+(4)
+
+(5)
+
+Toplam deney sayısı ve değişkenlerin serbestlik
+dereceleri toplamı Eş.5’te yerine konulduğunda
+neff = 1,28 olarak hesaplanmış olup, deney tekrar
+sayısı bir olarak uygulanmıştır. F0.05 (1,υ e ) değeri,
+Tablo 5’teki hata serbestlik derecesi dikkate alınarak
+ilgili F-tablosundan tespit edilmiştir. Eş.4’deki hata
+varyansı ( Ve ), Tablo 5’teki veriler yardımıyla
+
+Şekil 3. Ra’nın S/N oranları için ana etki grafiği (Main
+effects plot for S/N ratio of Ra)
+
+AISI 316L paslanmaz çeliğin tornalanması sonucunda
+oluşan Ra değerleri üzerinde birincil derecede öneme
+sahip değişkenin ilerleme miktarı (f) olduğu
+anlaşılmaktadır (Şekil 3). Tablo 7’deki S/N
+
+Tablo 6. Doğrulama deneyi sonucu ile hesaplanan değerlerin karşılaştırılması (Comparison of calculated
+conﬁrmatory test result)
+Doğrulama deneyi sonuçları
+Hesaplanan değerler
+Farklar
+S/N (η ölç , dB)
+S/N (η hes , dB)
+η ölç -η hes
+Fcölç-Fches
+Fches (N)
+Fcölç (N)
+438,16
+
+-52,8326
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+429,08
+
+-52,6508
+
+18,08
+
+values with
+
+0,1818
+
+441
+
+M. Günay
+
+AISI 316L Çeliğinin İşlenmesinde Takım Radyüsü ve Kesme Parametrelerinin Taguchi...
+
+oranlarının maksimum ve minimum noktaları
+arasındaki fark, bu sonucu destekler niteliktedir. Şekil
+3 ve Tablo 7 incelendiğinde, Ra üzerinde
+değişkenlerin önem sıralamasının f, r ve V şeklinde
+olduğu görülmektedir.
+Şekil 4’te, Ra’nın kesici takım radyüsü ve ilerleme
+miktarına göre değişimi yüzey grafiği olarak
+verilmiştir.
+Grafik
+incelendiğinde,
+ilerleme
+miktarındaki artışla beraber Ra değerlerinin arttığı
+görülmektedir. Bu sonuç, S/N oranlarına göre yapılan
+değerlendirmeyi
+desteklemekte
+olup,
+Ra’nın
+ilerlemenin karesiyle oransal olarak artacağına işaret
+eden teorik formül ( Ra = 0,321 f 2 r ) ile paralellik
+Bununla birlikte, paslanmaz çeliğin işlenmesinde
+oluşan kalıcı gerilmelerin Ra üzerinde önemli bir
+etkiye sahip olduğu belirtilmiştir [6]. İlerlemenin
+artmasıyla birlikte kesme bölgesindeki sıcaklığın
+arttığı [9] ve oluşan ısının paslanmaz çeliğin düşük
+ısıl iletkenliği nedeniyle takım-talaş ve takımişparçası arayüzeyinde yoğunlaştığı bilinmektedir [4].
+Bu bağlamda, ilerlemenin artmasıyla işlenen yüzeyde
+kalıcı gerilmeler artacağından, Ra değerlerinde artışın
+olması beklenen bir sonuçtur. Diğer taraftan, takım
+radyüsü (r)’nün artmasıyla Ra’nın azalma eğiliminde
+olduğu görülmektedir. Bu sonuç, r’nin artmasıyla
+birlikte azalan kesilmemiş talaş kalınlığına bağlı talaş
+oluşumu ile açıklanabilir. Kesici takım radyüsündeki
+artışa bağlı olarak, kesici kenar boyunca kesilmemiş
+talaş kalınlığının azalacağı vurgulanmıştır [24]. Talaş
+kalınlığının azalmasıyla kesme gücünde ve
+dolayısıyla kesici takım titreşiminde azalma meydana
+gelmektedir [25]. Buradan, r’deki artışa bağlı olarak
+Ra değerlerinin azaldığını söylemek mümkündür.
+
+3,0
+2,5
+2,0
+1,5
+
+0,3
+
+1,0
+0,5
+
+0,2
+0,4
+
+Tablo 8. Ra’nın S/N oranı için ANOVA sonuçları
+(ANOVA results for S/N ratio of Ra)
+
+0,8
+r (mm)
+
+1,2
+
+f (mm/dev)
+
+0,1
+
+Şekil 4. İlerleme miktarı ve radyüsün Ra üzerindeki
+etkisi (Effect of feed rate and nose radius on Ra)
+
+SD
+
+KT
+
+KO
+
+F
+
+P
+
+%PCR
+
+r
+
+2
+
+23,338
+
+11,6692
+
+24,8
+
+0,039
+
+11,61
+
+f
+
+2
+
+176,25
+
+88,1249
+
+187,32
+
+0,005
+
+87,68
+
+V
+
+göstermektedir.
+
+Ra (µm)
+
+Ra için uygulanan varyans analizi (ANOVA)
+sonuçları Tablo 8’de verilmiştir. ANOVA sonuçları
+incelendiğinde, Ra üzerinde kesme hızının etkisinin
+anlamlı
+olmadığı
+görülmektedir.
+Tablo
+8
+incelendiğinde, Ra için en fazla öneme sahip değişken
+%87,68 etki oranı ile ilerleme miktarı olurken, kesici
+takım radyüsünün etki oranı %11,61 olarak
+bulunmuştur.
+
+Kaynak
+
+2
+
+0,485
+
+0,2427
+
+0,52
+
+0,660
+
+0,24
+
+Hata (e)
+
+2
+
+0,941
+
+0,4705
+
+Toplam
+
+8
+
+201,014
+
+0,47
+100
+
+Ra için optimizasyonun geçerliliğinin test edildiği
+doğrulama deneyleri, Fc’de uygulanan yöntemler esas
+alınarak yapılmıştır. Ra için değişkenlerin optimum
+seviyeleri, Tablo 7 dikkate alınarak A3, B1 ve C3
+olarak belirlenmiştir. Bu seviyelere göre oluşabilecek
+en düşük yüzey pürüzlülük değeri Eş.2 ve Eş.3
+yardımıyla hesaplanmıştır. Optimum değişken
+seviyeleri (A3B1C3) ile yapılan doğrulama deneyi
+sonuçları, Eş. 4’ten hesaplanan güven aralığı (CI)
+değeri dikkate alınarak değerlendirilmiştir. Ra için CI
+değerinin
+hesaplanmasında,
+Fc’de
+kullanılan
+hesaplama yöntemi uygulanmıştır. Tablo 8’deki
+veriler ile hesaplanan Ve değeri hariç, Eş.4’teki diğer
+sembollerin sayı değerleri aynıdır. Sonuç olarak, Ra
+için CI değeri 4,17 dB olarak hesaplanmıştır.
+Optimum seviyelerine göre yapılan doğrulama deneyi
+sonucu ile Eş.2 ve Eş.3 yardımıyla hesaplanan
+değerlerin karşılaştırılması Tablo 9’da verilmiştir.
+Doğrulama deneyinden elde edilen sonucun S/N oranı
+ile Eş.2 ve Eş.3 kullanılarak hesaplanan değerlerin
+S/N oranı arasındaki fark (0,377 dB), Ra için
+hesaplanan CI değerinden (4,17 dB) oldukça
+küçüktür. Bu sonuç, Ra için Taguchi optimizasyon
+yöntemine dayalı olarak tespit edilen optimum
+değişken seviyelerini onaylamaktadır. AISI 316L
+östenitik paslanmaz çelik malzemenin orta kesme
+şartlarında tornalanmasında oluşan ve en önemli
+işlenebilirlik kriterlerinden olan Fc ve Ra için yapılan
+optimizasyon çalışmaları sonucunda, en önemli
+kesme parametresinin ilerleme miktarı (f) olduğunu
+söylemek mümkündür.
+
+Tablo 9. Doğrulama deneyi sonucu ile hesaplanan değerlerin karşılaştırılması (Comparison of calculated
+conﬁrmatory test result)
+Doğrulama deneyi sonuçları
+Hesaplanan değerler
+Farklar
+S/N (η ölç , dB)
+S/N (η hes , dB)
+η ölç -η hes
+Raölç-Rahes
+Rahes (N)
+Raölç (N)
+0,595
+
+442
+
+4,5096
+
+0,621
+
+4,1326
+
+0,03
+
+values with
+
+0,377
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+AISI 316L Çeliğinin İşlenmesinde Takım Radyüsü ve Kesme Parametrelerinin Taguchi...
+
+4. SONUÇLAR (CONCLUSIONS)
+• AISI 316L östenitik paslanmaz çeliğin
+tornalanmasında oluşan Fc ve Ra için yapılan
+optimizasyonda, Taguchi deney tasarımına dayalı
+optimizasyonun işleme sürecine önemli bir iyileştirme
+sağladığı belirlenmiştir.
+• ANOVA sonuçlarına göre, Fc ve Ra üzerinde en
+fazla öneme sahip değişken ilerleme miktarı (f)
+olurken, ikinci sırayı kesici takım radyüsü (r) almıştır.
+ANOVA sonucuna göre, f’nin etki oranı Fc için
+%99,31, Ra için %87,68 olarak belirlenmiştir.
+• Kesici takım radyüsündeki artışla birlikte, Fc
+değerlerinde önemli bir artış olmazken, Ra
+değerlerinde kayda değer bir azalma meydana
+gelmiştir.
+• Fc ve Ra için değişkenlerin optimum seviyelerinin
+aynı olmaması, özellikle sünek malzemelerin
+işlenmesinde, işlenebilirlik kriterine göre değişken
+seviyelerinin
+belirlenmesi
+gereğini
+ortaya
+koymaktadır.
+SEMBOLLER (NOMENCLATURES)
+
+S/N
+Y
+n
+CI
+
+Sinyal/Gürültü oranı (dB)
+Gözlemlenen değer
+Y değerlerinin sayısı
+Güven aralığı değeri
+
+υe
+
+Hata serbestlik derecesi
+
+Ve
+
+Hata varyansı
+
+neff
+
+Deney tekrar sayısı
+
+N
+
+ηG
+
+Toplam deney sayısı
+Değişkenlerin serbestlik derecelerinin toplamı
+Doğrulama deneyi sayısı
+Optimum seviyede hesaplanan S/N oranı (dB)
+
+ηG
+
+Değişkenlerin S/N oranları ortalaması (dB)
+
+xo
+yo
+
+x’in optimum seviyesi S/N oranı (dB)
+y’nin optimum seviyesi S/N oranı (dB)
+
+zo
+
+z’nin optimum seviyesi S/N oranı (dB)
+
+υT
+r
+
+KAYNAKLAR (REFERENCES)
+1. Kosa,T., Ronald, P., “Machining of stainless
+steels”, Handbook: Machining, Vol. 16, 9th
+Edition, Editor: J. R. Davis, Metals Park, Ohio,
+1989.
+2. M’Saoubi, R., Outeiro, J.C., Changeux, B.,
+Lebrun, J.L., Dias, A.M., “Residual stress analysis
+in orthogonal machining of standard and
+resulfurized AISI 316L steels”, Journal of
+Materials Processing Technology, 96, 225-233,
+1999.
+3. Darwin, J.D., Lal, D.M., Nagarajan, G.,
+“Optimization of cryogenic treatment to maximize
+the wear resistance of 18%Cr martensitic stainless
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+M. Günay
+
+steel”, Journal of Materials Processing
+Technology, 195, 241-247, 2008.
+4. Outeiro, J.C., Umbrello, D., M’Saoubi, R.,
+“Experimental and numerical modelling of the
+residual stresses induced in orthogonal cutting of
+AISI 316L steel”, International Journal of
+Machine Tools and Manufacture, 46, 1786–
+1794, 2006.
+5. Chang, C.S., Tsai, G.C., “A force model of turning
+stainless steel with worn tools having nose
+radius”, Journal of Materials Processing
+Technology, 142, 112–130, 2003.
+6. Maranhao, C., Davim, J.P., “Finite element
+modelling of machining of AISI 316 steel:
+Numerical
+simulation
+and
+experimental
+validation”, Simulation Modelling Practice and
+Theory, 18, 139–156, 2010.
+7. Nasr M.N.A., Ng, E.G., Elbestawia, M.A.,
+Modelling the effects of tool-edge radius on
+residual stresses when orthogonal cutting AISI
+316L, International Journal of Machine Tools
+and Manufacture, 47, 401–411, 2007.
+8. Kamely, M.A., Noordin, M.Y., “The impact of
+cutting tool materials on cutting force”, World
+Academy of Science Engineering and
+Technology, 75, 904-907, 2011.
+9. Korkut, I., Boy, M., Karacan, I., Seker, U.,
+“Investigation of Chip-back temperature during
+machining depending on cutting parameters”,
+Materials and Design, 28, 2329–2335, 2007.
+10. Dogra, M., Sharma, V.S., Dureja, J., “Effect of
+tool geometry variation on finish turning–A
+Review”, Journal of Engineering Science and
+Technology Review, 4 (1), 1-13, 2011.
+11. Ciftci, İ., “Machining of austenitic stainless steels
+using CVD multi-layer coated cemented carbide
+tools”, Tribology International, 39, 565–569,
+2006.
+12. Tekaslan, Ö., Gerger, N., Günay, M., Şeker, U.,
+“AISI 304 östenitik paslanmaz çeliklerin titanyum
+karbür kaplamalı kesici takım ile tornalama
+işleminde kesme kuvvetlerinin incelenmesi”,
+Pamukkale Üniversitesi Mühendislik Bilimleri
+Dergisi, 13 (2), 129-286, 2007.
+13. Özer, A., Bahçeci, E., “AISI 410 martensitik
+paslanmaz çeliklerin kesici takım ve kaplamasına
+bağlı işlenebilirliği”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 24 (4), 693-698, 2009.
+14. Tekiner, Z., Yeşilyurt, S., Investigation of the
+cutting parameters depending on process sound
+during turning of AISI 304 austenitic stainless
+steel, Materials and Design, 25, 507–513, 2004.
+15. Li, S., Liu, Y., Zhu, R., Li, H., Ding, W., “Study
+on turning parameter optimization of austenitic
+stainless steel”, Applied Mechanics and
+Materials, 34-35, 1829-1833, 2010.
+16. Selvaraj, D.P., Chandramohan, P., “Optimization
+of surface roughness of AISI 304 austenitic
+stainless steel in dry turning operation using
+
+443
+
+M. Günay
+
+AISI 316L Çeliğinin İşlenmesinde Takım Radyüsü ve Kesme Parametrelerinin Taguchi...
+
+Taguchi design method”, Journal of Engineering
+Science and Technology, 5 (3), 293-301, 2010.
+17. Taguchi, G., Chowdhury, S., Wu, Y., Taguchi's
+Quality Engineering Handbook, John Wiley &
+Sons, Inc., New Jersey, USA, 2005.
+18. Zhang, J.Z., Chen, J.C., Kirby, E.D., “Surface
+roughness optimization in an end-milling
+operation using the Taguchi design method,
+Journal of Materials Processing Technology,
+184, 233–239, 2007.
+19. Gologlu, C., Sakarya, N., “The effects of cutter
+path strategies on surface roughness of pocket
+milling of 1.2738 steel based on Taguchi method”,
+Journal of Materials Processing Technology,
+206, 7–15, 2008.
+20. Günay, M., Yücel, E., “Application of Taguchi
+method for determining optimum surface
+roughness in turning of high-alloy white cast iron,
+Measurement, 46 (2), 913–919, 2013.
+21. ISO
+4287:1997,
+Geometrical
+Product
+Specifications (GPS)-Surface texture: profile
+
+444
+
+method-terms, definitions and surface texture
+parameters,
+international
+organisation
+for
+standardisation, Geneva, 1997.
+22. Chen, W., “Cutting forces and surface finish when
+machining medium hardness steel using CBN
+tools”, International Journal of Machine Tools
+and Manufacture, 40, 455–466, 2000.
+23. Ross, P.J., Taguchi Techniques for Quality
+Engineering, McGraw Hill, New York, 1996.
+24. Abdullah, M.F., Sulong, A.B., Chua, I. H., Haron,
+C.H.C., Ghani, J. A., Effects of insert nose radius
+and processing cutting parameter on the surface
+roughness of AISI 316 stainless steel, Key
+Engineering Materials, 447-448, 51-54, 2010.
+25. Nath, C., Rahman, M., Neo, K.S., “A study on the
+effect of tool nose radius in ultrasonic elliptical
+vibration cutting of tungsten carbide”, Journal of
+Materials Processing Technology, 209, 5830–
+5836, 2009.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+

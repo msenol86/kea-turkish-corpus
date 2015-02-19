@@ -1,0 +1,564 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 2, 253-259, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 2, 253-259, 2014
+
+ÇELİĞİN KOROZYON POTANSİYELİNE ENZİMATİK
+AKTİVİTENİN ETKİSİ
+Muzaffer Balbaşı1 , Ayşe Tosun, Mehmet Tamirci, Mübeccel Ergun
+1
+
+Gazi Üniversitesi, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü, 06570, Maltepe,ANKARA
+mbalbasi@gazi.edu.tr, mubeccel@gazi.edu.tr
+(Geliş/Received: 19.09.2013; Kabul/Accepted: 10.04.2014)
+ÖZET
+
+Serbest korozyon potansiyeli, metallerin korozyon risklerinin değerlendirilmesinde kullanılan kriterlerden
+biridir. Metalin serbest korozyon potansiyelindeki artış ile malzeme yüzeyinde oluşan biyolojik film yapısı
+arasında bir korelasyon bulunmaktadır. Bu korelasyon metalin serbest korozyon potansiyelinde meydana gelen
+artışta mikroorganizmaların önemli bir rol oynadığı varsayımına dayanmaktadır. Deneysel çalışmalarda,
+ERDEMİR’den temin edilen ve petrol borusu çeliği olarak kullanılan 9030 tipi çelik kullanılmıştır. Enzimatik
+aktivite ile serbest korozyon potansiyeli arasındaki ilişkiyi belirlemek üzere yapılan bu çalışmada; deneyler
+yapay deniz suyu ortamında gerçekleştirilmiş, reaktif olarak hidrojen peroksit, glukoz, glukonik asit ile glukoz
+oksidaz ve katalaz enzimleri kullanılmıştır. Bu araştırma, çeliğin korozyonundaki artışın, mikroorganizmanın
+enzimatik aktivitesi sonucu üretilen hidrojen peroksit ve glukonik asitin müşterek etkisinin bir sonucu olarak
+meydana geldiğini göstermiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Mikroorganizmalar, ortamın oksijen derişimini veya
+pH değerini ya da her ikisini birden azaltarak ortam
+özelliklerinde bölgesel değişikliklere sebep olurlar.
+Mikroorganizmaların doğal ortamlarda bulunan
+malzemelerin yüzeyini önemli ölçüde etkilediği, bu
+etkilerin malzeme özelliklerinde kötüleşmeye yol
+açtığı bilinmektedir. Örneğin, bazı paslanmaz çelikler,
+yapay deniz suyunda veya filtre edilmiş doğal deniz
+suyunda pasifleştikleri halde, filtre edilmemiş doğal
+
+deniz suyunda korozyona uğrayabilmektedir [1].
+Serbest korozyon potansiyeli, çeliğin korozyon
+riskinin değerlendirilmesinde kullanılan kriterlerden
+biridir. Paslanmaz çelik, steril deniz suyuna maruz
+bırakıldığı zaman soylaşma meydana geldiği halde,
+doğal deniz suyuna maruz bırakıldığında yüzeyinde
+bölgesel korozyon meydana gelmekte, açık devre
+potansiyelleri soy metallere yaklaşmaktadır. Açık
+devre potansiyelinin soy metaller yönüne kaymasının
+ana sebebi, doğal mikroorganizmaların yol açtığı
+bölgesel korozyondur [2-3].
+
+M. Balbaşı ve ark.
+
+Çeliğin Korozyon Potansiyeline Enzimatik Aktivitenin Etkisi
+
+Denizde yaşayan mikroorganizmalar, doğal deniz
+suyuna maruz kalan malzeme yüzeyinde biyofilm
+meydana getirirler. Açık devre potansiyelini soy
+metaller yönüne kaydıran bu doğal biyofilmlerin,
+paslanmaz çeliğin mikrobiyal korozyonunda önemli
+bir rol oynadığı düşünülmektedir [4]. Paslanmaz
+çeliğin serbest korozyon potansiyeli mekanizmasının
+aydınlatılmasına yönelik araştırmalar, doğal deniz
+suyu ortamında çok sayıda parametrenin etkili olması
+sebebiyle,
+oldukça
+karmaşık
+yapıdadır.
+Mekanizmanın aydınlatılmasına yönelik çeşitli
+hipotezler ileri sürülmüş, ancak bunlar, metalik
+malzemelerin doğal deniz suyu ortamındaki davranışı
+üzerine mikroorganizmaların etkisini ayrıntılı olarak
+açıklamada yetersiz kalmıştır. Bu hipotezlerden bir
+tanesi, mikroorganizmaların biyofilmde hidrojen
+peroksit (H2O2) açığa çıkarması esasına dayanır [5-6].
+Katalaz ve peroksidaz, hidrojen peroksidin
+parçalanmasında katalitik etki gösteren tipik
+enzimlerdendir. Katalaz enzimi, hidrojen peroksidi
+uygun şartlar altında, H2O ve O2’e indirgeyerek
+yükseltgeme özelliğini kaybetmesine yol açar.
+Peroksidaz enzimi ise hidrojen peroksidi H2O’ya
+indirgeyerek oksijenin uzaklaşmasını sağlamaktadır.
+Oksijen, peroksidaz eşliğinde, organik bileşiklerin
+indirgenmesine yol açan elektron verici olarak
+davranır. Daha sonra peroksidaz, H2O2 ile tekrar
+reaksiyona girer. Böylelikle peroksidaz ve katalaz
+enzimlerinin her ikisi de H2O2 ’in suya dönüşümünde
+katalizör rolü oynar. Bu iki enzimden herhangi birinin
+ortama gerekli miktarda ilave edilmesiyle ve
+sıcaklığın enzimatik aktivite için optimum değere
+ayarlanmasıyla, biyofilm içerisinde H2O2 birikimi
+önlenebilir ve böylece katodik tepkimenin kontrol
+altında tutulması sağlanmış olur. Paslanmaz çeliğin
+enzim içeren ve enzim içermeyen sistemlerdeki
+elektrokimyasal davranışının mukayese edilmesi,
+H2O2’in deniz suyuna maruz bırakılan paslanmaz
+çeliklerin açık devre potansiyeli üzerine etkisinin
+kantitatif olarak değerlendirilmesine imkan sağlar [79].
+Bu çalışmada, yapay deniz suyunda çeliğin serbest
+korozyon potansiyeli üzerine, enzimatik tepkimeler
+sonucunda açığa çıkan hidrojen peroksit ve glukonik
+asidin etkisi araştırılmıştır
+2. MATERYAL VE
+
+METOD
+
+(MATERIALS AND
+
+METHOD)
+
+Bu araştırmada, ERDEMİR Ereğli Demir Çelik
+İşletmeleri A. Ş. ’den temin edilen ve petrol borusu
+çeliği olarak kullanılan 9030 tip (API 5L-2000) çelik
+kullanılmıştır. Deneysel çalışmalarda kullanılan
+çeliğin özellikleri Tablo 1’de verilmiştir. Çalışma
+elektrodu hazırlamak amacıyla numuneler 10 mm 
+10 mm boyutlarında kesilmiş, numunenin arka
+yüzeyine iletkenliğin sağlanması amacıyla 30 cm
+uzunluğunda 2 mm kalınlığında bir bakır tel monte
+edildikten sonra polyestere gömülmüştür. Bileşimi
+
+254
+
+Tablo 2’de verilen yapay deniz suyu hazırlanarak
+deney ortamı olarak kullanılmıştır. Deneyler 30C
+sabit sıcaklıkta gerçekleştirilmiştir. Serbest korozyon
+potansiyeli ölçümlerinde referans elektrot olarak
+doygun kalomel elektrot (DKE) kullanılmıştır.
+Tablo 1.Deneysel çalışmalarda kullanılan çeliğin
+özellikler (Steel properties used in the experimental studies)
+Kimyasal Bileşim
+(%, en çok)
+
+Fiziksel Özellikler (en az)
+
+C
+
+Mn
+
+P
+
+S
+
+Akma
+Dayanımı
+N/mm2
+(kg/mm2)
+
+0,18
+
+0,80
+
+0,02
+
+0,01
+
+207 (21,1)
+
+Çekme
+Dayanımı
+N/mm2
+(kg/mm2)
+
+Uzama
+(%)
+
+331 (33,8)
+
+4
+
+Deneylerde hidrojen peroksit (Riedel de Häen, kütlece
+% 35’lik), glukoz (Aldrich, D-Glukoz), glukonik asit
+(Aldrich, D-glukonik asit, kütlece % 45-50) ile glukoz
+oksidaz (Sigma G 6125) ve katalaz (Sigma C 3515)
+enzimleri kullanılmıştır.
+Tablo 2. Deneysel çalışmalarda kullanılan yapay
+deniz suyunun bileşimi (Artificial sea water composition used
+in the experimental studies)
+
+Bileşen
+
+Miktar (g/1000 ml Damıtık Su)
+
+NaCl
+KCl
+CaCl2.2H2O
+MgCl2.6H2O
+NaHCO3
+MgSO4.7H2O
+
+3.
+
+DENEYSEL
+
+28,13
+0,77
+1,60
+4,80
+0,11
+3,50
+SONUÇLAR
+
+(EXPERIMENTAL
+
+RESULTS)
+
+3.1 Glukoz ve glukoz oksidaz ilavesinin serbest
+korozyon potansiyeline etkisi (The effect of Glucose and
+Glucose oxidase addition on the free corrosion potential)
+
+İlk deney 2,25 g glukoz içeren 300 ml yapay deniz
+suyuna, 720 mg glukoz oksidaz ilave edilerek
+gerçekleştirilmiştir. Deney esnasında çeliğin serbest
+korozyon potansiyeli ve ortamın pH değerindeki
+değişim Şekil 1’de verilmiştir. Glukoz oksidaz
+ilavesinden önce çeliğin başlangıç serbest korozyon
+potansiyeli –0,580 V/DKE olarak ölçülmüştür.
+Glukoz oksidaz ilavesinden (1) saat sonra potansiyel
+-0,571 V/DKE değerine, 10 saat sonra -0,483 V/DKE
+değerine yükselmiş ve yaklaşık 12 saat sonra –0,477
+V/DKE değerine ulaşarak bu değerde sabit kalmıştır.
+Benzer şekilde deney esnasında ortamın pH
+değerindeki değişme de gözlenmiş, başlangıç pH
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+.Çeliğin Korozyon Potansiyeline Enzimatik Aktivitenin Etkisi
+
+M. Balbaşı ve ark
+
+Şekil 1. Yapay deniz suyuna glukoz ve glukoz oksidaz ilavesinin çeliğin serbest korozyon potansiyeline ve
+ortamın pH değerine etkisi (The effect of glucose and glucose oxidase addition into the artificial sea water on the free corrosion
+potential and pH values)
+
+Şekil 2. Yapay deniz suyuna glukonik asit ilavesinin çeliğin serbest korozyon potansiyeli ve ortam pH
+değerine etkisi (The effect of gluconic acid addition into the artificial sea water on the free corrosion potential and pH value)
+değeri 8,01 iken, bu değer 1 saat sonra 7,05’e, 10 saat
+sonra
+4,48’e
+düşmüş,
+serbest
+korozyon
+potansiyelindeki değişime benzer şekilde yaklaşık 4,2
+değerinde sabit kalmıştır. Deneyin başlangıcından
+sonuna kadar geçen süre içerisinde pH değerinde
+yaklaşık 4 birim azalma gözlenmiştir.
+3.2 Glukonik asit ilavesinin serbest korozyon
+potansiyeline etkisi (The effect of Gluconic acid addition
+on the free corrosion potential)
+
+Glukonik asitin serbest korozyon potansiyeli üzerine
+etkisi, yapay deniz suyuna glukonik asit (6 mmol/l)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+ilave edilerek araştırılmıştır. Glukonik asit ilave edilir
+edilmez potansiyel değerinde –0,575 V/DKE
+değerinden –0,623 V/DKE değerine keskin bir azalma
+gözlenmiş, yaklaşık 5 saat sonra 5 mV mertebesinde
+kararlı hale gelmiştir (Şekil 2).
+Yapay deniz suyuna glukonik asit ilavesinden hemen
+sonra serbest korozyon potansiyelindeki azalmaya
+paralel olarak pH değeri de 7,70 değerinden ani olarak
+3,40 değerine düşmüş, 1 saat içerisinde yaklaşık 3,50
+değerine ulaşmış ve deney sonuna kadar hemen
+hemen bu değerde kararlı olarak sabit kalmıştır.
+
+255
+
+M. Balbaşı ve ark.
+
+3.3 Glukoz
+ilavesinin
+serbest
+korozyon
+potansiyeline etkisi (The effect of Glucose addition on the
+free corrosion potential)
+
+Çeliğin serbest korozyon potansiyeline glukozun
+nötral etkisini doğrulamak amacıyla, yapay deniz
+suyuna glukoz (0,01 mol/l) ilave edilmiş ve
+beklendiği gibi, deney esnasında çeliğin serbest
+korozyon potansiyeli yaklaşık -0,586 V/DKE
+değerinde, ortamın pH değeri ise yaklaşık 8,0
+değerinde sabit kalmıştır.
+3.4 Hidrojen peroksit ilavesinin serbest korozyon
+potansiyeline etkisi (The effect of Hydogen Peroxide
+addition on the free corrosion potential)
+
+Yapay deniz suyuna, farklı derişimlerde hidrojen
+peroksit ilave edilerek çeliğin serbest korozyon
+potansiyeli üzerine etkisi araştırılmıştır. Elde edilen
+deney sonuçları Şekil 3’te verilmiştir. Çeliğin serbest
+korozyon potansiyelinde, en yüksek iki deney
+derişiminde artış gözlenmiştir. En yüksek deney
+derişimindeki maksimum artışa 1 saat sonra ulaşılmış,
+daha sonra deney boyunca zamanla potansiyel
+değerinde azalma gözlenmesine rağmen yaklaşık –
+0,320 V/DKE civarında kararlı bir seyir gözlenmiştir.
+Diğer
+deney
+derişimlerine
+ilişkin
+değişim
+incelendiğinde ise serbest korozyon potansiyelinde
+deney başlangıcında artış gözlenmesine rağmen
+
+Çeliğin Korozyon Potansiyeline Enzimatik Aktivitenin Etkisi
+
+deneyin tamamı dikkate alındığında başlangıç
+potansiyele göre önemli bir değişimin gözlenmediği
+görülmektedir. Bu gözleme göre ancak ortamda
+yeterli miktarda hidrojen peroksit bulunması halinde
+serbest korozyon potansiyelinde değişme olduğu
+söylenebilir.
+3.5 Hidrojen peroksit ve glukonik asitin birlikte
+ilavesinin serbest korozyon potansiyeline etkisi
+(The effect of simultaneous addition of hydrogen peroxide and
+gluconic acid on the free corrosion potential)
+
+Yapay deniz suyuna, önce hidrojen peroksit (0,67
+mmol/l), daha sonra glukonik asit (6 mmol/l) ilave
+edilerek potansiyel değişimi incelenmiştir. Bu
+deneydeki serbest korozyon potansiyeli değişimi ve
+ortamın pH değerindeki değişim Şekil 4’te verilmiştir.
+Hidrojen peroksit ilavesinden sonra çeliğin serbest
+korozyon potansiyeli bir anda –0,580 V/DKE
+değerinden –0,374 V/DKE değerine yükselmiş ve
+yaklaşık 8 saatlik bir deney periyodu boyunca tekrar –
+0,457 V/DKE değerine düşmüştür. Bu esnada ortamın
+pH değeri ise yaklaşık 8 seviyesinde kararlı kalmıştır.
+Daha sonra ortama glukonik asit ilave edilmiş, pH
+değerinin ani olarak 2,7 seviyesine düştüğü ve bu
+seviyede kararlı bir seyir izlediği, serbest korozyon
+potansiyelinin ise –0,410 V/DKE değerine
+yükseldikten sonra –0,415 V/DKE seviyesinde bir
+dalgalanma gösterdiği gözlenmiştir.
+
+Şekil 3. Yapay deniz suyuna farklı derişimlerde hidrojen peroksit ilavesinin çeliğin serbest korozyon
+potansiyeline etkisi (The effect of the addition at the different concentrations of hydrogen peroxide into the sea water on the free
+corrosion potential)
+
+256
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+.Çeliğin Korozyon Potansiyeline Enzimatik Aktivitenin Etkisi
+
+M. Balbaşı ve ark
+
+Şekil 4.Yapay deniz suyuna hidrojen peroksit ve glukonik asit ilavesinin çeliğin serbest korozyon
+potansiyeline ve ortamın pH değerine etkisi (The effect of hydrogen peroxide and gluconic acid addition into the artificial
+sea water on the free corrosion potential of steel and pH value of medium)
+
+Şekil 5.Yapay deniz suyuna hidrojen peroksit ve farklı zamanlarda glukonik asit ilavesinin çeliğin serbest
+korozyon potansiyeline etkisi. (The effect of hydrogen peroxide and gluconic acid addition at the different times into the
+artificial sea water on the free corrosion potential of steel)
+
+3.6 Katalaz enzimi ilavesinin serbest korozyon
+potansiyeline etkisi (The effect of catalase enzyme addition
+on the free corrosion potential)
+
+Yapay deniz suyu ortamına hidrojen peroksit (0,8
+mmol/l) ve katalaz (2,4 mg/l) birlikte ilave edilerek,
+her ikisinin müşterek etkisi incelenmiştir (Şekil 5).
+Katalaz enziminin hidrojen peroksidin parçalanmasını
+aşağıda verilen tepkimeye uygun olarak katalizlediği
+bilinmektedir.
+Katalaz
+2H 2 O2  2H 2 O  O2
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Ortama hidrojen peroksit ilave edildiğinde potansiyel
+–0,580 V/DKE değerinden –0,459 V/DKE değerine
+yükselirken ortama 1 saat sonra katalaz ilave
+edildiğinde potansiyel -0,590 V/DKE değerine tekrar
+düşmüş ve deney periyodu boyunca –0,570 V/DKE
+ile
+–0,590
+V/DKE
+aralığında
+dalgalanma
+gözlenmiştir.
+Ortama hidrojen peroksit ilave edildikten 5 saat sonra
+katalaz ilave edildiğinde, hidrojen peroksit ilavesiyle
+korozyon potansiyelinde yükselme gözlenmişken,
+katalaz ilavesi ile potansiyel ani olarak –0,650
+
+257
+
+M. Balbaşı ve ark.
+
+V/DKE değerine düşmüş ve deney periyodu boyunca
+–0,660 V/DKE ile –0,680 V/DKE aralığında
+dalgalanma gözlenmiştir.
+Ortama hidrojen peroksit ilave edildikten 40 saat
+sonra katalaz ilave edildiğinde ise hidrojen peroksit
+ilavesiyle serbest korozyon potansiyelinde önce
+yükselme, zamanla –0,720 V/DKE seviyelerine kadar
+düşme gözlenmiş, katalaz ilavesi ile potansiyel daha
+da düşerek
+–0,745 V/DKE seviyelerinde bir
+dalgalanma belirlenmiştir.
+4. TARTIŞMA (DISCUSSION)
+Yapay deniz suyuna glukoz ve glukoz oksidaz ilave
+edilerek yapılan deneylerle, çeliğin doğal deniz suyu
+ortamındaki davranışının incelenmesi amaçlanmıştır.
+Glukoz oksidaz aktivitesi moleküler oksijeni
+indirgeyerek hidrojen peroksit ve asit açığa çıkarır.
+Bu iki bileşenin (hidrojen peroksit ve asit), çeliğin
+özelliklerine etkisine literatürde geniş olarak
+değinilmiştir [10-12]. Yapay deniz suyuna glukoz ve
+glukoz oksidaz ilave edildiğinde serbest korozyon
+potansiyelinde görülen artış, doğal deniz suyu
+ortamında elde edilen sonuçlarla karşılaştırılabilir
+sonuçlar vermektedir. Belirli miktarlarda hidrojen
+peroksit ilave edilerek gerçekleştirilen diğer
+deneylerde serbest korozyon potansiyelinde artış
+gözlenmiş, ancak bu artış doğal deniz suyunda
+kaydedilen artıştan daha az olmuştur. Hidrojen
+peroksit içeren yapay deniz suyuna katalaz ilavesi
+potansiyel artışını durdurmuş veya potansiyelin
+azalmasına sebep olmuştur.
+Bu araştırma, deniz suyunda çeliğin serbest korozyon
+potansiyelinin, enzimatik tepkimeler sonucunda açığa
+çıkan kimyasal maddelerin (hidrojen peroksit ve
+glukonik asit) müşterek etkisi ile nasıl değiştiğini
+açıkça göstermektedir. Araştırmadan elde edilen
+sonuçlar, yapay deniz suyuna hidrojen peroksit ilave
+edildiği ve asit ilavesiyle pH değeri düşürüldüğü
+zaman potansiyel değerinde meydana gelen artış, iki
+bileşen ayrı ayrı ilave edildiğinde meydana gelen
+artıştan önemli ölçüde büyük olduğunu gösteren
+sonuçlarla uyum halindedir [13]. Bu çalışmada, farklı
+olarak hidrojen peroksit ve asit üreten mikrobiyal
+enzim (glukoz oksidaz) direkt olarak kullanılmıştır.
+Mikroorganizmalar, “oksidaz tipi” enzimatik aktivite
+(çözünmüş oksijenin indirgenmesi ve organik
+maddelerin yükseltgenmesi) yardımıyla ortamda
+hidrojen peroksit açığa çıkarır ve oluşan hidronyum
+iyonu ortamın pH değerini düşürür. Bu durum,
+riboflavin vb. bakteriyel koenzimlerin moleküler
+oksijen yardımıyla doğrudan yükseltgenmesi ve daha
+sonra hidrojen peroksit oluşması olarak bilinmektedir.
+Sonuç olarak, organik kaynakların bakteriler
+tarafından kullanılması, ortamın asidik hale gelmesine
+(en azından bölgesel olarak) sebep olan hidronyum
+iyonlarını üretir [10,11].
+
+258
+
+Çeliğin Korozyon Potansiyeline Enzimatik Aktivitenin Etkisi
+
+Metal yüzeyinde birlikte cereyan eden bu iki olay,
+metalin korozyon potansiyelinin artmasına yol açar.
+Ortamda bulunan katalaz ve peroksidaz gibi diğer
+enzimler olaya karışabilir ve hidrojen peroksit
+derişimini azaltabilir. Katalaz, aerobik organizmaların
+pek çoğunda bulunmaktadır. Bu enzim bakteriler
+tarafından, oldukça toksik bir molekül olan hidrojen
+perokside karşı kendilerini korumak amacıyla
+kullanılır. Olaya makro açıdan bakıldığında, hidrojen
+peroksit oluşumu ile oluşan hidrojen peroksidin
+mikrobiyal enzimler tarafından parçalanması ve asit
+iyonlarının oluşması arasında bir yarışın olduğu
+gözlenmektedir. Bu yarış, biyofilm tabakası altında
+meydana gelmekte ve yapay deniz suyu ortamında
+deney şartlarında çeliğin potansiyelinde artışa yol
+açmaktadır.
+5. SONUÇ (RESULTS)
+Glukoz içeren yapay deniz suyuna glukoz oksidaz
+ilavesi, çeliğin serbest korozyon potansiyelinde artışa
+sebep olmaktadır. Meydana gelen artış, doğal deniz
+suyunda gözlenen potansiyel artışı ile kıyaslanabilir
+niteliktedir.
+Yapılan deneyler, enzimatik aktivite sonucu üretilen
+hidrojen peroksit ve glukonik asitin müşterek
+etkisinin bir sonucu olarak çeliğin serbest korozyon
+potansiyelinde bir artış meydana geldiğini
+göstermiştir.
+Bu çalışmadan elde edilen sonuçlar, enzimatik
+aktivite ile hidrojen peroksit ve asit açığa çıkan doğal
+deniz
+suyu
+ortamında
+çeliğin
+davranışının
+belirlenebilmesi için yol gösterici olacaktır.
+KAYNAKLAR (REFERENCES)
+1. Dexter S.C., Gao G.Y., “Effect of sea water
+biofilms on corrosion potential and oxygen
+reduction of stainless steel”, Corrosion, Cilt 44,
+No 10, 717-723, 1988.
+2. Gonzalez J.E.G., Santana, F.J.H., Mirza-rosca,
+J.C., “Effect of bacterial biofilm on 316 SS
+corrosion in natural seawater by EIS”, Corrosion
+Science, Cilt 40, No 12, 2141-2154, 1998.
+3. Dexter S.C., Lafontaine J.P., “Effect of Natural
+Marine Biofilms on Galvanic Corrosion”,
+Corrosion, Cilt 54, No 11, 851-861, 1998.
+4. Scotto V., Lai M.E., “The Ennoblement of
+Stainless Steels in Seawater: A Likely
+Explanation Coming from the field”, Corrosion
+Science, Cilt 40, No 6, 1007-1018, 1998.
+5. Washizu N., Katada Y., Kodama T., “Role of
+H2O2 in Microbially Influenced Ennoblement of
+Open Circuit Potentials for type 316L Stainless
+Steel in Seawater”, Corrosion Science, Cilt 46,
+No 5, 1291-1300, 2004.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+.Çeliğin Korozyon Potansiyeline Enzimatik Aktivitenin Etkisi
+
+6.
+
+Chandrasekaran P., Dexter S.C., “Mechanism of
+Potential Ennoblement on Passive Metals by
+Seawater Biofilms”, Corrosion-Nace, Paper no.
+493, 1993.
+7. Wiener M.S., Salas B.V., Quintero-Nunez M.,
+Zlatev, R., “Effect of H2S on Corrosion in
+Polluted Waters: a Review”, Corrosion
+Engineering Science and Technology, Cilt 41,
+No 3, 221-227, 2006.
+8. Wang B., Sun Z., “Corrosion Behavior of HighStrength Pipeline Steel and Coatings in the
+Simulated Sea Water Environment”, Materials
+Science Forum, 686, 533-538, 2011.
+9. Han, M.S., Park, J.C., Jang, S.K., Seong, J.K.,
+“The Investigation on Optimum Corrosion
+Protection Potential of STS 316L in Seawater” ,
+Defect and Diffusion Forum Series, 297-301,
+596-601, 2010.
+10. Wharton, JA., Barik, R.C., Kear, G., Wood,
+R.J.K., Stokes, K.R., Walsh, F.C., “The corrosion
+of Nickel-Aluminium Bronze in Seawater”,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+M. Balbaşı ve ark
+
+Corrosion Science, Cilt 47, No 12, 3336-3367,
+2005.
+11. Luo Ya N., Song Shi Z., Jin Wel X., Han, L., “In
+Field Electrochemical Evaluation of Carbon Steel
+Corrosion in a Marine Test Environment”, AntiCorrosion Methods and Materials, Cilt 56, No
+6, 316-322, 2009.
+12. Wang W., Lu Y., Zou Y., Wang, J., “The
+Heterogeneous Electrochemical Characteristics of
+Mild Steel in the Presence of Local Glucose
+Oxidase: A Study by the Wire Beam Electrode
+Method”, Corrosion Science, Cilt 52, No 3, 810816, 2010.
+13. Wang W., Zhang X., Wang J., “The Influence of
+Local Glucose Oxidase Activity on the
+Potential/Current Distribution on Stainless Steel:
+A Study by the Wire Beam Electrode Method”,
+Electrochimica Acta, Cilt 54, No 23, 5598-5604,
+2009.
+
+ 
+
+259
+
+

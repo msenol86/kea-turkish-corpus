@@ -1,0 +1,1162 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 1, 101-110, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 1, 101-110, 2010
+
+LORENZ-TABANLI DİFERANSİYEL KAOS KAYDIRMALI
+ANAHTARLAMA (DCSK) MODELİ KULLANILARAK KAOTİK
+BİR HABERLEŞME SİSTEMİNİN SİMÜLASYONU
+Funda Ergün YARDIM ve Erkan AFACAN
+Elektrik-Elektronik Mühendisliği Bölümü, Mühendislik Fakültesi, Gazi Üniversitesi,, Maltepe 06750, Ankara
+fundaergun@gazi.edu.tr, e.afacan@gazi.edu.tr
+(Geliş/Received: 09.02.2009 ; Kabul/Accepted: 07.07.2009)
+ÖZET
+Kaotik sistemler, "başlangıç şartlarına hassas bağlılık gösteren ve ölçülemeyecek karmaşıklıkta sistemler"
+olarak tanımlanabilir. Başlangıç şartlarına olan duyarlılığının yanında kaotik sistemler, geniş bantlı,
+gürültü benzeri ve periyodik olmayan bir yapıya sahiptirler. Bu karakteristiklerinden dolayı, kaotik
+sistemler farklı bilim dallarında özellikle mühendislik konularında geniş uygulama alanı bulmuştur.
+Kaotik sistemlerin önemli uygulama alanlarından biri haberleşmedir. Kaotik haberleşme sistemlerinde;
+kaotik maskeleme, kaotik modülasyon, kaotik kaydırmalı anahtarlama ve tahmini kontrol yöntemi
+kullanılır. Bu çalışmada yayılı spektrum kaotik haberleşmenin uygulama alanlarından olan Diferansiyel
+Kaos Kaydırmalı Anahtarlama (DCSK) yönteminin simülasyonları yapılmıştır. Simülasyon yöntemi
+olarak hızlı olmasından dolayı C dili kullanılmıştır. Literatürde kaotik sistemlerle yapılan uygulamalarda
+kaos üreteci olarak genellikle Chua devresi kullanılmaktadır. Kaos üreteci olarak Lorenz sistemi
+kullanılarak DCSK yöntemi ilk kez bu çalışmada incelenmiştir. Lorenz sisteminin performansının Chua
+devresi ile karşılaştırıldığında daha iyi olduğu görülmüştür.
+
+
+F. E. Yardım ve E. Afacan
+
+1. GİRİŞ
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+(INTRODUCTION)
+
+Kaos kavramının bilim tarihine girişi 18. yüzyılda
+olmuştur. Kaos alanındaki en önemli keşiflerden biri,
+1963 yılında havanın basitleştirilmiş bir modelini
+çalışmak üzere basit bir matematiksel bilgisayar
+programı yazan meteorolog Edward Lorenz tarafından
+yapılmıştır [1]. Lorenz, hava tahmininde başlangıç
+koşullarındaki çok küçük değişikliklerin belirgin
+farklılıklara sebep olduğunu fark etmiştir. Lorenz’in
+atmosfer modelinde kullandığı matematik 1970’lerde
+geniş bir biçimde araştırılmış ve zamanla, kaotik bir
+sistemin temel özelliği olarak iki farklı başlangıç
+koşulları dizgesindeki en küçük bir farklılığın,
+sistemin durumunda büyük farklara neden olacağı,
+bilinen bir gerçek haline gelmiştir.
+Dinamik sistemler, deterministik ve stokastik olarak
+sınıflandırılırlar. Deterministik dinamik sistemler,
+durumları zamanla deterministik şekilde değişen
+sistemlerdir [2]. Evrensel olarak analog ve sayısal
+haberleşme sistemlerinde taşıyıcı olarak kullanılan
+sinüzoidal sinyaller, sürekli deterministik dinamik
+sistemlerin periyodik çözümleridir. Periyodik sinyallerin zaman bölgesindeki dalga şekli ve spektrumu
+Şekil 1(a)’da görülmektedir. Deterministik dinamik
+sistemler aynı zamanda geniş güç spektrumlu sürekli
+“gürültüsel” yapı ile karakterize edilen, periyodik
+olmayan sinyallerden oluşan kaotik sinyalleri de içine
+alır. Zaman bölgesindeki kaotik sinyaller Şekil
+1(b)’de de görüldüğü gibi rastgele bir şekilde ortaya
+çıkarlar.
+Kaotik sistemler için iki temel kural söylenebilir: i)
+Başlangıç şartlarına hassas bağımlılık: Kaotik sistemler, başlangıç şartlarına çok hassas bir biçimde bağımlıdırlar. ii) Rastgele olmama durumu: Kaotik sistemler
+biz belirleyemesek de içsel bir düzene uyarlar,
+rastgele değildirler.
+Ayrıca kaotik işaretler, geniş bantlı spektruma sahip,
+gürültüye benzer ve önceden tahmin edilmesi zor
+işaretlerdir. Diferansiyel veya fark denklemleri ile
+ifade edilen doğrusal olmayan bir dinamik sistemin
+kaotik davrandığını söyleyebilmek için; sistemin,
+başlangıç şartlarına hassasiyeti, frekans spektrumu,
+faz resmi görünümü ve Lyapunov üstelleri gibi
+
+özelliklerinin incelenmesi gerekir [4]. Literatürde çok
+sayıda otonom kaotik devre geliştirilmiş olsa da
+üzerinde en çok çalışma yapılan ve kaotik dinamikleri
+iyi bilinen otonom sistemler Chua osilatörü, Rössler
+osilatörü ve Lorenz sistemidir [5]. Chua devresi ve
+Lorenz tabanlı devre modeli, hem analog hem de
+dijital formdaki işaretlerin iletimi için kullanılabilecek
+devre modelleridir. Literatürde kaos ve kaotik
+sistemlerle yapılan uygulamalarda kaos üreteci olarak
+genellikle Chua devresi kullanılmaktadır.
+Bu çalışmada Chua devresi ve Lorenz sisteminin
+kaotik davranışları incelenmiştir. Daha sonra kaotik
+haberleşme sistemlerinden mükemmel gürültü performansına sahip olan DCSK modelinin performans
+analizi simülasyonu Lorenz sistemi kullanılarak
+yapılmış ve performansı, Chua devresi ile karşılaştırılmıştır.
+2. KAOTİK SİSTEMLER (CHAOTIC SYSTEMS)
+2.1. Kaotik Lorenz Sistemi (Chaotic Lorenz System)
+Kaotik Lorenz sistemi iki boyutlu akışkan davranışı
+için ortaya atılan, bilinen en meşhur kaotik sistemdir.
+Kaotik Lorenz sistemi aşağıdaki denklem takımıyla
+tanımlanmaktadır:
+dx
+ ax  ay
+dt
+dy
+ cx  y  xz
+dt
+
+(1)
+
+dz
+ bz  xy
+dt
+
+Burada a, b ve c sistem parametreleri, x, y ve z
+dinamik değişkenlerdir. Denklemlerden görüldüğü
+gibi bu kaotik sistem, lineer çarpım terimleriyle
+nonlineerliğin sağlandığı 3. dereceden bir sistemdir.
+Sistemin karakteristik özelliği, spektrumu geniş bir
+frekans bölgesine yayılmış periyodik olmayan
+salınımlar üretmesidir.
+Bu salınımlar gürültüye benzediği ve tahmini zor bir
+şekilde başlangıç koşullarına bağlı oldukları için gizli
+
+Şekil 1. Zaman (yukarı) ve frekans (aşağı) bölgesinde (a) Periyodik (b) Kaotik sinyaller
+[3]
+
+((a) periodic, (b) chaotic
+
+signals in time (upper) and frequency (lower) domain)
+
+102
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+F. E. Yardım ve E. Afacan
+
+(a)
+(b)
+(c)
+Şekil 2. Lorenz sistemi kaotik dinamiklerinin gösterimi (a) x(t), (b) y(t), (c) z(t) (Chaotic Dynamics of Lorenz System (a)
+x(t), (b) y(t), (c) z(t))
+
+haberleşmede kullanılabileceği fark edilmiştir [6].
+Lorenz sistemi için x(t), y(t) ve z(t) kaotik dinamiklerinin zamana karşı çizimleri sırasıyla Şekil 2’de
+verilmiştir.
+Kaotik sistemler “başlangıç koşullarına aşırı duyarlılık” ile tanımlanır. Benzer yapıdaki iki kaotik sistem
+başlangıç değerlerindeki küçük bir farklılık ile çalışmaya başlarlarsa kısa bir süre sonra birbirlerinden
+uzaklaşacaklardır. Bu özelliği açıklamak amacıyla
+Lorenz sisteminin, farklı başlangıç değerleri için
+simülasyonu yapılmıştır. Kaotik Lorenz sisteminde,
+a=10.0, b=8.0/3 ve c=28 sistem parametreleriyle
+başlangıç değerlerindeki küçük bir değişiklik neticesinde x değişkeninin zamanla değişimi Şekil 3(a)’da
+görülmektedir. Şekilde kırmızı çizgiyle belirtilen grafik x(0)= 0.001, y(0)= 0.0, z(0)= 0.0 başlangıç şartına
+oluşan x(t) kaotik dinamiğini gösterirken, yeşil çizgiyle gösterilen grafik ise x(0)= 0.002, y(0)= 0.0,
+z(0)= 0.0 başlangıç şartında oluşan x(t) dinamiğini
+göstermektedir. Şekillerden de görüldüğü gibi başlangıç şartlarındaki çok küçük bir değişime karşılık x(t)
+kaotik dinamiğinde önemli bir değişim meydana gelmektedir. Bu özellik, yani başlangıç şartlarına hassas
+bağımlılık kaotik sistemleri karakterize eden bir
+özelliktir.
+Kaotik sistemler, sistem parametrelerine de hassas
+bağımlılık gösterirler. Belirli sistem parametrelerinde
+yapılacak değişiklik sistemin kaotik davranışını da
+değiştirecektir. Bu sistemlerde, sistemi kaotik davranış moduna sokacak kritik parametreler vardır. Kaotik
+sistemlerde bu parametrelere dallanma (bifurcation)
+
+parametresi denmektedir. Lorenz sisteminin kritik
+parametresi c’dir. Şekil 3(b)‘de c=28 ve c=35 olmak
+üzere iki farklı değer için simülasyon sonuçları
+verilmiştir. Şekillerden görüldüğü gibi (c) parametresinde yapılan değişiklik kaotik sistemin davranışını
+değiştirmiş ve başka bir kaotik davranışa dönüştürmüştür. Sistem dallanma parametresine bağlı olarak
+periyot-1, periyot-2, periyot-4... gibi katlı periyodik
+davranışlardan sonra kaosa gider.
+Kaotik Lorenz sisteminde verilen bir andaki hava, üç
+boyutlu faz uzayında bir nokta ile havanın zaman
+içerisindeki seyri ise bu noktalardan geçen bir yörünge ile temsil edilir. Bu yörünge dinamik sistemin
+geçmişini gösterir. Kaotik sistemler doğrusal olmadıkları için yörüngeleri çok karışıktır fakat rasgele
+değildir. Zaman ilerledikçe, yörüngeler faz uzayını
+doldurmaya başlar ve hiçbir zaman üzerine kapanmaz;
+tekrar eder. Bu şekilde bir davranış kaosa işarettir.
+Sistemin çalıştırılması sonucu elde edilen
+olası hava durumlarının kümesi ise Lorenz çekeri
+olarak adlandırılır. Lorenz çekeri üç boyutlu uzayda
+herhangi bir hacim işgal etmez. Diğer taraftan bu ne
+bir boyutlu basit bir eğri ne de iki boyutlu bir
+yüzeydir. Çeker 2.06 gibi tam sayı olmayan (fraktal)
+bir boyuta sahiptir ve bu nedenle garip veya acayip
+sıfatları ile nitelendirilir. Şekil 4(a), Şekil 4(b) ve
+Şekil 4(c)’de kaotik Lorenz sistemine ait faz resimleri
+görülmektedir. Şekillerden görüldüğü gibi kaotik
+Lorenz sisteminin xy yörüngesi iki simetrik sabit
+nokta etrafında dönmektedir.
+
+(a)
+(b)
+Şekil 3. Lorenz sisteminin x(t) kaotik dinamikleri (a) iki farklı başlangıç değeri için (b) iki farklı “c” değeri için
+(x(t) chaotic dynamics of Lorenz system (a) for two different initial values, (b) for two different “c” values)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+103
+
+F. E. Yardım ve E. Afacan
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+(a)
+(b)
+(c)
+Şekil 4. Lorenz sisteminin iki boyutlu kaotik çeker gösterimi (a) xy izdüşümü (b) xz izdüşümü (c) yz izdüşümü
+(2-D chaotic attractor plots of Lorenz System (a) xy projection, (b) xz projection, (c) yz projection)
+
+İ R  f V R 
+
+2.2. Kaotik Chua Devresi (Chaotic Chua’s Circuit)
+Laboratuar koşullarında kaotik davranış oluşturmaya
+yatkın Lorenz sistemine benzer ilk gerçek fiziksel
+dinamik sistem Chua tarafından tanıtılmıştır [7].
+Chua, birçok dinamik davranış sergileyen üçüncü
+dereceden basit bir otonom devre oluşturmuştur.
+Kaotik Chua devresi, Lorenz denklemlerine göre bazı
+avantajlara sahiptir. Chua devresi, Lorenz denklemine
+göre sadece bir değişkenli bir nonlineerlik içerir ve
+laboratuar ortamında kolaylıkla oluşturulabilir.
+Kaosu sergilemek için, dirençler, kapasitörler ve
+bobinlerden oluşan otonom bir devre; en az bir
+nonlineer eleman, en az bir yerel aktif direnç, en az üç
+enerji depolayan elemanı içermelidir. Chua devresi bu
+kriterleri sağlayan en basit elektronik devredir [8]. Ek
+olarak, bu devre, kaosun varlığının matematiksel
+olarak kanıtlandığı bir fiziksel sistemdir. Şekil 5’de
+Chua devresi olarak adlandırılan nonlineer bir osilatör
+devresi görülmektedir.
+
+C1
+
+C1
+L
+
+dVC1
+dt
+
+dVC2
+dt
+
+
+
+(VC2  VC1 )
+
+
+
+R
+
+(3)
+
+dx
+  ( y  x  f ( x))
+d
+
+dy
+ x yz
+d
+
+(4)
+
+dz
+  y
+d
+
+Burada;
+x
+
+
+
+
+
+VC1
+Bp
+
+
+
+,y
+
+
+ R
+, z  İL
+B
+Bp
+ p
+
+VC 2
+
+ R 2C
+  C2
+2
+,  
+, 
+
+C1
+L
+
+
+
+
+ C
+ R 2C
+t
+2
+, a  RG a , z  RG b ,   2 ,  
+RC 2
+C1
+L
+
+olarak verilmektedir.
+ f (VC1 )
+
+(VC1  VC2 )
+R
+
+
+
+denklemi ile karakterize edilir. Denklem 2’de verilen
+ifadelerde, değişkenler yeniden düzenlenerek durum
+denklemleri Denklem 4’deki gibi boyutsuz bir forma
+dönüştürülebilir [9].
+
+
+
+Şekilden görüldüğü gibi, Chua devresi kapasitör,
+indüktör gibi enerji depolayan elemanlar, lineer direnç
+ve Chua diyodu olarak adlandırılan bir nonlineer
+direnç NR’den oluşmakta ve aşağıdaki üç otonom
+durum denklemiyle tanımlanmaktadır:
+
+
+
+ GbVR  0.5(Ga  Gb ) VR  Bp  VR  Bp
+
+ İL
+
+(2)
+
+dİ L
+ VC2
+dt
+
+Burada;
+
+Denklem 3 ile verilen f(VR), NR nonlineer direncin, iç
+bölgede Ga ve dış bölgede Gb eğimli V-I karakteristiğidir. Ga, Gb ve Bp için uygun değerler seçildiğinde,
+Chua diyodu için herhangi bir parçalı lineer V-I
+karakteristiği tanımlanabilir. Burada  Bp ifadesi de
+kırılma noktalarını vermektedir. Bp kırılma noktasından mutlak değerce küçük olan voltaj değerleri için
+karakteristik Ga negatif eğimli bir parçaya sahiptir. Bp
+kırılma noktasından daha yüksek voltaj değerleri için
+karakteristik G a  G b olan Gb negatif eğimli lineer
+iki parçaya sahiptir. Bu karakteristik analitik olarak
+aşağıdaki gibi verilir [9],[10]:
+I R  f (V R )
+
+Şekil 5. Otonom Chua Devresi (Autonomous Chua Circuit)
+104
+
+VR   B p
+GbV R  (Gb  G a ) B p
+
+ B p  VR  B p
+
+G aV R
+G V  (G  G ) B
+VR  B p
+a
+b
+p
+ b R
+
+(5)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+F. E. Yardım ve E. Afacan
+
+Burada Bp>0, Ga<0 ve Gb<0’dır.
+
+değişim parametresi olarak kullanılabilir.
+
+Literatürde nonlineer direnç elemanı NR, elektronik
+elemanlarla değişik formlarda gerçekleştirilmiştir.
+Bunlara diyotlu, Op-amp’lı, transistörlü ve işlemsel
+geçiş iletkenliği kuvvetlendiricileri (OTA-Operational
+Transconductance Amplifier) ile gerçekleştirilen
+nonlineer direnç devre yapıları örnek gösterilebilir
+[8],[10].
+
+3. KAOTİK SİSTEMLERİN HABERLEŞME
+UYGULAMALARI (COMMUNICATION
+
+İki Op-amp’la gerçekleştirilen NR’nin yapılan simülasyonla elde edilen V-I karakteristiği Şekil 6’da
+görülmektedir. Bu simülasyonda kullanılan nonlineer
+karakteristikler Ga= -0.410 mS, Gb=-0.780 mS ve
+Bp=±1’dir.
+Şekil 7’de Chua devresinde iki farklı başlangıç şartı
+için (kırmızı çizgi: V1(0)=0.01V, yeşil çizgi
+V1(0)=0.02V) elde edilen V1(t) kaotik dinamik
+gösterimi verilmiştir.
+Önceki bölümde incelenen Lorenz sistemindeki
+dallanma parametresi (c)’nin yerini Chua devresinde
+R direnç değeri almıştır. Şekil 5’deki R direnç değerinin 2KΩ’dan yavaş yavaş sıfıra doğru azaltılmasıyla
+Chua devresi çok çeşitli dallanma ve periyot katlanmalarını (periyot-1, periyot-2, periyot-4, periyot-n)
+takiben Rössler tipi kaotik Chua çekere ve çift spiralli
+(double scroll) kaotik Chua çekere dönüşür [10],[11].
+Çift spiralli kaotik çekerin (Double Scroll Attractor)
+varlığını ispatlamak için, Chua devresinde R=1.7KΩ
+alınarak elde edilen kaotik çeker gösterimleri Şekil
+8’de görülmektedir. Chua devresinde R değeri
+1.8KΩ’da sabit tutularak C1 elemanı da ikinci bir
+
+Şekil 6. Otonom Chua Devresinin V-I Karakteristiği
+(V-I characterisitc of autonomous Chua circuit)
+
+Şekil 7. Chua devresinde iki farklı başlangıç değeri
+için elde edilen V1(t) kaotik dinamikleri (V1(t) chaotic
+Dynamics of Chua circuit for two different initial values)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+APPLICATIONS OF CHAOTIC SYSTEMS)
+
+Bir sayısal haberleşme sisteminde, iletilecek bilgi
+sembolü modülatör tarafından bir analog örnek
+fonksiyona çevrilir ve analog bir kanaldan geçirilir.
+Kanalda, analog sinyal zayıflatma, bant geçiren
+filtreleme ve toplanır beyaz Gauss gürültüyü
+(AWGN) kapsayan belli sayıda bozucu etkileşimin
+etkisi altına girer. Demodülatörün görevi algılanan
+bozulmuş örnek fonksiyonun temelinde, hangi
+sembolün gönderildiğine karar vermektir. Geleneksel
+bir haberleşme sisteminde, bir sembolü belirten T
+süreli analog örnek fonksiyonu, sinüzoidal temelli
+fonksiyonların bir lineer kombinasyonudur ve sembol
+süresi T temel fonksiyonun periyodunun tam katıdır.
+Kaos tabanlı bir sayısal haberleşme sisteminde bir
+sembolü belirten T süreli analog örnek fonksiyonu
+kaotik tabanlı bir fonksiyondur. Hangi sembolün
+iletildiğinin kararı, alınan örnek fonksiyonun bazı
+özelliklerinin kestirilmesi ile verilir. Bu özellik,
+kaotik sinyalin enerjisi veya iletilen sinyalin değişik
+parçaları arasında ölçülen korelasyon olabilir. Kaotik
+dalga şekilleri periyodik olmamalarından dolayı T
+süreli her bir örnek fonksiyon farklıdır. Bu, iletilen
+her bir sembolün birim analog örnek fonksiyonu
+olarak ifade edilmesi avantajına sahiptir ve kaotik
+örnek fonksiyonları arasındaki korelasyon oldukça az
+olduğundan kaotik modülasyon çok yollu yayılım
+koşulları altında en iyi performansı önerir şekilde
+olmalıdır. Bundan dolayı, kaotik modülasyon güçlü
+geniş bant haberleşmesi için potansiyel olarak basit
+çözümler önerir. Bunun yanında, sonlu süreli örnek
+fonksiyonlardan oluşan kaotik prosesin uzun zamanlı
+istatistiklerinin kestirimi ile ilişkili bir problemi de
+beraberinde getirir.
+Geleneksel ile kaotik sistemler arasındaki temel
+farklılık, kaotik haberleşmede sinüzoitlerin yerine
+daha çok kaotik dalga şekli parçalarının temel
+fonksiyonlar olarak kullanılmasıdır. Kaotik sinyallerin
+periyodik olmayan özelliğinden dolayı, kaotik ve
+geleneksel sistemler arasında temel bir faklılık
+olmaktadır. İletilen bilgiyi yeniden oluşturmak amacı
+ile ihtiyaç duyulan alınmış kaotik dalga şeklinin
+parametreleri sonlu uzunluklu örnek fonksiyonlardan
+kestirilmelidir. Gürültüsüz durumda dahi, sembol
+süresi belli bir alt sınırın altına indirilmemelidir.
+Geleneksel sayısal
+modülasyon
+tekniklerinde
+sinüzoidal sinyallerin temel fonksiyonlar olarak
+kullanılması mükemmel bant genişliği verimliliği
+sağlamaktadır. Bu temel fonksiyonlar alıcıda tek bir
+sinüzoidal taşıyıcıyı yeniden oluşturarak kolayca elde
+edilebilir. Kaos tabanlı sayısal haberleşme sistemlerinde, geleneksel haberleşmede olduğu gibi, iletilen
+semboller eşzamanlı olan [12], [13] ve eşzamanlı
+olmayan [3], demodülasyon teknikleri ile tekrar
+105
+
+F. E. Yardım ve E. Afacan
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+(a)
+(b)
+(c)
+Şekil 8. Chua Devresinin Kaotik Çeker Gösterimleri (a)VC1-VC2 düzleminde (b) VC1-IL düzleminde (c) VC2-IL
+düzleminde (Chaotic attractor plot of Chua circuit (a) on VC1-VC2 plane (b) on VC1-IL plane (c) on VC2-IL plane)
+oluşturulabilir. Senkronizasyon (taşıyıcı düzeltilmesi
+anlamında), eşzamanlı olmayan modülasyon tekniğinin kullanıldığı durumlarda gerekli değildir.
+
+x(t)
+t i  t  ti  T / 2
+si(t)= 
+
+ x(t  T / 2) t i  T / 2  t  t i  T
+
+
+Demodülasyon aynı zamanda senkronizasyon olmasa
+da işler. Bu hem periyodik hem de kaotik örnek
+fonksiyonlar için geçerlidir [7]. Bu durumda, alıcı,
+gürültülü sinyalden temel fonksiyonu yeniden elde
+etmeden, iletilen bilgiyi taşıma özelliği (bit enerjisi
+gibi) tahmin edebilir. Hangi sembolün gönderildiğinin
+tahmini, bir eşik değeri üzerinden karşılaştırma yapılarak kestirilir. Dört adet eşzamanlı olmayan kaotik
+haberleşme alıcı konfigürasyonu:
+
+elde edilir. Burada x(t) referans kaotik sinyali ve si(t)
+ise [ti,ti+T) aralığında iletilen DCSK sinyalini ifade
+etmektedir.
+
+1) Kaotik Kaydırmalı Anahtarlama (CSK),
+2) Kaotik Var-Yok Anahtarlama (COOK),
+3) Diferansiyel Kaos Kaydırmalı Anahtarlama
+(DCSK),
+4) Frekans
+Modülasyonlu
+Diferansiyel
+Kaos
+Kaydırmalı Anahtarlama (FM-DCSK)
+şeklindedir. Bunların içinden DCSK ve FM-DCSK en
+iyi gürültü performansına sahiptir. Kaotik haberleşme
+sistemleri konusundaki araştırmalar yoğun bir şekilde
+devam etmektedir [14], [15].
+
+(7)
+
+Şekil 9(a) ve (b) sırasıyla bir DCSK modülatörü ve
+1100 bit dizisine karşılık gelen tipik bir DCSK sinyalini göstermektedir.
+Bu örnekte, kaotik sinyal bir analog faz kilitlemeli
+çevrim (APLL) ile üretilir ve bit süresi 40ms’dir.
+3.1.2. Alıcı (Receiver)
+DCSK modülasyon modelinde, bilgi sinyali sonlu
+uzunluktaki kaotik örnek fonksiyonlara aktarılır.
+Alınan gürültülü sinyal bit süresinin yarısı ile (T/2)
+geciktirilir ve alınan sinyal ile geciktirilen sinyalin
+kopyası arasındaki korelasyon bulunur. Karar bir
+seviye karşılaştırıcısı ile verilir. DCSK demodülatörünün blok şeması Şekil 10’da görülmektedir.
+
+3.1. Diferansiyel Kaos Kaydırmalı Anahtarlama
+(Differential Chaos Shift Keying)
+
+3.1.1. Verici (Transmitter)
+Diferansiyel Kaos Kaydırmalı Anahtarlamada,
+iletilecek her bit iki kaotik örnek fonksiyonu ile ifade
+edilir. İlk örnek fonksiyon referans gibi davranırken,
+ikincisi bilgiyi taşır. “1” biti, kaos üreteci tarafından
+sağlanan bir referans sinyali ileterek art arda iki kez
+gönderilirken, “0” biti için referans kaotik sinyal aynı
+sinyalin tersine çevrilmiş bir kopyasının takibi ile
+iletilebilir [2]. Böylece, eğer “1” sembolü [ti, ti+T)
+aralığında iletilirse
+x(t)
+t i  t  ti  T / 2
+si(t)= 
+
+ x(t  T / 2) t i  T / 2  t  t i  T
+
+
+ve eğer “0” sembolü [ti, ti+T) aralığında iletilirse
+
+106
+
+(a)
+
+(6)
+(b)
+Şekil 9. (a) DCSK modülatörü blok şeması (b) 1100
+dizisine karşılık gelen DCSK sinyali ((a) Block diagram of
+DCSK modulator, (b) DCSK signal with respect to 1100 array) [2]
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+Şekil 11 iletilen sinyal için ilintilendirici çıkışını göstermektedir. İletilen bit serisini (1100) yeniden oluşturma yönünde gözlem sinyali zi, 0.32s ve 0.36s karar
+anlarında pozitif ve 0.4s ve 0.44s’lerde negatiftir.
+DCSK’da gözlem sinyali,
+(8)
+
+z i   ri ( t ) ri ( t  T / 2)dt
+
+=  [s i ( t )  n ( t )][s i ( t  T / 2)  n ( t  T / 2)dt
+T/2
+
+formundadır. “1” sembolü iletildiği zaman,
+
+s
+
+2
+i
+
+(t )dt 
+
+T /2
+
+ s (t )[n(t )  n(t  T / 2)]dt
+i
+
+(9)
+
+T /2
+
+ n(t )n(t  T / 2)dt
+
+
+
+T /2
+
+şeklini ve “0” sembolü için,
+zi  
+
+
+
+si2 (t )dt 
+
+ s (t )[n(t )  n(t  T / 2)]dt
+i
+
+T /2
+
+(10)
+
+T /2
+
+
+
+ n(t )n(t  T / 2)dt
+
+şeklini alır.
+Aynı zamanda bu modelin kestirim probleminden
+etkilendiğini unutmamak gerekir. zi’nin sıfırdan farklı
+varyansı, kaotik sinyalin periyodik olmayan
+doğasından kaynaklanmaktadır. Eğer aynı sembol
+tekrarlı gönderilse bile,  s i2 ( t ) sabit değildir.
+T/2
+
+Kestirim problemi aynı zamanda kendini gürültü
+performans karakteristiklerinde ortaya koymaktadır.
+Eğer bit süresi T azaltılırsa, karar aşamasının
+
+Gecikme
+T/2
+
+DCSK modülasyon modelinde, bilgi sinyali sonlu
+uzunluktaki kaotik örnek fonksiyonlara aktarılır.
+Alıcıdaki karar devresinin ihtiyaç duyduğu özellik,
+kaotik sinyalin doğasından kaynaklanan periyotsuzluk
+nedeniyle sadece kestirilebilir. Sadece gürültüsüz
+durumda kestirim sıfırdan farklı varyansa sahiptir; bu
+bit süresine bir alt sınır getirir ve böylece veri hızını
+sınırlar.
+DCSK modülasyonu ile ilgili simülasyonlarda kaotik
+Lorenz Sistemi ve Chua devresi kullanılmıştır [17].
+Chua devresinin V1(t) kaotik dinamik gösterimi
+(V1(0)=0.1V) Şekil 12(a)’da verilmektedir.
+
+T /2
+
+ri(t)=si(t)+n(t)
+
+gürültüye olan duyarlılığı artar ve BER sadece Eb/No’ı
+artırarak düşürülebilir. Oldukça büyük T için,
+DCSK’nın gürültü performansı geleneksel sinüzoit
+tabanlı modülasyon modeli ile karşılaştırılabilir. Tam
+anlamıyla, BER=10-3 için Eb/No=13.5 dB’ye ihtiyaç
+vardır. Mükemmel gürültü performansına ek olarak,
+karar eşik değeri Eb/No’dan bağımsız olarak sıfırdır.
+DCSK’nın bir diğer avantajı da, referans ve örnek
+bilgi fonksiyonlarının aynı kanaldan geçmesidir. Bu
+sebepten dolayı, modülasyon modeli kanal bozulmasından bağımsız hale getirilebilir. DCSK aynı zamanda eğer bit süresi T için kanal parametreleri sabit
+kalırsa zaman bağımlı bir kanal üzerinden de
+çalışabilir.
+
+T/2
+
+zi 
+
+F. E. Yardım ve E. Afacan
+
+zi
+
+Karar Devresi
+
+Çözücü
+
+T
+
+Şekil 13(a)’da Kaotik Lorenz sistemi kullanılarak
+(x(0)= 0.001) elde edilen modüleli sinyal Şekil
+13(b)’de gösterilmiştir. Lorenz sistemi ile ilgili simülasyonlarda T=10ms, SNR=10dB ve bit dizisi uzunluğu 100 bit alınmıştır.
+
+ˆ
+bi
+
+ˆ
+si
+
+
+T/2 dt
+
+Yapılan simülasyonda giriş bit dizisi rasgele üretilerek, vericide kaotik işaret ile modüle edilmiş ve iletim
+kanalına gönderilmiştir. Şekil 12(b)’de DCSK kullanılarak elde edilen modüleli sinyal görülmektedir.
+Yapılan DCSK simülasyonunda, SNR=10dB,
+T=40ms alınarak 100 bit uzunluklu bilgi sinyali için
+sonuçlar elde edilmiştir.
+
+Eşik
+
+Şekil 10. DCSK alıcısının blok şeması (Block diagram of
+DCSK receiver) [16]
+
+Alınan gürültülü sinyal bit süresinin yarısı (T/2) kadar
+geciktirilir ve alınan sinyal ile geciktirilen sinyalin
+kopyası arasındaki korelasyon bulunur. Karar bir
+seviye karşılaştırıcısı ile verilir. Bu işlemlerin sonucunda çıkış bit dizisi elde edilir.
+4. DCSK PERFORMANS ANALİZİ
+
+(DCSK
+
+PERFORMANCE ANALYSIS)
+
+Şekil 11. 1100 dizisine karşılık gelen ilintilendirici
+çıkışı (Correlator output with respect to 1100 array) [2]
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Kaotik sinyallerin doğasındaki geniş bant özelliği,
+yayılı spektrum haberleşme sistemleri için umut verici
+olmuştur. Bir haberleşme modeli oluşturmada ilk
+adım performansın haberleşme kanalında analiz
+edilmesidir. Modülasyon modelinin performansını
+ölçmede kullanılabilecek en basit kanal modeli
+toplanır beyaz Gauss gürültülü (AWGN) lineer bir
+
+107
+
+F. E. Yardım ve E. Afacan
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+(a)
+(b)
+Şekil 12. (a) Kaotik Chua devresinin V1(t) kaotik dinamik gösterimi (b) DCSK modüleli işaret ((a) V1(t) chaotic
+dynamic of Chua circuit, (b) DCSK modulated signal)
+
+ 
+(a)
+(b)
+Şekil 13. (a) Kaotik Lorenz sisteminin x(t) kaotik dinamik gösterimi (b) Kaotik Lorenz sistemi kullanılarak
+oluşturulan DCSK modüleli işaret ((a) x(t) chaotic dynamic of Lorenz system, (b) DCSK modulated signal created by Lorenz system)
+bant geçiren kanaldır. Bu bant geçiren AWGN kanal
+modelinin blok diyagramı Şekil 14’de görülmektedir.
+Bu modelde, alınan sinyalin AWGN ile bozulduğu
+varsayılmıştır. Kanal filtresi alıcıdaki istenen iletişim
+frekansını seçmede ve fiziksel iletim ortamının
+frekans modelini çıkarmada kullanılır [18].
+Gerçek bir haberleşme sisteminde, gürültü tam olarak
+beyaz veya Gauss olmayabilir. AWGN varsayımının
+sebepleri; i) hesaplamaları kolaylaştırır, ii) bu formda
+olan termal gürültü, çoğu pratik haberleşme
+sisteminde baskındır, iii) AWGN kanal modeli
+kullanan değişik modülasyon modellerinin nispi
+performansı gerçek kanal koşulları altında
+geçerliliğini korur.
+Sayısal haberleşme sisteminin performansı alıcıda bit
+hata oranı (BER) olarak ölçülür. Genel olarak, bu,
+kodlama modeline, kullanılan dalga formunun tipine,
+verici
+gücüne, kanal karakteristiklerine ve
+demodülasyon modeline bağlıdır [18]. Verilen geri
+
+modülatör
+çıkışı
+
+fiziksel
+iletim ortamı
+zayıflatma
+
+kanal (seçici)
+filtresi
+
++
++
+
+demodülatör
+girişi
+
+beyaz Gauss
+gürültüsü
+
+Şekil 14. Alıcının frekans seçiciliğini içeren toplanır
+beyaz Gauss gürültülü kanal modeli (Additive white
+
+plan gürültü seviyesi için, BER her bir bit ile ilişkili
+enerjiyi artırarak azaltılabilir. Bu ya daha yüksek güç
+ile ileterek, ya da bit başına daha uzun periyot ile
+yapılabilir. Sayısal haberleşmedeki amaç, bit başına
+minimum enerjili belirlenmiş bir BER elde
+edebilmektir. İleri bir görüş, veri hızının kanal bant
+genişliğine oranı olarak tanımlanan bant genişliği
+verimliliğidir [19].
+Bu
+bölümde
+yayılı
+spektrum
+haberleşme
+sistemlerinden DCSK modelinin performansı, AWGN
+kanal ve Kaos üreteci olarak Lorenz siteminin
+kullanıldığı durum için incelenmiştir. Aynı şekilde,
+simülasyonlarda Toplanır Beyaz Gauss Gürültüsü
+(AWGN), “Box-Muller Algoritması” kullanılarak
+elde edilmiştir. DCSK modelinde iletilen bit başına
+enerji sabittir ve AWGN kanalında DCSK’nın BER’i
+aşağıdaki formda verilmektedir [20].
+
+
+N
+N
+1
+BER  erfc  4 0  4 L 0
+E
+Eb
+2
+
+ b
+
+
+
+
+
+
+
+
+2
+
+
+
+
+
+
+
+1
+
+
+
+
+
+
+
+(11)
+
+Burada Eb bit başına enerjiyi, L (yaygınlaştırma
+faktörü) her bir bit için yaygınlaştırılmış sinyal
+sayısını ve N0 kanal gürültüsünün güç spektral
+yoğunluğunu tanımlamaktadır. Karar değişkenindeki
+gürültünün çapraz ilintinin artan etkisi, L artarken
+BER’in artmasına neden olmaktadır [21]. Bu durum
+Şekil 15(a)’da görülmektedir.
+
+Gaussian channel model with receiver frequency selectivity)
+108
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+F. E. Yardım ve E. Afacan
+
+DCSK için Bit Hata Orani Hesaplamasi
+
+0
+
+10
+
+Lorenz
+Chua
+Teorik
+
+-1
+
+10
+
+-2
+
+--BER--->
+
+10
+
+-3
+
+10
+
+-4
+
+10
+
+-5
+
+10
+
+0
+
+2
+
+4
+
+6
+
+8
+10
+--Eb/No (dB)--->
+
+12
+
+14
+
+16
+
+(a)
+(b)
+Şekil 15. DCSK modelinin gürültü performansı (a) farklı L değerleri için teorik, (b) L=40 için Lorenz sistemi ile
+Chua devresinin performans karşılaştırması (Noise performance of DCSK model (a) theoretical results for different L values, (b)
+performance comparison of Lorenz system and Chua’s circuit for L=40)
+
+Kaotik sinyal üreteci olarak Lorenz sisteminin
+kullanıldığı DCSK modeli için yapılan simülasyon
+sonuçlarının Chua devresi ile karşılaştırılması Şekil
+15(b)’de verilmiştir. Chua devresi kullanılarak yapılan DCSK simülasyonunun teorik sonuca yakın
+olduğu görülmektedir. Beklendiği gibi SNR değerindeki artış BER değerinde azalmaya neden olmaktadır.
+Şekil15(b)’den görüldüğü üzere kaos üreteci olarak
+Lorenz sisteminin kullanıldığı DCSK modelinde 10-5
+bit hata olasılığı için yaklaşık değeri 16dB olan SNR
+değerine ihtiyaç duyulmaktadır. Ayrıca, Lorenz
+sisteminin performansının Chua ile karşılaştırıldığında daha iyi olduğu görülmektedir.
+SONUÇ
+
+(CONCLUSION)
+
+Kaos tabanlı güvenilir haberleşme sistemleri, iletilecek bilgi sinyallerinin spektrumunu geniş bir sahaya
+yayabilmeleri, gürültüye benzer bir yapıya sahip
+olmaları ve basit, pahalı olmayan kaotik devre düzenekleri ile gerçekleştirilebilmeleri nedeniyle, literatürdeki standart yayılı spektrumlu haberleşme sistemlerine alternatif olmuşlardır [22]. Son yıllarda, geniş
+bantlı haberleşme sistemlerinde kaosu kullanmaya
+yönelik ilgi dünya çapında oldukça fazla artış göstermiştir. Literatürde çok sayıda otonom kaotik devre
+geliştirilmiş olsa da üzerinde en çok çalışma yapılan
+ve kaotik dinamikleri iyi bilinen otonom sistemler
+Chua osilatörü, Rössler osilatörü ve Lorenz sistemidir. Kaos ve kaotik sistemlerle yapılan uygulamalarda
+kaos üreteci olarak genellikle Chua devresi kullanılmaktadır. Bu çalışmada literatürde ilk kez kaos üreteci
+olarak Lorenz sistemi kullanılarak kaotik haberleşme
+sistemlerinden DCSK modeli incelenmiştir. Kaotik
+sinyal üreteci olarak Lorenz sisteminin kullanıldığı
+DCSK modeli için yapılan simülasyon sonuçlarının
+Chua devresi ile karşılaştırılması Şekil 15(b)’de
+verilmiştir.
+Chua devresi kullanılarak yapılan DCSK simülasyonunun teorik sonuca yakın olduğu görülmektedir.
+Beklendiği gibi SNR değerindeki artış BER değerinde
+azalmaya neden olmaktadır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Şekil 15(b)’den görüldüğü üzere kaos üreteci olarak
+Lorenz sisteminin kullanıldığı DCSK modelinde 10-5
+bit hata olasılığı için yaklaşık değeri 16dB olan SNR
+değerine ihtiyaç duyulmaktadır. Ayrıca, Lorenz
+sisteminin performansının Chua ile karşılaştırıldığında daha iyi olduğu görülmektedir. Gelecekteki
+çalışmalarda, Lorenz sisteminin sönümlü (Fading)
+kanallardaki başarımı farklı modülasyon ve kodlama
+teknikleri kullanılarak incelenebilir.
+SİMGELER VE SEMBOLLER (NOMENCLATURE)
+x, y, z, u, v, w
+fn (x, y, z)
+a, r, b, , , 
+x(t), y(t), z(t)
+VC1, VC2
+G
+f(VC1), f(VC2)
+NR
+± Bp
+s(t)
+m(t)
+u(t), x(t)
+bn
+T
+ri
+N0
+erfc(x)
+Eb
+DCSK
+
+SNR
+
+Dinamik değişkenler
+Fonksiyon
+Sabit sistem parametreleri
+Durum vektörü
+Kapasitör voltajı
+Kondüktans
+Parçalı lineer fonksiyon
+Chua direnci
+Kırılma noktaları
+İletilen işaret
+Bilgi işareti
+Kaotik işaret
+İkili veri dizisi
+Periyot
+Alınan dalga formu
+Gürültü
+Hata fonksiyonu
+Bit enerjisi
+Diferansiyel Kaotik
+Kaydırmalı Anahtarlama
+Bit Hata Oranı
+Yayılı Spektrum
+Toplanır Beyaz Gauss
+Gürültüsü
+Sinyal Gürültü Oranı
+
+KAYNAKLAR
+
+(REFERENCES)
+
+BER
+SS
+AWGN
+
+1.
+2.
+
+Gündüz, G., “Kargaşa Kaos ve Şekil
+Oluşumları”, METU Press, 538-56 (2002).
+Kennedy, M. P. and Kolumban, G., “Digital
+Communications Using Chaos”, McGraw Hill,
+New York, 477-499 (1999).
+109
+
+F. E. Yardım ve E. Afacan
+
+3.
+
+4.
+
+5.
+
+6.
+7.
+8.
+9.
+10.
+11.
+
+12.
+
+13.
+
+110
+
+Lorenz-Tabanlı Diferansiyel Kaos Kaydırmalı Anahtarlama (Dcsk) Modeli Kullanılarak…
+
+Kennedy, M. P., Kolumban, G., Jako, Z., Kis, G.,
+“Chaotic
+Communications
+without
+Synchronization”, Conference Publication, 451:
+49-53 (1998)
+Serin, T., “Kaotik Yapılarda Lyapunov
+Üstellerinin Tahmini”, Y. Lisans Tezi Gazi
+Üniversitesi Fen Bilimleri Enstitüsü, Ankara, 115 (2003).
+Kılıç, R., “Karışık Modlu Yeni Bir Kaotik
+Devre Modeli Tasarımı ve Güvenilir
+Haberleşme
+Amaçlı
+Sistem
+Gerçekleştirilmesinde Kullanılması”, Doktora
+Tezi, Erciyes Üniversitesi Fen Bilimleri
+Enstitüsü, Kayseri, 1-20 (2000).
+Hirsch, M. W. And Smale, S., “Diferantial
+Equations, Dynamical Systems, and Linear
+Algebra”, San Diago, CA: Academic, (1974).
+Chua, L.O., Desoer, C. A., Kuh, E. S., “Linear
+and Nonlinear Circuits”, McGraw Hill, New
+York, (1987).
+Kennedy, M. P., “Three Steps to Chaos - Part I:
+Evolution”, IEEE Trans. Circuits&Systems-I,
+40: 640-656 (1993).
+Chua, L. O., Huynh, T., “Bifurcation Analysis of
+Chua’s Circuit”, University of California,
+Berkeley, 746-750, (1992).
+Cruz, J. M., Chua, L. O., “A CMOS IC Nonlinear
+Resistor for Chua’s Circuit”, IEEE Trans.
+Circuits&Systems-II, 39, 985-995 (1992).
+Chua, L. O., Wu, C. W., Huang, A., Zhong, G.,
+“A Universal Circuit for Studying and Generating
+Chaos-Part I: Routes to Chaos”, IEEE Trans.
+Circuits&Systems-I, 40, 732-761 (1993).
+Cuomo, K.M., Oppenheim, A.V. and Strogatz, S.H.,
+“Synchronization of Lorenz-Based Chaotic Circuits
+with Applications to Communications”, IEEE
+Trans. Circuits and Systems-II: Analog and
+Digital Signal Processing, 40: 626-633 (1993).
+Dedieu, H., Kennedy, M. P., Hasler, M., “Chaos
+Shift Keying: Modulation and Demodulation of a
+Chaotic Carrier using Self-synchronizing Chua’s
+Circuits”, IEEE Trans. on Circuits&Systems,
+40, 634-641 (1993).
+
+14. Tam Wai M., Lau Francis C. M. And Tse Chie
+K., “Generalized Correlation Delay Shift-Keying
+Scheme
+for
+Non-coherent
+Chaos-Based
+Communication Systems”, IEEE Trans. on
+Circuits and Systems-I: Regular Papers, 53,
+(2006)
+15. Chen Hongbin, Feng Jiuchao, Tse Chi K., “A
+General Non-coherent Chaos-Shift Keying
+Communication System and its Performance
+Analysis”, IEEE International Symposium, 1:
+2466-2469 (2007)
+16. Kolumban, G., Kennedy, M. P., Chua, L., “The
+Role
+of
+Synchronization
+in
+digital
+Communications Using Chaos- Part II: Chaotic
+Modulation and Chaotic Synchronization”, IEEE
+Trans. On Circuits and Systems-I: Fundamental
+Theory and Applications, 45: 1129-1140 (1998).
+17. Ergün, F., “Kaotik Bir Haberleşme Sisteminin
+Simülasyonu”, Yüksek Lisans Tezi, Gazi
+Üniversitesi Fen Bilimleri Enstitüsü, Ankara,
+(2005).
+18. Kennedy, M. P., Kolumban, G., Chua, L., “The
+Role
+of
+Synchronization
+in
+digital
+Communications Using Chaos- Part I:
+Fundamentals of Digital Communications”,
+IEEE Trans. On Circuits and Systems-I:
+Fundamental Theory and Applicatios, 44: 927937 (1997).
+19. Haykin, S. S., “Communication Systems”, 3rd
+ed., Wiley, New York,(1994).
+20. R. Rovatti, G. Setti, and G. Mazzini, “Chaosbased generation of optimal DS-CDMA
+sequences,” in Proc. NOLTA, HI, 231–234
+(1999).
+21. Abel, A., Schwarz, W., G., M., “Statistical
+Analysis of Chaotic Communication Schemes”,
+IEEE Int. Symp. Circuits and Systems, New
+York, 465-468 (1998).
+22. Riaz A. and Ali M., “Chaotic Communications,
+their Applications and Advantages over
+Traditional Methods of Communication”, IEEE
+Communications, Networks Digital Signal
+Processing, 10, 21-24.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+

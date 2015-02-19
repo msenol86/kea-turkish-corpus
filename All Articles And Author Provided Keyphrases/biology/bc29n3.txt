@@ -1,0 +1,812 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 3, 617-624, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 3, 617-624, 2014
+
+KAN KÜLTÜRLERİN DÜŞÜK MALİYETLİ VE HIZLI
+ÖLÇÜLEBİLMESİ İÇİN YENİ BİR YAKLAŞIM
+Gürsel DÜZENLİ*, Oğuz KARABAY**
+*
+
+Sakarya Üniversitesi, Mühendislik Fakültesi, Elektrik-Elektronik Mühendisliği Bölümü, Sakarya
+Sakarya Üniversitesi, Sağlık Bilimleri Enstitüsü, Enfeksiyon Hastalıkları AD., Sakarya
+gursel@duzenli.net, okarabay@sakarya.edu.tr
+**
+
+(Geliş/Received:27.12.13; Kabul/Accepted:01.07.14 )
+ÖZET
+Günümüzde kullanılan otomatize kan kültür ölçüm yöntemlerinde genellikle floresanlı karbondioksitin
+ölçümüne dayanmaktadır. Bu yöntemin en büyük dezavantajı ölçüm süresinin uzun olması ve maliyet
+yüksekliğidir. Bu çalışmada, tarafımızdan geliştirilen ve kan kültüründeki üremeyi, kapalı bir tüp içerisindeki
+basınç değişiminin monitorizasyonuyla ölçen yeni bir kan kültürü sistemi sunulmuştur. Önerdiğimiz yeni
+yöntem daha hızlı ve daha ekonomiktir. Yaptığımız literatür taramasında benzer bir ölçüm metoduna ilişkin
+hiçbir araştırmaya İngilizce yayınlanmış araştırmaya ulaşamadık. Klasik kan kültürü tüplerini kullandığımız bu
+yöntemde, tüplerde oluşan basıncın anlık eğim değişiminin ölçülmesine dayanan ve klasik kan kültürü ölçüm
+tüplerinde bakteriyel üreme sırasında oluşan gazların basınç değişimini çok hassas ölçebilen ekonomik bir cihaz
+tasarlandı. Yapılan ölçümlerde önerdiğimiz yöntemle, mevcut otomatize sisteme göre, pozitif raporlama için
+yedi kat ve negatif raporlama için 10 kat daha hızlı sonuç verilebileceği saptandı. Bu yöntem sayesinde, daha
+ekonomik olan standart ölçüm tüpleri kullanılarak çok daha hızlı ve ekonomik şekilde ön değerlendirmeler
+yapılabilecektir.
+
+1. GİRİŞ (INTRODUCTION)
+Günümüzde tıbbı teknolojide ve uygulamalardaki
+gelişmelere rağmen enfeksiyon hastalıkları halen en
+
+önemli ölüm ve hastalandırma nedenlerinden biridir.
+Toplumda ileri yaş grubunun artması, kronik hastalığı
+olanların yaşam sürelerinin uzaması, bağışıklığı
+baskılayan ilaçların yaygın kullanılması ve tanı ile
+
+G.Düzenli, O.Karabay
+
+Kan Kültürlerinin Düşük Maliyetli ve Hızlı Ölçülebilmesi İçin Yeni Bir Yaklaşım 
+
+tedavi amaçlı müdahalelerde artış, özellikle hastane
+kaynaklı enfeksiyon riskini de arttırmıştır [1, 2].
+Bakteriyemi; kan dolaşımında canlı bakterinin
+bulunması; septisemi (bir mikrobun organizmaya
+girmesi ve kanda çoğalmasının neden olduğu genel
+enfeksiyon), mikro-organizmalar ve toksinlerinin
+dolaşıma girmesiyle oluşan sistemik hastalık
+tablosudur. Bakteriyemi ve sepsis, yüksek
+hastalandırma ve ölüm oranları ile seyreder [3]. Hasta
+kanında mikro-organizma saptanması (pozitiflik),
+sadece tanı açısından değil, hastanın tedavi ve
+prognozu yönünden de son derece önemlidir. Kan
+kültürü pozitif olan hastalarda ölüm oranı, kan
+kültüründe üreme olmayanlardan (negatiflik) 12 kat
+yüksek olarak bildirilmiştir [4]. Bu nedenle kanında
+bakteri bulunan hastanın erkenden tespit edilmesi ve
+erkenden uygun antibiyotik tedavisine başlanması
+hastanın hayatını kurtarabilmektedir [5]. Hastanelerde
+yatan hastalarda bakteriyemi sıklığı %13-24
+oranındadır [4]. Hastanın durumu ağırlaştıkça
+bakteriyemi riski artar [6]. Yoğun bakım hastalarında
+bakteriyemi çok daha sıktır. Hastanın durumu
+ağırlaştıkça bakteriyemi şansı artmakta ve dolaşım
+sistemi enfeksiyonları antimikrobiyal ve destekleyici
+tedavilere rağmen hastalandırma ve ölümün ana
+nedenleri olmaya devam etmektedir. Bu nedenle kan
+dolaşımı enfeksiyonlarının erken tanısı ve uygun
+tedavi edilmesi klinik açıdan önemlidir[7, 8].
+Her yıl dünyada 1,8 milyon insan sepsis nedeniyle
+ölmektedir. Yaklaşık olarak 1000 kişiden üçünde
+sepsis görülmektedir [9]. Kalp nedenli ölümlerden
+sonra dünyada ölümün en sık ikinci nedeni sepsis ve
+bakteriyemidir [10]. Böyle bir durumda ölüm riski ise
+%30-70 olarak bildirilmektedir [11]. Kan kültürleri
+şüpheli enfeksiyon vakalarında mikrobik nedenleri
+tanımladığı gibi, tedavinin yönlendirilmesinde de rol
+oynar. Bu bakteriyemiye erkenden müdahale
+edilmezse hastanın yaşam şansı da azalmaktadır.
+Günümüzde çok ilaca dirençli bakterilerin neden
+olduğu bakteriyemi ve sepsislerin başarılı tedavisi için
+kanda
+bakterinin
+üretilmesi
+ve
+antibiyotik
+duyarlılığına göre tedavi edilmesi esastır [12]. Bugün
+kanında bakteri bulunan bir hastaya ilk 2 saat içinde
+antibiyotik başlanan hastaların %80’ni hayatta
+kalırken, 12 saat sonra başlanan hastalarda nerede ise
+bu oran yarıya düşmektedir [13]. Eğer sepsis halini
+bugünkünden daha erkenden gösterebilen sistemler
+tanımlanır ise hastalık daha önceden tanına bilecek ve
+daha erkenden tedavi başlanması sağlanabilecek ve
+daha fazla insanın hayatta kalması sağlanabilecektir
+[14].
+Yukarıda sayılan nedenlerden dolayı, kan kültürü
+ölçüm sistemlerinin olabildiğince hızlı sonuç vermesi
+hayati bir öneme sahiptir [15-18]. Fakat gelişmiş
+ülkelerde kullanılan otomatize kan kültürü ölçüm
+sistemlerinin ortalama pozitiflik süresi için 5-7 günde
+ancak sonuç verebilmektedir. Pahalı olan bu tür
+
+618
+
+otomatize sistemler kullanılmadığında kan kültürü
+ölçümlerin hatasız sonuçlandırılabilmesi için ortalama
+pozitiflik süresi için en az 8-10 gün sürebilmektedir.
+Önerilen yeni kan kültürü ölçme yöntemi mevcut
+otomatize yöntemlere göre en az 7 kat daha hızlı
+sonuç verebilmektedir. Mevcut otomatize sistemlerin
+ilk maliyeti yüksek olmasının yanında, özel ölçüm
+tüplerle çalıştığından sürdürebilir maliyeti de yüksek
+olmaktadır. Fakat önermekte olduğumuz yeni yöntem
+sadece standart malzemelerle çalışabildiğinden ilk
+maliyeti ve sürdürebilir maliyeti en az %30 daha ucuz
+olmaktadır.
+Bu çalışmada kan kültürlerindeki üremeyi basınç
+temelli yöntemle ölçme esasına dayanan bu yöntemin
+kullanılabilirliği ve zaman yönündeki etkinliğinin
+araştırılması amaçlanmıştır. Makalenin geri kalan
+kısmı şu şekilde organize edilmiştir. 2. Bölümde
+önerilen
+yöntemin
+temel
+çalışma
+prensibi
+anlatılmıştır. 3. Bölümde önerilen yöntemin
+geliştirilmesinde kullanılan bakteri türleri ve ölçüm
+tüplerinin hazırlanışı anlatılmıştır. 4. Bölümde ise
+ölçüm sonuçları verilmiştir. Sonuçlar ise 5. Bölümde
+yer almaktadır.
+2. YÖNTEM (METHOD)
+Burada önerdiğimiz yöntemin temel çalışma prensibi;
+kapalı kaplar içinde bakteri üremesiyle artan basıncın
+ölçülmesine dayanmaktadır. Gazların basıncı, gaz
+moleküllerinin sürekli kabın iç yüzeyine çarpmaları
+sonucu oluşmakta ve
+P=F/A
+
+(1)
+
+denklemiyle formüle edilmektedir. Burada P basınç, F
+kuvvet ve A yüzey alanını ifade etmektedir. Kabın iç
+yüzeyindeki birim yüzeye, birim zamanda çarpma
+sayısı ne kadar fazla ise, basınç da o kadar fazladır.
+Gaz moleküllerinin kabın iç yüzeyindeki her noktaya
+çarpma sayısı eşit olduğundan, her noktadaki gaz
+basıncı da eşit olmaktadır. Kapalı kaptaki gazların
+basıncı genel olarak üç niceliğe bağlı ve ideal gaz
+kanunu olan
+P×V=n×k×T
+
+(2)
+
+denklemiyle ifade edilmektedir. Burada V hacim, n
+molekül sayısı, k boltzman sabiti ve T sıcaklıktır.
+Sıcaklık ve hacim sabit ise gaz basıncı molekül sayısı
+ile doğru orantılıdır. Molekül sayısının artması
+basıncın artmasına neden olmaktadır.
+Önerilen yöntem, kapalı bir kapta üreyen bakterilerin
+üreme döngüleri sırasında kullandıkları karbondan
+dolayı oluşan CO2 (karbondioksit), N (azot) ve diğer
+gazların meydana getirdiği basıncın ölçülmesine
+dayanmaktadır. Girişimsel olarak mutlak basınç
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Kan Kültürlerinin Düşük Maliyetli ve Hızlı Ölçülebilmesi İçin Yeni Bir Yaklaşım
+
+ölçümü yapılarak bakteriyemini tespit edilmektedir.
+Mutlak basınç ölçümü vakumu referans anılarak
+yapılmaktadır. Mutlak basınç ölçümü yapan
+sensörlerde ideal vakumu oluşturmak imkansızdır. Bu
+nedenle, ölçümde kullanılan sensörler ideal vakuma
+en yakın olanı belirlenerek kullanılmıştır. Önerilen
+yöntem kapalı bir tüpteki oluşan basınç değerinin
+küçük adımlarla ve hassas ölçülerek eğim değerinin
+hesaplanmasına dayanmaktadır. Hesaplanan eğimlerin
+zamana bağlı değişimine göre bakteriyel üreme tespit
+edilmektedir. Basınç değerinin küçük olması
+nedeniyle basınç sensörün lineer ölçüm aralığının
+daha hassas (küçük adımlarla) ölçülebilmesi için iki
+tane enstrümentasyon kuvvetlendirici (En-Kuv) [19,
+20] ve 24bit’lik A/D çevirici kullanıldı (Şekil 1). Bu
+çalışma da en yaygın bulunan üç bakteri türünün
+ölçülmesiyle, pozitif ve negatif numunelerin eğim
+değişimi formüle edilmektedir. Formüle edilen eğim
+değişimi referans alınarak tüm bakterilerin
+belirlenebilmesi için genel bir yöntem önerilmektedir.
+3. BAKTERİLER (BACTERIA)
+Kanda bakteriyemi varlığını göstermek için önceleri
+monofazik kan kültürleri kullanıldı [21]. Daha sonra
+aynı yöntem biraz daha modifiye edilerek bifazik kan
+kültürleri geliştirildi. Bu sistemlerde klasik agar-broth
+birleşimini içeren şişeler (Castaneda şişeleri)
+kullanıldı. Ancak bu sistemler kan kültüründe
+bulanıklığın gözlenerek, pasaj alınması gerekmekte
+idi. Gerek monofazik gerekse bifazik kan kültürlerinin
+ortalama pozitiflik süresi en az 8-10 günü bulmakta
+idi. Bu durum da tedavide gecikmelere yol
+açmaktadır. Bunun üzerine otomatize kan kültürü
+sistemleri geliştirildi. İlk kez 1968 de tasarlanan bu
+sitemlerde karbon-14-işaretli (radyokarbon, kararsız
+radyoaktif karbon–14 izotopu) maddenin bakteriler
+
+G.Düzenli, O.Karabay  
+
+tarafından tüketilmeleri (üremeleri) sırasında açığa
+çıkan radyo-aktif karbondioksitin ölçülmesi yöntemi
+idi. Daha sonra 1983 de radyasyon yerine
+karbondioksitteki kızılötesi spektrumunu ölçen
+sistemler geliştirildi. Dünyaca çok yaygın kullanılan
+bu sistemler floresanla işaretli karbonun bakteriler
+tarafından tüketilmeleri (üremeleri) sırasında açığa
+çıkan karbondioksitin neden olduğu kızılötesi
+spektrumunun ölçülmesi prensibine dayanmaktadır.
+Bu sistemler ortalama 10 dakikada bir tüp içindeki
+kızılötesi spektrumunu ölçmekte ve bu ölçüm
+sonucuna göre karar vermektedir [22]. Dünya’da
+otomatize kan kültür sistemlerinden günümüzde çok
+sayıda laboratuvar yararlanmaktadır. Ancak bu
+sistemler birçok gelişkin ülkede yaygın olarak
+kullanılmasına rağmen ucuz değildir [23]. Bugün
+daha hızlı ve daha ucuz teknoloji ile üretilebilecek
+alternatiflere ihtiyaç vardır [24, 25].
+Birçok az gelişmiş ülkede sınırlı kaynakları nedeniyle
+tam
+otomatize
+kan
+kültürü
+sistemleri
+kullanılamamaktadır. Daha hızlı ve daha ucuz bir
+yöntemle çalışacak bir sistem geliştirilirse bu sistem
+çok faydalı olabilecek açıktır. Bu çalışmada kapalı bir
+tüpte bakteri üremesiyle basınç değişiminin
+saptanmasının çok daha hızlı ve çok daha ucuz bir
+şekilde kanda bakteri üremesini tespit edebileceğini
+hipotez ettik. Bu nedenle bu çalışmada çok daha
+hızlıön değerlendirme yapabilen yeni bir kan kültür
+ölçmeyöntemi önerilmektedir. Önerilen yeni yöntem,
+mevcut otomatize yöntemlerine göre, çok daha hızlı
+ölçüm yapabilmekte ve sadece standart ekonomik
+ölçüm tüplerini kullanmaktadır [3, 26].
+Bu çalışma için standart kökenler kullanıldı. Deney
+aşamasında
+Escherichia coli,
+Staphylococcus
+epidermidis (Methicillin Sensitive) ve Candida
+
+Şekil 1.Önerilen yöntemin temel ölçüm yapısı(The basic measurement structure of the proposed method)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+619
+
+Kan Kültürlerinin Düşük Maliyetli ve Hızlı Ölçülebilmesi İçin Yeni Bir Yaklaşım 
+
+G.Düzenli, O.Karabay
+
+albicans kullanıldı. Liyofilize stok kültür halindeki
+bakteri ve Candida kökeni çalışma günü %0,9 NaCl
+solüsyonunda çözüldü. Bu solüsyondan %5 koyun
+kanlı agara ekim yapıldı ve 35C 24 saat aerop
+ortamda inkübe edildi. Elde edilen bakterilerden Mc
+Farland 1 nolu tüp bulanıklığında solüsyon elde
+edildi. Buradan alınan 0,1 ml solüsyon hemokültür
+tüplerine doğrudan veya deneyin gereğine göre steril
+kan örneğine karıştırılarak ekimler yapıldı. Her bir
+bakteri türü için 20 adet olmak üzere toplam 60 adet
+ölçüm yapılarak basınç değişimlerine ait eğimler
+hesaplandı.
+4.
+
+ÖLÇÜM
+
+SONUÇLARI
+
+(MEASUREMENT
+
+RESULTS)
+
+Önerilen sistemin ölçüm düzeneği Şekil 2’de
+görülmektedir. Mikroişlemci her 10-2 saniye de bir
+basınç ve sıcaklık değerini ölçmektedir. Her 100
+ölçüm sonunda basınç değerinin eğimi ve sıcaklık
+değerinin
+ortalaması
+alınarak
+bilgisayara
+gönderilmektedir. Böylece her saniyede bir
+bilgisayara ölçüm değerleri gönderilerek toplam 24
+saatlik ölçümler alınmaktadır. Ölçümler nötür, negatif
+ve pozitif numuneler olarak üç grup halinde
+yapıldı.Nötür numuneler için bakteri ve kan
+bulunmayanhemokültür tüpün ölçümü yapıldı.
+Negatif numunelerin ölçümü ise bakteri içermeyen
+kan yani steril kan kullanılarak yapıldı. Pozitif
+ölçümler için ise en yaygın olan Escherichia coli,
+Candida albicans ve Staphylococcus epiderimdis
+
+bakterilerini içeren kan ölçümleri yapıldı. Toplamda
+ise 5 farklı ölçüm numunesinin (nötür, steril,
+Escherichia coli, Candida albicans ve Staphylococcus
+epiderimdis) her biri için 20 ölçüm yapıldı. Farklı
+kişilere ait kan örnekleri kullanılarak tekrar edilen
+ölçümlerin sonuçları en fazla %5’lik bir farkla aynı
+olduğundan her birisine ait tek bir ölçüm sonucu Şekil
+3’de gösterilmiştir.
+Bu şekilden görüldüğü üzere bakteri ve kan
+bulunmayan nötür hemokültür tüpünün ölçüm
+sonuçlarının yatay eğriler olarak elde edilmektedir.
+Steril kan yani üreme olmayan örneklerinden elde
+edilen ölçüm sonuçlarının hepsi azalan eğriler olarak
+elde edilmektedir. Buna karşılık bakteri içeren tüm
+ölçüm sonuçlarında ise artan bir eğri değişimi elde
+edilmektedir. Nötür, negatif ve pozitif ölçüm
+numunelerin ilk 3 saatlik ölçümleri göz önüne
+alındığında hepsinin eşdeğer bir değişim gösterdiği
+görülmektedir. Bu eşdeğer değişimin nedeni
+hemokültür tüplerin saklama sıcaklığı yani ilk sıcaklık
+değerinin 5C olmasından kaynaklanmaktadır.
+Hemokültür
+tüplerin
+ölçümü
+sabit
+37C
+yapıldığından, ilk ölçüm anındaki sıcaklık değeri olan
+5C’den 37C gelmesine kadar tüp içindeki basınç
+artmaktadır. Hemokültür tüpün ölçüm sıcaklığına
+gelmesinden sonra ölçüm numunenin içeriğine göre
+sabit, azalan veya artan bir değişim göstermektedir.
+
+Şekil 2.Önerilen kan kültürü ölçme sistemin görüntüsü(The image of the proposed blood culture measurement system)
+
+620
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+G.Düzenli, O.Karabay  
+
+Kan Kültürlerinin Düşük Maliyetli ve Hızlı Ölçülebilmesi İçin Yeni Bir Yaklaşım
+
+Şekil 3. Nötür, negatif ve pozitif hemokültür tüplerin basınç değişim grafiği.(The pressure variations graphic of neutral,
+negative and positive blood culture tube)
+
+Nötür hemokültür tüpün ölçüm sıcaklığına
+gelmesinden sonra sıcaklık ve molekül sayısında bir
+değişim olmamasından dolayı basınç sabit
+kalmaktadır. Buna karşılık negatif numunelere ait
+ölçümlerde basınç belli bir tepe değerinden sonra
+sabit bir eğimle azalmaktadır. Steril kan içeren
+tüplerin belli bir süreden sonra azalmasının nedeni,
+basit bir ifadeyle, kan moleküllerinin ölmesinden yani
+azalmasından dolayıdır. Pozitif numunelerin belli bir
+süreden sonra artan bir değişim göstermesinin nedeni
+bakterilerin hemokültür tüpün içerisinde bulunan
+agar-broth besiyerinden dolayı üremesi yani molekül
+sayısının artması ve buna bağlı CO2, N ve diğer
+gazların meydana gelmesinden dolayıdır. Bunların
+arasında en hızlı üreyen bakteri Escherichia coli’ dir.
+Escherichia coli’nin ayırt edilebilmesi için gereken
+minimum süre sadece 6 saattir. En yavaş üreyen
+bakteri ise Staphylococcus epiderimdis dir.
+Staphylococcus epiderimdis’in ayırt edilebilmesi için
+geçmesi gereken minimum süre 12:33 saattir. Tablo
+1’de ölçümlerin eğimleri ve eğimlerin başlangıç
+noktası olarak alındı eksenin değerleri verilmiştir. Bu
+tablodan görüldüğü üzere bakteri içeren kan kültürleri
+belli bir süreden sonra eğimleri yani basınçları
+artmaktadır. Buna karşılık bakteri içermeyen kan
+kültürleri belli bir süreden sonra eğimi yani basıncı
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+azalmaktadır. Her iki durumda da molekül sayısının
+değişmesine bağlı olarak basınç artmakta veya
+azalmaktadır. Buna karşılık nötür yani hiç kan
+içermeyen numunelerin molekül sayılarında herhangi
+bir değişme olmadığından basıncı belli bir süreden
+sonra sabit kalmaktadır.
+Tablo 1. Ölçülen numunelerin eğimleri ve eğimin
+başlangıç noktasına ait eksen takımın değerleri.(The
+slope of the measurements samples and the axis values of the
+starting point of the slopes.)
+
+Eğim
+Nötür
+Steril kan
+Escherichia coli
+Candida albicans
+Staphylococcus
+epiderimdis
+
+0
+-10,59
+76,73
+44,72
+19,78
+
+Eğimin başlangıç
+noktası
+Saat
+Basınç
+3:53 2,17 psi
+2:48 2,19 psi
+6:00 2,20 psi
+10:36 1,55 psi
+12:33
+
+1,94 psi
+
+Buradaki ölçüm sonuçlarında negatif (bakteri
+içermeyen) numunelerin pozitif (bakteri içeren)
+numunelerinde kolayca ayırt edilebilmektedir. Fakat
+unutulmamalıdır ki farklı yoğunlukta ve türdeki
+
+621
+
+Kan Kültürlerinin Düşük Maliyetli ve Hızlı Ölçülebilmesi İçin Yeni Bir Yaklaşım 
+
+G.Düzenli, O.Karabay
+
+bakterilerin üreme/basınç değişimi farklı olmaktadır.
+Fakat yine de artan bir eğimle olmasından dolayı
+önerdiğimiz sistem hatasız ve her tür bakteriyi
+belirleyebilmesi için eğimin değişimi dikkate
+alınmaktadır. Bunlar temel alınarak her tür bakteri
+için hızlı ve hatasız sonuç verebilmek için
+önerdiğimiz ölçüm yönteminin adımları aşağıdaki
+gibidir:
+1) Ölçüm başlatıldıktan 4 saat sonra veya basınç
+değeri 2.5psi geçtikten sonra eğimler hesaplanmaya
+başlanılmaktadır.
+2) Her
+dakikanın
+sonunda
+anlık
+eğim
+hesaplanmaktadır.
+3) Son
+15
+anlık
+eğimlerin
+ortalaması
+hesaplanmaktadır.
+4) Son 15 anlık eğimin ortalama açısı en az 45
+olduğunda ölçülen numunenin bakteri içerdiği yani
+pozitif olduğu sonucu verilmektedir.
+5) Son
+60
+anlık
+eğimlerin
+ortalaması
+hesaplanmaktadır.
+6) Son 60 anlık eğimin ortalama açısı en az 15
+olduğunda ölçülen numunenin bakteri içerdiği yani
+pozitif olduğu sonucu verilmektedir.
+7) 24 saatin sonunda eğim negatif ise numune bakteri
+içermediği yani negatif olduğu sonucu verilmektedir.
+8) 24 saatin sonunda eğim negatif değilse belirsiz
+numune olduğu sonucu verilmektedir.
+Bu adımlardaki tüm sayısal değerler deneylerde elde
+edilen sonuçlardan yararlanılarak belirlenmiştir.
+Önerdiğimiz bu yöntemin doğruluğunu gösterebilmek
+için farklı yaş ve cinsiyette işlemleri bitmiş ve atılmak
+üzere olan her türlü testleri yapılmış olan 20
+gönüllüden laboratuvar ortamında alınan kan
+örneğinin kan kültür ölçümleri yapıldı. Önerdiğimiz
+sistemde ve mevcut ölçüm sisteminde bu 20
+gönüllünün kan kültürleri ölçüldü ve sonuçları
+karşılaştırdı. Önerdiğimiz yöntemin %100 doğrulukla
+olduğu gözlendi. Toplam 11 pozitif sonucu ortalama
+10 saatte ve 9 negatif sonucu 24 saatte hatasız olarak
+vermektedir (Tablo 2). Aynı sonuçları mevcut ölçüm
+sistemi pozitif için 3-4 günde ve negatif için 10-12
+günde vermektedir. Sonuçlardan görüldüğü üzere
+önerilen yeni ölçüm yöntemi mevcut ölçüm
+sistemlerine göre çok daha hızlı ve standart ölçüm
+tüpleri kullanarak %100 doğrulukla sonuç
+vermektedir.
+Tablo 2.Gerçek koşullarda kan kültürü kullanılarak
+yapılan ölçüm sonuçları(Measurement results of blood
+cultures originating from real conditions)
+
+Cinsiyet
+Erkek
+Kadın
+
+622
+
+Kişi
+sayısı
+
+Yaş
+aralığı
+
+8
+3
+5
+4
+
+19-75
+23-37
+18-64
+20-59
+
+Ortalama
+ölçüm
+süresi
+9:41
+24:00
+10:28
+24:00
+
+Sonuç
+Pozitif
+Negatif
+Pozitif
+Negatif
+
+5. SONUÇ (CONCLUSION)
+Önerdiğimiz yeni kan kültürü ölçüm sistemi basınç
+değerlerini
+ölçerek
+eğimin
+hesaplanmasına
+dayanmaktadır. Hesaplanan eğim ve sıcaklık değeri
+ile bakteri üremesinin düzeyi belirlenmektedir.
+Yapılan
+deneylerde
+önerdiğimiz
+yöntemin
+mevcutölçüm sistemlerine göre aynı doğrulukta fakat
+çokdaha hızlı sonuç verebilmektedir. Önerdiğimiz
+yeni kan kültürü ölçüm yöntemi ile bakteri üremesine
+pozitif demek için gereken sürenin yaklaşık 10 saat ve
+negatif demek için gereken sürenin ise 24 saattir.
+Oysaki kızılötesi ışığın ölçülmesine dayanan
+yöntemlerin pozitif demek için gereken minimum
+sürenin 72 saat ve negatif demek için gereken sürenin
+ise 240 saattir. Başka bir ifadeyle, eğim değişiminin
+formüle edilmesine dayanan yöntemimiz mevcut
+yöntemlere göre pozitif için 7 kat ve negatif için 10
+kat daha hızlı sonuç verebilmektedir. Tüm bu
+sonuçlar çok sayıda yapay ve gerçek ölçümlerle
+doğrulanmıştır.
+Mevcut floresan işaretli karbondioksit ölçüm
+sistemleri yıllardan beri bütün dünyada yaygın
+kullanılmasından dolayı standardize hale gelmiş ve
+hemen her ülkede ulaşılabilir yöntemler olmuşlardır.
+Bugün birçok ülkede cihazlarına kolaylıkla
+ulaşılabilmekte ve birçok laboratuvar teknisyeni de bu
+cihazların kullanımı konusunda bilgi sahibidir. Oysa
+sunduğumuz bu teknik yenidir ve basınç esasına göre
+çalışmaktadır. Birçok teknisyen pahalı ve geç sonuç
+vermesine rağmen alışkanlıklarından ötürü klasik
+sistemle çalışmak istemesi doğaldır. Ancak
+sunduğumuz sistem hızlı ve ucuzluğu ile klasik
+sistemden üstündür. Sistemi kullanıcı dostu hale
+getirecek ara yüz yazılımlarla kolayca kullanımı
+yayılabilir.
+Mevcut floresan işaretli karbondioksit ölçüm
+sistemlerinin ekipmanları özel olmasından dolayı ilk
+kurulum ve ölçüm tüp maliyeti yüksek olmaktadır.
+Buna
+karşılık
+önerdiğimiz
+sistemin
+tüm
+gereksinimleri piyasada çokça bulunan standart
+elektronik elemanlardan oluşmakta ve standart ölçüm
+tüplerle çalışmaktadır. Piyasada çokça bulunan
+standart malzemelerin kullanılması mevcut sistemlere
+göre çok daha ekonomik olacağı açıktır. Böyle bir
+sistem yaygın kullanım alanı bulabilmesi kaynakları
+sınırlı birçok ülke için bakteriyemi ve sepsis tanısında
+önemli bir yer bulabilecektir.
+KAYNAKLAR (REFERENCES)
+1.
+
+Sehulster, L.M., Chinn, R.Y.W., Arduino, M.J.,
+Carpenter, J., Donlan, R., Ashford, D., Besser, R.,
+Fields, B., McNeil, M.M., Whitney, C., Wong,
+S., Juranek, D. ve Cleveland, J., “Guidelines for
+environmental infection control in health-care
+facilities”, Recommendations of CDC and the
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+Kan Kültürlerinin Düşük Maliyetli ve Hızlı Ölçülebilmesi İçin Yeni Bir Yaklaşım
+
+Healthcare Infection Control Practices Advisory
+Committee, Atlanta, A.B.D., 2003.
+2. Craig, A., Umscheid, M.D., Rajender, K.,
+Agarwal, M.D., Patrick, J. ve Brennan, M.D.,
+“Guidelines for environmental infection
+control
+in
+health-care
+facilities”,
+Recommendations of CDC and the Healthcare
+Infection Control Practices Advisory Committee,
+Atlanta, A.B.D., 2009.
+3. Weinstein, M.P., “Current blood culture methods
+and systems: clinical concepts, technology and
+interpretation of results”, Clinical Infectious
+Diseases, Cilt 23, No 1, 40-46, 1996.
+4. Starnes, M.J., Brown, C.V., Morales, I.R.,
+Hadjizacharia, P., Salim, A., Inaba, K., Rhee, P.
+ve Demetriades, D., “Evolving pathogens in the
+surgical intensive care unit: A 6-year
+experience”, Journal of Critical Care, Cilt 23,
+No 4, 507-512, 2008.
+5. Paul, M., Kariv, G., Goldberg, E., Raskin, M.,
+Shaked, H., Hazzan, R., Samra, Z., Paghis, D.,
+Bishara, J. ve Leibovici, L., “Importance of
+appropriate empirical antibiotic therapy for
+methicillin-resistant
+Staphylococcus
+aureus
+bacteraemia”, Journal of Antimicrobial
+Chemotherapy, Cilt 65, No 2658–2665, 2010.
+6. Diekema, D.J., Beekmann, S.E., Chapin, K.C.,
+Morel, K.A., Munson, E. ve Doern, G.V.,
+“Epidemiology and outcome of no-socomial and
+community-onset
+bloodstream
+infection”,
+Journal of Clinical Microbiology, Cilt 41, No 8,
+3655-3660, 2003.
+7. Barenfanger J., Graham D.R., Kolluri L.,
+Sangwan G., Lawhorn J., Drake C.A., Verhulst
+S.J., Peterson R., Moja L.B., Ertmoed M.M.,
+Moja A.B., Shevlin D.W., Vautrain R. ve
+Callahan C.D., “ Decreased mortality associated
+with prompt Gram staining of blood cultures”,
+American Journal of Clinical Pathology. Cilt
+130, No 6, 870-876, 2008.
+8. Makristathis, A., Riss, S. ve Hirschl, A.M., "A
+novel fluorescence in situ hybridization test for
+rapid pathogen identification in positive blood
+cultures", Clinical Microbiology and Infection,
+Basımda, 2014.
+9. Martin, G.S., Mannino, D.M., Eaton, S. ve Moss,
+M., “The epidemiology of sepsis in the United
+States from 1979 through 2000”, The New
+England Journal Of Medicine, Cilt 348, No 16,
+1546-1554, 2003.
+10. Vincent, J.L., Sakr, Y., Sprung, C.L., Ranieri,
+V.M., Reinhart, K., Gerlach, H., Moreno, R.,
+Carlet, J., Le Gall, J.R. ve Payen, D., “Sepsis in
+European intensive care units: results of the
+SOAP study”, Critical Care Medicine, Cilt 34,
+No 2, 344-353, 2006.
+11. Bone, R.C., Balk, R.A., Cerra, F.B., Dellinger,
+R.P., Fein, A.M., Knaus, W.A., Schein, R.M. ve
+Sibbald, W.J., “Definitions for sepsis and organ
+failure and guidelines for the use of innovative
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+G.Düzenli, O.Karabay  
+
+therapies in sepsis”, Chest Journal. Cilt 101, No
+6, 1644-1655, 1992.
+Murray, P.R., Traynor, P. ve Hopson, D.,
+“Critical assessment of blood culture techniques:
+analysis of recovery of obligate and facultative
+anaerobes, strict aerobic bacteria, and fungi in
+aerobic and anaerobic blood culture bottles”,
+Journal of Clinical Microbiology, Cilt 30, No 6,
+1462-1468, 1992.
+Leea, D.H., Kimb, S.C., Baec, G., Koha, E.H., ve
+Kima, S., “Clinical Evaluation of BacT/Alert FA
+Plus and FN Plus Bottles Compared with
+Standard Bottles” Journal of Clinical
+Microbiology, Cilt 51, No 12, 4150-4155, 2013.
+Deck, M.K., Anderson, E.S., Buckner, R.J.,
+Colasante, G., Davis, T.E., Coull, J.M., Crystal,
+B., Latta, P.D., Fuchs, M., Fuller, D., Harris, W.,
+Hazen, K., Klimas, L.L., Lindao, D., Meltzer,
+M.C., Morgan, M., Shepard, J., Stevens, S., Wu,
+F. ve Fiandaca, M.J., "Rapid detection of
+Enterococcus spp. direct from blood culture
+bottles using Enterococcus QuickFISH Method: a
+multicenter
+investigation",
+Diagnostic
+Microbiology and Infectious Disease, Cilt 78,
+No 4, 2014.
+Yossepowitch, O., Dan, M., Kutchinsky, A.,
+Gottesman, T. ve Schwartz-Harari O., "A costsaving algorithm for rapid diagnosis of
+Staphylococcus aureus and susceptibility to
+oxacillin directly from positive blood culture
+bottles by combined testing with BinaxNOW® S.
+aureus and Xpert MRSA/SA assay", Diagnostic
+Microbiology and Infectious Disease, Cilt 78,
+No 4, 352-355, 2014.
+Randa, K.H. ve Delanob, J.P., "Direct
+identification of bacteria in positive blood
+cultures: comparison of two rapid methods,
+FilmArray and mass spectrometry", Diagnostic
+Microbiology and Infectious Disease, Basımda,
+2014.
+Wanga, M.C., Linc, W.H., Yand, J.J., Fange,
+H.Y., Kuoa, T.H., Tsenga, C.C. ve Wuf, J.J.,
+"Early identification of microorganisms in blood
+culture prior to the detection of a positive signal
+in the BACTEC FX system using matrix-assisted
+laser desorption/ionization–time of flight mass
+spectrometry", Journal of Microbiology,
+Immunology and Infection, Basımda, 2013.
+Wojewoda, C.M., Sercia, L., Navas, M., Tuohy,
+M., Wilson, D., Hall, G.S., Procop, G.W. ve
+Richter, S,S., "Evaluation of the Verigene grampositive blood culture nucleic acid test for rapid
+detection
+of
+bacteria
+and
+resistance
+determinants",
+Journal
+of
+Clinical
+Microbiology, Cilt 51, No 2072–2076, 2013.
+Warke, N.V., Vaidya, P.P. ve Nair, J.M.,
+"Exploring a new method for improving dynamic
+range of instrumentation amplifier for processing
+low voltage signals", IEEE 2013 International
+Conference on Emerging Trends in
+
+623
+
+G.Düzenli, O.Karabay
+
+Kan Kültürlerinin Düşük Maliyetli ve Hızlı Ölçülebilmesi İçin Yeni Bir Yaklaşım 
+
+Communication, Control, Signal Processing &
+Computing Applications, Bangalore, Hindistan,
+1-4, 10-11 Eylül 2013.
+20. Srivastava, N., Shadab, A. ve Shukla, G., "Yokto
+(10-24V) Instrumentation Amplifier" IEEE 2012
+Third International Conference on Computer
+and Communication Technology, Allahabad,
+Hindistan, 116-121, 23-25 Kasım 2012.
+21. Salami, M.O., Alu, S.O., Opalekunde, A.B. ve
+Oladipo, O.A., “Comparative Analysis between
+Monophasic and Biphasic Methods of Blood
+Culture”, Journal of Biology, Agriculture and
+Healthcare, Cilt 2, No 4, 41-46, 2012.
+22. Snyder, J.W. ve Lude, S.K., “Comparison of
+BacT/Alert FAN medium with Bactec NR660
+plus 26A medium”, Journal of Clinical
+Microbiology, Cilt 34, No 5, 1327-1329. 1996.
+23. Shoaei,
+S.D.,
+Gachkarl,
+L.,
+Rafizadeh,
+M.,Saphadel, N. ve Phaghani, Y.A., “Comparison
+
+624
+
+of Mono and Biphasic Culture Media in Isolating
+Bacteria from Blood and evaluation Bu-Ali
+Hospital Lab Quality”, Journal of Paramedical
+Sciences, Cilt 2, No 1, 56-59, 2011.
+24. Mirrett, S., Petti, C.A., Woods, C.W., Magadia,
+R., Weinstein, M.P. ve Reller, L.B., “Controlled
+clinical comparison of the BacT/ALERT FN and
+the
+standard
+anaerobic
+SN
+blood
+culturemedium”,Journal
+of
+Clinical
+Microbiology, Cilt 42, No 10, 4581-4585, 2004.
+25. Shanson, D.C., “Blood culture technique: current
+controversies”, Journal of Antimicrobial
+Chemotherapy, Cilt 25, No Suppl C, 17-29,
+1990.
+26. Weckbach, L.S. ve Staneck, J.L., “Performance
+Characteristics of a Commercially Prepared
+Biphasic Blood Culture Bottle”, Journal of
+Clinical Microbiology, Cilt 23, No 4, 700-703,
+1986.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+

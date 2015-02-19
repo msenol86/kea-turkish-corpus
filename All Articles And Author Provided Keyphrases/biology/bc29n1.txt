@@ -1,0 +1,851 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 1, 149-154, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 1, 149-154, 2014
+
+İLAÇ İLAÇ ETKİLEŞİMLERİNİN JORDAN ELMAN AĞLARI
+KULLANILARAK SINIFLANDIRILMASI
+Fırat HARDALAÇ, Uğurhan KUTBAY
+Gazi Üniversitesi, Mühendislik Fakültesi, Elektrik Elektronik Müh. Bölümü, 06570, Maltepe, Ankara
+firat@gazi.edu.tr, ukutbay@gazi.edu.tr
+(Geliş/Received: 11.07.2012; Kabul/Accepted: 14.11.2013)
+ÖZET
+İlaç kullanımı birçok risk içermektedir. Bu riskler hastanede yatış için kabul alanların aldıkları ilaçla ilgili
+problemler, hastanede yatış sırasında alınan ilaca bağlı sorunlar, taburcu edilmeden alınan ilaç problemleri,
+medikal hatalar ve ilaç ilaç etkileşimleri(İİE)dir [1]. İİE’lerin ölümcül etkilerinden dolayı, FDA (U.S. Food and
+Drug Administration) ve EMEA (European Medicines Agency) bu alanda çalışmalar yapmaktadır [2]. Lazarou
+ve arkadaşlarına göre hastanede yatan hastaların %6,7’sinde, %0,32’lik bir oranda ölümcül İİE tespit edilmiştir
+[3]. İİE’den dolayı ölümlerin ABD’ye maliyeti yıllık 136milyar$ olmaktadır [4]. İİE’lerin ölümcül etkilerinin
+önüne geçilmesi için bu çalışmada İİE’lerin yapay sinir ağlarıyla sınıflandırılması amaçlanmaktadır. Bu
+çalışmada Jordan Elman Ağları bazı İİE’lere uygulanmış ve sınıflandırma işlemi 1000 adımda eğitilmiştir.
+Eğitimin 149 adım sonunda Levenberg Marquardt öğrenme algortimasıyla 0,0305’lik bir MSE ile Jordan ağı
+oluşturulmuş ve ağın test sonucu 0,8177’lik korelasyon katsıyısı elde edilmiştir. Bu çalışma ayrıca Türkiye
+Cumhuriyeti Bilim Sanayi ve Teknolji Bakanlığı tarafından 00912.STZ.2011-1 kod numaralı “İlaç Etkileşimleri”
+projesi olarak desteklenmiştir.
+A1. GİRİŞ (INTRODUCTION)
+Eğer bir ilacın yapısı diğer bir ilacın yapısını
+değiştirirse, İİE oluşur. İlacın toksisitesi arttığı zaman,
+İİE’lerin sonuçları ölümcül olabilir. Pirmohamed ve
+
+arkadaşları, bütün hastanelerde yatan hastaların
+%1’inde ilaç etkileşimlerinin olduğunu belirtmişlerdir
+[5]. Jankel ve arkadaşlarına göre, hastanede yatan
+hastaların İİE’lerinin oranının %2,8’e kadar çıkmıştır.
+Lepori ve arkadaşları, İsveç’te hastanede yatan
+
+F. Hardalaç, U. Kutbay
+
+İlaç İlaç Etkileşimlerinin Jordan Elman Ağları’nın Kullanılarak Sınıflandırılması 
+
+hastaların %1,3’ünde İİE olduğunu göstermişlerdir
+[6]. Bu sonuçlara göre İİE, ilaç kullanımında ciddi bir
+problemdir.
+Bu çalışma ilaç ilaç etkileşimlerini Jordan Elman
+Ağları (JEA) ile sınıflandırmayı amaçlamıştır. Jordan
+ve Elman Ağları incelenmiş ve sonuçlar kısmında
+değerlendirilmiştir.
+
+Tablo 1. İİE’yi sınıflandırma kategorileri
+
+(Classification
+
+categories of DDIs)
+
+Sınıflar Açıklama
+1
+
+Klinik bir etkileşim gözlenmemektedir.
+
+2
+
+Etkileşimlerin klinik sonuçları
+birbirinden farklı veya kesin değildir.
+
+3
+
+Klinik olarak etkileşim vardır ancak doz
+ayarlaması yapılabilir.
+Klinik olarak etkileşim vardır ve bu ilaç
+kombinasyonlarından kaçınılmalıdır.
+
+JEA, Çok Katmanlı Algılayıcı ağ yapısının
+geliştirilmiş halidir ve JEA iki katmanlı geri
+beslemeden oluşur [7]. JEA zamansal değişkenler ve
+durum bağlılıkları içermektedir [8]. Yapay sinir
+ağlarının başarısından dolayı, sel tahminlerinde [9],
+sayısal
+noktalı
+resimlerin
+gri
+tonunun
+oluşturulmasında [10], döviz kuru tahmininde [11],
+elektrik gücü yük tamininde [12], tren hız
+sınırlamalarının süre serisinin tahmininde [13], sonlu
+impuls cevaplı filtre tasarımı [14], anestezik ilaçların
+belirlenmesi [15], gibi konularda kullanılmaktadır.
+
+Networks-JENs)
+
+Bu çalışmada materyel ve metod kısmı JEA’nın
+yapısını açıklayacaktır. Deneysel sonuçlar kısmında
+JEA’nın parametreleri ve sonuçları inceleyecektir.
+Sonuçlar
+kısmında
+ise
+deneysel
+sonuçlar
+karşılaştırılacak
+ve
+sınıflandırma
+işlemi
+incelenecektir.
+
+Yinelenebilen
+mimariler
+birçok
+problemin
+çözümünde mühendisler tarafından kullanılmaktadır.
+Yinelenebilen ağlar istenilen çıkış elde edilinceye
+kadar ağ yapısını değiştirebilecek yeteneğe sahiptir
+[16]. Yinelenebilen yapay sinir ağları, ağ yapısını
+eğitim aşamasında değiştirirler [17].
+
+2. MATERYAL VE METOTLAR
+
+Yapay Sinir Ağları yapısından dolayı paralel
+çalışabilmektedirler ve algoritmik değildirler [18].
+Paralel hesaplama teknikleri yapay sinir ağlarında
+kullanılmaktadır. Paralel hesaplama teknikleri
+karmaşık verileri çok kısa sürede inceleyebilmektedir.
+
+(MATERIAL AND
+
+METHODS)
+
+Bu çalışmada İİE yedi kategoride sınıflandırılmış ve
+Tablo 1’de gösterilmiştir. Bu kategoriler; klinik bir
+etkileşim gözlenmemektedir (1), etkileşimlerin klinik
+sonuçları birbirinden farklı veya kesin değildir (2),
+klinik olarak etkileşim vardır ancak doz ayarlaması
+yapılabilir (3), klinik olarak etkileşim vardır ve bu ilaç
+kombinasyonlarından kaçınılmalıdır (4), (1) veya (2)
+gözlemlenebilmektedir grup (5),
+(2) veya (3)
+gözlemlenebilmektedir grup (6),
+(3) veya (4)
+gözlemlenebilmektedir grup (7)’yi temsil etmektedir.
+Bu sınıflandırma 57 farklı ilaç etken maddesi için ve
+244 İİE için incelenmiştir. JEA işlemleri 145 eğitim
+ve 99 test verisi için gerçekleştirilmiştir. Bu çalışmada
+İİE’nin JEA yapısıyla sınıflandırılmasını ve ağın
+başarısını ölçmeyi amaçlamıştır.
+
+4
+5
+
+(1) veya (2) gözlemlenebilmektedir.
+
+6
+
+(2) veya (3) gözlemlenebilmektedir.
+
+7
+
+(3) veya (4) gözlemlenebilmektedir.
+
+2.1. Jordan Elman Ağları-JEA (Jordan Elman
+
+JEA ağın eski değerleri ile şimdiki giriş değerlerini
+birleştirerek NET çıkışlarını elde eder. JEA’da giriş
+ağın katmanından kopyalanır ancak NET çıkışlar
+katmanların adaptif ağırlığına göre düzenlenir.
+Katmanlar girişin geçmiş değerlerini saklarlar, fakat
+bu saklama işlemi ekponansiyel olarak silinirek bellek
+yapısı doldurulmaz.
+Elman ağı gizli katmandan hafıza hücresine bir
+bağlantı oluşturur ve hafıza değerleri verilen bir
+zaman değerine göre(t) Şekil 1(a)’daki gibi
+değiştirilir. Elman ağı, yapay sinir ağının bir sonraki
+iterasyonuna kadar, eski değerleri tutar. Bu değerlerin
+
+Şekil 1. (a)Elman Ağ Yapısı (b) Jordan Ağ yapısı ((a) Elman Network Structure (b) Jordan Network Structure)
+
+150
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 1, 2014
+
+F. Hardalaç, U. Kutbay 
+
+İlaç İlaç Etkileşimlerinin Jordan Elman Ağları’nın Kullanılarak Sınıflandırılması
+
+değiştirilmesi, uygun ağırlık değerlerine ulaşılıncaya
+kadar devam eder [19].
+
+2’de görülebileceği
+çıkmıştır.
+
+Bunun aksine Jordan ağı eski değerleri çıkış
+katmanından alarak hafıza değerlerini Şekil 2’deki
+gibi oluşturur. Hafıza hücresi çıkış değerlerini çıkış
+katmanından alır. Hafıza katmanı bir sonraki
+iterasyon değerine kadar bu bilgiyi saklar.
+
+Tablo 2. JEA’nın Momentum Öğrenme Kuralı İçin
+Katman Verileri (JEN’s Layer Parameters for Momentum
+
+Hafıza hücresi, eski değerleri girişte kullanıncaya
+kadar uygular. Bu işleme yenileme gradyeni denilir
+[9]. Eski değerleri değiştirme işlemi eksponansiyel
+olarak gerçekleştirilir. Bu değişimin sonucu olarak,
+ağırlıklar eski bağlantılara göre daha güçlenirler.
+Hafıza hücresinin zaman sabitesi [0,1] aralığında
+değiştirilebilmektedir. Zaman sabitesi “1” değerine
+yaklaştığında hücre hafızası daha uzun bir hafızaya
+sahip olmaktadır. Zaman sabitesi “0” değerine
+yaklaştığında ise tam tersi durum söz konusu
+olmaktadır.
+3.
+
+DENEYSEL
+
+SONUÇLAR
+
+Gizli Katman
+
+ n
+P
+
+MSE 
+
+N
+
+j 0 i 0
+
+ij
+
+Aktivasyon
+Fonksiyonu
+
+TanjantHiperbolik
+Eksen
+
+Öğrenme Kuralı
+
+Çıkış Nöron Sayısı
+
+7
+
+Hafıza Nöronunun
+Zaman Sabitesi
+Çıkış Katmanı
+
+Adım
+aralığı:0,1
+Momentum:0,7
+
+0,8
+
+Aktivasyon
+Fonksiyonu
+
+TanjantHiperbolik
+Eksen
+Momentum
+
+Öğrenme Kuralı
+
+Adım
+aralığı:0,1
+Momentum:0,7
+
+Gerçekleştirme
+Sayısı :1000
+Tablo 3. JEA’nın Levenberg Marquardt Öğrenme
+Kuralı İçin Katman Verileri (JENs’ Layer Parameters For
+Levenberg Marquardt Learning Rule)
+
+Nöron Sayısı
+
+Gizli Katman
+
+4
+
+Hafıza
+Nöronunun
+Zaman Sabitesi
+
+0,8
+
+Aktivasyon
+Fonksiyonu
+Öğrenme Kuralı
+
+TanjantHiperbolik
+Eksen
+Levenberg
+Marquardt
+
+Çıkış Nöron
+Sayısı
+(1)
+
+Burada P çıkış eleman sayısını, N veri sayısını, nij
+çıkış nöronunun i ve j’ninci elemanlarını, dij ise i ve
+j’ninci
+elemanların
+istenilen
+çıkışlarını
+göstermektedir.
+Momentum Öğrenme Kuralı, Jordan ağına 1000 adım
+aralığında uygulanmış (Momentum adım aralığı 0,1
+ve momentum katsayısı 0,7), MSE Tablo 3 ve Şekil
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 1, 2014
+
+0,8
+
+Momentum
+
+ d ij 
+
+PN
+
+4
+
+Hafıza Nöronunun
+Zaman Sabitesi
+
+3.1. Test Parametreleri (Testing Parameters)
+Yapay sinir ağları, hataların karelerinin ortalaması
+(MSE-Mean Sqare Error) gibi bazı değerlendirme
+ölçülerine ihtiyaç duyarlar. MSE istenilen çıkış ile ağ
+çıkışı arasındaki farkın toplamını aşağıdaki
+formüldeki gibi ifade eder.
+
+olarak
+
+Nöron Sayısı
+
+RESULTS)
+
+Bu verilere göre Jordan ve Elman ağları oluşturulmuş
+ve sonuçlar aşağıda değerlendirilmiştir.
+
+0,090301934
+
+Learning)
+
+(EXPERIMENTAL
+
+JEA 57 farklı ilaç etken maddesine göre çiftler
+oluşturulmuş (giriş katmanı), gizli katman yedi işlem
+elemanından oluşturulmuş, transfer fonksiyonu olarak
+tanjant-hiperbolik eksen seçilmiş ve hem momentum
+hem de Levenberg Marquardt [20] öğrenme kuralı
+kullanılmıştır.
+Momentum
+öğrenme
+kuralı
+uygulandığında adım aralığı ve momentum sabitleri
+sırasıyla 0,1 ve 0,7 olarak seçilmiştir. Verilen
+değerlere göre JEA 1000 adım aralığında
+gerçekleştirilmiş ve Tablo 2 ve Tablo 3’te
+gösterilmiştir.
+
+üzere
+
+Çıkış Katmanı
+
+7
+
+Hafıza
+Nöronunun
+Zaman Sabitesi
+
+0,8
+
+Aktivasyon
+Fonksiyonu
+Öğrenme Kuralı
+
+TanjantHiperbolik
+Eksen
+Levenberg
+Marquardt
+
+Gerçekleştirme
+Sayısı :1000
+
+151
+
+F. Hardalaç, U. Kutbay
+
+İlaç İlaç Etkileşimlerinin Jordan Elman Ağları’nın Kullanılarak Sınıflandırılması 
+
+Tablo 4. Jordan Ağı’nın 1000 gerçekleştirmede, en
+küçük MSE, son durum MSE değerleri-Momentum ve
+Levenberg Marquardt Öğrenme Kuralları için (Jordan
+Network’s Minimum MSE and Final MSE for 1000 epoch for both
+Momentum and Levenberg Marquardt Learning Rule)
+
+0,25
+0,2
+0,15
+0,1
+0,05
+0
+991
+
+892
+
+793
+
+694
+
+595
+
+496
+
+397
+
+298
+
+199
+
+100
+
+Momentum
+
+1
+
+MSE
+
+Momentum Öğrenme Kuralı İçin
+Jordan Ağı'nda MSE
+
+Gerçekleştirilen Adım Sayısı
+
+0,090301934
+0,090301934
+
+0,030502372
+0,030502372
+
+0,4
+0,35
+0,3
+0,25
+0,2
+0,15
+0,1
+0,05
+0
+1
+100
+199
+298
+397
+496
+595
+694
+793
+892
+991
+
+MSE
+
+Network’s MSE for 1000 epoch for Momentum Learning Rules)
+
+Jordan ve Elman ağlarını aynı Momentum
+parametreleri ile karşılaştırdığımızda (0,1 adım aralığı
+ve 0,7 momentum katsayısında), MSE 758 adım
+sonunda Şekil 4 ve Tablo 5’te görüldüğü gibi
+0,091364177’e eşit olmaktadır.
+
+149
+
+Momentum Öğrenme Kuralı İçin
+Elman Ağı'nda MSE
+
+Şekil 2. Jordan Ağı’da 1000 Gerçekleştirme İçin
+MSE -Momenttum Öğrenme Kuralı İçin (Jordan
+Levenberg Marquardt Öğrenme Kuralı, Jordan ağına
+1000 adım aralığında uygulandığında, 149 adım
+sonunda MSE Şekil 3 ve Tablo 4’te görüldüğü gibi
+0,030502372’e gelmektedir.
+
+1000
+
+Gerçekleştirme
+Sayısı
+En küçük MSE
+Son MSE
+
+Levenberg
+Marquardt
+
+Gerçekleştirilen Adım Sayısı
+Şekil 4. Elman Ağı’da 1000 Gerçekleştirme İçin
+MSE- Momenttum Öğrenme Kuralı İçin (Elman’s
+Network’s MSE for 1000 epoch for Momentum Learning Rule)
+
+Levenberg Marquardt Öğrenme Kuralı, Elman Ağı’na
+1000 adım aralığında uygulandığında, 84 adım
+sonunda MSE’nin Şekil 5 ve Tablo 5’teki gibi
+0,039237464’e eşit olduğu görülmektedir.
+
+Levenberg Marquardt Öğrenme
+Kuralı İçin Jordan Ağı'nda MSE
+0,8
+
+Tablo 5. Elman Ağı’nın 1000 gerçekleştirmede, en
+küçük MSE, son durum MSE değerleri-Momentum ve
+Levenberg Marquardt Öğrenme Kuralları için (Elman
+Network’s Minimum MSE and Final MSE for 1000 epoch for both
+Momentum and Levenberg Marquardt Learning Rule)
+
+Momentum
+758
+
+83
+
+0,083686655
+0,091364177
+
+Gerçekleştirme
+Sayısı
+En küçük MSE
+Son MSE
+
+Levenberg
+Marquardt
+0,039233867
+0,039237464
+
+MSE
+
+0,6
+Levenberg Marquardt Öğrenme Kuralı
+İçin Jordan Ağı'nda MSE
+
+0,4
+0,9
+
+0,2
+
+0,7
+
+Gerçekleştirilen Adım Sayısı
+
+MSE
+
+1
+100
+199
+298
+397
+496
+595
+694
+793
+892
+991
+
+0
+
+0,5
+0,3
+
+(Jordan Network’s MSE for 1000 epoch for Levenberg Marquardt
+Learning Rule)
+
+991
+
+892
+
+793
+
+694
+
+595
+
+496
+
+397
+
+298
+
+199
+
+‐0,1
+
+100
+
+Şekil 3. Jordan Ağı’da 1000 Gerçekleştirme İçin
+MSE -Levenberg Marquardt Öğrenme Kuralı İçin
+
+1
+
+0,1
+
+Gerçekleştirilen Adım Sayısı
+Şekil 5. Elman Ağı’da 1000 Gerçekleştirme İçin
+MSE- Levenberg Marquardt Öğrenme Kuralı İçin
+(Elman’s Network’s MSE for 1000 epoch for Levenberg Marquardt
+Learning Rule)
+
+152
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 1, 2014
+
+F. Hardalaç, U. Kutbay 
+
+İlaç İlaç Etkileşimlerinin Jordan Elman Ağları’nın Kullanılarak Sınıflandırılması
+
+Elman Ağı için Beklenen ve Ağın Gerçek Çıktısı
+8
+
+Çıkış Değerleri
+
+7
+6
+5
+4
+Beklenilen Çıkış
+
+3
+
+Ağ çıkışı
+
+2
+1
+0
+1
+
+10
+
+19
+
+28
+
+37
+
+46
+
+55
+
+64
+
+73
+
+82
+
+91
+
+Test Örnekleri
+
+Şekil 6. Elman’s Ağı İçin Beklenen ve Gerçek Ağ Çıkışları (Elman Network’s Desired and Network Output)
+Jordan Ağı için Beklenen ve Ağın Gerçek Çıktısı
+8
+
+Çıkış Değerleri
+
+7
+6
+5
+4
+
+Beklenilen Çıkış
+
+3
+
+Ağ Çıkışı
+
+2
+1
+0
+1
+
+10
+
+19
+
+28
+
+37
+
+46
+
+55
+
+64
+
+73
+
+82
+
+91
+
+Test Örnekleri
+Şekil 7. Jordan Ağı İçin Beklenen ve Gerçek Ağ Çıkışları (Jordan Network’s Desired and Network Output)
+JEA için en iyi ağ yapıları incelendiğinde(Levenberg
+Marquardt Öğrenme Kuralı) istenilen çıkış ve ağ
+çıkışı Şekil 6 ve Şekil 7’de görülebilmektedir. Ağa
+verilen 99 test verisi için, istenilen çıkış için Jordan ve
+Elman Ağları sırasıyla 0,817738708896 ve
+0,7569777221553 doğrusal korelasyon katsayılarına
+sahip olduğu görülmüştür.
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada JEA, İİE çiftleri için incelenmiştir. Hem
+Jordan hem de Elman Ağları MSE çıktısı gözlenerek
+eğitilmiş ve Levenberg Marquardt Öğrenme Kuralı’na
+göre Jordan Ağı en iyi sonucu vermiştir
+(MSE=0,0305). Test sonuçları incelendiğinde ise
+Şekil 6 ve Şekil 7’deki gibi iyi bir korelasyon olduğu
+görülmektedir. Jordan Ağı en iyi çizgisel korelasyon
+katsayısına sahiptir (0,8177). Jordan Ağının
+eğitiminde 149 adımın sonunda en iyi MSE değerine
+yakınsadığı görülmüş, fakat Levenberg Marquardt
+Öğrenme Kuralı’nın ilk 100 adım içerisinde sapmalar
+yaptığı hem Jordan hem de Elman Ağları için tespit
+edilmiştir. Bu sapmaların oluş sebebi ise ilk verilen
+ağırlık değerlerine göre, nöronlar arasında zayıf bir
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 1, 2014
+
+bağlantı olduğudur. Ek olarak Levenberg Marquardt
+Öğrenme Kuralının işlem süresini kısaltarak daha az
+iterasyonda en küçük MSE’ye ulaştığı grafiklerden de
+görülmektedir.
+Bu çalışmanın sonucu olarak, ilaç etkileşimlerinin
+klinik sonuçlarının sınıflandırılmasında yapay sinir
+ağlarının özellikle JEA kullanılarak yapılabileceği
+söylenilebilir.
+5. TEŞEKKÜR (ACKNOWLEDGMENT)
+İİE
+Maryland
+Medikal
+Merkezini’nin
+İlaç
+Etkileşimleri Aracı ile kontrol edilmiş ve Gazi
+Üniversitesinde etkileşim çiftleri oluşturulmuştur.
+Ayrıca bu çalışma Türkiye Cumhuriyeti Bilim Sanayi
+ve Teknoloji Bakanlığı SANTEZ programı
+kapsamında desteklenmiştir.
+KAYNAKLAR (REFERENCES)
+1.
+
+Vonbach, P., Drug Drug Interactions in the
+Hospital, Inauguraldissertation, University of
+Basel, 2007.
+
+153
+
+F. Hardalaç, U. Kutbay
+
+2.
+
+İlaç İlaç Etkileşimlerinin Jordan Elman Ağları’nın Kullanılarak Sınıflandırılması 
+
+Polak, S., Brandys, J., “Neural System for in
+silico Drug-Drug Interaction Screening”,
+Proceedings of the 2005 International
+Conference on Computational Intelligence for
+Modelling, Control and Automation, and
+International Conference, Ontario, Canada,
+2005.
+3. Lazarou, J., Pomeranz, B., Corey, P.N.,
+“Incidence of adverse drug reactions in
+hospitalized patients: A meta-analysis of
+prospective studies”, The Journal Of The
+American Medical Association (JAMA), Cilt
+279, 1200–1205, 1998.
+4. Johnson, J.A., Bootman, J.L., “Drug-related
+morbidity and mortality. A cost-of-illness
+model”, Arch Intern Med, Cilt 155, No
+18,1949–1956, 1995.
+5. Pirmohamed, M., James, S., Meakin, S., et al.,
+“Adverse drug reactions as cause of admission to
+hospital: prospective analysis of 18 820 patients”,
+BMJ, Cilt 329, No 7456, 15-23, 2004.
+6. Lepori, V., Perren, A., Marone, C., “Adverse
+internal medicine drug effects at hospital
+admission”, Schweiz Med Wochenschr, Cilt
+129, No 24, 915-922. 1999.
+7. Srinivasan, V., Eswaran, C., Sriraam, N.,
+“Epileptic detection using artificial neural
+networks”, International Conference On Signal
+Processing And Communication (SPCOM),
+Bangalore, India, 2004
+8. Jordan, M., “Serial order: A parallel distributed
+processing approach,” Advances in Psychology,
+Neural-Networks Models of Cognition, Cilt
+121, 471-495, 1997.
+9. Deshmukh, R.P., Ghatol, A.A. "Comparative
+Study Of Jorden And Elman Model Of Neural
+Network For Short Term Flood Forecasting”,
+IEEE 3rd International Conference on
+Computer
+Science
+and
+Information
+Technology (ICCSIT), Chengdu, China, 400404, 2010.
+10. Chatterjee, A., Paul, K. C., Tudu B., “Application
+Of Recurrent Neural Network For Generating
+Grayscale Digital Half-Tone Images”, Second
+International Conference on Emerging
+Applications of Information Technology,
+Science City, Kolkata, 41-44, 2011.
+
+154
+
+11. Versace, M., Bhatt, R., Hinds, O., Shiffer,
+M.,“Predicting the exchange traded fund DIA
+with a combination of genetic algorithms and
+neural networks”, Expert Systems with
+Applications, , Cilt 27, No 4, 417-425, 2004.
+12. Kelo, S.M., Dudul, S.M., “Short-term
+Maharashtra state electrical power load prediction
+with special emphasis on seasonal changes using
+a novel focused time lagged recurrent neural
+network based on time delay neural network
+model”, Expert Systems with Applications, Cilt
+38, No 3, 1554-1564, 2011.
+13. Fink, O., Zio, E., Weidmann, U., “Predicting time
+series of railway speed restrictions with timedependent machine learning techniques”, Expert
+Systems with Applications, , Cilt 40, No 15,
+6033–6040, 2013.
+14. Kaya, T., İnce, M. C., “Design Of FIR Filter
+Using Modeled Window Function With Helping
+Of Artificial Neural Networks”, Journal of the
+Faculty of Engineering and Architecture of
+Gazi University, Cilt 27, No 3, 599-606, 2012.
+15. Güntürkün, R., “Determining the Amount of
+Anesthetic Medicineto Be Applied by Using
+Elman’s Recurrent Neural Networks via Resilient
+Back Propagation”, Journal of Medical
+Systems, Cilt 34, 493–497, 2010.
+16. Pearlmutter, B. A., ”Gradient Calculations For
+Dynamic Recurrent Neural Networks: A Survey”,
+IEEE Transactions On Neural Networks, Cilt
+6, No 5, 1212-1228,1995.
+17. Lee, S. W., Song, H. H., “A New Recurrent
+Neural- Network Architecture for Visual Pattern
+Recognition”, IEEE Transactions On Neural
+Networks, Cilt 8, No 2, 331-340, 1997.
+18. Hardalac, F., “Classification of educational
+backgrounds of students using musical
+intelligence and perception with the help of
+genetic neural networks”, Expert Systems with
+Applications, Cilt 36, 6708–6713, 2009
+19. Elman, J. L., “Finding structure in time”,
+Cognitive Science, Cilt 14, 179–211, 1990.
+20. Levenberg, K., "A Method for the Solution of
+Certain Non-Linear Problems in Least
+Squares", Quarterly of Applied Mathematics,
+Cilt 2, No 2, 164–168 , 1944.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 1, 2014
+
+

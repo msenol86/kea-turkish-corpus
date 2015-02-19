@@ -1,0 +1,797 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 22, No 1, 81-86, 2007
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 22, No 1, 81-86, 2007
+
+DÜŞÜK GÜÇLÜ BİR MOTORDA
+FARKLI SIKIŞTIRMA ORANLARINDA LPG KULLANIMININ
+PERFORMANS VE EMİSYONLARA ETKİSİ
+M. Bahattin ÇELİK ve M. Kemal BALKİ
+Makine Eğitimi Bölümü, Karabük Teknik Eğitim Fakültesi, Zonguldak Karaelmas Üniversitesi, 78050 Karabük
+mbcelik@gmail.com, m_kemalbalki@mynet.com
+(Geliş/Received: 05.09.2005; Kabul/Accepted: 11.12.2006)
+ÖZET
+Tek silindirli, düşük güçlü benzinli motorlar hava soğutmalı olduğu için oldukça düşük sıkıştırma oranına
+sahiptir. Ayrıca bu motorlar hafif zengin karışım ile çalıştığından özgül yakıt tüketimleri ve egzoz emisyon
+değerleri yüksektir. Bu motorlar, yüksek sıkıştırma oranında oktan sayısı yüksek alternatif temiz yakıtlar ile
+çalıştırıldığında performans ve emisyonlar iyileştirilebilir. Bu çalışmada tek silindirli bir motorun sıkıştırma
+oranı 5:1’den 9:1’e artırılmış ve LPG ile çalıştırılarak performansını artırma olanakları deneysel olarak
+araştırılmıştır. Standart sıkıştırma oranında yapılan deneylerde LPG ile çalışmada, benzine göre önemli bir güç
+kaybı olmadan, özgül yakıt tüketimi ve egzoz emisyonlarında azalmalar görülmüştür. Maksimum sıkıştırma
+oranında, LPG ile çalışmada benzine göre güçte %32 artış, özgül yakıt tüketiminde %60 azalma, CO, HC ve CO2
+emisyonlarında sırasıyla %91, %23 ve %5 azalma elde edilmiştir. Sonuçlar; düşük güçlü motorlarda yüksek
+sıkıştırma oranında LPG kullanımının, motor performansını önemli ölçüde artırdığını ve egzoz emisyonlarını
+azalttığını göstermektedir.
+
+1. GİRİŞ
+
+(INTRODUCTION)
+
+İçten yanmalı motorlar konusunda yapılan araştırmaların
+ana hedefi; motordan en yüksek performansı, en eko-
+
+nomik ve çevreyi kirletmeden alabilmektir. Bunu
+gerçekleştirmek için araştırmacılar yüksek özelliklere
+sahip alternatif yakıtlar üzerinde çalışmalarını yoğunlaştırmışlardır. Kirletici emisyonları azaltmak ve yakıt
+
+M.B. Çelik ve M.K. Balki
+
+Düşük Güçlü Bir Motorda Farklı Sıkıştırma Oranlarında LPG Kullanımının Performans...
+
+harcamalarını düşürmek amacıyla buji ateşlemeli
+motorlarda LPG (Likit Petrol Gazı), doğal gaz, etanol,
+metanol ve hidrojen gibi değişik alternatif yakıtlar
+kullanılmaktadır. LPG; kolay depolanabilmesi, oktan
+sayısının benzine göre yüksek olması, CO, HC ve
+CO2 emisyon değerlerinin düşük olması ve ekonomik
+olması nedeniyle tercih edilmektedir [1,2]. Ancak motorda herhangi bir değişiklik yapılmadan LPG kullanılırsa, motor gücünde bir miktar düşme olmaktadır.
+LPG yakıtının oktan sayısı, benzine göre daha yüksek
+olduğundan, yüksek sıkıştırma oranlarında LPG ile
+çalışıldığında motor gücü artmakta ve yakıt tüketimi
+azalmaktadır [3]. Sıkıştırma oranının artmasıyla sıkıştırma ve yanma sonu basınç ve sıcaklıkları yükselmekte, dolayısıyla ortalama efektif basınç ve verim
+artmaktadır [4,5].
+LPG’nın benzinli motorlarda kullanımı, motor performansı ve egzoz emisyonlarına etkileri konusunda
+birçok deneysel çalışmalar yapılmaktadır. Murillo vd.
+(2005) yapmış oldukları bir deneysel çalışmada buji
+ateşlemeli bir motorda LPG kullanmışlardır. Bu çalışmanın sonucuna göre, LPG ile çalışmada benzinli
+çalışmaya göre dikkate değer bir güç kaybı olmaksızın; özgül yakıt tüketimi, CO ve HC emisyonu önemli
+derecede düşüş göstermektedir. NOx emisyonunda ise
+bir miktar yükselme kaydedilmiştir [6]. Kihyung ve
+Ryu (2005) LPG yakıtının alev oluşumu ve yanma
+karakteristiklerini deneysel olarak incelemişlerdir. Stokiyometrik hava/yakıt oranında alev oluşumunun
+maksimum hıza yükseldiği, çok fakir karışımlarda
+yanma stabilitesinin kötüleştiği belirlenmiştir [7]. Kim
+ve Bae (2000) dört silindirli buji ateşlemeli motorda
+LPG ve doğal gaz kullanarak değişik çalışma koşullarında ve iki değişik sıkıştırma oranında (8.6:1,10.6:1)
+bu yakıtların performans ve HC emisyonlarına etkilerini incelemişlerdir. Yüksek sıkıştırma oranında fakir
+karışımla çalışma ile her iki yakıtta da motor veriminin arttığı, NOx ve CO2 emisyonunun azaldığı ve bazı
+HC türlerinde artma olduğunu tespit etmişlerdir [2].
+Badr vd. (1998) Ricardo E6 araştırma motorunda yakıt
+olarak LPG kullanarak, farklı sıkıştırma oranlarında
+bazı parametrelerin fakir yanma limitlerine etkilerini
+incelemişlerdir. Artan sıkıştırma oranıyla birlikte LPG
+ile daha fakir karışımlarda çalışılabileceği belirlenmiştir [8]. Wu ve Mathews (1996) tarafından yapılan
+bir proje çalışmasında yedi adet farklı taşıtın emisyon
+davranışları LPG, doğal gaz kullanılarak incelenmiş,
+LPG ve doğal gaz ile çalışmada daha düşük egzoz
+emisyonları elde edilmiştir [9]. Smith vd. (1997) 1.4
+litrelik bir taşıt motorunda LPG ve benzin yakıtları
+kullanarak emisyon ve verimlilik bakımından karşılaştırma yapmışlardır. LPG ile çalışmada HC emisyonlarının benzinliye göre daha düşük çıktığı, CO
+emisyonunun ise motor devrine göre farklılıklar gösterdiği belirlenmiştir [10]. Sierens (1992) tarafından
+yapılan çalışmada benzin enjeksiyonlu Ford marka
+motora sıvı halde LPG püskürtülmesi teorik ve
+deneysel olarak incelenmiştir. Deneylerde ateşleme
+avansı, HYO (hava/yakıt oranı) ve sıkıştırma oranının
+motor karakteristiklerine etkileri karşılaştırılmıştır.
+82
+
+LPG’yi avantajlı kılan, yüksek sıkıştırma oranında
+vuruntuyu engellemesi ve egzoz emisyonlarının düşük
+çıkması olarak görülmüştür [11]. Akbaş vd. (2003)
+tarafından yapılan çalışmada LPG ile çalışan buji ile
+ateşlemeli bir motorun sıkıştırma oranı artırılarak
+özgül yakıt tüketimi ve motor gücüne etkileri araştırılmıştır. Sıkıştırma oranının 9,5:l’den 13:l’e artışıyla
+birlikte yakıt tüketiminde ortalama %12 azalma, motor
+gücünde yaklaşık %7 artış elde edilmiştir [12]. Dinler
+ve Yücel (2003) iki farklı motorda LPG ve benzinli
+çalışmanın motor performansına etkilerini deneysel
+olarak incelemişlerdir. Deneyler tam açık gaz kelebeği konumunda değişik devirlerde yapılmıştır. LPG
+ile çalışmada benzinli çalışmaya göre motor torkunda
+%1,5 ve %8 azalma olmuştur [13]. İçingür ve Haksever
+(1998) benzinli motorlarda LPG kullanımının motor
+performansına ve emisyonlara etkisini deneysel olarak
+incelemişlerdir. Deneyler dört silindirli buji ateşlemeli
+bir motorda yapılmıştır. Deney sonuçlarına göre
+LPG’li çalışmada benzinli çalışmaya göre CO ve HC
+emisyonu daha düşük çıkmış ve motor gücünde bir
+miktar azalma olmuştur [14].
+Yapılan çalışmaları özetlemek gerekirse; LPG, çok silindirli motorlara orijinal sıkıştırma oranında (8:1,9:1,10:1
+gibi) uygulandığında motor gücü bir miktar düşmekte,
+yakıt tüketimi, CO ve HC’lar azalmaktadır. Eğer bu
+motorlara sıkıştırma oranı artırılarak uygulanmışsa motor
+gücü benzinli çalışmaya göre artmakta, yakıt tüketimi
+ve CO emisyonu daha da azalmaktadır. Su soğutmalı
+dört silindirli motorların sıkıştırma oranı 8:1-11:1
+arasındadır. Ancak hava soğutmalı tek silindirli motorlarda bu oran 5:1–6:1’dir. Bu motorların sıkıştırma
+oranı motorun yapısının müsaade ettiği ölçüde artırılıp oktan sayısı yüksek yakıt kullanılırsa performansları su soğutmalılara göre daha fazla artırılabilir. Çünkü
+sıkıştırma oranı 5:1,6:1’den 9:1,10:1’lere çıkarıldığında elde edilecek güç artışı ve yakıt ekonomisi, bu oran
+8:1,9:1’den 12:1,13:1’lere çıkarıldığındaki kazançtan
+fazla olmaktadır [15,16].
+Bu çalışmada düşük güç ve verime sahip tek silindirli
+bir motorun performansını artırma olanakları araştırılmıştır. Bunu sağlamak üzere motorun sıkıştırma oranı
+5:1’den 9:1’e kadar çıkarılarak LPG yakıtı ile çalıştırılması sağlanmıştır.
+2. DÜŞÜK GÜÇLÜ MOTORLAR (SMALL ENGINES)
+Küçük motorlar günümüzde; zirai bölgelerde küçük
+taşıma araçlarında, ilaçlama makinelerinde, ağaç biçme
+makinelerinde, çim biçme makinelerinde, kapalı ortamlarda elektrik jeneratörlerinde ve su pompalarında vs.
+yaygın olarak kullanılmaktadır. Düşük güçlü tek silindirli motorlar çok küçük sıkıştırma oranında ve hafif
+zengin karışımla çalıştıkları için oldukça düşük verimlidirler. Çünkü bu motorlar hava soğutmalı olduğu
+için su soğutmalılara göre vuruntu meyli daha fazla
+olduğundan sıkıştırma oranı 5:1–6:1 gibi düşük değerlerdedir [17]. Ayrıca egzoz emisyon değerleri de büyük güçlü motorlara göre daha yüksektir.
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Düşük Güçlü Bir Motorda Farklı Sıkıştırma Oranlarında LPG Kullanımının Performans...
+
+3. DENEY YAKITLARININ ÖZELLİKLERİ
+(SPECIFICATIONS OF TEST FUELS)
+
+Benzin, buji ateşlemeli motorlarda en çok kullanılan
+ve sıvı HC bileşenlerinden oluşan bir yakıt türüdür.
+Az miktarda hafif ve ağır HC’lar, çok az miktarda ham
+petrolden gelen kükürt ve azot gibi istenmeyen elementler ve bazı özelliklerini iyileştirmek için eser
+miktarda ilave edilen katkı maddeleri benzinde bulunan diğer bileşenlerdir. Buji ateşlemeli motorlarda
+alternatif yakıt olarak kullanılan LPG; ham petrolün
+rafinerilerde benzin, mazot gibi türevlere ayrıştırılmasıyla açığa çıkan veya bazı bölgelerde tabiattan serbest
+olarak çıkarılan propan, bütan gibi hidrokarbonlar
+veya bunların karışımıdır. Gaz yakıtlarda karışım hazırlama kolaylaşmakta, motora ani gaz verme durumlarında hava-yakıt karışımı daha düzgün silindire gitmektedir. Sıvı yakıtlara göre LPG silindir içerisinde
+daha geniş alana yayılarak daha homojen yapı oluşturmaktadır. LPG soğuk çalışma şartlarında gaz halinde
+silindirlere girdiği için benzine göre motor daha az
+aşınmakta ve motor yağının ömrü uzamaktadır. LPG
+basınç altında sıkıştırılarak sıvılaştırılmakta, böylece
+az yer işgal ederek kolayca depolanabilmektedir.
+Kullanılırken üzerindeki basınç kaldırılarak gaz haline
+getirilip yanma işlemine sokulmaktadır [18].
+Bu çalışmada kullanılan LPG %30 propan (C3H8) ile
+%70 oranında Bütan (C4H10) karışımından oluşmaktadır.
+LPG (propan, bütan) ve benzinin özellikleri Çizelge
+1’de verilmiştir.
+4. DENEYSEL ÇALIŞMA (EXPERIMENTAL STUDY)
+Deneysel çalışmalar Zonguldak Karaelmas Üniversitesi
+Karabük Teknik Eğitim Fakültesi Otomotiv Anabilim
+Dalı Laboratuvarı’nda gerçekleştirilmiştir [14,18].
+4. 1. Deney Motoru (Test Engine)
+Deneylerde dört zamanlı, tek silindirli, silindir çapı 72
+mm, kurs boyu 62 mm, Lombardini marka sıkıştırma
+oranı 4:1-10:1 arasında ayarlanabilen değişken sıkıştırma oranlı bir motor kullanılmıştır. Deney motorunun
+Çizelge 1. Propan, bütan ve benzinin özellikleri
+(Specifications of propan, butan and gasoline)
+Özellikler
+Kimyasal formülü
+
+Propan
+
+Bütan
+C4H10
+
+standart sıkıştırma oranı 5:1 iken daha önce yapılan
+bir araştırmada [16] sıkıştırma oranı değişken hale
+dönüştürülmüştür. Ateşleme avansının değiştirilebilmesi
+için motora manyetolu ateşleme sistemi yerine distribütörlü ateşleme sistemi ilave edilmiştir. Motora, tek
+silindirli düşük güçlü motorlar için (0-10 kW) yapılan
+Lovato marka LPG sistemi monte edilmiştir. Sistem;
+LPG deposu, elektro valf, regülatör, mikser ve bağlantı
+elemanlarından oluşmaktadır. Sistemde kullanılan regülatör (beyin) ısıtmasız ve vakumlu tiptedir. Sistemde kullanılan mikser ise tek silindirli motorun karbüratörüne
+uygun ventürili tiptedir.
+Benzinli çalışmada, karbüratör ana memesi konik uçlu
+ayar vidası ile, LPG ile çalışmada ise regülatör üzerindeki ayar vidası ile gaz hortumu üzerindeki debi kontrol
+vanasından kontrol edilerek hava/yakıt oranının sabit
+tutulması sağlanmıştır. Deneylerde kullanılan değişken
+sıkıştırma oranlı motor Şekil 1’de görülmektedir.
+4. 2. Deney Sistemi (Test system)
+Deney düzeneği tek silindirli karbüratörlü bir motor,
+Kemsan marka elektrikli dinamometre, benzin tüketimi
+ölçme aparatı, egzoz gazı analiz cihazı, LPG sistemi
+ve elektronik teraziden oluşmaktadır. CO, HC, CO2
+emisyonları ve hava fazlalık katsayısının ölçülmesinde
+Sun marka MGA 1200 model emisyon cihazı kullanılmıştır. Benzin yakıt tüketiminin ölçülmesinde 0-100
+cm3 arasında ölçüm yapabilen cam büret ile yakıt tüketim süresini ölçmek için Charles Sernard marka bir
+kronometre kullanılmıştır. LPG yakıtının ölçülmesinde
+ise Densi marka DS-1 model elektronik dijital teraziden yararlanılmıştır. Terazinin ölçme kapasitesi 30 kg
+olup 2 gr hassasiyetinde ölçüm yapabilmektedir.
+Deney esnasında belirli bir sürede gram olarak fark
+kaydedilip, saatteki tüketim kg/saat cinsinden hesaplanmıştır.Ölçme hassasiyetini artırmak için her bir
+durumdaki test süresi artırılmıştır. Deney seti şematik
+olarak Şekil 2’de gösterilmiştir.
+5. DENEY SONUÇLARI VE TARTIŞMA
+(EXPERIMENTAL RESULTS AND DISCUSSION)
+
+Yapılan deneysel çalışmada, motor hızına bağlı olarak
+motor torku, motor gücü, özgül yakıt tüketimi, CO,
+HC ve CO2 emisyonlarının değişimi incelenmiştir.
+
+Benzin
+
+C3H8
+
+M.B. Çelik ve M.K. Balki
+
+C6-8 H13-18
+
+Moleküler ağırlığı (kg/mol)
+
+44
+
+58
+
+86-115
+
+Özgül ağırlığı (kg/litre)
+
+0,51
+
+0,58
+
+0,73-0,78
+
+Kaynama Noktası (°C)
+
+-43
+
+-0.5
+
+30-225
+
+Alt ısıl değeri (MJ/kg)
+
+46,50
+
+45,46
+
+44,03
+
+Tutuşma Noktası (°C)
+
+510
+
+490
+
+257
+
+2,1-9,5
+
+1,5-8,5
+
+1,3-7,6
+0,35
+
+Tutuşma Sınırları (hacimsel %)
+Yanma Hızı (m/s)
+
+0,4
+
+0,4
+
+Hava / Yakıt Oranı
+
+15,8
+
+15,6
+
+14,7
+
+Araştırma oktan sayısı
+
+111
+
+103
+
+96-98
+
+Motor oktan sayısı
+
+97
+
+89
+
+85-87
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Şekil 1. Değişken sıkıştırma oranlı deney motoru
+(Variable compression ratio test engine)
+
+83
+
+M.B. Çelik ve M.K. Balki
+
+Düşük Güçlü Bir Motorda Farklı Sıkıştırma Oranlarında LPG Kullanımının Performans...
+
+3
+
+Güç (kW
+)
+
+2,5
+2
+1,5
+5 Benzin
+5 LPG
+7 LPG
+9 LPG
+
+1
+0,5
+0
+
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+4500
+
+M
+otor hızı (1/min)
+
+Şekil 2. Deney seti (Test set-up)
+5.1. Motor Torku (Engine Torque)
+LPG ve benzinle yapılan çalışmaların, farklı sıkıştırma oranlarındaki motor torku değişimleri Şekil 3’te
+görülmektedir. Tork grafiği incelendiğinde her iki yakıt
+türünde de maksimum torkun 2000 1/min’de elde edildiği görülmüştür. Benzinli çalışmada 5:1 sıkıştırma
+oranında maksimum tork 7.80 Nm, aynı sıkıştırma
+oranında LPG’li çalışmada 7.61 Nm olduğu tespit
+edilmiştir. Aynı sıkıştırma oranında LPG kullanımı
+motor torkunda yaklaşık %13’lük bir azalmaya neden
+olmuştur. LPG ile çalışmada, yakıt hava karışımı gaz
+fazında silindire girdiğinden dolayı volümetrik verim
+düşmekte ve tork bir miktar azalmaktadır.
+Sıkıştırma oranının artırılması ile birlikte, LPG ile
+çalışmada 7:1 ve 9:1 sıkıştırma oranlarında sırasıyla
+10.55 Nm ve 11.23 Nm maksimum tork değerleri görülmüştür. Değerler incelendiğinde; maksimum tork
+devrinde, benzinli çalışmaya göre 7:1 sıkıştırma oranında %35, 9:1 sıkıştırma oranında %44’lük bir artış
+görülmüştür. Artan sıkıştırma oranıyla birlikte yanma
+sonu basınç ve sıcaklıkları arttığından motor torku da
+artmaktadır. LPG yakıtının oktan sayısının yüksek olması nedeniyle sıkıştırma oranının artırılmasına rağmen vuruntulu çalışmaya rastlanmamıştır.
+5.2. Motor Gücü (Brake Power)
+Motor maksimum güce, birim zamanda içeri alınan
+karışım miktarı maksimuma ulaştığı hızda ulaşır. Bu
+12
+
+5
+5
+7
+9
+
+Tork
+
+10
+8
+
+B e n z in
+LPG
+LPG
+LPG
+
+6
+4
+2
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+M o t o r h ız ı ( 1 /m in )
+
+Şekil 3. Tork grafiği (Torque graph), λ=1.
+84
+
+Şekil 4. Güç grafiği (Power graph), λ=1.
+çalışmada maksimum gücün 3500 1/min’da olduğu
+görülmektedir, Şekil 4. Grafik incelendiğinde, benzinli
+çalışmada 5:1 sıkıştırma oranında maksimum güç
+2.12 kW iken, LPG’li çalışmada 5:1, 7:1 ve 9:1 sıkıştırma oranındaki maksimum güçler sırasıyla 1.89, 2.53
+ve 2.79 kW olduğu görülmüştür. Değerlere bakıldığında
+aynı sıkıştırma oranında LPG ile çalışmada benzinli
+çalışmaya göre yaklaşık %11’lik bir azalma olmuştur.
+LPG ile çalışmadaki motor torkunun azalmasına paralel olarak, güçte de düşüş olmaktadır. LPG ile çalışmada sıkıştırma oranının artmasıyla benzinli çalışmaya göre, maksimum güç devrinde, 7:1 sıkıştırma oranında %19, 9:1 sıkıştırma oranında %32’lik bir güç
+artışı elde edilmiştir.
+5.3. Motor Özgül Yakıt Tüketimi
+
+(Brake Specific Fuel
+
+Consumption)
+
+Özgül yakıt tüketimi, motorda kullanılan yakıtın kimyasal enerjisinin ne kadarının krank milinden alınan
+güce dönüştüğünü gösteren değerdir. Değişik sıkıştırma oranlarında her iki yakıtın özgül yakıt tüketimi
+değişimleri Şekil 5’te verilmiştir. Her iki yakıt türünde
+de özgül yakıt tüketimi artan devir sayısıyla birlikte
+bir minimum noktaya geldikten sonra tekrar artışa geçmiştir. Bu minimum noktanın, maksimum motor torkunun sağlandığı 2000 1/min olduğu görülmektedir.
+Bu devirdeki özgül yakıt tüketimi değerleri, benzinli
+çalışmada 5:1 sıkıştırma oranında 632 g/kWh, LPG
+ile çalışmada 5:1, 7:1 ve 9:1 sıkıştırma oranlarında sırasıyla 377.36 g/kWh, 271.5 g/kWh ve 255.32 g/kWh
+olduğu görülmüştür.
+LPG ile çalışmada, benzine göre özgül yakıt tüketiminde sıkıştırma oranı artışına bağlı olarak %40-%60
+1400
+Özgül yakıt tüketimi (g/kWh)
+
+1
+. Akü, 2. Endüksiyon Bobini, 3. Distribütör, 4. Motor, 5. Karbüratör,
+6. Mikser, 7. Sıkıştırma Oranı Değiştirme Düzeneği, 8. Egzoz Borusu,
+9. LPG Regülatörü, 10. LPG Elektrovalfi, 11. LPG Deposu,
+12.Elektronik Terazi, 13.Elektrikli Dinamometre, 14. Kuvvet
+Sensörü (Load Cell), 15.Devir Sensörü, 16.Kuvvet Göstergesi,
+17.Gaz Analiz Cihazı, 18.Dinamometre Kontrol Paneli, 19.Yükleme
+Anahtarları, 20. Voltmetre, Ampermetre, Takometre, 21.Elektrik
+direnci, 22.Yakıt Tüketimi Ölçme Düzeneği.
+
+5
+5
+7
+9
+
+1200
+1000
+
+Benzin
+LP G
+LP G
+LP G
+
+800
+600
+400
+200
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+4500
+
+Motor h ı z ı (1/m i n )
+
+4500
+
+Şekil 5. Motor özgül yakıt tüketimi
+
+(Brake specific fuel
+
+consumption), λ=1.
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Düşük Güçlü Bir Motorda Farklı Sıkıştırma Oranlarında LPG Kullanımının Performans...
+
+5
+
+600
+500
+
+3
+
+HC (ppm)
+
+CO (%
+
+700
+
+5 Benzin
+5 LPG
+7 LPG
+9 LPG
+
+4
+
+M.B. Çelik ve M.K. Balki
+
+2
+
+400
+300
+5
+5
+7
+9
+
+1
+
+200
+0
+
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+100
+500
+
+4500
+
+Benzin
+LP G
+LP G
+LP G
+
+1000
+
+1500
+
+Motor hızı (1/min)
+
+2500
+
+3000
+
+3500
+
+4000
+
+4500
+
+Motor h ı z ı (1/m i n )
+
+(Carbonmonoxide
+
+emission), λ=1.
+
+arasında değişen azalmalar elde edilmiştir. Aynı sıkıştırma oranında LPG ile çalışmada benzine göre daha
+düşük özgül yakıt tüketimi vermesi, LPG’nin alt ısıl
+değerinin benzine göre daha yüksek olması ve yanma
+odasında daha homojen bir karışım oluşturmasından
+kaynaklanmaktadır.
+5.4. Karbonmonoksit Emisyonu (Carbonmonoxide Emission)
+Şekil 6’da verilen CO grafiği incelendiğinde, CO’in
+artan devir sayısıyla düşüşe geçtiği görülmüştür. Artan
+motor hızı ile birlikte silindirlere giren havanın hızının artması, yanma odasında türbülansı artıracağı için
+yanma verimi artmakta ve CO emisyonu azalmaktadır.
+LPG yakıtının gaz fazında homojen bir karışım oluşturması ve hızlı yanması nedeniyle, benzinli çalışmaya göre CO emisyonu azalmaktadır.
+Benzin ve LPG’li çalışmalarda, aynı sıkıştırma oranında CO emisyonunun 2000 1/min’daki değerleri
+benzinde %3.42 ve LPG’de %0.91’dir. LPG ile çalışmada, minimum özgül yakıt tüketimi devrinde (2000
+1/min) CO emisyonunun, 7:1 sıkıştırma oranında %0.43
+ve 9:1 sıkıştırma oranında %0.30 olduğu görülmektedir. LPG’li çalışmada benzinli çalışmaya göre 9:1 sıkıştırma oranında CO emisyonundaki azalma %91’dir.
+Grafikten de görüldüğü gibi LPG ile çalışmada sıkıştırma oranı artmasının CO emisyonu üzerindeki etkisi
+azdır. Yüksek sıkıştırma oranlarında artan basınç ve
+sıcaklıkla beraber yanma iyileşmekte ve CO emisyonu
+bir miktar azalmaktadır.
+5. 5. Hidrokarbon Emisyonu (Hidrocarbon Emission)
+Değişik sıkıştırma oranlarında her iki yakıtın HC emisyonu değişimleri Şekil 7’de verilmiştir. Şekilde görüldüğü gibi; LPG ile çalışmada HC emisyonu benzine göre
+düşük çıkmıştır. Karışımın homojen olmasından dolayı
+yanmanın iyileşmesi, HC emisyonunda azalmaya sebep
+olmaktadır. LPG’li çalışmada HC emisyonu benzinli
+çalışmaya göre λ=1.5:1 ve 9:1 sıkıştırma oranlarında
+2000 1/min’da, sırasıyla %49 ve %23 daha düşük
+çıkmıştır. Sıkıştırma oranının artması ile yanma odası
+yüzey/hacim oranı da arttığından HC emisyonları da
+artmaktadır [19]. Bu çalışmada da Şekil 7’de görüldüğü gibi artan sıkıştırma oranıyla birlikte HC emisyonları da artmıştır. Ancak bu artış benzinle elde edilen
+HC eğrisinin altındadır.
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Şekil 7. Hidrokarbon emisyonu (Hidrocarbon emission)
+5.6. Karbondioksit Emisyonu (Carbondioxide Emission)
+Son yıllarda yoğun şekilde tartışılan küresel ısınmaya
+neden gazların başında CO2 gelmektedir. İçerisinde karbon atomu olmayan veya az sayıda bulunan yakıtların
+kullanımı teşvik edilmektedir [2]. LPG yakıtı benzine
+göre daha az karbon atomuna sahiptir. Şekil 8’de verilen
+CO2 grafiği incelendiğinde; 2000 1/min’da, aynı sıkıştırma oranında LPG ile çalışmada, benzinli çalışmaya
+göre CO2 emisyonu %18 düşüş gösterirken, 9:1 sıkıştırma oranında yaklaşık %5 düşüş göstermektedir. LPG’li
+çalışmada artan sıkıştırma oranıyla birlikte yanma
+verimi arttığından daha fazla oksitlenme olmaktadır.
+Ayrıca CO emisyonundaki azalmayla ilişkili olarak da
+CO2 emisyonu artmaktadır.
+6. SONUÇLAR
+
+(CONCLUSIONS)
+
+Bu çalışmada düşük güç ve verime sahip tek silindirli
+bir motorun performansını artırma ve emisyon değerlerini azaltma olanakları araştırılmıştır. Bunu sağlamak
+üzere motorun sıkıştırma oranı 5:1’den 9:1’e kadar çıkarılmış ve yüksek sıkıştırma oranına uygun oktan sayısı
+yüksek LPG yakıtı ile çalıştırılması sağlanmıştır. Motor,
+orijinal sıkıştırma oranında (5:1) benzin, 5:1, 7:1, 9:1 sıkıştırma oranlarında LPG kullanılarak denenmiştir.
+Aynı sıkıştırma oranında (5:1) LPG ile çalışmada,
+benzine göre torkta %13, güçte %11 düşme kaydedilirken; özgül yakıt tüketimi, CO, HC ve CO2 emisyonunda azalmalar elde edilmiştir. Maksimum sıkıştırma oranında (9:1) LPG ile çalışmada, benzinli çalışmaya göre maksimum tork devrinde (2000 1/min) %44
+tork artışı, maksimum güç devrinde (3500 1/min) %32
+15
+14
+13
+12
+
+(
+CO2
+
+Şekil 6. Karbonmonoksit emisyonu
+
+2000
+
+11
+
+5 Benzin
+5 LPG
+7 LPG
+9 LPG
+
+10
+9
+8
+500
+
+1000
+
+1500
+
+2000
+
+2500
+
+3000
+
+3500
+
+4000
+
+4500
+
+M hızı (1/min)
+otor
+
+Şekil 8. Karbondioksit emisyonu
+λ=1.
+
+(Carbondioxide emission),
+
+85
+
+M.B. Çelik ve M.K. Balki
+
+Düşük Güçlü Bir Motorda Farklı Sıkıştırma Oranlarında LPG Kullanımının Performans...
+
+güç artışı elde edilmiştir. Özgül yakıt tüketiminde ise
+2000 (1/min)’de %60 oranında azalma elde edilmiştir.
+LPG ile çalışmada egzoz emisyonlarında da önemli
+düşüşler kazanılmıştır. LPG ile çalışmada benzinli
+çalışmaya göre, 2000 1/min’da CO emisyonunda %91,
+HC emisyonunda %23 ve CO2 emisyonunda %5
+azalma elde edilmiştir.
+Deney sonuçlarında da görüldüğü gibi sıkıştırma oranı
+değiştirilmeden, benzinli motor LPG ile çalıştırıldığında motor torku ve gücünde bir miktar kayıp söz
+konusudur. Ancak yine de özgül yakıt tüketimi ve
+zararlı emisyonların azaldığı görülmektedir. Artan
+sıkıştırma oranıyla birlikte performans artmakta ve
+emisyonlar daha da iyileşmektedir.
+Deney sonuçları, hava soğutmalı düşük sıkıştırma
+oranlı motorların performanslarını önemli ölçüde artırabilme potansiyelinin bulunduğunu göstermektedir.
+Bu motorların sıkıştırma oranları motorun müsaade
+ettiği ölçüde artırılabilir. Vuruntudan sakınmak için
+bu motorların daha etkili biçimde soğutulmaları ve
+yüksek oktanlı yakıt kullanmaları gerekir. Bu motorlarda yakıt olarak vuruntuya dayanıklı ve düşük emisyona sahip LPG, doğalgaz, etanol, metanol gibi alternatif yakıtlar kullanılabilir. Yüksek sıkıştırma oranlarında, LPG ve doğal gaz gibi gaz yakıtlarla, oldukça
+geniş bir fakir karışım bandında çalışmak mümkündür. Böylece yakıt tüketimleri ve emisyonlar daha da
+düşürülebilir.
+Fabrika, depo gibi kapalı ortamlarda, forklift ve bant
+iletim sistemlerinde güç kaynağı olarak da kullanılabilen bu düşük güçlü motorların emisyon seviyelerinin düşük olması çok önemlidir. Kapalı ortamlardaki
+zararlı emisyonlar dış ortamdaki gibi kolay uzaklaştırılamadığı için bu ortamlarda alternatif temiz yakıtla
+çalışan motorlar tercih edilmelidir.
+KAYNAKLAR (REFERENCES)
+1. Bayraktar, H. ve Durgun, O., “Investigating the
+Effects of LPG on Spark Ignition Engine
+Combustion and Performance”, Energy Conversion
+and Management, Cilt 46, No 13-14, 2317-2333,
+2005.
+2. Kim, C. U. and Bae, C.S., “Specated Hydrocarbon
+Emissions from A Gas-Fuelled Spark-Ignition
+Engine with Various Operating Parameters”,
+Journal of Automobile Engineering, Cilt 214,
+No 7, 795-808, 2000.
+3. Çalık, A.T., Arslan, H. ve Soruşbay, C., “Benzin
+Motorlu Taşıtlarda LPG Kullanımının Egzoz Gazları
+Emisyonuna Etkisi”, LPG ve Uygulamaları
+Konferansı, İstanbul, 67-78, 1999.
+4. Junior, H. G., “Obtainment of Same Thermal
+Efficiency in Spark Engines with Different
+Compression Ratio”, SAE paper, 921523, 1992.
+5. Muranaka, S., Takagi, Y., Ishida, T., ‘‘Factors
+Limiting the Improvement in Thermal Efficiency
+
+86
+
+of S.I. Engine at Higher Compression Ratio”,
+SAE Paper, 870548, 1987.
+6. Murillo, S., Míguez, J.L., Porteiro, J., López
+González, L.M., Granada, E. and Morán, J.C., “LPG:
+Pollutant Emission and Performance Enhancement
+for Spark-Ignition Four Strokes Outboard Engines”,
+Applied Thermal Engineering, Cilt 25, No13,
+1882-1893, 2005.
+7. Kihyung, L. and Ryu, J., “An Experimental Study
+of the Flame Propagation and Combustion Characteristics of LPG Fuel”, Fuel, Cilt 84, No 9,
+1116-1127, 2005.
+8. Badr, O., Alsayed, N., and Manaf, M, “A
+Parametric Study on the Lean Misfiring and
+Knocking Limits of Gas-Fueled Spark Ignition
+Engines”, Applied Thermal Engineering, Cilt
+18, No 7, 579-594,1998.
+9. Wu, D.Y., Matthews, R.D., ‘‘Part 3-off Cycle
+Emissions of Light Duty Vehicles Operating on
+CNG, LPG, Texas Project, Federal Faz 1 Reformulated Gasolineand Low Certification Gasoline’’,
+SAE Paper, v. 1208, 1996.
+10. Smith, W. J., Timoney, D. J., Lynch, D.P., “Emissions and Efficiency Comparison of Gasoline and
+LPG Fuels in a 1.4 litre Passenger Car Engine”,
+SAE Paper, 972970, 1997.
+11. Sierens, R., ‘‘Experimental and Theoretical Study
+of Liquid LPG Injection’’, SAE Paper, 922363,
+1992.
+12. Akbaş, A., Sekmen, Y. ve Erduranlı, P., “Sıkıştırma
+Oranı Artışının LPG ile Çalışan Buji ile Ateşlemeli Taşıt Motorunun Gücü ve Yakıt Ekonomisine
+Etkisi”, Makina Tasarım ve İmalat Dergisi,
+Cilt:5, No.1, 29-34, 2003.
+13. Dinler, N. ve Yücel, N., “Alternatif Yakıt Olarak
+LPG Kullanan İki Motorun Performansının Deneysel
+İncelenmesi”, LPG ve CNG Uygulamaları Sempozyumu, TMMOB Makine Mühendisleri Odası,
+Ankara, 93–100, 2003.
+14. İçingür, Y. ve Haksever, R.,”Benzinli Motorlarda
+LPG Kullanımı-Performans Emisyonlara Etkisinin
+Deneysel Analizi”, Politeknik Dergisi, Cilt 1, No
+3-4, 69-76, 1998.
+15. Ferguson, C.R., Internal Combution Engines,
+John Wiley & Sons, Newyork, A.B.D., 1986.
+16. Çelik, M. B., ‘‘Buji Ateşlemeli Bir Motorun
+Sıkıştırma Oranının Değişken Hale Dönüştürülmesi ve Performansa Etkisinin Araştırılması”,
+Doktora Tezi, Gazi Üniversitesi, Fen Bilimleri
+Enstitüsü, 1999.
+17. Safgönül, B., Ergeneman, M., Arslan, H. E. ve
+Soruşbay, C., İçten Yanmalı Motorlar, Birsen
+Yayınevi, İstanbul, 1999.
+18. Balki, M. K., Buji Ateşlemeli Motorda Farklı
+Sıkıştırma Oranlarında LPG Kullanımının
+Performans ve Emisyonlara Etkisi, Yüksek
+Lisans Tezi, Zonguldak Karaelmas Üniversitesi,
+Fen Bilimleri Enstitüsü, 2005.
+19. Heywood, J. B., Internal Combustion Engines,
+McGraw-Hill Book, Singapore, 2000.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+

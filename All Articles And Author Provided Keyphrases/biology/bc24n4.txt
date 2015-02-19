@@ -1,0 +1,742 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 24, No 4, 687-692, 2009
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 24, No 4, 687-692, 2009
+
+TAVUK DIŞKILARININ ANAEROBİK ARITIMINDA
+İSTATİSTİKSEL TEKNİK KULLANILARAK EN UYGUN
+KOŞULLARIN BELİRLENMESİ
+Mustafa Serhat EKİNCİ ve S. Ferda MUTLU
+Kimya Mühendisliği Bölümü, Mühendislik Mimarlık Fakültesi, Gazi Üniversitesi, 06570 Maltepe, Ankara
+msekinci@gazi.edu.tr, fmutlu@gazi.edu.tr
+(Geliş/Received: 07.11.2009 ; Kabul/Accepted: 28.07.2009)
+ÖZET
+Bu çalışmada tavuk dışkılarının anaerobik arıtımında kimyasal oksijen ihtiyacı (KOİ) giderim hızını ifade eden
+istatistiki bir model geliştirilmiştir. Sıcaklık, pH ve toplam katı yüzdesi 23-faktöriyel deneysel tasarıma göre
+seçilerek, bu faktörlerin KOİ giderim hızına etkileri kesikli reaktörlerde Box-Wilson deneysel tasarım yöntemine
+göre incelenmiştir. Deneysel sonuçlar “Design Expert 7.0.3 Trial” paket programı ile istatistiksel olarak
+değerlendirilmiştir. Reaktörler eşit hacımda anaerobik özümleyici çamurla aşılanmışlardır. Geliştirilen model
+kullanılarak en yüksek KOİ giderim hızı, sıcaklık, pH ve toplam katı yüzdesinin sırasıyla 35 0C, 6.9, 7.01 (g/100
+g) değerlerinde 368,17 mg KOİ/L.g katı atık.gün olarak elde edilmiştir.
+
+1.GİRİŞ (INTRODUCTION)
+Hayvan dışkılarının anaerobik bozunması, bileşimi
+temel olarak metan ve karbondioksitten oluşan biyogazın üretimine neden olur. Depolanmaları sırasında
+hayvan dışkılarının doğal bozunumu sonucu oluşan
+CH4 salınımı, sera gazlarından kaynaklanan küresel
+ısınmaya neden olması dolayısı ile istenmeyen bir
+durumdur [1]. Ayrıca dışkıların depolanması sırasında
+içerdikleri azot ve fosfor yüzey sularında yaşlanmaya
+ve toprakla yeraltı sularında kirlenmeye neden olmaktadır [2]. Metan gazı atmosferde karbondioksite göre
+daha az bulunmasına karşılık küresel ısınma üzerinde
+
+23 kat daha fazla etkilidir [3]. Denetimli bir anaerobik
+bozunma ile dışkıların depolanması süresince atmosfere salınacak metan azaltılabilir ve elde edilen CH4
+fosil yakıtların yerine enerji kaynağı olarak kullanılabilir [1]. Hayvan dışkılarının anaerobik arıtımı biyolojik bir süreçtir. Bu yüzden anaerobik bozunumu
+sıcaklık, pH, hammaddenin içeriği, karbon/azot oranı,
+besleme hızı ve zehirli maddeler gibi birçok etken
+etkiler [4].
+Tarım endüstrilerinin ekonomide önemli bir paya
+sahip olduğu Türkiye’de, 2006 yılı sonu toplam tavuk
+sayısı yaklaşık 345 milyon adet olarak belirlenmiştir
+
+M.S. Ekinci ve S. F. Mutlu
+
+Tavuk Dışkılarının Anaerobik Arıtımında İstatistiksel Teknik Kullanılarak…
+
+[5]. Bir tavuktan ise bir yılda ortalama 60 kg ıslak
+dışkı elde edilir [6]. Elde edilen bu dışkıların anaerobik olarak arıtılması ülke ekonomisine katkıda bulunmakla birlikte insan sağlığı ve çevre için de olumsuzlukların önüne geçecektir.
+Anaerobik arıtım sürecinin gerçekleştiği sıcaklık aralıkları bu aralıklarda etkin mikroorganizma türlerine
+göre; sakrofilik (15-25 oC), mezofilik (35-37 oC) ve
+termofilik (50-60 oC) olarak adlandırılır. Biyogaz
+üretimi için en uygun iki sıcaklık değeri vardır. Bunlar mezofilik koşullar için 35 oC, termofilik koşullar
+için 55 oC’dir. Termofilik koşullarda anaerobik arıtımın, metabolik hızın yüksek olması gibi üstünlüğünün
+yanında, mezofilik koşullara göre daha az kararlı
+olması ve daha fazla enerji gereksiniminin olması gibi
+olumsuzlukları vardır [7]. Anaerobik arıtım süreci ani
+sıcaklık değişikliklerinden, süreci gerçekleştiren değişik mikroorganizma grupları bulunduğu için olumsuz
+yönde etkilenir [8].
+Anaerobik arıtım için ideal pH aralığı 6,8-7,2 ‘dir.
+Metan üretim basamağının optimum pH değeri 7,0
+civarında iken hidroliz ve asit üretim basamaklarının
+optimum pH değeri 5,5-6,5 arasındadır [9]. Bu yüzden anaerobik arıtım basamaklarının birbirleriyle
+uyumlu yürütüleceği optimum bir pH değeri
+belirlenmelidir.
+Dışkıların içerisinde bulunan mikroorganizmalar istenen dönüşüm hızına ulaşılması için yeterli olmayabilir. İşletilmekte olan başka bir tesisten alınan
+çamur (aşı) yüksek mikroorganizma içermesi nedeni
+ile yeni çalışacak tesisin işletmeye alınma sürecini
+kısaltır [10].
+Düşük katı oranlarında havasız ortam koşullarını
+sağlamak zorlaşır, yüksek katı derişiminde ise bakteriyel etkinliğin yavaşlaması nedeni ile biyogaz üretim
+hızı düşer [10].
+Bujoczek ve arkadaşları kesikli sistemde, 35 oC’de
+yüksek katı içerikli tavuk gübresinin anaerobik arıtımını incelemişlerdir. Çalışmanın sonucunda % 10,3
+katı yüzdesinin en uygun olduğu görülmüştür [11].
+Mahanta ve arkadaşlarının kesikli sistemde yapmış
+oldukları çalışmada 35 oC’de ve sığır dışkısı toplam
+katı yüzdesinin % 8 olduğu koşullarda biyogaz üretiminin daha fazla olduğu belirlenmiştir [12].
+Anozie ve arkadaşları pilot ölçekli kesikli biyogaz
+reaktörü tasarlayarak 40 günlük bekleme süresinde
+dört farklı atıktan biyogaz üretimini incelemişlerdir.
+Atık olarak tavuk dışkısı, mısır sapı, sığır dışkısı ve
+bunların aynı oranda karışımını kullanmışlardır. Günlük ortalama biyogaz üretimi en fazla (137 litre) tavuk
+dışkısından, en az ise (16,38 litre) mısır sapından elde
+edilmiştir. Biyogaz üretimi tavuk dışkısından ikinci
+
+günde, mısır sapından altıncı günde, sığır dışkısından
+üçüncü günde başlamıştır [13].
+Karim ve arkadaşları karıştırma çeşidinin ve katı
+yüzdesinin laboratuvar ölçekli anaerobik reaktörlerin
+performansına etkisini incelemişlerdir. Düşük katı
+derişimlerinde (%5) üretilen gaz yeterli miktarda karışımı sağladığı için ayrıca yapılan bir karıştırmanın
+etkisinin olmadığı görülmüştür. %10 katı yüzdesinde
+çalışılan deneylerde karıştırma ve karıştırma çeşidinin
+biyogaz üretimine önemli derecede olumlu etkisi
+gözlemlenmiştir [14].
+Daha önceki yapılan çalışmalarda anaerobik arıtıma
+sıcaklık, pH ve katı madde yüzdesinin etkisi birlikte
+incelenmemiştir. Bu çalışmada ise tavuk üretim çiftliğinden alınan tavuk dışkılarının 24 saatlik anaerobik
+arıtımı sonucunda kimyasal oksijen ihtiyacı giderim
+hızı üzerine sıcaklık, pH ve tavuk dışkısı katı madde
+yüzdesinin birlikte etkisi incelenmiştir.
+2. MATERYAL ve METOT (MATERIAL AND
+METHOD)
+
+2.1. Tavuk Dışkısının Özellikleri (Characterization of
+Hen Manure)
+
+Deneysel çalışmada kullanılan tavuk dışkısı T.C.
+Tarım ve Köy İşleri Bakanlığı Tavukçuluk Araştırma
+Enstitüsüne bağlı üretim çiftliğinden, reaktörlere yapılan aşı ise Ankara Belediyesi ASKİ anaerobik arıtım
+tesislerinden alınan özümleyiciden sağlanmıştır. Alınan tavuk dışkısının özellikleri Standard Methods’a
+göre belirlenmiştir [15]. Elde edilen sonuçlar Tablo
+1’de verilmiştir.
+Tablo 1. Tavuk dışkısının özellikleri (Properties of hen
+manure)
+Özellikler
+Toplam kuru katı, g /g dışkı
+Nem miktarı, %
+Toplam çözünmüş katı, g / g dışkı
+Toplam askıdaki katılar, g / g dışkı
+Uçucu katılar, g / g dışkı
+Sabit katılar, g / g dışkı
+
+dışkısındaki
+
+2.2. Deneysel Tasarım (Experimental Design)
+Deneyler ‘Box-Wilson’ deneysel tasarım yöntemine
+göre tasarlanmıştır. ‘Box-Wilson’ deneysel tasarımı,
+fiziksel ve kimyasal süreçlerin matematiksel modellerini türetmek için genel deneyler serisinden oluşan
+etkin bir temele dayalı bir yöntemdir. Özellikle
+endüstriyel uygulamalarda kullanımı ve yararı, seçilen
+faktörlerin uygun bir aralığında fiziksel durumun
+kuadratik fonksiyonla tanımlanmasıyla artmaktadır.
+Regresyon modeli aşağıda verilen şekilde ifade edilir.
+
+Y  b0   bi xi   bij xi x j
+i
+
+688
+
+Tavuk
+değerler
+0,28
+72,03
+0,0475
+0,2322
+0,2125
+0,0686
+
+i j
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+Tavuk Dışkılarının Anaerobik Arıtımında İstatistiksel Teknik Kullanılarak…
+
+M.S. Ekinci ve S. F. Mutlu
+
+Y bağımlı değişken, b0 kayma terimi, bi değerleri
+doğrusal katsayılar, bij değerleri ise kuadratik katsayılardır. i ve j 1’le değişken sayısı arasında değişir.
+Bağımsız değişkenler olarak sıcaklık (X1, 0C), pH
+(X2) ve tavuk dışkısı katı yüzdesi (X3, ağ./ağ) seçilmiştir. KOİ giderim hızı (Y) ise bağımlı değişkendir.
+Kolaylık sağlama amacı ile modeldeki bağımsız
+değişkenlerin kodlanmış değerleri kullanılmıştır.
+Xi değişkenleri xi olarak aşağıdaki eşitliğe göre
+kodlanmıştır.
+x i= (Xi - Xio) / ΔXi,
+Burada xi Xi değişkeninin kodlanmış değeri, Xio i
+değişkeni için seçilen çalışma aralığının orta değeri,
+ΔXi ise adım aralığıdır [16]. Bağımsız değişkenlerin
+kodlanmış ve gerçek değerleri Tablo 2’de verilmiştir.
+2.3. Deney Düzeneği (Experimental Setup)
+Her bir deney koşulu için bir adet olmak üzere toplam
+20 adet 250 mL hacımlı cam erlenler kesikli reaktör
+olarak kullanılmıştır. Her bir reaktör içerisine katı
+madde yüzdesine göre hesaplanan miktarlarda tavuk
+dışkısı, su ve aşı mikroorganizma içeren anaerobik
+özümleyicilerden alınan arıtma çamuru eklenmiştir.
+Her bir reaktöre eklenen arıtma çamuru eşit miktarlardadır. Sıcaklık ve pH ayarları yapıldıktan sonra
+anaerobik arıtım süreci başlatılmıştır. Anaerobik arıtım boyunca pH ölçümleri Metrohm markalı 744
+model bir pH metre ile yapılmıştır. pH ayarı molariteleri 0,1 M–5 M aralığında değişen NaOH çözeltileri ile 0,1 M–1 M aralığında değişen H2SO4
+çözeltileri ile yapılmıştır. İstenilen reaktör sıcaklıkları
+sıcak su banyoları ile sağlanmıştır. Anaerobik arıtım
+süresince mikroorganizmaların etkinlikleri sonucu
+oluşan gazlar dereceli büretlerde toplanmıştır (Şekil
+1). Reaktörlerden başlangıçta ve her 6 saatte bir
+örnekler alınmıştır. Alınan örnekler homojenleştirme
+cihazıyla homojenize edilmiştir. Bu örneklerin KOİ
+ölçümleri üçer defa tekrar edilerek elde edilen değerlerin ortalaması alınmıştır. KOİ ölçümleri dışkının
+çözünen ve çözünmeyen kısımlarında toplam olarak
+yapılmıştır.
+2.4. Ölçüm Yöntemleri (Analytical Methods)
+KOİ derişimleri markası WTW, modeli pHotoFlex
+Turb olan fotometre ile 0-1000 mg/L KOİ aralığında
+ölçüm yapabilen kitlerle ölçülmüştür. Diğer tüm ana-
+
+Şekil 1. Deney düzeneği (Experimental setup)
+lizler Standard Methods’a göre gerçekleştirilmiştir
+[15]. pH ölçümleri Metrohm markalı 744 model pH
+metre ve LL SOLITR.PT1000 model pH elektrotu
+kullanılarak yapılmıştır.
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+Koşulları ‘Box-Wilson’ deneysel tasarım yöntemine
+göre tasarlanmış deneylerin KOİ ölçüm sonuçları
+‘Design-Expert 7.0.3’ paket programının 45 günlük
+deneme sürümü ile istatistiksel olarak değerlendirilmiştir. Bağımsız değişkenlerin model üzerine etkileri
+ANOVA testi uygulanarak incelenmiş, değişkenlerin
+modeldeki katsayıları ve p değerleri (önem düzeyleri)
+Tablo 3’de verilmiştir.
+Tablo 3. Bağımsız değişkenlerin modeldeki
+katsayıları ve p değerleri (Coefficients and p values of
+independent variables in model)
+Model
+Hesaplanan
+değişkenleri
+katsayılar
+Sabit
+360,25
+X1
+19,12
+X2
+-21,12
+X3
+-36,34
+X1X2
+46,06
+X1X3
+37,43
+X2X3
+20,38
+X12
+-53,74
+X22
+-71,37
+X32
+-62,57
+
+p değerleri
+<0,0001
+0,0090
+0,0051
+0,0001
+0,0001
+0,0007
+0,0248
+<0,0001
+<0,0001
+<0,0001
+
+Tablo 3’deki katsayılara göre KOİ giderim hızı için
+elde edilen model eşitliği kodlanmış değerler cinsinden aşağıdaki gibi bulunmuştur.
+Y (KOİ giderim hızı, mg KOİ/L.g katı atık.gün) =
+360,25 + 19,12X1 - 21,12X2 - 36,34X3 + 46,06X1X2 +
+
+Tablo 2. Bağımsız değişkenlerin kodlanmış ve gerçek değerleri (Real and coded values of independent variables)
+Kodlanmış ve gerçek değerler
+Bağımsız değişkenler
+-1.682
+-1
+0
++1
++1.682
+(-α)
+(+α)
+Sıcaklık (X1, oC)
+31,64
+33
+35
+37
+38,36
+pH (X2)
+6,16
+6,5
+7,0
+7,5
+7,84
+Tavuk dışkısı katı yüzdesi (X3, ağ./ağ.)
+2,95
+5
+8
+11
+13,05
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+689
+
+M.S. Ekinci ve S. F. Mutlu
+
+Tavuk Dışkılarının Anaerobik Arıtımında İstatistiksel Teknik Kullanılarak…
+
+37,43X1X3 + 20,38X2X3 - 53,74X12 - 71,37X22 - 62,57
+X32 R2 = 0.9775
+370
+
+315
+
+KOi Giderimi
+
+Modeldeki terimlerin p değerlerinin (önem düzeylerinin) 0,05 değerinden küçük olması bu terimlerin model için etkili olduğunu, 0,1 değerinden büyük olması
+da model için etkisinin ihmal edilebilir olduğunu gösterir. Buna göre model üzerinde bütün terimler etkili
+olup, etkisi en fazla olan terimler sıcaklığın karesi,
+pH’ın karesi ve katı yüzdesinin karesidir. Model
+denkliğine ait R2 değerinin (0,9775) 1’e yakın olması,
+modelin 20 değişik çalışma koşulunda elde edilen
+sonuçları iyi ifade ettiğini göstermiştir.
+
+260
+
+205
+
+150
+
+7.50
+
+37.00
+7.25
+7.00
+
+B: pH
+
+Şekil 2’deki grafiğe göre deneylerden elde edilen sonuçlar ile modelden hesaplanan sonuçlar karşılaştırıldığında uyumlu olduğu görülmektedir.
+Elde edilen model denkleminden KOİ giderim hızını
+en yüksek yapan sıcaklık, pH ve katı yüzdesinin en
+uygun değerleri sırasıyla 35 (oC), 6,9, 7,01 (g /100 g)
+olarak bulunmuştur. Bu değerlerde KOİ giderim hızı
+368,17 mg KOİ/L.g katı atık.gündür.
+Katı yüzdesi en uygun değeri olan 7,01 iken sıcaklık
+ve pH’ın KOİ giderim hızına etkisini gösteren üç
+boyutlu cevap yüzey eğrisi Şekil 3’de görülmektedir.
+Grafiğin daha iyi anlaşılabilmesi için eş yüzey eğrileri
+ile gösterimi Şekil 4’de verilmiştir.
+Şekil 3 ve Şekil 4’de verilen grafiklere göre KOİ giderim hızı pH ve sıcaklık arttığında artmış, en yüksek
+değerine (368,17 mg KOİ/L.g katı atık.gün) ulaşmıştır. Bu noktadan sonra sıcaklık ve pH’ın artışıyla KOİ
+giderim hızı düşmeye başlamıştır.
+pH en uygun değeri olan 6,9 iken sıcaklık ve katı
+
+36.00
+35.00
+6.75
+
+34.00
+6.50 33.00
+
+A: Sicaklik
+
+Şekil 3. KOİ giderim hızına sıcaklık ve pH’ın etkisi
+(Effects of temperature and pH on the rate of reduction of COD)
+
+yüzdesinin KOİ giderim hızına etkisi üç boyutlu cevap yüzey eğrisi ile Şekil 5’de, eş yüzey eğrileri ile
+Şekil 6’da gösterilmiştir.
+KOİ giderim hızı üzerine sıcaklık ve katı yüzdesinin
+etkisini gösteren grafikler incelendiğinde, katı yüzdesi
+ve sıcaklığın artışıyla birlikte KOİ giderim hızı da
+artmıştır. En yüksek değerine (368,17 mg KOİ/L.g
+katı atık.gün) ulaştıktan sonra katı yüzdesi ve
+sıcaklığın artışıyla düşme göstermiştir.
+Sıcaklık en uygun değeri olan 35 oC iken pH ve katı
+yüzdesinin KOİ giderim hızına etkisi üç boyutlu
+cevap yüzey eğrisi ile Şekil 7’de, eş yüzey eğrileri ile
+Şekil 8’de gösterilmiştir.
+Şekil 7 ve 8’e göre pH ve katı yüzdesinin artışıyla
+KOİ giderim hızında belli bir değere kadar (368,17
+mg KOİ/L.g katı atık.gün) artış, daha sonra düşüş
+gözlenmiştir.
+
+Şekil 2. KOİ giderim hızı için deneysel sonuçlar ile model sonuçlarının karşılaştırılması (Comparison of experimental
+results and model results for rate of reduction of COD)
+690
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+Tavuk Dışkılarının Anaerobik Arıtımında İstatistiksel Teknik Kullanılarak…
+
+M.S. Ekinci ve S. F. Mutlu
+
+KOi Giderimi
+
+7.50
+
+229.137
+
+263.888
+
+KOi Giderimi
+
+11.00
+
+192.676
+227.766
+262.855
+
+298.639
+
+297.945
+
+7.25
+
+C: Kati Yüzdesi
+
+B: pH
+
+9.50
+
+7.00
+
+Prediction 368.169
+
+333.035
+
+8.00
+
+Prediction 368.169
+
+6.75
+6.50
+
+298.639
+297.945
+
+263.888
+
+333.39
+6.50
+33.00
+
+34.00
+
+35.00
+
+36.00
+
+5.00
+
+37.00
+
+33.00
+
+34.00
+
+35.00
+
+36.00
+
+37.00
+
+A: Sicaklik
+
+Şekil 4. KOİ giderim hızına sıcaklık ve pH’ın
+etkisinin eş yüzey eğrileri ile gösterimi (Contour graph of
+effects of temperature and pH on the rate of reduction of COD)
+
+A: Sicaklik
+
+Şekil 6. KOİ giderim hızına sıcaklık ve katı
+yüzdesinin etkisinin eş yüzey eğrileri ile gösterimi
+(Contour graph of effects of temperature and percent solid on the
+rate of reduction of COD)
+
+370
+
+370
+
+260
+322.5
+
+KOi Giderimi
+
+KOi Giderimi
+
+315
+
+205
+
+150
+
+11.00
+
+37.00
+9.50
+
+275
+
+227.5
+
+180
+
+36.00
+8.00
+
+C: Kati Yüzdesi
+
+35.00
+6.50
+
+34.00
+5.00 33.00
+
+11.00
+
+A: Sicaklik
+
+Şekil 5. KOİ giderim hızına sıcaklık ve katı
+yüzdesinin etkisi (Effects of temperature and percent solid on
+the rate of reduction of COD)
+
+4. SONUÇLARIN DEĞERLENDİRİLMESİ
+(CONCLUSIONS)
+
+Kimyasal oksijen ihtiyacı giderim hızı için yapılan
+analiz sonuçları ‘Design Expert 7.0.3’ programı ile
+istatistiksel olarak değerlendirilmiş, KOİ giderim hızına sıcaklık, pH ve katı yüzdesinin birlikte etkisi incelenmiştir. KOİ miktarlarındaki azalma ile mikroorganizmaların etkinlikleri sonucu oluşan gazın orantılı
+olarak arttığı görülmüştür. Bağımsız değişkenlerin
+etkisini gösteren grafiklere göre KOİ giderim hızı bu
+bağımsız değişkenlere bağlı olarak bir maksimum
+nokta (368,17 mg KOİ/L.g katı atık.gün) vermiştir.
+ANOVA testi ile elde edilen model eşitliğine bağımsız değişkenlerin ne derece etkili olduğu belirlenmiştir. Model parametrelerinin tamamının p (önem
+düzeyi) değerlerinin 0.05’den küçük olması bu parametrelerin model üzerinde etkili olduklarını göstermiştir. p değerlerine bakıldığında model üzerinde
+etkisi en büyük olan parametreler sıcaklığın karesi,
+pH’ın karesi ve katı yüzdesinin karesi olmuştur. Daha
+sonra ise etkisi en çok olandan en az olana doğru katı
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+7.50
+9.50
+
+7.25
+8.00
+
+C: Kati Yüzdesi
+
+7.00
+6.50
+
+6.75
+
+B: pH
+
+5 00 6 50
+
+Şekil 7. KOİ giderim hızına pH ve katı yüzdesinin
+etkisi (Effects of pH and percent solid on the rate of reduction of
+COD)
+
+yüzdesi ve sıcaklık-pH ikili etkisi, sıcaklık-katı
+yüzdesi ikili etkisi, pH, sıcaklık, pH-katı yüzdesi ikili
+etkisi şeklinde sıralanmıştır. Bulunan en uygun katı
+yüzdesi olan 7.01 (g/100g) değeri Bujoczek ve arkadaşlarının bulmuş oldukları % 10.3 değerinden küçüktür [11]. Webb ve Hawkes’in bulmuş olduğu katı
+oranı olan % 4-6 aralığına göre ise daha yüksektir
+[17]. Bulunan en uygun pH değeri (6.9) literatürde
+verilen asetogenlerle metan bakterilerinin ortak çalışabileceği pH aralığındadır [9].
+Elde edilen model denkliğine ait R2 değerinin
+(0,9775) 1’e yakın olması, modelin 20 değişik çalışma
+koşulunda elde edilen sonuçları iyi ifade ettiğini
+göstermiştir. Deneylerden elde edilen sonuçlar ile
+modelden hesaplanan sonuçlar karşılaştırıldığında
+birbirleriyle uyumlu olduğu görülmüştür.
+
+691
+
+M.S. Ekinci ve S. F. Mutlu
+
+Tavuk Dışkılarının Anaerobik Arıtımında İstatistiksel Teknik Kullanılarak…
+
+KOi Giderimi
+
+11.00
+
+217.054
+
+247.272
+
+7.
+
+247.272
+277.489
+307.707
+9.50
+
+C: Kati Yüzdesi
+
+337.925
+
+8.00
+
+8.
+
+Prediction 368.169
+
+6.50
+
+247.272
+5.00
+6.50
+
+6.75
+
+7.00
+
+7.25
+
+7.50
+
+9.
+
+B: pH
+
+Şekil 8. KOİ giderim hızına pH ve katı yüzdesinin
+etkisinin eş yüzey eğrileri ile gösterimi (Contour graph of
+effects of pH and percent solid on the rate of reduction of COD)
+
+10.
+
+TEŞEKKÜR (ACKNOWLEDGEMENT)
+Araştırmamıza 06/2006-25 kod nolu projeyle destek
+olan Gazi Üniversitesi Bilimsel Araştırma Projeleri
+Birimi’ne ve ayrıca desteklerinden ötürü Gazi
+Üniversitesi Temiz Enerji Araştırma ve Uygulama
+Merkezi’ne teşekkür ederiz.
+
+11.
+
+12.
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+6.
+
+692
+
+Moller, H.B., Sommer, S.G., Ahring, B.K.,
+“Methane Productivity of Manure, Straw and
+Solid Fractions of Manure”, Biomass &
+Bioenergy, Cilt 26, 485-495, 2004.
+Güngör Demirci, G., Demirer, G.N., “Effect of Initial
+COD Concentration, Nutrient Addition, Temperature
+and Microbial Acclimation on Anaerobic Treatability
+of Broiler and Cattle Manure”, Bioresource
+Technology, Cilt 93, 109-117, 2004.
+Sommer S.G., Petersen S.O., Sorensen, P.,
+Poulsen H.D., Moller, B.H., “Methane and
+Carbon Dioxide Emissions and Nitrogen
+Turnover During Liquid Manure Storage”, Nutr
+Cycl Agroecosyst, Cilt 78, 27-36, 2007.
+Hammad, M., Badarneh, D., Tahboub, K.,
+“Evaluating Variable Organic Waste to Produce
+Methane”, Energy Conversion & Management,
+Cilt 40, 1463-1475, 1999.
+Tarım İstatistikleri Özeti, Türkiye İstatistik
+Kurumu Matbaası, Ankara, 2007.
+Demirer N.D., Duran, M., Ergüder T.H., Güven,
+E., Uğurlu, Ö., Tezel, U., “Anaerobic Treatability
+and Biogas Production Potential Studies of
+Different Agro-Industrial Wastewaters in
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+Turkey”, Biodegradation, Cilt 11, 401-405,
+2000.
+Bouallagui, H., Haouari, O., Touhami, Y., Ben
+Cheikh, R., Marouani, L., Hamdi M., “Effect of
+Temperature on The Performance of an
+Anaerobic Tubular Reactor Treating Fruit and
+Vegetable Waste”, Process Biochemistry, Cilt
+39, 2143-2148, 2004.
+Leitao, R.C., Haandel, A.C., Zeeman, G.,
+Lettinga, G., “The Effects of Operational and
+Environmental
+Variations
+on
+Anaerobic
+Wastewater Treatment Systems: A Review”,
+Bioresource Technology, Cilt 97, 1105-1118,
+2006.
+Yu, H., Fang, H., Gu, G., “Comparative
+Performance of Mesophilic and Thermophilic
+Acidogenic
+Upflow
+Reactors”,
+Process
+Biochemistry, Cilt 38, 447-454, 2002.
+Mutlu, S.F., “Biyogazın Kırsal Kesimde
+Kullanımı ve Tasarım Temelleri”, Türk Tesisat
+Mühendisleri Derneği Dergisi, Cilt 27, 39-41,
+2003.
+Bujoczek, G., Oleszkiwicz, J., Sparling, R.,
+Cenkowski, S., “High Solid Anaerobic Digestion
+of
+Chicken
+Manure”,
+J.Agricultural
+Engineering Resources, Cilt 76, 51-60, 2000.
+Mahanta, P., Saha, U.K., Dewan, A., Kalita, P.,
+“The Influence of Temperature and Total Solid
+Concentration on the Gas Production Rate of a
+Biogas Digester”, Journal of Energy in
+Southern Africa, Cilt 15, 112-117, 2004.
+Anozie, A.N., Layokun, S.K., Okeke, C.U., “An
+Evaluation of a Batch Pilot- Scale Digester for
+Gas Production from Agricultural Wastes”,
+Energy Sources, Cilt 27, 1301-1311, 2005.
+Karim, K., Hoffmann, R., Klasson, T., AlDahhan, M.H., “Anaerobic Digestion of Animal
+Waste: Waste Strength Versus Impact of
+Mixing”, Biosource Technology, Cilt 96, 17711781, 2005.
+APHA, “Standart Methods for the Examination
+of Water and Wastewater”, American Public
+Health Association, 20th Edition, Washington
+D.C., 1998.
+Ergun, M., Mutlu, S.F., “Application of a
+Statistical Technique to The Production of
+Ethanol from Sugar Beet Molasses by
+Saccharomyces
+cerevisiae”,
+Bioresource
+Technology, Cilt 73, 251-255, 2000.
+Webb, A.R., Hawkes F.R., “The Anaerobic
+Digestion of Poultry Manure: Variation of Gas
+Yield With Influent Concentration and
+Ammonium –Nitrogen Levels”, Agricultural
+Wastes, Cilt 14, 135-156, 1985.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 4, 2009
+
+

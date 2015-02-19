@@ -1,0 +1,899 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 1, 127-134, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 1, 127-134, 2013
+
+ÜÇ-FAZLI DİZEL EMÜLSİYON YAKITLARININ MOTOR
+PERFORMANSI VE EGZOZ EMİSYONLARINA ETKİSİ
+Emre Yılmaz*, Hamit Solmaz*, Seyfi Polat**, Murat Altın*
+*Gazi Üniversitesi, Teknoloji Fakültesi, Otomotiv Mühendisliği Bölümü, 06500, Ankara
+**Hitit Üniversitesi, Meslek Yüksekokulu, Otomotiv Teknolojisi, 19169, Çorum
+emreylmz@gazi.edu.tr; hsolmaz@gazi.edu.tr; seyfipolat@hitit.edu.tr; maltin@gazi.edu.tr
+(Geliş/Received: 09.05.2012; Kabul/Accepted: 16 .11.2012)
+ÖZET
+Dizel motorları düşük yakıt tüketimlerinden dolayı hem kara hem de deniz taşımacılığında yaygın şekilde
+kullanılmaktadırlar. Ancak dizel motorlarından kaynaklanan zararlı azot oksit (NOx) ve is emisyonları insan
+sağlığını tehdit etmektedir. Dizel emisyonlarının azaltılabilmesi için pek çok araştırma yapılmıştır. Belirli
+oranlarda su içeren dizel emülsiyon yakıtları zararlı egzoz emisyonlarını önemli ölçüde azaltabilmektedirler. Bu
+nedenle emülsiyon yakıtlar son yıllardaki önemli araştırma alanlarından birisi olmuştur. Bu çalışmada % 10 (E1)
+ve % 15 (E2) su ihtiva eden dizel emülsiyon yakıtlarının motor performansı ve egzoz emisyonları üzerine etkileri
+incelenmiştir. Diğer çalışmalardan farklı olarak yakıtların elde edilmesinde su çözücü olarak % 1 oranında
+yardımcı emilgatör mono etilen glikol kullanılmıştır. E1 emülsiyonunun egzoz emisyonlarını kısmen azaltırken
+motor performansını da önemli ölçüde azalttığı belirlenmiştir. E2 emülsiyonunun kullanılmasıyla karbon
+monoksit (CO), NOx ve is emisyonlarında sırasıyla % 45,9, % 26,9 ve % 18,8 azalmıştır. Buna karşılık motor
+momenti % 15,72 azalmıştır.
+
+1. GİRİŞ (INTRODUCTION)
+Günümüzde ihtiyaç duyulan enerjinin büyük bir kısmı
+petrolden karşılanmaktadır. Petrolün önemli bir kısmı
+ise motorlu taşıtlarda yakıt olarak kullanılmaktadır.
+Petrol rezervleri artan nüfusa paralel olarak gelişen
+teknoloji ve yeniliklerden dolayı aşırı kullanım
+
+sonucu hızla tükenmektedir. Ayrıca bu artışa paralel
+olarak egzoz emisyonları da artış göstermiştir. Bu
+artış hava kirliliğini etkileyen en önemli etkenlerin
+başında yer almaktadır. Bu nedenler araştırmacıları
+alternatif temiz yakıt arayışına itmiştir.
+
+E. Yılmaz ve ark.
+
+Üç-Fazlı Dizel Emülsiyon Yakıtlarının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+Konvansiyonel benzinli ve dizel motorlardan
+kaynaklan başlıca egzoz emisyonları CO, NOx,
+hidrokarbon (HC), partikül madde (PM), kükürt oksit
+(SOx) ve kurşun bileşikleridir [1,2]. CO, NOx, HC ve
+PM yanma prosesinden kaynaklı olarak ortaya çıkan
+egzoz gazı ürünleridir ancak SOx ve kurşun bileşikleri
+yakıt kaynaklı kirleticilerdir. CO ve HC benzinli
+motorlarda daha yüksek oranlarda görülürken dizel
+motorlarda ise yüksek miktarda PM ve NOx oluşumu
+sorun teşkil etmektedir [3-5].
+Günümüzde dizel motorları halen en yüksek verime
+sahip motorlardır ve dizel yakıtı yakıt ekonomisinden
+dolayı taşımacılık sektöründe en çok tercih edilen
+yakıt türüdür [6,7]. Bundan dolayı birçok araştırmacı
+dizel yakıtının özelliklerinin ve dizel yakıtı ile beraber
+kullanılabilecek alternatif yakıtların geliştirilmesi
+üzerine odaklanmıştır. En önemli araştırma
+alanlarından birisi bitkisel kökenli biyodizel
+yakıtlarıdır. Pek çok araştırmacı dizel-biyodizel
+karışımlarının motor performansı ve egzoz
+emisyonlarına etkilerini incelemişlerdir [8-16]. Ancak
+biyodizel yakıtının ısıl değerinin ve uçuculuğunun
+düşük, bunun yanında viskozitelerinin yüksek olması
+kullanılabilirliliğini
+sınırlandırmaktadır.
+Ayrıca
+içerisinde barındırdığı oksijen dolayısıyla NOx
+emisyonlarında artışa neden olmaktadırlar [17,18].
+Olumlu
+çevresel
+etkilerinden
+dolayı
+dizel
+emülsiyonlarına olan ilgi giderek artmaktadır. Yakıtın
+içerisinde bulunan su emisyon bileşenleri üzerinde
+önemli bir etki yaratmaktadır [19].
+Emülsiyonlar, birbiriyle karışmayan iki sıvının birbiri
+içinde dağılmasından oluşmuş, homojen görünüşlü
+heterojen sistemlerdir. Eğer emülsiyon, yağ
+damlacıklarını su içinde içeriyorsa Y/S (su içinde yağ)
+emülsiyonu ve su damlacıklarını yağ içinde içeriyorsa
+S/Y (yağ içinde su) emülsiyonu olarak tanımlanır.
+Aynı anda Y/S ve S/Y tipindeki emülsiyonu
+bulunduran sistemler çoklu emülsiyonlar olarak
+tanımlanır. Bunlar S/Y/S veya Y/S/Y tipi emülsiyon
+oluştururlar [20,21].
+Suyun varlığına bağlı olarak motor performansında
+bir miktar azalma görülebilir ancak dizel yakıt
+tüketimi genellikle azalmaktadır [19]. Dizel
+emülsiyonlarına olan ilginin en önemli nedeni
+emisyonlara olan olumlu etkisidir. Dizel yakıtının
+içerisindeki su NOx, PM ve is emisyonlarında önemli
+azalmalara neden olmaktadır [22]. Emülsiyon
+yakıtında bulunan %15 suyun NOx emisyonlarını %35
+oranında azaltabileceği belirlenmiştir. Bununla
+beraber CO ve HC emisyonlarında bir miktar artış
+gözlenebilir [19,23]. Yapılan bir çalışmada % 15-45
+su içeren emülsiyon yakıtlarının kullanılması
+durumunda NOx ve is emisyonlarının büyük ölçüde
+azaldığı ancak CO ve HC emisyonlarında kısmen artış
+gözlendiği
+belirtilmiştir
+[19].
+Nadeem
+ve
+arkadaşlarının yaptığı çalışmada ise CO emisyonları
+önemli ölçüde azalmış ve bunun suyun ilave
+
+128
+
+edilmesiyle birlikte silindirde meydana gelen mikro
+patlamalardan kaynaklandığı ifade edilmiştir [6].
+Y/S/Y tipindeki çoklu emülsiyonlar Lin ve Wang
+tarafından araştırılmıştır. S/Y emülsiyonlarında
+görülen
+etkiler
+benzer
+şekilde
+Y/S/Y
+emülsiyonlarında da görülmüştür. Y/S/Y çoklu
+emülsiyonlarının kullanılması durumunda NOx ve CO
+emisyonlarının biraz daha azaldığı tespit edilmiştir.
+Çoklu emülsiyon kullanımında egzoz gaz sıcaklığı ise
+artmıştır [24-26].
+Dizel yakıtındaki su miktarı çalışmalara göre
+değişiklik göstermektedir. Birçok araştırmacı %510’lu bir su içeriği kullanmışlardır ancak daha yüksek
+oranlar da araştırılmıştır. PM emisyonlarının
+azaltılması için optimum su oranının %10 ile %20
+arasında olduğu belirtilmiştir. Samec ve arkadaşları
+dizel yakıtında %10 ve %15 oranında su bulunması
+durumunda NOx, HC ve duman miktarını
+incelemişlerdir. HC ve duman %10 su emülsiyonunda
+önemli ölçüde azalmıştır. NOx miktarındaki fark
+edilebilir derecede azalma ise ancak %15 oranında su
+emülsiyonu kullanıldığında sağlanabilmiştir [27].
+Bu çalışmada %10 (E1) ve %15 (E2) oranında su
+ihtiva eden dizel çoklu Y/S/Y emülsiyon yakıtlarının
+motor performans ve egzoz emisyonlarına etkileri
+incelenmiştir. Bu çalışmada ayrıca çökelme süresinin
+uzatılmasını ve suyun daha iyi çözülebilmesini
+sağlayabilmek için yardımcı emülgatör mono etilen
+glikol
+kullanılmıştır.
+Hazırlanan
+emülsiyon
+yakıtlarının çökelme süreleri ve mikroskop altındaki
+görüntüleri incelenmiştir.
+2. MATERYAL ve METOT
+
+(MATERIAL
+
+and
+
+METHOD)
+
+2.1. Test Yakıtları (Test Fuels)
+Emülsiyonları oluşturabilmek ve stabilizasyonunu
+sağlayabilmek için suyu ve yağı absorbe eden, birbiri
+içinde karışmayan iki sıvı olan yağ (dizel, biyodizel
+vs.) ile suyun karışmasını ve dengede kalabilmesine
+yardımcı olan emülgatörler kullanılmaktadır [19]. Bu
+çalışmada ana emülgatör olarak sorbitan monooleat
+(Span 80) ile polioksietilen sorbitan monooleat
+(Tween 80), yardımcı emülgatör olarak ise mono
+etilen glikol kullanılmıştır.
+Span 80 koyu sarı ile kahverengi arasında bir renge
+sahiptir ve görünüm olarak balı andırmaktadır. Tween
+80’e göre daha yoğun bir kıvama sahiptir. Span 80
+S/Y emülsiyonu oluştururken yakıtın içine istenen
+hidrofilik lipofilik denge oranını (HLB) sağlayacak
+şekilde konur ve daha sonra su ilave edilerek
+emülsiyon oluşturulur.
+Tween 80 emülgatör türlerinden polisorbatlar grubuna
+girer ve HLB oranı 15’ dir. Kararlı bir emülsiyon
+oluşturabilmek için HLB oranının 8 ile 10 arasında
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Üç-Fazlı Dizel Emülsiyon Yakıtlarının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+tutulması gerekmektedir. Bu çalışmada yakıtlar HLB
+oranı 9 olacak şekilde üretilmiştir. Y/S emülsiyonu
+oluştururken suyun içine istenen HLB oranını
+sağlayacak miktarda Tween 80 konularak karıştırılmış
+ve daha sonra bu karışıma yakıt ilave edilmiştir.
+Böylece Y/S emülsiyonu hazırlanmış olur. Mono
+Etilen Glikol ise yardımcı emülgatördür. Su çözücü
+ve donmayı önleyici olarak kullanılan bir polioldür
+[28,29].
+Tablo 1. Emülsiyon yakıtlarının hacimsel içerikleri
+(%) (Volumetric content of the emulsion fuels %)
+Mono
+Saf Span Tween
+Etilen
+Yakıt Dizel
+Su
+80
+80
+Glikol
+87
+10
+0,8
+1,2
+1
+E1
+E2
+
+82
+
+15
+
+0,9
+
+1,1
+
+1
+
+Tablo 1’de emülsiyon yakıtlarının oluşturulmasında
+kullanılan emülgatör, su ve dizel oranları verilmiştir.
+Bu iki numune hazırlanırken aynı işlem basamakları
+takip edilmiştir. Numuneleri hazırlamak için 3200
+d/dakika dönme hızına ve 710 kW güce sahip black
+and decker marka matkap ucuna mikser ucu takılarak
+karıştırıcı olarak kullanılmıştır. Ayrıca matkapta hız
+sabitleyicisi bulunmakta olup deneyler boyunca 3200
+d/dakika sabit hızda çalışılmıştır. Numunelerin
+hazırlanmasında öncelikle Y/S iki fazlı emülsiyonu
+oluşturulmuş daha sonra oluşturulan emülsiyon dizel
+yakıtına emülgatörler yardımıyla eklenerek Y/S/Y
+çoklu emülsiyon yakıtları elde edilmiştir. Yakıtların
+hazırlanması 25 oC’de gerçekleştirilmiştir. Elde edilen
+emülsiyon yakıtlarının Nikon Eclipse L150A
+mikroskobu ile görüntüleri alınmış ve ayrıca çökelme
+süreleri incelenmiştir.
+2.2. Deney Düzeneği (Experimental Setup)
+Deneyler tek silindirli direkt püskürtmeli bir dizel
+motoru ve Cussons P8160 test düzeneğinde
+yapılmıştır. Motorun teknik özellikleri tablo 2’de
+görülmektedir. Deneyler tam yük şartlarında
+gerçekleştirilmiştir.
+
+E. Yılmaz ve ark.
+
+Tablo 2. Deney motorunun teknik özellikleri (Technical
+features of test engine)
+4-Zamanlı DI Dizel Motoru
+Motor Tipi
+1
+
+Silindir sayısı
+Silindir çapı x
+strok (mm)
+Silindir hacmi
+(cm3)
+Sıkıştırma oranı
+Maksimum tork
+Enjektör
+püskürtme basıncı
+(bar)
+Püskürtme avansı
+
+86x68
+395
+18:01
+2200 d/dakika’da 19,6 Nm
+180
+24 0
+
+Şekil 1’de deney düzeneğinin şematik resmi
+görülmektedir. Motor test düzeneğinde bulunan DC
+elektrikli dinamometre, maksimum 4000 d/dakika’da
+10 kW güç absorbe edebilmektedir. Motor yükü,
+straingauge yük hücresi ile ölçülmüştür. Motor hızı
+ise dinamometre şaft mili üzerinde bulunan dişli teker
+üzerindeki manyetik sensör ile ölçülmüştür. Yakıt
+tüketimi hassas terazi ve kronometre kullanılarak
+ölçülmüştür. Deneyler tam yük şartlarında 1800-3250
+d/dakika
+aralığında
+7
+farklı
+devirde
+gerçekleştirilmiştir.
+İs ölçümü için VLT 2600 S opasimetresi
+kullanılmıştır. Emisyon ölçümleri içinse Testo 350
+XL gaz analizörü kullanılmıştır. Bu cihazların teknik
+özellikleri sırasıyla tablo 3 ve tablo 4’de verilmiştir.
+Tablo 3. VLT 2600 S Opasimetre teknik özellikleri
+(Technical specifications of opacymeter)
+
+Parametre
+Duman
+yoğunluğu
+k duman faktörü
+(1/m)
+Motor hızı
+
+Ölçüm
+Aralığı
+
+Doğruluk
+
+0–99 %
+
+0,01
+
+0–10
+
+0,01
+
+0–9999
+d/dakika
+
+1 d/dakika
+
+Şekil 1. Deney düzeneğinin şematik görünümü (Schematic representation of the experimental apparatus)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+129
+
+E. Yılmaz ve ark.
+
+Üç-Fazlı Dizel Emülsiyon Yakıtlarının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+Tablo 4. Testo 350 XL emisyon ölçüm cihazı teknik
+özellikleri (Technical specifications of Testo 350 XL emssion
+device)
+
+Yanma
+ürünleri
+
+Ölçüm
+Aralığı
+
+Doğruluk
+
+Oksijen (O2)
+
+0–25% vol
+
++/- 0,2 m.v
+
+Karbonmonok
+sit (CO)
+Karbondioksit
+(CO2)
+Hidrokarbon
+(HC)
+Azot Oksit
+(NOx)
+
+0–10000
+ppm
+
+5 ppm (0 – 99
+ppm)
+± 0,3%vol +1%mv
+(0–25%vol)
+
+0–50% vol
+
+100%
+90%
+80%
+
+0,01–4%
+
+0,1 % ppm
+
+0–3000
+ppm
+
+5 ppm (0 -99 ppm)
+
+70%
+60%
+50%
+
+Emülsiyon
+
+40%
+
+Verilerin değerlendirilmesinde doğruluk ve belirsizlik
+değerlerinin bilinmesi faydalı olabilir. Tablo 5’te
+yakıt tüketimi, motor momenti ve motor gücü için
+doğruluk ve belirsizlik değerleri verilmiştir.
+Tablo 5. Doğruluk ve belirsizlik değerleri (Accuracy and
+uncertainty values)
+
+Ölçüm
+Aralığı
+Yakıt
+tüketimi
+(g)
+Motor
+momenti
+(Nm)
+Güç (kW)
+
+azalmalar gözlenmektedir. İç içe fazların oluşması
+Y/S/Y çoklu emülsiyonunun oluşturulabildiğini
+göstermektedir. 10. ve 5. dakikalar karşılaştırıldığında
+fazlar arasında ayrışmalar olduğu ve faz ayrışmasının
+E1 yakıtında biraz daha fazla olduğu görülmektedir.
+Faz ayrışmasının bir sonucu olarak E1 yakıtı E2
+yakıtına göre daha erken çökelmeye başlamıştır.
+
+Doğruluk
+
+Belirsizlik
+(%)
+
+0-8000
+
+± 0,1 g
+
+± 0,3
+
+30%
+
+Çökelme
+
+20%
+10%
+0%
+
+1.
+3.
+5.
+7.
+10. 20. 30.
+Gün Gün Gün Gün Gün Gün Gün
+
+Şekil 2. E1 emülsiyon yakıtının zamana bağlı olarak
+çökelme miktarı (Amount of precipitation of E1 emulsion fuel
+by time)
+100%
+90%
+80%
+
+-
+
+± 0,25 %
+
+± 0,12
+
+-
+
+± 0,21 %
+
+± 0,13
+
+70%
+60%
+50%
+
+Emülsiyon
+
+40%
+
+Emülsiyon yakıtlarının en önemli sorunlarından biri
+çabuk çökelmeleridir (faz ayrışması). Bu nedenle
+üretilen yakıtların çökelme sürelerinin bilinmesi
+gerekmektedir. Bu çalışmada yakıtların çökelmeleri
+ölçekli kap kullanılarak 30 gün boyunca takip
+edilmiştir.
+3. BULGULAR ve TARTIŞMA (RESULTS and
+DISCUSSION)
+
+Şekil 2 ve şekil 3’te sırasıyla E1 ve E2 yakıtlarının
+zamana bağlı çökelme miktarları ve yardımcı
+emülgatörün çökelmeye etkisi görülmektedir.
+Performans ve emisyon olarak daha iyi sonuçlar veren
+E2 yakıtının daha geç çökelmeye başladığı ve
+çökelme hızının E1 yakıtına göre daha az olduğu
+gözlemlenmiştir. E1 yakıtı 4. günde çökelmeye
+başlamış ve 5. günde % 1 oranında çökelmiştir. E2
+yakıtı ise 6. günde çökelmeye başlamış ve 7. günde %
+1 oranında çökelme gözlemlenmiştir. 30 gün sonunda
+ise E1 yakıtı %9 oranında çökelmiş iken, E2 yakıtın
+da ise % 6 oranında çökelme gözlenmiştir.
+E1 ve E2 yakıtlarının mikroskop altındaki görüntüleri
+sırasıyla şekil 4 ve şekil 5’te görülmektedir. 5.
+dakikada her iki yakıt görüntüsünde de iç ve dış fazlar
+oldukça fazla iken 10. dakikada faz oluşumda
+
+130
+
+Çökelme
+
+30%
+20%
+10%
+0%
+
+1. Gün 3. Gün 5. Gün 7. Gün 10.
+Gün
+
+20.
+Gün
+
+30.
+Gün
+
+Şekil 3. E2 emülsiyon yakıtının zamana bağlı olarak
+çökelme miktarı (Amount of precipitation of E2 emulsion fuel
+by time)
+
+Şekil 4. E1 yakıtının mikroskop altındaki görüntüsü
+(Image of E1 fuel under microscope)a) 5 dakika (5 minute) b)
+10 dakika(10 minute)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Üç-Fazlı Dizel Emülsiyon Yakıtlarının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+E. Yılmaz ve ark.
+
+Şekil 5. E2 yakıtının mikroskop altındaki görüntüsü
+(İmage of E1 fuel under microscope) a) 5 dakika (5 minute)
+b) 10 dakika(10 minute)
+
+Şekil 7. Özgül yakıt tüketiminin motor hızına bağlı
+değişimi (Variation of specific fuel consumption with engine
+speed)
+
+Şekil 6. Motor momentinin motor hızına bağlı
+değişimi (Variation of engine torque with engine speed)
+Dizel, E1 ve E2 yakıtlarının motor momentine etkisi
+şekil 6’da görülmektedir. Maksimum tork dizel yakıtı
+ile 2250 d/dakika’da 21,42 Nm olarak elde edilmiştir.
+E1 ve E2 yakıtlarının kullanılması durumunda
+maksimum tork devrinin 2500 d/dakika civarına
+kaydığı görülmektedir. E1 ve E2 yakıtlarının
+kullanımıyla motor torku ortalama olarak sırasıyla %
+23,3 ve % 15,72 azalmıştır. E2 emülsiyon yakıtının
+E1 emülsiyon yakıtına göre daha yüksek tork
+sağladığı görülmektedir. Silindirde yanma işlemi
+başladığında sıvı haldeki su yüksek basınçlı su
+buharına dönüşür. Bu durum yakıt içerisindeki su
+miktarının artmasına bağlı olarak piston tepesine
+ekstra buhar basıncının etki etmesine neden olur [30].
+Bu nedenle % 15 su içeren üç- fazlı Y/S/Y
+emülsiyonları % 10 su içeren üç fazlı emülsiyonlara
+göre daha iyi performans sağlamaktadırlar [19].
+Ayrıca emülsiyonun standart dizel yakıtına göre daha
+yüksek viskoziteye sahip olması ve emülsiyondaki su
+enjeksiyon işlemi sırasında bulutlu daha ince bir
+atomizasyonu mümkün kılar [28,30]. Bu durum
+yanma işleminin daha verimli olmasını sağlar. Yakıta
+su ilavesi ile yakıtın alt ısıl değerinin düşmesine
+neden olur. Yanma işleminde verim arttırılsa bile
+yakıtın ısıl değerinin azalması motor torkunun
+azalmasına neden olmaktadır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Şekil 7’de özgül yakıt tüketiminin motor hızına bağlı
+değişimi görülmektedir. En düşük özgül yakıt
+tüketimi 2250 d/dakika’da, 352,15 g/kWh olarak dizel
+yakıtı ile elde edilmiştir. E1 ve E2 yakıtlarının
+kullanımıyla özgül yakıt tüketimleri ortalama % 45 ve
+% 32,6 artış göstermiştir. Emülsiyon içerisindeki su
+miktarı arttıkça emülsiyon yakıtlarının ısıl değerleri
+azalır [26]. Özgül yakıt tüketimlerindeki artış,
+emülsiyon içerisindeki su oranına bağlı olarak yakıtın
+alt ısıl değerinin düşmesinden kaynaklanabilir. Buna
+rağmen E2 emülsiyonunun özgül yakıt tüketimi E1
+emülsiyonuna göre daha düşüktür. Emülsiyon yakıt
+ısıtıldığında damlacık halindeki su dizel yakıtına göre
+daha çabuk buharlaşır. Bu buharlaşma hidrokarbon
+zincirinin hızla parçalanmasına neden olur. 270 oC
+civarında gerçekleşen bu olay mikro patlama olarak
+adlandırılır ve yakıtın çok daha iyi atomize olmasını
+sağlar. Bu durumda yanma verimi artar ve yakıt
+tüketimi düşer. Emülsiyondaki su oranının artması
+mikro patlama etkisini arttırmaktadır [19].
+Emülsiyon yakıtlarının yanması sırasında daha uzun
+süren mikro patlamalar meydana gelir ve reaksiyona
+girmekte olan maddeler daha yüksek oranlarda
+karışırlar. Bu nedenle emülsiyon yakıtlarının yanması
+sonucu dizel yakıtına göre daha az miktarda CO
+emisyonu açığa çıkar. Şekil 8’de dizel ve emülsiyon
+yakıtlarının kullanılması sonucu açığa çıkan CO
+emisyonlarının motor hızına bağlı değişimi
+görülmektedir. Tüm yakıtlarda CO emisyonları motor
+hızına bağlı olarak azalmış ancak 3000 d/dakika
+motor hızından sonra bir artış meydana gelmiştir. En
+düşük CO emisyonu E2 yakıtı ile 2500 d/dakika’da
+1801 ppm olarak elde edilmiştir. Emülsiyon
+içerisindeki su miktarı arttıkça CO emisyonunun
+azaldığı görülmektedir. E1 ve E2 yakıtlarının
+kullanılmasıyla CO emisyonunda dizel yakıtına göre
+sırasıyla ortalama % 5,7 ve % 26,9 azalma
+sağlanmıştır.
+
+131
+
+E. Yılmaz ve ark.
+
+Üç-Fazlı Dizel Emülsiyon Yakıtlarının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+azalmıştır. Emülsiyon içerisindeki su yanma sonu
+sıcaklığını ve dolayısıyla emülsiyonun pirolizini
+azalttığından isi azaltmaktadır. Buna ilave olarak
+mikro patlamalar yanma verimliliğini arttırmakla
+kalmayıp reaksiyon entalpisini de arttırmaktadırlar.
+Bunun bir sonucu olarak yanma odası içerisinde
+karbon isi oluşumu için gerekli süre daha kısa kesilir
+ve siyah duman oluşumu oldukça azalır [28,31].
+
+Şekil 8. CO emisyonlarının motor hızına bağlı
+değişimi (Variation of CO emissions with engine speed)
+
+Şekil 10. İs emisyonlarının motor hızına bağlı
+değişimi (Variation of smoke emissions with engine speed)
+4. SONUÇ (CONCLUSION)
+
+Şekil 9. NOx emisyonlarının motor hızına bağlı
+değişimi (Variation of NOx emissions with engine speed)
+Şekil 9’da NOx emisyonlarının motor devrine bağlı
+değişimi görülmektedir. Bütün devirlerde dizel yakıtı
+en yüksek NOx emisyon değerini vermiştir. NOx
+miktarı E1 yakıtının kullanılmasıyla ortalama % 10,9,
+E2 yakıtının kullanılmasıyla ortalama % 45,9
+oranında azalmıştır. Emülsiyon yakıtların kullanılması
+durumunda, yakıt içerisindeki su miktarı arttıkça
+egzoz gaz sıcaklığı düşer. Buharlaşma esnasında
+suyun gizli ısısı dolguyu soğutur ve ortalama silindir
+sıcaklığının düşmesine neden olur. Buna bağlı olarak
+pik yanma sıcaklığı azalır [30]. Ayrıca emülsiyon
+içerisindeki su miktarı arttıkça emülsiyonun ısıl
+değeri azalacağından maksimum silindir içi sıcaklığı
+da azalır.
+Şekil 10’da is emisyonlarının motor hızına bağlı
+değişimi görülmektedir. Bütün yakıtlarda is
+emisyonları 2500 d/dakika civarına kadar azalmış ve
+bu devirden sonra artmaya başlamıştır. Bunun nedeni
+maksimum tork devrinden sonra silindire alınan hava
+miktarının azalması ve türbülansın kötüleşmesi
+olabilir. Emülsiyon yakıtlarının kullanılmasıyla
+birlikte is emisyonlarının azaldığı görülmektedir. İs
+emisyonları E1 yakıtının kullanılmasıyla ortalama %
+12,7 ve E2 yakıtının kullanılmasıyla ortalama % 18,8
+
+132
+
+Bu çalışmada Y/S/Y üç fazlı dizel emülsiyon
+yakıtının motor performansı ve egzoz emisyonlarına
+etkileri incelenmiştir. % 10 su içeren E1 emülsiyon
+yakıtının egzoz emisyonlarını kısmen azalttığı, buna
+karşılık motor momentini % 23,3 azalttığı, özgül yakıt
+tüketimini ise % 45 arttırdığı görülmüştür. % 15 su
+içeren E2 emülsiyonu ile yapılan testlerde ise NOx
+emisyonu % 45,9, CO emisyonu % 26,9 ve is
+emisyonu % 18,8 azalırken motor momentinde
+ortalama % 15,72 azalma kaydedilmiştir. Bu durum
+E2 emülsiyonunun emisyonları azaltmak amacıyla
+kullanılabileceğini göstermektedir.
+Ancak E1 ve E2 emülsiyonlarında 7. günden sonra faz
+ayrışmasının artması ve çökelmenin başlaması yakıt
+sistemi parçalarına zarar verebilir. Çökelmenin
+önlenebilmesi için emülsiyonun karıştırılabileceği bir
+sistemin oluşturulması ve dolayısıyla ek bir maliyet
+gerekebilir. Ayrıca sürekli kullanımda emülsiyon
+içerisindeki suyun motor parçaları üzerindeki
+etkilerinin de incelenebilmesi için yol testleri
+uygulanabilir.
+KAYNAKLAR (REFERENCES)
+1.
+2.
+
+Pulkrabek, W.W., “Engineering Fundamentals of
+the Internal Combustion Engine”, Prentice Hall,
+New Jersey, 2010.
+Solmaz, H., Çelikten, İ., “Estimation of amount
+of pollutants generated by vehicles in Turkey
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Üç-Fazlı Dizel Emülsiyon Yakıtlarının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+3.
+
+4.
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+until 2030”, Gazi University Journal of
+Science, 25, 2, 495-503, 2012.
+Çelikten, İ., Mutlu, E., Solmaz, H., “Variation of
+performance and emission characteristics of a
+diesel engine fueled with diesel, rapeseed oil and
+hazelnut oil methyl ester blends”, Renewable
+Energy, 48, 122-126, 2012.
+Alkaya, B., ve Yıldırım, M.A., “Taşıt Kaynaklı
+Kirleticilerin Azaltılma Yöntemleri”, Ekoloji, 34,
+16-20, 2000.
+Wang, H., Chen, C., Huang, C. and Fu, L., “Onroad Vehicle Emission Inventory and Its
+Uncertainty Analysis for Shanghai China”,
+Science of The Total Environment, 398, 3, 6067, 2008.
+Nadeem, M., Rangkuti, C., Anuar, K., Haq,
+M.R.U., Tan, I.B. and Shah, S.S., “Diesel Engine
+Performance and Emission Evaluation Using
+Emulsified Fuels Stabilized by Convenional and
+Gemini Surfactants”, Fuel, 85, 2111-2119, 2006.
+Aktaş, A., Sekmen, Y., “Effects of lpg percentage
+to performance and exhaust emissions in a dual
+fuel engine”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 25, 1, 171-178, 2010.
+Çelikten, İ. Ve Gürü, M., “Improvement of
+Performance and Emission Criterias of
+Petrodiesel and Rapeseed oil Biodiesel With
+Manganese Based Additive”, Journal Of The
+Faculty Of Engineering And Architecture Of
+Gazi University, 26(3): 643-648, 2011.
+Çelikten, İ. ve Arslan, M.A., “Investigation Of
+Diesel Fuel, Rape Oil and Soybean Oil Methyl
+Esters Effects on a Direct Injection Diesel Engine
+Performance And Emissions” Journal Of The
+Faculty Of Engineering And Architecture Of
+Gazi University, 23(4): 829-836, 2008.
+Aktaş, A. ve Sekmen, Y., “The Effects Of
+Advance Fuel Injection On Engine Performance
+And Exhaust Emıssıons Of A Diesel Engine
+Fuelled With Biodiesel”, Journal Of The
+Faculty Of Engineering And Architecture Of
+Gazi University, 23 (1), 199-206, 2008.
+Hasimoglu, C., İçingur, Y., Özsert, İ., “Effect of
+biodiesel usage to engine performance and
+exhaust emissions of a turbocharged diesel
+engine”, Journal of The Faculty of Engineering
+and Architecture of Gazi University, 23, 1,
+207-213, 2008.
+Çildir, O., Çanakçi, M., “An investigation of the
+effects of catalyst and alcohol amounts on the
+fuel properties of
+biodiesel from various
+vegetable oils”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 21, 2, 367-372, 2006.
+Özsezen, A.N., Çanakçi, M., “An investigation of
+the effect of methyl ester produced from waste
+frying oil on the performance and emissions of an
+İDİ diesel engine”, Journal of The Faculty of
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+25.
+
+E. Yılmaz ve ark.
+
+Engineering and Architecture of Gazi
+University, 23, 2, 395-404, 2008.
+Keskin, A., Gürü, M. ve Altıparmak, D.,
+“Investigatıon Of 90% Blend Of Tall Oil
+Biodiesel Fuel With Dıesel Fuel As Alternative
+Diesel Fuel ”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 22 (1), 57-63, 2007.
+Guru M., Koca A., Can O. and Çınar C., Şahin
+F.,“Biodiesel Production from Waste Chicken Fat
+Based Sources and Evaluation with Mg Based
+Additive in a Diesel Engine”, Renewable
+Energy 35, 637–643, 2010.
+Usta N., Özturk E., Can O., Conkur E. Ş., Nas S.,
+Çon A.H., Can A. Ç., Topçu M. “Combustion of
+Biodiesel Fuel Produced from Hazelnut
+Soapstock/Waste Sunflower Oil Mixture in a
+Diesel Engine”. Energy Conversion and
+Management, 46, 741-755, 2005.
+Çelikten İ., Koca A., Arslan MA., “Investigation
+of the Effects of Diesel Fuel, Rapeseed and
+Soybean Oil Methyl Esters on Engine
+Performance and Emissions at Different Injection
+Pressures”, Renewable Energy, 35, 814-820,
+2010.
+Çelik, M.B., Balki, M.K., “The effect of lpg
+usage on performance and emissions at various
+compression ratios in a small engine”, Journal of
+The Faculty of Engineering and Architecture
+of Gazi University, 22, 1, 81-86, 2007.
+Holmberg, K. and Lif, A.,“Water-in-Diesel
+Emulsions and Related Systems”, Advances in
+Colloid and Interface Science, 123, 231-239,
+2006.
+Swarbrick J, Rubino J, Rubi OP, "Coarse
+Dispersions" Remington: The Science and
+Practice of Pharmacy, University of the Sciences
+in Philadelphia, s.316-334, 2000.
+Lin C.Y, Chen L.W,“Comparison of Fuel
+Properties and Emission Characteristics of Two
+and Three-Phase Emulsions Prepared by
+Ultrasonically Vibrating and Mechanically
+Homogenizing Emulsification Methods”, Fuel
+87:2154–2161, 2008.
+Hall D, Thorne C, Goodier S.,“An İnvestigation
+into the Effect af a Diesel/Water Emulsion on the
+Size and Number Distribution of the Particulate
+Emissions from a Heavy-Duty Diesel Engine”
+SAE paper no: 2003-01-3168; 2003.
+Park J.W, Huh K.Y, Lee J.H.,“Reduction of
+NOx, Smoke and Brake Specific Fuel
+Consumption with Optimal Injection Timing and
+Emulsion Ratio of Water-Emulsified Diesel”,
+Proc Inst Mech Eng Part D J Automob
+Eng;215:83, 2001.
+Lin C.Y, Wang K.H.,“The Fuel Properties of
+Three-Phase Emulsions as an Alternative Fuel for
+Diesel Engines”, Fuel, 82(11):1367-1375, 2003.
+Lin C.Y, Wang K.H.,“Effects of Diesel Engine
+Speed and Water Content on Emission
+
+133
+
+E. Yılmaz ve ark.
+
+Üç-Fazlı Dizel Emülsiyon Yakıtlarının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+Characteristics of Three-Phase Emulsions”,
+J.Env. Sci. Hea., Part A: Toxic/Hazardous
+Substances and Env. Eng., 39(5): 1345-1359,
+2006.
+26. Lin
+C.Y,
+Wang
+K.H.,“Diesel
+Engine
+Performance and Emission Chatacteristics Using
+Three-Phase Emuslsions as Fuel”, Fuel, 83:537545, 2004.
+27. Samec N, Kegl B, Dibble R.W.,“Numerical and
+Experimental Study of Water/Oil Emulsified Fuel
+Combustion in a Diesel Engine”, Fuel,;81:20352044, 2002.
+28. Lin, C.Y, and Chen, L.W., “Emulsification
+Characteristics of Three and Two-Phase
+
+134
+
+Emulsions Prepared by the Ultrasonic
+Emulsification Method”, Fuel Processing
+Technology, 87: 309-317, 2006.
+29. Tao, D. And Chen, G., “An Experimental Study
+of Stability of Oil-Water Emulsion”, Fuel
+Processing Technology, 86: 499-508, 2005.
+30. Abu-Zaid, M.,“Performance of Single Cylinder,
+Direct Injection Diesel Engine Using Water Fuel
+Emulsions”,
+Energy
+Conversation
+and
+Management, 45: 697-705, 2004.
+31. Dec J.E.,“A Conceptual Model of DI Diesel
+Combustion Based on Laser-Sheet Imaging”,
+SAE paper: 970873, 1997.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+

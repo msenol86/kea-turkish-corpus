@@ -1,0 +1,1390 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 1, 65-75, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 1, 65-75, 2010
+
+ISIL İŞLEMSİZ VE KÜRESELLEŞTİRİLMİŞ Ç52100
+RULMAN ÇELİĞİNİN FARKLI TAKIMLARLA
+İŞLENMESİNDE TAKIM ÖMRÜ VE AŞINMASININ
+İNCELENMESİ
+Ali Rıza MOTORCU
+Makine Programı, Çanakkale Meslek Yüksekokulu, Çanakkale Onsekiz Mart Üniversitesi, 17100, Çanakkale
+armotorcu@comu.edu.tr
+(Geliş/Received: 03.02.2009 ; Kabul/Accepted: 21.10.2009)
+ÖZET
+Bu çalışmada, ısıl işlemsiz ve küreselleştirilmiş Ç52100 rulman çeliğinin farklı takımlarla işlenmesinde ana kesme parametreleri ile iş parçası ve takım sertliklerinin, takım ömrü ve takım aşınması üzerindeki etkileri araştırılmıştır. Üç farklı kesici takım kullanılmıştır. Bunlar; %70 Al2O3 + %30 TiC matris esaslı kaplamasız karma alümina seramik, %70 Al2O3 + %30 TiC matris esaslı ve PVD yöntemiyle TiN kaplı seramik ve CVD tekniğiyle
+Ti(C,N)+Al2O3+Ti(C,N)+TiN kaplı karbürdür. İşlenebilirlik deneyleri kuru kesme şartları altında yapılmıştır.
+Taguchi deneysel tasarım tekniği kullanılmış ve probleme uygun ortogonal dizi L18(21x37) seçilmiştir. Kontrol
+faktörleri ve etkileşimlerinin takım ömrü üzerindeki etkileri üç boyutlu (3D) yüzey kontur grafikleri ile açıklanmıştır. Aşınmış uçların tarama elektron mikroskobu (SEM) görüntüleri incelenerek takım aşınma tipleri
+belirlenmiştir.
+Isıl işlemsiz Ç52100 rulman çeliğinin işlenmesinde en iyi takım ömrü performansını kaplamalı seramik takımlar
+sağlamış bunu kaplamasız seramik ve kaplamalı karbür takımlar izlemiştir. Küreselleştirilmiş Ç52100 rulman
+çeliğinin işlenmesinde ise kaplamalı karbür takımlar daha iyi takım ömrü performansı sergilemiştir.
+Küreselleştirilmiş rulman çeliğinin işlenmesinde genel olarak tüm takımlarda düzenli yanak aşınması oluşmakta
+iken, ısıl işlemsiz rulman çeliğinin işlenmesinde yanak ve krater aşınması anlamlı bir şekilde artmıştır.
+
+A. R. Motorcu
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+other hand; coated carbide tools showed better tool life performance than others in the machining of
+spheroidized AISI52100 bearing steel. Whereas a uniform-regular flank wear was occurred in the machining of
+spheroidizing bearing steel with the all tools in general, flank wear and crater wear was increased significantly in
+the machining of non-heat treated bearing steel.
+Keywords: Tool life, tool wear, Taguchi technique, ceramic cutting tool, coated carbide tool.
+1. GİRİŞ (INTRODUCTION)
+Çelikler ısıl işlemsiz olarak kullanıldığı gibi farklı ısıl
+işlemler uygulanarak mikroyapıları değiştirilir ve yüksek sertlik, yüksek işlenebilirlik oranları gibi özellikler kazandırılır. Isıl işlemle sertleştirilmiş çelikler
+otomotiv, dişli, rulman, takım, kalıp endüstrisinde
+yaygın olarak kullanılmaktadır [1-5]. Çeliklere uygulanan ısıl işlemlerden biri de küreselleştirme ısıl
+işlemidir. Küreselleştirme ısıl işlemi, çelikleri Ac1
+sıcaklık çizgisi civarında uzun süre tuttuktan ve bu
+bölgede salınımlı olarak tavladıktan sonra, yavaş
+soğutma ile karbürlerin küresel şekle dönüştürülmesi
+işlemidir. Tavlanmış durumdaki ötektoid üstü çelikler
+içyapılarında sert ve gevrek sementit tanelerinin
+bulunması nedeniyle işlenmeye elverişli değildir. Bu
+tür çeliklerin işlenmesini kolaylaştırmak ve sünekliğini artırmak amacıyla da küreselleştirme ısıl işlemi
+uygulanır. Küreselleştirme işlemi, daha çok yüksek
+karbonlu çeliklere uygulanır. AISI52100 rulman
+çeliği de hacimce % 0.98-1.10 C ve % 1.3-1.6 Cr
+içeren ve daha yüksek işlenebilirlik oranları için
+küreselleştirme ısıl işlemi uygulanan yüksek karbonlu
+bir çeliktir. Küreselleştirme tavı sırasında tavlama
+süresinin iyi ayarlanması gerekir. Eğer çelik, gereğinden daha uzun süre tavlanırsa sementit parçacıkları
+birleşerek uzama gösterirler ve bu durum çeliğin
+işlenme kabiliyetini olumsuz etkiler [6].
+Sertleştirilmiş çelikler geleneksel olarak taşlama
+işlemleriyle işlenirler. Fakat taşlama operasyonları
+oldukça fazla işleme süresi gerektirmekte ve üretilebilecek geometriler sınırlıdır. Son yıllarda gelişmiş
+kesici takım malzemelerindeki gelişmelerle birlikte
+taşlama işlemine gerek kalmadan sertleştirilmiş çeliklerin işlenmesinde anlamlı artışlar olmuştur. Sertleştirilmiş çeliklerin işlenmesinde en önemli problemlerden biri malzeme sertliğinin sebep olduğu takım
+aşınmalarıdır. Kaplamalı karbür, seramik ve kübik bor
+nitrür (CBN) takımlar sahip oldukları kendilerine ait
+özellikler nedeniyle bu aşınmalara karşı dayanım
+sağlamaktadırlar [1-5]. Kaplamalı karbürlerde özellikle kaplama; kesme kuvvetini, oluşan ısıyı ve aşınmayı
+büyük oranda azaltarak geçici bir yağlayıcı görevi
+yapmaktadır. Seramiklerin yüksek sıcaklıklardaki
+oksidasyon direnci ve sıcak sertlik performansları
+dolayısıyla takım aşınması miktarı azalmakta ve özellikle işlenmesi zor olan malzemelerin 300 m/dak’dan
+daha büyük kesme hızlarında işlenmesi mümkün
+olmaktadır [7,8]. CBN’ ler de yönlü olmayan bütün
+doğrultularda üniform sertlik ve abrasif direnç sağlayan yapısı ile çatlamaya, çıtlamaya karşı mükemmel
+
+66
+
+özelliklere sahiptir. Bu nedenle tornalama ve frezelemede sıkça kullanılırlar [8].
+Ç52100 (AISI52100, 100Cr6) rulman çeliği üzerinde
+karbür, seramik ve CBN takımların takım ömrü ve
+aşınma davranışları üzerinde yapılan çalışmalar
+önemini korumaktadır. Kaplamasız, kaplamalı ve
+CBN takımlarla sertleştirilmiş AISI52100 çeliğinin
+yüksek kesme hızlarında işlenmesinde TiN ve TiAlN
+seramiklerin kaplama katmanı üzerinde mikro boyutta
+çıtlamalar oluşmaktadır. CBN takımlarda ise kaplama
+katmanı deforme olarak pürüzlü bir krater yüzeyi
+oluşmaktadır. CBN takımlarda oluşan bu aşınma ile
+kaplamasız seramik takımlarda oluşan aşınma
+desenleri birbirine benzemektedir [9]. Sertleştirilmiş
+aynı malzeme üzerinde CBN takımların kullanıldığı
+bir başka çalışmada takım geometrisi, yüzey pürüzlülüğü ve kesme kuvvetleri üzerinde anlamlı bir
+etkiye sahip olmuştur. Özellikle daha büyük şekilde
+honlanmış kenarlar daha yüksek ortalama yüzey
+pürüzlülük değerleri vermiştir. Buna ek olarak daha
+büyük honlanmış kenarlar küçük honlanmış kenarlarına göre daha yüksek eksenel, radyal ve teğetsel
+kuvvetler oluşturmuşlardır [10]. Sertleştirilmiş
+100Cr6 rulman çeliğinin (62-64 HRC) parçacık
+takviyeli alümina seramik ve CBN takımlarla sürekli
+olarak işlenmesinde en iyi takım ömrü ve yüzey
+pürüzlülük sonuçları CBN takımlarla elde edilmişken,
+karma alümina takımlarla düşük ilerleme miktarlarında, parçacık takviyeli alümina takımlarda ise
+ilerleme miktarı arttırıldığında takım ömrü değerleri
+artmış ve yüzey pürüzlülükleri iyileşmiştir. Ayrıca,
+çalışmada elde edilen Ra yüzey pürüzlülük değerleri
+0.25 m’den küçük çıkmıştır [11]. Isıl işlemle sertliği
+54 HRC’ ye çıkarılmış üç farklı çeliğin ve 100Cr6
+çeliğinin CBN takımlarla işlenmesinde en büyük aşınma oranları 100Cr6 çeliğinin işlenmesinde oluşmuştur. Abrasyon aşınma mekanizmasının etkin aşınma
+mekanizması olduğu rapor edilmiştir. Çeliklerin içerisinde yer alan karbürler aşınmanın ana nedeni olarak
+bulunmuştur. Talaş çalışmalarında, bu çeliklerin işlenmesinde beyaz katmanın farklı miktarlarına da rastlandığı rapor edilmiştir [12]. Bu çalışmanın devamı
+olan ve aynı araştırmacılar tarafından yapılan bir
+başka çalışmada ise abrasyon aşınma mekanizması,
+karbürlerin yapısı, büyüklüğü ve sıklığıyla ilişkilendirilmiştir. Takım aşınması ve talaş oluşumları kesme
+hızı ve iş parçası sertliğinden etkilenmiştir. Kesme hızının artmasıyla takım ömrü düşmüştür. Yine, iş parçası malzemesine bağlı olarak CBN içeriği ve bağlayıcı seçiminin takım ömrü üzerinde etkili olacağı
+rapor edilmiştir. CBN içeriğinin artmasıyla takımın
+aşınma dayanımının artacağı savunulmuştur [13].
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+2. MALZEME VE METOD (MATERIALS AND
+METHOD)
+
+Numuneler standart metalografik yöntemlerle
+(Zımparalama + Polisaj) metalografik inceleme için
+hazırlanmıştır. Dağlayıcı olarak % 2’lik Nital çözeltisi
+kullanılmıştır. Bütün mikroyapıların görüntülenmesinde Leica DFC 320 dijital kamera bağlantılı Leica
+DM 4000 M marka optik mikroskop kullanılmıştır.
+Mikroyapı fotoğrafları Şekil 2’de verilmiştir. Haddelenmiş koşullardaki Ç52100 deney malzemesinin
+mikroyapısı ferrit ve perlitten oluşmaktadır (Şekil
+2.a). Küreselleştirilmiş numunede ise ferrit matriste
+Fe3C’nin küreselleştiği ve değişik parçacık boyutlarında küresel sementitten meydana geldiği görülmektedir (Şekil 2.b).
+2.2. Kesici Takımlar, Takım Tutucu ve CNC
+Takım Tezgâhı (Cutting Tools, Tool Holder and CNC
+Machine)
+
+Seramik kesici takım olarak Kennametal ticari, kaplamasız seramik (KY1615) ve kaplamalı seramik
+(KY4400) uçlar kullanılmıştır. KY1615, Al2O3+TiC
+matris esaslı olup oldukça yüksek sertlik ve aşınma
+dayanımına sahiptir. KY4400, PVD tekniği ile üretilmekte ve matrisi Al2O3+TiCN (P01-05, K01-K10)
+
+2.1. Deney Numuneleri (Test Specimen)
+
+Küreselleştirme ısıl işlemleri Ortadoğu Rulman
+Sanayi ve Ticaret A.Ş.’de atmosfer kontrollü sürekli
+tavlama fırınında yapılmıştır. Sürekli tavlama fırını
+sekiz bölgeden oluşmakta olup bir seferde 930 kg şarj
+yapılabilmekte ve bir sepetin geçiş süresi 70 dak’dır.
+Ç52100 çeliğine uygulanan küreselleştirme ısıl işleminin şematik özeti Şekil 1’de gösterilmiştir.
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+790 °C-3saat
+750 °C-1 saat
+
+720 °C-2saat
+
+700
+
+710 °C-1saat
+700 °C-1saat
+
+600
+
+Sıcaklık (°C)
+
+İşlenebilirlik deneylerinde 45x250 mm boyutlarında
+ısıl işlemsiz Ç52100 ve küreselleştirilmiş Ç52100
+rulman çelikleri kullanılmıştır. Numunelere ait kimyasal bileşim Tablo 1’de verilmiştir. Deneysel iş parçaları TSE 10329 esas alınarak boy/çap oranı kriteri
+10/1 olacak şekilde hazırlanmıştır [25].
+
+800
+
+500
+400
+300
+
+tm a
+
+Bu çalışmada, ısıl işlemsiz ve küreselleştirilmiş
+Ç52100 çeliğinin kaplamalı karbür, kaplamasız ve
+kaplamalı seramik takımlarla işlenmesinde ana kesme
+parametreleri ile iş parçası ve takım sertliklerinin,
+takım ömrü ve takım aşınması üzerindeki etkileri
+araştırılmıştır. Ayrıca, aşınmış uçların SEM görüntüleri incelenerek takım aşınma tipleri belirlenmiştir.
+
+Tablo 1. Ç52100 rulman çeliğinin kimyasal bileşimi, %
+Ağırlık [8]. (Chemical composition of AISI52100 steel, Wt. %)
+%
+%
+Element
+Element
+Ağırlık
+Ağırlık
+Karbon (C)
+0.99 Silisyum (Si) 0.16
+Mangan (Mn)
+0.39
+Krom (Cr)
+1.40
+Alüminyum (Al) 0.011
+Kalay (Sn) 0.006
+Fosfor (P)
+0.014
+Kükürt (S)
+0.006
+Molibden (Mo)
+0.03
+Nikel (Ni)
+0.10
+Titanyum (Ti) PPM 10
+Bakır (Cu)
+0.10
+(N) (PPM)
+82
+O2 (PPM)
+6
+
+ğu
+da So
+
+Ç52100 çeliğinin farklı kesici takımlarla işlenmesinde, sonlu elemanlar yöntemiyle malzeme yumuşama tahminsel modelleri [15], metal kesme modelleri
+[16], genetik algoritma ile takım geometrilerinin
+etkilerini de içeren eğik kesme talaş oluşum kuvvet
+modeli [17], talaş akışı ve oluşumu [18-23], takım
+ömrü, kesme kuvveti, yüzey pürüzlülüğü ve takım
+aşınması [19, 24] modelleri geliştirilmiştir. Yüksek
+hızlarda tornalanmış yüzey ve malzeme özelliklerinin
+aşınma performansları üzerine etkisini analiz etmek
+amacıyla süreç performans modeli ile yanak ve talaş
+yüzeyi üzerindeki kinematik, gerinim dağılımı ve
+sıcaklık değişimlerinin formülüze edilmesi ise diğer
+modelleme çalışmalarındandır [1, 23]. Modellerin
+sunmuş olduğu tahminsel değerler ile deneysel
+sonuçlar oldukça yakın çıkmıştır.
+
+Sertlik ölçümlerinde Instron-Wolpert marka Diatestor
+7551 model sertlik ölçüm cihazı kullanılmıştır. Isıl
+işlemsiz, haddelenmiş durumdaki Ç52100 çeliğinin
+sertlik değeri on farklı nokta üzerinden yapılan ölçüm
+sonucu ortalama 356 HV olarak belirlenmiştir. Küreselleştirilmiş Ç52100 çeliğinin sertlik ölçümü ortalama 196 HV olarak belirlenmiştir [8].
+
+200
+100
+0
+
+H ava
+
+Farklı soğutma teknikleri ve soğutma sıvısı seçimleri
+de takım performansını etkilemektedir. TiN kaplı
+CBN takımların kullanıldığı çalışmada, hacimsel
+olarak farklı minimum yağ oranına sahip kesme
+sıvılarıyla, basınçlı hava ve kuru kesme şartlarında
+AISI52100 rulman çeliği işlenmiştir. Kuru kesme
+şartlarında ve farklı minimum yağ oranına sahip
+kesme sıvılarıyla yapılan işlemelerde benzer yanak
+aşınması değerleri elde edilmiş ve bu aşınma değerleri
+sulu işlemeden daha düşük çıkmıştır. Yine, kuru
+kesme ve farklı oranlarda yağ oranına sahip kesme
+sıvıları ile yapılan işlemelerde daha düşük değerde
+yüzey pürüzlülük değerleri elde edilmiştir. Araştırmada, en iyi soğutma ve yağlama etkisi basınçlı hava
+uygulanarak kuru kesme şartları altında sağlandığı
+rapor edilmiştir [14].
+
+A. R. Motorcu
+
+Zaman (saat)
+
+Şekil 1. Ç52100 çeliğine uygulanan küreselleştirme
+ısıl işleminin şematik özeti [8]. (Schematic summary of
+spheroidizing applied AISI52100 steel)
+67
+
+A. R. Motorcu
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+a) Isıl işlemsiz
+b) Küreselleştirilmiş
+Şekil 2. Isıl işlemsiz ve küreselleştirilmiş Ç52100 çeliğinin mikroyapısı a)Isıl işlemsiz (orta bölge), b)
+Küreselleştirilmiş (orta bölge) [8]. (Microstructures of non-heat treated and spheroidized AISI52100 steel. a) Non-heat treated
+(middle section), b) Spheroidized (middle section))
+
+oluşturmaktadır. Seramik kesici uçlar TNGA 160408
+takım geometrisine sahip olup talaş kırıcısızdır [26].
+Sinterlenmiş kaplamalı karbür olarak ise SECO ticari
+firması tarafından üretilen TP1000 kalitesi tercih
+edilmiştir. TP1000 kalitesi, kimyasal buhar biriktirme
+(CVD) ve azaltılmış sıcaklıkta kimyasal buharlaştırma
+(MTCVD) teknikleri ile üretilmiş olup; Ti(C,N) alt
+katman, Al2O3 ve Ti(C,N) orta katmanları ve TiN üst
+katmanlarından oluşmuştur. Kuru işlemede ve yüksek
+kesme hızında talaş kaldırmada mükemmel performans sergilemektedir. Kaplamalı karbür kesici uçlar;
+TNMG 160408 takım ve MF2 talaş kırıcı geometrisine sahiptir [27].
+İşlenebilirlik deneylerinde SECO-PTBNR2525 ticari
+takım tutucular tercih edilmiştir. Değiştirilebilir uçlar
+ISO 1832’ye uygun olup takım tutucu biçimi ise ISO
+5608 referans alınarak seçilmiştir. Talaş kaldırma
+deneyleri Johnford TC35 (Tezgâh gücü 6 kW, devir
+sayısı maksimum 4000 dev/dak,) sanayi tipi CNC
+torna tezgâhında yapılmıştır.
+
+2.3. Deneysel Prosedür (Experimental Procedure)
+Bu çalışma, Ç52100 rulman çeliğinin kaplamalı
+karbür, kaplamasız ve kaplamalı seramik takımlarla
+işlenmesinde kesme parametrelerinin yanı sıra kesici
+takım ve iş parçası sertliğinin de takım ömrü üzerinde
+etkilerini analiz etmek ve oluşan aşınma tiplerini
+belirlemek üzerinedir. Bu çalışmanın planlanma
+aşamasında bir bütün olarak ayrıca tahminsel takım
+ömrü ve yüzey pürüzlülük denklemleri geliştirmek,
+talaş biçimlerini de incelemek hedeflenmiş ve gerçekleştirilmiştir. Bu amaçla takım ömrü deneylerinde
+Taguchi tekniği, yüzey pürüzlülük deneylerinde ise
+Yanıt Yüzey Tekniği (Response Surface MethodRSM) kullanılmıştır. Taguchi tekniğinin kullanıldığı
+takım ömrü deneylerinde, kesme hızı (V), ilerleme
+miktarı (f), talaş derinliği (d), iş parçası malzemesi
+sertliği (İP) ve kesici takım sertliği (KT) kontrol
+faktörleri olarak seçilmiş ve seviyeleri belirlenmiştir
+(Tablo 2). KY1615, KY4400 ve TP1000 takımın sertlikleri sırasıyla 2145 HV, 2250 HV ve 1660 HV
+olarak ölçülmüş ve deneysel tasarımda tabloya yerleş-
+
+Tablo 2. Kontrol faktörlerinin seviyeleri ve deneysel sonuçlar. (The levels of control factors and experimental results)
+Seviyeler
+D. N.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+68
+
+İP
+
+V
+
+f
+
+d
+
+KT
+
+1
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+2
+2
+
+1
+1
+1
+2
+2
+2
+3
+3
+3
+1
+1
+1
+2
+2
+2
+3
+3
+3
+
+1
+2
+3
+1
+2
+3
+1
+2
+3
+1
+2
+3
+1
+2
+3
+1
+2
+3
+
+1
+2
+3
+1
+2
+3
+2
+3
+1
+3
+1
+2
+2
+3
+1
+3
+1
+2
+
+1
+2
+3
+2
+3
+1
+1
+2
+3
+3
+1
+2
+3
+1
+2
+2
+3
+1
+
+İP
+(HV)
+356
+356
+356
+356
+356
+356
+356
+356
+356
+196
+196
+196
+196
+196
+196
+196
+196
+196
+
+Kontrol Faktörlerinin Değerleri
+V
+d
+f (mm/dev)
+(m/dak)
+(mm)
+178
+0.11
+0.44
+178
+0.166
+0.66
+178
+0.25
+1.0
+267
+0.11
+0.44
+267
+0.166
+0.66
+267
+0.25
+1.0
+400
+0.11
+0.66
+400
+0.166
+1.0
+400
+0.25
+0.44
+178
+0.11
+1.0
+178
+0.166
+0.44
+178
+0.25
+0.66
+267
+0.11
+0.66
+267
+0.166
+1.0
+267
+0.25
+0.44
+400
+0.11
+1.0
+400
+0.166
+0.44
+400
+0.25
+0.66
+
+KT
+(HV)
+2145
+2250
+1660
+2250
+1660
+2145
+2145
+2250
+1660
+1660
+2145
+2250
+1660
+2145
+2250
+2250
+1660
+2145
+
+T
+(dak)
+68.54
+71.80
+6.12
+34.32
+4.98
+14.13
+5.71
+10.29
+1.16
+65.33
+18.42
+8.11
+33.46
+8.54
+4.26
+2.62
+8.03
+4.25
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+tirilmiştir. Probleme uygun ortogonal dizi L18(21x37)
+seçilmiştir [28]. İşlenebilirlik deneylerinde her deney
+öncesi yeni bir uç kullanılmıştır. Ortalama yanak
+aşınma kriteri, VB=0.3 mm alınmıştır.
+
+küreselleştirilmiş Ç52100 çeliğinin işlenmesinde bu
+durum tam tersi olmuştur (Şekil 3.c). İşlenen parçaların sertlik değerleri ve küreselleştirme sonrası işlenebilirliğin iyileştiği göz önünde bulundurulursa
+sonuç doğal karşılanabilir [29, 30]. Yüksek sertlikteki
+Ç52100 çeliğinin işlenmesinde en iyi kesici takım
+(KT) performansı KY4400 takımlarla elde edilmiş
+bunu sırasıyla KY1615 takımlar ve TP1000 takımlar
+izlemiştir (Şekil 3.d). Bu durum haddelenmiş durumdaki Ç52100 çeliğinin yüksek sertliği karşısında
+kesici takımların sertlikleri ve kaplama katmanları ile
+ilişkilendirilebilir [30]. Küreselleştirilmiş Ç52100 çeliğinin işlenmesinde ise TP1000 takımlar daha iyi
+takım ömrü performansı sergilemiştir (Şekil 3.d).
+Şekil 4.a’da kesme hızı-ilerleme miktarı etkileşimi
+incelendiğinde ilerleme miktarı ve kesme hızı değerlerinin birlikte arttırılmasıyla takım ömrü anlamlı bir
+şekilde düşmüştür. Kesme hızı ve talaş derinliği etkileşimi incelendiğinde kesme hızının tüm seviyelerinde
+talaş derinliğinin etkili olmadığı görülmektedir (Şekil
+4.b). Kesme hızının artmasıyla takım ömrü performansları düşmüştür [30] (Şekil 4.c). Talaş derinliğinin
+en düşük ve en yüksek değerinde ilerleme miktarının
+artmasıyla takım ömrü de artmıştır Orta değerdeki
+talaş derinliklerinde ise ilerleme miktarının da orta
+değerde seçilmesiyle takım ömrü değerleri yüksek
+çıkmıştır (Şekil 5.a). Kesici takımların ilerleme miktarına bağlı olarak takım ömrü performansları değerlendirildiğinde KY1615 takımların performansı, ilerleme
+miktarının artmasına bağlı olarak düşmüştür. TP1000
+takımlarda benzer eğilimde performans sergilemektedirler. Fakat, KY4400 takımlarla özellikle orta
+
+Geliştirilen takım ömrü ve yüzey pürüzlülük denklemleri ve talaş incelemeleri bu çalışmanın tamamlayıcısı olarak diğer çalışmalarda sunulacaktır.
+3. DENEYSEL SONUÇLAR VE TARTIŞMA
+(EXPERIMENTAL RESULTS AND DISCUSSION)
+
+3.1. Takım Ömrü Üzerinde Kontrol Faktörlerinin
+Etkileri (The Effects of Control Factors on Tool Life)
+Takım ömrü üzerinde kontrol faktörlerinin etkileri
+değerlendirilirken sırasıyla tüm kontrol faktörlerinin
+birbiriyle etkileşimleri esas alınmıştır. Şekil 3’te iş
+parçası (İP) ana faktörü ile diğer faktörlerin etkileşimlerinin takım ömrü üzerindeki etkileri üç boyutlu
+yüzey grafikleri ile verilmiştir. Yüzey grafiklerinde
+her kontrol faktörünün seviyesi S1, S2, S3 gösterimleriyle belirtilmiş olup bu gösterimlerin sayısal değerleri Tablo 2’de verilmiştir. Her iki iş parçasının işlenmesinde de kesme hızının artmasıyla takım ömrü
+azalmaktadır (Şekil 3.a). Küreselleştirilmiş Ç52100
+çeliğinin işlenmesinde düşük ilerleme miktarlarında
+yüksek takım ömrü elde edilmekte iken orta değer ve
+yüksek değerdeki ilerleme miktarlarında takım ömrü
+düşmektedir [11] (Şekil 3.b).
+Isıl işlemsiz Ç52100 çeliğinin işlenmesinde talaş
+derinliği (d, mm) arttıkça takım ömrü düşmekte iken
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+40
+
+40
+
+T
+
+A. R. Motorcu
+
+T
+
+30
+
+30
+20
+
+20
+10
+
+10
+
+S3
+
+0
+
+S2
+S1
+
+S3
+
+0
+
+V
+
+S2
+S1
+
+S1
+
+İP
+
+a) İP-V
+
+S2
+
+b) İP-f
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+T
+
+S1
+
+İP
+
+S2
+
+f
+
+40
+
+T
+
+30
+20
+
+30
+20
+
+10
+
+S3
+
+0
+
+S2
+S1
+
+İP
+
+d
+
+S1
+S2
+
+10
+
+S3
+
+0
+
+S2
+S1
+
+İP
+
+KT
+T
+
+S1
+S2
+
+c) İP-d
+d) İP-KT
+Şekil 3. İş parçası ile kontrol faktörleri arasındaki etkileşimler ve takım ömrü üzerindeki etkileri
+
+(Interactions
+
+between workpiece and control factors and their effects on tool life)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+69
+
+A. R. Motorcu
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+40
+
+40
+
+T
+
+T
+
+30
+20
+
+30
+20
+
+10
+
+10
+
+S3
+
+0
+
+S2
+S1
+
+V
+
+S2
+
+S3
+
+0
+
+f
+
+S2
+S1
+
+S1
+
+S2
+
+V
+
+S3
+
+d
+
+S1
+S3
+
+a) V-f
+
+b) V-d
+
+70
+60
+50
+40
+
+T
+
+30
+20
+10
+
+S3
+
+0
+
+S2
+S1
+
+V
+
+S2
+
+KT
+T
+
+S1
+S3
+
+c) V-KT
+Şekil 4. Kesme hızı ile kontrol faktörleri arasındaki etkileşimler ve takım ömrü üzerindeki etkileri
+
+(Interactions
+
+between cutting speed and control factors and their effects on tool life)
+
+70
+
+70
+
+60
+
+60
+
+50
+
+50
+
+40
+
+T
+
+40
+
+T
+
+30
+
+30
+20
+
+20
+10
+
+S3
+
+0
+
+S2
+S1
+
+f
+
+S2
+
+d
+
+S1
+S3
+
+10
+
+S3
+
+0
+
+S2
+S1
+
+f
+
+S2
+
+KT
+T
+
+S1
+S3
+
+a) f-d
+b) f-KT
+Şekil 5. İlerleme miktarı ile kontrol faktörleri arasındaki etkileşimler ve takım ömrü üzerindeki etkileri
+(Interactions between feed rate and control factors and their effects on tool life)
+değerlerdeki ilerleme miktarlarında yüksek takım
+ömrü elde edilirken düşük ve yüksek ilerleme miktarlarında takım ömrü performansları düşmektedir [30]
+(Şekil 5.b).
+
+3.2. Isıl işlemsiz Ç52100 Çeliğinin İşlenmesinde
+Takım Aşınmalarının İncelenmesi (Observation
+
+Şekil 6’da talaş derinliği ile kesici takım etkileşiminin
+takım ömrü üzerinde yarattığı etki görülmektedir.
+KY1615 takımlar, düşük talaş derinliklerinde yüksek
+takım ömrü performansı sergilemektedirler. KY4400
+takımlar ise orta değerdeki talaş derinliklerinde daha
+iyi takım ömrü performansı sağlamaktadırlar. Düşük
+talaş derinliklerinde takım ömrü düşük çıkmıştır.
+Çünkü çıkan sürekli talaş tipi kesici takıma dolanmakta ve özellikle yüksek kesme hızlarında kesme
+bölgesine zarar vermektedir [8].
+
+Şekil 7.a’da ısıl işlemsiz Ç52100 çeliğinin kaplamalı
+karbür TP1000 takımla düşük kesme hızı fakat yüksek
+ilerleme miktarı ve talaş derinliğinde işlenmesinde
+aşınmış takım yüzeyinin tarama elektron mikroskobu
+(SEM) görüntüleri verilmektedir. Yanak aşınması
+(VB) düzgün olarak aşınmış ve belirgin bir krater
+aşınması oluşmamıştır [30]. Talaş akış yüzeyinde
+kaplama katmanının kırıldığı görülmektedir. Kopan
+katmanın boyutu yaklaşık olarak 100-140 m
+genişliğinde ve 500-600 m uzunluğundadır. Orta
+kesme şartlarında işlemede birden fazla aşınma tipinin
+
+70
+
+of Tool Wear in The Machining of Non-Heat Treated
+AISI52100 Steel)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+A. R. Motorcu
+
+darbe etkisi ile kaplama katmanı kırılarak yan kesme
+kenarı formunu yitirmiştir. Yüksek kesme şartları
+sonucu krater derinliğinin arttığı da görülmektedir.
+Ayrıca, kesme kenarında ergiyen iş parçaları kaplama
+katmanına yapışmıştır (Şekil 7.f).
+
+70
+60
+50
+40
+
+T
+
+30
+20
+10
+
+S3
+
+0
+
+S2
+S1
+
+d
+
+S2
+
+Machining of Spheroidized AISI52100 Steel)
+
+KT
+T
+
+S1
+S3
+
+Şekil 6. Talaş derinliği ile kesici takım arasındaki
+etkileşim ve takım ömrü üzerindeki etkileri. (Interaction
+between dept of cut and cutting tool and its effects on tool life)
+
+oluştuğunu göstermektedir. Aşınmanın düzenli dağıldığı bir yanak aşınması, kaplama katmanın koptuğu
+ve aşınmanın ana katmana ulaşılmasıyla oluşan ve
+derinliği az olan yaklaşık 200 µm uzunluğunda krater
+aşınması başlangıcı ve kesme kenarının deformasyonu
+şeklinde oluşan aşınma tipleri görülmektedir (Şekil
+7.b). Yine aynı şekilde kesme kenarında mikro
+boyutta çıtlamaların oluştuğu ve ergimiş iş parçası
+malzemesinin çok az miktarda kesme kenarında
+yapıştığı görülmektedir. Kaplamasız seramik KY1615
+takımla orta kesme hızı fakat yüksek ilerleme miktarı
+ve talaş derinliğinde işlemede ise krater aşınması
+oluşmuştur [9, 14] (Şekil 7.c). Düzgün bir şekilde
+oluştuğu gözlemlenen bu krater aşınması ısıl işlemsiz
+halde kötü işlenebilirliğe sahip Ç52100 çeliğinin
+sertliği (356 HV) ile de ilgilidir [6, 29]. Çünkü bu
+sertlikteki bir iş parçası malzemesi abrasif aşınma
+etkisi yaratmaktadır. Aynı zamanda bu krater
+aşınması oluşumu, kesici takım malzemesi ile iş
+parçası malzemesinin birbiri ile birleşme eğilimi
+şeklinde oluşan difüzyon aşınma mekanizmasına da
+atfedilebilir. Aynı kesici takım düşük ilerleme
+miktarlarında fakat yüksek kesme hızlarında
+kullanıldıklarında kesme hızının etkisiyle kesici takım
+uç yarıçapına yakın bölgede burun aşınması
+oluşmakta ve burun aşınması krater aşınması ve yanak
+aşınmasıyla birleşmektedir. Yaklaşık 700 m boyuta
+ulaşmaktadır. Hatta, yüksek kesme hızından dolayı
+oluşan sıcaklığın etkisiyle plastik deformasyon
+meydana gelmektedir. Ayrıca, kesme hızının etkisiyle
+krater derinliği arttığı da gözlemlenmektedir (Şekil
+7.d). Kaplamalı seramik KY4400 takımla orta kesme
+hızı fakat düşük ilerleme miktarı ve talaş derinliği
+değerlerinde işlendiğinde oluşan yanak aşınması
+kaplamasız seramik takımlarla benzerdir [14]. Oluşan
+krater aşınması derinliği ve boyu daha az olmakla
+birlikte krater boyu yaklaşık 400 µm civarındadır.
+Yine, krater aşınması ile yanak aşınması pahlı kesme
+kenarı bölgesinde birleşmiştir. Kesme kenarı bu
+kesme şartlarında plastik deformasyona uğramamıştır
+(Şekil 7.e). Aynı kesici takımda kesme hızı ve talaş
+derinliğinin arttırılmasıyla özellikle talaş akış
+kontrolünün yeterince sağlanamaması nedeniyle
+kesme derinliğinin bittiği yanak aşınma bölgesinde
+kesme süresinin sonlarına doğru talaşların yarattığı
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+3.3. Küreselleştirilmiş Ç52100 Çeliğinin
+İşlenmesinde Takım Aşınmalarının
+İncelenmesi (Observation of Tool Wear in The
+Şekil 8’de küreselleştirilmiş Ç52100 rulman çeliğinin
+farklı takımlarla işlenmesinde oluşan aşınma şekilleri
+görülmektedir. Talaş derinliğinin fazla olmasına
+rağmen düşük kesme hızı ve ilerleme miktarında
+kaplamalı karbür TP1000 takım mükemmel aşınma
+dayanımı sergilemiştir. Küreselleştirme sonrası artan
+işlenebilirlik oranı ve düşen sertlik nedeniyle doğal,
+düzenli yanak aşınması oluşmuştur [6, 29]. Yan
+kesme kenarında talaş derinliğinin bittiği bölge
+incelendiğinde kesme kenarının deforme olduğu
+kaplama katmanında mikro boyutta kırılmaların
+olduğu görülmektedir. Ayrıca yine uç yarıçapına
+yakın bölgede, ergimiş iş parçası kesme kenarına
+difüze olmuştur [9] (Şekil 8.a). Orta kesme hızlarında
+ise kesici takım burun yarıçapında ve yan kesme
+kenarında kopmalar olmuştur. Artan kesme hızına
+(V=267 m/dak) ve orta hacimde talaş kaldırmaya
+bağlı olarak termal şoktan kaynaklanmış, yan kesme
+kenarının alt kısmında, kenara paralel olarak uzanmış
+kırılmaların oluştuğu görülmektedir (Şekil 8.b).
+Kaplamasız seramik takım KY1615 yine orta ve
+yüksek kesme hızlarında karbür takımlar gibi düzenli
+yanak aşınması sergilemiştir. Her iki kesme hızında
+da krater aşınması oluşmuş, kesme hızının artmasıyla
+krater derinliği artmıştır (Şekil 8. c ve d). Kaplamalı
+seramik takımla düşük ve orta kesme hızlarında
+işlemede diğer takımlarda olduğu gibi düzenli yanak
+aşınması ve kesme hızının artmasıyla artan krater
+aşınması oluşmuştur (Şekil 8.e ve f).
+4. SONUÇLAR (CONCLUSIONS)
+Isıl işlemsiz ve küreselleştirilmiş Ç52100 rulman
+çeliğinin kaplamalı karbür, kaplamasız seramik ve
+kaplamalı seramiklerle işlenmesinde takım ömrü ve
+aşınması üzerinde kontrol faktörlerinin etkilerinin
+araştırıldığı bu çalışmada;
+i.
+
+Her iki iş parçasının işlenmesinde de kesme hızı
+ve ilerleme miktarının arttırılmasıyla takım ömrü
+düşmüştür.
+ii. İlerleme miktarına göre kesici takımların
+performansı değerlendirildiğinde kaplamasız
+seramik takımların takım ömrü performansı artan
+ilerleme miktarlarıyla düşmüştür. Benzer eğilimi
+karbür takımlarda sergilemişlerdir. Kaplamalı
+seramik takımlar ise özellikle orta değerdeki
+ilerleme miktarlarında mükemmel performans
+sergilemişlerdir.
+
+71
+
+A. R. Motorcu
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+a) TP1000, V=178 m/dak, f=0.25 mm/dev, d=1.0 mm
+
+b) TP1000, V=267 m/dak, f=0.166 mm/dev d=0.66 mm
+
+c) KY1615, V=267 m/dak, f=0.25 mm/dev, d=1.0 mm
+
+d) KY1615, V=400 m/dak, f=0.11 mm/dev, d=0.66 mm
+
+e) KY4400, V=267 m/dak, f=0.11 mm/dev, d=0.44 mm f) KY4400, V=400 m/dak, f=0.166 mm/dev d=1.00 mm
+Şekil 7. Isıl işlemsiz Ç52100 çeliğinin işlenmesinde karbür ve seramik aşınmış takımların SEM görüntüleri (SEM
+pictures of carbide and ceramic worn tools in the machining of non-heat treated AISI52100 steel)
+
+Isıl işlemsiz Ç52100 çeliğinin işlenmesinde talaş
+derinliği arttıkça takım ömrü düşmekte iken
+küreselleştirilmiş Ç52100 çeliğinin işlenmesinde
+ise talaş derinliğinin arttırılmasıyla takım ömrü
+artmıştır. Çünkü artan talaş derinliklerinde sürekli
+talaş tipi kırıklı talaş tipine dönüşerek takım ömrü
+üzerindeki olumsuz etkisi ortadan kalkmıştır.
+iii. Her iki malzemenin işlenmesinde de kaplamasız
+seramikler düşük talaş derinliklerinde; kaplamalı
+
+72
+
+seramikler ise orta değerdeki talaş derinliklerinde
+daha iyi takım ömrü performansı sağlamaktadırlar.
+iv. Yüksek sertlikteki ısıl işlemsiz Ç52100 çeliğinin
+işlenmesinde en iyi takım performansını kaplamalı seramik takımlar sağlamış bunu kaplamasız
+seramik ve kaplamalı karbür takımlar izlemiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+a) TP1000, V=178 m/dak, f=0.11 mm/dev, d=1.0 mm
+
+A. R. Motorcu
+
+b) TP1000, V=267 m/dak, f=0.11 mm/dev, d=0.66 mm
+
+c) KY1615, V=267 m/dak, f=0.166 mm/dev, d=1.0 mm d) KY1615, V=400 m/dak, f=0.25 mm/dev, d=0.66 mm
+
+e) KY4400, V=178 m/dak, f=0.25 mm/dev, d=0.66 mm f) KY4400, V=267 m/dak, f=0.25 mm/dev, d=0.44 mm
+Şekil 8. Küreselleştirilmiş Ç52100 çeliğinin işlenmesinde karbür ve seramik aşınmış takımların SEM görüntüleri
+(SEM pictures of carbide and ceramic worn tools in the machining of spheroidized AISI52100 steel)
+
+v.
+
+Küreselleştirilmiş Ç52100 çeliğinin işlenmesinde
+ise kaplamalı karbür takımlar daha iyi takım
+ömrü performansı sergilemiştir.
+Isıl işlemsiz çeliğin kaplamalı karbürle işlenmesinde yanak aşınması, krater aşınması, çıtlama
+ve ergimiş iş parçasının kesme kenarına yapıştığı
+görülmüştür. Kaplamasız seramik takımlarla
+işlemede burun, yanak, krater aşınması ve plastik
+deformasyon oluşmuştur. Artan kesme hızlarıyla
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+krater derinliği de artmıştır. Kaplamalı seramik
+takımla kesmede ise oluşan aşınma şekilleri
+kaplamasız seramiklere benzer fakat krater ve
+yanak aşınmasının boyutları daha az olmuştur.
+vi. Küreselleştirilmiş Ç52100 rulman çeliğinin kaplamalı karbürle işlenmesinde düzenli yanak
+aşınması oluşmuş, kaplama katmanında kırılmalar ve uç yarıçapına yakın bölgede difüzyon
+aşınma mekanizması oluşmuştur. Yüksek kesme
+
+73
+
+A. R. Motorcu
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+hızları ve büyük hacimde talaş kaldırılmasına
+bağlı olarak termal şoktan dolayı termal çatlaklar
+oluşmuştur. Seramik kesici takımlarda ise sadece
+yanak aşınması ile krater aşınması gözlenmiştir.
+Kesme hızının arttırılmasıyla krater derinliği
+artmıştır.
+Sadece kontrol faktörlerinin etkilerinin değerlendirildiği ve takım aşınmalarının incelendiği bu çalışmayı tamamlaması açısından bu çalışmanın bünyesinde ayrıca çalışmış olan takım ömrü, yüzey
+pürüzlülük denklemleri ve oluşan talaş biçimlerinin
+değerlendirilmesi diğer bir çalışmada sunulacaktır.
+TEŞEKKÜR (ACKNOWLEDGMENTS)
+Bu deneysel çalışmanın TEF-07/2003-38 nolu proje
+ile finansal desteğini sağlayan Gazi Üniversitesi
+Rektörlüğü’ne, deney numunelerini ve deney numunelerinin ısıl işlemini gerçekleştiren Ortadoğu Rulman
+Sanayi ve Ticaret A.Ş.’ye teşekkür ederim.
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+4.
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+74
+
+Huang, Y. L. ve Steven Y. “CBN Tool Wear
+Modeling in Finish Hard Turning”, 2003 ASME
+International
+Mechanical
+Engineering
+Congress, Washington, DC., United States,
+Proceedings of the ASME Manufacturing
+Engineering Division, 193-200, 2003.
+Poulachon, G., Bandyopadhyay, B.P., Jawahir,
+I.S., Pheulpin, S. ve Seguin, E., “Wear Behavior
+of CBN Tools While Turning Various Hardened
+Steels”, Wear, Cilt 256, 302–310, 2004.
+Tönshoff, H.K., Arendt, C. ve Amor, R. B.,
+“Cutting of Hardened Steel”, CIRP Annals, Cilt
+49, No 2, 547-566, 2000.
+Byrne, G., Dornfeld, D. ve Denkena, B.,
+“Advancing Cutting Technology”, CIRP Annals,
+Cilt 52, No 2, 483-507, 2003.
+Klocke, F., Brinksmeier, E. ve Weinert, K.,
+“Capability Profile of Hard Cutting and Grinding
+Processes”, CIRP Annals, Cilt 54, No 2, 557580, 2005.
+Smith, W.F. Structure and Properties of
+Engineering Alloys, Mc Graw-Hill, NewYork.,
+1993, Çev.: Dr. Mehmet Erdoğan, Nobel Yayın
+Dağıtım, Ankara, 2000.
+Komanduri, R. ve Samanta, S.K., Ceramics,
+Metals
+Handbook-Machining-16.
+Ninth
+Edition, ASM International, Materials Park,
+Ohio, 98-104, 1989.
+Motorcu, A.R., Ç1050, Ç4140 ve Ç52100
+Çeliklerinin Farklı Takımlarla İşlenebilirliği
+ve Modeller Geliştirilmesi, Doktora Tezi, Gazi
+Üniversitesi, Fen Bilimleri Enstitüsü, 2006.
+Dawson, T.G. ve Kurfess, T.R., “Machining
+Hardened Steel with Ceramic-Coated and
+Uncoated CBN Cutting Tools”, Society of
+Manufacturing Engineers, Cilt 156, 1-7, 2002.
+
+10. Thiele, J. D. ve Melkote, S.N., “Effect of Cutting
+Edge Geometry and Work Piece Hardness on
+Surface Generation in The Finish Hard Turning
+of AISI52100 Steel”, Journal of Processing
+Technology, Cilt 94, 216-226, 1999.
+11. Benga, G.C. ve Abrao, A.M., “Turning of
+Hardened 100Cr6 Bearing Steel with Ceramic
+and PCBN Tools”, Journal of Materials
+Processing Technology, Cilt 143, 237-241,
+2003.
+12. Poulachon, G., Bandyopadhyay, B.P., Jawahir,
+I.S., Pheulpin ve S., Seguin, E., “The Influence of
+The Microstructure of Hardened Tool Steel
+Workpiece on The Wear of PCBN Cutting
+Tools”, International Journal of Machine
+Tools and Manufacture, Cilt 43, 139-144, 2003.
+13. Poulachon, G., Moisan, A. ve Jawahir, I.S.,
+“Tool-Wear Mechanisms in Hard Turning with
+Polycrystalline Cubic Boron Nitride Tools”,
+Wear, Cilt 250, 576-586, 2001.
+14. Diniz, A.E., Ferreira, J.R. ve Filho, F.T.,
+“Influence
+of
+Refrigeration/Lubrication
+Condition on SAE 52100 Hardened Steel Turning
+at Several Cutting Speeds”, International
+Journal of Machine Tools and Manufacture,
+Cilt 43, 317-326, 2003.
+15. Jing Liu, S. ve Richard, C., “On Predicting
+Softening Effects in Hard Turned Surfaces-Part I:
+Construction of Material Softening Model”,
+Journal of Manufacturing Science and
+Engineering, Transactions of the ASME, Cilt
+127, No 3, 476-483, 2005.
+16. Pavel, R. ve Marinescu, I. D. “Finite Element
+Modeling of Chip Formation in Hard Turning
+Using Marc Mentat”, Transactions of the North
+American Manufacturing Research Institute
+of SME, Cilt 32, 375-382, 2004.
+17. Huang, Y. L. ve Steven Y. “Modeling of Cutting
+Forces under Hard Turning Conditions
+Considering Tool Wear Effect”, Journal of
+Manufacturing Science and Engineering,
+Transactions of the ASME, Cilt 127, No 2, 262270, 2005.
+18. Davies, M.A., Burns, T.J. ve Evans, C.J., “On
+The Dynamics of Chip Formation in Machining
+Hard Metals”, CIRP Annals - Manufacturing
+Technology, Cilt 46, No 1, 25-30, 1997.
+19. Zone, C.L. ve Din, Y. C., “A Study of Cutting
+with A CBN Tool”, Journal of Materials
+Processing Technology, Cilt 49, No 1-2, 149164, 1995.
+20. Poulachon, G., Moisan, A. L. ve Jawahir, I.S.,
+“Evaluation of Chip Morphology in Hard
+Turning Using Constitutive Models and Material
+Property Data”, American Society of
+Mechanical
+Engineers,
+Manufacturing
+Engineering Division, MED, Cilt 12, 179-185,
+2001.
+21. Hunkel, M., Lubben, T., Hoffmann, F. ve Mayr,
+P., “Simulation of Transformation Behavior of
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+Isıl İşlemsiz ve Küreselleştirilmiş Ç52100 Rulman Çeliğinin Farklı Takımlarla…
+
+Steels During Quenching”, Progress in Heat
+Treatment
+and
+Surface
+Engineering,
+Proceedings of the 5th ASM Heat Treatment
+and Surface Engineering Conference in
+Europe, Gthenburg, Sweden, 43-54, 7-9 Haziran
+2000.
+22. Bartha, B.B., Zawadzki, J., Chandrasekar, S. ve
+Farris, T.N., “Wear of Hard-turned AISI52100
+Steel”, Metallurgical and Materials Transactions
+A: Physical Metallurgy and Materials Science,
+Cilt 36, No 6,1417-1425, 2005.
+23. Poulachon, G., Moisan, A. ve Jawahir, I.S., “On
+Modeling The Influence of Thermo-Mechanical
+Behavior in Chip Formation During Hard
+Turning of 100Cr6 Bearing Steel”, CIRP Annals
+- Manufacturing Technology, Cilt 50, No 1, 3136, 2001.
+24. Kurt, A., Şeker, U., “The Effect of Chamfer
+Angle of Polycrystalline Cubic Boron Nitride
+Cutting Tool on The Cutting Forces and The Tool
+Stresses in Finishing Hard Turning of AISI 52100
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 1, 2010
+
+25.
+26.
+27.
+28.
+29.
+
+30.
+
+A. R. Motorcu
+
+Steel”, Materials and Design, Cilt 26, 351–356,
+2005.
+TS 10329, Torna Kalemleri-Ömür Deneyi,
+Türk Standartları Enstitüsü, Ankara, 40-44, 1992.
+Kennametal Hertel, Lathe Tools-Master
+Catalogue 2001, Kennametal Hertel AG, Fürth,
+2001.
+Seco Tools, Turning-Catalogue and Technical
+Guide, Seco Tools AB, Fagersta, 36-64, 2002.
+Ranjit, K.R., A Primer On The Taguchi
+Method, Competitive Manufacturing Series, Van
+Nostrand Reinhold, New York, A.B.D., 1990.
+Miroslav, N., “Turning of Roll Bearing Steel
+100Cr6 of Bainite Structure”, 7th International
+Multidisciplinary Conference, Baia Mare,
+Romania, 543-548, 17-18 Mayıs, 2007
+Sahin, Y., “Comparison of Tool Life Between
+Ceramic and Cubic Boron Nitride (CBN) Cutting
+Tools when Machining Hardened Steels”,
+Journal of Materials Processing Technology,
+In Pres. Corrected Prof., 12 sf, 2008.
+
+75
+
+

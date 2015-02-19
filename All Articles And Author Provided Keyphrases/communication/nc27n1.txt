@@ -1,0 +1,727 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 1, 135-142, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 1, 135-142, 2012
+
+3G TABANLI UZAKTAN KONTROL EDİLEBİLEN ARAÇ
+GELİŞTİRİLMESİ
+Mehmet ŞİMŞEK, Mehmet YOLDAŞ, Ali BULUT, İbrahim Alper DOĞRU, M. Ali
+AKCAYOL
+Gazi Üniversitesi Bilgisayar Mühendisliği Bölümü, Mühendislik Fakültesi Maltepe, 06570 Ankara
+mehmet.simsek@gazi.edu.tr, mehmetyoldas@gazi.edu.tr, alibulut@gazi.edu.tr, iadogru@gazi.edu.tr,
+akcayol@gazi.edu.tr
+(Geliş/Received: 18.03.2011; Kabul/Accepted: 01.12.2011)
+ÖZET
+Bu çalışmada, ilk defa 3G (3. Nesil Kablosuz Ağlar) ile uzaktan kontrol edilebilen bir araç geliştirilmiştir. Araç
+üzerinde bulunan kamera ile gerçek zamanlı görüntü aktarımı yapılabilmektedir. Araç üzerinde bulunan 3G
+uyumlu cep telefonu ile kullanıcı uzaktaki bir bilgisayardan aracın ve kameranın hareketini kontrol
+edebilmektedir. Kullanıcıdan araca gönderilen kontrol mesajlarında ortalama gecikme süresi 100 ms civarlarında
+olurken; araçtan kullanıcıya gönderilen gerçek zamanlı görüntüdeki gecikme süresi ortalama 400 ms civarlarında
+ölçülmüştür. Gerçekleştirilen testler sonucunda düşük gecikme süreleri ile aracın ve kameranın yüksek hareket
+kabiliyeti ile kontrol edilebildiği görülmüştür.
+
+1. GİRİŞ (INTRODUCTION)
+Gelişen bilgi ve iletişim teknolojileri ile birlikte
+robotlar günlük hayatımızda hızla yer almaya
+başlamışlardır ve daha da fazla yer almaya devam
+edeceklerdir. Robotlar temel olarak 3 grupta
+toplanabilir: endüstriyel robotlar, hareketli hizmet
+robotları ve kişiler robotlar [1]. Robotlar fabrika
+otomasyonlarında, uzay araştırmalarında, tehlikeli
+çevrelerin keşiflerinde, eğlence sektöründe, sağlık
+sektöründe, askeri amaçlarla ve daha birçok alanda
+kullanılmaktadır [2]. Robotlar, kullanım alanlarına
+göre barındırdıkları teknolojiler de farklılık
+göstermektedir. Örneğin uzay araştırmaları, tehlikeli
+çevre keşifleri gibi alanında kullanılan robotların
+uzaktan kontrol edilebilmesi gerekliyken; kişisel
+amaçlar için kullanılan robotlarda hareket planlama,
+
+acil durum algılama gibi özelliklerin bulunması
+gerekmektedir. Bu çalışmada geliştirilen uzaktan
+kontrol edilebilen aracın temel motivasyonu güvenlik
+ve tehlikeli çevre keşfidir.
+Haberleşme teknolojisi açısından duruma bakılacak
+olursa birçok alternatifin bulunduğu görülebilir.
+Bunlar bluetooth, zig-bee, Wi-Fi, GPRS, uydu gibi
+teknolojilerdir. Ancak her birinin farklı dezavantajları
+ve avantajları bulunmaktadır. Bluetooth, zig-bee, WiFi teknolojileri için bir servis sağlayıcıya ücret
+ödenmesi gerekmezken, buna karşılık mesafe gibi
+önemli bir kısıtları vardır. GPRS, mesafe kısıtlamasını
+nispeten ortadan kaldırmakla birlikte düşük bant
+genişliğine sahiptir. Uydu teknolojisi de mesafe
+kısıtlamasını ortadan kaldırırken maliyet ve iletişim
+gecikmesi gibi dezavantajlara sahiptir. Ülkemizde son
+
+M. Şimşek ve ark.
+
+yıllarda faaliyete geçen ve 3G olarak bilinen yüksek
+bant genişlikli kablosuz haberleşme teknolojisi ile
+uzak mesafelerde kablosuz olarak yüksek kaliteli
+görüntü aktarımı mümkün hale gelmiştir. Bu teknoloji
+için maliyet bir dezavantaj gibi görünmekle birlikte,
+servis sağlayıcıların ilk yatırım maliyetlerini
+çıkarmalarıyla birlikte maliyette bir düşüş olacağı
+görünmektedir. Yukarıda bahsedilen nedenlerden
+dolayı bu çalışmada 3G teknolojisi kullanılmıştır.
+GSM teknolojisinin gelişmesi ile birlikte bu
+teknolojinin otomasyon ve uzaktan kontrol
+sistemlerinde
+kullanımı
+da
+yaygınlaşmıştır.
+Literatürde uzaktan araç ve robot kontrolü ile ilgili
+olarak yapılmış birçok çalışma bulunmaktadır. Bu
+çalışmaların birçoğu tam bir uygulama şeklinde değil
+bir sistem önerisi şeklindedir. Bu çalışmalardan belli
+başlı olanları şunlardır:
+2002 yılında Lin ve ark. GSM teknolojisini kullanarak
+uzaktan kontrol için bir mimari geliştirmişlerdir [3].
+Geliştirdikleri sistem PC tabanlı bir sistemdir ve GPS
+alıcısından elde edilen koordinat bilgilerinin GSM
+modem aracılığı ile iki uç sistem arasında transferi ve
+koordinatların gerçek harita üzerinde gösterilmesi
+temeline dayanmaktadır. Yazarların GSM modem
+üzerinden bağlantı açabilmek için Point-to-point
+Protocol (PPP) ile TCP/IP protokol kümesini
+kullanmışlardır. Böylece sabit bant genişliğine sahip
+bir bağlantı kurmuşlardır. Yazarlar geliştirdikleri
+sistemi alçak irtifa uçuşlarında kullanmış ve başarılı
+sonuçlar elde etmişlerdir. Sistemin tek dezavantajı
+580 ms civarlarında olan haberleşme gecikmesidir.
+2004 yılında Alheraish GSM haberleşme teknolojisi
+kullanarak uzaktan kontrollü bir ev otomasyon sistemi
+geliştirmiştir [4]. Geliştirilen sistem ile evin
+kapılarının uzaktan açılıp kapatılması, açma-kapama
+sistemi için gerekli olan uzak erişim şifresinin
+değiştirilmesi, evin ışıklarının açılıp kapatılması
+yapılabilmektedir. Yazarın geliştirdiği GSM tabanlı
+güvenlik sistemi Kısa Mesaj Servisi (KMS) üzerinden
+çalışmaktadır. Yani bütün komutlar KMS ile
+aktarılmaktadır.
+2004 yılında Makaya ve ark. kablosuz kontrollü bir
+robot prototipi geliştirmişlerdir [5]. Yazarların
+geliştirdikleri projenin amacı GSM ve GPRS
+haberleşme teknolojileri kullanarak hareketli bir
+robotun uzaktan kontrolüdür. Geliştirilen robot
+üzerinde robotun hareketini, ortamın sıcaklık değerini
+ve robotun batarya seviyesini kontrol eden mikro
+denetleyiciler bulunmaktadır. Ayrıca, geliştirilen
+robot üzerinde bulunan bir kamera ile fotoğraf
+çekilebilmekte ve Çoklu ortam Mesajlaşma Servisi
+(ÇMS) kullanılarak uzaktaki bir cep telefonuna
+iletilebilmektedir.
+2005 yılında Luo ve ark. gezgin akıllı güvenlik robotu
+geliştirmişlerdir [6]. Geliştirdikleri robot üzerinde
+hareket planlama, hareket kontrolü ve uzaktan kontrol
+edilebilme özelliği sağlayan sistemler bulunmaktadır.
+Algılama için ultrasonik sensörler, kızılötesi
+
+136
+
+3G Tabanlı Uzaktan Kontrol Edilebilen Araç Geliştirilmesi
+
+sensörleri ve kamera kullanmışlar; kontrol için de
+GSM teknolojisinden faydalanmışlardır.
+2009 yılında Rissanen ve ark. Bluetooth üzerinden
+kontrol edilebilen bir robot araba geliştirmişlerdir [1].
+Geliştirdikleri arabanın bluetooth ile kontrol
+edilebilmesi için araba üzerine bluetooth modülü olan
+bir Kişisel Dijital Yardımcı (KDY) yerleştirmişlerdir.
+Uzaktan kontrol için de yine blutooth modülü olan bir
+cep telefonu kullanmışlardır.
+2009 yılında Li ve ark. GPRS tabanlı bir koruyucu
+robot
+alarm
+sistemi
+geliştirmişlerdir
+[2].
+Geliştirdikleri sistem iki aşamadan oluşmaktadır.
+Bunlar: anormal veya tehlikeli durumların algılanması
+ve bu durumun ÇMS ile kullanıcıya bildirilmesidir.
+Yazarların geliştirdikleri robot yangını ve ortama
+izinsiz girişleri tespit edebilmektedir.
+2009 yılında Babulak e-imalat alında yeni nesil
+internet uygulamaları ilgili bir çalışma geliştirmiştir
+[7]. Bu çalışmada bilgi teknolojilerini kullanırken
+karşılaşılan zorluklardan bahsedilmiştir. Bilgi
+Teknojileri SmartCut gibi şu anki makine araçlarının
+temel bileşeni olduğu, kombinasyon tornaların yeni
+bir serisinden olduğunu belirtmiştir. Maksimum
+rahatlık ve ekonomisi sağlayan SmartCut manuel
+dönme için el çarkı ile CNC controlleri
+birleştirdiğinden bahsetmiştir.
+2010 yılında Chang ve ark. kablosuz uzaktan
+kumandalı arabayı yönetmek için kararlı durum için
+görsel uyarlanmış potansiyel (SSVEP) ve beyin
+bilgisayar arayüzü (BCI) tabanlı uygulama
+geliştirmişlerdir. [8]. Geliştirdikleri uygulamada 3
+farklı frekanstan titreşen 3 titreşme bir LCD ekranda
+görüntülenmiştir. Uyumlu filtre dedektörü (MF
+dedektörü) yüksek SSVEP ile başarıyla uygulamaya
+konulmuştur.
+2008 yılında Bayılmış ve Kelebekler yaygın
+endüstriyel iletişim protokollerinden Controller Area
+Network (CAN) ile yönlendirilen bir gezgin model
+aracın ses aktivasyon sistemi yardımıyla kablosuz
+olarak
+uygulamasını
+geliştirmişlerdir
+[9].
+Geliştirdikleri uygulamada,
+kablosuz iletişim
+teknolojilerinden yararlanarak ses tanıma/işleme
+uygulamalarının, yaygın endüstriyel otomasyon
+sistemlerinde
+kullanılabilirliği
+üzerine
+odaklanmışlardır. Uygulamanın çalışması özetle,
+mikrofon aracılığı ile alınan ses, konuşma tanıma
+yazılımında işlenerek karşılığı olan komut ile
+eşleştirmişlerdir. Daha sonra komutla eşleştirilerek
+oluşturulan sayısal değer kablosuz ethernet vasıtasıyla
+model araç üzerindeki Kablosuz Arabağlaşım
+Birimi’ne (KAB) iletmişlerdir. KAB aldığı bilgiye
+karşılık gelen CAN mesajı oluşturarak model aracın
+hareketini yönlendirmek üzere CAN düğümlere
+göndermiştir. CAN düğümler aldıklara mesaja göre
+model aracın hareketini (ileri, geri, sağ, sol ve durma)
+yönlendirmektedir. Bu uygulamada ses tanıma ve
+kablosuz uygulamaların otomasyon sistemlerinde
+entegre kullanımı önem kazanacak bir alan olarak
+bahsetmişlerdir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+3G Tabanlı Uzaktan Kontrol Edilebilen Araç Geliştirilmesi
+
+2005 yılında Bekiroğlu ve Daldal standart bir GSM
+cep telefonu kullanarak ultrasonik bir motorun
+uzaktan kumanda edilmesiyle ilgili bir sistem
+gerçekleştirmişlerdir [10]. Sürücü için ultrasonik
+motor bir dijital kontrollü tahrik sistemi dizayn
+edilmiştir. Geliştirilen sistemde bir cep telefonu ve
+motor sürücü sisteminin çıkışı arasına bir ses çözücü
+devre ve mikro eklenmiştir. Bu sistem hem GSM hem
+de Dual Tone Multi-Frequency (DTMF) tabanlı
+telefonlar ile kontrol edilebilecek esnekliktedir. Bu
+çalışma, hız, konum ve Ultrasonic motor’un (USM)
+yön denetiminde uzaktan kumanda temelinde
+yürütülmüştür. Uzaktan hareket kontrol uygulamaları
+için; özellikle uzaktan robot, mikro robot ve kamera
+kontrolü uygulamaları için önerilmiştir.
+2010 yılında Dai bilgisayar, ağ, otomasyon, algılama,
+diğer teknolojiler ve ekoloji, çevre, enerji ve diğer
+alanları da kapsayan akıllı ev çalışması
+gerçekleştirmiştir [11]. Geliştirilen sistem akıllı
+uygulama kural tabanlı bir otomasyondur. Akıllı ev
+sistemi bilgi ve kontrol akışlarını bütünleştiren ağ
+sistemidir. Bu ağda iletişimden sorumlu kablolu veya
+kablosuz sistemler vardır. Aynı zamanda bilgisayar
+ağı sistemi bilgi değişiminden sorumludur.
+2010 yılında Huan ve ark. çarpışma algılama sistemi
+ile uzaktan kontrollü araba uygulaması çalışması
+yapmışlardır [12]. Tasarım, oyuncak arabanın
+kontrolüne kolaylık sağlar ve ultrasonik sensörler
+engellerin içinde herhangi olası çarpışmada mümkün
+olabilecek araba gövdesine yapılan müdahalelere
+bağlıdır. Çalışmada Kablosuz uzaktan kumanda ve
+alıcısı kullanılmıştır.
+2010 yılında Feng ve Yin kablosuz uzaktan kumanda
+talimatlarının alıcılara zorluğu ile ilgili bir çalışma
+yapmışlardır [13]. GSM tabanlı Akıllı Kontrol,
+denetleyicisi sayesinde ses veya mesaj gibi çeşitli
+kontrol talimatları gönderen telefonlar kullanılmıştır.
+GSM dayalı Kablosuz Akıllı Kontrol telefonu
+kullandığında kendi ana kontrolör olarak, sesli veya
+mesaj yoluyla çeşitli kontrol talimatları gönderdiğini
+ve geniş kapsama alanı, iyi güvenilirlik, kolay bakım
+gibi düşük maliyetli vb. pek çok avantajı olduğunu
+belirtmişlerdir.
+
+M. Şimşek ve ark.
+
+2. GELİŞTİRİLEN ARAÇ KONTROL SİSTEMİ
+(DEVELOPED CAR CONTROL SYSTEM)
+
+Bu çalışma kapsamında geliştirilen araç kontrol
+sisteminin şeması Şekil 1’de gösterildiği gibidir.
+Geliştirilen sistem genel olarak, kontrol mesajlarının
+kullanıcıdan araca aktarılması; araçtaki kameradan
+elde edilen görüntülerin de gerçek zamanlı olarak
+kullanıcıya aktarılması şeklinde çalışmaktadır.
+Geliştirilen sistemdeki veri akışları Şekil 2’de
+gösterildiği gibidir.
+Şekil 2’de gösterilen veri akışlarının 3G iletişim
+şebekesi üzerinden açılabilmesi için kullanıcı tarafında
+3G modem ve araç tarafında 3G uyumlu cep telefonu
+kullanılmıştır. Cihazların 3G haberleşme şebekesine her
+bağlandıklarında farklı IP almamaları için GSM
+operatöründen 2 adet statik IP temin edilmiştir.
+Araçtaki 3G uyumlu telefona statik IP alınmasının
+nedeni, kullanıcının aracı her kullanmak istediğinde
+öncelikle servis sağlayıcı tarafından araçtaki 3G
+uyumlu telefona atanan IP’yi bilmesi gerekliliğinden
+dolayıdır. Kullanıcı ve araç doğrudan birbirleri ile
+haberleştikleri için IP’lerin bilinmesi gerekliliği
+meydana gelmiştir. Kullanıcı ve araç doğrudan değil de
+bir sunucu üzerinden haberleşseydiler, bu sunucu
+üzerinde karşılıklı olarak IP’lerin tutulması ve buradan
+taraflara bildirilmesi mümkün olabilirdi. Ancak bu
+durum sisteme maliyet açısından fazladan yük
+getireceği için bu yöntem benimsenmemiştir.
+Kullanıcının statik IP’ye sahip olması ise bir gereklilik
+olmayıp, geliştirme aşamasında kolaylık sağlanması
+açısından bu yola başvurulmuştur. Bu aşamadan sonra
+kontrol mesajlarının ve gerçek zamanlı kamera
+görüntüsünün iki uç arasında aktarılması için soket
+programlama kullanılmış ve her akış için farklı bağlantı
+portları kullanılmıştır. Araç üzerinde bulunan cep
+telefonu Nokia marka olup üzerinde Symbian işletim
+sistemi bulunmaktadır. Araç üzerinde bulunan cep
+telefonu tarafında çalıştırılan yazılım Java ME (Micro
+Edition) ile geliştirilmiştir. Kullanıcı tarafında çalışan
+yazılım da Eclipse ortamında Java programlama dili ile
+geliştirilmiştir.
+
+Şekil 1. 3G tabanlı uzaktan araç kontrol sistemi (3G based remote car control system)
+
+Şekil 2. Geliştirilen sistemdeki veri akışları (Data flows in developed system)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+137
+
+M. Şimşek ve ark.
+
+Yukarıda anlatılan çalışmalar, sistemin yazılım kısmı
+ile ilgili çalışmalardır. Araç ve araç üzerinde bulunan
+kameranın kullanıcı tarafından kontrol edilebilmesi
+için kullanıcının gönderdiği kontrol mesajlarının
+yorumlanması ve gerekli işlemlerin yapılması
+gerekmektedir. Araç üzerinde aracı hareket ettirmek
+için 2 adet ve kamerayı hareket ettirmek için de 2 adet
+motor bulunmaktadır. Bu motorlar sayesinde ileri-geri
+ve sağ-sol hareketleri yerine getirilebilmektedir.
+Toplamda 8 durum söz konusudur. Bunlardan dördü
+araç hareketi dördü de kamera hareketidir. Her bir
+hareket için bir sayısal değer belirlenmiş ve kullanıcı
+klavye aracılığıyla ilgili tuşlara bastığında bu sayısal
+değerler araca gönderilmiştir. Belirlenen sayısal
+değerler ve karşılıkları Tablo 1’de gösterilmektedir.
+İlgili sayısal değer, araçta bulunan cep telefonu
+üzerinde çalışan yazılım ile yorumlanır. Bir
+anahtarlama mekanizması olarak düşünülmüş olan
+cep telefonu ekranı yazılım ile 8 bölgeye ayrılmış ve
+cep telefonuna gelen her bir kontrol mesajına 1 bölge
+atanmıştır. Bir kontrol mesajı alındığı zaman belirli
+bir süre ilgili ekran bölgesi aydınlatılmakta, kontrol
+mesajları kesildiği zaman karartılmaktadır. Cep
+telefonu ekranının üzerine yerleştirilen; fototransistör
+ve transistörlerden oluşturulmuş olan devre ile
+ekranın aydınlık veya karanlık olmasına göre ilgili
+motorun açma-kapama işlemi gerçekleştirilmektedir.
+Bahsedilen sistemin şematik görünümü Şekil 3’de ve
+gerçek görüntüleri Şekil 4’te gösterilmektedir.
+
+3G Tabanlı Uzaktan Kontrol Edilebilen Araç Geliştirilmesi
+
+Tablo 1. Araç ve kamera hareketi için belirlenen
+sayısal değerler ve karşılıkları (Determined
+Sayısal
+Değer
+0
+
+numeric values and descriptions for car and camera
+motion)
+İlişkilendirilen Tuş
+İlgili Hareket
+Sol Yön Tuşu
+
+Aracın Sola Dönüşü
+
+1
+
+Sağ Yön Tuşu
+
+Aracın Sağa Dönüşü
+
+2
+
+Üst Yön Tuşu
+
+Aracın İleri Gitmesi
+
+3
+
+Alt Yön Tuşu
+
+Aracın Geri Gitmesi
+
+4
+
+A
+
+5
+
+D
+
+6
+
+W
+
+7
+
+S
+
+Kameranın
+Dönmesi
+Kameranın
+Dönmesi
+Kameranın
+Eğilmesi
+Kameranın
+Eğilmesi
+
+Sola
+Sağa
+Öne
+Arkaya
+
+Şekil 3’de kırmızı olarak gösterilen fototranistörler
+kartın arka yüzünde bulunmaktadır. Kartın arka yüzü
+cep telefonu ekranının üzerine yerleştirilmiştir. Ekranda
+bir gölge aydınlatıldığında fototransistör aktif olmakta
+ve bulunduğu transistorü de aktif hale getirmektedir. Bu
+transistor ün çıkışından elde edilen sinyal de ULN2003
+darlington serisine giriş olarak verilmekte ve
+ULN2003’ten alınan çıkış ilgili motoru çalıştıracak
+röleye giriş olarak uygulanmaktadır.
+
+Şekil 3. Anahtarlama için kullanılan yapının şematik görünümü (Schematic view of switching structure)
+
+138
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+3G Tabanlı Uzaktan Kontrol Edilebilen Araç Geliştirilmesi
+
+(a)
+
+M. Şimşek ve ark.
+
+(b)
+
+(c)
+Şekil 4. Anahtarlama için kullanılan yapı (a) fototransistörler, (b) fototransistörlerden alınan sinyalleri güçlendiren
+transistörler ve ULN2003, (c) devrenin cep telefonu üzerine yerleştirilmiş hali ((Cont.) Switching structure (a)
+
+phototransistors, (b) amplificator transistors for received signals from phototransistors and ULN2003, (c) the circuit which is placed on the cell
+phone)
+
+Şekil 4(a) ve (b) aynı kartın iki yüzüdür. Anahtarlama
+için kullanılan transistörler sekiz adettir. Bunlar
+fototransistörlerden gelen akımı yükseltmek için
+kullanılmıştır. Ön yüzdeki fototransistörler cep
+telefonu ekranının aydınlık veya karanlık olmasına
+göre çıkışa akım vermekte ve transistörlerin bazını
+beslemektedir.
+Bunun
+yapılmasının
+sebebi
+fototransistörden gelen akımın devreyi çalıştırabilecek
+güçte olmamasıdır. Şekil 4(c)’de devrenin cep
+telefonu üzerinde kurulmuş şekli görülmektedir.
+Devre üzerine bağlı 10 kanallı siyah kablodan sekizi
+araba ve kamera kontrolleri için elektrik aksamına
+gönderilmekte; kalan ikisi ise devreyi beslemek için
+gereken gücü sağlamaktadır.
+Yukarıda anlatılan anahtarlama sisteminin yerine
+mikrodenetleyicili bir sistem de tasarlanabilirdi. Bu
+durumda 1 mikrodenetleyici, 1 endüstriyel 3G
+modem, 1 kamera kullanmak gerekmektedir. Bu
+durum maliyeti arttırmakla birlikte sistemin
+geliştirilme karmaşıklığını da arttıracaktır. Mevcut
+sistemde kamera ve 3G haberleşme ünitesi cep
+telefonunun üzerinde olduğu için bu birimleri yazılım
+ile kullanmak kolaylaşmaktadır. Mikro denetleyicili
+sistem kullanılmış olsaydı kameranın sürülmesi başlı
+başına bir problem teşkil edecekti.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Kontrol sinyallerine göre araç ve kamerayı hareket
+ettiren motorları çalıştırmak için röleler kullanılmıştır.
+Röleler, düşük voltaj değerleri ile devre anahtarlama
+yapılmasını sağlarlar ve içlerinde elektromıknatıs
+vardır. Elektromıknatıs, gerilim verildiğinde bir demir
+parçasını çeker ve anahtarlama yapılmış olur. Şekil
+5’te sistemde kullanılan röle devresi gösterilmektedir.
+
+Şekil 5. Sistemde kullanılan röle devresi
+
+(Relay circuit
+
+which is used in the system)
+
+Şekil 5’te görüldüğü gibi toplam sekiz adet röle
+kullanılmıştır. Bunlardan dördü araç hareketi için;
+dördü de kamera hareketi için ayrılmıştır. Şekil 5’te
+sol tarafta görülen 10 kanallı kablo anahtarlama
+sisteminden gelen kontrol verilerini taşımaktadır. Sağ
+tarafta görülen 8 kanallı kablonun dördü arabanın
+
+139
+
+M. Şimşek ve ark.
+
+3G Tabanlı Uzaktan Kontrol Edilebilen Araç Geliştirilmesi
+
+motorlarını beslemekte, dördü kameranın motorlarını
+beslemektedir.
+
+mekanizması Şekil 6’da gösterilmektedir. Geliştirilen
+bu mekanizma başlı başına yenilikçi bir yaklaşımdır.
+
+Araç hareketi için, araç üzerinde bulunan motorlar
+kullanılmıştır. Kamera hareketi için ise bir
+mekanizma tasarlanmıştır. Geliştirilen sistemde
+kamera hareketi insanın boyun hareketinden
+esinlenilerek gerçekleştirilmiştir. İnsan vücudundaki
+kasların yapısına bakıldığında itme yeteneklerinin
+olmadığı; yalnızca çekme yeteneklerinin olduğu
+görülmektedir. Bu nedenle zıt yönlere hareket için
+birden fazla kas gereklidir. Kameranın hareket
+mekanizmasında, insan boynundaki kasları taklit eden
+ipler vardır. Bu sayede kamera öne-arkaya ve sağasola 180 derece hareket edebilmekte ve arcın
+pozisyonu ne olursa olsun istenilen yönden görüntü
+alabilmektedir. Kamera için kullanılan hareket
+
+Son olarak, araçtan alınan görüntülerin daha sonra
+tekrar izlenebilmesi için kullanıcı programının video
+formatında kayıt yapması sağlanmıştır. Bunun için
+avilib.dll kütüphanesi kullanılmıştır. Bu kütüphane ile
+bilgisayarda bulunan codecler kullanılmakta ve
+istenilen formatta (divx, xvid, avi gibi) video kaydı
+yapabilmektedir. Avilib kütüphanesi kullanıcı
+programında alınan görüntülerin gerçek zamanlı
+olarak gösterilmesi için kullanılan “Grafics”
+nesnesinin üzerine çizilen şekilleri almakta ve
+istenilen formatta videoya dönüştürmektedir.
+
+(a)
+
+Geliştirilen aracın son şekli Şekil 7’de, kullanıcı
+tarafında bulunan ve aracı kontrol etmeye yarayan
+yazılımın arayüz Şekil 8’de gösterilmektedir.
+
+(b)
+
+(c)
+Şekil 6. Kamera için kullanılan hareket mekanizması. (a),(b) mekanizmada kullanılan yay ve ipler, (c) yayı
+hareket ettiren motor ve makaralar. (The motion mechanism used for camera movement. (a),(b) bow and cords used in
+the mechanism, (c) motor and reels used for bow movement)
+
+140
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+3G Tabanlı Uzaktan Kontrol Edilebilen Araç Geliştirilmesi
+
+M. Şimşek ve ark.
+
+Şekil 7. Geliştirilen araç (Developed car)
+
+Şekil 8. Kullanıcı arayüzü (User interface)
+3.
+
+İLERİYE
+
+YÖNELİK
+
+ÇALIŞMALAR
+
+(PROSPECTIVE STUDIES)
+
+Geliştirilen araç her ne kadar uzaktan kontrol edilse
+de haberleşmedeki gecikmelerden dolayı kullanıcının
+ani refleks gerektiren durumlarda zamanında
+müdahalesi gecikebilir. Bu nedenle bu tür araçların
+çarpmalara karşı duyarlı olmaları istenen bir
+durumdur. Geliştirilmiş olan araç bir prototip olduğu
+için ortalama 1 m/s hıza sahiptir. Bu da çarpma
+tehlikesinin oluşması halinde kullanıcıya bir zaman
+kazandırmaktadır. Ancak prototipin geliştirilerek daha
+büyük boyutlu ve hızlı araçlar üzerinde uygulanması
+ile çarpmaya karşı duyarlılık kazandırılması daha da
+önemli hale gelecektir. Bu çalışma kapsamında
+geliştirilen aracın çarpmaya karşı duyarlılık
+kazandırılması için bazı çalışmalar yapılmıştır.
+Yapılan çalışmalar sonucunda cisim mesafe tespiti ile
+ilgili birtakım sonuçlar elde edilmiştir ancak, tespit
+işleminin kullanıcı tarafındaki bilgisayar yerine araç
+üzerinde yerel olarak yapılması gerektiği için (böylece
+ani durma gerektiren durumlar hattın gecikmesinden
+etkilenmeyecektir)
+kaynak
+sıkıntısı
+meydana
+gelmiştir. Hem aracı kontrol eden hem de kameradan
+görüntüleri alıp kullanıcıya gönderen sistem cep
+telefonu içerisinde bulunan sistemdir. Cisim mesafe
+tespiti için geliştirilen kodların bu sistem üzerinde
+çalıştırılması ile birlikte, aracın geliştirilmesindeki
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+temel motivasyon olan uzaktan kontrol ve görüntü
+aktarımı iş parçacıklarının bekleme sürelerinin
+anormal biçimde arttıkları ve kullanıcı tarafında
+konforsuz bir iletişimin hissedildiği tecrübe edilmiştir.
+Bu nedenle çarpmaya karşı duyarlılık özelliği araçtan
+çıkarılmıştır. Bu tip bir özelliğin eklenebilmesi ancak
+işlem kapasitesinin arttırılması ile mümkün
+gözükmektedir.
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada 3G haberleşme ağı üzerinden kontrol
+edilebilen, düşük maliyetli bir araç geliştirilmiştir.
+Yapılan denemeler sonucunda aracın ve kameranın
+kolaylıkla ve düşük gecikmelerle kontrol edilebildiği
+görülmüştür. Kameraya kazandırılan yüksek hareket
+kabiliyeti sayesinde aracın konumundan bağımsız
+olarak çevre incelemesi yapılabilmektedir.
+Kullanıcıdan araca gönderilen kontrol mesajlarında
+ortalama gecikme süresi 100 ms civarlarında olurken;
+araçtan kullanıcıya gönderilen gerçek zamanlı
+görüntüdeki gecikme süresi ortalama 400 ms
+civarlarında ölçülmüştür. Elbette bu gecikme değerleri
+kullanıcı ile aracın birbirlerine olan uzaklıklarına,
+şebekenin kullanıldığı bölgeye ve 3G hizmeti
+sağlayan operatöre göre değişiklikler gösterebilir.
+
+141
+
+M. Şimşek ve ark.
+
+Sinyalin gürültüye oranı bu çalışma kapsamında
+incelenmemiştir. Çünkü bu konu servis sağlayıcının
+sunduğu hizmet kalitesi ile ilgili bir konu olup,
+sinyalin gürültüye oranının iyileştirilmesi ile ilgili bir
+çalışma yapılmamıştır. Çalışmada kullanılan araç
+prototip olup, hazır olarak alınmıştır. Bu nedenle
+aracın hareket kabiliyeti, üreticinin araca kazandırdığı
+kadardır. Farklı görevler için farklı araçlar
+kullanılabilir. Bu durum, çalışmanın temel
+motivasyonu olan 3G üzerinden görüntülü ve gerçek
+zamanlı kontrolü etkilemeyecektir. Bu çalışma,
+Ülkemizde 3G teknolojisinin endüstriyel alanlarda
+kullanılması açısından yenilikçi bir çalışmadır.
+
+3G Tabanlı Uzaktan Kontrol Edilebilen Araç Geliştirilmesi
+
+6.
+
+7.
+
+8.
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+142
+
+Rissanen H. ve ark., “Designing and
+Implementing an Intelligent Bluetooth-Enabled
+Robot Car”, IFIP International Conference on
+Wireless and Optical Communications
+Networks, Kahire, Mısır, 1-6, 28-30 Nisan 2009.
+Li M. ve ark., “GPRS Based Guard Robot Alarm
+System
+Design”,
+Fourth
+International
+Conference on Internet Computing for Science
+and Engineering, Harbin, Heilong Jiang, Çin,
+211-216, 21-22 Aralık 2009.
+Lin C. E. ve ark., “A Real Time Remote Control
+Architecture using Mobile Communication”,
+Proceedings of the 19th IEEE Instrumentation
+and Measurement Technology Conference,
+Alaska, A.B.D., 901-906, 21-23 Mayıs 2002.
+Alheraish A., “Design and Implementation of
+Home Automation System”, IEEE Transactions
+on Consumer Electronics, Cilt 50, No. 4, 10871092, 2004.
+Makaya F. D., Chatelain D. ve Snyman L.W.,
+“Design and Performance Assessment of a
+Prototype
+Wireless
+Controlled
+Robot”,
+Proceedings of the IEEE 12th International
+Symposium on Electron Devices for
+Microwave and Optoelectronic Applications,
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+Kruger National Park, Güney Afrika, 115-118, 89 Kasım 2004.
+Luo R. C. ve ark., “Navigation and Mobile
+Security System of Intelligent Security Robot”,
+IEEE International Conference on Systems,
+Man and Cybernetics, Taipei, Tayvan, 169-174,
+8-11 Ekim 2006.
+Babulak E., “Next Generation of Applied Internet
+Technologies in E-manufacturing”,
+International Conference on Computer
+Modelling and Simulation, Cambridge,
+İngiltere, 386-390, 25-27 Mart 2009.
+Chang H. C., “Real-Time Control of an SSVEPActuated Remote-Controlled Car”, SICE Annual
+Conference, Taipei, Tayvan, 1884-1887, 18-21
+Ağustos 2010.
+Bayılmış C. ve Kelebekler E., “Remote Control
+of a CAN-Based Mobile Model Car Using a
+Voice Activated Control System”, IEEE 16th
+Signal Processing, Communication and
+Applications Conference, Aydın, Türkiye, 1-4,
+20-2 Nisan 2008
+Bekiroğlu E. ve Daldal N., “Remote control of an
+ultrasonic motor by using a GSM mobile phone”,
+Sensors and Actuators A: Physical, Cilt 120,
+No. 2, 536-542, 2005.
+Dai X., “Research and Design of the Smart
+Home-based Wireless Network”, International
+Conference on E-Business and E-Government,
+Guangzhou, Çin, 4299-4304, 7-9 Mayıs 2010.
+Huan L. ve ark., “Research on a remote Control
+Vehicle”, “International Conference on
+Education Technology and Computer”,
+Şanghay, Çin, 263-266, 22-24 Haziran 2010.
+Feng D. ve Yin N., “The Design and Application
+of Remote Controller Base on GSM”,
+International Conference on Computer,
+Mechatronics,
+Control
+and
+Electronic
+Engineering, Changchun, Çin, 187-189, 24-26
+Ağustos 2010.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+

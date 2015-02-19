@@ -1,0 +1,1402 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 24, No 2, 265-273, 2009
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 24, No 2, 265-273, 2009
+
+ÇİFT YAKIT ENJEKSİYONLU BUJİ ATEŞLEMELİ
+BİR MOTORDA LPG KULLANIM ORANININ PERFORMANS
+VE EMİSYON KARAKTERİSTİKLERİNE ETKİSİ
+Metin GÜMÜŞ
+Makine Eğitimi Bölümü, Teknik Eğitim Fakültesi, Marmara Üniversitesi, 34722, Göztepe, İstanbul
+mgumus@marmara.edu.tr
+(Geliş/Received: 26.09.2008 ; Kabul/Accepted: 25.12.2008)
+ÖZET
+Bu çalışmada, benzin ve LPG enjeksiyon sistemine sahip buji ateşlemeli bir motorda LPG kullanım oranının
+motor performansı, emisyonlar ve yakıt ekonomisine olan etkisi incelenmiştir. Bu amaçla dört silindirli buji
+ateşlemeli motora sahip bir taşıt çift yakıt ile çalışabilecek şekilde modifiye edilmiştir. Çift yakıtlı çalışmada
+püskürtülen yakıt miktarları aynı ısıl değerlerin elde edilebilmesine göre hesaplanmıştır. Deneyler taşıt
+dinamometresinde, farklı LPG kullanım oranlarında (ısıl değer olarak %0, %25, %50, %75, %100), sabit devirde
+(3800 d/d) ve değişik motor yüklerinde (%5, %30, %60, %90) gerçekleştirilmiştir. Deneyler tüm LPG kullanım
+oranlarında egzoz emisyonları ve yakıt ekonomisi açısından benzine göre olumlu sonuçlar vermiştir. Motor
+performansı açısından ise yalnız %25 LPG kullanım oranında olumlu sonuçlar elde edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Otomotiv sektöründeki alternatif enerji kaynağı
+arayışları sıvılaştırılmış petrol gazının (LPG), insan
+yaşamında vazgeçilmez bir öneme sahip olan
+taşıtlarda alternatif yakıt olarak kullanımını gündeme
+getirmiştir. Alternatif yakıtların, mevcut teknolojide
+önemli bir yapısal değişiklik gerektirmeden, doğrudan
+kullanılabilmeleri tercih edilmelerindeki en önemli
+faktörlerdendir. LPG’nin bu özelliğe sahip olmasıyla
+birlikte kolay bulunması, ekonomik olması, diğer
+
+yakıtlara göre egzoz emisyonlarının düşük ve oktan
+sayısının yüksek olması içten yanmalı motorlarda
+alternatif yakıt olarak kullanımını cazip hale
+getirmektedir. LPG’nin içten yanmalı motorlarda
+kullanımına yönelik çok farklı yöntemler denenmekte
+ve bunlarla ilgili araştırmalar sürdürülmektedir.
+LPG’nin benzine benzer özellikleri sayesinde, buji
+ateşlemeli motorlara sahip taşıtlarda önemli değişiklikler gerektirmeden kullanılabilmektedir. Bu nedenle
+LPG ile ilgili araştırmalar buji ateşlemeli motorlar
+
+M. Gümüş
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+üzerinde yoğunlaşmıştır. Smith ve arkadaşları (1997)
+tarafından yapılan çalışmada 1,4 litrelik bir motorda
+LPG ve benzin yakıtları kullanarak emisyon ve
+verimlilik bakımından karşılaştırma yapılmıştır. LPG
+ile çalışmada HC emisyonlarının benzine göre daha
+düşük çıktığı, CO emisyonunun ise motor devrine
+göre farklılıklar gösterdiği belirlenmiştir [1]. İçingür
+ve Haksever (1998), buji ateşlemeli bir motorda LPG
+yakıtın motor karakteristiklerine etkisini incelemişlerdir. LPG kullanımında motorun maksimum moment ve egzoz emisyonu değerlerinin benzinli motor
+değerlerinden daha düşük olduğu belirlenmiştir [2].
+Dinler ve Yücel (2003) iki farklı motorda LPG ve
+benzinli çalışmanın motor performansına etkilerini
+deneysel olarak incelemişlerdir. LPG ile çalışmada
+benzinli çalışmaya göre motor momentinde %1,5 ve
+%8 azalma olmuştur [3]. Murillo ve arkadaşlarının
+(2005) yapmış olduğu çalışmada buji ateşlemeli bir
+motorda LPG kullanımında benzinli çalışmaya göre
+önemli bir güç kaybı olmaksızın özgül yakıt tüketiminde, CO ve HC emisyonlarında önemli düşüşler
+elde edilmiştir. NOx emisyonunda ise yükselme
+meydana gelmiştir [4]. LPG’nin benzine göre daha
+yüksek oktan sayısına sahip olması, buji ateşlemeli
+motorlarda daha yüksek sıkıştırma oranlarında kullanılabilmesine olanak vermektedir. Kim ve Bae (2000)
+dört silindirli buji ateşlemeli motorda LPG ve doğal
+gaz kullanımının değişik çalışma koşullarında, 8,6:1
+ve 10,6:1 sıkıştırma oranında performans ve HC emisyonlarına etkilerini incelemişlerdir. Yüksek sıkıştırma
+oranında fakir karışımla çalışma ile her iki yakıtta da
+motor veriminin arttığı, NOx ve CO2 emisyonunun
+azaldığı ve bazı HC türlerinde artma olduğunu tespit
+etmişlerdir [5]. Akbaş ve arkadaşları (2003) tarafından yapılan çalışmada LPG ile çalışan buji ile ateşlemeli bir motorun sıkıştırma oranı artırılarak özgül
+yakıt tüketimi ve motor gücüne etkileri araştırılmıştır.
+Sıkıştırma oranının 9,5:l’den 13:l’e artışıyla birlikte
+yakıt tüketiminde ortalama %12 azalma, motor gücünde yaklaşık %7 artış elde edilmiştir [6]. Çelik ve
+Balki (2007) tarafından yapılan çalışmada, tek silindirli bir motorun sıkıştırma oranı 5:1’den 9:1’e
+artırılmış ve LPG ile çalıştırılarak performansını arttırma olanakları deneysel olarak araştırılmıştır.
+Sonuçlar; düşük güçlü motorlarda yüksek sıkıştırma
+oranında LPG kullanımının, motor performansını
+önemli ölçüde arttırdığını ve egzoz emisyonlarını
+azalttığını göstermektedir[7]. Sayın ve arkadaşları
+(2005) tarafından yapılan çalışmada benzin ve çift
+yakıt (%90 benzin+%10 LPG) kullanımının emisyon
+ve performans parametreleri üzerine etkisi incelenmiştir. Çift yakıtlı çalışma ile özgül yakıt tüketiminde
+%4, CO’da %13, HC emisyonlarında %5 azalma
+sağlanmıştır[8]. Ayrıca buji ateşlemeli motorlarda
+silindir içerisine direkt yakıt püskürtme teknolojisinin
+gelişmesiyle birlikte LPG’nin sıvı fazda püskürtülmesiyle ilgili çalışmalar da yaygınlaşmıştır [9-12].
+LPG dönüşümü yapılan bir taşıt, istendiğinde LPG
+veya benzin ile çalıştırılabilmektedir. Ancak uzun bir
+
+266
+
+süre park edilen ve ortam sıcaklığına ulaşan benzin
+enjeksiyonlu taşıt motorunun soğuk çalıştırılmasında,
+regülatörde meydana gelen buzlanma nedeniyle LPG
+kullanımına hemen geçilememekte, LPG regülatörü
+çalışma sıcaklığına gelene kadar bir müddet benzin ile
+çalışma gerekmektedir. Isınma süresinin tamamlanmasından sonra benzin yakıtının kullanımından LPG
+yakıtının kullanımına direkt geçiş yapılmaktadır. Bu
+direkt geçiş esnasında motorun yanma karakteristiğinin değişmesi ve motorun bu değişime uyum
+sağlamasında meydana gelen gecikme motorda
+sarsıntılar oluşturabilmektedir. Bu olumsuzlukların
+giderilmesinde kullanılan yöntemlerden biri; benzin
+yakıtının kullanımından LPG yakıtının kullanımına
+geçişin kademeli yapılmasıdır.
+Yukarıda verilen literatür özetinden de görüldüğü
+gibi, benzin yakıtının kullanımından LPG yakıtının
+kullanımına kademeli geçişi ve farklı LPG kullanım
+oranlarının, motor performansına ve egzoz emisyonlarına etkisini inceleyen çalışmalara açık literatürde
+rastlanılmamıştır. Bundan dolayı bu çalışmada, benzin
+yakıtının kullanımından LPG yakıtının kullanımına
+kademeli geçişi sağlayan sistemle, farklı LPG
+kullanım oranlarının, motor performansına ve egzoz
+emisyonlarına etkisi deneysel olarak incelenmiştir.
+Öncelikle deneylerin uygulanması için deney aracına
+LPG dönüşüm sistemi montajı yapılmıştır. Taşıt
+motorunun LPG yakıtının kullanımına kademeli
+geçebilmesi ve çift yakıt kullanımını sağlayabilmesi
+için dönüşüm sisteminin donanımında ve yazılımında
+gerekli revizyonlar yapılmıştır. Deneyler taşıt dinamometresi üzerinde farklı motor yüklerinde ve ısıl değer
+olarak farklı LPG kullanım oranlarında (%0LPG+%100Benzin,
+%25LPG+%75Benzin,
+%50LPG+%50Benzin,
+%75LPG+%75Benzin,
+%100LPG+%0Benzin) yakıt tüketiminin ve egzoz emisyonlarının
+ölçülmesiyle gerçekleştirilmiştir.
+1.1. LPG Dönüşüm Sistemleri (LPG Conversion
+Systems)
+
+Dünyada genel olarak, LPG‘nin araçlarda kullanımının sağlanmasında sadece LPG yakıtı ile çalışan araç
+üretiminden ziyade araçların LPG sistemine dönüştürülmesi yoluna gidilmektedir. Araçlara LPG sistemlerinin montajı sadece bazı özel parçaların sisteme ilave
+edilmesiyle gerçekleştirilmektedir. Aracın mevcut
+yakıt ve ateşleme sistemi aynen muhafaza edilmektedir. Dönüşüm işleminde kullanılan malzemeler,
+dönüştürülecek taşıtın sahip olduğu yakıt sistemine
+bağlı olarak değişmektedir. Karbüratörlü sistemlerde
+çok basit ekipmanlar kullanılırken, sıralı enjeksiyonlu
+sistemlerde elektronik kontrol ünitesi, enjektör gibi
+karmaşık ekipmanlar kullanılmaktadır [13]. Çok
+noktalı LPG püskürtme sistemlerine sahip günümüz
+taşıt motorlarında püskürtme yöntemi olarak sıralı
+kesikli püskürtme yöntemi en yaygın yöntem olarak
+uygulanmaktadır [14].
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+2. MATERYAL VE METOT (MATERİAL AND
+
+Tablo 3. Taşıt dinamometresinin teknik özellikleri
+(Technical properties of vehicle dynamometer)
+
+METHOD)
+
+2.1. Deney Taşıtı ve Motorunun Özellikleri
+(Experimental Vehicle and Engine Properties)
+
+Deneylerde 2000 model Renault Clio 1,4i RTA
+markalı taşıt kullanılmıştır. Deney taşıtının ve taşıt
+üzerinde bulunan motorun teknik özellikleri Tablo 1
+ve 2’de verilmiştir.
+Tablo 1. Deney taşıtının teknik özellikleri (Technical
+properties of experimental vehicle)
+
+Marka ve model
+Net ağırlık
+Boyutlar
+Aktarma
+Şanzıman
+Depo hacmi
+
+M. Gümüş
+
+Renault Clio, 1,4i, 2000
+960 kg
+3773/1639/1428 mm
+Önden çekişli
+5 ileri manüel
+50 dm3
+
+Tablo 2. Deney motorunun teknik özellikleri
+(Technical properties of experimental engine)
+
+Motor tipi
+Ateşleme sırası
+Silindir çapı
+Silindir stroku
+Piston süpürme hacmi
+Sıkıştırma oranı
+Soğutma sistemi
+Max. motor devri
+Max. motor gücü
+Max. motor momenti
+Yakıt sistemi
+Ortalama yakıt
+tüketimi
+
+Üstten eksantrikli, 8 valflı
+
+1-3-4-2
+75,8 mm
+77 mm
+1390 cm3
+9,5:1
+Su soğutmalı
+5950 d/d
+55 kW (5500 d/d)
+114 N.m (4250 d/d)
+Enjeksiyonlu
+7,1 dm3/100 km
+
+2.2. Egzoz Emisyonu Cihazı (Exhaust Emission Device)
+Egzoz emisyonlarının (CO2, CO, HC) ölçümünde
+BİLSA marka emisyon cihazı kullanılmıştır. Cihazın
+CO2, CO ve HC için ölçüm aralığı sırasıyla % 0 – 20,
+% 0 – 10 ve 0 – 10.000 ppm dir. Hata payları ise
+sırasıyla ±0,01, ±0,01 ve ±1 ppm’dir.
+2.3. Taşıt Test Dinamometresi (Vehicle Test
+Dynamometer)
+
+Taşıt testleri CARTEC marka LPS 2020 kodlu şasi
+dinamometresinde yapılmıştır. Şasi dinamometresinin
+teknik özellikleri Tablo 3’te verilmiştir. Şekil 1’de
+deney ortamından bir görünüm verilmiştir.
+
+Teknik Özellikleri
+Maximum test hızı
+Kullanım sıcaklığı
+Maximum frenleme gücü
+Güç kaynağı
+Frekans
+Hava kaynağı
+Boyutlar
+Tambur çapı
+Tambur genişliği
+Max. kaldırma kapasitesi
+Max. aks yükü
+
+Birim
+Km/h
+0
+C
+kW
+AC /V
+
+Hz
+Bar
+m
+mm
+mm
+t
+t
+
+Değer
+260
+0-50
+260
+400
+50
+7
+3,27x1x0,65
+320
+490
+2
+3,5
+
+Tablo 4. Deney yakıtlarının özellikleri (Specification
+of experimental fuels)
+
+Özellikler
+
+Özgül Kütle (kg/m³)
+Alt Isıl Değer
+(MJ/kg)
+Kaynama Noktası
+(°C)
+Tutuşma Noktası (°C)
+Yanma Hızı (m/s)
+Hava Yakıt Oranı
+Tutuşma sınırları
+(Hacimsel %)
+Araş. Oktan Sayısı
+Motor Oktan Sayısı
+
+Benzin
+
+Propan
+
+Bütan
+
+765
+
+509
+
+585
+
+44,04
+
+46,34
+
+45,56
+
+30-225
+
+-42
+
+-0,5
+
+257
+0,35
+14,7
+
+510
+0,4
+15,8
+
+490
+0,4
+15,6
+
+1,3-7,6
+
+2,1-9,5
+
+1,5-8,5
+
+95
+85
+
+111
+97
+
+103
+89
+
+2.5. Çalışmada Kullanılan Sıralı Yakıt Enjeksiyon
+Sistemi (Sequential Fuel Injection System Used in This
+Study)
+
+Bu çalışmada, Üçyıldız Otomotiv firmasının üretmekte olduğu Voltran marka çok noktalı, sıralı LPG
+enjeksiyon sistemi kullanılmıştır. Sistem, bir regülatör
+vasıtasıyla LPG’yi sıvı halden gaz haline dönüştürerek basıncını ayarlamakta ve enjektörler vasıtasıyla
+emme manifolduna püskürtmektedir. Sistemdeki LPG
+püskürtme sırası ve zamanlaması, elektronik kontrol
+ünitesi (EKÜ) tarafından kumanda edilmektedir. Püs–
+kürtme zamanlaması aracın orijinal kontrol ünitesinin
+benzin enjeksiyon zamanlamasından faydalanılarak
+belirlenmektedir. Şekil 2’de bu çalışmada kullanılan
+Voltran SGI sisteminin şematik yapısı gösterilmiştir.
+
+2.4. Deney Yakıtlarının Özellikleri (Experimental Fuel
+Properties)
+
+Bu çalışmada kullanılan LPG %50 propan (C3H8) ile
+%50 oranında Bütan (C4H10) karışımından oluşmaktadır. Deneylerde kullanılan LPG (propan ve bütan)
+ve benzinin önemli özellikleri Tablo 4’te verilmiştir.
+Şekil 1. Deney ortamından bir görünüm
+
+(A view of
+
+experimental surroundings)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+267
+
+M. Gümüş
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+Enjektörlere verilen elektriksel sinyallerle bu sinyallere karşılık beklenen mekanik davranışlar aynı olamamaktadır. Enjektörlerde açılma ve kapanma gecikmeleri oluşmaktadır. Bu durum gaz enjektörlerinde
+daha belirgin oluşmaktadır. Bu nedenle enjektörlerin
+açma sinyalleriyle debisi arasındaki değişim deneysel
+olarak belirlenmiştir. Bu değişim enjektörlerden
+beklendiği gibi lineer olmuştur. Motorda kullanılan
+benzin ve LPG enjektörlerinin sinyal sürelerine bağlı
+olarak bir tetiklemede püskürtülen yakıt miktarlarının
+değişimi sırasıyla
+1.LPG tankı, 2.Multivalf, 3.Regülatör, 4.Elektrovalf, 5.LPG
+enjeksiyon hattı, 6.LPG enjektörü, 7.Yakıt seçme anahtarı, 8.LPG
+EKÜ’sü, 9. Benzin enjektörü, 10.Benzin EKÜ’sü, 11.Lambda
+sensörü, 12. Katalitik konvertör, 13.Sıcaklık sensörü, 14.Vakum
+sensörü, 15.Basınç sensörü, 16. Hava filtresi
+
+Vb  abtb  bb
+
+(1)
+
+Vlpg  alpg tlpg  blpg
+
+(2)
+
+Şekil 2. Bu çalışmada kullanılan Voltran SGI çok
+noktalı, sıralı LPG enjeksiyon sistemi (Voltran SGI Multi
+
+ampirik bağıntılarıyla belirlenmiştir. Enjektörlerin (1)
+ve (2) nolu denklemle ifade edilen lineer davranışları
+dört enjektörün ortalama değerleriyle belirlenmiştir.
+Deney verilerinden denklemlerde belirtilen katsayıların bulunmasıyla denklemler
+
+point, sequential LPG injection systems used in this study)
+
+2.6. Deney Prosedürü (Procedure of Experiment)
+Taşıt motorunun benzin yakıtının kullanımından LPG
+yakıtının kullanımına kademeli geçişi yapılabilmesi
+ve çift yakıt kullanılmasının sağlanabilmesi için
+dönüşüm sisteminin donanımında ve yazılımında
+gerekli değişiklikler yapılmıştır. Bu değişiklikler
+üçyıldız otomotiv şirketinin desteğiyle yapılmıştır.
+Dönüşüm sistemi motorun işletme şartlarına bağlı
+olarak tüketilen benzin miktarını ölçmekte ve
+tamamen LPG kullanımına geçene kadar benzin
+miktarında kademeli olarak azaltma yapmaktadır.
+Taşıt dinamometresinde deneyler, sabit devirde (4.
+vites, 3800 d/d) ve farklı yük şartlarında gerçekleşti–
+rilmiştir. Taşıt motoru maksimum momentin %90’ı
+oranında yüklenmiştir. Isıl değer olarak LPG kullanım
+oranları %0 (%100 benzin), %25, %50, %75, %100
+olmak üzere beş farklı değerde ayarlanmıştır. Tüm
+LPG kullanım oranlarında %5, %30, %60 ve %90 yük
+oranları için ölçümler alınmıştır. Her kademedeki
+yüklemede, yakıt tüketiminin belirlenmesi için enjek–
+törlerin açık kalma zamanları ve egzoz emisyonları
+(CO2, CO ve HC) ölçülmüştür. Özgül yakıt tüketimi,
+özgül enerji tüketimi ve efektif verim ölçülen
+parametrelerden yararlanarak hesaplanmıştır. Çalış–
+manın diğer bölümlerinde kullanılacak olan “yakıt
+kullanım oranı” ifadesinde, yakıtların ısıl değer
+oranları kastedilecektir.
+2.7. Yakıt Tüketimi Ölçüm Metodu (Method of
+Measurement of Fuel Consumption)
+
+Bu çalışmada yakıt tüketimlerinin belirlenmesinde
+benzin ve LPG enjektörlerinin püskürtme sürelerinin
+tespiti yöntemi kullanılmıştır. Benzin ve LPG
+enjektörlerinin sabit basınç altında püskürtme sürele–
+rinin belirlenebilmesi durumunda enjektörlerin yakıt
+debilerinin tespiti mümkün olabilmektedir. Dolayısı–
+yla motorun yakıt tüketimi bütün enjektörlerin yakıt
+debilerinin toplamıyla belirlenebilmektedir.
+
+268
+
+Vb  5,52tb  3,287
+
+(3)
+
+Vlpg  1,77t lpg  4,594
+
+(4)
+
+şeklini almıştır. Bu ampirik denklemlerde; Vb ve Vlpg
+bir tetiklemede püskürtülen benzin ve LPG yakıt
+miktarlarını göstermekte ve birimileri cm 3 çevrim
+
+
+
+
+
+dir. tb ve tlpg ise bir tetiklemedeki benzin ve LPG
+yakıt püskürtme süreleridir birimleri ise ms  dir.
+
+Enjektörler uyarıldıklarından itibaren belirli bir
+gecikmeyle açılırlar. LPG enjektörlerinin açılma
+gecikmeleri benzin enjektörlerine göre daha yüksek
+olmaktadır ve birbirlerine göre farklılıklar göstermektedirler. Bu çalışmada kullanılan LPG enjektörlerin
+açılma gecikmeleri 3 ms olarak ayarlanmıştır. Benzin
+enjektörlerin açılma gecikmeleri ise 1 ms dir.
+2.8. Yakıt Miktarlarının Belirlenmesi
+
+(Determination
+
+of Fuel Quantity)
+
+LPG kullanım miktarı, kullanılan benzin miktarına ve
+benzinde yapılan eksiltmeye göre belirlenmektedir.
+Benzin miktarının belirlenmesi için taşıt motoru
+%100 benzinde çalışırken enjektörlerin açık kalma
+sürelerinin belirlenmesi gerekmektedir. Benzinde
+yapılan eksiltmeler ise %25, %50, %75 ve %100
+oranlarında olmak üzere dört kademede yapılmıştır.
+Benzin yakıtının kütlesel debisi, yakıtın yoğunluğu ve
+hacimsel debisi cinsinden
+
+
+
+mb   b ,sVb
+
+(5)
+
+şeklinde yazılabilir. Motorun benzin yakıtının
+hacimsel debisi, bir enjektörün bir çevrimde
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+püskürttüğü hacimsel yakıt miktarının, Vb bilinmesi
+durumunda
+
+n
+
+Vb  is Vb
+60
+
+(6)
+
+bağıntısıyla ifade edilebilir. Bu bağıntıda s silindir
+sayısını (enjektör sayısı), n motor devrini göstermektedir. i dört zamanlı motorlar için 0,5, iki zamanlı
+motorlar için 1 alınmaktadır. (6) nolu denklemin (5)
+nolu denklemde yerine konulmasında benzin yakıtının
+kütlesel debisi
+
+
+mb   b ,s is
+
+n
+Vb
+60
+
+(7)
+
+olarak bulunur. Enjektörün açık kalma süresine bağlı
+olarak enjektörün bir çevrimdeki hacimsel debisini
+veren (1) nolu ampirik denklemin kullanılmasıyla
+
+
+mb   b ,s is
+
+n
+abtb  bb 
+60
+
+(8)
+
+bağıntısı bulunur. Bu bağıntıdan enjektör açık kalma
+süresi çekilirse
+
+tb 
+
+1
+ab
+
+
+ 
+ bb  60mb 
+
+ b ,s isn 
+
+
+
+(9)
+
+M. Gümüş
+
+ifadeleri yazılabilir. Bu bağıntılarda (LHV ) yakıtların alt ısıl değerlerini göstermektedir. LPG enjektörünün açık kalma süresinin belirlenebilmesi için
+yakıtların kütlesel debileri, yakıtın yoğunluğu ve
+hacimsel debileri cinsinden yazılacak olursa
+
+
+
+Vlpg  lpg , g LHV lpg  Vb  b ,s LHV b
+
+(14)
+
+ifadesi elde edilir. Gazların yoğunluklarının sıcaklığa
+bağlı olarak yüksek oranda değişmesinden dolayı bu
+bağıntıdaki LPG yoğunluğu LPG yakıt hattının
+sıcaklığına bağlı olarak değerlendirilmiştir. Bu
+denklemden LPG yakıtının hacimsel debisi çekilerek
+
+
+  b ,s LHV b
+Vlpg  Vb
+ lpg , g LHV lpg
+
+(15)
+
+bağıntısı elde edilir. Bu bağıntı enjektörlerin bir
+çevrimde püskürttükleri hacimsel yakıt miktarları
+cinsinden yeniden
+
+Vlpg  Vb
+
+ b ,s LHV b
+
+ lpg , g LHV lpg
+
+(16)
+
+şeklinde yazılabilir. Bu ifade de bir çevrimde
+püskürtülen hacimsel yakıt miktarlarını veren (1) ve
+(2) nolu ampirik denklemlerin kullanılmasıyla LPG
+enjektörünün açık kalma süresi
+
+ b ,s LHV b 
+1 
+ (17)
+blpg   abtb  bb 
+alpg 
+ lpg , g LHV lpg 
+
+
+
+ifadesi elde edilir. Bu ifadede,  benzin eksiltme
+oranı olmak üzere
+
+tlpg 
+
+
+
+mb ,e  (1   )mb
+
+şeklinde bulunur. LPG enjektörünün açık kalma süresi
+bilinmesi durumunda LPG yakıtının kütlesel debisi
+(8) denklemine benzer olarak
+
+(10)
+
+şeklinde tanımlanan eksiltilmiş benzin yakıtının
+kullanılmasıyla, eksiltilmiş benzin miktarının temini
+için benzin enjektörünün açık kalma süresi
+
+t b ,e 
+
+1
+ab
+
+
+
+60mb ,e 
+ bb 
+
+
+ b ,s isn 
+
+
+
+(11)
+
+
+mlpg   lpg , g is
+
+n
+alpg t lpg  blpg 
+60
+
+(18)
+
+bağıntısıyla bulunur.
+2.9. Performans Parametrelerinin ve Özgül Yakıt
+Maliyetin Belirlenmesi (Determination of
+
+bağıntısıyla bulunur.
+
+Performance Parameters and Specific Fuel Cost)
+
+LPG kullanım miktarının tayini, performans kaybının
+önlenmesi amacıyla eksiltilmiş benzinin ısıl değerine
+eşdeğer LPG miktarının belirlenmesiyle yapılmıştır.
+Buna göre
+
+
+
+mlpg LHV lpg  mb LHV b
+
+(12)
+
+e 
+
+Pe
+
+
+mlpg LHV lpg  mb ,e LHV b
+
+(19)
+
+Özgül yakıt tüketimi,
+
+ve
+
+LHV b
+
+
+mlpg  mb
+LHV lpg
+
+Efektif verim,
+
+(13)
+
+be  3,6.10 6
+
+
+
+mlpg  mb ,e
+
+(20)
+
+Pe
+
+Özgül enerji tüketimi,
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+269
+
+M. Gümüş
+
+
+
+mlpg ( LHV ) lpg  mb ,e ( LHV ) b
+
+(21)
+
+bağıntılarıyla belirlenmiştir.
+Özgül yakıt maliyet ise, M lpg ve M b sırasıyla LPG
+ve benzinin bir kilogramının YTL cinsinden maliyeti
+olmak üzere
+
+ e  3600
+
+35
+
+Pe
+
+
+
+mlpg M lpg  mb ,e M b
+
+Efektif verim (%)
+
+ee  3600
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+30
+
+25
+
+20
+
+(22)
+
+%
+100 Benzin
+%
+75Benzin+%
+25LPG
+%
+50Benzin+%
+50LPG
+%
+25Benzin+%
+75LPG
+%
+100 LPG
+
+15
+
+Pe
+10
+
+bağıntısıyla belirlenmiştir.
+
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Y (%)
+ükü
+
+3. DENEYSEL SONUÇLAR VE TARTIŞMA
+(EXPERIMENTAL RESULTS AND DISCUSSION)
+
+3.1. Motor Performansı (Engine Performance)
+Benzin ve LPG yakıtlarını birlikte ve ayrı ayrı
+kullanabilecek şekilde dönüşümü yapılmış deney
+aracında soğuk çalışma koşullarında, ısınma süresinin
+tamamlanmasından sonra benzin yakıtının kulanımından LPG yakıtının kullanımına geçişin kademeli
+yapılması, motorun bu değişime uyum sağlamasını
+sağlamış ve motorda meydana gelen sarsıntılar
+hissedilmeyecek kadar azalmıştır.
+Performans ve emisyon deneyleri, taşıt dinamometresi
+üzerinde farklı motor yüklerinde ve farklı LPG
+kullanım
+oranlarında
+(%0LPG+%100Benzin,
+%25LPG+%75Benzin,
+%50LPG+%50Benzin,
+%75LPG+%75Benzin,
+%100LPG+%0Benzin)
+gerçekleştirilmiştir. Motor efektif verimin motor
+yüküne göre değişimi Şekil 3’te gösterilmiştir. Motor
+efektif verimi, motor yükünün artmasıyla artış
+gösterirken LPG kullanım oranının artmasıyla azalma
+göstermiştir. LPG kullanımında efektif verimde meydana gelen bu azalmasının en önemli nedeni olarak
+LPG kullanımında volumetrik verimin azalması
+gösterilebilir[15]. Maksimum motor efektif verimi
+yalnız benzin kullanımında 34,59 olarak elde edilmiştir. Yalnız LPG kullanımında %90 yükleme
+oranında, minimum motor efektif verimi ise 27,09
+olarak elde edilmiştir. %25 LPG, %50 LPG, %75
+LPG içeren karışımların ve %100 LPG’nin kulanımında motor efektif veriminde ortalama olarak
+sırasıyla %2, %14,1 %12,2 ve %18,2 azalma meydana
+gelmiştir. %25 LPG oranına sahip karışımın
+kullanımında motor efektif veriminde çok düşük bir
+azalma meydana gelmiştir. Düşük LPG kullanım
+oranlarında, LPG kullanımıyla karışımın daha
+homojen olması yanma verimini artırmakta ve LPG
+
+Şekil 3. Efektif verimin motor yüküne göre değişimi
+(Variation of brake thermal efficiency with respect to engine load)
+
+kullanımından kaynaklanan volumetrik verimdeki
+ufak azalmanın etkisi telafi edilebilmektedir.
+Özgül yakıt tüketiminin motor yüküne göre değişimi
+Şekil 4’te gösterilmiştir. Özgül yakıt tüketimi, motor
+yükünün artmasıyla genel olarak azalmıştır. %25 LPG
+oranına sahip karışımın kullanımında özgül yakıt
+tüketimi minimum olmuştur. LPG nin ısıl değerinin
+yüksek olması ve yanma verimi üzerindeki olumlu
+etkisi bu sonucun oluşumunda en belirgin faktörlerdir.
+Bundan sonraki LPG kullanım oranının artmasında
+ise özgül yakıt tüketimi genel olarak artma göstermiştir. Düşük yüklerde maksimum yakıt tüketimini %50
+benzin %50 LPG karışımı gösterirken, yüksek
+yüklerde ise %100 LPG yakıtı göstermiştir. %25 LPG
+içeren karışımın kullanımında özgül yakıt tüketiminde
+ortalama olarak %7,1 azalma meydana gelmiştir. %50
+LPG, %75 LPG içeren karışımların ve %100 LPG’nin
+kullanımında özgül yakıt tüketiminde ortalama olarak
+sırasıyla %7,3, %0,4 ve %1,8 artma meydana
+gelmiştir.
+700
+%
+100 Benzin
+
+Özgül yakıt t üketimi (g/(kW h))
+
+Bu bağıntılardaki değişkenler (8), (10) ve (18)
+denklemlerinin kullanımıyla her farklı deney koşulu
+için ayrı ayrı belirlenmiştir.
+
+%
+75Benzin+%
+25LPG
+600
+
+%
+50Benzin+%
+50LPG
+%
+25Benzin+%
+75LPG
+%
+100 LPG
+
+500
+
+400
+
+300
+
+200
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Y (%)
+ükü
+
+Şekil 4.Özgül yakıt tüketiminin motor yüküne göre
+değişimi (Variation of brake specific fuel consumption with
+respect to engine load)
+
+270
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+15
+%
+100 Benzin
+%
+75Benzin+%
+25LPG
+%
+50Benzin+%
+50LPG
+%
+25Benzin+%
+75LPG
+
+12
+
+%
+100 LPG
+
+CO2 (%)
+
+Şekil 5’te özgül enerji tüketiminin motor yüküne göre
+değişimi gösterilmiştir. Özgül enerji tüketimi, bir saat
+boyunca bir kilowatt güç üretmek için motora girmesi
+gereken enerji miktarını göstermektedir. Yakıtın
+debisini ve ısıl değerini bir arada değerlendirmesinden
+dolayı efektif verimle karşılaştırılabilecek önemli bir
+parametredir[16]. Bu çalışmada, karışımların hem
+debileri hem de ısıl değerleri farklı olmasından dolayı
+karşılaştırmanın özgül yakıt tüketimi yerine özgül
+enerji tüketimine göre yapılması, daha anlamlıdır.
+
+M. Gümüş
+
+9
+
+6
+
+3
+%
+100 Benzin
+
+0
+
+%
+75Benzin+%
+25LPG
+26
+
+0
+
+%
+50Benzin+%
+50LPG
+%
+25Benzin+%
+75LPG
+%
+100 LPG
+
+18
+
+14
+
+10
+20
+
+40
+
+60
+
+40
+
+60
+
+80
+
+100
+
+Şekil 6. CO2 emisyonlarının motor yüküne göre
+değişimi (Variation of CO2 emissions with respect to engine load)
+
+22
+
+0
+
+20
+
+Motor Y (%)
+ükü
+
+80
+
+100
+
+Motor Y (%)
+ükü
+
+Şekil 5.Özgül enerji tüketiminin motor yüküne göre
+değişimi (Variation of brake specific energy consumption with
+respect to engine load)
+
+Şekil 5’te görüldüğü üzere özgül enerji tüketimi özgül
+yakıt tüketimiyle benzer eğilim göstermiş ancak eğriler arasındaki açıklıklar belirginleşmiştir. %25 LPG
+içeren karışımın kullanımında özgül enerji tüketiminde ortalama olarak %6,2 azalma meydana gelmiştir.
+%50 LPG, %75 LPG içeren karışımların ve %100
+LPG’nin kullanımında özgül enerji tüketiminde ortalama olarak sırasıyla %9,7, %3,7 ve %6,3 artma
+meydana gelmiştir. %25 LPG oranına sahip karışımın
+kullanımında özgül enerji tüketimi minimum olmuştur. Ancak LPG nin ısıl değerinin yüksek olmasından
+dolayı özgül enerji tüketimine göre benzinle olan fark
+azalmıştır. Özgül yakıt tüketimine benzer olarak,
+düşük yüklerde maksimum enerji tüketimini %50
+benzin %50 LPG karışımı gösterirken, yüksek
+yüklerde ise %100 LPG yakıtı göstermiştir.
+3.2. Egzoz Emisyonları (Exhaust Emissions)
+Karbondioksit emisyonlarının sera etkisiyle küresel
+ısınmaya neden olması nedeniyle, karbondioksit emisyonlarının oluşumunu sağlayan karbon atomlarının
+kullanılan yakıt içerisinde olmaması veya düşük
+oranda olması istenmektedir. LPG yakıtının karbon
+hidrojen oranı benzindeki orana göre daha az olması
+karbondioksit emisyonlarının azalmasını sağlamaktadır[3]. Karbondioksit emisyonlarının motor yüküne
+göre değişimi Şekil 6’da gösterilmiştir. Motor yükü-
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+nün artmasıyla birlikte karbondioksit emisyonları,
+hava yakıt karışım debisinin artmasından dolayı
+artmaktadır. LPG kullanım oranın artmasıyla ise
+karbondioksit emisyonları azalmaktadır. %25 LPG,
+%50 LPG, %75 LPG içeren karışımların ve %100
+LPG’nin kullanımında karbondioksit emisyonlarında
+ortalama olarak sırasıyla %11,9, %22,6 %23,9 ve
+%33,9 azalma meydana gelmiştir.
+Karbonmonoksit emisyonlarının motor yüküne göre
+değişimi Şekil 7’de gösterilmiştir. Şekilde görüldüğü
+gibi LPG kullanım oranının artmasıyla karbonmonoksit emisyonları azalmaktadır. Bunun nedeni, LPG
+yakıtının karbon hidrojen oranın düşük olması ve gaz
+fazındaki LPG’nin havayla homojen bir şekilde
+karışarak verimli yanmasıdır. %25 LPG, %50 LPG,
+%75 LPG içeren karışımların ve %100 LPG’nin
+kullanımında karbonmonoksit emisyonlarında ortalama olarak sırasıyla %26,8 %26,2 %40,7 ve %53,3
+azalma meydana gelmiştir.
+Egzoz gazları içerisindeki hidrokarbonun bulunması,
+1,4
+%
+100 Benzin
+%
+75Benzin+%
+25LPG
+
+1,2
+
+%
+50Benzin+%
+50LPG
+%
+25Benzin+%
+75LPG
+1
+
+CO (%)
+
+Özgül enerji tüketimi (MJ/(kW h)
+
+30
+
+%
+100 LPG
+
+0,8
+
+0,6
+
+0,4
+
+0,2
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Y (%)
+ükü
+
+Şekil 7. CO emisyonunun motor yüküne göre değişimi
+(Variation of CO emissions with respect to engine load)
+271
+
+M. Gümüş
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+yakıtın tam olarak yakılamadığını gösterir. Hidrokarbon oluşumunun ana nedeni sıcaklıkların yada
+oksijenin yetersiz olması veya karışımın homojen
+karışmaması sonucu yanmanın tamamlanamamasıdır
+[17]. Şekil 8’de hidrokarbon emisyonlarının motor
+yüküne göre değişimi gösterilmiştir. Şekilde
+görüldüğü gibi LPG kullanım oranının artmasıyla
+hidrokarbon emisyonları azalmaktadır.
+
+3
+
+Özgül yakıt maliyeti (YTL/(kW h))
+
+%
+100 Benzin
+
+500
+%
+100 Benzin
+
+%
+75Benzin+%
+25LPG
+2,5
+
+%
+50Benzin+%
+50LPG
+%
+25Benzin+%
+75LPG
+%
+100 LPG
+
+2
+
+1,5
+
+1
+
+%
+75Benzin+%
+25LPG
+%
+50Benzin+%
+50LPG
+%
+25Benzin+%
+75LPG
+
+400
+
+0,5
+
+HC (ppm)
+
+%
+100 LPG
+
+0
+
+40
+
+60
+
+80
+
+100
+
+Motor Y (%)
+ükü
+
+Şekil 9. Özgül yakıt maliyetinin motor yüküne göre
+değişimi (Variation of specific fuel cost with respect to engine load)
+
+200
+
+100
+
+0
+0
+
+20
+
+40
+
+60
+
+80
+
+100
+
+Motor Y (%)
+ükü
+
+Şekil 8. HC emisyonunun motor yüküne göre
+değişimi (Variation of HC emissions with respect to engine load)
+LPG kullanımının artışıyla karışımın daha homojen
+hale gelmesinden dolayı yanma iyileşmekte ve HC
+emisyonunda azalma meydana gelmektedir. Motor
+yükünün artmasıyla birlikte hidrokarbon emisyonları,
+karışımın zenginleşmesinden dolayı artmaktadır. %25
+LPG, %50 LPG, %75 LPG içeren karışımların ve
+%100 LPG’nin kullanımında hidrokarbon emisyonlarında ortalama olarak sırasıyla %27,7 %41,4 %53,1
+ve %72,6 azalma meydana gelmiştir.
+3.3. Yakıt Ekonomisi (Fuel Economy)
+LPG yakıtının içten yanmalı motorlarda alternatif
+yakıt olarak kullanım nedenlerinden birisi de yakıt
+ekonomisi sağlamasıdır. LPG yakıtı dünya genelinde
+benzin yakıtından daha ucuz olarak arz edilmektedir.
+Şekil 9’da özgül yakıt maliyetinin motor yüküne göre
+değişimi gösterilmiştir. Özgül yakıt maliyeti, bir saat
+boyunca bir kilowatt güç üretmek için kullanılan
+yakıtın YTL cinsinden maliyetini göstermektedir. (22)
+nolu bağıntıyla tanımlanan özgül yakıt maliyeti,
+yakıtın motorda kullanım verimliğini ve maliyetini bir
+arada değerlendirmesinden dolayı önemli bir parametredir. Şekil 9’da görüldüğü üzere özgül yakıt maliyeti,
+özgül yakıt ve özgül enerji tüketimleriyle benzer trend
+göstermektedir. Bu değişimlerin belirlenmesinde
+benzin ve LPG yakıtlarının bir kilogram fiyatları
+sırasıyla 4,43 ve 3,35 YTL olarak alınmıştır. LPG’nin
+daha ucuz olmasından dolayı LPG’nin kullanım
+oranının artmasıyla birlikte özgül yakıt maliyeti genel
+olarak azalmaktadır. %25 LPG, %50 LPG, %75 LPG,
+içeren karışımların ve %100 LPG’nin kullanımında
+272
+
+20
+
+300
+
+özgül yakıt maliyetinde sırasıyla %12,8, %5,8, %18,
+%23 azalma sağlanmaktadır. %50 LPG içeren
+karışımın sağladığı yakıt ekonomisinin düşük olmasının sebebi bu karışımın kullanımında motor efektif
+veriminin düşük olmasıdır.
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada, benzin yakıtının kullanımından LPG
+yakıtının kullanımına kademeli geçişi sağlayan
+sistemle farklı LPG kullanım oranlarının, motor
+performansına, egzoz emisyonlarına ve yakıt ekonomisine etkisi deneysel olarak incelenmiştir.
+Taşıt motorunun seyir halinde benzin yakıtının
+kullanımından LPG yakıtının kullanımına kademeli
+geçişi, motorda meydana gelen sarsıntıları hissedilmeyecek kadar azaltmıştır.
+Motor dinamometresinde farklı yüklerde yapılan
+deneylerde, tüm LPG kullanım oranlarında egzoz
+emisyonları ve yakıt ekonomisi açısından benzine
+göre olumlu sonuçlar elde edilmiştir. Egzoz
+emisyonları ve yakıt ekonomisi açısından en uygun
+sonuçlar %100 LPG kullanımında elde edilmiştir.
+%100 LPG’nin kullanımında karbondioksit, karbonmonoksit ve hidrokarbon emisyonlarında ortalama
+olarak sırasıyla %33,9, %53,3 ve %72,6 azalma
+meydana gelmiştir. Özgül yakıt maliyetinde ise %23
+azalma sağlanmıştır.
+Motor performansı açısından ise yalnız %25 LPG
+kullanım oranında olumlu sonuçlar elde edilmiştir.
+%25 LPG içeren karışımın kullanımında motor efektif
+verimi muhafaza edilirken özgül yakıt ve enerji
+tüketiminde ortalama olarak sırasıyla %7,1 ve %6,2
+azalma meydana gelmiştir.
+SEMBOLLER (NOMENCLATURE)
+
+a
+
+= sabit
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+Çift Yakıt Enjeksiyonlu Buji Ateşlemeli Bir Motorda LPG Kullanım Oranının Performans...
+
+M. Gümüş
+
+4. Murillo, S., Míguez, J.L., Porteiro, J., Lopez, G.L.M.,
+Granada, E. ve Morán, J.C., “LPG: Pollutant Emission
+and Performance Enhancement for Spark-Ignition
+LHV
+Four Strokes Outboard Engines”, Applied Thermal
+
+m
+Engineering, Cilt 25, No13, 1882-1893, 2005.
+n
+5. Kim, C.U. ve Bae, C.S., “Specated Hydrocarbon
+P
+Emissions from A Gas-Fuelled Spark-Ignition Engine
+s
+with Various Operating Parameters”, Journal of
+t
+Automobile Engineering, Cilt 214, No 7, 795-808,
+2000.
+V
+= bir çevrimde enjektörden püskürtülen
+6. Akbaş, A., Sekmen, Y. ve Erduranlı, P., “Sıkıştırma
+hacimsel yakıt miktarı (m3/çevrim)
+Oranı Artışının LPG ile Çalışan Buji ile Ateşlemeli
+
+V
+= hacimsel debi (m3/s)
+Taşıt Motorunun Gücü ve Yakıt Ekonomisine Etkisi”,
+M
+= özgül yakıt maliyeti (YTL/kg)
+Makina Tasarım ve İmalat Dergisi, Cilt 5, No 1, 2934, 2003.
+Yunan Harfleri (Greek Letters)
+7. Çelik, M.B. ve Balki, M.K., ‘‘Düşük Güçlü Bir
+Motorda Farklı Sıkıştırma Oranlarında LPG
+
+= efektif verim
+Kullanımının Performans ve Emisyonlara Etkisi’’,
+
+= özgül yakıt maliyeti (YTL/kW h)
+Gazi Üniv. Müh. Mim. Fak. Der., Cilt 22, No 1, 81
+= benzin eksiltme oranı
+86, 2007.
+8. Sayın, C., Çanakçı, M., Kılıçaslan, İ. ve Özsezen N.,
+= yoğunluk (kg/m3)
+
+‘‘Çift Yakıt (Benzin+Lpg) Kullanımının Motor
+Performansı ve Emisyonlar Üzerine Etkisinin
+Alt indisler (Subscripts)
+Deneysel Analizi’’, Gazi Üniv. Müh. Mim. Fak.
+Der., Cilt 20, No 4, 483-490, 2005.
+b
+= benzin
+9. Sierens, R., ‘‘Experimental and Theoretical Study of
+e
+= efektif, eksiltilmiş benzin
+Liquid LPG Injection’’, SAE Paper, 922363, 1992.
+lpg
+= LPG yakıtı
+10. Sim, H., Lee, K., Chung, N. ve Sunwoo, M., ‘‘A study
+s
+= sıvı
+on the injection characteristics of a liquid-phase
+liquefied petroleum gas injector for air–fuel ratio
+Kısaltmalar (Abbreviations)
+control’’, Proc. IMechE Part D: J. Automobile
+Engineering, Cilt 219, 1037-1046, 2005.
+LPG
+= sıvılaştırılmış petrol gazı
+11. Kwak, H., Myung, C.L., ve Park, S., ‘‘Experimental
+= karbondioksit
+CO2
+investigation on the time resolved THC emission
+CO
+= karbonmonoksit
+characteristics of liquid phase LPG injection (LPLi) engine
+HC
+= hidrokarbon
+during cold start’’, Fuel, Cilt 86, 1475–1482, 2007.
+LHV
+= alt ısıl değer (lower heating value)
+12. Yoong, A.P.F. ve Watkins, A.P., ‘‘Modelling of
+liquefied petroleum gas spray development,
+TEŞEKKÜR (ACKNOWLEDGEMENTS)
+evaporation and combustion’’, IMechE: Int. J.
+Engine Res., Cilt 5, No 6, 469- 497, 2004.
+Yazar, bu çalışmanın gerçekleştirilmesinde her türlü
+13. Karamangil, M.I., “Development of the Autogas and
+desteği veren VOLTRAN-ÜÇYILDIZ otomotiv
+LPG-powered Vehicle Sector in Turkey: A Statistical
+şirketine teşekkür eder.
+Case Study of the Sector for Bursa”, Energy Policy,
+Cilt 35, 640–649, 2007.
+KAYNAKLAR (REFERENCES)
+14. Voltran Alternative Fuel Systems, Voltran
+Installation Manual, Istanbul, 1-49, 2007.
+1. Smith, W. J., Timoney, D. J. ve Lynch, D.P., 15. Lee, D., Cho, S., Lee, B., Ko, Seil., Park, J. ve Choi,
+“Emissions and Efficiency Comparison of Gasoline
+J., ‘‘Enhancement of volumetric efficiency in a
+and LPG Fuels in a 1.4 litre Passenger Car Engine”,
+gaseous LPG injection engine’’, The 13th
+SAE Paper, 972970, 1997.
+International Pacific Conference on Automotive
+2. İçingür, Y., ve Haksever, R., “Using of LPG for
+Engineering, 2006.
+Internal Combustion Engines-Experimental Analysis 16. Puhan, S., Vedaraman, N., Rama, B.V.B.,
+of Its Effects on Performance and Emission”, Journal
+Sankarnarayananb, G. ve Jeychandranb, K., ‘‘Mahua
+of Polytechnic, Cilt 1, No 3-4, 69-76, 1998.
+oil (Madhuca Indica seed oil) methyl ester as
+3. Dinler, N., ve Yücel, N., “Alternatif Yakıt Olarak
+biodiesel-preparation and emission characterstics’’,
+LPG Kullanan İki Motorun Performansının Deneysel
+Biomass and Bioenergy.
+İncelenmesi”, LPG ve CNG Uygulamaları 17. Kodah, Z. ve Soliman, S., “Combustion in a Spark
+Sempozyumu, TMMOB Makine Mühendisleri Odası,
+Ignition Engine”, Applied Energy, Cilt 66, 237-250,
+Ankara, 93–100, 2003.
+2000.
+
+b
+
+e
+
+= sabit, özgül yakıt tüketimi (g/kW h)
+= özgül enerji tüketimi (kJ/kW h)
+= alt ısıl değer (kJ/kmol)
+= yakıtın kütlesel debisi (kg/s)
+= motor devri (d/d)
+= motor efektif gücü (kW)
+= silindir sayısı
+= enjektör açılma süresi (duty cycle) (s)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 2, 2009
+
+273
+
+

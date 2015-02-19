@@ -1,0 +1,1600 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 2, 363-372, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 2, 363-372, 2013
+
+AISI 316Ti PASLANMAZ ÇELİĞİN TORNALANMASINDA
+KESİCİ UÇ ETKİSİNİN TAGUCHI YÖNTEMİ İLE ANALİZİ
+*Yunus KAYIR, **Sıddık ASLAN ve *Ahmet AYTÜRK
+*Gazi Üniversitesi Teknik Eğitim Fakültesi, 06500 ANKARA
+**Gazi Üniversitesi Ticaret Turizm Fakültesi, 06500 ANKARA
+ykayir@gazi.edu.tr, sarslan@gazi.edu.tr
+(Geliş/Received: 07.08.2012; Kabul/Accepted: 28.02.2013)
+ÖZET
+Bu çalışmada, AISI 316Ti paslanmaz çelik malzemesinin tornalanmasına yönelik bir Taguchi modeli
+oluşturulmuştur. Klasik bir tornalama tezgahında deneyler yapılmıştır. Deneylerde, farklı uç geometrisine sahip
+ve TiCN-Al203-TiN kaplamalı karbür kesiciler kullanılmıştır. Kesici uç yarıçapı, kesici uç formunun ve kesme
+parametrelerinin yüzey pürüzlülüğüne etkisi araştırılmıştır. Taguchi ve ANOVA analizleri yapılmıştır. Yüzey
+pürüzlülükleri için S/N ve etki grafikleri oluşturulmuştur. Sonuçlar, yüzey pürüzlülüğüne en etkili faktörlerin
+ilerleme (%73,97) ve kesici uç yarıçapı (%13,26) olduğunu göstermiştir. Deneylerde, uç yarıçapı küçük olan
+kesicilerin daha çok aşındığı görülmüştür.
+
+1. GİRİŞ (INTRODUCTION)
+Paslanmaz çelikler, yüksek korozyon direnci, çevre
+dostu ve hijyenik olma gibi özelliklere sahiptirler [1].
+Piyasada, çok çeşitli paslanmaz çeliklerler
+bulunmaktadır. Fakat makine-imalat sanayisinde en
+yaygın kullanılanları ise, östenitik ve ferritik
+paslanmaz çelikleridir.
+AISI 316Ti östenitik paslanmaz çeliğin etkili alaşım
+elementi titanyum’dur. AISI 316Ti paslanmaz çeliği,
+
+kimya, ilaç, sağlık, gıda, makine, nükleer, gibi geniş
+bir kullanım alanına sahiptir [2].
+Gelişen teknoloji ile birlikte günümüzde çelik
+malzemelerin talaşlı imalat yöntemleri (tornalama,
+frezeleme, delme, vb.) ile şekillendirilmesi halen
+önemini
+korumaktadır.
+Dolayısı
+ile
+çelik
+malzemelerin işlenebilirliğine yönelik deneysel ve
+teorik birçok çalışma yapılmaktadır. Paslanmaz
+çeliklere
+yönelik işlenebilirlik çalışmalarında
+genellikle östenitik paslanmaz çelikler tercih
+edilmektedir. Bu gruptan da AISI 304 ve 303 oldukça
+
+Y. Kayır ve ark.
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+yaygın kullanılan paslanmaz çelikler olmuştur.
+Östenitik paslanmaz çeliklerin yüksek çekme
+mukavemeti, yüksek korozyon direnci, düşük ısıl
+iletkenliğine sahip olması, yüksek miktarda kromnikel ve molibden gibi mukavemet arttırıcı elementler
+içermesi,
+işlenebilirliği
+olumsuz
+etkilediği
+bilinmektedir [3, 4].
+Paslanmaz çeliklerin işlenebilirliğine yönelik yapılan
+bazı çalışmalarda, AISI 304 östenitik paslanmaz
+çeliklerde azot oranının takım ömrüne etkisi olduğu
+belirtilmiştir. %0.91 azot içeren paslanmaz çelikteki
+takım ömrünün, %0.57 oranında azot içeren
+paslanmaz çelikteki takım ömründen daha uzun
+olduğu ifade edilmiştir [5]. Malzemenin düşük ısıl
+iletkenliğinin kesme işleminin gerçekleştiği bölgede
+yüksek sıcaklıkları meydana getirdiği, artan
+sıcaklığında difüzyon aşınmasına sebep olduğu ifade
+edilmiştir [6,7]. Yüzey pürüzlülüğüne etki eden en
+önemli faktörün ilerleme ve en az etkili olan
+parametrenin ise kesme hızı olduğu tespit edilmiştir.
+İlerlemenin ve talaş derinliğinin artması ile yüzey
+pürüzlülüğünün arttığı, kesme hızının belli bir değere
+kadar artması ile yüzey pürüzlülüğünün ve kesme
+kuvvetlerinin (eğilim yavaş da olsa) azalma eğilimine
+girdiği ifade edilmiştir [8-11]. Artan ilerleme, talaş
+derinliği ve kesme hızının takım aşınmasını artırdığı
+belirtilmiştir [12, 13]. Paslanmaz çeliklerin
+işlenmesinde meydana gelen sesin yorumlanmasına
+yönelik yapılan çalışmalarda, ses ile titreşimlerin
+yakın ilişki içinde olduğu ifade edilmiştir. Artan ses
+ile kesme kuvvetleri ve yüzey pürüzlülüklerinde
+arttığı belirtilmiştir. En uygun seslerin, kesme
+kuvvetlerini ve yüzey pürüzlülüklerini azaltan kesme
+hızı ve ilerleme değerlerine ait olduğu belirlenmiştir.
+Titreşimin artması ile yüzey pürüzlülüğünün arttığı
+gözlemlenmiştir [14-16]. Paslanmaz çeliklerin
+işlenmesinde kesici kaplama tipinin takım ömrü
+açısından önemli olduğu, CVD ile kaplanmış
+TiN/TiCN/TiN, TiN/TiCN/Al2O3 kesici takımlar ile
+PVD ile kaplanmış TiAlN kesici takımlardan en
+dayanıklı kaplamanın TiAlN olduğu ve bunu sırası ile
+TiN/TiCN/TiN, TiN/TiCN/Al2O3 takip ettiği
+belirtilmiştir [17].
+
+Taguchi metodu kullanılarak yapılan işlenebilirlik
+çalışmalarında, kesme parametrelerinin, kesme
+kuvvetlerine,
+yüzey
+pürüzlülüğüne
+etkisinin
+belirlenmesine
+yönelik
+istatistiksel
+analizler
+yapılmıştır.
+Değişik
+programlar
+kullanılarak
+(MINITAB, SPSS, MATLAB, vb.); kesme
+parametrelerine göre elde edilen deney sonuçları
+değerlendirilerek S/N oranlar hesaplamış ve ANOVA
+analizleri yapılmıştır. İşlenebilirlik alanında yapılan
+çalışmalarda genelde, kesme parametrelerinin deney
+sonuçları (yüzey pürüzlülüğü, kesme kuvvetleri, vb.)
+üzerindeki etkilerinin belirlenmesine yönelik analizler
+yapılmıştır [18-23].
+Literatür çalışmalarında, AISI 316 paslanmaz çelik
+grubuna ait araştırmaların çok yeni olduğu
+görülmüştür.
+Az
+sayıdaki
+bu
+çalışmalar
+incelendiğinde ise, titanyum içeren AISI 316Ti
+malzemesine
+yönelik
+çalışmaların
+olmadığı
+görülmüştür.
+Bu çalışmada, AISI 316Ti paslanmaz çelik
+malzemesi, farklı uç yarıçapına sahip kaplamalı
+karbür kesici takımlarla klasik torna tezgahında
+tornalanmıştır. Deneyler için Taguchi L18 karma
+(mixed) modeli kullanılmıştır. Deneyler, 3 farklı
+kesme hızı ve 3 farklı ilerleme ve 2 farklı kesici uç
+yarı çapı kullanılarak yapılmıştır. Deneylerde yüzey
+pürüzlülüğü ölçülmüştür. Elde edilen deney sonuçları,
+kesme hızı, ilerleme ve kesici uç yarıçapı açısından
+Taguchi
+ve
+ANOVA
+analizleri
+yapılarak
+değerlendirilmiştir.
+2. MALZEME VE METOT (MATERIAL AND
+METHOD)
+
+Yapılan deneysel çalışmada, AISI 316Ti Östenitik
+paslanmaz çelik malzeme kullanılmıştır. Malzemenin
+kimyasal komposizyonu Tablo 1’de verilmiştir.
+Deney numuneleri, piyasadan Ø60 mm çapta alınan
+silindirik çubukların, Şekil 1’de verilen şekil ve
+boyutlarda
+hazırlanmıştır.
+Yapılan
+sertlik
+ölçümlerinde deney numunelerinin sertliği, 230 BHN
+bulunmuştur.
+
+Tablo 1. AISI 316Ti Paslanmaz malzemenin kimyasal komposizyonu (AISI 316 Ti Stainless steel chemical composition)
+C
+
+Mn
+
+Si
+
+P
+
+S
+
+Cr
+
+Ni
+
+Mo
+
+Cu
+
+Ti
+
+0,02
+
+1,778
+
+0,497
+
+0,035
+
+0,019
+
+16,74
+
+10,92
+
+2,150
+
+0,536
+
+0,318
+
+Şekil 1. Deney numunelerinin şekil ve boyutları (Dimension and geometry of experimental parts)
+
+364
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+Y. Kayır ve ark.
+
+Kod
+
+Şekil
+
+Form
+
+Tip
+
+Uç Geometri
+
+Uç Yarıçap R (mm)
+
+TiCN-Al203-TiN
+
+Tablo 2. Kesici takım özellikleri (Properties Cutting Tools)
+
+0,4
+0,8
+
+TNMG160404R
+TNMG160408R
+
+MA
+
+MS
+
+ES
+
+Tablo 3. Kesme parametreleri (Table 3. Cutting parameters)
+Kesici
+Formu
+
+Takım Uç Yarıçapı
+R (mm)
+
+Kesme Hızı
+V (m min-1)
+
+İlerleme
+f (mm rev-1)
+
+Talaş Derinliği a
+(mm)
+
+Kesme Şartları
+
+MA
+MS
+ES
+
+0,4
+0,8
+
+85
+120
+165
+
+0,1
+0,2
+0,4
+
+1,5
+
+Kuru kesme
+
+Deney numunelerinin işlenmesinde,
+östenitik
+paslanmaz çelikler için önerilen (kesici katalogu ve
+firma çalışanları ile birlikte karar verilmiştir) kesici uç
+ve bu uçlara uygun bir takım tutucu seçilmiştir. Takım
+tutucunun iş parçası yaklaşma açısı 90°’dir.
+
+optimum deney sonuçlarının elde edilmesinde
+Taguchi metodunun kullanılmasına karar verilmiştir.
+Deneyler, Gazi üniversitesi, teknik eğitim fakültesi,
+makine eğitimi bölümü, talaşlı üretim Ana Bilim Dalı
+laboratuarlarında yapılmıştır.
+
+Deneylerde, MA, MS ve ES olmak üzere üç farklı
+kesici uç formu, 0.4 mm ve 0.8 mm olmak üzere de
+iki farklı kesici uç yarıçapına sahip kaplamalı karbür
+kesici uçlar kullanılmıştır (Tablo 2). Kesici uçların
+talaş kaldırma işleminde her 3 köşesi de
+kullanılabilmektedir. Her bir deneyde, kesici ucun
+yeni bir köşesi kullanılarak kesicinin aşınmasından
+kaynaklanan etkiler giderilmiştir.
+Deneylerde
+kullanılan kesme parametrelerinin seçimi ISO 3685
+(TS 10329), üretici firma katalog verileri ve
+deneylerde kullanılacak olan tezgah dikkate alınarak
+belirlenmiştir (Tablo 3). Deneylerde, talaş derinliği
+1.5 mm sabit tutularak üç farklı kesme hızı ve üç
+farklı ilerleme miktarı kullanılmıştır. Belirlenen
+kesme hızı ve ilerleme değerlerinin kesme kuvvetine
+ve yüzey pürüzlülüğüne etkisi araştırılmıştır.
+
+Kullanılan tezgah, klasik bir tornalama tezgahı
+olduğundan üzerinde, arzu edilen her devir (S) ve
+ilerleme (f) değerleri bulunmamaktadır. Deneyler için
+belirlenen kesme hızları için (Tablo 4), tezgah
+üzerinde belirlenen devirlerle eşleştirilmesinde deney
+numune çaplarının (Şekil 1) uyarlanması gerekmiştir.
+Yapılan hesaplamalar neticesinde, deney numune
+çapları Tablo 4’te verildiği gibi belirlenmiştir.
+Hazırlanan deney numuneleri, torna tezgahında aynapunta arasına bağlanarak işlenmiştir (Şekil 2). İşlenen
+yüzeylerin pürüzlülüklerinin ölçülmesinde Ra
+(ortalama: µm) değeri kullanılmıştır.
+
+Tablo 3’de görüldüğü gibi, bu çalışmada toplamda;
+3x2x3x3x1=54 adet deney yapılması gerekmektedir.
+Deneylerin güvenilirliği için de, deneylerin 2 (iki)
+kere tekrarlanması durumunda toplamda 108 adet
+deneyin yapılacağı ortaya çıkmaktadır. Deney
+maliyetleri açısından yapılması gereken deney sayısı,
+ortaya oldukça yüksek bir maliyet çıkarmaktadır. Bu
+nedenle, deney maliyetlerini azaltarak hızlı ve
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Tablo 4. Kesme hızı için (V) hesaplanan devir (S)
+ve iş parçası çapları (Ø)
+(Calculated Speed (S) and Diameter (Ø) of parts for Cutting speed
+(V)
+V (m min-1)
+
+S (rev min-1)
+
+Ø (mm)
+
+85
+
+500
+
+54,1
+
+120
+
+710
+
+53,8
+
+165
+
+1000
+
+52,5
+
+365
+
+Y. Kayır ve ark.
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+verilmiştir (Tablo 6). Elde edilen Taguchi modeline
+göre Toplamda 18 adet deney yapılmıştır.
+Tablo 6. Taguchi, L18 modeli (L18 Model of Taguchi)
+Deney
+
+ffak
+
+Vfak
+
+1
+
+1
+
+1
+
+1
+
+2
+
+1
+
+1
+
+2
+
+2
+
+3
+
+1
+
+1
+
+3
+
+3
+
+4
+
+1
+
+2
+
+1
+
+1
+
+5
+
+1
+
+2
+
+2
+
+2
+
+6
+
+1
+
+2
+
+3
+
+3
+
+7
+
+1
+
+3
+
+1
+
+2
+
+8
+
+2.1. Taguchi Metodu (The Taguchi Method)
+
+Formfak
+
+1
+
+Şekil 2. Deney numunelerinin torna tezgahına
+bağlanması (Holding of experimental parts on the lathe)
+
+Rfak
+
+1
+
+3
+
+2
+
+3
+
+9
+
+1
+
+3
+
+3
+
+1
+
+Yapılan çalışmada, bir Taguchi modeli kullanılmıştır.
+Model için deneylerde kullanılan faktörler ve
+seviyeleri dikkate alınmıştır (Tablo 5).
+
+10
+
+2
+
+1
+
+1
+
+3
+
+11
+
+2
+
+1
+
+2
+
+1
+
+12
+
+2
+
+1
+
+3
+
+2
+
+Tablo 5. Taguchi L18 modeli için faktörler ve
+seviyeleri (Factors and levels for Taguchi L18 model)
+
+13
+
+2
+
+2
+
+1
+
+2
+
+14
+
+2
+
+2
+
+2
+
+3
+
+15
+
+2
+
+2
+
+3
+
+1
+
+16
+
+2
+
+3
+
+1
+
+3
+
+17
+
+2
+
+3
+
+2
+
+1
+
+18
+
+2
+
+3
+
+3
+
+2
+
+Faktör
+
+Birim
+
+Rfak
+Formfak
+ffak
+Vfak
+
+mm
+mm rev-1
+m min-1
+
+1.Seviye
+
+2.Seviye
+
+0,4
+MA
+0,1
+85
+
+0,8
+MS
+0.2
+120
+
+3.Seviye
+ES
+0.4
+165
+
+Tablo 5’te faktörler için verilen kodlamalar aşağıda
+açıklanmıştır.
+Rfak : Kesici uç yarıçapı (R: mm),
+Formfak . Kesici uç tipi,
+ffak : İlerleme (f: mm rev-1),
+Vfak : Kesme hızı (v: m min-1).
+Deneylerde kullanılan faktörler (4) ve seviyelerine
+bakıldığında, faktörlerden biri hariç (Rfak) her
+faktörün üç seviyesi bulunmaktadır. Farklı seviyeye
+sahip olan Rfak, model dışı bırakılabilir. Fakat, kesici
+uç yarı çapının (Rfak) yüzey pürüzlülüğüne etkisinin
+görülmesi için modele dahil edilmesinin daha doğru
+olacağı düşünülmüştür. Bu durumda, Taguchi için
+karma (mixed) bir modelin oluşturulması gerekmiştir.
+Yapılan incelemelerde, Taguchi için en uygun
+modelin karma L18 (2**1 3**3)’in olacağına karar
+
+366
+
+L18 Taguchi modeline göre deneyler yapılmış ve
+deney sonuçları Tablo 7’de verildiği gibi elde
+edilmiştir. Elde edilen yüzey pürüzlülükleri (Ra) için
+Taguchi analizleri yapılmıştır. Bu çalışmada, Taguchi
+analiz yöntemlerinden biri olan “Smaller is better”
+kullanılmıştır. “Smaller is better” taguchi analizi
+eşitlik 1’e göre yapılmaktadır. (Ra) yönelik yapılan
+Taguchi analizi sonuçları, Şekil 3 ve Şekil 4’te
+verilmiştir. Şekil 3’te faktörlerin Ra üzerindeki
+ortalama etkileri (main effects), Şekil 4’te ise,
+faktörlerin Ra üzerindeki S/N (Signal/Noise) oranları
+verilmiştir. Bununla birlikte, Ra sonuçları için
+hesaplanan S/N oranları, Tablo 7’de deney sonuçları
+ile birlikte de verilmiştir.
+
+1 n 2 
+ yi 
+ n i 1 
+
+  10 log10 
+
+(1)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+Y. Kayır ve ark.
+
+Tablo 7. Deney sonuçları ve S/N oranları (Results of works and S/N ratios)
+Deney
+
+Rfak (mm)
+
+Formfak
+
+ffak (mm rev-1)
+
+Vfak (m min-1)
+
+Ra(µm)
+
+S/N
+
+1
+
+0,4
+
+1
+
+0,1
+
+85
+
+1,65
+
+-4,35
+
+2
+
+0,4
+
+1
+
+0,2
+
+120
+
+4,21
+
+-12,49
+
+3
+
+0,4
+
+1
+
+0,4
+
+165
+
+15,22
+
+-23,65
+
+4
+
+0,4
+
+2
+
+0,1
+
+85
+
+1,59
+
+-4,03
+
+5
+
+0,4
+
+2
+
+0,2
+
+120
+
+4,02
+
+-12,08
+
+6
+
+0,4
+
+2
+
+0,4
+
+165
+
+16,5
+
+-24,35
+
+7
+
+0,4
+
+3
+
+0,1
+
+120
+
+1,46
+
+-3,29
+
+8
+
+0,4
+
+3
+
+0,2
+
+165
+
+3,68
+
+-11,32
+
+9
+
+0,4
+
+3
+
+0,4
+
+85
+
+14,6
+
+-23,29
+
+10
+
+0,8
+
+1
+
+0,1
+
+165
+
+1,3
+
+-2,28
+
+11
+
+0,8
+
+1
+
+0,2
+
+85
+
+1,86
+
+-5,39
+
+12
+
+0,8
+
+1
+
+0,4
+
+120
+
+7,34
+
+-17,31
+
+13
+
+0,8
+
+2
+
+0,1
+
+120
+
+1,35
+
+-2,61
+
+14
+
+0,8
+
+2
+
+0,2
+
+165
+
+1,79
+
+-5,06
+
+15
+
+0,8
+
+2
+
+0,4
+
+85
+
+7,64
+
+-17,66
+
+16
+
+0,8
+
+3
+
+0,1
+
+165
+
+1,16
+
+-1,29
+
+17
+
+0,8
+
+3
+
+0,2
+
+85
+
+1,57
+
+-3,92
+
+18
+
+0,8
+
+3
+
+0,4
+
+120
+
+6
+
+-15,56
+
+Şekil 3’te verilen grafikte en fazla değişim, ffak
+düzeylerinde (0,1; 0,2 ve 0,4 mm rev-1)
+görülmektedir. Bunu Rfak faktörü ve Vfak faktörü
+
+izlemektedir. Formfak faktörünün düzeyleri (1, 2 ve
+3) arasında ise dikkate değer bir değişimin olmadığı
+görülmektedir.
+
+Main Effects Plot for Means
+Data Means
+Rfak
+
+Formfak
+
+10,0
+7,5
+
+Mean of Means
+
+5,0
+2,5
+0,0
+0,4
+
+0,8
+
+1
+
+2
+Vfak
+
+3
+
+85
+
+120
+
+165
+
+ffak
+10,0
+7,5
+5,0
+2,5
+0,0
+0,1
+
+0,2
+
+0,4
+
+Şekil 3. Faktörler için Ra ortalamaları (Means of Ra for factors)
+Aynı durum Şekil 4’te verilen S/N oranları değişim
+grafiğinde de
+kendini
+göstermektedir.
+S/N
+oranlarındaki değişim en çok ffak ve Rfak
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+faktörlerinde görülmektedir (Faktörlerin
+eğilimi diğerlerine göre yüksektir).
+
+grafik
+
+367
+
+Y. Kayır ve ark.
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+Main Effects Plot for SN ratios
+Data Means
+Rfak
+
+Formfak
+
+-5
+
+Mean of SN ratios
+
+-10
+-15
+-20
+0,4
+
+0,8
+
+1
+
+2
+Vfak
+
+3
+
+85
+
+120
+
+165
+
+ffak
+-5
+-10
+-15
+-20
+0,1
+
+0,2
+
+0,4
+
+Signal-to-noise: Smaller is better
+
+Şekil 4. Ra için S/N oranlarının etkisi (Main effects of S/N ratios for Ra)
+Faktörler ve seviyelerinin Ra üzerindeki etkilerini
+daha rahat görebilmek için, şekil 3’teki S/N oranları
+grafiği ve şekil 4’teki ortalama etki grafiği (main
+effects), tablolaştırılmıştır (Tablo 8 ve Tablo 9). Tablo
+8’de Ra ortalamasının faktörlere göre değişimini
+veren değerler incelendiğinde; en fazla değişimin
+(Delta) ffak faktöründe olduğu görülmektedir.
+Değişim, 1,418 ile 11,217 (değişim: 9,798)
+arasındadır. Tablo 9’da S/N oranının faktörlere göre
+değişimini veren değerler incelendiğinde ise en fazla
+değişim (Delta) aynı şekilde ffak faktöründe meydana
+gelmiştir.
+Değişim,
+-2,973
+ile
+-20,304
+(değişim:17,331) arasında gerçekleşmiştir. Diğer
+faktörlerdeki değişimler ise (büyükten-küçüğü doğru),
+Rfak faktörü, Vfak faktörü ve Formfak şeklinde
+sıralanmaktadır. Dolayısı ile bu oranlar, yüzey
+pürüzlülüğü için en etkili faktörün ilerleme (ffak)ve
+en az etkili faktöründe kesici formu (Formfak)
+olduğunu kanıtlamaktadır.
+Tablo 8 ve Tablo 9’de verilen değerler, faktörlerin
+(Rfak, Formfak, ffak ve Vfak) her bir seviyesinin
+(Level) yüzey pürüzlülüğü üzerindeki değişim etkisini
+de ortaya koymaktadır. Tablo 8 ve Tablo 9’da Ra’daki
+en büyük değişim, ffak faktörünün 3. (level 3)
+seviyesi ile meydana gelmiştir. Tablo 8’de ffak
+faktörünün 3. seviyesi= 11,217 ve Tablo 9’da ffak
+faktörünün 3. Seviyesi = -20,304 olarak elde
+edilmiştir. Tablo 9’daki S/N oranlarının yüksek
+olduğu faktör seviyeleri, yüzey pürüzlülüğünü artıran
+(kötüleştiren) parametreler olmaktadır. En küçük S/N
+oranları ise (smaller is better) yüzey pürüzlülüğünü
+azaltan faktör seviyeleri olmaktadır.
+
+368
+
+Sonuç olarak, yüzey pürüzlüğünün düşürülmesinde en
+etkili faktörler ve seviyeleri: ffak(1) ve Rfak(2),
+Vfak(1) ve Formfak(3) şeklinde olduğu rahatlıkla
+söylenebilir. Fakat daha kesin konuşabilmek için,
+faktörlerin
+yüzey
+pürüzlülüğündeki
+değişime
+katkısının kesin olarak belirlenmesi gerekmektedir.
+Bunun içinde ANOVA analizleri yapılmıştır.
+Tablo 8. Faktörlerinin ortalamaları (Response for Means)
+Level
+
+Rfak
+
+Formfak
+
+ffak
+
+Vfak
+
+1
+2
+3
+Delta
+Rank
+
+6,992
+3,334
+
+5,263
+5,482
+4,745
+0,737
+4
+
+1,418
+2,855
+11,217
+9,798
+1
+
+4,818
+4,063
+6,608
+2,545
+3
+
+3,658
+2
+
+Tablo 9. Faktörler için S/N oranları (Response for Signal
+to Noise ratios)
+Level
+Rfak
+1
+2
+3
+Delta
+Rank
+
+-13,204
+-7,898
+5,306
+2
+
+Formfak
+
+ffak
+
+Vfak
+
+-10,911
+-10,965
+-9,777
+1,188
+4
+
+-2,973
+-8,375
+-20,304
+17,331
+1
+
+-9,772
+-10,557
+-11,323
+1,551
+3
+
+ANOVA analiz sonuçları Tablo 10’da verilmiştir.
+ANOVA analizi tablosu incelendiğinde aşağıdaki
+bulgular elde edilmiştir. Dört faktörün birlikte
+incelendiği modelde ffak ve Rfak faktörlerinin
+düzeyleri arasında Ra ortalamaları için istatististiksel
+olarak anlamlı olduğu (p<0,05), Formfak ve Vfak
+faktörlerinin düzeyleri arasında ise istatistiksel olarak
+anlamlı olmadığı (p>0,05) görülmektedir. Ayrıca
+faktörlerin yüzde olarak etkileri incelendiğinde; ffak
+faktörünün etkisinin %73,98; Rfak faktörünün
+etkisinin %13,26; Vfak faktörünün etkisinin %4,51;
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+Y. Kayır ve ark.
+
+Formfak faktörünün etkisinin %0,37 ve Hata
+teriminin etkisinin ise %7,89 olduğu görülmektedir.
+Ayrıca model için belirleme katsayısı (R-Sq(adj)):
+%86,60 olarak bulunmuştur. Sonuç olarak, ANOVA
+tablosuna göre, yüzey pürüzlülüğü için dikkate
+alınacak olan faktörlerin, ffak ve Rfak olduğu ortaya
+çıkmıştır. Bu sonuç, literatüre uygundur [8-11].
+Faktörlerin doğrudan deney sonuçlarına göre yapılan
+ANOVA analizi (Tablo 10) dışında, faktörlerin S/N
+oranlarına için de bir ANOVA analizi yapılmıştır
+(Tablo 11). S/N oranları için yapılan ANOVA
+analizinde belirleme katsayısı (R-Sq(adj)): % 96,74
+çıkmıştır. Belirleme katsayısının yüksek çıkması, S/N
+oranına göre ANOVA analizi yapmanın daha
+açıklayıcı sonuçlar verebileceğini göstermektedir.
+AISI 316 Ti paslanmaz çelik malzemenin
+işlenmesinde kullanılan kesici takımlarda, talaş
+yapışmaları, talaş sıvanmaları ve aşınmaları meydana
+gelmiştir (Şekil 5’de SEM görüntüleri verilmiştir).
+Kesici uçlardaki talaş yapışmaları, Şekil 5.b’de B
+harfi ile işaretlenmiştir. Talaş sıvanmaları, Şekil 5.b,
+5.c ve 5.d’de A harfi ile işaretlenmiştir. Kesici
+aşınmaları ise, Şekil 5.c ve 5.d’de “ok” şekli ile
+işaretlenmiştir.
+Yapılan deneylerde en fazla aşınma, uç yarıçapı 0,4
+mm olan kesici takımlarda olmuştur. 0.8 mm uç
+
+yarıçapına sahip kesici takımlar ise, daha az
+aşınmıştır. 0,4 mm uç yarıçaplı kesicilerde aşınmalar,
+kesici kenar boyunca oluşmamıştır. Aşınma, Şekil
+5.a’da verilen kesicinin CAD modeli üzerinde
+görülmektedir. Aşınmalar, kesici takım ucundan
+belirli bir uzaklıkta (Bu uzaklık Şekil 5.c’de L harfi
+ile belirtilmiştir) meydana gelmiştir. Yapılan
+ölçümlerde bu uzaklığın yaklaşık talaş derinliği
+(L=1,5 mm) kadar olduğu tespit edilmiştir.
+Aşınmanın kesici kenar boyunca değil de yan yüzeyde
+üsten aşağıya bir hat boyunca meydana gelmesi (Şekil
+5.a) ısıl birikmesi ile açıklanabilir. Düşük ısıl
+iletkenliğe sahip AISI 316Ti paslanmaz çelik
+malzemesinin [3-4] uç yarı çapı R:0,4 mm olan
+kaplamalı kesicilerle tornalanmasında takım-talaş ara
+yüzünde meydana gelen yüksek sıcaklık, iş parçası,
+talaş ve kesici arasında hızlı bir şekilde
+dağılamamıştır. Bu sonuç, ısıl dağılımda, iş parçası ile
+temasta olan kesici yüzey alanın etkisinin büyük
+olduğunu göstermektedir. Çünkü R:0,4 mm
+kesicilerin yüzey alanı, R:0,8 mm olan kesicilere göre
+daha küçük olmaktadır. Dolayısı ile dağılamayan ısı,
+talaş çıkışı ile ani boşalmaktadır. Isı boşalması olan
+noktada ise ani kesici aşınmaları (diffusion) meydana
+gelmektedir [6-7]. Fakat uç yarı çapı R:0,8 mm olan
+kesicilerde ise, bu aşınma söz konusu olmamaktadır
+
+Tablo 10. Ra için ANOVA tablosu (Analysis of Variance for Ra)
+Source
+Rfak
+Formfak
+Ffak
+Vfak
+Error
+Total
+R-Sq = % 92,12
+
+DF
+
+Seq SS
+
+1
+60,207
+2
+1,718
+2
+335,978
+2
+20,502
+10
+35,814
+17
+454,219
+R-Sq(adj) = % 86,60
+
+Adj SS
+
+Adj MS
+
+F
+
+P
+
+Faktör etkisi (%)
+
+60,207
+1,718
+335,978
+20,502
+35,814
+
+60,207
+0,859
+167,989
+10,251
+3,581
+
+16,81
+0,24
+46,91
+2,86
+
+0,002
+0,791
+0,000
+0,104
+
+13,26
+0,37
+73,97
+4,51
+7,89
+100
+
+Tablo 11. S/N oranları için ANOVA tablosu (Analysis of Variance for S/N ratios)
+Source
+Rfak
+Formfak
+ffak
+Vfak
+Error
+Total
+R-Sq = % 98,08
+
+DF
+
+Seq SS
+
+1
+126,78
+2
+5,39
+2
+943,39
+2
+7,22
+10
+21,19
+17
+1103,97
+R-Sq(adj) = % 96,74
+
+Adj SS
+
+Adj MS
+
+F
+
+P
+
+Faktör etkisi (%)
+
+126,78
+5,39
+943,39
+7,22
+21,19
+
+126,78
+2,70
+471,69
+3,61
+2,12
+
+59,83
+1,27
+222,60
+1,70
+
+0,000
+0,322
+0,000
+0,231
+
+11,48
+0,49
+85,45
+0,65
+1,92
+100,00
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+369
+
+Y. Kayır ve ark.
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+a)
+
+b) R= 0,4 mm, f= 0,1 mm rev-1
+
+d)
+
+c) R= 0,4 mm, f= 0,2 mm rev-1
+
+R= 0,4 mm, f= 0,4 mm rev-1
+
+Şekil 5. Bazı kesicilere ait SEM görüntüleri (Pictures of SEM of the cutting tools)
+4. SONUÇ (CONCLUSION)
+Bu çalışmada AISI 316 Ti paslanmaz çelik
+malzemesi, üç farklı ilerleme, üç farklı kesme hızı,
+sabit talaş derinliği kullanılarak üç farklı uç formuna
+ve iki farklı kesici uç yarıçapına sahip kaplamalı
+karbür kesici uçlar ile tornalanmıştır. Elde edilen
+yüzey pürüzlülüklerine yönelik yapılan Taguchi ve
+ANOVA analiz sonuçları aşağıda verilmiştir.
+AISI paslanmaz çeliğinin tornalanmasında, yüzey
+pürüzlülüğünün düşürülmesinde öncelikle ilerleme
+(ffak) ve kesici uç yarıçapı (Rfak) faktörlerinin
+dikkate alınması gerektiği ANOVA analizi (Tablo 10)
+ile ortaya çıkmıştır. Yapılan ANOVA analizi ile
+yüzey pürüzlülüğüne, ilerlemenin (ffak) katkısı:
+%73,97; kesici uç yarıçapının (Rfak) katkısı: %13,26;
+kesme hızının (Vfak) katkısı: %4,51 ve kesici uç
+formunun katkısı (Formfak) ise sadece %0,37 olduğu
+belirlemiştir.
+
+takım ömrü açısından uygun olmadığı ortaya
+çıkmıştır. Yapılan deneylerde kullanılan tüm kesme
+parametrelerinde, 0,8 mm uç yarıçapına sahip kesici
+uçlar ile daha düşük yüzey pürüzlülüğü elde edilmiş
+ve daha az kesici aşınmaları meydana gelmiştir.
+Bununla birlikte, düşük ilerlemelerde (0,1 mm rev-1)
+ve düşük kesme hızlarında (85 m min-1) kesici uç
+yarıçapının yüzey pürüzlülüğüne etkisinin daha az
+olduğu görülmüştür. Özellikle 0,1 mm rev-1 ilerleme
+kullanılarak yapılan deneylerde, elde edilen Ra
+değerleri birbirine yakındır. Fakat, ilerleme (0,2-0,4
+mm rev-1) ve kesme hızları artıkça (120-165 m min-1)
+elde edilen Ra değerleri arasındaki fark da artmıştır.
+0,4 mm uç yarıçaplı kesicilerle elde edilen yüzey
+pürüzlük değerlerinde ise ani artışlar meydana gelmiş
+ve kesici daha fazla aşınmıştır.
+KAYNAKLAR (REFERENCES)
+1.
+
+AISI 316Ti malzemesinin tornalanmasında, en düşük
+yüzey pürüzlülüğünün (smaller is better) elde
+edilmesinde kullanılacak faktörlerin en uygun
+seviyelerinin ise, ffak(1) ve Rfak(2) olduğu Taguchi
+analizi (Tablo 8 ve 9) ile tespit edilmiştir. Tablo 9’da
+elde edilen en düşük S/N oranları bu durumu
+ispatlamaktadır. Dolayısı ile AISI 316Ti paslanmaz
+çelik kaplamalı karbür uçlarla tornalanmasında en
+düşük yüzey pürüzlülüğü için öncelikle, düşük
+ilerlemenin (ffak = 0,1 mm/dev) ve büyük kesici uç
+yarı çapının (Rfak = 0,8 mm) kullanılması gerektiği
+ortaya çıkmıştır. Bu sonuçlar literatüre uygundur [811].
+
+2.
+
+AISI 316Ti paslanamaz çelik malzemesinin küçük uç
+yarıçaplı (R:0,4 mm) kesicilerle, yüksek ilerleme (0,2
+ve 0,4 mm rev-1) ve yüksek kesme hızlarında (120 ve
+165 m min-1) işlenmesinin, yüzey pürüzlülüğü (Ra) ve
+
+6.
+
+370
+
+3.
+
+4.
+
+5.
+
+Internet, "Paslanmaz Çeliklerin İç Yapıları ve
+Temel Türleri" www.sarıtas.com.tr.
+Internet,
+"Paslanmaz
+Çelik
+Nedir?",
+www.ozmetalozkanoz.com.tr.
+Coromant S. Modern Metal Cutting-A
+Practical Handbook, Sandvik Coromant Inc,
+Sweden, 1997.
+Outeiro, J.C., Dias, A.M., Lebrun, J.L.,
+Astakhov, V.P., “Machining residual stresses in
+AISI 316L steel and their correlation with the
+cutting parameters”, Machining Science and
+Technology, 6 (2): 251–270 2002.
+Paro, J., Hannien, H. And Veijo, ‘’Tool Wear and
+Machinability of X5 CrMnN 18 Stainless
+Steels’’, Journal of Materials Processing
+Technology, 14-20, 2001.
+Mills, B. And Redford, A. H., Machinability Of
+Engineering Materials, University of Salford, ,
+107-108, UK, 1983.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+AISI 316Ti Paslanmaz Çeliğin Tornalanmasında Kesici…
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+Korkut, I., Kasap, M., Ciftci, I. and Seker, U.,
+“Determination of Optimum Cutting Parameters
+during Machining of AISI 304 Austenitic
+Stainless Steel”, Materials & Design, 25(4):
+303-305, 2004.
+Özses B., Bilgisayar Sayısal Denetimli Takım
+Tezgahlarlında Değişik İşleme Koşullarının
+Yüzey Pürüzlülüğüne Etkisi’, Yüksek Lisans
+Tezi, Gazi Üniversitesi Makine Mühendisliği
+Bölümü, 2002.
+Zeyveli, M. ve Demir, H., “AISI 01 Soğuk İş
+Takım Çeliğinin İşlenebilirliğinin Kesme
+Kuvvetleri Ve Yüzey Pürüzlülüğü Açısından
+Araştırılması”, E-Journal of New World
+Sciences Academy, 4, 2: 323-331, 2009.
+Özek, C.,Taşdemir, V., “AISI 304 Östenitik
+Paslanmaz Çeliğin Tornalanmasında Yüzey
+Pürüzlülüğünün
+Varyans
+Analizi
+İle
+Modellenmesi”, E-Journal of New World
+Sciences Academy, 4, 3: 305-313, 2009.
+Tekaslan, Ö.,Gerger, N. Ve Şeker, U., “AISI 304
+Östenitik
+Paslanmaz
+Çeliklerde
+Kesme
+Parametrelerine
+Bağlı
+Olarak
+Yüzey
+Pürüzlülüklerinin Araştırılması”, BAÜ Fen
+Bilimleri Enstitüsü Dergisi, 10(2): 3-12, 2008.
+Kasap M., AISI 304 Östenitik Paslanmaz
+çeliklerin İşlenebilirliğinde En Uygun Kesme
+Parametrelerinin Belirlenmesi ve İşleme
+Şartlarının Deneysel Olarak Araştırılması,
+Yüksek Lisans, Gazi Üniversitesi Fen Bilimleri
+Enstitüsü Ankara, 34-35, 2001.
+Özek, C., Hasçalık, A., Çaydaş, U. ve Karaca,
+F.,”AISI 304 Östenitik Paslanmaz Çeliğin
+Tornalanması ”, Mühendislik ve Fen Bilimleri
+Dergisi, 117-121, 2006.
+Zafer Tekiner, Z. And Yeşilyurt, S.,
+“Investigattion of the cutting parameters
+depending on process sound during turning of
+AISI 304 Austenitic stainless Steel’’, Journal of
+Materials Processing Technology, 25:507513(2004).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Y. Kayır ve ark.
+
+15. Yeyen H.E,’ AISI 303 Östenitik Paslanmaz
+Çeliklerin İşlenebilirliğinin Deneysel Olarak
+Araştırılması, Yüksek Lisans, Gazi Üniversitesi
+Fen Bilimleri Enstitüsü, Ankara, 2006.
+16. Yeyen, H:E., Korkut, İ., Turgut, Y. ve Çiftçi,
+İ.,’’AlSl 303 Östenitik Paslanmaz Çeliklerin
+İşlenmesinde Kesme Hızı ve İlerlemenin Kesme
+Kuvvetleri ve Yüzey Pürüzlülüğü Üzerindeki
+Etkileri’’, 5. Uluslarası İleri Teknolojiler
+Sempozyumu, 2009.
+17. Altınkaya E., AlSl 316 Östenitik :Çeliğin
+İşlenmesinde Kesme Değerlerinin ve Takım
+Kaplamasının Yüzey Pürüzlülüğüne ve Takım
+Aşınmasına Etkilerinin İncelenmesi, Yüksek
+Lisans, Gazi Üniversitesi Fen Bilimleri Enstitüsü,
+Ankara, 2006.
+18. Nalbant M., Gökkaya H. Sur G., “Application of
+Taguchi mrtod in the optimization of cutting
+parameters, for roughness in turning”, Materials
+and Design, 28, 1379-1385, 2007.
+19. Nian C.Y., Yang W.H., Tarng Y.S.,
+“Optimization of turning operations with multiple
+performance characteristics”, Journal of
+Material Processing Technology, 95, 90-96,
+1999.
+20. Manna A. and Salodkar S., “Optimization of
+machining conditions for effective turning of
+E0300 alloy steel”, Journal of Material
+Processing Technology, 203, 147-153, 2008.
+21. Davim J. P., “Study of drilling metal-matrix
+composites based on the Taguchi techniques”,
+Journal of Material Processing Technology,
+132, 250-254, 2003.
+22. Göloğlu C. Sakarya N., “The effects of cutter
+path strategies on surface roughness of pocket
+milling of 1.2738 steel based on Taguchi
+method”, Journal of Material Processing
+Technology, 206, 7-15, 2008.
+23. Sahin Y., “Optimal testing parameters on the
+wear behavior of various steels”, Material and
+Design, 27, 455-460, 2006.
+
+371
+
+

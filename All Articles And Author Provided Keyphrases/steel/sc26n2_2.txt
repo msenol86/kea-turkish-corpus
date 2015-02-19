@@ -1,0 +1,933 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 2, 341-348, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 2, 341-348, 2011
+
+DUBLEKS PASLANMAZ ÇELİKLERİN NOKTA DİRENÇ
+KAYNAĞINA AKIM ŞİDDETİ VE KAYNAK ZAMANININ
+ETKİSİ
+Erkan DURGUT ve Ramazan KAÇAR
+Teknik Eğitim Fakültesi, Karabük Üniversitesi, 78050, Balıklar kayası, Karabük
+rkacar@karabuk.edu.tr
+(Geliş/Received: 09.02.2010; Kabul/Accepted: 09.03.2011)
+ÖZET
+Bu çalışmada AISI 2205 dubleks paslanmaz çelik sacların nokta direnç kaynak kalitesine, kaynak zamanı ve
+akım şiddetinin etkisi araştırılmıştır. Bu amaçla kaynak kalitesini belirlemek için bağlantının çekme makaslama
+yükü taşıma kapasitesi ve sertlik değerleri bulunarak mikroyapısı incelenmiştir. Buna bağlı olarak mekanik
+özellik mikroyapı ilişkisi tespit edilmiştir. Bağlantının mekanik özelliklerinin kaynak akım şiddeti ve kaynak
+zamanına bağlı olarak farklılık gösterdiği gözlemlenmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Çift fazlı bir içyapıya sahip, ferrit taneleri içinde
+östenit veya östenit taneleri içinde ferrit içeren
+dubleks paslanmaz çeliklerin östenitik paslanmaz
+çeliklere nazaran en önemli üstünlükleri akma
+dayanımlarının iki kat kadar daha büyük olmasıdır.
+[1-3].
+Bu üstün özelliklerinden dolayı çift fazlı paslanmaz
+çelikler ısı eşanjörü, petrol, gaz ve deniz su boruları
+ile
+bağlantı
+elemanlarında,
+deniz
+petrol
+platformlarında, gaz kuyularında, döküm pompa ve
+vana gövdelerinde, jeotermal uygulamalarında büyük
+oranda kullanılmaktadırlar. Dubleks paslanmaz
+çelikler korozyon direnci ve mekanik özelliklerinin
+
+çekici bileşimleri nedeniyle yıllardır yağ ve gaz
+endüstrisinde kullanılmaktadır. Ayrıca gerilmeli
+korozyona dirençli olması nedeniyle kimya
+endüstrisinde gittikçe genişleyen bir uygulama alanına
+sahiptir [3-6].
+Dubleks paslanmaz çeliklerin kullanım alanının
+artmasının nedeni korozif ortamlarda, mekanik
+özelliklerini
+yitirmeden
+gösterdikleri
+yüksek
+korozyon dirençleri, kolay şekillendirilebilme ve
+kaynaklanabilme özelliklerine sahip olmalarıdır [7,8].
+Paslanmaz çeliklerin hangi kaynak yöntemiyle ne tür
+koşullarda birleştirilmelerinin uygun olacağının
+belirlenmesi araştırma konusu olmuştur. Nokta direnç
+kaynağı, yaklaşık 3 mm kalınlığa kadar olan aynı
+
+E. Durgut ve R. Kaçar
+
+Dubleks Paslanmaz Çeliklerin Nokta Direnç Kaynağına Akım Şiddeti ve ...
+
+kimyasal bileşimdeki sac ve levhaların birbiri üzerine
+bindirilerek birleştirilmesinde yaygın olarak kullanılır
+[9]. Kaynak edilecek iş parçalarının birleşme (kontak)
+yüzeyleri, kısa bir süre uygulanan düşük gerilim ve
+yüksek akım şiddeti ile plastik deformasyon
+sıcaklığına kadar ısıtılmakta, basıncın da etkisi ile
+noktasal kaynak çekirdeği oluşturulmakta ve böylece
+birleşme sağlanmaktadır [10].
+Bu çalışmada; AISI 2205 kalite dubleks paslanmaz
+çelik saclar, mukayese yapabilmek amacıyla, ticari
+olarak temin edildiği gibi, üç farklı kaynak akım
+şiddetinde (5 kA, 7 kA ve 9 kA ) ve iki farklı kaynak
+zamanında (10 ve 20 çevrim) sabit elektrot baskı
+kuvveti (6 bar) uygulanarak atmosfer ortamında
+birleştirilmiştir. Bu amaçla birleştirmenin mekanik
+özelliklerinden çekme makaslama yükü taşıma
+kapasitesi
+tespit
+edilerek,
+sertlik
+dağılımı
+belirlenmiştir. Ayrıca birleştirmenin metalografik
+incelemesi yapılarak, mekanik özellik mikroyapı
+ilişkisi belirlenmiştir.
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL
+STUDIES)
+
+2.1 Malzeme ve metot (Material and method)
+
+getirilmiştir. Elektrotlar arasındaki mesafe periyodik
+olarak kontrol edilmiştir.
+2.2
+Deney
+Numunelerinin
+Kaynak
+İçin
+Hazırlanması ve Birleştirilmesi (Preparation of Samples
+for Welding)
+
+AISI 2205 kalite; et kalınlığı 1,2 mm, genişliği 30 mm
+ve boyu 100 mm olan 2 adet paslanmaz çelik sac
+Tablo 2’de verilen kaynak parametrelerine göre nokta
+direnç kaynağı ile birleştirilmiştir. EN ISO 14273
+standardı göz önünde bulundurularak hazırlanan
+numunelerin kaynak pozisyonu ve ölçüleri Şekil 2’de,
+çekme deney numunesinin görüntüsü Şekil 3’de
+gösterilmiştir.
+Tablo 2. Kaynak parametreleri (Welding parameters)
+AKIM
+SÜRE (çevrim)
+Soğuma
+1 çevrim = 0,02 s
+(kA)
+Ortamı
+5
+10
+Atmosfer
+7
+10
+Atmosfer
+9
+10
+Atmosfer
+5
+20
+Atmosfer
+7
+20
+Atmosfer
+9
+20
+Atmosfer
+
+Deneysel çalışmada; 100 X 30 X 1,2 mm boyutlarında
+AISI 2205 kalite dubleks paslanmaz çelik sac
+malzeme ticari olarak temin edildiği şekliyle
+kullanılmıştır. AISI 2205 kalite sac malzemeye
+kimyasal bileşim analizi yapılarak sonuçlar Tablo
+1’de verilmiştir.
+Tablo 1. AISI 2205 dubleks paslanmaz çeliğin
+kimyasal bileşimi (% ağırlık) (Chemical composition of
+AISI 2205duplex stainless steel (% wt))
+Fe
+
+C
+
+Si
+
+Mn
+
+66,2
+
+0,03
+
+1
+
+2
+
+P
+
+S
+
+0,03 0,02
+
+Cr
+
+Ni
+
+Mo
+
+N
+
+22
+
+5,5
+
+3
+
+0,14
+
+Deneylerde, 60 kVA gücünde elektronik akım ve
+zaman kontrollü, pnömatik basma donanımlı elektrik
+nokta direnç kaynak makinesi kullanılmıştır. Elektrot
+basma kuvveti ise, kaynak makinesi üzerinden
+ölçülmüştür. Kaynak süresi makine üzerindeki
+donanım ile iki farklı değerde ayarlanmıştır.
+Birleştirme için sıkıştırma ve tutma süreleri çalışma
+süresince sabit tutulmuştur.
+Deneylerde, kesik konik uçlu, uç çapı 8 mm olan,
+ticari saflıkta Cu-Cr elektrot kullanılmıştır. Elektrot
+uçlarında deformasyondan ve ısınmadan dolayı
+kalıntıların oluşmaması için, elektrotlar her beş
+kaynaktan sonra zımpara ile düzeltilmiştir. Ayrıca her
+on kaynaktan sonra elektrotların uçları kumpas ile
+kontrol edilmiş ve elektrot uç çap ölçüsü değişmiş ise,
+eğe ile tesviye edilerek gerekli ölçü ve geometriye
+
+342
+
+Şekil 2. Deney numunelerinin boyutları ve kaynak
+pozisyonu (Dimension of samples and welding position)
+
+Şekil 3. Çekme deney numunesi (Tensile test sample)
+Kaynaktan önce numunelerin yüzeyleri ince
+zımparayla kir, pas, yağ vb gibi kaynağı olumsuz
+olarak etkileyebilecek maddelerden temizlenip,
+sabunlu suda yıkanmış ve temiz bir bezle silinmiştir.
+2.3 Birleştirmelere Uygulanan Mekanik Testler ve
+Metalografik İncelemeler (Mechanical Tests Applied for
+Weldment and Metallographic Evaluations)
+
+AISI 2205 kalite 1,2 mm ’lik sac malzemeden çekme
+makaslama numuneleri çıkarılarak çekme işlemi için
+hazır hale getirilmiştir. Daha sonra çekme deneyi
+50KN kapasiteli çekme test cihazında 2 mm/dak
+çekme hızında gerçekleştirilerek birleştirmelere ait
+kuvvet-uzama diyagramları elde edilmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Dubleks Paslanmaz Çeliklerin Nokta Direnç Kaynağına Akım Şiddeti ve ...
+
+E. Durgut ve R. Kaçar
+
+Sertlik dağılımı kaynaklı bağlantıyı tamamen alacak
+şekilde metalografik yöntemlerle hazırlanmış numune
+üzerinde, aynı hatta ve kaynak ekseninden esas metale
+doğru belirli ölçüm aralıkları ile mikrosertlik cihazı
+kullanılarak gerçekleştirilmiştir.
+
+kaynak akım şiddeti ve kaynak zamanı için hazırlanan
+2 adet deney numunesinin üzerinde gerçekleştirilerek;
+her bir şart için 2 adet boyut ölçümü ortalaması
+alınarak değerlendirilmiştir. Ortalama çekirdek boyut
+sonuçları Tablo 3’de gösterilmiştir.
+
+Deney numunelerinde, kaynak akım şiddeti ve kaynak
+zamanı artışına bağlı olarak artan farklı ısı girdilerinin
+birleştirme üzerindeki etkilerini incelemek amacı ile
+kaynak çekirdek boyut ölçümü yapılmıştır. Boyut
+ölçümleri bir kumpas yardımı ile itinayla numunenin
+her iki yüzeyinde de gerçekleştirilmiştir. Ölçümler
+çekirdeğin
+en
+ve
+boy
+doğrultularında
+gerçekleştirilerek, ortalamaları alınarak o yüzeyin
+çekirdek boyutu bulunmuştur.
+
+Tablo 3. Birleştirilmelerin çekirdek boyut ölçüm
+sonuçları (Weld nugget dimensions of weldment)
+
+Metalografik inceleme numuneleri ise kaynak
+ilerleme yönüne dik olacak konumda metalografik
+inceleme yöntemindeki sıralama takip edilerek
+hazırlanmıştır. Parlatılan numuneler 90 ml saf su
+içerinde 10g oxzalik asit çözeltisinde, 12 V gerilim
+altında, 2 A akım şiddetinde 10 sn. elektrolitik olarak
+dağlanmıştır. Metalografik incelemelerde 5X-100X
+büyütme kapasitesine sahip mikroskop kullanılarak
+numunelerin kaynak metali, ITAB (ısı tesiri altındaki
+bölge) ve esas metalin mikroyapısı detaylıca
+incelenmiştir.
+3. SONUÇLAR VE İRDELENMESİ (RESULTS AND
+DISCUSSION)
+
+Bu çalışmada kaynak zamanı ve akım şiddetine bağlı
+olarak artan ısı girdisi farklıklarının birleştirilen AISI
+2205 serisi dubleks paslanmaz çeliklerin nokta direnç
+kaynak kalitesine etkisini incelemek amacıyla deney
+numunelerine çekme makaslama ve sertlik deneyi
+uygulanmıştır. Belirtilen şartlarda gerçekleştirilen
+birleştirmelerin, çekme makaslama yükü taşıma
+kapasitelerine, sertliğine ve mikroyapısına kaynak
+zamanına ve kaynak akım şiddetine bağlı olarak artan
+ısı girdisinin etkileri deneysel olarak araştırılmıştır.
+3.1. Isı Girdisi Sonuçları (Heat Input Results)
+
+AISI 2205 BİRLEŞTİRMELERİNİN ORTALAMA
+ÇEKİRDEK
+ÇAP BOYUTU ÖLÇÜMÜ
+Akım
+Şiddeti (kA)
+
+Kaynak
+Süresi
+(çevrim)
+
+Soğuma
+Ortamı
+
+5
+7
+9
+5
+7
+9
+
+10
+10
+10
+20
+20
+20
+
+Atmosfer
+Atmosfer
+Atmosfer
+Atmosfer
+Atmosfer
+Atmosfer
+
+Kaynak
+çekirdek
+çap
+ortalamaları
+(mm)
+5,80
+5,85
+6,65
+6,90
+6,95
+7,07
+
+Tablo 3’den görüldüğü gibi artan kaynak akım şiddeti
+ve kaynak zamanına bağlı olarak ısı girdisinin artması
+sebebiyle kaynak çekirdek boyutunun arttığı
+görülmektedir. Kaynak ısı girdisi artışının çekirdek
+boyutunu artırdığı daha önce yapılan çalışmalarda da
+belirtilmiştir [11,13,14]. Kaynak çekirdek boyutu
+nokta
+direnç
+kaynak
+kalitesini
+belirleyen
+parametrelerden bir tanesidir. Kaynak kalitesi ve
+dayanımı kaynak çekirdek boyutu ve kaynak
+nüfuziyetini ölçerek tahmin edilmeye çalışılır.
+Normalde kabul ve tekrar edilebilir bir nokta direnç
+kaynak birleştirmesi için minimum çekirdek boyutu,
+birleştirilen en ince parça kalınlığının 3,5–4 katı
+kalınlığında olması istenir [15]. Nokta direnç kaynak
+nüfuziyetinin ise birleştirilen malzeme kalınlığının
+%20-80’ni arasında olması istenir. Çalışmada kaynak
+çekirdek boyutları yaklaşık olarak birleştirilen
+parçanın 5–6 katı ve nüfuziyetinde belirtilen aralık
+değerlerinde elde edildiği için kabul edilebilir olarak
+bulunmuştur.
+3.3. Mekanik Özellik Sonuçları (Results of Mechanical
+
+Nokta direnç kaynak uygulamalarında kaynak ısı
+girdisine etki eden parametrelerden birisi kaynak akım
+şiddeti diğeri ise kaynak zamanıdır. Birleştirmeye
+uygulanan ısı girdisi artan kaynak zamanı ve kaynak
+akım şiddeti ile birlikte artış göstermektedir. Gupta ve
+diğerleri [11], ile Vural ve diğerleri [12,13] kaynak
+zamanının ve kaynak akım şiddetinin ısı girdisini
+arttırdığını rapor etmişlerdir.
+
+Properties)
+
+Nokta
+direnç
+kaynak
+kalitesini
+belirleyen
+parametrelerden mukavemet, çekme test cihazında
+çekme makaslama deneyi uygulanarak belirlenmiştir.
+
+Nugget
+
+Çekme makaslama deneyi neticesinde; 10 ve 20
+çevrim kaynak zamanlarında, artan akım şiddeti
+farklılıklarında birleştirilen deney numunelerine ait
+çekme makaslama yükü taşıma kapasitelerini gösteren
+kuvvet-uzama eğrileri Şekil 5’de gösterilmiştir.
+
+AISI 2205-AISI 2205 birleştirmesinin kaynak
+kalitesine etki eden parametrelerden biriside kaynak
+çekirdek boyutudur. Tablo 3’te tüm şartlar için elde
+edilen deney numunelerinin ortalama çekirdek boyutu
+ölçümleri verilmiştir. Çekirdek boyut ölçümü her bir
+
+Ticari olarak temin edildiği şekliyle birleştirilen
+numunelerin çekme makaslama yükü taşıma
+kapasiteleri artan kaynak zamanı ve kaynak akım
+şiddetine bağlı olarak arttığını Şekil 5’deki gerilim
+uzama eğrileri net olarak göstermektedir. 20
+çevrimde5-7-9 kA kaynak akım şiddetiyle birleştirilen
+
+3.2.
+
+Kaynak
+
+Çekirdek
+
+Boyutu
+
+(Weld
+
+Dimension)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+343
+
+E. Durgut ve R. Kaçar
+
+Dubleks Paslanmaz Çeliklerin Nokta Direnç Kaynağına Akım Şiddeti ve ...
+
+Şekil 5. Farklı akım şiddeti ve kaynak zamanında birleştirilmiş numunelerin çekme makaslama yükü taşıma
+kapasitesi (Tensile load bearing capacity of weldment that welded at varies welding current intensity and welding time)
+numunelerin çekme makaslama yükü taşıma
+kapasiteleri, 10 çevrimde 5-7-9 kA kaynak akım
+şiddetinde birleştirilen numunelere oranla daha
+yüksek bulunmuştur. 10 çevrim kaynak zamanında ve
+5 kA düşük kaynak akım şiddetinde, küçük kaynak
+çekirdek boyutu oluştuğundan ayrılma tipinde kopma
+olmakta ve 15,4 kN gibi düşük çekme makaslama
+yükü değerleri elde edilmektedir. Aynı çevrimde, 7
+kA akım şiddetinde ise ısı girdisinin artmasıyla
+birlikte kaynak çekirdek boyutunun artması çekme
+makaslama yükü değerinde 0,8 kN’ luk bir artış
+meydana getirmiştir. 10 çevrim kaynak zamanındaki
+en yüksek çekme makaslama yükü değeri 9 kA
+kaynak akım şiddeti ile birleştirilen numunede,
+kaynak çekirdek boyutundaki artış sebebiyle 17,8 kN
+olarak belirlenmiştir. 20 çevrimde ve 5 kA kaynak
+akım şiddetiyle birleştirilen numunenin çekme
+makaslama yükü artan çekirdek boyutuna bağlı olarak
+16,5 kN olarak belirlenirken, 7 kA kaynak akım
+şiddetinde birleştirilen numunenin 17,3 kN olduğu
+belirlenmiştir. 20 çevrim kaynak zamanındaki en
+yüksek çekme makaslama yükü değeri 9 kA kaynak
+akım şiddeti ile birleştirilen numunede, kaynak
+çekirdek boyutundaki artış sebebiyle 18,5 kN olduğu
+belirlenmiştir. Sonuçlar direnç kaynak işleminin doğal
+kabul edilen istatiksel değerleri içerisindedir [17].
+Sonuç olarak kaynak zamanına ve kaynak akım
+şiddetine bağlı olarak artan çekme makaslama yükü
+taşıma kapasiteleri kaynak çekirdek boyutuyla ilgili
+olduğu düşünülmektedir. Araştırmacılar artan ısı
+girdisinin kaynak çekirdeğini genişlettiğini bununda
+çekme makaslama dayanımını arttırdığını rapor
+etmişlerdir [11,13,16,18]. Ancak, Vural ve diğerlerinin
+yapmış olduğu bir çalışmada AISI 304 paslanmaz çelik
+çifti ve AISI304-galvanizli çelik çifti birleştirmelerinde
+
+344
+
+10 kA akım şiddetinden sonra kaynak çekirdek
+boyutunun aşırı erimeye ve sıçramaya bağlı olarak
+azaldığına işaret etmektedirler [19]. Çalışmada
+kullanılan maksimum 9 kA akım şiddeti kullanıldığı
+için çekirdek boyutunda bir azalma tespit edilmemiştir.
+Çalışmada birleştirmelerin sertlik dağılımı da
+araştırılmıştır. Birleştirilen numunelerin kaynak zamanı
+değişimine bağlı olarak artan kaynak akım şiddetine
+göre sertlik dağılımı değişimi belirlenerek sırasıyla
+Şekil 6 a ve b’de gösterilmiştir.
+Şekil 6 a ve b’den görüldüğü gibi ticari olarak temin
+edildiği şekliyle birleştirilen numunelerin kaynak
+çekirdeği sertlik değerleri kendi aralarında, 10 çevrim
+ve 20 çevrim kaynak zamanları için benzer bir dağılım
+sergilemektedir. Bunda dubleks paslanmaz çelik
+malzemenin allotropik bir dönüşüm göstermemesi
+sebebiyle ısıl işlemle sertleştirilememesinin etkin rol
+oynadığı düşünülmektedir.
+Sertlik değerlerine genel olarak bakıldığında en düşük
+sertlik değeri esas metalde, en yüksek sertlik değeri
+ise kaynak çekirdeğinde bulunmuştur. ITAB sertliği
+esas metalden yüksek, kaynak çekirdeğine göre daha
+düşük bulunmuştur. Birleştirmede kullanılan dubleks
+paslanmaz çelik esas metalin sertlik değeri
+beklenildiği gibi yaklaşık olarak 300 HV0,2 olarak
+bulunmuştur. Esas metalin kaynak ısıl çevriminden
+etkilenmediğini göstermektedir.
+Kaynaklı
+birleştirmelerin
+ITAB
+bölgelerinin
+sertlikleri kaynak süresi ve kaynak akım şiddeti
+farklılıklarına bağlı olarak irdelenmiştir. 10 ve 20
+çevrim kaynak sürelerindeki ITAB sertlikleri
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Dubleks Paslanmaz Çeliklerin Nokta Direnç Kaynağına Akım Şiddeti ve ...
+
+460
+440
+420
+
+Sertlik HV0,2
+
+400
+380
+360
+340
+320
+300
+
+5 kA
+7 kA
+9 kA
+
+280
+260
+240
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+Ölçüm sırası
+
+440
+420
+400
+
+Sertlik HV0,2
+
+380
+360
+340
+320
+300
+
+5 kA
+7 kA
+9 kA
+
+280
+260
+0
+
+2
+
+4
+
+6
+
+8
+
+sıralandığı bulunmuştur. 10 çevrim ve 20 çevrim
+kaynak zamanları ile birleştirilen numunelerin kaynak
+çekirdeği sertlikleri kıyaslandığında en yüksek sertlik
+değeri 430 HV0,2 olarak 20 çevrimlik kaynak
+zamanında ve 9 kA kaynak akım şiddetinde
+birleştirilen numune tespit edilmiştir (Şekil 6.b). Bu
+durum artan kaynak zamanı ve kaynak akım şiddetine
+bağlı olarak artan ısı girdisi sonucunda kaynak
+çekirdeğinin ısıl çevrimden etkilendiğine işaret
+etmektedir. Bilindiği üzere dubleks paslanmaz
+çeliklerin kaynak final mikroyapısını etkileyen
+parametreler kimyasal bileşim, ısıl çevrim ve soğuma
+hızıdır [20,21]. Bu çalışmada kaynak zamanı ve
+kaynak akım şiddetine bağlı olarak değişen ısı girdisi
+neticesinde kaynaklı birleştirmenin soğuma hızı da
+değiştiğinden dolayı kaynak çekirdeğinde ferritöstenit dengesi bozularak ferrit lehinde oluşum
+meydana getirmesi beklenir. Kaynak çekirdeğindeki
+sertlik artışı da bununla ilgili olduğu düşünülmektedir.
+Dubleks
+paslanmaz
+çeliklerin
+kaynaklı
+uygulamalarında ITAB bölgesinde sıcaklık ferrit
+solvüs sıcaklığının üzerine çıktığı zaman tane
+irileşmesini engelleyen ikincil faz parçacıkları
+bulunmadığı için ferritik paslanmaz çeliklerde olduğu
+gibi hızlı ferrit tane irileşmesi oluşur [20].
+Metalografik
+inceleme
+sonucu
+da
+bunu
+desteklemektedir.
+
+10
+
+Ölçüm sırası
+
+Esas metal
+
+E. Durgut ve R. Kaçar
+
+3.4. Metalografik İnceleme (Metallographic Evaluation)
+
+ITAB
+Kaynak metali
+
+Şekil 6. (a) 5kA-7kA-9kA kaynak akımında 10
+çevrimde birleştirilen numunelerin sertlik profili
+(b)5kA-7kA-9kA kaynak akımında 20 çevrimde
+birleştirilen numunelerin sertlik profili (Hardness profile
+of sample (a) joined at 5kA-7kA-9kA weld current intensity for 10
+cycles welding time, (b) joined at 5kA-7kA-9kA weld current
+intensity for 20 cycles welding time)
+
+değerlendirildiğinde, en yüksek sertlik değeri 9 kA
+kaynak akım şiddetinde, en düşük sertlik değeri 5 kA
+kaynak akım şiddetinde birleştirilen numunede
+bulunmuştur. Ancak 10 çevrim kaynak süresinde
+birleştirilen numunede 7 kA kaynak akımında elde
+edilen numunenin ITAB sertliği de 9 kA elde edilen
+değerlerde tespit edilmiştir. Bu durum artan kaynak
+zamanı ve kaynak akım şiddetine bağlı olarak artan ısı
+girdisi sonucunda ITAB bölgesinin kaynak ısıl
+çevriminden etkilendiğine işaret etmektedir.
+Birleştirilen numunelerin kaynak zamanı ve kaynak
+akım şiddeti farklılıklarına göre çekirdek sertlikleri
+irdelendiğinde; 10 çevrimde birleştirilen numunelerin
+kaynak çekirdeğinde ölçülen sertlik değerleri sırasıyla
+7 kA 9 kA 5 kA şeklinde sıralandığı bulunmuştur
+(Şekil 6.a). 20 çevrimde birleştirilen numunelerin
+çekirdek sertlikleri ise 9 kA 7 kA 5 kA olarak
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Mekanik özellik mikroyapı ilişkisini tayin edebilmek
+amacıyla birleştirmelerin metalografik incelemesi
+yapılmıştır. 10 çevrim kaynak zamanı kullanılarak
+farklı kaynak akım şiddetinde elde edilen
+numunelerin mikroyapı resimleri Şekil 7 a’da, 20
+çevrim kaynak zamanı ile elde edilenler ise Şekil 7
+b’de gösterilmiştir.
+Şekil 7 a ve b’den görüldüğü üzere çalışmada
+kullanılan paslanmaz çelik esas metal yaklaşık olarak
+%50 ferrit %50 östenit fazlarından meydana gelmiştir.
+Bu çelikler optimum mekanik ve korozyon
+özelliklerini yapılarındaki ferrit-östenit faz oranlarının
+birbirlerine yakın olduğu durumlarda sergilerler
+[20,21].
+Birleştirmelerin ITAB mikroyapıları artan akım
+şiddeti ve artan kaynak zamanı açısından ayrı ayrı
+değerlendirilmiştir. Kaynak zamanı sabit, artan akım
+şiddetine bağlı olarak değerlendirme yapıldığında en
+belirgin husus ITAB’da ferrit tane irileşmesidir.
+Bilindiği üzere direnç kaynak işlemi doğası gereği ani
+ısınma ve müteakiben hızlı soğuma içeren bir
+yöntemdir. Dubleks paslanmaz gibi oda sıcaklığında
+ferrit ve östenit fazlarını bir arada yapılarında
+bulunduran çeliklerin kaynak uygulamasında kaynak
+ısıl çevriminin etkisiyle ferrit solvüs sıcaklığının
+üzerindeki sıcaklıklara ulaşılan bölgelerde daha
+öncede belirtildiği gibi ferrit tane irileşmesi meydana
+
+345
+
+E. Durgut ve R. Kaçar
+
+Esas metal
+5kA
+
+Dubleks Paslanmaz Çeliklerin Nokta Direnç Kaynağına Akım Şiddeti ve ...
+
+(a) 10 çevrim kaynak zamanı
+ITAB
+5kA
+
+Kaynak çekirdeği
+5kA
+
+7kA
+
+7kA
+
+7kA
+
+9kA
+
+9kA
+
+9kA
+
+Esas metal
+5kA
+
+(b) 20 çevrim kaynak zamanı
+ITAB
+5kA
+
+Kaynak çekirdeği
+5kA
+
+7kA
+
+7kA
+
+7kA
+
+9kA
+
+9kA
+
+9kA
+
+Şekil 7.(a) 10 çevrim ve 5,7 ve 9 kA’de yapılan birleştirmenin; Esas metal, ITAB ve Kaynak çekirdeği mikroyapısı,
+(b) 20 çevrim ve 5,7 ve 9 kA’de yapılan birleştirmenin; Esas metal, ITAB ve Kaynak çekirdeği mikroyapısı. ( (a)
+Microstructure of weldment; base metal, HAZ, weld nugget that joined 5kA-7kA-9kA weld current intensity for 10 cycles welding time, (b)
+Microstructure of weldment; base metal, HAZ, weld nugget that joined 5kA-7kA-9kA weld current intensity for 10 cycles welding time)
+
+346
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Dubleks Paslanmaz Çeliklerin Nokta Direnç Kaynağına Akım Şiddeti ve ...
+
+gelir. Bu durum tokluk ve şekillendirilebilirlikte
+azalmaya sebebiyet verir [20,22]. ITAB’da ferrit tane
+irileşmesi için artan akım şiddeti açısından da benzer
+şeyler söylenebilir. Çünkü kaynak ısı girdisi
+artıkçaferrit solvüs sıcaklığına yaklaştıkça benzer
+oluşumun meydana gelmesi kaçınılmazdır. Kaynak
+zamanı ve kaynak akım şiddeti direnç kaynak ısı
+girdisini
+etkileyen
+en
+önemli
+kaynak
+parametrelerinden olduğu için en fazla tane irileşmesi
+9 kA akım şiddetinde ve 20 çevrim kaynak zamanında
+meydana gelmesi beklenir.
+Birleştirmelerin kaynak çekirdeği mikroyapısı
+irdelendiğinde 20 çevrim kaynak zamanında her üç
+kaynak akım şiddetinde birleştirilen numunelerin
+kaynak çekirdek tane boyutu 10 çevrim kaynak
+zamanında elde edilenlere oranla daha büyük olduğu
+görülmektedir (Şekil 7 a ve b). Kaynak çekirdeğinde
+ferrit solvüs sıcaklığının üzerinde bir sıcaklığa
+ulaşıldığından dolayı yapı kaba ferrit tanelerinden
+oluşmuştur. Bu durum artan ısı girdisi ve dubleks
+paslanmaz çeliklerin yapısı ile açıklanabilir. Bu
+yüzden iyi birleştirme elde edebilmek için birleştirme
+bölgesinin mikroyapısının kontrolü önemlidir [23].
+4. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+Yürütülen bu çalışmada, genel olarak elde edilen
+bulgular aşağıdaki gibi özetlenebilir;
+•
+Nokta direnç kaynak yöntemiyle birleştirilen
+numunelerin çekme makaslama yükü taşıma
+kapasitelerinde artan kaynak zamanı ve akım
+şiddetine bağlı olarak artış bulunmuştur. 20
+çevrim kaynak zamanı ve 5-7-9 kA kaynak akım
+şiddetiyle birleştirilen numunelerin çekme
+makaslama yükü taşıma kapasiteleri, 10
+çevrimde aynı kaynak akım şiddetinde
+birleştirilen numunelere oranla daha yüksek
+bulunmuştur. Bunun ısı girdisi artışına bağlı
+olarak artan kaynak çekirdek boyutu ile ilgili
+olduğu düşünülmektedir.
+•
+
+Kaynaklı birleştirmelerin ITAB ve kaynak
+çekirdek sertlikleri kaynak akım şiddeti ve
+kaynak zamanına bağlı olarak artan ısı girdisiyle
+arttığı bulunmuştur. Bunda kaynak ısıl çevrimin
+etkisiyle
+dupleks
+paslanmaz
+çeliklerin
+yapısındaki ferrit östenit dengesinin ferrit lehine
+bozulmasının etkisi olduğu düşünülmektedir.
+
+•
+
+Birleştirmelerin mikroyapısı incelendiğinde
+artan ısı girdisiyle birleştirmelerin ITAB bölgesi
+ve kaynak çekirdeği tane boyutunun arttığı tespit
+edilmiştir. Yapı kaynak ısıl çevrimin etkisiyle
+ferrit solvüs sıcaklığının üzerine çıkılan
+bölgelerde tamamen ferrit fazına dönüştüğü ve
+ferritik paslanmaz çeliklerde olduğu gibi tane
+irileşmesi meydana geldiği görülmektedir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+E. Durgut ve R. Kaçar
+
+Sonuç olarak; dubleks paslanmaz çeliklerin kaynaklı
+birleştirmelerinde
+tokluğun
+önemli
+olduğu
+uygulamalarda elektrik direnç nokta kaynak
+uygulamasından kaçınılmalıdır.
+KAYNAKLAR (REFERENCES)
+1. Develi, K., Östenitik Paslanmaz Çeliklerin Mig
+Kaynağında Argon Hidrojen Karışımının
+Mikroyapı ve Mekanik Özelliklere Etkisinin
+İncelenmesi, Yüksek Lisans Tezi, Zonguldak
+Karaelmas Üniversitesi, Fen Bilimleri Enstitüsü,
+2003.
+2. Temel. E., Paslanmaz Çeliklerin Üretimi Ve
+Kullanılması,
+Yüksek
+Lisans
+Tezi,
+Zonguldak Karaelmas Üniversitesi, Fen Bilimleri
+Enstitüsü, 2001.
+3. 3.. Miyamoto, H, Mirnaki, T., Hashimoto, S.
+“Superplastic deformation of micro-specimens of
+duplex stainless steel” Materials Science and
+Engineering, Department of Mechanical Energy
+Engineering Doshisha University, Japan, Sayı:
+A319, 779-783, 2001.
+4. Baylan, O., Elektrik Ark Kaynak Yöntemiyle
+Birleştirilen Östenitik-Martenzitik Farklı
+Paslanmaz
+Çeliklerin
+Kaynaklı
+Bağlantılarında, Mikro Yapı İle Özellikler
+Arasındaki İlişkinin Araştırılması, Yüksek
+Lisans Tezi, Zonguldak Karaelmas Üniversitesi,
+Fen Bilimleri Enstitüsü, 2003.
+5. Ulaş, A., Duplex Paslanmaz Çelikler ve
+Kaynak Kabiliyeti, Yüksek Lisans Tezi,
+Zonguldak Karaelmas Üniversitesi, Fen Bilimleri
+Enstitüsü, 1999.
+6. Youns. S., Soon H., Hoong H., “Microstructural
+Changes During Superplastik Deformation Of Fe24Cr-7Ni-3Mo-0.14N Duplex Stainless Steel”
+Materials
+Science
+and
+Engineering,
+Department of Material Science and Engineering,
+Korea Advanced Institute of Science and
+Technology, South Korea, Sayı:A266, 276-284,
+1998.
+7. Kaluç, E., Tülbentçi, K., Paslanmaz Çelikler ve
+Kaynaklanabilirliği, Seminer Notları, Kocaeli
+Üniversitesi, Kaynak Teknolojisi Araştırma
+Eğitim ve Uygulama Merkezi, Kocaeli, s.239,
+1995.
+8. Committee., Welding Handbook, V.4. 7.
+Edition, AWS, U.S.A, 106-136, 1984.
+9. Karcı, F., Soğuk Deformasyon ve Kaynak Isı
+Girdisinin AISI 304 Paslanmaz Çelik Direnç
+Kaynak Kalitesine Etkisi, Yüksek Lisans Tezi,
+Karabük Üniversitesi, Fen Bilimleri Enstitüsü,
+Karabük, 2008.
+10. Akkuş A. ve Çimen MŞ., Kaynak Teknolojisi
+II. Ulusal Kongresi Bildiriler Kitabı, Yayın No:
+238, TMMOB Makine Mühendisleri Odası,
+Ankara s. 85-86, 1999.
+11. Gupta P, Ghosh P K, Nath K. and Ray S.,
+“Resistance spot weldability of plain Carbon and
+
+347
+
+E. Durgut ve R. Kaçar
+
+12.
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+348
+
+Dubleks Paslanmaz Çeliklerin Nokta Direnç Kaynağına Akım Şiddeti ve ...
+
+low alloy dual phase steels”, Z Metallkd. 81(7),
+502–508, 1990.
+Vural M., Anık S. ve Anık E. S., 1000 Soruda
+Kaynak Teknolojisi El Kitabı, Cilt 1, Birsen
+Yayınevi, İstanbul, s. 186-209, 1993.
+Vural M. and Akkus A., “On the resistance spot
+weldability of galvanized interstitial free steel
+sheets with austenitic stainless steel sheets”, J.
+Mater. Process. Technol. 1 (6), 53-156, 2004.
+Aslanlar S., “The effect of nucleus size on
+mechanical properties in electrical resistance spot
+welding of sheets used in automotive industry”,
+Materials & Design, 27 (2) 125-131., 2006.
+Kearns W. H., Metals and their weldability,
+AWS Welding Handbook, 7th edition, Cilt.4,
+American Welding Society, Printed in the USA,
+76-146., 1982.
+Sharma P., Ghosh P. K. and Nath S. K., “Fatigue
+behavior of resistance spot welded Mn-Cr-Mo
+dual phase steels”, Z Metallkd. 84 (7), 13–517.,
+1993.
+Zhang H. and Senkara J. Resistance welding;
+fundamentals and applications, Taylor Francis
+CRC 196-201., 2005.
+
+18. Pouranvari M, Asgari H R, Mosavizadeh S M,
+Marashi P H and Goodarzi M., “Effect of weld
+nugget size on overload failure mode of
+resistance spot welds”, Sci Techn. Weld.
+Joining, 12, 217-225, 2007.
+19. Vural M., Akkuş A., Eryürek B., “Effect of
+welding nugget diameter on the fatigue strength
+of the resistance spot welded joints of different
+steel sheets”, Journal of Materials Processing
+Technology 176 127–132, 2006.
+20. Lippold, J.C. and Kotecki, D.J., Welding
+metallurgy and weldability of stainless steel,
+Wiley-interscience publications, ISBN 0471
+47379 0, 231-263, 2005.
+21. Kou,
+Ş.,
+Welding
+metallurgy,Wileyinterscience publications, ISBN 0471 84090 4,
+pp.179-188, 1997.
+22. Kuroda T, Ikeuchi K, Takahashi M, Kitagawa Y.
+Proceedings of the IIW Asian Pacific
+international congress, October, Singapore.
+Singapore: IIW;. 151–61, 2002.
+23. Kuroda, T., Ikeuchi, K., Ikede, H., “Flass butt
+resistance welding for duplex stainless steels”,
+Vacuum 80, 1331-1335,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+

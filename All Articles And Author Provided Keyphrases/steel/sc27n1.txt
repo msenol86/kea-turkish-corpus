@@ -1,0 +1,724 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 1, 99-108, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 1, 99-108, 2012
+
+KUTU VE PLAZMA PASTA BORLANMIŞ 21NiCrMo2
+ÇELİĞİNİN YÜZEY KAREKTERİZASYONU
+İbrahim GÜNEŞ, Şükrü TAKTAK
+Afyon Kocatepe Üniversitesi, Teknik Eğitim Fakültesi, 03200, Afyonkarahisar
+igunes@aku.edu.tr, staktak@aku.edu.tr
+(Geliş/Received: 15.02.2011; Kabul/Accepted: 12.01.2012)
+ÖZET
+Bu çalışmada endüstride yatak çeliği olarak kullanılan 21NiCrMo2 çeliği ağırlıkça %100 B2O3, %70 B2O3 +
+%30 SiC, %70 B2O3 +% 30 B4C, % 30 B2O3 + %70 SiC, %30 B2O3 + %70 B4C pasta karışımları kullanılarak
+plazma pasta borlanmıştır. Plazma pasta borlama (PPB) işlemi, 700, 750 ve 800 °C de 2, 5 ve 7 saat süresince
+%70H2 – %30Ar gaz karışımında 10 mbar basınç altında yapılmıştır. Aynı çelik ticari Ekabor II tozuyla aynı
+sıcaklık (700, 750, 800°C) ve sürelerde (2, 5, 7 saat) elektrik resistanslı fırında kutu borlama işlemine tabi
+tutulmuştur. Elde edilen borür tabakalarının, SEM, EDX, X-ışını difraksiyon, mikrosertlik ve mikroyapı
+özellikleri incelenmiştir. X-ışını difraktometrik analizi sonucunda çeliğin yüzeyinde FeB ve Fe2B tabakalarının
+oluştuğu görülmüştür. B2O3 pasta karışımları kullanarak plazma ortamında daha düşük sıcaklık ve sürelerde kutu
+borlama yöntemine göre daha kalın borür tabakaları elde edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Ülkemiz dünyada en fazla bor rezervine sahip ülkeler
+arasında başta gelmektedir. Bor bileşikleri üstün
+özelliklere sahip malzemeler olduklarından birçok
+araştırmacı bor ve bor bileşikleri üzerine çalışmalar
+yapmaktadır [1]. Özellikle son yıllarda metalik
+malzemelerin termo-kimyasal yöntemlerle kaplanması
+ilgi odağı olmuştur. Borlama işlemi bu yöntemlerden
+biri olup diğer difüzyon esaslı yüzey işlemlerine
+
+kıyasla üstün özelliklere sahiptir [2]. Borlama termokimyasal bir difüzyon işlemi olup borun yüksek
+sıcaklıkta çeliğe yayınımıdır. Borlama işlemi
+genellikle, 700–1000 °C sıcaklık aralığında 1-10 saat
+sürelerle
+çeşitli
+borlama
+ortamlarında
+gerçekleştirilmektedir. Borlama bütün çeliklere
+uygulanabildiği gibi demir dışı metal ve alaşımlarına
+da uygulanabilmektedir [3-4]. Borlama ortamı katı,
+sıvı gaz, pasta ve plazma olup bor kaynağı (B4C,
+Na2B4O7, H2B6), aktivatör (KBF4), dolgu malzemesi
+
+İ. Güneş ve Ş. Taktak
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+ve deoksidanlardan meydana gelmektedir. Burada
+aktivatörler tabakanın düzenli büyümesini sağlarken,
+dolgu ve deoksidan malzemeler işlem sıcaklığında
+oksijeni tutarak redükleyici bir ortam oluşturmakta ve
+ayrıca ortamdaki malzemelerin ana malzemeye
+yapışmasını önlemektedirler [2-4].
+Katı borlama genellikle patentlerle korunan yaklaşık
+%5 B4C, %5 KBF4 ve %90 SiC içeren karışımlar ile
+yapılmaktadır. Bu yöntemde toz karışım sızdırmaz bir
+kutuya doldurulur ve içine numune yerleştirilir. Kutu
+gerekli sıcaklığa kadar ısıtılır. Bu sıcaklıkta gerektiği
+kadar tutulur ve soğutulur [5]. Sıvı borlamada boraks,
+borik asit ve ferro silis karışımından oluşan erimiş tuz
+banyosuna numune daldırılır ve bu sıcaklıkta gerekli
+bir süre bekletilir. Gaz ve plazma borlamada BCl3,
+TMB (trimetil borat), TEB (trietil boran) ve BF3 gibi
+bor kaynakları ile H2 ile Ar gazları kullanılmaktadır
+[6-8]. Bu yöntemlerden sıvı borlamada erimiş tuz
+tabakası numune yüzeyine yapışır ve kalıntının
+temizlenmesi
+problem
+oluşturmaktadır.
+Katı
+borlamada numune yüzeyinin temizlenmesi gerekir.
+Ancak yapışma tam olmadığından numune yüzeyi
+kolaylıkla temizlenir. Gaz ve plazma borlamada
+malzeme yüzeyi temiz olmasına rağmen kullanılan
+gazların zehirli, pahalı ve patlayıcı olması
+dezavantajlarıdır.
+Son yıllarda plazma borlama üzerine çalışmalar
+giderek artmaktadır [9-13]. Plazma borlama işlemi,
+geleneksel borlama işlemlerine göre çok üstün
+avantaja sahiptir. Örneğin plazma borlama işleminde
+oluşturulan yüksek enerji sayesinde geleneksel
+borlama işlemlerinden daha düşük sıcaklıklarda
+çalışılabilmekte ve distorsiyon (biçim bozulması)
+minimum seviyeye düşürülebilmektedir. Bunun
+yanında plazma borlama işleminde gaz karışım
+oranlarını değiştirerek FeB miktarını azaltmak veya
+tek tabakalı Fe2B tabakası oluşturmak mümkündür [8,
+10]. Fakat plazma borlamada bor kaynağı olarak
+kullanılan gazların (B2H6, BCl3) pahalı, zehirli ve
+patlayıcı nitelikte olması bir dezavantajdır. Ayrıca,
+BCl3 ortamında yapılan plazma borlama işlemlerinde,
+borür tabakası büyümesinin ve sertliğin kutu ve pasta
+borlamaya nazaran düşük olması ve borür tabakasında
+gözeneklerin olması büyük bir problem teşkil
+etmektedir [9, 12-13].
+Plazma destekli pasta borlama yüzey işlemi ile
+plazma borlama işlemindeki dezavantajlar yok
+edilebilmektedir. Kullanılan pastanın çevreye zararsız
+bor hammaddeleri olması, gazların ise genelde inert
+karakterde olan hidrojen, argon ve azot olması bu
+işlemi avantajlı kılmaktadır. Plazma pasta borlamada
+kullanılan B2O3 bor pastasının ülkemizde çok
+miktarda bulunması, ucuz olması ve değerlendirilmesi
+açısından bu yöntem (PPB) oldukça önem
+taşımaktadır. Bu konuda yapılan çalışmada Yoon ve
+
+100
+
+arkadaşları [6], boraks (Na2B4O7) ve amorf bor
+karışımından oluşan pastayı 304 paslanmaz çeliğin
+üzerine sürerek Ar/H2 plazmasında değişik
+sıcaklıklarda borlamışlar ve tabakanın difüzyon
+kinetiğini ve morfolojisini incelemişlerdir. Ayrıca,
+optimum borür tabaka kalınlığı için değişik boraks ve
+amorf bor bileşikleri içeren pasta kullanmışlardır.
+Çalışmalar sonucunda % 70 boraks ve % 30 amorf
+bor içeren pastanın en yüksek kalınlığı verdiğini ve %
+100 boraks içeren pastanın da paslanmaz çelikte borür
+tabakası oluşturduğunu ifade etmişlerdir. Difüzyon
+kinetiği çalışmaları sonucunda plazma pasta borlama
+ile gerçekleştirilen borür tabakasının diğer borlama
+ortamlarına nazaran daha kalın ve aktivasyon
+enerjisinin de daha küçük olduğunu vurgulamışlardır.
+Güneş ve diğerleri [14] çeşitli alaşım elementi içeren
+bazı çeliklerin yüzeyine %100 boraks pastası
+biriktirerek plazma ortamında pasta borlamışlar ve
+kutu borlamaya göre daha düşük sıcaklık ve sürelerde
+daha kalın borür tabakaları elde etmişlerdir.
+Bu çalışmada 21NiCrMo2 çeliği üzerine farklı %
+B2O3 pasta karışımları, (%100 B2O3, %70 B2O3 + %30
+SiC, %70 B2O3 +% 30 B4C, % 30 B2O3 + %70 SiC,
+%30 B2O3 + %70 B4C) biriktirilerek farklı sıcaklık ve
+sürelerde, plazma pasta ve ticari Ekabor II tozuyla
+kutu borlama işlemi gerçekleştirlmiştir. Elde edilen
+borür tabakalarının mikroyapı, XRD, SEM, EDX ve
+mikrosertlik özellikleri incelenerek iki yöntem
+birbiriyle mukayese edilmiştir.
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL
+STUDIES)
+
+Deneysel çalışmada kullanılan ∅18x6 mm
+boyutlarındaki 21NiCrMo2 çeliğinin kimyasal
+bileşimi (% ağırlık olarak) Çizelge 1’de verilmiştir.
+Hazırlanan numuneler plazma cihazının (Şekil 1)
+vakum haznesine yerleştirilmiş ve hazne basıncı 2
+x10-2 mbar vakuma getirilmiştir. Numuneler 10 mbar
+basınç altında %70 H2 - %30 Ar gaz karışımında üç
+farklı sıcaklık (700, 750 ve 800 °C) ve sürelerde (2, 5
+ve 7 saat) plazma pasta borlanmıştır. Aynı sıcaklık ve
+sürelerde ticari Ekabor II tozuyla kutu borlama işlemi
+gerçekleştirmiştir. İki farklı yöntem birbiriyle
+karşılaştırılarak kıyaslanmıştır.
+Borlanmış numuneler kesitten SiC kesme diski ile
+kesilerek kalıplanmış, 240-1000 grit SiC zımparadan
+geçirilerek zımparalanmış ve 0.1 µm alümina
+süspansiyonda parlatılmıştır. Metalografik olarak
+hazırlanan numuneler, % 3’lik nitalle dağlandıktan
+sonra taramalı elektron mikroskobu (Leo 1430 VP),
+ve XRD analizinde (Shimadzu XRD–6000)
+yardımıyla karakterize edilmiştir. XRD analizinde
+CuKα (λ = 1,5418 A°) radyasyonu kullanılmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+İ. Güneş ve Ş. Taktak
+
+Çizelge 1. 21NiCrMo2 çeliğinin kimyasal bileşimi (Chemical compositions of 21NiCrMo2 steel) (wt. %)
+Çelik
+
+C
+
+Cr
+
+Ni
+
+Si
+
+Mn
+
+Mo
+
+S
+
+P
+
+21NiCrMo2
+
+0,19
+
+0,4
+
+0,4
+
+0,15
+
+0,7
+
+0,15
+
+0,04
+
+0,03
+
+Tabakalarının kalınlığı optik mikroskoba bağlı bir
+aparat
+yardımıyla
+ölçülmüştür.
+Kaplanmış
+numunelerin sertlik değerleri mikrosertlik cihazında
+(Shimadzu HM–2) Knoop ucu ile 50 gr. yük altında
+ölçülmüştür.
+
+Şekil 1. Plazma pasta borlama cihazının şematik
+gösterimi (Schematic illustration of plasma paste boronizing
+device)
+
+3. SONUÇLAR VE TARTIŞMA
+
+(RESULTS AND
+
+DISCUSSION)
+
+3.1 Yüzey Karakterizasyonu (Surface Characterization)
+Şekil 2 ve 3’te 750°C 5 saat süreyle, farklı % pasta
+karışım oranlarında B2O3, SiC ve B4C tozlarıyla (%
+100 B2O3, % 70 B2O3 + % 30 SiC, %70 B2O3 + % 30
+B4C, % 30 B2O3 + %70 SiC, %30 B2O3 + %70 B4C)
+plazma pasta ve ticari Ekabor II tozuyla kutu
+borlanmış 21NiCrMo2 çeliğinin SEM görüntüleri
+görülmektedir. Şekil 2 ve 3’te plazma pasta ve Ekabor
+II tozuyla kutu borlama sonucunda kolonsal bir
+yapıya sahip olan borür tabakaları elde edilmiştir. Bu
+kolonsallık borür tabakasının kendine has bir
+özelliğidir [15]. Şekil 4’te 750°C’de 5 saat süreyle %
+100 B2O3 pasta karışımında plazma pasta borlanmış
+21NiCrMo2 çeliğinin EDX analizi görülmektedir.
+Çelik yüzeyinin borür tabakasıyla kaplanmış olduğu
+EDX analiziyle tespit edilmiştir.
+Şekil 2. 750 °C’de 5 saat süreyle farklı (ağırlıkça, %)
+B2O3 pasta karışımlarında plazma pasta borlanmış
+21NiCrMo2 çeliğinin SEM görüntüleri, a) 100 B2O3,
+b) 70 B2O3 + 30 SiC, c) 70 B2O3 + %30 B4C, d) 30
+B2O3 + 70 SiC, e) 30 B2O3 + 70 B4C (SEM micrographs
+of plasma paste borided 21NiCrMo2 steel in different % B2O3 paste
+mixtures for 5 h at 750 °C.)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+101
+
+İ. Güneş ve Ş. Taktak
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+Şekil 2. (Devamı) (Continue)
+
+Şekil 3. 750ºC’de 5 saat süreyle Ekabor II tozuyla
+kutu borlanmış 21NiCrMo2 çeliğinin SEM görüntüsü.
+(SEM micrographs of boronized 21NiCrMo2 steel with Ekabor II
+powder for 5 h at 750 °C.)
+
+üzerine sürerek Ar/H2 plazmasında değişik
+sıcaklıklarda borlamışlar ve tabakanın difüzyon
+kinetiğini ve morfolojisini incelemişlerdir. Ayrıca,
+optimum borür tabaka kalınlığı için değişik oranda
+boraks ve amorf bor bileşikleri içeren pasta
+kullanmışlardır. Çalışmalar sonucunda % 70 boraks
+ve % 30 amorf bor içeren pastanın en yüksek kalınlığı
+verdiğini ve % 100 boraks içeren pastanın da
+paslanmaz çelikte borür tabakası oluşturduğunu ifade
+etmişlerdir. Plazmanın kimyasal reaksiyonu daha
+fazla etkinleştirmesinden dolayı benzer sıcaklıklarda
+normal kutu borlamadan daha kalın borür tabakası
+oluşmaktadır. Aynı kalınlıktaki borür tabakasını
+plazma ortamında daha düşük sıcaklıkta oluşturmak
+mümkündür [6,14]. Difüzyon kinetiği çalışmaları
+sonucunda plazma pasta borlama ile gerçekleştirilen
+borür tabakasının diğer borlama [20-22] ortamlarına
+nazaran daha kalın ve aktivasyon enerjisinin de daha
+küçük olduğunu vurgulamışlardır [6, 14, 23]. Borlama
+sıcaklık ve süresinin artmasıyla beraber B2O3’e SiC
+ve B4C katılarak yapılan PPB işlemi sonucunda bu
+katkı tozlarının bor tabakasının büyümesinde katkı
+yaptığı tespit edilmiştir. Kutu borlamayla elde
+edilenden daha düşük sıcaklık ve daha kısa sürede
+PPB ile borür tabakası elde edilmiştir. Böylece PPB
+yöntemiyle sıcaklık ve süreden tasarruf sağlamanın
+yanında B2O3 gibi ülkemizde fazla bulunan bor
+kaynağının kullanılıyor olması bor tüketimine ve
+faydalı bir alanda kullanımına imkan sağlaması
+açısından oldukça önem taşımaktadır.
+Çizelge 2. 700, 750 ve 800ºC’de 5 Saat Plazma Pasta
+ve Kutu Borlanmış 21NiCrMo2 Çeliğinin Borür
+Tabaka Kalınlıkları (The boride layer thicknesses formed on
+plasma paste and pack boronized 21NiCrMo2 steel for 5 h at 700,
+750 and 800 ºC)
+Tabaka Kalınlıkları, (μm)
+Borlama
+Yöntemi
+
+Şekil 4. 750 °C’de 5 saat süreyle (ağırlıkça) % 100
+B2O3 pasta karışımında plazma pasta borlanmış
+21NiCrMo2 çeliğinin EDX analizi(EDX analysis of
+
+102
+
+700
+
+750
+
+800
+
+Süre
+(saat)
+
+100 B2O3
+
+45,3
+
+5
+
+19,3
+
+32
+
+5
+
+70 B2O3 + 30 B4C
+
+15,9
+
+20,1
+
+28,4
+
+5
+
+18,2
+
+24,5
+
+45
+
+5
+
+30 B2O3 + 70 B4C
+Kutu
+
+30,3
+
+16
+
+30 B2O3 + 70 SiC
+
+Plazma
+Pasta
+
+27
+
+70 B2O3 + 30 SiC
+
+plasma paste boronized 21NiCrMo2 steel in different % B2O3 paste
+mixture for 5 h at 750 °C.)
+
+700, 750 ve 800ºC’de 5 saat plazma pasta ve kutu
+borlama sonucunda elde edilen borür tabaka
+kalınlıkları Çizelge 2’de verilmiştir. PPB işlemi
+sonucunda en yüksek bor tabakası kalınlığı % 100
+B2O3’te elde edilirken en düşük borür tabakası %70
+B2O3 + %30 B4C pasta karışımında ölçülmüştür.
+700ºC’de Ekabor II tozuyla kutu borlama sonucunda
+herhangi bir borür tabakasına rastlanmamıştır. Bor
+pasta karışımların hepsinde borlama süresi ve
+sıcaklığının artmasıyla birlikte borür tabaka
+kalınlıklarında artışlar meydana gelmiştir [16-19].
+Yoon ve diğerleri [6], boraks (Na2B4O7) ve amorf bor
+karışımından oluşan pastayı 304 paslanmaz çeliğin
+
+Sıcaklık (ºC)
+Karışımlar, (%)
+
+18
+
+24,9
+
+39
+
+5
+
+Ekabor II
+
+----
+
+6,7
+
+24,4
+
+5
+
+Şekil 5’te 700 ve 800ºC’de 5 saat süresince plazma
+pasta ve kutu borlanmış 21NiCrMo2 çeliğinin XRD
+analizleri görülmektedir. Her iki borlama işlemi
+sonucunda çift fazlı (FeB+ Fe2B) borür tabakası elde
+edilmiştir. Plazma pasta borlama yöntemiyle borlanan
+numunelerde, FeB ve Fe2B faz şiddetinin Ekabor II
+tozuyla borlanan numunelere göre daha yüksek
+olduğu tespit edilmiştir. Plazma pasta ve kutu borlama
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+sıcaklığının artmasıyla birlikte FeB fazında artış
+görülürken, Fe2B fazında ise azalma meydana
+gelmiştir. SiC takviyeli B2O3 pastalı numunelerde
+(B4C takviyeli B2O3 pastalı numunelere göre) Fe2B
+fazının FeB fazına göre biraz daha baskın olduğu
+tespit edilmiştir. B4C takviyeli B2O3 pastalı
+
+İ. Güneş ve Ş. Taktak
+
+numunelerde ise % B4C karışım oranın artması FeB
+fazını artırmıştır. % SiC miktarının artmasıyla birlikte
+FeB oranında azalma meydana gelmiştir. Ortamdaki
+bor konsantrasyonunun artması FeB fazı oluşumunu
+artırırken, bor atom potansiyelinin düşmesiyle tek
+bileşenli Fe2B fazı oluştuğu bilinmektedir [24, 25].
+
+Şekil 5. Plazma pasta ve Ekabor II tozuyla kutu borlanmış 21NiCrMo2 çeliğine ait XRD paternleri a) 700ºC
+PPB, b) 800ºC PPB, c) Ekabor II (Kutu) (The X-ray diffraction patterns of plasma paste and pack boronized 21NiCrMo2 steel)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+103
+
+İ. Güneş ve Ş. Taktak
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+3.2 Mikrosertlik (Microhardness)
+Şekil 6’da 700, 750 ve 800°C’de 2, 5 ve 7 saat
+süresince farklı % B2O3 karışımlarda plazma pasta,
+Şekil 7’de Ekabor II tozuyla kutu borlanmış
+21NiCrMo2 çeliğine ait yüzeyden içeriye doğru
+sertlik dağılımlarını gösteren grafikler verilmiştir.
+
+Ekabor II ve plazma pasta borlama sonucunda oluşan
+FeB ve Fe2B fazından dolayı yüzey sertliklerinin
+yüksek olduğu görülmektedir. FeB fazının Fe2B
+fazına göre daha yüksek sertlik değerlerine sahip
+olduğu bilinmektedir [4, 26, 27].
+
+Şekil 6. Farklı % B2O3 pasta karışımlarında plazma pasta borlanmış 21NiCrMo2 çeliğinin yüzeyden içeriye
+doğru sertlik dağılımı, a) 100 B2O3, b) 70 B2O3 + 30 SiC, c) %70 B2O3 + %30 B4C, d) 30 B2O3 + 70 SiC, e) 30
+B2O3 + 70 B4C (From surface to core hardness distribution of the steel plasma paste boronized 21NiCrMo2 steel in different % B2O3
+paste mixtures)
+
+104
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+İ. Güneş ve Ş. Taktak
+
+Şekil 6. Devamı (Continue)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+105
+
+İ. Güneş ve Ş. Taktak
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+Şekil 7. Ticari Ekabor II tozuyla farklı sıcaklık ve sürelerde kutu borlanan 21NiCrMo2 çeliğinin yüzeyden
+içeriye doğru sertlik dağılımı (From surface to core hardness distribution of the steel pack boronized 21NiCrMo2 steel in different
+temperature and times)
+
+700°C’de 2 saat PPB sonucunda en düşük sertlik 1583
+HV0,05 %70 B2O3 + %30 SiC karışımlı bor pastasında
+elde edilirken, en yüksek 1992 HV0,05 ile 800°C’de 7
+saat PPB %30 B2O3 + %70 B4C pastasında elde
+edilmiştir. Ticari Ekabor II tozuyla 800°C’de 7 saat
+kutu borlama sonucunda 1951 HV0,05 sertlik değeri
+elde edilmiştir. Borlama sıcaklığının ve süresinin
+artmasıyla birlikte FeB fazından dolayı numunelerin
+sertlik değerlerinde artış meydana gelmiştir [28-31].
+% B4C miktarının B2O3 pastasında artmasıyla
+numunelerin sertlik değerlerinde artışlar meydana
+gelmiştir. SiC takviyeli B2O3 pasta karışımlar, B4C
+takviyelilere göre daha düşük sertlik değerlerine sahip
+oldukları gözlenmiştir. B2O3 tozuna B4C ilave
+edilmesiyle
+numune
+yüzeylerindeki
+sertlik
+değerlerinde artış meydana getirmiştir. Silisyum borür
+tabakası içinde çözünmeyerek genellikle difüzyon
+bölgesinde bulunur ve ferrit fazı meydana gelmesine
+sebep olur. Borlama sırasında çeliğin iç kısımlarına
+doğru itilerek borür tabakası ile metal ara yüzeyinde
+mekanik özellikleri olumsuz yönde etkileyen
+bileşiklerin oluşmasına neden olur [28, 32-34].
+Plazma pasta borlama işlemiyle daha düşük sıcaklık
+ve sürelerde geleneksel borlama yöntemlerine göre
+daha büyük borür tabakaları elde edilebildiğinden
+dolayı mikrosertlik değerlerinin geleneksel borlamaya
+[35,36] göre biraz daha yüksek olduğu tespit
+edilmiştir.
+4. SONUÇLAR (CONCLUSIONS)
+• Farklı % B2O3 pasta karışımlarıyla plazma
+ortamında plazma pasta ve ticari Ekabor II tozuyla
+elektrik rezistanslı bir fırında 700, 750 ve 800°C’de
+
+106
+
+2, 5 ve 7 saat süresince 21NiCrMo2 çeliği başarıyla
+borlanmıştır.
+• Metalografik
+incelemeler
+sonucunda,
+kaplama/matris ara yüzeyi ve matrisin belirgin
+olarak birbirinden ayrıldığı ve borür tabakasının
+kolonsal bir yapıya sahip olduğu gözlenmiştir.
+• Her iki yöntemde borlama işlem sıcaklık ve
+süresinin artmasıyla birlikte numunelerin tabaka
+kalınlıklarında artışlar gözlenmiştir.
+• Plazmanın kimyasal reaksiyonu daha fazla
+etkinleştirmesinden dolayı benzer sıcaklıklarda PPB
+yöntemiyle, normal kutu borlamadan daha kalın
+borür tabakası elde edilmiştir.
+• X-ışınları difraksiyon analizi sonuçlarında, plazma
+pasta ve Ekabor II tozuyla kutu borlama sonucunda
+çift fazlı yapı (FeB + Fe2B) elde edilmiştir.
+• 800°C’de 7 saat süresince plazma pasta borlama
+yöntemiyle 1992 HV0,05 sertlik değeri elde edilirken,
+ticari Ekabor II tozuyla kutu borlama sonucunda
+1951 HV0,05 sertlik değeri elde edilmiştir.
+• Plazma pasta borlama yöntemiyle, B2O3 gibi
+ülkemizde fazla bulunan bor kaynaklarının
+kullanılıyor olması bor tüketimine ve bor
+kaynaklarının faydalı bir alanda kullanımına imkan
+sağlayacaktır.
+TEŞEKKÜR (ACKNOWLEDGMENT)
+Bu çalışma “2009- Ç0246” numaralı BOREN projesi
+olarak Ulusal Bor Araştırma Enstitüsü tarafından
+desteklenmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+KAYNAKLAR (REFERENCES)
+1. Goeuriot F. P., Thevenot, J., Driver, H., “Surface
+Treatment of Steels: Boridif, a New Boriding
+Process”, Thin Solid Films, 78, 67-76, 1981.
+2. Bozkurt, N., Bor Yayınımı ile Çeliklerde Yüzey
+Sertleştirme, Doktora tezi, İstanbul Teknik
+Üniversitesi, Fen Bilimleri Enstitüsü, 1984.
+3. Ozbek I., Akbulut H., Zeytin S., Bindal C., Ucısık
+A.H., “The Characterization of Borided %99,5
+Purity Nickel”, Surface and Coatings
+Technology, 126:166-170, 2000.
+4. Sinha, A.K., 1991, Boriding, ASM Handbook,
+4:437-447.
+5. Ozbek, I., Konduk, B. A., Bindal, C., Ucısık,
+A.H., “Characterization of Borided AISI 316 L
+Stainless Steel Implant”, Vacuum, 65, 521-525,
+2002.
+6. Yoon, J. H., Jee, Y. K., Lee, S. Y., “Plasma Paste
+Boronizing Treatment of the Stainless Steel AISI
+304”, Surface and Coatings Technology, 112,
+71-75, 1995.
+7. Pertek, A., Kukla, M., “Characterization of
+Complex (B+C) Diffusion Layers Formed on
+Chromium and Nickel-Based Low Carbon Steel”,
+Applied Surface Science, 202, 252-260, 2002.
+8. Küper A., Qiao, X., Stock, H.R., Mayr, P., “A
+Novel Approach to Gas Boronizing”, Surface and
+Coatings Technology, 130, 87-94, 2000.
+9. Nam, K. S., Lee, K. H., Lee, S. R., Kwon, S. C.,
+“A Study on Plasma-Assited Boriding of Steels”,
+Surface and Coatings Technology, 98, 886-890,
+1998.
+10. Hunger, H. J., Löbig, G., “Generation of Boride
+Layers on Steel and Nickel Alloys by Plasma
+Activation of Boron Trifluoride, Thin Solid
+Films, 310, 244-250, 1997.
+11. Filep, E., Farkas, S., “Kinetics of plasma-assisted
+boriding”, Surface and Coatings Technology,
+199, 1-6, 2005.
+12. Cabeo, E. R., Laudien, G., Biemer, S., Rie, K.-T.,
+Hoppe, S., “Plasma-Assisted Boriding of
+Industrial Components in a Pulsed d.c. Glow
+Discharge”, Surface and Coatings Technology,
+116-119, 229-233, 1999.
+13. Bartsch, K., Leonhardt, A., “Formation of Iron
+Boride Layers on Steel by d.c.-Plasma Boriding
+and Deposition Processes”, Surface and
+Coatings Technology, 116-119, 386-390, 1999.
+14. Gunes, I., Ulker, U., Taktak, S., “Plasma Paste
+Boronizing of AISI 8620, 52100 and 440C steels”
+Materials and Design, Inpress.
+15. Kulka, M., Pertek, A., “The Importance of
+Carbon Content Beneath Ironborides After
+Boriding Of Chromium and Nickel-based Lowcarbon Steel”, Applied Surface Science, 214,
+161-171, 2003.
+16. Tabur, M., İzciler, M., Gul, F., Karacan, I.,
+“Abrasive Wear Behavior of Boronized AISI
+8620 Steel”, Wear, 266, 1106-1112, 2009.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+İ. Güneş ve Ş. Taktak
+
+17. Oliveria, C. K. N., Casteletti, L. C., Lombardin,
+A., Totten, G. E., Heck, S. C., “Production and
+Characterization of Boride Layers on AISI D2
+Tool Steel”, Vacuum, 84, 792-796, 2010.
+18. Lou, D. C., Akselsen, O. M., Solberg, J. K.,
+Onsoien, M. I., Berget, J., Dahl, N., “SiliconBoronising of Nimonic 90 Superalloy”, Surface
+and Coatings Technology, 200, 3582-3589,
+2006.
+19. Sahin, S., “Effects of Boronizing Process on the
+Surface Roughness and Dimensions of AISI
+1020, AISI 1040 and AISI 2714”, Journal of
+Materials Processing Technology, 209, 17361741, 2009.
+20. Er, U., Par, B., “Wear of Plowshare Components
+in SAE 950C Steel Surface Hardened by Powder
+Boriding”, Wear, 261, 251-255, 2006.
+21. Meriç, C., Şahin, S. ve Yılmaz, S. S.,
+“Investigation of The Effect on Boride Layer of
+Powder Particle Size Used in Boronizing with
+Solid Boron-Yielding Substances”, Materials
+Research Bulletin, 35, 2165-2172, 2000.
+22. Atik, E., Yunker, U., Meric, C., “The Effects of
+Conventional Heat Treatment and Boronizing on
+Abrasive Wear and Corrosion of SAE 1010, SAE
+1040, D2 and 304 Steels”, Tribology
+International, 36, 155-161, 2003.
+23. Bejar, M. A., Henríquez, R., “Surface Hardening
+of Steel by Plasma-Electrolysis Boronizing”,
+Materials and Design, 30, 1726-1728, 2009.
+24. Chen, X. J., Yu, L. G., Khor, K. A., Sundararajan,
+G., “The Effect of Boron-Pack Refreshment on
+the Boriding of Mild Steel by the Spark Plasma
+Sintering (SPS) Process”, Surface and Coatings
+Technology, 202, 2830-2836, 2008.
+25. Yu, L. G., Chen, X. J., Khor, K. A., Sundararajan,
+G., “FeB/Fe2B Phase Transformation During SPS
+Pack-Boriding: Boride Layer Growth Kinetics”,
+Acta Materialia, 53, 2361-2368, 2005.
+26. Bindal, C., Ticari Karbon Çelikleri ve Düşük
+Alaşımlı Çeliklerin Yüzeyine Borlamayla
+Seramik Kompozit Kaplama ve Bazı Malzeme
+Özelliklerine Etkileri, Doktora Tezi, İstanbul
+Teknik Üniversitesi, Fen Bilimleri Enstitüsü,
+İstanbul, 1991.
+27. Sen, S., Ozbek, I., Sen, U., Bindal, C.,
+“Mechanical Behavior of Borides Formed on
+Borided Cold Work Tool Steel”, Surface and
+Coatings Technology, 135, 173-177, 2001.
+28. Ozbek, I., Bindal, C., “Mechanical Properties of
+Boronized AISI W4 Steel”, Surface and
+Coatings Technology, 154, 14-20, 2002.
+29. Sen, S., Sen, U., Bindal, C., “The Growth Kinetics
+of Borides Formed on Boronized AISI 4140
+Steel”, Vacuum, 77, 195-202, 2005.
+30. Culha, O., Toparli, M., Sahin, S., Aksoy, T.,
+“Characterization and Determination of FexB
+Layers’ Mechanical Properties”, Journal of
+Materials Processing Technology, 206, 231240, 2008.
+
+107
+
+İ. Güneş ve Ş. Taktak
+
+Kutu Plazma Pasta Borlanmış 21NiCrMo2 Çeliğinin Yüzey Karakterizasyonu
+
+31. Sahin, S., Meriç, C., Saritas, S., “Production of
+Ferroboron Powders by Solid Boronizing
+Method”, Advanced Powder Technology, 21,
+483-487, 2010.
+32. Baştürk, S., Erten, M., “Borlama ile Yüzey
+Sertleştirme Çalışmaları”, Mühendis Makine
+Dergisi, Cilt 47, Sayı 563, 2006.
+33. Çelebi, F. G., 31CrMoV9 ve 34CrAlNi7
+Çeliklerinin
+Borlama
+Kinetiklerinin
+İncelenmesi, Yüksek Lisans Tezi, Sakarya
+Üniversitesi, Fen Bilimleri Enstitüsü, Sakarya,
+2005.
+
+108
+
+34. Şen, Ş., Termokimyasal Borlama İşlemi ile
+AISI 5140, AISI 4140 ve AISI 4340
+Çeliklerinin
+Yüzey
+Performanslarının
+Geliştirilmesi,
+Doktora
+Tezi,
+Sakarya
+Üniversitesi, Fen Bilimleri Enstitüsü, Sakarya,
+1998.
+35. Bindal, C., Üçışık, A. H., “Characterization of
+Boriding of 0.3% C, 0.02% P Plain Carbon
+Steel”, Vacuum, 82, 90-94, 2008.
+36. Ozdemir, Ö., Omar, M. A., Usta, M., Zeytin, S.,
+Bindal, C., Ücisik, A. H., “An Investigation on
+Boriding Kinetics of AISI 316 Stainless Steel”,
+Vacuum, 83, 175-179, 2008.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+

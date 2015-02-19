@@ -1,0 +1,1274 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 3, 505-515, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 3, 505-515, 2014
+
+AISI 304 ÇELİĞİNİ FARKLI GEOMETRİLERDE LAZERLE
+KESMEDE PARAMETRELERİN BOYUTSAL DOĞRULUK
+ÜZERİNE ETKİLERİNİN MODELLENMESİ
+Zülfünaz DURUKAN*, Ali Riza MOTORCU**, Abdulkadir GÜLLÜ***
+
+*
+
+Şırnak Üniversitesi, Şırnak Meslek Yüksekokulu, Makine ve Metal Teknolojileri Bölümü, Şırnak
+Çanakkale Onsekiz Mart Üniversitesi, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü, Çanakkale
+***
+Gazi Üniversitesi, Teknoloji Fakültesi, İmalat Mühendisliği Bölümü, Ankara
+zulfunaz@sirnak.edu.tr, armotorcu@comu.edu.tr, agullu@gazi.edu.tr
+**
+
+(Geliş/Received: 18.12.2013; Kabul/Accepted: 01.04.2014)
+ÖZET
+Bu çalışmada, 4 ve 6 mm kalınlığındaki AISI 304 paslanmaz çelik malzeme üzerinden belirli ölçülerde üçgen,
+kare ve dairesel şekilli parçalar farklı kesme şartlarında CO2 lazer kesim tezgâhı ile kesilmiş ve kesilen
+numunelerin boyutsal doğruluğu üzerinde kesme parametrelerinin etkileri araştırılmıştır. Bağımsız değişkenler
+olarak lazer gücü (W), kesme ilerlemesi (F), odak noktası (ON) ve gaz basıncı (P) seçilmiştir. Tam Faktöriyel
+Deneysel Tasarım Tekniği (TFT) kullanılarak bağımsız parametrelerin üç farklı seviyesinde 4 ve 6 mm
+kalınlığındaki sac malzemeler üzerinde toplam 486 deney yapılmıştır. 3 boyutlu koordinat ölçme tezgâhı (CMM)
+ile yapılan ölçümler sonucu elde edilen deneysel veriler kullanılarak üçgen, kare ve dairesel şekilli numunelerin
+boyutsal doğruluğu üzerinde lazer kesme parametrelerinin etkilerini içeren ikinci dereceden tahminsel modeller
+Regresyon Analizi ile geliştirilmiştir. %95 güven seviyesinde geliştirilen tahminsel denklemlerin korelâsyon
+katsayıları R2=0,78’in üzerinde elde edilmiştir. Bu çalışmada ayrıca, bağımsız parametrelerin boyutsal doğruluk
+üzerinde etkilerini gösteren ana etki grafikleri oluşturulmuş ve parametrelerin etkileri değerlendirilmiştir.
+Kesilen parçaların boyutsal doğruluğu üzerinde en etkili parametreler sırasıyla lazer gücü, kesme ilerlemesi ve
+odak noktası olmuştur.
+
+
+Z.Durukan ve ark.
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+1. GİRİŞ (INTRODUCTION)
+Lazer ışınıyla malzeme ile temas olmadan çapaksız
+kesme yapılabilmektedir. Uygulamadaki bazı
+avantajları nedeniyle lazerle kesme tekniğinin
+kullanım oranı ve alanı sürekli artmaktadır. Lazerle
+kesme yöntemi ile seri üretim yapılabilmekte ve
+malzeme firesi en aza inmektedir. CNC yazılım
+programlarıyla, üretim hızı artmakta ve aynı kalınlıkta
+birçok parça birlikte kesilebilmektedir [1].
+Lazerler kullanıldıkları dalga boylarına, kullanılan
+aktif maddenin cinsine, enerjinin etkinliğine ve
+uygulama şekline göre birbirleri arasında farklılık
+göstermektedirler [2]. Yüksek güç, kısa puls, değişken
+odak noktası gibi farklı parametreler kullanılarak
+kesme yapmak parçaların yüksek ölçü tamlığında
+üretilmesini mümkün kılmaktadır [3]. Lazerle kesme
+yaparken gerekli enerjinin malzemeye verilmesinde
+farklı uygulama yöntemleri vardır. İlk önce enerji ışık
+enerjisi olarak kesilecek iş parçasına gönderilir.
+Kesilen metaller soğudukça malzeme üzerinde gözle
+görülebilen veya görülemeyen izler kalır. Bu izlerin
+bulunduğu bölge "ısıdan etkilenen bölge" olarak
+adlandırılır [4]. Kesim bölgesinin ön ve yakın
+çevresindeki ısı etkilerinin bilinmesi lazerle kesme
+süreçlerinin etkin kontrolü açısından önemlidir [5].
+Lazer ışını ile farklı kalınlık ve özellikteki
+malzemelerin kesilmesi üzerine teorik ve deneysel
+çalışmalar yapılmaktadır. Yilbaş tarafından, 500-1500
+W lazer yoğunluğu ve 1-4 cm/s kesme hızı aralığında
+yapılan lazerle kesme çalışmasında güç, enerji faktörü
+ve kesme hızında yapılan artışın kesme aralığında
+%10’luk bir artışa sebep olduğu tespit edilmiştir [6].
+Yumuşak demirin CO2 lazer ile kesilmesinde,
+odaklama lensleri odak ayarlarının oyuklaşma ve
+kesme aralığı üzerine etkilerinin araştırıldığı
+çalışmada, kesme aralığı için matematiksel model
+oluşturulmuş, güç ve odak ayarlarının birbiri ile
+ilişkili olduğu belirlenmiştir. Güç yoğunluğunun fazla
+olduğu durumlarda kesme hızının azaltılmasının
+kesme aralığını belirgin oranda arttırdığı ve kesme
+aralığı üzerinde kesme hızının etkisinin lazer
+gücünden daha az olduğu tespit edilmiştir [7]. Çelik
+plakaların yorulma özellikleri üzerinde geleneksel
+mekanik kesim ile lazer kesimin etkileri
+karşılaştırıldığında, lazer kesimden sonraki malzemenin
+yorulma derecesinin mekanik kesime göre daha yüksek
+çıktığı görülmüştür [8]. Kaplan tarafından yapılan
+çalışmada lazer ışınıyla metal kesme için kütle,
+momentum ve enerji denge denklemlerini içeren
+matematiksel bir model geliştirilmiştir [9]. Yilbaş
+tarafından yapılan bir başka çalışmada lazer-metal
+etkileşiminde sıcaklık ve basınç değişimleri
+incelenmiş ve lazer ışımasına maruz kalan bir metalde
+meydana gelen ısı transferi ısı iletim teorisi ile
+açıklanmıştır [10]. Çelik levhaların lazer ile
+
+506
+
+kesiminde ışın bel pozisyonu ve malzeme kalınlığının,
+kesme aralığı ve oyuk oluşumlarına etkisinin
+incelendiği çalışmada, ışın bel pozisyonunun kesme
+aralığını belirgin olarak etkilediği, artan malzeme
+kalınlığının oyuklaşma derinliğini ve genişliğini
+arttırdığı tespit edilmiştir [11]. Rajaram ve diğerleri
+tarafından yapılan çalışmada 4130 çeliğinin CO2 lazer
+ile kesilmesinde lazer gücünün kesme aralığı
+üzerindeki etkisinin ilerleme miktarından daha fazla
+olduğu gözlenmiştir. Çalışmada ayrıca, ilerleme
+miktarının artmasıyla yüzey pürüzlülük değerlerinin
+arttığı ve lazer gücün yüzey pürüzlülüğü üzerinde
+etkisinin çok az olduğu tespit edilmiştir [12].
+Lazer ile kesme işlemi esnasında işlenen malzemede,
+ışın kalınlığından dolayı, bir kesme aralığı oluşmakta
+ve bu durum kesilen parçanın ölçü tamlığını
+etkilemektedir. Diğer taraftan, kesilecek parça
+üzerinde lazerin takip edeceği yol ve geometride
+farklı sapmaların oluşmasına sebep olmaktadır. Bu
+nedenle, lazerle kesme işleminde istenilen ölçü
+toleransları içinde kesme yapılabilmesi için en uygun
+parametrelerin belirlenmesi ve parametre etkilerinin
+gözlemlenmesi gerekmektedir [13].
+Deneysel tasarım ve tahmini modelleme yöntemleri,
+harcanan zamanı ve malzemeyi azaltarak kesme
+parametrelerinin
+etkilerinin
+belirlenmesini,
+bu
+parametrelerin en uygun şekilde seçilmesini; kesme
+kuvveti, yüzey pürüzlülüğü, takım ömrü ve boyutsal
+tamlık gibi bağımlı parametrelerin tahmini olarak
+hesaplanmasını sağlamaktadır [14]. Birçok tahmini
+modelleme yöntemine göre deney sayısı fazla olmasına
+rağmen sistematik olması ve parametrelerin
+etkileşimlerinin etkisini daha iyi yansıtması sebebiyle
+Tam Faktöriyel deneysel tasarım tekniği (TFT) tercih
+edilmektedir.
+Bu çalışmada AISI 304 çeliğinin CO2 lazer tezgâhında
+farklı
+geometrilerde
+kesilmesinde
+kesme
+parametrelerinin numunelerin boyutsal doğruluğu
+üzerinde etkileri Tam Faktöriyel deney düzeninde
+yapılan deneylerle araştırılmış ve deneysel sonuçlar
+kullanılarak ikinci dereceden tahmini denklemler
+geliştirilmiştir.
+2. MATERYAL VE METOT
+
+(MATERIAL AND
+
+METHOD)
+
+2.1. Malzeme (Material)
+Deneysel çalışmada, endüstride yaygın olarak
+kullanılan, 4 ve 6 mm kalınlığında, levha şeklindeki
+AISI 304 paslanmaz çelik malzemelerden Şekil 1’de
+verilen boyutlarda üçgen, kare, altıgen ve daire kesitli
+parçalar CO2 lazer ile kesilmiştir [1]. Bu çalışmada,
+altıgen şekilli kesimler üzerinden alınan ölçümler
+çalışmaya dâhil edilmemiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+Z.Durukan ve ark.
+
+Şekil 1. Lazer tezgâhında kesilen numuneler ve boyutları. (The samples on the cutting CNC laser machine and their
+dimensions)
+
+üzerindeki ölçüm işlemleri de göz önünde
+bulundurularak, sac malzeme üzerine bir yerleşim
+planı hazırlanmış ve ilgili koordinatlar komut olarak
+tezgâhın bilgisayarına girilmiştir. 4 mm ve 6 mm
+kalınlığındaki saclar üzerinde, üç farklı (kare, üçgen
+ve dairesel) geometride, değişik kesme şartlarında ve
+deneysel tasarımdaki deney sırası da gözetilerek
+kesim yapılmıştır. CO2 lazer kesme işleminin şematik
+gösterimi Şekil 2’de gösterilmektedir. Kesme işlemi
+sırasında CO2 lazerinin oluşması için kullanılan gaz
+karışımı %71,7 CO2 %23,4 (N2) azot ve kalan kısım
+helyum (He) gazından oluşmaktadır.
+
+Östenitik krom nikelli
+paslanmaz
+çelikler,
+bileşimlerinde %12-25 Cr ve %8-25 Ni
+içermektedirler ve manyetiklik özellikleri yoktur. Çok
+iyi kaynak kabiliyetine sahiptirler. Deneylerde
+kullanılan 4 mm ve 6 mm kalınlığındaki AISI 304
+paslanmaz çeliklerinin (ASTM A240-05) sertlikleri
+ortalama 180 HB30 (Brinell Sertlik Değeri) olup
+kimyasal kompozisyonları Tablo 1’de verilmiştir
+2.2. Metot (Method)
+Üç farklı geometriye sahip numunelerin kesilmesinde
+4400 W gücündeki Bystronic Byspeed 3015 CO2
+lazer tezgâhı kullanılmıştır. Tezgâhın teknik
+özellikleri Tablo 2’de verilmiştir [15].
+
+Bu çalışmada, TFT kullanılmıştır. Bir deneyde birden
+fazla faktörün söz konusu olduğu durumlarda
+faktöriyel tasarım kullanılmalıdır. Faktöriyel tasarım,
+her bir faktörün seviyelerinin mümkün olan tüm
+kombinasyonlarının denemeye tabi tutulmasıdır. TFT
+
+CO2 lazer tezgâhı ile kesme işlemi için kesilecek
+geometriler ve boyutları belirlendikten sonra, bir
+sonraki süreçte gerçekleştirilecek olan numuneler
+
+Tablo 1. AISI 304 paslanmaz çeliğinin kimyasal kompozisyonu. (Chemical composition of AISI 304 stainless steel)
+Kimyasal Bileşim (% ağırlık)
+Malzeme
+C
+
+Si
+
+Mn
+
+P
+
+S
+
+Cr
+
+Ni
+
+N
+
+AISI 304 (Kalınlık 4 mm)
+
+0,040
+
+0,46
+
+1,67
+
+0,029
+
+0,002
+
+18,3
+
+8,1
+
+0,045
+
+AISI 304 (Kalınlık 6 mm)
+
+0,024
+
+0,37
+
+1,64
+
+0,029
+
+0,003
+
+18,2
+
+8,2
+
+0,035
+
+Tablo 2. CO2 lazer tezgâhının teknik özellikleri [15]. (Technical properties of CO2 laser machine)
+Tezgâh Parametreleri
+
+Değerler
+
+Tezgâh Parametreleri
+
+Değerler
+
+Osilatör Gücü
+
+4,4 kW
+
+Eksen Hızları
+
+120 m/min
+
+Maksimum İş Parçası Ölçüsü
+
+3000 mm x1500 mm
+
+İvmelenme Değeri
+
+30 m/s²
+
+X/Y/Z Eksen Hareketleri
+
+3048 mm / 1524 mm / 100 mm
+
+Pozisyonlama Hassasiyeti
+
+±0,1 mm
+
+Dalga Boyu
+
+10,6 µm
+
+Tekrarlama Hassasiyeti
+
+±0,05 mm
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+507
+
+Z.Durukan ve ark.
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+1. İşlem gazı
+2. Nozul
+3. Nozul-yüzey arası boşluk
+4. Kesme ilerlemesi
+5. Dışarıya akan ergimiş malzeme
+6. Dışarıya atılmış malzeme
+7. Kesme çizgileri
+8. Isı etkisi altında kalan bölge
+9. Kesme aralığı
+10. Malzeme kalınlığı
+11. Odaklama lensi
+12. Lazer ışını
+
+Şekil 2. Lazerle kesme işleminin şematik gösterimi. (Schematic presentation of laser cutting process)
+en az iki veya daha fazla faktör ve bu
+faktörlere/parametrelere ait en az iki veya daha fazla
+seviyenin bulunduğu deneylerde seviyelerin birbirleri
+ile çarpımından oluşan kombinasyondur [16-18]. TFT
+istatistiksel yöntemler ile birleştirildiğinde analiz
+aşamasında araştırmacılara büyük kolaylıklar
+sağlamaktadır. TFT deneylerin analizinde Regresyon
+Analizi kullanılmaktadır. Bu yöntemler yardımı ile bir
+faktörün deney üzerindeki etkisini hesaplamak
+mümkündür. Bu yöntemler, işlemlerin sırasında bir
+değişiklik yapmadan farklılıkların kaynağının
+belirlenmesine yardımcı olur [17, 18].
+Bu deneysel çalışmada, bağımlı parametre olan
+boyutsal doğruluğun (L) üzerinde bağımsız
+parametreler; lazer gücü (W), kesme ilerlemesi (F),
+odak noktası (ON) ve gaz basıncının (P) etkileri
+araştırılmıştır [1]. Bağımlı parametrelerin seviye ve
+değerleri Tablo 3’te verilmiştir. TFT kullanılarak, 4
+mm ve 6 mm kalınlığındaki AISI 304 paslanmaz
+çeliği malzeme üzerinde her bir geometrinin kesimi
+için 81’er adet (3x3x3x3=81) olmak üzere toplam 486
+adet CO2 lazer kesim yapılmıştır.
+Şekil 1’de boyut ölçüleri verilen üçgen, kare ve
+dairesel geometrilerin ölçülendirilen kısımları DEA
+marka Koordinat Ölçme Tezgâhında (CMM)
+ölçülmüştür. Bu tezgâh, servo motorlu, çözünürlüğü
+<0,5 µm’dir. Hassasiyeti (3,0+L/200) µm (4,0+L/200)
+µm’dir. Tezgâh, 15 her tarafa dönebilen prob
+başlığına sahiptir [1].
+Kesilen üçgen ve kare geometrili numuneler
+üzerindeki boyutların ölçülmesi; CMM tezgâhının
+
+prob ucu ile içten köşelere en yakın yerlere
+dokundurularak yapılmıştır. Numune üzerinden alınan
+koordinat değerleri tezgâhın bilgisayar programına
+aktarılmış ve programda koordinat noktaları
+üzerinden çizgiler geçirilerek üçgen ve kare şekiller
+oluşturulmuştur. Bu şekillerden karşılıklı kenar
+uzaklıkları ölçülerek bilgisayara kaydedilmiştir. Daire
+ölçümünde ise prob uç içten 26 noktaya
+dokundurulmuş, bilgisayar ortamında bu noktalardan
+geçen bir daire çizdirilmiştir. Bu dairenin çapı,
+ölçülen
+numunedeki
+dairenin
+çapı
+olarak
+belirlenmiştir. Ölçme sonuçları bilgisayarda kayıt
+altında tutularak her şeklin ölçme sonucunun kendi
+içinde ortalaması alınmıştır [1].
+3. DENEYSEL SONUÇLAR VE TARTIŞMA
+(EXPERIMENTAL RESULTS AND DISCUSSION)
+
+Deneysel çalışma sonucu elde edilen boyut ölçüleri
+MİNİTAB 16.0 istatistik paket programında işlenerek
+bağımlı ve bağımsız parametreler arasındaki ilişkileri
+yansıtan, içerisinde bağımsız parametrelerin ana
+etkilerinin yanı sıra karelerinin etkileri ve parametre
+etkileşimlerinin etkisini de barındıran ikinci
+dereceden tahmini denklemler geliştirilmiştir.
+3.1. Boyutsal Doğruluk Tahminsel Denklemleri
+(Predictive Equations for Dimensional Accuracy)
+
+Deneysel çalışmada, 4 ve 6 mm kalınlıktaki üç farklı
+geometrinin lazer ile kesiminde, TFT sistematiği takip
+edilmiştir. Yapılan deneyler sonucunda elde edilen
+verilerle, bağımlı parametre (çıkış parametresi) olan
+boyutsal doğruluk (L) için kesme parametrelerinin ana
+
+Tablo 3. Bağımsız parametreler ve seviyeleri. (Independent parameters and their levels)
+Parametreler
+
+Sembol
+
+Birimi
+
+Seviye 1
+
+Seviye 2
+
+Seviye 3
+
+Güç
+
+W
+
+Watt
+
+3400
+
+3700
+
+4000
+
+Kesme İlerlemesi
+
+F
+
+mm/min
+
+1000
+
+1100
+
+1200
+
+ON
+
+mm
+
+7
+
+7,5
+
+8
+
+P
+
+bar
+
+14
+
+15
+
+16
+
+Odak Noktası
+Gaz Basıncı
+
+508
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+Z.Durukan ve ark.
+
+Tablo 4. Üç farklı geometrik şekilde kesilen AISI 304 çeliği için teorik boyut ölçülerini veren tahmini
+denklemler (Predictive equations providing dimensions of sizes for cutting three different geometric shapes)
+Geometrik Şekil
+
+Malzeme
+Kalınlığı
+
+Korelasyon
+Katsayısı
+
+Tahminsel Denklem
+L 4 Üçgen  27 ,8  ( 0 , 00101 * W )  ( 0 , 00306 * F )  ( 0 ,139 * ON )
+
+4 mm
+
+ ( 0 , 222 * P )  ( 0 , 000000
+
+* W 2 )  ( 0 , 000001 * F 2 )  ( 0 , 0075 * ON
+
+ ( 0 , 00548 * P )  ( 0 , 000034
+2
+
+ ( 0 , 000154
+
+* W * ON )  ( 0 , 000014
+
+* F * ON )  ( 0 , 000014
+
+2
+
+)
+
+R2=0,823
+
+2
+
+)
+
+R2=0,782
+
+2
+
+)
+
+R2=0,894
+
+*W * P)
+
+* F * P )  ( 0 , 00194 * ON * P )
+
+L 6 Üçgen  50 , 6  ( 0 , 00519 * W )  ( 0 , 00685 * F )  (1, 40 * ON )
+
+6 mm
+
+4 mm
+
+ ( 0 , 229 * P )  ( 0 , 000000 * W 2 )  ( 0 , 000006 * F 2 )  ( 0 , 0147 * ON
+ ( 0 , 0067 * P 2 )  ( 0 , 000398 * W * ON )  ( 0 , 000030 * W * P )
+ ( 0 , 000550 * F * ON )  ( 0 , 000197 * F * P )  ( 0 , 0219 * ON * P )
+L 4 Kare  26 , 4  ( 0 , 00143 * W )  ( 0 , 00612 * F )  (1, 28 * ON )
+ ( 0 , 284 * P )  ( 0 , 000000 * W 2 )  ( 0 , 000002 . * F 2 )  ( 0 , 0784 * ON
+ ( 0 , 00963 * P )  ( 0 , 00003 * W * ON )  ( 0 , 000014 * W * P )
+ ( 0 , 000058 * F * ON )  ( 0 , 000111 * F * P )  ( 0 , 009 * ON * P )
+2
+
+L 6 Kare  51 , 3  ( 0 , 00519 * W )  ( 0 , 00147 * F )  (1,83 * ON )
+ ( 0 , 76 * P )  ( 0 , 000001 * W 2 )  ( 0 , 00000 * F 2 )  ( 0 , 0055 * ON 2 )
+
+6 mm
+
+ ( 0 , 0119 * P 2 )  ( 0 , 000001 * W * F )  ( 0 , 000234 * W * ON )
+ ( 0 , 00000 * W * P )  ( 0 , 000147 * F * ON )  ( 0 , 000058 * F * P )
+
+R2=0,785
+
+ ( 0 , 0689 * ON * P )
+
+L 4 Daire  42 , 2  ( 0 ,0015 * W )  ( 0 ,00349 * F )  ( 0 , 207 * ON )
+
+4 mm
+
+ ( 0 , 208 * P )  ( 0 ,000000 * W 2 )  ( 0 ,00000 * F 2 )  ( 0,0268 * ON 2 )
+ ( 0 ,00354 * P 2 )  ( 0 ,000008 * W * ON )  ( 0,000033 * W * P )
+
+R2=0,885
+
+ ( 0 ,00002 * F * ON )  ( 0 ,00004 * F * P )  ( 0 ,0102 * ON * P )
+L 6 Daire  64  ( 0 , 0057 * W )  ( 0 , 0073 * F )  ( 2 , 26 * ON )
+ ( 0 ,148 * P )  ( 0 , 000001 * W 2 )  ( 0 , 000005 * F 2 )
+
+6 mm
+
+ ( 0 , 0423 * ON 2 )  ( 0 , 00215 * P 2 )  ( 0 , 000001 * W * F )
+
+R2=0,877
+
+ ( 0 , 00028 * W * ON )  ( 0 , 000003 * W * P )  ( 0 , 000049 * V * ON )
+ ( 0 , 000056 * F * P )  ( 0 , 0383 * ON * P )
+
+etkileri ile karelerinin ve birbirleriyle doğrusal
+etkileşimlerinin sonucunda oluşan, %95 anlamlılık
+seviyesinde, ikinci dereceden tahmini denklemler
+geliştirilmiştir. Tablo 4'te sunulan ikinci dereceden
+lineer regresyon denklemlerinden oluşan tahmini
+modellerin korelâsyon katsayıları (R2) incelendiğinde
+en düşük değerin 0,782 olduğu görülmektedir.
+Korelâsyon katsayılarının yüksek olması geliştirilen
+denklemlerin geçerliliğini yansıtmaktadır.
+3.2. Ana Etki Grafikleri (Main Effect Graphs)
+Ana etki grafikleri, çıkış parametresi olan bağımlı
+değişkenin, giriş parametreleri olan bağımsız
+değişkenleri farklı seviyelerinde ne şekilde
+etkilendiğini
+gösteren
+grafiklerdir.
+Doğrusal
+kesimlerde kenarların doğruluğu, köşeler ve kesilen
+profillerin boyutsal doğruluklarının korunması
+oldukça önemlidir. Doğrusal kesimlerde daha iyi
+doğrusallık ve boyutsal tamlık lazer ışını yoluyla elde
+edilen yüksek enerji yoğunluğu ile ilgilidir [19].
+Yüksek enerji yoğunluğu kesim aralığını ve boyutsal
+doğruluğu etkilemektedir. Artan kesim aralığı ile
+kesilen geometrilerin ölçüleri anma ölçüsünden
+pozitif (+) yönde sapmakta yani daha büyük
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+değerlerde ölçümler elde edilmektedir. 4 ve 6 mm
+kalınlığındaki sac malzemeler üzerinden üçgen
+geometrili profillerin istenilen ölçülerde kesilmesinde
+giriş parametrelerinin ölçme sonuçları üzerine etkileri
+Şekil 3a ve Şekil 3b’de verilmiştir. Şekil 3a’da dikkati
+çeken ilk parametre en geniş ölçme sonucu aralığını
+kapsamasıyla odak noktasıdır. Odak noktası değerinin
+artışı üçgen geometrili kesilen numunelerin ölçüm
+değerleri 30 mm anma ölçüsünden + yönde sapma
+göstermiştir. Odak noktası düşük değerlerde
+olduğunda lazer ışınlarının odaklanılan düzlemden
+yani iş parçasının üst yüzeyinden sapması da düşük
+olmaktadır [20]. Odak noktası değerleri arttırıldığında
+ışınlar daha geniş bir alana dağılmaktadır. Bu
+durumda, kesim aralık değerleri artmakta ve nominal
+ölçüden uzaklaşılmaktadır.
+Kesme ilerlemesinin 1000 mm/min'den 1100
+mm/min'e
+yükseltilmesiyle
+nominal
+ölçünün
+üzerindeki değerlerden nominal ölçü değerlerine
+doğru düşüş gerçekleşmekte iken 1100 mm/min
+ilerleme değerinden sonra özellikle 4 mm
+kalınlığındaki malzemenin kesilmesinde ölçü
+değerlerinde belirgin bir değişme olmamaktadır (Şekil
+3a). Dolayısıyla 1100 mm/min, 4 mm ve 6 mm
+kalınlığındaki malzemelerin üçgen kesimi için
+
+509
+
+Z.Durukan ve ark.
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+optimum kesme ilerlemesi değeridir. Kesme
+ilerlemesinin düşük değerlerinde iş parçası malzemesi
+zamana bağlı olarak daha fazla lazer ışınına maruz
+kaldığından daha yüksek ısı transferi nedeniyle kesim
+aralığı artmakta ve nominal ölçüden uzaklaşılmaktadır
+[21].
+Gaz basıncının artışına bağlı olarak nominal ölçü 30
+mm'den + yönde sapmalar oluşmuş iken bu sapmalar
+6 mm kalınlığındaki malzemenin kesilmesinde daha
+da artmıştır (Şekil 3a ve 3b). Düşük gaz basıncı
+kesilen yüzeylerde daha düşük çizgi derinliklerinin
+(Şekil 2) oluşmasına neden olmuştur. Kesilen yüzey
+üzerinde oluşan ince çizgi ve çizikler (Şekil 2) lazerle
+kesmenin kalitesini etkileyen önemli bir unsur olup
+lazerle kesilmiş parçanın yüzey pürüzlülüğünü,
+görüntüsünü ve boyutsal doğruluğunu etkilemektedir
+[20]. Diğer taraftan, gaz basıncı düşük olduğunda iş
+parçası üzerinden kaldırılan malzeme miktarı da
+düşük olmaktadır. Bu nedenle, artan gaz basıncına
+bağlı olarak anma ölçüsü 30 mm'den + yöndeki
+sapmalar artarak boyutsal doğruluk azalmıştır.
+Lazer gücü de kesilen iş parçalarının boyutsal
+doğruluğunu etkileyen önemli bir faktördür. Lazer
+gücü ile birlikte lazer ışınının gücü de artmaktadır.
+Dolayısıyla iş parçası malzemesi kolay ergiyerek daha
+kolay kesilebilecektir. Ancak lazer gücünün optimal
+değerinin seçilmesi gerekir. Lazer gücü değerinin
+optimal değerlerden yüksek seçilmesi ısıl olarak
+etkilenen bölgenin alanını arttıracaktır. Lamikiz ve
+diğerleri tarafından yapılan çalışmada yüksek
+dayanımlı çeliklerin CO2 lazer ile kesiminde lazer
+gücünün artışına bağlı olarak kesim aralığı
+değerlerinin de arttığı tespit edilmiştir. Bu durum,
+yüksek değerlerdeki lazer gücünün çelik levhaya
+yüksek ısı transferi nedeniyle daha fazla malzeme
+eritilmesine atfedilmiştir [21].
+4 ve 6 mm kalınlıktaki AISI 304 paslanmaz çeliğin
+kesilmesinde boyutsal doğruluk açısından optimum
+
+a. Kalınlık 4 mm (Thickness 4 mm)
+
+lazer gücünün 4000 W olduğu Şekil 3a ve 3b'de
+görülmektedir. Özellikle 6 mm kalınlığındaki iş
+parçasının kesilmesinde boyutsal doğruluk üzerinde
+en etkili parametre olarak lazer gücü tespit edilmiştir
+(Şekil 3b). St37 çeliğin lazerle kesilmesinde de lazer
+gücünün kesme hızından daha etkili olduğu tespit
+edilmiştir [22].
+4 mm kalınlığındaki sac malzemenin anma ölçüsü
+28,28 mm olan kare şeklinde kesilmesinde ölçme
+sonuçları üzerinde bağımsız parametrelerin etkileri
+Şekil 4a’da verilmiştir. Odak noktasının en düşük (7
+mm) değerinden orta değerine (7,5 mm) artışla ölçüm
+değerlerinde hızlı bir yükselme görülmekte ve
+boyutsal doğruluk bozulmaktadır. Bu değerden sonra
+ise anma ölçüsü değerlerinde düşme olmakta ve
+boyutsal doğruluk iyileşmektedir. Odak noktası
+değerleri arttırıldığında ışınlar daha geniş bir yüzey
+alanına dağılmaktadır. Bu durumda kesim aralık
+değerlerinin artması sonucu nominal ölçüden
+uzaklaşılmaktadır
+[20].
+Dolayısıyla
+4
+mm
+kalınlığındaki AISI 304 malzemenin kesilmesinde
+anma ölçüsünden sapmanın engellenerek boyutsal
+doğruluğun sağlanması için optimal odak noktası
+değerinin 7 mm olduğu söylenebilir.
+6 mm kalınlığındaki AISI 304 malzemesinin
+kesilmesinde odak noktasının boyutsal doğruluk
+üzerinde anlamlı etkisi görülmemekle birlikte, artan
+odak noktası değerleri ile anma ölçüsünden sapmalar
+daha düşük değerlerde elde edilmiştir (Şekil 4b). Kare
+geometrili lazer kesimlerdeki kesme ilerlemesinin
+boyutsal tamlık üzerindeki etkisi üçgen geometrili
+kesimlerdeki etki ile benzer eğilimdedir (Şekil 3.b,
+Şekil 4b). Kesme ilerlemesinin düşük değerlerinde
+kesim aralığı artmakta ve nominal ölçüden
+uzaklaşılmaktadır [21].
+Düşük kesme ilerlemesi değerlerinde kesilen yüzey
+üzerinde ince çizgi ve çizikler oluşmaktadır (Şekil 2).
+Kesme ilerlemesi arttırıldığında ve gaz basıncı
+
+b. Kalınlık 6 mm (Thickness 6 mm)
+
+Şekil 3. Üçgen geometrik şekilli lazer kesim için ana etki grafikleri (The main effect graphs for triangular geometric shaped
+CO2 laser cutting )
+
+510
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+düşürüldüğünde bu ince çizgiler sığ hale gelmekte ve
+kesme aralığındaki sapmalar daha düşük değerlerde
+olmaktadır [20]. Kesme ilerlemesinin 1100
+mm/min'den 1200 mm/min'e yükseltilmesiyle yine
+nominal ölçüden + yönde sapmalar oluşmaktadır.
+Dolayısıyla 4 mm ve 6 mm kalınlığındaki
+malzemelerin kare geometrili kesimlerinde de anma
+ölçüsünden minimum sapma ve boyutsal doğruluk
+için 1100 mm/min kesme ilerlemesinin optimum
+değer olduğu söylenebilir. Geometrik ve ölçüsel
+tamlık kesim aralığının azaltılması ve kontrol altına
+alınmasıyla iyileştirilebilmektedir.
+
+Z.Durukan ve ark.
+
+mm kalınlığındaki malzemelerin kesilmesinde
+azalmıştır (Şekil 4.a ve b). Yine, 6 mm kalınlığındaki
+malzemenin kesilmesinde lazer gücünün artışına bağlı
+olarak ölçümler 28,35-28,41 mm aralığında sapmalar
+göstermekte iken 4 mm kalınlığındaki malzemenin
+kesilmesinde ölçme sonuçları 28,46-28,48 mm
+aralığında değişmiştir. Östenitik paslanmaz çeliğin
+kesilmesinde boyutsal tamlığı etkileyen kesim aralığı
+değerleri lazer gücü değerlerinin arttırılmasıyla
+artmıştır [13].
+4 mm ve 6 mm AISI 304 malzeme üzerinden kare
+geometrili profillerin kesiminde, nominal değerden
+minimum sapma ve ölçüsel tamlık için lazer gücünün
+optimum değerleri sırasıyla 3400 W ve 3700 W'dir.
+St37 çeliğin kesilmesinde lazer gücünün kesme
+ilerlemesi hızından daha etkili olduğu tespit edilmiştir
+[22]. Bu çalışmada da 6 mm kalınlığındaki parçaların
+kesilmesinde lazer gücünün ilerleme hızından daha
+etkili olduğu görülmüştür.
+
+Kesim aralığının kontrolü için gaz basıncı, yansıtma
+ve termal iletkenlik özelliği yüksek olan
+malzemelerde önemli bir faktördür [23]. Gaz
+basıncının artması ile birlikte kare profilin 28,28 mm
+anma ölçüsünden + yönde sapmaların olduğu Şekil
+4.a ve b'den görülmektedir. Aynı eğilim 4 mm ve 6
+mm kalınlığındaki malzemelerin üçgen profilli olarak
+kesiminde de elde edilmiştir (Şekil 3a ve 3b). 2 mm
+kalınlığındaki
+östenitik
+paslanmaz
+çeliğin
+kesilmesinde de kesim aralığı gaz basıncı ile artmış ve
+durum artan gaz basıncı ile ergimiş malzemenin
+kesim aralığından tamamıyla kaldırılabilmesine
+atfedilmiştir [13]. Rao ve Yadava tarafından yapılan
+çalışmada süperalaşım levhaların düz ve eğrisel
+geometride kesilmesinde kesme aralığı üzerinde
+kesme ilerleme hızı gaz basıncından daha etkili
+bulunmuş iken 0,7 mm kalınlığındaki nikel esaslı
+süperalaşım levhanın kesilmesinde gaz basıncı kesme
+ilerlemesinden daha etkili olmuştur [24, 25].
+
+Kavisli kenarların kesiminde ışın yörüngesinin
+lokalize etkileri; ışın enerji dağılımının asimetrisi,
+malzemenin lokalize hacimli ısıtmaya maruz kalmış
+olması ve dönme merkezine yakınsak ısı iletimi
+olduğundan dolayı düz bir kesime göre farklılıklar
+gösterebilmektedir.
+Bu
+etkiler
+geometrik
+değişikliklere neden olmaktadır [26]. Şekil 5a’da 4
+mm kalınlığındaki AISI 304 paslanmaz çeliğin CO2
+lazerle kesilmesinde bağımsız parametrelerin dairesel
+şekilli
+kesimin
+ölçme
+sonuçlarına
+etkileri
+gösterilmiştir.
+
+Östenitik paslanmaz çeliğin kesilmesinde kesme
+ilerleme hızı kesme aralığı üzerinde en etkili
+parametre olarak belirlenmiştir [13]. Farklı
+kalınlıklardaki
+kare
+geometrili
+profillerin
+kesilmesinde lazer gücünün değişimine bağlı olarak
+nominal ölçüden sapmaların aynı eğilimde olmadığı
+görülmektedir. 4 mm kalınlığındaki malzemelerin
+kesilmesinde lazer gücünün 3400 W'den 3700 W'ye
+yükseltilmesiyle anma ölçüsü değerleri artmış iken 6
+
+Odak noktasının boyutsal tamlık üzerindeki etkisi
+üçgen kesimle benzer eğilimdedir. 6 mm
+kalınlığındaki parçanın dairesel kesiminde odak
+noktası değerinin artışına bağlı olarak nominal
+ölçüden + yönde uzaklaşılmıştır (Şekil 5b). Diğer
+taraftan, 4 mm kalınlığındaki AISI 304 malzemenin
+kesilmesinde de optimal odak noktası değerinin 7 mm
+olduğu söylenebilir. Odak noktası değeri 7,5 mm'ye
+arttırıldığında ışınlar daha geniş bir yüzey alanına
+
+a. Kalınlık 4 mm (Thickness 4 mm)
+
+b. Kalınlık 6 mm (Thickness 6 mm)
+
+Şekil 4. Kare geometrik şekilli kesim için ana etki grafikleri (The main effect graphs for square geometric shaped CO2 laser
+cutting)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+511
+
+Z.Durukan ve ark.
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+dağıldığından kesim aralık değerlerinin artması
+sonucu nominal ölçüden + yönde uzaklaşılmıştır
+(Şekil 5a) [20].
+Dairesel şekilli kesmede, kesme ilerlemesinin
+boyutsal tamlık üzerine etkisi üçgen ve kare kesimle
+aynı eğilimde olup 1100 mm/min kesme ilerlemesinin
+optimal değer olduğu söylenebilir. Kesme ilerlemesi
+arttıkça ısıl etkilenen bölgenin genişliği azalmaktadır.
+İş parçası ergiyerek kesilmektedir. İlerlemenin
+artışıyla birlikte lazer ışını kesme yolu boyunca iş
+parçası malzemesinin üzerindeki her bir noktada daha
+hızlı hareket edeceği için lazer ısısı daha az etkili
+olacaktır. Dolayısıyla ısıl olarak etkilenen bölge daha
+az ve kesme genişliği daha düşük değerde olacaktır.
+Bu durum, kesilen geometrinin boyutsal tamlığını
+etkileyecektir [27]. Kesme ilerlemesinin 1100
+mm/min'den 1200 mm/min'e yükseltilmesiyle kesim
+aralığının artması sonucu oluşan nominal ölçüden
+sapmaların sebebi ise, kesilen yüzeyler üzerindeki
+kesim aralığını azaltan sığ çizgi ve çiziklerin diğer
+parametrelerin
+etkileşimleri
+ile
+tekrar
+belirginleşmesine atfedilebilir [20].
+Kare ve üçgen profilli kesimlerde olduğu gibi gaz
+basıncının artması ile birlikte kesim aralığı arttığından
+dairesel profilin anma ölçüsünden + yönde sapmalar
+olmuştur (Şekil 5) [13, 25]. Düşük gaz basıncında
+kesme yüzeyinde oluşan çizgilerin derinlikleri ve
+malzeme kaldırma oranı düşük olmaktadır. Gaz
+basıncı iş parçasından talaş kaldırmak için itici bir
+güçtür [20].
+Lazer gücü, lazer ışınının gücünü temsil etmekte olup
+lazer gücü arttıkça ısıl olarak etkilenen bölgenin
+genişliği de artmaktadır. 4 mm ve 6 mm
+kalınlığındaki malzemelerin kesilmesinde 3700 W
+lazer gücü boyutsal tamlığın sağlanması ve anma
+ölçüsünden minimum sapma için optimal değerdir.
+Daha düşük lazer gücünde (3400 W) etkin olmayan
+ısı oluşumu nedeniyle kaliteli ve verimli bir kesme
+işleminin oluşmadığı düşünülmektedir.
+Lazer
+
+a. Kalınlık 4 mm (Thickness 4 mm)
+
+gücünün optimum değerin üzerine (4000 W)
+arttırılması ile iş parçası üzerinde ısıdan etkilenen
+bölgenin genişliğinin artması ve iş parçasının kolay
+ergiyerek kesim aralığının artması sonucu nominal
+bölgeden + yönde sapmalar meydana gelmiştir [27].
+3.3.
+Boyutsal
+Doğruluk
+Üzerine
+Parametrelerinin Etkileri (The Effects
+
+Kesme
+of Cutting
+
+Parameters on Dimensional Accuracy)
+
+Şekil 6’da iki farklı kalınlıkta, üçgen, kare ve dairesel
+kesilen parçaların; belirlenen nominal ölçüleri,
+kesilmiş parçalar üzerinde yapılan ölçme sonucu elde
+edilmiş ölçüm aralıkları ve bu değerleri kesme
+parametrelerinin
+ne
+şekilde
+etkilediği
+gösterilmektedir.
+Şekil
+oluşturulurken
+kesme
+parametrelerinin etkilerini göstermek için Şekil 3-6'da
+verilen grafikleri oluşturan sayısal veriler kullanılmış
+ve parametrelerin sadece birinci ve üçüncü seviyeleri
+dikkate alınmıştır.
+Bu deneysel çalışmada ele alınan tüm geometriler
+dikkate alınarak 6 mm kalınlığındaki sac malzemenin
+lazer ile kesilmesinde kesme parametrelerinin etkileri
+değerlendirildiğinde;
+W
+ve
+F
+değerlerinin
+arttırılmasıyla nominal ölçüye yakın değerler elde
+edilmekte, ON ve P değerlerinin arttırılmasıyla
+nominal ölçüden uzaklaşılmaktadır (Şekil 6a-c). ON
+ve P parametrelerinin bu etkileri 4 mm sac
+malzemenin kesilmesinde de aynıdır. 4 mm
+kalınlığındaki üçgen ve kare profillerin kesiminde
+nominal ölçüden uzaklaşılmakta iken 6 mm
+kalınlığındaki sac malzemenin kesiminde nominal
+ölçüye daha yakın değerler elde edilmiştir. Yani; sac
+kalınlığı arttıkça nominal ölçüye yakın değerler elde
+edilmektedir (Şekil 6a-b).
+Dairesel şekilli lazer kesimde ise bu durum tam tersi
+olarak gerçekleşmiştir (Şekil 6.c). Nominal ölçüye en
+yakın değerler 4 mm kalınlığındaki dairesel şeklin
+kesilmesinde elde edilmiştir (Şekil 6c). Üç farklı
+profilin kesiminde de elde edilen boyut ölçüleri
+
+b. Kalınlık 6 mm (Thickness 6 mm)
+
+Şekil 5. Dairesel geometrik şekilli kesim için ana etki grafikleri (The main effect graphs for circular geometric shaped CO2
+laser cutting)
+
+512
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+değerlendirildiğinde; 6 mm kalınlığındaki sac
+malzemeler kesilirken ölçme sonuçları arasındaki
+aralık 4 mm kalınlığındaki sac malzemenin kesiminde
+elde edilen sonuçların aralığından fazladır. Yani; 6
+mm sac malzeme kesilirken nominal ölçüye daha
+yakın değerler elde edilmekte, ancak bu kesilen
+boyutlar ölçüldüğünde geometri fark etmeksizin boyut
+ölçme değerleri arasındaki fark fazla çıkmaktadır
+(Şekil 6a-c). İki farklı kalınlıktaki sac malzemeden üç
+farklı geometrinin kesilmesinde her bir kesilen
+boyutun ölçme sonuçları arasındaki farklar 0,1
+mm’den düşük çıkmıştır. Bu durum lazer kesme
+işleminde kesim hassasiyetini göstermektedir.
+4 mm kalınlığındaki sac malzemelerden Şekil 1’de
+verilen boyutlarda üçgen numuneler kesildiğinde;
+ölçüm boyu (nominal ölçü) olan L=30 mm değerinden
++0,25 mm +0,29 mm aşılarak daha büyük boyutta
+parçalar elde edilmektedir. 6 mm kalınlığındaki sac
+malzemeler üçgen şeklinde kesildiğinde ise nominal
+ölçü +0,14 mm
++0,22 mm aralığında büyük
+çıkmaktadır (Şekil 6a). Buradan; parça kalınlığı
+arttıkça nominal ölçüye daha yakın değerler elde
+edileceği anlaşılmaktadır. 4 ve 6 mm kalınlıklarındaki
+sac malzemeden üçgen geometrinin kesilmesinde W
+ve F’nin artan değerlerinde nominal ölçüye yakın
+değerler elde edilirken, P ve ON değerleri
+arttırıldığında
+nominal
+ölçüden
++
+yönde
+uzaklaşılmaktadır.
+Kare şekilli kesim için sac malzeme kalınlığına bağlı
+olarak kesme parametrelerinin etkileri ayrı ayrı
+değerlendirildiğinde; W’nin azaltılması ve P’nin
+arttırılmasıyla nominal ölçüden uzaklaşılmaktadır
+(Şekil 6b). Diğer taraftan, 4 ve 6 mm kalınlıktaki
+sacdan aynı profilin kesilmesinde diğer kesme
+parametreleri tutarlı bir etki sergilememiştir. Şekil 6c
+incelendiğinde, nominal ölçüden sapma 4 mm sac
+malzemenin kesilmesinde 0,05 mm’den az çıkmıştır.
+
+a.
+
+Z.Durukan ve ark.
+
+4. SONUÇLAR (CONCLUSIONS)
+CO2 lazerle kesmede kesme parametreleri; kesim
+aralığını, kesme verimliliğini ve yüzey pürüzlülüğünü
+etkilemektedir. Kesim aralığının artmasına bağlı
+olarak kesilen geometrilerin anma ölçülerinden
+sapmalar olmakta ve geometrilerin boyutsal
+doğruluğu azalmaktadır. Bu çalışmada, 4 ve 6 mm
+kalınlığında AISI 304 paslanmaz çeliğin CO2 lazer ile
+üç farklı geometrilerde kesilmesinde, lazer gücü,
+kesme ilerlemesi, odak noktası ve gaz basıncının
+boyutsal doğruluk üzerine etkilerini içeren ikinci
+dereceden tahmini denklemler geliştirilmiştir. Kesme
+parametrelerinin etkileri kesme aralığı ile boyutsal
+doğruluk ilişkilendirilerek araştırılmıştır. Yapılan
+deneysel çalışma sonucunda elde edilen sonuçlar
+şunlardır:
+1. Korelâsyon katsayıları (R2) 0,782'nin üzerinde
+olduğundan %95 anlamlılık seviyesinde, güvenilir ve
+geçerli teorik tahminsel sonuçlar elde etmek için
+geliştirilen ikinci dereceden denklemler kullanılabilir.
+2. AISI 304 paslanmaz çelik malzemenin kalınlığı
+arttıkça anma ölçülerine daha yakın kesimler yapılmış
+ve daha yüksek boyutsal doğruluk elde edilmiştir.
+3. Nominal ölçüden sapma en düşük değerlerde
+olduğundan en yüksek boyutsal doğruluk dairesel
+geometrili kesimlerde elde edilmiştir
+4. Odak noktası değerinin artışı ile 4 ve 6 mm
+kalınlığındaki malzemelerden üçgen,
+6 mm
+kalınlığındaki malzemeden kare ve dairesel geometrili
+kesilen numunelerin ölçme değerleri anma
+ölçülerinden + yönde saparak boyutsal doğruluk
+azalmıştır. 4 mm kalınlığındaki AISI 304 malzemenin
+kare ve dairesel profilli kesilmesinde optimal odak
+noktası değeri 7 mm'dir.
+
+Üçgen Geometrik Şekilli CO2 Lazer Kesim (Triangular geometric shaped CO2 laser cutting)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+513
+
+Z.Durukan ve ark.
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+b. Kare Geometrik Şekilli CO2 Lazer Kesim (Square geometric shaped CO2 laser cutting)
+
+c. Dairesel Geometrik Şekilli CO2 Lazer Kesim (Circular geometric shaped CO2 laser cutting)
+Şekil 6. Kesme parametrelerinin boyutsal doğruluk üzerindeki etkileri (The effects of cutting parameters on dimensional
+accuracy)
+
+5. AISI 304 paslanmaz çeliğinin üçgen, kare ve
+dairesel şekilli olmak üzere farklı geometrilerde
+kesilmesinde kesme ilerlemesinin boyutsal doğruluk
+üzerine etkileri benzer eğilimdedir. 4 mm ve 6 mm
+kalınlığındaki malzemelerin kesiminde optimum
+kesme ilerlemesi değeri 1100 mm/min'dir.
+6. İki farklı kalınlıktaki AISI 304 paslanmaz
+çeliğinin üçgen, kare ve dairesel şekilli olmak üzere
+farklı geometrilerde kesilmesinde gaz basıncının
+artışına bağlı olarak anma ölçülerden + yöndeki
+sapmalar nedeniyle boyutsal doğruluk azalmıştır. CO2
+lazer ile paslanmaz çeliğin kesilmesinde boyutsal
+doğruluğun sağlanması için gaz basıncı azaltılmalıdır
+
+514
+
+7. 14 Bar gaz basıncı AISI
+kesilmesinde optimal değerdir.
+
+304
+
+çeliğinin
+
+8. AISI 304 paslanmaz çeliğinin üç farklı geometrik
+şekilde kesilmesinde lazer gücü boyutsal doğruluk
+üzerinde farklı etkiler yaratmıştır. Üçgen, kare ve
+dairesel şekilli kesimler için optimum lazer gücü
+sırasıyla 4000 Watt, 3700 Watt ve 3700 Watt'tır.
+TEŞEKKÜR (ACKNOWLEDGEMENT)
+Bu çalışmada, numunelerin lazerle kesiminde
+desteklerini esirgemeyen LAZER POWER A.Ş.'ye,
+kesilen numunelerin CMM’de ölçülmesi imkânını
+sağlayan MEGA TEKNİK’e teşekkür ederiz.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+AISI 304 Çeliğini Farklı Geometrilerde Lazerle Kesmede Parametrelerin…
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+
+4.
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+Durukan, Z., “Lazer ile Kesmede İş ve İşleme
+Parametrelerinin
+Geometrik
+ve
+Boyut
+Değişimlerine Etkilerinin İncelenmesi”, Yüksek
+Lisans Tezi, Gazi Üniversitesi Fen Bilimleri
+Enstitüsü, Ankara, 122-171, 2010.
+Cemal, M., “Lazer ile Kesme ve Endüstriyel
+Uygulamaları” Yüksek Lisans Tezi, Mustafa
+Kemal Üniversitesi Fen Bilimleri Enstitüsü,
+Antakya, 32-37, 2006.
+Vatsya, S. R., Bordatchev, E. V. ve Nikumb, S.
+K., “Geometrical Modeling of Surface Profile
+Formation During Laser Ablation of Materials”,
+Journal of Applied Physics, Cilt 93, No 12,
+9753-9759, 2003.
+http://www.konlazer.com.tr/main.swf, 2010.
+Grum, J. ve Zuljan, D., “Frequency Analyses of
+A Signal of Irradiation From the Cutting Front
+and Surface Profile Height in Laser Cutting of
+Austenite
+Stainless
+Steel”,
+Lasers
+in
+Engineering, Cilt 12, No, 59-80, 2002.
+Yilbas, B. S., “Effect of Process Parameters on
+the Kerf Width during the Laser Cutting
+Process”, Proc. Inst. Mech. Eng. Part C: J.
+Eng. Manuf., Cilt 215, 1357-1365, 2001.
+Uslan, İ., “CO2 Laser Cutting: Kerf Width
+Variation During Cutting”, Proceedings of the
+Institution of Mechanical Engineers B,
+Journal of Engineering Manufacture, Cilt 219,
+No B18, 571-577, 2005.
+Meurling, F., Melander, A., Linder, J. ve Larsson,
+M., “The Influence of Mechanical and Laser
+Cutting on the Fatigue Strengths of Carbon and
+Stainless Sheet Steels”, Scandinavian Journal
+of Metallurgy, Cilt 30, No 5, 309-319, 2001.
+Kaplan, A. F. H., “An Analytical Model of Metal
+Cutting with A Laser Beam”, Journal of
+Applied Physics, Cilt 79, No 5, 2198-2208,
+1996.
+Yilbas, B. S., “Laser Cutting Quality Assessment
+and Thermal Efficiency Analysis”, Journal of
+Materials Processing Technology, Cilt 155-156,
+2106-2115, 2004.
+Karataş, Ç., Keleş, Ö., Uslan, İ. ve Usta, Y.,
+“Laser Cutting of Steel Sheets: Influence of
+Workpiece Thickness and Beam Waist Position
+on Kerf Size and Stria Formation”, Journal of
+Materials Processing Technology, Cilt 172, 2229, 2006.
+Rajaram, N., Sheikh-Ahmad, J. ve Cheraghi, S.
+H., “CO2 Laser Cut Quality of 4130 Steel”,
+International Journal of Machine Tools and
+Manufacture, Cilt 43, No 4, 351-358, 2003.
+Eltawahni, H.A., Hagino, M., Benyounis, K.Y.,
+Inoue, T. ve Olabi, A.G. “Effect of CO2 Laser
+Cutting Process Parameters on Edge Quality and
+Operating Cost of AISI316L”, Optics and Laser
+Technology, Cilt 44, 1068-1082, 2012.
+Motorcu, A. R., “Determination of the
+Parameters Providing Optimum Tool Life by
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 3, 2014
+
+15.
+16.
+
+17.
+
+18.
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+Z.Durukan ve ark.
+
+Taguchi Technique and Observation of Tool
+Wear in the Machining of AISI1050 and
+AISI4140 Steels with the Ceramic Cutting
+Tools”, Journal of The Faculty of Engineering
+and Architecture of Gazi University, Cilt 24,
+No 4, 699-708, 2009.
+Bystronic Lazer AG, Byspeed Kullanma
+Kılavuzu, İsviçre, 229-231, 2002.
+Akman, G. ve Özkan, C., “Sac İmalatında
+Karşılaşılan Yapışma Probleminin Deney
+Tasarımı ile Çözümü”, Doğuş Üniversitesi
+Dergisi, Cilt 12, No 2, 187-199, 2011.
+Breyfoglef, W., Implementing Six Sigma:
+Smarter Solutions Using Statistical Methods,
+2nd ed., John Wiley & Sons, New York, ABD,
+2003.
+Lazic´, Z.R., Design of Experiments in
+Chemical Engineering: A Practical Guide,
+Wiley-VCH, Weinheim, Germany, 2004.
+Liu, K.W. ve Sheng, P.S., "Dynamic Effects of
+Circular and Non-Circular Laser Shaping",
+Journal of Materials Processing Technology,
+Cilt 71, No 2, 267-279, 1997.
+Li, L., Sobih, M. ve Crouse, P.L., "Striation-free
+Laser Cutting of Mild Steel Sheets", CIRP
+Annals-Manufacturing Technology, Cilt 56, No
+1, 193-196, 2007.
+Lamikiz, A., López de Lacalle, L.N., Sánchez,
+J.A., Pozo, D.,Etayo, J.M. ve López, J.M., "CO2
+Laser Cutting of Advanced High Strength Steels
+(AHSS)", Applied Surface Science, Cilt 242, No
+3-4, 15, 362-368, 2005.
+Çaydaş, U. ve Hasçalık, A., "Use of the Grey
+Relational Analysis to Determine Optimum Laser
+Cutting Parameters with Multi-Performance
+Characteristics", Optics and Laser Technology,
+Cilt 40, No 7, 987-994, 2008.
+Pandey, A.K. ve Dubey, A.K., "Taguchi Based
+Fuzzy Logic Optimization of Multiple Quality
+Characteristics in Laser Cutting of Duralumin
+Sheet", Optics and Lasers in Engineering, Cilt
+50, No 3, 328-335, 2012.
+Rao, R. ve Yadava, V., Multi-objective
+Optimization of Nd:YAG Laser Cutting of Thin
+Superalloy Sheet Using Grey Relational Analysis
+with Entropy Measurement", Optics and Laser
+Technology, Cilt 41, 922-930, 2009.
+Dubey, A.K. ve Yadava, V., Multi-objective
+Optimization of Nd:YAG Laser Cutting of
+Nickel-Based Superalloy Sheet Using Orthogonal
+Array with Principal Component Analysis",
+Optics and Lasers in Engineering, Cilt 46, 124132, 2008.
+Sheng, P.S. ve Cai, P.L., "Predictive Process
+Planning for Laser Cutting", Journal of
+Manufacturing Systems, Cilt 17, No 2, 144-158,
+1998.
+Sheng, P.S. ve Joshi, V.S., "Analysis of HeatAffected Zone Formation for Laser Cutting of
+Stainless Steel", Journal of Materials
+Processing Technology, Cilt 53, 879-892, 1995.
+
+515
+
+

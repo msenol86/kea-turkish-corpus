@@ -1,0 +1,407 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 22, No 2, 411-415, 2007
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 22, No 2, 411-415, 2007
+
+STIRLING ÇEVRİMİ İLE ÇALIŞAN BETA TİPİ BİR
+MOTORUN İMALİ VE PERFORMANS TESTLERİ
+Can ÇINAR, Tolga TOPGÜL ve H. Serdar YÜCESU
+Makine Eğitimi Bölümü, Teknik Eğitim Fakültesi, Gazi Üniversitesi, 06500, Teknikokullar, Ankara
+cancinar@gazi.edu.tr, topgul@gazi.edu.tr, yucesu@gazi.edu.tr
+(Geliş/Received: 01.05.2006; Kabul/Accepted: 17.10.2006)
+ÖZET
+Bu çalışmada, tek silindirli, 192 cm3 süpürme hacmine sahip, beta tipi bir Stirling motorunun imalatı ve
+performans testleri yapılmıştır. Deneyler 800, 900 ve 1000°C ısıtıcı sıcaklıklarında, 1, 1,5, 2, 2,5 ve 3 bar şarj
+basınçlarında yapılmıştır. Çalışma gazı olarak hava kullanılan deneylerde, motor devri, ısıtıcı sıcaklığı ve şarj
+basıncına bağlı olarak moment ve güç değişimleri elde edilmiştir. Deneylerde 1000°C ısıtıcı sıcaklığında 2,5 bar
+şarj basıncında 344 d/d motor devrinde, maksimum 14 W güç elde edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Artan dünya nüfusu ve gelişen teknoloji bir yandan
+enerji açığının sürekli artmasına, diğer yandan da
+giderek artan çevre problemlerine neden olmaktadır.
+Dıştan ısıtma prensibine göre çalışan Stirling
+motorları teknolojik gelişmeleri seri üretim yapılacak
+seviyeye geldiği takdirde dünyada giderek artan enerji
+ve çevre problemlerine çözüm olabilecektir [1-3].
+Stirling motorlarında ısının dış bir kaynaktan
+sağlanması sebebiyle, fosil kökenli yakıtlardan güneş
+enerjisine kadar birçok yakıtı ve alternatif enerji
+kaynağını kullanabilir. İçten yanmalı motorlarla
+karşılaştırıldığında, gürültü ve titreşim seviyesi daha
+düşüktür. Teorik ısıl verimi yüksektir ve daha az
+bakım gerektirir [3-6].
+Stirling motorlarında çalışma gazı olarak farklı gazlar
+kullanılabilir. Özellikle hidrojen ve helyum gibi
+
+yüksek ısı iletim katsayısına sahip gazlarla optimum
+şarj basınçlarında yüksek ısıl verim ve yüksek çıkış
+gücü elde edilebilmektedir. Çalışma gazı olarak hava
+kullanılan motorlar düşük özgül çıkış gücü ile düşük
+ısıl verime sahiptirler. Ancak çalışma akışkanının
+kolaylıkla sağlanması sızdırmazlık ve malzeme
+problemlerini ortadan kaldırmakta ve maliyeti
+düşürmektedir. Düşük güçlü ancak yüksek
+güvenilirliği olan bu motorlar fosil veya radyoizotop
+yakıtlar kullanarak çalıştırılabilmektedir [7-9].
+Stirling motorları hareket mekanizmalarına göre
+kinematik ve serbest pistonlu olarak iki sınıfa ayrılır.
+Kinematik motorlarda hareket, krank-biyel veya
+rhombic drive (altı kenar hareket mekanizması) gibi
+mekanizmalar aracılığı ile volana iletilir. Serbest
+pistonlu Stirling motorlarında, çalışma akışkanının
+oluşturduğu basınç değişimleri ile sağlanan hareket
+piston tarafından lineer alternatöre iletilir, hareketli
+
+C. Çınar vd.
+
+Stirling Çevrimi ile Çalışan Beta Tipi Bir Motorun İmali ve Performans Testleri
+
+elemanlar arasında mekanik bir bağlantı yoktur
+[5,7,10,11].
+Bu çalışmada, tek silindirli, kinematik beta tipi bir
+Stirling motoru imal edilerek farklı ısıtıcı sıcaklığı ve
+şarj basınçlarında performans testleri yapılmıştır.
+2. DENEY MOTORU (TEST ENGINE)
+İmalatı yapılan 192 cm3 süpürme hacmine sahip, beta
+tipi Stirling motorunun şematik resmi Şekil 1’de
+görülmektedir. Şekilde görüldüğü gibi çevrim, aynı
+silindir içerisinde çalışan piston ve yer değiştirme
+pistonu tarafından gerçekleştirilmektedir. Yer
+değiştirme pistonunun merkezleme mili pistonun
+ortasından geçmektedir. Piston ile yer değiştirme
+pistonu arasında kalan bölge soğuk hacmi, yer
+değiştirme pistonunun üst tarafında kalan bölge ise
+sıcak hacmi oluşturmaktadır. Yer değiştirme pistonu
+ile silindir arasında kalan boşluk rejeneratör görevi de
+yapmaktadır. Piston ve yer değiştirme pistonu
+aralarında 90º faz açısı olacak şekilde biyellerle krank
+miline bağlanmıştır.
+
+krom-nikel paslanmaz çelik borudan imal edilmiştir.
+Bu borunun alt ve üst yüzeyleri kapatılmış ve alt
+kısmına
+merkezleme
+mili
+cıvatalı
+olarak
+birleştirilmiştir. Eksen kaçıklığını önlemek için
+merkezleme mili ve yer değiştirme pistonu yekpare
+olarak taşlanmıştır. Merkezleme mili, orta kısmı
+honlanmış olan pistona hassas olarak alıştırılmıştır.
+Yer değiştirme silindiri sıcaklık ve korozyona
+dayanımını sağlamak amacıyla ASTM paslanmaz
+çelik borudan imal edilmiştir. Üst kısmı kaynaklı
+birleştirme ile kapatılmıştır. Çalışma maddesinin yer
+değiştirme pistonu ile silindiri arasında geçişini
+sağlamak amacıyla aralarında 0,6 mm boşluk
+bırakılmıştır. Yer değiştirme silindirinin alt kısmında
+çalışma maddesinin soğutulmasını sağlamak için
+dıştan bir su ceketi geçirilmiştir. Biyeller Ç1040
+malzemeden yapılmış olup, biyel ayağı ve başına
+bronz burç çakılmış ve honlanarak muylu çapına
+alıştırılmıştır. Krank mili Ç4260 malzemeden tek
+parça olarak imal edilmiştir. Muylu yüzeyleri
+sertleştirilmiş ve hassas olarak taşlanmıştır. Piston ve
+yer değiştirme pistonlarının bağlantılarının yapıldığı
+muylular arasında 90º’lik faz farkı bulunmaktadır.
+İmalatı yapılan motorun çalışma prensibi ve çevrimin
+P-V diyagramı Şekil 2’de görülmektedir. Burada, 1-2
+arası sabit sıcaklıkta sıkıştırma işlemi, 2-3 arası sabit
+hacimde sisteme ısı verme işlemidir. 3-4 arası sabit
+sıcaklıkta genişleme işlemidir ve dış kaynaktan
+sisteme ısı verilmeye devam edilmektedir. 4-1 arası
+ise sabit hacimde genişleme ve dış ortama ısı
+geçişidir.
+
+1. Silindir
+3. Su ceketi
+6. Motor bloğu
+
+2. Yer değiştirme pistonu
+4. Piston
+5. Volan
+7. Krank mili
+
+Şekil 1. Deney motorunun şematik görünümü
+(Schematic illustration of the test engine)
+
+Piston, yüksek grafitli dökme demirden imal
+edilmiştir. Sürekli bir yağlama gerektirmemektedir ve
+sıcaklığa bağlı genleşme katsayısı düşüktür. Hassas
+olarak taşlanmış ve silindire 0,02 mm boşlukla
+alıştırılmıştır. Pistonunun ortası yer değiştirme
+pistonunu yataklamak amacıyla tornalanmış ve hassas
+olarak honlanmıştır. Piston, iki adet biyel aracılığı ile
+krank miline bağlanmıştır. Yer değiştirme pistonu,
+sıcaklık ve korozyona dayanımını sağlamak amacıyla
+412
+
+(a)
+
+(b)
+
+Şekil 2. Deney motorunun çalışma prensibi (a) ve
+çevrimin P-V diyagramı (b) (Operating principle of the test
+engine (a) and P-V diagram of the cycle (b))
+
+3. MATERYAL VE METOT
+
+(MATERIAL AND
+
+METHOD)
+
+Deneylerde ısı kaynağı olarak 1°C hassasiyetinde ve
+1200°C’ye kadar ısıtma yapabilen Nüve marka,
+elektrikli bir ısıtıcı kullanılmıştır. Soğutma, silindirin
+dışına yerleştirilen su ceketi ile sağlanmıştır (Şekil 1).
+Çıkış sıcaklığı 30°C olacak şekilde soğutma
+sisteminde su dolaştırılmıştır. Moment ölçümünde 2,5
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 2, 2007
+
+Stirling Çevrimi ile Çalışan Beta Tipi Bir Motorun İmali ve Performans Testleri
+
+Nm’ye kadar ölçüm yapabilen ve 0,003 Nm
+hassasiyetinde, prony tip bir ölçüm tertibatı
+kullanılmıştır. Motor devrinin ölçülmesinde, 0,1 d/d
+hassasiyetine sahip, DT-2234A model dijital
+takometre kullanılmıştır. Sıcaklık ölçümünde 1ºC
+hassasiyetinde ölçüm yapabilen 12 kanallı M3D12X
+marka sıcaklık ölçer kullanılmıştır. Bu cihaza
+bağlanan termokupllar NiCr-Ni termokupllardır ve
+1200°C’ye kadar ölçüm yapılabilmektedir. Deney
+düzeneği Şekil 3’de verilmiştir.
+
+C. Çınar vd.
+
+azalmaktadır. Ayrıca, ısıtıcı sıcaklığındaki artış ile
+çalışma gazına çevrim başına aktarılan ısı miktarının
+artmasına bağlı olarak moment artmaktadır.
+Şekil 5’de 1000°C ısıtıcı sıcaklığında motor devri ve
+şarj basıncına bağlı olarak motor gücü değişimleri
+görülmektedir. Motor çıkış gücünü belirleyen
+parametreler, moment ve motor devridir. Momentteki
+azalmaya rağmen belli bir motor devine kadar motor
+gücündeki artış devam etmektedir. Bu motor devrinin
+üzerinde, mekanik sürtünmeler ve titreşimlerdeki artış
+motor gücünün azalmasına sebep olmaktadır. Motor
+gücü şarj basıncına bağlı olarak bir maksimum değere
+yükselmekte, bu noktadan sonra azalmaktadır.
+Şarj basıncındaki artış ile motor gücünün artması,
+çalışma gazı kütlesinin artmasındandır. Belli bir şarj
+
+Şekil 3. Deney düzeneğinin görünümü (Illustration of the
+test equipments)
+
+Motorda mekanik ve ısıl problemler giderildikten ve
+sürekli çalışma şartları sağlandıktan sonra, motorun
+çalışma karakteristiklerini belirlemek amacıyla
+deneyler yapılmıştır. Deneylerde, motor devri, ısıtıcı
+sıcaklığı ve şarj basıncına bağlı olarak moment ve güç
+değişimleri elde edilmiştir. Deneyler, 800, 900 ve
+1000°C ısıtıcı sıcaklıklarında, 1, 1,5, 2, 2,5 ve 3 bar
+şarj basınçlarında yapılmıştır. Çalışma maddesi olarak
+hava kullanılmıştır. Başlangıçta ısıtıcı istenilen
+sıcaklık düzeyine getirilmiş, her bir ısıtıcı sıcaklığında
+şarj basıncı değiştirilerek, motor dinamometre ile
+yüklenmiş ve farklı motor devirlerinde moment
+ölçülmüştür.
+
+Şekil 4. Motor devri ve ısıtıcı sıcaklığına bağlı
+olarak moment değişimi (2 bar şarj basıncında)
+(Variation of torque with engine speed and heater temperature at
+2 bar charge pressure)
+
+4. DENEY SONUÇLARININ
+DEĞERLENDİRİLMESİ (EVALUATION OF
+TEST RESULTS)
+
+Şekil 4’de 2 bar şarj basıncında, motor devri ve ısıtıcı
+sıcaklığına bağlı olarak moment değişimleri
+görülmektedir. Motor devrine bağlı olarak moment
+değişimleri
+incelendiğinde,
+düşük
+devirlerde
+momentin yüksek olduğu ve devir artışına bağlı
+olarak momentin düştüğü görülmektedir.
+Düşük motor devirlerinde ısıtıcıdan çalışma gazına
+olan ısı enerjisi akışı için yeterli zaman vardır. Devir
+artışına bağlı olarak çalışma maddesine ısı verme
+süresi
+kısaldığından
+yeterli
+oranda
+ısı
+aktarılamamakta ve moment düşmektedir. Ayrıca,
+motor devrindeki artışa bağlı olarak çalışma gazının
+cidarlarla olan hidrodinamik sürtünmesi artmaktadır.
+Yüksek motor devirlerinde yeterli çalışma gazı kütlesi
+sıcak bölge ile soğuk bölge arasında viskoz
+sürtünmeden dolayı yer değiştiremediğinden moment
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 2, 2007
+
+Şekil 5. Motor devri ve şarj basıncına bağlı olarak
+motor gücü değişimi (1000°C ısıtıcı sıcaklığı) (Variation
+of output-power with engine speed and charge pressure at 1000°C
+heater temperature)
+
+basıncından sonra çalışma gazının yeteri kadar
+ısıtılamaması nedeniyle çevrim sıcaklığı düşmektedir.
+Buna bağlı olarak motor gücü de düşme eğilimi
+
+413
+
+C. Çınar vd.
+
+Stirling Çevrimi ile Çalışan Beta Tipi Bir Motorun İmali ve Performans Testleri
+
+göstermektedir. Ayrıca, ısıtıcı sıcaklığındaki artışa
+bağlı olarak maksimum gücün meydana geldiği şarj
+basıncı da artmaktadır. Maksimum motor gücü,
+1000°C ısıtıcı sıcaklığında 2,5 bar şarj basıncında 344
+d/d motor devrinde 14 W olarak elde edilmiştir.
+Şekil 6’da 2 bar şarj basıncında motor devri ve ısıtıcı
+sıcaklığına bağlı olarak motor gücü değişimleri
+görülmektedir. Şekilde görüldüğü gibi motor gücü,
+ısıtıcı sıcaklığındaki artışa bağlı olarak artmaktadır.
+Bunun sebebi, çalışma gazına çevrim başına transfer
+edilen ısı miktarının artmasıdır. Ayrıca, soğutucu
+sıcaklığı sabit olduğuna göre, ısıtıcı sıcaklığının
+artması ile çevrimin üst ve alt sıcaklıkları arasındaki
+fark da artmaktadır. Malzemenin dayanım sınırı ve
+yüksek sıcaklıklarda malzemede meydana gelen
+genleşme gibi nedenlerle deneylerde ısıtıcı sıcaklığı
+maksimum 1000°C’ye kadar çıkarılmış ve en yüksek
+motor gücü ve devri bu sıcaklıkta elde edilmiştir.
+Isıtıcı sıcaklığının arttırılması ile elde edilen bir başka
+önemli özellik de maksimum gücün meydana geldiği
+motor devrinin yükselmesidir. Şekilde görüldüğü gibi
+2 bar şarj basıncında maksimum motor gücü 800°C
+ısıtıcı sıcaklığında 235 d/d motor devrinde 3,22 W
+iken, 1000°C ısıtıcı sıcaklığında 320 d/d motor
+devrinde 11,41 W olarak elde edilmiştir.
+
+5. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada, tek silindirli, beta tipi, prototip bir
+Stirling motoru imal edilmiş ve laboratuar
+koşullarında
+performans
+testleri
+yapılmıştır.
+Deneylerde, motor devri, motor gücü ve moment
+ısıtıcı sıcaklığına bağlı olarak artmaktadır. Çünkü
+ısıtıcı sıcaklığındaki artış ile çevrim başına çalışma
+gazına transfer edilen ısı miktarı artmaktadır. Ayrıca,
+motor çıkış gücü 2-2,5 bar şarj basıncına kadar,
+çalışma gazı kütlesindeki artışa bağlı olarak artmıştır.
+Bu şarj basınç değerlerinin üzerinde artan çalışma
+gazı miktarı ile ısıtıcının yetersiz kalması ve çevrim
+üst sıcaklığını düşmesi ile motor gücü düşmüştür.
+Motorda 1000°C ısıtıcı sıcaklığında, 2,5 bar şarj
+basıncında 344 d/d motor devrinde, 14 W güç elde
+edilmiştir. Güneş enerjisinin Stirling motorlarında
+kullanılması, ülkemizde ve dünyada giderek artan
+enerji ve çevre problemlerine çözüm olabilecektir.
+
+Şekil 7. Şarj basıncı ve ısıtıcı sıcaklığına bağlı
+olarak motor gücü değişimi (Variation of output-power
+with charge pressure and heater temperature)
+
+KAYNAKLAR (REFERENCES)
+1.
+Şekil 6. Motor devri ve ısıtıcı sıcaklığına bağlı
+olarak motor gücü değişimi (2 bar şarj basıncında)
+(Variation of output-power with engine speed and heater
+temperature at 2 bar charge pressure)
+
+Şekil 7’de şarj basıncı ve ısıtıcı sıcaklığına bağlı
+olarak motor gücü değişimleri görülmektedir.
+Grafikler oluşturulurken her ısıtıcı sıcaklığı ve şarj
+basıncı için en yüksek güç değeri alınmıştır. Şekilde
+görüldüğü gibi ısıtıcı sıcaklığındaki artışa bağlı olarak
+çevrim başına çalışma akışkanına transfer edilen ısı
+miktarının artması ile motor gücü artmaktadır. Isıtıcı
+sıcaklığının arttırılması ile maksimum gücün meydana
+geldiği şarj basıncı da artmaktadır. 800°C ısıtıcı
+sıcaklığında maksimum motor gücü 2 bar şarj
+basıncında elde edilirken, 1000°C ısıtıcı sıcaklığında
+2,5 bar şarj basıncında elde edilmiştir.
+
+414
+
+2.
+3.
+
+4.
+
+5.
+
+Martini, W.R., “Stirling Engine Design
+Manual”, US Department of Energy, NASA CR13518; 1978.
+Çınar, C. ve Karabulut, H., “Manufacturing and
+Testing of a Gamma Type Stirling Engine”,
+Renewable Energy, Cilt 30, No 1, 57-66, 2005.
+Kongtragool, B. ve Wongwises, S., “A Review of
+Solar-Powered Stirling Engines and Low
+Temperature Differential Stirling Engines”,
+Renewable and Sustainable Energy Reviews,
+Cilt 7, No 2, 131-154, 2003.
+Onovwiona, H.I. ve Ugursal, V.I., “Residential
+Cogeneration Systems: Review of the Current
+Technology”, Renewable and Sustainable
+Energy Reviews, Cilt 10, No 5, 389-431, 2006.
+Kong, X.Q., Wang, R.Z. ve Huang, X.H.,
+“Energy Efficiency and Economic Fesibility of
+CCHP Driven by Stirling Engine”, Energy
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 2, 2007
+
+Stirling Çevrimi ile Çalışan Beta Tipi Bir Motorun İmali ve Performans Testleri
+
+6.
+
+7.
+8.
+
+Conversion and Management, Cilt 45, No 9-10,
+1433-1442, 2004.
+Hsu, S.T., Lin, F.Y. ve Chiou, J.S., “HeatTransfer Aspects of Stirling Power Generation
+Using Incinerator Waste Energy”, Renewable
+Energy, Cilt 28, No 1, 59-69, 2003.
+Walker, G., Stirling Engines, Oxford University
+Press, A.B.D., 1980.
+Çınar, C., Koca, A. ve Karabulut, H., “Farklı
+Çalışma
+Gazlarının
+Stirling
+Motorunun
+Performansına Etkilerinin Deneysel Olarak
+İncelenmesi”, Gazi Üniversitesi Mühendislik
+Mimarlık Fakültesi Dergisi, Cilt 20, No 2, 247250, 2005.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 2, 2007
+
+C. Çınar vd.
+
+9.
+
+Michels, A.P.J., “The Philips Stirling Engine: A
+Study its Efficiency as a Function of Operating
+Temperatures and Working Fluids”, 11th IECEC,
+769258, Sahara Tahoe Hotel, Statline, Nevada,
+September 12-17, 1976.
+10. Ulusoy, N., Dynamic Analysis of Free Piston
+Stirling Engines, PhD. Thesis, Department of
+Mechanical and Aerospace Engineering, Case
+Western Reserve University, 1-10, 1994.
+11. Rogdakis, E.D., Bormpilas, N.A. ve Koniakos,
+I.K., “A Thermodynamic Study for the
+Optimization of Free Piston Stirling Engines”,
+Energy Conversion and Management, Cilt 45,
+No 4, 575-593, 2004.
+
+415
+
+

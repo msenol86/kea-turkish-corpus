@@ -1,0 +1,888 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 1, 1-9, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 1, 1-9, 2012
+
+SİNİR HÜCRESİNİN PASİF KABLO MODELLEMESİ VE
+SİMÜLASYONU
+Özlem
+COŞKUN*,
+ÖZKORUCUKLU**
+
+Mesud
+
+KAHRİMAN*,
+
+Selçuk
+
+ÇÖMLEKÇİ*,
+
+Suat
+
+*Süleyman Demirel Üniversitesi, Müh.-Mim. Fakültesi, Elek. ve Hab. Mühendisliği Bölümü, 32260, Isparta
+**Süleyman Demirel Üniversitesi, Fen-Edebiyat Fakültesi, Fizik Bölümü, 32260, Isparta
+ozlemcoskun@sdu.edu.tr, mesudkahriman@sdu.edu.tr,
+selcukcomlekci@sdu.edu.tr, suatozkorucuklu@sdu.edu.tr
+(Geliş/Received: 28.05.2010; Kabul/Accepted: 31.10.2011)
+ÖZET
+Sinir hücrelerinin fizyolojik yapılarını ve dinamik davranışlarını incelemek üzere geliştirilen modellemeler ve
+simülasyonlar, deneysel çalışmaların desteklemesi açısından önemlidir. Bu çalışmada uyarılabilir hücrelerde
+uyarı iletiminin elektriksel kuramı üzerinde durulmuştur. Pasif kablo teorisinin esaslarına yer verilmiş ve
+uyarılabilir hücreler ile ilgili genel diferansiyel denklemlerin türetilmesi yapılmıştır. Sinir hücresinin pasif kablo
+model simülasyonu, MATLAB7.0.4/Simulink programı ile gerçekleştirilmiştir. Çalışmanın ana hedeflerinden biri
+olan gerçekçi modele erişmek için, basitleştirilmiş ve revize edilmiş iki model kullanılmıştır. Sinir hücresinde
+yayılan aksiyon potansiyeli dalga şekli olarak, MATLAB7.0.4/Simulink’te gerçekçi dalga şekli üretilmiştir.
+Basitleştirilmiş ve revize edilmiş iki modelin simülasyon sonuçları karşılaştırıldığında revize edilmiş model
+çıkışında, minimum genliğin azaldığı görülmektedir. Revize edilmiş modelde; önerdiğimiz olması gereken bir
+kapasite elemanı bulunmuştur.
+
+1. GİRİŞ (INTRODUCTION)
+Günümüzde nöron dinamiklerini modellemede
+NEUROSIM [1], GENESIS [2] NODUS [3] ve
+NEURON [4] gibi yazılımlar kullanılır. NODUS
+yazılımı nöronlar ve küçük sinir ağlarının fizyolojik
+davranışlarını modellemek amacıyla tasarımı yapılmış
+
+yazılımdır ve sadece Apple
+bilgisayarlarla çalışır [3].
+
+Macintosh
+
+(TM)
+
+NEUROSIM yazılımı, eğitim amacıyla hazırlanmış
+olup temel ve orta düzeyde nörofizyoloji eğitimi
+program setini içerir [1]. NEURON ve GENESIS
+nöronları; tek bölmeli ya da çok bölmeli nöronları
+
+Ö. Coşkun ve ark.
+
+modelleyen, aynı zamanda nöron ağlarını fizyolojik
+olarak gerçeğe yakın modelleyen uzman kullanıcılar
+için tasarlanır.
+De Schutter ve arkadaşları literatürdeki nöron
+dinamiklerini modelleyen yazılımların ayrıntılı
+karşılaştırmasını ortaya koyar [5,6,7]. Microsoft
+Excel çalışma tablolarını kullanarak, temel biyolojik
+nöron dinamiklerinin modellenmesi amacıyla basit
+bir yöntem sunmuştur. Bu yöntem; çalışma tablosuna
+anahtar parametrelerin girilmesini ve herhangi bir
+programlama veya makro dil eklentisi kullanmaksızın
+denklem kümelerinin çözümüyle basit modellerin
+simülasyonunun gerçekleştirilmesini kapsar [5,6].
+Fakat kompleks modellerin simülasyonuna imkan
+tanımaz.
+Tek bölmeli nöronlar, Özer ve arkadaşları tarafından
+Dephi görsel programlama dili kullanılarak, YALZER
+isimli bir bilgisayar yazılımı geliştirilerek daha esnek
+modellenir. Bu yazılım ile tek bölmeli nöron modeli
+parametreleri daha ayrıntılı olarak tanımlanarak,
+akım
+ve
+gerilim
+kenetleme
+deneyleri
+gerçekleştirilebilir. Ancak YALZER yazılımı tek
+bölmeli nöron modelini sadece deterministik yapıda
+simüle eder. Stokastik yapısı ile simülasyon
+yeteneğine sahip değildir [8].
+Son zamanlarda, Cinal ve arkadaşlerı tarafından tek
+bölmeli nöronları simüle etmek için bir Simulink
+yazılımı ortaya konmuştur. Hazırlanan benzetim
+programı ile kullanıcı istenilen nöron modelini;
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+kanalların deterministik davranışlarının yanında
+stokastik davranışlarını da ilave ederek oluşturabilir.
+Modelde diğer nöronlardan kaynaklanan sinaptik
+gürültünün nöron üzerine etkisini analiz edilebilir.
+Bunun yanında MATLAB GUI (Graphical User
+Interface)
+kullanılarak
+nöron
+modeline
+ait
+parametrelerin kolaylıkla değiştirilebilmesi için bir
+ara yüz oluşturulur. Kullanıcının GUI arayüzü ile
+tanımladığı nöron modeli Simulink blok diyagramları
+kullanılarak dt zaman adımlarında değişik yöntemler
+kullanılarak modeller sayısal olarak çözülebilir [9].
+Bu çalışmada sinir hücresinin pasif kablo model
+simülasyonu, MATLAB7.0.4/ Simulink programı ile
+gerçekleştirilecektir.
+2.
+KABLO
+ÖZELLİKLERİ
+
+TEOREMİNİN
+
+GENEL
+
+(GENERAL FEATURES OF CABLE
+
+THEOREM)
+
+Sinir hücresinin dentrit ve aksonu Şekil 1(a)’da
+görüldüğü gibi membranların ince tüpünden
+oluştukları için, kablo teoreminde Şekil 1(b)’de
+gösterildiği gibi silindirler şeklinde ideal hale getirilir.
+Hücre içi sitoplazmik öz ve hücre dışı akışkan,
+elektrik akımını ileten iyonik ortamlar olduğundan, bu
+ortamlar öz iletkenler olarak da isimlendirilir [10,11,
+12].
+Yapıda silindirin, uzunluğu boyunca düzgün yarıçapa
+sahip olduğu varsayılır. Membran üzerinden akan
+elektrik akımına gösterilen direnç, iç öz veya dış öz
+
+Şekil 1. (a) Dentrit ve aksonların grafik gösterimi, (b) geometrik gösterimi ve (c) elektriksel kablo modelinin
+şematik gösterimi ((a) Graphic representation of dendrites and axons, (b) geometric representation and, (c) schematic representation
+of the electrical cable model)
+
+2
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+Ö. Coşkun ve ark.
+
+boyunca gösterilen dirençten çok daha büyük
+olduğundan, akımın önemli bir bölümü silindir
+eksenine paralel olarak oldukça uzak mesafeye akma
+eğilimi gösterir. Bu nedenle, kablo teoremi sadece tek
+boyutlu uzaya odaklanır. Silindir Şekil 1(b)’deki gibi
+Δx
+eşit
+uzunluğundaki
+küçük
+parçalara
+bölündüğünde, silindirin elektriksel kablo modeli
+Şekil 1(c)’deki gibi gösterilir.
+Her bir alt-silindirin membranı, membran kapasitansı
+( c m Δx ) ve bu kapasitansa paralel şekilde gösterilmiş
+olan iyonik admitanslardan ( g m Δx ) oluşur. İyonik
+akım I ion , karmaşık ve membran geriliminin doğrusal
+olmayan fonksiyonu olmasına rağmen, pasif kablo
+teoreminde membranın pasif olduğu varsayılır. Yani
+iyonik admitansının sabit olduğu kabul edilir.
+Membran
+parçasından
+geçen
+toplam
+akım
+I m ( x)Δx ’dir. I i (x) silindirin içinden geçen toplam
+akımı, ve I e (x) hücre dışı uzayda silindire paralel
+akan
+
+toplam
+
+akımı
+
+gösterir.
+
+V İ (x)
+
+V = Vi ( x) − Ve ( x) ilişkisini kullanarak ve (2-4)
+denklemleri yardımıyla aşağıdaki ilişki elde edilir.
+
+∂ 2V ∂ 2 (Vi − Ve )
+=
+∂x 2
+∂x 2
+∂I
+∂I
+= − ri i + re e
+∂x
+∂x
+= (ri + re ) I m
+
+(5) denklemi (6) denkleminde yerine konulursa,
+doğrusal olmayan kablo denklemi aşağıdaki gibi elde
+edilir:
+
+∂ 2V
+∂V ⎞
+⎛
+= (ri + re ).⎜ g mV + c m
+⎟
+2
+∂t ⎠
+∂x
+⎝
+
+(7a)
+
+∂V
+1 ∂ 2V
+= g mV + c m
+2
+ri + re ∂x
+∂t
+
+(7b)
+
+ve
+
+Ve (x) sırasıyla hücre içi ve hücre dışı gerilimlerini
+gösterir. Membran gerilimi ise V = Vi ( x ) − Ve ( x )
+şeklinde ifade edilir [13,14,15].
+
+Membran admitansı
+
+rm =
+
+Hücre içi uzayda akan akım Ohm kanununa göre,
+
+Vi ( x) − Vi ( x + Δx) = I i ( x)ri Δx
+
+(1)
+
+Vi ( x + Δx) − Vi ( x) ∂Vi
+=
+= −ri I i ( x)
+Δx
+∂x
+Δx → 0
+
+lim
+
+sıfıra
+
+(2)
+
+(3)
+
+elde edilir. Hücre içi ve hücre dışı düğümlerinde
+akımın korunumu yasasının kullanılması ile,
+
+∂I i
+∂I
+= − I m (x) ve i = − I m (x)
+∂x
+∂x
+
+1
+ifadesi kullanılarak (7b) denklemi
+gm
+
+∂V
+∂ 2V
+=τm
++V
+2
+∂t
+∂x
+
+(8)
+
+λ=
+
+rm
+ve τ m = rm .c m
+ri + re
+
+(9)
+
+λ ve τ m sırasıyla uzunluk sabitini ve membran zaman
+sabitini temsil eder. Son olarak, (8) denklemi
+boyutsuz değişkenler cinsinden aşağıdaki şekilde
+ifade edilir:
+
+elde edilir. Benzer şekilde hücre dışı uzay için,
+
+∂Ve
+= − re I e (x)
+∂x
+
+λ2
+
+g m yerine membran direnci
+
+olarak elde edilir. Burada,
+
+ifade edilir.
+(1) denklemi yeniden düzenlenir ve Δx
+giderken limit alınırsa,
+
+(6)
+
+(4)
+
+∂ 2V ∂Vm
+=
++V
+∂T
+∂x 2
+
+(10)
+
+Burada;
+
+X = x / λ ve T = t / τ m
+
+(11)
+
+denklemi elde edilir. Şekil 1’deki membran akımı,
+iyonik akım ile kapasite akımının toplamına eşittir:
+
+3. HİPERPOLARİZASYON SÜRESİ
+
+∂V
+I m ( x)Δx = g m ΔxV + c m Δx
+∂t
+
+Sinir hücrelerinde; hücre dışında Na+ ve Ca+2 iyon
+miktarları, hücre içerisine kıyasla daha fazladır. K+
+iyonları ise; hücre içerisinde, hücre dışına kıyasla
+daha fazladır. Bu iyonlar sinir hücrelerine, özel
+kanallar vasıtası ile girerler. Bu kanallar başlıca;
+voltaja duyarlı kanallar (voltage operated channels),
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+(5)
+
+(HYPERPOLARIZATION TIME)
+
+3
+
+Ö. Coşkun ve ark.
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+ligand veya kimyasal kapılar (receptor operated
+channels) ve SOC (store operated channels) olmak
+üzere 3 gruba ayrılırlar [16].
+
+Şekil 2. Hiperpolarizyon Süresi (Hyperpolarization Time)
+Bu kanallar vasıtası ile, bu iyonların giriş ve çıkışları
+ayarlanır. Hücre içerinde; bu iyonların görevi bittikten
+sonra aktif pompalar (örneğin Ca+2 pompası veya
+Na+/K+ pompası) vasıtasıyla, geldikleri yerlere (hücre
+içi organellere, hücre içi veya dışı) gönderilirler.
+Şayet bu iyon kanalları sızdırır veya yıkımı olursa,
+hücre içi iyon dengesi bozulur ve iyonların geri
+gönderilmeleri aksar. Dolayısı ile sonra gerçekleşen
+aksiyon potansiyellerinin genlikleri düşer.
+Aksiyon potansiyeli oluşumu sırasında, voltaja
+duyarlı K+ kanallarının yavaş kapanması sonucu,
+hücre içi dinlenim potansiyelinin altında bir değere
+ulaşır. Bu döneme hiperpolarizasyon adı verilir.
+Hiperpolarizasyon süresine ilişkin diyagram Şekil
+2’de gösterilmiştir. Hiperpolarizasyon döneminden
+sonra, hücreler istirahat (latent) dönemine geçer. Bu
+dönemde bozulan iyon dengesi Na+/K+ pompası ile,
+istirahat zar potansiyeli değerlerine getirilir. Fakat
+manyetik alanlara maruz kalma durumlarında olduğu
+gibi; voltaja duyarlı Ca+2 ve Na+ kapıları zarar
+görecek olursa, hücreye aynı anda katyon akışı olur
+[17].
+4. MODELLEME VE SİMÜLASYON
+
+(MODELING
+
+AND SIMULATION)
+
+Modelleme bir sistemi incelemek üzere, o sistemin
+basit bir örneği yapılması anlamına gelir. Bu örnek,
+gerçek sistemin yardımcısı ve basitleştirilmiş bir
+şeklidir. Fakat modelden de gerçek sistemden
+alınacak sonuçlara izin verecek kadar detaylı olması
+beklenir. Simülasyon ise; bir sisteme ait neden sonuç
+ilişkilerinin bilgisayar ortamına aktarılarak, sistemin
+davranışlarının bilgisayarda izlenmesini sağlayan bir
+tekniktir. Modelleme ve simülasyon terimleri
+birbirlerine çok yakın anlamlar içermelerine rağmen,
+
+4
+
+yukarıdaki tanımlarda da belirtildiği gibi farklı
+çalışmalar için kullanılırlar. Modelleme yapılırken
+matematiksel metotlar kullanılırken, simülasyonda ise
+matematiksel
+metotlarla
+birlikte
+olayların
+gerçeklikleri bilgisayar ortamına aktarılarak çözüm
+bulmaya çalışılır.
+Bilindiği gibi Simulink (Simulation and Link);
+dinamik sistemlerin modellenmesi, simülasyonu ve
+analizi için kullanılan bir yazılım paketidir. Son
+yıllarda akademik ve endüstriyel ortamlarda yaygın
+biçimde kullanılır. Simulink; sayısal işaret işleme,
+diferansiyel denklem çözümü, durum-uzay modelleri,
+transfer fonksiyonları, elektrik devre çözümü, kontrol
+sistemleri, uzaktan ve web temelli kontrol gibi birçok
+elektrik, elektronik, mekanik ve termodinamik gerçek
+dünya sistemini simüle edebilir [18]. Bir MATLAB
+arayüzü olan Simulink’te bir modelleme işlemi için,
+simge sürükleme-bırak mantığı ile taşınan bloklar
+kullanılır. MATLAB kodu yazmak yerine, işlem
+blokları birbirine bağlanarak model diyagramları
+oluşturulur. Blok simgeleri; sistemin girişlerini,
+sistemin parçalarını veya sistemin çıkışlarını gösterir
+[19].
+5. SİMÜLASYON PROGRAMININ YAPISAL
+BLOKLARI (STRUCTURAL BLOCKS OF SIMULATION
+PROGRAM)
+
+Bu çalışmada, basitleştirilmiş sinir hücresi ve revize
+edilmiş sinir hücresi içeren nöron modellerinin
+MATLAB 7.0 Simulink programı kullanılarak
+benzetimi sunulacaktır. Bu simülasyon ile devre
+elemanları modellenebilir. Gerçeklenen simülasyon
+programı ile kullanıcı istenilen nöron modelini
+oluşturabilir. Ayrıca MATLAB 7.0 GUI (Graphical
+User Interface) kullanılarak oluşturulan arayüz ile
+nöron modeline ait parametrelerin kolaylıkla
+değiştirilmesine olanak sağlar. Kullanıcının GUI
+arayüzü ile tanımladığı nöron modelleri, Simulink
+blok diyagramları kullanılarak sabit zaman
+aralıklarında sayısal olarak çözülebilir. Model
+değişkenlerinin zamana göre değişimleri, ara yüz
+kullanılarak grafiksel olarak kolaylıkla elde edilebilir.
+Şekil 1’de araştırmacıların bilimsel literatürde kabul
+ettikleri, elektriksel pasif kablo modeli görülür.
+Burada tanımlanan elemanlar birebir kullanılmayacak,
+modelimiz için tanımladığımız devre elemanları
+kullanılacaktır. Simulink ile modellemeye geçmeden
+önce, modelde kullanılan devre elemanlarının
+işlevlerini bilmek gerekir. Her bir blokta çıkış/giriş, o
+bloğun transfer fonksiyonunu vermekte ve bloklardan
+yeteri kadarının peş peşe bağlanması, sinir hücresini
+pasif olarak modeller.
+Transfer
+fonksiyonunun
+eleman
+değerlerine
+bağlılığından çok, hangi elemanın transfer
+fonksiyonuna hangi etkiyi yapacağı daha önemlidir.
+Yani burada R direncinin ve C kapasitesinin
+değerlerindeki değişimden ziyade, olup olmadıkları
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+Ö. Coşkun ve ark.
+
+ve nerede oldukları önem kazanır. MATLAB
+simülasyonunda C kapasitesine paralel kullanılan R1
+direnci, çok büyük değerde olduğundan ihmal edilir.
+R2 direnci ise, ilerleyen dalganın genliğinde bir
+zayıflama yaratır. Bu yüzden bu direncin zayıflatma
+etkisi, R direncinin zayıflatma etkisi içerisine dahil
+edilir. Böylece R2 direnci ortadan kalkar. Dolayısıyla
+simülasyonda, genliği zayıflattığı bilinen seri R
+direnci ve buna ilaveten paralel C kapasitesi
+kullanılır.
+
+yayılan aksiyon potansiyeli dalga şekli olarak,
+MATLAB7.0.4/Simulink’te gerçekçi dalga şekli
+oluşturulur. Bu giriş dalga şekli Şekil 5’te gösterilir.
+RC çarpımı 3 ve 4 olarak seçilerek, çıkış dalga
+şekilleri elde edilir.
+
+Şekil 5. Giriş Dalga Şekli (Introduction Waveform)
+Şekil 3. Basitleştirilmiş Sinir Hücresi Model Bloğu
+(Simplifed Block Model Of Neuron)
+
+Basitleştirilmiş sinir hücresi model bloğu Şekil 3’de
+görüldüğü gibi, R1 ve R2 devre dışı bırakılarak
+tasarlanır. Devrenin transfer fonksiyonu eşitlik
+(10)’daki gibi elde edilir.
+Çıkış =
+
+1
+sC
+
+1
+R+
+sC
+
+.Giriş,
+
+Transfer fonksiyonu =
+
+RC=3 alınarak basitleştirilmiş sinir hücresi model
+bloğunun transfer fonksiyonu, eşitlik (11)’deki gibi
+olur.
+Transfer fonksiyonu =
+
+(10)
+
+Daha sonra basitleştirilmiş sinir hücresi model bloğu;
+Şekil 4’deki gibi peşpeşe bağlanarak, Simulink
+modeli hazırlanacak hale getirilir.
+
+Şekil 4. Basitleştirilmiş Bloklardan Meydana Gelen
+Peşpeşe Model (Cascade Model By Simplified Blocks)
+
+(11)
+
+RC=4 alınarak basitleştirilmiş sinir hücresi model
+bloğunun transfer fonksiyonu, eşitlik (12)’deki gibi
+olur.
+Transfer fonksiyonu =
+
+1
+RsC + 1
+
+1
+3s + 1
+
+1
+4s + 1
+
+(12)
+
+Gerçekçi modele erişmek için, bu simülasyon bir
+kerede seri R direncini kompanze edecek, paralel bir
+C kapasitesi kullanılarak yinelenir. Bu durum Şekil
+6’da görülür.
+
+Şekil 6. Revize Edilmiş Sinir Hücresi Model Bloğu
+(Revised Neuron Model Block)
+
+İlk simülasyon sonuçlarından anlaşılmıştır ki;
+dördüncü blokta da süre ve genlik değişimlerinin
+ölçülebilir olması için, RC değeri ve giriş sinyal
+değeri rastgele olamaz. Bu yüzden dikey eksende
+genlik parametresi standartlaştırılarak ve yatay
+eksende sürenin gözlenebilir olması için transfer
+fonksiyonundaki RC çarpımının denenerek, en iyi
+değerin bulunması yoluna gidilir. Sinir hücresinde
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Devrenin transfer fonksiyonu eşitlik (13)’deki gibi
+elde edilir.
+Çıkış
+
+1
+Giriş,
+sC
+.
+=
+1 ⎞ 1
+⎛
+⎜ R //
+⎟+
+sC ⎠ sC
+⎝
+
+5
+
+Ö. Coşkun ve ark.
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+Şekil 8. RC=3 ve RC=4 İçin Peşpeşe Bağlı Basitleştirilmiş Sinir Hücresi Blok Diyagramı
+and RC=4)
+
+(Simplified Cascade
+
+Neuron Block Diagram For RC=3
+
+Transfer fonksiyonu = RsC + 1
+(13)
+2 RsC + 1
+Daha sonra revize edilmiş sinir hücresi model bloğu;
+Şekil 7’deki gibi peşpeşe bağlanarak, Simulink
+modeli hazırlanacak hale getirilir.
+
+Transfer fonksiyonu = 4s + 1
+(15)
+8s + 1
+Şekil 4’deki RC=3 ve RC=4 için peşpeşe bağlı
+basitleştirilmiş sinir hücresi model bloğu göz önüne
+alınarak, sistemin blok diyagramı Şekil 8’de
+görüldüğü gibi oluşturulur.
+Şekil 8’de verilen RC=3 ve RC=4 için peşpeşe bağlı
+basitleştirilmiş sinir hücresi blok diyagramında giriş
+ve çıkış şekilleri Şekil 9 ve Şekil 10’daki gibi üst üste
+çizdirilir.
+
+Şekil 7. Revize Edilmiş Bloklardan Meydana Gelen
+Peşpeşe Model (Cascade Model By Revised Blocks)
+RC=3 alınarak revize edilmiş sinir hücresi model
+bloğunun, transfer fonksiyonu eşitlik (14)’deki gibi
+olur.
+Transfer fonksiyonu = 3s + 1
+6s + 1
+
+(14)
+
+RC=4 alınarak revize edilmiş sinir hücresi model
+bloğunun, transfer fonksiyonu eşitlik (15)’deki gibi
+olur.
+
+Şekil 9. Basitleştirilmiş Modelde RC=3 İçin Giriş ve
+Çıkış Dalga Şekli (A Simplied Model For RC=3 Input and
+Output Waveform)
+
+6
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+Ö. Coşkun ve ark.
+
+Şekil 10. Basitleştirilmiş Modelde RC=4 İçin Giriş ve
+Çıkış Dalga Şekli (A Simplied Model For RC=4 Input and
+
+Şekil 12. Revize Edilmiş Modelde RC=3 İçin Giriş ve
+Çıkış Dalga Şekli (A Revised Model For RC=3 Input and
+
+Output Waveform)
+
+Output Waveform)
+
+Şekil 9 ve Şekil 10’daki grafiklerden görülmektedir
+ki; birim uzunluk başına hücre dışı sıvı direnci kendi
+başına kullanıldığında beklenildiği gibi, minimum ve
+maksimum genlik değerlerinde zayıflamaya neden
+olur. Ayrıca RC çarpanı arttırıldığında (R=sabit),
+genlikteki azalmanın daha fazla olduğu gözlenir.
+Şekil 7’deki RC=3 ve RC=4 için peşpeşe bağlı revize
+edilmiş sinir hücresi model bloğu göz önüne alınarak,
+sistemin blok diyagramı Şekil 10’da görüldüğü gibi
+oluşturulur.
+Şekil 11’de verilen RC=3 ve RC=4 için peşpeşe bağlı
+revize edilmiş sinir hücresi blok diyagramında giriş ve
+çıkış şekilleri Şekil 12 ve Şekil 13’deki gibi üst üste
+çizdirilir.
+
+Şekil 13. Revize Edilmiş Modelde RC=4 İçin Giriş ve
+Çıkış Dalga Şekli (A Simplied Model For RC=4 Input and
+Output Waveform)
+
+Şekil 11. RC=3 ve RC=4 İçin Peşpeşe Bağlı Revize Edilmiş Sinir Hücresi Blok Diyagramı
+
+(Revised Cascade
+
+Neuron Block Diagram For RC=3 and RC=4)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+7
+
+Ö. Coşkun ve ark.
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+Şekil 12 ve Şekil 13’deki grafiklerden görülmektedir
+ki; paralel C kapasitesinin bağlanması, model
+çıkışında minimum ve maksimum genlik değerlerinde
+zayıflamaya neden olur. Yine burada da RC çarpanı
+arttırıldığında (R=sabit), genlikteki azalmanın daha
+fazla olduğu gözlenir.
+6.SONUÇLAR
+
+hiperpolarizasyon süresi daha da kısalır. Bunu görmek
+için farklı RC değerlerinde bu simülasyonlar
+denenmiştir.
+
+(CONCLUSIONS)
+
+Canlıların anatomik yapısındaki sinir sisteminin
+yapıtaşları nöronlardır. Bu nedenle nöronların
+modellenmesi ve simülasyonu, nöronal fonksiyonların
+ve yapıların anlaşılması için büyük öneme sahiptir.
+Nöronal modelleme işlemlerinde, nöronlar üzerine
+yapılmış deneysel çalışmalar temel alınmakta,
+yapılan simülasyonların sonuçlarının literatürde elde
+edilmiş olan deneysel sonuçlarla örtüşmesi beklenir.
+Gerçekleştirilen simülasyonların doğruluğu, varolan
+deneysel verilerle test edilir. Simülasyonlar biyolojik
+olarak deneyi gerçekleştirilemeyen veya kontrolü zor
+olan deneylerin yazılımsal olarak gerçekleştirilmesini
+mümkün kılar.
+Deneysel olarak gerçekleştirilen önceki çalışmamızda,
+izole sinir 30 saniye 50 Hz 1mT Helmholtz bobini ile
+manyetik alana maruz bırakıldı. 0.1-0.5 msn süreli
+eşik ve supramaksimal pulslarla uyarıldı. Manyetik
+alan uygulanan grubun; genlikler farkı (mV) ve
+ortalama hiperpolarizasyon süresi (msn), kontrol
+grubuna göre daha düşük bulundu (p=0,025).
+
+Şekil 14. Basitleştirilmiş+Revize Edilmiş Modelde
+RC=3 İçin Giriş ve Çıkış Dalga Şekilleri (A
+Simplified+Revised
+Waveforms)
+
+Model
+
+For
+
+RC=3
+
+Input
+
+and
+
+Output
+
+Bu sonuç manyetik alanın, doğrudan veya dolaylı
+yoldan iyon kanallarına zarar verdiği hipotezini
+doğrular. Buna bağlı olarak; hücre içi iyon dengesi
+bozulur. Yani hücre dışından hücre içerisine
+patofizyolojik Na+ve Ca+2 iyon akışları gerçekleşir ve
+sonradan gerçekleşen aksiyon potansiyellerinin
+genlikleri, kontrol grubuna kıyasla düşük gözlenir.
+Ayrıca hiperpolarizasyon süresi de kısalır [20].
+Daha önce modelleme işlemlerinde deneysel
+çalışmalar referans alınacağından bahsedildi. Buradan
+hareketle gerçek sinir hücresi modeline ulaşmak için
+basitleştirilmiş ve revize edilmiş peşpeşe olarak
+bağlanmış bloklardan meydana gelen iki sistem
+tasarlandı. Bu tasarımlar MATLAB7.0.4/Simulink
+paket
+programı
+kullanılarak
+gerçekleştirildi.
+Kullanıcının GUI arayüz ile tanımladığı nöron
+modelleri; Simulink blok diyagramları kullanarak
+sabit zaman adımlarında sayısal olarak çözüldü.
+Model değişkenlerinin zamana göre değişimleri, ara
+yüz kullanılarak grafiksel olarak kolayca elde edildi.
+RC=3, RC=4 için basitleştirilmiş+revize edilmiş
+çıkışlar ile giriş Şekil 14 ve Şekil 15’deki gibi
+çizdirilmiştir. Buradan net olarak revize edilmiş
+model çıkışında; hem RC=3 hem de RC=4 için
+minimum ve maksimum genliklerin azaldığı,
+hiperpolarizasyon sürelerinin kısaldığı görülür. RC
+değeri arttıkça ise genliklerdeki azalma artar ve
+
+8
+
+Şekil 15. Basitleştirilmiş+Revize Edilmiş Modelde
+RC=4 İçin Giriş ve Çıkış Dalga Şekilleri (A
+Simplified+Revised
+Waveforms)
+
+Model
+
+For
+
+RC=4
+
+Input
+
+and
+
+Output
+
+Bir gerçek sinir hücresi manyetik alana maruz
+bırakıldığında, minimum ve maksimum genliklerin
+azaldığı, hiperpolarizasyon sürelerinin kısaldığı
+görülür. Bu daha önce gerçekleştirilen deneysel
+çalışmalarla doğrulanır [20].
+Burada basitleştirilmiş modele eklenen paralel C
+kapasitesinin etkisi şu şekilde açıklanır. Eklenen
+paralel C kapasitesi; manyetik alanlara maruz
+kalmada olduğu gibi, genlik değerlerinin azalmasına
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Sinir Hücresinin Pasif Kablo Modellemesi ve Simülasyonu
+
+ve hiperpolarizasyon sürelerinin kısalmasına neden
+olur. Deneysel ve simülasyon çalışmalarında aynı
+etkinin gözleniyor olması, manyetik alandan etkilenen
+bir C kapasitesinin sinir modelinde olması gerektiği
+tezini ispatlar. Simülasyon sonuçları ile deneysel
+sonuçlar birbiri destekler niteliktedir. Olası etkileri
+deneysel ve simülasyonla gözlenen kapasitenin, rat ve
+insandaki farklı sinir hücresi türlerinde kesin
+değerinin ne olacağı ya da pasif modelde başka devre
+elemanlarının da olabileceği konusunda ileri
+çalışmalara ihtiyaç vardır.
+KAYNAKLAR (REFERENCES)
+1. P. Revest, Neurosim For Windows, Trends
+Neuroscience, 18:556, 1995.
+2. J. M. Bower and D. Beeman, The Book of
+Genesis, Springer, Berlin, 1995.
+3. E. De Schutter, Computer Software for
+Development and Simulation of Compartmental
+Models of Neurons, Computer Methods
+Programs in Biomedicine, 2:71-81, 1989.
+4. M. L. Hines and N. T. Carnavale, The NEURON
+Simulation Environment, Neural Computation,
+9: 1179-1209, 1997.
+5. A. M. Brown, A Methodology for Simulating
+Biological Systems Using Microsoft Excel,
+Computer Methods and Programs in
+Biomedicine, 58: 181-190, 1999.
+6. A. M. Brown, Simulation of Axonal Excitability
+Using a Spreadsheet Template in Microsoft
+Excel, Computer Methods and Programs in
+Biomedicine, 63:47-54, 2000.
+7. E. De Schutter, A Consumer Guide to Neuronal
+Modeling Software, Trends Neuroscirnce,
+15:462-464, 1992.
+8. M. Ozer, Y. Isler and H. Ozer, A Computer
+Software for Simulating Single Compartment
+Model of Neurons, Computer Methods
+Programs in Biomedicine, 75:51-57, 2004.
+9. Ş. Cinal, N. H. Ekmekci ve M. Özer, Stokastik
+Nöron Modellerinin Simulink İle Benzetimi,
+Elektrik-Elektronik-Bilgisayar
+Müh.
+11.
+Ulusal Kongresi, İstanbul, 458-461, 2005.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 1, 2012
+
+Ö. Coşkun ve ark.
+
+10. J. J. B. Jack, D. Noble, R. W. Tsien, Electric
+Current Flow in Excitable Cells, Clarendon
+Press, 1983.
+11. W. Rall, J. Rinzel, Branch Input Resistance and
+Steady Attenuation for Input to One Branch of a
+dendritic Neuron Model, Journal Biophysics,
+13:648-688, 1973.
+12. J. Rinzel, W. Rall, Transient Response in
+aDendritic Neuronal Model for Current Injected
+at one Branch, Journal Biophysics, 14:759790,1974.
+13. E. G. Butz, J. D. Cowan, Transient Potentials in
+Dendritic Systems of Arbitrary Geometry,
+Journal Biophysics, 14:661-689, 1974.
+14. C. Koch and T. Poggio, A Simple Algorithm for
+Solving the Cable Equation in Dendritic Trees of
+Arbitrary Geometry. Journal Neuroscience
+Method, 12: 303-315, 1985.
+15. I. Z. Steinberg, On the Analytic Solution of
+Electrotonic Spread in Branched Passive Trees,
+Journal Computational Neuroscience, 3:301311, 1996.
+16. M. Nazıroğlu, New Molecular Mechanisms on
+the Activation of TRPM2 Channels by Oxidative
+Stress
+and
+ADP-ribose,
+Neurochemical
+Research, 32:1990-2001, 2007.
+17. A. D. Rosen, Mechanism of Action of ModerateIntensity Static Magnetic Fields on Biological
+Systems,
+Cellular
+Biochemistry
+and
+Biophysics, 39(2):163-173, 2003.
+18. Simulink., Model-based and System-based
+Design, Using Simulink, MathWorks Inc.,
+Natick, MA, 2000.
+19. Sim Power Systems for Use with Simulink.,
+User’s Guide, MathWorks Inc., Natick, MA,
+2002.
+20. Ö. Coşkun, Sinir Dokusu Modeli Analizinde
+Gerçekçi Model ve Dışsal Manyetik Alandan
+Etkilenme Mekanizmasının Analizi, SDÜ Fen
+Bilimleri Enstitüsü, Doktora Tezi, 2009.
+
+9
+
+

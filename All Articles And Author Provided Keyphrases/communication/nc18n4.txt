@@ -1,0 +1,563 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 18, No 4, 57-66, 2003
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 18, No 4, 57-66, 2003
+
+LORENZ KAOTİK SİSTEMİ İÇİN ADAPTİF BİR GÖZLEYİCİ
+Ata SEVİNÇ
+Elektrik-Elektronik Mühendisliği Bölümü, Mühendislik Fakültesi, Kırıkkale
+Üniversitesi, 71450 Kırıkkale, A.Sevinc@kku.edu.tr
+ÖZET
+Doğrusal olmayan sistemler için önerilmiş bir adaptif gözleyici tasarım yöntemi,
+kaotik salınımlar üreten Lorenz sistemi üzerinde başarı ile uygulanmıştır.
+Geribesleme bu gözleyici tarafından doğrudan kullanılmayıp sadece adaptasyon
+algoritmasında doğrudan doğruya kullanılmaktadır. Üçüncü mertebeden ve üç
+parametreli bu sistemin parametrelerinden birisinin bilinmediği ve durum
+değişkenlerinden sadece birisinin erişilebilir olduğu kabul edilmiştir. Hem durum
+değişkenleri hem de bilinmeyen parametrenin bu yöntemle tahmin edilmesi
+simülasyon sonuçları ile gösterilmiştir. Bu gözleyici gizli haberleşme sistemlerine
+uygulanırsa iki farklı bilgi sinyalinin aynı kaotik sinyal üzerinden gönderilmesi
+mümkün olacaktır.
+
+
+A. Sevinç
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+1. GİRİŞ
+Geribesleme gözleyiciler için hayati öneme sahip olarak bilinmesine rağmen, daha
+basit bir şekilde gürültüden daha az etkilenen tahminler elde edilebilmesi için
+doğrudan geribesleme kullanmayan bir gözleyici tasarım yöntemi bir süre önce
+önerilmiştir [1,2]. Doğal gözleyici adı verilen bu gözleyicinin durum değişkenlerinin
+gerçek sistemin durum değişkenlerine yakınsaması, geribesleme kullanan parametre
+adaptasyonu ile mümkün olmaktadır. Bu yöntem, hız sensörsüz dc servo ve
+asenkron motorlar üzerinde başarıyla uygulanmıştır [1,2]. Bu makalede ise, kaotik
+salınımlar üreten Lorenz sistemi [3] üzerinde uygulanması anlatılmaktadır.
+Lorenz kaotik sistemi, 40 yıl kadar önce Lorenz tarafından, iki boyutlu akışkan
+konveksiyonu için bir model olarak ortaya atılmıştır [3,4] ve σ , r ve b sistem
+parametreleri olmak üzere
+&
+ x1   σ ( x2 − x1 ) 
+ x  = rx − x − x x 
+&
+ 2  1 2 1 3
+ x3   − bx3 + x1 x2 
+&  
+
+
+(1)
+
+denklemi ile verilir [5]. Burada x1 , x2 ve x3 durum değişkenleridir. Sistemin
+karakteristik özelliği, spektrumu geniş bir frekans bölgesine yayılmış periyodik
+olmayan salınımlar üretmesidir. Bu salınımlar gürültüye benzediği ve tahmini zor bir
+şekilde başlangıç koşullarına bağlı oldukları için gizli haberleşmede
+kullanılabileceği fark edilmiş ve Lorenz kaotik osilatörü kullanan kripto sistemleri
+geliştirilmiştir [6]. Bu sistemlerde çok küçük seviyede tutulan bilgi sinyali, kaotik
+salınımlardan birisiyle karıştırılarak gönderilir. Alıcı tarafında ise bir gözleyici
+tarafından bu sinyal kullanılarak göndericideki kaotik sistem ile senkronizasyon
+sağlanır ve gönderilen kaotik salınımın bilgi sinyali içermeyen hali tahmin edilir.
+Bununla alınan sinyal arasındaki farktan da bilgi sinyali elde edilir [6].
+Lorenz kaotik sistemi için kullanılan başlıca gözleyiciler arasında genişletilmiş
+Kalman filtresi, Thau gözleyicisi, durum değişkenlerine bağlı Riccati denklemi
+metodu, yüksek kazanç gözleyicisi ve kovaryans için üst sınır tayini metodu
+sayılabilir [7]. Bu makalede kullanılan doğal gözleyicinin diğerlerine göre avantajı
+daha basit bir yapıya sahip ve adaptif olmasıdır. Böylece gizli haberleşmede
+doğrudan doğruya gönderilen kaotik salınımın üzerine eklenen bilgi sinyalinden
+başka, adaptasyonu yapılan sistem parametresinde yapılacak değişiklikler ile de bilgi
+göndermek mümkündür. Ancak bu makalede kripto sistem uygulaması değil, bir
+kontrol problemi olarak adaptif gözleyici uygulaması anlatılacaktır.
+
+58
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+A. Sevinç
+
+2. LORENZ KAOTİK SİSTEMİ İÇİN ADAPTİF DOĞAL GÖZLEYİCİ
+TASARIMI
+Doğal gözleyiciler, asıl sistem modeli ile tamamen aynı yapıda tasarlandıklarından
+asıl sistem gibi doğal bir davranış gösterirler ve sınırlı-giriş sınırlı-durum kararlılığı
+gösteren pek çok sisteme uygulanabilirler [1,2]. (1) denklemi ile verilen ve girişi
+olmayan Lorenz kaotik sisteminde de durum değişkenleri sınırlı olduğundan bu
+yöntem uygulanabilir [8]. Bu makaledeki gözleyici uygulaması için sistemin çıkışı,
+yani erişilebilir olduğu varsayılan tek durum değişkeni olarak
+y = x1
+
+(2)
+
+kabul edilmiştir.
+Doğal gözleyici, asıl sistem modeli (1)-(2) ile tamamen aynı yapıya sahip
+olduğundan
+&
+ x1   σ ( x2 − x1 ) 
+ˆ
+ˆ ˆ ˆ
+&  
+ˆ
+ˆ ˆ ˆ ˆ 
+ x2  = rx1 − x2 − x1 x3  ,
+&
+ x   − bx + x x 
+ˆ
+ˆ3 ˆ1 ˆ2 
+ 3 
+
+ˆ ˆ
+y = x1
+
+(3)
+
+biçiminde tasarlanır. Gözleyicide tahmin edilen değişkenler, asıl sistemde karşılık
+gelen değişken sembollerine birer şapka ( ^ ) ilavesi ile gösterilmişlerdir. Asıl
+sistemdeki σ parametresinin de bilinmediği varsayılmaktadır ve bu parametre de
+gözleyici ile paralel olarak çalışan bir adaptasyon ile tahmin edileceğinden bu
+ˆ
+tahmin σ ile gösterilmiştir.
+(3) denklemiyle belirlenen gözleyicide doğrudan doğruya bir geribesleme
+görülmemektedir. Bunun yerine gözleyici ile (1) ve (2) denklemleriyle belirlenmiş
+ˆ
+sistem arasındaki yakınsama, σ sanki bir giriş değişkeniymiş gibi gözleyicinin
+kontrolü yapılarak sağlanacaktır. Geribesleme bu parametre adaptasyonunda
+kullanılacağından, gözleyici de dolaylı olarak geribesleme kullanmış olacaktır. (1)
+ve (2) denklemleriyle belirlenmiş sistem sınırlı giriş – sınırlı durum kararlılığına
+ˆ
+sahip olduğuna göre, σ ’nın belirli değerler arasında sınırlandırılması şartıyla (3)
+denklemi ile belirlenen sistem de sınırlı giriş – sınırlı durum kararlılığına sahip
+olacaktır [8].
+
+Erişilebilir tek durum değişkeni y = x1 kabul
+adaptasyonunun sıfırlamaya çalışacağı hata terimi de
+ˆ
+e1 = x1 − x1
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+edildiği
+
+için
+
+parametre
+
+(4)
+59
+
+A. Sevinç
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+ˆ
+olarak alınacaktır. e1 'in birinci türevinde σ açıkça ortaya çıktığından,
+&
+ˆ ˆ ˆ
+e1 = σ ( x2 − x1 ) − σ ( x2 − x1 )
+
+(5)
+
+&
+ˆ ˆ ˆ
+e1 + α 0e1 = d − ( x1 − x2 )σ
+
+(6)
+
+şeklinde birinci mertebeden bir diferansiyel denklem kurmak mümkündür. Burada
+ˆ
+α 0 keyfi bir pozitif sabittir ve d ise eşitliğin sağ tarafında açıkça σ içermeyen
+terimlerin bütününü sembolize etmektedir. (1) ve
+(2) denklemleri ile belirlenmiş
+sistem, σ ≠ 0 ve x1 ≠ 0 için gözlenebilir olduğundan (ki x1 ’in sıfır olması sadece
+bazen anlık olarak sözkonusu olduğundan gözardı edilebilir) e1 hatasının sıfıra
+asimptotik olarak yakınsaması, gözleyicinin tüm değişkenlerinin gerçek değerlerine
+ˆ ˆ ˆ
+yakınsaması anlamına gelir [9]. Şayet ( x1 − x2 )σ terimi d 'yi yakalayacak şekilde
+ˆ
+ayar büyüklüğü olarak σ değiştirilirse, sağ tarafı sıfıra gidecek olan (6) denklemine
+ˆ
+ˆ
+ˆ
+ˆ
+göre e1 hatası da sıfıra gidecek ve hem σ 'in σ 'ya hem de x1 , x2 ve x3 'ün
+sırasıyla x1 , x2 ve x3 'e yakınsaması sağlanmış olacaktır. Ancak problem, bilinen
+ˆ ˆ ˆ
+( x1 − x2 )σ teriminin bilinmeyen d terimini yakalamasının nasıl sağlanacağıdır. Bu
+problemi çözmek için Şekil 1’deki gibi bir mekanizma kullanılabilir.
+
+ˆ ˆ ˆ
+d − σ ( x1 − x2 )
+
+d
+
++
+
+K
+
+-
+
+∫
+
+ˆ
+σ
+
+ˆ ˆ
+( x1 − x2 )
+ˆ ˆ ˆ
+Şekil 1. ( x1 − x2 )σ ’nin herhangi bir d işaretini küçük bir hata ile takibini sağlayan
+kapalı döngü integral kontrol
+ˆ ˆ
+Burada d ve ( x1 − x2 ) 'nın adaptasyon hızına göre yavaş değişen olması varsayımı
+altında Şekil 1’deki sistem 1-tipi bir sistem gibi davranacağından,
+ˆ ˆ
+sign ( K ) = sign (x1 − x 2 )
+
+(7)
+
+ˆ ˆ ˆ
+şartıyla, ( x1 − x2 )σ terimi d 'yi küçük bir hata ile takip eder. K kazancı mutlak
+değerce ne kadar büyük seçilirse ve d ’nin değişimi ne kadar yavaş olursa, bu hata o
+kadar küçük seviyede kalır [10]. Şekil 1'de gösterilen mekanizmanın d bilgisi
+60
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+A. Sevinç
+
+kullanılmadan gerçekleştirilmesi ise (6) denkleminden faydalanılarak Şekil 2'de
+ˆ ˆ ˆ
+&
+gösterildiği gibi d − ( x1 − x2 )σ yerine e1 + α 0e1 değerinin kullanılması ile mümkün
+olur.
+
+&
+e1 + α 0 e1
+
+K
+
+∫
+
+ˆ
+σ
+
+Şekil 2. Şekil 1’de verilen takip sisteminin sadeleştirilerek PI adaptasyonuna
+dönüştürülmesi
+
+Burada e1 'in türevinin alınmasına da gerek yoktur; çünkü bu mekanizma σ 'nın,
+
+∫
+
+ˆ
+σ = K p e1 + K i e1dt
+
+(8)
+
+biçimindeki bir PI adaptasyon algoritması ile tahmin edilmesi anlamına gelir.
+Burada K p ve K i sırasıyla K ve Kα 0 değerlerine karşılık gelir. Ancak PI
+kazançları zaman zaman işaret değiştirmektedir:
+ˆ ˆ
+sign ( K p ) = sign ( K i ) = sign (x1 − x2 )
+
+(9)
+
+ˆ ˆ
+ˆ
+ˆ ˆ
+Gerçekte d ve ( x1 − x 2 ) 'nın değişmesinden dolayı d ile ( x1 − x 2 )σ arasında
+kalacak küçük de olsa bir hata, gözleyicinin tüm değişkenlerinin gerçek değerlere
+yakınsamasına engel olur. Ancak buradaki d alelade bir fonksiyon değil, gözleyici
+ˆ
+ˆ ˆ
+değişkenleri gerçek sistem değerlerine yaklaştıkça doğal olarak ( x1 − x 2 )σ ile farkı
+azalan bir fonksiyondur. Bu azalma (6) denkleminden dolayı K p ve K i
+
+kazançlarının uygun mutlak değerleri için e1 ’i daha da azaltır ve zincirleme olarak
+ˆ
+birbirlerini azaltması sonucunda hem σ hem de gözleyici durum değişkenleri,
+gerçek sistem değerlerine tam olarak yakınsar. Bu noktada K p ve K i kazançlarının
+uygun mutlak değerlerinin simülasyonla deneme-yanılma ile seçilmesi bu yöntemin
+bir zaafı olarak görülebilir. Ancak birkaç deneme-yanılma ile uygun değerler
+kolayca bulunabildiğinden bu yöntem oldukça kullanışlıdır.
+Gözleyici durum değişkenlerinin sınırsız bir şekilde artması ihtimaline karşı
+parametre tahmini,
+ˆ
+σ ∈ [σ min , σ max ]
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+(10)
+
+61
+
+A. Sevinç
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+şeklinde minimum ve maksimum değerler arasında sınırlandırılmalıdır. Burada σ min
+ve σ max sınırlarının seçiminde σ ’nın içinde olduğu kabaca tahmin edilebilecek
+oldukça geniş bir aralık seçilebileceğinden herhangi bir zorlukla karşılaşılmaz.
+Yakınsama, parametre tahmininin sınır değerlerinden başka bir değerde durulmasına
+bakılarak anlaşılabilir.
+K p ve K i kazançlarının işaretlerinin her değişmesinde (8)’deki orantılı terimden
+ˆ
+dolayı σ ’nın sıçrama yapıp yeniden bir geçici hata yapmasına engel olmak için (8)
+denklemindeki integral teriminin değeri, her işaret değişiminde sıçrama yapmayacak
+şekilde yeniden ayarlanmalıdır. Bu integralin kazanç işaret değişiminden hemen
+önceki ve hemen sonraki değerlerini sırasıyla ξ − ve ξ + ile gösterirsek, bu ayarlama
++
+ˆ
+ξ + = σ − − K p e1−
+
+(11)
+
+ˆ
+ˆ
+ile verilir. Burada σ − ve e1− sırasıyla σ ve e1 ’in işaret değişikliğinden hemen
+önceki değerleridir.
+
+3. SİMÜLASYON SONUÇLARI
+
+Önerilen yöntemin parametre ve durum değişkenleri tahminlerinin performansını
+göstermek için (1) ve
+(2) denklemleri ile belirlenmiş sistem ve (3), (8) ve (9)
+denklemleri ile verilen adaptif gözleyici, gerektiği zamanlarda (10) ve (11)
+denklemlerini de uygulayarak simüle edilmiştir. Euler yöntemiyle ve 1 ms zaman
+adımlarıyla yapılan bu simülasyonda başlangıçta σ = 10 , r = 97 ve b = 8 3
+alınmış, daha sonra adaptasyon performansını daha iyi görebilmek için 6 s ≤ t < 10 s
+aralığında σ = 6 ve t ≥ 10 s için σ = 12 yapılmıştır [5]. Adaptasyon kazançları ise
+K p = 5 ve K i = 100 olarak seçilmiştir. Başlangıç değerleri gerçek sistemde
+ˆ
+ˆ
+ˆ
+x1 = x 2 = x3 = 1 , gözleyicide x1 = 0.1 , x 2 = x3 = 0 , (8) denklemi ile verilen
+parametre adaptasyonundaki integral için ise sıfır olarak atanmıştır. Gözleyicinin
+durum değişkenlerinin her üçünün de başlangıç değerleri sıfır olarak atanmamalıdır;
+çünkü orijin Lorenz kaotik sisteminin denge noktasıdır ve önerilen gözleyici de
+gerçek sistemle aynı yapıya sahiptir. Bu istisna hariç başlangıç değerleri keyfi olarak
+atanmış olup farklı değerler için de benzer şekilde başarılı sonuçlar elde
+edilmektedir.
+
+Şekil 3’de gerçek sistemin durum uzayındaki davranışı gösterilmiştir. Durum
+yörüngesinin, “8” biçimine benzer yollar izleyerek belirli bir yörünge civarına
+yaklaşması, zaman zaman birden uzaklaşıp sonra yeniden benzer şekilde bu bölgeye
+yaklaşması, sistemin kaotik yapısını göstermektedir. Şekil 4-6’da görüldüğü gibi
+durum değişkenlerinin periyodik olmayan ve değişken genlikli salınımlar yapması
+62
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+A. Sevinç
+
+200
+
+150
+
+100
+
+x3
+50
+
+0
+50
+
+0
+
+x1
+-50
+
+100
+
+50
+
+0
+
+-100
+
+-50
+
+x2
+
+Şekil 3. Durum uzayında sistemin kaotik davranışı
+
+da sistemin kaotik yapısını gösteren özelliklerdir. Bu salınımlar bazen çok yavaş,
+bazen de çok ani değişimli olabildiği için frekans uzayında geniş bir banda
+yayılırlar.
+Şekil 4-6’da gözleyici durum değişkenlerinin gerçek sistem durum değişkenlerine
+50
+
+x1
+
+0
+
+ˆ
+x1
+-50
+0
+
+5
+
+10
+
+t (s )
+
+15
+
+Şekil 4. x1 durum değişkeni ve adaptif gözleyicinin tahmini
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+63
+
+A. Sevinç
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+100
+
+x2
+
+50
+0
+-50
+
+ˆ
+x2
+
+-100
+0
+
+5
+
+10
+
+t (s)
+
+15
+
+Şekil 5. x 2 durum değişkeni ve adaptif gözleyici tarafından tahmin edilmesi
+
+yakınsaması da görülmektedir. Yakınsama çok kısa bir sürede gerçekleşmekte ve
+σ parametresindeki değişiklikten fazla etkilenmemektedir. σ parametresinin birden
+değiştiği zamanlarda oluşan geçici hata kolay fark edilemeyecek kadar küçük olup
+hızla sıfıra gitmektedir.
+ˆ
+Şekil 7’de ise parametre adaptasyonu görülmektedir. σ parametresi tahmini σ , bir
+miktar salınım yaptıktan sonra σ 'yı yakalamaktadır. Bundan sonra σ aniden
+ˆ
+değişince σ yeniden bir miktar salınım yaparak birkaç saniye içinde σ 'yı
+yakalamaktadır. Buna göre, bir bilgi sinyaline göre σ ’nın değiştirilmesi suretiyle
+kaotik çıkış sinyali üzerinden bu bilginin gizli olarak gönderilmesi mümkündür.
+200
+
+150
+
+x3
+
+100
+
+50
+
+ˆ
+x3
+
+0
+0
+
+5
+
+10
+
+t (s)
+
+15
+
+Şekil 6. x 3 durum değişkeni ve adaptif gözleyici tarafından tahmin edilmesi
+64
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+A. Sevinç
+
+20
+
+15
+
+σ
+
+10
+
+ˆ
+σ
+
+5
+
+0
+0
+
+5
+
+10
+
+t (s)
+
+15
+
+Şekil 7. σ parametresinin değiştirilmesi ve tahmini
+4. SONUÇ
+
+Kripto sistemlerinde gözleyicisi ile birlikte kullanım alanı olan Lorenz kaotik
+sistemi için adaptif bir gözleyici geliştirilmiştir. Oldukça basit bir yapıya sahip olan
+bu adaptif gözleyici için uygun kazanç değerleri her ne kadar simülasyonla denemeyanılma ile bulunuyor ise de kazançlar bulunduktan sonra gerçekleştirilmesi oldukça
+kolaydır. Bu adaptif gözleyici kripto sistemlerinde kullanıldığında, parametre
+değişikliği yapmak suretiyle de bilgi gönderilmesi mümkündür. Doğrudan
+geribesleme kullanmayan doğal gözleyici ile paralel olarak oransal-integral tarzında
+çalışan bu adaptasyon algoritması, daha uygun bir geribesleme fonksiyonu seçilerek
+oransal terimden kurtulacak şekilde geliştirilebildiği takdirde, gürültüye karşı çok
+daha dirençli bir adaptif gözleyici elde edilecektir. Bu da daha sonraki bir araştırma
+olarak düşünülmektedir.
+KAYNAKLAR
+
+1. Sevinç, A., Speed Sensorless Control of Induction Motors, PhD Thesis,
+University of Bristol, Dept. of Electrical and Electronic Eng., 2001.
+2. Sevinç, A., “A Full Adaptive Observer for DC Servo Motors”, Turkish Journal
+of Electrical Engineering and Computer Sciences, Cilt 11, No 2, 117-130,
+2003.
+3. Lorenz, E.N., “Deterministic Nonperiodic Flow”, Journal of the Athmosferic
+Sciences, Cilt 20, 130-141, 1963.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+65
+
+A. Sevinç
+
+Lorenz Kaotik Sistemi İçin Adaptif Bir Gözleyici
+
+4. González, O.A., Han, G., de Gyvez, J.P., and Edgar, “CMOS Cryptosystem
+Using a Lorenz Chaotic Oscillator”, Proceedings of the IEEE International
+Symposium on Circuits and Systems, ISCAS '99, Cilt 5, 442-445, 1999.
+5. Moon, F.C., Chaotic Vibrations, An Introduction for Applied Scientists and
+Engineers, John Wiley & Sons, New York, 1987.
+6. Cuomo, K.M., Oppenheim, A.V. and Strogatz, S.H., “Synchronization of
+Lorenz-Based Chaotic Circuits with Applications to Communications”, IEEE
+Trans. Circuits and Systems-II: Analog and Digital Signal Processing, Cilt
+40, No 10, 626-633, 1993.
+7. Amirazodi, J., Yaz, E.E., Azemi, A and Yaz, Y.I., “Nonlinear Observer
+Performance in Chaotic Synchronization with Application to Secure
+Communication”, IEEE Int. Conference on Control Applications, GlasgowUK, 76-81, 2002.
+8. Pecora, L.M. and Carroll, T.L., “Synchronization in Chaotic Systems”, Phys.
+Rev. Lett., Cilt 64, 821-824, Şubat 1990.
+9. Freeland, G.C. and Durrani, T.S., “Nonlinear state observers for chaotic systems
+and their applications to communications”, IEE Colloquium on Exploiting
+Chaos in Signal Processing, 10/1-10/6, 6 Jun 1994.
+10. Yüksel, İ., Otomatik Kontrol Sistem Dinamiği ve Denetim Sistemleri, Uludağ
+Üniversitesi Basımevi, Bursa, 1991.
+
+66
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 18, No 4, 2003
+
+

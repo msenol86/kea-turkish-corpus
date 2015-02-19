@@ -1,0 +1,1132 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 22, No 1, 137-147, 2007
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 22, No 1, 137-147, 2007
+
+BUJİ ATEŞLEMELİ MOTORLARDA YAKITA
+HİDROJEN İLAVESİNİN MOTOR PERFORMANSINA VE
+EGZOZ EMİSYONLARINA ETKİSİNİN DENEYSEL ANALİZİ
+İhsan BATMAZ
+Otomotiv Anabilim Dalı, Teknik Eğitim Fakültesi,Gazi Üniversitesi, 06500, Ankara, ibatmaz@gazi.edu.tr
+(Geliş/Received: 22.12.2005; Kabul/Accepted: 27.09.2006)
+ÖZET
+Hidrojen, buji ile ateşlemeli motorlarda kendi başına veya karışım içerisine belirli miktarlarda karıştırılarak
+kullanılabilen alternatif bir yakıttır. Buji ile ateşlemeli motorlarda hidrojen kullanımı, yanma sürecini iyileştirmekte ve egzoz emisyonlarını azaltmaktadır. Bu deneysel çalışmada, tek silindirli 4 zamanlı buji ile ateşlemeli
+motorda herhangi bir tasarım değişikliğine gidilmeden ek yakıt olarak hidrojen kullanılmış ve egzoz emisyonları
+ile motor performansına etkileri incelenmiştir. Stokiyometrik oran değiştirilmeden emme manifoldundaki havayakıt karışımına % 4, % 8, % 12 oranlarında hidrojen eklenmiştir. Deneyler tam gaz kelebek açıklığı şartlarında
+yapılmıştır. Motorda ek yakıt olarak hidrojen kullanılması karbon monoksit (CO) ve hidrokarbon (HC) emisyonları ile özgül yakıt tüketimini azaltmış, buna karşın volümetrik verim, motor momenti ve çıkış gücü azalmıştır.
+
+1. GİRİŞ (INTRODUCTION)
+İçten yanmalı motorlarda, yakıt olarak günümüze kadar
+petrol kökenli yakıtların kullanılması kaynakların
+azalmasına sebep olmuştur. Enerji ihtiyacının büyük
+kısmının petrol kökenli yakıt kaynaklarından sağlanması, bu yakıtların azalmasına ve ekolojik dengenin
+bozulmasına neden olmuştur. Bu yüzden araştırmacılar, ekonomik, çevreye zarar vermeyen, ucuz, güvenli
+yakıtların kullanılması ve geliştirilmesi çalışmalarına
+yönlenmişlerdir [1].
+
+Dünyada ki toplam enerji gereksiniminin artmasına
+karşın, günümüzde kullanılmakta olan enerji kaynaklarının hızla tükendiği görülmektedir. Mevcut rezervlerin
+üretime oranı baz alındığında 40 yıldan biraz fazla bir
+petrol rezervi bulunduğu tahmin edilmektedir. Bu
+sebeplerden dolayı fosil kökenli yakıtların yerini alabilecek alternatif yakıtlara ihtiyaç vardır. Elektroliz ile
+sudan elde edilebilmesi, fiziksel ve kimyasal özellikleri, yüksek güç sağlaması ve çevreye olumlu etkileri
+hidrojeni önemli bir alternatif yakıt durumuna getir-
+
+İ. Batmaz
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+mektedir. Motor yakıtı olarak hidrojen kullanımı 1920’li
+yıllarda başlamış ve günümüze kadar yapılan çalışmalarla kullanım aşamasına gelinmiştir. Uygulamanın yaygınlaştırılmasının önündeki engeller; ekonomik faktörler ve mevcut enerji sistemleri ile geleneksel motorların
+güncelliğini kaybetmesinin getirebileceği sakıncalardır.
+Ancak mevcut koşullar hidrojenin bir an önce kullanımının başlamasını zorunlu kılmaktadır. Hidrojenin
+yakıt olarak kullanılması, fosil yakıtlara olan bağlılığı
+ortadan kaldırılarak kirletici emisyonların azaltılması
+yönündeki çabalara katkı sağlayabilecektir. Bu amaçla
+birçok ülkede belli programlar oluşturularak bu yöndeki
+araştırma ve geliştirme çalışmaları desteklenmektedir.
+Hidrojen sudan elde edilebilirliği ve kullanılınca ürün
+olarak su ve su buharı olması sayesinde sonsuz bir enerji
+kaynağı konumundadır. Hidrojen dünyada en çok bulunan
+elementlerden biridir. Su, hidrojen ve oksijenden oluşur.
+Hidrojen doğada saf halde bulunmamakta ancak çeşitli
+yöntemlerle elde edilebilmektedir [2].
+Taşıtlarda hidrojenin içten yanmalı motorlar veya yakıt
+pilleri aracılığıyla kullanımı konusunda da, Daimler-Benz;
+BMW, Dodge, Buick, Suzuki firmalarının deneme otomobilleri; MacchiAnsoldo’nun ve MAN firmasının
+SL202 otobüsleri, Kanada demiryollarının Lokomotifi
+ile Almanya, Avustralya ve Kanada donanmaları için
+imal edilen deniz altılar sayılabilir. Bunların dışında,
+% 15–20 hidrojen ve % 80–85 doğal gaz karışımından
+oluşan hytane adlı yakıt ile çalışan yeni bir otobüs
+1993 senesinden beri Montreal de (KANADA) denenmektedir [3].
+2. HİDROJENİN ÖZELLİKLERİ
+(PROPERTIES OF HYDROGEN)
+
+1766’da CAVENDISH “alev alan hava” adını verdiği
+değişik bir maddeden söz eden bir makale yayınlamıştır.
+Ancak bu maddenin niteliğini, 1783’te suyun bileşimini
+bulan LAVOISIER ortaya çıkardı ve söz konusu maddeye “Hidrojenyum” adını verdi [4].
+Hava-yakıt karışım oranları için, tutuşma sınırının çok
+geniş aralıkta olması, hidrojenin alternatif yakıt olarak
+kullanılmasında yarar sağlayacak en önemli özelliklerinden birisidir. Çok geniş olan hidrojenin tutuşma
+sınırı hidrojen için 0,15–4,35 (λ) değerleri arasındaki
+iken benzin için hava fazlalık katsayısı 0,3–1,7 değerleri arasında kalmaktadır. Hidrojen-hava karışımlarını
+ateşlemek için gerekli enerji miktarı da diğer yakıtlara
+oranla çok düşüktür. Bu durum tutuşma garantisi sağlaması açısından Otto prensibine göre çalışan motorlarda avantaj sağlamakla birlikte, erken tutuşma ve
+geri tutuşma gibi sorunlarda oluşturmaktadır. Hidrojenin kendi kendine tutuşma sıcaklığı ve oktan sayısının
+yüksek olması Otto motorlarında kullanılan yakıtlar
+için bir avantaj oluşturmaktadır. Bu durum hidrojenin
+dizel motorlarından çok, Otto prensibine göre çalışan
+motorlar için daha uygun bir yakıt olacağını göstermektedir. Ancak hidrojenin mazotla birlikte ek yakıt
+olarak veya dizel motorunda tek başına hidrojen kul138
+
+lanımının gerçekleştiği örneklerde bulunmaktadır Kokusuz, renksiz, tatsız ve saydam bir yapıya sahip olan
+hidrojen doğadaki en hafif kimyasal elementtir. Gaz
+halindeki hidrojen aynı hacimdeki havadan yaklaşık
+15 kez daha hafiftir. İçten yanmalı motorlarda kullanılmakta olan diğer alternatif yakıtlarla karşılaştırıldığında sıvı hidrojenin, sıvı hidrokarbonlara oranla yaklaşık
+10 kere daha hafiftir. Gaz halindeki hidrojenin ise metan
+gazından 10 kere daha hafif olduğu görülmektedir [5].
+Atomik sembolü “H” olan hidrojenin atom ağırlığı
+1.00797, atom sayısı 1 olan elementtir. Hidrojen doğada
+en çok bulunan element olmasına rağmen, hafifliği
+sebebi ile atmosfere yükselip orada serbest kaldığından, yeryüzünde serbest halde çok az bulunmaktadır.
+Görünmez ve kokusuz bir gaz olan hidrojene yeryüzünde diğer elementlerle bileşik yapmış halde rastlanılmaktadır. 0°C’deki yoğunluğu 0,08987 g/l ve havaya göre özgül ağırlığı 0,0695’dir. Hidrojenin yanma
+ısısı oldukça yüksektir ve zehirli etkisi yoktur. Yanma
+sonucunda ise sadece su buharı meydana gelmektedir.
+Aynı ağırlıktaki benzine göre sıvı hidrojenin enerjisi
+2,75 kat daha fazladır [6].
+Hidrojenin alev hızı da oldukça yüksektir. Bu değer
+Stokiyometrik benzin-hava karışımı alev hızının yaklaşık 4 katı kadardır. Alev hızının yüksek olması Otto
+motorlarında ideale yakın bir yanmanın oluşmasını
+sağlayarak ısıl verimi artırabilmektedir [7].
+Hidrojenin sudan elde edilebilirliği ve kullanılınca ürün
+olarak su ve su buharı olması sayesinde sonsuz bir enerji
+kaynağı konumundadır. Sonuçta hiç tükenmeyecek bir
+yakıttır [8].
+Hâlihazırda, hidrojen üretiminde ikincil enerji kaynağı
+olarak sadece elektrik kullanılmaktadır. Bu, suyun
+elektrolizi ile veya klorin-alkalin elektrolizinin yan
+ürünü olarak gerçekleşmektedir. Gelecekte kullanılma
+potansiyeli olan diğer bir ikincil enerji kaynağı metanoldür ve taşıtlarda metanolün reformasyonu ile hidrojen üretimi, yakın gelecekte bu alanda rol oynayabilecektir [9].
+Foto elektrokimyasal, biyolojik ve biyokimyasal gibi
+tekniklerle de hidrojen üretilebilmektedir. Ayrıca denizlerde direkt güneş enerjisi çevrimi ile hidrojen üretimi, uzay güneş güç istasyonlarının enerjisiyle hidrojen
+üretimi gibi yöntemler üzerinde çalışılmaktadır. Elektroliz, sudan elektrik akımı geçirerek su moleküllerinin hidrojen ve oksijene ayrılmasını sağlar. Yaklaşık
+% 65 enerji verimi elde edilebilir ve bu süreçte enerji
+kaybı nispeten az olmaktadır. Elektroliz mevcut hidrojen pazarında küçük bir paya sahip olsa da, temiz
+bir süreç olması ve suyun bol bulunması nedeniyle
+büyük ilgi çekmekte, fakat yüksek maliyet nedeniyle
+orta ve yakın vadede elektrolizin pazarda büyük oranda
+kullanılması sınırlı görülmektedir [10].
+Elektroliz işleminin verimliliğini yükseltmek için yeni
+elektrot malzemeler üzerinde çalışılmaktadır. Kullanılan
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+elektrolitik hücreler oldukça az bakıma ihtiyaç duymaktadırlar ve 25 yıldan fazla ömürleri vardır. Bu sistemin 1000 MW’ın üzerindeki elektrik enerjisi kapasiteli elektroliz fabrikalarında kullanımı planlanmaktadır. Bu tesislerin her biri yılda yaklaşık 150.000 ton
+hidrojen üretme kapasitesine sahip olabileceklerdir [11].
+Hidrojenin kimyasal ve fiziksel özelliğinden kaynaklanan problemlerden dolayı depolama sorunları mevcuttur.
+Hidrojenin depolanmasında üç ana yöntem vardır: Bunlar; yüksek basınçlı gaz şeklinde depolanma, karyojenik
+(aşırı soğutulmuş) sıvı halde depolanma (bu durumda
+hidrojen genellikle alçak basınçlıdır) ve metal-hidrit şeklinde depolanmadır [12].
+Küçük, içi boş, çapları 25 ile 500 mm arasında değişen
+ve duvar kalınlıkları yaklaşık 1 mm olan cam küreler
+kullanılarak da hidrojen depolanabilmektedir. Bu mikro
+küreler 200–400 oC’de hidrojen gazı ile doldurulur.
+Yüksek sıcaklıkta cam duvarlar geçirgenleşir ve gaz,
+kürelerin içine dolar. Cam, oda sıcaklığına soğutulduğunda, hidrojen kürelerin içine depolanır. Kullanılacağı zaman kürelerin ısıtılması ile hidrojen tekrar açığa
+çıkmaktadır [13].
+Karyojenik sıvı depolama tekniğinde hidrojen atmosfer
+basıncında, 20 K’de oldukça iyi izole edilmiş tankta
+depolanmaktadır. Hidrojen sıvı halde olduğu için,
+eşdeğer ağırlıktaki benzinden 3 kat daha fazla enerji
+içerir ve eşdeğer enerji içerdiği durumda da 2,7 kat
+fazla hacim gerektirir. Bu teknikle, tank ve izolasyon
+dahil ağırlıkça % 16 hidrojen depolamaktadır. Ayrıca,
+sıvılaştırma için yakıtın enerji içeriğinin % 40'ı kadarı
+harcanmaktadır. Diğer bir dezavantaj ise izolasyona
+rağmen tanka ısının sızmasıdır. Bu sızma sonucunda
+hidrojen kaynamaktadır. Bu tip sorunlar, 300 bar ve
+100-200 K sıcaklık sağlayabilen depoların kullanımı ile
+çözümlenebilmektedir [14].
+3. HİDROJENİN BUJİ İLE ATEŞLEMELİ
+MOTORLARDA KULLANIMI (THE USE OF
+HYDROGEN IN SPARK IGNITION ENGINES)
+
+Hidrojenin yakıt olarak motorlarda kullanımına temel
+oluşturacak çalışmalar 20. yüzyılın başlarında gerçekleştirilmiştir. Ancak petrol kökenli yakıtların o yıllarda
+henüz geniş kaynaklara sahip olması, ayrıca üretim,
+depolama ve taşıma bakımından üstün yönlerinin bulunması nedeniyle taşıtlarda hidrojen yakıtının kullanımı yaygınlık kazanamamıştır. Hidrojen konusunda
+yapılan araştırmaların ikinci aşaması, 1970’li yıllarda
+ortaya çıkan petrol krizi dönemine rastlamaktadır. Son
+30 yıl içerisinde, enerji krizi ile birlikte mevcut yakıtların oluşturduğu çevre kirliliği sorunu alternatif
+yakıtlar üzerine bilimsel araştırmaların yoğunlaştırılması gerekliliğini ortaya koymuştur [15].
+Çevre kirliliğinin çok önem kazandığı günümüzde,
+motorlu taşıtlardan kaynaklanan kirliliğin büyük boyutlarda olduğu bilinmektedir. Özellikle büyük şehirlerde taşıtlardan kaynaklanan kirletici emisyonlar, ısınGazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+İ. Batmaz
+
+madan kaynaklananlardan daha fazladır. Bu sebeple
+motorlu taşıt egzoz gazlarından kaynaklanan hava
+kirliliği, kalıcı önlemler gerektiren acil çevre sorunu
+haline gelmiştir. Çevre kirletici emisyonların gözle
+görünür olanlarının yanı sıra gerçekte tedbir almamızı
+gerektiren; gözle görülmeyen, renksiz, kokusuz ve
+zehirli gazların, egzoz emisyonları içerisinde fazla
+olması, hızla egzoz emisyonlarındaki konsantrasyonlarının azaltılmasını gerektirmektedir [16].
+İçten yanmalı motorlarda yakıt deposu, karter havalandırma, yakıt sistemi ve egzozdan 100’ü aşkın hava
+kirletici emisyonların çıktığı saptanmıştır. Bunlar içerisinde özellikle çevreyi ve insan sağlığını olumsuz
+olarak etkileyen en önemli emisyonlar, karbon monoksit
+(CO), hidrokarbonlar (HC), azot oksitler (NOX), kükürt
+oksitler (SOX), aldehitler (HCHO) ve partiküllerdir.
+Karbon monoksit eksik yanma sonucu oluşmaktadır.
+Silindirde ÜÖN’den sonra CO maksimum değerine
+ulaşmaktadır. Bunun bir miktarı genişleme zamanı
+esnasında, homojen su gazı reaksiyonuna göre, su
+buharı ile indirgenmektedir Benzin ve dizel motorlarının egzoz borularındaki sıcaklık ve oksijen konsantrasyonunun yeterli olduğu hallerde HC’ler oksidasyonlarını
+devam ettirmektedirler [17].
+Hidrojen-hava karışımı birinci yöntem olarak, değişmez
+bir oranda silindirlerin giriş manifolduna verilmekte
+olup, motor gücü hidrojen-hava karışımı miktarlarını
+değiştiren bir valf vasıtasıyla ayarlanmaktadır. Sisteme,
+özellikle yüksek hızlarda düzgün çalışmayı sağlamak
+için, hidrojen-hava karışımına su buharı ilave edilmektedir. İkinci bir yöntemde ise hidrojen gazı
+basınçlı olarak silindire püskürtülmektedir. Hava ise
+emme manifoldundan silindire alınmaktadır. Böylece
+hidrojen-hava karışımının silindir dışında değil silindir
+içerisinde oluşması sağlanmaktadır. Bu yöntem ilk
+tarif edilen sisteme göre daha emniyetlidir. Burada
+motor gücü, hidrojen gazı basıncının değiştirilmesi
+suretiyle ayarlanmaktadır [18].
+Bir diğer yöntem ise ikinci yönteme benzer şekilde
+hidrojen ve hava, silindirlere ayrı ayrı verilmektedir.
+Ancak yüksek basınç yerine hidrojen, normal veya
+orta basınçta silindirlere püskürtülür. Motor gücü
+hidrojen miktarını değiştirmek suretiyle ayarlanır. Böyle
+bir ayarlama hidrojen-hava karışım oranının oldukça
+geniş bir aralıkta yanma özelliğine sahip olması nedeniyle kolaylıkla gerçekleşebilmektedir [19].
+Hidrojenin, motorlarda tek yakıt olarak kullanımında
+bazı problemler ortaya çıkmaktadır. Bu problemlerin
+başında, sıkıştırma oranına ve sıcak noktalara bağlı
+olarak erken ateşleme (preignition) ve geri tutuşma
+(back flash) gelmektedir. Yanma odasına gönderilen
+yakıt-hava karışımının silindirlere girmeden önce
+tutuşması sonucunda motorun emme manifoldu içerisinde alevin geriye doğru ilerlemesi geri yanma olarak
+tanımlanmaktadır. Bu olay emme sistemi elemanlarını
+tahrip etmektedir. Yanma odası içerisine gönderilen
+karışımın sıcak odaklar tarafından tutuşturulması sonucu
+139
+
+İ. Batmaz
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+yanmanın istenilenden önce başlaması da erken ateşleme olarak tariflenmektedir. Bu problem, motorda güç
+ve verim düşüklüğüne sebep olmaktadır. Ayrıca vuruntu
+ve mevcut depolama yöntemlerinin ağırlıklarının fazla,
+depolanan hidrojen miktarının düşük olması, mevcut
+içten yanmalı motorlar üzerinde yapılması gereken
+düzenlemeler ve ilavelerin maliyetinin yüksek olması
+da diğer problemler olarak ortaya çıkmaktadır [20].
+Hidrojenin kendi kendine tutuşma sıcaklığı yüksek olmasına rağmen, hidrojen hava karışımının tutuşturulabilmesi için gerekli olan enerji miktarı düşüktür. Tutuşma aralığının geniş olması, hidrojenin daha geniş
+karışım aralığında düzgün yanmasını sağlamakta ve
+yanma sonunda daha az kirletici emisyon oluşumu
+meydana gelmektedir. Hidrojen motorları maksimum
+yanma sıcaklığını azaltacak biçimde fakir karışım ile
+çalıştırılabilir. Böylece daha az NOx oluşurken, HC
+ve CO emisyonları oluşmamaktadır. Alev hızının
+yüksek olması ise Otto motorlarında ideale yakın bir
+yanmanın oluşmasını sağlayarak ısıl verimi artırmaktadır. Geniş tutuşma aralığı sayesinde, gaz kelebeğine
+gerek kalınmadan, karışım silindire kısılmadan gönderilir ve böylece pompalama kayıpları azaltılmıştır [21].
+Hidrojenin yüksek sıkıştırma oranlarında, fakir karışım
+ile yanabilmesi yakıt tüketimini azalttığı gibi, yanma
+sonucu oluşan maksimum sıcaklığı da azaltmaktadır.
+Yanma sonucu partikül madde oluşmadığından bujiler
+kirlenmemektedir. Alev parlaklığının düşük olması, diğer
+karbon esaslı yakıtlara göre radyasyon yolu ile ısı kaybını azaltacağından daha yüksek verim sağlamaktadır
+[22]. Benzin motoruna hidrojen takviyesi ile yanmamış
+hidrokarbon emisyonları azaltılarak ısıl verim iyileştirilmektedir [23].
+Glasson ve arkadaşları yaptıkları çalışmalarda hidrojen takviyesi yapılan Otto motorlarında küçük bir ön
+yanma odası kullanmışlardır. Yanma odasını bujinin
+yerine yerleştirmişlerdir. Bu ön yanma odası içerisinde
+hidrojen enjektörü ile buji vardır. Esas yakıt ise (benzin, metanol, propan vs.) emme portlarındaki enjektörlerden püskürtülerek silindirlere gönderilmektedir.
+Hidrojen takviyesi ile esas yanma odası içinde yakılan
+hidrokarbon esaslı yakıtların çok fakir karışım oranlarında düzgün bir şekilde yakılması sağlanmaktadır.
+Böylece ısıl verim artırılarak, azot oksit emisyonları
+önemli derecede azaltılmaktadır [24].
+Hidrojenin hava ile yanması sonucunda, yakıtta karbon
+bulunmaması nedeni ile yanma ürünleri arasında CO,
+CO2 ve HC’ler mevcut olmayacak, sadece motorun
+yağlama yağının yanması nedeni ile çok az miktarda
+oluşan HC’ler egzoz gazları arasında bulunmuş olacaktır. Diğer yandan bu motorlarda, yüksek yanma
+sıcaklıkları nedeni ile havanın kimyasal reaksiyonu
+sonucu azot oksitler bol miktarda üretilmektedir [25].
+Hidrojen yakıtlı motorlarda egzoz gazları içerisinde
+hava kirliliğini etkileyecek tek ürün olarak bulunan
+NOX’lerin miktarı, yanma odası sıcaklıklarının azaltıl140
+
+ması, oksijen konsantrasyonunun azaltılması veya yanma süresinin kısaltılması sonucu düşürülebilmektedir.
+Inert egzoz gazlarının resirkilasyonu sonucu, özellikle
+fakir karışımlarda oksijen konsantrasyonu düşürüldüğü
+için etkin bir şekilde NOx azalmaktadır. Ancak bu
+durumda motorun gücü de bir miktar azalmış olacaktır.
+Motorun emme manifolduna su püskürtülmesi sonucunda karışım sıcaklığı düşmekte, yanma hızı azalmakta ve sonuç olarak NOX emisyonu da azalmaktadır.
+Ateşleme zamanının geciktirilmesi motorun termik
+verimini bir miktar azaltmasına rağmen, maksimum
+sıcaklıkları düşürmekte ve dolayısı ile de NOX emisyonunu azaltmaktadır. Hidrojenin direkt olarak yanma
+odasına püskürtülmesi de NOX emisyonunu azaltıcı
+yönde etki etmektedir. Bu durumda püskürtme zamanının etkileri de önem kazanmaktadır [26].
+Hidrojen yakıtlı motorlarda hava-yakıt oranı 0,8 olduğunda egzoz gazları içindeki NOX miktarı maksimum
+olmaktadır. NOX oluşumunu azaltmak için hidrojene
+saf oksijen de ilave edilebilmektedir. Bu durum ise
+sistemi daha karmaşık hale getirmekte ve taşıt ağırlığını
+artırmaktadır. Bu sorunun çözümü için kullanılan yöntemlerden biri; taşıt üzerinde suyu elektroliz ederek,
+açığa çıkan hidrojen ve oksijenin basınç altında depo
+edilebilmesidir. Hidrojen-hava karışımı içindeki su
+buharı yanma sıcaklığını azaltacağından maksimum
+basıncın, dolayısıyla gücün, azalmasına sebep olmaktadır. Bunun için karışım içindeki su buharı bir yoğuşturucudan geçirilerek su deposuna geri döndürülmektedir. Yanma odası içinde bırakılan su buharı miktarı
+ayarlanarak yanma hızı ve vuruntu oluşumu kontrol
+edilebilmektedir [27].
+Hidrojenin tek başına kullanımında ortaya çıkan bu
+problemler aşılana kadar, benzine ilave yakıt olarak
+kullanılabilir ve böylece hidrojenin mükemmel yakıtsal özelliklerinden faydalanılabilir. Ana yakıtın hidrojence zenginleştirilme düşüncesi ilk olarak Amerika’da,
+Jet Propulsion Laboratory’de Bresheas tarafından NOX
+emisyonlarını azaltmak için motorun fakir karışımda
+çalışabilmesini sağlamak amacıyla ortaya atılmış ve
+NOX konsantrasyonunun yakıt fakirleştikçe azaldığını
+ve yakıtın içine hidrojen katılmasıyla karışımın fakir
+çalışma sınırının genişletildiğini ve motorun termal
+veriminin % 20–% 50 arası değişen oranlarda arttığı
+sonucuna varmışlardır [28].
+Hidrojen yakıtlı motorların çevre kirliliği üzerindeki
+etkileri ilk kez Murray ve Schoeppel tarafından ele
+alınmıştır. NOX emisyonlarını, diğer hidrokarbon yakıtlı motorlarla mukayese etmişler ve stokiyometrik
+karışımda bile, hidrojen motorlarının hidrokarbon yakıtlı
+motorlara göre daha az NOX emisyonu verdiğini belirtmişlerdir. Fakat hidrojen yakıtlı motorların, benzinli
+motorlara göre egzoz gaz sıcaklıklarının daha yüksek
+olduğunu tespit etmişlerdir. Bu nedenle hidrojen yakıtlı
+motorların daha fazla NOX emisyonu verdiğini belirlemişlerdir. Bu olay, zengin karışımlarda daha açık
+hale gelmektedir [29].
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+Stebar ve Parks, General Motors laboratuarında CFR
+motorunda yaptıkları çalışmada, 8:1 sıkıştırma oranı
+ve 1200 d/dak. hızda, hidrojenin kütlesel olarak % 10
+oranında katılmasının, fakir çalışma limit oranını 0,89’dan
+0,55’e düşürdüğünü tespit etmişlerdir. Kütlesel olarak
+% 20 hidrojen katılması durumunda limit oran 0,4’e
+düşmüştür. 0,55 denklik oranı için motor gücü % 30
+düşmüş fakat termal verim % 33’ten % 37’e çıkmıştır.
+Çalışmaları sonucunda, hidrojen ilavesinin CO emisyonlarına çok az etkisi olduğu sonucuna varmışlardır [30].
+Furuhama, hidrojeni –30 °C ve 1 MPa basınçta sıvı
+olarak sıkıştırma zamanında silindire vermiş ve daha
+sonra karışım buji kıvılcımı ile tutuşturulmuştur. Bu
+çalışma şartlarında, motor gücü % 10-20 artmış ve
+kısmi yüklerde fakir karışımlı yanmadan dolayı ısıl
+verim artmıştır [31].
+Rauckis ve McLean, 1000 d/dak. hızında, 8:1 sıkıştırma
+oranı ve 100 ateşleme avansıyla çalışan bir CFR motorunda φ- eqivalans = 1,12, φ- eqivalans = 0,57 ve
+β-hidrojen/benzin karışım oranı= % 0, β-hidrojen/benzin
+karışım oranı = % 28 değerleri arasında çalışma
+gerçekleştirmişlerdir. Silindir basınç değerleri ölçülmüş
+ve boyutsuz bir yanma modelinde hidrojenin % 0–2,
+% 2–10 ve % 10–90 kütlesel oranları, yanma süresinin hesabında kullanılmıştır. Tutuşma gecikmesi süresinin, özellikle fakir karışım oranlarında, hidrojen artışıyla beraber açık bir şekilde azaldığını bulmuşlardır
+[32].
+Abdul ve Al-baghdadi, dört zamanlı buji ile ateşlemeli
+bir motorda etilalkol-hidrojen ilavesinin motor performansı ve egzoz emisyonlarına etkisini incelemişlerdir.
+Çalışma sonucunda bütün performans parametrelerinin iyileştiği görülmüştür. Alkol ilavesi ile faydalı
+sıkıştırma oranı artarken, NOx emisyonları azalmış ve
+hidrojen ilavesi ile de motor gücü artmıştır. Deney, sıkıştırma oranı 9 ve motor devri 1500 d/dak.’da yapılmıştır ve benzine % 30 etilalkol karıştırılarak kütlece
+% 8 hidrojen ilave edilmiştir. Bu şartlarda CO emisyonları % 48,5, NOx emisyonları % 31,1 ve özgül yakıt
+tüketimi % 58,5 azalmıştır. Ayrıca motorun ısıl verimi
+% 10,1 ve çıkış gücü % 4,72 artmıştır [33].
+Al-Janabi ve Al-Baghdadi tarafından yapılan diğer
+araştırmada ise benzin ve hidrojen karışımının buji ile
+ateşlemeli Ricardo E6/US marka motorda, termodinamik çevrim parametrelerine ve motor performans ve
+emisyonlarına etkisi araştırılmıştır. Çalışma, motorun
+en iyi torku verdiği 7,5:1 sıkıştırma oranında, 1500
+dev/dak’da, optimum ateşleme avansı ve stokiyometrik karışım oranında gerçekleştirilmiştir. Ek yakıt olarak
+kullanılan hidrojenin, CO emisyonlarını ve özgül yakıt
+tüketimini önemli miktarda azalttığını tespit etmişlerdir. Motor termik verimi; stokiyometrik karışım için
+hidrojenin yakıttaki kütlesel oranı % 8 oluncaya kadar,
+φ=8 eşdeğerlilik oranı için ise % 8 oluncaya kadar
+arttığı ve volümetrik verimin düştüğünü tespit etmişlerdir. Hidrojen, benzinli motorlarda önemli bir değişikliğe gidilmeden ek yakıt olarak kullanılabileceği, NOX
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+İ. Batmaz
+
+emisyonlarının azaltılması için fakir karışımın ideal
+olduğu, yanmanın iyileştiği, tutuşma gecikmesinin
+azaldığı, sonucuna varılmıştır [34].
+Al-Baghdadi ve Al-Janabi tarafından yapılan diğer bir
+araştırmada, hidrojen–etil alkol–benzin karışımı ile
+çalışan buji ile ateşlemeli dört zamanlı bir motor için
+ayrıntılı simülasyon modeli kullanılmıştır. Bununla
+hidrojen ve etil alkol karışımlarının buji ile ateşlemeli
+motorlar üzerindeki etkisi araştırılmıştır. Çalışmalar
+bütün motor parametrelerinde iyileşme olduğunu ortaya
+koymuştur. Benzin-hidrojen karışımı ile çalışan motorlarda havanın akışı engellendiği için maksimum güç
+düşmektedir. Silindir içerisindeki maksimum sıcaklık
+arttığı için NOX emisyonları artmaktadır. NOX emisyonlarını azaltmak için hidrojen fakir karışımda eklenmektedir. Bu durumda benzinli çalışmaya göre
+daha düşük düzeyde NOX emisyonları tespit edilmiştir.
+Fakat motor gücünde daha fazla bir düşme görülmüştür. Bu çalışmada, hidrojen ilave edilmiş motorda motor
+gücünü iyileştirmek ve NOX emisyonlarını azaltmak
+amacıyla motor yakıtına belirli hacimsel oranlarda etil
+alkol karıştırılmıştır. % 0 ile % 20 arasında hidrojen
+karışımı ve % 0 ile % 40 etil alkol karışımının motor
+performansına ve emisyona olan etkisinin ölçülen değerleri verilmiştir. Kullanılan motor buji ateşlemeli Ricardo
+E6/US’dir. Çalışma, motorun en iyi torku verdiği
+7,5:1 sıkıştırma oranında 1500 d/dak’da stokiyometrik
+karışım oranında ve optimum ateşleme avansında yapılmıştır. % 4 hidrojen, % 30 etil alkol karışımı ile
+yapılan çalışmada karbon monoksit emisyonları % 49,
+NOX emisyonları % 39, özgül yakıt tüketimi % 49
+düşmüştür. Bununla birlikte termik verim % 5, güç ise
+% 4 artmıştır. Yapılan çalışma sonucunda: hidrojen oranı
+% 2’den fazla olunca motor volümetrik veriminin ve
+karışım yoğunluğunun azalmasından dolayı motor
+gücü düşmüştür. Hidrojenin karışımdaki oranı % 8’e
+çıkıncaya kadar motorun termal verimi iyileşmiştir.
+Termal verimin % 8’den sonra düşmesi volümetrik
+verimin azalmasına bağlanmıştır. Motor gücü ve termal
+verim, benzin içerisindeki metil alkol oranı % 30’a
+çıkıncaya kadar artmıştır. % 30 alkol oranında, karışım
+yoğunluğu ve motor volümetrik oranının artışından
+dolayı, maksimum güç ve termal verim elde edilmiştir. Alkol oranı % 30’un üzerine çıkarıldığında yakıtın
+tamamı buharlaştırılamamaktadır. Hidrojen oranı % 6’ya
+çıkıncaya kadar, motor özgül yakıt tüketimi azalmıştır.
+CO konsantrasyonu hidrojen yüzdesindeki artışa bağlı
+olarak azalmıştır. Bunun nedeni karışım yakıt içerisindeki karbon atomu konsantrasyonunun azalması, hidrojenin yüksek difizyon yeteneğinin karışım oluşumunu
+ve yanmayı iyileştirmesidir. Alkol oranı yakıt içerisinde % 0-% 30 arasında olduğu zaman karbon monoksit
+emisyonunda bir değişiklik olmamıştır. % 40 olduğunda ise silindir içerisinde eksik yanmaya bağlı olarak
+karbon monoksit emisyonu artmıştır. NOX emisyonları
+yakıt içerisindeki hidrojen miktarına bağlı olarak artmıştır. Nedeni ise ulaşılan maksimum sıcaklık ve basıncın artmış olmasıdır. NOX emisyonları karışım içerisindeki etil alkol oranına bağlı olarak azalmıştır [35].
+
+141
+
+İ. Batmaz
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+Al-Baghdadi tarafından yapılan diğer bir araştırmada,
+hidrojen ve etil alkol karışımları yakıt olarak değerlendirilmiş ve karbüratörlü bir motorda alternatif yakıt
+olarak kullanılmıştır. Dört zamanlı tek silindirli buji
+ateşlemeli bir motorda, performans ve egzoz emisyonları ölçülmüştür Deneyler hidrojen ve etil alkol karışımlarının motorun en iyi torku verdiği 1500 d/dak’a
+stokiyometrik (λ=1) oranda optimum ateşleme zamanında ve 7–12 sıkıştırma oranlarında yapılmıştır. Hidrojen oranı alkole göre % 2 ile % 12 arasında eklenmiştir.
+Bütün değerler benzinle elde edilen değerlerle karşılaştırılmıştır. Ayrıca hidrojen ve etil alkolün değişik
+oranlarının motor gücü, özgül yakıt tüketimi, karbon
+monoksit ve NOX emisyonları üzerindeki etkisi araştırılmıştır. Etil alkolün ısıl değeri daha düşük olduğu
+için özgül yakıt tüketimi daha yüksektir. Aynı sıkıştırma oranı ve lamda da etanolun yakıt tüketimi benzininkinden % 40 daha fazladır. Artan sıkıştırma oranı, yakıt
+tüketimini azaltmıştır. Bununla beraber 12:1 sıkıştırma oranındaki etanolun yakıt tüketimi, 7:1 sıkıştırma
+oranındaki benzinin yakıt tüketiminden % 25-% 28 daha
+fazladır. Hidrojenin yüzde artışına bağlı olarak özgül
+yakıt tüketimi azalmıştır. Hidrojen-etil alkol karışımlı
+yakıtın 7:1 sıkıştırma oranında optimum ateşleme zamanında ve 1500 d/dak.’da yapılan testinde eqivalans
+oranı ve hidrojenin kütlesel oranına bağlı olarak benzine
+göre daha yüksek ve daha düşük NOx emisyonları
+ölçülmüştür. Hidrojen oranındaki kütlesel artışa bağlı
+olarak NOx emisyonlarının arttığı tespit edilmiştir [36].
+Sher ve Hacohen, 2310 cm3 hacminde, 4 silindirli bir
+motorda, çeşitli benzin-hidrojen karışımlarında çalışmalar yapmışlardır. % 2 ile % 6 arası kütlesel hidrojen ilavesi durumunda özgül yakıt tüketimi % 10 ile
+% 20 arasında azalmıştır. % 6’nın üzerine çıkılması yakıt
+tüketiminde kısmi bir etki yaptığı görülmüştür. Çalışmada ayrıca, stokiyometrik çalışma koşulları civarında
+hidrokarbon (HC) ve karbon monoksit (CO) emisyonlarının azaldığı fakat yüksek reaksiyon sıcaklığı dolayısıyla NOx emisyonlarında artış olduğu belirlenmiştir
+[37].
+Lucas ve Richards, 1275 cm3 hacminde ve sıkıştırma
+oranı 8,9:1 ile 11,7:1 arasında ayarlanabilen bir motorda
+çalışma yapmışlardır. Burada hidrojen akışı, benzinsiz
+çalışma ve tam açık gaz kelebeği durumunda motoru
+rölantide çalıştırabilmek için 69,5 mg/s’e ayarlanmıştır.
+Hidrojen akışı bu debinin üstüne çıkmamakta, yüklenme
+sırasında gerekli güç benzin ile sağlanmaktadır. Bu
+şekilde çalışma, kısmi yük bölgesinde termal verimin
+artmasını ve özgül yakıt tüketiminin de % 30’lara varan
+ölçüde azalmasını sağlamıştır. Fakat maksimum güçte,
+hidrojenle çalışan tüm motorlarda olduğu gibi, bir miktar
+azalma meydana gelmiştir. Bunun sebebi, gerekli hidrojenin benzine göre fazla yer kaplaması nedeniyle
+daha az havanın yanma odasına girebilmesi, yani volümetrik verimin düşmesidir. Çalışmanın ikinci aşamasında hidrojen debisi 89 mg/s’e çıkarıldığında kısmi
+yük termal verimi daha da artmış, fakat güçte daha fazla
+düşme meydana gelmiştir. Bu çalışma, gaz kelebeği konumu değiştirilmeden yapıldığı için, eqivalans oranı ve
+142
+
+Şekil 4.1. Deney düzeneğinin şematik olarak görünüşü
+(Schematic drawing of experiment equipment)
+
+hidrojen enerji oranının motor performansına birleşik
+etkisi incelenmiştir. Çalışma sonucunda, hidrojen ilavesinin NOX ve CO emisyonlarını azalttığı gözlenmiştir [38].
+Yi ve ark, su soğutmalı, dört zamanlı, tek silindirli ve
+sıkıştırma oranı 8,5:1 olan bir benzin motorunda karışım oluşumunun motor performansına etkisini incelemişlerdir. Bunun için biri emme manifolduna yakıt püskürtürken diğeri de silindir içerisine yakıt püskürten iki
+yakıt enjeksiyon sistemi tasarlamışlardır. Çalışma sonunda, düşük yüklerde emme manifolduna enjeksiyonun motorun ısıl verimini artırdığını ve motorun düzgün
+çalıştığını görmüşlerdir. Diğer yöntemin ise yüksek yüklerde verimli olduğu saptanmıştır [39].
+Hoehn ve Dowdy’nin çalışmalarında, 0,53 ve daha düşük
+eqivalans oranlarında, NOX ve CO emisyonlarının çok
+düşük olduğu ve benzinli çalışmaya göre termal verimin yüksek olduğu sonucuna varmışlardır [40].
+4. DENEYSEL ÇALIŞMALAR
+(EXPERIMENTAL STUDY)
+
+Bu çalışmada hidrojen, belirli oranlarda tek silindirli
+bir benzin motorunda ikincil yakıt olarak kullanılmıştır. Motor tam yük koşullarında çalıştırılarak performans ve emisyon değişimleri ele alınmıştır. Deney
+düzeneğinin şematik görünüşü Şekil 4.1’de, deneylerde
+kullanılan motora ait bilgiler Tablo 4.1’de verilmiştir.
+Tablo 4.1. Deney motorunun teknik özellikleri
+(Technical features of experimental motor)
+
+Marka
+
+Briggs and Stratton
+
+Model
+
+4 zamanlı hava ile soğutmalı
+
+Çap (mm)
+
+77.8
+
+Kurs (Strok), (mm)
+
+82.5
+
+Kurs (Strok) hacmi (cc)
+
+392.3
+
+Güç (kW) max. 3600 dak-1
+
+7.46
+
+Moment (Nm) max. 2000dak-1
+
+22,4
+
+Buji Tırnak Aralığı
+
+0,76
+
+Avans (KMA°)
+Yakıt Cinsi
+
+10
+Min.91 oktanlı
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+İ. Batmaz
+
+Tablo 4.2. 1800 d/dak. için ölçülen ve hesaplanan değerler (Measured and calculated values for 1800 rpm)
+Hava tüketimi
+Hidrojen tüketimi
+Benzin tüketimi
+Motor devri (d/dak.)
+(MHava-kg/h)
+(MHidrojen-kg/h)
+(MBenzin-kg/h)
+1800 d/dak. ( % 100 benzin)
+16,56
+1,16359
+1800 d/dak. (% 4 hidrojen)
+16,00
+0,046
+1,02712
+1800 d/dak. (% 8 hidrojen)
+15,42
+0,093
+0,868
+1800 d/dak. (% 12 hidrojen)
+14,77
+0,139
+0,720
+
+Hidrojenin tehlikeli bir yakıt olmasından dolayı deney
+düzeneğine güvenliği artırıcı ekipmanlar konulmuştur.
+Bunlar sırasıyla alev geri tepme valfı, tek yönlü çek valf
+ve sulu güvenlik sistemleridir. Deneylerde devir sayısını
+ve kuvveti ölçen Cussons P8160 marka elektrikli dinamometre kullanılmıştır.
+Deneylerde içten yanmalı motorların çeşitli parametrelerini ölçüp gösteren microprocessor kontrollü ve
+kendi kendini kalibre edebilen MEA 1500 SL motor
+test cihazı ile egzoz emisyonlarının ölçümü yapılmıştır. Cihaz karbon monoksiti, karbondioksiti, lamda’yı
+(λ), hava yakıt oranını, oksijenin hacimsel yüzdesini
+ve hidrokarbonun değerini ölçebilmekte ve ölçümleri
+% 1 hassasiyetinde yapabilmektedir.
+Hidrojen tüketiminin ölçülmesinde furness marka,
+FC10 model akışmetre kullanılmıştır. Ölçüm aralığı 056 m/s’dir. Sıcaklık düzeltme katsayısı ± % 0,2 / °C’dir.
+Yakıt sarfiyatı süresinin tespitinde Robic Sports Sc700 marka bir kronometre kullanılmıştır. Kronometrenin hassasiyeti 1 salisedir.
+4.1. Yöntem (Method)
+Deneylerde, çevre sıcaklığı ortalama 15 °C ve atmosferik basınç 92,8 mmHg’ir. Deneylere başlamadan önce
+motor ayarları yapılmış ve motor yağı değiştirilmiştir.
+Ölçümler, motor dinamometre ile yüklenerek yapılmıştır. Hava fazlalık katsayısı, hava ve yakıt debisi ölçülerek hesaplanmıştır. % 100 benzinle yapılan deneylerde, bütün devirler için karışım ayar vidası yardımıyla
+yanma odasına alınan benzin miktarı değiştirilerek hava
+fazlalık katsayısının 1 (λ=1) olması sağlanmıştır. Motor
+devir sayısı, 1800 d/dak’dan 3200 d/dak.’ya kadar 200
+d/dak. aralıklarla 8 değişik değerde ve hidrojen ilavesi
+kütlesel olarak % 4, % 8, % 12 oranında gerçekleştirilmiştir. Bu işlemler % 100 gaz kelebek açıklığında
+yapılmıştır. Motorun öz değerleri bulunarak hidrojen
+yakıtı ile denemelere geçilmiştir. Hidrojen gazı ilave
+edilerek yapılacak ölçümlerde, eklenecek kütlesel hidrojen gazı miktarı belirlenerek benzin miktarı azaltılmış
+ve karışım yakıt (benzin+hidrojen) için lamda değeri
+(λ=1) sabit tutulmuştur.
+
+0,956
+0,948
+0,956
+0,952
+
+manifolduna verilmiştir. Motora verilen bu oranların
+tespitinde aşağıda verilen Denklem (1) kullanılmıştır.
+Ölçümler 1800…3200 d/dak. Aralığında motor yükü
+azaltılarak-artırılarak yapılmıştır. 1800 d/dak. için
+ölçülen ve hesaplanan değerler Tablo 4.2’de verilmiştir.
+λ=
+
+M Hava
+⎛H
+⎞
+H
+⎛
+⎞
+M Benzin × ⎜
+⎟ + M Hidrojen ⎜
+⎜ Y Hidrojen ⎟
+⎟
+⎝ Y Benzin ⎠
+⎝
+⎠
+
+[1]
+
+5. DENEY SONUÇLARI VE TARTIŞMA
+(RESEARCH RESULTS AND DISCUSSION)
+
+5.1. Motor momenti (Engine Torque)
+Gerçekleştirilen motor deneyleri sonucunda tam yük
+durumunda, H2 oranına bağlı olarak, güç, moment, özgül
+yakıt tüketimi ve emisyonlar motor devrine bağlı olarak
+aşağıda grafiklerle verilmiştir. Ölçümler 1800, 2000,
+2200, 2400, 2600, 2800, 3000 ve 3200 d/dak’da yapılmıştır.
+Şekil 5.1’de görüldüğü gibi motorun kendi yakıtı olan
+benzinle yapılan deneyde maksimum moment 2000
+d/dak’da 18,94 Nm iken bu devrin altında ve üzerinde
+motor momenti düşmektedir. Kütlesel olarak değişik
+oranlarda hidrojen ilavesi yapıldığında motor momentinin düştüğü ve yine maksimum momentin 2000
+d/dak’da olduğu görülmektedir. Hidrojen miktarındaki
+artış, Stokiyometrik oranın korunması için, içeriye alınan
+benzin miktarının azalmasına ve volümetrik verimin
+düşmesine bağlı olarak motor momentinde azalmaya
+neden olmuştur. Bu azalma eğilimi motorun maksimum
+momenti olmayan uç devirler için hidrojen miktarı arttıkça fazlalaşmaktadır.
+20
+19
+18
+
+Md (Nm)
+
+Deneylerde hidrojen motora emme manifoldunda bulunan bir karıştırıcı vasıtasıyla verilmiştir.
+
+λ
+
+17
+16
+
+%100 Benzin
+
+15
+
+%4 Hidrojen
+%8 Hidrojen
+
+14
+
+%12 Hidrojen
+13
+12
+
+Motorun öz değerlerinin tespiti için ilk denemeler benzin
+ile yapılmış ve daha sonra çift yakıtlı (benzin + hidrojen) denemelere başlanılmıştır. Hidrojen, % 4, % 8, ve
+% 12 oranlarında hava ile karıştırılarak motorun emme
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+1600
+
+1800
+
+2000
+
+2200
+
+2400
+
+2600
+
+2800
+
+3000
+
+3200
+
+3400
+
+Motor Devri (d/dak.)
+
+Şekil 5.1. Farklı H2 oranlarındaki moment değişim
+(Torque changes at various H2 rates)
+
+143
+
+İ. Batmaz
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+5,5
+
+Motor Gücü (kW)
+
+5
+4,5
+% 100 Benzin
+
+4
+
+%4 Hidrojen
+%8 Hidrojen
+
+3,5
+
+%12 Hidrojen
+
+3
+160 180 200 220 240 260 280 300 320 340
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+
+Motor Devri (d/dak.)
+
+Şekil 5.2. Farklı H2 oranlarındaki güç değişimi
+
+5.2. Motor Gücü (Engine Power)
+Şekil 5.2’de motor gücünün motor devrine bağlı olarak
+değişimi ve kütlesel olarak 3 değişik oranda benzine
+ilave edilen hidrojenin motor gücü üzerindeki etkisi
+görülmektedir. Motor gücü, motor devrine bağlı olarak
+artmaktadır. Hidrojen ilavesi ise, % 100 benzinle çalışmaya göre, motor gücü üzerinde azalmaya neden
+olmaktadır (Şekil 5.2). Bu azalmanın motor devri
+artışına bağlı olarak artması volümetrik verimin yüksek devirlerde düşük olmasından ve aynı devirler için
+benzinli çalışmaya göre hidrojen ilavesinde gücün
+azalması; yanma odasına alınan yakıtın ısıl değerinin
+azalmasından kaynaklanmaktadır.
+5.3. Volümetrik Verim (Volumetric Efficiency)
+Şekil 5.3’te volümetrik verimin motor devrine bağlı
+olarak değişimi ve kütlesel olarak 3 değişik oranda
+benzine ilave edilen hidrojenin volümetrik verim
+üzerindeki etkisi görülmektedir.
+
+% Benzin
+100
+%H
+4 idrojen
+
+Vol. Ver.(%)
+
+Hidrojenin çok düşük yoğunluğa sahip olması ve havanın yerini alması volümetrik verimin düşmesinin
+asıl nedenidir. Hidrojen –253 °C’ye kadar gaz fazında
+kalmaktadır. Maddeler özelikle hidrojen gaz fazında
+iken çok düşük özgül hacim ve yoğunluğa sahip olduğundan, ağırlık olarak içeriye alınması gereken hidrojen hacim olarak büyük yer kaplamakta ve volümetrik
+verimin düşmesine neden olmaktadır.
+
+(Power
+
+change at various H2 rates)
+
+70
+
+Tüm karışım oranlarında, motor devrinin en düşük
+olduğu noktada volümetrik verim düşmüştür. Maksimum momentin en yüksek olduğu 2000 d/dak.’da volümetrik verim en yüksek noktaya çıkmıştır. 2000
+d/dak’dan sonraki üst devirlerde motor devrinin artması içeriye alınan havanın momentumunun artmasına neden olmaktadır. Bu nedenle yüksek devirlerde
+volümetrik verim düşmektedir.
+
+5.4. Özgül Yakıt Tüketimi (Specific Fuel Consumption)
+Şekil 5.4’de motor özgül yakıt tüketiminin motor devrine bağlı olarak değişimi ve kütlesel olarak 3 değişik
+oranda benzine ilave edilen hidrojenin özgül yakıt
+tüketim üzerindeki etkisi gösterilmektedir.
+Şekil 5.4’de görüldüğü gibi özgül yakıt tüketimi 1800
+d/dak’da, 328,7 g/kWh dir. Bu değer 2000 d/dak’da
+307,3 g/kWh’a düşmüş ve devir yükseldikçe özgül yakıt
+tüketimi yükselmiştir. Özgül yakıt tüketiminin en iyi
+olduğu devir maksimum momentin görüldüğü 2000
+d/dak’dır. Yakıt içerisine hidrojen gazı eklendiğinde,
+özgül yakıt tüketiminde düşme görülmektedir. Hidrojenin yakıt içerisindeki konsantrasyonu arttıkça, özgül
+yakıt tüketimdeki iyileşme artmaktadır. % 12 hidrojen
+gazı ilavesiyle 2000 d/dak’daki 307,3 g/kWh’lik yakıt
+tüketimi 253,9 g/kWh’ye düşmüştür. Tüm devirlerde,
+benzinli çalışmaya göre hidrojen ilaveli çalışma, özgül
+yakıt tüketimindeki iyileşmeyi devam ettirmiştir. Fakat
+en iyi sonuç düşük devirlerde alınmıştır.
+5.5. Karbon monoksit Emisyonları
+
+(Carbon monoxide
+
+Emissions)
+
+Şekil 5.5’te motor egzozundan dışarı atılan karbon
+monoksit emisyonlarının motor devrine bağlı olarak
+değişimi ve kütlesel olarak 3 değişik oranda benzine
+
+%H
+8 idrojen
+
+65
+
+% H
+12 idrojen
+60
+55
+50
+1600 1800 2000 2200 2400 2600 2800 3000 3200 3400
+M D (d/dak.)
+otor evri
+
+Şekil 5.3. Hidrojen ilavesinin volümetrik verime etkisi
+(Effect of hydrogen adding on volumetric efficiency)
+
+144
+
+Şekil 5.4. Hidrojenin ilavesinin özgül yakıt tüketimine
+etkisi (Effect of hydrogen adding on specific fuel consumption)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+İ. Batmaz
+
+yonu arttıkça hidrokarbon emisyonları düşmüştür. Benzinli çalışmada 1800 d/dak’da HC oranı 246 ppm iken,
+% 12 hidrojen ilavesinde HC miktarı 130 ppm’e düşmektedir. 3200 d/dak’da benzinli çalışmada HC oranı
+96 ppm iken, % 12 hidrojen ilavesinde HC miktarı
+44 ppm’ye düşmektedir. Yakıta hidrojen ilavesi ile
+birlikte hidrokarbon emisyonlarındaki düşme eğilimi
+hızlı bir şekilde gerçekleşmektedir.
+6. SONUÇLAR VE ÖNERİLER
+(CONCLUSIONS AND SUGGESTIONS)
+
+Şekil 5.5. Hidrojenin yakıttaki artışına bağlı olarak
+karbon monoksit (CO) emisyonlarının değişimi (Variations
+of carbon monoxide emissions depending on increasing of
+hydrogen addition in fuel)
+
+ilave edilen hidrojenin karbon monoksit emisyonları
+üzerindeki etkisi görülmektedir.
+Şekil 5.5’te görüldüğü gibi, motorun öz değerleri için
+karbon monoksit oranları devir yükseldikçe düşmüştür.
+Yakıt içerisindeki hidrojen gazı konsantrasyonu arttıkça motorun orta ve yüksek devirleri için karbon
+monoksit emisyonları düşmüştür. Motor benzinle çalıştırılırken 1800 d/dak’da % 3,3 iken % 4 hidrojen
+ilavesi yapıldığında % 2,02’ye düşmüş ve hidrojen
+oranı arttıkça karbon monoksit emisyonlarında iyileşme
+artmıştır. Motorun orta ve yüksek devirlerinde de bu
+düşüş eğilimi görülmektedir.
+5.6. Hidrokarbon Emisyonları (Hydrocarbon Emissions)
+Şekil 5.6’da motor egzozundan dışarı atılan hidrokarbonların motor devrine bağlı olarak değişimi ve kütlesel
+olarak 3 değişik oranda benzine ilave edilen hidrojenin hidrokarbonlar üzerindeki etkisi görülmektedir.
+Şekil 5.6’da da görüldüğü gibi, motorun öz değerleri
+için hidrokarbon emisyonları oranları devir yükseldikçe
+düşmüştür. Yakıt içerisindeki hidrojen gazı konsantras-
+
+Şekil 5.6. Hidrojen’e bağlı olarak hidrokarbon (HC)
+emisyonlarının değişimi (Variations of hydrocarbon emissions
+depending on increasing of hydrogen addition in fuel)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Dünya nüfusunun hızla artması, mevcut enerji kaynaklarının yakın gelecekte yetersiz kalması, çevre kirliliğinin önemli boyutlara ulaşması alternatif enerji
+kaynaklarının önemini artırmıştır. Bu çalışmada incelenen hidrojen hem çevre dostu olması hem de kolay
+elde edilebilirliği nedeniyle yakın gelecekte rakipsiz
+bir içten yanmalı motor yakıtı olacaktır. Çalışmada,
+motor karakteristiğinin belirlenmesi amacıyla, deneyler
+tam gaz kelebek açıklığında benzinle başlatılmıştır.
+Benzinle ölçümler tamamlandıktan sonra yakıt içerisine
+değişik oranlarda hidrojen ilavesi yapılmıştır. Motor
+moment değerleri incelendiğinde, benzinli çalışmayla
+maksimum motor momentinin 2000 d/dak.’da elde
+edildiği görülmektedir. Yakıt içerisine % 4, % 8 ve % 12
+oranlarında hidrojen gazı ilavesi motor karakteristiğini
+değiştirmeyip maksimum momentin 2000 d/dak’da
+oluşmasını sağlamıştır. Hidrojen gazı oranı arttıkça
+volümetrik verim kötüleşmiş ve devir arttıkça moment
+düşmeye başlamıştır. Ek yakıt ile maksimum momentin
+oluştuğu en iyi oran % 4 olmaktadır. Hidrojen gazı
+oranı arttıkça momentte azalma meydana gelmektedir.
+Motor gücüde, motor momentine bağlı olarak düşüş
+eğilimi göstermiştir. Hava fazlalık katsayısının deney
+şartlarında 1 olarak belirlenmesi, her deneyde yanma
+odasına alınan kütlesel yakıt miktarında değişime
+neden olmuştur. Hidrojen gazının yoğunluğunun düşük
+olması yanma odasına alınacak olan gaz yakıtın miktarında önemli oranda sınırlama getirmiştir. Hidrojen
+gazının fazla yer kaplaması içeriye alınacak dolgu
+miktarında da azalmaya neden olmuştur. Bu nedenle
+yanma odasına alınan yakıt miktarında kütlesel olarak
+azalma meydana gelmiştir. Yakıt miktarındaki azalma,
+yakıtın ısıl değerinde düşüş meydana getirdiği için motor
+momenti ve gücünde de azalmaya neden olmuştur.
+Motorun standart çalışma şartlarında özgül yakıt tüketiminin en iyi olduğu nokta maksimum momentin en
+yüksek olduğu noktadadır. Hidrojen ilaveli yakıtla elde
+edilen özgül yakıt tüketimi değerleri motorun standart
+değerlerinden daha iyi sonuç vermiştir. Hidrojen gazı
+oranı arttıkça özgül yakıt tüketimindeki iyileşmede
+artmaktadır. Yapılan çalışmada en iyi sonuç olarak
+değerlendirilebilecek özgül yakıt tüketimindeki iyileşmenin nedeni, hidrojen gazının ısıl veriminin benzinin
+ısıl veriminden daha yüksek olmasıdır. Hidrojen yanma
+verimini artırdığından dolayı özgül yakıt tüketiminde
+düşme meydana gelmiştir. Motorun çalışma şartlarında
+eksik yanma sonucu oluşan karbon monoksit ve hidro-
+
+145
+
+İ. Batmaz
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+karbon emisyonları incelendiğinde motor devri arttıkça
+azalmaktadır. Hidrojen gazı ilavesi karbon monoksit
+ve hidrokarbon emisyonlarına iyileştirici yönde etki
+yapmış ve kirletici emisyon sınıfında olan karbon
+monoksit ve hidrokarbon oranını düşürmüştür. Bu
+düşüş % 100 benzinli çalışmaya göre hidrojen katkılı
+yakıt içerisindeki karbon yoğunluğunun düşmesinden
+kaynaklanmaktadır. Ayrıca hidrojen yanma hızı yüksek
+olduğundan eksik ve kısmi eksik yanma olayı azalmakta ve bu tip kirletici emisyonları azaltıcı yönde
+etki yapmaktadır. Hidrojen gazının yakıt içerisine karıştırılmasıyla hidrokarbon emisyonlarında azalma
+sağlanmış fakat hidrojen gazı miktarının yakıt içerisindeki oranının değiştirilmesi hidrokarbon emisyonlarında fazla bir değişiklik göstermemiştir.
+Hidrojen, benzin içerisinde düşük oranlarda katkılı yakıt
+olarak kullanılması sonucunda özellikle orta devirlerde yakıt tüketiminde ve emisyon değerlerinde iyimser
+sonuçlar verdiği görülmektedir. Motor performansında
+da görülen azalmanın giderilmesi volümetrik verimin
+düzeltilmesi ile mümkün olacaktır. Hidrojen –253 °C’ye
+kadar gaz fazında kalmaktadır. Özellikle hidrojen, gaz
+fazında iken çok düşük özgül hacim ve düşük
+yoğunluğa sahip olduğundan motorlarda düşük enerji
+yoğunluğu nedeniyle bir verim düşüşü oluşturmaktadır.
+Hidrojen yakıtı motorda sıvı olarak kullanıldığı taktirde
+volümetrik verimdeki azalmanın giderileceği düşünülmektedir.
+
+5.
+6.
+7.
+
+8.
+9.
+
+10.
+11.
+
+12.
+Sonuç olarak; hidrojen benzinli motorlarda bir karıştırıcı
+ve depolama sistemi konularak fazla bir değişikliğe
+gidilmeden ek yakıt olarak kullanılabilir. Böylece çevre
+benzinli motorlardan kaynaklanan kirleticilerden büyük
+ölçüde korunmuş olacaktır. Ancak hidrojenin geri tutuşma, depolama ve yüksek devirlerde erken ateşleme
+gibi problemleri de büyük ölçüde çözüm beklemektedir.
+
+13.
+
+14.
+SEMBOLLER (NOMENCLATURE)
+HBen = Benzinin Stokiyometrik oranı için gerekli hava
+miktarı(g/dak)
+HHid = Hidrojenin Stokiyometrik oranı için gerekli
+hava miktarı(g/dak)
+YBen = Yanma odasına alınan benzin miktarı(g/dak)
+YHid = Yanma odasına alınan hidrojen miktarı(g/dak)
+
+15.
+
+16.
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+3.
+
+4.
+
+146
+
+Ültanır, M.Ö., “21. Yüzyıla Girerken Türkiye’nin
+Enerji Stratejisinin Değerlendirilmesi”, TÜSİAD
+Parlamento İşleri Komisyonu Raporu, İstanbul
+12: 201-213, 1998.
+İder, S.K., “Hidrojen Enerji Sistemi”, TMMOB
+Metalürji Mühendisler Odası Metalürji Dergisi,
+134: 1-8,2003.
+“Hidrojen Enerjisi Teknolojisinin Dünyadaki
+Gelişimi”,
+www.youthforhab.org.tr/tr/yayinlar/enerji/hidrojen/
+hidteknolojisi.html, 2003.
+Dipioğlu İ. Hidrojenin Taşıt Üzerinde Üretimi
+ve Petrol Kökenli Yakıtlarla Birlikte İçten
+
+17.
+
+18.
+19.
+
+Yanmalı Motorlarda Kullanımının İncelenmesi,
+Yüksek Lisans Tezi, Selçuk Üniversitesi Fen
+Bilimleri Enstitüsü, Konya, 5–7,1988.
+Arsan, E.,Soruşbay, C., “Hidrojenin İçten Yanmalı
+Motorlarda Yanma Performansı”, Mühendis ve
+Makine Dergisi, 29(339): 23-28,1988.
+Ciniviz, M., Haşimoğlu C., Uçar G., “Günümüzde
+İçten Yanmalı Motorlarda Hidrojen Yakıtının Kullanılması”, Selçuk Üniv. On-Line Dergisi, 1-2, 2002.
+Homan, H. S., deBoer P.C.T., Mclean W. J., “The
+Effect of Fuel Injection on NOx Emissions and
+Undesirable Combustion for Hydrogen – Fueld
+Piston Engines”, SAE 780945, 1-17, 1978.
+Atılgan İ., “Türkiye’nin Enerji Potansiyeline Bakış”,
+Gazi Üniversitesi, Müh. Mim. Fak. Dergisi, 14:
+17-30, 2000.
+Temelci F.E., Taşıtlarda Alternatif Yakıt Olarak
+Hidrojen Kullanımı, Yüksek lisans tezi, Yıldız
+Teknik Üniversitesi Fen Bilimleri Enstitüsü,
+İstanbul, 10-20, 2000.
+ÜN.Ü.T, “21. Yüzyılın Enerjisi: Hidrojen”
+E.M.O. YEKSEM 2003, II. Yenilenebilir Enerji
+Kaynakları Sempozyumu, İzmir, 3-4, 2003.
+Murcak,A., Dizel Motorlarında Hidrojenin Yakıt
+Olarak Kullanılmasının Motor Performansına
+Ve Egzoz Emisyonlarına Etkisinin Deneysel
+Analizi, Yüksek Lisans Tezi Gazi Üniversitesi
+Fen Bilimleri Enstitüsü, Ankara, 8, 2004.
+Ateş, A., İçten Yanmalı Motorlarda Hidrojenin
+Yakıt Olarak Kullanılması ve Depolama Problemleri, Yüksek Lisans Tezi, Selçuk Üniversitesi
+Fen Bilimleri Enstitüsü, Konya,1-35, 1985.
+Dincer, I., “Technical, Environmental and
+Exergetic Aspects of Hydrogen Energy Systems”,
+International Journal of Hydrogen Energy, 27:
+265-285, 2002.
+Petkov T., Veziroğlu, T.N., Sheffield, J.W., “An
+Outlook of Hydrogen as an Automotive Fuel”,
+International Journal of Hydrogen Energy, 14:
+449-474, 1989.
+Safgönül, B,. Soruşbay,C,. Ergeneman M,. Arslan
+E., Özaktaş T,. “Motorlu Taşıtlarda Doğal Kullanımı ve Hidrojen Kullanımı”, DPT Proje No:
+90K12 0670/17, 21–40, 1994.
+Bayhan.M., Jankowski A. “İçten Yanmalı Motorlarda Egzoz Emisyonlarının Kontrolü” İstanbul
+Teknik Üniversitesi-Uludağ Üniversitesi III
+Yanma Sempozyumu, Bursa, 405, 1993.
+Bayındır, H., Etanol-Benzin Karışımlarının
+Benzinli Motorlarda Motor Karakteristikleri
+Ve Hava Kirliliğine Etkileri, Doktora Tezi,
+Fırat Üniversitesi Fen Bilimleri Enstitüsü, Elazığ,
+50-51, 1998.
+Kim..Y.T., Kim J.M., Lee J.T, Lee S.Y “A Study
+on Developing the Hydrogen Fueled Engine of
+the Direct injection Method.”, KHES, 1-15, 1992.
+Moon K.J., Kim..Y.T, Lee J.T., Lee S.Y.,
+“Performance Characteristics of Hydrogen-Fueled
+Engine: With Direct Injection and Spark Ignition
+System” SAE Paper 952498, 1995.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+Buji Ateşlemeli Motorlarda Yakıta Hidrojen İlavesinin Motor Performansına ve Egzoz Emisyonlarına Etkisinin…
+
+20. Jorach, R., Enderle, C., Decker, R., “Development
+of Low – NOx Truck Hydrogen Engine with High
+Specific Power Output”, Int. J. of Hydrogen
+Energy, 22(4) : 423–427, 1997.
+21. Y.Jamal and M.L. Wyszynski “Onboard Generation
+of Hydrogen-Rich Gaseous Fuels - A Review”,
+International Journal of Hydrogen Energy
+Vol. 19(7): 557–572, 1994.
+22. Kondo, T., Lio,S., Hiruma, M., A Study on the
+Mechanism of Backfire in Extarnal Mixture
+Formation Hydrogen Engines”, SAE Paper No:
+971704, 1997.
+23. Apostolescu, N., Chiriac, R., “A Study of
+Combustion of Hydrogen Enriched Gasoline in A
+Spark Ignition Engine”, SAE Paper No: 9606603,
+1996.
+24. Glasson, N., Lumsden,G., Dingli,R., Watson,H.,
+“Development of the Haji System for A MultiCylinder Spark Ignition Engine”, SAE Paper
+No: 961104, 1996.
+25. Çeviköz, B.M., Alternatif Motor Yakıtları ve
+LPG’nin Motor Yakıtı Olarak Benzinle Deneysel
+Olarak Karşılaştırılması, Yüksek Lisans Tezi,
+İstanbul Teknik Üniversitesi Fen Bilimleri
+Enstitüsü, İstanbul, 19-26, 1996.
+26. Baker, R.E., Macpherson, I., “Future Transportation
+Fuels and the Environment,” Automotive Engineering, 99(1), 27-29, 1981.
+27. Bohacik, T., Maria, S.D., “Travbridge,C., Saman,
+W., “Combustion Characteristic Of Electrolycally
+Produced Hydrogen-Oxygen Mixture”, SAE Paper
+No: 971703, 1997.
+28. Bresheas R., Cotrill H., Rupe, J., “Partial Hydrogen Injection into Internal Combustion Engines
+Effect on Emissions and Fuel Economy” Presented
+at the First Symposium on Low Pollution Power
+Systems Development, Ann Arbor, Michigan,
+October 14-19, 1973.
+29. Murray, R.G. ve Schoeppel R.J., “Emission and
+performance Characteristics of an Air-Breathing
+Hydrogen- Fuelled Internal Combustion Engine”,
+Proc. 6th. Intersociety Energy Coversion Engrg
+Conf (IECEC), Paper No:719009, 1971.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 1, 2007
+
+İ. Batmaz
+
+30. Stebar,R.F. ve Parks, F.B., “Emission Control with
+Lean Operation Using Hydrogen- Supplemented
+Fuel”, SAE Paper No. 740187, 1974.
+31. Furuhama, S., “Hydrogen Engine Systems for
+Land Vehicles”, Int. J. of Hydrogen Energy,
+14(12 ): 907-913, 1989.
+32. Rauckis M. J., McLean, W. J. “The Effect of
+Hydrogen Addition on Ignition Delays and Flame
+Propagation in Spark Ignition Engines”, Combustion Science and Technology, 19: 207-216, 1979.
+33. Abdul, M., Al-Baghdadi, R.S., “Performance
+Study of A Four-Stroke Spark Ignition Engine
+Working Both of Hydrogen and Ethyl Alcohol as
+Supplementary Fuel”, International Journal of
+Hydrogen Energy 25:1005-1009, 2000.
+34. Al-Janabi, H.A.S., Al-Baghdadi M.A.S., “A Prediction Study of the Effect of Hydrogen Blending
+on the Performance and Pollutants Emission of A
+Four Stroke Spark Ignition Engine”, Int. J. of
+Hydrogen Energy 363-375, 1999.
+35. Al-Baghdadi, M.A.S., Al-Janabi, H.A.S., “Improvement of Performance and Reduction of Pollutant Emission of A Four Stroke Spark Ignition
+Engine Fueled with Hydrogen-Gasoline Fuel
+Mixture”, Int. J. of Hydrogen Energy 76-91, 1999.
+36. Al-Baghdadi, M.A.S. “Hydrogen-Ethanol Blending
+As An Alternative Fuel of Spark Ignition Engines”,
+International Journal of Hydrogen Energy,
+1471-1477, 2001.
+37. Sher, E., Hacohen, Y., “The Modeling of a SI 4Stroke Cycle Engine Fueled with HydrogenEnriched Gasoline”, International Journal of
+Hydrogen Energy, 773-781, 1987.
+38. Lucas, G. G., Richards, W. L., “The Hydrogen/
+Petrol Engine S The means to Give Good Part
+Load Thermal Efficiency”, SAE Paper No:
+820315 (1982).
+39. Yi, H. S., Min, K., Kim, E. S., “The Optimised
+Mixture Formation for Hydrogen Fuelled Engines”,
+Int. J. Of Hydrogen Energ, 25: 685-690, 2000.
+40. Hoehn F. W., Dowdy, M. W., “Feasibility Demonstration of a Road Vehicle Fueled with
+Hydrogen Enriched Gasoline”, SAE Paper No:
+749105, 1974.
+
+147
+
+

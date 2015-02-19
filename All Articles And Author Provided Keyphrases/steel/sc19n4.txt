@@ -1,0 +1,966 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 19, No 4, 455-465, 2004
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 19, No 4, 455-465, 2004
+
+YAKMA ALIN KAYNAĞI İLE BİRLEŞTİRİLEN 16MnCr5
+ZİNCİR ÇELİĞİNDE YIĞMA AKIM ZAMANI VE TAM
+TAVLAMA ISIL İŞLEMİNİN MEKANİK ÖZELLİKLERE
+ETKİSİNİN İNCELENMESİ
+Cemil ÇETİNKAYA ve Uğur ARABACI
+Metal Eğitimi Bölümü, Teknik Eğitim Fakültesi, Gazi Üniversitesi, 06500, Teknikokullar, Ankara
+ÖZET
+Bu çalışmada 16MnCr5 zincir çeliği çifti birbirine yakma alın kaynağı yöntemiyle birleştirilmiştir. Deney
+çalışmaları sırasında yığma basıncı 2 Bar yığma akım zamanı ise 1,6, 1,8 ve 2 saniye olarak seçilmiştir.
+Belirlenen parametrelerde kaynatılan numunelerin bir grubuna kaynak sonrası tam tavlama ısıl işlemi
+uygulanmıştır. Deney sonuçları tüm numunelerde en yüksek sertlik değerlerinin kaynak bölgesinde meydana
+geldiğini ancak yığma akım zamanının artmasıyla birlikte ısıl işlem görmeyen numunelerin aynı bölgedeki
+sertlik değerlerinde düşüş olduğunu göstermiştir. Çekme dayanımında ise önemli bir artış olurken, kaynak
+sonrası uygulanan tam tavlama ısıl işlemi sertlik ve çekme dayanımında bir düşüşe yol açmıştır.
+
+1. GİRİŞ
+Kaynak; uygulandığı malzemeye, işlemlerine ve
+amacına göre çeşitlere ayrılmaktadır. Endüstride
+zincir ve rayların kaynağında en fazla yakma alın
+kaynağı yöntemi kullanılmaktadır.
+Yakma alın kaynağı aslında elektrik direnç kaynak
+işleminin bir türüdür; ısı, dövme ve yığma
+işlemlerinden oluşur [1-2]. Yakma işlemi, dirençle
+ısıtma işleminden farklılık gösterir. Yüzeydeki
+pürüzler temas anında temas yüzeyinin küçük
+oluşuna, bu da direncin artmasına neden olacaktır.
+
+Temas yüzeylerinden çok yoğun bir akım geçtiğinden,
+pürüzler üzerinde çok kuvvetli bir ısınma meydana
+gelir [3-4]. Temas noktaları ani olarak ergime
+sıcaklığına ulaşır. Ergime halindeki bu küçük
+malzeme hacimleri patlar ve yanan zerrecikler dışarı
+doğru fırlayarak yeni krater ve çukurlar oluştururlar.
+Kızak hareket ettirildiğinde bu kraterlerin uç noktaları
+tekrar temasa geçer ve böylece olay alın yüzeyinin
+kaynak sıcaklığına gelmesine kadar devam eder [5-6].
+Yanmanın bütün yüzeyi kaplaması ve birleştirilecek
+yüzeyin tamamının ergimesinden sonra, tablanın ani
+hareketi ile yüksek sıcaklıktaki yüzeyler birbirine
+bastırılır. Böylece pürüzlerin temas dirençleri ortadan
+
+C. Çetinkaya ve U. Arabacı
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+kalkar ve kıvılcımlanma da biter. Kıvılcımlanma
+süresi; malzemenin ısıl iletkenliğine, parçaların
+kesitine, kıvılcımlanma çevirimine ve sekonder devre
+gücüne bağlıdır [7].
+Bu çalışmada, büyük ölçüde zincir halkaları
+üretiminde
+kullanılan
+16MnCr5
+çeliğinin
+kaynaklanabilmesi ve önemli parametrelerden olan
+yığma basıncı sabit tutulup, yığma akım zamanı
+arttırılarak bunların kaynağa etkileri araştırılmıştır.
+Daha sonra kaynatılan numunelere ısıl işlem
+uygulanmış ve bu işlemlerin sertlik, mikroyapı ve
+çekme dayanımına etkileri incelenmiştir.
+2. MATERYAL VE METOD
+2.1. Materyal
+Deneylerde, Tablo 1’de kimyasal analizi verilen
+16MnCr5 çeliğinden 100 mm. boyunda ve 18 mm
+çapında kesilen 90 adet numune kullanılmıştır.
+
+bölgeden alınan 4 ölçümün ortalaması kullanılmıştır.
+Deney numunelerinin ITAB bölgesine ait kopma
+yüzeyi SEM fotoğrafları ise Jeol JSM 5600 marka
+elektron mikroskobu ile çekilmiştir. Yine EDX
+ölçümleri bu elektron mikroskobuna bağlı bilgisayar
+yardımıyla yapılmıştır. Tablo 2’deki (I) kodu ile
+verilen deney numuneleri kaynak işleminden sonra
+780 0C’de 4 saat tavlanmış, daha sonra fırın içerisinde
+yavaş soğutulmaya bırakılmıştır.
+Tablo 2. Uygulanan deney parametreleri
+Yığma
+Kaynak Numune
+Yığma
+akım
+sonrası
+Adeti
+KOD Basıncı
+zamanı
+ısıl işlem
+[Bar]
+[saniye]
+durumu
+A1
+2
+1,6
+Görmedi
+15
+A2
+2
+1,8
+Görmedi
+15
+A3
+2
+2
+Görmedi
+15
+I-A1
+2
+1,6
+Gördü
+15
+I-A2
+2
+1,8
+Gördü
+15
+I-A3
+2
+2
+Gördü
+15
+
+2.2. Deneysel Metot
+
+780
+
+800
+
+0
+
+640
+s ıc a k lık
+
+Yüzeyleri temizlenerek kaynak işlemine hazır hale
+getirilen numunelerin. kaynak işlemi OSTİM’deki
+YAPAŞ Zincir Fabrikası’nda, SCHLATTER marka
+yakma alın kaynak makinesi ile yapılmıştır. Kaynak
+süresince çenelerin sıkma yüzeylerinde temas direnci
+oluşmaması için temizliğe dikkat edilmiş ve aşağıdaki
+parametreler sabit tutulmuştur.
+
+480
+320
+160
+0
+0
+
+456
+
+% Mn
+1,17
+
+12
+
+16
+
+20
+
+24
+
+28
+
+32
+
+36
+
+40
+
+44
+
+Şekil 1. Kaynak sonrası numunelere uygulanan ısıl
+işlem grafiği
+3. DENEY SONUÇLARI VE TARTIŞMA
+3.1. Sertlik Sonuçları
+
+Deney parametreleri makinenin gücü ve teknik
+özellikleri dikkate alınarak tespit edilmiştir.
+Birleştirme işlemlerinde makinenin en düşük yığma
+basıncı olan 2 bar sabit tutulmuştur. İki saniyenin
+üstündeki yığma zamanında kaynak metalinde yer yer
+istenmeyen yanmalar görüldüğü için bu sürenin
+üzerine çıkılamamıştır. Tablo 2’de verilen
+parametrelerde kaynatılan numunelerin, her birinden
+sertlik, mikroyapı ve çekme deneyleri için beşer adet
+ayrılmıştır. Daha sonra iki gruba ayrılan numunelerin
+bir grubu (45 Adet) kaynak sonrası Şekil 1’de grafiği
+verilen ısıl işleme tabi tutulmuştur. Mikroyapı
+fotoğrafları için % 2 Nital ile dağlanan numunelerin
+mikroskop görüntüleri Prior marka mikroskop ile
+çekilmiş, sertlik ölçümleri ise Instron Wolpert marka
+sertlik ölçüm cihazı ile Hv5 yük altında Vickers
+sertlik ölçümü yapılmıştır. Sertlik deneylerinde her bir
+
+% Cr
+1,04
+
+8
+
+zaman (saat)
+
+Voltaj .........................3 Volt
+Akım şiddeti...............30 A
+Ön ısıtma zamanı .......3 Saniye
+Temas zamanı ............1,2 Saniye
+Çene sıkma basıncı.....3 Bar
+Makine basıncı ...........6 Bar
+
+%C
+0,143
+
+4
+
+Kaynak metali kesiti üzerinde 5 Hv’lik yük altında
+sertlik ölçümlerinin alındığı noktalar Şekil 2’de
+verilmektedir. Şekil 3’te verilen sertlik grafiklerinde
+ise A1 ve I-A1 numuneleri 1,6 saniye, A2 ve I-A2
+numuneleri 1,8 saniye, A3 ve I-A3 numuneleri ise 2
+saniye yığma akımı zamanında kaynatılmıştır.
+
+5 mm 7 mm
+0
+Şekil 2. Kaynak metali kesiti üzerinde sertlik
+ölçümlerinin alındığı noktalar (Burada 0 kaynak
+metali merkezini ifade etmektedir)
+
+-7 mm -5 mm
+
+Tablo 1. 16MnCr5 çeliğinin kimyasal analizi
+% Si
+% Mo
+% Ni
+% Co
+%P
+0,188
+0,0301
+0,0619
+0,0205
+0,010
+
+% Al
+0,0234
+
+%S
+0,019
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+Sertlik (Vickers)
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+325
+300
+275
+250
+225
+200
+175
+150
+-8-7-6-5 -4-3-2-1 0 1 2 3 4 5 6 7 8
+
+A1
+A2
+A3
+
+Kaynak m erkezine uzaklık
+(m m )
+
+[a]
+200
+sertlik (Vickers)
+
+190
+
+I-A1
+I-A2
+I-A3
+
+180
+170
+160
+150
+140
+-8 -7 -6 -5 -4 -3 -2 -1 0 1 2 3 4 5 6 7 8
+Kaynak m erkezine uzaklık (m m )
+
+[b]
+Şekil 3. (a) Isıl işlem görmemiş A1, A2, A3
+numunelerine ait, (b) Kaynak sonrası tam tavlama
+ısıl işlemi görmüş I-A1, I-A2, I-A3 numunelerine
+ait sertlik grafikleri
+Şekil 3-a’da verilen ve ısıl işlem görmemiş A1, A2 ve
+A3 numunelerine ait sertlik grafiklerinde, en yüksek
+sertliğe kaynak bölgelerinde ulaşıldığı görülmektedir.
+Her bir bölgeden alınan 4’er sertlik ölçümünün
+ortalamalarında
+A1
+numunesinde
+298,
+A2
+numunesinde 285 ve A3 numunesinde ise 281 Hv’lik
+sertlik değerleri elde edilmiştir. Ancak yığma akım
+zamanının artmasıyla kaynak bölgelerinin sertlik
+değerlerinde az da olsa bir düşüş olduğu görülmüştür.
+Yılmaz [8] katı hal kaynak teknikleri çalışmasında
+kaynak çizgisi boyunca HSS tarafında kaynak
+metalinde maksimum sertliğin oluştuğunu, ayrıca
+Civelekoğlu [9] yaptığı farklı metal çiftlerine yakma
+alın kaynağı uygulamasında da en sert bölgenin
+kaynak metalinde görüldüğünü ifade etmiştir. Kaynak
+metalinin merkezinden ana metale doğru ilerledikçe
+sertlik değerlerinde düşmeler görülmüştür. Isı girdisi
+miktarının artması ile soğuma süresi de buna bağlı
+olarak uzamıştır. Şekil 2’de 5 No’lu noktada A1
+numunesinde 213, A2 numunesinde 215 ve A3
+numunesinde ise 210 Hv sertlik değerleri
+bulunmuştur. Geçiş bölgesinden esas metale doğru
+ilerledikçe sertlik değerlerinde ortalama 3-6 Hv’lik
+artış gözlenmiştir. Kaynak bölgesi sıcaklığının çok
+yüksek olması ve hızlı soğuması sertliğin artışına
+sebep olmuştur. Ancak alaşım elementleri ve
+miktarlarının sertlikteki rolü unutulmamalıdır. Basınç
+ve buna bağlı olarak ısı girdisinin artması soğuma
+hızını yavaşlatmıştır. Dolayısıyla sertliklerde giderek
+azalma gözlenmiştir. Yükler [10] de kaynak bölgesine
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+C. Çetinkaya ve U. Arabacı
+
+uygulanan ısı miktarının sıcaklık dağılımını ve
+soğuma hızını etkilediğini ifade etmiştir.
+Kaynak sonrası ısıl işlem görmüş I-A kodlu
+numunelerin grafiği (Şekil 3-b) incelendiğinde sertlik
+değerlerinin tamamında bir azalma görüldüğü, fakat
+en sert ve en düşük sertliğe sahip bölgelerin
+değişmediği görülmüştür. I-A1, I-A2 ve I-A3
+numunelerinin kaynak metali sertlikleri sırasıyla 188,
+175 ve 170 Hv olarak ölçülmüştür. Isıl işlem gören ve
+görmeyen A numunelerindeki kaynak bölgeleri sertlik
+değerleri karşılaştırıldığında A1 numunesinde 298
+Vickers iken, I-A1 numunesinde 188 Hv’ye, A2
+numunesinde 285 iken, I-A1 numunesinde 175 Hv’ye,
+A3 numunesinde ise 281 Hv iken, I-A3 numunesinde
+170 Hv’ye düştüğü tespit edilmiştir. Aynı şekilde
+geçiş bölgeleri sertlik değerleri karşılaştırıldığında da
+bu düşüş görülmektedir. Isıl işlem görmüş
+numunelerin kaynak geçiş bölgelerinde elde edilen
+sertlik değerleri I-A1, I-A2 ve I-A3 numunelerinde
+sırasıyla 150, 149 ve 148 Hv olarak bulunmuştur.
+Burada ısıl işlem görmeyen malzemelerde görüldüğü
+gibi ana metale geçildiğinde sertliklerde ortalama 3-5
+Hv’lik artış gözlenmiştir. Kaynak sonrası uygulanan
+tam tavlama ısıl işleminin sertlik değerlerini azalttığı
+görülmüştür.
+Yine ısıl işlem görmeyen numunelerde en yüksek ve
+en düşük sertlik değerleri arasındaki fark ortalama 76
+Hv iken, ısıl işlem gören I-A kodlu numunelerde bu
+fark ortalama 26 Hv’ye düşmüştür. Uygulanan ısıl
+işlemin bölgeler arasındaki sertlik farkını da azalttığı
+görülmüştür.
+3.2. Mikroyapı Sonuçları
+Aşağıda ana malzeme, ITAB ve kaynak metalinden
+çekilen fotoğraflar ile yığma akım zamanının ve
+kaynak sonrası uygulanan tam tavlama ısıl işleminin
+numune
+mikroyapıları
+üzerindeki
+etkileri
+incelenecektir.
+Mikroyapı fotoğraflarında siyah görülen bölgeler
+perlit, açık renkli bölgeler ise ferrit fazını temsil
+etmektedir. Şekil 4-a’daki A1 numunesinin ana
+malzeme mikroyapı fotoğrafında, malzemenin
+yapısında ferrit ve perlit kolonilerinin olduğu, ayrıca
+iri ferrit taneleri arasında perlit kolonisinin bulunduğu
+ancak dağılımın homojen olmadığı, belirli bölgelerde
+toplanmaların olduğu görülmektedir. Aynı numunenin
+ITAB mikroyapı fotoğrafında (Şekil 4-b) ise, kaynak
+sırasındaki sıcaklık ve basıncın etkisiyle ana
+malzemeye göre perlit tanelerinin küreselleşerek
+küçüldüğü ve ferrit fazları arasında biraz daha
+homojen dağıldığı, kaynak metali mikroyapı fotoğrafı
+(Şekil 4-c) incelendiğinde de tane yapısının diğer
+bölgelere göre daha ince ve uzun şekilli tanelerden
+oluştuğu görülmektedir. Oluşan bu ince ve uzun
+şekilli taneler iğnemsi bir yapıya benzediği için
+asiküler ferrit yapı olarak da değerlendirilebilir.
+
+457
+
+C. Çetinkaya ve U. Arabacı
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+a
+
+b
+
+25 µm
+
+Ferrit
+
+25 µm
+
+c
+
+Perlit
+
+Perlit Ferrit
+
+25 µm
+Şekil 4. A1 Numunesinin mikroyapı fotoğrafları, (a) Ana malzeme, (b) ITAB, (c) Kaynak metali
+Şekil 5’de aynı numunenin kaynak sonrası tam
+tavlama ısıl işlemine tabi tutulan mikroyapı
+fotoğraflarının her üçü de incelendiğinde, tane
+yapılarındaki değişim çok açıktır. Şekil 5-a ve
+4-a’daki ana malzemenin mikroyapı fotoğrafları
+karşılaştırıldığında
+ferrit
+ve
+perlit
+koloni
+
+boyutlarındaki küçülmenin (sementit küreselleşmesi)
+çok büyük olduğu, aynı zamanda bu bölgedeki faz
+dağılımının da daha homojen olduğu görülmektedir.
+(5-b)’de görülen numunenin ITAB mikroyapı
+fotoğrafında da benzer yorumu yapmamız mümkündür. Bir önceki (Şekil 4-b) ITAB fotoğrafında perlitin
+
+b
+
+a
+
+25 µm
+
+Ferrit
+
+25 µm
+
+c
+
+Ferrit
+
+Perlit
+
+Kısmi
+küreselleşme
+
+25 µm
+Şekil 5. I-A1 Numunesinin mikroyapı fotoğrafları, (a) Ana malzeme, (b) ITAB, (c) Kaynak metali
+458
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+belirli bölgelerde yoğunlaştığı ve koloni boyutlarının
+biraz daha iri olduğu gözlenirken buradaki perlit
+kolonilerinin daha küçülmüş ve homojen bir dağılım
+sergilediği
+görülmüştür.
+Isıl
+işlem
+kaynak
+bölgelerindeki mikroyapıyı da etkilemiştir. Bir önceki
+kaynak metali mikroyapı fotoğrafında (Şekil 4-c)
+daha iğnemsi ve uzun şekilli olan yapının burada
+toparlandığı ve perlitin arttığı, ferrit tane yapılarında
+ise hem uzama hem de büyümelerin olduğu
+gözlenmiştir.
+Şekil 6-a’da A1 numunesine ait ITAB bölgesi kopma
+yüzeyi SEM görüntüsü incelendiğinde kopma
+yüzeyinin düzgün olmadığı, hatta büyük bir parça
+halinde ve girintili çıkıntılı sünek bir kopma yüzeyi
+görüntüsü verdiği, kaynak sonrası tam tavlama ısıl
+işlemine tabi tutulmuş I-A1 numunesinin aynı bölgeye
+ait kopma yüzeyi SEM fotoğrafı incelendiğinde ise
+
+C. Çetinkaya ve U. Arabacı
+
+(Şekil 6-b) tane yapısının inceldiği görülmektedir.
+Mikroyapı
+ve
+kırılma
+yüzeyleri
+birlikte
+değerlendirildiğinde ise; Şekil 4-b’deki A1
+numunesine ait ITAB bölgesi kopma mikroyapı
+fotoğrafında görülen fazların dağılımları ve
+küreselleşme durumlarına bağlı olarak Şekil 6-a’daki
+SEM fotoğrafında kırılma yüzeyinin düzgün
+olmadığı, buna karşılık yine Şekil 5-b’deki I-A1
+numunesine ait ITAB bölgesindeki küçük ve homojen
+faz dağılımına bağlı olarak kırılma yüzeyinin (Şekil
+6-b) daha düzgün bir görüntü verdiği görülmektedir.
+Benzer değerlendirme bundan sonraki mikroyapı ve
+kopmalar için de yapılabileceği için tekrardan
+kaçınılmıştır. Şekil 6-a’da 1 no’lu beyaz küçük
+noktaya ait EDAX analizi (Şekil 7-a) incelendiğinde
+% 57,096 Fe, % 42,45 Mn’dan meydana geldiği
+görülmüştür. Aynı şekilde 2 no’lu alanın SEM
+fotoğrafı incelendiğinde (Şekil 6-a) bu bölgenin diğer
+
+1
+2
+
+(a)
+(b)
+Şekil 6. (a) A1 numunesine ait, (b) I-A1 numunesine ait ITAB bölgesi kopma yüzeyi SEM fotoğrafı
+
+(a)
+(b)
+Şekil 7. A1 numunesinin EDAX sonuçları. (a) 1 no’lu noktaya ait, (b) 2 no’lu alana ait
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+459
+
+C. Çetinkaya ve U. Arabacı
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+bölgelere göre daha derinde veya bir boşluk olduğu
+izlenimini verdiği, EDAX analizinde ise (Şekil 7-b)
+bu bölgedeki Fe ağırlık oranının % 96 olduğu
+anlaşılmıştır. İkinci ve üçüncü sırayı da malzemenin
+bileşiminde yüksek miktarda bulunan Cr (% 2,267)ve
+Mn (% 1,203) almıştır.
+A2 numunesinde yığma akım zamanı 1,6 saniyeden
+1,8 saniyeye çıkarılmıştır. Yığma akım zamanının
+artmasıyla birlikte malzemeye uygulanan ısı girdisi de
+artmıştır. Şekil 8-a’daki ana malzeme mikroyapı
+fotoğrafında ise yapıdaki ferrit tanelerinin düzenli ve
+daha geniş bir hacim kapladığı buna karşılık perlit
+kolonilerinin ise düzensiz dağıldığı görülmektedir.
+Şekil 8-b’de ITAB mikroyapı fotoğrafında ise ferrit
+tanelerinin bir arada ve bir hat şeklinde toplandığı,
+perlit kolonilerinin ise bir miktar arttığı
+görülmektedir. Isı girdisinin artması ile Şekil 8-c’de
+mikroyapı fotoğrafı görülen kaynak metali tane
+yapısının A1 numunesine göre biraz daha eşeksenel
+bir hale geldiği, aynı zamanda tanelerin ince, uzun ve
+yönlenmiş halde olduğu görülmektedir.
+Aynı numunenin kaynak sonrası ısıl işlem görmüş
+mikroyapı fotoğraflarının tümünde uygulanan tam
+tavlama ısıl işleminin etkili olduğu ve tanelerin
+toparlandığı görülmüştür. Şekil 9-a ana malzeme
+mikroyapı
+fotoğrafı
+incelendiğinde
+yapıdaki
+perlitlerin, ferrit taneleri arasında kaynak sonrası ısıl
+işlem görmemiş A2 numunesine göre daha homojen
+olarak dağıldığı, Şekil 9-b’de ITAB mikroyapı
+fotoğrafı incelendiğinde ise Şekil 8-b‘ye göre perlitin
+daha düzenli dağıldığı görülmüştür. Kaynak metali
+mikroyapı fotoğrafı incelendiğinde ise (Şekil 9-c),
+
+ince, uzun ve yönlenmiş tanelerin belirli bölgelerde
+biraz daha fazla toplanmış olduğu görülmektedir.
+Şekil 10-a’daki A2 numunesinin ITAB bölgesi kopma
+yüzeyi SEM mikroyapı fotoğrafı incelendiğinde A1
+numunesine göre daha pürüzlü bir yüzey görüntüsü
+vermektedir. Ayrıca kopan yüzeyin EDAX sonuçları
+Şekil 11’de incelendiğinde % 92’nin üzerinde bir
+oranda Fe içerdiği tespit edilmiştir. Şekil 10-b’deki
+kaynak sonrası tam tavlama ısıl işlemi görmüş I-A2
+numunesine ait kopma yüzeyi SEM fotoğrafı
+incelendiğinde, numunelerin mikroyapı fotoğraflarında görülen ve uygulanan tam tavlama ısıl
+işleminden dolayı oluşan tane incelmesi ve ferrit
+miktarındaki artış burada da görülmektedir.
+Ayrıca Şekil 6’daki A1 numunesinin SEM mikroyapı
+fotoğrafı ile karşılaştırıldığında kopma yüzeyinin daha
+az girintili çıkıntılı olduğu, bu da kırılmanın daha
+gevrek olduğu görüntüsü vermektedir. Şekil 11’deki
+A2 numunesine ait EDAX sonuçları incelendiğinde ise
+Şekil 10’daki 1 ve 2 No’lu noktaların oksit veya
+kalıntı gibi göründüğü oysa yapılan analizlerde
+derinlik olduğu tespit edilmiştir. Bu noktaların EDAX
+analiz sonuçlarında % 97,387 oranında Fe, % 1,392
+oranında Mn ve % 1,031 oranında Cr’dan meydana
+geldiği, aynı malzemenin 3 No’lu bölgesi
+incelendiğinde bu bölgenin % 92,865 oranında Fe,
+%3,399 oranında Si, % 1,931 oranında Al ve % 1,061
+oranında Cr’dan meydana geldiği tespit edilmiştir.
+Şekil 12-a ana malzeme mikroyapı fotoğrafı
+incelendiğinde ferrit yapının düzenli ve geniş bir
+alana yayıldığı, perlit yapının ise ferrite göre daha az
+
+b
+
+a
+
+25 µm
+Ferrit
+
+25 µm
+
+c
+
+Ferrit
+
+Perlit
+
+Perlit
+
+25 µm
+Şekil 8. A2 Numunesinin mikroyapı fotoğrafları, (a) Ana malzeme, (b) ITAB, (c) Kaynak metali
+460
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+a
+
+C. Çetinkaya ve U. Arabacı
+
+b
+
+25 µm
+
+Ferrit
+
+25 µm
+
+c
+Ferrit
+
+Perlit
+
+25 µm
+Şekil 9. I-A2 Numunesinin mikroyapı fotoğrafları, (a) Ana malzeme, (b) ITAB, (c) Kaynak metali
+
+1
+
+3
+
+2
+
+(a)
+(b)
+Şekil 10. (a) A2 numunesine ait, (b) I-A2 numunesine ait ITAB bölgesi kopma yüzeyi SEM
+mikroyapı fotoğrafları
+olduğu
+ancak
+belli
+bölgelerde
+toplandığı
+görülmektedir. ITAB bölgesi mikroyapı fotoğrafında
+ise (Şekil 12-b), tane yapısının küçüldüğü
+görülmüştür. Ayrıca ferrit oranının azaldığı buna
+karşılık perlit miktarında artış gözlenmiştir. A3
+numunesinde ısı girdisi arttığı için soğumanın A1 ve
+A2 numunelerine göre daha yavaş olduğu, kaynak
+metali mikroyapı fotoğrafı incelendiğinde (Şekil 12-c)
+ise ince ve uzun asiküler ferrit tane yapısının biraz
+daha azaldığı buna karşılık perlit kolonilerinde ise
+artış gözlenmiştir.
+
+(Şekil 13-a) açık bölgelerin ferrit, koyu bölgelerin ise
+perlit kolonilerini meydana getirdiği ve belirli
+bölgelerde toplandığı, Şekil 13-b ITAB mikroyapı
+fotoğrafı incelendiğinde ise tane yapısının Şekil 12b’deki A3 numunesinin ITAB mikroyapısına göre
+küçüldüğü ve daha da sıklaştığı görülmektedir.
+Kaynak metali mikroyapı fotoğrafında (Şekil 13-c) ise
+dendiritk bir yapının varlığından söz edilebilir. Bu
+bölgedeki ferrit tanelerinin yer yer ince ve küçük yer
+yer de yönlenmiş ve plaka halinde olan yapılardan
+meydana geldiği görülmektedir.
+
+Kaynak sonrası tam tavlama ısıl işlem görmüş
+numunenin
+mikroyapı
+fotoğraflarının
+tümü
+incelendiğinde (Şekil 13) ısı girdisindeki artışın tane
+yapısında değişikliklere yol açtığı görülmüştür. Ana
+malzeme mikroyapı fotoğrafı incelendiğinde ise
+
+Şekil 14-a’daki A3 numunesine ait ITAB bölgesi
+kopma yüzeyi SEM fotoğrafını incelediğimizde
+yüzeydeki çıkıntıların A1 (Şekil 6) ve A2 (Şekil 10)
+numunesinin SEM görüntülerine göre daha az olduğu
+görülmektedir. Burada malzemedeki perlit miktarının
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+461
+
+C. Çetinkaya ve U. Arabacı
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+(a)
+(b)
+Şekil 11. A2 numunesine ait EDAX sonuçları. (a) 1 ve 2 No’lu noktaya ait, (b) 3 No’lu alana ait
+
+b
+
+a
+
+25 µm
+
+Ferrit Perlit
+
+25 µm
+
+c
+
+Perlit
+
+Ferrit
+
+25 µm
+Şekil 12. A3 numunesinin mikroyapı fotoğrafları, (a) ana malzeme, (b) ITAB, (c) kaynak metali
+artmasına dayalı olarak dayanımın, A1 ve A2
+numunelerine göre arttığı çekme sonuçlarında da
+görülmüştür. Şekil 14-b’deki I-A3 numunesine ait
+SEM görüntüsü incelendiğinde ise uygulanan ısıl
+işlemden dolayı ferrit ve perlit koloni boyutlarının
+biraz daha inceldiği, daha homojen bir dağılım
+sergilediği görülmektedir. Şekil 14’deki 1 No’lu
+
+462
+
+noktada Mn’ın (%51,463), Fe’in ise (%48,251)
+ağırlığında, 2 no’lu alanda ise Fe, Cr ve Mn’ın
+sırasıyla %98,228, %0,988, %0,608 ağırlık oranında
+olduğu Şekil 15’deki EDAX sonuçlarından
+anlaşılmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+a
+
+C. Çetinkaya ve U. Arabacı
+
+b
+
+25 µm
+
+25 µm
+
+c
+Perlit
+
+Ferrit
+
+Perlit
+
+Ferrit
+
+25 µm
+Şekil 13. I-A3 Numunesinin mikroyapı fotoğrafları, (a) Ana malzeme (b) ITAB, (c) Kaynak metali
+
+2
+1
+
+(a)
+(b)
+Şekil 14. (a) A3 numunesine ait, (b) I-A3 numunesine ait ITAB bölgesi kopma yüzeyi SEM
+mikroyapı fotoğrafı
+3.3. Çekme Deney Sonuçları
+Tablo 3’te gösterilen parametrelerde kaynak yapılmış
+numunelere çekme deneyi uygulanmıştır. Deneylerde
+çekme hızı 2 mm/sn olarak sabit tutulmuştur. Deney
+sonuçları ise Şekil 16’da grafik halinde verilmiştir.
+Çekme deneyleri sonuçları göstermiştir ki bütün
+numuneler kaynak metali dışında ITAB bölgesinde
+kopmuştur. Bu sonuç kaynak metalinin dayanımının
+daha yüksek olduğunu gösterir. Numunelerde sabit
+basınç altında, yığma akım zamanları ve çekme
+dayanımı arasındaki ilişki incelendiğinde en yüksek
+çekme dayanımının en yüksek yığma akımı
+uygulanan malzemelerde olduğu görülmüştür. Bu
+değerler A1 numunesi için 670 N/mm2, A2 numunesi
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+için 690 N/mm2 ve A3 numunesi için ise 731 N/mm2
+olarak tespit edilmiştir. Bunun sebebi, numunelere
+uygulanan yığma akım zamanının artması hem
+kaynak bölgesini genişletmiş hem de tanelerin
+dağılımını Homojen hale getirmiştir. Böylece yığma
+akım zamanının artmasıyla ısı girdisi miktarı
+artmakta, kaynak bölgesi genişlemekte ve plastik şekil
+değişiminin meydana geldiği alan daha da
+daralmaktadır. Bu bölgede pekleşme meydana
+gelmektedir. Bu dar alanda meydana gelen pekleşme
+hızı artmıştır. Pekleşmenin hızlı olması da
+malzemenin
+kopma
+dayanımını
+arttırdığı
+düşünülmektedir.
+Kaynak sonrası ısıl işlem görmüş I-A kodlu
+numunelerde ise uygulanan tam tavlama ısıl işlemin
+
+463
+
+C. Çetinkaya ve U. Arabacı
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+(a)
+(b)
+Şekil 15. A3 numunesine ait EDAX sonuçları. (a) 1 No’lu noktaya ait, (b) 2 No’lu alana ait
+sonucu olarak daha düşük çekme dayanımları elde
+edilmiştir. I-A1 numunesi için 489 N/mm2, I-A2
+numunesi için 502 N/mm2 ve I-A3 numunesi için de
+512 N/mm2 maksimum çekme dayanımı bulunmuştur.
+Isıl işlem görmüş numunelere uygulanan yığma akım
+zamanı arttıkça çekme dayanımında bir artış
+görülmektedir. Fakat bütün değerlerde uygulanan ısıl
+işlemden dolayı bir azalma görülmüştür.
+
+Max. çekme dayanımı N/mm2
+
+Tablo 3. Numunelerin çekme deneyi sonuçları
+Yığma akım Max. Çekme
+Numune
+Basınç
+zamanı
+dayanımı
+adı
+(Bar)
+(Sn)
+(N/mm2)
+A1
+2
+1,6
+670
+A2
+2
+1,8
+690
+A3
+2
+2
+731
+I-A1
+2
+1,6
+489
+I-A2
+2
+1,8
+502
+I-A3
+2
+2
+512
+
+16MnCr5 çeliğinde yığma akım zamanı ve tam
+tavlama ısıl işleminin mekanik özeliklere etkisi ile
+ilgili genel sonuçlar aşağıda sıralanmaktadır;
+1- Tüm numunelerde en yüksek sertlik değeri kaynak
+bölgelerinde elde edilmiştir.
+2- Numunelere uygulanan tam tavlama ısıl işlemi hem
+ana metalin hem de kaynak metalinin sertliğinin
+azalmasına neden olmuştur. Dolayısıyla ana metal
+ve kaynak metali arasındaki sertlik farkı azalmıştır.
+3- Uygulanan tam tavlama ısıl işlemi, bütün
+numunelerin çekme dayanımlarında azalmaya
+neden olmuştur.
+KAYNAKLAR
+1.
+2.
+
+I-A
+740
+700
+660
+620
+580
+540
+500
+460
+
+A
+
+3.
+
+1,6
+
+1,8
+
+2
+
+Yığma akım zamanı (sn)
+
+Şekil 16. Numunelerde çekme dayanımı (N/mm2)ve
+yığma akım zamanı (Sn)arasındaki ilişki
+464
+
+4. SONUÇLAR
+
+4.
+
+Tülbentçi, K.- Yılmaz, M. “Yakma Alın Kaynağı.
+Kaynak Dünyası”. Birsen Basımevi, İstanbul,
+14-25 (1990).
+Anık, S. “Kaynak Tekniği El Kitabı.”,
+“Yöntemler ve Donanımlar”, Cilt 1 Birsen
+Basımevi, İstanbul, 40-50 (1983).
+Kalvala, P., Rao K., Kannurpatti N., “Effect of
+welding parameters on the quality and corrosion
+characteristics of flash butt welded austenitic
+steels”, Schweissen Und Schneiden., V:42, N:1,
+4-6 (Jan-1990).
+Ghosh, P. K., “Thermal cycle and micrustructure
+of heat affected zone(HAZ) of flash butt welded
+Mn-Cr-Mo
+dual
+phase
+steel”,
+ISIJ
+Internatıonal., V:30, N:4, P:317-324 (1990).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+Yakma Alın Kaynağı ile Birleştirilen 16MnCr5 Zincir Çeliğinde Yığma Akım Zamanı ve Tam Tavlama...
+
+5.
+
+6.
+7.
+
+Kuchuk, S. “Experince of flash- butt welding
+application in pipeline construction in the
+USSR”, Proceeding of pipeline technology
+Conference, Östend, Belgium, 37-39 (1990).
+Trompler, Ruben Jr. “Flash butt welding of crane
+rail”,Iron And Steel Engineer. Oct., V:73, N:10
+P: 42-44 (1996).
+Thomas, K.- Michailov, V. Wohlfahrt, H.
+“Toughness Investigations On Narrow ProcessAffected Zones Of Resistance-Butt”. Welding
+and Cutting, V 52, 254-262 (2000).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 19, No 4, 2004
+
+C. Çetinkaya ve U. Arabacı
+
+8.
+
+Yılmaz M., Karagöz Ş., “Katı hal kaynağında
+Mikro analiz uygulaması”, XI.Ulusal Elektron
+Mikroskopisi Sempozyumu, Edirne, 163-165
+(1993).
+9. Civelekoğlu, F., “Yükek hız çeliği (S-6-5-2) ile
+alaşımsız karbon çeliği (Ck60) çubuklarının
+yakma alın kaynağı ile birleştirilmesinde bazı
+kaynak parametrelerinin ve kaynak ara yüzeyinin
+etüdü”, Doçentlik Tezi, İTÜ, İstanbul. 7-59
+(1971).
+10. Yükler, A. İ., “Kaynak Metali”, Erdini
+Basımevi, İstanbul, 17-60 (1979).
+
+465
+
+

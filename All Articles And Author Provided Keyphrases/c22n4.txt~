@@ -1,0 +1,933 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 22, No 4, 745-751, 2007
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 22, No 4, 745-751, 2007
+
+BUJİ ATEŞLEMELİ BİR MOTORDA SIKIŞTIRMA ORANININ
+MOTOR PERFORMANSI VE EGZOZ EMİSYONLARINA
+ETKİSİ
+Yakup SEKMEN, Perihan SEKMEN ve M. Sahir SALMAN
+Teknik Programlar Bölümü, Karabük Meslek Yüksekokulu, Zonguldak Karaelmas Üniversitesi, Karabük
+Makina Eğitimi Bölümü, Karabük Teknik Eğitim Fakültesi, Zonguldak Karaelmas Üniversitesi, Karabük
+Makina Eğitimi Bölümü, Teknik Eğitim Fakültesi, Teknikokullar, Gazi Üniversitesi, 06500, Ankara
+ysekmen@yahoo.com, perduranli@yahoo.com, sahirs@gazi.edu.tr
+(Geliş/Received: 29.09.2006 ; Kabul/Accepted: 12.06.2007)
+ÖZET
+Buji ateşlemeli motorlarda, gerçek sıkıştırma oranı silindire alınan dolgu miktarına göre değişkenlik
+gösterdiğinden, geometrik olarak tasarlanan sıkıştırma oranı ancak tam gazda ve belirli motor hızı için gerçek
+sıkıştırma oranı olarak elde edilebilmektedir. Bu durum buji ateşlemeli motorlarda performansın ve yakıt
+ekonomisinin iyileştirilmesi için silindir dolgu miktarına göre değişken sıkıştırma oranını gerekli kılmaktadır.
+Kısmi yüklerde yanma veriminin, yakıt ekonomisinin ve emisyonların iyileştirilmesi için sıkıştırma oranının
+artırılması, motorun yüksek yük ve düşük hız koşullarında ise olası vuruntu ve sert çalışmayı önlemek için
+sıkıştırma oranının bir miktar azaltılması gerekmektedir. Bu çalışmada, buji ateşlemeli, dört zamanlı, tek
+silindirli bir motorun sıkıştırma oranı değişken hale dönüştürülmüş ve sıkıştırma oranı değişiminin motor
+performansı ve egzoz emisyonlarına etkileri deneysel olarak incelenmiştir. Sıkıştırma oranı değişimi silindir
+aşağı-yukarı hareket ettirilerek sağlanmıştır. Sıkıştırma oranının artırılmasıyla (7:1-11:1) motor gücünde artma
+ve özgül yakıt tüketiminde iyileşme elde edilmiştir. Aynı sıkıştırma oranı aralığında karbon monoksit (CO)
+emisyonlarında azalma elde edilirken, sıkıştırma oranı artışı yanma odası yüzey/hacim oranını artırdığından
+hidrokarbon (HC) emisyonlarında artış belirlenmiştir.
+Anahtar Kelimeler: Buji ateşlemeli motor, değişken sıkıştırma oranı, yakıt ekonomisi, egzoz emisyonu.
+
+THE EFFECT OF COMPRESSION RATIO ON ENGINE PERFORMANCE AND
+EXHAUST EMISSION IN A SPARK IGNITION ENGINE
+ABSTRACT
+The designed geometrical compression ratio can be realized as an effective compression ratio at the wide open
+throttle for a certain engine speed since the effective compression ratio changes with the amount of charge into
+the cylinder in spark ignition engines. So, this condition of the spark ignition engines force designers to change
+their geometrical compression ratio according to the amount of charging into the cylinder. In order to improve
+the combustion efficiency, fuel economy, power output and exhaust emissions at partial loads, compression ratio
+must be increased; however, under high load and low speed conditions compression ratio must be decreased
+gradually to prevent probable knock and hard running. In this study, a four-stroke and single cylinder spark
+ignition engine with constant compression ratio has been converted to an engine with variable compression ratio
+and the effects of compression ratio variations on engine performance and exhaust emissions has been
+investigated. In order to change compression ratio, the cylinder was moved up or down. Improvement in engine
+power and specific fuel consumption were achieved with changing compression ratio from 7:1 to 11:1. Also, at
+the same compression ratio range carbon monoxide (CO) emissions were reduced, while hydrocarbon (HC)
+emissions were increased since increasing compression ratio cause larger surface/volume ratio.
+Keywords: Spark ignition engine, variable compression ratio, fuel economy, exhaust emissions.
+
+Y. Sekmen vd.
+
+Buji Ateşlemeli Bir Motorda Sıkıştırma Oranının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+1. GİRİŞ (INTRODUCTION)
+Sıkıştırma oranı buji ateşlemeli motorlarda motor
+performans ve verimini etkileyen en önemli
+parametrelerden biridir. Artan sıkıştırma oranıyla
+sıkıştırma sonu basınç ve sıcaklıkları yükselmekte,
+dolayısıyla yanma hızı artmaktadır. Yanma hızının
+artmasıyla birlikte motor performansı yükselmektedir.
+Sıkıştırma oranının yanma üzerindeki etkisi göz
+önüne alınırsa, bu parametrenin değişken hale
+getirilmesi ile değişik çalışma şartlarında önemli
+kazançlar elde edilebilmektedir [1-9].
+Buji ateşlemeli bir motorun sıkıştırma oranı değeri
+tespitinde vuruntuya en çok yatkın olan düşük hızmaksimum yük çalışmasındaki koşullar dikkate
+alınmakta ve motorun vuruntusuz çalışması
+sağlanmaktadır. Kısmi yüklerde ise, motorun
+volümetrik verimi düşük olduğundan gerçek
+sıkıştırma oranı da düşük değerdedir. Sabit sıkıştırma
+oranlı bir motorda özellikle kısmi yüklerde sıkıştırma
+oranının gücü ve verimi artırıcı etkisinden yeterince
+yararlanılamamaktadır. Yanma veriminin, yakıt
+ekonomisinin ve emisyonların iyileştirilmesi için
+kısmi kelebek açıklıklarında sıkıştırma oranının
+artırılması, motorun yüksek yük ve düşük hız
+çalışmasında oluşabilecek vuruntu ve sert çalışmayı
+önlemek için de sıkıştırma oranının azaltılması
+gereklidir. Bu nedenle sıkıştırma oranı yüke ve hıza
+göre değişebilen motora ihtiyaç vardır [1,3,7,10,11].
+Motorun kısmi yük performansını artırmak ve yakıt
+ekonomisi sağlamak amacıyla sıkıştırma oranının
+değişken hale dönüştürülmesi çeşitli şekillerde
+yapılmaktadır. Bunlar, yanma odası hacmini büyütüp
+küçülterek [7,12], biyel boyunu veya [13], piston
+yüksekliğini [14], krank mili ana veya biyel muylu
+çapını değiştirerek (variable R/L engine) [10], silindir
+kapağını hareket ettirerek [15] veya başka şekillerde
+[16-18] olabilmektedir.
+İyi bir değişken sıkıştırma oranı mekanizmasının
+aşağıdaki şartları sağlaması gerekmektedir:
+• Sistem basit, küçük boyutlu ve hafif olmalı,
+• Herhangi ciddi bir tasarım problemi
+oluşturmamalı,
+• Sıkıştırma oranının tüm aralıklarda değişimi
+mümkün olmalı ve sıkıştırma oranı hassas
+olarak ayarlanabilmeli,
+• Diğer motor parametrelerinde istenmeyen
+değişikliklere neden olmamalı,
+• Motorun dengesi klasik motora göre
+kötüleşmemeli
+ve
+motor
+ömrü
+kısalmamalıdır.
+Başlangıçta yakıt muayenesi ve özellikle vuruntu
+ölçülmesi için kullanılan değişken sıkıştırma oranlı ilk
+motorlardan birisi Ricardo tarafından yapılmıştır.
+Sıkıştırma oranının değiştirilmesi (3,7:1-8:1) silindirin
+krank miline göre yükseltilip alçaltılmasıyla
+
+746
+
+sağlanmıştır. Sıkıştırma oranı aralığı artırılan ve
+geliştirilen bu motorlar, CFR motoru (Cooperative
+Fuel Research Committee) adıyla tanınmış ve
+yakıtların vuruntu ölçümleri için standart donanım
+haline getirilmiştir [7]. Daha sonra, bu alandaki
+çalışmalar giderek yakıt ekonomisi ve performansı
+artırmaya yönelik olmuştur. Değişken sıkıştırma
+oranının dizel motora uygulanmasındaki amaç ise
+soğukta ilk hareketi kolaylaştırmak, daha iyi relanti
+çalışması ve maksimum silindir basıncını artırmadan
+çıkış gücünde artış elde etmektir [19,20].
+Sıkıştırma oranının artmasıyla sıkıştırma ve yanma
+sonu basınç ve sıcaklıkları yükselmekte, dolayısıyla
+ortalama efektif basınç artmaktadır. Sıkıştırma
+oranının vuruntuya neden olmayacak kadar
+yükseltilmesiyle birlikte çıkış gücü artmakta ve yakıt
+ekonomisi sağlanmaktadır [7,21] Genişleme kursunun
+son kısmındaki düşük sıcaklıklar sonucu soğutma
+kayıplarının azalmasıyla artan termal verimden dolayı
+soğutucuya olan ısı kaybı sıkıştırma oranı artışı ile
+azalmaktadır [22]. Sıkıştırma oranının artışı silindir
+sıcaklığını artırırken tutuşma gecikmesini (yanma
+süresini) azaltmaktadır. Maksimum basıncın oluşma
+yeri üst ölü nokta (ÜÖN)’ya yaklaşmakta, basınç
+yükselme hızı ise sıkıştırma oranı ile birlikte
+artmaktadır. Fakat, yanma ve basınç yükselme hızı,
+yanma odasında vuruntunun oluşması için belirleyici
+parametreler olup sıkıştırma oranının artışını
+sınırlamaktadır. Sıkıştırma oranının artışı ile oluşacak
+vuruntu, belirli bir noktaya kadar ateşleme avansı
+değişimiyle kontrol edilebilir. Artan sıkıştırma
+oranlarında maksimum verimi elde etmek için
+ateşleme
+avansının
+bir
+miktar
+azaltılması
+gerekmektedir [6,23,24]. Sıkıştırma oranı artışı yanma
+CO
+emisyonlarını
+verimini
+artırdığından
+azaltmaktadır. Yanma odası yüzey/hacim oranı
+sıkıştırma oranı artışı ile lineer olarak artmakta
+[1,21,24] ve HC emisyonlarının artmasına neden
+olmaktadır. Yanma odası içinde alev yüzeye yakın
+bölgelerde soğur ve söner. Bu, yanmamış HC tabakası
+bırakır ve bu tabaka yanmış gazlarla birlikte egzozdan
+atılır [21,25]. Sıkıştırma oranı artışının istenmeyen
+etkilerinden biri de piston-segman ile silindir duvarı
+arasındaki sürtünme kayıplarının artması dolayısıyla
+mekanik verimi azaltmasıdır [2].
+Harne ve Marathe [3], tek silindirli, iki zamanlı buji
+ile ateşlemeli bir motorun silindir kapağı yerine
+yardımcı pistona sahip bir silindir kapağı yerleştirerek
+sıkıştırma oranını değişken hale dönüştürmüşlerdir.
+Yardımcı pistonun hareketi, silindir basıncı ve yay
+kuvveti ile sağlanmaktadır. Silindir basıncı belirlenen
+değeri aştığında piston yukarı doğru hareket etmekte
+ve sıkıştırma oranı azalmaktadır. Özellikle kısmi
+yüklerde
+özgül
+yakıt
+tüketiminde
+azalma
+belirlenmiştir. Tam yükte ve düşük hızlarda vuruntulu
+çalışma nedeni ile özgül yakıt tüketiminde azalma
+daha az olmuştur. Diğer taraftan, yüksek sıkıştırma
+oranlı motorlar ile alevin sönme ihtimaline kadar
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+Buji Ateşlemeli Bir Motorda Sıkıştırma Oranının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+çevrimsel değişim problemlerine yol açabilen fakir
+karışımla
+çalışma
+problemlerinin
+ortadan
+kaldırılabileceğini açıklamışlardır. Fakir karışımla
+çalışma sadece yakıt ekonomisinde iyileşme
+sağlamakla
+kalmaz,
+aynı
+zamanda
+egzoz
+emisyonlarında da azalma sağlamaktadır. Adams ve
+arkadaşları [25], değişken sıkıştırma oranlı motor ile
+yanma işlemini optimize etmek amacıyla 4-zamanlı, 4
+silindirli, benzin enjeksiyonlu bir motorun silindir
+kapağına bir yardımcı yanma odasının eklenmesi ile
+sıkıştırma oranını 9,5:1-15:1 aralığında hız ve yüke
+bağlı olarak değiştirmişlerdir. Sıkıştırma oranı
+yardımcı yanma odası içerisine yerleştirilen hareketli
+bir piston tarafından değiştirilmektedir. Değişken
+sıkıştırma oranlı motora dönüştürülen taşıt ile yapılan
+denemelerde, kısmi yüklerde yakıt tüketiminde
+%12’ye varan azalmalar elde edilmiştir. Ayrıca, CO
+ve NOx emisyonlarında azalma, HC emisyonlarında
+artış belirlenmiştir. Boggs ve Hilbert [26], tarafından
+4 silindirli 1,6 litre silindir hacimli Otto-Atkinson
+(OA) çevrimine göre çalışan sıkıştırma oranı 9,5:115,5:1 arasında kademeli olarak değişebilen bir motor
+tasarlanmıştır. Sıkıştırma oranının değişimi sıkıştırma
+yüksekliği değişken piston aracılığıyla sağlanmıştır.
+Standart motorla karşılaştırıldığında özgül yakıt
+tüketiminde %15 azalma elde edilmiştir. Muranaka ve
+arkadaşları [21], yüksek sıkıştırma oranlarında buji
+ateşlemeli motorların ısıl verimindeki iyileşmeyi
+sınırlandıran faktörleri belirlemek üzere yaptıkları
+termodinamik hesaplama ve deneysel çalışma ile ana
+faktörlerin soğutma kayıpları ve yanmamış yakıt
+olduğunu belirlemişlerdir. Bu iki faktörün küçük
+silindir hacimleri, büyük yüzey/hacim oranlı yanma
+odaları, düşük motor hızı ve yükünde arttığı
+açıklanmıştır. Abd Alla [27], 4-zamanlı buji
+ateşlemeli motor performansını etkileyen eşdeğerlik
+oranı, ateşleme zamanlaması, sıkıştırma oranı,
+sıkıştırma ve genişleme indeksi gibi parametreleri
+incelemek üzere bir simülasyon modeli geliştirmiştir.
+Bu modele göre sıkıştırma oranı artışı (5:1-11:1) ile
+indike ve termal verimler artmakta, özgül yakıt
+tüketiminde yaklaşık %21,5 azalma olmaktadır. Yine,
+Yamin ve Dado [10], tarafından değişik güç ve verim
+karakteristikleri farklı sıkıştırma oranları için bir
+motor güç çevrim modeli ile hesaplanmıştır. Motor
+performansının tüm sürüş koşullarında optimize
+edilebileceğini; yakıt veriminden faydalanmak için
+düşük güç seviyelerinde yüksek sıkıştırma oranı,
+yüksek güç seviyelerinde ise vuruntudan kaçınmak
+için düşük sıkıştırma oranı ile çalışılması gerektiğini
+açıklamışlardır. Mustafi ve arkadaşları [28], tek
+silindirli değişken sıkıştırma oranlı Ricardo E6
+motoru ile yaptıkları çalışmada sıkıştırma oranının
+8:1’den 11:1’e yükseltilmesiyle çıkış gücünde
+yaklaşık %22 iyileşme elde etmişlerdir. Yamin ve
+arkadaşları [29], sıkıştırma oranı artışının sıkıştırma
+sonu sıcaklık ve basıncının artışı ve ard gazların
+azalmasından dolayı yanma süresinin kısaldığını,
+yanma hızının arttığını ve tutuşma gecikmesinin
+azaldığını açıklanmışlardır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+Y. Sekmen vd.
+
+Bu çalışmada, buji ateşlemeli, dört zamanlı, tek
+silindirli bir motorun sıkıştırma oranı değişken hale
+dönüştürülmüş ve sıkıştırma oranı değişiminin motor
+performansı ve egzoz emisyonlarına etkileri deneysel
+olarak incelenmiştir. Sıkıştırma oranının artışıyla
+özgül yakıt tüketiminde ve CO emisyonlarında
+azalma elde edilmiştir. HC emisyonlarında yanma
+odası yüzey/hacim oranı artışından dolayı artış
+belirlenmiştir.
+2. DENEY DÜZENEĞİ ve YÖNTEMİ
+(EXPERIMENTAL APPARATUS and METHOD)
+
+Deneysel çalışmalarda kullanılan test sistemi Cussons
+P8160 tip dinamometre, buji ateşlemeli motor ve
+egzoz gaz analizöründen oluşmaktadır. Deney
+sisteminin
+şematik
+görünüşü
+Şekil
+1’de
+görülmektedir. Deney motorunun teknik özellikleri
+Tablo 1’de verilmiştir. Sıkıştırma oranının değişimi
+silindirin blok üzerinde bir vida mekanizmasıyla
+aşağı-yukarı hareket ettirilmesiyle sağlanmıştır. Bu
+amaçla, motor bloğuna cıvatalarla bağlanmış ve iç
+çapı silindirin dış çapı üzerine vidalanmış bir flanş
+bulunmaktadır. Sıkıştırma oranı değiştirilmek
+istendiğinde flanş silindirin etrafında döndürülerek
+silindir aşağı veya yukarı hareket ettirilmektedir.
+Sıkıştırma oranının değişimi ile ilgili detaylı bilgi Ref.
+[1]’de verilmiştir. Ayrıca, supap mekanizması üstten
+kam milli hale dönüştürülmüş, bu amaçla silindir
+kapağı üzerinde değişiklik yapılarak kam mili
+yatakları ve kam mili yerleştirilmiştir. Ateşleme
+sistemi kolaylıkla avans değişikliği yapılabilecek
+şekilde oluşturulmuştur. Krank milinden kam miline
+hareket triger kayışı ile aktarılmaktadır. DC elektrik
+motorlu dinamometre 4000 1/min’de 10kW güç
+absorbe edebilmekte ve aynı zamanda deney
+motoruna
+ilk
+hareket
+vermek
+için
+de
+kullanılabilmektedir. Yakıt tüketimi, motorun 10ml
+yakıtı kullanma süresi belirlenerek ölçülmüştür.
+Sıcaklık ölçümleri K tipi termokupl ile yapılmıştır.
+Hava tüketimi, değişken orifis plakalı hava tankı ve
+eğik manometre aracılığıyla ölçülmüştür. Emisyon
+ölçümleri için Tablo 2’de ölçüm aralıkları ve
+hassasiyetleri verilen SUN MGA 1200 egzoz gaz
+analizörü kullanılmıştır.
+Deneyler motor çalışma sıcaklığına ulaştıktan sonra
+tam ve 3/4 gaz kelebek açıklıkları (GKA) ve farklı
+sıkıştırma oranlarında (7:1, 9:1 ve 11:1) yapılmıştır.
+Motor hızı 1500-3000 1/min aralığında 300 1/min
+aralıklarla değiştirilmiştir. Her bir nokta için motor
+kararlı duruma ulaşıldıktan sonra ölçümler
+kaydedilmiştir. Ateşleme avansı her bir sıkıştırma
+oranı için maksimum momenti verecek şekilde elle
+kumanda
+edilerek
+değiştirilmiştir.
+Deneyler
+stokiyometrik hava-yakıt oranında yapılmıştır.
+Karışım ayarı, karbüratör üzerindeki ana memeye
+kumanda eden konik uçlu ayar vidasıyla mekanik
+olarak yapılmıştır.
+
+747
+
+Y.Sekmen vd.
+
+Buji Ateşlemeli Bir Motorda Sıkıştırma Oranının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+Tablo 1. Deney motorunun teknik özellikleri (The technical specifications of the test engine)
+Motor tipi
+4-zamanlı, üstten kam milli, buji ateşlemeli
+Silindir sayısı
+1
+Silindir çapı
+88 mm
+Strok
+80 mm
+Silindir hacmi
+487 cm3
+Maksimum motor hızı
+3000 1/min
+Sıkıştırma oranı
+Değişken (5:1-13:1)
+Tablo 2. Sun MGA1200 egzoz gaz analizörünün özellikleri (The specifications of Sun MGA1200 exhaust gas analyzer)
+Ölçüm
+Ölçüm aralığı
+Hassasiyet
+Hava fazlalık katsayısı (λ)
+0,8-2,00
+0,001
+CO (%vol)
+0-10
+0,01
+0-20
+0,01
+CO2 (%vol)
+HC (ppm)
+0-20000
+1
+0-21
+0,1
+O2 (%vol)
+
+Şekil 1. Deney sisteminin şematik görünüşü (1- Motor, 2- Dinamometre, 3- Hava tankı, 4- Eğik manometre, 5Yakıt tankı, 6- Yakıt akış kontrol valfi, 7- Egzoz gaz analizörü, 8- Kontrol ünitesi). (Figure 1. Schematic view of the
+engine test bed (1- Engine, 2- Dynamometer, 3- Air tank, 4- Manometer, 5- Fuel tank, 6- Fuel flow control valve, 7- Exhaust gas analyzer, 8Control unit)
+
+3. DENEY SONUÇLARI ve DEĞERLENDİRME
+(EXPERIMENTAL RESULTS and EVALUATION)
+
+Buji ateşlemeli bir motorda sıkıştırma oranı artışının
+(7:1, 9:1 ve 11:1) motor momenti ve gücü, özgül yakıt
+tüketimi, yanma odası yüzey hacim oranı, CO ve HC
+emisyonlarına etkileri tam ve ¾ gaz kelebek
+açıklıklarında araştırılmıştır. Sıkıştırma oranı artışı ile
+yanma odası yüzey/hacim oranı değişimi Şekil 2’de
+görülmektedir. Sıkıştırma oranındaki artış yanma
+odası yüzey/hacim oranını lineer olarak artırmaktadır.
+Yanma odası yüzey/hacim oranı HC emisyonlarını
+etkileyen önemli bir tasarım parametresidir. Silindir
+sayısı ne kadar az ve boyutları ne kadar büyük olursa,
+yüzey-hacim oranı o kadar küçük olmaktadır [24].
+3.1. Motor Momenti ve Gücü (Engine Torque and Power)
+Sıkıştırma oranının artırılmasıyla birlikte sıkıştırma ve
+yanma sonu basınç ve sıcaklıklar yükselmekte,
+dolayısıyla ortalama efektif basınç artmaktadır.
+Sıkıştırma oranının vuruntuya neden olmayacak kadar
+748
+
+yükseltilmesiyle birlikte çıkış gücü artmakta ve özgül
+yakıt tüketimi azalmaktadır [2]. Şekil 3’de farklı
+sıkıştırma oranları için tam ve ¾ gaz kelebek
+açıklıklarında motor hızına bağlı olarak motor
+momentindeki değişim görülmektedir. Sıkıştırma
+oranı artışıyla birlikte motor momenti hem artmakta
+hem de eğri düzleşme eğilimi göstermektedir.
+Sıkıştırma oranının 7:1’den 11:1’e yükseltilmesiyle
+maksimum momentin elde edildiği motor hızı 2100
+1/min için tam gaz kelebek açıklığında %13, ¾
+GKA’da ise %17 artış belirlenmiştir.
+Şekil 4’de tam ve ¾ GKA’da farklı sıkıştırma oranları
+için motor hızına bağlı olarak motor gücündeki
+değişim görülmektedir. Sıkıştırma oranı artışıyla
+birlikte yanma hızı artmakta ve maksimum basıncın
+oluşma yeri üst ölü noktaya yaklaşmaktadır [1,6,30].
+Sıkıştırma oranı artışıyla motor gücü artmaktadır. Bu
+artış düşük motor hızlarında daha az, yüksek hızlarda
+daha fazla olmaktadır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4,2007
+
+Buji Ateşlemeli Bir Motorda Sıkıştırma Oranının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+2,5
+
+2
+
+1,5
+
+1
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+Sıkıştırma oranı
+
+Şekil 2. Sıkıştırma oranının yanma odası yüzey/hacim
+oranına etkisi (The effect of compression ratio on
+surface/volume ratio of combustion chamber)
+
+Motor Momenti (Nm)
+
+35
+30
+25
+r=7
+
+20
+
+r=9
+
+15
+
+r=11
+
+Tam GKA
+10
+1200
+
+1500
+
+1800
+
+2100
+
+2400
+
+2700
+
+3000
+
+600
+3300
+
+Motor Hızı (1/min)
+
+Şekil 3. Sıkıştırma oranı artışının motor momentine
+etkisi (The effect of increasing compression ratio on engine
+torque)
+
+10
+
+r=7
+r=9
+
+500
+
+r=11
+
+400
+
+300
+Tam GKA
+200
+1200
+
+r=7
+
+Motor Gücü (kW)
+
+için düşük motor hızlarında yüksek olan özgül yakıt
+tüketimi yüksek hızlarda azalmaktadır. Bu durum,
+düşük motor hızlarında volümetrik verim ve
+vuruntulu çalışma ihtimalinin yüksek [31], yüksek
+hızlarda yüksek türbülans, kısa ısı transfer süresi ve
+düşük volümetrik verimden dolayı vuruntu ihtimalinin
+ortadan kalkmasından kaynaklanmaktadır. Gaz
+kelebek açıklığının artması silindire alınan dolgu
+miktarını artırdığından ve sıkıştırma oranının artması
+ile de sıkıştırma sonu basınç ve sıcaklığı arttığından
+yanma verimi iyileşmekte özgül yakıt tüketimi
+azalmaktadır. Yüksek motor yükleri ve yüksek
+sıkıştırma oranlarında vuruntulu yanmadan dolayı
+özgül yakıt tüketimi artma eğilimi göstermektedir.
+Motor sabit yük ve yüksek hızlarda çalışırken
+türbülans ve yanma hızı artmakta dolayısıyla vuruntu
+eğilimi azalmaktadır. Böylece yüksek motor yükleri
+ve yüksek hızlarda vuruntu olmadan sıkıştırma oranı
+düşük
+motor
+hızlarına
+göre
+daha
+çok
+artırılabilmektedir. Kısmi yüklerde silindire alınan
+dolgu miktarı az olmasından dolayı düşük sıkıştırma
+oranlarında basınç ve sıcaklıklar düşük, yanma hızı
+yavaş olduğundan özgül yakıt tüketimi artmaktadır.
+Kısmi yüklerde yüksek sıkıştırma oranlı çalışmada
+artan basınç ve sıcaklıkla birlikte yanma hızı artmakta
+özgül yakıt tüketimi azalmaktadır [21].
+
+Özgül yakıt tüketimi (g/kWh)
+
+Yanma Odası Yüzey/Hacim Oranı (1/cm )
+
+3
+
+Y. Sekmen vd.
+
+1500
+
+1800
+
+r=9
+
+8
+
+2100
+
+2400
+
+2700
+
+3000
+
+3300
+
+Motor Hızı (1/min)
+
+r=11
+
+Şekil 5. Sıkıştırma oranı artışının özgül yakıt tüketime
+etkisi (Figure 5. The effect of increasing compression ratio on
+
+6
+
+specific fuel consumption)
+4
+Tam GKA
+2
+1200
+
+1500
+
+1800
+
+2100
+
+2400
+
+2700
+
+3000
+
+3300
+
+Motor Hızı (1/min)
+
+Şekil 4. Sıkıştırma oranı artışının motor gücüne etkisi
+(The effect of increasing compression ratio on engine power)
+
+3.2. Özgül Yakıt Tüketimi (Specific Fuel Consumption)
+Şekil 5’de farklı sıkıştırma oranları için özgül yakıt
+tüketimindeki değişim tam ve ¾ GKA’da motor
+hızına bağlı olarak görülmektedir. Tam ve ¾ GKA’da
+motor hızıyla başlangıçta azalma gösteren özgül yakıt
+tüketimi daha sonra artmaktadır. Sıkıştırma oranı 11:1
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+3.3. Egzoz Emisyonları (Exhaust Emissions)
+HC emisyonlarının en önemli kaynaklarından birisi
+yanma odası yüzey/hacim oranıdır. Sıkıştırma oranı
+artışıyla birlikte yanma odası yüzey/hacim oranı
+arttığından dolayı HC emisyonları artmaktadır
+[24,25,32]. Şekil 6’da tam ve ¾ GKA’da motor hızına
+bağlı olarak farklı sıkıştırma oranları için HC
+emisyonlarındaki değişim görülmektedir. Motor
+hızıyla birlikte HC emisyonları azalırken, sıkıştırma
+oranının 7:1’den 11:1’e yükseltilmesiyle maksimum
+motor momentinin elde edildiği motor hızı 2100
+1/min için tam GKA’da yaklaşık %10,5, ¾ GKA’da
+%8,2 artış belirlenmiştir [31].
+
+749
+
+Y. Sekmen vd.
+
+Buji Ateşlemeli Bir Motorda Sıkıştırma Oranının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+Şekil 7’de farklı sıkıştırma oranları ve farklı gaz
+kelebek açıklıkları için motor hızına bağlı olarak CO
+emisyonlarındaki değişim görülmektedir. Sıkıştırma
+oranı artışı yanma verimini de artırdığından CO
+emisyonlarında bir miktar azalma olmaktadır.
+Sıkıştırma oranı artışı ile maksimum momentin elde
+edildiği motor hızı için tam GKA’da %18,7, ¾
+GKA’da %9,7 azalma tespit edilmiştir. Buji ile
+ateşlemeli motorlarda maksimum CO ilk çalıştırma
+veya yük altında ivmelenme gibi zengin karışımla
+çalıştığında
+oluşmaktadır.
+Ancak,
+motor
+stokiyometrik veya fakir hava-yakıt karışımı ile
+çalışsa bile bir miktar CO emisyonu yayılmaktadır
+[33].
+250
+r=7
+r=9
+
+HC (ppm)
+
+200
+
+r=11
+
+150
+
+100
+Tam GKA
+50
+1200
+
+1500
+
+1800
+
+2100
+
+2400
+
+2700
+
+3000
+
+3300
+
+Motor Hızı (1/min)
+
+1.
+
+2.
+3.
+4.
+5.
+
+Değişken sıkıştırma oranlı motorların taşıt
+motorlarında kullanılmasıyla özgül yakıt tüketiminde
+önemli derecede azalma elde edilebilmektedir.
+Değişken sıkıştırma oranlı motorlara değişken supap
+zamanlama sistemleri birlikte uygulanabilir. Bu iki
+sistemin birlikte uygulanmasıyla özellikle şehir içi
+çalışmalarında yakıt ekonomisinde daha büyük
+iyileşmelerin olacağı açıktır. Değişken sıkıştırma
+oranlı
+sistemlerin
+içten
+yanmalı
+motorlara
+uygulanmasıyla
+sağlanacak
+kazançlar
+ihmal
+edilemeyecek kadar önemlidir.
+KAYNAKLAR (REFERENCES)
+
+Şekil 6. Sıkıştırma oranı artışının HC emisyonlarına
+etkisi (The effect of increasing compression ratio on HC
+
+1.
+
+emissions)
+6
+r=7
+
+Tam GKA
+
+r=9
+
+5
+
+C O (% )
+
+r=11
+
+2.
+3.
+
+4
+
+4.
+3
+
+2
+1200
+
+5.
+1500
+
+1800
+
+2100
+
+2400
+
+2700
+
+3000
+
+3300
+
+Motor Hızı (1/min)
+
+Şekil 7. Sıkıştırma oranı artışının CO emisyonlarına
+etkisi (The effect of increasing compression ratio on CO
+emissions)
+
+6.
+7.
+
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada, tek silindirli dört zamanlı buji
+ateşlemeli bir motorun sıkıştırma oranı değişken hale
+dönüştürülmüştür. Değişken sıkıştırma oranlı hale
+dönüştürülen motorun sıkıştırma oranı 7:1 ile 11:1
+arasında değiştirilmiştir. Sıkıştırma oranı artışının
+motor performansı ve egzoz emisyonlarına etkileri
+araştırılmış ve aşağıdaki sonuçlar elde edilmiştir.
+
+750
+
+Sıkıştırma oranı artışıyla ortalama efektif
+basınç artığından motor momenti ve gücünde
+artış, özgül yakıt tüketiminde azalma
+belirlenmiştir.
+Sıkıştırma oranı artışıyla yanma odası
+yüzey/hacim oranı artmaktadır.
+Sıkıştırma oranı artışıyla maksimum basıncın
+oluşma yeri ÜÖN’ye yaklaştığından
+maksimum momenti elde edebilmek için
+ateşleme
+avansının
+azaltılması
+gerekmektedir.
+Sıkıştırma oranı artışıyla CO emisyonlarında
+azalma belirlenirken HC emisyonlarında
+artma görülmüştür.
+
+8.
+9.
+
+Sekmen, Y., Buji ile Ateşlemeli Bir Motorda
+Sıkıştırma
+Oranının
+Değiştirilebilir
+Hale
+Getirilmesi
+ve
+Performansa
+Etkisinin
+İncelenmesi, Doktora Tezi, Gazi Üniv. Fen Bil.
+Enst., 2003.
+Stone, R.,1989, Motor Vehicle Fuel Economy,
+Macmillan Educational Ltd., Houndsmills, UK.
+Harne, V., Marathe, S.R., Variable Compression
+Ratio Two Stroke Engine, SAE, Paper No:
+891750, 1-10, 1987.
+Wardznski, W.F., Rychter, T.J., “Variable R/L
+Research
+Engine–Design
+and
+Preminary
+Investigation”, SAE, Paper No: 911773, 1991.
+Heywood, John B., Internal Combustion
+Engine Fundamentals, McGraw-Hill Book Co.,
+USA, 1988.
+Blair, P.G., Design and Simulation Four stroke
+engines, SAE Inc.,Warrendale, PA, USA, 1999,.
+Çelik, M.B., Buji ile Ateşlemeli Bir Motor
+Sıkıştırma
+Oranının
+Değişken
+Hale
+Dönüştürülmesi ve Performansa Etkisinin
+Araştırılması, Doktora Tezi, Gazi Üniv. Fen Bil.
+Enst., 1999.
+Ganeshan, V., Internal Combustion Engines,
+McGraw-Hill Com., USA, 1996.
+Drangel H., Olofsson E., Reinmann R., “The
+variable compression (SVC) and the combustion
+control (SCC)–Two ways to improve fuel
+economy and still comply with world-wide
+emission reguirements”, SAE, Paper No: 200201-0996, 1691-1706, 2002.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+Buji Ateşlemeli Bir Motorda Sıkıştırma Oranının Motor Performansı ve Egzoz Emisyonlarına Etkisi
+
+10. Yamin J.A.A. and Dado M.H., “Performance
+simulation of a four-stroke engine with variable
+stroke-length and compression ratio”, Applied
+Energy, 77(4), 447-463, 2004.
+11. Klein M., Eriksson L., Aslund J., “Compression
+ratio estimation based on cylinder presure data”,
+Control Engineering Practice, 14(3), 197-211,
+2006.
+12. Blakey, S.C., Saunders R.J., A “Design and
+Experimental Study of an Otto-Atkinson Cycle
+Engine Using Late Intake valve Closing”, SAE,
+Paper No: 910451, 1991.
+13. Kentfield J.A.C., and Farnendes L.C.V., “Friction
+Losses of a Novel Prototype Variable Expansionratio, Spark Ignition, Four Stroke Engine”, SAE,
+Paper No: 972659, 23-32, 1997.
+14. Wirbeleit, F.G., Binder K.G., Winner, D.,
+“Development of Pistons with Variable
+Compression Height for Increased Efficiency and
+Specific Power Output of Combustion Engines”,
+SAE, Paper No: 900229, 543-557, 1990.
+15. Cussons Technology, The Ricardo/Cussons
+Standard Hydra Engine and Test Bed
+Instruction Manual, G. Cussons Ltd.,
+Manchester, 12 (16), 1996.
+16. Rabhi V., Beroff J., Dionnet F., “Study of a GearBased Variable Compression Ratio Engine”,
+SAE, Paper No: 2004-01-2931, 2004.
+17. Moteki, K., Aoyama, S., Ushijima, K., Hiyoshi,
+R., Takemura, S., Fujimoto, H., Arai, T., “A
+study of a variable compression ratio system with
+a multi-link mechanism”, SAE, Paper No: 200301-0921, 1233-1245, 2003.
+18. Birch, S., “Variations on a Theme by Saab”,
+Automotive
+Engineering
+International,
+Volume 109, Number 4, SAE Press, Brimfield,
+OH, April 2001.
+19. Wallace, W.A., Lux, F.B., A “Variable
+Compression Ratio Engine Development”, SAE,
+Paper No: 640060, 1964.
+20. Basiletti, J.C., Blackburne, E.F., “Recent
+Developments in Variable Compression Ratio
+Engines”, SAE, Paper No: 660344, 1966.
+21. Muranaka, S., Takagi, Y., Ishida, T., “Factors
+Limiting The Improvement in Thermal Efficiency
+of Spark Ignition Engine at Higher Compression
+Ratio”, SAE, Paper No: 870548, 1-11, 1987.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+Y. Sekmen vd.
+
+22. Ferguson, C.R., Internal Combustion Engines,
+John Wiley and Sons Inc., USA, 1986.
+23. Radwan, M.S., “A Study of Knock in Lean Burn
+Spark Ignition Engines”, SAE, Paper No:
+921668, 1-5, 1992.
+24. Heisler, H., Advanced Engine Technology,
+Edward Arnold Press, London, UK, 1995.
+25. Adams, W.H., Hinrichs, H.G., Adamis, P.,
+“Analysis of The Combustion Process of A Spark
+Ignition Engine with A Variable Compression
+Ratio, SAE, Paper No: 870610, 1987.
+26. Boggs, D.L., Hilbert, H.S., “The Otto-Atkinson
+Cycle Engine Fuel Economy and Emissions
+Results and Hardware Design”, SAE, Paper No:
+950089, 1995.
+27. Abd Alla, G.H., “Computer Simulation of A
+Four-Stroke Spark Ignition Engine”, Energy
+Conversion&Management, 43, 1043-1061,
+2002.
+28. Mustafi, N.N., Miraglia, Y.C., Raine, R.R,
+Bansal, P.K., and Elder, S.T., “Spark-ignition
+engine performance with ‘Powergas’ fuel
+(mixture of CO/H2): A comparison with gasoline
+and natural gas”, Fuel, 85(12-13), 1605-1612,
+2006.
+29. Yamin, J.A.A., Gupta, H.N., Bansal, B.B. and
+Srivastava, O.N., “Effect of combustion duration
+on the performance and emission characteristics
+of a spark ignition engine using hydrogen as a
+fuel”, International Journal of Hydrogen
+Energy, 25(6), 581-589, 2000.
+30. Erduranlı, P., Buji ile Ateşlemeli tek silindirli
+Değişken Sıkıştırma Oranlı Bir Motorun Teorik
+Simülasyonu, Doktora Tezi, Gazi Üniv. Fen Bil.
+Enst., 2003.
+31. Schwaderlapp, M., Habermann, K., Yapici, K.I.,
+“Variable compression ratio – A design solution
+for fuel economy concept”, SAE, Paper No:
+2002-01-1103, 1760-1767, 2002.
+32. Huang, J., Crookes R.J., “Assesment of simulated
+biogas as fuel fort he spark ignition engine”,
+Fuel, 77(15), 1793-1801, 1998.
+33. Pulkrabek, W.W., Engineering Fundementals
+of The Internal Combustion Engine, PrenticeHall, Inc., USA, 277-287, 1997.
+
+751
+
+

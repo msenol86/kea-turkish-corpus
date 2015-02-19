@@ -1,0 +1,1273 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 3, 549-557, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 3, 549-557, 2010
+
+AISI 304 VE AISI 430 PASLANMAZ ÇELİKLERİN TIG, MIG
+VE ÖRTÜLÜ ELEKTROD ARK KAYNAĞIYLA
+BİRLEŞTİRİLEBİLİRLİĞİNİN ARAŞTIRILMASI
+Yakup KAYA
+Karabük Üniversitesi, Teknik Eğitim Fakültesi, Balıklarkayası mevkii, 78050, Karabük
+ykaya@karabuk.edu.tr
+(Geliş/Received: 09.09.2009 ; Kabul/Accepted: 22.12.2009)
+ÖZET
+Bu çalışmada, 3 mm kalınlığında AISI 304 ostenit paslanmaz çelik levha ile aynı kalınlıkta AISI 430 ferritik
+paslanmaz çelik levhalar TIG (Tungsten Inert Gas), MIG (Metal Inert Gas) ve Örtülü elektrod ark kaynak
+yöntemleri ile birleştirilmiş ve birleştirilen malzemelerin çekme dayanımı, çentik darbe dayanımı, mikrosertlik
+ve mikroyapı özellikleri incelenmiştir. Çekme testleri sonucunda tüm numunelerde kopma birleştirmenin ferritik
+paslanmaz çelik esas metal tarafında ve kaynak metaline yakın olan Isı Tesiri Altındaki Bölge (ITAB)’ de
+gerçekleşmiştir. Kaynaklı bağlantılarda en yüksek çekme dayanımı ise TIG kaynağı ile birleştirilmiş
+bağlantılardan elde edilmiştir. Çentik darbe testlerinde, TIG ve MIG kaynağı ile birleştirilmiş bağlantıların çentik
+darbe kırılma enerjileri, ark kaynağı ile birleştirilmiş bağlantılardan yüksek ölçülmüştür. Mikrosertlik testleri
+sonucunda, tüm kaynak yöntemlerinde en yüksek sertlik değeri AISI 430 ferritik paslanmaz çelik esas metal
+tarafında kaynak metaline yakın olan ITAB’ da ölçülmüştür. Mikroyapı incelemelerinde, AISI 430 ferritik
+paslanmaz çeliğin ITAB bölgesinde belirgin bir tane irileşmesinin meydana geldiği tespit edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Gelişmekte olan ülkemiz endüstrisinin paslanmaz
+çeliklere olan gereksinimi her geçen gün artmaktadır
+[1-7]. Paslanmaz çelikler; petro-kimya, kimya, gıda
+endüstrisinde kullanılan depolama tankları, basınçlı
+
+kaplar [2,4-7], mutfak eşyaları [8,9], kara ve deniz
+taşıtları üretimi gibi çeşitli endüstriyel uygulamalarda
+kullanılmaktadır [10]. Paslanmaz çelikler içerdikleri
+minimum % 12 Krom (Cr) sayesinde, artan krom
+miktarına bağlı olarak yüksek sıcaklıklarda
+oksidasyon
+dirençleri
+artmaktadır
+[2-6,8-15].
+
+Y. Kaya
+
+Ostenitik paslanmaz çelikler, paslanmaz çelikler
+grubunda %70’ lik oranla en çok kullanılan çeliklerdir
+[3,7,8,10,17,18]. Ostenitik paslanmaz çelikler içinde;
+korozyon
+direnci,
+yüksek
+mukavamet,
+iyi
+biçimlendirilme ve kaynaklanabilme kabiliyeti olan
+AISI 304 tipi ostenitik paslanmaz çelikler yaygın
+olarak kullanılmaktadır [7,19-21].
+Ferritik paslanmaz çelikler, ostenitik paslanmaz
+çeliklere göre daha ucuz olmaları, kolaylıkla
+şekillendirilebilmeleri ve atmosferik korozyona karşı
+iyi direnç göstermelerinden dolayı [22], otomobil
+egsoz sistemlerinde [23], mimaride, iç ve dış
+dekorasyonda, mutfak eşyalarında, gıda endüstrisinde
+geniş bir uygulama alanına sahiptir [24-26].
+Günümüz
+endüstrisinde
+kullanılan
+malzeme
+çeşitlerinin artması farklı özellikler gerektiren
+yerlerde farklı metal bağlantılarının gerekliliği ve
+özellikle son yıllarda ekonomik faktörlerin giderek
+önem kazanması farklı özelliklere sahip malzemelerin
+birbirleriyle
+birleştirilmesi
+zorunluluğunu
+doğurmaktadır [6,27-30]. Farklı metallerin kaynağı,
+genellikle katı hal kaynak yöntemleri [29] ile
+yapılmasına rağmen elektrik ark, TIG ve MIG kaynak
+yöntemleri ile de yapılabilmektedir [6,27].
+Bu çalışmada, paslanmaz çelik grubunun en yaygın
+kullanım alanına sahip olan AISI 304 ostenitik
+paslanmaz çelik ve AISI 430 ferritik paslanmaz çelik
+malzemeler, TIG, MIG ve Örtülü elektrod ark kaynak
+yöntemleriyle birleştirilmişlerdir. Farklı malzemelere
+uygulanan farklı kaynak yöntemlerinin, kaynak
+bölgesi üzerindeki etkilerini belirlemek için,
+birleştirilen malzemelere çekme, çentik darbe ve
+mikrosertlik testleri yapılmış ayrıca kaynaklı
+bağlantılar
+üzerinde
+mikroyapı
+çalışmaları
+gerçekleştirilmiştir.
+
+Birleştirme işlemlerinde; TIG kaynağında CEBORA
+Power TIG 1665 DC HF Inverter tipi, MIG
+kaynağında MIG 550 SW tipi ve Örtülü elektrod ark
+kaynağında RV 500 tipi kaynak makinaları
+kullanılmıştır. TIG kaynağı darbeli akımda
+gerçekleştirilmiş olup üst akım olarak 120 A ve alt
+akım olarak da 80 A seçilmiştir. Ayrıca, makina
+kaynak esnasında saniyede 5 darbe frekansı
+verebilecek şekilde ayarlanmıştır. Deneyler esnasında
+kullanılan kaynak parametreleri Çizelge 3’ de
+verilmiştir.
+Kaynaklı
+bağlantıların
+başlangıç
+ve
+bitiş
+kısımlarından 20 mm lazer kesme yöntemi ile
+kesilerek atılmıştır. Kalan kısımlarından çekme
+deneyi, çentik darbe deneyi ve mikroyapı incelemeleri
+için numuneler hazırlanmıştır. Çekme numuneleri TS
+EN 895 standartına göre her bir kaynaklı bağlantıdan
+3’ er adet hazırlanmış ve Autograph-Shimadzu AG-IS
+tipi cihaz ile 2 mm/dk ilerleme hızında çekilmiştir.
+Çentik darbe numuneleri (Esas metaller, kaynak
+metalleri ve birleştirmelerin ferritik paslanmaz çelik
+tarafı ITAB’ı) Şekil 1’ de verilen ölçülerde ve
+standarda göre her bir numuneden 3’ er adet
+hazırlanmış ve Dewotrans marka çentik darbe
+cihazıyla oda sıcaklığında kırılmıştır.
+Mikroyapı numuneleri, bakalite alma işleminden
+sonra standart metalografik numune hazırlama
+işlemlerine (zımparalama, parlatma) tabi tutulmuştur.
+Bu numuneler daha sonra oksalik asit ile elektrolitik
+olarak 14 V - 3 A uygulanarak 10 sn dağlama
+yapılmış ve mikroyapı incelemesi için hazır hale
+getirilmişlerdir. Hazırlanan numunelerin mikroyapı
+çalışmaları Nikon Epiphot 200 marka optik
+mikroskop ile gerçekleştirilmiştir. Hazırlanan
+mikroyapı numuneleri aynı zamanda mikrosertlik
+ölçümü için de kullanılmıştır. Mikrosertlik ölçümleri,
+Shimadzu HMV marka cihaz ile HV cinsinden
+ölçülmüştür. Mikrosertlik ölçümlerinde 500 g yük
+uygulanmış ve sonuçlar her bir bölgede
+gerçekleştirilen 5 ölçüm sonucunun ortalaması
+alınarak değerlendirilmiştir.
+
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL
+
+45
+
+STUDIES)
+
+550
+
+2
+
+Deneysel çalışmada, 200x80x3 mm ebatlarında AISI
+304 ve AISI 430 paslanmaz çelik levhalar
+kullanılmıştır. Kullanılan AISI 304 ve AISI 430
+paslanmaz çeliklerin kimyasal bileşim (% ağırlık
+olarak) değerleri Çizelge 1’ de verilmiştir. Ayrıca
+kaynak işlemlerinde, kaynak sonrası paslanmaz
+çeliklerin kaynak bölgesinde görülen istenmeyen
+yapıyı (sigma fazı, krom karbür çökelmesi) önlemek
+için düşük karbonlu L tipi, TIG kaynağında ER 316L,
+MIG kaynağında ER 308L ve Örtülü elektrod ark
+kaynağında E 316L-16 (350°C’ de 2 saat kurutulmuş)
+ek kaynak metalleri kullanılmıştır. İlgili ek kaynak
+metallerin kimyasal bileşimleri Çizelge 2’ de
+verilmiştir. Kaynak yapılan malzemeler açık havada
+soğutulduktan sonra, curufları temizlenmiştir.
+
+0
+
+R=0.25
+Kaynak dikişi
+
+3
+
+10
+
+Paslanmaz çelikler hem sprey iletim, hem kısa devre
+iletim hem de darbeli iletim tekniğiyle kaynak
+edilebilirler [16].
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+55
+
+Şekil 1. Çentik darbe test numunesi
+
+(Notch Impact test
+
+specimen
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+Y. Kaya
+
+Çizelge 1. Esas metallerin kimyasal bileşimi (Ağırlıkça %) (Chemical compositions of base metals) (wt. %)
+C
+0.07
+0.055
+
+AISI 304
+AISI 430
+
+Mn
+1.01
+0.42
+
+Si
+0.75
+0.45
+
+Cr
+18.23
+17.25
+
+Ni
+8.12
+-
+
+P
+0.027
+0.03
+
+S
+0.02
+0.008
+
+Fe
+Kalan
+Kalan
+
+Çizelge 2. Ek kaynak metallerin kimyasal bileşimleri (Ağırlıkça %) (Chemical compositions of filler metals) (wt. %)
+Elektrod
+ER 316L (TIG)
+ER 308L (MIG)
+
+C
+0.021
+0.03
+
+Cr
+18.5
+19.5
+
+Ni
+11.5
+10
+
+Mo
+2.44
+-
+
+Mn
+1.5
+1.75
+
+Si
+0.40
+0.85
+
+P
+0.03
+0.03
+
+S
+0.04
+0.03
+
+E 316L-16 (Ark)
+
+0.025
+
+18.5
+
+12
+
+2.7
+
+0.8
+
+0.9
+
+0.022
+
+0.024
+
+Çizelge 3. Birleştirme işlemlerinde kullanılan kaynak parametreleri (Welding parameters used in this study)
+Kaynak Yöntemi
+TIG Kaynağı
+MIG Kaynağı
+Örtülü Elektrot ile
+Ark Kaynağı
+
+Kaynak akımı
+(Amper)
+80-120
+80
+
+Kaynak hızı
+(cm/dk)
+15
+20
+
+Isı girdisi
+(kJ/mm)
+1.2
+
+Ek metal
+çapı (mm)
+2
+
+0.72
+
+Gaz basıncı
+(lt/d)
+12
+12
+
+1.2
+
+DC (-)
+DC (+)
+
+100
+
+25
+
+0.75
+
+-
+
+2.5
+
+DC (+)
+
+Akım türü
+
+2
+
+Max Çekme (N/mm )
+
+700
+560
+
+Numune
+
+420
+
+Max çekme
+(N/mm2)
+
+Uzama
+(%)
+
+0
+
+0
+
+10
+
+20
+
+TIG
+
+Ark
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+22,45
+
+545,70 ± 3
+
+15,70
+
+MIG
+
+Ferritik
+
+140
+
+54,95
+
+600,96 ± 5
+
+TIG
+
+Ostenitlk
+
+280
+
+626,62 ± 5
+
+Ferritik
+
+540,32 ± 3
+
+15,30
+
+Ark
+
+MIG
+
+Ostenitik
+
+538,08 ± 3
+
+15,10
+
+100
+
+Uzama (%)
+
+Şekil 2. Çekme test sonuçları (Tensile test results)
+Üç farklı kaynak yöntemi kullanılarak oluşturulan
+kaynaklı birleştirmelerden elde edilen çekme
+numunelerinin kopma bölgeleri ile esas malzemelerin
+çekme deneyi sonrası kopma bölgesi fotoğrafları ise
+Şekil 3’ de verilmiştir.
+
+AISI 304
+
+AISI 304
+
+AISI 430
+
+AISI 430
+
+AISI 304
+
+Kaynaklı bağlantılara yapılan çekme testleri
+sonucunda, üç farklı kaynak yöntemiyle birleştirilen
+bağlantıların çekme dayanımları ostenitik ve ferritik
+esas metallerin çekme dayanımından daha düşük
+olduğu belirlenmiştir. Numunelerin tümünde kopma
+işlemi kaynaklı bağlanın ferritik paslanmaz çelik esas
+metal tarafında ve kaynak ergime sınırına bitişik olan
+ITAB’ ın iri taneli bölgesinde meydana gelmiştir.
+Literatürde [31,32] bu bölge, yüksek sıcaklık ısıdan
+etkilenmis bölge olarak tanımlanmakta ve kaynak ısıl
+çevriminde A3 sıcaklığının üzerindeki sıcaklıklara
+ısıtılmış esas metali temsil etmektedir.
+Çekme testleri sonuçlarında, kopma işlemlerinin
+kaynak metallerinden gerçekleşmemesi nedeni ile her
+üç birleştirmenin (TIG, MIG ve ark) kaynak
+metallerinin dayanımlarına olan etkisi hakkında
+yorum yapılamamaktadır. Ancak, her üç yöntemle
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+AISI 430
+
+TIG
+
+AISI 304
+
+AISI 430
+
+MIG
+
+AISI 304
+
+AISI 430
+
+Şekil 3. Çekme numunelerin kopma bölgeleri
+
+Ark
+
+(Fracture
+
+regions of the tensile specimens)
+
+birleştirilmiş kaynak metallerinin dayanımlarının en
+az AISI 430 ferritik paslanmaz çeliğin ITAB’ dan
+daha yüksek dayanım sergilediği anlaşılabilmektedir.
+Diğer yandan ek kaynak metalleri bileşim ve mekanik
+özellikler açısından esas metalle göre daha iyi
+özelliklerde üretilmektedirler. Bu nedenle kaynak
+bölgesi, esas metal ve ek kaynak metali karışımı
+olduğundan kopmanın bu bölgede meydana
+gelmemesi beklenen bir durumdur. Bu sonuçlar
+551
+
+Y. Kaya
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+kaynak dikişlerinin güvenli olduğunu ancak, kaynak
+esnasındaki ısı girdisinin esas malzemelerin
+dayanımlarını etkilediğini göstermektedir.
+Şekil 2 incelendiğinde üç değişik kaynak yöntemiyle
+birleştirilmiş bağlantılardan en yüksek çekme
+dayanımı (545.70 N/mm2) TIG kaynağı ile
+birleştirmiş bağlantılardan elde edilmiştir. Çok büyük
+bir fark olmamakla beraber MIG kaynağı ile
+birleştirilmiş bağlantılardan ölçülen çekme dayanımı
+540.32 N/mm2 olurken, ark kaynağı ile birleştirilmiş
+bağlantılardan ölçülen çekme dayanımı 538.08
+N/mm2 olarak bulunmuştur. Kopmaların kaynak
+metalinden olmamasına rağmen üç kaynak yöntemi
+ile birleştirilen bağlantılardaki bu çekme farkı, kaynak
+yöntemine bağlı olarak kaynak esnasındaki ısı
+girdilerinin farklı olmasından kaynaklanmaktadır.
+Kaynak esnasında malzemelere verilen ısı en çok
+ITAB’ da etkili olmakta ve bu bölgede ısı girdisi
+artışına bağlı olarak tane irileşmesi de artmaktadır.
+Bilindiği gibi iri taneli yapıların dayanımı ince taneli
+yapılara göre daima düşük olmaktadır [33]. Çünkü
+malzeme içerisindeki herhangi bir dislokasyon, bir
+tane sınırı ile karşılaşmadan önce, sadece kısa bir
+mesafede hareket eder ve böylece malzemelerin
+dayanımını arttırır. Bu kural literatürde Hall-Petch
+eşitliği olarak bilinmektedir [33]. σy=σ0 + Kd-1/2; HallPetch eşitliği metalik malzemelerde kayma gerilmesi
+ve tane boyutu arasındaki ilişkiyi açıklamaktadır.
+Kaynak esnasındaki ısıdan dolayı orijinal ferritik
+paslanmaz çelik malzemeye göre kaynaklı haldeki
+ferritik paslanmaz çelik malzemenin çekme
+dayanımında bir düşüş meydana gelmiştir.
+Birleştirmenin ostenitik paslanmaz çelik tarafında
+gözle görülebilir (kesit daralması, uzama) herhangi bir
+tahribat meydana gelmemiştir. Normalde kaynak
+esnasında malzemelere verilen ısı girdisi kaynak
+yönteminin yanında, kaynak akımı, kaynak ark
+gerilimi ve en önemlisi de kaynak hızı ile
+değişmektedir [34]. Deneysel çalışmalarda kullanılan
+kaynak parametrelerine bakıldığında en düşük kaynak
+hızı TIG kaynağında olmasına rağmen, en yüksek
+çekme dayanımı bu numunelerden elde edilmiştir.
+
+Bunun sebebi, TIG kaynağının klasik kaynak
+parametreleriyle değil, inverter türü kaynak
+makinelerine özgü bir özellik olan darbeli akımla
+kaynak yapılmasından ileri gelmektedir. İnverter türü
+kaynak makineleri ile darbeli akımda yapılan kaynak
+işlemleri esnasındaki ısı girdisinin, klasik akımda
+yapılan TIG kaynağına göre daha düşük olduğu rapor
+edilmiştir [4,35].
+Çekme deneyi sonucunda elde edilen % uzama
+değerleri incelendiğinde, ostenitik paslanmaz çelik
+numune ortalama % 54.95, ferritik paslanmaz çelik
+numune ortalama % 22.45, TIG kaynaklı bağlantı
+ortalama % 15.70, MIG kaynaklı bağlantı ortalama %
+15.30, örtülü elektrod ark kaynaklı bağlantı ortalama
+% 15.10 uzama değeri elde edilmiştir. Kaynaklı
+bağlantıların % uzama miktarları incelendiğinde
+değerlerin birbirlerine çok yakın olduğu ve üç farklı
+kaynak yöntemiyle birleştirilen bağlantıların ortalama
+% uzama değerlerinin her iki esas malzemeden daha
+düşük olduğu görülmüştür. Kaynaklı bağlantılardaki
+% uzama miktarının azalmasının nedeni, bu
+numunelerdeki çekme dayanımının azalmasına ve
+kaynak esnasında sertliği artarak deforme olmayan
+bölgelerin
+varlığına
+bağlanabilir.
+Kaynaklı
+bağlantıların az miktarda farklı % uzama
+göstermesinin nedeni, kaynak yöntemlerindeki farklı
+ısı girdilerinden ve kaynak esnasında kullanılan ek
+metallerin farklı kimyasal bileşiminden kaynaklandığı
+düşünülmektedir [27].
+3.2. Mikrosertlik testi (Microhardness test)
+Şekil 4’ de TIG, MIG ve örtülü elektrod ark kaynağı
+ile birleştirilmiş bağlantıların mikrosertlik değerleri
+verilmiştir. Her üç kaynak yöntemi ile birleştirilmiş
+bağlantılardan
+ölçülen
+sertlik
+değerlerinin
+birbirlerinden çok farklı olmadıkları görülmektedir.
+Kaynak metallerinden ölçülen sertlik değerleri
+incelendiğinde, en yüksek sertlik değerini ark kaynağı
+ile birleştirilmiş bağlantılar verirken, onu sırasıyla
+MIG ve TIG kaynağı ile birleştirilmiş bağlantılar
+takip etmektedir. Kaynaklı bağlantılarda, esas metal
+kısımlarındaki sertlik değerleri incelendiğinde ise çok
+
+600
+
+Sertlik (HV0.5)
+
+500
+400
+
+TIG
+
+MIG
+
+Ark
+
+300
+200
+Ostenitik
+
+100 Esas metal
+
+ITAB
+
+Kaynak metali
+
+ITAB
+
+Ferritik
+Esas metal
+
+Kaynak Bölgeleri
+
+Şekil 4. Mikrosertlik testi sonuçları (Microhardness test results)
+552
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+Y. Kaya
+
+Şekil 5’ de verilen çentik darbe kırılma enerjileri
+incelendiğinde, en yüksek kırılma enerjisi ostenitik
+esas metal malzemede elde edilirken, en düşük
+kırılma enerjileri birleştirmenin ferritik tarafındaki
+ITAB’ da ölçülmüştür. Kırılma enerjisi, ostenitik
+paslanmaz çelik esas metalde 45 J, ferritik paslanmaz
+çelik esas metalde 26 J, TIG ve MIG kaynaklı
+bağlantılarda 29 J ve örtülü elektrod ark kaynaklı
+bağlantıda ise 28 J olarak ölçülmüştür. Her üç kaynak
+yöntemi ile birleştirilmiş bağlantılardan ölçülen
+kırılma enerjisi değerleri, orijinal ostenitik paslanmaz
+çelik esas metalin kırılma enerjisi değerinden düşük
+fakat orijinal ferritik paslanmaz çelik esas metalin
+kırılma enerjisi değerinden ise yüksek değerde
+bulunmuştur. Kaynaklı birleştirmelerinin ferritik
+tarafındaki ITAB’ dan ölçülen kırılma enerjileri, TIG
+ve MIG kaynağı ile birleştirilen bağlantılardan 12 J
+olarak ölçülürken elektrik ark kaynağı ile
+birleştirilmiş bağlantılardan 11 J olarak ölçülmüştür.
+Her üç kaynak yöntemi ile birleştirilmiş kaynaklı
+bağlantıların en kritik bölgesinin, aşırı tane
+büyümesine bağlı olarak ITAB’ da olduğu bir
+gerçektir. Literatürde [14,37] tane büyümesinin
+kaynak esnasındaki sıcaklık derecesi ve bu sıcaklıkta
+durulan süre ile ilgili olduğu ve ısıdan etkilenen
+bölgede tokluk kaybına neden olduğu belirtilmiştir.
+Şekil 4’ deki mikrosertlik grafiği ile kaynaklı
+bağlantılardan elde edilen kırılma enerjisi değerleri
+(Şekil 5) kıyaslanacak olursa sertliğin belirli bir
+noktaya kadar artmasıyla tokluğun düştüğü
+görülmektedir. Ferritik paslanmaz çelik ile düşük
+karbonlu çelik malzemelerin, ostenit bir ek kaynak
+metali ve MIG kaynağı ile birleştirildiği bir çalışmada
+da [28] kaynak metalindeki sertliğin artmasına bağlı
+olarak çentik darbe dayanımının düştüğünü rapor
+etmişlerdir.
+
+az bir fark olmakla birlikte ferritik paslanmaz çelik
+levhanın daha sert olduğu görülmektedir. Ayrıca her
+üç yöntemde birleştirilen kaynak metali sertliklerinin
+de esas metal sertlik değerlerine yakın olduğu
+belirlenmiştir. Bir kaynaklı bağlantıda esas metal
+ve/veya metaller ile kaynak metali sertliklerinin
+birbirlerine yakın ölçülmesi, kullanılan kaynak
+yöntemleri için ek kaynak metallerinin doğru
+seçildiğinin bir göstergesi olarak değerlendirilebilir.
+Üç farklı kaynak yöntemi ile birleştirilmiş
+bağlantıların en dikkat çekici yeri sertliğin en yüksek
+olduğu ferritik malzemenin ITAB’ dir. Buradan
+ölçülen sertlik değerleri her iki esas malzeme ve her
+üç yöntemle birleştirilmiş kaynak metallerinden
+ölçülen sertlik değerlerinden iki kattan daha yüksektir.
+Bunun sebebi olarak, kaynak esnasındaki yüksek
+ısıdan dolayı ITAB bölgesinde meydana gelen tane
+irileşmesi gösterilebilir. Literatürde [36] bu çeliklerin
+en karakteristik özelliğinin, kaynak metalinde ve ısı
+etkisi altındaki bölgede oluşan tane büyümesi olduğu
+belirtilmektedir. Kaynak yöntemine göre (TIG, MIG
+ve elektrik ark) kaynak bölgesine verilen ısı girdisi
+değiştiğinden, kaynaklı bağlantılardaki gerek kaynak
+metali, gerekse ITAB’ ın sertlik değerlerinin değiştiği
+tespit edilmiştir. Ayrıca kaynak metalinden ölçülen
+sertlik değerlerinin farklı olmasında, her üç kaynak
+yöntemlerinde kullanılan ek metalin kimyasal
+bileşimin etkisinin olduğu düşünülmektedir.
+3.3. Çentik darbe testi (Notch Impact test)
+TIG, MIG ve örtülü elektrod ark kaynak
+yöntemleriyle birleştirilen bağlantıların kaynak metali
+ve birleştirmenin ferritik tarafının ITAB’ ı ile AISI
+304 ostenitik paslanmaz çelik ve AISI 430 ferritik
+paslanmaz çelik esas malzemelerin çentik darbe
+kırılma enerji sonuçları Şekil 5’ de verilmiştir. Çentik
+darbe deneyleri, sadece esas metaller ile kaynaklı
+bağlantıları ve kaynaklı bağlantıları birbirleriyle
+kıyaslamak (kaynak yönteminin etkilerini belirlemek)
+amacıyla yapılmıştır.
+
+Kırılma Enerjisi (J) 
+
+50
+
+Ostenitik ek kaynak metalinin kullanıldığı benzer ve
+farklı paslanmaz çeliklerin kaynağında, kullanılan
+kaynak yöntemi ve kaynak parametrelerine göre gerek
+kaynak metalinde gerekse ITAB’ da farklı ısı
+girdilerinden dolayı tane büyümesinin farklı olması
+
+45
+
+40
+
+29
+
+26
+
+30
+
+29
+29
+
+28
+
+20
+
+12
+
+12
+
+11
+
+10
+0
+AISI 304
+
+AISI 430
+
+TIG
+
+Esas metal 
+
+MIG
+
+ARK
+
+Kaynak metali
+
+TIG
+
+MIG
+
+ARK
+
+Ferritik ITAB
+
+Şekil 5. Esas metal, kaynak metali ve ITAB darbe test sonuçları (Base metal, weld metal and HAZ notch impact test results)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+553
+
+Y. Kaya
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+3.4. Mikroyapı (Microstructure)
+Üç farklı kaynak yöntemiyle birleştirilen AISI 304
+ostenitik ve AISI 430 ferritik paslanmaz çeliklerden
+elde edilen optik mikroskop görüntüleri Şekil 6-8’ de
+verilmiştir. Burada, Şekil 6, TIG kaynağı ile
+birleştirilen bağlantının, Şekil 7, MIG kaynağı ile
+birleştirilen bağlantının ve Şekil 8, ise örtülü elektrod
+kaynağı ile birleştirilen bağlantının kaynak bölgesi
+
+Kaynak metali
+
+AISI 430
+
+AISI 304
+
+tanelerin küçülmesi olanağı da yoktur. Bu yüzden bu
+malzemelerin kaynağında kaynak öncesi ve kaynak
+esnasında alınan önlemlerle, tane büyümesi
+azaltılmaya/önlenmeye çalışılır.
+
+Ergime sınırı
+
+beklenen doğal bir sonuçtur. Literatürde [36]
+paslanmaz çeliklerin en karakteristik özelliğinin;
+kaynak dikişinde ve ısı etkisi altındaki bölgede oluşan
+ve kaynak dikişinin tokluğunda düşüşe neden olan
+tane büyümesinin olduğu belirtilmektedir. Normal
+halde ferritik paslanmaz çelikler ince taneli bir yapıya
+sahiptirler. Ancak, bu malzemeler 1150°C' nin
+üzerindeki sıcaklarda tane büyümesine karşı aşırı
+eğilimlidir. Kaynak sırasında ITAB' ın bir bölümü
+1150°C üzerindeki bir sıcaklığa ısınır ve bu bölgede
+aşırı tane büyümesi oluşur. Kaba taneli hale gelen
+yapı gevrekleşir ve geçiş sıcaklığı da yükselir. Bu
+malzemelerde katı halde ostenitin ferrite dönüşmesi
+olayı meydana gelmediğinden ısıl işlem yardımı ile
+
+50µm
+
+Şekil 6. TIG kaynağı ile birleştirilen bağlantıların mikroyapı resimleri
+
+(Optical microstructures of the samples joined by
+
+AISI 304
+
+AISI 430
+
+TIG welding)
+
+Kaynak metali
+
+50µm
+
+Şekil 7. MIG kaynağı ile birleştirilen bağlantıların mikroyapı resimleri
+
+(Optical microstructures of the samples joined by
+
+AISI 304
+
+AISI 430
+
+MIG welding)
+
+Kaynak metali
+
+50µm
+
+Şekil 8. Ark kaynağı ile birleştirilen bağlantıların mikroyapı resimleri
+
+(Optical microstructures of the samples joined by
+
+shielded metal arc welding)
+
+554
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+Y. Kaya
+
+(kaynak metali, geçiş bölgesi ve ITAB) mikroyapı
+görüntülerini göstermektedir. Ostenitik esas metalin
+tanelerinin hadde doğrultusunda yönlendikleri
+görülmektedir.
+Kaynak
+metali
+mikroyapıları
+incelendiğinde yapının yaklaşık % 90’ ından
+fazlasının ostenitten meydana geldiği, geri kalan
+yaklaşık % 10’ un altındaki bir kısmının ferritten
+oluştuğu tespit edilmiştir. Ayrıca ostenit tanelerinin
+etrafında ferritin oluştuğu ancak ostenitin tamamen
+ferrit taneleri ile çevrilmediği görülmektedir.
+Literatürde [36] yapıda bulunması gereken ferrit
+miktarının belirli bir miktarda olması gerektiği (% 34) ancak esneklik kabiliyeti azalmaması için % 12' yi
+geçmesi tavsiye edilmektedir. Bu sonuç, AISI 304
+ostenitik paslanmaz çelik ile AISI 430 ferritik
+paslanmaz
+çelik
+malzemelerin
+birleştirme
+işlemlerinde (TIG, MIG ve ark) kullanılan ek kaynak
+metallerin seçimlerinin doğru yapıldığının bir
+göstergesi olarak değerlendirilebilir.
+
+doğru gerçekleştiği ve de ergimiş-katılaşmış tanelerin
+ısı akış yönünde yönlendiği görülmüştür. Daha önce
+ostenitik paslanmaz çeliklerin kaynağı üzerine yapılan
+çalışmalarda da [5,9,38], ısı girdisinin artışına bağlı
+olarak tane irileşmesinin arttığı ve kaynak metalinde
+ısı akışına göre tanelerde yönlenmelerin oluştuğu
+belirtilmiştir.
+
+Şekil 6’ de TIG kaynak yöntemi ile birleştirilmiş
+bağlantının kaynak metali mikroyapısı incelendiğinde,
+ergiyip katılaşmış kaynak metalinin eş eksenli
+dendritik tanelerden meydana geldiği görülmektedir.
+Ayrıca, birleştirmenin ostenitik paslanmaz çelik tarafı
+ergime sınırına yakın bölgedeki tanelerin, kaynak
+metali taneleriyle benzer görünümde oldukları ancak,
+bu bölgedeki ısının karmaşıklığından dolayı tane
+yönlenmelerinin düzenli olmadığı tespit edilmiştir.
+
+iii) Mikrosertlik ölçümleri sonucunda, en yüksek
+sertlik değerini ark kaynağı ile birleştirilmiş
+bağlantılar verirken, onu sırasıyla MIG ve TIG
+kaynağı ile birleştirilmiş bağlantılar takip
+etmektedir. Ayrıca, en yüksek sertlik değerleri,
+birleştirmenin ferritik tarafındaki ITAB’ dan
+ölçülmüştür.
+
+Birleştirmenin ferritik paslanmaz çelik tarafı ergime
+sınırına yakın bölge incelendiğinde, bu bölgede
+oluşan taneler, ostenitik ek kaynak metali+ferritik
+esas metal karışımından oluştuğundan dolayı kaynak
+metali taneleriyle benzer görünümde olmadıkları
+görülmektedir. Bunun yanında, birleştirmenin
+ostenitik tarafında fazla bir tane irileşmesi
+gözlenmezken, birleştirmenin ferritik tarafında
+belirgin bir tane irileşmesinin meydana geldiği
+gözlemlenmiştir.
+Şekil 7. ve Şekil 8. incelendiğinde de benzer
+sonuçların olduğu görülmektedir. Ancak, MIG ve
+örtülü elektrod ark kaynağı ile birleştirilmiş
+bağlantılardaki ısı girdisinin farklı olmasından dolayı
+kaynak metali tane iriliklerinin TIG kaynağı ile
+birleştirilmiş bağlantılardan daha fazla olduğu
+görülmektedir. Normalde TIG kaynağı ısı girdisinin
+MIG ve ark kaynak yöntemine göre daha yüksek
+olduğundan dolayı daha iri taneli olması gerekirdi.
+Ancak, TIG kaynağının inverter türü kaynak
+makinesinde ve darbeli akımda yapılması, ısı
+girdisinin azalmasına ve yapının ince taneli olarak
+katılaşmasına neden olmuştur. Bu sonuç literatürle
+uyum içerisindedir [4].
+Mikroyapıların tümü (Şekil 6-Şekil 8) bir bütün
+olarak değerlendirildiğinde; ısı girdisinin artışına
+bağlı olarak tane irileşmesinin arttığı ve kaynak
+metalinin katılaşmasının kaynak merkez çizgisine
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+4. SONUÇLAR (CONCLUSIONS)
+i)
+
+TIG, MIG ve elektrik ark kaynak yöntemi ile
+birleştirilmiş bağlantılardan yapılan çekme
+testleri sonucunda, en yüksek çekme dayanımı
+TIG kaynağı ile birleştirmiş bağlantılardan elde
+edilmiştir.
+
+ii) Kaynaklı bağlantıların tümünde kopma işlemi
+kaynaklı bağlantının ferritik paslanmaz çelik
+malzeme tarafında ve ITAB’ ın iri taneli
+bölgesinde meydana gelmiştir.
+
+iv) Çentik darbe deneyleri sonucunda, en düşük
+çentik darbe kırılma enerjileri birleştirmelerin
+ferritik paslanmaz çelik tarafındaki ITAB’ dan
+ölçülmüştür. TIG ve MIG kaynağı ile
+birleştirilmiş bağlantıların kaynak metallerinden
+ölçülen kırılma enerjilerinin aynı olduğu ve ark
+kaynağı ile birleştirilmiş bağlantılardan ise daha
+yüksek oldukları tespit edilmiştir.
+v) Optik mikroskop çalışması sonucunda, ergiyip
+katılaşmış kaynak metalinin eş eksenli dendritik
+tanelerden meydana geldiği belirlenmiştir.
+vi) Birleştirmenin ostenitik tarafında tane irileşmesi
+gözlenmezken, ferritik tarafında belirgin bir tane
+irileşmesinin meydana geldiği gözlemlenmiştir.
+vii) Kullanılan kaynak yöntemine göre, ısı girdisinin
+değişiklik gösterdiği, ayrıca ısı girdisinin artışına
+bağlı olarak tane irileşmesinin arttığı ve kaynak
+metalindeki tanelerin ısı akış yönünde
+yönlendikleri belirlenmiştir.
+KAYNAKLAR (REFERENCES)
+
+1. Tülbentçi, K., MIG-MAG Gazaltı Kaynak
+Yöntem, Arctech Kaynak Elektrodları Yayını,
+Yayın No: 2, İstanbul, 1998.
+2. Kahraman, N., Gülenç B., ve Akça H., “Ark
+Kaynak Yöntemi ile Birleştirilen Östenitik
+Paslanmaz Çelik ile Düşük Karbonlu Çeliğin
+Mekanik Özelliklerinin İncelenmesi”, G.Ü.
+Mühendislik- Mimarlık Fakültesi Dergisi, Cilt
+17, No 3, 75-85, 2002.
+
+555
+
+Y. Kaya
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+3. Gözütok, E., Kahraman, N., Durgutlu, A., ve
+
+13. Silvaa, C. C., Fariasa, J. P., Mirandaa, H. C.,
+
+Gülenç, B., ‘‘The Influence of Hydrogen
+Addition to the Shielding Argon Gas in TIG
+Welding
+of
+AISI
+304
+Materials’’,
+1.International Conference On Welding
+Technologies, Gazi Universty Ankara/Turkey,
+778-786, 11-13 June 2009.
+Durgutlu, A., Fındık, T., Arabacı, U., ve Gülenç,
+B., ‘‘The Effect of Current Type on Weld Metal
+Microstructure and Hardness Value in Welding
+of Stainless Stell’’, 1.International Conference
+On Welding Technologies, Gazi Universty
+Ankara/Turkey, 591-597, 11-13 June 2009.
+Kahraman, N., Durgutlu, A., ve Gülenç, B.,
+‘‘316L Paslanmaz Çeliğin TIG Kaynağında
+Koruyucu Argon Gazına Hidrojen İlavesinin
+Kaynak Bölgesi Tane Morfolojisine Etkilerinin
+Araştırılması’’,G.Ü., Politeknik Dergisi, Cilt 7,
+No 3, 223-228, 2004.
+Kahraman, N., ve Durgutlu, A., ‘‘316L
+Paslanmaz Çelik ile Bakır Levhaların Örtülü
+Elektrod ve TIG Kaynak Yöntemi ile
+Birleştirilebilirliğinin Araştırılması’’, Teknoloji
+Dergisi, Cilt 8, No 1, 43-50, 2005.
+Keskin, M. S., ‘‘ Investigation Of The
+Weldability Of Austenitik Stainless Steel By
+Laser Welding Method’’, 5. International
+Advanced Technologies Symposium, Karabuk
+Universty, Karabuk/Turkey, 940-942, 13-15 May
+2009.
+Özyürek, D., ‘‘An Effect of Weld Current and
+Weld Atmosphere on the Resistance Spot
+Weldability of 304L Austenitic Stainless Steel’’,
+Materials and Design, 29, 597-603, 2008.
+Gülenç, B., Develi, K., Kahraman, N., ve
+Durgutlu, A., ‘‘Experimental Study of the Effect
+of Hydrogen in Argon as a Shielding Gas in MIG
+Welding of Austenitic Stainless Steel’’,
+International Journal of Hydrogen Energy, 30,
+1475-1481, 2005.
+Tekin, N., Küpeli, G., ve Gülsoy, H. Ö.,
+‘‘Welding of Stainless Steel with Low Carbon
+Stell by Submerged Arc Welding Methot’’, 1.
+International
+Conference
+On
+Welding
+Technologies, Gazi Universty, Ankara/Turkey,
+637-644, 11-13 June 2009.
+Yıldırım, G., ve Kaçar, R., ‘‘TIG Arc Weldability
+of AISI 321 Stainless Stell’’, 1.International
+Conference On Welding Technologies, Gazi
+Universty, Ankara/Turkey, 757-766, 11-13 June
+2009.
+Çetinkaya, C., Yumuşak M. D., ve Fındık, T.,
+‘‘TIG Kaynak Yöntemi ile Birleştirilen Ferritik
+Paslanmaz Çeliklerde Argon ve Helyum
+Gazlarının Kaynak Karateristik Üzerine Etkisinin
+İncelenmesi’’, 1. International Conference On
+Welding
+Technologies,
+Gazi
+Universty,
+Ankara/Turkey, 963-971, 11-13 June 2009.
+
+Guimaraesa, R. F., Menezesb, J. W. A., and
+Netoc,
+M.
+A.
+M.,
+‘‘Microstructural
+Characterization of the HAZ in AISI 444 Ferritic
+Stainless
+Steel
+Welds’’,
+Materials
+Characterization, 59, 528-533, 2008.
+Kölük, F., Östenitik Paslanmaz Çeliklerin
+Kaynağında Kaynak Yönteminin Isı tesiri
+Altında Kalan Bölgeye Etkisinin İncelenmesi,
+Yüksek Lisans Tezi, Gazi Üniversitesi, Fen
+Bilimleri Enstitüsü, Ankara, 2000.
+Türkyılmazoğlu, A., Dubleks, Martenzitik ve
+Ferritik Paslanmaz Çeliklerin Kaynağı,
+Yüksek Lisans Tezi, Sakarya Üniversitesi, Fen
+Bilimleri Enstitüsü, Sakarya, 2006.
+Eryürek İ. B, Gazaltı Kaynağı, EczacıbaşıLincoln Kaynak Tekniği Sanayi ve Ticaret
+A.Ş.,,50-55, İstanbul, 2003.
+Tsay, L. W., Yu, S. C., Chyou, S. D., and Lin, D.
+Y., ‘‘A Comparison of Hydrogen Embrittlement
+Susceptibility of Two Austenitic Stainless Steel
+Welds’’ Corrosion Science, 49, 4028–4039,
+2007.
+Kaluç, E., Ostenitik Krom-Nikelli Paslanmaz
+Çeliklerin Kaynağı, Kaynak Dünyası,,15-21,
+İstanbul, 1990.
+Kanga, B. Y., Yarlagadda, K. D., Prasad, V.,
+Kang, M. J., Kim, H. J., and Kim, I. S., ‘‘The
+Effect of Alternate Supply of Shielding Gases in
+Austenite Stainless Steel GTA Welding’’
+Journal of Materials Processing Technology,
+209, 4722–4727, 2009.
+Moayed, M. H., Davoodi, A., and Ale-Yassin, A.,
+‘‘Galvanic Corrosion in Gas Tungsten Arc
+Welding (GTAW) 304 Austenitic Stainless Steel
+Weldment’’, 1. International Conference On
+Welding
+Technologies,
+Gazi
+Universty,
+Ankara/Turkey, 604-609, 2009.
+Karcı, F., Kaçar, R., ve Gündüz, S., ‘‘The Effect
+of Process Parameter on the Properties of Spot
+Welded Cold Deformed AISI 304 Grade
+Austenitic Stainless Steel’’, Journal of
+Materials Processing Technology, 209, 4011–
+4019, 2009.
+Lakshminarayanan, A K., Shanmugam, K., and
+Balasubramanian, V., ‘‘ Effect of Autogenous
+Arc Welding Processes on Tensile and Impact
+Properties of Ferritic Stainless Steel Joints’’
+Journal Of Iron And Steel Research,
+International, 16(1): 62-68, 16,2009.
+Wang, L., Song, C., Sun, F., Li, L., and Zhai, Q.,
+‘‘Microstructure and Mechanical Properties of 12
+wt.% Cr Ferritic Stainless Steel with Ti and Nb
+Dual Stabilization’’, Materials and Design, 30,
+49–56, 2009.
+Çalıgülü, U., Taşkın, M., Dikbaş, H., ve Gür, A.
+K.,‘‘The Effect on the Joinining of Welding
+Speed on the Laser Welding with 2250 W
+Welding Power of Steels AISI 430-AISI 1010’’,
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+556
+
+14.
+
+15.
+
+16.
+17.
+
+18.
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+24.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+AISI 304 ve AISI 430 Paslanmaz Çeliklerin…
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+1. International Conference On Welding
+Technologies,
+Gazi
+Universty,
+Ankara/Turkey,674-687, 11-13 June 2009.
+Shanmugam, K., Lakshminarayanan, A. K., and
+Balasubramanian, V., ‘‘Effect of Weld Metal
+Properties on Fatigue Crack Growth Behaviour of
+Gas Tungsten Arc Welded AISI 409M Grade
+Ferritic Stainless Steel Joints’’, International
+Journal of Pressure Vessels and Piping, 86,
+517–524, 2009.
+Dikbaş, H., Çalıgülü, U., Gür, A. K., Orhan, A.,
+ve Taşkın, M., ‘‘The Investigation of Bondability
+of AISI 430 Ferritic Stainless Steel with AISI
+1010 Low Carbon Steel Using Copper Interlayer
+with Diffusion Bonding’’, 1. International
+Conference On Welding Technologies, Gazi
+Universty, Ankara/Turkey,743-748, 11-13 June
+2009.
+Durgutlu, A., Kahraman, N., ve Gülenç, B.,
+‘‘Bakır ve Çelik Levhaların Örtülü Elektrod ve
+TIG Kaynak Yöntemleri ile Birleştirilmesi ve
+Arayüzey Özelliklerinin İncelenmesi’’ Gazi
+Üniv. Müh. Mim. Fak. Dergisi, Gazi Univ. Cilt
+20, No 3, 183-189, 2005.
+Kılınçer, S., ve Kahraman, N., ‘‘AISI 409 ve
+Ç1010 Çeliğin Östenitik Elektrod Kullanarak
+MIG Kaynak Yöntemi ile Birleştirilmesi ve
+Mekanik Özelliklerinin Araştırılması’’, Gazi
+Üniv. Müh. Mim. Fak. Dergisi, Cilt 24, No 1,
+23-31, 2009.
+Satyanarayana, V. V., Madhusudhan, R. G., and
+Mohandas, T., ‘‘Dissimilar Metal Friction
+Welding of Austenitic–Ferritic Stainless Steels’’
+Journal of Materials Processing Technology,
+160, 128–137, 2005.
+Kahraman, N., ve Gülenç, B., Modern Kaynak
+Teknolojisi, Epa-Mat Basım Yayın Ltd. Şti,
+Ankara, 2009.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 3, 2010
+
+Y. Kaya
+
+31. Taban,
+
+32.
+
+33.
+34.
+
+35.
+
+36.
+
+37.
+38.
+
+E., Yapısal Uygulamalar İçin
+Gelistirilen Modifiye 12 Cr Ferritik Paslanmaz
+Çeliğinin Özelikleri ve Kaynak Kabiliyeti,
+Doktora Tezi, Kocaeli Üniversitesi, Fen Bilimleri
+Enstitüsü, Kocaeli, 2007.
+Taban, E., Deleu, E., Dhooge, A., Kaluç, E.,
+“Evaluation of Dissimilar Welds Between the
+Ferritic Stainless Steel Modified 12% Cr and the
+Carbon Steel S355” Welding Journal, Vol. 87,
+No 12, P. 291- 297, December 2008.
+Erdoğan, M., Mühendislik Malzemelerinin
+Yapı ve Özellikleri, Nobel Yayın Dağıtım,
+Ankara, Cilt 2, 70-71, 2001.
+Gourd L. M., Principles of Welding
+Technology, Third ed. British Library
+Cataloguing in Publication Data, London, 40-42,
+1995.
+Durgutlu, A., Kahraman, N., ve Gülenç, B., ‘‘AlSi Alaşımının TIG Kaynağında Darbeli Akımın
+Mikroyapı, Sertlik, Eğme ve Çekme Dayanımına
+Etkisi’’, Politeknik Dergisi, Cilt 11, Sayı 4,
+Sayfa 339-334, 2008.
+Eryürek, B., ve Odabaş, C., Çelikler İçin Örtülü
+Elektrot Seçimi, Gazaltı Kaynağı, Paslanmaz
+Çeliklerin Kaynağı", Askaynak Kaynak Tekniği
+Sanayi ve Ticareti A.Ş. Yayını, İstanbul, 109113, 2006.
+Kaluç, E., Ferritik Kromlu Paslanmaz
+Çeliklerin Kaynağı, Gedik Holding Kaynak
+Dünyası, 1989/3, s. 11-14, İstanbul, Kasım 1989.
+Durgutlu, A., “Experimental Investigation of the
+Effect of Hydrogen in Argon as a Shielding Gas
+on TIG Welding of Austenitic Stainless Steel”,
+Materials and Design, 25, 19–23, 2004,
+
+557
+
+

@@ -1,0 +1,693 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 2, 229-235, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 2, 229-235, 2012
+
+İNTERNET ÜZERİNDEN UZAKTAN WEB KAMERA
+KONTROLÜNÜN TASARIMI VE UYGULAMASI
+Nurettin TOPALOĞLU
+Bilgisayar Mühendisliği Bölümü, Teknoloji Fakültesi, Gazi Üniversitesi, Ankara
+nurettin@gazi.edu.tr
+(Geliş/Received: 27.12.2011; Kabul/Accepted: 15.02.2012)
+ÖZET
+Birçok insan, işyerlerindeki makinelerini internet kullanarak uzaktan kontrol etmek ve işyerlerini internet
+üzerinden eşzamanlı izlemek istemektedirler. Bu çalışmada, bilgisayar destekli ve internet üzerinden kablosuz
+olarak adım motor aracılığı ile web kamerasının denetimi ve sistemin kurulu olduğu bölgenin eşzamanlı
+izlenilmesi gerçekleştirilmiştir. Sistem gerektiği zaman başka bir bölgeye kurulabilmektedir. Tasarlanan
+sistemde görüntü aktarma paneli Macromedia Flash 8 kullanılarak, kullanıcı ve yönetici için ayrı ayrı
+tasarlanmıştır. PHP ve HTML ile web arayüzü hazırlanırken kullanıcı paneli internet sayfasının içine
+gömülmüştür. Sunucu bilgisayar Apache Server ve Macromedia Flash Media Server 2 ile yayın yapmaktadır.
+Delphi programlama dili ile yazılan program aracılığı ile internet üzerinden yapılan talebe göre paralel porta
+bilgi gönderilmektedir. Paralel porttaki bilgi önce adım motorunun sürücü devresini tetiklemiş sonra bu sinyal
+RF vericiden RF alıcı devreye aktarılmıştır. RF alıcı devreye gelen ve kodu çözülen bilgi doğrudan adım
+motorunun uçlarına uygulanarak web kamerasının konum değiştirmesi sağlanmıştır. Tasarlanan sistem bir
+sınavın gözetlenmesinde uygulanmış ve başarılı bir izleme gerçekleştirilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Günümüzde, ev ve iş yaşantısını kolaylaştırmak ve
+günlük hayattaki faaliyetleri daha kolay yapabilmek
+
+için teknoloji daha yaygın kullanılmaktadır. Gelişen
+teknolojiye bağlı olarak, internet ve uzaktan kontrol
+sistemleri yeniçağın vazgeçilmez bir unsuru haline
+gelmiştir [1]. İletişim sektöründeki bu hızlı gelişmeye
+
+N. Topaloğlu
+
+İnternet Üzerinden Uzaktan Web Kamera Kontrolünün Tasarımı ve Uygulaması
+
+paralel olarak insanlar bulunduğu mekândan internet
+veya kablosuz sistemler aracılığıyla ev veya işyerini
+izlemek ve kontrol etmek istemektedirler.
+Uzaktan kontrol ve görüntüleme sistemleri aynı
+zamanda robot teknolojilerinde de kullanılmaktadır.
+Bir robot taşıtın üzerine bağlanan mini kamera ile
+uzaktan görüntü sinyalleri, kumanda merkezine
+gönderilmekte buradan kullanıcı yine uzaktan radyo
+sinyalleri ile taşıtı kumanda etmektedir [2]. Carelli R.
+ve arkadaşları küçük bir robotun uzaktan görsel olarak
+kamera ile izlenmesi ve non-lineer olarak kontrolü
+üzerine bir çalışma yapmışlardır [3]. Bu tür
+sistemlerde uzaktan kumandalı bir araç üzerinde
+bulunan kamera yardımıyla bilgisayar başındaki
+kullanıcı kumanda ettiği aracın hangi yöne gittiğini
+rahatlıkla görebilmesi sağlanabilir [4]. Aynı zamanda
+bu tür otomasyon ve kontrol sistemlerinin
+vazgeçilmez bir parçası olan kameraların tam bir
+güvenlik işlemi için her eksende hareketlilik kabiliyeti
+olmalıdır [5]. Bilgisayar Kontrollü Kameralı Robot
+Kol üzerindeki kamera sayesinde bulunduğu
+ortamdan
+kontrol
+edildiği
+ortama
+görüntü
+aktarabilmektedir. Bu aktarım sayesinde kullanıcı
+kolun bulunduğu ortamı görebilmekte ve bulunduğu
+ortamdaki bilgisayar üzerinden kola istediği
+hareketleri yaptırabilmektedir [6].
+
+bilgisayara bağlı bir web kamerasından aldığı
+görüntüyü internet üzerinden başka bir bilgisayara ve
+GPRS yoluyla bir cep telefonuna aktarımının
+sağlanmasına yardımcı olmaktadır [11, 12].
+Bu çalışmada, bilgisayar destekli ve internet
+üzerinden kablosuz olarak step motor aracılığı ile web
+kamerasının denetimi ve sistemin kurulu olduğu
+bölgenin internet üzerinden eşzamanlı izlenilmesi
+gerçekleştirilmiştir. Burada hedef alınan bölge, eğitim
+kurumlarında gerçekleştirilen sınavların kamera ile
+gözetlenmesi ve izlenmesidir. Sınavların güvenli ve
+uygun şekilde yapılabilmesi için gözetmen yerine
+geçebilecek ve istenildiğinde hem gözetmen hemde
+kamera aynı anda kullanılabilecektir. Ortam kaydı
+gerçekleştirildiğinden
+dolayı,
+ileride
+öğrenci
+tarafından sınavlara yönelik yapılabilecek itirazlara da
+bir cevap niteliği taşıyacaktır. Sistem modüler yapısı
+sebebiyle istenildiğinde başka bir sınıfa veya
+laboratuvara taşınabilmektedir.
+Tasarlanan bu sistemi diğerlerinden ayıran en önemli
+unsurlar; maliyetinin ucuz olması ve kişisel
+bilgisayarların sunucu bilgisayar olarak kullanılması
+sebebiyle sistem yönetiminin daha kolay olmasıdır.
+2. MATERYAL VE METOT
+
+(MATERIAL AND
+
+METHOD)
+
+Uzaktan eğitimin her geçen gün daha da önem
+kazandığı günümüzde eğitim ve öğretimin
+vazgeçilmez unsurları olan laboratuarlarında uzaktan
+erişebilir olması ve öğrencilerin laboratuar
+imkânlarına sadece derslerde ve uygulama saatlerinde
+değil her zaman ve her yerden erişebilmeleri önemli
+bir aşama olacaktır [7, 8]. Uzaktan eğitimde en
+önemli şartlardan biriside kameranın güvenli bir
+şekilde kontrolünün sağlanmasıdır. Uzaktan eğitimde
+deneyin güvenle yapılabilmesi ve bilgisayar başındaki
+deney operatörünün standı izlemesi için kameradan
+yararlanılmıştır. Operatör tehlikeli bir durumda
+deneyi bilgisayardan durdurabilmektedir [9]. İstemci
+arayüz yazılımı ile uzaktaki bir deney ortamına
+bağlantı kurularak yapılan deneylerin gerçek zamanlı
+olarak gözlemlenebilmesi mümkündür. Sistem
+görüntü ile beraber ses de aktarabildiği için
+fakültelerde derslerin internet üzerinden canlı
+izlenilmesinde veya sınav sırasında öğrencilerin
+internet üzerinden izlenilmesinde kullanılabilir [10].
+Bu sistemlere kontrol sistemleri de eklenerek internet
+üzerinden görüntülü ameliyat gerçekleştirme gibi
+çeşitli ileri düzey amaçlar için kullanışlı hale
+getirilmektedir.
+Dünyanın birçok yerinde web üzerinden güvenlik ve
+izleme sistemlerinin yaygın bir şekilde kullanıldığı
+görülmektedir. Bunlardan en yaygın olanı,
+www.earthcam.com gibi siteler JAVA uygulamaları
+kullanarak çeşitli yerlere yerleştirdikleri kameralarla
+dünyanın belli merkezlerinden görüntü yayını
+yapmaktadır. Bu tür JAVA uygulamaları, çalıştığı
+
+230
+
+2.1. Multimedyanın Ağ Üzerinden İletimi ve
+Protokoller (Transmission of the Multimedia on the
+Network and Protocols)
+
+Multimedya verilerin ağ üzerinden aktarımı yüksek
+yoğunluklu ve kesintisiz paket akışı gerektirdiğinden
+veri akışını sağlayan protokollerin paket kayıplarını
+en aza indirebilme ya da kaybolan paketleri çok çabuk
+bir şekilde tamamlayabilme, multicast vb. yayın
+türlerini destekleyebilme gibi özelliklere sahip olması
+gerekmektedir.
+İnternet’in popüler protokolü TCP/IP, klasik anlamda
+veri aktarımı için tasarlanmıştır. Bu protokol düşük
+bant genişliğinde çalışır ve veri transferini
+geribildirimle sürekli kontrol ettiğinden paketleri
+multimedya veri transferinin gereksindiği ölçüde hızlı
+ve ardışık olarak göndermeye uygun değildir. Bunun
+yanında TCP protokolünün multicast desteği yeterli
+ölçüde verimli değildir. Bundan ötürü multimedya
+dosyalarının ağ üzerinden aktarımı genellikle UDP
+(User Datagram Protokol) ile yapılır. UDP,
+multimedya veriyi datagram adı verilen küçük
+paketler halinde ardışık ve seri halde gönderir.
+Multimedya verilerin UDP ile transferi basit ama hızlı
+ve verimli bir iletişim şekli olmakla birlikte paket
+kayıpları mümkündür. Paketlerin gönderildikleri sıra
+ile istemciye ulaşma garantisi yoksa da bu kayıplar
+eksik paketlerin istemci tarafından tekrar istenmesi
+gibi hata kontrol ve telafi mekanizmaları ile en aza
+indirgenebilmektedir [11,13-15].
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+İnternet Üzerinden Uzaktan Web Kamera Kontrolünün Tasarımı ve Uygulaması
+
+Web sunucusundan multimedya verilerin aktarılması
+web tarayıcısının sunucudan istekte bulunması ile
+başlar. Sunucu, bunun karşılığında video ya da ses
+dosyasının kendisi yerine istenen multimedya
+dosyasını tanımlayan bir meta dosyası gönderir. Bu
+dosya çalıştırılacak olan video ya da ses dosyasının
+tam adresini içerir. Bir sonraki adımda tarayıcı medya
+oynatıcıyı aktive eder ve meta dosyasını medya
+oynatıcıya aktarır.
+Ağ üzerinden multimedya verilerin aktarılması için
+tasarlanmış en temel protokoller RTP (Real-time
+Transport Protocol), RTSP (Real Time Streaming
+Protocol) ve RTCP (Real Time Control Protocol)
+protokolleridir. Bu protokoller, UDP tabanlı
+protokollerdir [10].
+RTP protokolü gerçek zamanlı veri paketlerinin
+aktarılmasını sağlar, paketlerin transferi sırasında hata
+kontrolü ve hataların düzeltilmesi ile ilgilenmez. RTP,
+multicast protokolü olarak tasarlanmış olmakla
+birlikte unicast uygulamaları da destekler; video
+konferans, bas konuş ve ip-telefon sistemlerinde
+kullanılmaktadır [10].
+RTCP protokolü, multimedya veri transferi sırasında
+RTP protokolü ile birlikte çalışır. RTCP bir nevi
+kontrol protokolü görevi görür. Veri akışı sırasında
+RTP'ye eşlik etmesine rağmen hiçbir veri paketi
+taşımaz. RTCP ile gönderilen paketler, gönderim
+hataları hakkında bilgi toplar ve istemci ile sunucu
+arasındaki bağlantının verimliliği konusunda geri
+besleme sağlar. Byte cinsinden gönderilen paket
+boyutu, kaybolan paketler, paketler arasındaki
+gecikmeler ve genel aktarım sırasındaki gecikmeler
+hakkında istatistikî bilgiler toplar. Çeşitli yazılımlar
+vasıtası ile de bu bilgiler işlenip sunucudan verilen
+servisin verimliliği, kalitesi, ağ yapısının yeterliliği
+gibi konularda bilgi edinilebilir [10].
+Medya oynatıcı sunucu ile ilk bağlantısını TCP
+protokolü ile yapar ve sunucuya HTTP isteği
+gönderir. HTTP, multimedya veri transferi sırasında
+istemcinin kullanmak isteyeceği, "oynat" (play)
+dışında "duraksat" (pause), "ileri" (forward) ya da
+"geri" (backward) gibi komutları uygulamak için
+tasarlanmadığından medya oynatıcı bu komutları
+yerine getirebilmek için RTSP protokolünü kullanır.
+RTSP, istemcinin uzaktaki medya sunucusunu kontrol
+edebilmesi için tasarlanmış ve RTP kullanan bir
+protokoldür [10, 12]. Medya oynatıcı sunucudan
+aldığı video adres bilgilerini URL üzerinden “rtsp://”
+komutuna yerleştirir ve sunucu ile istemci arasında
+RTP üzerinden bir kanal oluşturularak medya
+sunucusundaki video dosyasının aktarımı başlar.
+İstemcinin “oynat” komutu ile video sunucudan
+istemciye doğru akmaya başlar. “Duraklat” komutu ile
+medya akışı geçici olarak durdurulur fakat bağlantı
+koparılmaz. “Bağlantıyı Kopar” komutu ile istemci ile
+sunucu arasındaki oturum sonlandırılır.“Sola Dön” ve
+“Sağa Dön” komutu ile bu istek önce sunucu
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+N. Topaloğlu
+
+bilgisayara iletilir, buradan paralel porta bağlı adım
+motor sürücü devre tetiklenir ve sinyal RF verici
+modül ile RF alıcı modüle iletilerek web kamera
+istenen yöne döndürülür
+2.2. Radyo Frekans Transmisyonu (Radio Frequency
+Transmission)
+
+Sistemde bilgi aktarımı için 433 MHz hazır Radyo
+Frekans (RF) bir alıcı ve verici modül kullanılmıştır.
+Data iletmek RF sinyallerinin diğer gürültü sinyalleri
+ile karışmaması için kodlanması gerekir. RF verici
+modülü 433 MHz ile serbest salınırken girişine gelen
+kodlanmış veriyi modüle eder ve anteninden uzaya
+yayımlar [15]. Bu modülasyon işlemini genlik,
+frekans vb. gibi modülasyon türlerinden biri ile yapar.
+İstenilen bilgiyi taşıyıcı frekansı ile modüle etmeden
+önce kodlamak gerekir. Şekil 1’de görüldüğü gibi
+kodlanmış bilgiler RF modülüne verilir ve taşıyıcı ile
+modüle edilmiş kodlanmış bilgiler uzaya salınır.
+Kodlama işlemi sistemde çok önemlidir. Kodlama
+işlemi verici ile alıcıyı senkronize etmek, aynı
+frekansta yayın yapan birçok vericiyi adreslemek,
+ilgili adresteki gerekli veriyi almak gibi faydalar
+sağlar. Alıcıya ulaşan bilgiler tekrar RF modülü ile
+demodüle edilir, taşıyıcı süzülür ve saf kare dalga
+şeklinde gönderilen bilgiler çıkıştan alınır [15,16].
+
+Şekil 1. Bilgi aktaran RF kodlayıcı ve kod çözücünün
+blok diyagramı (RF coding that transmits the information and
+block diagram of the decoder)
+
+3. SİSTEMİN TASARIMI VE UYGULAMASI
+(DESIGN OF THE SYSTEM AND APPLICATION)
+
+Şekil 2’deki blok şemada görüldügü gibi, sistemde
+sunucu bilgisayar, kullancılar için web arayüzü, RF
+verici ve alıcı modül, step motorlu devre ve bu
+devrenin üzerine monte edilmiş bir kamera
+bulunmaktadır.
+Kullanıcılar
+kısmında;
+web
+sayfasından
+kullanıcıların
+yayını
+uzaktan
+izleyebilmesi,
+kameranın
+pozisyonunu
+değiştirebilmesi için uygun bir web arayüzü
+hazırlanmıştır.
+Internet
+
+User
+RF TX
+MODÜL
+Server
+
+Adım motor
+Sürücü
+
+RF RX
+MODÜL
+Adım motor
+Sürücü
+
+User
+
+Şekil 2. Gerçekleştirilen sistemin blok şeması
+
+(Block
+
+scheme of the performed system)
+
+231
+
+N. Topaloğlu
+
+İnternet Üzerinden Uzaktan Web Kamera Kontrolünün Tasarımı ve Uygulaması
+
+Sunucu kısmında; tüm sistem için gerekli yazılımlar
+ve programlar bulunmaktadır. Sistemin yayın
+yapabilmesi için Apache Server ve Flash Media
+Server Kurulu olmak zorundadır. Görüntünün
+aktarımı için yönetici ve kullanıcı panellerinin
+hazırlanması Flash 8’de Action Script dili ile
+yazılmıştır. Web arayüzü Dreamweaver 8 programı
+üzerinden PHP ve HTML kodları ile hazırlanmıştır.
+MySQL ile veri tabanında tutulan kullanıcı bilgileri
+sisteme giriş için kullanılmaktadır. Paralel port
+kontrolü için Delphi görsel programlama dili ile
+yazılmış program ve bu programın kullandığı “io.dll”
+dosyası hazırlanmıştır.
+Adım motorunun sürücü devresi kısmında, kameranın
+pozisyonunu değiştirmek için kullanılan devre
+bulunmaktadır. RF verici ve alıcı modül kısmında 433
+MHz hazır RF verici ve alıcı kullanılmıştır. Kamera
+kısmında herhangi bir kamera kullanılabilir.
+3.1. Yönetici Paneli (Administrator Panel)
+Yayını başlatmak için Şekil 3’de görülen Flah 8’de
+Action Script kodları ile oluşturulmuş bir panel
+bulunmaktadır.
+
+Şekil 3. Yönetici paneli ile ses ve görüntü aktarmı
+(Transmission of the audio and image by the administration panel)
+
+Şekil 3. de 1 numara ile gösterilen kısımdan
+Modem/DSL/LAN/Custom
+seçenekleri
+ile
+kullanılacak bantgenişliği buna paralel olarak görüntü
+kalitesi belirlenmektedir. 2 numaralı kısımda yayın
+durumunu göstermektedir. 3 numaralı kısımda ses ve
+görüntü gönderme bölümü bulunmaktadır.
+Yönetici panelindeki görüntü ekranının üzerine imleç
+ile gelindiğinde şekildeki simgeler çıkmaktadır. Şekil
+4’de 1 numara ile gösterilen kısımdan canlı yayın
+sonlandırılmaktadır. 2 numaralı kısımdan görüntü
+aktarımı durdurulurken oturum kapatılmaz. 3 nolu
+bölümden ses aktarımı durdurulurken 4 nolu bölümde
+ise aktarılan sesin seviyesi gözükmektedir.
+
+Şekil 4. Yönetici panelinde ses ve görüntü aktarımını
+durdurma (Pause of audio and image transmission in the
+administrator panel)
+
+3.2. Kullanıcı Paneli (User Panel)
+Şekil 5’de görüldügü gibi, kullanıcı paneli web
+sayfası içine gömülmüştür. Kullanıcılar internet
+üzerinden
+sadece
+kamerann
+pozisyonunu
+değiştirebilirken görüntü kalitesi ve bant genişliği gibi
+ayarlara müdahale edemezler.
+
+Şekil 5. Web sayfasındaki kullanıcı panelinin
+görüntüsü (Display of the user panel on the web page)
+3.3. Donanım Yapısı (Hardware Structure)
+Şekil 6’da Paralel port ile Adım Motor Sürücü devresi
+ve RF verici modül bağlantı devresi görülmektedir.
+Bu devre için dört adet BD–139 çok amaçlı transistor
+kullanılmıştır. Çünkü adım motorunun 4 tane
+kutbundan bilgi verilmektedir. Delphi görsel
+programlama dili yardımı ile paralel portun D0-D4
+uçlarına sinyal gönderilir. D0 ucuna gönderilen sinyal
+470Ω’luk sınırlama direnç üzerinden Q4 transistörünü
+tetikler. Q4 transistörü iletime geçtiğinde RF verici
+modülün Giriş Ucu 1 aktif olur ve sinyal verici
+tarafından kodlanarak atmosfere salınır.
+Sırası ile paralel portun diğer data uçlarına da bilgi
+gönderilerek ilgili transistörler tetiklenir ve sinyaller
+verici tarafından kodlanıp atmosfere salınır. Burada
+
+232
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+İnternet Üzerinden Uzaktan Web Kamera Kontrolünün Tasarımı ve Uygulaması
+
+adım motoru sürecek sinyal RF olarak RF alıcı
+modüle gönderilmiştir.
+
+Şekil 6. Paralel port, adım motor sürücü, RF verici
+modül bağlantı devresi (Parallel port, stepping motor driver,
+
+N. Topaloğlu
+
+kullanıcılı bir işletim sistemi olan Windows 7
+üzerinde çalışması beraberinde portlara erişim
+zorlukları getirmektedir. Bunun gibi kısıtlamalardan
+kurtulmak ve sistemde portlara müdahale edebilmek
+için sistem klasörüne eklenen bir “io.dll” dosyası ve
+bunu kullanan bir program yazılmıştır. İnternet
+sayfasından kullanıcı sağa dönme ve sola dönme
+butonuna bastığında PHP sunucu, bilgisayardaki sağa
+ve sola döndüren “exe” dosyasını çalıştırır ve gerekli
+bilgiyi porta iletilir.
+Şekil 8’deki akış diyagramından da görüldügü gibi,
+öncelikle bu “io.dll” dosyasının varlığı kontrol
+edilmekte, sistemde bulunmuyorsa hata uyarısı
+verilmekte ve daha sonra portlara bilgi aktarımına
+geçilmektedir. Adım motorunu çalıştırmak için
+portlara
+bilgiler
+Hexadesimal
+olarak
+gönderilmektedir.
+
+RF transmitter module connection circuit)
+
+Şekil 7’de RF alıcı modül ve adım motorlu devre
+görülmektedir. RF verici modül tarafından kodlanıp
+havaya salınan sinyaller RF alıcı modüle ulaşır. RF
+alıcı modül, RF verici modülün kodladığı bu
+sinyalleri çözer ve bu bilgilere göre adım motor
+dönme hareketini gerçekleştirir. Devredeki ledler,
+sistemin gerçekleştirme aşamalarında RF vericiden
+RF alıcıya bilgi geldiğinden emin olmak için
+konulmuştur.
+
+Şekil 8. Bilginin paralel porta gönderilmesi işleminin
+akış şeması (Block scheme of the process for the transmission of
+the information to the parallel port)
+
+3.3.2. Web sayfası üzerindeki kameranın pozisyon
+kontrolü (Supervision of the position control of the camera on
+the web page)
+
+Şekil 7. RF alıcı modül ve adım motor bağlantı
+devresi (RF receiver modules and stepping motor connection
+circuit)
+
+Adım motorlar normal DC motorlar gibi enerji
+verdikçe çalışmamaktadır. Dört adet kutbu
+bulunmakta ve sıra ile enerji verdikçe bir yöne aynı
+sırayı tersten verince de diğer yöne dönmektedir.
+Burada çok dikkat edilmesi gereken nokta bu sıranın
+iyi belirlenmesidir.
+3.3.1. Bilginin paralel porta iletilmesi (Transmission of
+the data to the parallel port)
+
+Adım motorunu internet üzerinden sürebilmek için
+paralel pottan bilgi gönderilmektedir. Sistemin çok
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+Adım motoru devresi ile Wireless veya RF kamerası
+açı
+kavramı
+olmadan
+internet
+üzerinden
+çevrilebilmektedir. Şekil 5’de görüldüğü gibi,
+kullanıcılar istedikleri konuma getirmek için web
+sayfasında yayın yapılan bölümün alt kısmında sağ ve
+sol
+butonları
+kullanmaktadırlar.
+Kullanıcının
+döndürme işlemi için Wireless veya RF kamera
+kullanıldığı için belirli bir açı alanı yoktur.
+Kamera kontrolü yapan her kullanıcı için MySQL ile
+kullanıcı bilgilerinin bulunduğu bir veritabanı
+oluşturulmuştur. Kullanıcı şifreleri bu veri tabanına
+aktarılırken md5 ile şifrelenerek aktarılmaktadır.
+Böylece veri tabanının istenmeyen bir kişinin eline
+geçmesi halinde şifreleri çözmesi engellenmiş ve
+sistem korunmuştur. Web sitesinden kullanıcılar
+sisteme girişte kullanıcı adı ve şifre ile giriş yapmakta
+eğer üyelik yoksa üyelik yaptıktan sonra sisteme
+girebilmektedirler.
+
+233
+
+N. Topaloğlu
+
+İnternet Üzerinden Uzaktan Web Kamera Kontrolünün Tasarımı ve Uygulaması
+
+3.3.3. Alarm sistemi (Alarm system)
+Sistem harekete duyarlı çalışmaktadır. Alarm sistemi
+aktif/pasif hale getirme işlemleri yapılmaktadır.
+Kameranın önünde oluşan hareketlenme ile
+bilgisayarın alarm sistemi devreye girmekte siren
+sesleri çalmaya başlamaktadır. Ayrıca bilgisayarda
+açılan web sayfasında alarmın devreye girdiğini
+belirten bir uyarı penceresi çıkmaktadır.
+Alarm sisteminin harekete duyarlı çalışması için
+herhangi bir sensör kullanılmamıştır. Görüntüdeki
+hareket hızı % 30’ u geçiyorsa ve sistem devrede ise
+alarm devreye girmektedir.
+4. SİSTEMİN UYGULANMASI
+
+eşzamanlı izleyebileceklerdir. İlk önce sistem yerel
+ağda bir terminal bilgisayar server hizmeti verecek
+şekilde hazırlanarak yayına açılmış ve daha sonra
+statik bir IP numarası ile sistemin kurulu olduğu
+makina server hizmeti verecek şekilde ayarlanarak
+internetten kamera denetimi yapılmıştır.
+Bu sistem, bir sınavda sınav denetimi amacıyla
+kullanılmış ve öğrencilerin davranışları kamera
+sayesinde başarılı bir şekilde denetlenmiştir. Bu
+uygulama baz alınarak öğrenciler istedikleri takdirde
+okul dışından derslerini internet üzerinden takip
+edebileceklerdir. Öğrenci velileri kendilerine verilen
+şifrelerle internet üzerinden çocuklarının derslerini
+izleyebileceklerdir.
+
+(APPLICATION OF
+
+SYSTEM)
+
+İnternet üzerinden uzaktan kamera kontrol sisteminin
+temel amacı, eğitim kurumlarında gerçekleştirlen
+sıvların güvenli bir ortamda yapılması ve sınav
+süresince ortamın izlenmesidir. Sistem deneme amaçlı
+olarak sınav yapılan bir ortamda denenmiş ve başarılı
+olmuştur. Şekil 9’da sınav sırasında elde edilen
+kayıtlardan bir anı göstermektedir. Bu uygulamada,
+sınav yapılan derslikte uygun yere yerleştirilen bir
+adet kameranın internet üzerinden, öğretim
+elemanının odasından takibi yapılmıştır. Sınav
+sırasında gözetmen kullanılmamış ve ortam sınav
+öğretmeninin odasından izlenmiştir. Bazı zamanlarda
+ise ortam canlı olarak anında gözlenmemiş, daha
+sonra kayıtlar incelenerek sınav sırasındaki öğrenci
+davranışları ve sınıf ortamı incelenmiştir.
+
+Ayrıca bu sistem kreşlere kurularak ebeveynler,
+bakıcıların çocuklarına nasıl davrandığını izleyebilir
+ve
+gönül
+rahatlığı
+ile
+çocuklarını
+kreşe
+bırakabilecekler.
+Piyasada güvenlik amaçlı kullanılan sistemlere
+nazaran oldukça ucuz olan bu sistemin en büyük
+avantajı, siteyi yayınlamak için ayrıca bir alan
+alınmasına gerek yoktur. Kullanılan web kamerasında
+yeterli çözünürlük olmadığında kontrol iletişimi iyi
+durumdadır, fakat kamera çözünürlüğü arttırıldığında
+ise görüntünün eş zamanlı olarak aktarılmasında biraz
+gecikmeler olmaktadır. Bu da özellikleri iyi olan bir
+makinenin server olarak kullanılması ve yüksek bant
+genişliğine sahip bir bağlantının tercih edilmesi ile
+giderilebilir.
+KAYNAKLAR (REFERENCES)
+1.
+2.
+
+3.
+4.
+Şekil 9. Uygulama sırasında elde edilen bir kayıt
+görüntüsü (A recording image obtained during the application)
+Sınav ortamının izlenmesi uygulamasında gözetmene
+ihtiyaç duymadan sınav bir kamera ile uzaktan
+gözetlenmiş ve sınavın sessiz bir ortamda ve güvenli
+geçmesi sağlanmıştır.
+5. SONUÇ VE DEĞERLENDİRME
+
+(RESULT AND
+
+EVALUATION)
+
+Gerçekleştirilen bu sistem sayesinde insanlar
+işyerlerindeki birçok makineyi internet üzerinden
+kontrol edebilecek ve işyerlerini internet üzerinden
+
+234
+
+5.
+
+6.
+
+İnal, K., Akcayol, M.A, “GSM Tabanlı Akıllı Ev
+Uygulaması”, Bilişim Teknolojileri Dergisi,
+2(2), 37- 43, 2009, Ankara.
+Çayıroğlu, İ., ve Şimşir, M., “PIC ve Step
+Motorla Sürülen Bir Mobil Robotun Uzaktan
+Kamera Sistemi ile Kontrolü”, Erciyes
+Üniversitesi Fen Bilimleri Enstitüsü Dergisi,
+24(1-2), 1-16, 2008, Kayseri.
+Carelli R., at all, “Robotics and Autonomous
+Systems”, 54, 805-807, 2008.
+Çavuşoğlu İ., Kırmızı F., “Seri Port İle
+Haberleşebilen Uzaktan Kumandalı Kameralı
+Araç”,
+http://www.emo.org.tr/ekler/51c69da77c98612_e
+k.pdf, 2010.
+Öner, Y., Gürdal, O., Çetin, E., ve Çetin, M.,
+“Küresel Motor Tabanlı Güvenlik Otomasyonu”,
+Endüstri&Otomasyon Dergisi, 122, 16-19,
+2007.
+Taşkaya, H. O., Özgür, D., Özyılmaz, L., “
+Bilgisayar Kontrollü Kameralı Robot Kolu
+Tasarımı”
+Elektrik-Elektronik-Bilgisayar
+Mühendisliği Sempozyumu ve Fuarı, 06-10
+Aralık 2006
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+İnternet Üzerinden Uzaktan Web Kamera Kontrolünün Tasarımı ve Uygulaması
+
+7.
+
+Arslan, M., Atabaş, İ., Erişen, A., Uzun İ.,
+“Uzaktan
+Erişimli
+Kontrol
+Laboratuarı
+Uygulamaları”,
+II.
+Elektrik
+Elektronik
+Bilgisayar
+Mühendislikleri
+Eğitimi
+Sempozyumu
+Bildirileri,
+http://www.emo.org.tr/ekler/a974f5eba194869_e
+k.doc, 2008.
+8. Bayılmış, C., Çakıroğlu, M., Öztürk, S.Ş.,
+Çankaya, İ., “Development of Web Based
+Remote Monitoring System For Wireless Sensor
+Networks Using MatLab Web Server”, Journal
+of The Faculty of Engineering and
+Architecture of Gazi University, 25(2), 371379, 2010.
+9. Bayır, R., ve Elen, A., “Bilgisayar Destekli
+Otomotiv Test Standının İnternet üzerinden
+Uzaktan Eğitim Amaçlı Kullanımı İçin Kullanıcı
+Arayüzlü Yazılım Tasarımı”, 5. Uluslar arası
+İleri Teknolojiler Sempozyumu, 2007-2012,
+2009.
+10. Gezer, A., ve Koçer, S., “Uzaktan Eğitimde Sesli
+ve Görüntülü Yayınların İnternet Üzerinden
+Aktarılması”, Bilişim Teknolojileri Dergisi, 2
+(1), 2008, Ankara.
+11. Görgünoğlu, S., ve Gök, M., “Görüntü
+Yakalama Aygıtlarından Alınan Görüntülerin
+GPRS Teknolojisi ile Taşınabilir Cihazlara
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 2, 2012
+
+N. Topaloğlu
+
+Aktarılması”, 5. Uluslararası İleri Teknolojiler
+Sempozyumu (IATS’09), 13-15(1), 266-271,
+2009, Karabük.
+12. Bistak, P., Beranek, M., “Java Client Server
+Applications For Remote Laboratory Based on
+MatLab and Com.” 7th International
+Conferance Virtual University VU06, 135-139,
+2006, Slovakia.
+13. Erkan, N., Becerikli, Y., Aksakallı, C., "İnternet
+Protokolü Üzerinden Ses İletimi Ve Bir Yazılım
+Uygulaması Gerçeklenmesi", 12. Elektrik
+Elektronik
+Bilgisayar
+Biyomedikal
+Mühendisliği Ulusal Kongresi ve Fuarı, 14-18,
+2007.
+14. Gunes, İ., and Akinlar, C., “UTCP: Unordered
+Transmission Control Protocol (TCP) for High
+Throughput Bulk Data Transfer”, Scientific
+Research and Essays, 6(15), 3309-3316, 2011.
+15. Olçum, K., Acartürk, C., “Web Tabanlı Yayınlar
+ve ODTÜ-TV Uygulaması”, Akademik Bilişim,
+9-11 Şubat 2006, Denizli.
+16. Teke, A., Ozbarut, A., Tan, A., Tumay, M., “RF
+Haberlesme Tabanlı Su Deposu Otomasyon
+Sistemi”,
+http://www.emo.org.tr/ekler/66e75bd4b24cb21_e
+k.pdf
+
+235
+
+

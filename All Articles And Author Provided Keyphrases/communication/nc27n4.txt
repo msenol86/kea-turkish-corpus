@@ -1,0 +1,1133 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 4, 891-899, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 4, 891-899, 2012
+
+KABLOSUZ ÖRGÜ AĞLAR İÇİN ÖLÇEKLENEBİLİR
+YÖNLENDİRME PROTOKOLÜ
+Ramazan KOCAOĞLU*, M. Ali AKCAYOL**
+* Bilgisayar Bilimleri Anabilim Dalı, Bilişim Enstitüsü, Gazi Üniversitesi, Beşevler, Ankara
+* Bilgisayar Mühendisliği Bölümü, Mühendislik Fakültesi, Gazi Üniversitesi, Maltepe, Ankara
+ramazankocaoglu@gazi.edu.tr, akcayol@gazi.edu.tr
+(Geliş/Received: 29.02.2012; Kabul/Accepted: 05.09.2012)
+ÖZET
+Bu çalışmada, kablosuz örgü ağlarda yönlendirme protokolleri ağın ölçeklenebilirliği açısından ele alınmış ve
+kablosuz örgü ağlar için ölçeklenebilir bir yönlendirme protokolü geliştirilmiştir. Geliştirilen protokol Ad-hoc on
+Demand Scalable Routing Protocol (ADSRP) rota bulmaya gerek duyulduğu anda devreye girmektedir.
+Protokol, ağın ölçeklenebilirliğinden dolayı oluşacak paket kayıplarını engellemektedir. Ayrıca, diğerlerinden
+daha az yönlendirme yüküne ihtiyaç duymaktadır. Sezgisel rota kullanarak gereksiz rota istek paketlerine ihtiyaç
+duymamaktadır. ADSRP, ns-2 benzetim aracı kullanılarak test edilmiştir ve deneysel sonuçlar yaygın olarak
+kullanılan Ad-hoc On Demand Distance Vector (AODV) ve Ad-hoc On Demand Multipath Distance Vector
+(AOMDV) protokolleri ile karşılaştırılmıştır. Elde edilen deneysel sonuçlar geliştirilen protokolün kablosuz örgü
+ağlarda başarılı olduğunu göstermiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Normal kablosuz ağlar ile karşılaştırıldığında
+kablosuz örgü ağlar; kendi kendine alt yapısını
+oluşturabilme, kendi kendini ayarlayabilme, yüksek
+derecede ölçeklenebilirlik, düşük maliyet, kolay
+onarım gibi avantajlar sağlar. Sağladığı bu avantajlar
+örgü ağların gelecek nesil kablosuz ağlar içerisinde
+önemli bir rol oynamasına imkan tanır [1]. Kablosuz
+örgü ağlar birbirleri ile iletişime geçebilen, kendisi
+dışındaki düğümlerinde paketlerini iletebilen kablosuz
+
+düğümler kümesidir. Hareketli kablosuz öz organizeli
+ağlarda (HÖOA) olduğu gibi bir düğüm hem istemci
+hem de yönlendirici olabilir [2]. Kablosuz örgü ağlar
+içerisinde bulunan hareketli düğümler arasında
+aslında bir öz organizeli ağ kurulur. Yani, öz
+organizeli ağlar kablosuz örgü ağların sadece bir
+kısmını oluşturur.
+Kablosuz ağlar konutlarda, ofislerde, üniversitelerde,
+endüstriyel ve ticari kuruluşlarda kendine kullanım
+alanı bulmasıyla beraber birçok kablosuz teknolojiden
+
+R. Kocaoğlu ve M. A. Akcayol
+
+faydalanma imkanı doğmuştur. Bu imkanlar kablosuz
+örgü ağların gelişmesinde önemli bir rol oynamıştır
+[3]. Bir kablosuz örgü ağ uygulaması için gerekli olan
+tüm bileşenler öz organizeli ağlar için geliştirilen
+yönlendirme protokollerinde bulunmaktadır [4].
+Kablosuz örgü ağlar üzerinde barındırdığı bu
+yeteneklerden dolayı gelecek nesil kablosuz ağ
+teknolojileri için ortak bir kablosuz alt yapı
+oluşturabilir. Bu sayede tüm farklı ağ uygulamaları ve
+teknolojileri kablosuz örgü ağlar vasıtasıyla
+birbirlerine bağlanabilir ve iletişime geçirilebilir.
+Kablosuz örgü ağlar kendisinden beklenen
+yeterlilikleri sahip olduğu çoklu kanal ve çoklu anten
+kullanarak sağlar. Bu durum fazladan yedek bağlantı
+imkanı sunmasına rağmen ağ yapısını mimari açıdan
+karışık bir hale sokar [4]. Bu karışık yapıda
+ölçeklenebilirlik, güvenilirlik, sağlamlık ve veri
+güvenliğini sağlayarak en iyi performansı elde etmek
+oldukça zordur. Kablosuz örgü ağların daha etkin
+kullanılabilmesi için performansa olumsuz yönde etki
+eden bu etmenlerin en aza indirilmesi gerekmektedir.
+Bu
+çalışmada
+kablosuz
+örgü
+ağlardaki
+ölçeklenebilirlikten dolayı meydana gelebilecek paket
+kayıpları, gecikme gibi ağın toplam performansına
+olumsuz yönde etki eden durumları en aza
+indirebilecek yeni bir yönlendirme protokolü
+geliştirilmiştir. Geliştirilen bu yönlendirme protokolü,
+kablosuz örgü ağların daha etkin bir şekilde
+kullanılabilmesine olanak tanımaktadır. Kablosuz
+örgü ağların yapısı dikkate alınarak, sadece bu ağ
+yapısına özgü bir protokol olması açısından diğer
+protokollerden farklılaşmaktadır.
+2. İLGİLİ ÇALIŞMALAR (RELATED WORKS)
+KÖA ve HÖOA için gerçekleştirilmiş birçok
+yönlendirme protokolü ve yönlendirme metriği
+bulunmaktadır [5]. Jun ve Sichitiu 2008 yılında
+yaptıkları çalışmada kablosuz örgü ağlar için bir
+yönlendirme protokolü geliştirmişlerdir. Ağ ile ilgili
+olan ölçütleri hesaplamak için yeni bir metot ya da
+metrik sunmamışlardır. Yazarların sunduğu protokol
+olan MRP, yeni bir bağlantı durum tespiti yapan
+protokoldür. MRP protokolünün isteği bağlı MRP,
+işaret gönderimine dayalı MRP ve melez MRP olmak
+üzere üç farklı türevini geliştirmişlerdir [2]. Bizim
+yaklaşımımız yeni bir metot ya da metrik sunmaması
+açısından MRP ve türevlerine benzerdir. Fakat gerekli
+olan rotaların tespit edilmesi için kullandığımız
+yaklaşım MRP ve türevlerinden farklıdır.
+Kim ve arkadaşları 2011 yılında yaptıkları çalışmada
+KÖA içerisinde sondan sona bağlantı performansını
+etkileyen çeşitli yönlendirme protokollerinin analizini
+karşılaştırmalı olarak incelemişlerdir. OLSR ve
+AODV protokolünün zincir topolojisine benzer
+
+892
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü 
+
+topolojilerde ETX ölçütünün kullanılması sonucunda
+en iyi olan rotayı seçemediği ve paket çarpışması gibi
+durumların oluşabildiğini göstermişlerdir [6]. Bizim
+yaklaşımımız zincir topolojisini göz önünde
+bulundurularak yapılan bir çalışma değildir. Gerçek
+ortamında kullanılan KÖA topoloji modeli dikkate
+alınarak yapılan bir çalışma olması açısından farklıdır.
+Pal ve Nasipuri 2011 yılında yaptıkları çalışmada rota
+seçimi yapabilmek için yeni bir metrik geliştirerek bu
+metriğe dayanan yeni bir yönlendirme protokolü olan
+IDAR’ı sunmuşlardır. Sunulan yönlendirme protokolü
+veri transferini ve gecikme süresini en uygun seviyede
+tutmak için aday yönü seçerken gerekli olan
+parametreleri toplamak için tepkili rota keşfini
+kullanır [7]. Bizim yaklaşımımız IDAR’da olduğu
+gibi yeni bir metrik sunmamaktadır. Tamamen farklı
+bir rota keşif yaklaşımı sunması açısından IDAR’dan
+farklıdır.
+Jeng ve arkadaşları 2011 yılında yaptıkları çalışmada,
+RTBM olarak adlandırdıkları çoklu kanal kullanımı
+için yeni bir MAC protokolü sunmuşlardır.
+Geliştirdikleri protokol ile veri kanalı seçme
+problemleri ve denetim kanalındaki tıkanıklık
+problemini çözmeyi amaçlamışlardır [8]. Bizim
+yaklaşımımız veri iletişimi için kanal belirlemeyi
+hedefleyen bir MAC protokolü değildir. Paketlerin
+yönlendirilmesi sırasında meydana gelecek olan paket
+kayıplarını azaltmaya yönelik bir çalışmadır.
+Chen ve arkadaşları 2011 yılında yaptıkları çalışmada
+dinamik olarak bir sonraki seçilecek düğümün düşük
+maliyet ve en az iletim gecikmesi ile nasıl
+sağlanacağını araştırmışlardır. Durdurma teorisi
+denilen bir çözüm sunmuşlardır [9]. Bizim
+yaklaşımımızda bir sonraki düğümü bulmaya
+odaklanmak yerine, KÖA’da trafiğin en yoğun olduğu
+geçiş noktalarına doğru olan rotaların bulunmasına
+odaklanılmıştır.
+Benyamina ve arkadaşları 2011 yılında yaptıkları
+çalışmada güvenilir bir KÖA oluşturulması için
+ağdaki bozulmaları anlayabilen yeni bir algoritma
+sunmuşlardır. Ağ yayılım maliyeti, performans ve
+güvenilirlik arasındaki sıkıntıyı aşabilmek için trafik
+yük dengelemesi ve maliyet açısından aynı anda en
+iyileme yapabilen bir model sunmuşlardır [10]. Bizim
+yaklaşımımızda aktif olarak yük dengeleme
+yapılmamaktadır. Fakat, geçiş noktaları için hali
+hazırda yedek rotalar bulundurmaktadır. Olası bir rota
+kaybında yedek rota üzerinden iletişime devam
+edilmektedir.
+Zhao ve Xie 2011 yılında yaptıkları çalışmada KÖA
+alt yapısı ile internet erişimi sağlamak için gerekli
+olan hususları ve ağ topolojilerini içeren detaylı bir
+benzetim modeli sunmuşlardır. KÖA içinde belirli
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+R. Kocaoğlu ve M. A. Akcayol  
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü
+
+tasarım sıkıntılarını dikkate alarak iki tane hücreler
+arası geçiş tasarımını benzetim kullanarak
+modellemişlerdir [11]. Bizim yaklaşımımız geçiş
+noktalarına doğru olan rotaların bulunmasına ağırlık
+veren bir yaklaşımdır. KÖA’da geçiş noktaları
+hareketsiz oldukları için hücreler arası geçişler göz
+ardı edilmiştir.
+Caillouet ve arkadaşları 2011 yılında yaptıkları
+çalışmada internete erişim için kullanılan kablosuz
+örgü ağların iletim kapasitesi hesaplama problemlerini
+araştırmışlardır. Yönlendirme ve iletim yaklaşımları,
+istemcilere sunulan kapasitenin üzerinde büyük bir
+etkiye sahiptir. Verilen bir KÖA içinde geçiş
+noktalarının yerleştirilmesi ve yönlendirilmesinin
+önemini vurgulamışlardır [12]. Bizim yaklaşımımızda
+bu önemi göz önünde bulundurarak geçiş noktalarına
+doğru olan rotaların bulunmasını temel alan yeni bir
+yaklaşımdır.
+Ortak kanal atama ve yönlendirme, çok radyo ve çok
+kanallı kablosuz örgü ağlarda hala ciddi bir sorundur.
+Bu sorunu çözmeye yönelik bir takım yaklaşımlar
+literatürde mevcut olsa bile, yüksek oranda trafik
+yükünün olduğu durumlarda çok fazla ek yük
+getirmeden ağ performansı açısından en iyi çözümün
+nasıl sağlanacağı hala cevap verilemeyen bir sorudur.
+Wellons ve Xue 2011 yılında yaptıkları çalışmada
+KÖA’lar için RCART olarak adlandırdıkları yeni bir
+çözüm sunmuşlardır [13]. RCART çözümü, trafik
+yükünün fazla olduğu rotalarda fazladan ek yük
+getirmeyecek bir değişken ile kanal atama sorunlarını
+çözmeye çalışmıştır. Bizim yaklaşımımız ise, trafik
+yükünün fazla olacağı geçiş noktalarına ait rotaları
+yeni bir yaklaşım ile bulmaya çalışmıştır.
+Zhang ve arkadaşları 2010 yılında yaptıkları
+çalışmada iletilen paketler için hem bağlantı katman
+yönlendirmesi hem de ağ katman yönlendirmesi
+yapabilen melez bir yönlendirme protokolü
+sunmuşlardır. Yönlendirme protokolünü temel alarak
+KÖA’lar için hareketlilik yönetim yaklaşımı
+geliştirmişlerdir [1]. KÖA’da geçiş noktaları
+hareketsiz, uç düğümler hareketli olabilir. Bizim
+yaklaşımımız hareketlilik yönetim yaklaşımını temel
+almak yerine, trafiğin yoğun olduğu geçiş noktalarına
+doğru olan rotaların bulunması temel almaktadır.
+Gomes ve arkadaşları 2011 yılında yaptıkları
+çalışmada KÖA yönlendirme protokolü olan OLSR
+üzerinde çoklu ortam uygulamalarının gerekliliklerini
+sağlayacak şekilde değişiklikler yaparak bir türevi
+olan OLSR-FLC sunmuşlardır [14]. Bizim
+yaklaşımımız da yeni bir metrik yada paket
+önceliklendirme yaklaşımı sunulmamıştır. Mevcut
+bulunan sıçrama sayısı metriği kullanılmıştır.
+Paketleri önceliklendirme ayırımı yapılmaksızın en az
+paket kaybı ile ilgili hedeflere paketlerin
+yönlendirilmesi amaçlanmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+3. GELİŞTİRİLEN
+PROTOKOLÜ: ADSRP
+
+YÖNLENDİRME
+(DEVELOPED ROUTING
+
+PROTOCOL: ADSRP)
+
+Kablosuz istemci örgü ağ modeli, ağdaki düğümlerin
+tek bir arayüzden oluşması ve düğümlerin hem
+yönlendirici hem de istemci olduğu yapıları ifade
+etmektedir. Örgü istemcilerinin birbirleri ile iletişime
+geçebilmesi için çoklu arayüz ve çoklu anten
+donatılarak örgü istemcilerine bir alt yapı sunan örgü
+modeli ise kablosuz omurga örgü ağı modelidir. Bu
+iki yapının birleştirilmesi ile oluşturulan ağ modeli ise
+kablosuz melez örgü ağ modelidir [4]. Geliştirilen
+protokolde kullanılan kablosuz ağ modeli olarak
+melez örgü ağ modeli belirlenmiştir. Bu yüzden
+topolojideki düğümlerde çoklu arayüz kullanılmıştır.
+Kablosuz örgü ağlarda genel olarak trafiğin akışı uç
+bir düğümden başlayarak internet gibi farklı bir ağ
+ortamı doğru olmaktadır. Bu yüzden farklı ağ ortamı
+ile kablosuz örgü ağların birbirleri ile bağlantılarının
+olduğu düğümlerin tespiti oldukça önem taşımaktadır.
+Bu durum göz önünde bulundurulduğunda bu
+düğümlerin tespiti çözülmesi gereken bir problemdir.
+Bu problem temel alınarak protokol tasarlanmıştır.
+Geliştirilen protokol temel olarak 4 aşamadan
+oluşmaktadır. İlk olarak mevcut ağ topolojisi
+içerisinde bulunan düğümler arasından iki tanesi
+kablosuz örgü ağda geçiş noktası olarak işlem
+yapacak şekilde tespit edilmektedir. İki tane geçiş
+noktasının tespit edilmesinin nedeni birinin asıl
+diğerinin yedek şeklinde düşünülmesidir. İkinci
+aşamada topolojideki her bir düğüm, ilk aşamada
+tespit edilen iki tane düğüme ulaşılabilecek olası tüm
+rotaları bulmakta ve bulunan bu rotalardan en uygun
+olanını yönlendirme tablosuna, bulunan diğer
+rotalardan en fazla altı tanesini geçiş noktası tablosu
+olarak isimlendirilen tabloya eklemektedir. Geçiş
+noktalarına doğru akan trafiğin oldukça yoğun olması
+bu rotaları önemli kılmaktadır. Bu aşamada olası tüm
+rotaların bulunması fazladan ek yük getirmesine
+karşın, tüm veri trafiği boyunca geçiş noktalarına
+doğru olan veri trafiği garanti altına alınmış olunur.
+Böylece veri trafiğinin gönderimi sırasında olası bir
+rota kaybının getireceği rota arama işleminden dolayı
+oluşacak paket kayıpları engellenmiş, dolayısı ile
+ölçeklenebilirlik sağlanmış olunur. Bu işlem ilk
+aşamada belirlenen iki tane geçiş noktasının her biri
+için ayrı ayrı yapılmaktadır. Üçüncü aşamada, bir
+geçiş noktasına gönderilecek paketi olan düğümlerin
+kendi yönlendirme tablosunda bakarak ilgili hedefi
+burada aramakta eğer ilgili rota kaydı yoksa paketi
+düşürmek yerine geçiş noktası tablosuna bakarak bu
+tabloda bulanan diğer rota üzerinden paketi hedefine
+göndermektedir. Son aşamada ise topolojiye katılan
+yeni bir düğüm olduğunda, bu düğümün komşusuna
+gönderdiği hello mesajından sonra kendisine cevap
+olarak iki geçiş noktasına ait ilgili rota bilgileri
+gönderilmektedir. Bu sayede, topolojiye katılan yeni
+düğüm geçiş noktalarına ulaşabilecek rotaları ağa
+herhangi bir rota istek paketi göndermeden öğrenmiş
+
+893 
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü 
+
+R. Kocaoğlu ve M. A. Akcayol
+
+olmaktadır. Böylece ağın daha kolay, masrafsız ve
+etkin şekilde ölçeklenebilmesi sağlanmaktadır.
+3.1. Geçiş Noktası Tespit Yaklaşımı (Approach to Gate
+point Detection)
+
+Kablosuz örgü ağlar göz önünde bulundurulduğunda
+ağdaki akan trafiğin çok büyük bir kısmı ağdaki
+düğümler ile geçiş noktaları arasında olmaktadır.
+Yani, geçiş noktası olmayan herhangi iki düğüm
+arasındaki akan trafik miktarı, toplam trafiğin oldukça
+az bir oranı oluşturmaktadır [2, 4-5, 8, 15]. Bu
+yüzden, geliştirilen protokolün dayandığı temel fikir
+bu yönde olmuştur ve bu fikir çerçevesinde protokol
+tasarlanmıştır.
+Sunulan
+yaklaşım,
+Dijkstra
+algoritmasından esinlenilerek geliştirilmiştir. Bağlantı
+durum temelli yönlendirme protokolleri sınıfı
+içerisinde değerlendirilebilir.
+Geçiş noktası tespit yaklaşımında ilk olarak
+topolojideki tüm düğümler kendisini geçiş noktası
+olarak varsaymaktadır. Düğümler kendi aralarında
+birbirlerine gönderdikleri geçiş noktası tespit paketleri
+(GNTP) ile gerçek geçiş noktalarını bu paket
+değişimleri sonrasında öğrenirler. Düğümler GNTP
+paketinden aldıkları bilgileri saklamak için kendi
+üzerlerinde geçiş tablosu (GT) olarak adlandırılan bir
+tablo barındırırlar. Geçiş noktası paket başlığı
+içerisinde her düğümün kendi düğüm numarası (DN)
+alanı, iki tane geçiş noktası düğüm numarası (GNN1,
+GNN2) alanları ve yaşam süresi alanı (TTL)
+bulunmaktadır. Örneğin Şekil 1’de, üç düğümün hiç
+bir GNTP paketi değişimi olmadan komşularına
+göndermek üzere kendilerinin oluşturduğu GNTP
+paketleri
+ve
+geçiş
+tablolarının
+durumları
+gösterilmiştir. İlk olarak üç düğümde kendi geçiş
+tablosu içerisindeki DN ve GNN alanlarında
+kendilerini gördükleri için kendilerini geçiş noktası
+olarak varsayarlar. Geçiş noktası tablosundaki
+bilgilerini oluşturdukları GNTP paketlerinin içerisine
+koyarak komşularına iletirler. Bu paket değişimleri
+sonucunda geçiş noktası olacak düğüm tespit edilmiş
+olur. GNTP paketlerinin değişimi ile tek bir geçiş
+noktasının tespit işlemi Şekil 2'de gösterilmiştir.
+
+Şekil 1. GNTP paket değişimi öncesi durum
+before GNTP packet exchange)
+
+894
+
+(Status
+
+Şekil 2’de ilk olarak 1 nolu düğüm diğer düğümler
+gibi kendisini geçiş noktası olarak varsaymaktadır.
+Geçiş tablosuna göre ürettiği GNTP-1 paketini
+komşusu olan 2 nolu düğüme gönderir. 2 nolu düğüm
+GNTP-1 paketini aldığı zaman, paketin içerisindeki
+GNN1 alanını kendi geçiş tablosundaki GNN1 alanı
+ile karşılaştırır. GNTP-1 paketinin GNN1 değeri 2
+nolu düğümün geçiş tablosundaki GNN1 alanından
+büyükse paketi düşürür küçük olduğu için geçiş
+tablosunu günceller ve aldığı paketi yok eder.
+Güncellenmiş geçiş tablosu bilgilerine göre GNTP-2
+paketini üretir ve 3 nolu düğüme iletir. 3 nolu
+düğümde benzer kontrolü yapar geçiş tablosunu
+güncelleyerek aldığı paketi yok eder. Bu işlem
+sonucunda 1 nolu düğüm geçiş noktası olarak tespit
+edilmiş olunur.
+
+Şekil 2. GNTP paketlerinin yayılımı
+
+(Broadcast of the
+
+GNTP packages)
+
+3.2. Geçiş Noktaları İçin Rota Keşfi
+
+(Discovery Route
+
+Toward Gate Points)
+
+Rota bulma işlemi AOMDV ve AODV
+protokollerinde olduğu gibi rota istek paketlerinin
+yayılması ile elde edilir. Şekil 3’de 1 nolu düğüme
+doğru olan rotalar ağa sel şeklinde rota istek
+paketlerinin yayılması ile elde edilir. Bu işlem AODV
+ve AOMDV protokollerinde de bu şekildedir. AODV
+protokolünde veri paketi gönderebilmek için yapılan
+rota arama işlemi sadece bir tane rota için yapılırken,
+AOMDV protokolünde birden fazla rota için yapılır.
+Eğer 1 nolu düğüm geçiş noktası olarak tespit edildi
+ise, sunulan protokolde de veri paketi gönderebilmek
+için yapılan rota arama işlemi birden fazla rota için
+yapılır. Geçiş noktası değil ise bir tane rotadan fazla
+rota arama işlemi yapılmaz. Örneğin şekil 4’de 3 nolu
+düğüm geçiş noktası olmadığından, bu düğüme doğru
+sadece bir tane rota belirlenmiş bunun dışındaki
+rotalar için bir işlem yapılmamıştır. Diğer bir ifade
+ile, önerilen protokolün rota bulma işlemi sırasındaki
+farkı tüm düğüm çiftleri için yedek rotalar bulmak
+yerine, sadece geçiş noktası olan düğümlerin diğer
+düğümler ile oluşturdukları düğüm çiftleri arasında
+yedek rota bulma işlemini gerçekleştirmesidir. Bu
+sayede kablosuz örgü ağlar içinde çok az trafiğin
+aktığı geçiş noktası olmayan düğümler arasında yedek
+rota bulma işleminin getirdiği gereksiz rota arama
+işleminden dolayı oluşacak fazladan yük ve işlemden
+kaçınılmış olunur. Geçiş noktası ile oluşturulan
+düğüm çiftleri arasında bulunan rotalardan en uygun
+olanı yönlendirme tablosuna atılırken, diğer
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+R. Kocaoğlu ve M. A. Akcayol  
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü
+
+rotalardan en fazla altı tanesi geçiş noktası tablosunda
+saklanır. En uygun rota sıçrama sayısı metriği göz
+önünde bulundurularak belirlenir. Diğer altı rota
+sıçrama sayısı metriğine göre maliyetleri belirlenerek,
+maliyet sırasına göre geçiş noktası tablosunda
+saklanır.
+
+Şekil 3. Geçiş noktası için paket yayılımı
+
+paketi aktarımı sırasında paket kaybını en aza
+indirmektedir. Şekil 5’da bu işlemi gerçekleştiren akış
+şeması gösterilmektedir.
+
+(Packet
+
+broadcast for gate point)
+
+Şekil 5. ADSRP rota bulma akış şeması
+
+(Route
+
+Discovery Flow chart of ADSRP)
+
+3.4. Sezgisel Rota Gönderimi (Sending Intuitive Route)
+Şekil 4. Normal düğüm için paket yayılımı
+
+(Packet
+
+broadcast for normal node)
+
+3.3. Geçiş Noktalarına Paket Gönderimi
+
+(Sending
+
+Data Packet to Gate Points)
+
+Geçiş noktasına veri paketi göndermek isteyen
+düğümler öncelikle yönlendirme tablosuna bakarak
+hedefteki geçiş noktasının adresini bu tabloda
+aramaktadır. Eğer bu tabloda ilgili rota bilgisi
+bulunamazsa geçiş noktası tablosuna bakılarak yedek
+olan rota üzerinden veri paketleri iletilir ve bu rota
+yönlendirme tablosuna aktarılır. Yönlendirme
+tablosunda bulunan rota, düğümlerin topolojiden
+çıkması ya da düğümler arasındaki bağlantıların
+kopması gibi durumlarda ilgili rota kullanılamaz olur
+ve yönlendirme tablosundan çıkarılır. Bu durumda
+geçiş noktası tablosunda bulunan rota üzerinden veri
+paketi kaybı olmadan paket iletimi devam eder. Bu
+mekanizma, veri paketi aktarımı sırasında geçiş
+noktası için rota arama işlemine gerek kalmadan
+kayıpsız şekilde veri paketlerinin alternatif bir rota
+üzerinden geçiş noktasına teslim edilmesi sağlar. Bu
+durum hem ölçeklenebilirliği sağlamakta hem de veri
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+Kablosuz örgü ağlarda akan trafiğin büyük bir kısmı
+geçiş noktalarına doğru olduğu için, ağdaki her
+düğümün geçiş noktalarına ulaşacak rotalara sahip
+olması gerekmektedir. Bu rotaları elde etmek için ağa
+gönderilecek rota istek paketleri ağın gereksiz
+kullanımına neden olmaktadır. İstek paketi olmaksızın
+önceden bu rotaların düğümlere gönderilebilmesi ağı
+gereksiz istek paketi trafiğinden kurtaracaktır. İletişim
+boyunca her düğümün geçiş noktasına gönderecek
+paketinin
+olması
+kaçınılmazdır.
+Düğümlerin
+komşuları ile ilgili durumları tespit etmek için hello
+mesajlarını kullanır. Ağa yeni katılan bir düğüm
+komşularından aldığı hello mesajları sayesinde ağa
+dahil olur. Fakat ağdaki herhangi bir yer ile ilgili
+herhangi bir rota bilgisine sahip değildir. Bu aşamada,
+geliştirilen protokol devreye girerek, yeni eklenen
+düğüme hello mesajı gönderiminden sonra herhangi
+bir rota isteği paketinin gelmesini beklemeden sadece
+geçiş noktalarına ait rota bilgilerini yeni eklenen
+düğüme gönderir. Böylece, bir düğüm kablosuz örgü
+ağına dahil olduğunda geçiş noktalarına ait rotaları
+hiçbir istek paketi yayınlamadan öğrenmiş olur. Şekil
+6’da bahsedilen komşuluk ilişkisinin yapısı
+gösterilmiştir.
+
+895 
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü 
+
+R. Kocaoğlu ve M. A. Akcayol
+
+Şekil 7. Birinci senaryoda kullanılan topoloji
+
+(The
+
+topology used in the first scenario)
+
+Şekil 6. ADSRP komşuluk ilişkisi
+
+(ADSRP neighborhood
+
+relationship)
+
+4.
+PERFORMANS
+ANALİZİ
+VE
+BENZETİM SENARYOLARI (PERFORMANCE
+ANALYSIS AND SIMULATION SCENARIOS)
+
+Geliştirilen yönlendirme protokolü test edilerek
+performansı AODV ve AOMDV protokolleri ile
+karşılaştırılmıştır. Esnek yapısından ve literatürdeki
+çoğu çalışmada kullanılmış olmasından dolayı
+benzetim aracı olarak ns-2 seçilmiştir. Ayrıca, AODV
+ve AOMDV protokollerinin ns-2 içerisinde
+tanımlanmış olması test süresinin kısalmasını
+sağlamıştır. Geliştirilen protokol kablosuz örgü ağlar
+için test edileceğinden benzetimde kullanılacak olan
+düğümlerde çoklu arayüz kullanılmalıdır. Bundan
+dolayı, senaryolardaki düğümlerde çoklu kanal ve
+çoklu arayüz kullanabilmek amacıyla ns-2 benzetim
+aracının kaynak kodları yamalanarak kablosuz örgü
+ağlar için kullanılabilir hale getirilmiştir. Çoklu
+arayüz kullanımı kablosuz örgü ağların yapısında
+olması gereken bir gereksinimdir. Bu yüzden
+senaryolarda çoklu arayüz kullanılmıştır. Geliştirilen
+protokol, çoklu arayüz kullanımından dolayı oluşacak
+kanal atama sorunlarının çözümüne yönelik
+geliştirilen bir protokol değildir.
+Geliştirilen protokolü detayları ile test etmek için
+senaryo oluşturulmuştur. Bu senaryoda kullanılan
+düğümlere farklı sayılarda kanal ve anten verilmiştir.
+Gerçekleştirilen benzetimde, literatürdeki genel bir
+kablosuz örgü ağ mimarisinin yapısı benzetim
+ortamına taşınmıştır [4]. Bu senaryoda 14 tane düğüm
+kullanılmış ve bu düğümlerden 4 tanesi kaynak, 1
+tanesi
+hedef
+olarak
+haberleştirilmiştir.
+Bu
+düğümlerden 1 tanesinde 7 tane arayüz 8 tane kanal, 2
+tanesinde 5 tane arayüz 6 tane kanal, 5 tanesinde 3
+tane arayüz 4 tane kanal ve 6 tanesinde 1 tane arayüz
+1 tane kanal ile donatılmıştır. İlk senaryo için
+oluşturulan temsili görünüş Şekil 7’de gösterilmiştir.
+Topolojide 9, 12 ve 13 nolu düğümler ortalama 50
+m/s hız ile, bulunduğu noktadan başlayarak tekrar
+bulunduğu noktaya gelecek şekilde 90 metre
+yarıçapında daire çizerek hareket halindedir.
+
+896
+
+Benzetimde ulaştırma katmanında TCP, veri trafiğini
+yaratmak
+için
+uygulama
+katmanında
+FTP
+kullanılmıştır. 9, 10, 11 ve 12 nolu düğümlerin
+oluşturduğu trafik benzetimin 20,0 saniyesinde başlar
+ve 29,0 saniyede sonlanır. Daha sonra tekrar aynı
+düğümlerden trafik 39,0 saniyede başlayıp 49,0
+saniyede bitmektedir. Trafik 4 ve 5 nolu düğümler
+üzerinden geçmektedir. Bu iki düğüm benzetim
+süresinin
+ortalarında
+topolojiden
+çıkarılarak
+protokollerin yeni rota bulma işlemlerini yapmaları
+sağlanmıştır.
+Şekil 8’de üç protokolün ilk senaryoda düşürdüğü tüm
+paketlerin zamana göre dağılımı verilmiştir. Benzetim
+boyunca AODV protokolü ile en fazla paket kaybı
+180 adet, AOMDV protokolü ile en fazla paket kaybı
+120 adet olurken, ADSRP protokolü ile en fazla paket
+kaybı 90 adete kadar çıkmıştır. 27. saniyeye kadar
+AODV ve ADSRP protokollerinin benzer grafik
+çizmesi, topolojinin başlangıcında aynı rota bulma
+mekanizmasını kullanması sonucu aynı rota üzerinden
+paketleri hedefine göndermesidir. Daha sonraki paket
+kayıplarının farklı olması ise, ADSRP protokolünün
+geçiş noktası olan düğümlere doğru sunduğu yedek
+rotanın kullanılmasıdır.
+
+Şekil 8. Birinci senaryoda düşürülen tüm paketlerin
+zamana göre dağılımı (Number of dropped all packets/time
+chart for the first scenario)
+
+Paketlerdeki gecikme değerlerinin olabildiğince sabit
+olması ağda akan trafiğin kalitesini göstermektedir.
+Paketlerdeki gecikme değerlerinin dalgalı olması
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+R. Kocaoğlu ve M. A. Akcayol  
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü
+
+özellikle ses ve çoklu ortam paketleri göz önünde
+bulundurulduğunda
+kalitesiz
+iletişime
+neden
+olmaktadır. Şekil 9’da benzetim boyunca ADSRP
+protokolünün paket sayısına göre gecikme değerleri
+verilmektedir. Paketler arası dalgalanma benzetimin
+ilk zamanlarında 7 saniyeye kadar çıktıktan sonra 1
+saniyenin altına düşerek oldukça sabit değerlerde
+devam etmiştir. Şekil 10’da benzetim boyunca
+AOMDV protokolünün paket sayısına göre gecikme
+değerleri verilmektedir. Paketler arası dalgalanma en
+fazla 1,2 saniyeye ulaşmasına rağmen, dalgalanma
+hareketli bir şekilde sürekli devam etmiştir. Bu durum
+akan trafiğin sabit aralıklarla durağan şekilde devam
+etmesini engellediği için, söz konusu ses ve çoklu
+ortam paketleri olduğu zaman ağın kalitesini olumsuz
+yönde etkilemektedir.
+
+Şekil 11. AODV protokolü ile paket numarasına göre
+gecikme oranı (Delay ratio regarding to packet number of
+AODV protocol)
+
+Şekil 9. ADSRP protokolü ile paket numarasına göre
+gecikme oranı (Delay ratio regarding to packet number of
+ADSRP protocol)
+
+Yukarıda anlatılan senaryonun dışında 5 senaryo ile
+test işlemi gerçekleştirilmiştir. Bu senaryolarda sırası
+ile 10, 20, 30, 40 ve 50 tane düğüm oluşturulmuştur.
+Düğüm sayıları ile orantılı olarak sırası ile 1, 2, 3, 4
+ve 5 tane düğüm veri paketi iletimi sırasında
+topolojiden çıkartılmış ve tekrar topolojiye dahil
+edilmiştir. Bu sayede topolojinin değişmesi
+sağlanarak uygun bir test ortamı sağlanmıştır.
+Benzetimler sırasında veri trafiği oluşturmak için yine
+düğüm sayıları ile orantılı olarak 2 tane hedefe sırası
+ile 2, 4, 6, 8 ve 10 tane kaynak düğümden TCP
+bağlantısı oluşturulmuş ve bu bağlantılar üzerinden
+FTP trafiği başlatılmıştır. Topolojideki düğümlerde
+çoklu arayüz kullanılmıştır. Her senaryo 10 defa
+çalıştırılmış ve elde edilen sonuçların ortalama
+değerleri alınmıştır.
+Şekil 12’de üç protokolün topolojide kullanılan
+düğüm sayısına göre düşürdükleri toplam paket sayısı
+gösterilmiştir. ADSRP protokolü, düğüm sayısının
+artması sonucunda düşürdüğü toplam paket sayısı
+diğer iki protokole göre daha az olmuştur. ADSRP
+protokolünün düğüm sayısının artmasından dolayı
+oluşacak paket kayıplarına karşı daha dayanaklı
+olması, ölçeklenebilirliği daha mümkün kılmaktadır.
+
+Şekil 10. AOMDV protokolü ile paket numarasına
+göre gecikme oranı (Delay ratio regarding to packet number of
+AOMDV protocol)
+
+Şekil 11’de benzetim boyunca AODV protokolünün
+paket sayısına göre gecikme değerleri verilmektedir.
+Paketler arası dalgalanma AOMDV protokolüne
+oranla daha az olmaktadır. ADSRP protokolünde
+olduğu gibi paketler arası dalgalanma 7 saniyeye
+kadar çıkmış ve daha az paket miktarı ile bu değere
+ulaşmıştır. Fakat, benzetimin ilerleyen kısmında
+dalgalanma tekrar 2 saniyeye kadar çıkmaktadır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+Düşürülen Toplam Paket Sayısı
+
+7000
+
+ADSRP
+
+6000
+
+AODV
+AOMDV
+
+5000
+4000
+3000
+2000
+1000
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+Düğüm Sayısı
+
+Şekil 12. Düğüm sayısına göre düşürülen tüm
+paketler (Total number of dropped packets/number of node)
+
+897 
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü 
+
+R. Kocaoğlu ve M. A. Akcayol
+
+Tablo 1. Tüm protokollerinin deneysel sonuçları (Experimental results of protocols)
+Düşen Paket Sayısı
+
+Paket Teslim Etme Oranı
+
+Yönlendirme Yükü Oranı
+
+Senaryo
+
+ADSRP
+
+AOMDV
+
+AODV
+
+ADSRP
+
+AOMDV
+
+AODV
+
+ADSRP
+
+AOMDV
+
+AODV
+
+1
+
+420
+
+580
+
+470
+
+%96
+
+%90
+
+%94
+
+%20
+
+%19
+
+%18
+
+2
+
+1912
+
+2395
+
+2340
+
+%94
+
+%86
+
+%87
+
+%22
+
+%24
+
+%27
+
+3
+
+2234
+
+2962
+
+3315
+
+%91
+
+%81
+
+%76
+
+%24
+
+%31
+
+%40
+
+4
+
+2635
+
+3550
+
+4296
+
+%87
+
+%74
+
+%63
+
+%27
+
+%40
+
+%55
+
+5
+
+3126
+
+4437
+
+6398
+
+%81
+
+%66
+
+%42
+
+%30
+
+%53
+
+%75
+
+100%
+
+Yönlendirme Yükü Oranı
+
+Şekil 13’de üç protokolün topolojide kullanılan
+düğüm sayısına göre paket teslim oranı gösterilmiştir.
+Paket teslim oranı, kaynaktan hedefe gönderilen veri
+paketlerinin hedefe ulaşma oranı olarak ifade
+edilebilir. Düğüm sayısı arttıkça paket teslim etme
+oranının azalması olağan bir durumdur. Fakat, bu
+azalmanın az olması ağın daha kolay ve sorunsuz
+ölçeklenebileceğini anlamına gelir. Şekil 13’de
+ADSRP protokolünün diğer protokollere göre paket
+teslim etme
+oranının daha fazla olduğu
+gözükmektedir.
+
+ADSRP
+AODV
+AOMDV
+
+90%
+80%
+70%
+60%
+50%
+40%
+30%
+20%
+10%
+0%
+10
+
+80%
+
+Paket Teslim Oranı
+
+30
+
+40
+
+50
+
+Şekil 14. Düğüm sayısına göre yönlendirme yükü
+oranı (Routing overhead percentage/number of nodes)
+
+90%
+70%
+
+Tablo 1’de ADSRP, AOMDV ve AODV
+protokollerinin test edildiği senaryolardan elde edilen
+denysel sonuçlar gösterilmiştir. Elde edilen benzetim
+sonuçlarından, kablosuz örgü ağlar dikkate
+alındığında ADSRP protokolünün diğer protokollere
+oranla daha iyi sonuçlar verdiği gözlemlenmiştir.
+
+60%
+50%
+40%
+30%
+ADSRP
+AODV
+AOMDV
+
+20%
+10%
+0%
+10
+
+20
+
+30
+
+Düğüm Sayısı
+
+40
+
+50
+
+Şekil 13. Düğüm sayısına göre paket teslim oranı
+(Packet delivery percentage / number of node)
+
+Şekil 14’de üç protokolün topolojide kullanılan
+düğüm sayısına göre yönlendirme yükü oranı
+gösterilmiştir. Yönlendirme yükü oranı, kaynaktan
+hedefe veri paketleri gönderebilmek için üretilen her
+türlü rota keşif paketi miktarının gönderilecek olan
+veri paketi miktarına oranı olarak ifade edilebilir.
+Düğüm sayısının artması, hedef rotaların bulunması
+için üretilecek olan rota keşif paketlerinin sayısının
+artması anlamına gelir. Olabildiğince az rota keşif
+paketi ile hedef rotaların bulunması ağın daha kolay
+ölçeklenebilmesini sağlar. Şekil 14’de ADSRP
+protokolünün diğer protokollere göre yönlendirme
+yükü oranının daha az olduğu gözükmektedir.
+
+898
+
+20
+
+Düğüm Sayısı
+
+100%
+
+5. SONUÇLAR VE ÖNERİLER
+
+(CONCLUSIONS
+
+AND SUGGESTIONS)
+
+Bu makalede kablosuz örgü ağlarda yönlendirme
+işlemini
+gerçekleştirmek
+için
+bir
+protokol
+geliştirilmiştir. Geliştirilen protokolü test etmek için,
+ns-2 benzetim ağacının 2.33 versiyonu yamalanarak
+çoklu arayüz kullanımına uygun hale getirilmiştir.
+Çoklu
+arayüzün
+kullanılabilmesi,
+geliştirilen
+protokolü kablosuz örgü ağlar için kullanılabilir hale
+getirmiş ve bu sayede verimliliği test edilmiştir.
+Kablosuz örgü ağlarda yönlendirme protokolü olarak
+da kullanılabilen AODV ve AOMDV protokolleri ile
+karşılaştırılmıştır.
+Deneysel çalışmaların sonucunda, geliştirilen
+protokolün örgü ağlarda geçiş noktalarının tespit
+edilerek ilgili rotaların var olan yönlendirme
+tablosuna ve oluşturulan topoloji tablosuna eklenerek
+yönlendirme işleminin yapılması sonucu düşürülen
+toplam paket sayısını önemli ölçüde azalttığı
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+R. Kocaoğlu ve M. A. Akcayol  
+
+Kablosuz Örgü Ağlar İçin Ölçeklenebilir Yönlendirme Protokolü
+
+görülmüştür. Ayrıca, her düğüme geçiş noktaları ile
+ilgili rota kayıtlarının bir istek paketi gönderilmeden
+önce gönderilmesi ağda geçiş noktalarını öğrenmek
+için meydana gelecek çoklu yayın miktarını
+azaltmaktadır. Böylece ağın ölçeklenmesi sonucu
+oluşacak maliyet azalmakta ve ağın toplam verimliliği
+artmaktadır.
+Geliştirilen protokolün dayandığı temel yapı geçiş
+noktalarının tespit edilmesi ve bu noktalara göre
+ağdaki her düğümün yönlendirme tablosu ve topoloji
+tablosunu oluşturmasıdır. Herhangi bir nedenden
+dolayı bu geçiş noktalarının yanlış tespit edilmesi ya
+da kablosuz örgü ağına saldıran bir saldırganın
+kendisini geçiş noktası gibi göstermesi sonucu ağın
+yönlendirme
+yapısını
+bozabilir.
+Geliştirilen
+protokolün bu gibi sorunları anlayabilecek ve gerekli
+önlemi alabilecek şekilde güvenlik algoritmalarının
+geliştirilmesi bu protokolü daha etkin ve verimli hale
+getirecektir.
+
+7.
+
+8.
+
+9.
+
+10.
+
+11.
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+4.
+5.
+
+6.
+
+Zhang, Z., Pazzi, R.W., Boukerche, A., “A
+mobility management scheme for wireless mesh
+networks based on a hybrid routing protocol”,
+Computer Communications, Cilt 54, No 4, 558572, 2010.
+Jun, J., Sichitiu, M.L., “MRP: Wireless mesh
+networks
+routing
+protocol”,
+Computer
+Communications, Cilt 31, No 7, 1413-1435,
+2008.
+Zheng, J., Lee, M.J., “A resource-efficient and
+scalable wireless mesh routing protocol”, Ad Hoc
+Networks, Cilt 5, No 6, 704-718, 2007.
+Akyıldız, I.F., Wang, X., Wang, W., “Wireless
+mesh networks: a survey”, Computer Networks,
+Cilt 47, No 4, 445-487, 2005.
+Alotaibi, E., Mukherjee, B., “A survey on routing
+algorithms for wireless Ad-Hoc and mesh
+networks”, Computer Networks, Cilt 56, No 2,
+940-965, 2012.
+Kim, S., Lee, O., Choi, S., Lee, S., “Comparative
+analysis of link quality metrics and routing
+protocols for optimal route construction in
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+12.
+
+13.
+
+14.
+
+15.
+
+wireless mesh networks”, Ad Hoc Networks,
+Cilt 9, No 7, 1343-1358, 2011.
+Pal, A., Nasipuri, A., “A quality based routing
+protocol for wireless mesh networks”, Pervasive
+and Mobile Computing, Cilt 7, No 5, 611-626,
+2011.
+Jeng, A.A., Jan, R., Li, C., Chen, C., “Releasetime-based multi-channel MAC protocol for
+wireless mesh networks”, Computer Networks,
+Cilt 55, No 9, 2176-2195, 2011.
+Chen, F., Wang, Y., Liu, J., Li, Z., “Probingbased anypath forwarding routing algorithms in
+wireless mesh networks”, Ad Hoc Networks,
+(Basımda), 2011.
+Benyamina, D., Hafid, A., Gendreau, M.,
+Maureira, J.C., “On the design of reliable
+wireless mesh network infrastructure with QoS
+constraints”, Computer Communications, Cilt
+55, No 8, 1631-1647, 2011.
+Zhao, W., Xie, J., “OPNET-based modeling and
+simulation study on handoffs in Internet-based
+infrastructure
+wireless
+mesh
+networks”,
+Computer Networks, Cilt 55, No 12, 26752688, 2011.
+Caillouet, C., Perennes, S., Rivano, H.
+“Framework for optimizing the capacity of
+wireless
+mesh
+networks”,
+Computer
+Communications, Cilt 34, No 13, 1645-1659,
+2011.
+Wellons, J., Xue, Y., “The robust joint solution
+for channel assignment and routing for wireless
+mesh networks with time partitioning”, Ad Hoc
+Networks, (Basımda), 2011.
+Gomes, R.L., Junio, W.M., Cerqueira, E.,
+Abelem, A.J., “Using fuzzy link cost and
+dynamic choice of link quality metrics to achieve
+QoS and QoE in wireless mesh networks”,
+Journal
+of
+Network
+and
+Computer
+Applications, Cilt 34, No 2, 506- 516, 2011.
+Li, F., Fang, Y., Hu, F., Liu, X., “Load-aware
+multicast routing metrics in multi-radio multichannel wireless mesh networks”, Computer
+Communications, Cilt 55, No 9, 2150-2167,
+2011.
+
+899 
+
+ 
+
+ 
+
+

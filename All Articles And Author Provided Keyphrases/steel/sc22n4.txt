@@ -1,0 +1,1128 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 22, No 4, 769-777, 2007
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 22, No 4, 769-777, 2007
+
+MIG/MAG KAYNAK YÖNTEMİ İLE BİRLEŞTİRİLEN ÇELİK
+MALZEMELERDE İLAVE TEL TÜRLERİ VE KORUYUCU GAZ
+KARIŞIMLARININ EĞMELİ YORULMA ÖMÜRLERİNE
+ETKİLERİNİN ARAŞTIRILMASI
+Aydın ŞIK
+
+Endüstriyel Sanatlar Eğitim Fakültesi, Gazi Üniversitesi, Gölbaşı, Ankara
+aydins@gazi.edu.tr
+(Geliş/Received: 27.10.2006; Kabul/Accepted: 05.06.2007)
+ÖZET
+Bu çalışmada 4 mm kalınlığındaki yapı çeliği (St 52-3) endüstride çok yaygın uygulama alanı olan MIG/MAG
+kaynak yöntemi ile kaynak edilmiştir. MIG/MAG kaynak yönteminde kullanılan gaz karışımları bu yöntemde
+büyük öneme sahiptir. Bu yüzden bu çalışmada üç farklı gaz karışımı ve iki farklı elektrod seçilmiştir. Gaz
+karışımları; 80Ar+18CO2+2O2, 88Ar+10CO2+2O2 ve 93Ar+5CO2+2O2 kullanılmıştır. Yapılan birleştirmelerde
+SG2 ve SG3 elektrodları seçilmiştir. Seçilen gazlar ve elektrodlarla MIG/MAG kaynağı yapıldıktan sonra
+kaynak dikişinden çıkarılan numunelerin mekanik özellikleri incelenmiştir. Üç farklı gaz karışımı ile iki farklı
+elektrod kullanımı sonucu yapılan deneylerde; SG3 elektrodu kullanılarak 88Ar+10CO2+2O2 gaz karışımı ile
+yapılan birleştirmelerin mekanik özelliklerin yüksek olduğu görülmüştür.
+
+1. GİRİŞ (INTRODUCTION)
+Yapı çelikleri 1980 ve 1990’lı yıllarda çelik yapılar
+kompozit kiriş ve döşemelerinin imalatında etkili bir
+şekilde kullanımı ile birlikte Batı Avrupa ülkelerinde
+ve özellikle İngiltere’de daha çok kullanılan bir
+malzeme haline gelmiştir. Ülkemizde henüz yeterli
+derecede kullanılmayan yapı çelikleri özellikle 1999
+Marmara depremi sonrasında inşaat sektöründe
+
+adından sıkça söz edilen bir yapı malzemesi olmuştur
+[1].
+Yapı çeliği; endüstriyel binalarda, köprü ve
+demiryollarında, geçici ve kalıcı zemin altyapı
+projelerinde, denizde yapılan dalgakıranlarda, gemi
+yapımında, şehirlerarası elektrik kabloları taşıyan
+direklerde, petrol ve gaz offshore platformlarda, çok
+amaçlı sosyal tesisler, ticari yapılar, binaya yük
+bindirmeyen
+çatı
+katları
+gibi
+alanlarında
+
+A. Işık
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+kullanılmaktadır. Yapı çeliklerinin birleştirilmesinde
+oldukça yaygın olarak kullanılan MIG/MAG
+kaynağının kullanımının artması ile bu yöntemde
+kullanılan koruyucu gazların geliştirilmesi, çeşitli gaz
+karışımları ile yapılan kaynak bağlantılarında dikiş
+özelliklerinin incelenmesi yolunda araştırmalar
+yapılmaktadır. Özellikle, gaz karışımlarının dikiş
+özelliklerinin iyileştirilmesi ve daha hızlı, ekonomik
+bağlantılar oluşturulması açısından önemi de oldukça
+büyüktür [2].
+Sanayileşmiş ülkelerde günümüzün en popüler yarı
+otomatik kaynak yöntemi olan MIG/MAG yöntemi
+son yıllarda ülkemizde de hızla yayılmaktadır.
+Üretilen makina ve tel elektrodlar bunun açıkça
+göstergesidir. MIG/MAG kaynak yöntemi diğer
+kaynak yöntemleri ile karşılaştırıldığında çok fazla
+üstünlükleri bulunmaktadır. Hız, emek gücü, yüksek
+verim, fazla ergime gücü, kullanılan malzeme ve
+kalitenin artması bu üstünlükleridir.
+Çeliklerin koruyucu gaz kaynağında saf Ar, Ar ve
+CO2 karışımları, Ar ve O2 karışımları ve saf CO2 gazı
+kullanılır. Gazların görevi damlaları, kaynak
+banyosunu ve ısıdan etkilenmiş bölgeyi havadan
+korur ve kaynak arkı davranışlarını iyileştirir.
+Gazların seçimi ayrıca arkın penetrasyonunu da
+etkiler [3,4,5,6].
+Gazların ayrışma enerjileri, iyonizasyon potansiyelleri, yoğunlukları, ısı ve elektrik iletim özellikleri,
+maliyetleri büyük farklılıklar göstermekte ve bunun
+sonucu olarak da arkın oluşumu ve kaynak sırasındaki
+davranışı, ark içinde malzemenin taşınımı ve elde
+edilen kaynak bağlantısının profili farklılıklar
+göstermektedir. Sadece tek bir tür gazın kullanımında
+gazların her biri bir takım üstünlükler ve sınırlamalar
+gösterdiklerinden, günümüzde gazların iyi özeliklerini
+optimize edebilmek sınırlamalarını en aza indirebilmek için MIG/MAG kaynak yönteminde çeşitli
+karışım gazlar kullanılır [7,8].
+Çeliğin MIG kaynağında argon gazına oksijen ve
+karbondioksit karıştırılmaktadır. Böylece oksijen
+kolay eriyen oksitlerin oluşumunu hızlandırarak,
+ergiyen elektrod telinden düşen damlaların yüzey
+gerilimini zayıflatmakta ve ince taneli bir metal geçişi
+sağlamaktadır. Oksijenin oksitleyici etkisi, kullanılan
+kaynak telindeki mangan, silisyum, alüminyum,
+titanyum ve zirkonyum gibi alaşım elementlerinin
+arttırılması ile dengelenir [9].
+MIG/MAG kaynağında kullanılan gaz karışımlarında
+argon asal gaz olduğu için herhangi bir reaksiyona
+
+girmeyeceği böylece ark oluşumu ve kararlılığının
+kolay olacağı, CO2’in ise ergimiş banyoyu
+oksitleyeceği ve tüm pozisyonlarda kısa devre
+kaynağını kolaylaştıracağı ve iyi bir geçiş sağlayacağı
+görülmüştür. Fakat CO2’in sıçrama dezavantajının
+yüksek olacağını, buna karşılık CO2’e O2 katılmasıyla
+akımın düşerek kaynak formunun ve akışının
+düzeleceği, sıçramanın azalacağını, kaynak veriminin
+artacağını göstermektedir[10].
+Endüstride kullanılan makine parçaları ve yapı
+elemanları kullanım sırasında tekrarlanan gerilmeler
+ve titreşimler altında çalışmakta; ancak bu gerilmeler
+malzemenin ya da parçanın statik dayanımından
+küçük olmaktadır. Bu duruma karşın belirli bir
+tekrardan sonra çatlama ve bunu takip eden kopma
+olayı oluşmaktadır bu olaya yorulma denir. Makina
+parçalarının görevlerini yapamamalarının %90 nedeni
+yorulmadan dolayıdır. Bu yüzden bu çalışmada
+değişik gaz karışım oranları seçilmiş ve bu gaz
+karışımlarının
+yorulma
+özelliklerine
+etkileri
+incelenerek tartışılmıştır.
+2. DENEYSEL ÇALIŞMALAR
+
+(EXPERIMENTAL
+
+STUDIES)
+
+2.1 Deneylerde Kullanılan Malzemeler
+
+(Materials
+
+Used In Experiments)
+
+2.1.1 Esas Malzeme (Main Material)
+Tablo 1’de kimyasal özellikleri ve Tablo 2’de
+mekanik özellikleri verilen 4 mm kalınlığında St52-3
+yapı çeliği bu çalışmada kullanılmıştır.
+2.1.2. İlave Metal (Tel Elektrod) (Additional Wire)
+Deneylerde Tablo 3’te kimyasal bileşimleri ile Tablo
+4’te ise mekanik özellikleri verilen 1 mm çaplı G3Si1
+(SG2) teli ve G3Si1 (SG3) elektrodları kullanılmıştır.
+2.1.3. Kullanılan Koruyucu Gazlar (The Protective
+Gas Used)
+
+Bu çalışmada, karbonlu ve az alaşımlı çeliklerin
+kaynağına uygun olabileceği saptanan ve daha önce
+yapılmış olan araştırmaların sonuçları ve literatüre
+göre Ar, CO2 ve O2 karışımı gazlar kullanılmıştır [13].
+Kullanılan gaz karışımları Tablo 5’te verilmiştir.
+2.1.4. Kullanılan Kaynak Makinesi (The Welding
+Machine Used)
+
+Deneylerde 400 amperlik yatay karakteristikli, su
+soğutmalı 5 kaba 6 ince ayar kademeli 30 gerilim
+basamaklı doğru akım (DC) kaynak makinesi
+
+Tablo 1. Kullanılan malzemenin kimyasal özellikleri [11] (Chemical properties of the material used)
+Yeni Standard
+karşılığı
+DIN EN 10025-94
+
+DIN 17 100-80
+
+S355J2G3
+
+770
+
+Önceki Standart
+karşılığı
+
+St52-3
+
+Kimyasal bileşim (%)
+C
+Max
+0,20
+
+P
+Max
+1,035
+
+S
+Max
+0,035
+
+Mn
+Max
+1,60
+
+Si
+Max
+0,55
+
+Cu
+0,25-0,40
+
+Al
+Min.
+0,020
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+A. Işık
+
+Tablo 2. Kullanılan malzemenin mekanik özellikleri [11] (Mechanical properties of the material used)
+Fiziksel özellikler
+Çekme mukavemeti
+N/mm2 (kg/mm2)
+
+Akma mukavemeti (Min)
+N/mm2 (kg/mm2)
+
+Uzama (% Min)
+L0=80mm
+
+Kalınlık (mm) ≤16
+
+Kalınlık (mm) ≥3≤50
+
+≥3≤40
+
+355 (36,2)
+
+490-630 (50,0-64,3)
+
+20
+
+kullanılmıştır ve transistörlu akım basamağı
+ayarlayıcısı ile kısa devre akımı en aza indirilmeye
+çalışılmıştır. Makinenin teknik özelikleri Tablo 6’da
+gösterilmektedir.
+2.1.5. Deneylerde Kullanılan Eğme Yorulma
+Makinesi (The Bending Fatigue Machine Used in
+
+makine özellikle sac malzemelerin test edilmesi amacı
+ile geliştirilmiştir. Makine kapasitesinin izin verdiği
+ölçüde dinamik ve statik yükler, değişken olarak
+yüklenebilir. Makinede Alman Standardı DIN
+50100’e göre uygun Wöhler ve yorulma dayanımı
+testi olan (S-N) diyagramları oluşturabilmektedir. Bu
+makinenin şematik gösterimi Şekil 1’de verilmiştir.
+
+Experiments)
+
+Eğme yorulma makinesi DIN 50142 ile uyumlu olan
+termoplastikler, demir esaslı olmayan metaller ve
+çeliklerden yapılmış numuneler üzerinde dinamik
+yorulma testlerin yapılmasına olanak sağlar. Bu
+
+2.2. Kaynaklı Bağlantı ve Uygulamaları
+
+(Welded
+
+Joints and Applications)
+
+Kesilen parçalar otomatik MAG kaynak yöntemi ile
+belirlenen üç farklı gaz karışımında kaynak
+
+Tablo 3. Deneylerde kullanılan EN 440’a (DIN 8559) [12] göre imal edilmiş G3 Si1 (SG2) ve G4
+Si1 (SG3) tel elektrodların kimyasal bileşimi (Chemical compound of SG2 and SG3 wires used in experiments
+and produced as per EN 440 standards)
+Simge
+G3 Si1 (SG2)
+G4 Si1 (SG3)
+
+C
+0,07-0,10
+0,07-0,10
+
+Mn
+1,4-1,6
+1,6-1,9
+
+Kimyasal Bileşim (%)
+Si
+P
+0,7-1,0
+<0,025
+0,8-1,2
+<0,025
+
+S
+<0,025
+<0,025
+
+Cu
+<0,30
+<0,30
+
+Tablo 4. Deneylerde kullanılan EN 440’a (DIN 8559) [12] göre imal edilmiş G3 Si1 (SG2) ve G4 Si1
+(SG3) tel elektrodların mekanik özellikleri (Mechanical properties of the SG2 and SG3 wire electrodes produced as
+per 440 and used in experiments)
+Kullanılan elektrodlar
+Akma mukavemeti
+(N/mm2)
+G3 Si1 (SG2)
+450
+G4 Si1 (SG3)
+480
+
+Çekme mukavemeti
+(N/mm2)
+550
+590
+
+Darbe enerjisi (J)
+ISO-V
+80 (-200C)
+80 (-400C)
+
+Tablo 5. Deneylerde kullanılan karışım gazların (%) oranları
+
+(The
+
+proportion of the mixture gases used in the experiments)
+Karışım oranı (%)
+Karışımın adı
+Ar
+CO2
+S1 (80Ar+18CO2+2O2)
+80
+18
+S2 (88Ar+10CO2+2O2)
+88
+10
+S3 (93Ar+5CO2+2O2)
+93
+5
+
+Uzama (%)
+(L0=5d0)
+28
+26
+
+O2
+2
+2
+2
+
+Tablo 6. Deneylerde kullanılan kaynak makinasının teknik
+özellikleri (Technical properties of the welding machine used in the experiments)
+Devreler
+Şebeke gerilimi (3 faz, 50 Hz)
+Akım ayar aralığı
+Gerilim ayar aralığı
+Nominal kaynak akımı (%60D.K.O.)
+Sürekli kaynak akımı (%100 D.K.O.)
+Nominal akımı (%60 D.K.O.)
+Nominal gücü (%60 D.K.O.)
+Kaynak kablo kesiti
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+Veriler
+380 V
+40-400A
+16-43V
+400 A
+350 A
+26 A
+17.1 kvA
+50 mm2
+
+771
+
+A. Işık
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+Devir sayacı
+
+Dönüş
+ekseni
+
+Deney
+numunesi
+
+Kuvvet ölçer
+
+Şekil 1. Eğmeli yorulma makinesinin şematik gösterilişi
+
+(Schematic display of the
+
+bending fatigue)
+
+edilmişlerdir. Kaynak dikişleri tüm bağlantılarda
+yatay oluk (PA) pozisyonundadır. Deneylerde 4
+mm’lik malzeme kullanıldığından V kaynak ağzı
+açılarak
+aynen
+standartlarda
+olduğu
+gibi
+birleştirilmiştir. Bütün deneylerin aynı koşulları
+yapılması için kaynak torcunu, ileri geri doğrusal
+hareket edebilen otomatik arabaya monte edilmiştir.
+Tablo 7’de birleştirmelerin oluşturulmasında kulanılan kaynak koşulları verilmiştir.
+Tablo 7. SG2 ve SG3 elektrodu ile yapılan alın
+birleştirmelerde uygulanan MAG kaynak
+parametreleri (MAG welding parameters applied to butt
+joint welded with SG2 and SG3 elektrodes)
+1. 80Ar+18CO2+2O2
+Koruyucu gazın bileşimi
+2. 88Ar+10CO2+2O2
+3. 93Ar+5CO2+2O2
+Akım şiddeti (Amper)
+280
+Gerilim (Volt)
+18-22
+1
+Tel çapı (∅ mm)
+Telin simgesi
+SG2, SG3
+Tel ilerleme hızı (m/dak)
+4,2
+Kaynak hızı (cm/dak)
+36
+
+2.3. Kaynaklı Levhaların Görsel İncelenmesi (Visual
+Inspection of the Welded Sheets)
+
+Deney numunelerinin hazırlanacağı bağlantılarda
+uygulanan kaynak işlemi sonrası görülebilecek
+yüzeysel hataları saptamak amacı ile görsel muayene
+yapılmıştır. Bu muayenede “ANSI/AWS D9.1-90
+Sheet Metal Welding Code” esas alınmıştır [14,15].
+Kaynak sonrası oluşan dikiş yüksekliği, dikişlerin
+üzerinde oluşan tırtıllarda, yanma olukları, sıçramalar
+ve dikiş kök sarkmasının yanı sıra dikiş genişliği,
+kökte oluşabilen yetersiz ergime bölgeleri görsel
+olarak detaylı incelenmiş olup, sıçrantıların ve diğer
+hususların kabul sınırları içinde olduğu görülmüştür.
+2.4. Deney Numunesi Çıkartma Esasları
+
+(Principles
+
+of Taking Specimens)
+
+Kaynak işlemlerinden sonra numuneler ilgili
+standartlarda olduğu gibi normal soğuma koşullarında
+
+772
+
+soğumaya bırakılmıştır. Görsel muayeneden geçen bu
+levhalardan yapılacak deney planına göre EN-288-3’e
+[16] uygun deney numuneleri hazırlanmıştır.
+Kaynaklı levhaların başlangıç ve bitiminden 25
+mm’lik kısımları kesilerek atılmıştır. Zira kaynağın
+başlangıç ve bitiminde oluşabilecek hataların önüne
+bu şekilde geçilmiş olmaktadır. Parça boylarının kısa
+tutulmasındaki amaç kaynak ısı girdisi nedeni ile
+parçalarda oluşabilecek çekme çarpılmalarını
+azaltmaktır. Şematik olarak numunelerin çıkarıldığı
+kaynaklı parça Şekil 2’de verilmiştir.
+Bu çalışmada, 3 farklı gaz kullanılarak yapılan
+kaynaklı parçadan ve esas metalden çıkarılan
+numunelere eğmeli yorulma deneyleri ve sertlik
+ölçümleri yapılmıştır.
+2.5. Yorulma Deneyleri (Fatigue Experiments)
+Eğmeli yorulma deneyleri sonucu elde edilen değerler
+ve Wöhler eğrileri en yüksek gerilmeye karşılık
+çevrim sayısı logaritmik işaretlenerek çizilmiştir. Bir
+defaya mahsus mukayese amaçlı esas metalden,
+kaynaklı bağlantılarda ise her gaz karışımı için 8’er
+adet numune hazırlanarak yapılmıştır. Tüm
+deneylerde sınır çevrim sayısı olarak literatürde
+tavsiye edilen çevirim sayısı N=2x106 alınmıştır [17].
+Deneylerde kullanılan eğme momenti (Me)
+değerlerinden eğilme gerilmesi (σ) değerlerine klasik
+mukavemet bilgileri kullanılarak dikdörtgen kesitli
+parçalar aşağıdaki gibi hesaplanmıştır [18];
+
+W =
+
+M
+b.h 2
+,σ= e
+6
+W
+
+σ = Eğilme gerilmesi (kg/cm2),
+W = Eksenel direnç momenti (cm3)
+
+M e = Eğilme momenti (kgcm),
+b = Genişlik (cm), h = Kalınlık (cm)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+A. Işık
+
+Kesilen ıskarta parça (25 mm)
+
+Kaynak dikiş yönü
+
+Çekme deney parçaları bölgesi
+
+Eğmeli yorulma deney parçaları
+bölgesi
+
+Çekme deney parçaları bölgesi
+Kesilen ıskarta parça (25 mm)
+Kesilen ıskarta parça (25 mm)
+
+Şekil 2. EN 288-3’e göre numunelerin levhadaki dağılım planı (Distribution plan of the samples over
+the sheet as per EN 288)
+
+Hazırlanan numunelere uygulanan yorulma dayanımı
+sonrasında kırılan deney parçaları incelenerek
+yorulma çatlağının oluştuğu yer saptanmıştır. Şekil
+3’te esas metalden alınmış numunelerin yorulma
+deneyi sonrası kırılma şekli şematik olarak
+gösterilmiştir. Esas metale ait numunelerde yorulma
+çatlaması kesitin ince olduğu bölgede oluşmuştur.
+Literatür araştırmalarına göre bu durum normaldir
+[17,19,20].
+
+3.
+
+DENEY
+
+SONUÇLARI
+
+VE
+
+TARTIŞMA
+
+(RESULTS OF THE EXPERIMENT AND DISCUSSION)
+
+3.1 Sertlik Ölçümleri (Measuring Hardness)
+SG2 elektrodu kullanılarak üç farklı gaz karışım ile
+kaynak yapılan numunelerin sertlik değerleri Şekil
+5’te verilmiştir
+SG3 elektrodu kullanılarak üç farklı gaz karışımı ile
+kaynak yapılan numunelerin sertlik değerleri Şekil
+6’da verilmiştir.
+3.2 Yorulma Deneyleri (Fatigue Experiments)
+
+Şekil 3. Kaynak edilmemiş sactan çıkartılan
+numunenin yorulmadan dolayı kırılma şekli (Breaking
+form of the samples taken out of unwelded metal sheet due to
+fatigue)
+
+Kaynaklı numuneden çıkartılan yorulma deneyi
+sonrası kırılma şekli Şekil 4’te verilmiştir. Burada
+verilen şekil şematik olmasına karşın bu tür
+bağlantıların
+kırılma
+bölgesi
+incelendiğinde
+kırılmanın bağlantının en zayıf ve hassas bölgesi olan
+ısıdan etkilenmiş bölgede oluştuğu saptanmıştır. Bu
+oluşumda gayet normal olup bu konuda çalışan
+araştırmacıların deney sonuçları ile uyum halindedir
+[19,20].
+
+Şekil 4. Kaynak yapılmış sactan çıkartılan
+numunenin yorulmadan dolayı kırılma şekli
+(Breaking form of the samples taken out of welded metal
+sheet due to fatigue)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+SG2 elektrodu kullanılarak üç farklı gaz karışımı ile
+kaynak yapılan numunelerin eğmeli yorulma deney
+sonuçları Şekil 7’de verilmiştir.
+SG3 elektrodu kullanılarak üç farklı gaz karışımı ile
+kaynak yapılan numunelerin eğmeli yorulma deney
+sonuçları Şekil 8’de verilmiştir.
+Argona CO2 eklenmesi ark sıcaklığını artırıcı etki
+yapmakta O2 kaynak banyosu yüzey gerilimine etki
+ederek daha üniform olmasını sağlamakta ve kaynak
+dikişi
+mukavemetini
+artırıcı
+etkiler
+ortaya
+koymaktadır [8,19,21,22]. Çeliklerin kaynağında saf
+Ar kullanıldığı zaman yanma oluğu oluşabilir. % 1-5
+O2 veya % 3-25 CO2 ilave ederek yanma oluğu
+önlenebilir. Aynı zamanda arkın dengesi sağlanmış
+olur. CO2 derin nüfuziyet ve yüksek ark enerjisi
+sağlar, O2 iyi ıslatma ile birlikte sıçramayı artırır [23].
+Ar+O2 koruyucu gaz karışımları ile yapılan
+numunelerin akma mukavemetleri O2 yüzdesinin
+artması ile artmaktadır. Aynı şekilde O2 yüzdesinin
+artmasıyla çekme mukavemeti düşmekte buna karşılık
+% uzama miktarı azalmaktadır. Ar+CO2 koruyucu gaz
+ortamında kaynak yapılan numunelerde CO2 oranının
+
+773
+
+A. Işık
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+S1
+
+S2
+
+S3
+
+Sertlik değeri(HV5)
+
+300
+
+250
+
+200
+
+150
+
+ITAB
+
+ITAB
+
+100
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Ölçme aralıkları(mm)
+
+11
+
+12
+
+13
+
+14
+
+15
+
+Şekil 5. SG2 elektrodu kullanılarak üç farklı gaz karışım ile kaynak yapılan numunelerin sertlik
+değerleri (Hardness values of the samples welded with SG2 electrodes and three different mixture gases)
+
+S1
+
+S2
+
+S3
+
+Sertlik değeri(HV5)
+
+300
+
+250
+
+200
+
+150
+
+100
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6 7 8 9 10 11 12 13 14 15
+Ölçme aralıkları(mm)
+
+Şekil 6. SG3 elektrodu kullanılarak üç farklı gaz karışımı ile kaynak yapılan numunelerin sertlik
+değerleri (Hardness values of the samples welded with SG3 electrodes and three different mixture gases)
+Esas malzeme
+
+800
+
+S1
+
+Gerilme (kg/mm2)
+
+700
+
+S2
+
+600
+
+S3
+
+500
+400
+300
+200
+100
+0
+1,00E+02
+
+1,00E+04
+
+ömür
+
+1,00E+06
+
+Şekil 7. SG2 teli ve 3 farklı gaz karışımı ile yapılan numunelerin yorulma dayanımlarının grafikleri
+(Diagrams of the fatigue resistance of the samples welded with SG2 wires and three different mixture gases)
+
+artmasıyla akma ve çekme dayanımlarının düştüğü ve
+% sünekliliğin arttığı görülür. Ar+CO2+O2’nin üçlü
+karışım gazı ile kaynak edilen numunelerde Argona
+ilave edilen O2+CO2 gazları belirli bir orandan sonra
+artması ile akma ve çekme mukavemetlerinde düşme
+% süneklilik miktarlarında artma görülür [24].
+
+774
+
+Koruyucu gaz içindeki aktif bileşenler (O2 ve CO2
+miktarları) fazla olduğunda kaynak metali içerisindeki
+O2 oranı artmakta, yüksek oranda O2’in elektroddaki
+Mn ve Si oranını azaltmaktadır. Çünkü Ar+CO2 gaz
+karışımı içindeki CO2 oranının artması ile ark voltajı
+ve toplam ısı girdisinin de yükseleceği, yüksek ısı
+girdisinin kaynak metalinin gaz-faz reaksiyonunu ve
+metalürjik yapısını da etkilemektedir. Bu etki ise
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+A. Işık
+
+Esas malzeme
+S1
+
+700
+Gerilme (kg/mm2)
+
+800
+
+S2
+
+600
+
+S3
+
+500
+400
+300
+200
+100
+0
+
+1,00E+02
+
+1,00E+04
+
+ömür
+
+1,00E+06
+
+Şekil 8. SG3 teli ve 3 farklı gaz karışımı ile yapılan numunelerin yorulma dayanımlarının
+grafikleri (Diagrams of the fatigue resistance of the samples welded with SG3 wires and three different mixture gases)
+mekanik dayanımının azalmasına neden olmaktadır
+[25].
+Karışımdaki CO2 oranlarının artması arkın
+kararlılığını azaltmakta ve sıçrama seviyesinin
+artmasına yol açmaktadır. Yorulma kırılmaları
+genelde yüzeyden başladığı için özellikle eğilme ve
+burulma zorlamalarında, yüzeylerin işlenme durumu,
+yorulma ömrünü önemli derecede etkilemektedir.
+Belirli bir ortalama gerilmede elemanın taşıyabileceği
+gerilme, şekil değiştirme, üst yüzey kalitesine
+bağlıdır. Pürüzlü yüzeyler çentik etkisi yapmakta ve
+yorulma dayanımını düşürmektedir [20]. Malzeme
+yüzeyinde yüzey pürüzlülüğü artıkça yorulma ömrü
+de buna bağlı olarak azalacaktır [17]. CO2 oranı fazla
+olan gaz karışımı ile MIG/MAG kaynağı yapıldığında
+sıçramaların fazla olmasından dolayı pürüzlü yüzey
+oluşturur ve bunlarda çentik etkisi yapar. Çentikte
+yorulma
+dayanımını
+düşürdüğünden
+dolayı
+80Ar+18CO2+2O2 gazı ile yapılan yorulma dayanımı
+değerleri de düşük çıkmıştır. Aynı zamanda koruyucu
+gazın bileşimi, dikiş mukavemetini, gözenek, erime
+karakteristiği ve alaşım elementlerinin denetimi
+açısından da etkileri vardır. Gözenek, dikiş
+özeliklerini olumsuz yönde etkileyerek kesit alanında
+bir kayba yol açar, bunun için uygun bir koruyucu gaz
+ya da gaz karışımının seçimi, gözeneklilik oranını
+etkili bir şekilde denetim altında tutabilir. Kullanılan
+koruyucu gazın bileşiminin doğru belirlenmesi ile
+erime hatalarının giderilmesi mümkün olur. Hassas
+olarak ve az miktarlarda O2 ve CO2 ilavesi ile kaynak
+banyosunun yüzey gerilimini azaltmakta mümkündür.
+Bu özeliklerin tümüde yapılan deney sonuçlarını
+doğrulamaktadır.
+
+en aktif metaller olan Ti ve Zr gibi metaller olduğunu
+belirtmiştir.. Bunun yanı sıra dikişin mukavemetinde
+önemli rol oynayan Si, Mn, Ni ve Al gibi
+elementlerinde kaybı söz konusudur. Koruyucu gaz,
+kaynak metalinin bileşimini dolayısıyla da katılaşan
+kaynak metalinin mikro yapısını da etkileyecektir.
+MIG/MAG kaynağında koruyucu gazın oksitleme
+potansiyeli arttırıldığında tokluk değerlerinde
+iyileşme sağlanabilmektedir [26].
+Argon oranı arttıkça parmak izi şeklindeki görünüm
+artmış buna karşın dikiş yüksekliği azalmıştır. Artan
+CO2 ve O2 oranıyla birlikte nüfuziyette genişleme ile
+birlikte kaynak profilinde de yükselme meydana
+gelmiştir. Nüfuziyet açısından en ideal karışımın
+argona 15-30CO2 ilavesinde görülmüştür. En iyi
+kaynak dikişi geometrisi O2 ilavesi yapılan
+karışımlarda görülmüştür. CO2’nin 30’lara çıkması
+sıçramayı arttırıp ark kararlılığını azaltmaktadır.
+Mekanik özelliklerin geliştirilebilmesi için argon
+ağırlıklı karışım gazlar kullanılmalıdır. Argon gazına
+katılan CO2 ve O2 arkın kararlılığını arttırmakta ve
+daha düzgün bir kaynak dikişi vermektedir [19].
+
+Bu çalışmada da CO2 oranı yüksek olan gaz
+karışımının (80Ar+18CO2+2O2) yorulma dayanımı
+diğer iki gaz karışımına göre düşük çıkmıştır.
+
+Argona katılan az miktardaki O2 kaynak bağlantısının
+mekanik özelliklerini iyileştirmektedir. Fakat O2
+çentik darbe dayanımını azda olsa olumsuz yönde
+etkilemektedir. Ayrıca Ar+CO2+O2 üçlü gaz
+karışımlarına katılan 5O2 kaynak metalinde mangan
+azalmasına yol açmaktadır [9]. CO2 gazının kaynak
+metalinde meydana getirdiği oksitlenme ve
+gözeneklilik büyük problem olmuştur. Bu yapıyı
+ortadan kaldırmak için kaynak teline mangan ve
+silisyum katılarak iyi sonuçlar alınmış, kaynağın
+mekanik özellikleri iyileştirilmiştir. CO2 korumalı
+kaynakta gözenek oluşumu ve sıçramaların
+azaltılması için kısa ark boyu ile kaynak tercih
+edilmiştir [27,28].
+
+bileşenler (O2 ve CO2
+olursa, ark sırasında
+elementi kaybı o denli
+etkilenen metallerin de
+
+Karışımdaki CO2 oranının azalması ile iyi bir
+nüfuziyet elde edilemez. Düşük CO2 içeren gaz
+karışımları yeterli ısıyı sağlayamaması nedeni ile
+banyoda argon hapsi ve azot çözülmesi meydana
+
+Koruyucu gaz içindeki aktif
+miktarları) ne kadar fazla
+oksidasyondan dolayı alaşım
+yüksek olduğunu ve en fazla
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+775
+
+A. Işık
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+getirir. Bu da kaynak dikişinin mekanik özelliklerini
+kötü yönde etkilemektedir [20]. Ayrıca Ar’a %12-15
+CO2 ilavesinin sertlikte çok az düşüşe neden
+olmaktadır [25]. Sertlik, yorulma dayanımına etki
+eden
+mekanik
+özelliklerinden
+biridir.
+Sert
+malzemelerin yorulma dayanımları, yumuşak
+malzemelere göre genelde yüksektir [20]. Bundan
+dolayı da yapılan yorulma dayanımı deneyleri
+sonucunda CO2 miktarı az olan gaz karışımının
+(93Ar+5CO2+2O2) yorulma dayanımı değerleri düşük
+çıkmıştır.
+Sertlik değerleri; SG2 elektrodu
+birleştirmelerde birbirine çok yakın
+edilmiştir. 80Ar+18CO2+2O2 gazı
+kaynakta sertlik değeri sadece kaynak
+az değerde yüksek çıkmıştır.
+
+ile yapılan
+değerler elde
+ile yapılan
+dikişinde çok
+
+SG3 elektrodu ile yapılan birleştirmelerde ise sertlik
+değerlerleri arasında pek farklılık görülmemiştir.
+Kaynaklı metal malzemede gaz karışımları yorulma
+özelliklerine etki edebilir. Yorulma dayanımı daha
+çok kaynağın geometrisine bağlıdır. Ayrıca yorulma
+dayanımı malzeme içinde oluşum oksit miktarı
+tarafından da etkilenir. CO2 yada O2 miktarı karşım
+gazda ne kadar çok artırılırsa metal kaynağında oksit
+miktarı o kadar artar Oksit malzemede yorulma
+çatlağının daha erken başlamasına neden olur [29].
+Şekil 7’de SG2 teli ile üç farklı gaz kullanılarak
+yapılan yorulma dayanımı deneyleri sonuçları çok
+büyük farklılık görülmemiştir. Üç farklı gaz karışımı
+ile yapılan birleştirmelerin yorulma dayanımları
+yüksek çıkan gaz karışımı 88Ar+10CO2+2O2 olduğu
+en düşük yorulma dayanımları ise 80Ar+18CO2+2O2
+olan gaz karışımından ortaya çıkmıştır. Burada artan
+CO2 gazının artması ile oksit miktarı artmıştır. Oksit
+miktarı da yorulmaya kötü etki ettiğinden dolayı
+80Ar+18CO2+2O2 gaz karışımının da yorulma
+dayanımı düşük çıkmıştır.
+Şekil 8’de SG3 teli ile üç farklı gaz kullanılarak
+yapılan yorulma dayanımı deneyleri sonuçları çok
+büyük farklılık görülmemiştir. Üç farklı gaz karışımı
+ile yapılan birleştirmelerin yorulma dayanımları
+yüksek çıkan gaz karışımı 88Ar+10CO2+2O2 olduğu
+en düşük yorulma dayanımları ise 80Ar+18CO2+2O2
+olan gaz karışımından ortaya çıkmıştır.
+Şekil 7 ve Şekil 8’deki verilere bakıldığında SG2 ve
+SG3 telleri ile üç farklı gaz kullanılarak yapılan
+yorulma dayanımları sonuçlarında SG3 teli ile yapılan
+yorulma dayanımı değerleri biraz daha yüksek
+çıkmıştır. Bunun nedeni ise SG3 telinin yapısında
+SG2 ye göre fazla bulunan mangan ve silisyum
+elementin verdiği mekanik özelliklerdir. SG3
+elektrodunda Mn ve Si elementleri fazla
+bulunmaktadır. Mn miktarının artması ile ısıdan
+etkilenen bölgede tane boyunun küçülmesi ile de
+mekanik özelliklerinin iyileşmesi görülmüştür. Mn ve
+
+776
+
+Si mekanik özelliklerin artmasına neden olmaktadır
+[18]. Kaynak metalinde alaşım elementleri kaybı ne
+kadar düşük ise mukavemet de o kadar artar [24].
+SG3 elektrodun mekanik özellikleri (çekme, akma ve
+uzama) SG2’den yüksektir. Yüksek olan bu
+değerlerde yorulma dayanımı deney sonuçlarına
+yansımıştır.
+4. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada, St52-3 yapı çeliğinin MIG/MAG
+kaynağında kullanılan farklı gaz karışımları ile
+birleştirilen
+kaynaklı
+numunelerin
+yorulma
+dayanımları ve sertlik özellikleri incelenmiş aşağıdaki
+sonuçlar elde edilmiştir;
+• İki farklı elektrod ve üç farklı gaz karışımları
+kullanılarak yapılan alın kaynaklı bağlantının yorulma
+dayanım değerleri esas metale göre düşük çıkmıştır.
+• SG2 ve SG3 elektrodları ile üç farklı gaz karışımı
+kullanılarak yapılan yorulma dayanımı değerinin
+88Ar+10CO2+2O2 karışım gazında yüksek çıktığı
+görülmüştür.
+• SG2 ve SG3 elektrodları ile üç farklı gaz karışımı
+kullanılarak yapılan kaynakların yorulma dayanımı
+değerleri karşılaştırıldığında SG3 elektrodu ile kaynak
+yapılan 88Ar+10CO2+2O2 karışım gazında yüksek
+çıktığı görülmüştür.
+• SG2 ve SG3 elektrodları ile yapılan farklı gaz
+karışımlarının sertlik değerlerine önemli oranlarda
+etki
+etmedikleri
+tespit
+edilmiştir.
+Fakat
+88Ar+10CO2+2O2 gaz karışımı ile yapılan kaynaklı
+birleştirmenin sertlik değeri diğerlerinden daha fazla
+çıkmıştır. Bu da bu malzeme ve bu bileşenlerdeki
+optimum sertlik değerini vermiştir.
+• Koruyucu
+gaz
+atmosferi
+altında
+yapılan
+kaynaklarda yorulma dayanımları ve sertlik
+özelliklerinin değişmesi kaynak atmosferinin gaz
+karışımlarının bir sonucu olduğu görülmüştür.
+TEŞEKKÜR (ACKNOWLEDGEMENTS)
+Bu çalışma Gazi Üniversitesi Bilimsel Araştırma
+Projeleri Birimince Desteklenmiştir.
+KAYNAKLAR (REFERENCES)
+1. Çelikağ, M., “Yapısal Çelik nedir?” Doğu
+Akdeniz Üniversitesi, İnşaat Müh. Böl. Kuzey
+Kıbrıs Türk Cumhuriyeti, 2002.
+2. Şık, A., “Yapı Çeliğinin (St 52-3) MIG/MAG
+Kaynağında Gaz Karışımlarının Çekme Dayanımı
+Özelliklerine Etkisi” Trakya Üniversitesi Fen
+Bilimleri Dergisi, Cilt 7, Sayı 1 2006.
+3. Pierre, E.R., “Shielding Gases For Welding”,
+Welding Design&Fabrication, USA March
+1987.
+4. Raoufı, F., “Parameter Optimization in
+MIG/MAG Welding Processes”, ODTÜ
+Metalurji Müh., Yüksek Lisans Tezi, Ankara,
+1994.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+MIG/MAG Kaynak Yöntemi İle Birleştirilen Çelik Malzemelerde İlave Tel Türleri ve Koruyucu…
+
+5. Kuna, J., “Effect of shielding gas mixture on the
+impact toughness of pulsed arc welded joints”,
+Tecnical University of Wroclaw, Poland, 1989.
+6. Svensson, L. E., Control Of Microstructures
+And Properties In Steel Arc Welds, CRC Pres,
+USA, 1994.
+7. Tülbentçi, K., “Eriyen Elektrod İle Gazaltı
+Kaynağında
+(MIG/MAG)
+Kaynak
+Parametrelerinin Seçimi”, Kaynak Dünyası
+Gedik Holding A.Ş., İstanbul, 1988.
+8. Hilton, D., “Shielding Gases For Metal Arc
+Welding”, Welding&Metal Fabrication, USA,
+1990.
+9. Kurşun, T., “Gazaltı kaynak tekniğinde
+kullanılan koruyucu gaz ve gaz karışımlarının
+19Mn6 kalite çeliğinin kaynatılmasında
+mekanik özelliklere etkisi ve tozaltı kaynağı ile
+karşılaştırması”, Erciyes Ünv. Fen Bil. Ens.,
+Yüksek Lisans Tezi, Kayseri 1998.
+10. Pilarczyk, J. And Szczok, E., “Properties Of Gas
+Mixtures Used In MAG Welding”, Welding
+International, 1994
+11. Erdemir Ürün Kataloğu, Ereğli Demir ve Çelik
+Fab., T.A.Ş., İstanbul, 2000
+12. EN 440, “Kaynak Sarf Malzemeleri- Alaşımsız ve
+İnce Taneli Çeliklerin Koruyucu Gaz Metal Ark
+Kaynağı İçin Tel Elektrotlar ve Yığılmış
+Kaynaklar- Sınıflandırma”, Ankara, 2002.
+13. EN 439, “Kaynak Sarf Malzemeleri- Ark Kaynağı
+ve Kesme İçin Koruyucu Gazlar”, Ankara, 1995
+14. AWS, “Sheet Metal Welding Code, American
+Welding Society”, American National Standart,
+ANSI/AWS”, Miami, 1990.
+15. EN
+25817
+“Çeliklerde
+Ark
+Kaynaklı
+Birleştirmeler-Kusurlar İçin Kalite Seviyeleri
+Kılavuzu”, EQV, 1992.
+16. EN 288-3, “Specification and Approval of
+Welding Procedures For Metallic Materials”,
+Europen Standard, 1997.
+17. Güleç, Ş., Aran, A., “Çelik ve Dökme
+Demirlerin Yorulma Dayanımı”, TÜBİTAK
+Marmara Bilimsel ve Endüstriyel Araştırma
+Enstitüsü, MBEAE Matbaası–Gebze, 1983.
+18. DIN 50 142, Flat Bending Fatigue Test Deutsche
+Normen, 1982.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 22, No 4, 2007
+
+A. Işık
+
+19. Gülenç, B., “MIG/MAG Kaynağında Koruyucu
+Gaz Karışımının Kaynak Metalinin Mekanik
+Özelliklerine Etkisi”, Gazi Üniversitesi Fen
+Bilimleri Enstitüsü, Doktora Tezi, Ankara, 1995.
+20. ŞIK, A., “Otomobil Saclarının MIG/MAG
+Kaynağında Gaz Karışımlarının Bağlantının
+Mekanik Özelliklerine Etkisi”, Gazi Üniversitesi
+Fen Bilimleri Enstitüsü, Doktora Tezi, 2002.
+21. Ertürk, İ., “MIG/MAG Kaynak Yönteminde
+Kaynak Parametrelerinin Sıçrama Kayıplarına
+Etkilerinin İncelenmesi”, Gazi Üniversitesi Fen
+Bilimleri Enstitüsü, Doktora Tezi, Ankara, 1994.
+22. Nil, R., “Materialen Voor Dunwandige
+Constructies/Vvoorlichtingsblad, Dunne Plaat
+Booglassen”,
+Nederland
+Instuut
+Voor
+Lastechniek, Nederland, 1987.
+23. Müftüoğlu, F.E., “Alaşımsız Çeliklerin Özlü
+Elektrodla Kaynağında Ar-CO2 Koruyucu Gaz
+Karışımlarının Kaynak Dikişine Etkisi Ve
+Optimum Gaz Karışımının Tayini”, Yıldız
+Teknik Üniversitesi, Fen Bil. Enstitüsü, Makina
+ABD, Yük. Lisans Tezi, İstanbul, 1997.
+24. Ateş, H., “MIG-MAG Kaynağında Kullanılan
+Argon Gazına O2 Ve CO2 İlavesinin Kaynak
+Metali Tokluğu Ve Mikroyapısına Etkisi”, Gazi
+Üniversitesi, Fen Bilimleri Enstitüsü, Yüksek
+Lisans Tezi, Ankara, 1996.
+25. Balraj, V., Rohira, K.L., “Srinivasamurty and
+Awamy, “Evaluation of Shielding Gas and Flux
+Composition Effects on Weld Bead Properties”,
+Int. J. For The Joining of Materials, Vol. 4 (2) ,
+1992.
+26. Okan, A.N., “Gazaltı Kaynak Yönteminde
+Koruyucu Gazlar”, Birleşik Oksijen Sanayi A.Ş.,
+İstanbul,1989
+27. AWS, “Sheet metal welding code, American
+Welding Society”, American National Standart,
+ANSI/AWS, Miami,1990
+28. Bozacı, M., “Gazaltı Kaynağında Kullanılan
+Koruyucu Gazlar Ve Uygulamadaki Yeri”,
+İstanbul Teknik Üniversitesi, Yüksek Lisans Tezi,
+İstanbul, 1990
+29. Uygur, İ.; Gülenç, B., “The Effect Of Shielding
+Gas Compositions For MIG Welding Process On
+Mechanical Behavior Of Low Carbon Steel”
+METABK, 43 (1) 35-40 2004
+
+777
+
+

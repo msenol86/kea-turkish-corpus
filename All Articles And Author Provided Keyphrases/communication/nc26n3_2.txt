@@ -1,0 +1,900 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 3, 515-521, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 3, 515-521, 2011
+
+TEK TAŞIYICILI WİMAX (IEEE 802.16-2004) RADYODA
+TAŞIYICI FREKANS KAYMASINI İZLEME BAŞARIMININ
+DENEYSEL OLARAK İNCELENMESİ
+Mehmet Akif İLKHAN*, Ahmet İhsan CANBOLAT** ve Ali ÖZEN*
+*
+
+Karadeniz Teknik Üniversitesi, Mühendislik Fakültesi, Elektrik-Elektronik Mühendisliği, TRABZON
+Yıldız Teknik Üniversitesi, Elektrik-Elektronik Fakültesi, Elektronik ve Haberleşme Mühendisliği,
+İSTANBUL
+makifilkhan@gmail.com, canbolat@yildiz.edu.tr, aliozen@ktu.edu.tr
+**
+
+(Geliş/Received: 11.05.2010; Kabul/Accepted: 29.04.2011)
+ÖZET
+Bu makalede, gerçek zaman WiMAX (IEEE 802.16-2004) radyo kanallarında klasik uyarlanır denkleştirme
+algoritmalarının taşıyıcı frekans kaymasını (carrier frequency offset, CFO) izleme başarımları simülasyon ve
+deneysel olarak değerlendirilmektedir. Belirli bir kanal profilini kullanma yerine bu çalışma 3,5 GHz WiMAX
+radyo çalışma bölgesinde frekans seçici Rayleigh sönümlemeli gerçek kanallar üzerine odaklanmaktadır.
+Çalışmada, en çok kullanılan denkleştirme teknikleri; en küçük ortalama kareler karar geri beslemeli
+denkleştirici (Least Mean Squares Decision Feedback Equalizer, LMS-DFE) ve öz yinelemeli en küçük kareler
+DFE (Recursive Least Squares, RLS-DFE) algoritmalarının bit hata oranı (Bit Error Rate, BER) başarımları
+incelenmektedir. Benzetim sonuçları simülasyon ve deneysel başarımların birbirleriyle son derece uyumlu ve
+gayet tatmin edici olduğunu göstermektedir.
+
+1.
+
+GİRİŞ
+
+(INTRODUCTION)
+
+WiMAX (Worldwide Interoperability for Microwave
+Access) teknolojisi uç kullanıcıya kablosuz geniş bant
+
+erişimini en ucuz şekilde sağlamayı amaçlamaktadır.
+Video ve ses iletimi, online oyun, video konferans, IP
+üzerinden ses (VoIP) ve dosya transfer protokolü
+(FTP) gibi uygulamalar band genişliği ve verimlilik
+
+M.A. İlkhan ve ark.
+
+Tek Taşıyıcılı WiMAX (IEEE 802.16-2004) Radyoda Taşıyıcı Frekans Kaymasını İzleme…
+
+gibi hizmet kalitesi (QoS) yönüyle önemli
+gereksinmeler duyarlar. Değişik veri yükü ve
+servislerini sağlayabilen mevcut kablosuz erişim
+teknolojilerini kırsal alanlarda ve en uzak kullanıcı
+erişiminde kullanmak oldukça pahalıdır. Daha çok ve
+çeşitli uygulamaları destekleyen kablosuz geniş bant
+erişimi için WiMAX teknolojisi uygun bir alternatif
+sunar [1–4].
+11 GHz.’in altında lisanslı ve lisanssız bantlarda geniş
+bantlı kablosuz metropol alan ağ (Metropolitan Area
+Network, MAN) standartları IEEE 802.16 (WiMAX)
+çalışma grubu, Avrupa telekomünikasyon standartları
+enstitüsü (European Telecommunications Standards
+Institute, ETSI), geniş bantlı radyo erişim ağı
+(Broadband Radio Access Network, BRAN) ve
+yüksek performanslı metropol alan ağ (High
+Performance MAN, HiperMAN) grubu tarafından
+geliştirildi [5, 6]. Standardın ilk evresinde, sabit
+kablosuz erişim için 11-66 GHz frekans bölgesi için
+tek taşıyıcılı (Single Carrier, SC) sistemler ve 11
+GHz.’in altındaki frekans bölgeleri için çok taşıyıcılı
+(Multi Carrier, MC) sistemler düşünüldü. IEEE
+802.16-2004 [5] ve IEEE 802.16e [6]’nin
+yayınlanmasıyla, standartların uygulamaları 11 GHz
+frekans bölgesinin altındaki sistemler ve gezgin
+kablosuz ağlar için SC haberleşme sistemlerine
+genişletildi. WiMAX standardı, SC ve MC
+sistemlerde yayılmış BPSK (Spread BPSK, S-BPSK),
+QPSK, 16-QAM, 64-QAM ve 256-QAM gibi sayısal
+modülasyon tekniklerinin oldukça geniş bir aralığını
+desteklemektedir [5].
+Bununla birlikte, herhangi bir kablosuz haberleşme
+sisteminde olduğu gibi, frekans seçici kanalın çok yol
+etkilerinden kaynaklanan semboller arası girişim
+(Inter Symbol Interference, ISI) gönderilen işaretin
+yayılma hızını ve güvenilirliğini azaltmaktadır. Bu
+problemi çözmek için en kolay yöntem MC
+sistemlerdir,
+ancak
+bu
+sistemlerin
+gezgin
+haberleşmede ortaya çıkan kanal takibi problemini
+çözme yetenekleri ve bant verimlilikleri düşük, verici
+yükselteçleri ise yüksek maliyetlidir [7]. Bu
+nedenlerle WiMAX standardına SC (IEEE 802.162004) sistemlerde ilave edilmiştir.
+Bu çalışmanın amacı 3.5 GHz frekans bölgesinde
+çalışan ve 20 MHz bant genişliğine sahip deneysel bir
+radyo seti oluşturarak WiMAX standardına tamamen
+uygun bir şekilde standartta belirtilen tek taşıyıcılı
+modülasyon türleri için taşıyıcı frekans kaymasının
+(Carrier Frequency Offset, CFO) olduğu durumlarda
+bit hata oranı (Bit Error Rate, BER) başarımlarını
+hem deneysel hem de simülasyon olarak elde
+etmektir. Çalışma, belirli bir kanal profilini ve
+yayılma modelini kullanma yerine gerçek ortamda
+frekans seçici Rayleigh sönümlemeli kanalların elde
+
+516
+
+edildiği ölçümlerden yararlanarak Monte-Carlo
+benzeri bir analizi deneysel olarak yapmayı
+amaçlamaktadır.
+Literatürde çeşitli standartlarda iletim kanalının
+özelliklerini belirlemeyi amaçlayan çok sayıda
+deneysel çalışma mevcuttur [8–10]. Yapılan bir çok
+çalışmada 3,5 GHz bölgesinde bina içinde ya da açık
+alanda
+kanalın
+toplam
+geciktirme
+miktarı
+belirlenmeye çalışılmıştır [11–13]. Bunun yanında,
+deneysel yoldan BER değerlerini elde etmeyi
+amaçlayan çalışmalardan biri Takai tarafından kanalın
+çok yolluluğuna dayanıklı bir modülasyon türü
+geliştirmek için yapılmıştır [14].
+SC sistemlerde ISI’yı yok etmek için etkin bir yol
+alıcıda uyarlanır kanal denkleştiriciler kullanmaktır.
+Literatür, tek taşıyıcılı sistemler için zaman bölgesi
+kanal denkleştiricileri bakımından seksenli yıllarda ve
+doksanlı yılların başlarında yapılan çalışmalarla
+oldukça zengindir [15–17]. Doksanlı yılların
+sonlarına doğru dikgen frekans bölmeli modülasyon
+(OFDM) tekniği iletişim endüstrisine tanıtıldığında,
+frekans bölgesi kanal denkleştirmenin işlem yükü
+düşük, sahip olduğu çevrimsel önekle (cyclic prefix,
+CP) sembol eş zamanlaması da daha basit
+bulunmuştur. Bununla birlikte OFDM’in uzun sembol
+süresinden dolayı gezgin iletişim sistemlerine
+uygulanabilirliği sınırlıdır ve daha yüksek işaret
+gürültü oranına (SNR) ihtiyaç duymaktadır. Örneğin;
+IEEE 802.11a ve HIPERLAN/I alıcıları için [17]’de
+verilen kanala göre benzetim yapıldığında 0,003 gibi
+bir bit hata oranına tek taşıyıcılı sistem 19-22dB
+civarlarında ulaşırken aynı BER oranına OFDM
+sistemi ancak 22-26dB civarlarında ulaşabilmektedir
+[18]. IEEE 802.16a standardı için benzeri bir sonuç
+Tubbax tarafından da elde edilmiştir [19]. Bunlara ek
+olarak, OFDM çok daha yüksek doğrusallıkta güç
+yükselteçlerine ihtiyaç duyar. Bu sebeplerle tek
+taşıyıcılı sistemler, performansı ve özellikleriyle
+kablosuz
+haberleşme
+endüstrisine
+yeniden
+tanıtılmalıdır.
+Deneysel çalışması yapılan WiMAX radyo sisteminin
+modeli 2. bölümde ayrıntılı olarak verilmektedir. 3.
+bölümde kanal denkleştirmeye ilişkin ortalama BER
+hesaplama işlemleri incelenmektedir. Son bolümde
+ise deneysel ve simülasyon çalışmaları ele alınarak
+elde edilen sonuçlar verilmektedir.
+2.
+
+DENEYSEL WiMAX RADYO DÜZENEĞİ
+(EXPERIMENTAL WiMAX RADIO SYSTEM)
+
+Çalışmada kullanılan deneysel WiMAX radio
+düzeneği Şekil 1’de gösterilmektedir. Şekilde
+gösterilen verici ünitesinde, daha önceden
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Tek Taşıyıcılı WiMAX (IEEE 802.16-2004) Radyoda Taşıyıcı Frekans Kaymasını İzleme…
+
+M.A. İlkhan ve ark.
+
+Şekil 1. Bina içi deneysel WiMAX radyo çalışma düzeneği (Indoor experimental WiMAX radio set) [20].
+bilgisayarda üretilen temel bant (baseband) işareti
+vektör işaret üretecine (E4438C ESG, 0-6 GHz.,
+Agilent)
+yüklenmektedir. İletimde temel bant
+filtreleme için kesme sabiti 0,35 olan Raised Cosine
+(RC) filtresi kullanılır. İşareti antene göndermeden
+önce IP1 ve IP3 güçleri sırayla 22 dBm ve 35 dBm
+olan Hittite Microwave tarafından üretilen
+HMC409LP4 doğrusal güç yükselteci kullanılır.
+Verici ve alıcıda yaklaşık olarak 9-10 dBi kazançlı ve
+60 derece açıklık açısına sahip biquad yönsel antenler
+kullanılmıştır.
+Verici tarafta, bilgisayar ortamında Microsoft Visual
+C ++ 6.0’da yazılan program ile uzun deneysel data
+dizisi Şekil 2’deki gibi hazırlanmaktadır. Data paketi
+IEEE 802.16-2004 Standardında tanımlandığı gibi
+([5]’teki Şekil 178’de gösterilen yapıda olup seçilen
+beş farklı modülasyon türü Tablo 175’te sıralanmıştır)
+alınmıştır. Alt veri paketlerinin her biri için veri
+olarak 2047 bit uzunluklu PN (Pseudo Noise)
+dizisinin 1912 biti alınır ve önce (255, 239, GF 28)
+Reed-Solomon kodlaması ile standarda uygun olarak
+kodlanır [5]. Blok serpiştiriciden geçirilen veri 1/2
+oranındaki evrişimsel kodlamaya (convolution code,
+
+Üretilen data vektör işaret üretecine kaydedilir ve
+20,48, 10,24, 5,12 ve 1,28 MSample/s sembol
+hızlarından biri ile peş peşe gönderilir. Bu çalışmada
+QPSK modüleli gönderilen işaret için 20,48
+MSample/s sembol hızı kullanılmıştır.
+İç Kodlayıcı
+
+Dış Kodlayıcı
+
+Giriş Datası
+2047 bit
+PN Generator
+
+CC) tabi tutularak kodlama yapılır [5]. Daha sonra,
+kodlanmış veriler I-Q eşlemeden (modülatör)
+geçirilerek istenen herhangi bir işaret yıldız kümesine
+(BPSK, QPSK, 16-QAM, 64-QAM ve 256-QAM)
+dönüştürülüp antene verilir. Bu çalışmada, Şekil 2’de
+gösterildiği gibi kodlayıcı çıkışında elde edilen 4080
+bitlik veri QPSK modülasyonuna tabi tutularak
+karmaşık sembollerden oluşan 2040 bit uzunluğunda
+veri dizisi kullanılmıştır. Hazırlanan dizi, alıcıda
+paket başını belirleme, kanalın profilini hesaplama ve
+benzeri işlemleri gerçekleyebilmek için 255 sembol
+QPSK modüleli PN (Pseudo Noise) dizisi ve ardından
+öğrenme ve kanal kestirimi için 64 sembol uzunluklu
+3 CAZAC (Constant Amplitude Zero Autocorrelation
+Code) dizisinden oluşmaktadır. Sonra, 2040
+uzunluklu QPSK modüleli sembollerden oluşan SC
+payload data dizisi data paketine yerleştirilir.
+
+1912 bit
+
+RS(255, 239, 28 GF)
+
+2040 bit
+
+Standard 2040 bit
+Blok
+Serpiştirici
+
+1/2
+Katlamalı
+Kodlayıcı
+
+4080 bit
+
+Modülasyon
+
+Comp.
+PN
+
+UWs
+
+QPSK
+
+Örnek
+Sayısı
+
+255
+
+3X64
+
+2040
+
+Şekil 2. Gönderilen data paket yapısı (Transmitted data packet structure).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+517
+
+M.A. İlkhan ve ark.
+
+Tek Taşıyıcılı WiMAX (IEEE 802.16-2004) Radyoda Taşıyıcı Frekans Kaymasını İzleme…
+
+Alıcı tarafta, deneysel WiMAX radyo alıcısı için
+kablosuz haberleşme çözümleyicisi (WCA380, 0-8
+GHz., Tektronix) kullanılmaktadır. Alınan temel bant
+işareti iletim bant genişliğine bağlı olarak 20,48,
+10,24,
+5,12 ve 1,28 MSample/s örnekleme
+frekanslarından biri ile örneklenmektedir (bu
+çalışmada 20,48 MSample/s frekansında örnekleme
+yapılmaktadır) ve 100 deneysel data dizisi boyunda
+dahi örnekler çözümleyicide kaydedilmektedir. CFO
+etkilerini incelemek için, alıcıda 3,45 GHz taşıyıcı
+merkez frekansı 15 kHz, 30 kHz ve 50 kHz
+kaydırılarak CFO içeren datalar örneklenmektedir. Bu
+örneklenmiş diziler temel bant işaret işleme ve BER
+hesaplamaları
+için
+bilgisayara
+yüklenir.
+Senkronizasyonu, denkleştirmeyi ve dekodlamayı
+içeren alıcı algoritması Microsoft Visual C ++ 6.0’da
+yazılan program ile gerçekleştirilir.
+
+çalışmalar için kullanışlı üç kriter bulunmaktadır [7,
+20]:
+1. Ölçüm noktaları arasında SNR farklılıkları
+olmaması için ızgaranın vericiden yeterince uzakta
+olması gerekmektedir.
+2. Ortalama başarım üzerinde büyük bir fark
+oluşturacak herhangi bir kanal olmaması için yeterli
+sayıda ölçüm noktası olmalıdır.
+3. Kanal profillerinin ilinti oluşturmaması için
+ölçüm noktaları bir diğerinden farklı olmalıdır ve
+ölçüm noktaları arasındaki SNR sınırını daha küçük
+tutmak için ölçüm noktalarının sayısı da sınırlanabilir.
+Bu yüzden ölçüm ızgarası 100 noktalı ve ölçüm
+noktaları arasındaki minimum mesafe 8,5 cm
+(yaklaşık olarak taşıyıcı dalga boyu) olarak seçildi.
+Ölçüm ızgarasının fiziksel yerleşimi Şekil 1’de
+gösterilmektedir.
+
+Alıcı algoritması deneysel data dizisinin başındaki PN
+dizisini kullanarak gönderilen data paketinin başını
+yakalamaktadır. İşaret gürültü oranının (Signal to
+Noise Ratio, SNR) kestiriminde kanalın gürültü
+gücünü hesaplamak için, 3,45 GHz.’de işaret
+gönderilmediği
+zaman
+(RF
+OFF)
+alıcıda
+demodülatörün çıkışında gürültü dizisi aynı
+örnekleme frekansı (20,48 MSample/s) ile örneklenir.
+Örneklenmiş gürültü dizisi, modüle edilmiş işaret
+gönderildiğinde alınan örneklenmiş data dizisi
+üzerindeki gürültüye benzerdir. Alınan datanın gücü
+örneklenmiş gürültü dizisinin gücüne bölünerek
+SNR’nin kestirimi elde edilmektedir [7, 8].
+
+4. SİMÜLASYON VE DENEYSEL SONUÇLAR
+
+PROCESS)
+
+Deneysel BER değerlendirme işlemi için, Şekil 1’de
+gösterildiği gibi bina içi ve bina dışı denemeler için
+10x10=100 noktalı ölçüm ızgarası kullanılmaktadır.
+Ölçüm ızgarasında her iki nokta arası 8,5 cm’dir.
+Deneysel çalışma için önerilen ızgara daha önce pek
+çok çalışmada sunulmuştur [8, 9] ve yalnızca kanal
+vuruş tepkesi için RMS ya da gecikme yayılmasını
+elde etmede kullanılmıştır. Bu çeşit deneysel
+
+518
+
+0.5
+0.4
+
+0
+1
+
+0.3
+
+2
+3
+
+0.2
+
+4
+
+0.1
+
+5
+6
+Deneysel Ölçüm Izgarasının İlk Satırı
+
+Kanal Katsayılarının Genliği
+
+0.6
+
+i
+ks
+de
+İn
+
+BER HESAPLAMA İŞLEMİ (BER AVERAGING
+
+0.7
+
+al
+D
+
+3.
+
+Benzetim (simülasyon) çalışmalarında, Proakis kanal
+profili [17], ortalama dal ağırlık katsayıları (0,227;
+0,460; 0,688; 0,460; 0,227) olan, 5 dallı Rayleigh
+kanal modeli kullanılmıştır. Hem benzetim
+çalışmalarında kullanılan kanalı hem de deneysel
+çalışmalardan ölçülen gerçek kanalları denkleştirmek
+için klasik LMS ve RLS algoritmaları ile 5 dallı ileri
+beslemeli süzgeç ve 4 dallı geri beslemeli süzgeçten
+oluşan
+karar
+geri
+beslemeli
+denkleştirici
+kullanılmıştır.
+
+al
+an
+K
+
+Alıcıda, ilk olarak, örneklenmiş her bir data dizisinde
+alınan işaret ve gürültü birim değere ayarlanarak
+alınan data üzerinde normalizasyon yapılmaktadır.
+Gönderilen datanın birim enerjiye sahip olduğu kabul
+edildiğinden kanal kestirimi ve denkleştirme
+algoritmaları gerçekleştirilirken normalizasyon işlemi
+en önemli adımlardan biridir. Klasik DFE için klasik
+LMS ve RLS algoritmaları kullanılmaktadır. SC data
+dizisini denkleştirmek için 5 dallı ileri beslemeli
+süzgeç ve 4 dallı geri beslemeli süzgeçten oluşan
+karar geri beslemeli denkleştirici kullanılmıştır.
+Monte Carlo benzetim programlarına benzer olarak
+BER değerlerinin deneysel değerlendirmesi için
+aşağıdaki bölümde açıklandığı gibi yapılan bir
+ortalama işlem gerekmektedir [7, 8].
+
+(SIMULATION AND EXPERIMENTAL RESULTS)
+
+0
+
+Şekil 3. Deneysel çalışmalarda ölçülen gerçek kanal
+vuruş tepkesi (An actual channel impulse response measured in
+experimental studies).
+
+Söz konusu algoritmalarla teorik ve deneysel BER
+başarımları ÖĞRENME ve İZLEME evresi
+kullanılarak elde edilmektedir. Öğrenme evresinde
+denkleştirici katsayılarını kestirmek için 384 (=6X64
+CAZAC)
+bit
+uzunluklu
+öğrenme
+dizisi
+kullanılmaktadır. İzleme evresinde ise 4080
+(=2X2040) bit data dizisi üzerinden CFO izlemesi
+gerçekleştirilerek BER hesabı yapılmaktadır. Bu
+makalede, deneysel ve simülasyon çalışmaları için
+hem öğrenme hem de izleme evresinde klasik LMS-
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Tek Taşıyıcılı WiMAX (IEEE 802.16-2004) Radyoda Taşıyıcı Frekans Kaymasını İzleme…
+
+DFE algoritmasının hem ileri besleme hem de geri
+besleme filtrelerini güncellemede kullanılan adım
+büyüklüğü [17]’de olduğu gibi 0,045 ve klasik RLSDFE algoritmasının unutma faktörü 0,999 alınarak
+bilgisayar benzetimleri yapılmıştır.
+Deneysel çalışmalarda elde edilen gerçek kanal
+ölçümlerine ait olan ortalama kanal vuruş tepkesi
+CFO etkileri yok iken Şekil 3’te ve 15 kHz’lik CFO
+etkisi var iken Şekil 4’te sırayla verilmektedir.
+
+M.A. İlkhan ve ark.
+
+olmadığı durumdaki başarım arasında 1E-3 BER
+değeri için yaklaşık olarak 8 dB’lik fark
+oluşmaktadır. Buna karşılık LMS algoritması ise
+yaklaşık olarak 1E-2 BER tabanına yakınsamaktadır.
+Deneysel ve simülasyon BER başarımları
+incelendiğinde, simülasyon başarımlarının deneysel
+başarımlardan daha iyi olduğu gözlenmektedir.
+Bunun nedeni simülasyon çalışmasında her kanal
+döngüsü için aynı kanal profili alınarak
+değerlendirme yapılırken deneysel çalışmalarda Şekil
+3 ve 4’ten de görüldüğü gibi her bir ölçümde kanal
+profili değişmektedir.
+
+30 kHz CFO
+
+1E-1
+
+0
+
+0.2
+
+1
+al
+an
+K
+
+2
+
+İ
+al
+D
+
+3
+
+0.1
+
+si
+ek
+nd
+
+4
+
+5
+6
+
+1E-2
+
+CFO
+Etkileri Yok
+
+1E-4
+Simülasyon
+Deneysel
+
+Şekil 4. Deneysel çalışmalarda 15 kHz CFO için
+ölçülen gerçek kanal vuruş tepkesi (An actual channel
+impulse response measured in experimental studies for 15 kHz
+CFO).
+
+Şekil 5, 6 ve 7’de klasik LMS ve RLS algoritmaları
+ile 15, 30 ve 50 kHz’lik CFO olması durumunda
+kanal denkleştirmeye ilişkin BER-SNR başarım
+eğrileri verilmiştir.
+
+15 kHz CFO
+
+1E-2
+
+LMS
+
+BER
+
+RLS
+
+1E-3
+
+0
+
+Deneysel Ölçüm Izgarasının İlk Satırı
+
+1E-1
+
+LMS
+
+BER
+
+0.3
+
+Kanal Katsayılarının Genliği
+
+0.4
+
+1E-5
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+SNR (dB)
+
+Şekil 6. WiMAX radyo sisteminde 30 kHz CFO için
+klasik LMS ve RLS-DFE ile kanal denkleştirmeye
+ilişkin BER başarımları (BER performances related to
+channel equalization with conventional LMS and RLS-DFE for 30
+kHz CFO in WiMAX radio system).
+
+2. Şekil 6’da 30 kHz’lik CFO olması durumunda elde
+edilen denkleştirici başarımları incelendiğinde, RLS
+algoritması ile CFO etkilerinin olmadığı durumdaki
+başarım arasındaki fark 1E-3 BER değeri için
+yaklaşık olarak 9 dB’ye çıkmaktadır. Buna karşılık
+LMS algoritması ise yaklaşık olarak 5E-2 BER
+tabanına yakınsamaktadır.
+
+RLS
+
+1E-3
+
+50 kHz CFO
+
+CFO
+Etkileri Yok
+
+1E-1
+
+1E-4
+Simülasyon
+
+1E-2
+
+1E-5
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+SNR (dB)
+
+Şekil 5. WiMAX radyo sisteminde 15 kHz CFO için
+klasik LMS ve RLS-DFE ile kanal denkleştirmeye
+ilişkin BER başarımları (BER performances related to
+channel equalization with conventional LMS and RLS-DFE for 15
+kHz CFO in WiMAX radio system).
+
+1. Şekil 5’te deneysel WiMAX radyo sisteminde
+CFO etkileri yokken ve 15 kHz’lik CFO olması
+durumunda elde edilen denkleştirici başarımları
+incelendiğinde, RLS algoritması ile CFO etkilerinin
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+LMS
+
+BER
+
+Deneysel
+
+RLS
+
+1E-3
+CFO
+Etkileri Yok
+
+1E-4
+Simülasyon
+Deneysel
+
+1E-5
+
+-5
+
+0
+
+5
+
+10
+
+15
+
+20
+
+25
+
+SNR (dB)
+
+Şekil 7. WiMAX radyo sisteminde 50 kHz CFO için
+klasik LMS ve RLS-DFE ile kanal denkleştirmeye
+ilişkin BER başarımları (BER performances related to
+channel equalization with conventional LMS and RLS-DFE for 50
+
+519
+
+M.A. İlkhan ve ark.
+
+Tek Taşıyıcılı WiMAX (IEEE 802.16-2004) Radyoda Taşıyıcı Frekans Kaymasını İzleme…
+
+kHz CFO in WiMAX radio system).
+
+3. Şekil 7’de 50 kHz’lik CFO olması durumunda elde
+edilen denkleştirici başarımları incelendiğinde, RLS
+algoritması ile CFO etkilerinin olmadığı durumdaki
+başarım arasında 1E-3 BER değeri için yaklaşık
+olarak 16 dB’lik fark oluşmaktadır. Buna karşılık
+LMS algoritması ise yaklaşık olarak 1E-1 BER
+tabanının biraz altına yakınsamaktadır.
+Elde edilen bu simülasyon ve deneysel çalışmalardan
+da görüldüğü gibi, RLS algoritması ile 50 kHz’lik
+CFO olması durumunda bile CFO izlemesi hem
+deneysel
+hem
+de
+simülasyon
+olarak
+yapılabilmektedir. Bununla birlikte, LMS algoritması
+ile CFO izlemesi yapılamadığı ortaya çıkmaktadır.
+Bundan dolayı, hesaplama karmaşıklığını arttırmadan
+LMS algoritmasının başarımını artıracak yeni
+algoritmalara ihtiyaç duyulmaktadır.
+
+4.
+
+5.
+
+8.
+
+SONUÇ
+
+(CONCLUSION)
+
+Bu makalede, tek taşıyıcılı WiMAX radyo sisteminde
+QPSK modülasyonunu kullanarak CFO etkilerini
+incelemek için deneysel ve simülasyon çalışmaları
+yapılmıştır. Çalışmada, benzetimlerde kullanılan
+belirli bir kanal profili (5 dallı Proakis kanal profili)
+ile gerçek ortamda frekans seçici Rayleigh
+sönümlemeli kanalların elde edildiği ölçümlerden
+yararlanarak alıcıda klasik LMS-DFE ve RLS-DFE
+gibi denkleştirme algoritmalarının BER başarımları
+hem deneysel hem de simülasyonla karşılaştırmalı
+olarak elde edilmiştir. Elde edilen benzetim
+sonuçlarından RLS algoritması ile CFO izlemesi
+yapılabildiği ancak LMS algoritması ile CFO
+izlemesinin yapılamadığı anlaşılmıştır. Elde edilen
+deneysel ve simülasyon sonuçlarının birbirleriyle son
+derece uyumlu ve gayet tatmin edici olduğu
+gözlenmiştir.
+6.
+
+TEŞEKKÜR (ACKNOWLEDGMENT)
+
+5.
+6.
+7.
+
+9.
+
+10.
+
+11.
+
+12.
+
+Yazarlar, KTÜ DSP Laboratuarı öğretim üyelerinden
+İsmail Kaya’ya çok değerli katkıları, yorumları ve
+önerileri için teşekkür eder.
+7. KAYNAKLAR
+1.
+
+2.
+
+3.
+
+520
+
+(REFERENCES)
+
+Ghosh, A., Wolter, D.R., Andrews, J.G., Chen,
+R.,
+“Broadband
+wireless
+access
+with
+WiMAX/802.16:
+current
+performance
+benchmarks and future potential”, IEEE
+Communications Magazine, Vol. 43, Issue 2,
+129-136, Feb. 2005.
+Ahmadi, S., “An overview of next-generation
+Mobile
+WiMAX
+technology”,
+IEEE
+Communications Magazine, Vol. 47, No. 6, 8498, June 2009.
+Juan, H., Hsiang, -C., “Scalable Video Streaming
+over Mobile WiMAX”, IEEE International
+Symposium on Circuits and Systems, ISCAS
+
+13.
+
+14.
+
+15.
+16.
+
+2007, 3463-3466, 27-30 May 2007.
+Intel White Paper, “Wi-Fi and WiMAX
+Solutions: Understanding Wi-Fi and WiMAX
+as Metro-Access Solutions,” Intel Corporation,
+2004.
+Air Interface for Fixed Broadband Wireless
+Access Systems, IEEE Standard 802.16-2004,
+2004.
+Air Interface for Fixed and Mobile Broadband
+Wireless Access Systems, IEEE Standard
+802.16e/D10, 2005.
+Kaya, I., Türk, K., Baltacı, Y., “Experimental
+BER Performance Evaluation of OFDM and
+Single Carrier Transmissions in Real-Time
+WIMAX Radio”, IEEE 18th International
+Symposium on Personal, Indoor and Mobile
+Radio Communications, PIMRC 2007, Athens,
+Greece, 1 – 5, 3-7 Sept. 2007.
+Hashemi, H., “The indoor radio propagation
+channel”, Proceedings of the IEEE Vol. 81,
+Issue 7, 943 – 968, July 1993.
+Rappaport, T.S., Seidel, S.Y., Takamizawa, K.,
+“Statistical channel impulse response models for
+factory and open plan building radio
+communicate
+system
+design”,
+IEEE
+Transactions on Communication, Vol. 39,
+Issue 5, 794 – 807, May 1991.
+Saleh, A., Valenzuela, R., “A Statistical Model
+for Indoor Multipath Propagation”, IEEE
+Journal
+on
+Selected
+Areas
+in
+Communications, Vol. 5, Issue 2, 128 – 137,
+Feb 1987.
+Porter, J.W., Lisica, I., Buchwald, G., “Wideband
+Mobile Propagation Measurements at 3.7 GHz in
+an Urban Environment”, IEEE Antennas and
+Propagation
+Society
+International
+Symposium, Vol. 4, 3645 – 3648, 20-25 June
+2004.
+Ciccognani, W., Durantini, A., Cassioli, D.,
+“Time Domain Propagation Measurements of the
+UWB Indoor Channel Using PN-Sequence in the
+FCC-Compliant Band 3.6–6 GHz”, IEEE
+Transaction on Antennas and Prropagation,
+Vol. 53, No. 4, 1542 – 1549 April 2005.
+Abdi, A., Wills, K., Barger, H.A., Alouini, M.-S.,
+Kaveh, M., “Comparison of the level crossing
+rate and average fade duration of Rayleigh, Rice
+and Nakagami fading models with mobile
+channel data”, IEEE 52nd Vehicular
+Technology Conference, VTS-Fall VTC 2000,
+Vol. 4, 1850 – 1857, 24-28 Sept. 2000.
+Takai, H., “In-Room Transmission BER
+Performance of Anti-Multipath Modulation PSKVP”, IEEE Transaction on Vehicular
+Technology, Vol. 42, No. 2, 177-185, May 1993.
+Haykin, S., Communication systems, John
+Wiley and Sons, Third Edition, 1994.
+Tellado-Mourelo, J., Wesel, E.K., Cioffi, J.M.,
+“Adaptive DFE for GMSK in indoor radio
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Tek Taşıyıcılı WiMAX (IEEE 802.16-2004) Radyoda Taşıyıcı Frekans Kaymasını İzleme…
+
+channels” IEEE Journal on Selected Areas in
+Communications, Vol. 14, Issue 3, 492 – 501,
+April 1996.
+17. Proakis, J.G., Digital Communications, Fourth
+Edition, McGraw-Hill Co., Singapore, 2001.
+18. Soysal, B., “High Performance Receiver
+Design
+for
+OFDM
+based
+Wireless
+Communications”, PhD Thesis, Karadeniz
+Technical University, Trabzon, October 2004.
+19. Tubbax, J., Van der Perre, L., Engels, M., De
+Man, H., Moonen, M., “OFDM versus Single
+Carrier: A Realistic Multi-Antenna Comparison”,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+M.A. İlkhan ve ark.
+
+EURASIP Journal on Applied Signal
+Processing, 1275–1287, 2004.
+20. Özen, A., Güner, A., Çakır, O., Tuğcu, E.,
+Soysal, B., Kaya, İ., “Tek Taşıyıcılı Gerçek
+Zaman
+WiMAX
+Radyo
+İçin
+Kör
+Uyarlanır
+Denkleştirme
+Algoritmalarının
+Deneysel
+Başarımları”, IEEE SİU 2009 17. Sinyal İşleme
+ve İletişim Uygulamaları Kurultayı, Antalya,
+472-475, 9-11 Nisan 2009.
+
+521
+
+

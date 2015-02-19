@@ -1,0 +1,1072 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 3, 581-589, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 3, 581-589, 2011
+
+AISI304 ÇELİKLERİN TORNALANMASINDA EP KATKILI
+KARMA BİTKİSEL ESASLI KESME SIVILARININ
+PERFORMANSI
+M. Hüseyin ÇETİN ve Babür ÖZÇELİK
+Mühendislik Fakültesi, Makine Mühendisliği Bölümü, Gebze Yüksek Teknoloji Enstitüsü, 41400,
+Gebze/Kocaeli
+cetin-endustri@hotmail.com, ozcelik@gyte.edu.tr
+(Geliş/Received: 06.10.2010; Kabul/Accepted: 06.04.2011)
+ÖZET
+Bu çalışmada, ayçiçek ve kanola yağından formüle edilen % 8 ve 12 EP katkılı iki tip karışım bitkisel esaslı ve
+bir tip ticari (mineral) kesme sıvılarının performansları yüzey pürüzlülüğü (Ra), tornalama kuvveti (Fc ve Ff) ve
+takım aşınması (VC and VB) yoluyla araştırıldı. Deneyler karbür takma uçlu kesiciyle AISI 304 çeliğin
+tornalanması yoluyla gerçekleştirildi. İşleme parametreleri olarak; devir sayısı, ilerleme miktarı ve kesme
+derinliği belirlendi. Kesici kenar yanal yüzey aşınması 0,2-0,6 mm aralığında alındı. Genel olarak deney
+sonuçları, geliştirilen bitkisel esaslı kesme sıvılarının kuvveti, takım aşınmasını ve yüzey pürüzlülüğünü
+azaltmadaki performansının referans olarak kullanılan ticari kesme sıvısından daha iyi olduğunu gösterdi.
+
+sürtünme ve yüksek sıcaklıklar takım aşınmasını,
+1. GİRİŞ (INTRODUCTION)
+kesme kuvvetlerini artırmakta, yüzey kalitesini
+düşürmektedir.
+Modern
+malzemelerin
+talaşlı
+Talaşlı imalat endüstrisinde sanayi devriminden sonra
+imalatında metal kesme sıvıları imalat verimliliğinin
+büyük ilerlemeler meydana gelmiştir. Bu gelişmeler
+artırılması açısından büyük önem taşımaktadır.
+modern malzemeler olarak adlandırılan paslanmaz
+Kesme sıvılarının yağlama, soğutma ve kaynağı
+çelikler, titanyum alaşımları ve kompozit malzemeler
+önleme fonksiyonları, kesme bölgesinde oluşan
+gibi kesilmesi zor malzemelerin işlenebilirliğini
+sıcaklığı ve sürtünmeyi azaltacağı için takım ömrü ve
+kolaylaştırmıştır [1]. Yüksek sertlik ve yüksek
+yüzey kalitesi artacak, tornalama kuvvetleri
+deformasyon sertleşmesine sahip bu malzemelerin
+azalacaktır. Ayrıca kesme sıvılarının iş parçasını
+talaşlı imalatında kesme bölgesinde oluşan gerilim,
+geçici olarak oksidasyona ve korozyona karşı
+
+M. H. Çetin ve B. Özçelik
+
+korumaları mühendislik
+arttırmaktadır.
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+açısından
+
+önemlerini
+
+Metal kesme endüstrisinde kullanılan kesme sıvıları
+mineral esaslı, sentetik - yarı sentetik esaslı ve bitkisel
+esaslı olarak sınıflandırılabilir. Petrolün rafine
+edilmesiyle elde edilen mineral yağlar ve laboratuar
+ortamında üretilen sentetik ve yarı sentetik yağlar
+günümüz
+endüstrisinde
+yoğun
+olarak
+kullanılmaktadır. Ekolojik çevrime hava, toprak ve su
+kanalıyla karışan madeni yağ esaslı kesme sıvıları
+içerdikleri hidrokarbonlar dolayısı ile canlı varlığına
+zarar vermektedir [2]. Metal kesme sıvılarının
+olumsuz etkilerinden birincil derecede etkilenenler ise
+sürekli sıvılarla temas halinde olan makine
+operatörleridir. Özellikle talaşlı imalatta ortam
+ısısından dolayı buharlaşan kesme sıvıları ve mikro
+partiküller olarak çalışma ortamına yayılan sıvılar
+ciddi akciğer, solunum yolları rahatsızlıklarına,
+dermatolojik ve kalıtsal rahatsızlıklara sebebiyet
+vermektedir [3]. Olumsuz etkilerinden dolayı mineral
+ve sentetik yağlar yerine kaynakları tükenmeyen,
+biyolojik olarak parçalanabilen bitkisel esaslı kesme
+sıvılarının metal kesme işlemlerinde kullanılabilirliği
+üzerine çalışmalar yapılmaktadır [4-15]. Bitkisel
+esaslı yağların oksidatif ve termal kararlılıklarının
+düşük olması endüstriyel olarak kullanımlarını
+kısıtlamasına rağmen, kimyasal olarak emülsifiyer ve
+EP (aşırı basınç) katkı maddeleriyle oluşturulan
+kesme sıvısı formülasyonları mineral ve sentetik
+yağlara oranla düşük sürtünme katsayısı oluşumu,
+sınır yağlamada artan yük taşıma kapasitesi ve
+korozyona karşı direnç gösterme açısından daha
+yüksek performansa sahip olmaktadır [16].
+Talaşlı imalatta yüzey pürüzlülüğü ve takım aşınması
+imalat
+verimliliğini
+etkileyen
+en
+temel
+faktörlerdendir. Birbirleriyle temas halinde çalışan
+makine parçalarının istenilen işlevi uzun süreli ve
+minimum enerji harcayarak gerçekleştirmesi yüzey
+pürüzlülüğüne dolayısıyla takım aşınmasına bağlıdır.
+Kesme sıvıları soğutma fonksiyonları ile kalıcı
+gerilmeleri azaltarak boyutsal hassasiyeti sağlarken,
+yağlama fonksiyonları ile kesme bölgesinde bir sınır
+tabaka oluşturarak yüzey pürüzlülük kalitesinin
+artmasını ve takım aşınmalarının azalmasını
+sağlamaktadırlar. Xavior ve Adithan [4] yaptıkları
+çalışmada AISI 304 östenitik paslanmaz çeliklerinin
+karbür takımlarla işlenmesinde, bitkisel ve mineral
+kesme sıvılarının takım aşınması ve yüzey
+pürüzlülüğü üzerine etkilerini araştırmışlardır.
+ANOVA sonuçlarına göre kesme sıvılarının yüzey
+pürüzlülüğü (%14,29) ve takım aşınması (%4,65)
+üzerine dikkate değer etkileri olduğu tespit edilmiştir.
+Hindistan cevizi yağının kullanılan mineral yağlara
+oranla takım aşınmasını ve yüzey pürüzlülüğünü
+
+582
+
+azaltmada daha iyi bir kesme sıvısı olduğu
+belirlenmiştir. Ozcelik ve ark. [5] yaptıkları çalışmada
+AISI 304 paslanmaz çeliklerin delinmesinde
+ayçiçeğinden geliştirilmiş iki farklı kesme sıvısı ve
+ticari esaslı iki kesme sıvısının (yarı sentetik ve
+mineral esaslı) yüzey pürüzlülüğü üzerindeki etkisini
+araştırmışlardır. Taguchi deney tasarımı ile bitkisel
+esaslı kesme sıvıları için optimum yüzey pürüzlülük
+değerleri elde edilmiştir. Bitkisel esaslı kesme
+sıvılarının yüzey kalitesi açısından ticari kesme
+sıvılarından daha iyi performans verdiği görülmüştür.
+Metal kesme işleminde malzemenin işlenmeye karşı
+gösterdiği direnç kesme kuvvetlerini meydana getirir.
+Talaş kaldırma işlemi esnasında oluşan kesme
+kuvvetleri ısı oluşumu, takım ömrü, işlenen yüzeyin
+kalitesi ve iş parçasının boyutları üzerinde önemli bir
+etkiye sahiptir [17]. Belluco ve Chiffre’nin [6] yaptığı
+çalışmada klasik HSS-Co matkap kullanılarak AISI
+316L östenitik paslanmaz çelik delinirken 6 farklı
+kesme sıvısının takım ömrü, takım aşınması, kesme
+kuvveti
+ve
+talaş
+şekline
+olan
+etkileri
+değerlendirilmiştir. Referans ürün olarak mineral
+esaslı ticari kesme sıvısı kullanılmış ve farklı katkı
+seviyelerinde formüle edilmiş 5 adet bitkisel esaslı
+kesme sıvısı test edilmiştir. Bitkisel esaslı kesme
+sıvılarının kullanılmasıyla takım ömründe %177 artış
+ve itme kuvvetinde %7 azalma sağlanmıştır. Kuram
+ve diğerleri [7] yaptıkları çalışmada AISI 304
+paslanmaz çeliklerin frezelenmesinde ayçiçeği ve
+kanola yağından geliştirilmiş iki farklı kesme sıvısı ile
+ticari esaslı yarı sentetik kesme sıvısının kesme
+kuvvetleri ve takım aşınması üzerindeki etkisini
+araştırmışlardır. Ayçiçeği yağından geliştirilmiş
+kesme sıvısının takım aşınmalarını azaltmada referans
+sıvıya göre daha yüksek performans gösterdiği, kesme
+kuvvetleri açısından bitkisel esaslı kesme sıvılarının
+daha performanslı olduğu belirlenmiştir. Kuram ve
+diğerleri [8] rafine ayçiçek yağından geliştirilen
+bitkisel yağlar (ham ve rafine) ile bitkisel ve mineral
+esaslı endüstriyel metal kesme yağlarının 304
+paslanmaz çelik malzeme üzerinde delme test
+sonuçlarını incelemişlerdir. En düşük ilerleme kuvveti
+değerleri ayçiçeği esaslı kesme sıvısının kullanıldığı
+deneylerde, en düşük yüzey pürüzlülüğü değerleri ise
+ticari bitkisel kesme sıvısının kullanıldığı deneylerde
+elde edilmiştir.
+Bitkisel esaslı kesme sıvılarının talaşlı imalatta
+kullanılabilirliğini arttırmak için emülsifiyerler, EP
+katkıları, pH düzenleyiciler, korozyon ve koku
+önleyiciler, parlama noktası yükselticiler gibi katkılar
+kullanılmaktadır. EP katkıları ve emülsifiyerler
+doğrudan imalat performansına etki ederken diğer
+katkı maddeleri kesme sıvısını kimyasal olarak
+düzenleyici etki göstermektedir. Jayal ve Balaji [18]
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+M. H. Çetin ve B. Özçelik
+
+AISI 1045 malzemenin tornalamasında EP katkısının,
+minimum miktarda yağlamanın (MQL), kuru kesme
+şartlarının ve sürekli akış halinde kesme sıvısı
+kullanımının takım aşınması üzerindeki etkisini
+incelemişlerdir. En uzun takım ömrü sürekli akış
+halinde kesme sıvısının kullanımıyla elde edilmiş, en
+kısa takım ömrü ise EP katkılı MQL yönteminin
+uygulandığı deney şartlarında ölçülmüştür. EP katkı
+maddelerinin yüzeyle reaksiyona girmesi takım
+ömrünü olumsuz etkilemiştir. Srikant ve ark. [19]
+emülsifiyer katkısının imalat verimliliğine etkisini
+incelemişler, verimlilik kriteri olarak sıcaklık, kesme
+kuvvetleri, takım aşınması ve yüzey pürüzlülüğü
+ölçmüşlerdir. Emülsifiyer oranının artışının bütün
+performans kriterlerinde verimliliği arttırdığı,
+%15’den fazla emülsifiyer oranının ise performansa
+etki etmediği görülmüştür.
+Bu çalışmada farklı EP oranlarında ayçiçeği ve kanola
+yağlarından karma olarak geliştirilmiş bitkisel esaslı
+kesme sıvılarının AISI 304 östenitik paslanmaz çelik
+malzemenin
+tornalanmasındaki
+performansı
+araştırılmıştır. Referans olarak ticari mineral kesme
+sıvısı kullanılmış, ayrıca kuru kesme şartlarında
+tornalama
+deneyleri
+yapılmıştır.
+Performans
+karşılaştırması için kesme kuvvetleri, yüzey
+pürüzlülük değerleri ve takım aşınmaları ölçülmüştür.
+2.DENEY TASARIMI (EXPERIMENTAL DESIGN)
+Bitkisel esaslı kesme sıvılarının performans deneyleri
+Tezsan marka 7,5 kw ana motor gücünde üniversal
+torna tezgâhında gerçekleştirilmiştir. Deneylerde Iscar
+firmasına ait DCMT 11T304-SM IC907 kesici uç ve
+mekanik tespit sistemli SDJCR 2525M-11 takım
+tutucu kullanılmıştır. Kesme bölgesindeki sürtünme
+kuvvetlerini azaltmak ve takım ömrünü artırmak için
+titanyum nitrür (TiN) kaplamalı sinterlenmiş metal
+karbür uç ile tornalama yapılmıştır. TiN yağlayıcı
+etkisi ile kesme bölgesinde sürtünme katsayısını ve
+talaşın takıma yapışma eğilimini azaltır [17]. Her bir
+kesme sıvısının performans analizi için; devir sayısı,
+kesme derinliği ve ilerleme hızından oluşan kesme
+
+parametreleri sabit değerlerde alınmıştır ve deneyler
+kuru kesme şartlarında gerçekleştirilmiştir (Çizelge
+1). Kuvvet ve yüzey pürüzlülüğü verileri her
+tornalama işleminde, takım aşınmaları ise ilk 4
+tornalama işleminden ve ilk 4 işlemden sonra her 4
+kez boyuna tornalama işleminden sonra ölçülmüştür.
+Çizelge 1. Performans deneyleri için kesme
+parametreleri (Cutting parameters for performance experiments)
+Kesme sıvısı türü
+
+Devir sayısı
+(dev/dak)
+
+İlerleme
+(mm/dev)
+
+500
+
+0,22
+
+BCF-II (%8 EP)
+BCF-II (%12 EP)
+CMCF
+KURU KESME
+
+Kesme
+derinliği
+(mm)
+1,00
+
+Deneylerde kullanılan yüksek krom ve nikel
+muhtevasına sahip AISI 304 paslanmaz çelikler diğer
+karbonlu veya alaşımlı çeliklerden daha yüksek
+sünekliğe ve daha düşük ısıl iletkenliğe sahiptir. Bu
+nedenle talaş kaldırmak için gerekli olan yüksek
+enerji, talaşlarla birlikte iş parçasından uzaklaşmak
+yerine kesme bölgesinde hapsolur [20].
+Kesme bölgesinde oluşan ısının uzaklaştırılması ve
+takım ömrünün artırılması için kesme sıvılarının
+kullanılması gerekmektedir. Çizelge 2’de bitkisel
+kesme sıvılarının analizi için kullanılan 350 HV
+sertlik değerindeki AISI 304 östenitik paslanmaz
+çeliğinin kimyasal analizinden elde edilen sonuçlar
+verilmiştir.
+Deneyler için 40 mm çapında ve 300 mm boyunda 10
+adet çubuk malzeme kullanılmıştır. Deney
+malzemeleri TS 10329 göz önünde bulundurularak
+boy/çap oranı 10/1’den küçük olacak şekilde
+hazırlanmıştır.
+Deneyler
+sonucunda
+işlenmiş
+yüzeylerin pürüzlülük ölçümü, Mitutoyo Surftest SJ
+301 tipi portatif yüzey pürüzlülük ölçüm cihazı ile
+gerçekleştirilmiştir. Yüzey pürüzlülüğü ölçümlerinde
+örnekleme uzunluğu (cut-off) 0,8 mm ve örnekleme
+sayısı 5 olarak seçilmiştir.
+
+Çizelge 2. AISI 304 paslanmaz çeliğin kimyasal kompozisyonu (Chemical composition of AISI304 austenitic steel)
+(% Ağırlık) SERTLİK:350 HV Çap: 40 mm Boy: 300 mm
+C
+
+Si
+
+Mn
+
+P
+
+S
+
+Cr
+
+Ni
+
+Mo
+
+Al
+
+0.068
+
+0,487
+
+1,56
+
+0,0027
+
+0,025
+
+18,21
+
+7,54
+
+0,348
+
+0,0031
+
+Cu
+
+Co
+
+Ti
+
+Nb
+
+V
+
+W
+
+Pb
+
+Mg
+
+B
+
+0.52
+
+0,129
+
+0,0048
+
+0,024
+
+0,068
+
+0,05
+
+0,025
+
+0,019
+
+0,0024
+
+Sn
+
+Zn
+
+As
+
+Bi
+
+Ca
+
+Ce
+
+Zr
+
+La
+
+Fe
+
+0.03
+
+0,029
+
+<0,001
+
+<0,002
+
+0,0007
+
+0,021
+
+0,0062
+
+0,0029
+
+70,8
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+583
+
+M. H. Çetin ve B. Özçelik
+
+Her bir talaş kaldırma işleminden sonra parçanın 6
+farklı noktasından yüzey pürüzlülüğü ölçümü alınmış
+ve ölçülen 6 değerin ortalaması alınarak analiz
+edilmiştir. Yüzey pürüzlülüğünün 6 noktadan
+alınmasının sebebi örnek hacmini geniş tutarak ideal
+değerden sapmayı minimize edebilmektir. Kesme
+kuvvetleri KISTLER 9257B tipi dinamometre ve
+KISTLER 5070A11100 tipi amplifikatör kullanılarak
+ölçülmüştür. Dinamometre ile ölçülen kuvvet
+değerleri DynoWare yazılımı kullanılarak grafiksel
+olarak kaydedilmiştir. Her bir boyuna tornalama
+işlemi sırasında elde edilen kuvvetlerin ortalaması
+alınarak, o işlem için kuvvet değeri belirlenmiştir.
+Kesme kuvvetlerine ait yönler Şekil 1’de
+dinamometre üzerinde görülmektedir.
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+Takım aşınması ölçümünde yan kesici kenar aşınması
+ve burun aşınması olmak üzere iki farklı aşınma
+ölçülmüştür. Aşınmalar Nikon SMZ800 Stereo
+mikroskopta ölçülmüş, 50x büyütme ile görüntüleme
+yapılmıştır. Kesme sıvıları tek nozullu sistem
+kullanılarak, kesme bölgesine 75 derecelik açı ile
+püskürtülmüştür. Kesme sıvısı bütün deneylerde
+kesme bölgesine 6 lt/dak. debi ile uygulanmıştır. Şekil
+2’de deney düzeneği kurulumu ve kesme sıvısının
+kesme bölgesine uygulanışı şematik olarak
+gösterilmiştir [14].
+2.1 Bitkisel Esaslı Kesme Sıvıları
+(Vegetable based cutting fluids)
+Deneysel çalışmalarda 3 çeşit kesme sıvısı
+kullanılmıştır. Bunlardan 2 tane bitkisel esaslı kesme
+sıvısı TÜBİTAK projesi kapsamında geliştirilmiş
+sıvılardır. Diğer kesme sıvısı ise ticari olarak
+konsantre halinde temin edilmiştir. Ticari mineral
+esaslı kesme sıvısı referans sıvı olarak düşünülmüştür.
+Deneylerde kullanılan kesme sıvılarının özellikleri
+Çizelge 3’te gösterilmiştir. Deneylerde kullanılan
+kesme sıvıları:
+
+Şekil 1. KISTLER 9257B dinamometre (KISTLER
+9257B dynamometer)
+•
+BCF-II %8 EP : %25 kanola yağı + %25 ayçiçek yağı + %22,5 surfaktant 1 + %13 surfaktant 2 + %8
+EP katkısı + %6,5 korozyon önleyici
+•
+BCF-II %12 EP : %25 kanola yağı + %25 ayçiçek yağı + %22,5 surfaktant 1 + %13 surfaktant 2 + %12
+EP katkısı + %2,5 korozyon önleyici
+•
+CMCF : Ticari mineral esaslı kesme sıvısı
+
+Şekil 2. Deney düzeneğinin şematik gösterimi (Schematic presentation of experimental set-up)
+
+584
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+M. H. Çetin ve B. Özçelik
+
+Çizelge 3. Kesme sıvılarının özellikleri [14] (Properties of cutting fluids)
+
+pH
+
+pH
+(%8
+Emülsiyon)
+
+Yoğunluk
+(g/ml)
+
+Yoğunluk
+(g/ml)
+(%8
+Emülsiyon)
+
+Viskozite
+40°C
+(mm2/s)
+
+Viskozite
+40°C
+(mm2/sn)
+(%8
+Emülsiyon)
+
+Parlama
+Noktası
+(°C)
+
+Kırılma
+İndisi
+(nd)
+
+Kırılma
+İndisi
+(%8
+Emülsiyon)
+
+BCF-II
+(%8
+EP)
+
+9,95
+
+9,70
+
+0,99
+
+0,99
+
+79,00
+
+2,50
+
+178,00
+
+1,4800
+
+1,3467
+
+BCF-II
+(%12
+EP)
+
+10,15
+
+9,24
+
+0,97
+
+1,00
+
+88,00
+
+2,40
+
+185,00
+
+1,4798
+
+1,3491
+
+CMCF
+
+10,05
+
+9,30
+
+0,95
+
+0,99
+
+66,00
+
+2,20
+
+195,00
+
+1,4942
+
+1,3463
+
+Kesme
+Sıvısı
+
+Bütün kesme sıvıları %8 konsantrasyonda
+hazırlanmıştır. Kesme sıvılarını seyreltme işleminde
+çeşme suyu kullanılmıştır. Çeşme suyunun sertliği,
+yapılan ölçümler sonucunda 128 mg CaCO3/l olarak
+bulunmuştur.
+3. DENEYSEL SONUÇLAR VE TARTIŞMA
+(EXPERIMENTAL RESULTS AND DISCUSSION)
+
+Yeni geliştirilen EP katkılı bitkisel esaslı kesme
+sıvılarının ve referans olarak kullanılan ticari kesme
+sıvılarının
+performans
+deneylerinde
+AISI304
+malzemenin boyuna tornalamasında oluşan yüzey
+pürüzlülüğü (Ra), tornalama kuvvetleri (Fc ve Ff) ve
+takım aşınmaları (VC ve VB) ölçülerek analiz
+edilmiştir. Deneylerde 2 farklı EP oranına sahip
+bitkisel esaslı kesme sıvısının talaşlı imalatta
+kullanılabilirliği incelenmiştir. Verimli ve ekonomik
+bir talaşlı imalat işlemi için sağlanması gereken
+kriterler yüksek yüzey kalitesi, düşük tornalama
+kuvvetleri ve uzun takım ömrüdür.
+3.1. Yüzey Pürüzlülüğü (Surface Roughness)
+Kesme sıvılarının tornalamadaki performansını
+belirleyebilmek için, her bir kesme sıvısı ile
+tornalama işleminden sonra ölçülen yüzey pürüzlülük
+değerlerinin ortalaması alınmıştır ve sonuçlar Şekil
+3’te gösterilmiştir.
+
+Şekil 3’te görüldüğü gibi 500 dev/dak devir sayısı,
+0,22 mm/dev ilerleme ve 1 mm kesme derinliği
+şartları altında en iyi performansı (en düşük yüzey
+pürüzlülüğünü) geliştirilen BCF-II (%12 EP) kesme
+sıvısı göstermiştir. BCF-II (%12 EP) kesme sıvısı ile
+tornalama
+deneyleri
+sonucunda
+yüzey
+pürüzlülüklerinin ortalaması 4,11 µm olarak
+ölçülmüştür. CMCF ve kuru kesme deney verileri
+referans olarak düşünülürse, bitkisel esaslı kesme
+sıvılarının yüzey pürüzlülüğünü düşürme açından
+yüzdelik performansları Çizelge 4’te verilmiştir.
+Yüzey pürüzlülüğünün daha küçük olması
+istendiğinden kesme sıvılarının performansı iyiden
+kötüye doğru şöyle sıralanabilir: BCF-II (%12 EP),
+CMCF ve BCF-II (%8 EP). Bu sonuçlara göre
+geliştirilen BCF-II (%12 EP) kesme sıvısı referans
+sıvıdan yüzey pürüzlülüğü açısından daha iyi
+performans göstermiştir. EP katkısı açısından
+bakıldığında BCF-II (%12 EP) kesme sıvısı BCF-II
+(%8 EP) kesme sıvısından yüksek performans
+göstermiştir. Bu sonuçlar kesme sıvılarının emülsiyon
+halindeki viskozite değerlerine bakılarak açıklanabilir.
+BCF-II (%12 EP) kesme sıvısının emülsiyon
+halindeki viskozite değeri BCF-II (%8 EP) kesme
+sıvısının emülsiyon halindeki viskozite değerinden
+düşüktür. Düşük viskoziteli kesme sıvısı takım talaş
+ara yüzeyine daha iyi nüfuz ederek sınır yağlamayı
+aynı zamanda da EP katkı maddesinin aktivitesini
+artırmıştır. Bu sebeple yüzey kalitesi BCF-II (%12
+EP) kesme sıvısının kullanıldığı deneylerde daha
+yüksek çıkmıştır.
+Çizelge 4. Referans alınan kesme sıvılarına göre
+yüzey pürüzlülüğü açısından bitkisel esaslı kesme
+sıvıların performansı [14] (Vegetable based cutting fluids
+performances in terms of surface roughness with respect to
+reference cutting fluids)
+Kesme sıvıları
+
+Şekil 3. Performans deneyleri sonucu ölçülen yüzey
+pürüzlülüğü değerlerinin ortalaması [14] (Averages of
+
+CMCF'ye göre (%)
+Kuru kesmeye göre (%)
+
+BCF-II
+(%8 EP)
+9,35
+10,52
+
+BCF-II
+(%12 EP)
+3,97
+21,41
+
+specified surface roughness values after performance experiments)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+585
+
+M. H. Çetin ve B. Özçelik
+
+3.2. Tornalama Kuvvetleri (Turning Forces)
+Kesme sıvılarının tornalamadaki performansını
+belirleyebilmek için, her bir kesme sıvısı ile
+tornalama esnasında ölçülen kuvvetlerin ayrı ayrı
+ortalaması alınmış ve sonuçlar Şekil 4-5’de
+gösterilmiştir. Ölçümler, takım ömrü tamamlanıncaya
+kadar elde edilen değerlerin ortalaması alınarak
+yapılmıştır. Şekil 4-5’de görüldüğü gibi kesme ve
+ilerleme kuvvetleri açısından en düşük kuvveti BCFII (%12 EP) kesme sıvısı göstermiştir. Grafiklerde
+kuru kesme şartlarında düşük kuvvetlerin görülmesi,
+tornalama kuvvetlerinin ilk deney verilerinde düşük
+olması ve kuru kesme şartlarında, takım ömrünün bu
+düşük değerlerden hemen sonra bitmesi ile
+açıklanabilir (Şekil 8-9). Bu sebeple kuru kesme
+şartları performans sıralamasına dahil edilmemiştir.
+Kesme kuvvetinin daha küçük olması istendiğinden
+kesme sıvılarının performansı iyiden kötüye doğru
+şöyle sıralanabilir: BCF-II (%12 EP), BCF-II (%8 EP)
+ve CMCF. EP katkı maddeleri yüzeyle belirli bir
+sıcaklık (300-700 0C arası - EP katkı maddelerinin
+karakteristiğine göre) ve basınçta (yaklaşık 1500
+N/mm2) kimyasal reaksiyona girdikten sonra yüzeyi
+absorbe ederek kayma gerilmesini düşürmektedir
+[21]. Bu çalışmada da EP oranı arttıkça kesme
+kuvvetlerinin düşmesi bu olayla açıklanabilir [14].
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+sıvılarının içindeki EP katkı maddesi oranı arttıkça
+parça yüzeyindeki kayma gerilmesinin düşmesi
+sebebiyle tornalama kuvvetlerinde azalış beklenir. Bu
+hipotez harman (ayçiçeği ve kanola yağı karışımı)
+esaslı kesme sıvısının kullanıldığı deneylerde
+doğrulanmaktadır.
+Çizelge 5. Referans alınan kesme sıvılarına göre
+tornalama kuvvetleri açısından bitkisel esaslı kesme
+sıvıların performansı [14] (Vegetable based cutting fluids
+performances in terms of turning forces with respect to reference
+cutting fluids)
+Kesme kuvvetleri açısından
+Kesme sıvıları
+BCF-II (%8 EP)
+CMCF'ye (%)
+3,53
+İlerleme kuvvetleri açısından
+Kesme sıvıları
+BCF-II (%8 EP)
+CMCF'ye göre (%)
+5,49
+
+BCF-II (%12 EP)
+4,17
+BCF-II (%12 EP)
+7,62
+
+3.3. Takım Aşınması (Tool Wear)
+Kesme sıvılarının performans analizi için, her bir
+kesme sıvısı ile tornalama esnasında ölçülen yan
+kesici kenar ve burun aşınmalarının ortalaması
+alınmış ve sonuçlar Şekil 6-7’de gösterilmiştir. Şekil
+6-7’de görüldüğü gibi yan kesici kenar ve burun
+aşınması açısından en iyi performansı (en düşük takım
+aşınmasını) geliştirilen BCF-II (%12 EP) kesme sıvısı
+göstermiştir. BCF-II (%12 EP) kesme sıvısı ile
+tornalama deneyleri sonucunda ölçülen yan kesici
+kenar aşınması ortalaması 0,1612 mm ve burun
+aşınması ortalaması 0,1629 mm olarak ölçülmüştür.
+Ortalama yan kesici kenar ve burun aşınması
+açısından en düşük performansı kuru kesme şartları ve
+referans olarak kullanılan CMCF kesme sıvısı
+göstermiştir.
+
+Şekil 4. Performans deneyleri sonucu ölçülen kesme
+kuvvetlerinin (Fc) ortalaması [14] (Averages of specified
+
+cutting forces values after performance experiments)
+
+Şekil 6. Kesici kenar yanal yüzey aşınmasının
+ortalama değerleri [14] (Average of flank wear values)
+
+Şekil 5. Performans deneyleri sonucu ölçülen ilerleme
+kuvvetlerinin (Ff) ortalaması [14] (Averages of specified
+feed forces values after performance experiments)
+
+İlerleme kuvvetinin daha küçük olması istendiğinden
+kesme sıvılarının performansı iyiden kötüye doğru
+şöyle sıralanabilir: BCF-II (%12 EP), BCF-II (%8 EP)
+ve CMCF. CMCF kesme sıvısı referans olarak
+düşünülürse, bitkisel esaslı kesme sıvılarının
+tornalama kuvvetlerini düşürme açından yüzdelik
+performansları Çizelge 5’de verilmiştir. Kesme
+
+586
+
+Şekil 7. Burun aşınması değerlerinin ortalaması [14]
+(Average of nose wear values)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+M. H. Çetin ve B. Özçelik
+
+Kuru kesme şartlarında takım talaş ara yüzeyinde
+sürtünmeden
+kaynaklanan
+yüksek
+sıcaklıklar
+nedeniyle takımda adhesiv aşınma oranı artmış, bu
+sebeple en yüksek aşınma değerleri kuru kesme
+koşullarında ölçülmüştür. Kesme sıvılarının takım
+aşınması
+açısından
+performans
+sıralamasını
+yapabilmek için ortalama aşınma miktarları aşınma
+sürelerine bölünerek ortalama aşınma hızları hesap
+edilmiştir (Çizelge 6). Ortalama aşınma hızlarına göre
+yan kesici kenar aşınması açısından kesme sıvılarının
+performansı iyiden kötüye doğru şöyle sıralanabilir:
+BCF-II (%12 EP), BCF-II (%8 EP) ve CMCF. Bu
+sonuçlara göre geliştirilen bitkisel esaslı kesme
+sıvıları CMCF referans kesme sıvısından yan kesici
+kenar aşınması açısından daha iyi performans
+göstermiştir. Burun aşınması açısından ortalama
+aşınma hızlarına göre kesme sıvılarının performansı
+iyiden kötüye doğru şöyle sıralanabilir: BCF-II (%12
+
+EP), BCF-II (%8 EP) ve CMCF. BCF-II (%12 EP)
+kesme sıvısı emülsiyon halindeki viskozitesinin
+düşüklüğü nedeniyle kesme bölgesine daha iyi nüfuz
+ederek geliştirilen BCF-II (%8 EP) kesme sıvısından
+yüksek performans göstermiştir. Kuru kesme
+deneyinde ise takım efektif kesme bölgesini çok hızlı
+bir şekilde geçerek deforme olmuştur. Elde edilen
+deneysel sonuçlara göre geliştirilen bitkisel esaslı
+kesme sıvılarının hepsi referans sıvılardan burun
+aşınması açısından daha iyi performans göstermiştir.
+Bitkisel yağların moleküler olarak uzun, ağır ve iki
+kutuplu olması metal yüzeylere karşı kimyasal olarak
+afinitesini arttırmaktadır. Bitkisel esaslı kesme sıvıları
+belirtilen kimyasal yapılarından dolayı kesme
+bölgesinde ince, güçlü ve uzun ömürlü yağlama
+tabakası oluştururlar. Bu sayede kesme bölgesindeki
+basıncı absorbe ederek kesme kuvvetlerini düşürür,
+takım aşınmalarını azaltırlar [14].
+
+Çizelge 6. Kesme sıvılarına göre ortalama takım aşınma hızları [14]
+
+(Average tool wear speeds with respect to cutting
+
+fluids)
+Kesme sıvıları
+
+BCF-II
+(%8 EP)
+
+BCF-II
+(%12 EP)
+
+CMCF
+
+Kuru
+Kesme
+
+Yan kesici kenar
+aşınması hızı,
+VB hızı (mm/dakika)
+
+865*10-6
+
+841*10-6
+
+1314*10-6
+
+2690*10-6
+
+Burun aşınması hızı,
+VC hızı (mm/dakika)
+
+948*10-6
+
+850*10-6
+
+1607*10-6
+
+3371*10-6
+
+Şekil 8. Kesme zamanına bağlı olarak kesici kenar yanal yüzey aşınmasının değişimi [14] (Flank wear variation
+depending upon the cutting time)
+
+Şekil 9. Kesme zamanına bağlı olarak burun aşınmasının değişimi [14] (Nose wear variation depending upon the cutting
+time)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+587
+
+M. H. Çetin ve B. Özçelik
+
+Aşınma-zaman grafikleri için Şekil 8-9 incelendiğinde
+BCF-II (%8 EP) ve BCF-II (%12 EP) kesme
+sıvılarının karakteristik aşınma eğrisine uygun bir
+aşınma grafiği verdikleri görülmektedir. Kesme
+süresinin birkaç dakikasına kadar aşınma üstel
+ilerlemiş, sonra aşınma miktarı sabit bir değerde geniş
+bir kesme süresi boyunca ilerlemiştir. Bu bölge
+bitkisel esaslı kesme sıvıları ile sağlanan takım ömrü
+bölgesidir. Takım aşınmalarının artmasıyla oluşan
+kuvvet yükselmeleri kesme bölgesi sıcaklığını
+artıracağı için grafiğin son bölgelerinde takım
+aşınmaları hızlı bir artış göstermeye başlamıştır. Elde
+edilen bu sonuçlar bitkisel esaslı kesme sıvılarının
+talaşlı imalatta kullanılabilirliğini ve imalatta verim
+artırıcı etkisi olduğunu kanıtlamaktadır.
+4. SONUÇLAR (CONCLUSIONS)
+İşlenebilirliği zor olan ve endüstriyel açıdan büyük
+önem taşıyan paslanmaz çelikler, titanyum alaşımları
+ve kompozit malzemelerin talaşlı imalatında, imalat
+bölgesinde oluşan yüksek ısıyı düşürecek, sürtünmeyi
+azaltacak, takım ömrünü uzatacak bir soğutma ve
+yağlama sistemine ihtiyaç duyulmaktadır. Bu sebeple
+imalat verimliliğinin artırılması için kesme sıvılarının
+kullanımı önem taşımaktadır. Bu çalışmada, yeni
+geliştirilen bitkisel esaslı kesme sıvıları ile ticari
+olarak elde edilen mineral esaslı kesme sıvısı ve kuru
+kesme şartlarının yüzey kalitesini artırma, tornalama
+kuvvetlerini düşürme ve takım aşınmalarını azaltma
+açısından tornalama işlemindeki performansları
+karşılaştırılmıştır. Bu bağlamda;
+• Yüzey pürüzlülüğünü düşürme açısından mineral
+esaslı kesme sıvısına göre en yüksek performansı yeni
+geliştirilen bitkisel esaslı BCF-II (%12 EP) kesme
+sıvısı vermiştir. BCF-II (%12 EP) kesme sıvısı
+referans alınan CMCF kesme sıvısına göre yüzey
+kalitesini %3,97 oranında artırmıştır.
+• Kuru kesme şartlarına göre BCF-II (%8 EP)
+kesme sıvısı yüzey kalitesini %10,52 oranında, BCFII (%12 EP) kesme sıvısı ise %21,41 oranında
+arttırmıştır.
+• EP (aşırı basınç) katkısının %50 oranında artması
+yüzey kalitesini %10,89 oranında artırmıştır. Bu
+sonuç EP katkı maddesinin kesme sıvısı içinde
+yüzdesel olarak artışının yüzey kalitesi açısından
+efektif bir performans artışı sağlamadığını
+göstermektedir.
+• Tornalama kuvvetlerini (Fc ve Ff) düşürme
+açısından bitkisel esaslı BCF-II (%8 EP) ve BCF-II
+(%12 EP) kesme sıvıları referans olarak kullanılan
+CMCF kesme sıvısına göre performansı %3 ile %7
+oranında artırmıştır. EP katkı maddesinin oranı
+arttıkça parça yüzeyindeki kayma gerilmesinin
+düşmesi sebebiyle tornalama kuvvetlerinde azalış
+meydana gelmiştir. Bu sebeple BCF-II (%12 EP)
+kesme sıvısı BCF-II (%8 EP) kesme sıvısından
+tornalama kuvvetlerini düşürme açısında yüksek
+performans göstermiştir. Bu sonuç bitkisel esaslı
+kesme sıvılarının ve EP katkı maddesinin
+
+588
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+işlenebilirlik açısından önemli bir parametre olduğunu
+göstermektedir.
+• Kesme sıvılarının takım aşınması açısından
+performans analizi için ortalama takım aşınması
+hızları hesap edilmiştir. Yan kesici kenar aşınması ve
+burun aşınması açısından BCF-II (%12 EP) ve BCF-II
+(%8 EP) kesme sıvıları birbirine yakın takım ömrü
+vermiştir. Yeni geliştirilen bitkisel esaslı BCF-II (%12
+EP) ve BCF-II (%8 EP) kesme sıvıları ticari CMCF
+kesme sıvısından takım ömrünü uzatma açısından
+daha yüksek performans göstermiştir.
+• Kesme sıvılarının performans analizi için elde
+edilen deneysel sonuçlar yeni geliştirilen bitkisel
+esaslı kesme sıvılarının ticari olarak kullanılan
+mineral esaslı kesme sıvısına ve kuru kesme şartlarına
+göre imalat verimliliğini artırdığını göstermektedir.
+TEŞEKKÜR (ACKNOWLEDGEMENT)
+Bu çalışma; 107M164 no’lu TÜBİTAK projesi
+desteğiyle yapılmıştır. Yazarlar, bitkisel esaslı kesme
+sıvılarını proje kapsamında hazırladıkları için Dr.
+Erhan Demirbaş ve Emrah Şık’a, deneysel
+çalışmadaki yardımlarından dolayı Emel Kuram ve
+Bilgin Tolga Şimşek’e teşekkür ederler.
+KAYNAKLAR (REFERENCES)
+1. Sharma, V. S., Dogra M., Suri, N. M., “Cooling
+Techniques for Improved Productivity in
+Turning”, International Journal of Machine
+Tools & Manufacture, Cilt 49, 435-453, 2009.
+2. Birova, A., Pavloviova, A., Cvengro, J.,
+“Lubricating Oils Based on Chemically Modified
+Vegetable Oils”, Journal of Synthetic
+Lubrication, Cilt 18, 291-298, 2002.
+3. Bennett, E. O., “Water Based Cutting Fluids and
+Human Health”, Tribology International, Cilt 12,
+45–60, 1983.
+4. Xavior, M. A., Adithan, M., “Determining the
+Influence of Cutting Fluids on Tool Wear and
+Surface Roughness During Turning of AISI 304
+Austenitic Stainless Steel”, Journal of Materials
+Processing Technology, Cilt 209, 900–909, 2009.
+5. Ozcelik, B., Demirbas, E., Kuram, E., and Şik, E.,
+“Optimization of Surface Roughness in Drilling
+Using Vegetable Based Cutting Oils Developed
+from Sunflower Oil”, Industrial Lubrication and
+Tribology, Cilt 63, No 4, 271–276, 2011.
+6. Belluco, W. and De Chiffre, L., “Performance
+Evaluation of Vegetable-based Oils in Drilling
+Austenitic Stainless Steel”, Journal of Materials
+Processing Technology, Cilt 148, 171-176, 2004.
+7. Kuram, E., Simsek, B. T., Ozcelik, B., Demirbas,
+E., Askin, Ş., “Optimization of the Cutting Fluids
+and Parameters Using Taguchi and ANOVA in
+Milling”, The World Congress on Engineering
+2010, (WCE 2010), Volume II, pp. 1292-1296, 30
+June - 2 July, London, U.K., 2010.
+8. Kuram, E., Ozcelik, B., Demirbas, E., Şik, E.,
+“Effects of the Cutting Fluid Types and Cutting
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+AISI304 Çeliklerin Tornalanmasında EP Katkılı…
+
+Parameters on Surface Roughness and Thrust
+Force”, The World Congress on Engineering
+2010, (WCE 2010), Volume II, 1312-1315, 30
+June - 2 July, London, U.K., 2010.
+9. Khan, M. M. A., Dhar, N. R., “Performance
+Evaluation of Minimum Quantity Lubrication by
+Vegetable Oil in Terms of Cutting Force, Cutting
+Zone Temperature, Tool Wear, Job Dimension and
+Surface Finish in Turning AISI–1060 Steel”,
+Journal of Zhejiang University, Cilt 7, 1790–
+1799, 2006.
+10. Özçelik, B., Demirbaş, E., Kuram, E., Şık, E.,
+Tansel, İ. N., “Geliştirilen Ayçiçeği ve Kanola
+Esaslı Bitkisel Soğutma Yağlarının AISI 304
+Malzemenin Delinmesindeki Performansları”,
+Yıldız Teknik Üniversitesi, I. Ulusal Talaşlı
+İmalat sempozyumu, UTİS 2009, S:121-129, 0203 Ekim, Beşiktaş-İSTANBUL 2009.
+11. Şık, E., Bitkisel Tabanlı Yağlardan Metal
+Kesme Sıvısı Eldesi ve Karakterizasyonu,
+Yüksek Lisans Tezi, GYTE Mühendislik ve Fen
+Bilimleri Enstitüsü, Gebze-Kocaeli, 2009.
+12. Karahan, M., Ham Soya Yağından Metal Kesme
+Sıvı Eldesi ve Karaterizasyonu, Yüksek Lisans
+Tezi, GYTE, Mühendislik ve Fen Bilimleri
+Enstitüsü, Gebze-Kocaeli, 2009.
+13. Kuram, E., Bitkisel Esaslı Kesme Sıvılarının
+Delmedeki
+Performansının
+Araştırılması,
+GYTE Mühendislik ve Fen Bilimleri Enstitüsü
+Yüksek Lisans Tezi, Gebze-Kocaeli, 2009.
+14. Çetin, M. H., Bitkisel Esaslı Kesme Sıvılarının
+Tornalamadaki Performansının Araştırılması,
+GYTE Mühendislik ve Fen Bilimleri Enstitüsü
+Yüksek Lisans Tezi, Gebze-Kocaeli, 2010.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+M. H. Çetin ve B. Özçelik
+
+15. Dal, M., Bitkisel Esaslı Kesme Sıvılarının
+Frezelemedeki Performansının Araştırılması,
+Yüksek Lisans Tezi, GYTE, Mühendislik ve Fen
+Bilimleri Enstitüsü, Gebze-Kocaeli, 2009.
+16. Fox, N. J., Stachowiak G. W., “Vegetable Oil
+Based Lubricants – A Review of Oxidation”,
+Tribology International, 40, 1035-1046, 2007.
+17. DeGarmo, E.P., Black, J.T. and Kohser, R.A.,
+“Machining”, Materials and Processes in
+Manufacturing, Prentice-Hall Inc., New Jersey,
+214-652, 1997.
+18. Jayal, A. D., Balaji, A. K., “Effects of Cutting
+Fluid Application on Tool Wear in Machining:
+Interactions With Tool-Coatings and Tool Surface
+Features”, Wear, Cilt 267, No9-10, 1723-1730,
+2009.
+19. Srikant, R. R., Rao, D. N., Rao, P. N., “Influence
+of Emulsifier Content in Cutting Fluids on Cutting
+Forces, Cutting Temperatures”, Tool Wear and
+Surface Roughness, Journal of Engineering
+Tribology, Cilt 223, 203-209, 2008.
+20. Çiftçi, İ., Kasap, M., Şeker, U., “Östenitik
+Paslanmaz
+Çeliklerin
+İşlenebilirlik
+Parametrelerinin Belirlenmesi Üzerine Yapılmış
+Deneysel Çalışmalar”, Z.K.Ü Karabük Teknik
+Eğitim Fakültesi, Teknoloji Dergisi, Sayı 3-4,
+130-141, 1999.
+21. Clarens AF, Zimmerman JB, Landis HR, Hayes
+KF, Skerlos SJ. Experimental comparison of
+vegetable and petroleum base oils in metalworking
+fluids using the tapping torque test. Proceedings of
+Japan-USA Symposium on Flexible Automation:
+1-6, July 19-21, 2004 Denver
+
+589
+
+

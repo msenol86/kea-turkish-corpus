@@ -1,0 +1,853 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 2, 263-272, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 2, 263-272, 2011
+
+ÇİFT FAZLI ÇELİĞİN ÇEKME ÖZELLİKLERİNE
+MİKROYAPININ ETKİSİ
+Elmas SALAMCI* ve Fikret KABAKCI**
+*
+
+Metal Eğitimi Bölümü, Teknik Eğitim Fakültesi, Karabük Üniversitesi, Karabük
+Metalurji Malzeme Programı, Alaplı Meslek Yüksekokulu, Zonguldak Karaelmas Üniversitesi, Zonguldak
+salamcie@yahoo.com, fikretkabakci@mynet.com
+
+**
+
+(Geliş/Received: 23.11.2010 ; Kabul/Accepted: 28.03.2011)
+ÖZET
+Bu çalışmada %0,0981 C, %1,653 Mn, %0,54 Si, %0,69 Ni içeren çift fazlı bir çeliğin çekme özellikleri
+üzerinde martenzit ve yeni ferrit hacim oranının etkisi araştırılmıştır. 715, 725 and 752oC de uygulanan kritik
+tavlama sonrasında numuneler suda, yağda ve fırında soğutulmuştur. Optik mikroskop incelemelerinde fırında
+soğutma hızında bile karbür oluşumuna rastlanmamıştır. Sonuçlar, aynı kritik sıcaklıkta tavlama sonrasında,
+kullanılan soğutma şartları içerisinde en fazla martenzit hacim oranının suda soğutma ile elde edildiğini
+göstermiştir. Martenzit içeriğinin artması ile homojen uzama azalırken, akma ve çekme mukavemetlerinin her
+ikisi de artmıştır. Sabit martenzit hacim oranında, kritik tavlama sıcaklıklarından kontrollü soğutma sonucu
+oluşan yeni ferrit hacim oranının değiştiği gözlenmiştir. Yeni ferritin varlığı mukavemeti azaltıp, sünekliği
+artırmıştır. Taramalı elektron mikroskobu (SEM) kırık yüzey incelemeleri yeni ferrit içeren numunelerin boyun
+bölgesinde daha yüksek yoğunlukta mikroboşluk içerdiğini ve tamamen sünek kırılma davranışı sergilediğini
+göstermiştir. Bunun aksine yeni ferrit içermeyen numunelerin daha düşük yoğunlukta mikroboşluk içerdiği ve
+hem klivaj hem de sünek kırılma modunu bir arada sergilediği gözlenmiştir.
+
+E. Salamcı ve F. Kabakcı
+
+1. GİRİŞ (INTRODUCTION)
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL
+STUDIES)
+
+Çift fazlı çelikler üretildikleri yüksek mukavemetli
+düşük alaşımlı çeliklere (HSLA) göre daha iyi dayanım-süneklik özellikleri göstermektedir [1-6]. Bu
+özelliklerinden dolayı otomotiv endüstrisinde önemli
+bir konuma sahiptirler. Otomobil parçalarında çok iyi
+şekil alabilirliğe sahip çift fazlı çelikler kullanılarak
+araçların ağırlığı azaltılır ve yakıt tüketiminde önemli
+oranda tasarruf sağlanır. Çift fazlı çelikler yumuşak
+ferrit matris içinde %20-25 oranında sert martenzit
+fazından oluşur. Çift fazlı çelikler interkritik bölgede
+(östenit+ferrit faz bölgesi) tavlama sonrasında uygun
+hızda soğutma sonucunda yeterli miktarda östenitin
+martenzite dönüşümüyle elde edilir. Kritik soğutma
+hızında var olan östenitin tamamı martenzite dönüşür
+ve oluşan yapı ferrit martenzit karışımıdır. Bazı çalışmalar martenzit hacim oranının çift fazlı çeliklerin
+deformasyon davranışı üzerinde çekme özelliklerini
+kontrol eden çok önemli bir faktör olduğunu göstermişlerdir. Çekme dayanımı, martenzitin hacim
+yüzdesiyle doğrudan ilgilidir. Martenzit hacim oranı
+arttıkça çekme dayanımı artar ve süneklik azalır [7-9].
+Başlangıçta yapılan çalışmalar çift fazlı çeliklerin sadece ferrit ve martenzitten oluştuğunu gösterirken,
+son yapılan çalışmalar bu çeliklerin deformasyon
+davranışının gizli kalmış bazı mikroyapısal detaylara
+bağlı olduğunu göstermiştir [10-12]. Bu mikroyapısal
+özelliklerden biri interkritik tavlama sonrasında oluşan dönüşmüş ferrit (yeni ferrit) dir. Bu yeni faz interkritik tavlama sonrasında soğutma esnasında östenitin
+ferrite dönüşmesiyle oluşur ve eski kalıntı ferritden
+hem yönlenme hemde kompozisyon bakımından
+farklıdır.
+İnterkritik tavlama esnasında oluşan mikroyapılar
+hem tavlama sıcaklığı hemde soğuma hızından etkilenirler. α+γ faz bölgesindeki tavlama sıcaklığı östenit
+hacim yüzdesini kontrol eder ve östenitin karbon
+içeriğini saptar ve böylece östenitin sertleşebilirliğini
+etkiler. Soğuma hızının mekanik özellikler üzerinde
+direk etkisi vardır. Huppi ve diğerleri yaptıkları çalışmada soğuma hızı arttıkça, mukavemetin arttığını ve
+sünekliğin azaldığını belirtmişlerdir. Yüksek soğuma
+hızlarında varolan östenitin tamamen martenzite dönüştüğünü ve yapının ferrit ve martenzit karışımı
+olduğunu, ancak yavaş soğumada yeni ferritin kalıntı
+ferritin (interkritik tavlama esnasında varolan eski
+ferrit) üzerinde büyüdüğünü saptamışlardır. Soğuma
+devam ederken kalan östenitin karbonca zenginleştiğini ve alaşım içeriğine ve soğuma hızına bağlı olarak martenzit, beynit veya perlite dönüştüğünü vurgulamışlardır [10].
+Bu çalışmada martenzit hacim oranı, yeni ferrit hacim
+oranı ve soğuma hızının çift fazlı çeliğin mekanik
+özellikleri ve kırılma davranışı üzerindeki etkileri
+araştırılmıştır.
+
+264
+
+Bu çalışmada kullanılan ve kimyasal bileşimi Çizelge
+1’de verilen çelik, Tübitak Mam’da döküm yoluyla
+26x300x300 mm boyutlarında blok halinde
+indüksiyon ocağında üretilmiştir. Üretilen bloklar
+daha sonra sıcak haddeleme işlemine tabi tutularak 4
+mm kalınlığında elde edilmiştir.
+Çizelge 1. Deneylerde Kullanılan Malzemenin
+Kimyasal Bileşimi (% Ağırlık). (Chemical composition
+of steel used (w/w))
+
+C
+0,0
+981
+Mo
+0,0
+035
+
+Mn
+1,6
+530
+Sn
+0,0
+024
+
+P
+0,0
+158
+Al
+0,0
+057
+
+S
+0,0
+126
+Nb
+0,0
+210
+
+Si
+0,5
+496
+V
+0,0
+178
+
+Cu
+0,0
+225
+W
+0,0
+043
+
+Cr
+0,0
+672
+Co
+0,0
+085
+
+Ni
+0,6
+947
+Ti
+0,0
+073
+
+Kritik tavlama sıcaklıkları (A1 ve A3) Andrews’in
+[13] ampirik formülü kullanılarak 711°C-862°C
+olarak tespit edilmiştir. Isıl işlemler sırasında sıcaklık
+ölçümünde K tipi termokapıl kullanılmıştır. Numuneler sabitleme çubuğuna, ısıl çiftlerde numune yüzeyinin merkezine elektrik direnç kaynağı ile kaynaklanmıştır. ABB Commander marka kayıt cihazı, kompenzasyon kablosu ve klemens ile ısıl çift tellerine bağlanarak sıcaklık ölçüm sistemi tamamlanmıştır. Isıl işlem deneyleri, martenzit hacim oranının (MHO) kritik
+sıcaklığa bağımlılığının tespiti ve çekme deney numunelerinin üretilmesi olmak üzere iki aşamada tamamlanmıştır. MHO’nın değişimini tespit etmek için
+4x15x15 mm boyutlarında numuneler kullanılmıştır.
+Bu numunelere kritik bölgedeki 8 farklı sıcaklıkta
+(715, 725, 735, 745, 760, 775, 800, 830°C) 25 dakika
+tavlama sonrasında suda su verme işlemi yapılmıştır.
+Kritik tavlama sırasında oluşan östenitin, suda su
+verme sonrasında soğuma hızının çok yüksek olması
+nedeniyle tamamen martenzite dönüştüğü kabul
+edilmiştir. Üretilen çift fazlı çeliklerin martenzit
+hacim oranları Swift marka nokta sayıcı ile yapılan
+700-1000 nokta sayımıyla tespit edilmiştir.
+Üretilen çift fazlı çeliklerin metalografik incelemelerinde optik mikroskop ve geçirimli elektron mikroskopu (TEM) kullanılmıştır. Optik mikroskopta incelenecek numuneler zımparalama ve parlatma işlemine
+tabi tutulduktan sonra,%2’lik nital (%2 Nitrik asit +
+%98 Methanol) ile dağlanmıştır. Martenziti daha
+belirgin hale getirebilmek için numuneler % 10 sodyum metabisülfit + %90 saf su çözeltisinde ikinci bir
+dağlama işlemine tabi tutulmuştur. Eski ve yeni ferriti
+ayırt etmek için Lawson ve arkadaşlarının geliştirdiği
+dağlama yöntemi kullanılmıştır [14]. Bu yöntem %
+4’lük pikral ile dağlama sonrasında kaynar haldeki
+alkali kromat çözeltisinde (8 g CrO3 + 40 g NaOH +
+72 ml H2O) 4-10 dk’lık bir sürede ikinci bir dağlama
+işlemini içermektedir. Dağlama sonrasında yeni ferrit
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+beyaz, eski ferrit gri ve martenzit siyah olarak
+görülmektedir.
+TEM çalışması için ısıl işlem görmüş çift fazlı
+çeliklerden numune hazırlanmıştır. Numuneler düşük
+hızda çalışan Struers Minitom kesme cihazıyla kesilmiş, 3mm çapında delinmiş ve 100µm’a kadar zımparalanarak inceltilmiştir. Numunelerin elektro parlatma işlemi %5 perklorik asit + %95 metanol çözeltisinde, –30 oC sıcaklıkta, 50V and 250mA’de
+Struers-Tenupol-5 Çift Jet Elektroparlatıcı cihazında
+gerçekleştirilmiştir. Hazırlanan numuneler JEOL 2100
+Geçirimli Elektron Mikroskopunda 200kV altında
+incelenmiştir.
+Çekme deney numuneleri TS 138’e [15] göre 15x2,5
+mm kesitinde Lo=28 mm olmak üzere her ısıl işlem
+grubu için 3’er adet hazırlanmıştır. Çekme deney
+numunelerine 715, 725 ve 752°C’de kritik tavlamanın
+ardından suda, yağda ve fırında soğutma yapılarak 9
+farklı MHO oranına sahip çift fazlı mikroyapı
+üretilmiştir. Isıl işlem uygulanmış numunelerin çekme
+deneyi Zwick test cihazında 1mm/dk çekme hızında
+gerçekleştirilmiştir. Çekme deneyi sonrasında kırık
+yüzey incelemesi Taramalı Elektron Mikroskopunda
+(SEM) yapılmıştır. Kopma bölgesine yakın yerden
+alınan parçalar çekme yönüne paralel ve dik olmak
+üzere iki yönlü olarak incelenmiştir.
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+3.1. Mikroyapı (Microstructure)
+Kritik bölgedeki 8 farklı sıcaklıkta 25 dakika tavlama
+sonrasında suda soğutulmuş numunelerin martenzit
+hacim yüzdeleri Şekil 1’de gösterilmektedir. Şekil
+1’de de görüldüğü gibi interkritik tavlama sıcaklığı
+arttıkça martenzit hacim yüzdesi artmaktadır. Benzer
+ilişki diğer araştırmacılar tarafından da bildirilmiştir
+[16-18].
+
+Şekil 1. Kullanılan malzemede kritik tavlama
+sıcaklığına bağlı olarak MHO’nın değişimi (Dependence
+of volume fraction of martensite on intercritical annealing
+temperature in steel used)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+E. Salamcı ve F. Kabakcı
+
+Çelik malzemeye uygulanan 9 farklı ısıl işlem
+prosedürü ve faz hacim oranları çizelge 2’de
+sunulmuştur. Her numune gördüğü işleme göre
+kodlandırılmıştır. Baştaki harfler soğutma ortamını
+temsil etmektedir; SS suda soğutma, YS yağda
+soğutma, FS fırında soğutmayı göstermektedir.
+Sondaki sayılar interkritik tavlama sıcaklığını
+belirtmektedir. Çizelge 2’ den görüldüğü gibi en
+yüksek martenzit hacim oranını SS752, en düşük
+martenzit hacim oranını FS715 göstermiştir. Bu
+sonuçlar çift fazlı çeliklerde yüksek kritik tavlama
+sıcaklığının martenzit hacim oranını artırdığını
+göstermektedir. Ayrıca suda soğutulan numuneler,
+yağda soğutulan numulerden daha yüksek martenzit
+hacim oranına sahiptir. Martenzit hacim oranındaki bu
+artış hızlı soğumadan kaynaklanmaktadır.
+Çizelge 2. Kullanılan malzemeye uygulanan işlem
+prosedürü ve faz hacim oranları (Heat treatment
+procedure and volume fractions of phase in steel used)
+
+Numune
+Kodu
+SS715
+SS725
+SS752
+YS715
+YS725
+YS752
+FS715
+FS725
+FS752
+
+Isıl işlem
+Sıcaklığı
+(oC)
+715
+725
+752
+715
+725
+752
+715
+725
+752
+
+Soğutma
+Ortamı
+
+MHO
+(%)
+
+Su
+Su
+Su
+Yağ
+Yağ
+Yağ
+Fırın
+Fırın
+Fırın
+
+25
+35
+52
+24
+33
+48
+20
+25
+37
+
+Yeni
+Ferrit
+(%)
+1
+2
+4
+5
+10
+15
+
+Şekil 2’de 715 °C de tavlanarak suda, yağda ve fırında soğutulmuş numunelerin optik mikroskopla elde
+edilmiş mikroyapıları sunulmuştur. Şekilden görüldüğü üzere martenzit koyu renkte, ferrit ise açık
+renkte ortaya çıkmıştır. Mikroyapı incelemelerinde
+ferrit+martenzit dışında herhangi bir faza (beynit,
+perlit) rastlanılmamıştır. Bu sonuç ferrit+martenzitten
+oluşan çift fazlı çelik üretiminin gerçekleştiğini göstermektedir. Yavaş soğutma şartlarında (fırında
+soğutma) dahi östenitin büyük bir kısmının martenzite
+dönüşmesi bu çalışmada kullanılan çeliğin oldukça iyi
+sertleşebilirlik özelliğine sahip olduğunu göstermektedir. Kimyasal kompozisyon sertleşebilirliği etkileyen
+en önemli parametrelerdendir ve alaşım elemanlarının
+ilavesi ile kritik soğuma hızı azalmaktadır. Bu
+çalışmada kullanılan çelik malzemenin Mn ve Ni
+içeriği yüksek, karbon içeriği ise düşüktür. Mn ve Ni
+içeriği sertleşebilirliği artırırken, düşük karbon içeriğinin de karbür oluşumunun engellenmesine yardım
+ettiği söylenebilir [19-21].
+Literatürde yeni ferrit ile eski ferritin ayırt edilmesi
+için Lawson ve arkadaşlarının [14] geliştirdiği kaynar
+alkali-kromat çözeltisinde dağlama metodu kullanılmıştır. Şekil 3’de 725 ve 752°C de tavlanmış ve
+fırında soğutulmuş numunelerin optik mikroskopta
+çekilmiş mikroyapı fotoğrafları verilmiştir. Alkali
+265
+
+E. Salamcı ve F. Kabakcı
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+(a)
+
+(b)
+
+(a)
+
+(b)
+Şekil 3. Yeni ferrit mikroyapı resimleri (Dağlama
+%4pikral + Kaynar durumdaki alkali kromat
+solüsyonu) (a) SS725; (b) FS752 (New ferrite micrographs
+(Etched in 4% picral+ hot chromate reagent)
+
+(c) 
+Şekil 2. Üretilen çift fazlı çeliklerin optik mikroskop
+fotoğrafları (Dağlama %2 nital); (a) SS715; (b) YS715; (c)
+FS715. (Optical micrographs of dual phase steels produced
+(Etching in 2% nital))
+
+kromat çözeltisinde dağlama sonucunda eski ferrit gri,
+yeni ferrit beyaz, martenzit ise siyah olarak açığa
+çıkmıştır. Çizelge 2’den görüldüğü gibi, 725°C de
+tavlanan ve suda soğutulan numunenin (SS725) yeni
+ferrit içermediği, 752°C de tavlanan ve fırında
+soğutulan numunenin (FS752) %15 yeni ferrit içerdiği
+tespit edilmiştir. Ayrıca bu numunelerin yaklaşık aynı
+miktarda martenzit (%35-37) içerdiği bulunmuştur.
+Benzer olarak SS715 ve FS725 kodlu numuneler aynı
+miktarda martenzit hacim oranına (%25) sahipken,
+içerdikleri yeni ferrit miktarı farklıdır. SS715 yeni
+266
+
+ferrit içermezken, FS725 %10 yeni ferrit içermektedir.
+Çizelge 2’de gösterildiği gibi yeni ferrit miktarı
+interkritik tavlama sıcaklığına ve soğutma hızına bağlı
+olarak değişmektedir. İnterkritik sıcaklık arttıkça ve
+soğuma hızı azaldıkça yeni ferritin hacim oranı
+artmaktadır. Fırında soğutulmuş numunelerde kritik
+tavlama sıcaklığı 725°C den 752 C ye arttıkça yeni
+ferrit hacim oranı % 10’dan %15’e artış göstermiştir
+(Çizelge 2).
+Şekil 4’de ısıl işlem uygulanmış SS725 ve FS752
+kodlu numunelerin TEM (geçirimli elektron mikroskobu) incelemeleri sonucunda elde edilmiş mikroyapı
+görüntüleri verilmektedir. Hızlı soğutulan SS725’de
+oluşan martenzitin yakınındaki bölgelerde yüksek
+dislokasyon yoğunluğu, bunun aksine daha yavaş
+soğutulan FS752’de düşük dislokasyon yoğunluğu
+gözlenmiştir (Şekil 4). Matlock ve arkadaşları da [22]
+yaptıkları çalışmada benzer sonuçları gözlemlediklerini bildirmişlerdir.
+Aynı numunelerin detaylı TEM incelemeleri mikroyapılarında bazı partiküllerin varlığını ortaya çıkarmıştır. Bu partiküllerin kalitatif kimyasal analizini
+yapmak için EDX analizi yapılmıştır. Şekil 5-a’da
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+(a)
+
+E. Salamcı ve F. Kabakcı
+
+(a)
+
+(b)
+Şekil 5. (a) SS725 kodlu numunede bulunan
+partikülün TEM fotoğrafı (b) bu partikülden alınan
+EDX analizi. (( a) TEM micrograph of the particle existing in
+the specimen of SS725 b) EDX analysis of the particle)
+
+(b)
+Şekil 4. TEM fotoğrafları (a) SS725 kodlu numunede
+yüksek dislokasyon yoğunluğu; (b) FS752 kodlu
+numunede düşük dislokasyon yoğunluğu. (TEM
+micrographs showing (a) high dislocation density in specimen of
+SS725; (b) low dislocation density in specimen of FS752)
+
+SS725’in mikroyapısında gözlenmiş elips şeklinde ve
+takriben 90 μm büyüklüğünde bir partikülün TEM
+görüntüsü verilmektedir. Alınan EDX spektrumu, bu
+partikülün Fe,Cr içerdiğini göstermektedir (Şekil5-b).
+Şekil 6-a’da FS752’de gözlemlenen dikdörtgen
+şeklinde, yaklaşık 40 μm boyunda ve 20μm eninde bir
+partikülün mikroyapısı ve Şekil 6-b’de bu partikülden
+alınan EDX analizi sunulmaktadır. Yapılan EDX
+analizi bu partikülün kimyasal yapısında Fe, Ti, V, Nb
+elementlerinin bulunduğunu göstermektedir.
+3.2. Çekme Özellikleri ve Kırılma Davranışları
+(Tensile Properties and Fracture Behaviours)
+
+Isıl işlem uygulanmış numunelerin çekme deneyinden
+edilen mühendislik gerilme-uzama değerleri Şekil 7
+ve Çizelge 3’de sunulmuştur. Yapılan deneylerde ısıl
+işlem uygulanmış çift fazlı yapıların belirgin bir akma
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+noktası göstermedikleri tespit edilmiştir (Şekil 7).
+Akma mukavemeti olarak %0.2 akma noktası
+kullanılmıştır. Düşük karbonlu çeliklerin aksine çift
+fazlı çeliklerin sürekli akma davranışı göstermeleri,
+martenzitik dönüşüm esnasında meydana gelen hacim
+büyümesi ve bunun sonucu oluşan gerilmelerin
+etkisiyle martenzite sınır ferrit içerisinde oluşan
+hareketli dislokasyonlarla ilişkilendirilmektedir [23].
+En yüksek akma ve çekme mukavemeti ve en düşük
+uzama değerini SS752 sergilemiştir. Bu sonuçlar
+kritik tavlama sıcaklığının artması ile artan martenzit
+hacim oranının akma ve çekme dayanımını artırdığı
+ve % uzama değerini düşürdüğünü göstermektedir.
+Bunun tersine en düşük akma ve çekme
+mukavemetini ve en yüksek uzama değerini FS715
+göstermiştir.
+%15 yeni ferrit içeren FS752, yaklaşık aynı miktarda
+martenzit içeren fakat yeni ferrit içermeyen SS725 ile
+kıyaslandığında daha yüksek süneklik fakat daha
+düşük çekme mukavemeti göstermektedir. Benzer
+sonuçlar diğer araştırmacılar tarafından da bildirilmiştir [24-25]. Bunun sebebi çift fazlı çeliklerde
+martenzit miktarı sabit tutulduğunda, malzemenin
+
+267
+
+E. Salamcı ve F. Kabakcı
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+sünekliğin daha iyi olmasına yol açmaktadır.
+
+(a)
+
+(b)
+Şekil 6. (a) FS752 kodlu numunede bulunan
+partikülün TEM fotoğrafı ve (b) bu patrikülden alınan
+EDX analizi ((a) TEM micrograph of the particle existing in the
+specimen of FS752 (b) EDX analysis of the particle)
+
+sünekliği üzerinde önemli bir etkiye sahip yeni ferrit
+miktarının artmasından kaynaklanmaktadır.
+Ayrıca malzeme suda hızlı soğutulduğunda mukavemet artışının ve süneklik düşüşünün başka bir sebebi daha önce söylendiği [24] ve bu çalışmada da gözlendiği gibi (Şekil 4) oluşan martenzitin yakınındaki
+bölgelerde yüksek dislokasyon yoğunluğundan kaynaklanmaktadır. Bunun tersine daha yavaş fırında
+soğutmada dislokasyon yoğunluğunun azalması
+
+Çekme deney numunelerinin kırılma mekanizmaları
+SEM ile incelenmiştir. Kırılan yüzeyler genelde çanak
+ve koni kırılma modu sergilemişlerdir. Çanak ve koni
+kırılma ile birlikte mikroboşlukların oluşumu sünek
+kopma karakteri için tipik göstergelerdendir. Mikroboşluklar martenzit ve inklüzyonlar üzerinde çekirdeklenmektedir. Streinbrunner ve arkadaşları mikroboşlukların öncelikle martenzit üzerinde çekirdeklendiğini inklüzyonlar üzerinde çekirdeklenmenin ise
+ikincil bir olay olduğunu bildirmişlerdir [26]. Mikroboşlukların martenzit üzerinde çekirdeklenmesinin
+nedeni, bitişik martenzit parçacıklarının ayrışması ve
+martenzit parçacıklarının bölgesel deformasyonu veya
+ferrit-martenzit ara yüzeyinin ayrışmasına atfedilmektedir [24]. Kırılma yüzeyine yakın bölgelerde
+mikroboşluk yoğunluğu artmaktadır. Mikroboşluk
+yoğunluğunun kırılma yüzeyine yaklaştıkça artması
+bu bölgedeki gerinimin yüksek olması ile açıklanmaktadır [24-25].
+Şekil 8 ve 9’da çekme numunelerinin kırılma yüzeyleri gösterilmektedir. Suda soğutulan numunelerin kırık yüzeylerinde kısmen düzgün yüzey ayrılma tipi
+(klivaj) kopma ile birlikte sünek çukurcuklar
+(dimples) gözlenmiştir (Şekil 8). Şekillerde klivaj
+kopmayı karakterize eden ferrit tanesi büyüklüğünde
+düz, klivaj yüzeyler görülmektedir. Fırında soğutulan
+numunelerin kırık yüzeylerinde ise tipik sünek kırılma
+gözlenmiştir; mikroboşluklar birleşmiş haldedir ve
+klivaj kırılmaya rastlanmamıştır (Şekil 9). Bu fırında
+soğutulan numunelerde, son kopma anında ferrit içerisinde klivaj kırılma için gerekli olan kritik gerilme
+değerinin aşılmadığını göstermektedir. Bu büyük bir
+ihtimalle düşük martenzit hacim oranından kaynaklanmaktadır. Yukarıdaki şekillerdende görüldüğü gibi
+fırında soğutulan numunelerde oluşan yeni ferrit ile
+sünek kırılma arasında yakın bir ilişki bulunmaktadır.
+Yeni ferrit içermeyen numunede Sarwar ve arkadaşları da [24] önemli oranda klivaj kırılma, Erdoğan
+[25] ise kısmen klivaj kırılma gözlemlediklerini bildirmişlerdir. Şekil 9’da ayrıca bazı büyük, derin delikler görülmektedir. Bu derin deliklerin varlığı
+
+Çizelge 3. Üretilen çift fazlı çeliklerin çekme deney sonuçları (Tensile test results of dual-phase steels produced)
+Nunume
+Martenzit
+Yeni
+%0.2
+Akma Çekme
+Toplam
+Uniform
+Kodu
+Hacim
+Ferrit
+Mukavemeti
+Mukavemeti
+Uzama
+Uzama (%)
+Oranı(%)
+Hacim
+(MPa)
+(MPa)
+(%)
+Oranı
+(%)
+SS715
+25
+560
+830
+23
+18
+SS725
+35
+600
+840
+23
+18
+SS752
+52
+735
+975
+21
+16,5
+YS715
+24
+1
+548
+820
+23
+18,5
+YS725
+33
+2
+587
+835
+23
+18
+YS752
+48
+4
+673
+925
+22
+17
+FS715
+20
+5
+442
+708
+26
+20
+FS725
+25
+10
+458
+780
+25
+19,5
+FS752
+37
+15
+567
+848
+25
+19
+268
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+E. Salamcı ve F. Kabakcı
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+(e)
+
+(f)
+
+(g)
+(h)
+(ı)
+Şekil 7. Mühendislik gerilme-uzama eğrileri (a) SS715 (b) SS725 (c) SS752 (d) YS715 (e) YS725 (f) YS752 (g)
+FS715 (h) FS725 (ı) FS752 (Engineering stress-strain diagrams)
+martenzit ve inklüzyonların kırılmasından kaynaklanmaktadır.
+Kırılmış çekme numunelerinin boyun bölgesinde mikroboşluk çalışmaları Şekil 10’da sunulmuştur. Şekil
+10(b) ve (d)’de verilmekte olan SEM fotoğrafları
+FS725 ve FS752 kodlu numunelerde boşluk yoğunluğunun daha yüksek olduğunu göstermektedir.
+
+Yaklaşık olarak %10 ve %15 yeni ferrit içeren bu
+numuneler daha yüksek %uzama değerine sahiptir.
+Bunun aksine yeni ferrit içermeyen SS715 ve SS725
+kodlu numuneler daha düşük %uzama değerine
+sahiptir ve Şekil 10(a) ve (c) dende görüldüğü gibi bu
+numunelerde boşluk yoğunluğunun biraz daha düşük
+olduğu gözlenmektedir.
+
+(b)
+(a)
+Şekil 8. (a) SS715 (b) SS725 kodlu numunelerden alınmış klivaj yüzeyler ve sünek çukurcukları gösteren SEM
+görüntüleri (SEM images showing ductile dimples and cleavage facets taken from specimens of (a) SS715 (b) SS725)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+269
+
+E. Salamcı ve F. Kabakcı
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+(a)
+
+(b)
+
+(c)
+Şekil 9. (a) FS715 (b) FS725 (c) FS752 kodlu numunelerden alınmış sünek çukurcuklar ve büyük delikleri
+gösteren SEM görüntüleri (SEM images showing ductile dimples and big holes taken from specimens of (a) FS715 (b) FS725 (c)
+FS725)
+
+(a)
+
+(b)
+
+(c)
+(d)
+Şekil 10. Mikroboşluk oluşumunu gösteren SEM fotoğrafları (a) SS715; b) FS725; (c) SS725; (d) FS752.
+
+(SEM
+
+micrograhs showing microvoid formation)
+270
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+Sarwar ve arkadaşları da yaptıkları çalışmada yeni
+ferrit
+içermeyen
+numunede
+mikroboşluk
+oluşmadığını, %20 yeni ferrit içeren numunede ise
+boşluk oluşumunun yoğun olduğunu bildirmişlerdir
+[24]. Şekil 10(b) ve (c), FS725 ve FS752 kodlu numunelerde kırılma yüzeyine yakın bir bölgede martenzit
+partikülünün kırılmasıyla oluşmuş mikroboşlukları
+göstermektedir. Bu mikroyapılarda martenzit partikülünün kırılma oluşmadan önce çekme yönü boyunca
+plastik olarak deforme olduğu, boyunun uzadığı ve
+kesitinin inceldiği görülmektedir.
+
+E. Salamcı ve F. Kabakcı
+
+5.
+
+6.
+
+7.
+
+4. SONUÇLARIN DEĞERLENDİRİLMESİ
+(CONCLUSIONS)
+
+• Fırında soğutma şartlarında dahi östenitin büyük
+bir kısmının martenzite dönüşmesi bu çalışmada
+kullanılan çeliğin oldukça iyi sertleşebilirlik
+özelliğine sahip olduğunu göstermektedir.
+• Kritik tavlama sıcaklığı arttıkça, östenitin
+martenzite dönüşüm miktarı artar.
+• Çift fazlı çeliklerde artan martenzit hacim oranı ile
+birlikte akma ve çekme dayanımları artarken,
+uzama değerleri düşmektedir.
+• Yeni ferrit hacim yüzdesi kontrol edilebilir bir
+parametredir ve çift fazlı çeliklerde mukavemet ve
+sünekliği etkiler. Yeni ferrit miktarı arttıkça
+mukavemet azalır, süneklik artar.
+• Yeni ferrit miktarı interkritik tavlama sıcaklığına
+ve soğutma hızına bağlıdır.
+• Yeni ferrit içeren numuneler tamamen sünek
+kırılma davranışı göstermiştir. Yeni ferrit
+içermeyen numunelerde ise kısmen kivaj kırılma
+ile birlikte sünek kırılma gözlenmiştir.
+• Kırılma yüzeylerinin SEM incelemesi sonucunda
+yeni ferrit içermeyen numunelerin daha düşük
+yoğunlukta mikroboşluk içerdiği gözlenmiştir.
+• Daha iyi mukavemet/süneklik elde etmek için
+ekstra ısıl işlem yapmak yerine yeni ferrit içeren
+çift fazlı çelik üretmek daha ucuzdur.
+5. KAYNAKLAR (REFERENCES)
+1. Rashid, M.S., “Relation between steel
+microstructure and formability”, Formable
+HSLA and dual-phase steels, Chicago, Illinois,
+AIME, 1-24, 26 Ekim 1977.
+2. Koo, J.Y. ve Thomas, G., “Design of dublex
+carbon steels for improved strength: weight
+applications”, Formable HSLA and dual-phase
+steels, Chicago, Illinois, AIME, 40-55, 26 Ekim
+1977.
+3. Rigsbee, J.M. ve VanderArend, P.J., “Laboratory
+studies of microstructures and structure-property
+relationships in dual-phase HSLA steels”,
+Formable HSLA and dual-phase steels,
+Chicago, Illinois, AIME, 56-86, 26 Ekim 1977.
+4. Morrow, J.W. ve Tither, G., Buck, R.M.,
+“Intercritically annealed dual phase steels for
+automotive applications”, Formable HSLA and
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+8.
+
+9.
+
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+16.
+
+17.
+
+18.
+
+dual-phase steels, Chicago, Illinois, AIME, 151166, 26 Ekim 1977.
+Hayami, S., Furukawa, T., Gondoh, H., Takechi,
+H., “Recent developments in formable hot and
+cold rolled HSLA including dual-phase sheet
+steels”, Formable HSLA and dual-phase steels,
+Chicago, Illinois, AIME, 167-180, 26 Ekim 1977.
+Davies, R.G. ve Magee, C.L., “Physical
+metallurgy of automotive high strength steels”,
+Structure and properties of dual-phase steels,
+New Orleans, AIME, 1-19, 19-21 Şubat 1979.
+Davies, R.G., “On the ductility of dual-phase
+steels”, Formable HSLA and dual-phase steels,
+Chicago, Illinois, AIME, 25-39, 26 Ekim 1977.
+Lawson, R.D., Matlock, D.K., Krauss, G., “The
+effect of microstructure on the deformation
+behaviour and mechanical properties of a dual
+phase steels”, Fundamentals of dual-phase
+steels, Chicago, Illinois, AIME, 347-381, 23-24
+Şubat 1981.
+Davies, R.G., “Influence of martensite
+composition and content on the properties of dual
+phase steels”, Metallurgical Transactions A,
+Cilt 9A, 671-679, 1978.
+Huppi, G.S., Matlock, D.K., “An evalution of the
+importance of epitaxial ferrite in dual phase steel
+microstructures”, Scripta Metallurgica, Cilt 14,
+1239-1243, 1980.
+Erdoğan, M. ve Priestner, R., “Effect of
+martensite content, its dispersion and epitaxial
+content on Bauschinger behaviour of dual phase
+steel”, Materials Science and Technology, Cilt
+15, 1273-1284, 1999.
+Jeong, W.C. ve Kim, C.H., “Deformation
+characteristics of retained ferrite and transformed
+ferrite in a dual phase steel”, Metallurgical
+Transactions A, Cilt 18A, 629-635, 1987.
+Andrews, K.W., “Empirical formulae for the
+calculation of some transformation temperatures”,
+Journal of The Iron and Steel Institute, Cilt
+203, 721-727, 1965.
+Lawson, R.D., “Matlock, D.K., Krauss, G., “An
+etching technique for microalloyed dual phase
+steels”, Metallography, Cilt 13, No 1, 71-87,
+1980.
+TS 138 EN 10002-1 Metalik Malzemeler-Çekme
+Deneyi, TSE, 25-26, 2004.
+Ahmad, E. ve Priestner, R., “Effect of rolling in
+the intercritical region on the tensile properties of
+dual phase steel”, Journal of Materials
+Engineering Performance, Cilt 7, No 6, 772776, 1998.
+Sarwar, M. ve Priestner, R., “Influence of ferritemartensite microstructural morphology on tensile
+properties of dual phase steel”, Journal of
+Materials Science, Cilt 31, 2091-2095, 1996.
+Erdoğan, M., Tekeli, S., Pamuk, O., Erkan, A.,
+“Surface carburized AISI 8620 steel with dual
+phase core microstructure”, Materials Science
+and Technology, Cilt 18, 840-844, 2002.
+
+271
+
+E. Salamcı ve F. Kabakcı
+
+19. Cjang W.J. ve Kim C.H., “Ferrite Growth on
+Cooling after Intercritical Annealing in a Dual Phase
+Steel”, Scripta Metallurgica, Cilt 118, 37-42,1985.
+20. Tanaka T., Nishida M., Hashiguchi ve Kato T.L.,
+“Formation and Properties of Ferrite Plus
+Martensite Dual-Phase Steels”, Structure and
+properties of dual phase steels, New Orleans,
+AIME, 221-242, 19-21 Şubat 1979.
+21. Terao, H., “Structure and Mechanical Properties
+of High-Manganese Dual-Phase Steels”, Journal
+of Materials Science, Cilt 21, 1715-1720, 1986.
+22. Matlock, D.K., Krauss, G., Ramos, L.F., Huppi,
+G.S., “A correlation of processing variables with
+deformation behavior of dual-phase steels”,
+Structure and properties of dual-phase steels,
+New Orleans, AIME, 62-90, 19-21 Şubat 1979.
+
+272
+
+Çift Fazlı Çeliğin Çekme Özelliklerine Mikroyapının Etkisi
+
+23. Speich, G.R. ve Miller, R.L., “Mechanical
+Properties
+of
+Ferrite-Martensite
+Steels”,
+Structure and properties of dual-phase steels,
+New Orleans, AIME, 145-182, 19-21 Şubat 1979.
+24. Sarwar, M., Ahmad, E., Qureshi, K.A., Manzoor,
+T., “Influence of epitaxial ferrite on the tensile
+properties of dual phase steel”, Materials &
+Design, Cilt 28, No 1, 335-340, 2007.
+25. Erdoğan, M., “The effect of new ferrite content
+on the tensile fracture behaviour of dual phase
+steels”, Journal of Materials Science, Cilt 37,
+3623-3630, 2002.
+26. Steinbrunner, D.L., Matlock, D.K., Krauss, G.,
+“Void formation during tensile testing of dual
+phase steels”, Metallurgical Transaction A, Cilt
+19A, 579-589, 1988.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 2, 2011
+
+

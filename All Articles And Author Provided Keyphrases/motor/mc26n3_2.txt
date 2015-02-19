@@ -1,0 +1,900 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 26, No 3, 643-648, 2011
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 26, No 3, 643-648, 2011
+
+PETRODİZEL VE KANOLA BİYODİZELİ PERFORMANS VE
+EMİSYON KRİTERLERİNİN MANGAN ESASLI KATKI
+MADDELERİYLE GELİŞTİRİLMESİ
+İsmet ÇELİKTEN* ve Metin GÜRÜ**
+*Gazi Üniversitesi, Teknoloji Fakültesi, Otomotiv Mühendisliği Bölümü, 06500-Ankara, Türkiye
+**Gazi Üniversitesi Mühendislik Fakültesi Kimya Mühendisliği Bölümü, 06570-Ankara, Türkiye
+celikten@gazi.edu.tr, mguru@gazi.edu.tr
+(Geliş/Received: 02.12.2010; Kabul/Accepted: 20.06.2011)
+ÖZET
+Biyodizel, dizel motorlarında en çok kullanılan yenilenebilir enerji kaynaklarından birisidir. Dizel ve biyodizel
+karışımları genellikle setan sayısının arttırılması ve yanma veriminin iyileştirilmesi için katkı maddelerine
+ihtiyaç duyarlar. Mn yakıtlar içerisinde yanmayı artırıcı katalizör görevi görmektedir. Bu yöntemle yakıtın setan
+sayısını da belirli oranda artırırken donma noktasının azaltılması sağlamaktadır. Bu araştırmada dizel
+motorlarında %50 No:2 dizel yakıtına %50 Kanola metil esterinden oluşan biyodizel yakıt karışımı (50B) temel
+yakıt olarak kullanıldı. Ayrıca oluşturulan 50B yakıtına sırasıyla 1, 6 ve 12 ppm olmak üzere 3 farklı oranda
+sentetik organik esaslı Mn katkı maddesi ilave edildi. Elde edilen 3 farklı Mn katkılı yakıt karışımları tam yük ve
+farklı motor devirlerinde hidrolik dinamometreye bağlı bulunan dört zamanlı dört silindirli bir dizel motoru
+üzerinde denendi. Deney sonunda motor performansı ve emisyon değişimleri incelendi. Elde edilen bulgulara
+göre, motor performansında, CO, HC ve % duman koyuluğunda azalmaların, CO2 ve NOx lerde ise artmaların
+olduğu belirlendi.
+
+1.
+
+GİRİŞ (INTRODUCTION)
+
+Günümüz dünyasında kullanılan enerjiler, canlı
+yaşam riskinin arttığı bir sürecin başlangıcı olarak
+görülebilir. Bu riskler; birçok enerji kaynaklarının bir
+
+süre sonunda tükenecek olması, klasik enerji
+kaynaklarının
+kullanılması,
+kullanılan
+enerji
+kaynakların çevre için geri dönüşümü olmayan
+tehlikeler oluşturması ve gelişen teknolojileri
+beslemekte zorlanmasına bağlı olarak, ülkeleri enerji
+
+İ. Çelikten ve M. Gürü
+
+Petrodizel ve Kanola Biyodizeli Performans ve Emisyon Kriterlerinin…
+
+çeşitliliğini artırmak ve enerjilerini verimli kullanmak
+zorunda bırakmaktadır.
+
+olarak
+kullanımında
+bulunmamaktadır [12].
+
+Ulaşımdaki gelişmeler, insanların yaşam düzeylerini
+yükseltirken dünyanın sahip olduğu kaynakların hızlı
+bir şekilde tüketilmesi problemini doğurmaktadır. Bu
+nedenle hem alternatif yakıt arayışları ve hem de
+mevcut yakıtların verimli kullanma yolları yoğun bir
+şekilde araştırılmaktadır. Bunun için gerek benzinli ve
+gerekse dizel motorlarında yanma verimini arttırmak
+için birçok araştırmalar yapılmış ve yapılmaya devam
+edilmektedir.
+
+Otomotiv sektörü, sıvı yakıtların en önemli tüketim
+alanlarından birini teşkil etmektedir. Bunun için gerek
+benzin gerekse dizel motorlarında yanma verimini
+arttırmak için çok yönlü araştırmalar yapılmış ve
+yapılmaya devam edilmektedir. Bu çalışmanın amacı
+da, dizel ile kanola metil esterine (50B), sentetik
+organik esaslı mangan (Mn) katkısının motor
+performansı ve egzoz emisyonları ile ilgili değişimleri
+tespit etmektir.
+
+Dizel yakıtının donma noktası yüksektir. Bu edenden
+dolayı filtre tıkanıklılarına sebep olmaktadır. Donma
+noktasını düşürmek için rafine işlemlerinden sonra
+yakıt içerisine farklı katıklar katılmaktadır. Ayrıca,
+biyo yakıtlarına göre daha fazla karbon içerdiğinden
+dolayı da motorlarda bazı problemler oluşturmaktadır.
+
+2.
+
+Dizel yakıtı düşük bir yanma verimine ve hava
+kirliliğine sebep olan kirletici maddelere sahiptir.
+Bundan dolayı birçok araştırmacı dizel yakıtının
+özelliklerinin geliştirilmesine odaklanmıştır [1-5].
+Bunlardan birisi de biyodizel yakıtları olup, Kanola
+biyodizel yakıtının fiziksel ve kimyasal özellikleri de
+dizel yakıtına kısmen benzemektedir [6,7].
+
+herhangi
+
+MATERYAL VE METOT
+
+bir
+
+sakınca
+
+(MATERIALS AND
+
+METHODS)
+
+Testler Gazi Üniversitesi Teknik Eğitim Fakültesi
+Makine Eğitimi Bölümü Otomotiv Anabilim Dalı
+İçten Yanmalı Motorlar Laboratuarında yapıldı.
+Yapılan araştırmada, 50B yakıtına Mn katkısının
+performans ve emisyon değişimleri test edildi. Test
+düzeneğinin şematik resmi Şekil 1.’de görülmektedir.
+
+Motorlu
+taşıtlar
+havayı
+oldukça
+fazla
+kirletmektedirler. Kirletmelerinin temel sebeplerinden
+birisi de verimlerinin düşük olmasıdır. Bu durum da
+yakıtın yanması sonucu daha fazla CO, HC, NOx,
+CO2 ve PM gibi atıkların atılmasına ve yakıta bağlı
+olarak da SO2 ve Pb bileşiklerinin oluşmasına neden
+olmaktadır. Bu nedenle motorlu taşıtların egzoz
+gazlarından kaynaklanan hava kirliliği, kalıcı
+önlemleri gerektiren çevre sorununa neden olmaktadır
+[8].
+
+apparatus schematic picture).
+
+Dizel motorlarında Fe, Mg, Ce içerikli katkı
+maddeleri kullanıldığında partikül emisyonlarının
+(PM) azaldığı, %2-%5 oranında Mn içerikli peroksit
+kullanımlarının PM miktarlarında %22-%25 oranında
+düşürmektedir [5].
+
+Testler, 1Nm aralıklarında 500 kg a kadar
+yüklenebilen, BT 190 markalı 100 kW güce sahip
+hidrolik dinamometre ve üzerindeki Tablo 1 de teknik
+özellikleri verilen Stayer marka motor üzerinde
+yapıldı.
+
+Mangan esaslı yakıt katkısının dizel motorlarında test
+edilmesi sonucu yakıttaki HC oranın azalmaktadır
+[9,10].
+
+Tablo 1.Test motorunun teknik özellikleri (Test engine
+
+Dizel yakıtına, organik esaslı Mn, Mg, Cu, Ca gibi
+bileşiklerin ilave edilmesi ile yapılan bir diğer
+çalışmada, en uygun oran ve performans değişimleri
+test edilmiştir. En fazla azalmanın donma noktasında
+olduğu ve organik esaslı manganezin donma
+noktasında en fazla azalma göstermektedir. Organik
+esaslı manganez katkısının yakıtın viskozite ve
+parlama noktasını düşürürken, egzoz gazlarında CO2
+miktarını artırdığı ara oksidasyon ürünlerini azalttığı
+belirlenmiştir [11].
+Mangan doğada demirden sonra en yaygın olarak
+bulunan elementtir. Bitki küllerinde de mangan
+vardır. Doğadaki en önemli filizi MnO2 formülü ile
+gösterilen “pirolusit” dir. Manganın katkı maddesi
+
+644
+
+Şekil.1. Test düzeneğinin şematik resmi (The test
+
+specifications)
+
+Markası
+Silindir sayısı
+Silindir çapı
+Kurs
+Sıkıştırma oranı
+Maksimum motor
+devri
+Maksimum güç
+Maksimum tork
+
+Semboller
+Z
+D
+S
+Ε
+N
+Pe
+Me
+
+Özellikleri
+4
+100 mm
+100 mm
+16,1/1
+2400 1/min
+46 kW (2100
+1/min)
+216 Nm (1400
+1/min)
+
+Emisyon değişimleri Testo 350 XL marka emisyon
+cihazı ile ölçülmüş olup, cihazın teknik özellikleri
+Tablo.2. de verilmektedir. Cihaz CO2 gazlarını % ve
+CO, HC, NOx gazlarını ise ppm cinsinden
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Petrodizel ve Kanola Biyodizeli Performans ve Emisyon Kriterlerinin…
+
+ölçmektedir. N veya k duman faktörünün ölçümünde
+ise VLT 2600 S marka duman ölçüm cihazı kullanıldı.
+Cihazın teknik özellikleri Tablo.3. de görülmektedir.
+Tablo 2. Testo 350-XL cihazı teknik değerleri (Testo
+
+İ. Çelikten ve M. Gürü
+
+sonra ölçümlere başlandı. İlk önce 50B yakıtı test
+edildi. Daha sonra aynı yakıt üzerine 1pp, 6ppm ve 12
+ppm den oluşan yakıt karışımları motorda sırasıyla
+kullanılarak performans ve emisyon değişimleri
+bulundu.
+
+350-XL device technical values)
+
+Emisyonlar
+O2
+CO2
+CO
+HC
+NOx
+
+Ölçüm
+aralığı
+0–25 %
+vol
+0–50 %
+vol
+0–5000
+ppm
+0,01–4
+%
+0–3000
+ppm
+
+Hata payı
+
+Hassasiyeti
+
+<%2 of m.v
+
+%0.1 vol
+
+±%3 vol.
+
+% 0.01 vol
+
+5 ppm (0–99
+ppm)
+<400 ppm
+(100–4000
+ppm)
+5 ppm (0–99
+ppm)
+
+1 ppm
+0,1 ppm
+1 ppm
+
+Tablo. 3. VLT 2600 S duman cihazının teknik
+özelikleri (VLT 2600 S smoke device technical characteristics)
+Emisyon Gazları
+Ölçüm
+Hassasiyeti
+Aralığı
+%N (Egzoz duman
+%0–99
+0,01
+koyuluğu)
+k
+(1/m)
+(duman
+0–10
+0,01
+faktörü)
+Motor devri
+0–9999
+1 min-1
+min-1
+Yakıt tüketiminin ölçümünde, Dikomsan JS-B marka,
+0,1 g hassasiyetinde dijital elektrikli terazi ve Robic
+Sports SC–700 dijital marka, 0,01 saniye. hassasiyetli
+kronometre kullanıldı. Hava akışı, 1 mm cıva sütunu
+hassasiyetindeki hava akış metresi ile ölçüldü,
+ölçümlerde 1,75” ve 2,75”lik orifisler kullanıldı.
+Dizel yakıtı ile kanola metil esterinin fiziksel ve
+kimyasal özellikleri Tablo.4 de görülmektedir.
+Tablo.4.Test yakıtlarının fiziksel ve kimyasal
+özellikleri [6,7] (Physical and chemical properties of test fuels)
+Yakıt
+Viskozite
+Isıl
+Setan Yoğunluk
+türü
+(40°C)
+değeri sayısı
+(25°C)
+(mm2/sn) (kJ/kg)
+(g/cm3)
+Dizel
+3,9
+43300
+54
+0,837
+yakıtı
+Kanola
+4,7
+39900
+58
+0,877
+metil
+esteri
+Testlere başlamadan önce motorun yağ ve su
+seviyeleri kontrol edildi. Yakıt pompası ayarları
+yapıldı ve enjektör basınçları orijinal değere göre
+ayarlandı. Motor soğutma suyu ve hidrolik
+dinamometrenin bağlantıları kontrol edildi. Testlerde
+kullanılan yakıt, dijital terazi üzerine yerleştirilen bir
+kavanozun içerisine dolduruldu ve motor çalışmaya
+hazır hale getirildi.
+Motor yaklaşık olarak beş dakika süreyle çalıştırılarak
+ısıtıldı. Motor çalışma suyu sıcaklığına geldikten
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Testler arası geçişlerde verileri alınmadan önce
+motorun yakıt borularında ve yakıt filtresinde daha
+önceki çalışmadan dolayı kalmış bulunan yakıtın
+tüketilmesi ve motorun çalışma sıcaklığına erişmesi
+için her yakıt değişiminde motor 5 dakika çalıştırıldı.
+Ayrıca testler motor ısındıktan sonra tam gaz ve tam
+yük konumunda yapıldı.
+Tam yük altında bulunan motor, dinamometre kontrol
+paneli üzerinden sırasıyla 1100 1/min ile 2300 1/min
+devirler arasında 100 1/min aralıklarla 13 adet test
+yapıldı. Testlerde kullanılan yakıt karışımlarının
+motora bağlı olarak performans ve emisyon
+değişimleri elde edildi.
+3.
+
+SONUÇLAR VE TARTIŞMA
+
+(RESULTS AND
+
+DISCUSSION)
+
+Bu araştırmada, daha önce karışım oranları belirtilmiş
+bulunan 50B biyodizel yakıtı ve bu biyodizel yakıtına
+Mn katkısının performans ve emisyon değişimlerine
+yer verilmektedir.
+3.1. Performans Değişimleri (Performance Exchanges)
+Dizel motorlarında kullanılan 50B yakıtı ve bu yakıta
+Mn katkısının tork, güç ve özgül yakıt tüketimlerinin
+motor devrine bağlı değişimleri Şekil 2 ’de
+görülmektedir.
+Yakıtların
+belirli
+devirlerdeki
+değişimleri ile 1100–2300 1/min arasındaki alınan
+değerlerin aritmetik ortalamaları dikkate alınmıştır.
+Maksimum motor torku 1200 1/min’de yakıt kullanım
+sırasına göre 184,4-186-187-187,9 Nm olarak
+bulundu. Aritmetik ortalamalarına göre tork
+değişimleri 175,9-176,8-177,4-179 Nm olup, Mn
+katkılı yakıtların 50B yakıtına göre tork değişimleri
+sırasıyla %0,5-%0,8-%0,17 oranlarında arttığı
+belirlendi.
+Maksimum güç 2300 1/min’de elde edilmiş olup,
+kullanılan yakıtların test sırasına göre değişimleri
+36,38-36,55-36,92-37,04 kW olarak bulundu.
+Aritmetiksel ortalamalarının güç değişimleri sırasıyla
+31-31,1-31,2-31,5 kW artar oranda değişmekte olup,
+Mn katkılı yakıtların 50B yakıtına göre tork
+değişimleri sırasıyla %0,5-%0,8-%0,17 oranında
+arttığı tespit edildi.
+Özgül yakıt tüketimi minimum 1500 1/min’de tespit
+edilmiş olup, yakıt kullanım sırasına göre değişimleri
+280,4-264,8-284,7-262,8 g/kWh olarak bulundu.
+Aritmetiksel ortalamalarına göre özgül yakıt tüketimi
+değişimleri 280,4-280-278-276 g/kWh olup, Mn
+katkılı yakıtların 50B yakıtına göre tork değişimleri
+sırasıyla %0,1-%1,0-%1,6 oranında azaldığı tespit
+edildi.
+
+645
+
+İ. Çelikten ve M. Gürü
+
+Petrodizel ve Kanola Biyodizeli Performans ve Emisyon Kriterlerinin…
+
+Motor performansı ile ilgili elde edilen bulgulara
+göre, 50B yakıtına katılan Mn katkısının efektif güç,
+tork ve özgül yakıt tüketimi değişiminde az da olsa
+etkili olduğu görülmektedir. Bu durumda 50B
+yakıtına Mn katkı oranları arttıkça karışımın
+yoğunluğunu kısmen artmasına bağlı olarak motor
+performans değerlerinin de kısmen arttırdığı
+belirlendi.
+190
+Md
+Md
+Md
+Md
+
+Md (Nm)
+
+180
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+170
+
+160
+
+150
+1000
+
+1200
+
+1400 1600 1800 2000
+Motor devri (1/min)
+
+2200
+
+2400
+
+40
+
+3.2. Emisyon Değişimleri (Emission Exchanges)
+CO, HC ve NOx emisyonlarının motor devirlerine
+bağlı değişimleri Şekil 3‘de görülmektedir.
+CO emisyon değişimleri, 1100-1500 1/min devirleri
+arasında cihazın ölçüm değerleri üzerine çıktığından
+genelde 4999 ppm olarak ölçüldü, daha sonra ölçüm
+sınırları arasına ulaştığında gerçek değerler alınabildi.
+Mn katkı maddesinin artması ile yani 1100–2300
+1/min arasında alınan tüm değerlerin aritmetik
+ortalamalarına ve test sırasına göre, 3360-3277-31422884 ppm olarak değiştiği ve 50B yakına göre
+değişim oranları
+sırasıyla;
+%2,5-%6,9-%16,5
+oranlarında azaldığı belirlendi.
+HC emisyon değişimlerini cihaz ppm cinsinden
+ölçmekte olup, 1500 1/min den sonra değer alınamadı
+ve alınan değerler göre değerlendirme yapıldı. Burada
+HC lerin de CO lar gibi azalmakta olup, ancak tüm
+devirlerdeki veriler alınmadığının detaylı bir
+değerlendirme yapılmadı.
+NOx emisyonları 50B yakıtına göre Mn katkısı ile
+daha yüksek değerler ölçüldü. Aritmetiksel
+ortalamalarına göre 1837-1874-1891-1912 ppm
+olarak değişmekte iken, kullanılan Mn katkılı
+yakıtların 50B yakına göre sırasıyla; %2-%2,9-%3,9
+oranlarında arttığı belirlendi.
+
+36
+
+Pe (kW/)
+
+32
+
+28
+
+CO2, %N (duman koyuluğu) emisyonlarının motor
+devirlerine bağlı değişimleri Şekil 4 de görülmektedir.
+
+c
+
+Pe
+Pe
+Pe
+Pe
+
+24
+
+20
+1000
+
+50B fuel and performance changes in the contribution of this fuel in
+different ratios of Mn).
+
+1200
+
+1400 1600 1800 2000
+Motor devri (1/min)
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+2200
+
+2400
+
+CO2 emisyonları 50B yakıtına göre artma eğilimi
+göstermektedir. Aritmetiksel ortalamalarına göre
+sırasıyla %12,8-%12,14-%12,27-%12,36 oranlarında
+değişmekte olup, Mn katkılı yakıtların 50B yakına
+göre değişimleri sırasıyla %0,5-%0,15-%0.24
+oranlarında arttığı belirlendi.
+
+310
+be
+be
+be
+be
+
+be (g/kWh)
+
+300
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+290
+
+%N (duman koyuluğu) Mn katkısına bağlı olarak
+azama
+eğilimi
+göstermektedir.
+Aritmetiksel
+ortalamalarına göre sırasıyla %47, %40, %37, %33
+oranlarında değişmekte olup, Mn katkısının 50B
+yakına göre değişimleri sırasıyla %18,6-%28,1-%45,7
+oranında azaldığı belirlendi.
+
+280
+
+270
+
+260
+1000
+
+1200
+
+1400 1600 1800 2000
+Motor devri (1/min)
+
+2200
+
+2400
+
+Şekil 2. Tam yük ve değişik motor devirlerinde, 50B
+yakıtı ve bu yakıta farklı oranlarda Mn katkısının
+performans değişimleri. (Full load and various engine speeds,
+
+646
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+Petrodizel ve Kanola Biyodizeli Performans ve Emisyon Kriterlerinin…
+
+İ. Çelikten ve M. Gürü
+
+6000
+
+13,0
+CO
+CO
+CO
+CO
+
+5000
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+12,5
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+CO2 (%)
+
+CO (ppm)
+
+4000
+3000
+
+12,0
+
+2000
+
+11,5
+
+1000
+0
+1000 1200
+
+C O2
+C O2
+C O2
+C O2
+
+1400 1600 1800 2000
+Motor devri (1/min)
+
+2200 2400
+
+11,0
+1000
+
+1200
+
+1400 1600 1800 2000
+Motor devri (1/min)
+
+2200
+
+2400
+
+3500
+HC
+HC
+HC
+HC
+
+3000
+2500
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+100
+
+80
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+1500
+
+60
+
+1000
+
+N (%)
+
+HC (ppm)
+
+2000
+
+500
+0
+1000 1200 1400 1600
+-500
+-1000
+
+1800 2000 2200 2400
+
+40
+
+20
+
+Motor devri (1/min)
+
+0
+1000
+2400
+
+1800
+
+4.
+
+2200
+
+2400
+
+SONUÇLAR VE ÖNERİLER
+
+(CONCLUSION
+
+AND RECOMMENDATION)
+
+1600
+
+1200
+1000 1200
+
+1400 1600 1800 2000
+Motor devri (1/min)
+
+load and various engine speeds, the contribution of Mn 50B at
+different rates of fuel and the fuel emissions of CO2 and smoke
+opacity changes).
+
+2000
+
+1400
+
+1200
+
+Şekil 4 Tam yük ve değişik motor devirlerinde, 50B
+yakıtı ve bu yakıta farklı oranlarda Mn katkısının CO2
+ve Duman koyuluğu emisyonlarının değişimleri (Full
+
+2200
+
+NOx (ppm)
+
+N
+N
+N
+N
+
+N Ox
+N Ox
+N Ox
+N Ox
+
+(50B)
+(50B+1Mn)
+(50B+6Mn)
+(50B+12Mn)
+
+1400 1600 1800 2000
+Motor devri (1/min)
+
+Sonuçlar:
+•
+
+50B yakıtlarında kullanılan Mn katkı maddesi
+motor torkunu ve buna bağlı olarak motor gücünü
+kısmen arttırırken, özgül yakıt tüketiminin de
+kısmen azalmaktadır.
+
+•
+
+Karışım yakıtına katılan Mn katkı maddesinin
+katkı oranlarına bağlı olarak CO, HC ve %N
+bakımından azalırken, CO2 ve NOx emisyonları
+ise kısmen artmaktadır. Bunun sebebi; belirli
+oranlardaki Mn katkı maddesinin yakıtın ısıl
+değerini katalizör görevi yaparak artırdığı ve
+yanmayı iyileştirdiği şeklinde yorumlanmaktadır.
+
+2200 2400
+
+Şekil 3. Tam yük ve değişik motor devirlerinde 50B
+yakıtı ve bu yakıta farklı oranlarda Mn katkısının CO,
+HC ve NOx emisyonlarının değişimleri. (Full load and
+various engine speeds, fuel and this fuel in different ratios of Mn
+contribution 50B CO, HC and NOx emissions changes
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+647
+
+İ. Çelikten ve M. Gürü
+
+•
+
+Elde edilen bulgulardaki HC, CO2 ve PM
+emisyonlarla ilgili yapılan bu çalışmalar [5-8]
+kaynakçalarında belirtilen çalışmaları uyum
+içerisinde bulunmaktadır. CO2 arttığından CO lar
+azalacağından,
+yanmanın
+olumlu
+olması
+durumunda da NOx emisyonlarının yükselmesi
+kaçınılmaz gözükmektedir.
+
+•
+
+Öneriler:
+
+•
+
+Mn katkı maddesi 50B performans değerlerini
+kısmen artırdığından ve emisyon değerlerini de
+kısmen düşürdüğünden dolayı 50B ve dizel
+yakıtlarında
+katkı
+maddesi
+olarak
+kullanılabilecektir.
+
+•
+
+50B biyodizeli içerisinde Mn katkı maddesinin
+12 ppm in altında ve üstünde ve daha düşük
+aralıklarda tekrarlanması araştırmalardaki netlik
+açısından daha önemli olacaktır.
+
+•
+
+50B biyodizel yakıtına Mn katkı maddesinin
+katkı oranları öncelikle her katkı oranından sonra
+fiziksel
+ve
+kimyasal
+özeliklerinin
+belirlenmesinden sonra test edilmesi daha etkili
+olacaktır.
+
+•
+
+Mn katkı maddesinin 10B-100B arasında farklı
+oranlarda test edilmesi yararlı olabilecektir.
+
+•
+
+Performans ve emisyon değişimleri bakımından
+elde edilen bulguların çok yüksek olmamasından
+dolayı yakıtlarda Mn katkı maddesi oranlarının
+daha etkin kullanılması için kısa süreli testlerin
+dışında uzun süreli testler yapılmasının daha
+anlamlı olacaktır.
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+648
+
+Keskin A, Gürü M., Altıparmak D., Investigation
+of performance and emissions characteristics of
+tall oil biodiesel with CO based additive, Energy
+Sources Part A, 32(20), 1899-1907, 2010.
+Gürü M., Can Ö., Koca A, Çınar C., Şahin F.,
+Biodiesel production from waste chicken fat
+based sources and evaluation with Mg based
+additive in a Diesel engine, Renewable Energy,
+35(3), 637-643, 2010.
+
+Petrodizel ve Kanola Biyodizeli Performans ve Emisyon Kriterlerinin…
+
+3.
+
+Keskin A., Gürü M., Altıparmak D., Biodiesel
+production from tall oil with synthesized Mn and
+Ni based additives on fuel consumption and
+emissions, Fuel, Vol 86/7-8 pp 1139-1143, 2007.
+4. Silva, F.N., Prata, A.S., Teixeira, J.R., “Technical
+Feasibility Assessment of Oleic Sunflower
+Methyl Ester Utilisation in Diesel Bus Engines”,
+Energy Conversion and Management, 44
+2857-2878, 2003.
+5. Dorado, M.P., Ballesteros, E., Arnal, J. M.,
+Gomez, J. and Lopez, F. J., Exhaust Emission
+From A Diesel Engine Fuelled With
+Transesterified Waste Olive Oil, Fuel, 82: 13111315, 2003.
+6. Celikten İ, Arslan MA, Investigation of diesel
+fuel, rape oil and soybean oil methyl esters
+effects on a direct injection diesel engine
+performance and emissions, J. of the Faculty of
+Engineering and Architecture of Gazi
+University, 23 (4), 829-836, 2008.
+7. Çelikten İ., Koca A., Arslan MA., Investigation
+of the effects of diesel fuel, rapeseed and soybean
+oil methyl esters on engine performance and
+emissions at different injection pressures,
+Renewable Energy, 35, 814-820, 2010.
+8. Öztürk, G., Egzoz Gazlarından Kurtuluşa Doğru,
+Bilim ve Teknik, Cilt 22, Sayı 263, Sayfa 30-33,
+1989.
+9. Yang HH, Lee WJ, Mi HH, Wong CH, Chen CB.
+PAH emissions influenced by Mn-based additive
+and turbocharging from a heavy duty diesel
+engine, Environmental International, 24(4),
+309–403, 1998.
+10. Keskin A., Gürü M, Altiparmak D, Influence of
+metallic based fuel additives on performance and
+exhaust emissions of diesel engine, Energy
+Conversion and Management, 52(1), 60-65,
+2011.
+11. Çaynak S, Gürü M; Biçer, A, Keskin A, Içingür
+Y., Biodiesel production from pomace oil and
+improvement of its properties with synthetic
+manganese additive, Fuel, 88(3), 532-536, 2009.
+12. Yang H, Wen-Jhy L. PAH emissions influenced
+by Mn-based additive and turbocharging from a
+heavy-duty Diesel engine, Elsevier Science CA
+Section, 24, 389–403 1998
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 26, No 3, 2011
+
+

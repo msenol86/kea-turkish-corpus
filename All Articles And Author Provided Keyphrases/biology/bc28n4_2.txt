@@ -1,0 +1,961 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 4, 759-765, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 4, 759-765, 2013
+
+ADENOZİN DEAMİNAZ ENZİMİNİN KİNETİK DAVRANIŞI
+ÜZERİNE ZERDEÇAL (CURCUMA LONGA) EKSTRESİNİN
+ETKİLERİNİN ARAŞTIRILMASI
+
+Zahide Esra DURAK
+
+Gazi Üniversitesi Mühendislik Fakültesi, Biyokimya, Maltepe-Ankara
+zaesrad@hotmail.com
+(Geliş/Received: 27.08.2013; Kabul/Accepted: 07.11.2013)
+ÖZET
+Bu çalışmada, kanser metabolizmasının kilit enzimlerinden biri olan adenozin deaminaz (ADA) sığır
+karaciğerinden izole edilerek kısmen saflaştırılmış, kinetik özellikleri incelenmiş ve enzimin kinetik davranışı
+üzerine zerdeçal ekstresinin etkileri araştırılmıştır. ADA enziminin inhibitörsüz şartlarda çizilen Michaelis
+Menten ve Lineweaver Burk grafiklerinde V max değeri absorbans olarak 0,8 (spesifik aktivite olarak 40 mIU/g
+protein), Km değeri 100 mM olarak tespit edilmiştir. Zerdeçal ekstresinin iki farklı konsantrasyonunda çizilen
+Michaelis Menten ve Lineweaver Burk grafiklerinde ise her iki durum için Km değeri 100 mM olarak, V max
+değerleri ise % 10 zerdeçal konsantrasyonunda 0,5 (25 mIU/g protein), % 20 zerdeçal konsantrasyonunda ise 0,3
+(15 mIU/g protein) olarak bulunmuştur. Bu sonuçlar zerdeçal bileşenlerinin ADA enzimini non-kompetetif türde
+inhibe ettiğini göstermektedir. ADA enziminin zerdeçal tarafından bu şekilde inhibisyonu, zerdeçalın anti kanser
+özelliklerine katkı sağlayan mekanizmalardan biri olabilir.
+Anahtar Kelimeler: Adenozin Deaminaz, Zerdeçal (Curcuma Longa), Kanser, İnhibisyon, Michaelis-Menten,
+Lineweaver-Burk, Kinetik,
+
+INVESTIGATION OF THE EFFECTS OF AQUOEUS TURMERIC (CURCUMA
+LONGA) EXTRACT ON KINETIC BEHAVIOR OF ADENOSINE DEAMINASE
+ENZYME
+ABSTRACT
+In this study, adenosine deaminase enzyme which plays an important role in cancer metabolism was isolated and
+partly purificated from cattle liver, and its kinetic properties were established with and without turmeric extract.
+V max and Km values of ADA enzyme were found to be 0.80 absorbance unit (as specific activity 40 mIU/g
+protein) and 100 mM respectively by using Michaelis Menten and Lineweaver Burk graphs drawn in the studies
+without inhibitor. In the Michaelis Menten and Lineweaver Burk graphs drawn with two different concentrations
+of Curcuma Longa extract, Km value was found to be 100 mM at both concentrations. V max value was found to
+be 0.5 (25 mIU/g protein) at the 10 % turmeric concentration,but it was 0.3 (15 mIU/g protein) at 20 % turmeric
+concentration. These results show that turmeric constituents inhibit ADA enzyme non competetively. This kind
+of inhibition of ADA enzyme by turmeric extract might be one of the mechanisms contributed to anti cancer
+potency of curcuma longa.
+Key Words: Adenosine Deaminase, Turmeric (Curcuma Longa), Cancer, Inhibition, Michaelis-Menten,
+Lineweaver-Burk, Kinetic
+1. GİRİŞ (INTRODUCTION)
+Kanser dünyadaki bütün insanlar için en büyük sağlık
+problemidir. Kemoterapi ve radyasyon terapisinin yan
+
+etkileri açıkça ortadadır. Bu terapiler bazı kanser
+türleri için başarılı sonuç vermemektedir. Bu yüzden
+bilim adamları uzun süredir doğal tedavi yöntemleri
+aramaktadır. Kırsal kesimlerde bazı kanser türlerinin
+
+Z. E. Durak
+
+Adenozin Deaminaz Enziminin Kinetik Davranışı Üzerine Zerdeçal (Curcuma Longa) Ekstresinin...
+
+tedavisinde, çeşitli bitkilerin kullanıldığı ve olumlu
+sonuçların ortaya çıktığı belirlenmiştir. Bunun
+ardından bu konuda öncelikle bitkisel kaynaklı
+bileşikler değerlendirilmiştir. Aslında bitkilerin
+kanseri tedavi etmesi görüşünün uzun bir tarihi
+geçmişi vardır [1]. Zerdeçalın kanser önleyici ve
+tedavi edici özelliğinden dolayı yüzyıllar boyu
+geleneksel tedavide kullanılmıştır [2]. Bu bitkiden
+elde edilen ekstraklar kanserli hücrelerin çoğalmasını
+ve yayılmasını engelleyebilmektedir [3,4,5]. Zerdeçal,
+güvenilirliğinin yanı sıra koruyucu ve tedavi edici
+özelliğiyle kanser tedavisinde ideal bitkisel ajanlardan
+biri olmuştur [6,7]. Zerdeçalla ilgili olarak yapılan
+çok sayıdaki çalışmaya rağmen zerdeçalin anti kanser
+mekanizması üzerinde aydınlatıcı bilgiye ihtiyaç
+vardır. Ana aktif bileşen olan diferulolmetanın yanı
+sıra, zerdeçalda antikanser mekanizmasına katkı
+sağladığı düşünülen başka bileşenlerin olduğu
+bilinmektedir. Temel aktif maddenin kurkumin
+olduğu düşünülmesine rağmen, kurkumin tek başına
+zerdeçal kadar etkili olamamaktadır [8]. Bu bakımdan
+zerdeçalın diğer bileşenlerinin de toplam biyolojik
+aktivite için önemli olduğu düşünülmektedir. Ancak,
+etki mekanizması ve bunda rol oynayan yapısal
+bileşenler tam olarak ortaya konulmadığı için,
+konunun değişik açılardan araştırılmasına ihtiyaç
+duyulmaktadır. Bu kapsamda ele alınması gereken bir
+konu zerdeçal bileşenlerinin kanser metabolizmasında
+etkili olduğu bilinen bazı anahtar enzimler üzerine
+etkilerinin belirlenmesidir. Bu enzimlerden biri
+adenozin
+deaminazdır.
+Adenozin
+deaminaz,
+hidrolazlar sınıfında bulunan bir enzimdir. Hidrolazlar
+C-O, C-N, C-C ve fosfo anhidrit bağını da içeren
+diğer bazı bağların hidrolotik olarak yıkılmasını
+katalizleyen enzimlerdir.
+Adenozin deaminaz, spesifik olarak adenozin ve bazı
+diğer nükleozit analoglarını substrat olarak kullanır.
+Hayvan dokularında yaygın olarak bulunur. En
+yüksek aktivite intestinal mukoza ve dalakta bulunur.
+Buna karşılık iskelet kasında, deride ve kemikte daha
+az miktarda olmak üzere aktivite vardır. Enzim büyük
+ölçüde
+hücrenin
+stoplazmik
+fraksiyonunda
+bulunmasına karşılık, kısmen nükleusta da mevcuttur
+[9].
+Substrat spesifikliği, elde edildiği kaynaklara göre
+değişiklik gösterir. Aynı şekilde farklı organ ve
+dokulardan elde edilen enzim farklı optimal pH,
+elektroforotik mobilite ve substrat spesifikliği
+gösterir. Buna karşılık aynı organizmanın farklı
+dokularında aynı enzim mevcuttur [10]. Serumdaki
+ADA aktivitesinin malin tümörlerde, viral hepatitte ve
+sirozda arttığı görülmüştür. Özellikle günümüzde
+serum ADA aktivitesi, akciğer kanseriyle akciğer
+tüberkülozunun ayırıcı teşhisinde kullanılmaktadır.
+Akciğer kanserinde serumdaki ADA aktivitesi anlamlı
+derecede
+değişiklik göstermemesine rağmen,
+tüberkülozda
+anlamlı
+derecede
+yükselme
+görülmektedir [11,12].
+
+760
+
+1.1. Kimyasal Yapısı ve Özellikleri
+
+(Chemical
+
+Structure and Species)
+
+Adenozin deaminaz, sekiz β zinciri ve periferde sekiz
+α heliks içeren paralel bir αβ kompleksi içerir. Bu
+protein
+1088
+nükleotid
+tarafından
+şifrelendirilmektedir.Protein zinciri başlangıçtaki
+metiyonin hariç 362 aminosit içerir. N- terminal
+uçtaki aminoasit alanin, C- terminal uçtaki aminoasit
+ise lösindir [13].
+ADA’nın atomik absorbsiyon spektroskopisine göre
+her enzim molekülü başına 0,9 ± 0,1 Zn atomu bağlar.
+Aktif merkezdeki Zn iyonu, His15 , His17 ve His214 '
+ün N atomlarına, Asp295 ' in O atomuna ve
+hidroksipürin ribonükleozid ' in (HDRP) O atomuna
+koordine bağlarla bağlanmıştır [14].
+1.2.
+Adenozin
+Deaminazın
+görev
+reaksiyonlar (Reactions of Adenosine Deaminase)
+
+aldığı
+
+ADA, adenozin ve 2’- deoksiadenozini sırası ile
+inozin ve 2'-deoksiinozine yıkım yolunu katalize
+etmektedir. Bu reaksiyon geriye dönüşümsüz olduğu
+için, bu enzim reaksiyonu adenozinin yıkılmasında
+kontrol basamağını oluşturur. Adenozin ve
+deoksiadenozin
+moleküllerinin
+yüksek
+konsantrasyonları hücre için toksik olduğundan bu
+nükleozidlerin hücre içi seviyelerinin düzenlenmesi
+açısından önemlidir [15,16].
+ADA
+Adenozin (2' deoksiadenozin) + H2O → İnozin (2'
+deoksiinozin ) + NH4 +
+Konu ile ilgili olarak, zerdeçaldan elde edilen sulu
+ekstrenin
+kanser metabolizmasındaki
+anahtar
+enzimlerden biri olan ADA üzerine etkilerinin
+belirlenmesi ve varsa inhibisyonun tipi ve kinetik
+parametrelerinin ortaya konulması mekanizmanın
+aydınlatılması açısından yararlı olacaktır.
+2. MATERYAL VE METOT
+
+(MATERIAL AND
+
+METHOD)
+
+Protein konsantrasyonu (mg/ml) = (ODN – ODKör)x20
+Yapılan çalışmalarda adenozin enzimi sığır
+karaciğerden izole edilerek kısmen saflaştırıldı.
+Saflaştırılan
+enzimin
+Michaelis-Menten
+ve
+Lineweaver-Burk grafikleri çizilerek Km ve Vmax
+değerleri hesaplandı.
+Zerdeçal ekstresinin adenozin enziminin kinetik
+davranışına karşı etkisi araştırıldı. Buz içerisinde
+muhafaza edilen sığır karaciğerden 5 g alınarak 10 ml
+serum fizyolojik (% 8,75 lik NaCl çözeltisi) içerisinde
+3500 devirde 10 dakika homojenize edildi. Santrifüj
+sonucu dibe çöken kısım atıldı ve üst kısımdaki
+enzimleri barındıran kısım çalışmaların devamı için 9
+ml olarak ayrıldı. Bu kısımdan yağları uzaklaştırmak
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Adenozin Deaminaz Enziminin Kinetik Davranışı Üzerine Zerdeçal (Curcuma Longa) Ekstresinin...
+
+için homojenizatörde 15 ml koloroform-9 ml etanol
+karışımı ile muamele edildi ve 3500 devir/dakika
+hızda santrifüj edildi. Oluşan iki fazdan alttaki kısım
+kloroform fazı, üstteki kısım ise etanol-su fazı olarak
+ayrıldı. Proteinler etanol-su fazına geçerken, yağlar
+kloroform fazına geçerek uzaklaştırılmış oldu.
+Adenozin enzim aktivitesi Giusseppe Giusti’nin tarif
+ettiği metodla yapılmıştır [19].
+Enzim Aktivitesi (ADA Aktivitesi) =
+ö ü
+
+–
+
+ö ü
+
+–
+
+x 50
+
+(1)
+
+formülüne göre önce internasyonel ünite olarak
+(IU:μmol/min), sonra her bir numunenin protein
+miktarına (mg/mL) bölünerek spesifik aktivite
+cinsinden (IU/mg protein) verilmiştir.
+2.1. Protein Miktarı Tayini
+
+(Determination of Protein
+
+Amount)
+
+2.1.1. Lowry Yöntemi
+
+(Lowry Method):
+
+Karaciğer dokusu homojenatının santrifüjünden sonra
+elde
+edilen
+süpernatanda,
+protein
+konsantrasyonlarının tayininde Lowry protein ölçüm
+yöntemi kullanıldı[18]. Spektrofotometrik bir ölçüm
+yöntemi olan bu deneyin prensibi; fosfomolibdik asit
+ve fosfotungstik asitin, Cu+2 – protein kompleksi ile
+reaksiyonu sonrasında mavi renk oluşturması esasına
+dayanır. Bu tepkimenin
+gerçekleşmesinde,
+proteinlerin triptofan ve tirozin içeren bakiyeleri
+etkilidir. Oluşan bu renkli bileşiğin absorbansı = optik
+dansitesi (OD), spektrofotometrede, 700 nm dalga
+boyunda ölçülür. Elde edilen sonuç, protein
+konsantrasyonuyla doğru orantılıdır [18].
+2.2. Adenozin Deaminaz (ADA) Aktivitesi Ölçüm
+Metodu (Adenosine deaminase (ADA) Activity Assay
+
+Z. E. Durak
+
+Sığır Karaciğer doku örneklerinde Adenozin aktivitesi
+ölçümü için; numune tüplerine 1ml adenozin çözeltisi
+ve 0,05ml supernatan, numune körü tüplerine de 1ml
+adenozin çözeltisi eklenerek karıştırıldıktan sonra
+tüplerin ağzı parafilmle kapatılarak 37˚C’de 60 dakika
+su banyosunda inkübe edildi. Daha sonra numune
+tüplerine 3mL FNP çözeltisi ve 3ml alkali HOCl
+çözeltisi, numune körü tüplerine de 3ml FNP
+çözeltisi, 0,05ml homojenat ve 3ml alkali HOCl
+çözeltisi eklendi. Tüpler karıştırılıp 37˚C’ de su
+banyosunda 30 dakika inkübe edildi. İnkübasyon
+sonrası numune ve körlerin absorbansı 628 nm’de
+distile suya karşı okundu. Absorbansın 1,00’in üstüne
+çıktığı durumlarda örnekler distile su ile 2-5 kat
+seyreltilerek deney tekrarlandı. 75 µM’lık (NH4)2SO4
+çözeltisi de aynı işleme tabii tutularak standart çözelti
+olarak değerlendirildi.
+ADA aktivitesi formüle göre hesaplanmıştır.
+ADA Aktivitesi (IU/L)=
+
+x 50
+
+(A)N: Numune Absorbansı
+(A)K: Numune Körü Absorbansı
+(A)S: Standart Absorbansı
+(A)SK:Standart Körünün Absorbansı
+Sonuçlar Spesifik Aktivite (IU/mg Prot) cinsinden
+verilmiştir.
+Zerdeçal ekstresiyle muamele sonrasında ADA
+aktivitesi değişimi;
+1.Çalışma;
+İlk çalışmadaki amaç kullanılacak ekstre miktarını
+belirlemektir.
+Tablo 1. Ekstre miktarının ADA enzimi aktivitesi
+üzerine etkisi (The effect of turmeric extract amount on ADA
+activity)
+
+Method)
+
+Süpernatan
+
+1
+1mL
+
+ADA aktivite tayini Giussepp Giusti’nin tarif ettiği
+metoda göre yapılmıştır [19].
+
+Ekstre
+
+-
+
+Su
+
+0,2 mL
+
+ADA
+Adenozin + H2O → Inozin + NH3
+(OH-)/Na2[Fe(CN)5NO]
+-
+
+NH3 + OCl + 2 Fenol → Indofenol
+Reaksiyonu gereği, ADA aktivitesinin ölçümü için
+substrat olarak adenozin (deoksiadenozin) kullanılır.
+ADA adenozinden inozin (deoksiinozin) oluşumunu
+katalizler. Bu sırada açığa çıkan amonyak, sodyum
+hipoklorit ve fenol/nitroprussid ile birlikte alkali
+çözeltide koyu mavi indofenol şeklini alır. Sodyum
+nitroprussid katalizör olarak görev yapar. Bu
+reaksiyon gereği amonyak konsantrasyonu indofenol
+konsantrasyonu ile (absorbansıyla) doğru orantılıdır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+(2)
+
+2
+1mL
+
+3
+1mL
+
+4
+1mL
+
+0,2 mL
+
+0,1mL
+
+0,02mL
+
+-
+
+0,1mL
+
+0,18mL
+
+Karaciğer 30 min zerdeçal ekstresiyle inkübe edildi ve
+ADA aktivitesi tayin edildi.
+2.Çalışma;
+Tablo 2.
+
+Deney Yapılış
+
+Protokolü
+
+(Experiment
+
+Construction Protocol)
+
+Süpernatan
+Su
+Ekstre
+
+1
+1mL
+
+2
+1mL
+
+0,2 mL
+
+-
+
+-
+
+0,2 mL
+
+761
+
+Adenozin Deaminaz Enziminin Kinetik Davranışı Üzerine Zerdeçal (Curcuma Longa) Ekstresinin...
+
+Z. E. Durak
+
+Karaciğer 30 min zerdeçal ekstresiyle inkübe edildi.
+Değişik adenozin konsantrasyonlarında ADA
+aktivitesi tayin edildi.
+Hesaplanan
+aktivite
+değerleri
+substrat
+konsantrasyonuna karşı grafiğe çizilerek MichaelisMenten grafiği oluşturuldu. Daha sonra sonuçları
+kesinleştirmek
+için
+(1/Aktivite)
+‘ye
+karşı
+(1/Konsantrasyon) grafiği olan Lineweaver-Burk
+grafiği çizildi. Her iki grafikten maximum hız (Vmax)
+ve Km (substratın enzime ilgisi) değerleri belirlendi
+[17].
+3.BULGULAR VE TARTIŞMA (FINDINGS AND
+DISCUSSION)
+
+Deneysel çalışmamızda elde edilen absorbans
+sonuçları protein değerleri için aşağıdaki formül
+kullanılarak g/mL olarak hesaplanmıştır.
+Protein miktarı = (A)N - (A)K x 20
+Bu çalışmada ADA aktivite değerleri absorbans
+olarak verilmiştir. Absorbans değerleri 50 (faktör 1) ile
+çarpıldığında IU/L olarak aktivite değerleri elde
+edilmektedir. Elde edilen bu değerler protein değerine
+(1000g/L) bölündüğünde ise spesifik aktivite (IU/g
+protein) değerleri elde edilmektedir.
+Vmax enzimin en yüksek hızda çalıştığı hızdır. Km
+enzimin substrata ilgisini göstermekte olup, hızın
+hangi substrat konsantrasyonunda yarıya geldiğini
+ifade etmektedir. Enzim substratına ilgiliyse Km
+değeri düşük olur, ilgisi azsa Km değeri yüksek
+olacaktır [15].
+3.1. Michaelis-Menten Grafikleri (Michaelis-Menten
+Graphs)
+
+Zerdeçal ekstraktının ADA üzerine etkisi ile ilgili
+olarak elde edilen deneysel sonuçlar tablo 3 te
+verilmiştir.
+
+Şekil 1. İnhibitörsüz numunede aktivite değerlerinin
+substrat konsantrasyonuna göre değişimi (Changes of
+activity values depending on substrate concentrations in the studies
+performed by samples without inhibitor)
+
+Grafikten Vmax değeri okundu. Bu değer ½ ile
+çarpılarak elde edilen değere karşılık gelen Km değeri
+okundu. Dolayısıyla Vmax= 0,8, Vmax/2 = 0,4 olmak
+üzere Şekil 1 den Vmax değerine karşılık gelen
+konsantrasyon
+değeri
+Km=
+100mM olarak
+kaydedilmektedir.
+Michaelis-Menten eşitliği de kullanılabilir. Burada
+V; reaksiyon hızını, S; substrat konsantrasyonunu
+göstermektedir. Formül kullanılarak hesaplandığında
+da Km değeri 100 mM olarak bulunmaktadır.
+V= Vmax x
+Örnek olarak; V= 0,8 x
+
+(3)
+= 0,26
+
+(3) eşitliğinden [S]= 50 mM konsantrasyonda,
+grafikten okunan Vmax= 0,8 ve Km=100 mM
+değerlerinde V= 0,26 olarak hesaplanır.
+İkinci olarak %10 zerdeçal katkılı numunede aktivite
+değerlerinin substrat konsantrasyonuna göre değişimi
+alınarak Şekil 2 deki grafik oluşturuldu.
+
+I: ADA İnhibitörü Zerdeçal
+S: Adenozin çözeltisi
+I1: % 10 zerdeçal katkısı
+I2: % 20 zerdeçal katkısı
+Tablo 3. Substrat konsantrasyonun ADA üzerine
+etkileri (Michaelis Menten grafik değerleri) (Effect of
+substrat concentration on ADA enzyme)
+[S]
+ΔOD (I yok)
+ΔOD2 (I1)
+
+50 Mm
+5 mM
+1 mM
+0,5 mM
+0,25 mM
+0,1mM
+0,01mM
+
+0,8
+0,8
+0,8
+0,7
+0,6
+0,4
+0,05
+
+0,5
+0,5
+0,5
+0,4
+0,3
+0,2
+0,03
+
+ΔOD3 (I2)
+0,3
+0,3
+0,3
+0,2
+0,15
+0,1
+0,02
+
+Grafik 0,01mM ile 1mM arasında çizilmiştir.
+
+762
+
+Şekil 2. Zerdeçal inhibitörlü numunede aktivite
+değerlerinin substrat konsantrasyonuna göre değişimi
+(Changes of activity values depending on substrate concentrations
+in the studies performed by samples with curcuma 10 %)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Adenozin Deaminaz Enziminin Kinetik Davranışı Üzerine Zerdeçal (Curcuma Longa) Ekstresinin...
+
+Z. E. Durak
+
+Grafikten Vmax değeri okundu. Bu değer ½ ile
+çarpılarak elde edilen değere karşılık gelen Km değeri
+okundu. Dolayısıyla V max = 0,5, Vmax/2 = 0,25 olmak
+üzere Şekil 1 den Vmax değerine karşılık gelen
+konsantrasyon değeri Km= 100 mM olarak
+okunmuştur. Hesapla aşağıdaki şekilde yapıldığında
+Km değeri 100 mM olarak bulunmaktadır.
+
+tabiatlı olduğunu göstermektedir. Non-kompetetif
+inhibisyonda inhibitör özellikli bileşenler enzimin
+aktif merkezine yakın bir bölgeye bağlanarak aktif
+merkezin konformasyonunu değiştirmekte ve
+meydana
+gelen
+inhibisyon
+substrat
+konsantrasyonunun
+arttırılması
+ile
+ortadan
+kaldırılamamaktadır.
+
+Denklem (3) eşitliğinden;
+
+3.2. Lineweaver-Burk Grafikleri
+
+(Lineweaver-Burk
+
+Graphs)
+
+V= 0,5 x
+
+= 0,16
+
+Örnek
+olarak;
+eşitlikten
+[S]=
+50
+mM
+konsantrasyonda, grafikten okunan Vmax= 0,5 ve
+Km=100 mM değerlerinde
+V= 0,16
+olarak
+hesaplanır.
+Son olarak %20 zerdeçal katkılı numunede aktivite
+değerlerinin substrat konsantrasyonuna göre değişimi
+alınarak Şekil 3 deki grafik oluşturuldu.
+
+Lineweaver-Burk eşitliğini elde etmek üzere aktivite
+değerleri substrat konsantrasyonuna bağlı olarak
+Tablo 4‘te verilmiştir.
+Tablo 4. Değişik zerdeçal konsantrasyonlarındaki
+aktivite değerlerinin substrat konsantrasyonuna bağlı
+değişimi (Changing of substrate concentration depend on various
+concentration of turmeric activation value)
+
+1/Substrat
+konsantrasy
+onu
+(1/mM)
+
+1/Absorb
+ans
+(inhibi
+törsüz)
+
+1/Absorb
+ans
+(I1)
+
+1/Absorb
+ans
+(I2)
+
+0,02
+0,2
+1
+2
+5
+10
+100
+
+1,25
+1,25
+1,25
+1,43
+1,67
+2,5
+20
+
+2
+2
+2
+2,5
+3,3
+5
+33,3
+
+3,33
+3,33
+3,33
+5
+6,67
+10
+50
+
+Lineweaver-Burk
+eşitliğinde
+S;
+Substrat
+konsantrasyonunu, V; hızı, Vmax; Maksimum hızı
+göstermektedir.
+Şekil 3. %20 Zerdeçal inhibitörlü numunede aktivite
+değerlerinin substrat konsantrasyonuna göre değişimi
+(Changes of activity values depending on substrate concentrations
+in the studies performed by samples with curcuma 20%)
+
+Grafikten Vmax değeri okundu. Bu değer ½ ile
+çarpılarak elde edilen değere karşılık gelen Km değeri
+okundu. Vmax = 0,3; Vmax/ 2 = 0,15 ve Km= 100
+mM (Vmax değerine karşılık gelen konsantrasyon)
+olarak okunmuştur. Bunun yanı sıra MichaelisMenten hız eşitliğinde yerine konularak da değerler
+hesaplanabilir.
+
+(4)
+Bu eşitliğin sabitleri inhibitörsüz ve %10 ve %20
+konsantrasyonlarında zerdeçal
+inhibitörüyle olan
+durumlar için grafikler çizilmiş ve buradan hesap
+yapılarak Lineweaver-Burk eşitliği geliştirilmiştir.
+
+Denklem (3) eşitliğinden;
+V= 0,3 x
+
+= 0,1
+
+Eşitlikten [S]= 50 mM konsantrasyonda, grafikten
+okunan Vmax= 0,3 ve Km=100 mM değerlerinde V=
+0,1 olarak hesaplanır.
+Michaelis Menten grafiklerinden görüldüğü gibi
+zerdeçal, ADA enziminin Vmax değerini düşürmekte
+ancak Km değerini değiştirmemektedir. Bu durum
+zerdeçalın oluşturduğu inhibisyonun Non-kompetetif
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Şekil 4. İnhibitörsüz ve inhibitörlü numuneler için
+Lineweaver - Burk grafikleri (Lineweaver-Burk graphs for
+without inhibitor and with inhibitor)
+
+763
+
+Z. E. Durak
+
+Adenozin Deaminaz Enziminin Kinetik Davranışı Üzerine Zerdeçal (Curcuma Longa) Ekstresinin...
+
+A= İnhibitörsüz
+B= %10 İnhibitörlü
+C=%20 İnhibitörlü
+Şekil 4’teki grafikten;
+y= 1/Absorbans değerleri
+x = 1/ substrat değerleri olmak üzere;
+y=ax+b ifadesi her bir deney için aşağıdaki şekilde
+hesaplanmıştır.
+İnhibitörsüz için: y= 0,45 x + 5,5
+I1 için: y = 0,31 x + 2,5
+I 2 için: y = 0,17 x + 8,3
+
+(5)
+(6)
+(7)
+
+4. SONUÇLAR (CONCLUSION)
+Bitkiler bazı kanser türlerinin tedavisi için etkili
+kaynaklardır [20-22].
+Zerdeçalın bazı yaygın hastalıklar için faydalı olduğu
+geleneksek olarak bilinmektedir. Antimikrobiyal,
+antienflamatuar ve antioksidan aktivitelerinin yanı
+sıra birçok kanser türünde de önleyici etkisi olduğu
+ortaya çıkmıştır [22,23,24]. Son zamanlardaki bir
+çalışmada zerdeçalın bazı bileşiklerinin tümör
+gelişimini engelleyici aktivitesi olduğu görüldü.
+Zerdeçaldaki esas aktif madde kurkumindir.
+Kurkuminin mutagenezi baskıladığı, nükleer faktörkB yi aktive ettiği, sitokrom c salınımını indüklediği
+ve
+vasküler
+endotelyal
+büyüme
+faktörünü
+baskılayarak anti-anjiyojenik etkiler oluşturduğu
+bilinmektedir [25].
+Zerdeçal çeşitli kanser tedavileri için bazı klinik
+çalışmalarda da kullanılmıştır. Bir çalışma; zerdeçal
+ekstraktının yüksek metastazlı prostat kanser
+hücrelerinin koloni oluşturma yeteneğinde belirli bir
+inhibitör etkisi olduğunu göstermiştir [26]. Diğer
+çalışmalarda klonojenik analizlerde inhibitör etki
+gösterdiği ortaya çıkmıştır. Çalışmalardaki bu
+ilerlemeye rağmen moleküler hedefler ve zerdeçalın
+antikanser
+mekanizması henüz tam
+olarak
+açıklanamamıştır. Bu yüzden vücuttaki hücrelerde
+kritik
+bileşenlerin
+fonksiyonlarındaki
+etkisi
+araştırmaya değer görülmektedir. Bu konuda adenozin
+deaminaz önemli görünmektedir çünkü ADA pürin
+metabolizmasında anahtar bir enzimdir. Enzimin
+inhibisyonu kanser tedavisinde önemlidir. Bu yüzden
+zerdeçal ektraktlarının ve bileşenlerinin olası
+etkilerini incelemek, bu tür bitkilerin antikanser etki
+mekanizmaları hakkında bilgi verebilir. Bu tür
+inhibitör potansiyeli olan bileşikler, ADA eksikliğiyle
+karakterize olan immün yetmezlik durumunu da
+anlamamıza yardımcı olabilir [27]. Bu tür bileşenler,
+pürin metabolik yolunda adenozin deaminazın
+inhibisyonu, adenozinin inozine dönüşümü ve
+deoksiadenozinin
+deoksiinozine
+dönüşümünün
+engellenmesine sebep olurlar. Adenozin ve deoksi
+adenozinin hücre içinde birikmesi ribonükleotit
+
+764
+
+redüktazı inhibe ederek kanserli hücrenin çoğalması
+için gerekli DNA sentezini baskılayabilmektedir. Bu
+durum
+hücre
+çoğalması
+ve
+yayılmasını
+engelleyebilmektedir. Deneysel çalışma sonuçlarımıza
+baktığımızda, ekstraktsız (inhibitörsüz) şartlarda elde
+edilen Vmax değerinin optik yoğunluk olarak 0,8
+(spesifik aktivite cinsinden 40 mIU/g protein) olduğu,
+Km değerinin ise 100 µM olduğu görülmektedir. İki
+farklı ekstrakt (inhibitör) konsantrasyonunda elde
+edilen hız değerlerinin optik yoğunluk olarak 0,5
+(spesifik aktivite cinsinden 25 mIU/g protein) ve 0,3
+(spesifik aktivite cinsinden 15 mIU/g protein) olduğu
+görülmektedir. Km değerleri ise ekstraktsız ve
+ekstraktlı şartlarda aynı olduğu (Km=100 µM)
+görülmektedir. Bu kinetik değerler zerdeçal ekstraktı
+içindeki aktif bileşenlerin ADA enzimini nonkompetetif tarzda inhibe ettiğini göstermektedir. Bu
+inhibisyon tarzı, zerdeçal bileşenlerinin enzimin
+substratına yapısal olarak benzemediğini ancak
+enzimin aktif merkezindeki kritik bölgeler ile
+etkileşerek maksimim aktiviteyi düşürdüğünü ifade
+etmektedir.
+Bu sonuçlar, zerdeçal bileşenlerinin kanserli
+dokularda da ADA enzimini güçlü bir şekilde inhibe
+ederek
+kanserin
+engellenebileceğini,
+kanserli
+dokulardaki metastazın yavaşlatılabileceğini ve tıbbi
+tedavinin
+bu
+şekilde
+güçlendirilebileceğini
+düşündürmektedir.
+5. SEMBOLLER (SYMBOLS)
+ADA : Adenozin Deaminaz
+V: Hız
+Km : Michaelis sabiti
+Vmax : Maximum hız
+I: İnhibitör
+A: Aktivite
+(A)N : Örnek Absorbansı
+(A)K : Kör Absorbansı
+(A)S : Standart Absorbansı
+(A)SK : Standart Körünün Absorbansı
+IU : İnternasyonel ünite
+6. KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+
+Gordon M. Cragg, David J., Newman Plants as a
+source of anti-cancer agents, Journal of
+Ethnopharmacology, Volume 100, Issues 1–2,
+72–79, 22 August 2005.
+Anand, P., Sundaram, C., Jhurani, S.;
+Kunnumakkara, A.B., Aggarwal, B.B. Curcumin
+and cancer: An “old-age” disease with an “ageold” solution, Cancer Lett., 267 (1), 133-164,
+2008.
+Kunnumakkara, A.B.; Anand, P.; Aggarwal, B.B.
+Curcumin inhibits proliferation, invasion,
+angiogenesis and metastasis of different cancers
+through interaction with multiple cell signaling
+proteins, Cancer Lett., 269 (2), 199-225, 2008.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Adenozin Deaminaz Enziminin Kinetik Davranışı Üzerine Zerdeçal (Curcuma Longa) Ekstresinin...
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+10.
+11.
+12.
+13.
+
+14.
+
+15.
+
+16.
+
+Aggarwal, B.B.; Kumar, A.; Bharti, A.C.
+Anticancer potential of curcumin: preclinical and
+clinical studies, Anticancer Res., 23 (1A), 363398, 2003.
+Duvoix, A.; Blasius, R.; Delhalle, S.;
+Schnekenburger, M.; Morceau, F.; Henry, E.;
+Dicato, M.; Diederich, M. Chemopreventive and
+therapeutic effects of curcumin, Cancer Lett.,
+223 (2), 181-190, 2005.
+Aggarwal, B.B. The past, present and future of
+multi-targeted cancer treatment “Naturally”:
+Food for thought. Cancer Lett., 269 (2), 187188, 2008.
+GuptaS.,
+Prostate cancer chemoprevention:
+Current status and future prospects, Toxicol
+Appl. Pharmacol., 224 (3), 369-376, 2007.
+Sandur, S.K.; Pandey, M.K.; Sung, B.; Ahn, K.S.;
+Murakami, A.; Sethi, G.; Limtrakul, P.;
+Badmaev, V.; Aggarwal, B.B. Curcumin,
+demethoxycurcumin,
+bisdemothoxycurcumin,
+tetrahydrocurcumin,
+and
+turmerones
+differentially regulate anti-inflammatory and
+antiproliferative responses through a ROSindependent mechanism, Carcinogenesis, 8 (8),
+1765-1773, 2007.
+W. K. Jordan, R. March, O. B. Houchin & E.
+Popp, J. Neurochem. 4, 170, 1959.
+T. G. Brady & C. I. O’ Donovan, Biochem. J. 80,
+17, 1961.
+B. Galanti & G. Giusti, Minerva Med. 59-II,
+5867, 1968.
+G. Giusti, Pol. Arch. Med. Wewn. 44, 524,
+1970.
+Goldberg, DM. : Serum Adenosine Deaminase in
+the Differential Diagnosis of Jaundice, Brit Med
+J. 1 : 353-355, 1995.
+Solomon, JB., Constitutive Enzymes of the;
+Devoloping
+Chick
+Embryo:Adenosine
+Deaminase, Biochem J., 75 : 278-284, 1959.
+Daddona, P.E., Orkın,S.H., Shewach,D.S and
+Kelley, W.N., cDNA and Aminoacid Squence of
+Human Adenosine Deaminase, Ann.N.Y.
+Acad.Sci., 451:238-244, 1985.
+Wilson, D.K., Rudolph, F.B., Quiocho, F.A.:
+Atomic Structure of Adenosine Deaminase
+Complexed with Transition-State Analge:
+Understanding Catalysis and Imunodefiency
+Mutations, Science, 252:1278-1284, 1991.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Z. E. Durak
+
+17. Sutton R, Rockett B, Swindells P., Chemistry
+for the Life Sciences, 1st ed., London, 2000.
+18. Lowry O, Rosenbrough N, Farr L, Randall R.
+Protein measurement with folin phenol reagent, J
+Biol Chem., 182: 265-275, 1951.
+19. Guisti G. Adenosine Deaminase, In: Methods of
+Enzymatic Analysis, 2nd Ed. Bergmeyer ,HV.
+New York, Academic Pres, 1092-1099, 1974.
+20. Desai, Avni G.; Qazi, Ghulam N.; Ganju,
+Ramesh K.; El-Tamer, Mahmoud; Singh,
+Jaswant; Saxena, Ajit K.; Bedi, Yashbir S.;
+Taneja, Subhash C.; Bhat, Hari K. Medicinal
+Plants and Cancer Chemoprevention, Current
+Drug Metabolism, Volume 9, Number 7, 581591(11), 2008.
+21. Wu-Yang Huanga, Yi-Zhong Caia & Yanbo
+Zhangb Natural Phenolic Compounds From
+Medicinal Herbs and Dietary Plants: Potential
+Use for Cancer Prevention, Nutrition and
+Cancer Volume 62, Issue 1, 1-20, 2009.
+22. Durak Z.E., Gürü M., Investigation of The
+Effects of Aquoeus Turmeric (Curcuma Longa)
+Extract on Kinetic Behaviour of Adenosine
+Deaminase Enzyme, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, Volume 28, No 1, 209-215, 2013.
+23. Aggarwal, B.B. The past, present and future of
+multi-targeted cancer treatment “Naturally”:
+Food for thought, Cancer Lett., 269 (2), 187188, 2008.
+24. Gupta, S. Prostate cancer chemoprevention:
+Current status and future prospects, Toxicol.
+Appl. Pharmacol., 224 (3), 369-376, 2007.
+25. Anto, R.J.; George, J.; Babu, K.V.;
+Rajasekharan, K.N.; Kuttan, R. Antimutagenic
+and anticarcinogenic activity of natural and
+synthetic curcuminoids, Mutat. Res., 370 (2),
+127-131, 1996.
+26. Rao, K.V.K.; Schwartz, SA.; Nair, HK.;
+Aalinkeel, R.; Mahajan, S.; Chawda, R.; Nair,
+MN. Plant derived products as a source of
+cellular growth inhibitory phytochemicals on PC3M, DU-145 and LNCaP prostate cancer cell
+lines, Curr. Sci., 87: 1585- 15888, 2004.
+27. Glazer R, Adenosine deaminase inhibitors: Their
+role in chemotherapy and immunosuppression,
+Cancer Chemotherapy and Pharmacology, 4,
+4, 227-235, 1980.
+
+765
+
+

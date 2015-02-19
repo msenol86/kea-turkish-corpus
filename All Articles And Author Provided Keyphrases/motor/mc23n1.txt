@@ -1,0 +1,1134 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 23, No 1, 199-206, 2008
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 23, No 1, 199-206, 2008
+
+BİYODİZEL İLE ÇALIŞAN BİR DİZEL MOTORDA
+YAKIT PÜSKÜRTME AVANSININ PERFORMANS VE
+EGZOZ EMİSYONLARINA ETKİSİ
+Abdurrazzak AKTAŞ ve Yakup SEKMEN*
+Makina Eğitimi Bölümü, Karabük Teknik Eğitim Fakültesi, Zonguldak Karaelmas Üniversitesi, 78050, Karabük
+*Teknik Programlar Bölümü, Karabük Meslek Yüksekokulu, Zonguldak Karaelmas Üniversitesi, 78050, Karabük
+a_aktasa@yahoo.com, ysekmen@yahoo.com
+(Geliş/Received: 29.03.2007; Kabul/Accepted: 20.06.2007)
+ÖZET
+Biyodizel, yapısında oksijen bulunduran, sülfür içermeyen, zehirleyici etkisi olmayan, doğada bozunabilir ve
+yenilenebilir bir alternatif dizel motor yakıtıdır. Dizel yakıta göre daha az karbon monoksit, hidrokarbon ve is
+emisyonu yaydıkları bilinmektedir. Dizel motorlarda herhangi bir ayar ve değişiklik yapılmadan
+kullanılabilmektedir. Püskürtme zamanlaması motor performansı ve egzoz emisyonlarını etkileyen önemli
+parametrelerden birisidir. Bu parametrelerin optimize edilmesi ile hem yakıt ekonomisi sağlanırken hem de
+zararlı egzoz emisyonları azaltılabilmektedir. Bu çalışmada, biyodizelin yakıt olarak kullanıldığı bir motorda
+püskürtme avansının motor performansı ve emisyonlarına etkileri dört zamanlı, tek silindirli bir dizel motorda
+araştırılmıştır. Püskürtme zamanlaması 24,9, 26,6 ve 28,5°KMA için tam yükte motor momenti, efektif güç,
+özgül yakıt tüketimi, egzoz gaz sıcaklıkları ile CO, HC ve NOx emisyonları ölçülmüştür. Biyodizel ile çalışmada
+püskürtme avansının 26,6°KMA’ya artırılmasıyla motor momenti ve efektif güçte yaklaşık %6’ya kadar artış ve
+özgül yakıt tüketiminde %8’e kadar iyileşme görülmüştür. Ayrıca, CO ve HC emisyonlarında azalma elde
+edilirken, NOx emisyonlarında %4-11 arasında değişen artışlar belirlenmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Fosil yakıt rezervlerinin sınırlı olması ve hava kirliliği
+sorununun artması nedeniyle içten yanmalı motorlar
+
+için alternatif yakıt arayışları artmıştır. Araştırmaların
+bir kısmı bitkisel yağlarla ilgilidir. Bitkisel yağlar,
+kanola, kolza, soya, keten, ay çekirdeği, mısır gibi
+yenilenebilir bitkilerden elde edilmektedir. Bitkisel
+
+A. Aktaş vd.
+
+Biyodizel ile Çalışan Bir Dizel Motorda Yakıt Püskürtme Avansının Performans ve Egzoz Emisyonlarına Etkisi
+
+yağların az oranda sülfür içermeleri, yapılarında
+oksijen bulunması, setan sayılarının yüksek olması ve
+yanmaları sonucunda daha az zararlı emisyon
+yaymaları, onların özellikle dizel motorlar için uygun
+bir alternatif yakıt olabileceklerini göstermektedir [17]. Ayrıca, daha yüksek parlama noktasına ve daha iyi
+yağlama özelliğine sahip olmaları da olumlu
+özellikleridir [8]. Ancak, bitkisel yağların yüksek
+viskozite ve düşük uçuculuk özelliğine sahip olmaları
+yakıt olarak kullanılmasını zorlaştıran özelliklerdir.
+Yüksek viskozite motor yakıt sisteminin ve filtresinin
+tıkanmasına,
+enjektör
+açılma
+basıncının
+yükselmesine, kötü atomizasyona [9-14] ve yanma
+sürelerinin petrol kökenli yakıtlara göre daha uzun
+olmasına sebep olmaktadır [15, 16]. Bu yüzden, bir
+çok ülkede bitkisel yağlar saf olarak kullanılmamakta
+dizel yakıtına belli oranlarda katılarak, ısıtılarak veya
+esterleştirilerek
+(biyodizele
+dönüştürülerek)
+tüketilmektedir [17- 19]. Bitkisel yağ biyodizel haline
+getirildiğinde, bir çok özelliği dizel yakıt özelliklerine
+yaklaşmaktadır. Ancak yoğunluğu dizel yakıtınkinden
+genellikle biraz daha yüksek kalmaktadır [1,2]. Bazı
+kaynaklarda biyodizelin motor moment ve gücünde
+hafif artışa sebebiyet verdiği ve bunun biyodizelin
+yapısında bulunan oksijenin zengin alev bölgesinde
+tam yanma sağlamasından kaynaklandığı belirtilmiştir
+[20-22]. Bazı kaynaklarda ise, yapısında kütlesel
+olarak %10-12 oksijen bulunması ve daha düşük ısıl
+değere sahip olması, nedeniyle motor moment ve
+gücünde bir miktar düşüşe sebep olduğu belirtilmiştir
+[23-25]. Biyodizel ile çalışmalarda HC ve CO
+emisyonunun azaldığı açıklanmıştır [22,26,27].
+Ayrıca, yapısında düşük oranda kükürt bulunması
+emisyonları
+nedeniyle
+oldukça
+düşük
+SO2
+yaymaktadır [17]. NOx emisyonları için ise farklı
+görüşler söz konusudur. Bir görüşe göre yüksek
+yanma ve egzoz sıcaklığı sebebiyle NOx emisyonları
+yüksek olabilmektedir [20, 27-29]. Yine, biyodizelin
+dizel yakıttan daha yüksek sıkıştırma direnci
+nedeniyle
+yakıt
+püskürtme
+zamanlamasına
+istemeyerek avans verecek, bu avans yanmanın ön
+karışım fazı sırasında tüketilen yakıt miktarında artışa
+sebep olacağından NOx emisyonlarını artıracaktır [3033]. Diğer bir görüşe göre de yapısında bulunan
+oksijenin tutuşma gecikmesi süresini kısaltması ve
+biriken yakıtın az olması sebebiyle maksimum
+sıcaklığın düştüğü ve bu nedenle ortalama NOx
+emisyonunun azaldığı ifade edilmektedir [22, 34-36].
+Bütün bunlar birlikte değerlendirildiğinde bitkisel yağ
+esterlerinin rahatlıkla yakıt olarak kullanılabileceği
+görülmektedir.
+Dizel motorlarda silindire püskürtülen yakıt
+tanecikleri küçük moleküllere parçalanmakta,
+buharlaşmakta
+ve
+kimyasal
+reaksiyonlar
+başlamaktadır. Kimyasal reaksiyonların başlaması ile
+ilk alev çekirdeğinin oluşması arasında geçen süre
+tutuşma gecikmesi olarak adlandırılır. Tutuşma
+gecikmesi, püskürtme zamanlaması ve basıncından
+doğrudan etkilenmektedir. Bu bakımdan püskürtme
+
+200
+
+zamanlamasının farklı çalışma koşulları için
+belirlenmesi önemlidir. Sıkıştırma oranı, yanma odası
+tasarımı, silindire alınan havanın basınç ve sıcaklığı,
+yakıt kalitesi ve motor hızına göre optimum
+püskürtme avansı ve basıncı belirlenmelidir. Erken
+püskürtme motor vuruntusu bakımından olumsuz olan
+tutuşma gecikmesi süresine sebep olacağından, geç
+püskürtme ise yanma sonunu geciktirip fazla ısı
+kaybına ve düşük ortalama efektif basınca sebep
+olacağından istenmezler [37,38]. Optimum püskürtme
+avansı motordan maksimum ısıl verim alınacak, fakat
+motorda mekanik ve ısıl zorlanmalar olmayacak
+şekilde belirlenmelidir [32,39]. Motorun optimum
+değerden daha fazla avans ile çalıştırılması halinde
+silindir içindeki basınç ve sıcaklıklar düşük
+olduğundan yakıtın tutuşma gecikmesi süresi artar. Bu
+sırada silindirde biriken yakıtın ani yanmasıyla basınç
+artma oranı yükseleceğinden motor vuruntulu
+çalışacak, silindir içi sıcaklık artacağından NOx
+emisyonları artacaktır. Püskürtme avansının optimum
+değerden daha az olması halinde silindir içi basınç ve
+sıcaklıklar daha yüksek olacağından tutuşma
+gecikmesi süresi azalır. Ancak, yakıtın büyük bir
+kısmı kontrollü yanma periyodunda yanacağından ve
+hacim genişlemesi nedeniyle yanma sonu maksimum
+ve ortalama efektif basınçlar düşecektir. Ayrıca,
+silindir içi sıcaklıklar düşük olacağından NOx
+emisyonları azalacaktır [40].
+Püskürtme
+zamanlaması
+veya
+püskürtmenin
+başlangıcı tüm motor karakteristiklerini büyük oranda
+etkileyen çok önemli bir parametredir. Püskürtme
+zamanlaması
+hava-yakıtın
+karışım
+kalitesini,
+dolayısıyla, kirletici emisyonları da kapsayan yanma
+olayını etkilemektedir. Gecikmiş püskürtmenin
+maksimum silindir basıncını azalttığı ve düşük ısı
+transfer hızı ve düşük yanma gürültüsüne yol açtığı
+bilinmektedir. Ayrıca, gecikmiş püskürtme düşük
+silindir
+sıcaklıklarını
+doğuracağından
+NOx
+emisyonlarını
+azaltacaktır.
+Ancak,
+gecikmiş
+püskürtme yakıt tüketiminin ve is emisyonlarının
+artışına neden olacaktır. [32,41].
+Dizel motorlarda püskürtme zamanlaması motor
+performans ve egzoz emisyonlarını etkileyen temel
+parametrelerden
+birisidir.
+Yapılan
+literatür
+araştırmasında saf bitkisel yağların veya biyodizelin
+dizel yakıtı olarak kullanılması durumunda püskürtme
+basıncı
+ve zamanlamasının
+performans ve
+emisyonlara etkileri ile ilgili olarak az sayıda
+[26,27,31,32,42,] çalışmaya rastlanmıştır. Bu
+çalışmada, biyodizelin yakıt olarak kullanıldığı bir
+motorda püskürtme avansının motor performans ve
+emisyonuna etkileri araştırılmıştır.
+2.
+
+DENEY
+
+DÜZENEĞİ
+
+VE
+
+YÖNTEMİ
+
+(EXPERIMENTAL APPARATUS AND METHOD)
+
+Deney düzeneği elektrikli DC tip dinamometre,
+sıkıştırma ile ateşlemeli motor, egzoz gaz analizörü ve
+Protech stroboflash avans ölçüm cihazından
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1, 2008
+
+Biyodizel ile Çalışan Bir Dizel Motorda Yakıt Püskürtme Avansının Performans ve Egzoz Emisyonlarına Etkisi
+
+2 0 1
+
+8888
+T1
+
+T2
+
+9
+2
+
+1
+
+A. Aktaş vd.
+
+1- Motor
+2- Dinamometre
+3-Dijital termometre
+4- Yakıt ölçme kabı
+5- Yakıt tankı
+6-Yakıtakış kontrol valfi
+7-Yük hücresi indikatörü
+8-Kontrol panosu
+9-Egzoz gaz analizörü
+
+Şekil 1. Deney düzeneğinin şematik görüntüsü (Schematic view of the engine test bed).
+Tablo 1. Deney motorunun teknik özellikleri
+
+(The
+
+technical specifications of the test engine)
+
+Motor tipi
+
+Lombardini LD 400, dört zamanlı,
+direkt püskürtmeli, dizel motor
+Silindir sayısı
+1
+Silindir çapı
+86 mm
+Strok
+68 mm
+Silindir hacmi
+395 cm3
+Maksimum motor gücü 6,25kW (3600 d/d)
+Maksimum motor momenti 19,6 Nm (2200 d/d)
+Sıkıştırma oranı
+18:1
+Püskürtme basıncı
+190 bar
+
+oluşmaktadır. Deney sisteminin şematik görünüşü
+Şekil 1’de görülmektedir. Deneylerde tek silindirli,
+dört zamanlı sıkıştırma ile ateşlemeli motor
+kullanılmıştır. Deney motorunun teknik özellikleri
+Tablo 1’de verilmiştir. DC dinamometre 4000 d/d’de
+10kW güç absorbe edebilmekte ve aynı zamanda
+deney motoruna ilk hareket vermek için de
+kullanılabilmektedir. Dinamometre yükü yük hücresi
+kullanılarak ölçülmüştür. Yakıt tüketimi, motorun
+10ml’lik cam tüp içindeki yakıtı tüketme süresi
+belirlenerek ölçülmüştür. Yakıt tüketim süresinin
+belirlenmesinde 1 salise hassasiyetinde dijital ölçüm
+yapabilen Charles Sernard kronometre kullanılmıştır.
+Egzoz gaz sıcaklık ölçümleri K tipi termokupl ile
+yapılmıştır. Emisyon ölçümleri için Tablo 2’de ölçüm
+aralıkları ve hassasiyetleri verilen MRU DELTA
+1600L egzoz gaz analizörü kullanılmıştır. NOx, HC,
+CO, CO2, ve O2 emisyonları ölçülebilmektedir.
+Tablo 2. MRU DELTA 1600L egzoz gaz analizörünün özellikleri (The specifications of MRU Delta 1600L
+exhaust gas analyser)
+
+Ölçüm
+CO (%hacimsel)
+CO2 (%hacimsel)
+NOx (ppm)
+HC (ppm)
+O2 (%hacimsel)
+Sıcaklık (°C)
+
+Ölçüm aralığı Hassasiyet
+0-15,00
+±0,06%
+0-20,00
+±0,5%
+0-2000
+±5
+0-20000 n-hexan ±12
+0-25
+±0,1
+-40-(+650)
+±1°
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1, 2008
+
+Deneyler motor çalışma sıcaklığına ulaştıktan sonra
+tam yükte (tam gaz kelebek açıklığı) yapılmıştır.
+Motor hızı 1400-3400 d/d aralığında 400 d/d
+aralıklarla değiştirilmiştir. Deney motoru dizel yakıtı
+ile çalışırken yapılan avans ölçümünde yakıtın Üst
+Ölü Noktadan (ÜÖN) 24,9° önce püskürtüldüğü ve bu
+avansın motor firması tarafından önerilen 24-26° lik
+değerler arasında olduğu tesbit edildikten sonra dizel
+ve biyodizel (soya yağı metil esteri) yakıtları için
+performans ve egzoz emisyon değerleri belirlenmiştir.
+Sonra yakıt pompası motordan sökülerek, pompa
+altında bulunan 0,33 mm’lik ayar şimi çıkarılıp
+motora takılarak biyodizel ile çalıştırıldığında ve
+avans kontrolü yapıldığında, avansın 26,6°’ye çıktığı
+ve toplam olarak arttırılması düşünülen 3,5°’lik avansın
+yaklaşık yarısı kadar olduğu görüldükten sonra
+biyodizel ile ikinci çalışma yapılmıştır. İkinci defa
+pompa sökülerek 0,33 mm’lik ikinci şim de çıkarılmış
+ve pompa yerine takılıp biyodizel ile motor
+çalıştırılarak avans ölçüldüğünde avansın 28,5°’ye
+çıktığı bir öncekinin yaklaşık iki katı olduğu görülmüş
+ve biyodizel ile son çalışma gerçekleştirilmiştir. Aynı
+kalınlıktaki şimler ile sağlanan avanslar arasında 0,2
+derecelik fark olduğu görülmektedir. Bu farkın şimlerin
+farklı ezilmiş olabileceğinden, cıvataların sıkılma
+durumu ve ölçme hatası gibi nedenlerden
+kaynaklandığı düşünülmektedir. İlk ve şim değişimi
+sonrası avans değerleri motor çalışır durumda iken
+Protech marka avans cihazı ile ölçülmüştür. Cihaz
+motora bağlandıktan sonra çalıştırılıp avans işaretlerine
+doğru tutulduğunda, krank kasnağı üzerindeki avans
+işaretinin blokta bulunan ÜÖN işaretinden avans
+derecesi kadar uzakta olduğu ve yaklaşık olarak
+okunabildiği tesbit edilmiştir. Ancak daha net ölçüm
+için, krank kasnağı üzerindeki avans işareti bloktaki
+ÜÖN işareti ile karşılaşana kadar cihaz ile geciktirme
+yapılmış avans değeri doğrudan cihazın dijital
+ekranından okunmuştur. silindir gaz basınçları elde
+edilmediğinden yakıt özelliklerinin püskürtme
+başlangıcına etkisi ölçülememiştir. İlkin referans yakıt
+olan dizel No 2 ile, 24,9°’lik avansta çalışma
+201
+
+A. Aktaş vd.
+
+Biyodizel ile Çalışan Bir Dizel Motorda Yakıt Püskürtme Avansının Performans ve Egzoz Emisyonlarına Etkisi
+
+Tablo 3. Deney biyodizel yakıtının özellikleri
+
+(The
+
+properties of biodiesel used in the experiments)
+
+Özellik
+Özgül kütle
+(g/ml)
+Alevlenme
+Noktası (°C)
+Destilasyon
+250 °C de
+Destilasyon
+350 °C de
+Destilasyon
+370 °C de
+Su miktarı
+(mg/kg)
+
+Ölçülen değer
+Olması Gereken
+(TS 3082’ye göre) (TS EN 14214’e
+göre)
+0,887
+
+0,860-0,900
+
+58
+
+120 (en az)
+
+Destile olmuyor
+
+----
+
+% 68
+
+----
+
+% 85
+
+----
+
+Ölçülemeyecek
+kadar az
+
+500 (en çok)
+
+tamamlanmıştır. Sonra karşılaştırma yapabilmek
+amacıyla, avansta herhangi bir değişiklik yapılmadan,
+biyodizel ile ilk çalışma gerçekleştirilmiştir. Dolayısı
+ile biyodizel ile ilk çalışmada biyodizel özelliklerinin
+avansa etkisi ihmal edilmiştir. Ancak, 26,6° ve
+28,5°’lik avanslı çalışmalarda motor biyodizel ile
+çalışırken avans ölçüldüğü için biyodizelin avansa
+etkisi ölçülen avansa dahil olarak ölçülmüştür.
+Grafiklerde “D” dizel no.2 yakıtını, “B” biyodizel
+yakıtını ifade etmektedir. Bu harflerin önündeki sayılar
+ise püskürtme avans değerini göstermektedir. Her bir
+nokta için motor kararlı duruma ulaştıktan sonra
+ölçümler kaydedilmiştir. Bu çalışmada soya yağından
+elde edilen ticari bir biyodizel kullanılmıştır. Biyodizel
+yakıtının TS 3082’ye göre tesbit edilen özellikleri
+Tablo 3’te görülmektedir.
+3. DENEY SONUÇLARI VE
+DEĞERLENDİRİLMESİ
+(EXPERIMENTAL RESULTS AND EVALUATION)
+
+Dizel motorlarda yanma, yanma odası tasarımı,
+sıkıştırma oranı, yakıt kalitesi, püskürtme avansı ve
+basıncı gibi parametrelerden etkilenmektedir. Bu
+parametrelerin optimize edilmesi ile yakıt ekonomisi
+sağlanırken aynı zamanda egzoz emisyonları
+azaltılabilmektedir. Dizel motorlarda püskürtme
+avansı motor performans ve egzoz emisyonlarını
+
+etkileyen temel parametrelerden birisidir. Püskürtme
+avansı, tutuşma gecikmesini, maksimum basıncın
+oluşma yeri ve basınç artma hızını dolayısıyla yanma
+periyodunu doğrudan etkilemektedir. Püskürtme
+avansının belirli noktaya kadar artması ile tutuşma
+gecikmesi kısalırken daha da artırılması tutuşma
+gecikmesi periyodunun uzamasına neden olmaktadır.
+Optimum püskürtme avansı ile motor performansı ve
+egzoz emisyonlarında iyileşme sağlanabilmektedir.
+Şekil 2’de biyodizel ve dizel yakıtı için püskürtme
+avansının motor momentine ve efektif gücüne etkisi
+görülmektedir. Aynı püskürtme avansı ile biyodizel
+ile çalışmada motor momentinin %1,5 ile 4,5 arasında
+arttığı belirlenmiştir. Bu durum, biyodizelin ısıl
+değerinin daha düşük olmasına rağmen, yüksek setan
+sayısı ve oksijen içeriği nedeniyle özellikle zengin
+karışım bölgelerinde daha iyi yanma sağlaması,
+yoğunluğunun yüksek olmasından aynı hacimde
+pompanın kütlesel olarak daha fazla yakıt
+püskürtmesi, vizkozitesinin yüksek olması nedeniyle
+pompa ve enjektör kaçaklarının az olması ile
+açıklanabilir [43]. Biyodizel ile püskürtme avansının
+24,9’dan 26,6°KMA’ya artırılması ile motor mometi
+ve efektif güçte %2 ile 6 arasında değişen artış
+sağlanırken, 28,5°KMA’ya artırılması ile düşük motor
+hızlarında azalma yüksek hızlarda ise bir miktar artış
+görülmüştür.
+Biyodizelin
+yoğunluğunun
+ve
+viskozitesinin yüksek olması püskürtme sonrası
+zerrelere ayrılması, buharlaşması ve kimyasal olarak
+tutuşabilmesi için daha fazla zamana ihtiyaç
+duyulmaktadır. Dizel yakıtı için tasarlanan püskürtme
+avansının biyodizel ile çalışmalarda bir miktar
+artırılması ile bu gecikme karşılanabilmektedir. Belirli
+bir noktadan sonra püskürtme avansının artırılması
+muhtemel vuruntulu çalışmadan dolayı yanma ve
+motor performansına olumsuz etki etmektedir.
+Şekil 3’te dizel ve biyodizelin farklı püskürtme
+avansları için özgül yakıt tüketimi değişimi motor
+hızına bağlı olarak görülmektedir. Özgül yakıt
+tüketimi biyodizel ile çalışmada dizel yakıta göre
+daha yüksektir [1, 18, 27, 44-46]. Püskürtülen yakıtın
+yoğunluğu, miktarı, viskozitesi ve ısıl değeri özgül
+yakıt tüketimini etkilemektedir. Biyodizel yakıtının
+ısıl değerinin dizel yakıtınkinden düşük olması
+7
+
+25
+
+Efektif Güç (kW)
+
+Moment (Nm)
+
+6
+
+20
+
+D 24,9 KMA
+B 24,9 KMA
+
+15
+
+B 26,6 KMA
+
+5
+D 24,9 KMA
+4
+
+B 24,9 KMA
+B 26,6 KMA
+
+3
+
+B 28,5 KMA
+
+10
+
+B 28,5 KMA
+
+2
+
+1400
+
+1800
+
+2200
+
+2600
+
+Motor Hızı (d/d)
+
+3000
+
+3400
+
+1400
+
+1800
+
+2200
+
+2600
+
+3000
+
+3400
+
+Motor Hızı (d/d)
+
+Şekil 2. Püskürtme avansının moment ve efektif güce etkisi (The effect of injection advance on torque and effective power)
+202
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1, 2008
+
+450
+
+A. Aktaş vd.
+
+700
+
+430
+
+B 24,9 KMA
+B 26,6 KMA
+
+410
+
+B 28,5 KMA
+
+390
+370
+
+o
+
+D 24,9 KMA
+
+Egzoz Gaz Sıcaklığı ( C)
+
+Özgül Yakıt Tüketimi (g/kWh)
+
+Biyodizel ile Çalışan Bir Dizel Motorda Yakıt Püskürtme Avansının Performans ve Egzoz Emisyonlarına Etkisi
+
+600
+
+500
+
+D 24,9 KMA
+B 24,9 KMA
+
+400
+
+B 26,6 KMA
+B 28,5 KMA
+
+300
+
+350
+1400
+
+1800
+
+2200
+
+2600
+
+3000
+
+1400
+
+3400
+
+1800
+
+2200
+
+2600
+
+3000
+
+3400
+
+Motor Hızı (d/d)
+
+Motor Hızı (d/d)
+
+Şekil 3. Püskürtme avansının özgül yakıt tüketimine
+etkisi (The effect of injection advance on specific fuel consumption)
+
+Şekil 4. Püskürtme avansının egzoz gaz sıcaklığına
+etkisi (The effect of injection advance on exhaust gas temperature)
+
+nedeniyle aynı miktarda enerji elde etmek için daha
+fazla yakıt kullanmak gerekmektedir. Bu durumda
+özgül yakıt tüketimlerinin dizel yakıta göre daha
+yüksek olmasına neden olmaktadır. Biyodizel ile
+çalışmada püskürtme avansının 26,6°KMA’ya artırılmasıyla özgül yakıt tüketiminde yaklaşık %8’e kadar
+azalma elde edilmiştir. Püskürtme avansının daha da
+artırılmasıyla özellikle düşük motor hızlarında özgül
+yakıt tüketiminin arttığı tespit edilmiştir. Yüksek
+motor hızlarında püskürtme avansının derece olarak
+artmasına rağmen zaman olarak kısalmasından dolayı
+yakıt ekonomisi iyileşebilmektedir.
+
+Biyodizel yakıtının oksijen içermesi bu azalmanın
+temel sebebidir. Dizel motorlar genellikle fakir karışımla çalıştığından CO emisyonları düşüktür [18,47].
+Dizel motorlarda, hidro-karbon oluşumunun birçok
+sebebi vardır. Bu sebeplerin başında her püskürtmeden sonra, enjektörün iğne tarafından kapatılamayan
+uç hacminde kalan yakıt gelir. Bu hacimde kalan yakıt,
+genişleme strokunun sonlarına doğru genişleyerek
+silindire girer ve oksijen eksikliğinde yanarak HC ve
+CO emisyonuna sebep olur. Aynı şekilde sekman
+boşluklarında, yanma odasının köşelerinde biriken
+yakıt ve yağ, cidara çarpan yakıt zerreleri, tutuşması
+zor oldukça fakir karışımlar, HC emisyonlarının temel
+sebeplerindendir [38]. HC emisyonları biyodizel ile
+çalışmada tüm motor hızlarında daha az olmakla
+birlikte düşük motor hızlarında azalmanın oranı daha
+yüksektir. Türbülansın düşük olduğu düşük motor
+hızlarında, bir miktar avansın tutuşmadan önce yakıt
+ile havanın teması için daha uzun bir süre sağlaması
+ile HC emisyonun olumlu yönde etkilendiği
+görülmektedir. En düşük HC emisyonu 26,6°KMA
+püskürtme avansında elde edilmiştir.
+
+Dizel motorlarda, tutuşma gecikmesi süresinin kısa
+olması yanmanın genişleme periyoduna daha az
+sarkmasına ve egzoz gaz sıcaklılarının düşmesine
+neden olmaktadır. Şekil 4’te püskürtme avansının
+dizel ve biyodizel yakıtları için egzoz gaz sıcaklıklarına etkisi motor hızına bağlı olarak görülmektedir.
+En düşük egzoz gaz sıcaklığı püskürtme avansının
+26,6°KMA olduğu denemelerde elde edilmiştir.
+Bunda biyodizelin oksijen içermesi, ve püskürtme
+başlangıcının öne alınmasının etkisi vardır. Biyodizel
+ile avanslı çalışmada dizel yakıtına göre egzoz gaz
+sıcaklıklarının düşük olması püskürtme avansının bir
+miktar artırılması gerektiğini göstermektedir.
+Şekil 5’te püskürtme avansı ile CO ve HC emisyonlarının değişimi motor hızına göre verilmiştir. Tüm avans
+değerleri için biyodizel ile çalışmada CO emisyonları
+dizel yakıta göre daha düşük olarak ölçülmüştür.
+
+Bir çok yakıtın yanması sırasında azot oksit (NO) ve
+azot dioksit (NO2) olarak bilinen emisyonlar NOx
+olarak adlandırılmaktadır. NOx emisyonları asit yağmurlarının oluşumuna etki eden insan sağlığı ve çevre
+açısından ciddi problemlere sebep olabilmektedir.
+Artan enerji talebini karşılamak için en uygun yöntem
+alternatif yakıtların kullanılmasıdır. Biyodizel bu
+talep için büyük bir potansiyele sahiptir. Ancak,
+40
+
+0,6
+
+B 28,5 KMA
+
+0,3
+0,2
+
+B 26,6 KMA
+
+HC (ppm)
+
+B 26,6 KMA
+
+B 24,9 KMA
+
+30
+
+B 24,9 KMA
+
+0,4
+
+CO (%)
+
+D 24,9 KMA
+
+D 24,9 KMA
+
+0,5
+
+B 28,5 KMA
+
+20
+
+10
+
+0,1
+0
+
+0
+
+1400
+
+1800
+
+2200
+
+2600
+
+3000
+
+Motor Hızı (d/d)
+
+3400
+
+1400
+
+1800
+
+2200
+
+2600
+
+3000
+
+3400
+
+Motor Hızı (d/d)
+
+Şekil 5. Püskürtme avansının CO ve HC emisyonlarına etkisi (The effect of injection advance on CO and HC emissions)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1, 2008
+
+203
+
+A. Aktaş vd.
+
+Biyodizel ile Çalışan Bir Dizel Motorda Yakıt Püskürtme Avansının Performans ve Egzoz Emisyonlarına Etkisi
+
+biyodizel kullanımı yüksek oranda NOx emisyonu
+problemini de birlikte getirmektedir. Biyodizelin
+fiziksel ve kimyasal özellikleri NOx oluşumuyla
+yakından ilişkilidir. NOx; ısıl, prompt ve yakıt NOx
+gibi üç değişik yolla oluşumu olmakla birlikte en
+büyük faktör ısıl NOx oluşumudur. Bu yolla NOx
+oluşumu büyük oranda silindir içi sıcaklıklara ve
+tutuşma gecikmesi süresine bağlıdır [28,30]. Püskürtme avansının artırılması silindir içi maksimum
+basınç ve sıcaklıkları artırdığından daha yüksek miktarda NOx emisyonu oluşmasına neden olmaktadır
+[48]. Şekil 6’da püskürtme avansının NOx emisyonlarına etkisi görülmektedir.
+Tüm avanslar için biyodizel ile çalışmada NOx
+emisyonları dizel yakıtınkinden daha yüksektir
+[27,49]. Biyodizel ile standart püskürtme avansında
+dizel yakıta göre ortalama %8,9 artış belirlenmiştir.
+Püskürtme avansının 28,5°KMA artırılmasıyla tüm
+motor hızlarında NOx emisyonunda yaklaşık %11 ile
+22 arasında değişen artışlar belirlenmiştir.
+4. SONUÇLAR (CONCLUSIONS)
+Biyodizelin yakıt olarak kullanıldığı dört zamanlı tek
+silindirli bir dizel motorda püskürtme zamanlaması
+24,9, 26,6 ve 28,5°KMA için tam yükte motor
+momenti, efektif güç, özgül yakıt tüketimi, egzoz gaz
+sıcaklıkları ile CO, HC ve NOx emisyonlarına etkileri
+araştırılmış ve aşağıdaki sonuçlar elde edilmiştir.
+Ayrıca, referans yakıt olarak dizel yakıt no. 2 ile
+standart püskürtme zamanlamasında elde edilen
+sonuçlar da grafiklere yansıtılmıştır.
+• Biyodizel ile çalışmada motor momenti ve efektif
+güçte bir miktar artış olmasına rağmen ısıl değerinin düşük olmasından dolayı özgül yakıt tüketimi
+dizel yakıtınkinden daha yüksektir. Püskürtme
+avansının 26,6°’ye artırılmasıyla motor momenti ve
+efektif güçte %6 kadar artış, özgül yakıt tüketiminde %8 iyileşme sağlanmıştır. Püskürtme avansının
+daha fazla artırılmasının motor performansı ve egzoz
+emisyonlarını olumsuz etkilediği görülmüştür.
+• Biyodizel ile çalışmada egzoz gaz sıcaklıkları dizel
+yakıta göre daha düşük olarak ölçülmüştür. Bunda
+600
+D 24,9 KMA
+
+NO x (ppm)
+
+500
+
+B 24,9 KMA
+B 26,6 KMA
+
+400
+
+B 28,5 KMA
+
+300
+200
+100
+1400
+
+1800
+
+2200
+
+2600
+
+3000
+
+3400
+
+Motor Hızı (1/min)
+
+Şekil 6. Püskürtme avansının NOx emisyonlarına
+etkisi (Fig. 6. The effect of injection advance on NOx emissions)
+
+204
+
+biyodizelin oksijen içermesi, ve püskürtme başlangıcının öne alınmasının etkisi vardır. En düşük egzoz
+gaz sıcaklıkları püskürtme avansının 26,6°KMA’ya
+artırılmasıyla elde edilmiştir. Biyodizel ile avanslı
+çalışmada egzoz gaz sıcaklıklarının düşük olması
+püskürtme avansının dizel yakıta göre bir miktar
+artırılması gerektiğini göstermektedir.
+• Püskürtme avansının artırılmasıyla özellikle düşük
+motor hızlarında CO ve HC emisyonların daha çok
+azaldığı görülmüştür. Belirli bir motor hızında ve
+çalışma koşulunda biyodizel ile çalışmada dizel
+yakıtına göre daha çok yakıtın yakılması, daha çok
+enerjinin açığa çıkması ve silindir içi sıcaklıkların artması nedeniyle NOx emisyonlarında artış belirlenmiştir.
+KAYNAKLAR (REFERENCES)
+1.
+
+Rakopoulos
+CD.,
+Antonopoulos
+KA.,
+Rakopoulos DC., Hountalas DT., Giakoumis
+EG., “Comparative Performance and Emissions
+Study of A Direct Injection Diesel Engine using
+Blends of Diesel Fuel with Vegetable Oils or
+Bio-Diesels of Various Origins”, Energy
+Conversion and Management, 47, 18-19, 32723287, 2006.
+2. Huzayyin AS., Bawady AH., Rady MA., Dawood
+A., “Experimental Evaluation of Diesel Engine
+Performance and Emission using Blends of
+Jojoba Oil and Diesel Fuel”, Energy Conversion
+and Management, 45, 13-14, 2093-2112, 2004.
+3. Van Gerpen JH, Peterson CL., Goering CE.,
+“Biodiesel: An Alternative Fuel for Compression
+Ignition Engines”, Agricultural Equipment
+Technology Conference, Louisville, Kentucky,
+USA, 1-22, 11-14 February 2007.
+4. Canakci M., and Van Gerpen JH., “Biodiesel
+Production Via Acid Catalysis”, Trans. ASAE,
+42, 5, 1203-1210, 1999.
+5. Canakci M., and Van Gerpen JH., “Biodiesel
+Production from Oils and Fats with High Free
+Fatty Acids”, Trans. ASAE 44, 6, 1429-1436, 2001.
+6. Ramadhas AS., Jayaraj S., Muraleedharan C.,
+“Use of Vegetable Oil as I.C. Engine Fuels - A
+Review”, Renewable Energy, 29, 727-742, 2004.
+7. He Y., Bao YD., “Study on Rapeseed Oil as
+Alternative Fuel for A Single-Cylinder Diesel
+Engine”, Renewable Energy, 28, 1447-1453,
+2003.
+8. Yori JC., D’Ippolito SA., Pieck CL., and Vera
+CR., “Deglycerolization of Biodiesel Streams by
+Adsorption Over Silica Beds”, Energy & Fuels,
+21, 347-353, 2007.
+9. Nwafor OMI., Rice G., “Performance of
+Rapeseed Oil Blends in Diesel Engines”,
+Applied Energy, 54, 4, 345-354, 1996.
+10. Karaosmanoğlu F., “Vegetable Oil Fuels: A
+Review”, Energy Sources, 21, 221-231, 1999.
+11. Demirbas A., “Biodiesel from Vegetable Oils via
+Catalitic and Non-Catalitic Supercritical Alcohol
+Transesterifications and Other Methods: A
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1, 2008
+
+Biyodizel ile Çalışan Bir Dizel Motorda Yakıt Püskürtme Avansının Performans ve Egzoz Emisyonlarına Etkisi
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+19.
+
+20.
+
+21.
+
+22.
+
+23.
+
+Survey”, Energy Conversion and Management,
+44, 2093-2109, 2003.
+Demirbas A., “Biodiesel Production via NonCatalitic SCF Method and Biodiesel Fuel
+Characteristics”, Energy Conversion and
+Management, 47, 2271-2282, 2006.
+Demirbas A., “Biodiesel from Sunflower Oil in
+Supercritical Methanol with Calcium Oxide”,
+Energy Conversion and Management, 48, 937941, 2007.
+Canakci M., “Combustion Characteristics of A
+Turbocharged DI Compression Ignition Engine
+Fueled With Petroleum Diesel Fuels and
+Biodiesel”, Bioresource Technology, 98, 11671175, 2007.
+Varde KS., “Some Correlation of Diesel Engine
+Performance with Injection Characteristics using
+Vegetable Oil as Fuel”, Vegetable Oil Fuels:
+Proceedings of the International Conference
+on Plant and Vegetable Oils as Fuels, ASAE
+Publication, Fargo, ND, 303-311, Aug. 1982.
+Baranescu RA., Lusco JJ., “Performance,
+Durability and Low Temperature Evaluation of
+Sunflower Oil as A Diesel Fuel Extender”,
+Vegetable Oil Fuels: Proceedings of the
+International Conference on Plant and
+Vegetable Oils as Fuels, ASAE Publication,
+Fargo, ND, 312-328, Aug. 1982.
+Romano S., “Vegetable Oils - A New Alternative”,
+Vegetable Oil Fuels: Proceedings of the
+International Conference on Plant and
+Vegetable Oils as Fuels, ASAE Publication,
+Fargo, ND, 106-116Aug. 1982.
+Nwafor OMI., “Emission Characteristics of
+Diesel Engine Operating on Rapeseed Methyl
+Ester”, Renewable Energy, 29(1), 119-129, 2004.
+D’Ippolito SA., Yori JC., Iturria ME., Pieck CL.,
+and Vera CR., “Analysis of a Two-Step,
+Noncatalytic, Supercritical Biodiesel, Production
+Process with Heat Recovery”, Energy & Fuels,
+21, 339-346, 2007.
+Gomez MEG., Howard-Hildige R., Leahy JJ.,
+O’Reilly T., Supple B., Malone M., “Emission
+And Performance Characteristics of A 2 Litre
+Toyota Diesel Van Operating on Esterified Waste
+Cooking Oil and Mineral Diesel Fuel”,
+Environmental Monitoring and Assessment,
+65, 13-20, 2000.
+Agarwal AK., Das LM., “Biodiesel development
+and characterization for use as a fuel in
+compression ignition engines”, J. Eng Gas
+Turbines Power, Trans ASME 123, 440-447,
+2001.
+Kalam MA., Husnawan M., Masjuki HH.,
+“Exhaust Emission and Combustion Evaluation
+of Coconut Oil Powered Indirect Injection Diesel
+Engine”, Renewable Energy, 28, 2405-2415,
+2003.
+Dorado MP., Ballesteros E., Arnal JM., Gomez
+J., Lopez FJ., “Exhaust Emissions from A Diesel
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1, 2008
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+29.
+
+30.
+31.
+
+32.
+
+33.
+
+34.
+
+35.
+36.
+
+37.
+38.
+
+A. Aktaş vd.
+
+Engine Fuelled with Transesterified Waste Olive
+Oil”, Fuel,;82,11, 1311-1315, 2003.
+Altin R, Cetinkaya S, Yucesu HS., “The Potential
+of using Vegetable Oil Fuels as Fuel for Diesel
+Engines”, Energy Conversion and Management,
+42, 5, 529-538, 2001.
+Nwafor OMI., “Emission Characteristics of
+Diesel Engine Running on Vegetable Oil with
+Elevated Fuel Inlet Temperature”, Biomass and
+Bioenergy, 27,5, 507-511, 2004.
+Yahya A., and Marley SJ., “Performance and
+Exhaust Emissions of A Compression Ignition
+Engine Operating on Ester Fuels at Increased
+Injection Pressure and Advanced Timing”,
+Biomass and Bioenergy, 6, 4, 297-319, 1994.
+Monyem A., Van Gerpen JH., “The Effect of
+Biodiesel Oxidation on Engine Performance and
+Emissions”, Biomass and Bioenergy, 20, 317325, 2001.
+Fernando S., Hall C., and Jha S., “NOx Reduction
+from Biodiesel Fuels”, Energy & Fuels, 20, 376382, 2006.
+Canakci M., “Combustion Characteristics of A
+Diesel Engine Fueled with Biodiesel from
+Soybean Oil”, 8th International Combustion
+Symposium, September 8-9, Ankara, Turkey,
+364-376, 2004.
+Tat ME., Investigation of Oxides of Nitrogen
+Emissions from Biodiesel-Fueled Engines,
+Ph.D. dissertation, Iowa State University, 2003.
+Boehman AL., Morris D., Szybist J., Esen E.,
+“The Impact of The Bulk Modulus of Diesel
+Fuels on Fuel Injection Timing”, Energy &
+Fuels, 18, 1877-1882, 2004.
+Kegl B., “Experimental Investigation of Optimal
+Timing of The Diesel Engine Injection Pump
+using Biodiesel”, Fuel, Energy & Fuels, 20,
+1460-1470, 2006.
+Szybist J.P., Boehman A.L.,Taylor J.D.,
+McCormic R.L. “Evaluation of Formulation
+Strategies to Eliminate The Biodiesel NOx
+Effect” Fuel Processing Technology 86, 1109–
+1126, 2005.
+Dorado MP., Ballesteros E., Arnal JM., Gomez
+J., Lopez FJ., “Exhaust Emissions from A Diesel
+Engine Fuelled with Transesterified Waste Olive
+Oil” Fuel, 82(11):1311-5, 2003.
+Kalam MA., Masjuki HH., “Biodiesel from Palm
+Oil An Analysis of Its Properties and Potential”,
+Biomass Bioenergy, 23, 471-479, 2002.
+Lin CY., Huang JC., “An Oxygenating Additive
+for Improving The Performance and Emission
+Characteristics of Marine Diesel Engines”,
+Ocean Engineering, 30, 13, 1699-1715, 2003.
+Borat O., Balcı M., Sürmen A., İçten Yanmalı
+Motorlar, Teknik Eğitim Vakfı Yayınları, Cilt 1,
+Ankara, 1995.
+Öz İH., Borat O., Sürmen A., İçten Yanmalı
+Motorlar, Birsen Yayınevi, İstanbul, 262-269,
+2003.
+
+205
+
+A. Aktaş vd.
+
+Biyodizel ile Çalışan Bir Dizel Motorda Yakıt Püskürtme Avansının Performans ve Egzoz Emisyonlarına Etkisi
+
+39. Safgönül B., Ergeneman M., Arslan HE.,
+Soruşbay C., İçten Yanmalı Motorlar, Birsen
+Yayınevi, İstanbul, 196-204, 1999.
+40. Topgül T., Tek Silindirli Direkt Püskürtmeli
+Bir Dizel Motorunda Püskürtme Avansı ve
+Püskürtme Basıncının Motor Performansına
+ve Egzoz Emisyonlarına Etkisinin Deneysel
+Analizi, Y.Lisans Tezi, Gazi Üniv. Fen Bil.
+Enst., 61-67, 2000.
+41. Stone, R., Introduction to Internal Combustion
+Engines, Macmillan Press Ltd., Houndsmills,
+UK, 232-233, 1999.
+42. Nwafor OMI, Rice G, Ogbonna AI., “Effect of
+Advanced Injection Timing on The Performance
+of Rapeseed Oil in Diesel Engines”, Renewable
+Energy, 21, 3-4, 433-44, 2000.
+43. Usta N., “An Experimental Study on
+Performance and Exhaust Emissions of A Diesel
+Engine Fuelled with Tobacco Seed Oil Methyl
+Ester”, Energy Conversion and Management,
+46, 15-16, 2373-2386, 2005.
+44. Usta N., Öztürk E., Can Ö., Conkur ES., Nas S.,
+Çon AH., Can AÇ. and Topcu M., “Combustion
+of Biodiesel Fuel Produced from Hazelnut
+
+206
+
+45.
+
+46.
+
+47.
+
+48.
+
+49.
+
+Soapstock/Waste Sunflower Oil Mixture in A
+Diesel Engine”, Energy Conversion and
+Management, 46, 5, 741-755, 2005.
+Usta N., Can Ö., Öztürk E., “An Experimental
+Study On Performance and Exhaust of A Diesel
+Engine Fuelled with Diesel Fuel No. 2/Waste
+Sunflower
+Oil
+Methyl
+Ester
+Blends”,
+Uluslararası 9. yanma sempozyumu, Kırıklale,
+Turkey, 89-103, 16-17 Kasım, 2006.
+Usta N., “Use of Tobacco Seed Oil Methyl Ester
+in A Turbocharged Indirect Injection Diesel
+Engine”, Biomass and Bioenergy, 28, 1, 77-86,
+2005.
+Abdel-Rahman AA., “On The Emissions from
+Internal-Combustion Engines: A Review”,
+International Journal of Energy Research, 22,
+483-513, 1998.
+Ergeneman M., Arslan HE., Mutlu M., Kutlar
+Taşıt
+Egzozundan
+Kaynaklanan
+OA.,
+Kirleticiler, Birsen Yayınevi, İstanbul, 21-24,
+1998.
+Oven K., Coley T., Automotive Fuels Reference
+Book, 2nd edition, SAE, Warrendale, USA, 543546, 1995.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 1, 2008
+
+

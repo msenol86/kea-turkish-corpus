@@ -1,0 +1,1173 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 4, 811-818, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 4, 811-818, 2013
+
+R.DELEMAR’IN ÜREMESİ VE LİPAZ ÜRETİMİ ÜZERİNE
+KARIŞTIRMA VE HAVALANDIRMA HIZLARININ
+ETKİSİNİN GLUKOZ VEYA MELAS SAKKAROZU VE PFR
+İÇEREN ORTAMLARDA ARAŞTIRILMASI
+Yeşim SAĞ AÇIKELa*, Mehtap ERŞANb, Ünsal AÇIKELb
+a
+
+Hacettepe Üniversitesi, Kimya Mühendisliği Bölümü, Beytepe, Ankara, Turkey
+Cumhuriyet Universitesi, Kimya Mühendisliği Bölümü, Sivas, Turkey
+yesims@hacettepe.edu.tr, mersan@cumhuriyet.edu.tr, uacikel@cumhuriyet.edu.tr,
+unsal.acikel@gmail.com
+b
+
+(Geliş/Received: 06.11.2012; Kabul/Accepted: 12.09.2013)
+ÖZET
+Lipazlar (triacylglycerol hydrolases) yağ-su arayüzeyinde uzun zincirli açilgliserollerin ester bağlarının
+hidrolizini katalizleyen hidrolitik enzimlerdir. Rhizopus delemar’ ın lipaz üretimi için karıştırma hızı,
+havalandırma hızı ve oksijen taşıyıcı olarak kullanılan perflorokarbon (PFR) miktarının etkisi karbon kaynağı
+olarak glukoz veya melas sakkarozu kullanılan ortamlarda kesikli bir biyoreaktörde incelenmiştir. Maksimum
+lipaz aktiviteleri, ana karbon kaynağı olarak glukoz veya melas sakkarozu içeren ortamlarda sırasıyla 43,0 U/L
+ve 103,12 U/L olarak 150 ve 200 devir/min karıştırma hızlarında büyümenin durgun fazında (fermentasyonun
+120. saati) elde edilmiştir. Havalandırma hızının lipaz aktivitesi üzerine etkisi 1-4 vvm aralığında incelenmiş, en
+yüksek lipaz aktiviteleri karbon kaynağı olarak glukoz veya melas sakkarozu ve %10 PFR içeren ortamlarda 2
+vvm havalandırma hızında sırasıyla 102,67 U/L, 171,20 U/L olarak bulunmuştur.
+
+1.
+
+GİRİŞ (INTRODUCTION)
+
+Lipazlar, enzimler içerisinde yağ asitlerini sentezleyen
+veya yağları hidrolizleyen lipolitik enzimler
+olduğundan önemli bir grup oluştururlar. Lipazlar
+sulu ortamda katı ve sıvı yağların ve diğer lipidlerin
+
+hidrolizini
+katalizleyerek
+diaçilgliserinler,
+monoaçilgliserinler, gliserin ve serbest yağ asitlerini
+oluştururlar [1]. Lipaz enzimi ile katalizlenen
+reaksiyonlar başlıca üç amaçla kullanılır. Bunlar yağ
+asidi üretimi için trigliserid hidrolizi, lipid sentezi ve
+esterlerin interesterifikasyonuna dayanan yağ
+
+Y. Sağ Açikel
+
+R. Delemar’in Üremesi ve Lipaz Üretimi Üzerine Kariştirma Ve Havalandirma Hizlarinin Etkisinin...
+
+modifikasyonudur [2]. Günümüzde mikrobiyal
+kaynaklı lipazlar, gıda endüstrisinde süt ürünlerinde,
+içeceklerde, et ve balık üretiminde aroma arttırımında,
+hayvansal yağların transesterifkasyonunda ve bitkisel
+yağların hidrolizinde, eczacılıkta transesterifikasyon
+ve hidroliz reaksiyonlarında, kozmatik sanayiinde
+kullanılan ürünlerin içeriğindeki kimyasal maddelerin
+sentezlenmesinde,
+deri,
+kağıt
+ve
+deterjan
+endüstrilerinde yağların hidrolizi amacı ile
+kullanılmaktadır [3-6].
+Lipazlar kullanılacakları yerlere göre de farklılık
+göstermektedirler. Örneğin deterjan üretiminde
+kullanılacak lipazların yüksek sıcaklık ve pH
+değerlerinde aktivite göstermesi gerekmektedir. Bu
+durumda istenen koşulları sağlayan yeni lipazları
+üretecek yeni mikroorganizmaların belirlenmesi
+gerekmektedir [7-9]. Mantarlardan elde edilen lipazlar
+farklı substrat spesifikliklerinden dolayı gıda ve diğer
+endüstrilerde bir çok kullanım alanı bulurlar. Misel
+yapılı mantar R. delemar, ikincil değil birincil
+esterlerin hidrolizi için çok yüksek seçimlilik gösteren
+en az üç dış hücresel lipaz üretir [9, 10]. Lipaz
+üretiminde karıştırma ve havalandırmanın varlığının
+özellikle maya ve/veya kamçılı mantar türü
+mikroorganizmaların lipaz üretimini arttırdığı
+literatürde kaydedilmiştir [11-13]. Oksijen transfer
+hızını arttırarak, mikroorganizma üremesini, ürünenzim üretkenliğini ve lipaz enzimi üretimini
+arttırmanın bir yoluda, perfluorokarbonlar (PFR) gibi
+oksijen taşıyıcılarının fermentasyon ortamlarına
+eklenmesidir
+[14,
+15].
+Perfluorokarbonlar,
+hidrokarbonların hidrojen molekülleri yerine flor
+konularak sentezlenen petrol-bazlı bileşiklerdir. Bu
+bileşikler çok kuvvetli karbonfluorin bağlarının
+varlığı sayesinde hem kararlı hem de kimyasal olarak
+eylemsizlerdir. PFR’ lerin aynı zamanda biyolojik
+olarak da inert ve biyolojik sistemler için zehirleyici
+olmadıkları bilinmektedir. PFR’ de oksijenin
+çözünürlüğü saf sudakinden 10-20 kez daha büyüktür.
+Bu çalışmada ana karbon kaynağı olarak glukoz veya
+melas sakkarozu içeren ortamlarda, R. delemar’ ın
+lipaz aktivitesi ve biyokütle konsantrasyonu üzerine
+karıştırma hızının etkisi, PFR içeren ve içermeyen
+ortamlarda havalandırma hızının etkisi karşılaştırmalı
+olarak araştırılmıştır. Ayrıca havalandırma hızları 1-4
+vvm aralığında değiştirilerek çözünmüş O2 profilleri
+elde edilmiş ve çözünmüş O2 konsantrasyonunun
+lipaz aktivitesi üzerine etkisi incelenmiştir.
+2.
+
+MATERYAL ve METOT (MATERIAL
+
+and
+
+sıcaklık ve 150 devir/min karıştırma hızında
+çalıştırılan çalkalamalı su banyosunda üretilmiştir. R.
+delemar çoğalması ve lipaz enzimi üretmesi için iki
+farklı karbon kaynağı glukoz veya melas sakkarozu 1
+g/L konsantrasyonunda kullanılmıştır. Kompleks
+besin ortamının diğer bileşenleri (g/L) olarak;
+K2HPO4 0,5, KH2PO4 0,5, MgSO4.7H2O 0,2, maya
+özütü 2’ dir. Glukoz veya melas sakkarozu içeren
+ortamlara indükleyici olarak ayçiçeği yağı sırasıyla %
+1,0 ve % 0,5 (v/v) eklenmiştir. Optimum aşılama
+oranı (aşı hacmi/biyoreaktörün üretim hacmi) 5/1000
+olarak belirlenmiştir [16].
+En uygun karıştırma hızı ve hava giriş hızının
+belirlendiği çalışmalarda 100 mL çalışma hacmine
+sahip, 150 mL’ lik pyreks camdan yapılmış, silindirik
+bir biyoreaktör kullanılmıştır (Şekil 1). Biyoreaktörün
+kapağı üzerinde hava giriş ve çıkış delikleri, örnek
+alma deliği ve karıştırıcı mil yatağı bulunmaktadır.
+Biyoreaktör içinde vorteks oluşumu önleyici tampon
+levha ile manyetik karıştırıcının bağlı olduğu şaft
+vardır. Biyoreaktör sabit sıcaklığa ayarlanabilen bir
+manyetik
+karıştırıcı
+üzerinde
+oturtulmuştur.
+Biyoreaktör ortamının pH’ ı, kesikli karıştırmalı
+kaplarda gerçekleştirilen çalışmalarda bulunan en
+uygun pH 8,0 ve sıcaklık 30±0,5 oC’ ye
+ayarlanmıştır[17]. Hava giriş hızının ve çözünmüş O2
+konsantrasyonunun lipaz aktivitesi üzerine etkisinin
+incelendiği çalışmalarda karıştırma hızı 100
+devir/dak.’ da sabit tutulmuştur.
+Hava
+
+Hava
+Filtresi
+
+Hava
+
+Rotametre
+
+Cam
+Reaktör
+
+Pompa
+Örnek
+Alma
+
+Kompresör
+
+Tampon levha
+Isıtıcılı Manyetik
+Karıştırıcı
+
+Şekil 1. Karıştırmalı ve havalandırmalı biyoreaktör
+(Stirred and aerated bioreactor)
+2.2.
+
+Analitik
+
+Ölçüm
+
+Yöntemleri
+
+(Analytical
+
+Measurement Methods)
+
+Setup for Microorganism Growth and Lipase Production)
+
+Fermentasyon
+ortamındaki
+çözünmüş
+O2
+konsantrasyonu,
+masa
+tipi
+çift
+göstergeli,
+pH/mV/iyon/iletkenlik/çözünmüş O2/sıcaklık ölçer
+(PCD 5500) ile bütünleşik kullanılabilen bir O2
+elektrodu ile ölçülmüştür.
+
+R. delemar (NRRL 2872) Amerikan Tarım
+Bakanlığı’ndan temin edilmiş olup, 100 mL çalışma
+hacmine sahip, 250 mL’ lik erlenlerde, 30 oC sabit
+
+Biyoreaktörden belirli zaman aralıklarında, belirli
+hacimlerde alınan örnekler filtrasyon işleminden
+geçirildikten sonra, berrak sıvıda enzim aktivitesi
+
+METHOD)
+
+2.1. Mikroorganizma Üretimi ve Lipaz Üretimin
+Gerçekleştirildiği Deney Düzeneği (Experimental
+
+812
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+R. Delemar’in Üremesi ve Lipaz Üretimi Üzerine Kariştirma Ve Havalandirma Hizlarinin Etkisinin...
+
+Biyokütle analizi için reaksiyon ortamından alınan
+belirli hacimdeki örnek daha önceden darası alınmış
+mavi bant süzgeç kağıdı aracılığı ile süzülür, 8 saat
+süre ile 80 oC’ ye ayarlanmış etüvden alındıktan sonra
+sabit tartıma gelince süzgeç kağıdının ağırlığı
+bulunur. Biyokütle analizi fermentasyon ortamlarında
+türbidimetrik yöntem kullanılarak gerçekleştirilmiştir
+[19].
+3. DENEYSEL SONUÇLAR ve TARTIŞMA
+(RESULTS and DISCUSSION)
+Kesikli
+düzende
+yürütülen
+fermentasyon
+çalışmalarının bir kısmı, 100 ml çalışma hacmine
+sahip erlenlerde, sabit karıştırma hızı (150 devir/min)
+ve sıcaklıkta (30 oC) orbital karıştırmalı inkübatörde
+yürütülmüştür. Bu çalışmalarda ana karbon kaynağı
+olarak glukoz veya melas sakkarozu, içeren
+ortamlarda elde edilen maksimum enzim aktivitesi
+sırasıyla 31,92 U/L, 93,07 U/L olarak belirlenmiştir.
+Biyoreaktörde karıştırma ve havalandırma hızlarının
+etkisinin incelendiği deneylerdeki sonuçlar kesikli
+karıştırmalı inkübatörde elde edilen maksimum enzim
+aktiviteleri referans alınarak değerlendirilmiştir.
+3.1. Karbon Kaynağı Olarak Glukoz veya Melas
+Sakkarozu İndükleyici Olarak Ayçiçeği Yağı
+İçeren Ortamlarda Karıştırma Hızının Etkisi
+(Effect of Stirring Speed in Media Containing Glucose or
+Molasses Sucrose as Carbon Source and Sunflower Oil as
+Inducer)
+
+R. delemar ile lipaz enziminin üretimi üzerine
+karıştırma hızının etkisi, karbon kaynağı olarak
+glukoz veya melas sakkarozu içeren, bileşimi bölüm
+2.1.’ de verilen besin ortamlarında ve özellikleri
+açıklanan biyoreaktörde karşılaştırmalı olarak
+incelenmiştir. Şekil 2’ de ana karbon kaynağı olarak
+glukoz içeren ortamda biyoreaktörde farklı karıştırma
+hızlarında elde edilen enzim aktivitelerinin zamanla
+değişimi verilmektedir. Lipaz enzimi aktivitesi R.
+delemar üremesinin durgun evresinde gözlenir. Lipaz
+mikroorganizma üremesinden bağımsız bir ikincil
+metabolittir. Lipaz enzimi aktivitesi, fermentasyon
+ortamının koşullarına bağlı olarak, mikroorganizma
+üremesinin 4.-5. gününde en yüksek değerine ulaşır.
+Bundan sonra mikroorganizma üremesinin 6.
+gününden itibaren ölüm evresine girilmesiyle birlikte
+enzim aktivitesi düşmeye başlar.
+R. delemar bir fungal hücre olduğundan, eğer yeterli
+karıştırma
+sağlanmazsa,
+pelletler
+oluşturarak
+topaklaşmaktadır. Bu da kütle transfer kısıtlamaları
+nedeniyle, hem substratın ve indükleyicilerin
+mikroorganizma hücreleri içine difüzyonunu, hem de
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+salgılanan
+enzimin
+fermentasyon
+sıvısına
+difüzyonunu yavaşlatmaktadır. Maksimum enzim
+aktivitesi 150 devir/min karıştırma hızında 43,0 U/L
+olarak elde edilmiş, daha sonra karıştırma hızının 250
+devir/min’ e kadar arttırılması ile kademeli olarak
+azalmıştır. Ana karbon kaynağı olarak melas
+sakkarozu içeren ortamda ise en yüksek enzim
+aktivitesi 200 devir/min karıştırma hızında elde
+edilmiştir, daha sonra karıştırma hızının 250
+devir/min’ e kadar arttırılması ile azalmıştır (Çizelge
+1). Yüksek karıştırma hızlarında aktivite değerlerinin
+göreceli olarak azalması, şiddetli karıştırma hızı
+nedeniyle,
+arttan
+kesme
+kuvvetleri
+ile
+mikroorganizma
+hücrelerinin
+zarar
+görmeye
+başlaması ile açıklanabilir.
+Çizelge1. Melas sakkarozu içeren ortamlarda farklı
+karıştırma hızlarında maksimum lipaz aktiviteleri
+(Maximum lipase activities obtained at different stirring rates in the
+media containing molasses sucrose)
+Karıştırma Hızı
+Maksimum lipaz aktivitesi
+(devir/min)
+(U/L)
+50
+79,94
+100
+86,09
+150
+93,07
+200
+103,12
+250
+89,95
+
+60
+50 devir/min
+100 devir/min
+150 devir/min
+200 devir/min
+250 devir/min
+
+40
+Aktivite (U/L)
+
+ölçülmüştür. Enzim aktivite tayininde para-nitrophenil
+palmitate
+(p-NPP)
+yöntemi
+adı
+verilen
+spektrofotometrik yöntem kullanılmıştır [16-18]. 1 U
+lipaz aktivitesi 37 oC’ de, 1 dakikada açığa çıkan 1
+µmol p-nitrophenol olarak ifade edilir.
+
+Y. Sağ Açikel
+
+20
+
+0
+0
+
+5
+
+10
+Zaman (Gün)
+
+15
+
+Şekil 2. Glukoz içeren ortamlarda farklı karıştırma
+hızlarında enzim aktivitelerinin zamanla değişimi
+(Change of enzyme activities obtained at different stirring rates
+with time in the media containing glucose)
+3.2.
+Karbon
+Kaynağı
+Olarak
+Glukoz,
+İndükleyici Olarak Ayçiçeği Yağı İçeren Ortamda
+Hava Giriş Hızının Etkisi (Effect of Aeration Rate in
+Medium Containing Glucose as Carbon Source and Sunflower
+Oil as Inducer)
+
+R. delemar ile lipaz enziminin üretimi üzerine hava
+giriş hızının etkisi, öncelikle karbon kaynağı olarak
+glukoz kullanılan besi ortamında incelenmiştir. Farklı
+hava giriş hızlarında zamanla enzim aktivitelerindeki
+değişim Şekil 3. a-)’ da verilmektedir. Karıştırma hızı
+
+813
+
+Y. Sağ Açikel
+
+R. Delemar’in Üremesi ve Lipaz Üretimi Üzerine Kariştirma Ve Havalandirma Hizlarinin Etkisinin...
+
+100 devir/min’ de sabit tutulmuştur. Daha yüksek
+karıştırma hızları, özellikle yüksek hava giriş
+hızlarında, reaktör içinde vorteks oluşumu ve
+köpüklenmeye yol açmaktadır. Maksimum enzim
+aktiviteleri 1 ve 2 vvm hava giriş hızlarında
+fermentasyonun 5. gününde elde edilirken, 3 vvm ve
+4 vvm hava giriş hızlarında maksimum enzim
+aktivitesi fermentasyonun 4. gününde elde edilmiştir.
+En yüksek enzim aktivitesi 3 vvm hava giriş hızında,
+61,07 U/L olarak elde edilmiştir. Bu değer
+havalandırmasız ortamda elde edilen değerden, 1,42
+kat daha büyüktür. Ortamda havalandırmanın varlığı
+hem enzim aktivitesini arttırmış, hem de daha erken
+ve uzun süreli enzim aktivitesi gözlenmesini
+sağlamıştır. Örneğin 2 vvm hızda havalandırılan
+ortamda, fermentasyonun 3. ile 6. günleri arasında
+44,27-51,73 U/L arasında kararlı bir enzim aktivitesi
+gözlenmiştir.
+
+80
+1 vvm
+2 vvm
+3 vvm
+4 vvm
+
+Aktivite (U/L)
+
+60
+40
+20
+0
+0
+
+5
+
+10
+
+15
+
+Zaman (Gün)
+120
+1 vvm
+2 vvm
+3 vvm
+4 vvm
+
+Aktivite (U/L)
+
+80
+60
+40
+20
+0
+0
+
+10
+15
+Zaman (Gün)
+b-)
+Şekil 3. Farklı hava giriş hızlarında elde edilen enzim
+aktivitelerinin zamanla değişimi: a-) Glukoz içeren
+ortamlarda; b-) Melas sakkarozu içeren ortamlarda
+(Change of enzyme activities obtained at different aeration rates
+
+5
+
+with time in the media containing: a-) glucose; b-) molasses
+sucrose)
+
+814
+
+Medium Containing Molasses Sucrose as Carbon Source and
+Sunflower Oil as Inducer)
+
+Karbon kaynağı olarak melas sakkarozu içeren
+ortamda, farklı hava giriş hızlarında zamanla enzim
+aktivitelerindeki değişim Şekil 3. b-)’ de
+verilmektedir. Maksimum enzim aktivitesi 2 vvm
+hava giriş hızında, fermentasyonun 4. gününde 102,83
+U/L olarak elde edilmiş olmakla beraber, 1-4 vvm
+hava giriş hızlarında yakın değerler almaktadır. 4 vvm
+hava giriş hızında ise fermentasyonun 4. gününden
+başlayarak, 6. günde dahil olmak üzere 97,47 U/L ile
+68,80 U/L arasında yüksek ve uzun süreli enzim
+aktivitesi gözlenmiştir. Frost ve Moss (1987)
+tarafından, karıştırma veya hava püskürtme ile sıvının
+havalandırılmasında kaydedilen ilerlemelerin, tek
+hücreli organizmalar ve pek çok durumda kamçılı küf
+mantarlarının lipaz üretimi için çok gerekli olduğu
+gösterilmiştir [20]. Elibol ve Özerb (2000) tarafından
+Rhizopus arrhizus ile lipaz üretiminin hücre
+çoğalmasından ziyade oksijenin varlığına bağlı
+olduğu gösterilmiştir [15]. O2 taşınımının arttırılması,
+hem mikroorganizma çoğalması hem de enzim
+üretiminde artış ve/veya fermentasyon süresinde
+azalma sağlar. Bu çalışmada R. delemar ile lipaz
+üretimine hava giriş hızının etkisi için elde edilen
+bulgular literatürle uyumludur.
+3.4
+Karbon
+Kaynağı
+Olarak
+Glukoz,
+İndükleyici Olarak Ayçiçeği Yağı ve PFR İçeren
+Ortamda Hava Giriş Hızının Etkisi (Effect of Aeration
+Rate in Medium Containing Glucose as Carbon Source,
+Sunflower Oil and PFC as inducer)
+
+a-)
+
+100
+
+3.3. Karbon Kaynağı Olarak Melas Sakkarozu,
+İndükleyici Olarak Ayçiçeği Yağı İçeren Ortamda
+Hava Giriş Hızının Etkisi (Effect of Aeration Rate in
+
+R. delemar ile lipaz enzimi üretimi üzerine
+havalandırmanın etkisinin arttırılması için, ikinci grup
+deneyler PFR içeren ortamda hava giriş hızları
+arttırılarak gerçekleştirilmiştir. Karbon kaynağı olarak
+glukoz içeren besi ortamına O2 taşıyıcısı olarak %10
+oranında (v/v) PFR eklenmiştir. Glukoz, ayçiçeği yağı
+ve O2 taşıyıcısı olarak da perfluorokarbon içeren
+ortamda, hava giriş hızları 1-4 vvm arasında
+arttırılmıştır. Farklı hava giriş hızlarında zamanla
+enzim aktivitelerindeki değişim Şekil 4 a-)’ da
+verilmektedir. PFR içeren ortamda, 2 vvm hava giriş
+hızında, fermentasyonun 4. gününde oldukça erken ve
+yüksek, 102,67 U/L bir enzim aktivitesi elde
+edilmiştir. Elde edilen bu en yüksek aktivite değeri
+havalandırmasız ortamdan 2,38 kat, havalandırmalı
+ancak PFR içermeyen ortamdan 1,68 kat daha
+büyüktür. 1 vvm hava giriş hızında fermentasyonun 4.
+gününde 97,07 U/L enzim aktivitesi elde edilirken, 3
+vvm hava giriş hızında fermentasyonun 3. gününden
+başlayarak 6. günde dahil olmak üzere biraz daha
+düşük (63,73 U/L) fakat uzun süreli enzim aktivitesi
+gözlenmiştir. PFR içeren ortamda hava giriş hızının
+arttırılmasının
+mikroorganizma
+konsantrasyonu
+üzerindeki etkisi araştırılmıştır, farklı hava giriş
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+R. Delemar’in Üremesi ve Lipaz Üretimi Üzerine Kariştirma Ve Havalandirma Hizlarinin Etkisinin...
+
+1 vvm
+2 vvm
+3 vvm
+4 vvm
+
+Aktivite (U/L)
+
+100
+80
+
+6
+4
+1 vvm
+
+2
+
+60
+40
+
+2 vvm
+3 vvm
+4 vvm
+
+0
+0
+
+5
+Zaman (Gün)
+
+6
+
+4
+
+2
+
+1 vvm
+2 vvm
+3 vvm
+4 vvm
+
+20
+0
+
+0
+0
+
+5
+
+10
+
+15
+
+Zaman (Gün)
+
+180
+160
+140
+120
+100
+80
+60
+40
+20
+0
+
+0
+
+5
+Zaman (Gün)
+
+10
+
+b-)
+Şekil 5. %10 PFR içeren ortamlarda farklı hava giriş
+hızlarında
+elde
+edilen
+mikroorganizma
+konsantrasyonlarının zamanla değişimi: a-) glukoz
+içeren ortamlarda; b-) melas sakkarozu içeren
+ortamlarda (Change of microorganism concentrations obtained
+
+a)
+
+Aktivite (U/L)
+
+10
+
+a-)
+
+Mikroorganizma
+Konsantrasyonu (g/L)
+
+120
+
+8
+Mikroorganizma Konsantrasyonu
+(g/L)
+
+hızlarında elde edilen çoğalma eğrileri Şekil 5. a-)’ da
+verilmektedir.
+Maksimum
+mikroorganizma
+konsantrasyonuna, fermentasyonun 6. gününde 2 ve 3
+vvm hava giriş hızlarında ulaşılmış olup sırasıyla 6,82
+ve 6,87 g kuru mikroorganizma ağ. /L değerleri elde
+edilmiştir. Çoğalma eğrisinde 6. günden sonra
+gözlenen, mikroorganizma konsantrasyonundaki
+azalma, mikroorganizmanın ölüm evresine girdiğine
+işaret etmektedir. Bu değerler aynı fermentasyon
+koşullarında havalandırmasız ortamda elde edilen
+mikroorganizma konsantrasyonu değeri (6,55 g kuru
+mikroorganizma ağ. /L) ile karşılaştırıldığında
+görülmektedir ki hava giriş hızının arttırılması ve
+ortama
+PFR
+eklenmesi,
+mikroorganizma
+konsantrasyonundan ziyade lipaz enziminin üretimini
+arttırmıştır. Başka bir deyişle mikroorganizmanın
+lipaz aktivitesi mikroorganizma çoğalmasınden
+ziyade, hava giriş hızının arttırılması ve fermentasyon
+ortamında O2 taşınımının hızlandırılması ile artmıştır.
+
+Y. Sağ Açikel
+
+1 vvm
+2 vvm
+3 vvm
+4 vvm
+
+at different aeration rates with time in the media containing 10%
+PFC and a-) glucose; b-) molasses sucrose)
+
+3.5
+Karbon
+Kaynağı
+Olarak
+Melas
+Sakkarozu, İndükleyici Olarak Ayçiçeği Yağı ve
+PFR İçeren Ortamda Hava Giriş Hızının Etkisi
+(Effect of Aeration Rate in Medium Containing Molasses
+Sucrose as Carbon Source, Sunflower Oil and PFC as Inducer)
+
+0
+
+5
+
+10
+Zaman (Gün)
+
+15
+
+b-)
+Şekil 4. % 10 PFR içeren ortamlarda farklı hava giriş
+hızlarında enzim aktivitesinin zamanla değişimi: a-)
+Glukoz içeren ortamlarda; b-) Melas sakkarozu içeren
+ortamlarda (Change of enzyme activities obtained at different
+aeration rates with time in the media containing 10% PFC and a-)
+glucose b-) molasses sucrose)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Karbon kaynağı olarak melas sakkarozu içeren
+biyoreaktör besi ortamına O2 taşıyıcısı olarak %10
+oranında (v/v) PFR eklenmiştir. Farklı hava giriş
+hızlarında zamanla enzim aktivitelerindeki değişim
+Şekil 4 b-).’ de verilmektedir. 1 vvm hava giriş
+hızında, 4. ile 7. günler arasında 103,47 U/L ile
+başlayan fermentasyonun 6. ve 7. günlerinde 48,16
+U/L’ ye düşen yüksek ve en uzun süreli enzim
+aktivitesi gözlenmiştir. 2-4 vvm arasında hava giriş
+hızının arttırılması ile fermentasyonun 4. ile 6. günleri
+arasında yüksek, kararlı aktivite gözlenmiş olup, 2
+vvm hava giriş hızında 171,20 U/L en yüksek enzim
+
+815
+
+R. Delemar’in Üremesi ve Lipaz Üretimi Üzerine Kariştirma Ve Havalandirma Hizlarinin Etkisinin...
+
+6
+
+40
+
+4
+20
+
+2
+0
+
+of Dissolved Oxygen profiles and Dissolved O2 concentration on
+Lipase Production in Medium Containing Glucose and
+Sunflower Oil)
+
+Ana karbon kaynağı olarak glukoz içeren ortamda,
+havalandırma hızları 1-4 vvm aralığında değiştirilerek
+çözünmüş O2 profilleri elde edilmiş ve çözünmüş O2
+konsantrasyonunun lipaz aktivitesi üzerine etkisi
+incelenmiştir. Şekil 6. a-)’ da 2 vvm hava giriş hızında
+elde edilen çözünmüş O2 profili ve lipaz aktivitesinin
+zamanla değişimi verilmektedir. En düşük çözünmüş
+O2 konsantrasyonu fermentasyonun 3.-5. günleri
+arasında gözlenmiş olup, 3,11-3,61 mg/L arasında
+değişmiş, fermentasyonun 6. gününde ise 6,6 mg/L’
+
+2
+
+4
+
+Çözünmüş O2
+Kons. (mg/L)
+
+6
+
+60
+
+4
+
+40
+
+2
+
+20
+0
+
+0
+
+0
+0
+
+80
+
+8
+
+0
+
+6
+
+2
+
+Zaman (Gün)
+
+120
+100
+
+6
+
+80
+60
+
+4
+
+40
+
+2
+
+20
+0
+
+0
+4
+
+Zaman (Gün)
+
+6
+
+120
+
+8
+Çözünmüş O2 Kons. (mg/L)
+
+Çözünmüş O2
+Kons. (mg/L)
+
+Aktivite (U/L)
+
+Çözünmüş O2 Kons. (mg/L)
+
+6
+
+b-)
+
+8
+
+2
+
+4
+Zaman (Gün)
+
+a-)
+
+0
+
+Aktivite (U/L)
+
+60
+
+Çözünmüş O2
+Kons. (mg/L)
+
+3.6 Glukoz ve Ayçiçeği Yağı İçeren Ortamda
+Çözünmüş Oksijen Profilleri ve Çözünmüş O2
+Konsantrasyonunun Lipaz Üretimine Etkisi (Effect
+
+Çözünmüş O2
+Kons. (mg/L)
+
+100
+
+6
+
+80
+60
+
+4
+
+40
+
+2
+
+20
+
+Aktivite (U/L)
+
+8
+
+Aktivite (U/L)
+
+Çözünmüş O2 Kons. (mg/L)
+
+aktivitesi elde edilmiştir. Elde edilen bu en yüksek
+aktivite değeri havalandırmasız ortamdan 1,84 kat,
+havalandırmalı ancak PFR içermeyen ortamdan 1,66
+kat daha büyüktür. PFR içeren ortamda, maksimum
+mikroorganizma konsantrasyonu 4 vvm hava giriş
+hızında elde edilmiş olup, 5,41 g kuru
+mikroorganizma ağ. /L olarak bulunmuştur (Şekil 5.
+b-). Elibol ve Mavituna (1995) PFR’ nin besi
+ortamlarına
+katılmasının
+serbest
+suspanse
+Streptomyces coelicolor hücrelerinin aktivitesini
+arttırdığı, ve bunun da daha yüksek antibiyotik
+konsantrasyonları ile sonuçlandığını göstermişlerdir
+[14]. Elibol ve Özer (2000)b, fermentasyon
+ortamlarına PFR eklenmesinin daha yüksek lipaz
+üretimine neden olduğunu kanıtlamışlardır [15].
+
+Çözünmüş O2 Kons. (mg/L)
+
+Y. Sağ Açikel
+
+0
+
+0
+0
+
+2
+
+4
+
+6
+
+Zaman (Gün)
+
+c-)
+d-)
+Şekil 6. Çözünmüş O2 konsantrasyonunun ve lipaz aktivitesinin zamanla değişimi a-) Glukoz içeren
+ortam 2 vvm hava giriş hızı, b-) Glukoz içeren ortam 3 vvm hava giriş hızı, c-) Melas sakkarozu içeren
+ortam 2 vvm hava giriş hızı, d-) Melas sakkarozu içeren ortam 4 vvm hava giriş hızı (Change of dissolved O2
+concentration and enzyme activity with time a-) in the media containing glucose at 2 vvm, b-) in the media containing glucose at 3
+vvm, c-) in the media containing molasses sucrose at 2 vvm, d-) in the media containing molasses sucrose at 4 vvm)
+
+816
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+R. Delemar’in Üremesi ve Lipaz Üretimi Üzerine Kariştirma Ve Havalandirma Hizlarinin Etkisinin...
+
+ye yükselmiştir. En yüksek enzim aktivitesi ise
+fermentasyonun, 3. ve 5. günleri arasında
+gözlenmiştir. Hava giriş hızı 3 vvm’ de ise en düşük
+çözünmüş O2 konsantrasyonu fermentasyonun 4.
+gününde 3,39 mg/L olarak gözlenmiş olup, en yüksek
+enzim aktivitesi de aynı günde elde edilmiştir (Şekil
+6. b-)). Ana karbon kaynağı olarak glukoz içeren
+ortamda, en yüksek lipaz aktivitesinin 3 vvm hava
+giriş hızında ve 3,39 mg/L çözünmüş O2
+konsantrasyonunda elde edildiği de görülmektedir.
+Düşük hava giriş hızlarında (1-2 vvm) ortamdaki O2
+konsantrasyonu fermentasyonun 1. gününden itibaren,
+3,78-4,42 mg/L’ ye kadar düşerken, yüksek hava giriş
+hızlarında (3-4 vvm), 4,8 mg/L civarına düşmesi için
+fermentasyonun 3. gününe ulaşmak gerekmektedir
+[17]. Yüksek hava giriş hızlarında, fermentasyonun 4.
+gününde çözünmüş O2 konsantrasyonu minimum
+değerine ulaştıktan sonra, 5. gün itibariyle hızla
+yükselerek yaklaşık fermentasyon başlangıçındaki
+değerine ulaşmaktadır. 2-4 vvm hava giriş hızlarında,
+en yüksek enzim aktivitesi, çözünmüş O2
+konsantrasyonunun 3,4-3,5 mg/L arasında değiştiği,
+çözünmüş O2 konsantrasyonlarında gözlenmiştir.
+
+Y. Sağ Açikel
+
+en yüksek enzim aktivitesi, çözünmüş O2
+konsantrasyonunun 3,0-4,0 mg/L arasında değiştiği
+çözünmüş O2 konsantrasyonlarında elde edilmiştir
+[17].
+
+3.7 Melas sakkarozu ve Ayçiçeği Yağı İçeren
+Ortamda Çözünmüş Oksijen Profilleri ve
+Konsantrasyonunun
+Lipaz
+Çözünmüş
+O2
+Üretimine Etkisi (Effect of Dissolved Oxygen Profiles and
+
+Mikroorganizma glukoz veya melas sakkarozunun
+yanısıra O2’ nide ortamda ikincil bir substrat olarak
+tüketmektedir. Hava giriş hızı arttıkça, fermentasyon
+ortamlarındaki, mikroorganizma çoğalmasına bağlı
+olan, çözünmüş O2 konsantrasyonundaki azalma
+düşmektedir. Çözünmüş O2 konsantrasyonu eğrilerini,
+ters
+çoğalma
+eğrileri
+gibi
+düşünebiliriz.
+Mikroorganizma üremesinin maksimum olduğu
+aralıkta, hava giriş hızlarına da bağlı olarak çözünmüş
+O2 konsantrasyonu minimum değerine düşer.
+Mikroorganizma çoğalma periyodunun 6. gününden
+itibaren ölüm evresine girildiğinde ise çözünmüş O2
+konsantrasyonu tekrar artarak, başlangıçtaki değerine
+doğru
+hızla
+yükselir.
+Çözünmüş
+O2
+konsantrasyonunun minimum olduğu noktada enzim
+aktivitesi de bir maksimum noktaya ulaşır. Melas
+sakkarozu içeren ortamda mikroorganizma üremesi
+daha hızlı olduğu için, durgun evreye glukoz içeren
+ortama göre daha önce girilir, bu nedenle maksimum
+lipaz aktivitesi, çözünmüş O2 konsantrasyonunun
+minimum olduğu noktada değil, durgun evrenin
+ortalarına doğru fermentasyonun 4. gününde elde
+edilir.
+
+Dissolved O2 Concentration on Lipase Production in Medium
+Containing Molasses Sucrose and Sunflower Oil)
+
+4.
+
+Ana karbon kaynağı olarak melas sakkarozu içeren
+ortamda, Şekil 6. c’ de 2 vvm hava giriş hızında elde
+edilen çözünmüş O2 profili ve lipaz aktivitesinin
+zamanla değişimi verilmektedir. 2 vvm hava giriş
+hızında,
+çözünmüş
+O2
+konsantrasyonu
+fermentasyonun, 2. gününde 2,72 mg/L’ ye düşmüş,
+en düşük çözünmüş O2 konsantrasyonu ise,
+fermentasyonun 3. gününde 1,8 mg/L olarak elde
+edilmiştir. Fermentasyonun 4. gününden itibaren
+ortamdaki çözünmüş O2 konsantrasyonu yükselmeye
+başlayarak, 4.-6. günler arasında 3,15-4,20 mg/L
+arasında göreceli olarak düşük değerlerde bir plato
+gözlenmiştir. En yüksek enzim aktivitesi ise
+fermentasyonun 4. gününde ve 3,15 mg/L çözünmüş
+O2 konsantrasyonunda elde edilmiştir. Bu hava giriş
+hızı ve çözünmüş O2 konsantrasyonunda ayrıca ana
+karbon kaynağı olarak melas sakkarozu ve indükleyici
+olarak ayçiçeği yağı içeren ortamda elde edilmiş olan
+en yüksek enzim aktivitesi değerine ulaşıldığı
+görülmektedir. Şekil 6. d’ de 4 vvm hava giriş hızında
+elde edilen çözünmüş O2 profili ve lipaz aktivitesinin
+zamanla değişimi verilmektedir. 4 vvm hava giriş
+hızında, en düşük çözünmüş O2 konsantrasyonu,
+fermentasyonun 3. gününde 2,77 mg/L olarak
+gözlenmiş olup, 4.-6. günler arasında hızla yükselerek
+6,39-6,65 mg/L arasında plato değerine ulaşmıştır. En
+yüksek enzim aktivitesi fermentasyonun 4. gününde
+gözlenmiş, ancak 4.-6. günler arasında düşmekle
+beraber, daha uzun süreli ve kararlı bir enzim
+aktivitesi gözlenmiştir. 1-3 vvm hava giriş hızlarında
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+SONUÇLAR (CONCLUSION)
+
+R. delemar bir fungal hücre olduğundan, eğer yeterli
+karıştırma
+sağlanmazsa,
+pelletler
+oluşturarak
+topaklaşmaktadır. Bu da kütle transfer kısıtlamaları
+nedeniyle, hem substratın ve indükleyicilerin
+mikroorganizma hücreleri içine difüzyonunu, hem de
+salgılanan
+enzimin
+fermentasyon
+sıvısına
+difüzyonunu yavaşlatmaktadır. Ana karbon kaynağı
+olarak glukoz veya melas sakkarozu içeren
+ortamlarda, maksimum enzim aktivitesi sırasıyla 150
+devir/min ve 200 devir/min karıştırma hızında 43,0
+U/L ve 103,12 U/L olarak elde edilmiştir.
+Bu nedenle ikinci aşama da O2 transfer hızını
+arttırmak için besi ortamlarına %10 oranında (v/v)
+PFR eklenmesi, lipaz enzimi aktivitesini ana karbon
+kaynağı
+olarak
+glukoz
+içeren
+ortamda,
+havalandırmasız ortama göre 3,22 kat, havalandırmalı
+ancak PFR içermeyen ortama göre 1,68 kat
+arttırmıştır.Ana karbon kaynağı olarak sakkaroz
+içeren ortamda ise, PFR eklenmesi havalandırmasız
+ortamdan 1,84 kat, havalandırmalı ancak PFR
+içermeyen ortama göre lipaz enzimi aktivitesini 1,66
+kat arttırmıştır.
+TEŞEKKÜR (ACKNOWLEDGEMENTS)
+Yazarlar MİSAG-282 nolu proje ile bu çalışmaya
+verdiği destekten dolayı TÜBİTAK' a teşekkür
+ederler.
+
+817
+
+Y. Sağ Açikel
+
+R. Delemar’in Üremesi ve Lipaz Üretimi Üzerine Kariştirma Ve Havalandirma Hizlarinin Etkisinin...
+
+KAYNAKLAR (REFERENCES)
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+8.
+
+9.
+
+818
+
+Ellaiah P., Prabhakar T., Ramakrishna B., Thaer
+Taleb A., Adinarayana K., “Production of lipase
+by immobilized cells of Aspergillus niger”,
+Process Biochemistry, 39, 525-528, 2004.
+Tweddell R.J., Kermasha S., Combes D., Marty
+A., “Esterification and interesterification activies
+of lipases from Rhizopus niveus and Mucor
+miehei in three different types of organic media: a
+comparative study”, Enzyme Microb. Technol.,
+22, 439-445, 1998.
+Isobe K., Akiba T., Yamaguchi S.,
+“Crystallization and characterization of lipase
+from Penicillium cyclopium”, Agric. Biol.
+Chem., 52 (1), 41-47, 1988.
+Farooqui A.A., Yang H.C., Horrock L.A.,
+“Purification of lipases, phospholipases and
+kinases by heparin–Sepharose chromatography”,
+J. Chromatogr., 673 (2), 149 –158, 1994.
+Pabai F., Kermasha S., Morin A., “Lipase from
+Pseudomonas fragi CRDA 323: partial
+purification,
+characterization
+and
+interesterification of buffer fat”, Appl.
+Microbiol. Biotechnol., 43, 42-51, 1995.
+Dharmsthiti S., Kuhasuntisuk B., “Lipase from
+Pseudomonas aeruginosa LP602: biochemical
+properties and application for wastewater
+treatment”, J. Indust. Microbiol. Biotechnol.,
+21, 75-80, 1998.
+Taipa M.A., Aires-Barros M.R., Cabral J M.S.,
+“Purification of lipases”, J. Biotechnol., 26, 111142, 1992.
+Schuepp C., Kermasha S., Michalski M.-C.,
+Morin A., “Production, partial purification and
+characterisation of lipases from Pseudomonas
+fragi CRDA 037”, Process Biochem., 32, 225232, 1997.
+Giuseppin M.L.F., “Effects of dissolved oxygen
+concenytration on lipase production by Rhizopus
+delemar”, Appl. Microbiol. Biotechnol., 20,
+161-165, 1984.
+
+10. Burkert J.F.M., Maugeri F., Rodrigues M.I.,
+“Optimization of extracellular lipase production
+by Geotrichum sp. Using factorial design”,
+Bioresource Technol., 91, 77-84, 2004.
+11. Vadehra D.A., Harmon L.G. “Factors affecting
+production of staphylococcal lipase”, J. Appl.
+Bacteriol., 32, 147-150, 1969.
+12. Lee S.Y., Rhee J.S., “Production and partial
+prufication of a lipase from Pseudomonas
+putida”, Enzyme Microbiol. Biotechnol., 15,
+617-623, 1993.
+13. Elibol M., Özer, Da., “Lipase production by
+immobilised Rhizopus arrhizus”, Process
+Biochem., 36, 219-223, 2000.
+14. Elibol
+M.,
+Mavituna
+F.,
+“Effect
+of
+perfluorodecalin as an oxygen carrier on
+actinorhodin production by Streptomyces
+coelicolor A3(2)”, Appl. Microbiol. Biotechnol.,
+35, 206-210, 1995.
+15. Elibol M., Özer Db., “Influence of oxygen
+transfer on lipase production by Rhizopus
+arrhizus”, Process Biochem., 36, 325-329, 2000.
+16. Açıkel Ü., Erşan M., Sağ Acıkel Y., “The effects
+of the composition of growth medium and
+fermentation conditions on the production of
+lipase by R. Delemar”, Turk J Biol., 35-44,
+2011.
+17. Sağ Acıkel Y., Rhizopus delemar ile lipaz
+üretimi, Proje no: MİSAG 282, TÜBİTAK,
+2006.
+18. Wonderwülbecke T., Kieslich K., Erdman H.,
+“Comparison of lipases by different assays”,
+Enzyme and Microbial Technology, 14, 631639, 1992.
+19. Acıkel, U., Ersan, M., “Acid phosphatase
+production by Rhizopus delemar: A role played
+in the Ni(II) bioaccumulation process”, Journal
+of Hazardous Materials, 184, 632-639, 2 010.
+20. Frost GM, Moss DA., “Production of enzymes by
+fermentation”, Biotechnology, Germany:VCH
+Verlagsgessellschaft mbh, 7a, 65–211, 1987.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+

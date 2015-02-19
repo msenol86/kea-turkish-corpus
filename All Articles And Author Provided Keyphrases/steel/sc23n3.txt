@@ -1,0 +1,523 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 23, No 3, 595-599, 2008
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 23, No 3, 595-599, 2008
+
+GÖZENEKLİ SERAMİK MALZEME İLE PASLANMAZ ÇELİĞİN
+DİFÜZYON KAYNAK YÖNTEMİYLE BİRLEŞTİRİLMESİ
+Mustafa AYDIN
+
+Makina Mühendisliği Bölümü, Mühendislik Fakültesi, Dumlupınar Üniversitesi, Kampüs 43100/Kütahya
+m_aydin@dumlupinar.edu.tr
+(Geliş/Received: 21.08.2007; Kabul/Accepted: 08.02.2008)
+ÖZET
+Metal/seramik birleştirme teknolojileri çeşitli bakımlardan elektronik ve yüksek sıcaklık uygulanan endüstrilerde
+önemli rol oynar. Difüzyon kaynağıyla kusursuz bir arayüzey ve yüksek sıcaklıkta mekanik direnç elde
+edilebildiği için avantajlı bir tekniktir. Bununla birlikte bu yöntemin dezavantajlarından birisi birleşme için
+gerekli olan kaynak sıcaklığının arayüzeyde termal gerilmeye sebep olması ve bazı reaksiyonların oluşmasıdır.
+Genellikle oluşan gerilmeleri minimize etmek için metal ve seramik malzemenin termal genleşmelerini birbirine
+yaklaştıracak uygun bir aratabakalar kullanılır. Bu çalışmada, gözenekli yapıdaki seramik ile paslanmaz çelik
+malzeme birbirleriyle difüzyon kaynak yöntemiyle birleştirilmiştir. Arayüzeyde farklı ıslatma malzemeleri (Ag,
+Cu ve Ag-Cu-Ti alaşımı) yaklaşık 100 mikron kalınlıkta kullanılarak vakum-argon atmosferi içerisinde 0.2 ve 2
+MPa basınç altında yük uygulanarak 850, 875, 900°C’de 45 dakika sürede birleştirilmişlerdir. Seramik-metal
+birleşme arayüzeyleri tarama elektron mikroskobu (SEM) ve konsantrasyon değişimi için EDS analizleri
+yapılarak incelenmiştir. Seramik malzemenin gözenekli yapısı nedeniyle Ag, ve Ag-Cu-Ti alaşım aratabaka
+malzemeleri gözeneklere dolmuş ve aratabaka kalınlıkları kaynaktan sonra yaklaşık 40-60 mikron kalınlıklara
+kadar incelmiştir. Çalışmada gözenekli seramik ile paslanmaz çelik malzemenin birleşme mekanizması
+tartışılmıştır. Arayüzeyde seramik ile paslanmaz çeliğin birleşiminin seramikte infiltrasyon ve paslanmaz çelik
+tarafında ise difüzyonla gerçekleştiği tespit edilmiştir.
+
+
+Mustafa Aydın
+
+1.
+
+Gözenekli Seramik Malzeme İle Paslanmaz Çeliğin Difüzyon Kaynak Yöntemiyle Birleştirilmesi
+
+GİRİŞ (INTRODUCTION)
+
+Mühendislik malzemeleri genellikle optik, elektronik,
+refrakter, yüksek sıcaklık ve tribolojik özellik istenen
+yerlerde kompozit olarak tercih edilmektedir. Bunlar
+metal-seramik, metal–polimer, seramik-polimer veya
+metal-seramik-polimer şeklinde olabilmektedir. Bazı
+durumlarda, bu malzemeler kompozit olarak
+üretilememekte, fakat birleştirme teknikleri ile bir
+araya getirilerek kullanım yoluna gidilmektedir. Bu
+amaçla literatürde, seramik ile metali birleştirmek için
+difüzyon kaynağı, ultrasonik kaynak, mikrodalga,
+lehimleme gibi yöntemlerle çalışmalar yapıldığı
+görülmüştür. Bunların arasında difüzyon kaynağı en
+yaygın tercih edilen yöntemlerden birisidir [1-5].
+Difüzyon kaynağı aratabakalı veya aratabakasız
+olarak uygulanabilmektedir. Aratabakasız kaynakta
+birleşme
+mikro-deformasyon
+mekanizmasıyla
+gerçekleşmektedir, bunun için ise yüksek sıcaklık ve
+basınç gereklidir [1]. Eğer bunlar yeterli değilse
+arayüzeyde bazı boşluklar ve yetersiz birleşme
+görülecektir. Her iki malzemenin ısıl genleşmeleri
+farklı ise arayüzeyde çatlama ve kırılmalar
+görülebilecektir. Aratabaka kullanıldığında termal
+genleşme farkı birbirine yaklaştırılacak ve gerilmeler
+azaltılmış olacaktır. Aratabakanın her iki malzeme
+tarafına deformasyonu ile arayüzeydeki boşluklar
+ortadan kaldırılmış olacaktır. Böylece tamamen
+birbirine temasta olan iki arayüzey elde edilecektir.
+Bu
+avantajları metal-seramik malzemelerinin
+birleştirilmesinde difüzyon kaynağını vazgeçilmek
+hale getirmektedir [1-4]. Arayüzey bağlanmasında
+genellikle Ag, Cu, Zn, Al gibi düşük ergime sıcaklıklı
+malzemeler veya Ag-Cu-Ti, Ag-Cu, Ti-Ni, Ti-Al, AgTi-Zn alaşımları aratabaka olarak tercih edilmektedir
+[6-10].
+Bu çalışmanın amacı seramik ile metalik malzemeyi
+difüzyon kaynağı ile birleştirmektir. Kullanılan
+seramik malzeme metalden farklı olarak gözenekli bir
+yapıya sahiptir. Bu nedenle birleştirme mekanizması
+farklı olacağından arayüzeyde difüzyonla birlikte
+infiltrasyonun da oluşabileceği bir mekanizma olduğu
+düşünülmüştür.
+Difüzyon
+kaynak
+birleşme
+arayüzeyinin mekanik ve mikroyapısal incelemeleri
+yapılarak bu mekanizmanın varlığı ve bu iki
+malzemenin birleştirilebilirliği tartışılmıştır.
+
+alkol ile temizlenmiştir. Deneylerden önce seramik ve
+paslanmaz çelik malzemenin yüzeyleri 220–1200 SiC
+zımpara ile zımparalanmıştır. Paslanmaz çelik
+numune yüzeyi daha sonra 3 µm elmas pasta ile
+parlatılmıştır. Zımparalama ve parlatma işlemlerinden
+sonra numune yüzey pürüzlülükleri Mitutoyo SJ 201P
+cihazı ile ölçülmüştür. Pürüzlülük değerleri (Ra)
+paslanmaz çelik, aratabakalar ve seramik için sırasıyla
+0.34, 0.40 ve 1.64 olarak ölçülmüştür.
+Seramik ve metal numuneler sabit yük altında vakum
+atmosferli fırın içerisinde birleştirilmiştir [11]. Fırın
+içerisinde oksijensiz bir atmosfer sağlanması amacıyla
+sıcaklık uygulanmadan fırın atmosferi öncelikle
+vakumlanıp daha sonra argon gazı ile doldurularak ve
+bu çevrim üç kez tekrarlanarak kaynak işlemine
+geçilmiştir. Birleştirme işlemi en düşük 850°C, orta
+sıcaklık 875°C ve en yüksek 900°C ve 0.2-2 MPa yük
+uygulanarak 45 dakikalık sürede fırın atmosferinde
+tutularak yapılmıştır. Deneyde fırının ısıtma ve
+soğutma oranı 10oC/dakika olarak uygulanmıştır.
+Kaynaklı numunelerin her birinin birleşme
+mukavemeti,
+kesme
+mukavemeti
+testiyle
+belirlenmiştir. Birleşmelerin kesme mukavemeti
+kesme test düzeneğinde 10 KN yük uygulama
+kapasiteli hassas Tritech 10 KN Wykeham Farrance
+makinesi ile yapılmıştır.
+Kaynaklı birleştirmelerin mikroyapı incelemesi için
+kaynaktan sonra numuneler kaynak birleşimine dik
+olarak kesilmiş ve 1 µm elmas pasta ile parlatılarak
+alkol ile temizlenmiştir. Numunelerin mikroyapısı ve
+arayüzeydeki kimyasal bileşim değişimleri elektron
+mikroskobu (SEM-EDS) ile JEOL JSM 6060 cihazı
+kullanılarak yapılmıştır.
+3. DENEYSEL SONUÇLAR VE TARTIŞMA
+(EXPERIMENTAL RESULTS AND DISCUSSION)
+
+Gözenekli yapıya sahip seramik malzemeler yüksek
+saflıktaki (%99.09) SiO2 tozları kullanılarak tek yönlü
+preste 5MPa yük uygulanarak 960°C sıcaklıkta 20
+dakika süreyle sinterlenerek üretilmiştir. Seramik
+malzemeler yaklaşık 0.2–4.5 µm çaplarında ve
+yaklaşık %49 gözenekli olarak üretilmişlerdir. Elde
+edilen seramik numunelerin kesme mukavemeti 9,8
+MPa olarak ölçülmüştür.
+3.1. Difüzyon Kaynak Sıcaklığı (Diffusion Welding
+
+2. MALZEME VE METOD (MATERIAL AND
+METHOD)
+
+Yüksek silikalı (%86.86 SiO2) gözenekli seramik
+malzeme ile paslanmaz çelik (AISI 304) malzeme saf
+Ag, elektrolitik Cu ve Ag-Cu-Ti (%68.8Ag, %24.5Cu
+and %1.4Ti). ötektik alaşımları arayüzeyde
+kullanılarak birleştirilmiştir. Kaynaklı birleştirme
+deneyleri için silindirik (Ø10x10 mm) numuneler
+hazırlanmıştır. Aratabaka malzemeleri ise yaklaşık
+100 µm kalınlıkta hazırlanıp zımparalanarak yüzeyleri
+596
+
+Temperature)
+
+Tablo 1’de seramik ile paslanmaz çelik malzemenin
+difüzyon kaynağı birleştirme koşulları ve elde edilen
+birleşme mukavemet değerleri verilmiştir. Difüzyon
+kaynak sıcaklığı 850oC altında seçilip kaynak işlemi
+yapıldığında yeterli birleşme sağlanamamıştır. 900oC
+ve üzerindeki sıcaklıklarda yapılan birleştirmelerde
+ise özellikle seramik malzemede deformasyon ve
+çatlamaların oluştuğu gözlenmiştir (Şekil 1). Seramik
+malzemenin gözenekli yapısı nedeniyle difüzyon
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+Gözenekli Seramik Malzeme İle Paslanmaz Çeliğin Difüzyon Kaynak Yöntemiyle Birleştirilmesi
+
+Mustafa Aydın
+
+Tablo 1. Farklı aratabakalar kullanılarak yapılan
+seramik-paslanmaz çelik difüzyon kaynağı
+sıcaklıkları ve deney sonrası elde edilen kesme
+mukavemeti değerleri
+Aratabaka Sıcaklık, Basınç,
+Kesme
+mukavemeti,
+°C
+MPa
+MPa
+Ag
+850
+0.2
+875
+0.2
+9.7
+900
+0.2
+Cu
+875
+0.2
+3.2
+875
+0.2
+9.9
+Ag−Cu−Ti
+Ag
+875
+2
+--
+
+a
+
+b
+
+c
+
+d
+
+Şekil 1. Farklı sıcaklıklarda yapılan difüzyon kaynaklı
+numunelerin fotoğrafları (0.2 basınç, MPa, 45 dakika
+süre), a) 875°C, b) 900°C ve c) 925°C ve d) 875°C ve
+2 MPa basınç altında deforme olmuş seramik
+malzemenin görünümü
+kaynak sıcaklığının önemli olduğu açıktır. Çünkü
+875oC altındaki sıcaklıklarda gözeneklere dolamayan
+aratabaka malzemesi tutunmak için yeterli bir yüzey
+temas alanı oluşturamamıştır.
+Bu nedenle de arayüzeyde bağlanma sağlanamamaktadır. 875oC sıcaklıkta ise Ag ve Ag-Cu-Ti
+ötektik alaşımıyla yapılan aratabakalı birleştirmelerde
+birbirine yakın birleşme mukavemeti değerleri elde
+edilmiştir. 875°C üzeri sıcaklıklarda ise (900°C ve
+üzeri) seramik malzemenin gözenekli olması ve
+mukavemetinin düşük olması nedeniyle basınç altında
+deformasyona uğrayarak, çatlamakta ve kırılmaktadır.
+Bakır aratabaka kullanılarak yapılan seramik-metal
+bağlanmasında ise yapılan deney sıcaklığında (875°C)
+Cu ergime sıcaklığına ulaşmadığı için gözeneklere
+yeteri kadar dolamamış ve yeterli arayüzey
+bağlanması sağlanamamıştır.
+3.2. Mikroyapı (Microstructure)
+Şekil 2’deki SEM fotoğrafında seramik-Cu
+arayüzeyinde gözeneklere rastlanılmamıştır. Bunun
+sebebinin uygulanan sıcaklık ve yük altında bakırın
+deforme
+olarak
+seramik
+yüzeyine
+aktığı
+düşünülmüştür. Ancak EDS analizinde seramik
+tarafında çok az bakıra rastlanılmıştır. Bunun sebebi
+nin ise deney sıcaklığında bakırda ergime olmayıp
+infiltrasyonun gerçekleşmemesinden kaynaklandığı
+düşünülmüştür. Sıvı faza geçmemiş olan bakır,
+seramik gözeneklerine infiltre olamamış, dolayısıyla
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+Şekil 2. Bakır aratabaka kullanılarak 0.2 MPa yük,
+875°C sıcaklık ve 45 sürede yapılan seramikpaslanmaz çelik birleşiminin SEM görünümü ve EDS
+analizi
+arayüzeyde konsantrasyon aniden düşmüştür. Bu
+nedenle de yeterli bir arayüzey bağı oluşamamıştır.
+Ag ve Ag-Cu-Ti ötektik alaşımları kullanılarak
+yapılan difüzyon kaynak birleşimlerinde ise yeterli bir
+arayüzey bağının oluştuğu SEM mikroyapı
+fotoğrafları ve yapılan kesme testi sonuçları ile
+söylenebilir. Ayrıca bu bölgeden alınan EDS
+analizleri de seramik tarafına sıvı faz difüzyonunun
+gerçekleştiğini göstermektedir. Şekil 3’de Ag
+aratabaka kullanılarak 875oC, 0.2 MPa yük altında ve
+45 dakika sürede yapılan Seramik-Ag-Paslanmaz
+çelik difüzyon kaynak birleşiminin SEM görüntüsü
+verilmiştir. SEM fotoğrafında sol tarafta seramik
+ortada Ag aratabaka ve sağ tarafta da paslanmaz çelik
+malzeme verilmiştir. Seramik tarafında gümüşün
+varlığı hem mikroyapı ve hem de EDS analizinde
+(Şekil 3b) görülmektedir. Arayüzeyde her iki tarafta
+boşluk-gözenek veya kalıntıların olmadığı açıktır.
+Yeterli bir arayüzey bağının oluştuğu hem SEM
+mikroyapısında ve hem de EDS analizlerinde açıkça
+görülebilmektedir. Mikroyapıdaki ölçeğe bakıldığında
+100 µm kalınlığında yerleştirilen Ag aratabakanın
+40-60 µm kalınlığa kadar inceldiği görülmektedir. Bu
+ise gümüşün deney sıcaklığında kısmi olarak ergiyip
+gözenekli olan seramiğin boşluklarına dolduğunu ve
+sıcaklığın düşmesiyle buralarda katılaşarak bağ
+oluşturduğu ve infiltrasyon veya sıvı faz difüzyonu
+yoluyla gümüş aratabaka ile seramik malzemenin
+bağlandığını göstermektedir (Şekil 3.b). Paslanmaz
+çelik ile gümüş aratabaka arayüzeyine bakıldığında
+
+597
+
+Mustafa Aydın
+
+Gözenekli Seramik Malzeme İle Paslanmaz Çeliğin Difüzyon Kaynak Yöntemiyle Birleştirilmesi
+
+(a)
+Aratabaka
+
+Paslanmaz
+Çelik
+
+Aratabaka, (Ag)
+
+Difüze olmuş Ag
+aratabaka malzemesi
+
+Seramik
+B
+
+Aratabaka
+malzemesi (Ag)
+
+Paslanmaz çelik
+Paslanmaz çelik
+
+Seramik
+gözenekleri
+A
+
+Seramik
+
+Seramik
+
+İnfiltre olmuş (Ag)
+aratabaka malzemesi
+
+(b)
+
+Şekil 4. Seramik-metal aratabakalı difüzyon kaynak
+arayüzeyinin birleşme mekanizması
+3.4. Kesme Testi
+
+(c)
+
+Şekil 3. Ag aratabakalı seramik-paslanmaz çelik
+difüzyon kaynak arayüzeyinin, a) SEM görünümü, b)
+A noktasının EDS analizi, c) B noktasının EDS
+analizi
+ise SEM görünümünde fazla bir gözenek veya boşluk
+olmadığı tam bir temasın sağlandığı gözlenmektedir.
+EDS analizinde paslanmaz çelik tarafında gümüşün
+varlığı gümüşün difüzyonunun gerçekleştiğini ve
+yeterli bağın oluştuğunu göstermektedir (Şekil 3c).
+3.3. Difüzyon Kaynağı Birleşme Mekanizması
+(Diffusion Bonding Mechanism)
+
+Gözenekli bir yapı ile yoğun bir yapıya sahip
+malzeme çiftinin difüzyon kaynağında Şekil 3’de
+görüldüğü gibi infiltrasyonun ve difüzyonun birlikte
+oluştuğu bir mekanizma vardır. Arayüzeyde düşük
+ergime sıcaklıklı bir aratabaka kullanıldığında oluşan
+arayüzey birleşme mekanizmasının Şekil 4’de
+görüldüğü gibi sıvı faz difüzyonu ile gerçekleştiği
+düşünülmüştür. Bu mekanizmanın oluşumu Şekil 4’de
+şematik olarak ifade edilmiştir. Şekilde kaynaktan
+sonra seramik tarafında gözenekler infiltrasyonla
+dolmuş gümüşün varlığı ifade edilmiş ve bunun
+gerçekleştiği Şekil 3’deki SEM fotoğrafında da açıkça
+görülmektedir. Paslanmaz çelik tarafında ise gümüş
+aratabakanın
+difüzyonla
+birleşmeyi
+sağladığı
+görülmektedir.
+
+598
+
+(Shear Strenght)
+
+Difüzyon kaynağıyla birleştirilen seramik-paslanmaz
+çelik malzeme çiftine kesme testi uygulandığında
+oluşan kırılma yüzeyi Şekil 5’de görülmektedir.
+Burada genel olarak kırılmaların arayüzeyden
+olmayıp, seramik kısmında oluştuğu açıktır. Bu da
+arayüzeyde yeterli bir seramik-metal bağlanmasının
+oluştuğunu kanıtlamaktadır. Burada kırılmanın
+birleşme mukavemeti düşük olan seramik kısmında
+oluşması normaldir. Kırılma yüzeyinde dikkati çeken
+seramik tabaka kalarak kırılmış olmasıdır. Bu da
+difüzyon ve infiltrasyonla yeterli bir birleşme
+sağlandığının göstergesidir. Şekil 5’de Ag aratabakalı
+0.2 MPa yük, 875oC sıcaklık ve 45 dakika sürede
+yapılan seramik-paslanmaz çelik arayüzeyinin kesme
+testi sonrası kırılma yüzeyi görülmektedir. Şekil 6’da
+ise kesme testiyle elde edilen kesme mukavemeti
+değerleri verilmiştir. Şekil 6’da grafikte görüldüğü
+gibi Ag-Cu-Ti ötektik alaşım aratabakalı kaynaklı
+birleştirme seramik ana malzemenin kesme
+mukavemeti ile aynı kesme mukavemeti değerini
+vermiştir. En düşük kesme mukavemeti değerini ise
+Cu aratabaka kulanılarak yapılan kaynaklı birleştirme
+vermiştir. Bu sonuçlarda elektron mikroskobu
+görüntüleri ile desteklenmektedir.
+Kırılma yüzeylerinden alınan SEM (3)
+görüntülerinde
+paslanmaz çelik ile kırılmış seramik kısım ara
+bölgesinde gözeneklerin olmadığı, tamamen aratabaka
+ile dolduğu ve kırılmalarında tamamen seramik
+
+Şekil 5. Ag aratabakalı 0.2 MPa yük, 875°C sıcaklık
+ve 45 dakika sürede yapılan seramik-paslanmaz çelik
+arayüzeyinin kesme testi sonrası kırılma yüzeyi
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+Kesme Mukavemeti,
+MPa
+
+Gözenekli Seramik Malzeme İle Paslanmaz Çeliğin Difüzyon Kaynak Yöntemiyle Birleştirilmesi
+
+Mustafa Aydın
+
+birleşmenin başarılı olduğunu göstermiştir. En yüksek
+arayüzey birleşme mukavemetini Ag ve alaşımı AgCu-Ti (9.6 ve 9,8 MPa) vermiştir.
+
+15,0
+10,0
+
+TEŞEKKÜR (ACKNOWLEDGEMENT)
+
+5,0
+0,0
+A
+
+B
+
+C
+
+D
+
+Numuneler
+
+Şekil 6. Difüzyon kaynağıyla birleştirilen Seramikpaslanmaz çelik numunelerin kesme testi değerleri,
+A:orijinal seramik malzeme, B: Ag-Cu-Ti Ag, C: Ag,
+D: Cu aratabakaları
+kısımdan gerçekleştiği görülmektedir (Şekil 7). SEM
+fotoğrafında
+infiltrasyonun
+ve
+difüzyonun
+gerçekleştiği görülebilmektedir. Kırılma yüzeyi
+birleşme yüzeyinden oldukça uzaktır. Bu bölgeden
+kırılmış olması difüzyon kaynağı birleşiminin başarılı
+olduğunu göstermektedir.
+
+Birleşme
+çizgisi
+
+Paslanmaz çelik
+
+Kırılma yüzeyi
+Seramik
+İnfiltrasyon
+
+Şekil 7. Kesme testi sonrası oluşan kırılma yüzeyinin
+SEM görünümü.
+4. SONUÇ (CONCLUSION)
+Gözenekli seramik ile paslanmaz çelik malzeme
+difüzyon kaynak yöntemiyle başarılı bir şekilde
+birleştirilmiştir. Kaynak işlemi esnasında 850°C ve
+altındaki sıcaklıklarda yeterli birleşme olmazken,
+900oC ve üzeri sıcaklıklar da ve 0.2 MPa yükün
+üzerindeki basınç değerlerinde seramik malzemede
+uygulanan kaynak basıncının yüksek olması sebebiyle
+deformasyon ve kırılmalar meydana gelmiştir. Ag ve
+Ag alaşımları kullanıldığında seramik ile metal
+arasında
+iyi
+bir
+ıslatma,
+kısmi
+ergime
+gerçekleştirilerek, yeterli ıslatma sağlanmış ve
+mükemmel bir arayüzey bağı oluşmuştur. Kesme
+testi esnasında kırılmalar birleşme arayüzeyinden
+uzakta ve seramik malzemede oluşmuş, buda
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 3, 2008
+
+Bu çalışma TÜBİTAK tarafından 106M147 nolu
+proje kapsamında desteklenmiştir.
+KAYNAKLAR (REFERENCES)
+1. Zhang, Y., Feng, D., Zhi-yong, H., Xi-chun, C.,
+“Progress in Joining Ceramics to Metals”, Journal
+of Iron and Steel Research. 13 (2), 01−05, 2006.
+2. Kliauga, A.M., Travessa, D., Ferrante, M.,
+“Al2O3/Ti Interlayer/AISI 304 Diffusion Bonded
+Joint Microstructure Characterization of the Two
+Interfaces”, Materials Characterization, 46,
+65−74, 2001.
+3. Feng, J., Zhang, L., “Interface Structure and
+Mechanical Properties of the Brazed Joint of TiC
+Cermet and Steel”, ECERS, 26, 1287-1292, 2006.
+4. Zhang, L., Feng, J., Zhang, B., Jing, X.,
+“Ag−Cu−Zn Alloy for Brazing TiC Cermet/Steel”,
+Materials Letters, 59, 110−113, 2005.
+5. Zhang, L.X., Feng, J.C., He, P., “Brazing
+Temperature and Time Effects on the Mechanical
+Properties of TiC Cermet/Ag−Cu−Zn/Steel
+Joints”, Materials Science and Engineering, A,
+428, 1-2,24-33, 2006.
+6. Zhou, J.Z., Zhong, Z.H., Ge, C.C., “Silicon Doped
+Carbon/Cu Joints Based on Amorphous Alloy
+Brazing for First Wall Application”, Fusion
+Engineering and Design, 82, 1, 35-40, 2007.
+7. Mei, J., Xiao, P., ”Joining Metals to Zirconia for
+High
+Temperature Applications”,
+Scripta
+Materialia. Vol 40, 5, 587−594, 1999.
+8. Fang, F., Zheng, C., Lou, H., Sui, R., “Bonding of
+Silicon Nitride Ceramics Using Fe−Ni/Cu/Ni/Cu/
+Fe−Ni Interlayers”, Materials Letters, 47,
+178−181, 2001.
+9. Ozturk, K., Basu, B.S., Randall, C.A., and Mayo,
+M.J., “Diffusion Bonding of Rigid Zirconia Pieces
+Using Electrohoretically Deposited Particulate
+Interlayers”, Scripta Materialia, Vol.41, 11,
+1191−1195, 1991.
+10. Jadoon, A.K., Ralph, B., Hornsby, P.R., “Metal to
+Ceramic Joining via a Metallic Interlayer Bonding
+Technique”, Journal of Materials Processing
+Technology, 152 257−265, 2004.
+11. Arik, H., Aydin, M., Kurt, A., Turker, M.,
+“Weldability of Al4C3−Al Composites via
+Diffusion Welding Technique”, Materials and
+Design, 26, 555−560, 2005.
+
+599
+
+

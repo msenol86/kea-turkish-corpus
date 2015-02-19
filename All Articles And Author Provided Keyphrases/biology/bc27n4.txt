@@ -1,0 +1,1054 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 27, No 4, 901-909, 2012
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 27, No 4, 901-909, 2012
+
+YAPAY BAĞIŞIKLIK SİSTEMİNİN ÇOKLU ETMEN BENZETİM
+ORTAMINDA REALİZE EDİLMESİ VE GEZGİN SATICI
+PROBLEMİNE UYGULANMASI
+Adil BAYKASOĞLU, Alper SALTABAŞ, A. Serdar TAŞAN, Kemal SUBULAN
+Dokuz Eylül Üniversitesi, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü, Buca, İzmir,
+adil.baykasoglu@deu.edu.tr, alper.saltabas@gmail.com, serdar.tasan@deu.edu.tr,
+kemal.subulan@deu.edu.tr
+(Geliş/Received: 12.03.2012; Kabul/Accepted: 09.08.2012)
+ÖZET
+Kombinatoryal optimizasyon problemlerinin çözümü için geliştirilen birçok meta-sezgisel algoritma
+bulunmasına rağmen bu algoritmaları etmen tabanlı modelleme ortamında realize eden çalışmaların sayısı çok
+azdır. Özellikle Yapay Bağışıklık Sisteminin (YBS) dinamiklerini modelleyen algoritmaların adaptasyon
+yeteneğine sahip popülasyon tabanlı yaklaşımlar olması, YBS’nin etmen tabanlı modelleme ortamında gerçeğe
+daha yakın bir şekilde realize edilmesini sağlayacaktır. Bu amaçla ilk defa mevcut çalışmada, bir kombinatoryal
+optimizasyon problemi olan gezgin satıcı probleminin (GSP) modellenmesi ve çözümü için yapay bağışıklık
+sistemi algoritmalarından klonal seçim algoritması çoklu etmen benzetim ortamında modellenmiş ve
+algoritmanın gösterdiği davranışın incelenmesi için farklı GSP setleri üzerinde benzetim deneyleri
+gerçekleştirilmiştir. Etmen tabanlı modellerin geliştirilmesi ve benzetim testlerinin yapılabilmesi için Netlogo
+yazılımı kullanılmıştır. Ayrıca geleneksel klonal seçim algoritmasının performansını arttırmak için reseptör
+değişim süreci ve çaprazlama mekanizması önerilen modele entegre edilmiş ve doğal oluşları daha gerçekçi
+modelleyebilen etmen tabanlı yaklaşımlar ile de etkin çözümler elde edilebileceği gösterilmiştir.
+
+A. Baykasoğlu ve ark.
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+1. GİRİŞ (INTRODUCTION)
+NP-zor problemler ailesinin en bilinen üyesi olan ve
+çok sayıda uygulama sahası bulunan Gezgin Satıcı
+Problemi (GSP) bilimsel yazında hala güncelliğini
+korumaktadır. Özellikle büyük boyutlu gezgin satıcı
+problemlerinin çözümü için bilimsel yazında birçok
+araştırmacı tarafından sezgisel ve meta-sezgisel
+algoritmalar üzerine çalışmalar yapılmıştır ve
+yapılmaya devam edilmektedir. GSP’ne uygulanan
+meta-sezgisel algoritmalardan birisi de yapay
+bağışıklık sistemi algoritmasıdır. Örneğin; De Castro
+ve Von Zuben [1] yapay bağışıklık algoritmalarından
+birisi olan klonal seçim algoritmasını gezgin satıcı
+problemine uygulamışlardır. Gao vd. [2], reseptör
+değişim süreci mekanizmasını klonal seçim
+algoritmasına entegre ederek gezgin satıcı
+probleminin
+çözümü
+için
+çeşitli
+deneyler
+yapmışlardır. Dai vd. [3, 4] tarafından geliştirilen
+özgün bir çaprazlama mekanizması, klonal seçim
+algoritması ile birlikte kullanılarak gezgin satıcı
+probleminin çözümü için kullanılmıştır. Sözü edilen
+tüm bu ve pek çok diğer doğadan esinlenilen metasezgisel algoritma klasik yapısal (structured)
+modelleme ve programlama yaklaşımı ele alınarak
+modellenmiş ve programlanmıştır. Her ne kadar bu
+şekilde programlanan algoritmalar ile başarılı
+sonuçlar elde edilmiş olsa da yapısal modelleme ve
+programlama yaklaşımı doğal sistemlerin dağıtık ve
+etkileşimli yapısını tam olarak ifade etmekten uzaktır.
+Yapay bağışıklık sisteminin dinamiklerini modelleyen
+algoritmaların adaptasyon ve etkileşim yeteneğini öne
+çıkaran popülasyon tabanlı algoritmalar olması, bu
+yaklaşım kullanılarak çözülecek problemlerin etmen
+tabanlı modelleme ortamında gerçeğe daha yakın
+realize edilmesini sağlayacaktır. Bu çalışmanın ana
+amacı ve temel katkısı popülasyon tabanlı bir metasezgisel olan klonal seçim algoritmasının gezgin satıcı
+problemi üzerinden etmen tabanlı benzetim ortamında
+gerçeğe daha yakın bir şekilde realize edilerek
+performansını incelemektir. Daha önce de ifade
+edildiği gibi bilimsel yazında GSP’nin çözümü için
+klonal seçim algoritmasının kullanıldığı çeşitli
+çalışmalar bulunmaktadır. Ancak, etmen tabanlı
+modelleme ortamında yapay bağışıklık algoritmaları
+kullanılarak
+GSP
+ve
+diğer
+kombinatoryal
+optimizasyon problemlerinin çözümü için herhangi
+bir çalışma bulunmamaktadır. Bununla birlikte etmen
+temelli modelleme ve programlama yaklaşımları
+kullanılarak modellenen çeşitli yapay bağışıklık
+sistemi algoritmaları bulunmaktadır, bunlardan
+mevcut makaleye de ilham veren bazı temel
+çalışmalar takip eden paragrafta özetlenmiştir.
+Bağışıklık sistemleri ile bilgisayar ağlarının güvenlik
+sistemleri arasında anlamlı bir benzerlik olduğu
+düşünüldüğünden, Machado vd. [5] doğal yapıların
+realize edilmesinde etkin bir modelleme tekniği olan
+etmen tabanlı modellemeyi kullanarak yapay
+bağışıklık sistemlerini büyük ölçekli bilgisayar
+ağlarının
+güvenliğini
+sağlamak
+amacıyla
+uygulamışlardır. Çoklu etmen sistemleri ile yapay
+bağışıklık sistemi arasında birçok benzerlik olması,
+Grilo vd.’nin [6] virüs ve bağışıklık hücrelerinin
+dinamik değişimlerini gösteren genetik algoritma ve
+
+902  
+
+hücresel otomatın kombinasyon özelliğine dayalı bir
+bağışıklık sistemi modeli geliştirmişlerine yön
+vermiştir. Bağışıklık sistemindeki tehlike teorisinden
+ilham alan çoklu etmen tabanlı bir yapay bağışıklık
+sistemi modeli bilgisayar ağlarının güvenliği için Ou
+vd. [7] tarafından önerilmiştir. Mendao vd. [8] etmen
+tabanlı modelleme ve UML (Unified Modelling
+Language) tekniklerini bir arada kullanarak bağışıklık
+sistemlerinden
+ilham
+alan
+bir
+algoritma
+geliştirmişlerdir. Sathyanath ve Sahin [9] mayın
+tarama ve difüzyon problemi için çoklu etmen
+modellemeye dayalı bir yapay bağışıklık sistemi
+önermişlerdir, bu sayede önerdikleri model ile etmen
+tabanlı uygulamaların çözümü sağlanabilmektedir.
+Mamady vd. [10] çoklu etmen modellemeye dayalı
+bir yapay bağışıklık sistemi geliştirerek birden çok
+robotun ve nesnenin bulunduğu bir yer değiştirme
+probleminin çözümüne çalışmışlardır. Chingtham vd.
+[11] ortak bir amacı gerçekleştirmeye çalışan
+robotların hareketlerini düzenlemek için özgün bir
+yapay bağışıklık sistemini çoklu etmen paradigmasına
+dayanarak modellemişlerdir. Ayrıca robotlara otonom
+öğrenme yeteneği kazandıran bir yapay bağışıklık
+sistemini Singh ve Nair [12] çoklu etmen robot
+sistemi için geliştirmişlerdir. Daha önce de ifade
+edildiği gibi; bu çalışmanın ana amacı, bir
+kombinatoryal optimizasyon problemi olan gezgin
+satıcı probleminin çözümü için yapay bağışıklık
+sistemi algoritmalarından klonal seçim algoritmasının
+çoklu etmen benzetim ortamında modellenmesi ve
+algoritmanın gösterdiği davranışın incelenmesi için
+benzetim deneylerinin yapılmasıdır. Bağışıklık
+hücrelerinin otonom olması, ayrıca birbirleriyle ve
+çevreyle etkileşim içinde oldukları düşünüldüğünde
+etmen tabanlı modelleme ve benzetimin yapay
+bağışıklık sistemlerinin modellenmesi için son derece
+uygun bir araç olduğu ortaya çıkmaktadır. Ayrıca;
+bağışıklık hücrelerinin öğrenme ve adaptasyon
+yeteneği de bir etmen tabanlı modelleme ve benzetim
+aracı olan Netlogo’nun problemin çözümü için son
+derece uygun bir araç olduğunu ortaya koymaktadır.
+Mevcut çalışma ile ilk defa bir kombinatoryal
+optimizasyon problemi için yapay bağışıklık temelli
+bir algoritma (klonal seçim algoritması) etmen tabanlı
+bir benzetim ortamında (Netlogo) realize edilecek ve
+performansı test edilecektir. Önerilen yaklaşımın
+performansını değerlendirmek üzere optimum
+sonuçları bilinen sekiz farklı gezgin satıcı problemi
+ele alınmış ve toplam 4800 adet benzetim deneyi
+Netlogo ortamında gerçekleştirilmiştir.
+2.
+BAĞIŞIKLIK
+BİLİMİ
+VE
+YAPAY
+BAĞIŞIKLIK SİSTEMİ (IMMUNOLOGY SCIENCE
+AND ARTIFICIAL IMMUNE SYSTEM),
+
+2.1. Biyolojik Bağışıklık Sistemi
+
+(Biological Immune
+
+System)
+
+Dasgupta ve Nino [13] biyolojik bağışıklık sistemini
+şu şekilde tanımlamaktadır: bağışıklık sistemi bir dizi
+organların, moleküllerin ve hücrelerin bir araya
+gelmesinden oluşur ve bir patojen varlığında bu
+sistemi oluşturan parçaların gösterdiği düzenli tepkiye
+bağışıklık tepkisi (immune response) denir. Bağışıklık
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+A. Baykasoğlu ve ark.
+
+Tablo 1. Yapay bağışıklık algoritmaları ve uygulama alanları [13] (Artificial immune algorithms and the application areas)
+İlham kaynağı olan bağışıklık mekanizması
+Yapay bağışıklık algoritması
+Uygulama Alanı
+T hücreleri, “kendinden”/”kendinden olmayan” ayrımı
+
+Negatif seçim algoritması
+
+Anormallik tespiti,
+değişiklik tespiti
+
+Bağışıklık hafızası, bağışıklık ağları ve B hücreleri
+
+Yapay bağışıklık ağı algoritması
+
+Öğrenme
+
+Klonal çoğalma, benzerlik olgunlaşması ve B hücreleri
+
+Klonal seçim algoritması
+
+Arama ve optimizasyon
+
+Doğal Bağışıklık Sistemi
+
+Tehlike teorisi
+
+Savunma stratejileri
+
+sistemini meydana getiren hücreler ve mekanizmalar
+üzerine yapılan teorik araştırmalar sonucunda, yapay
+bağışıklık sistemine ilham kaynağı oluşturan birçok
+özellik keşfedilmiştir. Bu çalışmanın kapsamında ele
+alınan klonal seçim algoritması da, biyolojik
+bağışıklık sistemindeki B hücrelerinin ve bu
+hücrelerin ürettiği antikorların davranışları göz önüne
+alınarak bilimsel yazında geliştirilmiştir.
+
+• Sisteme ait parçaların gösteriminin yapılabileceği
+bir ortam.
+• Sistemdeki parçaların çevreyle ve birbirleriyle
+ilişkisini değerlendirecek mekanizmalar.
+• Sistem dinamiklerini yöneten ve kontrol eden
+adaptasyon prosedürleri.
+
+2.1.1. Bağışıklık Sisteminde Klonal Seçim
+Mekanizması (Clonal Selection Mechanism in Immune
+System)
+
+B hücresinin yüzeyindeki reseptörler bir antijen ile
+birleştiğinde, B hücresi çoğalmaya ve ayrışmaya
+maruz kalacak şekilde uyarılır [13] ve antijenle
+birleşme gerçekleştikten sonra klonal seçim
+mekanizması devreye girer. B hücreleri, plazma ve
+hafıza hücreleri şeklinde ikiye ayrışır ve plazma
+hücreleri aracılığıyla antijene uygun antikorlar üretilir.
+2.1.2. Biyolojik Bağışıklık Sisteminin İlham
+Kaynağı Oluşturan Özellikleri (Proporties of Immune
+System that Form Inspiration)
+
+Biyolojik bağışıklık sistemlerinin bilgisayar biliminde
+ve hesaplama (computation) alanında kullanılmasını
+avantajlı hale getiren temel özellikleri Timmis vd.
+[14] tarafından şu şekilde sıralanmıştır: kendi kendine
+organize olabilme, öğrenme ve hafıza, adaptasyon,
+tanımlama
+ve
+fark
+etme,
+sağlamlık
+ve
+ölçeklenebilirlik. Bağışıklık sistemleri, öğrenme ve
+hafıza yeteneği, dağıtık sistem özelliği, kendi kendine
+organize olabilme, tanımlama ve fark etme
+özellikleriyle karmaşık problemlerin çözümü için
+metafor oluşturmaktadır ve bu özellikleri sayesinde
+birçok orijinal yaklaşımın geliştirilmesine ilham
+kaynağı olmuştur.
+2.2. Yapay Bağışıklık Sistemi ve İlgili Kavramlar
+(Artificial Immune System and Related Concepts)
+
+Yapay bağışıklık sistemleri, bağışıklık sisteminden
+esinlenen ve gerçek hayat problemlerini çözmek için
+geliştirilen zeki ve uyum sağlayabilen sistemlerdir
+[15]. De Castro ve Timmis [16] tarafından yapay
+bağışıklık sistemi algoritmalarını tasarlamak amacıyla
+bir taslak geliştirilmiştir, bu taslağa göre bir yapay
+bağışıklık sistemi en azından aşağıdaki temel
+unsurlara sahip olmalıdır:
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+Şekil 1. Yapay Bağışıklık Sisteminin Tasarım Süreci
+(Design Process of the Artificial Immune System)
+
+Ortaya konan bu taslak doğrultusunda yapay
+bağışıklık sisteminin tasarım süreci çok katmanlı bir
+yapıya sahip olmaktadır (Şekil 1). Yapay bağışıklık
+sistemlerinde, sisteme ait parçaların belirli yöntemler
+yardımıyla gösteriminin yapıldığı ortama “biçim
+uzayı” (shape space) denilmektedir. Sistemi oluşturan
+parçalar arasındaki etkileşimlerin değerlendirilmesi
+amacıyla kullanılan ölçü birimi ise “benzerlik ölçüsü”
+(affinity measure) olarak adlandırılmaktadır. Yapay
+bağışıklık sisteminin en üst katmanında sistemin
+dinamiklerini kontrol eden ve sistemin adaptasyon
+yeteneğini ortaya çıkaran yapay bağışıklık
+algoritmaları yer almaktadır.
+2.2.1. Yapay Bağışıklık Algoritmaları
+
+(Artificial
+
+Immune Algorithms)
+
+Yapay bağışıklık algoritmaları, bağışıklık bilimindeki
+mekanizmalardan ilham alınarak geliştirilen ve yapay
+bağışıklık sisteminin dinamiklerini yöneten çeşitli
+prosedürlerdir. Yapay bağışıklık sistemi algoritmaları,
+algoritmalara ilham kaynağı olan mekanizmalar ve
+algoritmaların kullanım alanlarını gösteren bir tablo
+yukarıda verilmiştir (Tablo 1).
+
+903
+
+Baykasoğlu A. ve ark.
+
+3. ETMEN
+BENZETİM
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+TABANLI
+(AGENT
+
+MODELLEME
+
+BASED
+
+MODELING
+
+VE
+AND
+
+SIMULATION)
+
+Kesikli olay benzetimi ve sistem dinamikleri
+benzetimi ile ilgili olarak bilimsel yazında pek çok
+çalışma olmasına karşın, etmen tabanlı benzetim
+kavramıyla ilgili çalışmaların sayısı çok daha azdır ve
+yapılan çalışmalar incelendiğinde bu paradigmanın
+son on yıl içinde ilgi gören bir konu haline geldiği
+görülmektedir. Çünkü sistemi oluşturan parçalar,
+kendine özgü ve zaman içinde değişen davranışlar
+gösterdiğinde, bir başka deyişle otonom bir yapıya
+sahip olduğunda, bu sistemleri geleneksel modelleme
+ve benzetim yaklaşımları ile ele almak güçleşir.
+Etmen tabanlı benzetime olan ilginin artmasında etkili
+olan sebepler Macal ve North [17] tarafından şöyle
+özetlenmektedir: İlk olarak, analiz etmek ve
+modellenmek istenen sisteme ait parçaların
+etkileşimleri gün geçtikçe daha karmaşık hale
+gelmektedir. İkinci olarak, bazı sistemleri, gerçeğe en
+yakın şekliyle modellemek her zaman zor olmuştur.
+Üçüncü olarak, toplanan ve organize edilen mikro
+seviyedeki veriler, çok daha detaylı hale gelmiştir.
+Son olarak ve belki de en önemlisi, bilgisayarların
+hesaplama gücü gün geçtikçe artmaktadır. Bu sayede
+çok daha büyük ölçekli mikro-benzetim modelleri
+çalıştırılabilmektedir. Etmen tabanlı modelleme ve
+benzetim sayesinde birbirleriyle ve çevreyle
+etkileşimi olan etmenler simüle edilir ve zaman
+içerisinde nasıl hareket ettikleri incelenir, bu şekilde
+etmenlerin meydana getirdiği sistemin davranışı da
+incelenmiş olur. Bu teknik yardımıyla sistemdeki
+aktörlerin mikro düzeyde modellenmesi söz
+konusudur ve realize edilen aktörlerin karar
+süreçlerini tam anlamıyla tanımlamak amaçlanır.
+Makro düzeydeki yapılar ise, etmenlerin eylemleri,
+çevreleri ve aynı zamanda birbirleriyle olan
+etkileşimleri sonucunda ortaya çıkar [18]. Etmen
+tabanlı modelleme tekniğinde ele alınan sistem,
+otonom ve karar verme yeteneğine sahip etmenlerden
+oluşmaktadır. Her etmen, kendi durumunu bireysel
+olarak değerlendirir ve bir dizi kuralı temel alarak
+karar verir [19]. Bilimsel yazında oldukça kabul gören
+bir etmen tanımı Bradshaw [20] tarafından
+yapılmıştır: “Etmenler, kendine has davranışları olan
+nesnelerdir”. Öte yandan yazında “zeki etmen”
+kavramı ise, kendine ait amaçları ve davranışları olan,
+karşılıklı etkileşim yeteneğine sahip, davranışlarını
+adapte edebilen ve değiştirebilen otonom varlık olarak
+tanımlanmıştır [18]. Macal ve North [17], etmenlerin
+sahip olması gereken özellikleri şu şekilde
+sıralamıştır: (1) Otonom olmak ve kendi kendini
+yönetebilmek; (2) Modüler olmak veya kendi kendine
+yetebilmek; (3) Sosyal olmak (etkileşimde
+bulunmak); (4) Bir çevre içerisinde yer almak; (5)
+Amaçlara sahip olmak; (6) Adaptasyon ve öğrenme.
+3.1. Çok Etmenli Sistemler (Multi-Agent Systems)
+Çok etmenli sistem, birbirleriyle ve çevreleriyle
+etkileşim içinde olan çeşitli zeki etmenlerden oluşmuş
+heterojen bir topluluktur. Etmenlerin ortak bir amacı
+takım olarak başarmak gayesinde olduğu durumlarda
+
+904
+
+işbirlikçi etkileşim söz konusu olabilir, ya da
+etmenlerin kendi bireysel faydalarını maksimize
+etmeyi amaçladığı durumlarda rekabetçi bir etkileşim
+söz konusu olabilir. Etmenler, diğer etmenlerden ve
+çevreden bilgi alırlar ve bilişsel karar süreçlerini
+tanımlayan kurallara sahiptirler, bu şekilde nasıl tepki
+vereceklerini belirlerler [18, 21].
+3.2. Bir Etmen Tabanlı Modelleme ve Benzetim
+Aracı Olarak Netlogo (Netlogo as an Agent Based
+Modelling and Simulation Tool)
+
+Etmen tabanlı modelleme ve benzetim araçları
+arasında en çok dikkat çekenlerden birisi de
+Netlogo’dur. Netlogo, etmen tabanlı modelleme ve
+benzetim yapmak amacıyla geliştirilmiş kendine özgü
+bir programlama diline sahip java tabanlı bir
+yazılımdır. Netlogo sayesinde özellikle karmaşık
+sistemlerin modellenmesi ve benzetimi etkin bir
+şekilde yapılabilmektedir. Yazılım, özellikle zaman
+içinde evrim geçiren ve adaptasyon, öğrenme gibi
+özelliklere sahip karmaşık sistemlerin modellenmesi
+amacıyla birçok çalışmada kullanılmıştır [22-24]. Bu
+açıdan bakıldığında Netlogo, popülasyon tabanlı
+algoritmaların modellenmesi ve algoritmanın
+davranışının realize edilmesi açısından son derece
+uygun bir yazılımdır. Netlogo yazılımında etmenlerin
+çeşitli tipleri bulunmaktadır. Hareket edebilen
+etmenlere “turtles” ismi verilmektedir ve bu etmenler,
+“patches” adı verilen bölgelerin üzerinde hareket
+etmektedirler. “Patches” olarak adlandırılan bölgeler
+de programlanabilir birer etmendir. Gözlemci
+(observer) ise Netlogo ortamındaki bir diğer etmen
+çeşididir. Gözlemci, bütün model ortamını gözetleyen
+ve diğer etmenlere (turtles ve patches) komut
+gönderebilen bir etmendir. Gözlemci etmeninin model
+ortamında (world) herhangi bir lokasyonu yoktur,
+diğer etmenleri dışarıdan takip eden bir gözlemci
+gibidir. Bütün etmenler birbirleriyle etkileşim
+içindedirler ve birçok görevi eşzamanlı olarak yerine
+getirebilmektedirler [25]. Tüm bu bilgiler ışığında
+popülasyon tabanlı bir meta-sezgisel olan klonal
+seçim algoritmasının etmen tabanlı modellenmesi için
+Netlogo uygun bir yazılım olarak karşımıza
+çıkmaktadır. Netlogo aynı zamanda tam sürümü
+akademik kullanım için ücretsiz olarak sağlanan bir
+yazılımdır. Yazılıma http://ccl.northwestern.edu/netlogo/
+adresinden erişilebilir.
+4. Gezgin Satıcı Probleminin Çözümü için Çoklu
+Etmen Benzetim Ortamında İyileştirilmiş Klonal
+Seçim Algoritmasının Uygulanması (Application of
+Improved Clonal Selection Algorithm for Solving Traveling
+Salesman Problem in Multi-Agent Simulation Environment)
+
+Literatürde üzerine çok sayıda çalışma yapılmış olan
+gezgin satıcı problemi, tipik bir kombinatoryal
+optimizasyon problemidir ve NP-zor problemler
+sınıfına dahildir. Bu problemin çözümü için birçok
+popülasyon
+tabanlı
+meta-sezgisel
+algoritma
+geliştirilmiştir fakat bu algoritmalar arasında yapay
+bağışıklık algoritmalarının kullanıldığı çalışmaların
+sayısı görece olarak çok daha azdır. Daha önceki
+bölümlerde de değinildiği üzere yapay bağışıklık
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+sistemlerinin etmen tabanlı modelleme ve benzetim
+ortamında realize edilmesinin uygun bir yaklaşım
+olduğu düşünüldüğünde, ele alınan GSP’nin çözümü
+için klonal seçim algoritmasının bir etmen tabanlı
+modelleme ve benzetim aracı olan Netlogo yazılımı
+kullanılarak modellenmesi uygun bir yaklaşım olarak
+değerlendirilmiştir. Castro ve Von Zuben [1]
+tarafından geliştirilen geleneksel klonal seçim
+algoritmasının (GKSA) GSP’nin çözümü için ortaya
+koyduğu performans, bu çalışma kapsamında yapılan
+deneyler sonucunda yetersiz görülmüştür (bkz Tablo
+4). Bu nedenle, ilk olarak GKSA’ya Gao vd. [2]
+tarafından önerilen “reseptör değişim süreci”
+eklenerek KSA-RDS (klonal seçim algoritması reseptör değişim süreci) algoritması geliştirilmiştir.
+Daha sonra sonuçları iyileştirmek amacıyla Dai vd.
+[4] tarafından özgün bir çaprazlama mekanizması
+olarak geliştirilen “distance maintaining compact
+quantum croosover” mekanizması KSA-RDS
+algoritmasına
+entegre
+edilmiştir
+ve
+İKSA
+(iyileştirilmiş klonal seçim algoritması) elde
+edilmiştir. Bu çalışma kapsamında Netlogo
+yazılımında modellenen yapay bağışıklık sisteminin
+çok katmanlı yapısı aşağıdaki gibidir (Şekil 2).
+
+A. Baykasoğlu ve ark.
+
+5. Adım: Her bir klon kümesindeki antikorlar içinden
+rastgele olarak hi ve ri adet seçim yap, seçilen
+antikorlar üzerinde hipermutasyon ve reseptör
+değişim süreci uygula; etmen tipleri: clone-antibodyhypermutated ve clone-antibody-receptor-edited.
+ğ
+ı ı
+0.5
+ö
+ğş
+ü
+ı ı
+6. Adım: Üçüncü adımda elde edilen antikorları
+kullanarak çaprazlama mekanizmasını uygula (etmen
+tipi: crossover-antibody).
+7. Adım: Beşinci ve altıncı adımda elde edilen
+antikorların oluşturduğu n adet “değişime uğramış
+antikorlar kümesi” için benzerlik değerlerini güncelle
+ve her bir küme için en iyi benzerlik değerine sahip
+antikoru seç (RS1, RS2 .... RSn) (etmen tipi: reselected-antibody).
+8. Adım: Yedinci adımda seçilen antikorlar ile
+üçüncü adımda seçilmiş olan antikorları karşılaştır ve
+antikorlar için güncelleme yap. Eski antikorları yok
+et. Bu aşamada antikor popülasyonunda çeşitlilik
+yaratabilmek amacıyla P olasılığı dikkate alınarak
+güncelleme yapılır. (α : 100)
+… :
+ğ
+ü
+1,
+ğ
+ğ
+: 0,
+,
+ğ
+9. Adım: Her pys nesilde bir, seçilmiş antikorlar
+içinden en düşük benzerlik oranına sahip k adet
+antikoru seç ve rastgele üretilen k adet antikor ile yer
+değiştir.
+ü ü üğü
+/ 100
+10. Adım: Maksimum nesil sayısına ulaşılmış ise dur,
+aksi durumda 3. adıma geri dön.
+
+Şekil 2. Modellenen yapay bağışıklık sisteminin çok
+katmanlı yapısı (Multi-Layer Structure of The Modeled
+Artificial Immune System)
+
+İKSA algoritmasına ait işlem adımları ve mantıksal
+akış Şekil 3’de gösterilmiştir.
+n: seçim büyüklüğü, m: klon büyüklüğü, pys:
+popülasyon yenileme sıklığı, pyo: popülasyon
+yenileme oranını ifade etmek üzere Şekil 3’deki İKSA
+algoritmasının detayları şu şekildedir:
+1. Adım: “başlangıç popülasyon büyüklüğü” kadar
+rastgele etmen oluştur (etmen tipi: antibodypopulation-set).
+2. Adım: Her bir antikora ait benzerlik değerini
+hesapla.
+3. Adım: En iyi benzerlik değerine sahip n adet
+antikoru seç ve antikorları benzerlik değerlerine göre
+büyükten küçüğe doğru sırala (A1, A2, ....An) (etmen
+tipi: antibody).
+4. Adım: Seçilen her bir antikoru Ci adet klonla
+(etmen tipi: clone-antibody).
+.
+ç
+ü ü üğü
+/
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+İKSA’nın kullandığı değişim mekanizmalarına ait
+açıklayıcı bilgi Şekil 4’de verilmiştir. İKSA’nın
+etmen tabanlı benzetim ortamında realize edilmesi
+sırasında kullanılan ve dinamik olarak değişime
+uğrayan etmen tipleri Şekil 5’de görülmektedir.
+4.1. Parametre Analizi ve Sonuçlar
+
+(Parameter
+
+Analysis and Results)
+
+Parametre analizi sırasında bilimsel yazında referans
+GSP’ne ilişkin 8 adet veri seti kullanılmıştır: Bays29,
+Dantzig42, Eil51, St70, Eil76, Eil101, Pr124 ve
+KroA150.
+Algoritma
+performanslarının
+değerlendirilmesi amacıyla her bir algoritma için
+(GKSA, KSA-RDS, İKSA) 10 adet parametre seti
+kullanılmış olup her bir parametre seti için
+algoritmalar yirmişer kez çalıştırılmıştır ve toplamda
+4800 adet benzetim deneyi, AMD Phenom II P920
+Quad-core processor 1.60 GHZ işlemci ve 4GB
+belleğe sahip bir bilgisayarda Win7 işletim sistemi
+üzerinde Netlogo versiyon 4.1.3 yardımıyla
+gerçekleştirilmiştir.
+
+905
+
+Baykasoğlu A. ve ark.
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+ 
+
+Şekil 3. İKSA’ya Ait Mantıksal Akış (Logical Flow Chart for the İKSA)
+
+Kullanılan algoritmalar için en iyi performansı veren
+parametre setleri Tablo 2’de verilmiştir. Performans
+değerlendirmesi sırasında kriter olarak deney
+sonuçlarının ortalamasının optimum sonuçtan sapması
+dikkate alınmıştır. Tablo 2’deki parametre setleri
+dikkate alınarak yapılan deneyler sonucunda elde
+edilen performans istatistikleri Tablo 4’de
+gösterilmiştir. Deney sonuçlarının değerlendirilmesi
+amacıyla kullanılan EİSS ifadesi, en iyi sonucun
+sapması, EKSS ifadesi, en kötü sonucun sapması,
+SOS ifadesi ise, verilerin ortalamasının optimum
+sonuçtan % olarak ne kadar sapma gösterdiğini ifade
+etmektedir.
+
+906
+
+Tablo 2. En iyi performansı veren parametre setleri
+(Parameter sets that provide best performance for the algorithms)
+
+GKSA
+
+KSA-RDS
+
+Başlangıç popülasyon
+400
+büyüklüğü
+Maksimum nesil
+Nmax
+sayısı
+Seçim büyüklüğü
+200
+Klon büyüklüğü
+20
+Popülasyonu
+10
+yenileme sıklığı
+Popülasyonu
+20
+yenileme oranı
+M: Şehir Sayısı, Gmax: ilgili
+maksimum nesil sayısı (Tablo 3)
+
+İKSA
+
+M
+
+M
+
+Gmax
+
+Gmax
+
+M
+50
+50
+
+M
+50
+50
+
+10
+
+10
+
+probleme
+
+ait
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+A. Baykasoğlu ve ark.
+
+Şekil 4. İKSA’nın Kullandığı Değişim Mekanizmaları (Evolutionary Operators Utilized by İKSA)
+
+ 
+
+ 
+
+Şekil 5. Etmen Tabanlı Benzetim Ortamında Kullanılan Etmen Tipleri (Agent Types Used in the Agent Based Simulation
+Environment)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+907
+
+Baykasoğlu A. ve ark.
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+Tablo 3. GSP’ler için maksimum nesil sayıları
+(Maximum generation numbers for the TSPs)
+
+Gezgin Satıcı Problemi
+Bays29
+Dantzig42
+Eil51
+St70
+Eil76
+Eil101
+Pr124
+KroA150
+
+Gmax
+500
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+
+Nmax
+150
+150
+150
+150
+150
+600
+600
+600
+
+5. SONUÇLAR (CONCLUSIONS)
+Bu çalışma kapsamında GKSA, KSA-RDS ve İKSA
+algoritmaları bir etmen tabanlı modelleme ve
+benzetim aracı olan Netlogo üzerinde literatürdeki 8
+farklı referans GSP’i ele alınarak realize edilmiştir.
+Yapılan değerlendirmeler sonucunda, İKSA’nın tüm
+performans kriterleri göz önüne alındığında iyi
+sonuçlar verdiği gözlenmiştir.
+
+Ayrıca, YBS algoritmalarının etmen tabanlı
+modelleme ve benzetim ortamında realize edilmesi
+sonucunda algoritmanın davranışını gerçeğe daha
+yakın bir şekilde incelemek mümkün olmuştur. Elde
+edilen sonuçlar bilimsel yazındaki bilinen en iyi
+sonuçlara oldukça yakın sonuçlardır. Bu sonuçlar
+meta-sezgisel algoritmaların etmen temelli olarak da
+modellenip etkin sonuçlar üretilebilmesi olasılığının
+oldukça yüksek olduğunu ortaya koymaktadır.
+Önerilen
+algoritmanın
+geliştirilip
+sonuçların
+iyileştirilmesi mümkündür. Bu gelecek çalışmalara
+bırakılmıştır. Etmen temelli sistemlerin dinamik
+sistemleri çok etkin bir şekilde modelleyebilme
+özelliği olduğundan önerilen algoritmanın dinamik
+GSP’ne uygulanması da gelecek bir çalışma olarak
+planlanmıştır. Mevcut çalışma kapsamında geliştirilen
+yazılıma
+http://ccl.northwestern.edu/netlogo/models/communit
+y/index.cgi
+adresinden erişilebilir.
+
+Tablo 4. Algoritmalara ait benzetim deney sonuçları (Results of simulation experiments for the algorithms)
+GSP
+Bays29
+Dantzig42
+Eil51
+St70
+Eil76
+Eil101
+Pr124
+KroA150
+
+Optimum
+Sonuç
+(km.)
+2020
+699
+426
+675
+538
+629
+59030
+26524
+
+EİSS
+(%)
+0,40
+11,59
+12,82
+30,96
+28,81
+24,80
+103,74
+79,69
+
+GKSA
+EKSS
+(%)
+16,24
+27,18
+29,37
+66,67
+55,02
+47,38
+173,89
+118,31
+
+SOS
+(%)
+8,55
+21,33
+20,65
+47,88
+41,95
+37,55
+134,47
+99,61
+
+EİSS
+(%)
+0,00
+0,00
+2,10
+3,70
+4,83
+8,43
+6,86
+12,3
+
+KSA-RDS
+EKSS
+(%)
+2,38
+3,15
+6,06
+9,78
+12,83
+15,74
+25,89
+25,93
+
+SOS
+(%)
+0,72
+1,14
+4,14
+6,50
+9,82
+12,43
+15,13
+20,95
+
+EİSS
+(%)
+0,00
+0,00
+1,17
+0,30
+0,56
+3,02
+2,01
+4,25
+
+İKSA
+EKSS
+(%)
+0,40
+1,43
+3,52
+4,74
+4,46
+9,86
+9,07
+8,63
+
+SOS
+(%)
+0,07
+0,13
+2,25
+2,54
+2,70
+6,53
+5,22
+6,24
+
+[26]
+SOS
+(%)
+3,43
+5,46
+4,17
+4,61
+
+[27]
+SOS
+(%)
+2,89
+4,35
+3,78
+3,06
+
+Şekil 6. Eil51 Problemi İçin Yapılan Bir İKSA Benzetimi (A Simulation Result for the Eil51 Problem)
+
+908
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012 
+
+Yapay Bağışıklık Sisteminin Çoklu Etmen Benzetim Ortamında Realize Edilmesi…
+
+KAYNAKLAR (REFERENCES)
+1.
+
+De Castro, L. ve Von Zuben, F., “Learning and
+Optimization Using The Clonal Selection
+Principle”, Evolutionary Computation, Cilt 6,
+Sayı 3, 239-251, 2002.
+2. Gao, S., Dai, H., Yang, G. ve Tang, Z., “A Novel
+Clonal Selection Algorithm and Its Application to
+Traveling Salesman Problem”, IEICE Trans.
+Fundamentals, Cilt E90–A, No 10, 2007.
+3. Dai, H., Yang, Y. ve Li, C., “Improved Quantum
+Crossover Based Clonal Selection Algorithm”,
+Third International Conference on Intelligent
+Networks and Intelligent Systems, Shenyang Çin, 366-369, 01-03 Kasım 2010.
+4. Dai, H., Yang, Y. ve Li, C., “Distance
+Maintaining Compact Quantum Crossover Based
+Clonal Selection Algorithm”, Journal of
+Convergence Information Technology, Cilt 5,
+No 10, 56-65, 2010.
+5. Machado, R.B., Boukerche, A., Sobral, J.B.M.,
+Juca, K.R.L. ve Notare, M.S.M.A., “A Hybrid
+Artificial Immune and Mobile Agent Intrusion
+Detection Based Model for Computer Network
+Operations”, 19th IEEE International Parallel
+and Distributed Processing Symposium,
+Denver – ABD, 04-08 Nisan 2005.
+6. Grilo, A., Caetano, A. ve Rosa, A., “Agent Based
+Artificial Immune System”, Genetic and
+Evolutionary Computation Congress (Proc.
+GECCO-01), San Francisco – ABD, Cilt LBP,
+145-151, 07-11 Temmuz 2001.
+7. Ou, C.M. Wang, Y.T. ve Ou, C.R., “Intrusion
+Detection Systems Adapted From Agent-Based
+Artificial
+Immune
+Systems”,
+IEEE
+International Conference on Fuzzy Systems,
+Taipai – Tayvan, 115-122, 27-30 Haziran 2011.
+8. Mendao, M., Timmis, J., Andrews, P.S. ve
+Davies, M., “The Immune System in Pieces:
+Computational Lessons from Degeneracy in the
+Immune System”, IEEE Symposium on
+Foundations of Computational Intelligence,
+Havai, 394-400, 01-05 Nisan 2007.
+9. Sathyanath, S. ve Sahin, F., “Application of
+Artificial Immune System Based Intelligent Multi
+Agent Model to a Mine Detection Problem”,
+IEEE International Conference on Systems,
+Man and Cybernetics, Hammamet – Tunus, 0609 Ekim 2002.
+10. Mamady, D., Tan, G., Toure, M.L. ve Alfawaer,
+Z.M., “An Artificial Immune System Based
+Multi-Agent Robotic Cooperation”, Novel
+Algorithms
+and
+Techniques
+in
+Telecommunications,
+Automation
+and
+Industrial Electronics, 60-67, 2008.
+11. Chingtham, T.S., Sahoo, G. ve Ghose, M.K., “An
+Artificial Immune System Model for Multi
+Agents Resource Sharing in Distributed
+Environments”, International Journal on
+Computer Sciences and Engineering, Cilt 2, No
+5, 1813-1818, 2010.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 27, No 4, 2012
+
+A. Baykasoğlu ve ark.
+
+12. Singh, C.T. ve Nair, S.B., “An Artificial Immune
+System for a Multi-Agent Robotics System”,
+Word Academy of Science, Eng. and
+Technology, Cilt 11, Sayı 3, 6-9, 2005.
+13. Dasgupta, D. ve Nino, F., Immunological
+Computation: Theory and Applications,
+Auerbach Publications, 2008.
+14. Timmis. J., Hone, A., Stibor, T. ve Clark, E.,
+“Theoretical Advances in Artificial Immune
+Systems”, Theoretical Computer Science, Cilt
+403, Sayı 1, 11-32, 2008.
+15. Dasgupta,
+D.,
+“Information
+Processing
+Mechanisms of the Immune System”, New Ideas
+in Optimization, Corne, D., Dorigo, M. ve
+Glover, F., McGraw-Hill, ABD, 1999.
+16. De Castro, L. N. ve Timmis, J., Artificial
+Immune Systems: A New Computational
+Intelligence Approach, Springer, ABD, 2002.
+17. Macal, C.M. ve North, M.J.; “Agent-based
+Modeling and Simulation”, Winter Simulation
+Conference 2009, Austin – ABD, 86-98, 13-16
+Aralık 2009.
+18. Siebers, P.O. ve Aickelin, U., “Introduction to
+Multi Agent Simulation”, Encylopedia of
+Decision Making and Decision Support
+Technologies, Editör: Adam, F., Information
+Science Reference, ABD, 554-564, 2007.
+19. Siebers,
+P.O.,
+“Lecture
+Notes”,
+http://www.cs.nott.ac.uk/~pos/index.html.
+20. Bradshaw, J.M., Software Agents, The MIT
+Press, ABD, 1997.
+21. Jennings, N., “On Agent-based Software
+Engineering”, Artificial Intelligence, Cilt 117,
+Sayı 2, 277-296, 2000.
+22. Pelta, D., Cruz C. ve Gonzalez, J.R., “A Study on
+Diversity and Cooperation in a Multiagent
+Strategy for Dynamic Optimization Problems”,
+International Journal of Intelligent Systems,
+Cilt 24, Sayı 7, 844–861, 2009.
+23. Terna P., “The epidemic of innovation – playing
+around with an agent-based model”, Economics
+of Innovation and New Technology, Cilt 18, No
+7, 707–728, 2009.
+24. Sakellariou, I., Kefalas, P. ve Stamatopoulou, I.,
+“Enhancing NetLogo to Simulate BDI
+Communicating Agents”, SETN '08 Proceedings
+of the 5th Hellenic Conference on Artificial
+Intelligence: Theories, Models and App.,
+Syros, 263-275, 02-04,10, 2008.
+25. Tisue, S. ve Wilensky, U., “NetLogo: design and
+implementation of a multi-agent modeling
+environment”, Proceedings of Agent, Chicago –
+ABD, Ekim 2004.
+26. Somhom, S., Modares, A. ve Enkawa, T., “A
+Self-organizing Model for the Traveling
+Salesman Problem”, J. of the OR Society, Cilt
+48, No 9, 919–928, 1997.
+27. Cochrane, E. M., ve Beasley, J. E., “The Coadaptive Neural Network Approach to the
+Euclidean Traveling Salesman Problem”, Neural
+Networks, Cilt 16,10, 1499–1525, 2003
+
+909
+
+ 
+
+ 
+
+

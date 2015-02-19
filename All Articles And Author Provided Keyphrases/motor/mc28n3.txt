@@ -1,0 +1,1547 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 3, 607-616, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 3, 607-616, 2013
+
+BİR ELEKTROMEKANİK SUPAP (EMS) SİSTEMİNİN
+DEĞİŞİK ÇALIŞMA ARALIKLARINDAKİ DİNAMİK
+PERFORMANSININ ARAŞTIRILMASI VE İÇTEN YANMALI
+BİR MOTORUN DESTEKLENME LİMİTLERİNİN
+BELİRLENMESİ
+Nida BİRGÜL1, Perihan SEKMEN2
+1
+
+K.K.EDOK K.lığı, 06610, ANKARA, TÜRKİYE.
+Karabük Üniversitesi, Mühendislik Fakültesi, Otomotiv Mühendisliği Bölümü, 78100, KARABÜK, TÜRKİYE.
+nbirgul@yahoo.com, psekmen@karabuk.edu.tr
+2
+
+(Geliş/Received: 28.12.2012; Kabul/Accepted: 18.07.2013)
+ÖZET
+Elektromekanik supap (EMS) sistemleri çok sayıda araştırmacı, motor ve otomotiv parça üreticileri tarafından
+geliştirilmektedir. Bu sistemler motorun tüm çalışma koşulları için supap zamanlamasında sağladığı esneklik
+sayesinde, potansiyel olarak motor performansını iyileştirme kabiliyetine sahiptir. EMS sistemleri,
+konvansiyonel kam mili sistemlerinin aksine supap zamanlamasını krank mili pozisyonundan tamamen bağımsız
+olarak gerçekleştirir. Bu sayede elektromekanik supap teknolojisi emme ve egsoz supaplarının açılma ve
+kapanma olaylarının denetimine imkân sağlayarak yakıt tüketimi ve emisyonların en aza indirilmesinde büyük
+bir potansiyele sahiptir.
+Bu çalışmanın amacı, 12V’luk besleme gerilimine sahip bir EMS sisteminin değişik supap çalışma aralığındaki
+dinamik performansını araştırmak ve böylece içten yanmalı bir motoru destekleme limitlerini belirlemektir.
+N.Birgül ve ark.
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+1. GİRİŞ (INTRODUCTION)
+Küresel ısınma ve fosil kökenli yakıtların sınırlı ömrü,
+otomotiv endüstrisinin dikkatini daha verimli
+teknolojilerin üretilmesi yönünde yoğunlaştırmıştır
+[1]. Bu nedenle son yıllarda yapılan çalışmalarda
+emisyonların azaltılması, yakıt ekonomisi sağlanması,
+yüksek güç ve tork elde edilmesi ve verim artışı temel
+hedef olmuştur.
+Diğer taraftan, içten yanmalı motorlar üzerine yapılan
+çalışmalar genel olarak ele alındığında; pistonlu
+motorlar yerine, insansız hava araçlarında kullanımı
+düşünülen
+turbo
+dönüşlü
+motorlar
+üzerine
+elektromanyetik valf uygulanması[2], klasik supap
+sistemlerinin iyileştirilmesi[3], egsoz kaynaklı
+kirleticilerin azaltılması ve alternatif yakıt türlerinin
+geliştirilmesi, alternatif yakıt türlerinin motor
+performansına
+ve
+emisyonlara
+etkisinin
+incelenmesi[4-6], motor ayarlama karakteristiklerinin
+incelenmesi[7,8]
+gibi
+konuların
+yer
+aldığı
+görülmektedir.
+İçten yanmalı motorların iyileştirilmesi üzere yapılan
+çalışmaların birçoğu silindirlere dolgu giriş çıkışını
+sağlayan supap sistemlerinin geliştirilmesi yönünde
+yapılmıştır. Başlangıçta her bir silindir için kullanılan
+emme ve egsoz sayıları artırılmak suretiyle çoklu
+supap sistemlerine geçilmiş ve bu sayede silindir içine
+alınan dolgu verimi artırılarak rahat nefes alabilen
+motorlar üretilmiştir. Daha sonra değişken supap
+zamanlamasının ortaya çıkışı ile birlikte içten yanmalı
+motorlarda üretilen tork, geniş bir devir aralığına
+yayılmıştır.
+Günümüzde
+değişken
+supap
+zamanlamasına ilave olarak, değişken supap
+açıklığı/aralığı teknolojisi ile silindir içine alınan
+dolgu miktarı kontrol edilebilir hale gelmiştir. Supap
+ile supap oturma yüzeyi arasındaki mesafe değişimi
+ayarlanabilmekte, bu nedenle gaz kelebeği ihtiyacı
+ortadan kalkmaktadır. Sonuç olarak, gaz kelebeğinin
+olmadığı bir manifold sistemi ile kısılmasız emme
+işlemi gerçekleştirilmektedir. Tüm bu iyileştirmeler
+sonrasında, iyi bir yakıt ekonomisinin yanında daha
+yüksek güç ve verim artışı sağlanmıştır[1,9-12].
+Son yıllarda supap sistemleri üzerine yapılan
+çalışmaların temelinde yukarıda sayılan temel
+özelliklerin geliştirilerek daha yüksek verim elde
+edilmesinin yanı sıra daha esnek supap zamanlaması
+ve süresinin ayarlanmasına müsaade eden, çok
+silindirli motorlarda bazı silindir ya da silindirlerin
+geçici olarak devre dışı bırakılmasına imkân tanıyan,
+otto ve dizel çevrimlerinin yanı sıra diğer
+termodinamik çevrimlerin oluşumuna da imkân
+tanıyabilecek sistemlerin geliştirilme çalışmalarının
+yer aldığı görülmektedir. Bu kapsamda yapılan
+çalışmalar
+incelendiğinde
+elektromekanik,
+elektrohidrolik, elektropnömatik ve elektrik motoru
+tahrikli kam mili sistemlerinin supapları çalıştırmak
+
+608
+
+üzere tasarlanıp üzerlerinde çalışıldığı görülmektedir
+[1].
+Elektrohidrolik supap sistemleri üzerine yapılan
+çalışmalar incelendiğinde, temel olarak supap sap
+kısmının hidrolik bir silindire bağlantılı olduğu, bu
+silindirin hidrolik bir akışkan ile doldurulup
+boşaltılması ile çalıştırılır. Buradaki akışkanın yön
+kontrol valfleri vasıtasıyla denetimi yapılmak
+suretiyle supabın açılıp kapatılması, açık veya kapalı
+kalma periyotları gerçekleştirilir. Burada akışkan
+hareketini sağlayan basınç farkı, motora ait yağlama
+sisteminden sağlanabildiği gibi, elektrik motoru ile
+tahrik edilen sistemler de vardır. Burada sistemin
+hassasiyeti ve cevabı, kullanılan hidrolik yağının
+özelliklerinden ve sıcaklığından etkilenmekte, sıcak
+ve soğuk çalışma koşullarında supap performansı
+değişiklik gösterebilmektedir[13-16].
+Elektropnömatik supap sistemleri, çalışma özelikleri
+ve donanım yönleriyle elektrohidrolik sistemlerle
+benzerlik gösterir[17,18]. Aradaki fark, akışkan
+olarak hava kullanılmasıdır. Bu sistemler özellikle
+büyük güç gereksinimi olan supap sistemlerin
+çalıştırılması için uygundur. Bu tip sistemlerin düşük
+çalışma aralıklarında çalıştırılma güçlüğünün olduğu
+belirtilmekle birlikte normal supap çalışma
+aralıklarında oldukça verimli çalıştıkları ifade
+edilmektedir[17]. Pnömatik supap sisteminde
+değişken supap açıklığı ve supap oturma yüzeyine
+temas problemleri mevcuttur[18].
+Elektrik motoru ile tahrik edilen kam mekanizmalı
+supap sistemi üzerine de çalışmalar yapılmıştır.
+Temelde sistem değişken supap zamanlaması,
+değişken supap açıklığı mekanizmalarına sahip
+olmasının yanı sıra düşük güç tüketimine sahip
+olduğu da ifade edilmektedir[19,20].
+Elektromekanik supap (EMS) sistemleri üzerine
+yapılan çalışmalar genellikle mekanizma tasarımı [2125], tasarıma etkileyen faktörler [26,27], gürültü
+seviyesinin azaltılması [28], modelleme ve
+simülasyon [1,9,29-32], denetim ve optimizasyon [3335] ile motor uygulamaları [36-38] şeklinde
+sınıflandırılabilir.
+Elektromekanik supap (EMS) sistemleri, temel olarak
+her bir supap için iki adet elektromıknatıs ile supabın
+bağlı olduğu bir nüve ile bu sistemin denetimini ve
+işletmesini sağlayan elektronik kontrol ünitesinden
+oluşur Bu sistemler üzerinde değişken supap
+zamanlaması, değişken supap açıklığı ve bazı
+silindirlerin devre dışı
+bırakılması olayları
+uygulanabilmektedir[1,11]. Tüm bu uygulamaların
+sonucunda, konvansiyonel motorlara göre yakıt
+tüketiminde %11 azalma, elde edilen torkta %5 artış
+gerçekleştiği vurgulanmaktadır[1,36]. Supap oturma
+yüzeyine
+çarpma
+problemleri
+ve
+gürültü
+problemlerinin aşıldığı[21,28,31], düşük enerji
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+tüketimleri
+ile
+edilmektedir[27].
+
+dikkati
+
+çektikleri
+
+ifade
+
+N.Birgül ve ark.
+
+2.2. Hareketli Kütle-Yay İlişkisi, Manyetik Kuvvet
+(Relationship Between The Moving Mass-Spring, Magnetic
+Force)
+
+Yapılan çalışmaların supabı açma ya da kapama
+yönündeki tepki sürelerinin 4ms den az olmasına
+karşılık genellikle 42V ile 200V arasında değişen
+çalışma
+gerilimlerine
+sahip
+oldukları
+görülmektedir[21,26,30].
+Günümüz taşıt elektrik
+sistemleri 12-24V çalışma gerilimlerine sahip
+olduğundan[39],
+uygulamaların yapılabilmesi
+maksadıyla, bir kısım araştırmacılar tarafından taşıt
+elektrik sistemlerinin 42V’ a yükseltilmesi
+önerilirken, bir kısım araştırmacılar tarafından ise
+mevcut sistemlere uygun gerilimle çalışabilecek EMS
+sistemlerinin
+geliştirilmesinin
+uygun
+olacağı
+vurgulanmaktadır [26,37,38].
+Bu çalışmanın amacı 12 voltluk besleme gerilimine
+sahip bir EMS sisteminin, değişik çalışma
+aralıklarındaki dinamik performansını araştırmak ve
+böylece içten yanmalı motorları destekleme limitlerini
+belirlemektir.
+2. MATERYAL VE METOT (MATERIAL AND
+METHOD)
+
+2.1. Elektromekanik Supap Sistemi
+(Electromechanical Valve System - EMV)
+
+-
+
+EMS
+
+EMS sistemleri, supapları kam milinden bağımsız
+olarak çalıştıracak biçimde tasarlanır. Sistem, temel
+olarak bir elektronik kontrol ünitesi, iki adet bobin, iki
+adet yay, bir nüve ve bir supaptan meydana gelir.
+Şekil 1’ de sistemi oluşturan elemanlar şematik olarak
+gösterilmiştir. Sistemin denetimi için gerekli sinyaller
+elektronik kontrol ünitesi tarafından sağlanmaktadır.
+Elektronik kontrol ünitesi tarafından gönderilen
+denetim sinyaline göre bobinlerden biri iletime, diğeri
+kesime sokularak supap açılıp kapanır. Meydana
+gelen elektromanyetik kuvvet nüveyi iki bobin
+arasında yer alan mesafede hareket ettirir. Nüve
+ucunda yer alan supap ise nüve hareketini takip
+ederek açma ve kapama görevini yerine getirir.
+Mekanizmada yer alan sistem yayı supabı açma
+yönünde kuvvet uygularken, supap yayı ise supabı
+kapama yönünde kuvvet uygular. Sisteme herhangi
+bir sinyal uygulanmadığında, nüve yay kuvvetleri
+etkisi altında orta konumda, supap yarı açık konumda
+tutulur.
+sistem yayı
+kapama bobini
+nüve
+açma bobini
+supap yayı
+supap
+
+Şekil 1. EMS sistemi (The EMV system)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+EMS sistemi motorun ihtiyaç duyduğu her hızda
+çalışabilecek kapasiteye sahip olmalı, bu nedenle
+tasarım başlangıcında supap açılıp kapanma süreleri
+dikkate alınmalı ve motorun çalışma frekansına
+uyumlu tasarımlar yapılmalıdır.
+Elektromekanik supap sistemlerinde hareketli
+kısımlar; supap, nüve ve yaylardan oluşan sistemdir
+ve bu sistem basit kütle yay sistemi olarak
+adlandırılır. Supap hareket süresi açık konumdan
+kapalı konuma geçiş ya da kapalı konumdan açık
+konuma geçiş süresi olarak adlandırılır ve yaklaşık
+olarak kütle-yay sisteminin doğal frekansı ile ilişkili
+olup eşitlik (1) ile hesaplanabilir [1,22,23].
+
+
+
+t
+
+
+
+m
+k
+
+(1)
+
+Burada t ; açık konumdan kapalı konuma geçiş ya da
+kapalı konumdan açık konuma geçiş süresini (s), m;
+hareketli toplam kütleyi (kg), k: yay sabitini (N/m)
+ifade etmektedir.
+Hareketli kütlenin hesabında (2) numaralı eşitlik
+kullanılır[15,19]. Burada supap, nüve ve yayların
+kütleleri dikkate alınırken kullanılan sistem yayı ile
+supap yayı aynı özellikte kabul edilebilir.
+Hareketli kütle = supap + nüve + [1/3 (supap yayı
++ sistem yayı)]
+(2)
+Bu çalışmada kullanılan hareketli kütle elamanlarının
+özellikleri Çizelge 1’de verilmiştir. Bu özellikler
+dikkate alınarak hareketli kütle 215g olarak
+hesaplanmıştır.
+Elektromanyetik supap mekanizmasında kullanılan
+disk tipi mıknatıs devresinin genel yapısı, disk
+şeklindeki hareketli nüve ve manyetik alanın
+oluşmasını sağlayan bobin devresinden oluşur.
+Uygulamada kullanılan bobin, 3mm et kalınlığına
+sahip teflon malzemeden yapılmış olan makara
+üzerine sarılmıştır. Disk ise elektromanyetik kuvvet
+hatlarını en iyi biçimde kesecek özelliğe sahip
+ferromanyetik malzemeden yapılmıştır. Şekil 2’de
+Tablo 1. Hareketli kütle elemanlarının özellikleri
+(Properties of the moving mass elements).
+Kullanılan Eleman
+Nüve
+Supap kütlesi
+Supap yayı kütlesi
+Sistem yayı kütlesi
+Yay sabiti
+
+Özellik
+200g
+60g
+20g
+20g
+10N/mm
+
+609
+
+N.Birgül ve ark.
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+tasarımı ve imalatı gerçekleştirilen selenoid kesiti,
+Çizelge 2’de ise bobin özellikleri verilmiştir.
+
+V
+
+Elektrik
+
+I
+
+Manyetik
+
+Fm
+
+Mekanik
+
+x
+
+52
+
+v
+
+Şekil 3. EMS sistemi blok diyagramı (The EMS system
+block diagram).
+
+Şekilde yer alan büyüklüklerden V: selenoidlere
+uygulanan gerilimi (V), I: bobinlerden geçen akımı
+(A), Fm: elektromanyetik kuvveti (N), x ve v ise
+sırasıyla supabın konumunu (m) ve hızını (m/s) temsil
+eder.
+
+54
+
+Şekil 2. Selenoid kesiti (Cross-section of solenoid)
+
+Elektromıknatıs bağıntı, Kirchhoff yasası ile
+kurulabilir ve 5 numaralı eşitlik ile verilir.
+Burada e: giriş gerilimini (V), r: bobin direncini
+(ohm), N: sarım sayısını, : ise mıknatıs akısını
+(Wb/m2) ifade eder.
+
+Tablo 2. Selenoid özellikleri (Features of solenoid)
+İletken çapı
+Sarım sayısı (çit sarım)
+Endüktans
+Direnç
+
+1 mm
+168x2
+0,352mH
+1,2ohm
+
+EMS sisteminde yayların hareketli kütle üzerine
+
+Hareketli nüve ile sabit kutup arasında meydana gelen
+elektromanyetik kuvvet 3 ve 4 numaralı eşitlikler
+yardımıyla hesaplanabilir[26].
+Eşitliklerde yer alan Fm elektromanyetik kuvveti (N),
+µ hava aralığı geçirgenliğini (410-7), A etkin kesit
+alanını (m2), N sarım sayısını, I bobinden geçen akımı
+(A), z hava aralığı sayısını, xh ise toplam hareket
+mesafesini (m), Bh mıknatıs akısı yoğunluğunu
+(Wb/m2) ifade etmektedir.
+2.3. EMS Sisteminin Dinamiği (The Dynamics of EMV
+system)
+
+Fm 
+
+( )
+z(x h - x) 2
+
+Fm 
+
+z h  A
+
+
+(3)
+
+(4)
+
+EMS sistemi, elektrik, manyetik ve mekanik olmak
+üzere üç ana alt sistemin bileşiminden oluşur. Hareket
+bu üç bileşenin birlikte etkileşimi neticesinde
+meydana gelir. Burada, elektrik alt sistemi bobinden
+geçen akım dinamiklerini belirlerken, mekanik alt
+sistemi ise hareketli nüve dinamiğinden sorumludur.
+Elektrik ve mekanik bölümlerin etkileşimi manyetik
+bölümü oluşturur. Hareket, bobin akımının
+oluşturduğu ve direkt olarak nüve üzerine etkiyen
+manyetik kuvvet tarafından gerçekleştirilir. EMS
+sisteminin blok diyagramı Şekil 3’te verilmiştir.
+
+610
+
+e(t )  r i(t ) 
+
+d ( N )
+dt
+
+(5)
+
+uyguladığı yay kuvveti 6 numaralı eşitlik ile verilir.
+
+xh
+(6)
+ x)
+2
+Burada k: yay sabitini (N/m) ifade eder. Elektro
+mıknatıs kuvvet, yaylar tarafından uygulanan kuvveti
+yenebilecek büyüklükte olmalıdır. Ayrıca, silindir içi
+basınç kuvvetleri de söz konusudur.
+Mekanik sistemin dinamiğinde 7 numaralı bağıntı
+kullanılır.
+Fyay  2k (
+
+Fm  m
+
+d 2 x(t ) dx(t )
+b
+± Fyay  Fb  Fs
+dt
+dt
+
+(7)
+
+Burada Fyay yay kuvvetini (N), Fm elektro mıknatıs
+kuvvetini (N),
+Fb sürtünme kuvvetini (N),
+Fs silindir içi basınç kuvvetini (N) ifade eder.
+2.4. Deneysel Kurulum (Experimental Setup)
+Deneysel kurulumun bir fotoğrafı Şekil 4’te
+verilmiştir. 12V çalışma gerilimine sahip bir EMS
+sistemi, Çizelge 3’te teknik özellikleri verilen tek
+silindirli bir motorun silindir kapağına bağlanmıştır.
+Sistemin denetimini yapmak üzere güç elektroniği
+devresi montajı yapılmıştır. EMS sisteminin
+bilgisayar yardımıyla denetimini sağlamak üzere
+Darbe Genişlik Modülatörü (DGM) üretilmiştir.
+DGM ile sisteme kolay veri girişi sağlayabilmek için
+bir bilgisayar ara yüz programı oluşturulmuştur. Bu
+sayede arzu edilen DGM sinyali verileri kolayca
+bilgisayara aktarılabilmekte, ara yüz modülü ve DGM
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+üzerinden EMS sistemine istenilen denetim sinyalleri
+gönderilebilmektedir.
+
+Bilindiği gibi hall sensörler manyetik alandan
+etkilenerek çıkış geriliminde değişiklik elde edilebilen
+algılayıcılardır. Burada bobin akımlarını ölçmek için
+iki adet, supap hareketini algılayabilmek için de bir
+adet hall sensör kullanılmış, bu sayede sistem
+parametreleri ölçülmüştür.
+Sensörlerden elde edilen akım, pozisyon ve kontrol
+bilgilerini toplamak ve kayıt yapabilmek maksadıyla,
+ART USB5935 veri toplama modülü kullanılmıştır.
+Bu modül 100 kS/s hızında bilgi işleme kapasitesine
+sahip, dijital ve analog giriş çıkış ünitelerinden
+oluşmaktadır. Toplanan bilgilerin analizi ve
+değerlendirilmesinde, ART USB5935 veri toplama
+modülü ile birlikte elde edilen gelişmiş ölçme ve
+kontrol programı kullanılmıştır.
+
+Şekil 4. Deney düzeneği (Experimental setup)
+Tablo 3. Silindir kapağı kullanılan motorun teknik
+özellikleri (Engine technical specifications used in cylinder
+
+Deneysel kurulum ile;
+• Mekanik özelliklerin belirlenmesi,
+• Dinamik ölçme işlemini gerçekleştirerek akım ve
+gerilim karakteristiklerinin belirlenmesi,
+• Modelin değerlendirilmesi,
+• Kontrol algoritmasının oluşturulması hedeflenmiştir.
+
+head).
+
+Markası
+Silindir sayısı
+Piston kursu
+Silindir çapı
+Kurs hacmi
+Maksimum Hız
+
+N.Birgül ve ark.
+
+Briggs and StrattonVanguard
+1
+50 mm
+68 mm
+182 cm3
+3600 1/min
+
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+Değişik miktarlardaki hareketli kütle-yay sisteminin
+açma kapama süresi üzerindeki etkisi Şekil 5’te
+verilmiştir. Hareketli kütle azaldığında, çalışma hızı
+artmaktadır. Motorun yüksek hızlarda çalışabilmesi
+için düşük açma kapama sürelerine ihtiyaç vardır.
+
+Bu sayede gerçek zamanlama testleri ve değişik
+kontrol parametreleri uygulanmak suretiyle test
+işlemleri gerçekleştirilebilmektedir. Burada kullanılan
+DGM ve güç elektroniği devreleri ile bobinlere
+gönderilen denetim sinyalleri ayarlanmaktadır.
+Sistemin ihtiyacı olan enerji, 220V AC gerilimi 12V,
+30A’e dönüştürebilen bir güç kaynağı tarafından
+sağlanmaktadır.
+
+14
+
+T Periyot süresi (ms)
+
+12
+10
+
+200g
+180g
+
+8
+
+160g
+6
+
+140g
+120g
+
+4
+
+100g
+
+2
+5
+
+15
+
+25
+
+35
+
+45
+
+55
+
+65
+
+K (N/mm)
+
+Şekil 5. Hareketli kütle-yay sisteminin açma kapama süresi üzerindeki etkisi (Effect on the opening
+and closing time of the moving mass-spring system).
+
+Sistemin dinamik çalışma parametrelerini ortaya
+çıkarabilmek için bobin akımının, denetim
+sinyallerinin ve supap hareketinin ölçülmesine ihtiyaç
+vardır. Bu amaçla hall sensörlerden faydalanılmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+Yüksek yay katsayısının seçimi, açma kapama
+süresini
+kısaltır,
+fakat
+ihtiyaç
+duyulan
+elektromanyetik kuvvetin de artırılmasını gerektirir.
+Bu durum, kullanılacak olan elektromıknatıs
+boyutlarının büyümesine, sistemin hantallaşmasına ve
+
+611
+
+N.Birgül ve ark.
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+maliyetlerin artmasına sebep olur. Bu nedenle
+hareketli kütle mümkün olduğu kadar küçük
+olmalıdır.
+EMS sisteminin statik özelliklerini belirleyebilmek
+için; selenoidin tasarımında kullanılan statik hava
+aralığı
+değişimine
+bağlı
+üretilebilecek
+elektromanyetik kuvvet değerleri şekil 6’da grafik
+olarak verilmiştir. Buna göre, 10A değerinde elde
+edilen elektromanyetik kuvvet değerlerinin bizim
+tasarımda kullanacağımız supap yay kuvvetini
+yenebilecek kapasitede olduğu tespit edilmiştir.
+
+bulunacaktır. Burada yer alan deneysel değerler ile
+makara
+kalınlıkları
+nedeniyle
+ulaşılabilecek
+hesaplama değerleri ve makarasız bobinden elde
+edilebilecek değerlerin bir karşılaştırması Şekil 8’ de
+verilmiştir. Burada teorik olarak 9,5mm ve
+sonrasındaki hesaplanan değerler ile deneysel
+değerlerin birbiri ile son derece uyumlu olduğu, fakat
+makara kalınlığı olmadan hesaplanan değerlerle
+karşılaştırıldığında, bobinin yüksek bir geliştirilebilme
+potansiyeline sahip olduğu, iyileştirme sonrasında
+ortalama 3,28 kat daha fazla kuvvet elde edilebileceği
+değerlendirilmektedir.
+80
+
+1200
+Elektromanetik Kuvvet (N)
+
+Elektromanyetik kuvvet (N) _
+
+1400
+
+F5 A
+
+1000
+
+F10 A
+
+800
+
+F15 A
+
+600
+400
+
+70
+60
+50
+40
+30
+20
+10
+
+200
+
+0
+
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+11
+
+0
+
+12
+
+1
+
+2
+
+3
+
+statik aralık (mm)
+
+Şekil 6. Statik hava aralığı değişimine bağlı
+üretilebilecek kuvvet değişimi (Static force changes
+
+4
+
+5
+
+6
+
+7
+
+Mesafe (mm)
+
+Şekil 7. Ölçülen kuvvet- mesafe değişimi; I=10A
+(The measured force-distance variation; I=10A).
+
+produced based on the changing air gap)
+
+Tablo 4. EMS bobinin karşılaştırması (EMV coil
+comparison).
+
+Çalışma
+EMS
+[37]
+[29]
+[27]
+
+Gerilim
+(V)
+12
+42
+42
+180
+
+Akım
+(A)
+10
+7,5
+15
+5
+
+Kuvvet
+(N)
+76
+69,6
+600
+1300
+
+300
+
+Elektromanetik Kuvvet (N)
+
+İmalatı tamamlanan selenoid için 10A akım değerinde
+elde edilen kuvvet-mesafe grafiği
+Şekil 7’de,
+üretilen kuvvetin diğer çalışmalarla karşılaştırması
+Çizelge 4’te verilmiştir.
+
+612
+
+deneysel
+makara kalınlığı var
+
+200
+
+makara kalınlığı yok
+150
+100
+50
+0
+0
+
+2
+
+4
+
+6
+
+8
+
+Mesafe (mm)
+
+Şekil
+Burada elde edilen kuvvet değeri, diğer çalışmalar ile
+karşılaştırıldığında oldukça küçük olmakla birlikte
+(kullanılan gerilim ve akım değerlerine dikkat ediniz),
+10N/mm’lik yay kuvvetini yenebilecek kapasiteye
+sahiptir. Grafikte yer alan mesafe, hareketli kütlenin
+yer değiştirme mesafesidir. Bobinin üzerine sarılı
+olduğu makara kalınlığı burada oldukça etkilidir.
+Buradaki sıfır olarak gösterilen mesafe, gerçekte
+makara et kalınlığı ve diğer yapısal nedenlerden
+dolayı 9,5mm mesafeyi temsil etmektedir. Makara
+kalınlığı azaltıldığı takdirde elde edilen kuvvet
+değerleri de artacaktır. Bu durum mıknatıs devresinin
+boyutlarının küçülmesine de büyük ölçüde katkıda
+
+250
+
+8.
+
+EMS
+
+bobini
+
+geliştirilme
+
+potansiyeli
+
+(Development potential of EMS coil)
+
+EMS sisteminin dinamik özelliklerini belirleyebilmek
+amacıyla 2-7mm supap çalışma aralığında ölçümleri
+gerçekleştirilmiştir. Ölçümleri gerçekleştirebilmek
+için, bir taraftan bilgisayar yardımıyla gerekli denetim
+sinyalleri darbe genişlik modülasyonu (DGM)
+ünitesine gönderilmiş, diğer taraftan veri toplama
+sistemi ile sensörlerden elde edilen veriler
+kaydedilmiştir. Bu verilere ait bir ekran görüntüsü
+Şekil 9’da verilmiştir. Buna göre elde edilen sinyaller
+üstten alta doğru sayılacak olursa, sırasıyla açma
+bobini akımı, kapama bobini akımı, supap konumu,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+N.Birgül ve ark.
+
+bobin açma DGM sinyali ve bobin kapama DGM
+sinyalidir.
+1
+
+hız (m/s)
+
+0,8
+0,6
+0,4
+0,2
+0
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+5
+
+6
+
+7
+
+8
+
+zaman (ms)
+
+(a)
+6
+
+Sisteminin dinamik performansının analizinde,
+supabın kapalı konumdan açık konuma geçişi
+sırasında elde edilen supap hareketi ile supap hızının
+zamana göre değişim grafikleri Şekil 10’da
+verilmiştir.
+Buna göre 215g hareketli kütleye sahip sistem, 5.5mm
+çalışma aralığını 8ms sürede kat etmiştir. Supabın
+açma hareketi sırasında ulaştığı en yüksek hız
+0,76m/s, açma hareketi sonrasında ulaştığı hız da
+0,71m/s olarak belirlenmiştir.
+Dinamik çalışma sınırlarının belirlenebilmesi
+amacıyla 2; 3,5; 4,5; 5,5 ve 7mm supap çalışma
+aralıklarında ulaşılabilecek açma kapama süreleri test
+edilmiştir. Elde edilen test verilerine göre
+erişilebilecek çalışma hızları grafiği Şekil 11’de
+verilmiştir. Buna göre, 215 gram hareketli kütle için
+en küçük ve en büyük değerler sırasıyla 5ms ve 9,5ms
+olarak ölçülmüştür.
+Deneysel verilerden elde edilen değerler ile bobinin
+geliştirilmesi sonrasında elde edilebilecek kuvvet
+artışı neticesinde, sistemin dinamik davranışında
+meydana gelebilecek iyileşme durumu ayrıca
+incelenmiştir. Bahse konu inceleme sonrasında açma
+kapama
+süresinin tahminine
+ilişkin grafik,
+Şekil 12’de verilmiştir.
+
+4
+
+3
+
+2
+
+1
+
+0
+0
+
+1
+
+2
+
+3
+
+4
+zaman (ms)
+
+(b)
+Şekil 10. Supabın açılması sırasında (a) Hız değişimi,
+(b) Konum grafiği (During opening of the valve (a) Speed
+change, (b) Graph of location).
+
+(ms)
+
+(Screenshot of the data collection system
+
+T/2
+
+Şekil 9. Veri toplama sistemi ekran görüntüsü
+
+çalışma aralığı (mm)
+
+5
+
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+0
+
+R2 = 0,9921
+
+deney(215g)
+model (215g)
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Şekil 11. EMS sisteminin farklı
+aralıklarındaki dinamik performansı
+
+8
+
+çalışma
+
+(Dynamic
+performance of EMV system at at various valve lift operation)
+(K=10N/mm)
+
+10
+9
+8
+
+T/2 (mm)
+
+7
+
+Bir değerlendirme yapabilmek için bazı çalışmalarda
+elde edilen büyüklükler ile bu çalışmada elde edilen
+büyüklükler çizelge 5’te verilmiştir. Çizelgede EMS
+ile ifade edilen çalışma burada anlatılan çalışmaya ait
+özellikleri içermektedir.
+
+7
+
+supap hareket mesafesi (mm)
+
+R2 = 0,9976
+
+6
+5
+4
+3
+
+215g
+
+2
+
+tahmin(215g)
+
+1
+0
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+supap hareket mesafesi (mm)
+
+Şekil 12. Bobinin iyileştirilmesi sonrasında açma
+kapama süresi tahmini (Estimated time of opening and
+closing after the improvement of the coil)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+613
+
+N.Birgül ve ark.
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+Çizelge 5. Diğer kaynaklarda verilen bazı
+büyüklükler (Some of the quantities given in other references)
+Çalışma (Tasarım)
+
+EMS
+
+[27]
+
+[29]
+
+[31]
+
+0,76
+
+3
+
+4
+
+3
+
+-
+
+Durma Hızı (m/s)
+
+0,71
+
+0,35
+
+1,6
+
+0,5
+
+-
+
+Açma süresi (ms)
+
+8
+
+3,42
+
+3,33
+
+4
+
+9,5
+
+Hareket mesafesi (mm)
+
+5,5
+
+8
+
+8
+
+8
+
+4,5
+
+Gerilim (V)
+
+12
+
+180
+
+42
+
+100
+
+33
+
+Akım (A)
+
+10
+
+5
+
+15
+
+-
+
+1.
+
+[38]
+
+Maksimum Hız (m/s)
+
+KAYNAKLAR (REFERENCES)
+
+10
+
+Bir motorda 275 KMA’lık supap açık kalma süresi
+için gerekli olan EMS açma ya da kapama süresinin
+motor hızına göre değişimi hesaplanmıştır. Buna göre,
+üzerinde çalışılan bu sistemin bir motora uygulanması
+durumunda 2, 3.5, 4.5, 5.5 ve 7mm lik supap çalışma
+aralıkları için Çizelge 6’ da belirtilen hızlarda içten
+yanmalı, dört zamanlı bir motoru destekleyebileceği
+değerlendirilmiştir.
+
+2.
+
+3.
+
+4.
+
+Çizelge 6. EMS sisteminin bir motoru destekleme
+limitleri (The support limits of EMS system for an engine)
+Çalışma aralığı
+(mm)
+Motor Hızı
+(1/min)
+
+2
+
+3.5
+
+4.5
+
+5.5
+
+7
+
+4575
+
+3525
+
+3050
+
+2850
+
+2400
+
+5.
+
+6.
+4. SONUÇ (CONCLUSION)
+Bu çalışmada, mevcut tasarımların yüksek besleme
+gerilimlerine ihtiyaç duymasından dolayı günümüz
+taşıt elektrik sistemlerine uygun bir EMS sisteminin
+tasarım ve imalatı gerçekleştirilmiştir. Bu sistemin
+12V çalışma gerilimi altında ve maksimum 10A akım
+ile içten yanmalı bir motoru destekleme limitleri
+belirlenmiştir. Tasarlanan sistem, 2mm ile 7mm supap
+çalışma aralığı arasında, 2400-4575 1/min çalışma
+hızlarında motoru destekleyebilmektedir.
+
+7.
+
+8.
+Yapılan testler neticesinde, üretimi yapılan bobinin
+oldukça yüksek bir geliştirme potansiyeline sahip
+olduğu, hareketli kütle üzerine yapılacak iyileştirme
+çalışmaları ile geliştirmenin daha etkin hale
+getirilebileceği tespit edilmiştir. Bundan sonraki
+çalışmalarda mevcut otomotiv sistemlerine uyumlu,
+içten yanmalı motorları her türlü çalışma koşullarında
+destekleyebilen,
+güç
+tüketimi
+düşük
+EMS
+sistemlerinin geliştirilmesi üzerine çalışmalar
+sürdürülebilir.
+
+614
+
+9.
+
+10.
+
+Gaeta, di A., Glielmo, L., Giglio, V., Police,
+G., “Modeling of an Electromechanical
+Engine Valve Actuator Based on a Hybrid
+Analytical-FEM Approach”, IEE/ASME
+Transactions on Mechatronics, 13(6), 625637, 2008.
+Okur, M., Şahin, F., “Turbo Döngüsel Bir
+Motorda Döner Valf ve Elektromanyetik Valf
+Uygulamalarının Türbin Gücüne Etkisi”,
+Journal of The Faculty of Engineering and
+Architecture of Gazi University, 28(1), 5158, 2013.
+Karabulut H., Sarıdemir S., “Comparison of
+Cam Profiles Obtained via Classical Spline
+Method for Different Lifted – Valve Periods
+and Lifts”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 24 (3), 509-515, 2009.
+Koç M., Sekmen Y., Topgül T., Yücesu HS.,
+The effects of ethanol-unleaded gasoline
+blends on engine performance and exhaust
+emissions in a spark ignition engine,
+Renewable Energy, 34(10), 2101-2106,
+2009.
+Sekmen Y., “Karpuz Çekirdeği ve Keten
+Tohumu Yağı Metil Esterinin Dizel Motorda
+Yakıt Olarak Kullanılması”, Teknoloji
+Dergisi, 10 (4), 295-302, 2007.
+Çelikten, İ., Gürü, M., “Petrodizel ve Kanola
+Biyodizeli
+Performans
+ve
+Emisyon
+Kriterlerinin
+Mangan
+esaslı
+Katkı
+Maddeleriyle Geliştirilmesi”, Journal of The
+Faculty of Engineering and Architecture of
+Gazi University, 26(3), 643-648, 2011.
+Aktaş A., Sekmen Y., “Biyodizel ile Çalışan
+Bir Dizel Motorda Yakıt Püskürtme
+Avansının
+Performans
+Ve
+Egzoz
+Emisyonlarına Etkisi”, Journal of The
+Faculty of Engineering and Architecture of
+Gazi University, 23 (1), 199-206, 2008.
+Sekmen Y., Sekmen P., Salman M.S., “Buji
+Ateşlemeli Bir Motorda Sıkıştırma Oranının
+Motor Performansı ve Egzoz Emisyonlarına
+Etkisi”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 22 (4), 745-751, 2007.
+Nagaya, K., Kobayashi, H., Koike, K., “Valve
+Timing And Valve Lift Control Mechanism
+For Engines”, Mechatronics, 16, 121-129,
+2006.
+Çınar, C., Sekmen, Y., Akbaş, A., Erduranlı,
+P., “Buji ile Ateşlemeli Motorlarda Emme
+Supabı Kalkma Miktarının Performansa
+Etkileri Üzerine Bir Araştırma”, Pamukkale
+University
+Journal
+of
+Engineering
+Sciences, 10(2), 179-184, 2004.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+
+16.
+
+17.
+
+18.
+
+19.
+
+20.
+
+21.
+
+22.
+
+Atzler, F., “On the Future of the Piston Engine
+with Internal Combustion An Overview”,
+Marie Curie Fellowship Conference,
+Profactor GmbH, Steyr, Austria, 2001.
+Shiao, Y., Dat, L.V., “Efficiency Improvement
+For An Unthrottled SI Engine At Part Load”,
+International
+Jurnal
+Of
+Automotive
+Technology, 13(6), 885-893, 2012.
+Wong, P.K. , Tam, L.M. and K.LI. “Modeling
+And
+Simulation
+Of
+A
+Dual-Mode
+Electrtrohydraulic Fully Variable Valve Train
+For Four-Stroke Engines”, International
+Journal of Automative Technology, 9(5),
+509-521, 2008.
+Heınzen, A. , Gıella, P., Sun. Z., “Iterative
+Learning Control Of a Fully flexible valve
+actuation system For Non-Throttled Engine
+Load Control”, Control Engineering Practice,
+19(12), 1490-1505, 2011.
+Gray, J., Krstİc, M., Chaturvedi, N. ,
+“Parameter Identification for Electrohydraulic
+Valvetrain Systems”, Journal of Dynamic
+Systems, Measurement, and Control,
+133(064502-1), 2011.
+Pournazri, M., Khajepour, A., Fazeli, A., “An
+Efficient
+Lift
+Control
+Technique
+in
+Electrohydraulic Camless Valvetrain Using
+Variable Speed Hydraulic Pump”, Society of
+Automotive Engineers (SAE) 2011-01-0940,
+2011.
+Trajkovic, S., Milosavljevic, A., Tunestål, P.
+Johansson, B., “FPGA Controlled Pneumatic
+Variable Valve Actuation” Society of
+Automotive Engineers (SAE), 2006-01-0041,
+2006.
+Trajkovic, S., Tunestål, P., Johansson, B.,
+“Introductory Study of Variable Valve
+Actuation for Pneumatic Hybridization”,
+Society of Automotive Engineers (SAE),
+2007-01-0288, 2007.
+Parlikar, T.A., Chang, W.S., Qiu, Y.H., vd., “
+Design And Experimental Implementation Of
+An Electromagnetic Engine Valve Drive”,
+IEEE/ASME
+Transactions
+On
+Mechatronics, 10(5), 482-494, 2005.
+Yihui Qiu et al. “A Custom-designed Limitedangle Actuator for an Electromechanical
+Engine Valve Drive. Part I: Conceptual
+Design.” Proceedings of the 5th IET
+International
+Conference
+on
+Power
+Electronics, Machines and Drives (PEMD),
+Brighton, UK, 2010.
+Shiao, Y., Pan, W., “Design Of A 3-Stage
+Voltage Controller For EMV Actuation In SI
+Engines”,
+2011
+11th
+International
+Conferance On Control, Automation And
+Systems, Gyeonggi-do, Korea, 2011.
+Park, S., Kim, D., Jaisuk, B., “A Study on the
+Design of Electromagnetic Valve Actuator for
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+23.
+
+24.
+
+25.
+
+26.
+
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+
+33.
+
+34.
+
+N.Birgül ve ark.
+
+VVT Engine”, KSME International Journal,
+17(3), 357-369, 2003.
+Jieng-Jang Liu, Yee-Pien Yang, Jia-Hong Xu,
+“Electromechanical Valve Actuator with
+Hybrid
+MMF
+for
+Camless
+Engine”
+Proceedings of the 17th World Congress The
+International Federation of Automatic
+Control, Seoul, Korea, 10688-10703, 2008.
+Kim, J., Lieu, D.K , “Designs for a New,
+Quick-Response, Latching Electromagnetic
+Valve”, IEEE, 1773-1779, 2005.
+Wong, P.K., Mok, K.W., "Design and
+Modeling of a Novel Electromechanical Fully
+Variable Valve System", Society of
+Automotive Engineers (SAE) 2008-01-1733,
+2008.
+Kamış, Z., Yüksel, İ., “ An Investigation Of
+Effect Of Applied Electrical Voltage On
+System Dynamic Behaviour And Energy
+Consuption Of An Electromechanical Valve
+Actuator”, G.U. Journal Of Science, 17(3),
+161-177, 2004.
+Kim, J., Lieu, D. K., “A New Electromagnetic
+Engine Valve Actuator with Less Energy
+Consumption for Variable Valve Timing”,
+Journal of Mechanical Science and
+Technology, 21, 602-606, 2007.
+Peterson, K.S. , Stefanopouluo, A.G. ,
+“Extremum Seking Control for Soft Landing of
+An Electromechanical Valve Actuator”,
+Automatica, 40, 1063-1069, 2004.
+Eyabi, P., “Nonlinear Estimation: An
+Experimental Approach”, IEEE ISIE 2006
+Montreal, Quebec, Canada, 102-108, 2006.
+Wang, Y., Megli, T., Haghgooie, M., Peterson,
+K.S. , Stefanopouluo, A.G. , “Modeling And
+Control of Electromechanical Valve Actuator”,
+Society of Automotive Engineers (SAE)
+2002-01-1106, 2002.
+Lua, C. A., Toledo, B. C., Benedetto, M.D.,
+Gennaro, S. D., “Output Feedback Regulation
+of Electromagnetic Valves for Camless
+Engines”, Proceedings of the European
+Control Conference, Kos, Greece, 1-26, 2007.
+Miller, J., “Simulation of a novel
+electromechanical engine valve drive to
+quantify performance gains in fuel
+consumption”, Master of Science Thesis,
+Massachusetts Institue of Technology, 2011.
+Nam, K., “Development of a camless engine
+valve actuator system for robust engine valve
+timing control”, Int. J. Vehicle Systems
+Modelling and Testing, 7(4), 372-389, 2012.
+Mercorelli, P., “An Adaptive Two-Stage
+Observer in the Control of a New
+Electromagnetic Valve Actuator for Camless
+Internal Combustion Engines”, New Trends
+and Developments in Automotive System
+Engineering, Prof. Marcello Chiaberge,
+InTech, Rijeka Croatia, 2011.
+
+615
+
+N.Birgül ve ark.
+
+35
+
+36.
+
+614
+
+Bir Elektromekanik Supap (Ems) Sisteminin Değişik Çalışma Aralıklarındaki Dinamik Performansının...
+
+Dat, L.V., Shiao, Y., “Optimization Intake
+Valve Timing In Camless Engine With
+Electromagnetic Valvetrain”, Journal of
+Engineering Technology and Education The
+2012
+International
+Conference
+on
+Green
+Technology
+And
+Sustainable
+Development, Hochiminh City, Vietnam, 368373, 2012.
+Özdalyan, B., Doğan, O., “Effect of a Semi
+Electro-Mechanical
+Engine
+Valve
+On
+Performance And Emissions in a Single
+Cylinder Spark Ignited Engine”, Journal
+of
+Zhejiang
+University-SCIENCE
+A
+(Applied Physics & Engineering) 11(2), 106114, 2010.
+
+37.
+
+38.
+
+39.
+
+Sağıroğlu, S,, Salman, M.S., “Buji İle
+Ateşlemeli Bir Motorda Elektromanyetik
+Kumandalı Supap Mekanizması Tasarımı,
+İmalatı ve Egzoz Emisyonlarına Etkisinin
+Araştırılması”, Teknoloji, 10(2), 113-122,
+2007.
+Doğan, O., “İçten Yanmalı Bir Motorda
+Elektro-Mekanik Supap Uygulaması”, Bilim
+Uzmanlığı Tezi, Zonguldak Kara Elmas
+Üniversitesi, Fen Bilimleri Enstitüsü, 2006.
+Perrault, D.J., Afridi K., Khan, I.A.,
+“Automotive
+Applications
+of
+Power
+Electronics”, Power Electronics Handbook,
+Rashid, M.H., Elsevier Inc., Oxford, U.K., 643667, 2007.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 3, 2013
+
+

@@ -1,0 +1,606 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 25, No 2, 371-379, 2010
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 25, No 2, 371-379, 2010
+
+MATLAB WEB SUNUCUSU KULLANILARAK KABLOSUZ
+ALGILAYICI AĞLAR İÇİN İNTERNET TABANLI İZLEME
+SİSTEMİ TASARIMI
+Cüneyt BAYILMIŞ, Murat ÇAKIROĞLU, Selim Şeref ÖZTÜRK ve İlyas ÇANKAYA
+Elektronik–Bilgisayar Eğitimi Bölümü, Teknik Eğitim Fakültesi, Sakarya Üniversitesi, 54187 Sakarya
+bayilmis@sakarya.edu.tr, muratc@sakarya.edu.tr, icankaya@sakarya.edu.tr ve selimseref@hotmail.com
+(Geliş/Received: 13.05.2009 ; Kabul/Accepted: 07.12.2009)
+ÖZET
+Kablosuz Algılayıcı Ağlar (KAA) askeri ve tıbbi uygulamalar, doğal felaketlerin tespiti, bina güvenlik sistemleri
+ve fabrika otomasyon ortamlarının izlenmesi gibi farklı birçok alanda kullanılmaktadır. Tüm bu uygulama
+alanlarında kablosuz algılayıcı düğümlerin uzaktan izlenmesi ve bulundukları ortamdan algıladıkları verilerin
+işlenmesi ihtiyacı ortaya çıkmaktadır. Sunulan çalışmada bu ihtiyacı karşılamak üzere kablosuz algılayıcı ağlara
+yönelik MATLAB WEB sunucu tabanlı uzaktan izleme sistemi tasarımı gerçekleştirilmiştir. Uygulanan sistem
+Matlab programı ve sunucu elemanlarının kullanımı ile eş zamanlı olarak algılayıcı düğümlerinden toplanan
+bilgiyi (sıcaklık, nem, basınç, ışık v.b.) kaydetme, gösterme ve analiz etme gibi çeşitli özellikler sağlamaktadır.
+Ayrıca, kullanıcılar web tarayıcı dışında başka bir yazılıma gerek duymadan internete bağlı herhangi bir cihazı
+(bilgisayar, PDA, cep telefonu v.b.) kullanarak geliştirilen sisteme kolayca erişebilir.
+
+1. GİRİŞ (INTRODUCTION)
+Kablosuz Algılayıcı Ağ (KAA)’lar iki adet standart
+pil ile beslenen, sınırlı veri saklama/işlem kapasitesine
+sahip, kısa mesafeli kablosuz ortam üzerinden haberleşebilen, düşük maliyetli ve çok fonksiyonlu algılayıcı düğümlerden meydana gelmektedirler. Temel bir
+
+KAA, dağıtıldıkları ortamdaki bilgileri algılayan birkaç kablosuz algılayıcı düğüm ve bu düğümler ile
+bilgisayarlar arasında haberleşmeyi sağlayan merkezi
+düğümden (baz istasyonu ya da sink) oluşmaktadır.
+Kablosuz algılayıcı düğümler dağıtıldıkları ortamdan
+algıladıkları bilgileri baz istasyonu üzerinden kullanıcı bilgisayarlarına ulaştırırlar [1].
+
+C. Bayılmış v.d.
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+KAA’lar, askeri/tıbbi uygulamalardan, orman yangını,
+deprem gibi doğal felaketlerin tespiti ve izlenmesi,
+fabrika otomasyon ortamlarının izlenmesi, bina güvenliği v.b. çok çeşitli ortamlarda uzaktan izleme sistemi olarak kullanılabilmektedir. Çok geniş uygulama
+alanına sahip KAA’ların uygulamalarda tercih edilme
+sebepleri arasında bakım gerektirmeden uzun yıllar
+çalışabilmeleri, erişimi zor olan bölgelere dahi kolaylıkla yerleştirilebilmeleri ve yeni bir teknoloji olmaları sayılabilir. Yukarıda sayılan yaygın kullanım alanları ve avantajları sebebiyle KAA’lar hem endüstriyel
+uygulamalarda hem de akademik çalışmalarda gün
+geçtikçe popüler bir alan haline gelmektedirler.
+KAA’ların kullanıldığı birçok uygulamada algılayıcı
+düğümler ile izlenilen ortamdan algılanan verilerin
+internet üzerinden gözlemlenmesine ve işlenmesine
+ihtiyaç duyulmaktadır.
+Sunulan çalışmada, bu ihtiyacı karşılamak amacıyla
+tasarlanan internet tabanlı uzaktan izleme sistemi
+tanıtılmaktadır. Önerilen sistem, KAA düğümlerinin
+algıladıkları sıcaklık, nem, basınç gibi fiziksel büyüklüklerin kaydedilebilmesine, anlık değer olarak gösterilebilmesine, MATLAB programı ve WEB sunucusu
+hizmeti aracılığı ile verilerin analizine/görselleştirilmesine olanak sağlamaktadır. Çalışmada KAA’lardan
+elde edilen verilerin analiz/görselleştirme işlemleri için gerek mühendislik gerekse bilimsel çalışmalarda
+en geçerli ve kabul edilebilir analiz aracı olan
+MATLAB programından yararlanılmıştır. MATLAB
+yazılımının tercih sebeplerinden bir diğeri ise özellikle internet tabanlı uygulamaları desteklemek için
+geliştirilmiş MATLAB WEB sunucusu hizmetinin
+bulunması [3] ve bu hizmetin literatürdeki çeşitli
+çalışmalarda kullanılmasıdır [2]. Gerçekleştirilen
+çalışmada MATLAB yazılımının sağlamış olduğu
+geniş kütüphane sayesinde az bir eforla oldukça
+görsel, kolay geliştirilebilir, esnek ve modüler WEB
+arabirim tasarımı elde edilmiştir.
+Makalenin geri kalan bölümleri şu şekilde
+düzenlenmiştir. Bölüm 2’de literatürdeki KAA’ların
+kullanıldığı uzaktan izleme ve geliştirilen arayüz
+çalışmaları özetlenmektedir. Bölüm 3’de gerçekleştirilen sistemin donanım altyapısı hakkında genel bilgiler verilmektedir. 4. Bölümde ise gerçekleştirilen sistemin yazılım altyapısı sunulmaktadır. Bölüm 5’de
+gerçekleştirilen internet tabanlı izleme sistemi ve elde
+edilen deneysel sonuçlar verilmektedir. Son bölümde
+ise sonuçlar ve değerlendirilmeler yer almaktadır.
+2. İLGİLİ ÇALIŞMALAR (RELATED WORKS)
+Literatürde KAA’ların uzaktan izleme sistemi olarak
+kullanılmasına yönelik çeşitli çalışmalar bulunmaktadır. Great Duck Island projesinde KAA’lar, 32 tane
+düğüm ile kuş yaşamının uzaktan gözlemlenmesi
+amacıyla kullanılmış ve kuşların yuvalama bölgesindeki sıcaklık, nem, basınç, ışık seviyesi gibi ortam
+parametreleri gözlemlenmiştir [4,5]. Bir diğer uygu-
+
+372
+
+lamada ise California Redwood ormanlarındaki ağaçların büyüme oranlarının gözlemlenmesi amacıyla
+KAA’lar kullanılmış, ortamdaki sıcaklık, nem ve
+güneşin sebep olduğu radyasyon değişiklikleri algılanmıştır [6]. Zebra-Net projesinde ise Kenya’daki
+zebraların doğal yaşamlarında izlenmesi amacıyla
+yine KAA’lar kullanılmıştır [7]. [8] ve [9] nolu
+çalışmalarda da akustik sensör içeren algılayıcı
+düğümleri ile Ekvatordaki aktif bir volkanın gözlemlenmesi gerçekleştirilmiştir. Bu ve benzeri birçok uygulamada düğümlerin algıladığı değerlerin işlenerek
+uzaktaki kullanıcılara gerçek zamanlı olarak ulaştırılması, grafiksel olarak gösterimi, geçmişe yönelik
+saklanması, algılama değerlerindeki anormal durumların tespit edilerek bildirilmesi gerekebilmektedir.
+Literatürde KAA’lara yönelik geliştirilmiş/tasarlanmış
+çeşitli veri işleme ve görselleştirme araçları bulunmaktadır. Crossbow firması tarafından geliştirilen
+Mote–View arabirim yazılımı düğüm konfigürasyonunun ayarlanmasına, gerçek zamanlı olarak algılama değerlerinin grafiklerinin çizilmesine ve kaydedilmesine imkan tanımaktadır [10]. Ancak bu yazılım
+grafik ve görselleştirme hizmetlerini sadece yerel
+(local) olarak sağlayabilmektedir. SpyGlass yazılımı,
+Java tabanlı olarak geliştirilmiş modüler bir KAA
+görselleştiricisidir [11]. jWebDust ise yine Java’da
+geliştirilmiş genel amaçlı ve modüler uygulama
+ortamıdır [12]. Ancak her iki geliştirme ortamının da
+farklı uygulamaların gereksinimlerine uygun olarak
+konfigüre edilebilmesi için Java bilgisine ihtiyaç
+duyulmaktadır. [13] nolu çalışmada KAA’lar için
+genel amaçlı web arabirimi tasarlamışlardır. Bu arabirimde veri işleme etkinliğinin geliştirilmesi ve veri
+tıkanıklığının giderilmesine odaklanılmıştır. [14] nolu
+çalışmada da KAA kullanılarak çevre izleme sistemi
+tasarlanmıştır. Bu çalışmada kullanıcılar ile sunucu
+arasındaki bağlantı gerçek zamanlı olarak gerçekleştirilmekte, sunucudan alınan veriler kullanıcı
+bilgisayarında yüklü olan MATLAB tabanlı Grafiksel
+Kullanıcı Arabirimi (GKA) yardımıyla işlenmektedir.
+Bu çalışmanın en büyük dezavantajı, kullanıcı bilgisayarlarında tasarlanmış GKA’nın yüklü olmasının
+gerekliliğidir. Bu gereksinim gerçekleştirilen çalışmanın esnekliğini oldukça kısıtlamaktadır. [15] nolu
+çalışmada ise KAA kullanılarak WEB tabanlı ortam
+izleme uygulaması gerçekleştirilmiştir.
+Sunulan makaledeki çalışmanın yukarıda özetlenen
+çalışmalardan en temel farkı, kullanıcıların internet
+tarayıcı dışında herhangi bir yazılıma ihtiyaç duymadan istedikleri bilgisayardan sunucuya bağlanabilmesi
+ve algılama değerlerini kolaylıkla izleyebilmesidir.
+Ayrıca kablosuz algılayıcı düğümlerinden elde edilen
+verilerin analizi ve görselleştirilmesi için sunucu
+hizmetleri olarak MATLAB WEB sunucu kullanılmıştır. Böylece özellikle analiz işlemlerinde geçerlilik, kullanım kolaylığı, esneklik ve görsellik ön plana
+çıkartılmaya çalışılmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+3. DONANIM ALTYAPISI (HARDWARE
+
+C. Bayılmış v.d.
+
+matweb
+
+INFRASTRUCTURE)
+
+matlabserver
+
+Bu bölümde, önerilen MATLAB WEB sunucu tabanlı
+uzaktan izleme sistemini meydana getiren temel
+bileşenler hakkında bilgi verilmektedir.
+3.1 MICAz KAA Düğümleri (MICAz WSN Motes)
+Belirli sayıdaki algılayıcı düğümler bir araya gelerek
+kablosuz algılayıcı ağlarını oluşturmaktadır. Günümüzde farklı donanımsal kaynaklara ve özelliklere
+sahip ticari/akademik amaçlı olarak geliştirilmiş
+kablosuz algılayıcı düğümleri bulunmaktadır. MICAz
+düğümü sağladığı geniş dökümantasyon ve geliştirme
+ortamları sayesinde uygulamalarda yaygın olarak
+tercih edilen algılayıcı ağ platformlarının başında
+gelmektedir. Bu çalışmada bahsedilen avantajlar
+sebebiyle kablosuz algılayıcı ağ prototipi oluşturmak
+için MICAz düğümleri tercih edilmiştir. Şekil 1’de
+resmi görülen MICAz düğümü, 128 KB kod, 4 KB
+veri hafızası içeren ve 16 MHz’de çalışan
+ATMEGA128L mikrodenetleyiciye sahiptir. Kablosuz iletişimi IEEE 802.15.4 uyumlu Chipcon CC2420
+alıcı/verici tüm devresini kullanarak 250 Kbit/s veri
+iletim hızında gerçekleştirebilmektedir [6]. Bu çalışmada ayrıca MICAz düğümlerle birlikte ışık, sıcaklık,
+basınç, nem ve yer değişim hareketlerini algılayabilen
+XMTS_400 algılayıcı kartı kullanılmaktadır.
+
+Şekil 1. MICAz kablosuz algılayıcı düğümü
+
+(MICAz
+
+wireless sensor node)
+
+3.2 MATLAB WEB Sunucusu (MATLAB WEB Server)
+MATLAB WEB sunucusu (MWS), internet üzerinden
+aldığı verileri MATLAB programında işleyen ve verilerin işlenmesi sonucunda ortaya çıkan sonuçları bir
+internet tarayıcısında gösterebilen MATLAB uygulamaları geliştirmeyi sağlamaktadır [2,3]. Şekil 2’de
+MWS uygulamalarının çalışma düzenini gösteren
+genel bir blok diyagram görülmektedir. Çok yönlü bir
+TCP/IP sunucusu olan matlabserver, MATLAB programı ile WEB uygulaması arasındaki iletişimi sağlamaktadır. Matlabserver’ın bir TCP/IP sunucusu olan
+matweb ise web sayfasından verileri almak ve matlabserver’a iletmek amacıyla CGI (Common Gateway
+Interface) kullanmaktadır [2,3].
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+Java
+sınıfları
+
+MATLAB
+
+CGI
+
+HTTP
+WEB
+tarayıcı
+İstemci
+
+httpd
+
+WEB Sunucusu
+
+Grafikler
+
+Veri
+dosyaları
+
+Uygulama Sunucusu
+
+Şekil 2. MATLAB WEB sunucu modeli
+
+(The model of
+
+MATLAB WEB Server)
+
+4. YAZILIM ALTYAPISI (SOFTWARE
+INFRASTRUCTURE)
+
+Bu bölümde sistemin gerçekleştirilmesinde kullanılan
+sistem mimarisi ve yazılım araçları genel olarak tanıtılmaktadır. Şekil 3’de KAA, sunucu ve kullanıcılar
+olmak üzere 3 temel kısımdan oluşan sistem mimarisi
+görülmektedir.
+ Kablosuz Algılayıcı Ağ: Dağıtıldıkları ortamdaki bilgileri algılayan birden fazla kablosuz algılayıcı düğüm ve bu düğümlerin sunucu ile haberleşmesini
+sağlayan bir baz istasyonundan oluşmaktadır. Düğümler ortamdan sıcaklık, nem, ışık v.b. gibi bilgileri düzenli aralıklarla toplayarak baz istasyonu üzerinden
+sunucuya iletmektedirler.
+ Sunucu: Sunucunun amacı baz istasyonundan
+gelen verileri analiz etmek, işlemek ve görselleştirmek (grafiksel)’dir. Bunun için PostgreSQL veritabanı, MATLAB WEB sunucusu ve http WEB sunucusu
+programlarını kullanır. Öncelikle baz istasyonundan
+aldığı verileri PostgreSQL [16] veri tabanına kaydeder. PostgreSQL, SQL standart sorgu dilini destekleyen, başarımı yüksek, açık kaynak kodlu ve ücretsiz
+bir veritabanı yönetim sistemidir. Sunucu bilgisayarı,
+MATLAB WEB sunucusu ile veritabanındaki verileri
+kullanıcıların isteklerine bağlı olarak işler ve http
+WEB sunucusu ile de kullanıcılara işlenmiş verileri
+sunar.
+ Kullanıcı: WEB arayüzünü kullanarak sunucuda
+çalıştırılan MATLAB WEB sunucusu yardımıyla
+algılayıcılardan gelen verileri işlenmiş ve görselleştirilmiş olarak almaktadır. Kullanıcı internete bağlı
+herhangi bir bilgisayar olabildiği gibi, cep telefonu ya
+da PDA’da olabilir. Çünkü geliştirilen arayüze bağlanmak için sadece internet tarayıcı ve internet
+bağlantısı gerekmektedir.
+Gerçekleştirilen internet tabanlı izleme sisteminin
+çalışması Şekil 4’deki akış diyagramında özetlenmektedir. KAA düğümleri ve yapı olarak yine bir
+KAA düğümü olan baz istasyon ve Bölüm 3.1’de
+bahsedildiği gibi birer mikrodenetleyici içermektedirler. Mikrodenetleyiciler, düğümlerin ağ içersinde yürüttüğü işlemleri/fonksiyonları tanımlayan komutları
+çalıştırmakla görevlidir. Düğümlerin yürüteceği gö373
+
+C. Bayılmış v.d.
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+Kullanıcı 1
+
+Kablosuz Algılayıcı Ağ
+
+İnternet
+
+Baz
+İstasyonu
+
+Algılayıcı
+Düğüm
+
+Sunucu
+Kullanıcı 2
+
+Matlab WEB
+Sunucusu
+Kullanıcı n
+
+Şekil 3. Sistem mimarisi (System architecture)
+
+K
+ullanıcı
+
+Sunucu
+
+D
+üğüm
+
+K
+ablosuz
+
+A
+lgılayıcı
+Baz İstasyonu
+
+K
+ablosuz A
+lgılayıcı A
+ğ
+
+Başla
+
+Periyodik aralıklarla
+ortamdan algılanan verileri
+baz istasyonuna ilet
+
+Kablosuz algılayıcı
+düğümlerinden gelen verileri
+USB üzerinden sunucuya ilet
+
+Baz istasyonundan gelen
+verileri al ve
+veritabanına kaydet
+Veritabanından verileri al,
+MATLAB WEB sunucuda
+işle ve WEB tarayıcıya aktar
+
+İnternet üzerinden
+sunucuya bağlan
+MATLAB WEB sunucusu
+kullanarak hazırlanan uzaktan
+izleme arayüzünü kullan
+
+Son
+
+Şekil 4. Gerçekleştirilen sistemin çalışmasını özetleyen akış diyagramı (The brief flowchart of implemented system)
+revler genellikle TinyOS [17] işletim sistemi üzerinde
+ve nesC (network embeded system C) adı verilen
+komponent tabanlı bir dil yardımıyla programlanır.
+TinyOS işletim sistemi veri paketi oluşturma, zamanlayıcı gibi işlemciye ait birimleri kullanma, algılayıcı
+kiti ve kablosuz iletişim kiti gibi arabirimlerle haberleşme için gerekli prosedürleri içermektedir. KAA
+düğümlerinin programlanması ayrı bir çalışma konusu
+olduğu için bu makalede detaylandırılmamıştır.
+Ancak genel olarak çalışmada kullanılan bir KAA
+374
+
+düğümü, algılayıcı kitinden düzenli aralıklarla ortama
+ait sıcaklık, nem, ışık v.b. gibi bilgileri okumakta, bu
+bilgileri oluşturduğu veri paketi içerisine yerleştirmekte ve kablosuz iletişim kiti vasıtasıyla veri paketini baz istasyonuna göndermektedir. Baz istasyon,
+KAA düğümlerinden gelen veri paketlerini almakta
+ve USB kablo üzerinden bağlı bulunan sunucu
+bilgisayarına iletmektedir. Sunucu bilgisayarında
+çalıştırılan yazılım, USB üzerinden gelen paketleri
+alıp, PostgreSQL veritabanına kaydetmektedir. VeriGazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+lerin işlenmesi, analiz edilmesi ve görselleştirilmesi
+işlemleri için MATLAB WEB sunucusu araç kutusu
+ve işlenen verilerin.html gibi web tabanlı olarak gösterilmesini sağlayan m.file kodlarından oluşan program parçacıkları kullanılmıştır. Buraya kadar anlatılan
+işlemler ve kullanılan araçlar aslında kullanıcının
+doğrudan gördüğü arayüzün arka planında çalışmaktadır. Kullanıcı web tarayıcısı aracılığı ile geliştirilen
+sisteme bağlandığında kullanıcının etkileşimi için
+ASP dili kullanılarak gerçekleştirilmiş web sayfasını
+görmektedir.
+5. GERÇELEŞTİRİLEN İNTERNET TABANLI
+İZLEME SİSTEMİ (IMPLEMENTED WEB BASED
+REMOTE SYSTEM)
+
+Bu bölümde KAA’ların internet tabanlı olarak izlenmesi ve analiz edilmesine yönelik olarak geliştirilmiş
+izleme sisteminin arayüzü tanıtılmakta ve farklı
+durumlar altında elde edilen deneysel sonuçlar
+verilmektedir.
+5.1. Geliştirilen İnternet Tabanlı İzleme Sistemi
+Arayüzü (Development of WEB based System Interface)
+Şekil 5’de MATLAB WEB sunucusu kullanılarak
+kablosuz algılayıcı ağlar için geliştirilen genel amaçlı
+internet tabanlı uzaktan izleme sistemine ait arayüz
+görülmektedir.
+Gerçekleştirilen sistemin temel amacı kullanıcıya
+esneklik sağlamaktır. Bundan dolayı arayüzün üst
+kısmında seçilen kablosuz algılayıcı düğüme ait
+bilgiler anlık (gerçek zamanlı) olarak verilmektedir.
+Bu kısımdaki bilgiler yaklaşık 8 sn’de bir güncellenmektedir. Arayüzün alt kısmında ise düğümlerden
+algılanan verilerin MATLAB aracılığı ile işlenmesi,
+analiz edilebilmesi ve sonuçların grafikselleştirilmesi
+sağlanmaktadır. Bu kısımda ağ içerisindeki istenilen
+düğüm ve o düğüme ait fiziksel büyüklük türü seçilebilir, incelenmek istenen zaman aralığı belirlenebilir
+ve bu aralıktaki veriler grafik üzerinde ifade edilerek
+görselleştirilebilir. Gerçekleştirilen internet tabanlı
+uzaktan izleme sisteminin sağladığı özellikler özetle
+şunlardır:
+ Seçilen düğüme ait sıcaklık, ışık, nem, basınç gibi
+fiziksel büyüklüklerin anlık değerlerini gösterir
+(Şekil 5).
+ Algılanan değerlerin grafiklerle gösterilmesine
+imkân tanır.
+ Kullanıcıya esnek bir yapı sunar.
+ Grafiklerin oluşturulmasında kullanıcının istediği
+zaman dilimini seçebilmesine imkân tanır.
+ Seçilen bir düğüme ait sıcaklık, ışık v.b gibi tüm
+algılama değerlerini ayrı tarayıcı pencerelerinde tek
+bir grafikte (Şekil 6) veya en fazla 3 farklı fiziksel
+büyüklüğü ayrı grafiklerde tek bir pencerede
+gösterir (Şekil 7).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+C. Bayılmış v.d.
+
+ Karşılaştırma sağlamak amacıyla tek bir grafik
+üzerinde birden fazla düğümün seçilen fiziksel
+büyüklük (sıcaklık, nem v.b) değerlerini gösterir
+(Şekil 8). Bu gösterimi aynı pencerede en fazla 3
+grafik olarak yapar (Şekil 9).
+ Düğümlerin algılamış oldukları verilerin daha sonra
+kullanılması amacıyla rapor oluşturma hizmeti
+sunar. Örneğin bir ortamın günlük sıcaklık değişiminin incelenmesi ve gözlemlenmesi gerektiğinde
+geçmiş verilerin kaydedilmiş olması oldukça önemlidir.
+ KAA düğümlerinin kalan enerji seviyelerinin
+izlenmesine olanak sağlar.
+5.2. Geliştirilen Sistemin Kullanımı İle Elde Edilen
+Deneysel Sonuçlar (Experimental Results Using
+Developed System)
+
+Bu alt bölümde geliştirilen internet tabanlı izleme
+sistemi arayüzünün farklı şartlar altında çalışması
+sonucu elde edilen deneysel sonuçlar sunulmaktadır.
+Şekil 6’da tek bir düğüme (Düğüm 1) ait tek bir fiziksel büyüklüğün (Sıcaklık) belirli bir zaman aralığındaki (10:11–10:49) değişiminin gözlemlendiği Sıcaklık/Zaman grafiği görülmektedir. Grafik odadaki ısıtıcının sıcaklık değerinin arttırılması sonucu Düğüm
+1’de elde edilen sıcaklık değişimini göstermektedir.
+Grafikte ortamın sıcaklık değerinin seçilen zaman
+aralığı içerisinde yaklaşık 0,5oC arttığı görülmektedir.
+“Verileri Kaydet” butonu ile grafiğin çizilmesinde
+kullanılan veriler, “Grafiği Kaydet” butonu ile de
+grafik raporlama amaçlı olarak kaydedilebilmektedir.
+Şekil 7’de tek bir düğüme ait (Düğüm 1) sıcaklık,
+nem ve pil durumu olmak üzere 3 farklı fiziksel
+büyüklüğün belirli zaman aralığındaki değişimleri
+görülmektedir. Şekilde görülen 3 grafik sırasıyla,
+Sıcaklık/Zaman, Nem/Zaman ve Pil/Zaman grafikleridir. Sıcaklık/Zaman grafiğinde seçilen süre boyunca sıcaklık değerinin arttığı ve sayısal olarak da
+23oC’den 23,5oC’e çıktığı görülmektedir. Nem/Zaman
+grafiğinde ise algılanan nem değerinde yaklaşık
+%6,5’lik bir azalma görülmektedir. Pil/Zaman grafiği
+incelendiğinde ise seçilen süre boyunca düğümün
+pildeki gerilim kaybı yaklaşık 0,03V’tur.
+Bir KAA, izlenilmek istenen ortama dağıtılmış birden
+fazla algılayıcı düğümden oluşmaktadır. Çoğunlukla
+KAA içerisindeki farklı konumlarda bulunan düğümlerden algılanan bilgilerin karşılaştırılması gerekmektedir. Şekil 8’de biri oda içerisinde diğeri de odanın
+dışarısında bulunan iki düğüme ait Sıcaklık/Zaman
+grafiği görülmektedir. Grafikte seçilen süre boyunca 1
+nolu düğümün sıcaklığının artmakta, 4 nolu düğümün
+sıcaklığının ise azalmakta olduğu görülmektedir.
+Ayrıca gerçekleştirilen arayüz birden fazla düğüme ait
+farklı tür fiziksel büyüklüklerin aynı pencerede
+karşılaştırılabilmesine de olanak sağlamaktadır. Şekil
+
+375
+
+C. Bayılmış v.d.
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+Şekil 5. Geliştirilen internet tabanlı uzaktan izleme sistemi arayüzü
+
+(The interface of developed internet-based remote
+
+monitoring system)
+
+Şekil 6. Tek bir düğüme ait tek bir fiziksel büyüklüğün zamana bağlı değişimi
+
+(The variation of a single sensed data
+
+belongs to a single node)
+
+9’da farklı konumlarda bulunan Düğüm 1 ve 2’den
+elde edilen Sıcaklık/Zaman, Nem/Zaman ve
+Pil/Zaman grafikleri görülmektedir. Sıcaklık/Zaman
+grafiğinde 1 nolu düğümün sıcaklık değeri artmakta, 2
+nolu düğümün sıcaklık değeri ise aynı seviyelerde
+küçük değişiklikler göstermektedir. Nem/Zaman grafiğinde ise seçilen süre boyunca 1 nolu düğümün nem
+değeri %53,5’den %47’ye, 2 nolu düğümün nem
+değeri de %55,5’den %52’ye düşmektedir. Pil/Zaman
+376
+
+grafiğinde ise her iki düğümün pildeki gerilim kaybının yaklaşık aynı seviyelerde olduğu görülmektedir.
+6. SONUÇLAR (CONCLUSIONS)
+Bu çalışmada MATLAB programının MATLAB
+WEB sunucusu hizmeti kullanılarak kablosuz algılayıcı ağ düğümlerinin dağıtıldıkları ortamdan elde
+ettikleri sıcaklık, nem v.b. gibi verilerin internet taGazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+C. Bayılmış v.d.
+
+Şekil 7. Tek bir düğüme ait 3 farklı fiziksel büyüklüğün zamana bağlı değişimi (The variation of 3 different data belongs
+to a single node)
+
+Şekil 8. İki düğüme ait aynı tür fiziksel büyüklüğün zamana bağlı değişimi (The
+
+variation of same kind sensed data
+
+belong to 2 different nodes)
+
+banlı olarak izlenmesini ve işlenmesini sağlayan bir
+uygulama sunulmuştur. Sunulan sistem geliştirilirken
+kullanıcılara esneklik sağlaması amaçlanmıştır.
+Gerçekleştirilen sistemin kullanıcıya sağladığı özellikler kısaca şunlardır. İlk olarak, bir düğümün
+bulunduğu ortama ait sıcaklık, ışık, nem, basınç gibi
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+fiziksel büyüklüklerin anlık değerlerini gösterebilmektedir. İkinci olarak kullanıcının isteğine bağlı
+olarak tek bir düğüme ait tek bir büyüklüğü ve farklı
+tür büyüklükleri gösterebilmektedir. Üçüncü olarak
+karşılaştırma yapabilmek için çok sayıda düğüme ait
+tek ya da birden fazla farklı büyüklüğün zamana bağlı
+377
+
+C. Bayılmış v.d.
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+Şekil 9. İki düğüme ait 3 farklı fiziksel büyüklüklerin zamana bağlı değişimi (The Variation of 3 different sensed data
+belong to 2 different nodes)
+
+grafiklerini çizdirebilmektedir. Dördüncü olarak
+gerçekleştirilen arayüzün sağladığı en önemli özellik,
+raporlama amaçlı olarak düğümlerin algılamış oldukları verilerin ya da üretilen grafiklerin daha sonra kullanılmak amacıyla kaydedilebilmesine imkân sağlamasıdır.
+Gerçekleştirilen uygulama kablosuz algılayıcı ağlar
+için prototip olarak kabul edilebilir. Bundan dolayı
+hedef uygulamalara özgü ihtiyaçlar ve kullanılan
+algılayıcı düğümlerinin özellikleri dikkate alınarak
+sunulan prototip farklı uygulamalar için kolaylıkla
+güncellenebilir. Önerilen sistem KAA düğümlerinin
+kullanıldığı orman yangını gibi çevresel izleme, bina
+güvenliği, otomasyon sistem kontrolü gibi birçok
+uygulamada ağın uzaktan izlenmesi amacıyla
+kullanılabilir.
+KAYNAKLAR (REFERENCES)
+1. I.F. Akyildiz, W. Su, Y. Sankarasubramaniam, E.
+Cayirci,“Wireless sensor networks: a survey,”
+Computer Networks, Cilt 38, Sayı 4, 393–422,
+Mart 2002.
+2. E. Irmak, “E-öğrenme ortamları için MATLAB
+WEB sunucu kullanımı", Gazi Ünv. Müh. Mim.
+Fak. Der., Cilt 23, Sayı 2, 495-506, 2008.
+3. MATLAB Web Server User’s Guide, The
+Mathworks Inc., 2001.
+4. A. Mainwaring, D. Culler, J. Polastre, R.
+Szewczyk, J. Anderson, “Wireless sensor
+networks for habitat monitoring”, Proceedings of
+WSNA, 88–97, 2002.
+5. R. Szewczyk, A. Mainwaring, J. Polastre, J.
+Anderson, D. Culler, “An analysis of a large scale
+
+378
+
+habitat monitoring application”, Proceedings of
+SenSys, 214–226, 2004.
+6. G. Tolle, J. Polastre, R. Szewczyk, D. Culler, N.
+Turner, K. Tu, S. Burgess, T. Dawson, P.
+Buonadonna, D. Gay, and W. Hong, “A
+macroscope in the redwoods”, Proceedings of
+SenSys, 51–63, 2005.
+7. P. Juang, H. Oki, Y. Wang, M. Martonosi, L.S.
+Peh, and D. Rubenstein, “Energy-efficient
+computing for wildlife tracking: design tradeoffs
+and
+early
+experiences
+with
+zebranet”,
+Proceedings of ASPLOS-X, 96–107, 2002.
+8. M. Welsh, G. Werner-Allen, K. Lorincz, O.
+Marcillo, J. Johnson, M. Ruiz, and J. Lees,
+“Sensor networks for high-resolution monitoring
+of volcanic activity”, Proceedings of SOSP, 1–
+13, 2005.
+9. G. Werner-Allen, K. Lorincz, M. Welsh, O.
+Marcillo, J. Johnson, M. Ruiz, and J. Lees,
+“Deploying a wireless sensor network on an active
+volcano”, IEEE Internet Computing, Cilt 10,
+Sayı 2, 18–25, 2006.
+10. “Crossbow MICAZ Data Sheet”, Crossbow
+Technology
+Inc.,
+2009,
+http://www.xbow.com/Products/Product_pdf_files
+/Wireless_pdf/MICAZ_Datasheet.pdf
+11. C. Buschmann, D. Psterer, S. Fischer, S. P.
+Fekete, A. Kroler, “Spyglass: a wireless sensor
+network visualizer”, ACM SIGBED Review, Cilt
+2, Sayı 1, 1-6, 2005.
+12. I. Chatzigiannakis, G. Mylonas, S.E. Nikoletseas,
+“jWebdust: a javabased generic application
+environment for wireless sensor networks”,
+Proceedings of the IEEE International
+Conference on Distributed Computing in
+Sensor Networks (DCOSS), 376–386, 2005.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+MATLAB WEB Sunucusu Kullanılarak Kablosuz Algılayıcı Ağlar İçin İnternet Tabanlı İzleme…
+
+13. X. Cao, J. Chen, Y. Sun, “An interface designed
+for networked monitoring and control in wireless
+sensor
+networks”,
+Computer
+Standard
+Interface, Cilt 31, 579-585, 2009.
+14. X. Cao, J. Chen, Y. Zhang, Y. Sun, “Development
+of an integrated wireless sensor network microenvironment
+monitoring
+System”,
+ISA
+Transactions, Cilt 47, 247-255, 2008.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 25, No 2, 2010
+
+C. Bayılmış v.d.
+
+15. S. Hussain, N. Schofied, A. Matin, “Design of
+a web-based application for wireless sensor
+networks”, Proceedings of the 17th
+International Conference on Database and
+Expert Systems Applications, 319-326,
+2006.
+16. “PostgreSQL”, http://www.postgresql.org.
+17. “TinyOS Tutorial”, http://www.tinyos.org.
+
+379
+
+

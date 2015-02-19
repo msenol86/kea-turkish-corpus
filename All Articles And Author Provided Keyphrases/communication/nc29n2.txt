@@ -1,0 +1,1172 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 29, No 2, 217-226, 2014
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 29, No 2, 217-226, 2014
+
+KABLOSUZ SENSÖR AĞLARINDA KÜÇÜLTÜLMÜŞ RADYO
+HARİTASI KULLANAN İMZA TABANLI DİNAMİK KONUM
+BULMA TEKNİĞİ
+Yetkin TATAR*, Güngör YILDIRIM**
+*
+
+Bilgisayar Müh. Böl., Mühendislik Fakültesi, Fırat Üniversitesi, Elazığ
+D.S.İ. IX. Bölge Müdürlüğü, Elazığ
+ytatar@firat.edu.tr , gyildirim@dsi.gov.tr
+
+**
+
+(Geliş/Received: 13.05.2013; Kabul/Accepted: 20.03.2014)
+ÖZET
+Kapalı alanlarda konum tespiti için kullanılan algoritmalardan birisi de kablosuz sensör ağlarında da kullanılan
+“İmza” veya “Parmak izi (Fingerprint)” tabanlı konum tespiti algoritmasıdır. İmza tabanlı konum tespiti,” Alınan
+Sinyal Gücü Göstergesi (RSSI)” radyo haritalama ve konum kestirim fazlarından oluşur. Haritalama fazında,
+elde edilen RSSI veritabanının küçük kapasiteli fakat çalışılacak alandaki RSSI dağılımını iyi ifade edebilecek
+yapıda olması, konum tespiti fazında ise kestirimin doğruluk miktarı ve hesaplama hızı önemli kriterlerdir. Bu
+çalışmada kapalı alanlardaki kablosuz sensör ağ ortamlarında kullanılabilen, imza tabanlı konum tespiti yöntemi
+için iki yeni yaklaşım önerilmiştir. İlk yaklaşım, radyo haritalama fazında, “K-Means” metodunu kullanarak her
+bir çapa düğüme ait RSSI verilerinin ayrı ayrı indirgenip ilgili radyo haritasının boyutunun küçültülmesini
+sağlayan bir tekniktir. Ayrıca bu fazda konum kestirimi işleminin hassasiyetini arttırmak için “Mantıksal Alt
+Bölgeleme” işlemi gerçekleştirilmiştir. İkinci yaklaşım ise; konum kestirimi fazı için K-En Yakın Komşuluk
+(KNN) yöntemine alternatif olabilecek, karar için sabit bir “K” değerinin yerine, bu değerin mantıksal alt
+bölgelemedeki karar hücre sayısına göre dinamik olarak seçildiği bir tekniktir. Sistem kapalı bir ortamda TelosB
+düğümlerle gerçekleştirilerek, önerilen yaklaşımlara göre hesapsal ve deneysel sonuçlar elde edilmiştir. Bunun
+yanı sıra literatürde karar tabanlı yaklaşım olarak bilinen KNN temelli lokasyon tespit algoritması da mevcut test
+ortamına uygulanarak deneysel ve hesapsal sonuçları elde edilmiştir. Buradan elde edilen sonuçlar ile önerilen
+tekniğin sonuçları karşılaştırılarak önerilen tekniğin daha uygun olduğu test edilmiştir.
+
+Y. Tatar, G. Yıldırım
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+1. GİRİŞ (INTRODUCTION)
+Kablosuz Sensör Ağlarının (WSN) önemli kullanım
+alanlarından birisi de kapalı veya açık ortamlarda
+arama kurtarma, afet yardımı, hedef izleme, lokasyon
+bazında klimatik bilgi edinme gibi birçok önemli
+fonksiyonun temelini oluşturan konum bulma veya
+lokasyon tespiti üzerinedir. Kapalı alanlarda, bina
+duvar ve dış yüzeylerinin sebep olduğu sinyal zayıflamasından dolayı GPS kullanımı etkisiz kaldığından,
+konum bulma sistemlerinde WSN gibi farklı kablosuz
+haberleşme teknolojilerden faydalanılabilinir. “Lokal
+Pozisyonlama Sistemleri” de denilen kablosuz teknoloji temelli konum tespiti sistemlerini geliştirmek için
+araştırmalar artarak sürmektedir [1, 2].
+WSN’lerde referans nokta temelli konum tespiti;
+koordinatları önceden belirlenmiş noktalara konulan
+sabit sensör düğümlere (beacon, çapa) göre, bir mobil
+düğümün
+(hedef
+düğüm)
+koordinatlarının
+belirlenmesi işlemidir. Kısa-mesafe Radyo Sinyalini
+(RF) kullanan lokasyon belirleme metotları, konum
+bulma uygulamalarında sıkça kullanılmaktadır. RF
+temelli konum bulma metotları, “Yön–Bulma” ve
+“Mesafe-Bulma” temelli olarak iki ana kategoriye
+ayrılır. Mesafe-Bulma temelli konum tespitinde sabit
+sensör düğümler ile mobil düğüm arasındaki
+uzaklıklar sıklıkla Alınan Sinyal Gücü ölçümüyle
+hesaplanır [1,3-5]. Günümüzde pek çok kablosuz
+sensör düğüm donanımında var olan RSSI (Received
+Signal Strength Indicator - Alınan Sinyal Gücü
+Göstergesi) okuyabilme özelliğinden dolayı, lokasyon
+tespiti algoritmalarının birçoğunda RSSI-mesafe
+ilişkisine dayalı teknikler tercih edilmektedir [6].
+Ölçülen RSSI değerini ve RADAR tekniğini [7]
+kullanarak lokasyon kestirimi yapan önemli
+yöntemlerden birisi de, “imza tabanlı yöntem”
+olarakta isimlendirilebilen fingerprint (imza tabanı /
+parmakizi) yöntemidir. Bu yöntem iki fazdan oluşur.
+Birincisi mevcut alanda belirlenmiş noktalar için,
+sabit düğümlerden alınan RSSI değerlerinin (imza
+veya fingerprint) saklandığı bir veritabanı oluşturma
+işlemidir. Buna off-line fazı veya RSSI haritalama fazı
+da denir. İkinci faz ise mobil düğümün, sabit
+düğümlerden on-line olarak ölçtüğü RSSI değerleri ile
+veritabanındaki
+verilerin
+(imza
+değerlerinin)
+etkileştirilerek konum tespiti işlemidir [8]. Buna online veya konum (lokasyon) tahmin fazı da
+denilmektedir. Bu fazda konum tespiti için karar
+tabanlı, olasılık tabanlı ve yumuşak hesaplama
+metotları kullanılabilmektedir. [9].
+RSSI tabanlı fingerprint tekniğinde; konum tespitinin
+doğruluk performansı; hesaplama hızı, sensör
+düğümlerin hafızalama ve hesaplama kapasiteleri,
+enerji verimleri, RSSI değerinin ölçüm zorluğu,
+ortamın bozucu etkisi, az sayıda sabit düğüm
+kullanılması gibi bir takım faktörler göz önüne
+alınarak gerek RSSI harita oluşturma gerekse konum
+kestirimi fazları için değişik çözümler üretilebilir.
+Örneğin; alanda ölçme zorluğu olmayan ve veritabanı
+
+218
+
+boyutunun kritik olmadığı uygulamalarda, haritalama
+fazında, fazla sayıda RSSI ölçüm sonucunda elle
+oluşturulan veri tabanı, konum bulma hassasiyetini
+arttırabilir. Buna karşılık az sayıda RSSI ölçümü ve
+tahmin algoritmaları kullanılarak küçük boyutlu veri
+tabanının geliştirilmesi de önemli bir çözüm olabilir.
+Çünkü radyo haritası veritabanının boyutu doğrudan
+doğruya işlemcinin hesaplama ve iletişim yüküyle
+doğru orantılıdır [10]. Fingerprint yönteminde, gerek
+haritalama fazı gerekse konum tespit fazları için
+birçok çalışmalar yapılmış olup halen devam eden
+araştırmalar da vardır [7-9,11-18]. Bunlardan radyo
+haritalama fazı için yapılan bir çalışmada ölçüm
+zorluğu olan mekanlar için, az sayıda ölçüm ve
+ortalama yol-kaybına dayalı, tek-eğimli RSSI tahmin
+modeli kullanılarak, mekandaki değişik noktaları
+kapsamak üzere genişletilmiş RSSI haritalama
+veritabanının oluşturulduğu bir yöntem önerilmiştir
+[8]. Benzer bir çalışmada ise az sayıda RSSI örnek
+değeri
+ile
+Weibull
+dağılım
+fonksiyonunun
+parametrelerinin tahmin edilmesiyle, alandaki belirli
+noktaları kapsayan genişletilmiş bir RSSI haritalama
+modeli önerilmiştir [14]. Diğer bir çalışmada da
+WLAN’lar için, fingerprint tekniğinde ağırlık
+faktörüne dayalı bir yapının daha dinamik bir
+veritabanı
+oluşumuna
+imkan
+verebileceği
+savunulmuştur [9]. Başka bir çalışmada ise, GSM
+ortamlarında konum bulma sürecindeki radyo
+haritalama veritabanının küçültülmesi için BWC
+(Block-based Weighted Clustering) ismiyle bilinen ve
+ağırlık varyantlı K-means yapısından türetilen yeni bir
+kümeleme formu, geliştirilerek GSM ağlarda
+denenmiş ve kendi sınıfındaki yöntemlerden daha
+başarılı olduğu belirtilmiştir [19]. WLAN sistemlerde
+radyo haritası içinde alt bölgeler oluşturarak, konum
+tespiti fazında mobil düğümün hangi alt bölgede
+olduğunu KNN (K-Nearest Neighbor, K-en yakın
+komşuluk) metodu ile bulan bir başka çalışmada ise,
+bu yöntemle konum tespiti hata oranlarının bir miktar
+azaldığı belirtilmiştir. [20]. Fingerprint temelli konum
+bulma yönteminde, on-line fazındaki çözümlerin
+seçiminde ise kullanılacak hesaplama platformu
+(merkezi bilgisayar, sensör düğüm vb) ve
+lokalizasyonun
+doğruluk
+seviyesi,
+önemli
+parametrelerden bazılarıdır [2,4,21]. Bu konuda
+yapılan çalışmaların birinde, kapalı ortamda konum
+bulma tekniklerinden “karar tabanlı - deterministic”
+ve “olasılık tabanlı - probabilistic” yaklaşımlar
+karşılaştırılarak yöntemlerin performanslarının, pratik
+uygulama parametreleri ile ortamın doğasına büyük
+ölçüde bağımlı olduğu belirtilmiştir [17]. Aynı
+çalışmada karar tabanlı yöntemlerden KNN
+metodunun kısa mesafelerde daha doğru sonuç
+verdiği ve RSSI değeri nispeten değişmeyen
+ortamlarda K=1 için KNN metodunun hesaplama
+maliyeti açısından uygun olduğu da ifade edilmiştir.
+On-line (eş zamanlı) fazla ilgili diğer bir çalışmada iç
+mekandaki konum belirleme için değişik fingerprint
+teknikleri sunulmuştur
+[22]. Bunlardan ilki
+“Multivariate Gaussian Model” kullanan istatiksel
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+tabanlı bir yaklaşımdır. Bu yaklaşımda alınan sinyal
+ile RSSI haritalama veritabanındaki değer,
+“Kullback–Leibler Divergence, KLD” yöntemi ile
+kıyaslanmıştır. On-line fazı ile ilgili bir diğer
+çalışmada;
+fingerprint
+tekniğindeki
+doğruluk
+performansını daha da yükseltmek için bulanık
+mantıkla desteklenen bir KNN tekniği önerilmiştir
+[21]. Başka bir çalışmada da fingerprint tabanlı
+konum bulma sistemlerinde, kapalı alanlardaki RSSI
+ölçümünde kapılar ve duvarların bozucu etkisinin
+göreceli olarak üstesinden gelmek için ölçme,
+kalibrasyon ve lokasyon kestirimi fazlarından oluşan
+cihaz bağımsız bir yöntem önerilmiştir [9]. Bu
+yöntemin kalibrasyon fazında, bozucu büyüklüklerin
+etkisini belirlemek için RSSI değerleri normalize
+edilir ve benzer fiziksel mekanlardaki RSSI
+değerlerinin kümeler halinde oluşturulması sağlanır.
+Konum kestirimi fazında ise, sonuçları optimize
+etmek için veri madenciliği tekniği kullanılmıştır.
+Bu makalede ise, kapalı alanlarda RSSI temelli
+fingerprint yöntemiyle konum tespiti sürecinde, radyo
+haritalama ve konum kestirimi fazları için yeni
+yaklaşımlar getirilmiştir. Bunlardan ilki, kullanılacak
+radyo haritasının genel yapısını bozmadan, K-means
+metodu yardımıyla her bir çapa düğüme ait RSSI
+verilerinin kendi örnek vektör uzaylarından
+ayrıştırılarak küçültülmesidir. Böylece kapalı alandaki
+dağılımı en uygun şekilde ifade edebilen küçük
+kapasiteli radyo haritası elde edilecektir. İkinci
+yaklaşım ise elde edilen radyo haritası ile etkileşen
+dinamik bir konum tespiti işlemi için, KNN metodu
+yerine kullanılabilecek, yeni geliştirilen karar tabanlı
+bir yöntemdir. Bu yöntem için kapalı çalışma alanı
+kalibrasyon verilerine göre mantıksal alt alanlara
+bölünür ve radyo haritasından okunan veriler bu alt
+
+Y. Tatar, G. Yıldırım
+
+alanlar içerisinde belirli bir sınırlamaya tabi kalmadan
+analiz edilir. Bu yaklaşımlardan amaç, fingerprint
+yöntemi için az sayıda sabit sensör düğüm kullanımı,
+daha küçük boyutlu RSSI haritası, daha hızlı konum
+tespiti ve konum tespiti doğruluk performansının
+artırılmasıdır. Makalenin ilerleyen bölümlerinde,
+önerilen sistemin tanıtımı, RSSI ölçme ve harita
+oluşturma, alt bölgeleme süreci, on-line faz için
+önerilen yöntem, deneysel çalışmalar, sonuçların
+karşılaştırılması ve değerlendirmeler açıklanacaktır.
+2. GELİŞTİRİLEN SİSTEMİN TANITIMI
+(THE DESCRIPTION OF THE PROPOSED SYSTEM)
+Bu çalışmada önerilen fingerpint konum bulma
+sistemi için deneysel çalışmalar, 6 x 11 m’lik kapalı
+bir laboratuar ortamında yapılmıştır. Önerilen
+sistemin prensip şeması ve alanın krokisi Şekil1’de
+verilmiştir. Şekil1.b’de görüldüğü gibi çalışma
+alanının her bir köşesinde bir çapa düğüm (Ç1, Ç2,
+Ç3, Ç4) vardır. Mobil düğüm (MD) ise bu bölge
+içerisinde herhangi bir yerde bulunabilmektedir.
+Geliştirilen sistemin, “RSSI radyo haritalama fazı”
+için gerekli olan kalibrasyon verileri, kapalı alandaki
+RSSI ölçümlerinden elde edilmiştir. K-Means
+kümeleme metodu kullanılarak bu kalibrasyon
+verilerinin oluşturduğu radyo haritasının boyutları
+küçültülmüştür. Ayrıca radyo haritalama fazının diğer
+bir adımı olarak önerilen “mantıksal alt bölgeleme”
+işleminde de kalibrasyon verileri kullanılmaktadır.
+Sistemin “konum kestirimi” fazında ise, mobil
+düğümden okunan RSSI değerleri ile, indirgenmiş
+veritabanı ve alt bölgeleme bilgileri beraber
+değerlendirilerek mobil düğümün bulunduğu hücrenin
+koordinatlarına
+göre
+konum
+tespiti
+işlemi
+gerçekleştirilmiştir.
+
+Şekil 1. Kapalı alanın hücresel gösterimi ve önerilen tekniğe ait akış şeması (The follow diagram of the system and
+the cellular form of the closed area)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+219
+
+Y. Tatar, G. Yıldırım
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+Şekil1.a’da prensip şeması verilen bu sitemin
+gerçekleştirme detayları alt bölümlerde açıklanacaktır.
+Önerilen sistemde kullanılan tüm düğümler MEMSIC
+TelosB tipindedir. Bu düğümlerden biri “Toplayıcı
+düğüm - Basestation” olarak kullanılmıştır. Toplayıcı
+düğümün bağlı olduğu bilgisayarda UBUNTU işletim
+sistemi kurulu olup, TinyOS 2.1.0 gömülü işletim
+sistemi ve düğüm kodlarının deneneceği TOSSIM
+emülatörü bulunmaktadır. Düğüm kodları nesC
+dilinde yazılmış ve TinyOS ortamında derlenmiştir.
+Alınan verilerin analiz edileceği uygulama yazılımı
+JAVA ortamında geliştirilmiştir. Deneyler esnasında
+okunan RSSI verilerinin çapa düğümlerin voltaj
+seviyelerinden etkilenmemesi için, pil yerine sabit güç
+kaynakları kullanılmıştır. Deneyler süresince kapalı
+ortamının sıcaklığı 22-23 0C olarak ölçülmüştür.
+2.1
+Radyo
+Haritasının
+(Construction of the Radio MAP)
+
+Oluşturulması
+
+Sistemin RSSI haritasının oluşturulması için ortam
+Şekil 1.b’de gösterildiği gibi merkez koordinatları, Ç2
+(0,0) düğümüne göre göreceli olarak bilinen 66 adet
+1x1 m’lik sanal hücrelere ayrılmıştır. Radyo
+haritalama fazında, yöntemin hassasiyetini artırmak
+amacıyla her bir sanal hücre içerisinde; sol üst, sol alt,
+sağ üst, sağ alt ve merkez olmak üzere beş farklı
+noktada her bir çapa düğüme ait örnek RSSI değerleri
+ölçülmüştür. Ölçülen RSSI değerlerinin tutarlılığını
+görmek maksadı ile bu ölçümlerin dışında, kapalı
+alanın her bir köşesinden ayrıca 30, 45, 60 ve 90
+derecelik doğrusal ölçmeler yapılmıştır. Böylece 66
+m2 ‘lik bu kapalı alanda, noktasal ve doğrusal olarak
+toplam 1440 adet RSSI ölçümü yapılarak,
+koordinatları bilinen noktalar için RSSI imzası
+(parmak izi - fingerprint) elde edilmiştir. Genel olarak
+elde edilen RSSI verileri radyo haritasına Denklem
+1’de gösterildiği gibi vektörel formda kaydedilir.
+Burada Ci,j radyo haritasındaki (i,j)’nci hücreye ait
+bilgi gösterim formatını, Sij sabit düğümlere ait RSSI
+verilerini tutan vektörü, ““ ise istenilen opsiyonel
+verileri (yön bilgisi gibi) temsil etmektedir.
+,
+
+	
+
+,
+
+,
+
+																																																													 1
+
+Bazı hücrelere ait örnek okumalar ve bunların
+yerleşimleri Şekil 2’de gösterilmiştir. Denklem 1’in
+özelleştirilmiş halini ifade eden Denklem 2, herhangi
+i,j ’inci hücredeki mobil düğümün dört adet sabit
+düğümden alınan RSSI değerlerini ifade eden
+vektördür. Burada “z” örnek numarasını temsil
+etmekte, Ç1z, Ç2z, Ç3z, Ç4z ise sırasıyla dört sabit
+düğümden alınan z. örnek RSSI değerlerini
+göstermektedir. Yapılan bu çalışmada alınan RSSI
+örnekleri -38 ile -85 dBm arasında değişmektedir. Bu
+iki değer aralığındaki değişim RSSI’ın doğasından
+kaynaklanan etkenlerden dolayı doğrusal değildir.
+Uygulamada -83 dBm ve sonraki veri paketleri kötü
+paket (Bad Packet) olarak okunduğu için bu
+değerlerin üstü -83 dBm olarak kabul edilmiştir.
+
+220
+
+Şekil 2. Bazı hücrelere ait örnek noktasal ve doğrusal
+okuma sonuçları (Point and linear records for some cells)
+	 ,
+
+,
+,
+,
+,
+,
+
+		Ç 	,				Ç 	,				Ç 	,				Ç
+
+																								 2.
+
+		48
+		52
+		58
+		45
+		53
+
+																																		
+																																		
+																							 2.
+																																	
+																																		
+
+, 		60
+, 		50
+, 		66
+, 		53
+, 		63
+
+, 		63 , 		77
+, 		62 , 		77
+, 		70 , 		67
+, 		65 , 		65
+, 		78 , 		67
+																								
+
+İşlem kolaylığı açısından, RSSI verilerinin pozitif
+değerleri kullanılmıştır. Denklem 2.b’de 1m2 ’lik C2
+hücresinde z=5 için çapa düğümlerden alınan RSSI
+değerleri verilmiştir. Buradan görüldüğü gibi, bir
+hücrede bir çapa düğümden alınan RSSI verileri
+farklılıklar gösterebilmektedir. Bu farklılığa sebep
+olabilen etkenler pratik uygulamalarda göz ardı
+edilemeyeceğinden, hücrenin RSSI karakteristiği
+radyo haritasına uygun bir şekilde işlenmelidir. Ayrıca
+elde edilen radyo haritasında kestirim aşamasını
+zorlaştıracak bir değer dağılımı da söz konusudur.
+Örneğin Şekil 3’ten görüleceği gibi kapalı alan
+üzerinde 57 ile 67dBm arası RSSI değerlerinin
+okunduğu hücre sayısı oldukça fazla olup bu hücreler
+konum olarak da birbirlerine yakın değildirler. Bu
+durumun konum tespiti fazında kararsızlıklara ve
+yanlış değerlendirmelere sebep olabileceği açıktır. Öte
+yandan radyo haritasının boyutunun küçük olması
+bütün tekniklerde arzu edilen bir durumdur.
+Bu makaledeki yaklaşımın amaçlarından birisi
+yukarıda açıklanan problemleri çözmeye yöneliktir.
+İlk olarak çözülmesi gereken problem, ölçülen RSSI
+değerlerinin nispeten daha kararlı hale getirilmesidir.
+Bunun için kalibrasyon verilerini belirli merkezlere
+göre kümeleyerek, hem radyo haritasının küçülmesi
+hem de kapalı alanın daha genel haritalanmasını
+belirleyen
+RSSI
+tablolarının
+oluşturulması
+sağlanmıştır. Ayrıca diğer radyo haritalama
+kümelemelerinden farklı olarak, bu teknikte her bir
+çapa düğüme ait kalibrasyon verisi kendi örnek
+uzayından ayrılmakta ve tek olarak tablolanmaktadır.
+Bu tip tablolama, geliştirilen konum tespit algoritması
+için daha dinamik bir özellik sağlamaktadır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+Şekil 3. Kalibrasyon verilerinden oluşturulan RSSI-Hücre histogramları
+
+Y. Tatar, G. Yıldırım
+
+(The histograms of RSSI-Cell for the
+
+calibration data)
+
+Tablolamada her çapa düğümden elde edilen benzer
+RSSI değerli hücrelerin kümelenmesi için, makine
+öğrenmesi tekniklerinden biri olan “K-Means”
+metodu kullanılmıştır [10,18,23]. K-means metodu
+için giriş verileri, her bir çapa düğümden ölçülen
+benzer RSSI değerlerine sahip hücre koordinatlarının
+oluşturduğu H = {h1, h2,..,hn} aday kalibrasyon
+verileridir. C = {c1, c2,…cK} ise, herhangi bir çapa
+düğüm için aynı RSSI değerlerinin okunduğu farklı
+hücrelerin oluşturacağı kümelerin merkezleri için
+hesaplanmış koordinat değerleri verileridir. K-means
+algoritmasının 1. adımı, küme merkezlerinin
+gelişigüzel seçimidir. Bu çalışmada, benzer değerli
+hücreler için oluşturulacak küme merkezi sayısı K,
+hücrelerin birbirlerine olan yakınlığı, sayıları ve
+coğrafi konumları göz önüne alınarak 1 veya daha
+farklı seçilmiştir. Bu seçim oldukça kritik olup, elde
+edilen kalibrasyon verileri dikkate alınmış, ayrıca
+algoritma için seçilen küme merkezlerinin başlangıç
+değerlerinin seçimi de kalibrasyon verilerindeki
+dağılımı da göz önünde bulundurulmuştur.
+Algoritmanın 2. adımı, ilgili hücrelerin seçilen küme
+merkezlerine mesafelerinin yeniden hesaplanmasıdır.
+K-Means metodunun genel ifadesi Denklem 3’tedir.
+arg 	
+
+	
+
+																																								 3 	
+
+Burada amaç, her bir üyenin, tüm küme merkezlerine
+olan en kısa mesafesinin elde edilmesidir.
+,
+hj ile ct arasındaki oklit mesafesidir. K küme
+merkezlerinin sayısını ifade ederken n toplam aday
+hücre sayısını göstermektedir.
+1
+
+1
+
+																																															 4
+
+																																																 5
+
+Algoritmanın 3.aşaması küme merkezine en yakın
+hücrelerin ilgili kümelere aktarılmasıdır. Denklem 4
+ve 5’e göre küme merkezlerinin yeniden hesaplanması
+işlemi ise K-means algoritmasının 4. adımını
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+oluşturur. Burada Cp elde edilen yeni küme
+içerisindeki aday elemanların sayısını, hi (x) ve hi (y)
+ise bu aday hücrelerin koordinat bilgilerini
+göstermektedir. Beşinci adımda ise bu yeni küme
+merkezine göre, hücrelerin mesafeleri yeniden hesap
+edilerek değişim miktarı belirlenir. Değişim yok ise
+kümeleme tamamlanmıştır. K-Means algoritmasını
+sağlayan yazılımın kaba kodu Şekil 4’te verilmiştir.
+Elde edilen sonuçlara örnek olması amacıyla, okunan
+52 dBm ‘lik RSSI değerleri için yapılan bir kümeleme
+(K=2 için) Şekil 5’te verilmiştir. Şekil 5’ten
+görüldüğü gibi aynı RSSI değerine sahip birçok hücre
+farklı merkezlere sahip değişik kümelerin elemanları
+olabilmektedir. Bu durum, bir sonraki bölümde
+açıklanacak mantıksal alt bölmeleme işleminden
+sonra konum tespiti analizinin daha doğru ve daha
+kısa bir sürede yapılması için önemlidir. Kümeleme
+sonucunda bir hücre farklı RSSI değerlerine sahip
+olabilmektedir. Bu nedenle yapılan indirgeme
+işleminin sonuçlarının, ampirik bir yaklaşımla tekrar
+incelenmesinde fayda vardır. Yapılan çalışmada her
+değer için belirli bir küme sayısı belirlenerek gerekli
+indirgeme ve ampirik analiz işlemleri tamamlandıktan
+sonra kapalı alan içindeki RSSI-hücre histogramı ile
+Çapa1 için elde edilen örnek bir karakteristik yapı
+Şekil 6’da gösterilmiştir. Şekil 6’dan görüleceği üzere
+kapalı alana ait radyo haritasının boyutu oldukça
+küçülmüştür. Dört çapa düğüm için bu şekilde
+oluşturulan dağıtık değer sayısı 213 olarak
+gerçekleşmiştir.
+1. Program Başlangıç Verilerini Ata (H, C)
+2. Küme Sayısını Belirle (K)
+3. Kümelerin Başlangıç Noktalarını Ata (ck0)
+4. İlk Kümeleri Oluştur
+5. Döngüye Başla
+6. Üyelerin Ait Oldukları Kümeleri Belirle
+7. Oluşan Kümelerin Merkezlerini Bul
+8. Kontrol Et (Küme Merkezleri Değişti mi ?)
+9.
+Evet  Döngüye Devam
+10.
+Hayır  Döngüden Çık
+11. Bitir
+Şekil 4. K-Means Algoritması kod şablonu
+
+(The
+
+pseudocode of the K-Means Method)
+
+221
+
+Y. Tatar, G. Yıldırım
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+Şekil 5. 52 dBm ve K=2 için örnek kümeleme (A sample clustering for K=2 and 52 dBm)
+
+Şekil 6. Her çapa için yeni RSSI-hücre histogramı ve Çapa1 için örnek radyo haritası
+(The new histograms of RSSI-Cells for each anchor and the sample radio map for Anchor1)
+
+2.2 Mantıksal Alt Bölge Oluşumu
+
+(Formation of The
+
+Logical Subfields)
+
+Şekil 6.b’deki indirgenmiş radyo haritasından
+görüldüğü gibi kapalı alanın farklı bölgeleri için aynı
+RSSI ölçüm değerleri mevcuttur. Diğer çapa
+düğümler için de geçerli olan bu durumdan dolayı online fazda elde edilen sonucun hata miktarının artması
+söz konusu olabilmektedir. Bunun önüne geçebilmek,
+konum tespitini kolaylaştırmak ve daha kararlı hale
+getirmek için bu çalışmada “Alt Bölge Analizi” isimli
+bir ara işlem gerçekleştirilmiştir. Kapalı alandaki
+dağıtık RSSI yapısının filtrelenmesini amaçlayan bu
+işlem, kalibrasyon verilerindeki dört çapa düğümden
+alınmış
+deneysel
+RSSI
+verilerinin
+değerlendirilmesinden oluşur. Buna göre bir hücrelik
+tolerans paylarının eklenmesi ile oluşturulan 6 adet
+mantıksal alt bölge Tablo 1’deki kurallara göre
+seçilmiştir. Burada T, tanımlı bir kalibrasyon veri
+kümesidir. Kapalı alanda bu kurallara göre elde
+edilmiş olan alt alanlar Şekil 7’de gösterilmiştir.
+Mantıksal alt bölgelemeni n getireceği önemli bir
+avantaj, bölgelerin kendi içerisinde bağımsız olarak
+analiz edilebilir olmasıdır. Böylelikle konum tahmin
+
+222
+
+fazında daha doğru bir kestirim ve daha az hesap
+zamanı sağlanmış olacaktır.
+Tablo 1. Alt bölge seçim Kriterleri (The criterions of the
+logical subfields)
+
+(Ç1< 48) ∩ {Ç2,Ç3,Ç4} Є T
+(Ç2< 46) ∩ {Ç1,Ç3,Ç4} Є T
+(47<Ç1<50) ∩ (46 <Ç2<52)∩{Ç3,Ç4} Є T
+(Ç3<58) ∩ (Ç4<60) ∩ {Ç1,Ç2} Є T
+(Ç4<51) ∩ {Ç1,Ç2,Ç3} Є T
+(Ç1>53)∩ (Ç2>54) ∩ (Ç3>57) ∩ (Ç4>55)
+
+1.Bölge
+2.Bölge
+3.Bölge
+4.Bölge
+5.bölge
+6.Bölge
+
+Şekil 7. Mantıksal alt alanlar (The logical subfields)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+Y. Tatar, G. Yıldırım
+
+Tablo 2. Örnek analiz yapısı (An analysis format for a sample RSSI data)
+On-line
+RSSI
+
+Gerçek
+Kord. (cm)
+
+Bul. gerçek hüc.
+Kord.(cm)
+
+61/65/65/62
+
+(480,190)
+
+e5 (450,150)
+
+Elde edilen hücreler
+
+Mant.
+alt
+alan
+
+c1,a2,f2,a3,c5,b6,c6,
+f6,e7,d7,b8,c9,b10,e10
+
+6
+
+2.3 Konum Tespiti (Location Estimation)
+Mobil düğümün çapa düğümlerden on-line olarak
+okuduğu RSSI değerleri ile mobil düğümün konum
+tespit işlemi; radyo haritasından bu değerlerle ilgili
+hücrelerin getirilmesi, on-line RSSI verilerine göre
+mantıksal alt bölgenin belirlenmesi, buna göre
+hücrelerin filtrelenmesi ve elde edilen hücrelerin
+merkez koordinatlarının aritmetiksel ortalamasının
+alınıp koordinat belirlenmesi şeklindedir. Tablo 2’de
+bu yönteme ait bir analiz örneği gösterilmektedir.
+3. UYGULAMA VE DENEYLER
+(IMPLEMENTATION AND TESTING)
+
+Bu çalışmada geliştirilen uygulama yazılımı; önerilen
+tekniğin konum bulma için kullanılan klasik KNN
+yöntem sonuçları ile karşılaştırılabilmesi için, giriş
+RSSI değerlerini, her iki tekniğe göre hesaplamaları,
+K-Means kümeleme hesaplamalarını ve gerçek
+koordinat
+değerlerini
+gösterebilecek
+şekilde
+oluşturulmuştur. Şekil 8’de arayüzü görülen yazılımın
+çalışması şu şekildedir; mobil düğümün alandan online olarak okuduğu RSSI değerlerinin toplayıcı
+düğüm vasıtasıyla girdi olarak alınmasıyla (veya el ile
+daha
+sonra
+RSSI
+girişiyle),
+Düzenlemeler
+menüsünden seçilen önerilen yöntem/yöntemlere göre
+hesap edilmektedir. Arayüz üzerinde bulunan 1100 x
+600 piksellik beyaz alan 11x6 m’lik kapalı alanı
+temsil etmektedir. Çalışma alanında her bir çapa
+düğüm okumaları, alt bölge analizleri, gerçek
+koordinat bilgileri, hesaplanan pozisyon bilgileri ayrı
+ayrı görülebilmektedir. Karşılaştırma için kullanılan
+
+Filtrenmiş
+Hücreler
+
+Hesapl.
+Kord.(cm)
+
+Hata
+(cm)
+
+c5,b6,c6,
+f6,e7,d7
+
+(578,250)
+
+114,90
+
+KNN konum tespiti metodundaki radyo haritası, her
+hücre için her bir çapa düğüme ait RSSI değerlerinin
+ortalamaları alınarak oluşturulmuştur. Bu ortalama
+değerlere göre KNN için elde edilen radyo
+haritasındaki dağıtık değer sayısı 264’tür. KNN
+metodunda mesafe hesaplaması için Denklem.6’daki
+gösterilen p-norm kullanılabilir [14]. Bu çalışma için
+p=2 seçilerek “Oklit -norm” tercih edilmiştir.
+/
+
+| |
+
+	
+
+| |
+
+| |	
+
+	 ∈	
+
+	
+
+						 6
+
+Her iki yöntem için yapılan deney sonuçları Denklem.
+7’deki
+“ortalama
+hata”
+kriterine
+göre
+değerlendirilmiştir. Burada “T” test sayısını, “rx”, “ry”
+gerçek koordinatları ve “fx”, “fy” hesaplanan
+koordinatları ifade etmektedir.
+
+1
+
+				 7
+
+Çalışmanın gerçekleştirildiği laboratuar ortamından
+bir görüntü Şekil 9’da verilmiştir. Yapılan 32 adet
+deneyin sonuçları Şekil 10,11 ve Tablo3’te verilmiştir.
+Şekil 10’da görüldüğü gibi önerilen teknik, 1-NN, 2NN ve 3-NN tekniklerine göre mobil düğümün yerini
+daha az hata ile tespit etmektedir. Ancak KNN
+metodu, çapa düğümlere çok yakın bölgelerde
+önerilen tekniğe göre biraz daha iyi sonuç
+vermektedir.
+
+Şekil 8. Uygulama yazılımı arayüzü (The interface of the application program)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+223
+
+Y. Tatar, G. Yıldırım
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+Şekil 11’de ise mobil düğümün kapalı alandaki gerçek
+koordinatlarına (x, y düzleminde) göre; önerilen
+yöntem ve KNN yöntemlerinden alınan yaklaşım
+mesafeleri verilmiştir. Buradan da önerilen yöntemin
+
+özellikle orta alanlarda daha doğru sonuçlar verdiği
+görülmüştür.
+
+Şekil 9. Çalışma alanından bir görüntü (A view of the testing area)
+
+Şekil 10. Önerilen yöntem (ÖY) ile 1-NN, 2-NN, 3-NN yönteminin hata miktarlar
+
+(The error distance for the
+
+proposed technique, 1-NN, 2-NN, 3-NN)
+
+Şekil 11. Önerilen yöntem ve 1-NN, 2-NN, 3-NN yönteminin ölçüm yerlerindeki hata dağılımları
+
+(The error
+
+distribution of the all methods for the real points)
+
+224
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+Y. Tatar, G. Yıldırım
+
+Tablo 3. Deney Sonuçları (The results of the experiments)
+Deney
+RSSI
+Gerçek konum (cm) Gerçek konuma yaklaşım mesafesi (cm)
+No
+seti
+X
+Y
+Önerilen
+1NN
+2NN
+3NN
+1
+48/60/73/68
+160
+430
+117,24
+22,361 31,623 64,382
+2
+42/73/71/73
+130
+500
+36,00
+94,34
+30
+21,26
+3
+52/57/67/68
+210
+405
+123,00
+166,20 105,47
+93,00
+4
+54/53/66/64
+200
+322
+110,65
+152,59 151,60 116,16
+5
+70/42/67/66
+165
+115
+91,92
+132,09
+91,92
+58,52
+6
+54/37/73/71
+100
+80
+122,00
+58,31
+20,00
+86,00
+7
+66/47/67/64
+230
+185
+106,88
+156,92 116,72
+70,40
+8
+57/53/61/69
+165
+240
+142,35
+305,49 215,23 254,65
+9
+51/59/73/73
+300
+400
+103,08
+158,11 100,00 150,96
+10
+56/53/73/75
+350
+380
+124,47
+250,80 297,32 192,08
+11
+56/60/62/59
+445
+400
+95,77
+362,66 109,65
+79,64
+12
+54/60/58/66
+520
+340
+77,46
+94,86
+220,22 148,38
+13
+61/65/65/62
+480
+190
+11,00
+473,81 220,22 193,77
+14
+56/55/58/72
+545
+435
+118,60
+127,48 142,30 175,50
+15
+60/66/58/57
+450
+415
+118,90
+472,46 299,50 285,50
+16
+63/59/58/61
+670
+350
+180,80
+215,40 128,06 128,00
+17
+59/62/59/70
+610
+275
+49,47
+96,05
+273,35 198,64
+18
+55/57/58/64
+350
+360
+145,60
+290,00 256,12 204,00
+19
+56/57/64/70
+400
+415
+107,49
+163,47
+82,00
+100,44
+20
+58/65/60/69
+430
+240
+137,43
+358,46 162,78 144,39
+21
+70/58/56/57
+730
+350
+120,00
+200,99 139,28
+35,84
+22
+67/60/54/58
+765
+380
+119,57
+170,66 190,06 160,37
+23
+62/65/54/56
+940
+405
+95,96
+239,00 195,25 146,49
+24
+67/70/56/72
+830
+510
+89,05
+134,16 170,29 187,94
+25
+64/66/57/60
+975
+445
+132,85
+98,23
+87,46
+59,21
+26
+62/63/50/57
+825
+435
+132,38
+137,30 117,68
+48,83
+27
+65/59/52/67
+960
+405
+87,32
+160,62
+60,20
+81,32
+28
+62/61/50/57
+715
+380
+170,88
+173,56 217,08 144,25
+29
+70/71/55/56
+715
+270
+147,73
+248,24 187,41 235,35
+30
+65/61/55/52
+825
+145
+107,93
+125,10 107,93 205,19
+31
+63/62/62/46
+975
+185
+85,00
+43,01
+88,60
+102,31
+32
+62/67/54/49
+840
+130
+50,00
+111,80
+92,19
+22,36
+MEr =
+111,31
+187,33 147,11 131,10
+Tablo 3’te ise 32 adet deneye ait mobil düğümün
+ölçtüğü RSSI değerleri, gerçek koordinatlar, her iki
+yöntem için yaklaşım mesafeleri ve ortalama
+yaklaşım hatası (MEr) değerleri verilmiştir. MEr
+değerlerine göre de önerilen yöntemin KNN tekniğine
+göre daha az hatayla konum tespiti yaptığı
+görülmektedir. Ancak, çalışma alanının kenarlarına
+çok yakın noktalarda her iki tekniğin de çok başarılı
+olmadığı söylenebilir.
+4. SONUÇLAR VE TARTIŞMA (CONCLUSION AND
+DISCUSSION)
+
+Bu çalışmada RSSI temelli imza tabanlı konum bulma
+sürecinin iyileştirilmesine yönelik yeni geliştirme ve
+gerçekleştirmeler sunulmuştur. Bunlardan bir
+tanesinde daha küçük boyuta sahip, esnek ve çalışma
+alanını düzgün ifade edebilecek bir radyo haritası
+oluşturulmuştur. Bunun için, ölçümlerden elde edilen
+hücre RSSI değerlerinin, giriş değerleri olarak
+kullanıldığı, K-means algoritmasına göre her bir çapa
+düğüm için ayrı ayrı indirgenmiş veri uzayları
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+oluşturulmuştur. Bu şekilde elde edilen haritalama,
+KNN yönteminde kullanılan haritalamaya göre %20
+(213/264) oranında küçülmüştür. İkinci geliştirme ise
+ilgili alanı alt bölgelere indirgeyip, belirlenen alt alan
+içindeki dağılım şekline göre konum tespitini daha
+doğru yapabilecek bir tekniktir. Geliştirilen tekniğin
+KNN’den en büyük farkı; karar için KNN metodunda
+olduğu gibi sabit bir “K” değerine bağlı olmamasıdır.
+Saptanan alt bölgede işaretlenen hücrelerin sayısı bu
+teknikte tamamen dinamiktir ve indirgenmiş radyo
+haritasının oluşturulmasındaki ayrı örnek çapa
+uzaylarına bağlıdır.
+Önerilen yöntemden elde edilen sonuçlar, mevcut test
+ortamına uygulanan ve literatürde karar tabanlı
+yaklaşım olarak bilinen KNN metodu temelli konum
+tespiti
+tekniğinden
+elde
+edilen
+sonuçlarla
+karşılaştırılmıştır. Bu bağlamda ortalama hata oranı
+(MEr) verilerine göre önerilen yöntemin, KNN
+temelli konum tespiti tekniğinden daha iyi sonuçlar
+verdiği gözlemlenmiştir. Ancak bu önerilen yöntem de
+
+225
+
+Y. Tatar, G. Yıldırım
+
+Kablosuz Sensör Ağlarında Küçültülmüş Radyo Haritası Kullanan İmza Tabanlı...
+
+çok yakın veya sınır çizgileri üzerindeki noktalarda
+istenilen sonucu verememiştir.
+Bu çalışmada önerilen tekniğin, yumuşak hesaplama
+metotları ile nasıl geliştirilebileceği ve olasılık tabanlı
+konum tespit sistemlerine göre nasıl sonuç vereceği
+farklı çalışmalar için konu teşkil edebilir.
+KAYNAKLAR (REFERENCES)
+1. Pal, A., “Localization Algorithms in Wireless
+Sensor Networks: Current Approaches and Future
+Challenges”,Network Protocols and Algorithms,
+Cilt 2, No 1, 45-74, 2010.
+2. Farahani, S., ”ZigBee Wireless Networks and
+Transceivers”, Newness is An Imprint of
+Elsevier-Oxford, ISBN: 978-0-7506-8393-7, 2008.
+3. Kulaib, A. R., Shubair, R. M., Al-Qutayri, M. A.,
+ve Jason, W. P. N., ”An Accurate Localization
+Technique for Wireless Sensor Networks Using
+MUSIC
+Algorithm”,
+Journal
+Of
+Communications, Cilt 7, No 4, 281-288, 2012.
+4. Naik, G.A., Khedekar, M.P., Krishnamoorthy, M.,
+ve Deshmukh. R.N., “Comparison of RSSI
+Techniques in Wireless Indoor Geolocation”,
+NCCCS, Hindistan, 1-5, 21 Kasım 2012
+5. Yıldırım, G., ve Tatar, Y., ”Enhancement Of The
+Empiric RSSI – Distance Relationship By
+Experimental Datum In Wireless Sensor
+Networks”, IADIS International Conference
+Applied Computing 2012, Madrid, İspanya, 380384, 2012
+6. Mitilineos, S. A., Kyriazanos, D. M., Segou, O. E.,
+Goufas, J. N., ve Thomopoulos, S. C. A.,”Indoor
+Localisation With Wireless Sensor Networks”
+Progress In Electromagnetics Research, Cilt
+109, 441-474, 2010.
+7. Bahl, P., ve Padrnanabhan, V.N.,"RADAR: An InBuilding RF-BASED User Location and Tracking
+System," INFOCOM, Cilt 2,775-784, April,2000.
+8. Narzullaev, A., Park ,Y., Yoo, K., ve Yu J., ”A Fast
+and Accurate Calibration Algorithm For RealTime Locating Systems Based On The Received
+Signal Strength Indication”, Int. J. Electronic
+Communitaion (AEÜ), Cilt 65, No 4, 305–311,
+2011.
+9. Mengual L., Marbán O., ve Eibe, S., “Clusteringbased location in wireless Networks”, Expert
+Systems with Applications, Cilt 37, No 9, 61656175, 2010.
+10. Forero P.A., , Cano A., , Giannakis G.B.,
+“Consensus-based k-means Algorithm for
+Distributed Learning using Wireless Sensor
+Networks”, Workshop on Sensors, Signal and
+Information Process., 2008 .
+11. Gómez, J.A., Medina, A., Dorronzoro, V., Rivera,
+O., ve Martín,S., “Fingerprint Indoor Position
+System Based on Bitcloud and Openmac”,
+Journal of Networks, Cilt 8, No 1, 37- 44, 2013.
+12. Hur, S., Choi, J., ve Park, Y., ”Fingerprint
+
+226
+
+Location Database Construction for Enhancing
+Accuracy of WiFi based Indoor Localization”,
+ISA-IST2012, Şangay, Çin, 188-190, Nisan, 2012
+13. Rodrigues, M., L., ve Campos, M.F.,
+”Fingerprinting-based Radio Localization in
+Indoor Environments Using Multiple Wireless
+Technologies”, 22nd PIMRC2011, Toronto,
+Kanada, 1207-1212, 2011
+14. Pei, L., Chen, R., Liu, J., Kuusniemi, H.,
+Tenhunen, T., ve Chen, Y.,” Using Inquiry-based
+Bluetooth RSSI Probability Distributions for
+Indoor Positioning”, Journal of Global
+Positioning Systems, Cilt 9, No 2, 124-130, 2010.
+15. Malekpour, A., Ling, T. C., ve Li W. C., ”Location
+Determination Using Radio Frequency RSSI and
+Deterministic Algorithm”, CNSR 2008 (6th),
+Kanada, 488-495, 5-8 Mayıs, 2008.
+16. Curran, K., Furey, E., Lunney, T.,, Santos J.,
+Woods, D.,, ve McCaughey, A., ”An Evaluation
+of Indoor Location Determination Technologies”,
+Journal of Location Based Services, Cilt 5, No
+2, 61-78, 2011
+17. Dawes, B., ve Chin, K.W., “A comparison of
+deterministic and probabilistic methods for indoor
+localization”, The Journal of Systems and
+Software, Cilt 84, No 3, 442–451, 2011.
+18. Tatar, Y., ve Yıldırım, G., “An Alternative Indoor
+Localization Technique Based on Fingerprint in
+Wireless Sensor Networks”, International
+Journal of Advanced Research in Computer
+and Communication Engineering, Cilt 2, No 2,
+1288-1294, 2013.
+19. Arya, A., Godlewski, P., Campedel, M., ve Du, C.
+G., "Radio Database Compression for Accurate
+Energy-Efficient Localization in Fingerprinting
+Systems”, IEEE Trans. on knowledge and data
+Engineering, Cilt 25, No 6, 1368-1379, 2013
+20. Lin, M.A., Yubin, X., ve Di, W., “A Novel TwoStep WLAN Indoor Positioning Method”, Journal
+of Computational Information Systems, Cilt 6,
+No 14, 4627-4636, 2010.
+21. Rozyyev, A., Hasbullah, H., ve Subhan, F., “
+Combined K-Nearest Neighbors and Fuzzy Logic
+Indoor Localization Technique for Wireless Sensor
+Network”, Research Journal of Information
+Technology ,Cilt 4, No 4, 155-165, 2012.
+22. Milioris, D., Tzagkarakis, G., Papakonstantinou,
+A., Papadopouli, M., ve Tsakalides, P., “LowDimensional Signal-Strength Fingerprint-based
+Positioning in Wireless LANs”, Ad Hoc
+Networks, doi:10.1016/j.adhoc.2011.12.006.
+23. Jerusha, S., Kulothungan, K., ve Kannan, A.,
+“Locatıon Aware Cluster Based Routıng In
+Wıreless Sensor Networks”, International
+Journal of Computer & Communication
+Technology, Cilt 3, No 5, 2012
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 29, No 2, 2014
+
+

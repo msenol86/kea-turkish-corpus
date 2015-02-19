@@ -1,0 +1,766 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 23, No 4, 829-836, 2008
+
+J. Fac. Eng. Arch.Gazi Univ.
+Vol 23, No 4, 829-836, 2008
+
+DİZEL YAKITI, KANOLA YAĞI VE SOYA YAĞI METİL
+ESTERLERİNİN DİREKT PÜSKÜRTMELİ BİR DİZEL
+MOTORUNDA PERFORMANS VE EMİSYONLARINA
+ETKİLERİNİN İNCELENMESİ
+İsmet ÇELİKTEN ve Mehmet Ali ARSLAN*
+Makine Eğitimi Bölümü, Teknik Eğitim Fakültesi, Gazi Üniversitesi, 06500 Teknikokullar, Ankara
+*Makine Eğitimi Anabilim Dalı, Fen Bilimleri Enstitüsü, Gazi Üniversitesi, Maltepe, Ankara
+celikten@gazi.edu.tr, mehmetaliarslan@mynet.com
+(Geliş/Received: 24.01.2008 ; Kabul/Accepted: 10.03.2008)
+ÖZET
+Kanola yağı ve soya yağı metil esterlerinin fiziksel ve kimyasal özellikleri dizel yakıtına yakın olup, dizel
+motorlarında alternatif yakıt olarak kullanılmaktadır. Yapılan bu deneysel çalışmanın amacı, dizel yakıtına
+alternatif olarak kullanılan kanola ve soya yağı metil esterlerinin performans ve emisyon değişimlerinin
+incelenmesidir. Normal dizel yakıtı ile yukarıda belirtilen alternatif dizel yakıtları, 4 zamanlı ve 4 silindirli direkt
+püskürtmeli dizel motorunda denenmiştir. Elde edilen sonuçlara göre; en yüksek motor performansı dizel yakıtı
+ile sağlanmış, daha sonra kanola ve soya yağı metil esterlerinin performansları sıralanmıştır. En düşük duman ve
+CO emisyon değerini veren yakıt ise, kanola yağı metil esteri olmuştur. Ancak, normal dizel yakıtı NOx değeri,
+kanola ve soya metil esterlerinkinden daha düşük çıkmıştır.
+
+1. GİRİŞ (INTRODUCTION)
+Enerji ihtiyacı, meydana gelen sanayileşme ve hızlı
+nüfus artışı nedeniyle sürekli olarak artmaktadır.
+Dolayısıyla hidrolik, termik, nükleer santraller, kömür
+veya petrol vasıtasıyla yakıt talebi karşılanamaz hale
+gelmekte olduğu bir gerçektir. Özellikle genel enerji
+kaynaklarından kömür ve petrol rezervlerinin sınırlı
+
+ve bir gün bitecek olması enerjinin ülke politikalarında önemini artırmaktadır.
+Enerji kaynakları, temelde birincil ve ikincil enerji
+kaynakları olarak iki gurupta incelenmektedir.
+Potansiyeli mevcut olan ve teknolojik gelişmelere
+paralel
+olarak
+yeni
+faydalanılabilen
+enerji
+kaynaklarına “yeni” ve tükenmeyen veya eksilmeyen
+
+İ. Çelikten ve M. A. Arslan
+
+Dizel Yakıtı, Kanola Yağı ve Soya Yağı Metil Esterlerinin Direkt Püskürtmeli Bir Dizel Motorunda...
+
+kaynaklara da “yenilenebilir” enerji kaynakları olarak
+adlandırılmaktadır [1].
+Üzerinde çalışmalar yapılan yenilenebilir enerji
+kaynakları, biyokütle enerjisi, güneş enerjisi, rüzgâr
+enerjisi, dalga enerjisi gibi çevreci ve yerel kaynaklardır. Birçok gelişmiş ve gelişmekte olan ülkeler bu
+tip enerji kaynaklarını vergi indirimleriyle, ucuz
+kredilerle ve değişik yollarla teşvik etmektedir [2].
+Ana bileşenleri karbon hidrat bileşikleri olan bitkisel
+ve hayvansal kökenli tüm maddeler “Biyokütle Enerji
+Kaynağı” olup, bu kaynaklardan üretilen enerji ise
+“Biyokütle Enerjisi” olarak tanımlanmaktadır. Odun,
+yağlı tohum bitkileri, karbon hidrat bitkileri, elyaf
+bitkileri, protein bitkileri, bitkisel atıklar, hayvansal
+atıklar ile evsel ve endüstriyel atıklar biyokütle enerji
+teknolojileri
+kapsamında
+değerlendirilmektedir.
+Biyokütle kökenli en önemli alternatif dizel yakıtı
+biyodizeldir. Biyodizel, “Dizel-Bi” ve “Yeşil Dizel”
+adları ile de bilinmektedir. Bu kapsamda dizel
+motorlarda yakıt olarak kullanılan ve yenilenebilir
+biyolojik maddelerden türetilen yakıtlar biyodizel
+olarak adlandırılır [3].
+Biyodizel ismi ilk olarak 1992 yılında Amerika Ulusal
+Soydizel Geliştirme Kuruluşu (National Soydiesel
+Development Board) tarafından ifade edildi.
+Kimyasal olarak yenilenebilir yağ kaynağından
+türetilen uzun zincirli yağlı asitlerin mono alkol
+esterleri
+olarak
+tanımlanır.
+Yani
+biyolojik
+kaynaklardan elde edilen ester tabanlı bir tür oksijenli
+yakıt olup dizel motorlarında kullanılabilir [4].
+Biyodizel en uygun dizel motor yakıtlarından biridir.
+Biyodizel, bitkisel yağlı tohumlardan, kullanılmış atık
+kızartma yağlarından, hayvansal yağlardan ve her
+türlü biyolojik kökenli yağlardan bir katalizör
+eşliğinde kısa zincirli bir alkol ile (metanol veya
+etanol) reaksiyon sonucunda oluşan ve yakıt olarak
+kullanılan yağ asidi metil esteridir. Diğer bir ifade ile
+biyodizel, bitkisel yağ asidi esterlerinin metanol veya
+etanol gibi basit alkollerle belirli koşullar altında
+reaksiyona girmesi ile elde edilen mono alkil
+esterlerdir [5].
+
+yağların fiziksel-kimyasal ve yakıt özelliklerinin nasıl
+olacağıdır. Günümüzdeki motorlara en uygun yağın
+hangisinin olacağı, dizel motorlarda bu yağların uzun
+süreli kullanımının bir sorun oluşturup oluşturmayacağı, bitkisel yağların ihtiyacımız olan petrolün ne
+kadarına karşılık gelebileceği, bu yağların kullanılması ile ekonomiye nasıl katkı sağlanabileceği de
+önemlidir. Bitkisel yağların kullanımında dizel
+motorların karakteristik eğrilerinin nasıl olacağı,
+bitkisel yağlarda seyreltme ve esterleşme gibi
+birtakım işlemler yapılarak günümüz motorlarda
+kullanılabilecek hale getirilebilmesi mi, yoksa bitkisel
+yağları verimli bir şekilde yakıt olarak kullanabilmesi
+için motorlarda tasarım değişikliği yapılması mı
+gerektiği gibi bir takım sorularla karşılaşılmaktadır.
+Bütün bu soruları cevaplamadan önce şu iki husus
+önemlidir. Bunlardan birincisi; hangi bitkisel yağın
+kullanılması gerektiği, ikincisi ise; günümüz
+motorlarında bu yağın kullanılması durumunda
+motorun karakteristik eğrilerinin nasıl olacağıdır [8].
+Literatürde, bitkisel yağların dizel motorlarında
+kullanımı amacıyla değişik tip ve güçteki motorlar
+kullanılmıştır. 1980 tarihinden günümüze kadar
+yapılan bu çalışmalar genel olarak üç gurupta
+toplanmaktadır Bunlar; bitkisel yağlar/dizel yakıt
+karışımı ile yapılan çalışmalar, bitkisel yağ asit
+esterlerinin yakıt olarak kullanılması ve motorlarda
+yapılan değişikliklerle bitkisel yağ ve esterlerinin
+yakıt olarak kullanılması olarak sıralanabilir [9].
+Altun ve Öner yaptıkları çalışmada, dizel motor
+yakıtına alternatif olarak susam yağı kullanımını
+araştırmışlardır. Bu amaçla; susam yağı, tek silindirli
+dört zamanlı ve direkt püskürtmeli bir dizel
+motorunda yakıt olarak kullanılarak, motor
+performansı ve motor elemanları üzerindeki etkileri
+dizel yakıtı ile karşılaştırmalı olarak incelenmiştir.
+Çalışmada; %75 susam yağı ve %25 dizel yakıtı
+karışımı yakıt olarak kullanılmıştır. Karışım alternatif
+yakıt olarak kullanıldığında, motorun düzensiz,
+sarsıntılı ve sesli çalıştığı görülmüştür. Motorun yakıt
+püskürtme basıncı artırılarak tekrar kullanılan karışım
+yakıt ile motor normal çalışmış ve dizele yakın
+performans değerleri elde edilmiştir. Bu çalışmadan
+elde edilen sonuçlar, farklı bitkisel yağların dizel
+motorlarında yakıt olarak kullanılmaları ile elde
+edilen sonuçlar ile paralellik arz etmektedir [10].
+
+Biyodizelin kimyasal formülü C16-C18 yağ asidi
+zincirlerini içeren metil veya etil ester tipi bir yakıttır
+[6]. Bitkisel yağların yakıt olarak kullanılabileceğini
+ilk olarak 1900’lü yılların başında Rudolph Diesel yer
+fıstığı
+yağıyla
+dizel
+motorunu
+çalıştırarak
+göstermiştir. Fakat petrol hazır bir sektör olduğu için
+yaygınlaşması ancak bazı özel olaylar sonucu ve
+kısıtlı olmuştur. İkinci dünya savaşı, 1970’lerdeki
+petrol darboğazı ve yeni dönemde çevre bilincinin
+artması yeni enerji kaynaklarına ilgiyi artırmıştır [7].
+
+Schmidt ark. ile Marshall ark. biyodizelin çevre dostu
+bir alternatif yakıt olduğunu ve bir dizel motor
+biyodizel ile çalıştırıldığında oluşan egzoz emisyonunda, motorine oranla, yaklaşık olarak, CO %20, HC
+%30, partikül madde %40 ve duman koyuluğu %50
+kadar azaldığını ve NOx emisyonlarının ise %15 kadar
+arttığını belirlemişlerdir [11, 12].
+
+Bitkisel yağların yakıt olarak kullanılmasında önemli
+kriterler; dizel yakıtının yerine geçebilecek bitkisel
+yağın fiyatının ekonomik olup olmayacağı, bu
+
+Lin ve ark. dizel ve 3 farklı biyodizelden oluşan dört
+çeşit yakıt üzerinde yapmış oldukları araştırmada,
+biyodizellerin dizele göre düşük termik verim ve
+
+830
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 4, 2008
+
+Dizel Yakıtı, Kanola Yağı ve Soya Yağı Metil Esterlerinin Direkt Püskürtmeli Bir Dizel Motorunda...
+
+yüksek özgül yakıt tüketimi sağladığını, daha düşük
+CO2, CO ve daha fazla NOx emisyonlarının üretilmiş
+olduğunu belirlemişlerdir [13].
+Monyem ark. ile Tat ve ark. ise biyodizeldeki yüksek
+NOx oluşumunun, enjeksiyon başlangıcı motor pompa
+ayarı ile birkaç derece geriye alındığında dizel yakıtı
+NOx değerine kadar düşmekte olduğunu ifade
+etmişlerdir [14, 15]
+Yapılan bu araştırmanın amacı; kanola yağı metil
+esteri ve soya yağı metil esterinden elde edilmiş
+biyodizel ile dizel yakıtını test motoru üzerinde test
+edilerek, performans ve emisyon karakteristiklerinin
+karşılaştırılmasıdır. Test edilen yakıtların dizel
+yakıtına alternatif olup olamayacağının tespiti ve
+Türkiye’nin gelecekteki enerji politikalarında bu
+yakıtların konumları hakkında bilgilendirme ve
+önerilerde bulunmaktır.
+2. MATERYAL VE METOT (MATERIAL AND METHOD)
+Deneyler Gazi Üniversitesi Teknik Eğitim Fakültesi
+Otomotiv Anabilim Dalı İçten Yanmalı Motorlar
+Laboratuarında yapılmıştır. Yapılan çalışmada; kanola
+yağı metil esteri ile soya yağı metil esterinin D2 dizel
+yakıtıyla karşılaştırmak amacı ile bir dizel motoru,
+hidrolik dinamometre, egzoz gaz analiz cihazından
+oluşan test düzeneği kurulmuştur.
+Deneylerde, dört silindirli, dört zamanlı, direkt
+püskürtmeli Steyr marka dizel motor kullanılmıştır.
+Çizelge 1’de motorun teknik özellikleri verilmektedir.
+Deneylerle ilgili ölçüm seti Şekil 1’de görülmektedir.
+Deneylerde, 1000 kW frenleme gücüne sahip GoPower
+hidrolik
+dinamometre
+kullanılmıştır.
+Dinamometre 1Nm aralıklarında 5000 Newton’a
+kadar ölçüm yapabilmektedir.
+
+İ. Çelikten ve M. A. Arslan
+
+Çizelge 1. Deney motorunun teknik özellikleri
+(Technical specifications of the test engine)
+
+Markası
+Tipi
+Püskürtme
+avansı
+Silindir sayısı
+Silindir çapı
+Strok
+Sıkıştırma oranı
+Maksimum
+motor devri
+Maksimum güç
+Maksimum tork
+
+Steyr
+Direk püskürtmeli dizel motoru
+8°
+4
+100 mm
+100 mm
+16,1/1
+2400 1/min
+46 kW (2400 1/min de)
+216 Nm (1600 1/min de)
+
+Motor devri, egzoz gazlarının duman koyuluğunu ve
+azot yüzdesini ölçmede optik yöntemle çalışan VLT
+2600 S marka cihaz kullanılmıştır. VLT 2600-S
+emisyon cihazının ölçüm bileşenleri, ölçme aralıkları
+ve hassasiyetleri Çizelge 2’de verilmiştir.
+Çizelge 2. VLT 2600 S cihazının teknik özelikleri
+(Technical specifications of VLT 2600 S)
+
+Emisyon
+Gazları
+Egzoz duman
+koyuluğu
+Motor devri
+
+Ölçüm Aralığı
+
+Hassasiyeti
+
+%0–99
+
+0,01
+
+0–9999 1/min
+
+1/min
+
+Delta 1600–L marka emisyon cihazı, NOx
+emisyonunun ppm, ortam sıcaklığını ºC cinsinden, O2,
+CO, CO2 gazlarını % hacim cinsinden ve HC gazını
+ppm cinsinden ölçebilmektedir. Çizelge 3’te Delta
+1600–L emisyon cihazının teknik özelikleri yer
+almaktadır.
+Deneylerde dizel yakıtı ile kanola yağı metil esteri ile
+soya yağı metil esterinden elde edilmiş biyodizel
+
+Şekil 1. Deney seti (Test rig)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 4, 2008
+
+831
+
+İ. Çelikten ve M. A. Arslan
+
+Dizel Yakıtı, Kanola Yağı ve Soya Yağı Metil Esterlerinin Direkt Püskürtmeli Bir Dizel Motorunda...
+
+Çizelge 3. Delta 1600–L emisyon cihazının teknik özelikleri (Technical specifications of Delta
+1600-L exhaust gas analyzer)
+
+Emisyon Gazları
+Oksijen (O2), hacimce
+Karbon monoksit (CO), hacimce
+Karbon dioksit (CO2), hacimce
+Azot oksit (NO), ppm
+Sıcaklık (ºC)
+
+Ölçüm
+Aralığı
+% 0–25,0
+% 0–15,0
+% 0–20,0
+0–2000 ppm
+-40+650 ºC
+
+yakıtları kullanılmıştır. Yakıtlar piyasadan hazır
+olarak temin edilmiş olup teknik özellikleri Çizelge
+4’te belirtilmektedir.
+Deneye başlamadan önce motorun yağ ve su
+seviyeleri kontrol edilmiş yakıt pompası ve enjektör
+ayarları orijinal değeri olan 250 bar’a ayarlanmıştır.
+Tüm yakıt değişimleri esnasında hava ve yakıt
+filtreleri de değiştirilmiştir. Motor soğutma suyu
+bağlantıları ve hidrolik dinamometrenin bağlantıları
+kontrol edilmiştir. Deneyde kullanılan yakıt, dijital
+terazi üzerine yerleştirilen bir kavanozun içerisine
+doldurulmuş ve motor çalışmaya hazır hale
+getirilmiştir.
+Motor çalıştırılarak yaklaşık beş dakika süreyle
+ısınması beklenmiştir. Ölçümlere, motor çalışma suyu
+sıcaklığına geldikten sonra deneylere başlanmıştır.
+Her yakıt ile yapılan test tamamlandığında motor test
+öncesindeki gibi dinlenmeye bırakılmıştır.
+Motor ısındıktan sonra gaz kolu tam gaz konumuna
+getirilerek motora tam yük uygulanmıştır. Tam yük
+altında bulunan motor, hidrolik dinamometre kontrol
+paneli üzerinde bulunan yük kontrol kolu yardımı ile
+sırasıyla 1100 1/min, 1250 1/min, 1400 1/min, 1600
+1/min, 1800 1/min, 2000 1/min, 2200 1/min ve 2400
+1/min de çalıştırılarak performans ve emisyon
+karakteristikleri için gerekli veriler alınmıştır. Tüm
+testler aynı ortam ve koşullarda yapılmıştır.
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+Motor performans ve emisyon değişimlerini bulmak
+için, deney yakıtları olan dizel yakıtı, kanola yağı
+metil esteri ve soya yağı metil esterlerinden elde
+edilmiş yakıtlar sırasıyla tam yük ve değişik motor
+devirlerinde test edilmişlerdir. Elde edilen bulgular
+aşağıda sıralanmaktadır.
+
+Hassasiyeti
+% ± 0,1 – 3
+% ± 0,05 – 5
+% 0,5 – 5
+± 5 ppm - 5
+±1 %(T<150 ºC)+2%(T<250ºC)
+
+3.1. Dizel, Kanola ve Soya Yağı Metil Esterlerinin
+Performans Karakteristikleri (Performance
+characteristics of diesel fuel, rape oil and soybean oil
+methyl esters)
+
+Dizel motorunda kullanılan dizel, kanola yağı metil
+esteri ve soya yağı metil esterleri yakıtlarının tork,
+güç ve özgül yakıt tüketiminin motor devrine bağlı
+değişimleri Şekil 1’de görülmektedir.
+Maksimum motor torku devri olan 1600 1/min de
+dizel, kanola yağı metil esteri ve soya yağı metil esteri
+sıralamasında 191-182-175 Nm olarak tespit
+edilmiştir. Dizele göre maksimum motor tork
+devrindeki bu düşüş; kanola yağı metil esterinde %4,7
+iken, soya yağı metil esterinde ise %8,4 kadardır.
+Ayıca, ortalama tork devirleri dikkate alındığında
+dizel, kanola yağı metil esteri ve soya yağı metil
+esterleri sıralamasında 179-171-163 Nm, olarak
+bulunmuştur. Dizele göre ortalama tork miktarındaki
+düşüş; kanola yağı metil esterinde %4,3 iken soya
+yağı metil esterinde ise %8,5 olarak tespit edilmiştir.
+Motor maksimum güç devri 2400 1/min de dizel,
+kanola yağı metil esteri ve soya yağı metil esteri
+sıralamasında
+34,2
+33,4
+ve
+31,7
+olarak
+sıralanmaktadır. Çalışmalarda maksimum güç devri
+genelde 2000 1/min de elde edilmiştir. Dizel yakıtında
+2000 1/min de aynı yakıt sıralamasında 35,8 – 34,8
+kW ve 33,5 kW olarak bulunmuştur. Aynı devirde
+maksimum güç düşüşü dizele göre; kanola yağı metil
+esterinde %2,9 iken soya yağı metil esterinde ise
+%6,4 kadar. Tüm motor çalışma devirlerinin
+ortalamalarına göre güç değişimleri dizel, kanola yağı
+metil esteri ve soya yağı metil esterinde sırasıyla 34,833,4-31,9 kW olarak sıralanırken, bu düşüşler dizele
+göre; kanola yağı metil yağı esterinde %4,0 ve soya
+yağı metil esterinde ise %8,4 kadardır. Bu durumda
+dizele göre kanola yağı metil esterinin ortalama güç
+düşüşü soya yağı metil esterinden daha az olduğu
+görülmektedir.
+Dizel yakıtına göre kanola yağı metil esteri ve soya
+yağı metil esterlerinin viskozite ve yoğunlukları
+
+Çizelge 4. Deney yakıtlarına ait fiziksel ve kimyasal özellikler (Physical and chemical properties of test fuels) [16-18]
+Yakıt türü
+Viskozite
+Isıl değer
+Setan sayısı
+Yoğunluk
+(40°C)(mm2/s)
+(kJ/kg)
+(25°C)(g/cm3)
+Dizel yakıtı
+3,9
+43300
+54
+0,837
+Kanola yağı metil esteri
+4,7
+39900
+58
+0,877
+Soya yağı metil esteri
+4,9
+39760
+54–55
+0,878
+832
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 4, 2008
+
+Dizel Yakıtı, Kanola Yağı ve Soya Yağı Metil Esterlerinin Direkt Püskürtmeli Bir Dizel Motorunda...
+
+İ. Çelikten ve M. A. Arslan
+
+yoğunluklarından ve viskozitelerinden kaynaklanmaktadır. Yüksek viskozite ve yoğunluk, yüksek motor
+devirlerinde pompaya daha az yakıt dolmasına, düşük
+ısıl değer ise daha az enerji açığa çıkmasına ve sonuç
+olarak daha az güç üretilmesine neden olmaktadır.
+Birim güç başına tüketilen özgül yakıt tüketimi,
+motorun önemli performans parametrelerinden biridir.
+1100 1/min de maksimum özgül yakıt tüketimi dizel,
+kanola yağı metil esteri ve soya yağı metil esterinde
+sırasıyla 280, 308 ve 317 g/kWh olarak ölçülmüştür.
+1800 1/min de minimum özgül yakıt tüketimi tespit
+edilmiş olup, aynı devirde aynı yakıtların kullanım
+sıralamasında 204, 227 ve 242 g/kWh, olarak
+ölçülmüştür. Maksimum tork devri olan 1600 1/min
+de ise aynı sıralama için bu değişimler 215, 237, 253
+g/kWh olarak bulunmuştur. Bu devirde dizel yakıtına
+göre; kanola yağı metil esterinde %10,1 ve soya yağı
+metil esterinde ise %17,5 oranında artış tespit
+edilmiştir. Tüm motor çalışma devirlerinin
+ortalamaların dizel, kanola yağı metil esteri ve soya
+yağı metil esteri sıralaması 269, 297 ve 312 g/kWh
+olarak tespit edilmiştir. Özgül yakıt tüketimleri dizele
+göre; kanola yağı metil esterinde %10,5 ve soya yağı
+metil esterinde ise %16,2 kadar artmaktadır. Bu
+durumda dizele göre ortalama özgül yakıt
+tüketimlerinin artışı kanola yağı metil esteri soya yağı
+metil esterinden daha fazla olduğu görülmektedir.
+Alternatif yakıtların özgül yakıt tüketimindeki artışın
+temel nedeni; dizel yakıtına göre daha düşük bir ısıl
+değere sahip olmaları nedeni ile birim güç başına
+tüketilen
+yakıt
+miktarının
+artması
+olarak
+düşünülmektedir.
+3.2 Dizel, Kanola ve Soya Yağı Metil Esterlerinin
+Emisyon Karakteristikleri (Emission characteristics
+of diesel fuel, rape oil and soybean oil methyl esters)
+
+Dizel motorunda kullanılan dizel, kanola yağı metil
+esteri ve soya yağı metil esteri yakıtlarının % duman
+koyuluğu (N;%), karbon monoksit (CO; ppm) ve azot
+oksit (NOx; ppm)’in devire bağlı değişimleri
+Şekil.2’de görülmektedir.
+
+Şekil 1. Tam yük ve değişik devirlerde dizel, soya yağı
+metil esteri ve kanola yağı metil esterlerinin performans
+değişimleri (Performance variations of diesel fuel, soybean oil
+
+Dizel yakıtı ve deneyde kullanılan alternatif yakıtların
+% duman koyuluğu (N) değerleri görülmektedir.
+Duman koyuluğu, egzoz gazı içerisinde bulunan
+parçacıkların, gazdan geçen ışığın aydınlatma
+şiddetini (aydınlanan birim yüzey için ışık akısını)
+azaltma yüzdesidir. Tam şeffaf gaz için duman
+koyuluğu %0’dır. Işığı tamamen absorbe eden, yani
+geçirgen olmayan gaz için duman koyuluğu %100’dür
+Normal emişli bir dizel motorunda duman koyuluğu
+sınır değeri %64 dür [19].
+
+methyl esters, and rape oil at full load and variable speeds)
+
+yüksek, ısıl değeri daha düşüktür [16,17,18]. Elde
+edilen bu güç değişimlerine göre dizel yakıtı ile
+kullanılan alternatif yakıtlar arasındaki güçlerin farklı
+olması öncelikle yakıtların ısıl değerlerinden,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 4, 2008
+
+Maksimum motor devrinde % duman koyuluğu dizel,
+kanola yağı metil esteri ve soya yağı metil esteri
+sıralamasında %51, %38 ve %32 oranında
+azalmaktadır. % duman koyuluğundaki bu düşüş dizel
+yakıtına göre; kanola yağı metil esterinde %25 iken,
+833
+
+İ. Çelikten ve M. A. Arslan
+
+Dizel Yakıtı, Kanola Yağı ve Soya Yağı Metil Esterlerinin Direkt Püskürtmeli Bir Dizel Motorunda...
+
+yağı metil esterin ve soya yağı metil esteri üçlüsünün
+sıralamasında %52, %42, %33 olarak azalır oranda
+elde edilmiştir. Ortalama motor devirleri dikkate
+alındığında dizel yakıtına göre; kanola yağı metil
+esterinde %20 ve soya yağı metil esterinde ise %34
+kadar azalmaktadır. Yapılan deneyde duman
+koyuluğu TS tarafından belirlenen %64 sınırının
+üstüne sadece dizel yakıtında 1100 1/min de %74
+olarak ölçülmüş olup, test yapılan diğer tüm devirler
+esnasında kullanılan üç tip yakıtta da sınır değerinden
+daha az ölçümler elde edilmiştir.
+Maksimum tork devrinde % CO değişimi dizel,
+kanola yağı metil esteri ve soya yağı metil esteri
+sıralamasında %49, %36 ve %30 oranında azalarak
+değişmektedir. Aynı devirde dizel yakıtına göre bu
+azalma oranı; kanola yağı metil esterinde %27 iken
+soya yağı metil esterinde ise %39 civarında tespit
+edilmiştir. Motorun maksimum güç devri olan 2400
+1/min de ise dizel, kanola yağı metil esteri ve soya
+yağı metil esteri sıralamasındaki CO değişimleri
+sırasıyla; %15, %12 ve %8 olarak değişmektedir.
+Tüm motor çalışma devirlerinin ortalamalarına göre
+CO emisyonları dizelde %53 iken, kanola yağı metil
+esterinde %44 ve soya yağı metil esterinde ise %34
+civarında değişmektedir. Dizel yakıtına göre azalma
+ise; kanola yağı metil esterinde %17 ve soya yağı
+metil esterinde ise %35 civarında tespit edilmiştir.
+Sonuç olarak, motorun düşük çalışma devirlerinde
+kullanılan alternatif yakıtlar dizel yakıtına göre az
+oranda CO emisyonları üretirken motorun yüksek
+devirlerinde bu oran daha da azalmaktadır
+
+Şekil 2. Tam yük ve değişik devirlerde dizel, soya
+yağı metil esteri ve kanola yağı metil esterlerinin
+egzoz emisyonlarının değişimleri (Exhaust emission
+variations of diesel fuel, soybean oil methyl esters, and rape oil at
+full load and variable speeds)
+
+soya yağı metil esterinde ise %37 kadar azalmaktadır.
+Ölçümlerin yapıldığı tüm motor çalışma devirlerinin
+ortalamalarına göre % duman koyuluğu dizel, kanola
+
+834
+
+Maksimum tork devrinde dizel yakıtında NOx
+emisyonu 192 ppm, kanola yağı metil esterinde 234
+ppm soya yağı metil esterinde ise 256 ppm ve olarak
+ölçülmüş olup, dizel yakıtına göre NOx
+emisyonlarındaki artış ise; kanola yağı metil esterinde
+%22 ve soya yağı metil esterinde ise %33 civarında
+tespit edilmiştir. Maksimum güç devri olan 2400
+1/min de NOx değeri dizel yakıtında 272 ppm, kanola
+yağı metil esterinde 307 ppm ve soya yağı metil
+esterinde ise 326 ppm olarak ölçülmüştür. Aynı
+devirdeki dizel yakıtına göre NOx emisyonlarındaki
+artış ise; kanola yağı metil esterinde %13 ve soya yağı
+metil esterinde ise %20 civarında tespit edilmiştir.
+Ölçümlerin yapıldığı tüm motor çalışma devirlerinin
+ortalamalarına dikkate alındığında dize yakıtı, soya
+yağı metil esteri ve kanola yağı metil esteri sırasıyla
+223, 254 ve 281 ppm olarak değişmektedir. Dizel
+yakıtına göre artış ise; kanola yağı metil esterinde
+%14 ve soya yağı metil esterinde ise %26 civarında
+tespit edilmiştir.
+Motorlu taşıtlarda NOx oluşumu, yanma sonucundaki
+yüksek sıcaklıklarda meydana gelmektedir. Kullanılan
+kanola yağı metil esterleri ve soya yağı metil esterinin
+yanma sonu sıcaklıklarının, dizel yakıtı ile çalışmaya
+oranla daha düşük olması nedeniyle, NOx emisyonları
+da dizel yakıtına göre daha az bulunmuştur.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 4, 2008
+
+Dizel Yakıtı, Kanola Yağı ve Soya Yağı Metil Esterlerinin Direkt Püskürtmeli Bir Dizel Motorunda...
+
+vergi indirimleri uygulanmalı, ucuz hammadde
+temini için tarım sektörü desteklenmeli, üretim
+süreçlerinin ve ürünlerin standartlara uyumu gibi
+özellikler dikkate alınmalıdır.
+
+4. SONUÇLARIN DEĞERLENDİRİLMESİ VE
+ÖNERİLER (EVALUATION OF TEST RESULTS
+AND SUGGESTIONS)
+
+Bu çalışmada dizel yakıtı ile kanola yağı metil esteri
+ve soya yağı metil esterinden elde edilmiş biyodizel
+yakıtları sırasıyla, dizel motorunda hiçbir değişiklik
+yapılmaksızın ayrı ayrı kullanılmıştır. Bu yakıtların
+performans ve emisyon karakteristikleri tam yük ve
+farklı motor devirlerde testlere tabi tutulmuştur. Elde
+edilen verilere göre her üç yakıtın performans ve
+emisyon değişim eğrileri elde edilmiş ve bu eğriler
+birbiriyle karşılaştırılmıştır.
+ Motorun 1600 1/min deki dizel yakıtı, kanola yağı
+metil esteri ve soya yağı metil esteri
+sıralamasındaki performans değişimleri sırasıyla
+incelendiğinde, maksimum tork dizel yakıtına göre;
+kanola yağı metil esterinde %4,7, soya yağı metil
+esterinde %8,4 kadar azalmaktadır. Motor güç
+değişimleri dizel yakıtına göre; kanola yağı metil
+esterinde %9,7 ve kanola yağı metil esterinde ise
+%11,8 oranında azalmaktadır. Özgül yakıt
+tüketimleri ise dizel yakıtına göre; kanola yağı metil
+esterinde %10,1 ve soya yağı metil esterinde ise
+%17,5
+oranında
+artmaktadır.
+Performans
+değişimleri bakımından alternatif yakıtlar ile
+çalışmalardan birisi olan referans [10] ile genel bir
+uyum içerisinde yer almaktadır.
+ Aynı yakıtların aynı tork devrinde emisyon
+değişimlerinden % duman koyulukları dizel
+yakıtına göre; kanola yağı metil esterinde %25,
+soya yağı metil esterinde ise %37 kadar
+azalmaktadır. CO emisyonları dizel yakıtına göre
+azalma oranı kanola yağı metil esterinde %27, soya
+yağı metil esterinde %39 oranında tespit edilmiştir.
+NOx emisyonları da dizel yakıtına göre kanola yağı
+metil esterinde %22, soya yağı metil esterinde %33
+oranında artışlar tespit edilmiştir. Emisyon
+değişimleri alternatif yakıtların üretmiş olduğu
+emisyonlar bakımından referans [11, 12, 13] ile
+uyum içerisinde yer alırken artma ve azalma
+oranlarında kısmı farklılıklar oluşturmaktadır.
+ Soya yağı metil esteri ve kanola yağı metil esterleri
+ısıl değerler bakımından dizel yakıtından kısmen
+düşüktür. Bu farkın temel sebepleri düşük ısıl
+değeri, yüksek viskozite ve yoğunluktur. Bu
+nedenle viskozitenin düşürülmesi için esterleşme
+reaksiyonlarında iyileştirme veya esterlere çeşitli
+kimyasal katıklar eklenerek kullanılabilir.
+ Soya yağı metil esteri ve kanola yağı metil esterleri
+dizel yakıtının yerini tamamen alamaz, fakat
+özellikle egzoz emisyonları bakımından dizel
+yakıtından daha iyi sonuçlar verdiği için “enjektör
+basınçlarının arttırılması ve pompa avans
+ayarlarının değiştirilmesi” gibi yapılacak yeni
+çalışmalarla geliştirilip alternatif yakıt olarak
+kullanımı düşünülebilir.
+ Alternatif yakıtların kullanımında, yerli ürünlerle
+üretim sürecini destekleyen teşvikler verilmeli,
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 4, 2008
+
+İ. Çelikten ve M. A. Arslan
+
+KAYNAKLAR (REFERENCES)
+1.
+
+Öğüt, H. ve Oğuz, H., “Üçüncü Milenyum Yakıtı
+Biyodizel 2.Baskı ”, Nobel Yayın Dağıtım,
+Ankara, 1- 25, (2006).
+2. Altıparmak, D., Keskin, A, Koca, A. ve Gürü,
+M., “Alternative fuel properties of tall oil fatty
+acid methyl ester–diesel fuel blends” Bioresource
+Technology 98 (2007) 241–246.
+3. Karaosmanoğlu, F., “Türkiye İçin Çevre Dostu–
+Yenilenebilir Bir Yakıt Adayı: Biyomotorin”,
+Ekojenerasyon Dünyası-Kojenerasyon Dergisi,
+ICC1 2002 Özel Sayısı, İstanbul, 10, 50–56,
+(2002).
+4. Connemann, J ve Fischer, J. “Biodiesel World
+2000”, International Congress and Expo
+Lipids, Fats, and Oils, sayfa 4, Würzburg,
+Almanya, 8-10 Ekim 2000.
+5. Atakan, E., “Değişik yağlardan elde edilen
+biyodizellerin karşılaştırılması”, Yüksek Lisans
+Tezi, Gazi Üniversitesi Fen Bilimleri
+Enstitüsü, Ankara, 1–10, (2006).
+6. İnternet : “Biyodizel Üretiminde Kullanılan
+Hammadde Kaynakları”, Biyomotorin ve
+Türkiye,
+http://www.biyomotorinbiodiesel.com/biomoto.html, (2007).
+7. Vermeersch G.,, “Development of a Biyodizel
+Activity”, International Congress and Expo
+Lipids, Fats, and Oils, Würzburg, Almanya, 3,
+(2000).
+8. Oğuz, H. ve Öğüt. H., “Tarım traktörlerinde
+bitkisel kökenli yağ ve yakıt kullanımı” Selçuk
+Üniversitesi
+Teknik
+Bilimler
+Meslek
+Yüksekokulu,
+Ziraat
+Fakültesi
+Tarım
+Makineleri Bölümü Selçuk-Teknik Online
+Dergisi Konya ISSN 2 (2): 1302- 6178 (2001).
+9. Altın, R., “Bitkisel yağların dizel motorlarında
+yakıt olarak kullanılmasının deneysel olarak
+incelenmesi”, Doktora Tezi, Gazi Üniversitesi
+Fen Bilimleri Enstitüsü, Ankara, 31-33, 82–154
+(1998).
+10. Altun, Ş. ve Öner, C., “Susam yağının alternatif
+yakıt olarak dizel motor performansı ve motor
+elemanları üzerindeki etkileri” Teknoloji
+Dergisi, 8 (3): 229-236, (2005).
+11. Schmidt, K., ve Gerpen, J. V., “The Effect of
+Biodiesel Fuel Composition on Diesel
+Combustion and Emissions”.SAE Paper No:
+961086, Warrandele, 1996.
+12. Marshall, W. F.,”Effects of Methyl Esters of
+Tallow and Grease on Exhaust Emissions and
+Performance of a Cummins L 10 Engine”. Report
+Prepared for the Fats and Proteins Research
+Foundation by the National Institute for
+
+835
+
+İ. Çelikten ve M. A. Arslan
+
+13.
+
+14.
+
+15.
+
+16.
+
+836
+
+Dizel Yakıtı, Kanola Yağı ve Soya Yağı Metil Esterlerinin Direkt Püskürtmeli Bir Dizel Motorunda...
+
+Petroleum and Energy Research (NIPER),
+Report No: B 08861, 1993.
+Lin C-Y ve Lin. H-A., “Diesel engine
+performance and emission characteristics of
+biodiesel produced by the peroxidation process”,
+Fuel 85 (2006) 298–305.
+Monyem, A., Gerpen, J. V. ve Canakci, M., “The
+Effect of Timing and Oxidation on Emissions
+From Biodiesel-Fueled Engines”. ASAE.
+Vol.44(1): 35-42, 2001.
+Tat. M.E., ve Van Gerpen. J.H., Biodiesel blend
+detection with a fuel composition sensor,
+Applied. Engineering. Agriculture. 19 (2)
+(2003) 125– 131.
+Yamık, H., “Dizel Motorlarda Alternatif Yakıt
+Olarak Yağ Esterlerinin Kullanılma İmkanlarının
+
+Araştırılması” Doktora Tezi, Gazi Üniversitesi
+Fen Bilimleri Enstitüsü, Ankara, 71–90 (2002).
+17. İnternet : “Alternatif Enerji Kaynakları Ders
+Notları” Dumlupınar Üniversitesi Web Portalı,
+http://mf.dumlupinar.edu.tr/~biyodizel/biyodizel/.
+html (2007).
+18. Altın, R., Çetinkaya, S., ve Yücesu, S., “Dizel
+Motorlarında Alternatif Yakıt Olarak Bitkisel
+Yağ Kullanımının Deneysel İncelenmesi”, Turk
+J Engine Environ Science, Tübitak, Ankara 25:
+39 -49 (2001).
+19. TS 11365, Türk Standartları, “Egzoz Gazı
+Kirleticileri Trafikteki Dizel Motorlu Taşıtları
+İçin Ölçüm Metodu ve Sınır Değerleri”, TSE,
+Ankara (1998).
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 23, No 4, 2008
+
+

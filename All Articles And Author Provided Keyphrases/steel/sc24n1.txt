@@ -1,0 +1,875 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 24, No 1, 23-31, 2009
+
+J. Fac. Eng. Arch. Gazi Univ.
+Vol 24, No 1, 23-31, 2009
+
+AISI 409 VE Ç1010 ÇELİĞİN ÖSTENİTİK ELEKTROD
+KULLANARAK MIG KAYNAK YÖNTEMİ İLE
+BİRLEŞTİRİLMESİ VE MEKANİK ÖZELLİKLERİNİN
+ARAŞTIRILMASI
+Sabri KILINÇER ve Nizamettin KAHRAMAN*
+Metal İşleri Bölümü, Akören Çok Programlı Lisesi, Akören, Konya
+*
+Metal Eğitimi Bölümü, Teknik Eğitim Fakültesi, Karabük Üniversitesi, Karabük
+sabri_6767@hotmail.com, nkahraman@karabuk.edu.tr
+(Geliş/Received: 17.12.2007 ; Kabul/Accepted: 05.11.2008)
+ÖZET
+Bu çalışmada, gaz metal ark kaynak yöntemi ile farklı metallerin kaynaklanabilirliği araştırılmıştır. Bu
+amaçla, ferritik paslanmaz çelik (AISI 409) ile düşük karbonlu çelik (Ç1010) malzemeler östenitik bir ilave
+metal kullanılarak otomatik robot yardımıyla değişik parametrelerde birleştirilmişlerdir. Kaynaklı
+numunelerin mekanik ve mikroyapı özelliklerini belirlemek için, çekme, eğme, sertlik ve çentik darbe testi
+ile mikroyapı çalışmaları yapılmıştır. Yapılan çekme testi sonucunda ayrılma, kaynak bölgesi dışarısında
+ve düşük karbonlu çelik levha ortasında meydana gelmiştir. Eğme testi sonucunda kaynak bölgesinde gözle
+görülebilir bir çatlak ve yırtılma hatasına rastlanmamıştır. Bütün kaynak parametrelerinde, kaynak metali
+sertliğinin ITAB ve esas metalden yüksek olduğu görülmüştür. Mikroyapı çalışmaları sonucunda kaynak
+metali ve ısının tesiri altında kalan bölgede (ITAB) tane irileşmesinin meydana geldiği tespit edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Gaz metal ark kaynağı (GMAK), endüstride demir
+ve demir dışı malzemelerin kaynağında en çok
+kullanılan kaynak yöntemidir [1]. Ergitmeli bir
+kaynak yöntemi olan bu kaynak yöntemi hem bir
+üretim hem de bir tamir yöntemi olarak endüstride
+
+yerini almıştır [2-4]. Yüksek kaynak hızı, otomatik
+olarak uygulanabilmesi [5], yüksek metal biriktirme oranı, curuf olmayışı ve bütün pozisyonlarda
+kolaylıkla yapılabilmesi yöntemin önemli
+avantajlarındandır [6].
+Gazaltı kaynağında kaynak için gereken ısı, eriyen
+
+S. Kılınçer ve N. Kahraman
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+ve sürekli beslenen bir tel elektrotla iş parçası
+arasında oluşan ark yoluyla ve elektrottan geçen
+kaynak akiminin elektrotta oluşturduğu direncin
+ısınması yoluyla üretilir. Tükenebilir elektrot
+(kaynak teli) ark bölgesine otomatik olarak beslenir,
+ergir ve kaynak metalini (depozit) oluşturur (3,711). Bu kaynak yönteminde, kaynak yapılacak
+bölge, havanın olumsuz etkilerinden koruyucu bir
+gaz ile korunmakta [12-15] ve kullanılan gaz
+ve/veya gaz karışımı kaynak yapılan metallerin
+çeşidine göre seçilmektedir. Gaz seçiminde, kaynak
+esnasında koruyucu gaz ile ergimiş kaynak
+metalinin kimyasal-metalurjik olarak etkileşimi
+hesaba katılmalıdır [16,17]. Özellikle, gaz
+karışımlarının dikiş özelliklerinin iyileştirilmesi
+ve daha hızlı, ekonomik bağlantılar oluşturulması açısından önemi de oldukça büyüktür [18,19].
+Gaz altı kaynağında koruyucu gazdan beklenen iyi
+bir metal transferi, nüfuziyet, ergime genişliği,
+kaynak geometrisi, kaynak hızı ve düşük maliyettir. Ayrıca çatlak ve gözenek oluşturmamasıdır
+[20]. Koruyucu gaz ayrıca sıçramalar nedeniyle
+meydana gelen kayıplar üzerinde de etkilidir [21].
+
+metallerin birleştirilmesinden daha zordur [28].
+Farklı iki malzemenin kaynak ile birleştirilmesi ve
+bunun için en uygun ilave (kaynak) metalin
+seçilmesi oldukça zor bir problemdir [29].
+Fiziksel ve kimyasal farklılıklar yüzünden iki
+farklı malzemenin iyi dayanım ve devamlılık
+sağlaması için ilave metalin, bu iki metalin
+özellikleri ile uyuşması gerekir [30].
+Bu çalışmada, özellikle otomobil egzozlarının
+imalatında sıkça kullanılan ferritik paslanmaz çelik
+malzemeler [31,32] ile yine egzozların sabitlendiği
+gövdelerde kullanılan düşük karbonlu çelik malzemeler. gazaltı kaynak yöntemi (MIG) ile otomatik
+olarak robot yardımıyla değişik parametrelerde
+birleştirilmişlerdir. Kaynaklı malzemelere, bağlantının
+dayanımlarını belirlemek için çekme, eğme ve çentik
+darbe testi ile sertlik testleri uygulanmıştır. Ayrıca,
+kaynak metali ile ısının tesiri altında kalan (ITAB)
+bölgede meydana gelen mikroyapılar ve tane
+morfolojisi değerlendirilmiştir.
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL
+STUDIES)
+
+Manuel olarak yapılan kaynak işlemlerinde, önemli
+ve kontrol edilmesi gerekli parametreler (elektrot
+ile kaynatılan parçalar arasındaki mesafe, akım
+büyüklüğü, tork hızı ve koruyucu gaz tip ve
+miktarı gibi) bulunmaktadır. Bu parametreler
+kaynak yapılan kişiye göre değişmekte ve aynı
+kişi için bile yorgunluk durumuna göre farklılıklar
+göstermektedir [22]. İşte bu nedenden dolayı gaz
+metal ark kaynak tekniği otomasyon ve robotik
+uygulamalara oldukça uygundur [23,24].
+Günümüz endüstrisinde kullanılan malzeme
+çeşitlerinin artması, farklı özellikler gerektiren
+yerlerde farklı metal bağlantılarının gerekliliği ve
+özellikle son yıllarda ekonomik faktörlerin
+giderek önem kazanması farklı özelliklere sahip
+malzemelerin birbirleriyle birleştirilmesi zorunluluğunu doğurmaktadır [25-27]. Ancak kaynak
+yapılan metallerin fiziksel, mekanik ve
+metalurjik özelliklerinin farkından dolayı benzer
+olmayan metallerin birleştirilmesi, benzer olan
+
+Bu çalışmada, 200x200x2 mm ebatlarında ve Tablo
+l’de kimyasal bileşimleri verilen AISI 409 kalite
+ferritik paslanmaz çelik ile Ç1010 düşük karbonlu
+çelik levhalar gazaltı ark kaynak yöntemi ile
+Motoman robot yardımıyla otomatik olarak
+birleştirilmişlerdir. Birleştirme işlemlerinde literatürde
+verilen bilgiler doğrultusunda [33], farklı metallerin
+kaynaklı bağlantılarında tavsiye edilen ve kimyasal
+bileşimi Tablo 1’de verilen I mm ostenitik tip
+ER307Si ilave metal (tel) ve koruyucu gaz olarak da
+argon+C02+02 (argon ark) gaz karışımı kullanılmıştır,
+Kaynak işlemleri FRONIUS TransPuls Synergic 5000
+tip yeni nesil kaynak makinesinde yapılmış ve kaynak
+esnasında kullanılan kaynak parametreleri de Tablo
+2'de verilmiştir. Çalışmalarda kullanılan kaynak
+parametre değerlerine, yapılan ön çalışmalar sonucu
+karar verilmiştir. Kaynak işlemi biten numuneler açık
+havada soğumaya bırakılmıştır. Kaynak sonrası
+kaynaklı numunelerden elde edilen makro görüntüler
+Şekil l’de verilmiştir.
+
+Tablo 1. Esas metal ve ilave metalin kimyasal bileşimleri (% Ağırlık)
+
+(Chemical compositions of base metal and
+
+filler (% Weight)
+
+Malzeme
+AISI409
+Ç 1010
+Elektrod
+
+Kaynak
+kodu
+A
+B
+C
+24
+
+C
+0,014
+0,072
+0,075
+
+Mn
+0,380
+0,554
+7,06
+
+Cr
+11,633
+0,005
+18,7
+
+Ni
+0,108
+<0,001
+8.11
+
+Si
+0,610
+<0,001
+0,815
+
+Mo
+0,014
+<0,001
+-
+
+Cu
+0,086
+0,001
+-
+
+Al
+0,027
+0,035
+-
+
+Ti
+0,203
+0,002
+-
+
+V
+0,090
+0,001
+-
+
+Fe
+Kalan
+Kalan
+Kalan
+
+Tablo 2. Kaynak esnasında kullanılan kaynak parametreleri (Welding parameters used in this study)
+Kaynak akımı Kaynak voltajı Tel hızı Kaynak hızı Gaz mıktarı Serbest tel uzunluğu
+(cm/dk)
+(lt/dk)
+(mm)
+(A)
+(V)
+88
+18
+4,5
+30
+14
+10
+97
+18
+5
+30
+14
+10
+105
+19,1
+5,5
+30
+14
+10
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+S. Kılınçer ve N. Kahraman
+
+levhaların ve gazaltı ark kaynak yöntemi ile
+otomatik olarak birleştirilen bu kaynaklı bağlantılardan enine yönde çıkarılan numunelerin çekme
+deneyi sonuçlan Tablo 3'de verilmiştir. Ayrıca
+Şekil 3'de de düşük karbonlu çelik malzeme ile
+birleştirmelerden çekme esnasında elde edilen
+grafikler verilmiştir.
+Tablo 3. Çekme deney sonuçlan (Tensile test results)
+Malzeme Çekme mukavemeti (MPa) Uzama (%)
+AISI 409
+434.06
+40.41
+Ç 1010
+411.87
+39.42
+A
+412.85
+19.73
+B
+434.79
+23.18
+C
+418.15
+22.75
+
+Şekil 1. Kaynak dikişleri makro görüntüleri (Macro
+pictures of the weld beads)
+
+Kaynaklı numunelerden 4'er adet çekme, 3'er adet
+çentik darbe, 2'şer adet eğme, l'er adet mikroyapı
+ve sertlik numunesi hazırlanmıştır. Çekme numuneleri, TS 287 EN 895göre ve eğme numuneleri
+ise TS 282 pr EN 910'a göre. Freze tezgahında
+işlenerek hazırlanmıştır. Birleştirmelere uygulanan
+çekme ve eğme işlemleri Autograph-Shimadzu tipi
+cihaz ile 2 mm/dk ilerleme hızında gerçekleştiril–
+miştir. Çentik darbe numuneleri ostenitik kaynak
+dikişinden Şekil 2'de verilen ebatlarda hazırlanmış
+ve kırma işlemleri Devotrans Devo (CDC 0700014)
+marka cihaz ile oda sıcaklığında gerçekleştirilmiştir.
+
+Şekil 2. Çentik darbe test numunesi (Impact test specimen)
+Mikroyapı ve sertlik numuneleri bakalite alma işlemlerine
+tabi tutulmuş ve standart yöntemlerle zımparalama,
+parlatma, ve dağlama işlemleri gerçekleştirilmiştir.
+Dağlama işlemleri iki kademede gerçekleştirilmiş olup
+öncelikle birleştirmelerin düşük karbonlu çelik tarafı % 2
+Nital ile, daha sonra ferritik paslanmaz çelik tarafı Vilella
+(100 ml etanol, 5 ml HC1 ve 1 g pikrik asit) ile
+dağlanmıştır. Birleştirmelerin mikroyapı görüntüleri
+NIKON Epiphot 200 marka optik mikroskop ile elde
+edilirken, sertlikler Shimadzu HMV marka cihaz ile HV
+cinsinden ölçülmüştür. Sertlik ölçümlerinde 500 g yük
+kullanılmış ve her bir bölgede gerçekleştirilen 5 ölçüm
+sonucunun ortalaması alınmıştır.
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+2 mm kalınlığındaki düşük karbonlu çelik
+(Ç1010) ile ferritik paslanmaz çelik (AISI 409)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+Birleştirmelerden elde edilen çekme sonuçları
+incelendiğinde, en yüksek çekme mukavemeti B
+numunesinden elde edilirken, onu sırasıyla C ve A
+numuneleri takip etmektedir. Ayrıca birleştirmelerin
+tümünden elde edilen çekme mukavemetlerinin
+A1S1 409 malzemeye göre mukavemeti daha
+düşük olan Ç1010 malzemeden daha yüksek
+olduğu tespit edilmiştir. Çekme deneyi esnasında
+malzemelerin kaynak metali veya ısının tesiri
+altında kalan bölgeden ayrılmadığı, kopmanın
+Ç1010 malzeme çekme boyu ortasında ve de
+ITAB'dan uzak bir bölgede meydana geldiği tespit
+edilmiştir (Şekil 4). Bu da Ç1010 malzemenin
+çekme dayanımının, AISI 409 levha ve ostenitik
+kaynak metali çekme dayanımından düşük
+olduğundan kaynaklanmaktadır. Literatürde [26]
+kaynak işleminde ilk aranan şartın birleştirmenin
+mukavemetinin esas malzemeyle ayni veya ona
+yakin olması gerektiği, farklı metallerin kaynağında ise kaynak metali mukavemetinin, mukavemeti düşük olan malzemeden daha dayanıklı
+olması gerektiği belirtilmiştir. Bilindiği gibi kaynaklı bağlantıların en kritik bölgesi ITAB' dir ve
+birçok çatlama ve kırılma bu bölgede meydana
+gelmektedir. Ancak, Şekil 4 incelendiğinde kopma
+işleminin ITAB'dan uzak bir bölgede meydana
+geldiği görülmektedir. Çekme esnasinda numunelerin iri taneli bölgenin dışından kopmasına
+sebep olarak, düşük karbonlu çelik malzemenin,
+iri taneli bölgesi üzerine gelen, ostenitik kaynak
+metalinin kompozit bir etki yapması gösterilebilir. Bu
+olay Şekil 4'deki mikroyapı resminde açıkça görülmektedir. Belirtilen sebepten dolay da kopma işlemi en
+kritik bölge olan ITAB dışından gerçekleşmiştir.
+Ayrıca çekme testleri sonucunda orijinal düşük
+karbonlu çelik malzemenin % uzama miktarı % 40
+olurken, kaynak sonrası bu değer % 19 ile % 23
+arasındaki değerlerde okunmuştur. Bu değer
+düşüşünün sebebi, kaynaklı bölgede meydana gelen
+sertlik artışı ile ferritik paslanmaz çelik levhanın
+düşük karbonlu çelik malzemeye göre deformasyonun az oluşudur. Çalışmada, çekme numuneleri
+standartlara uygun olarak hazırlandığından, orijinal
+25
+
+S. Kılınçer ve N. Kahraman
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+Şekil 3. Çekme test grafikleri (Tensile test curves)
+
+Şekil 4. Çekme numunelerin kopma bölgeleri (Fracture regions of the tensile specimens)
+malzemeler tam boyda uzama gösterirken kaynaklı
+numunelerde
+kompozit
+etkisinden
+dolayı
+uzamanın daha çok düşük karbonlu çelik
+tarafında olması sebebiyle ve de ferritik paslanmaz
+çelik malzemenin deformasyona az uğramasından
+dolayı % uzama değerlerinin düşmesine neden
+olmuştur. Çekme test numuneleri, deney sonrası
+gözle incelendiğinde ve de Şekil 4'de de
+anlaşıldığı üzere deformasyonun çoğunlukla
+26
+
+düşük karbonlu çelik malzemede meydana geldiği
+gözlenmiştir.
+Şekil 5. kaynaklı numunelerden gerçekleştirilen
+yüz eğme testi sonucunda elde edilen makro görüntüleri göstermektedir. Kaynaklı numunelere,
+kaynak bölgesinin çatlamadan şekil değiştirme
+özelliğinin belirlenmesi için uygulanan eğme testleri
+sonucunda, numuneler 180° eğildiklerinde, kaynaklı
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+Şekil 5. Eğme numunelerinin görüntüleri
+
+(Macro
+
+picturesof the bended samples)
+
+numunelerde gözle görülebilir bir kaynak hatasına
+rastlanmamıştır. Değişik üç kaynak parametresi
+ile birleştirilmiş kaynaklı numuneler, kaynak
+sonrası servis şartlarına göre 180°’ye kadar istenilen
+açıda bükülerek güvenli bir şekilde kullanılabilecektir.
+Tüm kaynaklı bağlantılardan alınan makro kesitler
+üzerinde gerçekleştirilen Vickers sertlik deney
+sonuçları (HV0.5) Şekil 6'daki grafikte verilmiştir.
+
+S. Kılınçer ve N. Kahraman
+
+metali mikroyapısı ve mekanik özellikleri üzerine
+etkisini araştırmışlar ve enerji girişindeki artışın
+sertlik düşüşüne neden olduğunu belirtmişlerdir.
+Sertlik düşüşüne sebep olarak da yumuşak ve
+aynı zamanda kabalaşmış fazların oluşumu
+gösterilmiştir. Benzer çalışmalarında Çelik ve
+Alsaran [36], Kahraman ve arkadaşları [29] farklı
+malzemeleri birleştirmişler ve en yüksek sertliğin
+kaynak metalinde olduğunu ve onu sırasıyla ITAB
+ve esas metalin takip ettiğini belirtmişlerdir.
+Düşük karbonlu çelik ile ferritik paslanmaz çelik
+levhaların birleştirildiği ve ostenitik kaynak
+metalinden oda sıcaklığında elde edilen çentik darbe test sonuçları Şekil 7'de verilmiştir. Grafik
+incelendiğinde en yüksek çentik darbe tokluğu C
+numunesinden elde edilirken en düşük tokluk değeri de A numunesinden elde edilmiştir. Şekil 6'daki
+sertlik değerleri ile kaynaklı numunelerden elde
+edilen tokluk değerleri kıyaslanacak olursa
+sertliğin artmasıyla tokluğun düştüğü görülmektedir. Benzer çalışmada Kahraman ve arkadaşları
+[37], Kılınçer [38] ve Çetinkaya [39] kaynak
+metalindeki sertliğin artmasına bağlı olarak çentik
+darbe dayanımının düştüğünü rapor etmişlerdir.
+
+Şekil 6. Sertlik test sonuçlan (Microhardness test results)
+Şekil 6 incelendiğinde en yüksek sertlik değerlerinin kaynak metallerinden ölçüldüğü ve onu
+sırasıyla ITAB ve ana malzemenin takip ettiği
+açıkça görülmektedir. Ayrıca, tel ilerleme hızının
+artmasına bağlı olarak da (dolayısıyla tel ilerleme
+hızı arttıkça kaynak akım değerleri artmakta)
+sertlik değerlerinde bir düşüş olduğu tespit
+edilmiştir. Bilindiği gibi kaynak ilerleme hızı
+sabit iken tel ilerleme hızının artmasıyla kaynak
+bölgesine verilen ısı girdisi artmaktadır. Gourd
+[34], kaynak esnasında uygulanan ısı girdisinin; ark
+gerilimi, ark akımı ve kaynak hızı tarafından
+belirlendiğini
+rapor
+etmiştir.
+Dolayısıyla
+çalışmada kullanılan parametreler dahilinde,
+kaynak hızı sabit seçildiğinden, kaynak bölgesine
+gönderilen ısı girdisi artmış, bu ısı girdisi de
+sertlik düşüşüne neden olmuştur. Eroğlu ve
+Aksoy [35], kaynakta enerji girişinin kaynak
+
+Şekil 7. Kaynak metali darbe test sonuçları (Weld metal
+impact test results)
+
+Şekil 8'de kaynak işlemlerinde kullanılan orijinal
+malzemelerin ve Şekil 9'da da kaynak yapılmış A
+numunesinden elde edilen mikroyapı görüntüleri
+verilmiştir. Orijinal malzemelerin mikroyapıları
+incelendiğinde her iki malzemenin de genel olarak eş
+eksenel taneli bir yapıya sahip olduğu görülmektedir.
+Şekil 9'da A kaynak bağlantısından çıkarılarak
+hazırlanan makro kesitler incelendiğinde, ferritik
+paslanmaz çelik, düşük karbonlu çelik ve
+östenitik paslanmaz çelik kaynak metalinin farklı
+
+Şekil 8. Kaynak işlemlerinde kullanılan malzemelerin mikroyapıları (Microstructures of the base metal used in this study)
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+27
+
+S. Kılınçer ve N. Kahraman
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+Şekil 9. A numunesinin optik mikroskop görüntüsü (Optical microscopic Picture of sample A)
+görünümler sergilediği görülmektedir. Ayrıca
+kaynaklı bağlantının gerek ferritik gerekse düşük
+karbonlu çelik ergime sınırına bitişik bölgede tane
+irileşmesinin meydana geldiği görülmektedir.
+Bunun yanında ostenitik kaynak metalinin her
+iki malzeme ile de düzenli ve simetrik bir
+birleşme bölgesi meydana getirdiği ve de kaynak
+dikişinin gayet düzgün bir kaynak kepi
+oluşturduğu görülmektedir.
+
+malzemeler 1150°C'nin üzerindeki sıcaklarda tane
+büyümesine karşı aşırı eğilimlidir. Kaynak sırasında
+ITAB'ın bir bölümü 1150°C üzerindeki bir
+sıcaklığa ısınır ve bu bölgede aşırı tane büyümesi
+oluşur. Kaba taneli hale gelen yapı gevrekleşir ve
+geçiş sıcaklığı da yükselir. Bu malzemelerde katı
+halde östenitin ferrite dönüşmesi olayı meydana
+gelmediğinden ısıl işlem yardımı ile tanelerin
+küçülmesi olanağı da yoktur.
+
+Şekil 10 ve l l ' d e sırasıyla B ve C kaynaklı
+numunelerden ve kaynaklı bölgenin karakteristik
+özelliklerini en iyi yansıtan değişik bölgelerinden
+elde edilen mikroyapı resimleri verilmiştir.
+Fotoğraflar dikkatli bir şekilde incelendiğinde,
+birleştirmelerin ferritik tarafında tane irileşmesi
+haricinde tane yapısının değişmediği ancak,
+birleştirmenin diğer tarafında orijinal eş eksenel
+tane yapısının bozunarak irili ufaklı, kısmen
+kolonsal tipte ve genel olarak doğrusal tane
+sınırlarına sahip bir yapıya dönüştüğü
+görülmektedir. Burada, tanelerin morfolojik
+değişimine sebep olarak yapının normalizasyonu,
+ısıya kısa süreli maruz kalması ve nispeten hızlı
+soğuma gösterilebilir.
+
+Benzer şekilde Şekil 10'da verilen kaynak metali
+mikroyapısı ile Şekil l l ' d e verilen kaynak metali
+mikroyapısı incelendiğinde ısı girdisinin artışına
+bağlı olarak tane irileşmesinin arttığı tespit
+edilmiştir. Ayrıca, kaynak metali mikroyapısı
+incelendiğinde, kaynak metalinin katılaşmasının
+kaynak merkez çizgisine doğru gerçekleştiği ve
+tanelerin ısı akış yönünde yönlendiği görülmüştür.
+Ostenitik paslanmaz çelik ile düşük karbonlu
+çeliğin ark kaynak yöntemi ile birleştirildiği benzer
+bir çalışmada da [29], ısı akışma göre tanelerde
+yönlenmenin oluştuğu belirtilmiştir. Kaynak metali
+üzerinde yapılan benzer çalışmalarda [16,40,41]
+kaynak metali tanelerinin ı s ı akış yönünde
+yönlendiği belirtilmiştir.
+
+Şekil 10 ve 11 birbirleriyle kıyaslandığında, ısı
+girdisinin artmasına bağlı olarak gerek ferritik
+paslanmaz çelikte, gerekse düşük karbonlu çelik
+malzemede, ısının tesiri altında kalan bölgede tane
+irileşmesinin arttığı görülmüştür. Yapılan bir
+araştırmada, yüksek enerji girişinin soğumayı ve
+katılaşmayı yeterince yavaşlattığı, bu durumunda
+oluşan yapıların daha fazla kabalaşmasına neden
+olduğu rapor edilmiştir [35], Ayrıca, literatürde [33]
+ferritik paslanmaz çeliklerin en karakteristik
+özelliği; kaynakta ve ısı etkisi altındaki bölgede
+oluşan ve kaynak dikişinin tokluğunda düşüşe
+neden olan tane büyümesidir denilmektedir. Normal
+halde ferritik paslanmaz çelikler ince taneli ve
+sünek b i r yapıya sahiptirler. Ancak, bu
+
+4. SONUÇLAR (CONCLUSIONS)
+
+28
+
+Gaz metal ark kaynak yöntemi i l e ferritik
+paslanmaz çelik ile düşük karbonlu çelik
+malzemelerin ostenitik bir ilave metal kullanılarak
+birleştirildiği bu çalışma sonucunda;
+•
+
+•
+
+2 mm kalınlığında AISI 409 ile düşük karbonlu
+çelik malzemeler uygun ilave metal ve kaynak
+parametreleri kullanılarak, gazaltı kaynak
+yöntemi ile güvenli bir biçimde birleştirilebilir.
+Kaynaklı numunelere uygulanan çekme testi
+sonucunda ayrılma, kaynak bölgesi dışarısında
+ve düşük karbonlu çelik levha çekme boyu
+ortasında meydana gelmiştir.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+S. Kılınçer ve N. Kahraman
+
+Şekil 10. B numunesinin optik mikroskop görüntüleri (Optical microscopic Picture of sample B)
+
+Şekil 11. C numunesinin optik mikroskop görüntüleri (Optical microscopic Picture of sample C)
+•
+•
+•
+
+Yapılan eğme testi sonucunda kaynak
+bölgesinde gözle görülebilir herhangi bir hataya
+rastlanmamıştır.
+Bütün kaynak parametrelerinde, kaynak metali
+sertliğinin ITAB ve esas metalden yüksek
+olduğu görülmüştür.
+Mikroyapı çalışmaları sonucunda kaynak
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+metali ve ısının tesiri altında kalan bölgede
+(ITAB) tane irileşmesinin meydana geldiği
+tespit edilmiştir.
+KAYNAKLAR (REFERENCES)
+1.
+
+Praveen P., Yarlagadda P.K.D.V. ve Kang
+29
+
+S. Kılınçer ve N. Kahraman
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+7.
+8.
+9.
+
+10.
+11.
+12.
+
+13.
+
+14.
+15.
+
+30
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+M.J., "Advancements in pulse gas metal
+arcwelding",
+Journal
+of
+Materials
+Processing Technology, Cilt 164-165, 11131119, 2005.
+Suban M., ve Tusek J., "Dependence of
+Melting Rate in MIG/MAG Welding on the
+Type of Shielding Gas Used", Journal of
+Materials Processing Technology, Cilt
+119,No 1-3, 185-192,2001.
+Gülenç B, Candan İ. ve Kahraman N, "MigMag Kaynağı İle Birleştirilen Boruların
+Tahribatlı ve Tahribatsız Muayenesi", Gazi
+Üniversitesi
+Mühendislik
+Mimarlık
+Fakültesi Dergisi, Cilt 21, No 4, 631637,2006.
+Absi Alfaro S.C., Carvalho G.C. ve
+MeloJunior S.A., "Stand offs indirect
+estimation
+inGMAW",
+Journal
+of
+Materials Processing Technology, Cilt
+157-158, 3-7, 2004.
+Kaçar R., ve Kökemli K., "Effect of
+Controlled Atmosphere on the MIG-MAG
+Arc Weldment Properties", Materials &
+Design, Cilt 26, No6,508-516,2005.
+Raymond J. S., Essentials of Welding,
+Glencoe Publishing Company, California,
+327-334, 1984.
+ASM Handbook, Welding, Brazing and
+Soldering, Cilt 6, USA, 180-186, 2000.
+Kalpakjian,S., "Manufacturing Processes
+for Engineering Materials", Third Edition,
+Addison-Wesley, New York, 747-748, 1997.
+Groover, M. P., "Fundamentals of
+Modern
+Manufacturing
+Materials",
+Processes and Systems, Prentice-Hall, New
+Jersey, 733-735,1996.
+Geary D, Welding, McGraw-Hill, New
+York,49-51,2000.
+Messier W. R., Principless of Welding,
+John Wiley & Sons Inc, New York, 61-63,
+1999.
+Candan 1, Durgutlu A, Kahraman N, Gülenç
+B,"Farklı Pozisyonlarda Mag Kaynağı İle
+Birleştirilen Boruların Kaynak Dikişlerinin
+Ultrasonik ve Mekanik Muayenesi", Gazi
+Üniversitesi Politeknik Dergisi, Cilt: 9 Sayı
+3,203-209, 2006.
+Ertürk İ., Tülbentçi K., "MAG kaynak
+yönteminde kaynak akimi ve ark geriliminin
+sıçrama
+kayıplarına
+etkisi",
+GEV
+Uluslararası
+Kaynak
+Teknolojisi
+Sempozyumu, Istanbul, 71-78, 1996.
+Brumbaugh
+E.
+J.,
+Welders
+Guide,
+Macmillan Publishing Company, New York,
+265-280,1986.
+Durgutlu A., Ark kaynağı yöntemlerinde
+kaynak hızının mikroyapı ve nüfuziyete
+etkisinin incelenmesi, Yüksek Lisans Tezi,
+Gazi Üniversitesi, Fen Bilimleri Enstitiisu,
+Ankara, 1997.
+
+16. Gülenç B, Develi K, Kahraman N ve
+DurgutluA, "Experimental study of the effect
+of hydrogen in argon as a shielding gas in
+MIG welding of austenitic stainless steel",
+International Journal of Hydrogen Energy,
+Cilt 30, No 13-14, 1475-1481,2005.
+17. Tusek J., Suban M., "Experimental research
+ofthe effect of hydrogen in argon as a
+shieldinggas in arc welding of high-alloy
+stainless steel", International Journal of
+Hydrogen Energy, Cilt 25, 369-376, 2000.
+18. Şık A, "MIG/MAG Kaynağı İle Kaynatılan
+Çelik Yapılarda Koruyucu Gaz Karışımlarının
+Mekanik
+Özelliklere
+Etkilerinin
+Araştırılması", Trakya Üniversitesi Fen
+Bilimleri Dergisi, Cilt 8, No 1, 55-60, 2007.
+19. Şık A, "MIG/MAG Metodu İle Kaynak
+Yapılan Yapı Çeliği (St37-2) Levhaların Eğme
+Yorulması
+Gerilmesine
+Çeşitli
+Aktif
+Gazlarının
+Etkisi",
+Gazi
+Üniversitesi,
+Endüstriyel Sanatlar Eğitim Fakültesi
+Dergisi, Cilt 15, 45-57, 2004.
+20. Gülenç B., Tülbentçi K., "Düşük karbonlu
+ve az alaşımlı çeliklerin MIG-MAG
+kaynağında koruyucu gaz seçimi", GEV
+Uluslararası
+Kaynak
+Teknolojisi
+Sempozyumu, İstanbul, 66-70, 1996.
+21. Anik S, Vural M., Kıyıcı K, "MTG-MAG
+Kaynağında Bilgisayar Yardımıyla Kaynak
+Dikişi
+Maliyetinin
+Hesabi",
+GEV
+Uluslararası
+Kaynak
+Teknolojisi
+Sempozyumu, İstanbul, 168-177, 1996.
+22. Akkuş N., Gürler M., Yiğit Ş., "Robotik Ark
+Kaynak ile Manuel Ark Kaynak Üzerine bir
+İnceleme", I. Mesleki ve Teknik Eğitim
+Teknolojileri Kongresi, İstanbul, Cilt III,
+1235-1241, Eylül 2005.
+23. Kurşun
+T.,
+Kılık
+R.,
+"Çeliklerin
+Birleştirilmesinde Gazaltı Kaynak Tekniğinin
+Kullanılması Halinde Gaz Maliyeti", GEV
+Uluslararası
+Kaynak
+Teknolojisi
+Sempozyumu, İstanbul, 56-65, 1996.
+24. Ngo M. D., Duy V. H, Phuong N. T., Kim
+H.K. ve Kim S. B., Development of digital
+gas metal arc welding system, Journal of
+Materials Processing Technology, Cilt 189,
+No 1-3, 384-391, 2007.
+25. Kahraman N. ve Durgutlu A, "316L
+Paslanmaz Çelik ile Bakır Levhaların Örtülü
+Elektrod ve TIG Kaynak Yöntemi İle
+Birleştirilebilirliğinin Araştınlması", Z.K.Ü.
+Karabük
+Teknik
+Eğitim
+Fakültesi,
+Teknoloji Dergisi, Cilt 8, No 1, 43-50,2005.
+26. Anık, S., Farklı metallerin Kaynağı,
+Gedik Kaynak Dünyası, İstanbul, 4-8, 1988.
+27. Kahraman, N., Titanyum ve Bakır Çiftinin
+Ara Bağlayıcılı Difüzyon Sert Lehimlemesi ile
+Fırında
+Birleştirilmesi
+ve
+Mekanik
+Özelliklerinin İncelenmesi, Gazi Üniversitesi Fen Bilimleri Enstitüsü Dergisi, Cilt
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+AISI 409 ve Ç1010 Çeliğin Östenitik Elektrot Kullanarak MIG Kaynak Yöntemi İle...
+
+16, No3,611-618,2003.
+28. Satyanarayana V. V., Reddy G. M., ve
+Mohandas T., "Dissimilar metal friction
+welding of austenitic-ferritic stainless steels",
+Journal
+of
+Materials
+Processing
+Technology, Cilt 160, No 2, 128-137, 2005.
+29. Kahraman N, Gülenç B ve Akça H, "Ark
+Kaynak Yöntemi İle Birleştirilen Ostenitik
+Paslanmaz Çelik İle Düşük Karbonlu
+Çeliğin Mekanik Özelliklerinin İncelenmesi"
+Gazi Üniversitesi Mühendislik Mimarlık
+Fakültesi Dergisi, Cilt 2, No 7, 75-85, 2002.
+30. Tusek J., Kampus Z. ve Suban M., "Welding
+of tailored blanks of different materials",
+Journalof
+Materials
+Processing
+Technology, Cilt119, No 1-3, 180-184, 2001.
+31. Uematsu Y., Akita M., Nakajima M. ve
+TokajiK., "Effect of temperature on high
+cycle fatigue behaviour in 18Cr-2Mo ferritic
+stainless steel", International Journal of
+Fatigue, Cilt 30, No 4, 642-648, 2008.
+32. Ivan J. S., Paulo B. ve Modenesi P. J.,
+"Highfrequency induction welding simulating
+on ferritic stainless steels", Journal of
+Materials Processing Technology, Cilt 179,
+No 1-3, 225-230, 2006.
+33. Eryürek B., Odabaş C. "Çelikler için örtülü
+elektrot seçimi, Gazaltı kaynağı, Paslanmaz
+Çeliklerin Kaynağı", Askaynak Kaynak
+Tekniği Sanayi ve Ticareti A.Ş. Yayını,
+İstanbul, 109-113, 2006.
+34. Gourd L. M., Principles of Welding
+Technology, Third ed. British Library
+Cataloguing in Publication Data, London, 4042, 1995
+35. Eroğlu M., Aksoy M., Enerji Girişinin
+Kaynak Metali Mikroyapısı ve Mekanik
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 24, No 1, 2009
+
+36.
+
+37.
+
+38.
+
+39.
+
+40.
+
+41.
+
+S. Kılınçer ve N. Kahraman
+
+Özellikleri Üzerine Etkisi, Bilim Günleri,
+Bildiriler Kitabı, Makina Mühendisleri
+Odası, Denizli, 434-439, 1999.
+Çelik A., Alsaran A., "Mechanical and Structural
+Properties of Similar and Dissimilar Steel
+Joints",Materials Characterization, Cilt 43, No
+5, 311-318,1999.
+Kahraman N., GUlenç B., Durgutlu
+A.,"Tozaltı Ark Kaynağı ile Kaynaklanan
+Düşük Karbonlu Çeliklerde Serbest Tel
+Uzunluğunun Mikroyapı
+ve
+Mekanik
+Özelliklere Etkisinin Araştırılması", Gazi
+Üniversitesi Fen Bilimleri Dergisi, Cilt 18,
+No 3, 473-480, 2005.
+Kılınçer, S., "Düşük Karbonlu Çeliklerin
+Tozaltı Ark Kaynak Yöntemi ile Kaynak
+Edilebilirliğinin ve Mekanik Özelliklerinin İncelenmesi", Yüksek Lisans Tezi, Gazi
+Üniversitesi,
+Fen
+Bilimleri
+Enstitüsü,
+Ankara, 1998.
+Çetinkaya, C, "Düşük Karbonlu Çeliklerin
+Tozaltı Ark Kaynak Yöntemi İle Kaynak
+Edilebilirliği ve Mekanik Özelliklerinin
+İncelenmesi",
+Gazi
+Üniversitesi,
+Fen
+Bilimleri Enstitüsü Dergisi, Cilt 12, No:2,
+279-293, 1999.
+Durgutlu A. Experimental investigation of the
+effect of hydrogen in argon as a shielding gas
+on TIG welding of austenitic stainless
+steel.Materials and Design, Cilt 25 No:l,
+19-23,2004.
+Durgutlu A, Gülenç B, Tülbentçi K. The
+effectof
+welding
+speed
+on
+the
+microstructure and penetration in arc
+welding, Turkish Journal ofEngineering
+and Environmental Science, Cilt 23, 251259,1999.
+
+31
+
+

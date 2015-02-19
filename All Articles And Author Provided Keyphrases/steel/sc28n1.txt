@@ -1,0 +1,650 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 1, 7-14, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 1, 7-14, 2013
+
+PLAZMA NİTRÜRLENMİŞ X40CRMOV5-1 YÜKSEK
+ALAŞIMLI ÇELİĞİN AŞINMA DAVRANIŞININ
+İNCELENMESİ
+Fatih KAHRAMAN, Gökçe Mehmet GENÇER, Süleyman KARADENİZ
+Dokuz Eylül Üniversitesi Mühendislik Fakültesi Makina Mühendisliği Bölümü, 35397, İzmir,
+fatih.kahraman@deu.edu.tr, mehmet.gencer@deu.edu.tr, suleyman.karadeniz@deu.edu.tr
+(Geliş/Received: 18.08.2011; Kabul/Accepted: 06.12.2012)
+ÖZET
+X40CrMoV5-1 yüksek alaşımlı çeliği farklı işlem süreleri (3h, 5h ve 7h), farklı işlem sıcaklıkları (450, 500 ve
+550 oC) ve sabit gaz karışımı (%75 H2 + %25 N2) altında plazma nitrürlenmiştir. Plazma nitrürlenmiş
+X40CrMoV5-1 yüksek alaşımlı çeliğin plazma nitrürleme özellikleri faz bileşimi, sertlik profili, bileşik tabaka
+kalınlığı, difüzyon tabakasının derinliği ve aşınma direnci ele alınarak incelenmiştir. İncelemeler sonucunda
+X40CrMoV5-1 yüksek alaşımlı çeliğin yüzeyinde ikili nitrür tabakasının oluştuğu ve bu tabakaların (hem beyaz
+ve hem de difüzyon tabakasının) kalınlıklarının sıcaklık ve zamanın artışına bağlı olarak arttığı tespit edilmiştir.
+Plazma nitrürleme yüzeyde oluşan difüzyon tabakasının kalınlıklarına ve sertliklerine bağlı olarak aşınma
+direncini arttırdığı, fakat bileşik tabakanın yüksek sertliğinden dolayı kırılarak abrasif aşınmaya neden olarak
+aşınma direncini azalttığı tespit edilmiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Yüksek alaşımlı çelikler yüksek mekanik ve fiziksel
+özelliklere ihtiyaç duyulan alanlarda kullanılmaktadır.
+Bu çeliklerin yüksek mekanik özelikleri ve aşınma
+direncine sahip olması nedeniyle daha çok talaşlı
+imalat ve plastik şekil verme işlemlerinde takım ve
+kalıp
+malzemesi
+olarak
+kullanılmaktadır.
+X40CrMoV5-1 çeliği sıcak ortam çalışma şartlarına
+uygun, yüksek mukavemet ve tokluk özelliklerine
+sahip olması nedeniyle genellikle kalıp malzemesi
+olarak kullanılmaktadır [1].
+
+Kalıp malzemesi olarak kullanılan çeliklerde genel
+olarak sertleşebilirlik, yüksek aşınma direnci, yüksek
+tokluk ve sertlik değerleri ile belli bir miktara kadar
+şekil değiştirme kabiliyeti arzu edilen özelliklerdir.
+Kalıp malzemesi olarak kullanılan malzemelerin
+aşınma direncinin arttırılması için sertleştirme
+işlemlerine tabi tutulması ve sertleştirme yöntemi
+nedeniyle
+malzemenin
+boyut
+toleranslarının
+bozulmaması çok önemlidir. Bu çelikler su verme ve
+tuz banyolarında sertleştirme gibi geleneksel
+yöntemler
+ile
+sertleştirildiği
+zaman
+boyut
+toleranslarını koruyamaması ve çok yüksek sertlik
+
+F. Kahraman ve ark.
+
+Plazma Nitrürlenmiş X40CRMOV5-1 Yüksek Alaşımlı Çeliğin Aşınma Davranışının İncelenmesi
+
+değerlerine ulaşılamaması gibi önemli sorunlar ile
+karşılaşılmaktadır. Takım ve kalıp ömrünün
+arttırılması için günümüzde plazma nitrürleme [2],
+lazer nitrürleme [3], termal püskürtme [4], CVD [5]
+ve PVD [6] kaplama gibi çeşitli yüzey işlemleri
+kullanılmaktadır.
+Plazma nitrürleme yöntemi sahip olduğu avantajlı
+özellikler nedeniyle (çevreye zararlı olmaması, işlem
+süresinin kısalığı, düşük gaz sarfiyatı nedeniyle ucuz
+olması, işlem sonrası parça yüzey pürüzlülüğünün
+düşük olması, parçada çarpılma ve şekil bozuklarına
+neden olmaması vb.) metal kalıpların yüzey
+sertliğinin arttırılmasında ön plana çıkmaktadır. Bu
+yöntem ile gaz basıncı, gaz miktarı, gaz bileşimi,
+plazma gerilimi ve işlem zamanı gibi işlem
+parametreleri değiştirilerek parça yüzeyindeki
+sertleşen tabaka kalınlıkları ve sertleşme miktarları
+ayarlanabilmektedir [7]. Özellikle Almanya, Fransa,
+Avusturya ve Japonya gibi endüstrisi gelişmiş
+ülkelerde plastik şekil verme işlemlerinde kullanılan
+makine parçalarının (merdane ve kalıplar) plazma
+nitrürleme yöntemleri ile yüzeyleri sertleştirilmektedir
+[8].
+Sıcak iş takım malzemelerinin nitrürlenmesine etki
+eden faktörler günümüze kadar pek çok araştırmacının
+ilgisini çekmiş bir konudur. Ancak bu konuda yapılan
+çalışmalar arasında bir biri ile uyum göstermeyen pek
+çok sonuç bulunmuştur. Dolayısı ile bu konuda netlik
+kazanmamış bazı hususlar bulunmaktadır. Bunlar
+içerisinde en önemli olanı sıcaklık ve zamana bağlı
+olarak tabaka gelişimidir. Bu çalışmalar içerisinde
+Duh ve Lin yaptıkları çalışmalarda zaman ve sıcaklık
+artışına bağlı olarak tabaka kalınlığının arttığını
+belirtirken [9], Karamış yaptığı çalışmalar ile tabaka
+kalınlığının belli bir işlem süresinden sonra
+artmadığını ve durduğunu belirtmektedir [10].
+Plazma nitrürleme yönteminde plazma içerisinde
+belirli bir kinetik enerjiye sahip olan iyonlar saçılma,
+ısınma ve birikme olaylarını gerçekleştirerek işlem
+gören parçaların dış yüzeyinde sert tabakalar
+oluştururlar. Daha açık bir ifadeyle yüzeyde ince, sert
+bir nitrür tabakası meydana getirirler. Bu tabaka,
+demir bazlı alaşımlarda iki kısımdan oluşur. Dıştaki
+tabakaya mikroskoptaki görünüşü nedeniyle beyaz
+veya yapı içerisinde farklı fazların bulunmasından
+dolayı bileşik tabaka, içteki tabakaya ise difüzyon
+tabakası denmektedir. Beyaz tabaka Fe4N (γ) veya
+Fe2-3N (ε) fazlarından birisi veya ikisinin
+karışımından ibarettir. Bu tabakanın özellikleri nitrür
+yapısının homojenliğine ve kalınlığına bağlı olarak
+değişir. Eğer Fe4N (γ) ve Fe2-3N (ε) fazları birlikte
+oluşuyorsa farklı kafes yapıları nedeniyle iç
+gerilmeler artmakta ve dolayısıyla gevrek kırılmaya
+olan eğilim artmaktadır [11]. Bu nedenle plazma
+nitrürleme yönteminde nitrürleme işlemine geçmeden
+önce H2 gazı ile yapılacak olan bir ön temizlik işlemi,
+sertleştirmeye elverişli temiz bir yüzey tabakası elde
+edilerek, beyaz tabaka kalınlığını azaltmakta ve
+
+8
+
+gevrekliği ortadan kaldırmaktadır. Ayrıca nitrürleme
+işleminde kullanılan gaz karışımı içerisindeki H2
+miktarının artması da beyaz tabaka kalınlığının
+azalmasını sağlamaktadır [12]. Beyaz tabakanın
+hemen altındaki difüzyon tabakası ince taneli ve iyi
+dağılmış sert nitrür fazları içerir. Difüzyon bölgesi
+çeliğin cinsine ve işlem parametrelerine bağlı olarak
+75 μm veya daha kalın olabilir.
+Bu çalışmada farklı sıcaklıklar ve işlem sürelerinde
+nitrürlenmiş X40CrMoV5-1 yüksek alaşımlı çeliğin
+plazma nitrürleme davranışı, nitrür tabakasının
+içyapısı, morfolojik özellikleri üzerine plazma
+nitrürleme parametrelerinin etkisi ve elde edilen
+tabakaların aşınma direnci üzerine etkileri
+incelenmiştir.
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL)
+Çalışmada X40CrMoV5-1 yüksek alaşımlı çelik
+kullanılmıştır. Ø8x10 mm ebatlarındaki numuneler,
+nitrürleme işleminden önce 1050 oC’de 30 dakika
+yağda su verme işlemine tabi tutulmuştur. Plazma
+nitrürleme işleminde azot difüzyonu ve nitrür
+fazlarının oluşumu için malzemelerin tane boyutu,
+atomlar arası mesafe ve dislokasyon yoğunluğunun
+etkisi büyüktür. Küçük tane boyutu ve yüksek
+dislokasyon yoğunluğuna sahip martenzit iğnecikleri
+çelikte yüksek azot difüzyonuna neden olur [13, 14].
+Aşınma direncinin yüksek olması istenen çeliklerde
+özellikle difüzyon tabakasının kalın olması
+arzulanmaktadır. Bu nedenle çalışmamızda da
+difüzyon tabakasını genişletmek için plazma
+nitrürleme işleminden önce tüm numunelere su
+verilmiştir. Su verme işlemi sonucunda numunelerin
+yüzey sertlikleri ortalama 280 HV den 640 HV’ye
+çıkarılmıştır. Sertleştirilen numuneler plazma
+nitrürleme işlemine tabi tutulmuştur. Deneylerde
+kullanılan sistem Şekil 1’de verilmiş olan Glow
+Discharge Nitrürleme sistemidir. Yöntemde sıcaklık
+ölçümü, alttan parçaya temas eden Ni-Cr–Ni
+termokupl vasıtasıyla ölçülmektedir.
+Nitrürleme işleminden önce numuneler katot üzerine
+yerleştirilmiş ve işlem odası basıncı 2,2 10-2 mbar
+olana kadar vakuma alınmıştır. Daha sonra “saçılma
+işlemi” için gaz basıncı 6 mbar olana kadar içeriye
+hidrojen gazı verilmiştir. Saçılma işlemi ile
+nitrürlenmeye uygun bir yüzey temizliğine ve yüzey
+pürüzlülüğüne sahip bir yüzey elde edilmiştir.
+Saçılma işlemi, 250 oC işlem sıcaklığı ve 30 dakika
+süreyle gerçekleştirilmiştir. Bu işlemden sonra % 75
+H2, % 25 N2 sabit gaz karışımı vakum odasına
+verilerek 6 mbar’lık bir işlem basıncında nitrürleme
+işlemi gerçekleştirilmiştir. Deneyler 450, 500 ve 550
+o
+C sıcaklık ve 3, 5 ve 7 saat işlem sürelerinde
+gerçekleştirilmiştir. Nitrürleme işlemi sona erdikten
+sonra vakum odasına 7 mbar azot gazı verilerek
+numuneler oda sıcaklığına kadar vakum ortamında
+soğutulmuştur.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Plazma Nitrürlenmiş X40CRMOV5-1 Yüksek Alaşımlı Çeliğin Aşınma Davranışının İncelenmesi
+
+F. Kahraman ve ark.
+
+Şekil 1. Plazma nitrürleme sisteminin şematik diyagramı (Schematic diagram of plasma nitriding system)
+Nitrürlenen numuneler metalografik muayene ve
+sertlik testi için bakalite alındıktan sonra
+zımparalanmış ve parlatılmıştır. Parlatılan numuneler
+%3’lük Nital dağlama sıvısı ile yaklaşık 8-10 saniye
+dağlanmıştır. Dağlama işleminden sonra numuneler
+optik mikroskop ve SEM (Scanning Electron
+Microscobe = Taramalı Elektron Mikroskobu) ile
+incelenmiş ve tabaka kalınlıkları ölçülmüştür. Nitrür
+tabakalarının faz bileşimini Cu Kα radyasyon
+kullanan XRD (X-Ray Diffraction = X-Işını
+Difraksiyonu) ile incelenmiştir. Sertlik deneyleri 80 g
+yük
+altında
+10
+s
+yükleme
+süresiyle
+gerçekleştirilmiştir. Sertlik ölçümleri yüzeyden
+başlayarak difüzyon tabakasının bitimine kadar 20 μm
+aralıklarla yapılmıştır. Aşınma deneyleri pin-on disk
+tipi aşınma cihazında 40 N sabit yük altında ve kuru
+sürtünme şartlarında yapılmıştır.
+3. SONUÇLAR VE TARTIŞMA
+
+(RESULTS AND
+
+DISCUSSION)
+
+XRD sonuçları incelendiğinde farklı işlem sıcaklıkları
+ve sürelerinde nitrürlenen X40CrMoV5-1 yüksek
+alaşımlı çelik numunelerin yüzeyinde benzer fazların
+oluştuğu görülmektedir. Yüzey tabakasındaki ana
+fazlar ε (Fe2-3N) ve γ (Fe4N) demir nitrürleridir.
+Sabit işlem sıcaklığında farklı işlem sürelerinde
+nitrürlenmiş
+numuneler
+incelendiğinde
+işlem
+süresinin artışına bağlı olarak ε (Fe2-3N) nitrürünün
+azaldığı buna karşın γ′ (Fe4N) nitrürünün ise arttığı
+görülmektedir (550 oC). γ′ (Fe4N) nitrürü ancak 5
+saatlik bir işlem süresinden sonra oluşmaktadır (Şekil
+2).
+İşlem sıcaklığının değişmesi durumunda sadece 500
+o
+C’de
+nitrürlenen
+numunelerde
+γ
+(Fe4N)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+nitrür
+yoğunluğunun
+azaldığı,
+ε
+(Fe2-3N)
+yoğunluğunun ise arttığı dolayısıyla beyaz tabakanın
+tek fazlı bir yapı oluşumuna yönlendiği görülmektedir
+(Şekil 3). Fe2-3N nitrürünün hacim merkezli kübik,
+Fe4N nitrürünün yüzey merkezli kübik kafes yapısına
+sahip olması, dolayısıyla farklı kristal kafesi
+boyutlarına sahip olan iki fazın aynı tabakada iç içe
+bulunmaları nedeniyle bu fazlar yapı içerisinde iç
+gerilmelere neden olmaktadır.
+550 oC’de 7 saat plazma nitrürlenmiş bir numunenin
+Şekil 4a’da optik mikroskopta ve Şekil 4b’de ise
+SEM’de kesit görünüşü görülmektedir. Farklı işlem
+sıcaklıklarında ve sürelerinde nitrürlenmiş tüm
+numunelerde olduğu gibi bu numunede de yüzeyden
+merkeze doğru beyaz (bileşik) tabaka ve difüzyon
+tabakası olarak bilinen iki farklı tabaka oluşmuştur.
+En dıştaki tabaka çok ince bir şekilde dağılmış demir
+nitrür (Fe2-3N ve Fe4N) fazlarını içeren beyaz (bileşik)
+tabakadır. Bu tabakanın hemen altındaki tabaka ise
+difüzyon tabakasıdır ve azot burada ya kristal kafes
+içerisinde arayer atomu olarak ya da çok ince dağılmış
+çökeltiler şeklinde bulunmaktadır. Beyaz tabaka
+keskin ve üniform sınırlara sahiptir. Difüzyon
+tabakası ise yüzeyden içe doğru iğneli çökeltiler
+şeklinde oluşmakta ve merkeze yaklaştıkça bu
+çökeltiler kaybolmaktadır. Bu nedenle difüzyon
+tabakası keskin sınırlara sahip değildir ve bu
+tabakanın genişliği sertlik deneyleri sonucunda elde
+edilen sertlik-yüzeyden olan mesafe dağılımı ile
+belirlenir [15]. Bu nedenle beyaz tabaka kalınlığı
+optik mikroskop ile incelemede direk ölçülebilirken
+difüzyon tabakası kalınlığı ancak sertlik deneyinde
+sertliğin yüzeyden olan mesafeye bağlı değişimi ile
+tespit edilebilmektedir [16].
+
+9
+
+F. Kahraman ve ark.
+
+Plazma Nitrürlenmiş X40CRMOV5-1 Yüksek Alaşımlı Çeliğin Aşınma Davranışının İncelenmesi
+
+Şekil 2. 550 oC ‘de 3, 5 ve 7 saat nitrürlenmiş X40CrMoV5-1 yüksek alaşımlı çelik numunelere ait XRD
+difraksiyon grafikleri (XRD diffractions of X40CrMoV5-1 high alloy steel samples that are nitrided for 3, 5 and 7 hours at 550 oC)
+
+Şekil 3. Nitrürlenmemiş, su verilmiş ve çeşitli işlem sıcaklıklarında 5 saat plazma nitrürlenmiş numunelere ait
+XRD difraksiyon grafikleri (XRD diffractions of tempered, untreated and nitrided samples at different temperatures for 5 hours)
+
+Oksit tabakası
+Beyaz tabaka
+
+Difüzyon
+tabakası
+
+Mikrosertlik
+izleri
+
+a
+
+b
+ 
+
+Şekil 4. 550 oC de 7 saat nitrürlenen numunede oluşan tabakalar a) Optik mikroskop görüntüsü b) SEM görüntüsü
+(The layers on nitrided sample for 7 hours at 550 oC) a) Optical microscopy image b) SEM image
+
+10
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Plazma Nitrürlenmiş X40CRMOV5-1 Yüksek Alaşımlı Çeliğin Aşınma Davranışının İncelenmesi
+
+450 oC gibi işlem sıcaklıkları içerisindeki en düşük
+sıcaklıklarda bile beyaz tabaka oluşumu gözlenmiştir.
+Elde edilen en ince tabakalar bu sıcaklık değerinde
+nitrürlenen numunelere aittir (beyaz tabaka 15,75 µm
+ve difüzyon tabakası da 87,45 µm).
+Tabaka kalınlıklarının işlem sıcaklık ve süresinin
+artışına bağlı olarak değiştiği; işlem sıcaklık ve
+süresinin artışına bağlı olarak beyaz tabaka
+kalınlığının arttığı görülmüştür (Şekil 5). Beyaz
+tabaka kalınlığının artışında 500 oC’de ani bir
+sıçramanın olduğu, bu sıcaklıktan itibaren beyaz
+tabaka oluşum hızının arttığı tespit edilmiştir.
+Plazma nitrürlenmiş tüm numunelerin yüzeyinde
+
+F. Kahraman ve ark.
+
+önemli sertlik artışı meydana gelmiştir. Tüm
+numunelerin beyaz tabaka sertlik değerleri 1000 HV’
+nin üzerindedir. Sertlik değerleri yüzeyden merkeze
+doğru azot konsantrasyonunun azalmasına bağlı
+olarak azaldığı görülmektedir. Sertlik değerlerindeki
+bu düşüş Şekil 4a’ daki fotoğrafta yüzeyden merkeze
+doğru ilerledikçe sertlik izlerinin büyümesinden de
+açık bir şekilde görülebilmektedir. Plazma
+nitrürlenmiş tüm numunelere ait yüzeyden merkeze
+doğru sertlik değişimi Şekil 6’da görülmektedir. Şekil
+4a ve Şekil 6’dan görüldüğü gibi tabakaların sertlik
+değerleri işlem süresinin artışına bağlı olarak
+artmaktadır. En yüksek sertlik değerleri 500 oC’de
+nitrürlenen numunelerde tespit edilmiştir.
+
+300
+
+250
+
+Beyaz tabaka
+Difüzyon tabakası
+
+Tabaka kalınlığı (μm)
+
+200
+
+150
+
+100
+
+50
+
+0
+
+450 – 3
+
+450 – 5
+
+450 – 7
+
+500 – 3
+
+500 – 5
+
+500 – 7 550 – 3
+
+550 – 5
+
+550 – 7
+
+ 
+
+ 
+
+Şekil 5. Plazma nitrürlenmiş numunelerin yüzeyinde oluşan tabakaların ortalama kalınlık değişimleri
+
+(Average
+
+thickness evolutions of layers that are developed on the surface of plasma nitrided samples)
+
+ 
+
+Şekil 6. Plazma nitrürlenmiş tüm numunelere ait sertliğin yüzeyden olan mesafeye bağlı değişimi
+
+(Hardness
+
+distributions of all plasma nitrided samples that depend on depth from surface)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+11
+
+F. Kahraman ve ark.
+
+Plazma Nitrürlenmiş X40CRMOV5-1 Yüksek Alaşımlı Çeliğin Aşınma Davranışının İncelenmesi
+
+ 
+
+Şekil 7. Nitrürlenmemiş ve farklı işlem sıcaklıklarında 5 saat nitrürlenmiş numunelerin aşınma deneyi
+sonucunda meydana gelen kütle kaybı eğrileri (Graphs of resultant mass decrease after wear tests of untreated and nitrided
+samples for 5 hours at different temperatures)
+
+ 
+500 oC’nin üzerindeki sıcaklıklarda uzun süreli
+nitrürleme
+işlemlerinde
+tabakaların
+sertlik
+değerlerinde bir düşüş meydana gelmektedir.
+Sertlikteki bu düşüşün çökeltilerin irileşmesinden
+kaynaklandığı düşünülmektedir. Kısa işlem süreleri
+ve düşük sıcaklıklarda (450 oC’nin altında) ise azot
+nüfuziyeti ve çökelti yoğunluğu düşük olduğu için
+tabakaların sertlik değerleri de nispeten daha
+düşüktür. Bu sonuç özellikle ıslah çeliklerinin
+nitrürlenmesinde elde edilen sonuçlarla benzerdir
+[17].
+Şekil 7’de nitrürlenmemiş ve 5 saat farklı işlem
+sıcaklıklarında nitrürlenmiş numunelerde aşınma
+deneyi sonucunda meydana gelen kütle kaybı kayma
+mesafesine bağlı olarak verilmiştir. Kuru sürtünme
+şartları altında nitrürlenmemiş numuneler nitrürlenmiş
+numunelere göre daha düşük aşınma direnci
+göstermişlerdir. Plazma nitrürlenmemiş numunenin
+kütle kaybı kayma mesafesinin artışına bağlı olarak
+sürekli artmaktadır ve kütle kaybı miktarı her zaman
+plazma nitrürlenmiş numunelerinkinden çok daha
+fazladır.
+5500 m kayma mesafesinden sonra nitrürlenmemiş ve
+450 oC’de 5 saat ve 500 oC’de 5 saat nitrürlenmiş
+numunelerin
+aşınma
+yüzeyleri
+Şekil
+8’de
+görülmektedir. Nitrürlenmemiş numunede çok düşük
+miktarda plastik şekil değiştirme ve abrasif aşınmadan
+dolayı çok derin çiziklerin oluştuğu tespit edilmiştir
+(Şekil 8a). 450 oC’de nitrürlenen numunelerde çok
+hafif aşınma çizikleri görülürken (Şekil 8) 500 oC ve
+üzerindeki sıcaklıklarda nitrürlenen numunelerde
+(Şekil 8c) ise bazı abrasif partiküller görülmektedir.
+Bu partiküller çok sert ve kırılgan olan bileşik
+tabakanın yük altında parçalanmasıyla oluşmaktadır
+
+12
+
+ve aşınma miktarını arttırıcı rol üstlenmektedir.
+Bunun sonucunda 500 oC ve üzerindeki sıcaklıklarda
+nitrürlenen numunelerin aşınma direnci 450 oC’de
+nitrürlenen numunelerinkine göre daha düşüktür.
+Beyaz tabakanın oldukça sert ve gevrek olması ve
+maksimum kayma gerilmelerinin yüzeyde oluşması
+nedeniyle çatlakların en üst yüzeyde bulunan bu
+tabaka içerisinde oluşma riskini arttırmaktadır. Bunun
+sonucunda sert ve kırılgan olan beyaz tabaka yük
+altında
+parçalanarak
+abrasif
+partiküllere
+dönüşmektedir. İşlem sıcaklığının değişimine bağlı
+olarak 5 saat süreyle nitrürlenen numuneler
+karşılaştırıldığında beyaz tabaka sertliğinin arttığı ve
+dolayısıyla kırılganlığının da artışına bağlı olarak
+numunelerin
+aşınma
+miktarının
+da
+arttığı
+görülmektedir. Bu nedenle X40CrMoV5-1 çeliğinde
+beyaz tabaka kalınlığının çok ince olması ve hatta
+oluşmaması, aşınma direncini arttırması bakımından
+daha arzu edilen bir durumdur.
+Beyaz tabakada, XRD analizlerinde belirtildiği üzere
+500 oC’de nitrürlenen numunelerde γ (Fe4N)
+yoğunluğu azalmakta, ε (Fe2-3N) nitrür yoğunluğu
+artarak beyaz tabakayı tek fazlı bir yapıda, 450 ve 550
+o
+C’de nitrürlenen numunelerde ise bu numunenin
+aksine beyaz tabakanın iki fazlı bir yapıda olduğu
+görülmektedir. Fe2-3N nitrürünün hacim merkezli
+kübik, Fe4N nitrürünün yüzey merkezli kübik kafes
+yapısına sahip olması nedeniyle farklı kristal kafesi
+boyutlarına sahip olan bu iki fazın tabakalarda
+yarattığı iç gerilmeler nedeniyle aşınma direncini
+azaltma yönünde bir etki yaratacaklardır. Ancak Şekil
+6 ve 7’de görüldüğü üzere bu çelikler için sertlik ve
+tabaka kalınlığının aşınma direnci üzerinde yarattığı
+etkiye nazaran faz yapısının etkisi daha azdır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+Plazma Nitrürlenmiş X40CRMOV5-1 Yüksek Alaşımlı Çeliğin Aşınma Davranışının İncelenmesi
+
+F. Kahraman ve ark.
+
+a
+
+b
+
+c
+Optik Mikroskop
+
+SEM
+
+ 
+
+Şekil 8. 5500 m kayma mesafesinden sonra elde edilen aşınma izleri a) Plazma nitrürlenmemiş b) 450 oC ‘de 5
+saat nitrürlenmiş c) 500 oC ‘de 5 saat nitrürlenmiş (Observed wear scratches after 5500 m sliding distance a) Untreated sample
+b) Nitrided sample for 5 hours at 450 oC c) Nitrided sample for 5 hours at 500 oC)
+
+4. SONUÇ (CONCLUSION)
+Çalışmada, sertlikleri 230 HV’den 640 HV’ye su
+verilerek çıkarılan X40CrMoV5-1 yüksek alaşımlı
+çelik numuneler % 75 H2 + % 25 N2 sabit gaz
+karışımı altında farklı sıcaklık ve işlem sürelerinde
+nitrürlenmiştir. Elde edilen tüm numunelerde beyaz
+ve difüzyon olmak üzere iki farklı tabaka oluşmuştur.
+Tabakada kalınlıkları sıcaklık ve zamanın artışına
+bağlı olarak artmaktadır. XRD analizlerinde beyaz
+tabakanın faz yapısının sıcaklığa bağlı olarak değiştiği
+tespit edilmiştir. 500oC’de nitrürlenen numunelerin
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+beyaz tabakalarında γ (Fe4N) yoğunluğunun azaldığı,
+ε (Fe2-3N) nitrür yoğunluğunun ise artarak bu tabakayı
+tek fazlı bir yapı oluşurken diğer numunelerin beyaz
+tabakalarının iki fazlı bir yapıda olduğu tespit
+edilmiştir.
+Buna göre X40CrMoV5-1 yüksek alaşımlı çeliğinde
+tabaka kalınlığı (gelişimi) sıcaklık ve zamanın artışına
+bağlı olarak artmaktadır. Su verme işlemi sonucunda
+numunelerin yüzey sertlikleri ortalama 280 HV den
+640 HV’ye çıkarken plazma nitrürleme yapıldığında
+ise beyaz tabaka (yüzey) sertliği tüm numunelerde
+
+13
+
+F. Kahraman ve ark.
+
+Plazma Nitrürlenmiş X40CRMOV5-1 Yüksek Alaşımlı Çeliğin Aşınma Davranışının İncelenmesi
+
+1000 HV nin üzerine çıkmakta ve yüzeyden mesafe
+arttıkça sertliği azalmaktadır. En yüksek yüzey sertlik
+değerleri 500 oC sıcaklıkta nitrürlenen numunelerde
+elde edilmiş, bu sıcaklık değerinden sonra yüzey
+sertlik değerlerinin azaldığı tespit edilmiştir.
+Beyaz ve difüzyon tabakalarının aşınma davranışı
+üzerinde etkilerinin farklı olduğu, difüzyon
+tabakasının kalınlıklarına ve sertlik değerlerine bağlı
+olarak aşınma direncini arttırdığı, fakat beyaz
+tabakanın yüksek sertliğinden dolayı kırılarak abrasif
+aşınmaya neden olarak aşınma direncini azalttığı
+tespit edilmiştir. En yüksek aşınma direncini 450
+o
+C’de nitrürlenen numuneler göstermiştir.
+KAYNAKLAR (REFERENCES)
+1. Biermann, D., Weinert, K., Jansen, T., Noyen, M.,
+“Profile and shape grinding of high alloyed
+steels”, International Journal of Microstructure
+and Materials Properties, Vol. 3, No 2/3, 413 –
+423, 2008.
+2. Novak, P., Vojtech, D., Serak, J., “Pulsed-plasma
+nitriding of a niobium–alloyed PM tool steel”,
+Materials Science and Engineering, A 393, 286–
+293, 2005.
+3. Schaaff, P., “Laser Nitriding of Metals”, Progress
+in Materials Science, 47, 1-161, 2002.
+4. Rajasekaran, B., Mauer, G., Vaßen, R., Röttger,
+A., Weber, S., Theisen, W., “Thick tool steel
+coatings using HVOF spraying for wear resistance
+applications”, Surface & Coatings Technology,
+205, 2449–2454, 2010.
+5. Neto, V.F., Vaz, R., Oliveira, M.S.A., Grácio, J.,
+“CVD diamond-coated steel inserts for
+thermoplastic mould tools - Characterization and
+preliminary performance evaluation”, Journal of
+Materials Processing Technology, Vol. 209,
+Issue 2, 1085-1091, 2009.
+6. Sokovi, M., Bahor, M., “On the inter-relationships
+of some machinability parameters in finish
+machining with cermet TiN (PVD) coated tools”,
+Journal of Materials Processing Technology,
+Vol. 78, Issues 1-3, 163-170, 1998.
+7. Kowacs, W., Russell, W., “An Introduction To Ion
+Nitriding, What Is It?, Why Is It Used?, Ion
+
+14
+
+Nitriding”, Proceeding of an International
+Conference on Ion Nitriding, Cleveland/Ohio,
+9–17, 1986.
+8. Karamış, M. B. “İyon Nitrürleme Esasları ve
+Çeliklere Uygulanması”, 4.Ulusal Makina
+Tasarım ve İmalat Kongresi, ODTÜ, Ankara,
+1990.
+9. Duh, J. G., Lin, S. C. 1993. Nitriding Behaviour in
+Fe-Al-Mn-Cr-C Alloys at 1000-1100 Degree C,
+Journal of Materials Science, 28 (22), 59755980.
+10. Karamış, M. B. “An investigation of the properties
+and wear behavior of plasma-nitrided hot-working
+steel (H13), Wear, 150, 331-342, 1991.
+11. Karadeniz, S., Plazma Tekniği, TMMOB
+yayınları, Ankara, Türkiye, 1990.
+12. Karakan, M., Alsaran, A., Çelik, A., “Effects of
+Various Gas Mixtures on Plasma Nitriding
+Behavior of AISI 5140 Steel”, Materials
+Characterization, 49, 241– 246, 2003.
+13. M. Van Stappen, B. Malliet, L. Stals, L. De
+Schepper, J.R. Roos, J.P. Celis “Characterization
+of TiN coatings deposited on plasma nitrided tool
+steel surfaces” Materials Science and Engineering:
+A, 140, 554-562, 1991
+14. Baycık H., “İyon Nitrürleme Ve Çeliğin
+Özelliklerine Etkisi” Pamukkale Üniversitesi
+Mühendislik Fakültesi Mühendislik Bilimleri
+Dergisi, 8 (1), 19-25, 2002.
+15. Karaoğlu S., Karadeniz S., Karaoğlu Ç., “Plazma
+Nitrürlenmiş Az Alaşımlı Bir Çeliğin Aşınma
+Davranışının İncelenmesi” Deü Mühendislik
+Fakültesi Fen Ve Mühendislik Dergisi, 3 (3),
+85-92, Ekim 2001.
+16. Kahraman F., Karadeniz S., “Characterization and
+Wear Behavior of Plasma Nitrided Nickel Based
+Dental Alloy” Plasma Chemistry and Plasma
+Processing, 31, 595–604, 2011.
+17. Polat Ş., Atapek Ş. H., Topaç H., “Gaz Nitrasyon
+ile Yüzeyleri Sertleştirilmiş AISI 4140 ve DIN
+1.2344
+Çeliklerinde
+Mikroyapısal
+Karakterizasyon” 6th International Advanced
+Technologies Symposium (IATS’11), Elazığ, 1618 May 2011.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 1, 2013
+
+

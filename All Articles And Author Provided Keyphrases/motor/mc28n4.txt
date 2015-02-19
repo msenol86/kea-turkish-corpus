@@ -1,0 +1,782 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 4, 787-793, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 4, 787-793, 2013
+
+HAVACILIK YAKITI JP-8 VE DİZEL KARIŞIMLARININ TEK
+SİLİNDİRLİ BİR DİZEL MOTORUNDA PERFORMANS VE
+EGZOZ EMİSYONLARINA ETKİSİ
+Hasan YAMIK*, Alper CALAM**, Hamit SOLMAZ***, Yakup İÇİNGÜR***
+*
+
+Bilecik Üniversitesi, Mühendislik Fakültesi, Makine ve İmalat Mühendisliği, 065750 BİLECİK
+Gazi Üniversitesi, Atatürk Meslek Yüksek Okulu, Otomotiv Teknolojisi Programı, Çubuk /ANKARA
+***
+Gazi Üniversitesi, Teknoloji Fakültesi, Otomotiv Mühendisliği Bölümü 06500 Teknikokullar/ANKARA
+hasan.yamik@bilecik.edu.tr, acalam@gazi.edu.tr, hsolmaz@gazi.edu.tr, icingur@gazi.edu.tr
+**
+
+(Geliş/Received: 16.04.2012; Kabul/Accepted: 11.07.2013)
+ÖZET
+Bir havacılık yakıtı olan JP-8, 1980li yılların sonlarına doğru NATO ülkeleri ortak askeri yakıtı olarak kabul
+edilmiştir. % 99,8’i kerosenden meydana gelen JP-8, askeri uygulamalara uygun hale getirebilmek için çeşitli
+katkı maddeleri ile karıştırılmaktadır. JP-8 yakıtının en önemli özelliği donma noktasının -40oC’nin altında
+olmasıdır. Bu çalışmanın amacı JP-8 yakıtının referans dizel yakıtı ile çeşitli oranlarda harmanlanarak kullanım
+imkanını araştırmaktır. Bu çalışmada JP-8 yakıtı tek silindirli, 4 zamanlı ve direkt enjeksiyonlu bir dizel
+motorunda referans dizel yakıtına hacimsel olarak %5, %10, %25 ve %50 oranlarında ilave edilmiş, motor
+performans parametreleri ve egzoz emisyonları incelenmiş ve referans dizel yakıtı sonuçları ile karşılaştırılmıştır.
+Motor momenti ve özgül yakıt tüketimi JP-8 karışımlı yakıtlarda referans dizel yakıtına göre kötüleşme
+göstermiştir. Egzoz emisyonları bakımından NOx emisyonları JP-8 karışımlı yakıtlarda referans dizel yakıtına
+göre iyileşirken, CO ve is emisyonlarında artış gözlenmiştir.
+
+1.
+
+GİRİŞ (INTRODUCTION)
+
+Havacılık yakıt teknolojisi; petrol rafinerileri, motor
+ve uçak üreticileri ve havayolu endüstrisi gibi bir çok
+kaynağın ortak girişimi ile gelişmiştir. Havacılık
+yakıtlarının askeri taşıtlarda kullanımının en temel
+fikirleri 2. Dünya Savaşı’ndan sonra, lojistik olarak
+tedarik zincirini kolaylaştırmak amacıyla atılmıştır.
+
+Günümüzde kullanılmakta olan en yaygın havacılık
+yakıtları Jet A1 ve JP-8’dir. Jet A1 sivil havacılık
+uçaklarında kullanılmakta iken, JP-8 askeri havacılık
+için JP-4 ve JP-8 yakıtlarının geliştirilmiş bir
+versiyonudur [1-6].
+1988 yılında NATO ülkeleri askeri uçak ve tüm kara
+araç ile ekipmanlarında kullanılmak üzere tek bir
+
+H. Yamık ve ark.
+
+Havacılık Yakıtı JP-8 ve Dizel Karışımlarının Tek Silindirli Bir Dizel Motorunda Performans...
+
+yakıt kullanımı için ortak bir karara varmışlardır [7].
+Bu fikir “tek yakıt konsepti” olarak adlandırılmış ve
+havacılık yakıtı olan JP-8 yakıtı (F34 olarak da ifade
+edilmektedir) askeri havacılıkta ve askeri karayolu
+ulaşım araçlarında kullanılacak olan tek tip yakıt
+olarak seçilmiştir [1-6]. Bu uygulamanın temel nedeni
+savaş zamanlarında yüksek lojistik harcamalarının
+önüne geçmek ve akaryakıt kontrolünün NATO
+tarafından daha etkin bir şekilde gerçekleştirilmesini
+sağlamaktır [8].
+Jet yakıtları gelişmiş uçaklar için iki önemli rol oynar.
+Birinci ve en belirgin özellik uçuş için gerekli itiş
+enerjisini sağlamaktır. Önemi giderek artan bir diğer
+özellik ise gövde, motor parçaları ve diğer sistemler
+için birincil soğutucu olarak görev yapmasıdır. İçten
+yanmalı motorların icadından beri motor sıcak
+parçalarını soğutma gereksinimi her zaman ihtiyaç
+duyulan bir durumdur. Motor performans hedefleri ve
+uçuş hızları arttıkça “ısıl yönetim” daha fazla önem
+kazanmıştır [9].
+JP-8, askeri uygulamalarda kullanıma uygun hale
+getirebilmek için özel katkı maddeleri ile
+harmanlanmış, %99,8’i kerosen içerikli hidrokarbon
+anlamında binlerce karışımdan meydana gelen
+yakıtlardır. JP-8 için bu hidrokarbonlar; aromatikler
+(yaklaşık %20), n-parafinler ile izo-parafinler (%60)
+ve siklo-parafinler (%20) olarak 3 geniş sınıfa
+ayrılabilir. En yüksek hidrokarbon konsantrasyonunu
+normal parafinler oluşturmaktadır. Siklo-parafinler ve
+aromatikler çoğunlukla tek halkalı moleküllerden
+oluşurlar. JP-8’i oluşturan çeşitli bileşenlerin
+konsantrasyonu kullanılan ham petrole, uygulanan
+işlem basamaklarına ve diğer faktörlere bağlı olarak
+her üretimde önemli ölçüde farklılıklar gösterebilir
+[10-12]. Askeri havacılık yakıtı JP-8’i, Jet A1 ve
+diğer havacılık yakıtlarından ayıran en önemli özelliği
+korozyon inhibitörü ve yakıt sistemi buzlanma
+inhibitörü içermesidir. JP-8 bu özellikleri sayesinde
+diğer havacılık yakıtları ve dizel yakıtına göre soğuk
+iklim şartlarında stratejik bir önem kazanmaktadır
+[13,14].
+JP-8 başlangıçta bir havacılık yakıtı olarak
+değerlendirilmesine rağmen kullanım alanı dizel
+motoru ile donatılmış kara taşıtlarında da olacak
+şekilde genişletilmiştir [10,11]. Ancak böyle bir
+çalışmaya karar vermeden önce NATO üyesi ülkelerin
+dizel motorlu araçlarda aviyonik esaslı yakıtların
+kullanımı ile uygulamada ortaya çıkabilecek sorunları
+tespit edebilmek adına bazı ön çalışmalar yapılmıştır
+(tanklar, taşıyıcılar vb. araçlar) [13,15].
+Dizel yakıtına göre daha düşük yoğunluğa sahip olsa
+da, yakıt sistemi bir yüksek basınç pompası ve
+enjektörden oluşan dizel motorlarında yakıt olarak JP8’in kullanılması mümkündür. Ancak bu durumda
+yakıt özelliklerine bağlı olarak motor torku ve özgül
+yakıt tüketiminde farklılıklar ortaya çıkacaktır
+[4,5,16,17]. JP-8 ve standart dizel yakıtının alt ısıl
+değerlerinin birbirine oldukça yakın olduğu
+bilinmektedir. Bazı kaynaklarda ise JP-8’in alt ısıl
+
+788
+
+değerinin daha yüksek olduğu belirtilmiştir [18].
+Dolayısıyla sıkıştırma ile ateşlemeli motorlarda JP-8
+kullanılması durumunda motor performansında
+herhangi bir kötüleşme beklenilmemektedir. Bununla
+birlikte JP-8’in içten yanmalı bir motorda kullanımını
+sınırlayan önemli iki parametre bulunmaktadır.
+Bunlardan birisi setan sayısının dizel yakıtından daha
+düşük olmasıdır. Bu durum tutuşma gecikmesi
+süresinin uzayarak yanma işleminin beklenilenden
+daha kötü bir hal almasına ve hatta dizel
+vuruntusunun artmasına neden olabilir. İkincisi ise JP8’in yağlama özelliğinin dizel yakıtına göre daha
+düşük olmasıdır. Bu kerosenden daha yüksek bir
+kaynama sıcaklığı aralığına sahip olan dizelin daha
+yüksek oranda doğal yağlayıcı madde içermesinden
+kaynaklanabilir [19]. Bilindiği üzere dizel motorunda
+yakıt enjeksiyon sisteminde bulunan yüksek basınç
+pompası ve enjektör gibi parçaların yağlanması işlemi
+dizel
+yakıtı tarafından gerçekleştirilmektedir.
+Yağlama özelliği düşük olan JP-8’in kullanılması
+durumunda pompa ve enjektör iğnesinde aşıntı
+miktarı artarak sistemin arızalanmasına neden olabilir
+[19,20]. Literatürde JP-8’in yanması sonucu ortaya
+çıkan emisyonlar konusunda az sayıda çalışma
+bulunmaktadır. Çünkü bu yakıtın farklı bölgeden
+temin edilişinde yüzlerce farklı bileşiklerden oluşması
+ve farklı oranlarda aromatikler içermesi dolayısıyla
+araştırmacılar genellikle JP-8’in yanma performansını
+incelemişlerdir [15]. Ayrıca yapılan çalışmalarda JP-8
+ve dizel yakıtları bire bir karşılaştırılmış, JP-8 ve dizel
+karışımlarının motor performansına olan etkileri
+incelenmemiştir [2,5,21]. Bununla birlikte JP-8’in
+yağlayıcılık özelliğini arttırabilmek için JP-8 ve
+biyodizel karışımları ile yapılmış çalışmalar
+mevcuttur [19,22].
+Dizel yakıtının en önemli problemlerinden biri donma
+noktasının ve buna bağlı olarak soğuk filtre tıkanma
+noktasının özelliklerinin kötü olmasıdır [23-28]. JP8’in ise dizel yakıtına göre donma noktası ve soğuk
+filtre tıkanma noktası değerleri oldukça düşüktür. Bu
+çalışmanın amacı çeşitli oranlarda dizel yakıtı ve JP-8
+karıştırılarak soğuk iklim şartlarında bu yeni yakıtın
+kullanılması durumunda motor performans ve
+emisyonlarına etkisi araştırılmıştır. Deneyler direkt
+enjeksiyonlu bir dizel motorunda gerçekleştirilmiştir.
+2.
+
+MATERYAL VE METOT
+
+(MATERIAL AND
+
+METHOD)
+
+2.1 Deney Yakıtları (Test Fuels)
+Referans dizel yakıtı ve JP-8 yakıtından dört farklı
+oranda yakıt karışımları hazırlanmıştır. Bu karışımlar
+dizel yakıtına hacimsel olarak %5, %10, %25 ve %50
+JP-8 ilave edilerek hazırlanmıştır. JP-8 yakıtının
+çeşitli özellikleri Tablo 1’de görülmektedir.
+Hazırlanan yeni yakıtların homojen bir şekilde
+karışması sağlanarak 24 saat oda sıcaklığında
+beklenmiş ve herhangi bir faz ayrışması ve çökelme
+gözlenmemiştir. Gerçekleştirilen tüm deneyler
+öncesinde motorun yakıt sistemi deney yapılacak yeni
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Havacılık Yakıtı JP-8 ve Dizel Karışımlarının Tek Silindirli Bir Dizel Motorunda Performans...
+
+H. Yamık ve ark.
+
+Tablo 1. Deney yakıtlarının özellikleri (Specifications of test fuels)
+Yakıt Tipi
+
+Dizel
+3
+
+o
+
+Yoğunluk (g/cm , 15 C)
+
+JP-8
+
+0,8372
+o
+
+Viskozite (cSt)
+
+Metot
+
+0,7950
+
+ASTM D 1298
+o
+
+2,8(40 C)
+
+3,87(40 C)
+
+ASTM D 445
+
+-5
+
+-48,5
+
+ASTM D 2386
+
+Parlama Noktası ( C)
+
+73
+
+41
+
+ASTM D 93
+
+Alt Isıl Değer (kcal/kg)
+
+10450
+
+10200
+
+ASTM D 2015
+
+Setan Sayısı
+
+54
+
+45
+
+ASTM D 976
+
+o
+
+Soğuk Filtre Tıkanma Noktası ( C)
+o
+
+yakıt ile bir önceki yakıttan temizlenmiş ve deneye
+başlanmıştır.
+2.1 Deney Prosedürü (Experimental Procedure)
+Deneyler tek silindirli, direkt enjeksiyonlu ve 4
+zamanlı bir dizel motorunda, tam yük şartlarında
+gerçekleştirilmiş ve performans ölçümleri Cussons
+P8160 marka test düzeneğinde yapılmıştır. Deney
+motorunun
+teknik
+özellikleri
+Tablo
+2’de
+görülmektedir.
+Tablo 2. Deney motorunun özellikleri
+
+(Specifications of
+
+test engine)
+
+Motor Tipi
+Silindir sayısı
+Silindir çapı x strok
+(mm)
+Silindir hacmi (cm3)
+Sıkıştırma oranı
+Maksimum tork
+Enjektör püskürtme
+basıncı (bar)
+
+4-Zamanlı DI Dizel
+Motoru
+1
+86x68
+395
+18:1
+2200 min-1’de 19,6 Nm
+180
+
+240
+
+Püskürtme avansı
+
+Deneylerde kullanılan DC elektrikli dinamometre
+10kW güç absorbe edebilmekte ve maksimum 4000
+min-1’de çalışabilmektedir [29,30]. Motor hızı,
+dinamometre şaft mili üzerine yerleştirilmiş olan dişli
+teker üzerinde yer alan bir sensör ile ölçülmüştür.
+Yakıt tüketimi için 1 g hassasiyetinde ve maksimum
+30 kg’a kadar ölçüm yapabilen Dikomsan JS-B marka
+elektronik bir terazi ve Rucanor marka 0,01 s
+hassasiyetinde ölçüm yapabilen bir kronometre
+kullanılmıştır. İs ölçümü için VLT 2600 S marka
+opasimetre kullanılmıştır. Emisyon ölçümleri için de
+Testo 350 XL marka egzoz gaz analizörü
+kullanılmıştır. Tablo 3’te is opasimetresi ve Tablo
+4’te egzoz gaz analizörünün teknik özellikleri
+verilmiştir. Şekil 1’de deney düzeneğinin genel
+görünüşü görülmektedir.
+Tablo 3. İs opasimetresinin özellikleri (Technical features
+of smoke opacymeter)
+
+Parametre
+Duman yoğunluğu
+k duman faktörü (m-1)
+
+Ölçüm
+Aralığı
+0–99 %
+0–10
+
+Doğruluk
+0,01
+0,01
+
+Tablo 4. Egzoz gaz analizörü teknik özellikleri (Technical features of exhaust gas analyser)
+Yanma ürünleri
+Ölçüm Aralığı
+Doğruluk
+Oksijen (O2)
+0–25% vol
++/- 0,2 mV
+Karbonmonoksit (CO)
+0–10000 ppm
+5 ppm (0 – 99 ppm)
+Karbondioksit (CO2)
+0–50% vol
+± 0,3%vol +1%mV (0–25%vol)
+Hidrokarbon (HC)
+0,01–4%
+< 400 ppm (100–4000 ppm)
+Azot Oksit (NOx)
+0–3000 ppm
+5 ppm (0-99 ppm)
+
+Şekil 1. Deney düzeneğinin genel görünüşü (Shematic representation of the experimental apparatus)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+789
+
+Havacılık Yakıtı JP-8 ve Dizel Karışımlarının Tek Silindirli Bir Dizel Motorunda Performans...
+
+H. Yamık ve ark.
+
+Motor hızı
+
+0–9999 min-1
+
+1 min-1
+
+Deneyler gerçekleştirilmeden önce deney motoru test
+edilecek yakıt ile çalıştırılmış ve motorun çalışma
+sıcaklığına gelmesi beklenmiştir. Deneyler motorun
+tam yük konumunda ve maksimum motor momentini
+veren ateşleme avansında gerçekleştirilmiştir.
+Deneyler 1750-3000 min-1 motor hızları aralığında
+gerçekleştirilmiş ve her 250 min-1 motor hızı
+aralığında veriler kaydedilmiştir.
+3. SONUÇLAR VE TARTIŞMA
+
+(RESULTS AND
+
+DISCUSSION)
+
+3.1 Motor Momenti (Engine Torque)
+Şekil 2’de motor momentinin motor devrine bağlı
+olarak değişimi görülmektedir. Referans dizel
+yakıtına JP-8 ilave edildiğinde motor momentinin
+karışımdaki JP-8 miktarına bağlı olarak azaldığı
+görülmektedir. Motor momentindeki azalma JP-8’in
+yoğunluğunun referans dizel yakıtına göre daha düşük
+olmasından kaynaklanabilir. JP-8 ve referans dizel
+yakıtlarının alt ısıl değerleri birbirine çok yakın
+olmasına rağmen JP-8’in yoğunluğunun daha düşük
+olması içeri sürülen yakıt miktarı aynı olsa bile daha
+düşük enerji kapasitesine sahip olmasına neden olur
+[1]. JP-8’in kolay buharlaşabilme özelliğine bağlı
+olarak yakıt atomizasyonunun daha iyi olması ve
+karışım oluşumunun hızlanması beklenilebilir [2].
+Ancak JP-8’in setan sayısı referans dizel setan
+sayısından daha düşüktür. Setan sayısının düşük
+olması aynı püskürtme avansında tutuşma gecikmesi
+süresinin uzamasına neden olacaktır. Bu durumda
+maksimum silindir içi basıncı azalır. Motor
+momentindeki azalma referans dizel yakıtına göre
+ortalama, sırası ile %3,2, %3,9, %4,1 ve %5,5 olarak
+gerçekleşmiştir.
+
+Şekil 3’te deney yakıtlarının motor devrine bağlı
+olarak özgül yakıt tüketimi sonuçları görülmektedir.
+Deney yakıtlarında karışımdaki JP-8 oranının
+artmasına bağlı olarak özgül yakıt tüketimi
+artmaktadır. Bu artış referans dizel yakıtına göre sırası
+ile ortalama %1,5, %2,1, %2,9 ve %5,4 olarak
+gerçekleşmiştir. Karışımdaki JP-8 oranına bağlı
+olarak özgül yakıt tüketiminin artması JP-8 in dizel
+yakıtından daha düşük alt ısıl değere sahip
+olmasından kaynaklandığı düşünülebilir. Ancak özgül
+yakıt tüketimindeki artışın temel nedeni JP-8’in düşük
+yoğunluğu ve düşük setan sayısıdır. Birim hacimdeki
+JP-8 ve referans dizel yakıtının enerji kapasiteleri
+karşılaştırıldığında JP-8’in enerji yoğunluğu daha
+düşük olmaktadır. Silindir içerisine sürülen enerji
+yoğunluğunun azalmasından dolayı JP-8 içeren yakıt
+karışımlarında özgül yakıt tüketimi artış göstermiştir.
+Özgül yakıt tüketimi artışının diğer bir nedeni JP-8’in
+düşük setan sayısı olabilir. Tutuşma gecikmesi
+süresinin uzamasıyla maksimum silindir içi basıncı
+azalabilir.
+
+Şekil 3. Motor devrine bağlı olarak özgül yakıt
+tüketiminin değişimi (Variations of specific fuel consumption
+by engine speed)
+
+3.3 Egzoz Emisyonları (Exhaust Emissions)
+
+Şekil 2. Motor devrine bağlı olarak motor
+momentinin değişimi (Variations of engine torque by engine
+speed)
+
+3.2 Özgül Yakıt Tüketimi (Specific Fuel Consumption)
+
+790
+
+Şekil 4’te NOx emisyonlarının motor devrine bağlı
+olarak değişimi görülmektedir. NOx emisyonlarının
+tüm yakıt tipleri için motor devrine bağlı olarak
+azaldığı görülmektedir. Bu durumun birinci nedeni
+motor devrinin artmasına bağlı olarak silindir
+içerisindeki gaz hareketinin ve türbülansın artmasıdır.
+Dolayısıyla hava ve yakıt karışım süreci hızlanacak ve
+tutuşma gecikmesi süresi de kısalacaktır. İkinci neden
+ise motor devri arttıkça yanma reaksiyonu için gerekli
+olan mevcut sürenin kısalmasıdır. Sürenin azalmasına
+bağlı olarak yanma reaksiyonu boyunca silindir içi
+sıcaklığı çok fazla artamadan çevrim tamamlanacaktır
+[18,31].
+JP-8 karışımlı yakıtların NOx emisyon değerlerinin
+karışımdaki JP-8 miktarına bağlı olarak referans yakıt
+dizele göre azaldığı belirlenmiştir. Karışımdaki JP-8
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Havacılık Yakıtı JP-8 ve Dizel Karışımlarının Tek Silindirli Bir Dizel Motorunda Performans...
+
+miktarı arttıkça JP-8’in düşük yoğunluğuna bağlı
+olarak enerji yoğunluğu azalmaktadır. Bu durum
+silindir içerisindeki maksimum basınç ve sıcaklığın
+daha düşük olmasına ve dolayısıyla NOx
+emisyonlarının azalmasına neden olmuştur. NOx
+emisyonlarındaki azalmanın diğer bir nedeni ise JP8’in düşük setan sayısıdır.
+
+Şekil 4. Motor devrine bağlı
+emisyonlarının değişimi (Variations of
+
+olarak
+
+H. Yamık ve ark.
+
+Deney yakıtları içerisinde karışımdaki JP-8 miktarına
+bağlı olarak referans dizel yakıtına göre is emisyonları
+artış göstermiştir. İs emisyonlarının oluşumunda
+hava/yakıt
+oranı
+ve
+setan
+sayısı
+önemli
+parametrelerdir. JP-8’in hava/yakıt oranı dizele göre
+daha düşüktür [18]. Ayrıca JP-8 yakıtı kolay
+buharlaşabilme özelliğine sahiptir. Bu durumda is
+emisyonlarının azalması beklenilebilir. Ancak JP-8’in
+setan sayısının dizele göre daha düşük olması aynı
+püskürtme avansında yanma işleminin kötüleşmesine
+neden olabilir. Buna bağlı olarak is emisyonları artar.
+Ayrıca dizel motorları fakir karışımlı motorlardır [32].
+Dizel ve JP-8 karışımının hava/yakıt oranının daha az
+olması karışımı daha da fakirleştirerek yanma
+reaksiyonunun yarım kalmasına neden olabilir. Buna
+bağlı olarak da is emisyonlarının artması beklenebilir.
+
+NOx
+
+NOx emissions by
+
+engine speed)
+
+Şekil 5’te CO emisyonlarının motor hızına bağlı
+olarak değişimi görülmektedir. Deney yakıtları
+içerisinde JP-8’in artışına bağlı olarak CO
+emisyonları referans dizel yakıtına göre artmaktadır.
+JP-8’in düşük setan sayısı dezavantajı tutuşma
+gecikmesi süresinin uzamasına neden olur [1,3]. Bu
+nedenle yanma reaksiyonları için gerekli olan süre
+azalacağından CO emisyonları artabilir.
+
+Şekil 6. Motor devrine bağlı olarak is emisyonlarının
+değişimi (Variations of smoke emissions by engine speed)
+4.
+
+SONUÇLAR (CONCLUSION)
+
+Bu çalışmada referans dizel yakıtı ve dizel yakıtına
+hacimsel olarak %5, %10 %25 ve %50 oranlarında
+havacılık yakıtı olan JP-8 karıştırılarak elde edilen
+yakıt
+karışımlarının
+performans
+deneyleri
+karşılaştırmalı olarak incelenmiştir. Bu deneyler için
+tek silindirli, direkt enjeksiyonlu, 4 zamanlı bir dizel
+motoru kullanılmıştır. Elde edilen sonuçlar şöyledir;
+
+engine speed)
+
+JP-8 ve referans dizel yakıtının alt ısıl değerleri
+birbirine çok yakın olmasına rağmen, JP-8’in daha
+düşük yoğunluğa sahip olması birim hacimde silindir
+içerisine daha az enerji sürülmesine neden olmakta
+ve bunun sonucunda referans dizel yakıtına göre JP-8
+içeren karışım yakıtlarında, karışımdaki JP-8
+miktarına bağlı olarak motor momentinde azalma
+gözlenmiştir.
+
+Şekil 6’da is emisyonlarının motor devrine bağlı
+olarak değişimi görülmektedir. İs emisyonu silindir
+içerisindeki tamamlanmamış yanma sonucu açığa
+çıkmaktadır.
+Yanmanın
+iyileştirilmesi
+is
+emisyonlarında azalmaya neden olur [31].
+
+JP-8’in alt ısıl değeri referans dizel yakıtı ile
+karşılaştırıldığında bir miktar daha azdır. Bu durum
+JP-8 içeren karışım yakıtlarında özgül yakıt
+tüketiminin referans dizel yakıtına göre bir miktar
+artış göstermesine neden olmuştur. Ayrıca JP-8’in
+
+Şekil 5. Motor devrine bağlı
+emisyonlarının değişimi (Variations of
+
+olarak
+
+CO
+
+CO emissions by
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+791
+
+H. Yamık ve ark.
+
+Havacılık Yakıtı JP-8 ve Dizel Karışımlarının Tek Silindirli Bir Dizel Motorunda Performans...
+
+daha düşük yoğunluğa sahip olması birim hacimde
+silindir içerisine daha az enerji sürülmesine neden
+olmaktadır. Motorun çalışma parametrelerine göre
+aynı yük ve devir şartlarında referans dizel yakıtı ile
+aynı miktarda motor momenti elde edilebilmesi için
+JP-8 içeren karışımlarda yanma odasına daha fazla
+yakıt püskürtülmesi gereği doğacaktır. Bu durum JP8 içeren karışım yakıtlarının özgül yakıt tüketiminin,
+referans dizel yakıtına daha yüksek çıkmasına neden
+olmuştur.
+JP-8 içeren karışım yakıtlarında referans dizel
+yakıtına göre silindir içerisine sürülen enerji,
+yakıtların yoğunluk farklılıklarından dolayı daha
+azdır. Ayrıca JP-8’in setan sayısı referans dizel
+yakıtına göre daha düşüktür. Karışımlardaki JP-8
+miktarının artması tutuşma gecikmesi süresinin daha
+da uzun sürmesine neden olmaktadır. Silindir
+içerisine sürülen enerjinin azalması ve tutuşma
+gecikmesi süresinin artmasıyla silindir içi maksimum
+basınç ve sıcaklıkları JP-8 içeren karışım yakıtlarında
+referans dizele göre daha düşüktür. Bu nedenle NOx
+emisyonları, JP-8 içeren karışım yakıtlarında referans
+dizel yakıtına göre daha az elde edilmiştir.
+Setan sayısının JP-8 içeren karışım yakıtlarında
+referans dizel yakıtına göre daha düşük olması
+tutuşma süresinin daha uzun sürmesine ve silindir
+içerisinde yanma süresinin daha da kısalmasına
+neden olmaktadır. Bu nedenle eksik yanma ürünü
+olarak bilinen CO ve is emisyonları JP-8 karışımı
+yakıtlarda referans dizel yakıtına göre artış
+göstermiştir.
+Sonuç olarak; dizel ve JP-8 karışım yakıtlarında
+referans dizel yakıtına göre motor momentinde
+azalma, ÖYT’de artış görülmüştür. Egzoz emisyonları
+bakımından ise NOx değerleri azalmış, CO ve is
+emisyonları artış göstermiştir. Tüm bu parametreler
+birlikte değerlendirildiğinde soğuk iklim şartlarında
+%5 JP-8+%95 dizel yakıtı ve %10 JP-8+%90 dizel
+yakıt karışımları kullanıldığında motor performansı
+bir miktar kötüleşse de kullanılan karışım yakıtlarının
+donma noktası ve soğuk filtre tıkanma noktası
+iyileşeceğinden tercih edilebilir.
+KAYNAKLAR (REFERENCES)
+1. Papagiannakis R.G., Kotsiopoulos P.N., Hountalas
+D.T., Yfantis E., “Single fuel research program
+comparative results of the use of jp-8 aviation fuel
+versus diesel fuel on a direct injection and indirect
+injection diesel engine”, SAE Paper, 01:1673,
+2006.
+2. Jinwoo L., Choongsik B., “Application of JP-8 in
+a heavy duty diesel engine”, Fuel, 90:1762-1770,
+2011.
+3. Owens E.C., LePera M.E., Lestz S.J.., “Use of
+aviation turbine fuel jp-8 as the single fuel on the
+battlefield”, SAE Paper 892071; 1989.
+
+792
+
+4. Lestz
+S.J.,
+LePera
+M.E.,
+“Technology
+demonstration of US army ground material
+operating on aviation kerosene fuel”, SAE Paper
+920193, 112(4):204–205, 1992.
+5. Kouremenos D.A., Rakopoulos C.D., Hountalas
+D.T., “Experimental investigation of the
+performance and exhaust emissions of a swirl
+chamber diesel engine using jp-8 aviation fuel”,
+International Journal of Energy Res.,
+21(12):1173–1185, 1997.
+6. Lacey P.I., Lestz S.J., “Effect of low-lubricity
+fuels on diesel injection pumps – part I: field
+performance”, SAE Paper 920823; 1992.
+7. Moses C., Fletcher R., “The single fuel concept”
+Special Meeting Report, Propulsion and
+Energetics Panel of AGARD, 1993.
+8. Drown, D.C., Harper, K., Frame, E., “Secreening
+vegetable oil alcohol esters as fuel lubricity
+enhancers”, Journal of the American Oil
+Chemists’ Society, 786(6):579-584.
+9. Edwards T., Maurice L.Q., “HyTech fuels/fuel
+system research”, AIAA Paper, 98:1562, 1998.
+10. Warren, M.I., “JP-8, the Single Fuel Forward, an
+Information Compendium”, U.S. Army Tank
+Automotive and Armaments Command, 2001.
+11. “Annual Energy Outlook 2002 with Projections to
+2020”, U.S. Department of Energy and National
+Energy Information Center, DOE/EIA 0383,
+2001.
+12. Maurice L.Q., Lander H., Edwards T., Harrison
+W.E., “Advanced aviation fuels: a look ahead via
+a historical perspective”, Fuel, 80:747-756, 2001.
+13. Smith B.L., Bruno T.J., “Composition-Explixit
+distillation curves of aviation fuel JP-8 and a coalbased jet fuel”, Energy&Fuels, 21:2853-2862,
+2007.
+14. Cooper J.R., Mattie D.R., “Developmental toxicity
+of JP-8 jet fuel in the rat”, J. Of Applied Toxic,
+16:197-200, 1996.
+15. İçingür, Y., Ünal, S., “JP4 ve JP8 Havacılık tipi
+yakıtlarla metil ester harmanlarının dizel
+motorlarda kullanımı” 9.rd International
+Combustion Symposium, Kırıkkale University,
+Kırıkkale, 2006.
+16. Fernandes G., Fuschetto J., Filipi Z., Assanis D.,
+Mckee H., “Impact of military jp-8 fuel on heavyduty diesel engine performance and emissions”,
+Journal
+of
+Automotive
+Engineering,
+221(D8):957–70, 2007.
+17. Çelikten İ., Gürü M., “Petrodizel ve kanola
+biyodizeli performans ve emisyon kriterlerinin
+mangan esaslı katkı maddeleriyle geliştirilmesi”,
+Journal of The Faculty of Engineering and
+Architecture of Gazi University, 26(3):643-648,
+2011.
+18. 22.Topal M.H., Wang J., Levendis Y.A., Carlson
+J.B., Jordan J., “PAH and other emissions from
+burning of JP-8 and diesel fuels in diffusion
+flames”, Fuel, 83:2357-2368, 2004.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+Havacılık Yakıtı JP-8 ve Dizel Karışımlarının Tek Silindirli Bir Dizel Motorunda Performans...
+
+19. Anastopoulos G., Lois E., Zannikos F., Kalligeros
+S., Teas C., “HFRR lubricity response of an
+additized aviation kerosene for use in CI engines”
+Tribology International, 35(9):599–604, 2002.
+20. Bader J., “Tribological evaluation of kerosene as
+substitute for distillate diesel fuel” 2nd
+International Colloquium, 1999.
+21. Rakopoulos C.D., Hountalas D.T., Rakopoulos
+D.C., “Comparative Environmental Evaluation of
+JP-8 and Diesel Fuels Burned in Direct Injection
+(DI) or Indirect Injection (IDI) Diesel Engines and
+in a Laboratory Furnace”, Energy & Fuels,
+18:1302-1308, 2004.
+22. Arkoudeas P., Kalligeros S., Zannikos F.,
+Anastopoulos G., Karonis D., Korres D., Lois E.,
+“Study of using JP-8 aviation fuel and biodiesel in
+CI engines”, Energy
+Conversion
+and
+Management, 44(7):1013–1025, 2003.
+23. Haşimoğlu, C., İçingür, Y., Özsert, İ., “Effect of
+biodiesel usage to engine performance and exhaust
+emissions of a turbocharged diesel engine”,
+Journal of The Faculty of Engineering and
+Architecture of Gazi University, 23(1):207-213,
+2008.
+24. Keskin, A., Ocakoğlu, K., Reşitoğlu, İ.A., Gürü,
+M., “Influence of titanium based fuel additive on
+diesel engine performance and emissions”,
+Journal of The Faculty of Engineering and
+Architecture of Gazi University, 28(3):671-676,
+2013.
+25. Aktaş, A., Doğan, O., “Effects of LPG percentage
+to performance and exhaust emissions in a dual
+fuel engine”, Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 25(1):171-178, 2010.
+26. Özsezen, A.N., Çanakçı, M., “An investigation of
+the effect of methyl ester produced from waste
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 4, 2013
+
+H. Yamık ve ark.
+
+frying oil on the performance and emissions of an
+IDI diesel engine”,Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 23(2):395-404, 2008.
+27. Keskin, A., Gürü, M., Altıparmak, D.,
+“Investigation of 90% blend of tall oil biodiesel
+fuel with diesel fuel as alternative diesel
+fuel”,Journal of The Faculty of Engineering
+and Architecture of Gazi University, 22(1):5763, 2007.
+28. Özsezen, A.N., Çanakçı, M., “Performance and
+combustion in a direct injection diesel engine
+fuelled with waste palm and canola oil methyl
+esters”, Journal of The Faculty of Engineering
+and Architecture of Gazi University, 24(2):275284, 2009.
+29. Qi D., Geng L.M., Chen H., Bian Y.Z.H., Liu J.,
+Ren X.C.H., “Combustion and performance
+evaluation of a diesel engine fueled with biodiesel
+produced from soybean crude oil”, Renewable
+Energy, 34:2706-2713, 2009.
+30. Lin C.Y., Lin H.A., “Diesel engine performance
+and emission characteristics of biodiesel produced
+by the peroxidation process”, Fuel, 85:298-305,
+2006.
+31. Yılmaz, E., Solmaz, H., Polat, S., Altın, M.,
+“Effect of the three-phase diesel emulsion fuels on
+engine
+performance
+and
+exhaust
+emissions”,Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 28(1):127-134, 2013.
+32. Can, Ö., Çınar, C., Şahin, F., “The investigation of
+the effects of premixed gasoline charge on HCCIDI
+engine
+combustion
+and
+exhaust
+emissions”,Journal of The Faculty of
+Engineering and Architecture of Gazi
+University, 24(2):229-236, 2009.
+
+793
+
+

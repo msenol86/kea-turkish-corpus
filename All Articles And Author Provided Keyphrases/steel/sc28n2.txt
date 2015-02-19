@@ -1,0 +1,1235 @@
+Gazi Üniv. Müh. Mim. Fak. Der.
+Cilt 28, No 2, 353-362, 2013
+
+Journal of the Faculty of Engineering and Architecture of Gazi University
+Vol 28, No 2, 353-362, 2013
+
+ÇİFT FAZLI ÇELİKLERDE MARTENZİT MORFOLOJİSİNİN
+STATİK DEFORMASYON YAŞLANMA DAVRANIŞI ÜZERİNE
+ETKİSİ
+Mustafa TÜRKMEN* ve Süleyman GÜNDÜZ**
+*
+
+Kocaeli Üniversitesi, Hereke M.Y.O, Metalürji Programı, Hereke, 41800, Kocaeli
+Karabük Üniversitesi, Teknoloji Fakültesi, İmalat Mühendisliği Bölümü, Balıklarkayası, 78050, Karabük
+mustafa.turkmen@kocaeli.edu.tr, sgunduz@karabuk.edu.tr
+
+**
+
+(Geliş/Received: 27.03.2012; Kabul/Accepted: 04.04.2013)
+ÖZET
+Bu çalışmada, farklı martenzit morfolojisine sahip çift fazlı bir çeliğin statik deformasyon yaşlanma davranışı
+incelenmiştir. Kritik sıcaklık bölgesinde (775 oC) üç farklı ısıl işlem türü (kritik çift faz, ara su verme ve
+kademeli su verme) uygulanmıştır. Yaşlanma deneyleri % 4 öndeformasyondan sonra 180 oC’de 10 dakika ile
+160 dakika arasında bekletilerek gerçekleştirilmiştir. Uygulanan farklı ısıl işlemler sonrası yapılan mikroyapı
+çalışmaları ile ağ, fiber ve kütlesel martezit morfolojileri tespit edilmiştir. Martenzit morfolojisinin 180 oC’de
+farklı yaşlanma sürelerinde ΔY (yaşlanmadan dolayı dayanımda artış), akma dayanımı ve maksimum çekme
+değerlerinin eğilimini etkilemediği bulunmuştur. Belirli yaşlanma sürelerinde fiber martenzit morfolojisine sahip
+numuneler, ağ veya kütlesel martenzit morfolojisine sahip numunelere göre daha yüksek ΔY, akma dayanımı,
+maksimum çekme ve sertlik değerleri göstermiştir.
+
+1. GİRİŞ (INTRODUCTION)
+Otomotiv endüstrisinde yakıt ve maliyet tasarrufu
+sağladığı için en büyük hedeflerden biri, otomobil
+gövdesinde
+kullanılan
+çelik
+sacların
+şekillendirilebilirlik ve mukavemet özelliklerini
+koruyarak ağırlıktan tasarruf sağlamaktır [1-3]. Çift
+fazlı çelikler yüksek mukavemetli düşük alaşımlı
+(HSLA) çelikler gibi benzer dayanım göstermelerine
+karşın şekillendirilebilme özelliklerinin çok daha iyi
+
+olduğu görülmüştür [4]. Bu nedenle HSLA
+çeliklerinin bir çeşidi olan çift fazlı çelikler otomotiv
+endüstrisinde geniş bir kullanım alanına sahiptir [3].
+Çift fazlı çelikler esasen yumuşak ferrit matris
+içerisinde dağılmış sert martenzit tanelerinin
+oluşturduğu mikroyapılar ile tanımlanmaktadır [5-7].
+Çift fazlı çelikler üstün mekanik özellikler
+göstermektedir. Sürekli akma davranışı, yüksek
+deformasyon sertleşmesi üssü, iyi şekillenebilirlik ve
+
+M. Türkmen ve S. Gündüz
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+yüzey
+kalitesi
+ile
+HSLA
+çelikleri
+ile
+karşılaştırılabilmektedir [8-10]. İnterkritik sıcaklıklara
+tavlama ve su verme ile çift faz mikroyapısı üretmek
+mümkündür. Bu işlem, düşük alaşımlı çeliği Ac1 ve
+Ac3 sıcaklıkları arasında ferrit-östenit oluşumunu
+takiben hızlı soğutma ile östeniti martenzite
+dönüştürerek gerçekleşmektedir. Ferritik matris
+içerisinde martenzitin tane boyutu, dağılımı ve
+miktarının kontrolü mümkündür [11].
+Otomobilde çelik sacların geniş kullanım yeri
+bulduğu gövde kısmındaki sacların inceltilmesi ile
+büyük
+oranda
+hafifleme
+sağlanabilmektedir.
+Geleneksel
+yüksek
+mukavemetli
+çeliklerin
+kullanımıyla mukavemet değerleri yüksek ince saclar
+üretilebilmektedir. Ancak bu çelik grubunun sınırlı
+şekillendirilebilme özelliği günümüz karmaşık
+otomobil
+gövde
+paneli
+ihtiyacını
+karşılayamamaktadır. Fırında sertleşebilen çeliklerin
+geliştirilmesi, hem şekillendirilebilirlik hem de
+mukavemet gereksinimlerini yerine getirerek bu
+soruna etkili bir çözüm olmuştur. Otomotiv
+endüstrisinde kullanılan çift fazlı çelikler soğuk
+deforme
+edildikten
+sonra
+boyanarak
+kurutulmaktadırlar. Teknolojik olarak şekillendirilmiş
+ve boyanmış sacın boya pişirme işlemi sırasında akma
+mukavemetinde görülen artış (fırınlama sertleşmesi)
+deformasyon
+yaşlanması
+mekanizması
+ile
+açıklanmaktadır [12,13].
+Bu çalışmada farklı ısıl işlem rotaları izlenerek
+üretilen ağ, fiber ve kütlesel martenzit morfolojisine
+sahip çift fazlı çeliklerde statik deformasyon
+yaşlanma davranışının mekanik özelliklere etkisi
+araştırılmıştır.
+2. DENEYSEL ÇALIŞMALAR (EXPERIMENTAL
+STUDIES)
+
+Deneylerde, tablo 1’de kimyasal bileşimi verilen ve
+400x400x4 mm ebatlarında OYAK Ereğli Demir ve
+Çelik Fabrikalarından temin edilen 3237 kalite çelik
+kullanılmıştır. Isıl işlem öncesi malzeme 18x80x4 mm
+ebatlarında olacak şekilde kesilmiştir.
+Tablo 1. Deneysel çalışmada kullanılan çelik
+malzemenin kimyasal bileşimi (% Ağırlık). (Chemical
+
+dakika tavlama ve fırında soğutma, ardından 980 °C
+sıcaklıkta 30 dakika tavlama ve havada soğutma ısıl
+işlemleri ile normalize edilmiştir. Normalizasyon ısıl
+işleminden sonra numunelere 775 oC’de 30 dakika
+süre için üç farklı ısıl işlem uygulanmıştır. Bunlar
+kritik çift faz (A grubu), ara su verme (B grubu) ve
+kademeli su verme (C grubu) olarak adlandırılmıştır.
+Numunelere uygulanan üç farklı ısıl işlem türü Şekil
+1’de şematik olarak gösterilmiştir.
+
+b) Ara su verme
+
+c) Kademeli
+su verme
+
+a) Kritik
+çift faz
+
+A
+
+B
+
+C
+
+Şekil 1. Deneylerde uygulanan çift faz ısıl işlem
+türleri (Dual phase heat treatment applied in the experiments)
+A grubu numuneler 775 oC’de 30 dakika tavlandıktan
+sonra suda soğutulmuştur. B grubu numuneler 980
+o
+C’de 30 dakika tavlandıktan sonra suda soğutulup,
+ardından 775 oC’de tekrar 30 dakika tavlandıktan
+sonra suda soğutularak ara su verme işlemi
+uygulanmıştır. C grubu numuneler ise 980 oC’de 30
+dakika tavlandıktan sonra 775 oC’ye havada
+soğutulup ardından 775 oC’de 30 dakika
+bekletildikten sonra suda soğutulmuşlardır.
+Uygulanan ısıl işlemler sonrası numunelerin yüzeyleri
+düzlem taşlama makinası ile taşlanarak ısıl işlem
+sonucu oluşan oksitler ve dekarbürizasyon bölgeleri
+ortadan
+kaldırılmıştır.
+Yüzeyleri
+taşlanan
+numunelerden CNC freze tezgâhında TS EN ISO
+6982 standardına göre hazırlanan çekme deney
+numunesi Şekil 2’de gösterilmiştir [15].
+
+composition of steel wt %)
+Malzeme
+S235JR
+(3237)
+
+C
+0.1
+
+Si
+0.4
+
+Mn
+1.2
+
+P
+0.02
+
+S
+0.03
+
+Fe
+Kalan
+
+Kritik bölge sınır sıcaklıkları (Ac1 ve Ac3),
+Andrews’in [14] ampirik formülü ile yapılan
+hesaplama sonucunda 721 - 861 °C olarak
+bulunmuştur. Isıl işlemler, Protherm marka fırın
+kullanılarak gerçekleştirilmiştir.
+Homojen bir yapı elde edebilmek için deneylerde
+kullanılan bütün çelik numuneler 1100 oC’de 60
+
+354
+
+Şekil 2. Çekme deney numunesi (Tensile test sample)
+Hazırlanan numuneler, 5 kN kapasiteli Shimadzu
+Trapezium Single marka test cihazı kullanılarak % 4
+oranında ön deforme edilmiştir. Ön deformasyon
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+M. Türkmen ve S. Gündüz
+
+işleminde ekstansometre kullanılarak numunelerin
+tam deforme olması sağlanmıştır.
+
+Chattopadhyay yaptıkları çalışmada göstermişlerdir
+[16].
+
+% 4 ön deformasyonu tamamlanan çekme numuneleri
+180 °C’ de 10, 20, 40, 80 ve 160 dakika bekletilerek
+yaşlandırılmıştır. Her bir yaşlandırma işlemi için üçer
+adet numune kullanılmıştır. Yaşlandırılan numuneler
+daha sonra çekme test cihazında 2 mm/dakika çekme
+hızında kopuncaya kadar çekilmiştir.
+
+Mikroyapı incelemeleri sonucunda A, B ve C grubu
+numunelerde martenzit hacim oranı % 21±1,8 olarak
+hesaplanmıştır (Şekil 3). Bu sonuç aynı sıcaklıkta
+yapılan üç farklı ısıl işlemin martenzit morfolojisini
+değiştirirken
+hacim
+oranını
+etkilemediğini
+göstermiştir. Ağ, fiber ve kütlesel martenzit
+morfolojileri üzerinden yapılan ferrit ve martenzit
+tane ebadı ölçümlerinden morfoloji değiştikçe tane
+ebadının değiştiği tespit edilmiştir. Buna göre ağ,
+fiber ve kütlesel martenzit morfolojisinde sırasıyla
+ferrit tane ebadı 20±0,62 μm, 12±0,37 μm ve 22±0,68
+μm ölçülürken martenzit tane ebadı 9±0,28 μm,
+4±0,12 μm ve 11±0,34 μm olarak ölçülmüştür. Tane
+ebadında oluşan bu farklılaşma uygulanan farklı ısıl
+işlem türlerinden kaynaklanmaktadır.
+
+Numunelerin sertlik değerlerinin belirlenmesinde
+Vickers sertlik ölçme yöntemi kullanılmıştır. Sertlik
+ölçümleri Buehler Micromet 5103 marka cihaz ile 1kg
+yük (HV1) altında gerçekleştirilmiştir. Her bir
+numune için alınan 10 sertlik ölçümünün ortalaması
+sertlik sonucu olarak değerlendirilmiştir.
+Mikroyapı incelemeleri için numuneler geleneksel
+metalografik yöntemler ile hazırlanmıştır. Bu
+numuneler daha sonra % 2’lik Nital çözeltisinde 4-6
+sn sürelerde bekletilerek dağlama işlemine tabi
+tutulmuşlardır. Dağlama işleminden sonra alkolle
+temizlenen numunelerin yüzeyleri kurutularak
+mikroyapı fotoğrafı almak için hazır hale getirilmiştir.
+
+Ağ martenzit
+
+Ferrit
+
+Mikroyapı incelemeleri Nikon Eclipse L150 marka
+optik mikroskopta 5x-100x objektifler kullanılarak
+yapılmıştır. Elde edilen mikroyapılardan tane ebadı,
+ferrit ve martenzit fazlarının % oranları uygun
+büyütmede Clemex Vision Lite marka mikroyapı
+analiz sistemi kullanılarak ölçülmüştür. Ayrıca çekme
+deneyi sonucu elde edilen kırık yüzeylere ait
+görüntüler Jeol-100c marka tarama elektron
+mikroskobu kullanılarak incelenmiştir.
+(a)
+
+3. SONUÇLAR VE TARTIŞMA (RESULTS AND
+DISCUSSION)
+
+Deneysel çalışmada kullanılan çelik malzemenin
+orjinal yapısı ferrit ve perlit fazlarını içermektedir. A,
+B ve C grubu olmak üzere uygulanan üç farklı ısıl
+işlem sonucunda her bir gruba ait farklı martenzit
+morfolojisi elde edilmiştir (Şekil 3). Şekilden
+görüldüğü üzere martenzit koyu renkte, ferrit ise açık
+renkte ortaya çıkmıştır. Kritik çift faz işlemi
+uygulanan A grubu numuneler ağ şeklinde tane
+sınırlarında dağılmış martenzit morfolojisi (Şekil 3.a)
+göstermişlerdir. Ara su verme işlemi uygulanan B
+grubu numunelerde fiber martenzit morfolojisinin
+oluştuğu ve ferrit matris içerisinde uniform olarak
+dağılım gösterdiği tespit edilmiştir (Şekil 3.b). C
+grubu numunelerde uygulanan kademeli su verme
+sonrası kaba ferrit ve kütlesel martenzit morfolojisi
+gözlenmiştir (Şekil 3.c). Kritik çift faz ısıl işlemi
+öncesi numunelerin mikroyapısal durumundaki
+farklılığın martenzit morfolojisini etkilediğini Das ve
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Fiber martenzit
+Ferrit
+
+(b)
+
+355
+
+M. Türkmen ve S. Gündüz
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+yapıların belirgin bir akma davranışı göstermediği
+tespit edilmiştir (Şekil 4). Akma mukavemeti olarak
+% 0,2 akma noktası kullanılmıştır. Düşük karbonlu
+çeliklerin aksine çift fazlı çeliklerin sürekli akma
+davranışı göstermesi, martenzitik dönüşüm esnasında
+martenzite sınır olan ferrit tanelerinde oluşan
+dislokasyonların serbest halde hareket etmesinin bir
+sonucudur [17-18].
+
+Kütlesel martenzit
+Ferrit
+
+% 4 ön deformasyon uygulanan ve ardından 180 oC’
+de 10, 20, 40, 80 ve 160 dakika yaşlandırılan
+numuneler,
+ön
+deformasyon
+uygulanmayan
+numunelere göre belirgin akma noktası ve akma
+noktası uzaması göstermiştir. Belirgin akma
+noktasının ve akma noktası uzamasının tekrar ortaya
+çıkması, arayer atomlarıyla deformasyon sırasında
+oluşan veya ısıl işlem sonrası gerilmeden dolayı
+meydana gelen dislokasyonların etkileşiminden
+kaynaklanmaktadır [11].
+
+(c)
+Şekil 3. Çift fazlı çelik mikroyapıları (a) ağ martenzit
+(b) fiber martenzit (c) kütlesel martenzit (Optical
+micrographs of dual phase steels a) network, b) fibrous c) bulky
+martensite)
+
+Çift fazlı çeliklerde martenzitin oluşması kalıntı
+gerilmelerle birlikte ferrit içerisinde özellikle ferritmartenzit arayüzeyine yakın bölgelerde dislokasyon
+yoğunluğunun artmasına neden olmaktadır. Katı
+ergiyik içerisinde serbest halde bulunan C atomlarının
+bu dislokasyonlara difüz edip hareketini engellemesi
+belirgin akma noktasını ve akma noktası uzamasını
+oluşturmaktadır [19].
+
+Isıl işlem sonrası ön deformasyonsuz ve % 4 ön
+deformasyon uygulandıktan sonra 180 oC’de 10, 20,
+40, 80 ve 160 dakika sürelerde yaşlandırılan ağ, fiber
+ve kütlesel martenzit yapılara sahip numunelerin
+gerilme uzama diyagramları Şekli 4’te gösterilmiştir.
+Yapılan deneylerde yaşlandırma işlemi uygulanmayan
+üç farklı martenzit morfolojisine sahip çift fazlı
+
+a)
+
+356
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+M. Türkmen ve S. Gündüz
+
+b)
+
+(c)
+Şekil 4. Öndeformasyon uygulanmayan ve % 4 öndeformasyon sonrası 180 oC’de farklı sürelerde yaşlandırılan
+(a) ağ, (b) fiber ve (c) kütlesel martenzit morfolojisine sahip numunelerin gerilme-uzama diyagramları. (Stress–
+
+strain diagrams of the steels with (a) network, (b) fibrous and (c) bulky martensite aged at 180 oC for different times of 10–160 min)
+
+Ağ, fiber ve kütlesel martenzit morfolojisine sahip çift
+fazlı çeliklerin yaşlanma sonrası akma dayanımı (YS),
+deformasyon yaşlanmasından dolayı gerilmedeki artış
+(ΔY), maksimum çekme dayanımı (UTS) ve % uzama
+değerleri Tablo 2.’de görülmektedir.
+Tablo 2 incelendiğinde 180 oC’de 10 ve 20 dakika
+yaşlandırılan ağ, fiber ve kütlesel martenzit
+morfolojisine sahip numunelerin yaşlanmadan dolayı
+akma ve çekme dayanımının arttığı fakat % uzama
+değerinin ise düştüğü görülmüştür. Yaşlanma
+süresinin 40 dakikadan 80 yada 160 dakikaya çıkması
+numunelerin akma ve çekme dayanımını düşürürken
+% uzama değerini artırmıştır. Martenzit fazının
+temperlenmesi neticesinde meydana gelen bu durum
+aşırı yaşlanmanın bir sonucu olarak ortaya çıkmıştır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Aşırı yaşlanma süresince martenzit içerisindeki
+karbürlerin kabalaşarak dayanımdaki azalmaya
+katkıda bulunduğunu Rocha ve arkadaşları [20] rapor
+etmişlerdir. Ayrıca Tablo 2 ön deformasyon sonrası
+180 oC’de farklı sürelerde yapılan yaşlandırma
+deneylerinin
+ΔY
+değerlerini
+etkilediğini
+göstermektedir. ΔY değeri, yaşlanmadan dolayı
+oluşan akma dayanımı ile % 4 öndeformasyon
+uygulandıktan sonra elde edilen dayanım arasındaki
+farktır. ΔY değerlerindeki en büyük artış ağ, fiber ve
+kütlesel martenzit morfolojisi için 180 oC’de 10 ila 40
+dakika yaşlandırılan numunelerde görülmüştür. ΔY ve
+akma dayanımında artış olması dislokasyonlar ile
+karbon ve azot gibi arayer atomlarının etkileşim
+içerisinde olduğunu ve dislokasyonların hareket
+edemediğini göstermektedir [21]. Davis [22] yapmış
+
+357
+
+M. Türkmen ve S. Gündüz
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+olduğu çalışmada, 170 oC’de 20-30 dakika aralığında
+yaşlandırılan havada ve kumda soğutulmuş çift fazlı
+çeliğin akma dayanımında ve akma noktası
+uzamasında artış olduğunu görmüştür. Buna neden
+olarak arayer atomlarının veya çok küçük çökeltilerin
+dislokasyonların
+hareketini
+engellemesini
+göstermiştir.
+Tablo 2’den 180 oC’de 10 ila 160 dakika arasında
+yapılan bütün yaşlanma sürelerine bakıldığında, B
+grubu fiber martenzit morfolojisine sahip 180 oC’de
+20 dakika yaşlandırılan numuneler en yüksek ΔY (67
+MPa) değerini göstermiştir. Aynı sürede yaşlandırılan
+ağ ve kütlesel martenzit morfolojisine sahip
+numunelerin ΔY değerleri sırasıyla 56 MPa ve 30
+MPa olarak bulunmuştur. Yaşlanma süresince çift
+fazlı çelikte dislokasyonların hareketini engelleyen
+yüksek dislokasyon yoğunluğu fiber martenzit yapıda
+dayanımın artmasını sağlamıştır. Yaşlanma süresi 160
+dakikaya çıktığında ΔY değeri fiber martenzit yapıda
+15 MPa’a düşerken ağ ve kütlesel martenzit
+numunelerde eksi değerlere inmiştir. Bu sonuçlar
+fiber martenzit gösteren numunelerde, ağ ve kütlesel
+martenzit gösteren numunelere göre aşırı yaşlanmanın
+daha yavaş olduğunu göstermektedir. Bu martenzitin
+farklı morfolojileri ile ilgilidir.
+Tablo 2 ve Şekil 4’ten martenzit morfolojisinin 180
+o
+C’deki yaşlanma zamanına bağlı olarak çeliğin genel
+davranışı üzerine etkisinin olmadığı görülmüştür.
+Örneğin 180 oC’de 10 yada 40 dakika yaşlandırılan
+ağ, fiber ve kütlesel martenzite sahip numunelerin
+hepsinde ∆Y, YS ve UTS değerleri artmıştır.
+Yaşlanma zamanının 80 yada 160 dakikaya çıkması
+durumunda ise bu değerlerde düşme görülmüştür.
+Fakat fiber martenzit morfolojisine sahip numunelerin
+∆Y, YS ve UTS değerleri 180 oC’de yapılan bütün
+yaşlandırma zamanları için ağ ve kütlesel martenzit
+morfolojisine sahip numunelere göre daha yüksek
+çıkmıştır. Bu durum fiber martenzit morfolojisine
+sahip numunelerde yaşlanma süresine bağlı olarak
+daha fazla dislokasyon kilitlenmesinin meydana
+geldiğini göstermektedir.
+ΔY, YS ve UTS
+değerlerinin fiber martenzit morfolojisine sahip
+numunelerde en yüksek olması rasgele dağılmış
+martenzit fazının varlığından kaynaklanmaktadır.
+Fiber martenzit, yapıda rasgele ve homojen olarak
+dağıldığı için ağ ve kütlesel martenzite göre daha
+fazla dislokasyon kilitlenmesine neden olmuştur. Bu
+durum çeliğin mekanik özelliklerini arttırarak aşırı
+yaşlanmanın hızını düşürmüştür.
+Ayrıca üç farklı martenzit morfolojisinin % uzama
+değerleri incelendiğinde fiber martenzit morfolojisine
+sahip B grubu numunelerin % uzama değerleri bütün
+yaşlanma süreleri için en yüksek değeri gösterirken ağ
+ve kütlesel martenzit morfolojisine sahip numunelerde
+ise daha düşük değerler görülmüştür (Tablo 2). %
+uzamanın fiber martenzit morfolojisine sahip
+numunelerde en yüksek değeri göstermesi çok küçük
+
+358
+
+ve boşluk büyümesini engelleyen rasgele dağılmış
+martenzit fazının varlığından kaynaklanmaktadır.
+Bayram ve arkadaşları [23] yapmış oldukları
+çalışmada benzer sonuçları rapor etmişlerdir.
+Numunelerin ince fiber martenzit morfolojisine sahip
+olması sünekliğin artmasına sebep olmuştur. Koo ve
+Thomas [24] çift fazlı çelikleri sert martenzit fazı ile
+güçlendirilmiş
+metalik
+kompozitler
+olarak
+değerlendirmişlerdir.
+Çift fazlı çeliklerde fiber martenzitin yapıda homojen
+olarak dağılması ağ ve kütlesel martenzite göre
+çeliğin daha üstün mekanik özellikler sergilemesine
+neden olmuştur. Soğuma sırasında martenzitik
+dönüşüm ferrit tanelerinin çalışma sertleşmesine
+neden olur [11] ve bunun sonucunda ferrit tanelerinde
+dislokasyon yoğunluğu artar. Bu durum fiber
+martenzit yapıya sahip çift fazlı çeliğin akma ve
+çekme dayanımını artırır. Ayrıca ferritik yapı fiber
+martenzit morfolojisine sahip çift fazlı çeliklerde
+süreklidir ve bu ağ ve kütlesel martenzit morfolojisine
+sahip çeliklere göre daha yüksek uzamaya sebep olur.
+Uzamanın yüksek olması martenzitin yapı içerisinde
+çok küçük ve rasgele dağılmasının bir sonucudur.
+Çünkü
+fiber
+yapı
+boşlukların
+büyümesini
+engellemektedir. Ayrıca Gündüz ve arkadaşlarının
+[12] önerdiği gibi fiber morfolojisine sahip martenzit,
+ağ ve kütlesel martenzit morfolojisine göre çok daha
+fazla miktarda mikro boşlukların çekirdeklenmesine
+yardımcı olarak büyümelerini geciktirir.
+Çift fazlı çeliklerde fiber martenzitin yapıda homojen
+olarak dağılması ağ ve kütlesel martenzite göre
+çeliğin daha üstün mekanik özellikler sergilemesine
+neden olmuştur. Soğuma sırasında martenzitik
+dönüşüm ferrit tanelerinin çalışma sertleşmesine
+neden olur [11] ve bunun sonucunda ferrit tanelerinde
+dislokasyon yoğunluğu artar. Bu durum fiber
+martenzit yapıya sahip çift fazlı çeliğin akma ve
+çekme dayanımını artırır. Ayrıca ferritik yapı fiber
+martenzit morfolojisine sahip çift fazlı çeliklerde
+süreklidir ve bu ağ ve kütlesel martenzit morfolojisine
+sahip çeliklere göre daha yüksek uzamaya sebep olur.
+Uzamanın yüksek olması martenzitin yapı içerisinde
+çok küçük ve rasgele dağılmasının bir sonucudur.
+Çünkü
+fiber
+yapı
+boşlukların
+büyümesini
+engellemektedir. Ayrıca Gündüz ve arkadaşlarının
+[12] önerdiği gibi fiber morfolojisine sahip martenzit,
+ağ ve kütlesel martenzit morfolojisine göre çok daha
+fazla miktarda mikro boşlukların çekirdeklenmesine
+yardımcı olarak büyümelerini geciktirir. Bu çalışmada
+elde edilen deney numuneleri arasında fiber martenzit
+morfolojisine sahip deney numuneleri ağ ve kütlesel
+martenzit morfolojisine sahip numuneler ile
+kıyaslandığında açıkça daha çekici dayanım süneklik
+kombinasyonu sergilemiştir. (bkz Tablo 2 ve Şekil 4)
+Ağ martenzit morfolojisine sahip numunelerin akma
+ve çekme dayanımları fiber martenzitten düşük fakat
+kütlesel martenzitten yüksektir. Bu sonuçlar
+Ekrami’nin [25] elde ettiği sonuçlar ile tutarlıdır.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+M. Türkmen ve S. Gündüz
+
+Tablo 2. Farklı martenzit morfolojisine sahip çift fazlı çeliklerin yaşlanma sonrası YS, ΔY, UTS ve % uzama
+değerleri (YS, ΔY, UTS and elongation % of dual phase steel with different martensite morphologies after aging)
+Martenzit
+Morfolojisi
+
+UTS
+(MPa)
+
+Uzama
+(%)
+
+342
+
+-
+
+533
+
+18
+
+483
+
+33
+
+535
+
+16
+
+20
+
+506
+
+56
+
+546
+
+16
+
+40
+
+487
+
+37
+
+533
+
+17
+
+80
+
+468
+
+18
+
+505
+
+17
+
+160
+
+445
+
+-5
+
+485
+
+18
+
+Orjinal
+
+360
+
+-
+
+544
+
+24
+
+10
+
+508
+
+58
+
+544
+
+19
+
+20
+
+517
+
+67
+
+555
+
+19
+
+40
+
+490
+
+40
+
+545
+
+20
+
+80
+
+475
+
+25
+
+515
+
+20
+
+160
+
+465
+
+15
+
+494
+
+21
+
+Orjinal
+
+321
+
+-
+
+492
+
+21
+
+10
+
+461
+
+11
+
+498
+
+16
+
+20
+
+480
+
+30
+
+530
+
+16
+
+40
+
+476
+
+26
+
+518
+
+18
+
+80
+
+451
+
+1
+
+484
+
+18
+
+160
+
+Kütlesel
+
+ΔY
+(MPa)
+
+10
+
+Fiber
+
+Yaşlanma Sonrası
+Akma Dayanımı
+(MPa)
+
+Orjinal
+
+Ağ
+
+Yaşlanma Süresi
+(dak.)
+
+421
+
+-29
+
+451
+
+18
+
+Yaşlanmanın mekanik özelliklere etkisinin tespitinde
+en önemli göstergelerden birisi de sertlik değerlerinin
+belirlenmesidir. Farklı martenzit morfolojisine sahip
+numunelerin sertlik sonuçları yaşlanma zamanına
+bağlı olarak Tablo 3’te verilmektedir. Sertlik
+sonuçları incelendiğinde 180 oC’de farklı sürelerde
+yaşlandırılan numunelerin sertliği yaşlandırma
+süresinin artmasıyla birlikte bir artış göstermiştir. Ağ,
+fiber ve kütlesel martenzit morfolojisine sahip
+numuneler 180 oC’de 20 dakika yaşlandırıldığında en
+yüksek sertlik değerlerine sahip olmuştur. Sertlik
+değerlerindeki bu artış dislokasyonlar ile katı ergiyik
+içerisinde serbest halde bulunan atom kümelerinin
+veya ikinci faz partiküllerinin etkisinin bir sonucudur.
+Bu atom kümeleri ve ikinci faz partikülleri
+dislokasyonların hareketini engelleyerek sertliğin
+artmasına neden olmuştur.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Tablo 3. 180°C’de 10-160 dakika aralığında
+yaşlandırılan farklı morfolojiye sahip çift fazlı çeliğin
+sertlik değerleri. (Hardness values of dual phase steel with
+different morphologies aged at 180 oC for different times of 10–160
+min.)
+
+Yaşlandırma
+
+Sertlik Değeri (HV1)
+A grubu
+B Grubu
+C grubu
+
+Süresi (dakika)
+
+Ağ
+
+Fiber
+
+Kütlesel
+
+0
+
+164
+
+170
+
+151
+
+10
+
+164
+
+172
+
+154
+
+20
+
+170
+
+175
+
+164
+
+40
+
+164
+
+172
+
+160
+
+80
+
+158
+
+162
+
+150
+
+160
+
+150
+
+155
+
+139
+
+359
+
+M. Türkmen ve S. Gündüz
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+Yaşlanma zamanının 40, 80 ve 160 dakikaya çıkması
+ile ağ, fiber ve kütlesel martenzit morfolojisine sahip
+numunelerin sertlik değerleri kademeli olarak
+düşmüştür. Bunun nedeni olarak çökeltilerin
+büyümesi ve çökeltiler arasındaki mesafenin artması
+gösterilebilir. Çökeltilerin büyümesi ve aralarındaki
+mesafenin artması dislokasyonların engellenmeden
+rahat hareket etmesine neden olmuştur. Bu çalışmada
+elde edilen değerler, Abdalla vd.’nin yaptığı; sabit
+sıcaklıkta yaşlandırma süresinin artırılmasıyla elde
+edilen sertlik değerleri ile benzerlik göstermektedir
+[26].
+
+Yapılan sertlik ölçümleri neticesinde fiber martenzit
+morfolojisine sahip numunelerin sertlik değerleri 180
+o
+C’de yapılan bütün yaşlandırma zamanları için ağ ve
+kütlesel martenzit morfolojisine sahip numunelere
+göre daha yüksek çıkmıştır. Kütlesel martenzit
+morfolojisine sahip numuneler ise bütün yaşlandırma
+zamanları için en düşük sertlik değerlerine sahip
+olmuştur. Bu durum fiber martenzit morfolojisine
+sahip numunelerde yaşlanma süresine bağlı olarak
+daha fazla dislokasyon kilitlenmesinin meydana
+geldiğini göstermektedir.
+
+20kV
+
+a)
+X 1000
+
+10μm
+
+20kV
+
+a)
+X 1000
+
+10μm
+
+20kV
+
+X 1000
+
+10μm
+
+20kV
+
+X 1000
+
+10μm
+
+b)
+
+20kV
+
+X 1000
+
+b)
+
+10μm
+
+c)
+Şekil 5. Yaşlandırma işlemi uygulanmayan a) Ağ, b)
+Fiber ve c) Kütlesel martenzit numunelerin çekme
+deneyi sonrası kırık yüzey SEM görüntüleri.
+(Fractographs (SEM) of fractured as annealed (without aging)
+tensile specimens of a) network, b) fibrous and c) bulky martensite)
+
+360
+
+20kV
+
+X 1000
+
+10μm
+
+c)
+Şekil 6. 180 °C’de 20 dakika yaşlandırılan a) Ağ, b)
+Fiber ve c) Kütlesel martenzit numunelerin çekme
+deneyi sonrası kırık yüzey SEM görüntüleri.
+(Fractographs (SEM) of fractured tensile specimens of a) network,
+b) fibrous and c) bulky martensite aged at 180 0C for 20 min.)
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+Şekil 5 ağ, fiber ve kütlesel martenzit morfolojisine
+sahip yaşlanma işlemi uygulanmamış çift fazlı
+çeliklerin kırık yüzey resimlerini göstermektedir.
+Şekil 6’da ise 180 oC’de 20 dakika yaşlandırılan ağ,
+fiber ve kütlesel martenzit morfolojisine sahip
+numunelerin kırık yüzey resimleri görülmektedir.
+Şekil 5 ve 6’da görüldüğü gibi kırık yüzeylerin hepsi
+kısmen sünek (petekli yapı) ve kısmen gevrek
+(ayrılma düzlemleri) davranış göstermişlerdir. Fakat
+gevrek kırılmanın bir göstergesi olan ayrılma
+düzlemleri ağ martenzit morfolojisine sahip
+numunelerde en fazla, kütlesel martenzite sahip
+numunelerde orta, fiber martenzit morfolojisine sahip
+numunelerde ise en az olduğu tespit edilmiştir.
+Sünek kırılmanın göstergesi olan petekli yapının oranı
+ise bunun tam tersi olarak gerçekleşmektedir. Örneğin
+fiber martenzit morfolojisine sahip numunelerde
+yüksek oranda petekli yapıdan oluşan alanlar
+görülürken ağ martenzit morfolojisine sahip
+numunelerde düşük oranda görülmüştür. Kütlesel
+martenzit morfolojisine sahip numuneler ise orta
+değerde petekli yapı göstermiştir. Ayrıca fiber
+martenzitte bulunan (Şekil 5b ve Şekil 6b) petekli
+yapının içerisindeki çukurcukların boyutları ağ
+martenzitten daha incedir (Şekil 5a ve Şekil 6a). Bu
+sonuçlar Tablo 1’de verilen % uzama değerleri ile
+uyum içerisindedir. Fiber martenzit morfolojisine
+sahip çift fazlı çelikte martenzit,
+ferrit matris
+içerisinde küçük boyutlarda ve homojen olarak
+dağıldığı
+için
+mikroboşlukların
+büyümesini
+engellemiştir. Bunun sonucunda fiber martenzit
+morfolojisine sahip çift fazlı çelik yüksek uzama
+değerlerine sahip olmuştur.
+Das ve Chattopadhyay [10] yapmış oldukları
+çalışmada ağ martenzit morfolojisine sahip çift fazlı
+yapıda mikroboşlukların özellikle ferrit-martenzit
+arayüzeyinde kolayca oluşup büyüdüğünü ve bunun
+sonucunda da kırık yüzeyde ayrılma düzlemlerinin
+çok fazla olduğunu görmüşlerdir. Kütlesel martenzit
+morfolojisine sahip numunelerdeki çukurcukların
+boyutları ağ martenzite göre küçük fakat fiber
+martenzite göre büyük olduğu tespit edilmiştir. Ayrıca
+kütlesel martenzite sahip çift fazlı çelikte kesit
+daralması biraz daha fazla görülmüştür. Bu durum,
+Besterci ve arkadaşlarının [27] önerdiği gibi
+dislokasyonların birleşmesi ile meydana gelen büyük
+açılı tane sınırlarında mikroboşlukların oluşması ve
+büyümesinin sonucunda meydana gelmektedir.
+Yapılan deneysel çalışmada, fiber martenzit yapılı
+180 oC’de 20 dakika yaşlandırılan B grubu
+numunelerin özelliklerinde optimum sonuçlar elde
+edilmiştir. Bundan dolayı, çift fazlı çeliklerde en iyi
+dayanım süneklik kombinasyonunu elde edebilmek
+için fiber martenzit yapının uygun olabileceği
+söylenebilir. Ayrıca bu çeşit çift fazlı çeliklerin
+dayanımının artırılmasında statik deformasyon
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+M. Türkmen ve S. Gündüz
+
+yaşlanması mukavemet artırma mekanizması olarak
+kullanılabilir.
+4. SONUÇLAR (CONCLUSIONS)
+Ağ, fiber ve kütlesel martenzit morfolojisine sahip çift
+fazlı çeliklere % 4 ön deformasyonun ardından 180
+o
+C’de farklı sürelerde uygulanan yaşlandırma işlemi
+neticesinde aşağıdaki sonuçlar elde edilmiştir.
+1. Farklı martenzit morfolojisine sahip çift fazlı
+numunelerin gerilme-uzama diyagramları, 180 oC’de
+yapılan yaşlanma işlemine bağlı olarak farklı davranış
+sergilemişlerdir. Bu durum statik deformasyon
+yaşlanmasının martenzit morfolojisinden bağımsız
+olarak oluştuğunu göstermektedir.
+2. Ağ, fiber ve kütlesel martenzit morfolojisine sahip
+yaşlandırma işlemi uygulanmamış numunelerin
+gerilme-uzama diyagramları sürekli akma davranışı
+göstermiştir. Bu durum martenzitik dönüşüm
+esnasında martenzite sınır olan ferrit içerisinde oluşan
+dislokasyonların serbest olarak hareket etmesiyle
+meydana gelmektedir.
+3- 180 oC’de 10 ila 40 dakika yaşlandırılan ağ, fiber
+ve kütlesel martenzit morfolojisine sahip numunelerin
+ΔY, akma ve çekme dayanımlarında artma
+görülürken, % uzama değerlerinde azalma olmuştur.
+Fiber martenzit morfolojisine sahip çift fazlı çelik 180
+o
+C’de 20 dakika yaşlandırıldığında ΔY değeri en
+yüksek değere ulaşmıştır. Bu durum yaşlanma
+sürecinde dislokasyonların arayer atomları tarafından
+veya
+karbonitrür
+gibi
+çökeltiler
+tarafından
+engellenmesiyle ortaya çıkmıştır. Bununla beraber
+fiber martenzit morfolojisine sahip çift fazlı çelik
+numuneler en iyi dayanım, sertlik ve şekillenebilirlik
+davranışı göstermişlerdir.
+4- 180 oC’de yapılan yaşlanma zamanının 80 yada
+160 dakikaya çıkması farklı martenzit morfolojisine
+sahip numunelerin akma dayanımını düşürürken %
+uzama değerini artırmıştır. Bu durum aşırı
+yaşlanmanın bir sonucu olarak ortaya çıkmaktadır.
+Aşırı yaşlanmanın fiber martenzit morfolojisine sahip
+numunelerde ağ ve kütlesel martenzit morfolojisine
+sahip numunelere göre daha yavaş olduğu tespit
+edilmiştir. Fiber martenzit morfolojisine sahip
+numunelerde yüksek dislokasyon yoğunluğundan
+dolayı daha fazla dislokasyon kilitlenmesi meydana
+gelerek aşırı yaşlanmanın hızını düşürmüştür.
+5- Sertlik deneyi sonuçları çekme deneyi sonuçları ile
+paralellik göstermiştir. Yapılan sertlik ölçümleri
+sonucunda 180 oC’de 20 dakika yaşlandırılan
+numuneler en yüksek sertlik değerlerine sahip
+olmuştur. Fiber martenzit morfolojisine sahip
+numuneler bütün deney parametrelerinde en yüksek
+sertlik değerleri göstermiştir.
+
+361
+
+M. Türkmen ve S. Gündüz
+
+Çift Fazlı Çeliklerde Martenzit Morfolojisinin Statik Deformasyon Yaşlanma…
+
+6. Yaşlandırma işlemi uygulanan ve uygulanmayan
+ağ, fiber ve kütlesel martenzit morfolojisine sahip
+numunelerin kırık yüzeyleri petekli yapı ve ayrılma
+düzlemlerinden meydana gelmiştir. Bu durum bütün
+numunelerin kısmen sünek kısmende gevrek bir
+davranış sergilediğini göstermektedir. Fakat fiber
+martenzit morfolojisine sahip numunelerde ayrılma
+düzlemleri en düşük oranda iken petekli yapıdan
+oluşan bölgelerin ise en yüksek oranda olduğu
+görülmüştür.
+
+13.
+
+14.
+
+5. KAYNAKLAR (REFERENCES)
+
+15.
+
+1.
+
+16.
+
+Akay K. S., Otomotiv Endüstrisinde
+Kullanılan Çift Fazlı Çeliklerin Fiziksel
+Özelliklerinin Araştırılması, Doktora Tezi,
+Uludağ Üniversitesi, Fen Bilimleri Enstitüsü,
+2005.
+2. Dehghani K. ve Jonas J.J., “Dynamic Bake
+Hardening of IF Steels”, Metallurgical and
+Materials Trans., 31A., 1375-1384, 2000.
+3. Properties and Selection: Irons, Steels and HighPerformance Alloys, ASM Metals Handbook,
+10th Edition, Vol. 1, 1996.
+4. Kadkhodapour J., Butz A. ve Ziaei Rad S.,
+“Mechanisms of void formation during tensile
+testing in a commercial, dual-phase steel, Acta
+Materialia, 2575–2588 (59), 2011.
+5. Rashid, M. S., “A Unique High-Strength Sheet
+Steel with Superior Formability”, SAE Technical
+Paper 760206, Design Engineering and Styling,
+938-949, 1976.
+6. Coldren, A.P. ve Tither, G., “Development of a
+Mn-Si-Cr-Mo as-rolled Dual Phase Steel”
+Journal of Metals, vol.30, pp.6-9, 1978.
+7. Erdogan. M, ''The effect of austenite dispersion
+on phase transformation in dual phase steels'',
+Scripta Materialia, 501-506 (48), 2003.
+8. Davies RG. The mechanical properties of zerocarbon
+ferrite-plus-martensite
+structures,
+Metallurgical Transactions A; 9A: 451-455,
+1978.
+9. Dzupon M., Parilak L., Kollarova M. ve Sınaıova
+I., “Dual phase ferrite-martensitic steel micro
+alloyed with V-Nb”, Metalurgija, 46, 15-20,
+2007.
+10. Mustafa Türkmen ve Süleyman Gündüz,
+"Martensite morphology and strain aging
+behaviours in intercritically treated low carbon
+steel ", Ironmaking & Steelmaking, Volume 38,
+Number 5, 346-352, 2011.
+11. Gündüz S., “Static strain ageing behaviour of
+dual phase steels”, Materials Science and
+Engineering A, 486/1-2: 63-71, 2008.
+12. Turkoglu S., Kayalı E. S. ve Çimenoğlu H.
+“Çelik
+Saclarda
+Deformasyon
+Yaşlanma
+
+362
+
+17.
+18.
+
+19.
+20.
+
+21.
+
+22.
+23.
+
+24.
+25.
+26.
+
+27.
+
+Davranışının İncelenmesi”, IV. Demir-Çelik
+Sempozyumu, Karabük, 1-3 Kasım 2007.
+De A.K., De Blauwe K., Vandeputte S. ve De
+Cooman B.C.,. “Effect of Dislocation Density on
+the Low Temperature Aging Behavior of an Ultra
+Low Carbon Bake Hardening”, Journal of
+Alloys and Compounds, 310, 405-410, 2000.
+Andrews, K.W., “Empirical Formulae for the
+Calculation
+of
+Some
+Transformation
+Temperatures J. Iron Steel Inst., 203, 721-726,
+1965.
+TSE, Metalik malzemeler için çekme deneyleri,
+TS EN ISO 6892 Ocak/2010.
+Das D. ve Chattopadhyay P.P.,, “Influence of
+Martensite Morphology on the Work-hardening
+Behaviour of Highstrength Ferrite-martensite
+Dual-Phase steel”, J Mater Sci., 44, 2957-2965,
+2009.
+Speich, G.R. ve Miller, R.L., “Mechanical
+Properties of Ferrite-Martensite Steels”, AIME,
+New Orleans, 145-182, 19-21 Şubat 1979.
+Gündüz S., Demir B. ve Kaçar R., “Effect of
+Aging Temperature and Martensite by Volume
+on Strain Aging Behaviour of Dual Phase Steel”,
+Ironmaking and Steel Making, Vol 35, 63-68,
+2008.
+Speich GR., “Physical metallurgy of dual-phase
+steels”, AIME, Warrendale, 3-45,1981.
+Rocha R.O., Melo T.M.F., Pereloma E.V. ve
+Santos D.B. “Microstructural Evolution at the
+Initial Stages of Continuous Annealing of Cold
+Rolled Dual-phase Steel”. Materials Science
+and Engineering A, 391, 296-304, 2005.
+Mohan R. ve Marshall C., “Cracking Instabilities
+in a Low-carbon Steel Susceptible to Dynamic
+Strain Aging” Acta Mater., Vol.46, 1933-1948,
+1998.
+Davies R.G., “The Deformation Behavior of a
+Vanadium-strengthened Dual Phase Steel”,
+Metal. Trans. A, 9A, 41-52, 1978.
+Bayram A., Uğuz A. ve Ula M., “Effects of
+Microstructure and Notches on the Mechanical
+Properties of Dual-Phase Steels”, Mater.
+Charact., 43, 259-269, 1999.
+Koo J.Y. ve Thomas G., “Formable HSLA and
+Dual Phase Steels”, TMS-AIME, Chicago,
+Illinois, 40-58, 1977.
+Ekrami A., “High Temperature Mechanical
+Properties of Dual Phase Steels”, Materials
+Letters, 59, 2070-2074, 2005.
+Abdalla A.J., Hein L.R.O., Pereira M.S. ve
+Hashimoto T.M., “Mechanical Behaviour of
+Strain Aged Dual Phase Steels”, Mater. Sci.
+Technol., Vol.15, 1167-1170, 1999.
+Besterci, M., Sulleıovu, K. ve Kvackaj, T.,
+“Fracture
+Micromechanisms
+of
+Copper
+Nanomaterials Prepared by ECAP”, Kovove
+Mater., 46, 309-311, 2008.
+
+Gazi Üniv. Müh. Mim. Fak. Der. Cilt 28, No 2, 2013
+
+
